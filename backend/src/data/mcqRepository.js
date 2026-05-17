@@ -1,0 +1,22707 @@
+module.exports = {
+  "s-2-8": {
+  "t-s-2-8-1": [
+    {
+      "question": "A plant cell differs from an animal cell by the presence of:",
+      "options": [
+        "Plastids",
+        "Mitochondria",
+        "Golgi complex",
+        "Lysosomes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Plastids'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Peroxisomes are found in the cytoplasm:",
+      "options": [
+        "Eukaryotes",
+        "Bacteria",
+        "Cyanobacteria",
+        "Viruses"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Eukaryotes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Function of granular endoplasmic reticulum:",
+      "options": [
+        "Protein synthesis",
+        "Lysosome formation",
+        "ATP synthesis",
+        "Breakdown of organic matter"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Protein synthesis'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The inclusions of a plant cell are:",
+      "options": [
+        "Starch grains",
+        "Vacuoles",
+        "Ribosomes",
+        "Plastids"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Starch grains'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What cytoplasmic organelles provide the phagocytic function of neutrophils?",
+      "options": [
+        "Lysosomes",
+        "Vacuoles",
+        "Ribosomes",
+        "Mitochondria"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Lysosomes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Photosynthesis in a plant cell occurs:",
+      "options": [
+        "Chloroplast",
+        "Chromatin",
+        "Chlorophyll",
+        "Chromoplastome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Chloroplast'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The following organelles have a single-membrane structure:",
+      "options": [
+        "Lysosomes",
+        "Mitochondria",
+        "Cell center",
+        "Ribosomes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Lysosomes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Non-cellular life forms include:",
+      "options": [
+        "Viruses",
+        "Mushrooms",
+        "Bacteria",
+        "Cyanobacteria"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Viruses'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Name the organelle that takes part in the formation of the acrosome:",
+      "options": [
+        "Golgi complex",
+        "Mitochondria",
+        "Peroxisome",
+        "Ribosome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Golgi complex'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Primary lysosomes are formed with the participation of?",
+      "options": [
+        "Golgi complex",
+        "Granular EPS",
+        "Agranular EPS",
+        "Peroxisome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Golgi complex'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Does it belong to the optical system of the microscope?",
+      "options": [
+        "Lens",
+        "Tube",
+        "Mirror",
+        "Revolver"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Lens'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Are peroxisomes contained in the cytoplasm?",
+      "options": [
+        "Eukaryotes",
+        "Bacteriophages",
+        "Bacteria",
+        "Cyanobacteria"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Eukaryotes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "It is known that mitochondria are capable of self-renewal. What makes this process possible?",
+      "options": [
+        "DNA",
+        "Ribosome",
+        "Double membrane",
+        "Krist"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'DNA'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "They do not have a membrane structure:",
+      "options": [
+        "Cell center",
+        "Mitochondria",
+        "Endoplasmic reticulum",
+        "Lysosomes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Cell center'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The liquid structure of membranes is formed:",
+      "options": [
+        "Lipids",
+        "Proteins",
+        "Enzymes",
+        "Glucose"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Lipids'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Using an electron microscope you can study:",
+      "options": [
+        "Ultramicroscopic cell structure",
+        "DNA structure",
+        "Biochemical processes in the cell",
+        "Biosynthetic processes in the cell"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Ultramicroscopic cell structure'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Which cell organelle takes part in the formation of the spindle during mitosis?",
+      "options": [
+        "Cell center",
+        "Core",
+        "Endoplasmic reticulum",
+        "Ribosomes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Cell center'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Single membrane organelles:",
+      "options": [
+        "Endoplasmic reticulum",
+        "Microtubules",
+        "Microfibrils",
+        "Centrioles"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Endoplasmic reticulum'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The manifestation of irritability in living organisms is:",
+      "options": [
+        "Phototaxis",
+        "Height",
+        "Self-updating",
+        "Metabolism"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Phototaxis'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Cellular organisms that have a typical formed nucleus are:",
+      "options": [
+        "Eukaryotes",
+        "Prokaryotes",
+        "Cellular",
+        "Microorganisms"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Eukaryotes'. This choice aligns with the established clinical curriculum."
+    }
+  ],
+  "t-s-2-8-2": [
+    {
+      "question": "Characteristic features of viruses:",
+      "options": [
+        "They do not have a cellular structure - non-cellular life forms. Genetic the material is represented by a DNA or RNA molecule",
+        "They are cellular organisms",
+        "Among them there are both parasitic forms and saprophytes.",
+        "The genetic material is represented only by the DNA molecule (circular chromosome)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'They do not have a cellular structure - non-cellular life forms. Genetic the material is represented by a DNA or RNA molecule'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Find the structural features of prokaryotes:",
+      "options": [
+        "They do not have a typical nucleus, the chromosome (genophore) is ring-shaped",
+        "Cellular organelles are well defined",
+        "Rod-shaped chromosomes, i.e. not circular",
+        "Among them there are both unicellular and multicellular forms"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'They do not have a typical nucleus, the chromosome (genophore) is ring-shaped'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Find the structural features of eukaryotes:",
+      "options": [
+        "The nucleus is formed and consists of: nuclear membrane, karyoplasm, nucleolus and chromatin (chromosomes), cellular organelles are well defined",
+        "The chromosome (genophore) has a ring shape",
+        "There are mesosomes that perform the functions of mitochondria and plastids",
+        "Of the organelles, only ribosomes are present"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'The nucleus is formed and consists of: nuclear membrane, karyoplasm, nucleolus and chromatin (chromosomes), cellular organelles are well defined'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What are the characteristic features of lysosomes?",
+      "options": [
+        "There are three groups of these organelles: primary, secondary and cytolysomes (autophagosomes or cytolysosomes)",
+        "Lysosomes break down only those substances that enter the cell",
+        "Lysosomes are structures visible even to the naked eye",
+        "Always located near the cell nucleus"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'There are three groups of these organelles: primary, secondary and cytolysomes (autophagosomes or cytolysosomes)'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What are the characteristic features of the Golgi apparatus?",
+      "options": [
+        "The main function is concentration, dehydration and compaction of intracellular secretion products",
+        "It consists of a system of tubes, a shell, which is three-layered, about 5 nm thick",
+        "The Krebs cycle occurs in the membranes of the Golgi complex.",
+        "Participates in mitotic cell division"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'The main function is concentration, dehydration and compaction of intracellular secretion products'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Cell organelles of general importance:",
+      "options": [
+        "Mitochondria. Ribosome. Golgi complex",
+        "Neurofibrils. Myofibrils. Ribosome",
+        "Tonofibrils. Cilia Golgi complex",
+        "Cilia. Flagella. Mitochondria"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Mitochondria. Ribosome. Golgi complex'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Specify cell organelles of special significance:",
+      "options": [
+        "Neurofibrils. Myofibrils. Tonofibrils",
+        "Cilia. Flagella. Mitochondria",
+        "Golgi complex. Lysosome. Centrosome",
+        "Flagella. Mitochondria. Ribosome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Neurofibrils. Myofibrils. Tonofibrils'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Indicate the correct levels of organization of living things?",
+      "options": [
+        "Organismal",
+        "Atmospheric",
+        "Soil",
+        "Real"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Organismal'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Identify the mechanical part of a microscope?",
+      "options": [
+        "Screws (macro, micro)",
+        "Condenser",
+        "Diaphragm",
+        "Mirror"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Screws (macro, micro)'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Identify the components of the nucleus of a eukaryotic cell?",
+      "options": [
+        "Nuclear envelope. Nuclear juice (karyolymph). Nucleoli (one or two). Chromosomes",
+        "Nucleoli (one or two). Chromosomes. DNA or RNA",
+        "Chromosomes. DNA or RNA. Nucleoid. Genophore",
+        "Nuclear envelope. Nuclear juice (karyolymph). Nucleoid. Microtubules"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Nuclear envelope. Nuclear juice (karyolymph). Nucleoli (one or two). Chromosomes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Single membrane organelles:",
+      "options": [
+        "Endoplasmic reticulum",
+        "Microtubules",
+        "Microfibrils",
+        "Centrioles"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Endoplasmic reticulum'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Identify the substances contained in the mitochondrial matrix:",
+      "options": [
+        "DNA and RNA. Enzymes that ensure protein biosynthesis . Ribosomes",
+        "Enzymes involved in the processes of transcription and translation. Enzymes providing chemosynthesis",
+        "Microfibrils. Microtubules",
+        "Microtubules. A system of enzymes that ensures the process of photosynthesis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'DNA and RNA. Enzymes that ensure protein biosynthesis . Ribosomes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Determine what functions the endoplasmic reticulum performs?",
+      "options": [
+        "Performs a transport function, linking cell structures into a single whole",
+        "Carries out the process of glycolysis",
+        "Primary and secondary lysosomes are formed",
+        "Breaks down foreign substances that have entered cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Performs a transport function, linking cell structures into a single whole'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Characteristic features of the nuclear membrane:",
+      "options": [
+        "There is a perinuclear space between the membranes",
+        "Formed by a three-layer membrane",
+        "The membrane is made up of proteins and lipids",
+        "Pores are formed by nuclear complexes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'There is a perinuclear space between the membranes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Indicate the representatives of prokaryotes:",
+      "options": [
+        "Bacteria. Blue-green algae",
+        "Bacteriophages. Viruses",
+        "Unicellular algae",
+        "Multicellular algae"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Bacteria. Blue-green algae'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The agranular endoplasmic reticulum performs the function:",
+      "options": [
+        "Lipid synthesis",
+        "Lysosome formation",
+        "ATP synthesis",
+        "Support"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Lipid synthesis'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "A decrease in the level of albumin and fibrinogen was detected in the patient's blood. A decrease in the activity of which liver cell organelles causes this phenomenon?",
+      "options": [
+        "Granular EPS",
+        "Agranular EPS",
+        "Mitochondria",
+        "Golgi complex"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Granular EPS'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What is the name for the protrusion of the cell membrane into the cytoplasm of prokaryotic cells, on which ATP is synthesized?",
+      "options": [
+        "Mesosomes",
+        "Lysosomes",
+        "Mitochondria",
+        "Desmosomes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Mesosomes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The cell contains single-membrane spherical organelles 0.2 - 1 µm in size, containing proteolytic enzymes. Their formation is associated with the Golgi apparatus. What are these organelles?",
+      "options": [
+        "Lysosome",
+        "Mitochondria",
+        "Plastids",
+        "Ribosomes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Lysosome'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "In a human cell, the ribosomes, which are located on the membranes of the granular endoplasmic reticulum, receive immature mRNA containing both exonic and intronic regions. This structure of mRNA is due to the absence of:",
+      "options": [
+        "Processing",
+        "Elongation",
+        "Transcriptions",
+        "Replications"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Processing'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "In eukaryotes:",
+      "options": [
+        "There is a core",
+        "No core",
+        "No vacuoles",
+        "Simple cell division, no mitosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'There is a core'. This choice aligns with the established clinical curriculum."
+    }
+  ],
+  "t-s-2-8-3": [
+    {
+      "question": "What function does not belong to the glycocalyx?",
+      "options": [
+        "Synthesis of ATP and proteins",
+        "Intercellular interaction",
+        "Parietal digestion",
+        "Intercellular contacts"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Synthesis of ATP and proteins'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What are primary chromosome constrictions?",
+      "options": [
+        "Centromeres",
+        "Telomeres",
+        "Nucleosomes",
+        "Shoulders"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Centromeres'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What ensures the transmission of hereditary information in viruses?",
+      "options": [
+        "DNA",
+        "Protein",
+        "Gistone",
+        "ATP"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'DNA'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What is the chemical composition of biological membranes?",
+      "options": [
+        "Lipids, proteins, carbohydrates",
+        "RNA, DNA, carbohydrates, water",
+        "DNA, proteins, carbohydrates",
+        "DNA, RNA, histone proteins"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Lipids, proteins, carbohydrates'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What is the process of growing a polypeptide chain during transcription called?",
+      "options": [
+        "Splicing",
+        "Initiation",
+        "Processing",
+        "Elongation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Splicing'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Is this a genephore?",
+      "options": [
+        "DNA strand",
+        "ATP chain",
+        "Membrane",
+        "Histone protein"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'DNA strand'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "A section of DNA that contains information about the synthesis of one protein is called?",
+      "options": [
+        "Codon",
+        "Recon",
+        "Cistron",
+        "Genome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Codon'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The smallest section of the cistron, a change in which can lead to a mutation, is called:",
+      "options": [
+        "Recon",
+        "Codon",
+        "Mouton",
+        "Cistron"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Recon'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The smallest section of a cistron that does not divide by recombination is called?",
+      "options": [
+        "Recon",
+        "Mouton",
+        "Codon",
+        "Cistron"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Recon'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Non-informative sections of structural genes that do not encode an amino acid are:",
+      "options": [
+        "Recons",
+        "Exons",
+        "Moutons",
+        "Introns"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Recons'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Regulatory genes?",
+      "options": [
+        "Control and regulate the process of protein biosynthesis",
+        "Have a regulatory or enhancing effect on structural genes",
+        "Carry information about the structure of certain polypeptides",
+        "Contain a large number of repeating nucleotide groups"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Control and regulate the process of protein biosynthesis'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The specificity of the genetic code is manifested in the fact that:",
+      "options": [
+        "Each individual codon triplet codes for only one specific amino acid",
+        "The genetic code is unique for all organisms",
+        "No nitrogenous base from one codon is ever included in another",
+        "An amino acid can be encoded by more than one triplet of nucleotides"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Each individual codon triplet codes for only one specific amino acid'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What is the formation of an RNA molecule on a DNA template?",
+      "options": [
+        "Transcription",
+        "Replication",
+        "Broadcast",
+        "Transduction"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Transcription'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Indicate what substances are included in one nucleotide?",
+      "options": [
+        "Nitrogenous base, pentose, phosphate acid residue",
+        "Nitrogenous base, amino acid, phosphate acid residue",
+        "Nitrogen base, hexose, phosphate acid residue",
+        "Amino group, pentose, phosphate acid residue"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Nitrogenous base, pentose, phosphate acid residue'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "How many ATP molecules are formed at the first stage of energy metabolism:",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "36"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '2'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What is the duplication of DNA involving the enzyme DNA polymerase called?",
+      "options": [
+        "Replication",
+        "Transcription",
+        "Broadcast",
+        "Processing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Replication'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Genetic code -",
+      "options": [
+        "A unified system for recording genetic information in a DNA molecule in the form of a sequential arrangement of nucleotides in an m-RNA molecule",
+        "A triplet defining the location of one amino acid in a synthesized protein",
+        "A triplet in a tRNA molecule that determines the location of one amino acid in the protein being synthesized",
+        "A triplet in an rRNA molecule that determines the location of one amino acid in the synthesized protein"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'A unified system for recording genetic information in a DNA molecule in the form of a sequential arrangement of nucleotides in an m-RNA molecule'. This choice aligns with the established clinical curriculum."
+    }
+  ],
+  "t-s-2-8-4": [
+    {
+      "question": "Near the poles of the cell there is a haploid set of single-chromatid chromosomes in:",
+      "options": [
+        "Telophase of the second meiotic division",
+        "Metaphase of the second meiotic division",
+        "Metaphase of the first meiotic division",
+        "Prophase of the second meiotic division"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Telophase of the second meiotic division'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Near the cell poles there is a haploid set of bichromatid chromosomes in:",
+      "options": [
+        "Telophase of the first meiotic division",
+        "Metaphase of the second meiotic division",
+        "Telophase of the second meiotic division",
+        "Prophase of the first meiotic division"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Telophase of the first meiotic division'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The haploid set of chromosomes contains:",
+      "options": [
+        "A mature germ cell that is formed as a result of the normal course of meiosis",
+        "Spermatogonia",
+        "Ovogonium",
+        "Any immature sex cell"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'A mature germ cell that is formed as a result of the normal course of meiosis'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Crossing over is:",
+      "options": [
+        "Exchange of homologous regions of chromosomes",
+        "Exchange of non-homologous regions between different pairs of chromosomes",
+        "Fusion of germ cells",
+        "The mechanism by which daughter cells receive the same genetic material from the mother"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Exchange of homologous regions of chromosomes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Find the features characteristic of mitosis:",
+      "options": [
+        "Daughter cells contain the exact same set of chromosomes as the mother - diploid",
+        "Between two cell divisions there is a short interphase, but DNA synthesis does not occur in it, which is why it is called interkinesis",
+        "As a result of division in daughter cells, the set of chromosomes is not diploid but haploid",
+        "Maintains species constancy of the number of chromosomes during sexual reproduction"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Daughter cells contain the exact same set of chromosomes as the mother - diploid'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Biological significance of mitosis:",
+      "options": [
+        "From one mother cell two daughter cells are formed, genetically identical to the mother one",
+        "From one mother cell two daughter cells with a haploid set of chromosomes are formed",
+        "From one mother cell two daughter cells with a triploid set of chromosomes are formed",
+        "From one mother cell two daughter cells are formed with a different set of chromosomes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'From one mother cell two daughter cells are formed, genetically identical to the mother one'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Biological significance of meiosis?",
+      "options": [
+        "From one mother cell, 4 daughter cells with a haploid set of chromosomes are formed",
+        "From one mother cell two daughter cells with a tetraploid set of chromosomes are formed",
+        "From one mother cell two daughter cells with a double set of chromosomes are formed",
+        "From one mother cell, 4 daughter cells with a triploid set of chromosomes are formed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'From one mother cell, 4 daughter cells with a haploid set of chromosomes are formed'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "At what stage of meiosis, prophase I , does crossing over occur?",
+      "options": [
+        "Pachinema",
+        "Zygonema",
+        "Leptonema",
+        "Diplonema"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Pachinema'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Meiosis precedes the formation of:",
+      "options": [
+        "Mature germ cells",
+        "Red blood cells",
+        "Corneal cells of the eye",
+        "Nerve cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Mature germ cells'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The exchange of homologous regions of chromosomes is:",
+      "options": [
+        "Crossing over",
+        "Conjugation",
+        "Bivalent",
+        "Replication"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Crossing over'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Crossing over occurs during:",
+      "options": [
+        "Pachynemas",
+        "Diakinesis",
+        "Diplonemes",
+        "Zygonema"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Pachynemas'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The very first phase of mitosis (karyokinesis) is:",
+      "options": [
+        "Prophase",
+        "Interphase",
+        "Telophase",
+        "Anaphase"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Prophase'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Chromosomes line up along the equatorial plane of the cell during:",
+      "options": [
+        "Metaphase of mitosis",
+        "Telophase of mitosis",
+        "Anaphase of mitosis",
+        "Prophase of mitosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Metaphase of mitosis'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Chromosome spiralization begins in:",
+      "options": [
+        "Prophase of mitosis",
+        "Telophase of mitosis",
+        "Anaphase of mitosis",
+        "Metaphase of mitosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Prophase of mitosis'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The chromatids of the chromosomes separate and move to different poles of the cell in:",
+      "options": [
+        "Anaphase of mitosis",
+        "Telophase of mitosis",
+        "Metaphase of mitosis",
+        "Prophase of mitosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Anaphase of mitosis'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Meiosis is:",
+      "options": [
+        "Reductive division of the cell nucleus (reduction in the number of chromosomes) and the formation of cells with a haploid set of chromosomes",
+        "Cytokinesis",
+        "Indirect division of the cell nucleus, resulting in the formation of genetically identical cells",
+        "Direct division of the cell nucleus"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Reductive division of the cell nucleus (reduction in the number of chromosomes) and the formation of cells with a haploid set of chromosomes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Chromosome conjugation occurs in:",
+      "options": [
+        "Prophase of the first meiotic division",
+        "Anaphase of the second meiotic division",
+        "Anaphase of the first meiotic division",
+        "Metaphase of the second meiotic division"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Prophase of the first meiotic division'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "During cell division, the nuclear membrane is formed in:",
+      "options": [
+        "Telophase of mitosis",
+        "Anaphase of mitosis",
+        "Metaphase of mitosis",
+        "Prophase of mitosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Telophase of mitosis'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "During cell division, the nuclear membrane dissolves into:",
+      "options": [
+        "Prophase of mitosis",
+        "Telophase of mitosis",
+        "Anaphase of mitosis",
+        "Metaphase of mitosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Prophase of mitosis'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Chromosomes are best seen under a light microscope at:",
+      "options": [
+        "Metaphase of mitosis",
+        "Telophase of mitosis",
+        "Anaphase of mitosis",
+        "Prophase of mitosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Metaphase of mitosis'. This choice aligns with the established clinical curriculum."
+    }
+  ],
+  "t-s-2-8-5": [
+    {
+      "question": "Gene is:",
+      "options": [
+        "A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded",
+        "A section of an RNA molecule in which information about the primary structure of  polypeptide is encoded",
+        "A section of an RNA molecule in which information about the secondary structure of a polypeptide is encoded",
+        "A section of a DNA molecule in which information about the secondary structure of a polypeptide is encoded"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "In what ratio is splitting observed for different types of gene interactions?",
+      "options": [
+        "With polymer 15:1 or 1:4:6:4:1",
+        "With dominant epistasis 9:3:4 or 12:3:1",
+        "With recessive epistasis 13:3",
+        "With complementary interaction 15:1 or 9:6:1"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'With polymer 15:1 or 1:4:6:4:1'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The property of organisms to transmit their characteristics and developmental characteristics to their offspring - is this?",
+      "options": [
+        "Heredity",
+        "Variability",
+        "Karyotyping",
+        "Crossbreeding"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Heredity'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Penetrance is:",
+      "options": [
+        "Gene penetration frequency",
+        "Degree of gene penetration",
+        "Manifestation of the gene in a heterozygous state",
+        "The influence of one gene on the manifestation of several traits"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Gene penetration frequency'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "An analysis cross is a cross in which an individual whose genotype is unknown but needs to be determined (AA or A A ) is crossed with:",
+      "options": [
+        "Recessive homozygote (aa)",
+        "Dominant homozygote (A A )",
+        "Heterozygous (A a )",
+        "Zygote"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Recessive homozygote (aa)'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "In polymerization, the splitting of the trait when crossing two diheterozygotes will be:",
+      "options": [
+        "15:1, 1:4:6:4:1",
+        "9:4:3, 12:3:1, 13:3",
+        "9:4:3, 1:4:6:4:1, 13:3",
+        "9:3:4, 9:7, 15:1"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '15:1, 1:4:6:4:1'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "With complementary interaction of genes, the splitting of the trait when crossing two diheterozygotes will be in the ratio:",
+      "options": [
+        "9:3:3:1, 9:6:1, 9:3:4, 9:7",
+        "9:4:3, 12:3:1, 13:3",
+        "15:1, 1:4:6:4:1",
+        "9:4:3, 1:4:6:4:1, 13:3"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '9:3:3:1, 9:6:1, 9:3:4, 9:7'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Is this complementarity?",
+      "options": [
+        "When two or more genes interact, new traits are formed",
+        "Interaction of non-allelic genes, in which one gene suppresses the action of  nother, non-allelic gene",
+        "One of the forms of interaction of non-allelic genes, in which the development of a certain trait is predetermined by the influence of several genes",
+        "The ability of one gene to control several traits (multiple gene action)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'When two or more genes interact, new traits are formed'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Allelic genes are genes located in:",
+      "options": [
+        "The same loci of homologous chromosomes",
+        "Same loci of non-homologous chromosomes",
+        "Different loci of homologous chromosomes",
+        "One chromosome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'The same loci of homologous chromosomes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Polygenic traits include:",
+      "options": [
+        "Body weight. Finger length",
+        "Microcephaly",
+        "Blood clotting",
+        "Polydactyly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Body weight. Finger length'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Mendel's first law reveals patterns:",
+      "options": [
+        "First generation law of uniformity",
+        "Incomplete dominance",
+        "Law of splitting",
+        "Independent combination of features"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'First generation law of uniformity'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "In which blood group is agglutinogen A and B found?",
+      "options": [
+        "IV",
+        "I",
+        "II",
+        "III"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'IV'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Where are non-allelic genes located?",
+      "options": [
+        "At different loci on the chromosome",
+        "Different pairs of chromosomes",
+        "Only on sex chromosomes",
+        "Only in autosomes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'At different loci on the chromosome'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "In humans, a polygenic trait is:",
+      "options": [
+        "Height",
+        "Hair color",
+        "Blood type",
+        "Brachydactyly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Height'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "A cross in which the parent organisms differ in three pairs of characteristics is:",
+      "options": [
+        "Trihybrid",
+        "Dihybrid",
+        "Polyhybrid",
+        "Tetrahybrid"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Trihybrid'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What is a phenotype?",
+      "options": [
+        "A system of external and internal signs and properties of an organism that are formed during its individual development",
+        "Gene system of a particular organism",
+        "Traits caused by genes located only on autosomes",
+        "Haploid set of chromosomes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'A system of external and internal signs and properties of an organism that are formed during its individual development'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "How many types of gametes does an individual with genotype AAbbCC produce?",
+      "options": [
+        "1",
+        "8",
+        "6",
+        "3"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '1'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The intensity of skin pigmentation in humans is controlled by several non-allelic dominant genes. It has been established that with an increase in the number of these genes, pigmentation becomes more intense. What is the type of interaction between these genes called?",
+      "options": [
+        "Polymerism",
+        "Codominance",
+        "Pleiotropy",
+        "Epistasis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Polymerism'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The ability of organisms to acquire new characteristics or lose previous ones during development is:",
+      "options": [
+        "Variability",
+        "Heredity",
+        "Inheritance",
+        "Genotype"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Variability'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The ability of organisms to transmit their characteristics and developmental characteristics to their offspring is:",
+      "options": [
+        "Heredity",
+        "Variability",
+        "Inheritance",
+        "Genotype"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Heredity'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "G. Mendel developed a method for studying heredity:",
+      "options": [
+        "Hybridological",
+        "Twin",
+        "Cytological",
+        "Biological"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Hybridological'. This choice aligns with the established clinical curriculum."
+    }
+  ],
+  "t-s-2-8-6": [
+    {
+      "question": "A cross in which the parent organisms differ in four pairs of characters is:",
+      "options": [
+        "Tetrahybrid",
+        "Dihybrid",
+        "Polyhybrid",
+        "Trihybrid"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Tetrahybrid'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "An example of codominance is:",
+      "options": [
+        "Inheritance of blood groups ( group IV )",
+        "Inheritance of polydactyly",
+        "Height inheritance",
+        "Inheritance of deafness"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Inheritance of blood groups ( group IV )'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "An example of complementarity is:",
+      "options": [
+        "Inheritance of deafness",
+        "Inheritance of blood groups",
+        "Inheritance of phenylketonuria",
+        "Inheritance of polydactyly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Inheritance of deafness'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "An example of phenocopy would be:",
+      "options": [
+        "The birth of a deaf child with a normal genotype to a healthy woman who had rubella during pregnancy",
+        "Colorblindness in a child whose parents are colorblind",
+        "Hypertension in an adult man who has healthy parents",
+        "Albinism in a child whose mother is an albino and whose father has normal skin pigmentation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'The birth of a deaf child with a normal genotype to a healthy woman who had rubella during pregnancy'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Rhesus conflict occurs when:",
+      "options": [
+        "Mother is Rh - and child is Rh +",
+        "Mother is Rh +, and child is Rh +",
+        "The mother is Rh - and the child is Rh -",
+        "Mother is Rh + and child is Rh -"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Mother is Rh - and child is Rh +'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The totality of all the genes of an organism is:",
+      "options": [
+        "Genotype",
+        "Heredity",
+        "Changeability",
+        "Inheritance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Genotype'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The totality of all external and internal signs of the body is:",
+      "options": [
+        "Phenotype",
+        "Heredity",
+        "Genotype",
+        "Changeability"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Phenotype'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The set of genes of the haploid set of chromosomes is:",
+      "options": [
+        "Genome",
+        "Gene",
+        "Genotype",
+        "Gene pool"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Genome'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The set of genes in a population, which is characterized by a certain frequency, is:",
+      "options": [
+        "Gene pool",
+        "Genome",
+        "Gene",
+        "Genotype"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Gene pool'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "A cross in which the parent organisms differ in one pair of characteristics is:",
+      "options": [
+        "Monohybrid",
+        "Dihybrid",
+        "Polyhybrid",
+        "Trihybrid"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Monohybrid'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "A cross in which the parent organisms differ in two pairs of characteristics is:",
+      "options": [
+        "Dihybrid",
+        "Monohybrid",
+        "Polyhybrid",
+        "Trihybrid"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Dihybrid'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "A cross in which the parent organisms differ in many pairs of characters is:",
+      "options": [
+        "Polyhybrid",
+        "Dihybrid",
+        "Monohybrid",
+        "Tetrahybrid"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Polyhybrid'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Mendel's third law reveals patterns:",
+      "options": [
+        "Independent combination of features",
+        "Analyzing crossing",
+        "Sex-linked inheritance",
+        "Intermediate inheritance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Independent combination of features'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What is the name of the allele that is not phenotypically manifested in the heterozygous state?",
+      "options": [
+        "Recessive",
+        "Dominant",
+        "Heterozygous",
+        "Homozygote dominant"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Recessive'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What is the name of the allele that is phenotypically manifested in the heterozygous state?",
+      "options": [
+        "Dominant",
+        "Recessive",
+        "Heterozygous",
+        "Homozygote recessive"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Dominant'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Which genotype can be accurately determined by phenotype without special research?",
+      "options": [
+        "Recessive homozygote genotype (aa)",
+        "Genotype of dominant homozygote (AA)",
+        "Heterozygote genotype (Aa)",
+        "Genotype of any individual"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Recessive homozygote genotype (aa)'. This choice aligns with the established clinical curriculum."
+    }
+  ],
+  "t-s-2-8-7": [
+    {
+      "question": "Genes localized on one chromosome:",
+      "options": [
+        "Form a gene linkage group",
+        "Called unlinked",
+        "Inherited independently of each other",
+        "Give different combinations"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Form a gene linkage group'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Indicate the main provisions of the chromosomal theory of heredity?",
+      "options": [
+        "The frequency of crossing over between chromosomes is directly proportional to the distance between genes",
+        "Crossing over can occur between non-homologous chromosomes",
+        "The number of linkage groups is equal to the diploid set of chromosomes",
+        "Crossing over is not observed in male mammals"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'The frequency of crossing over between chromosomes is directly proportional to the distance between genes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Linkage between genes can be:",
+      "options": [
+        "Full or incomplete",
+        "Incomplete, not providing discrepancies",
+        "Full, but crossing over",
+        "Complete, there is a discrepancy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Full or incomplete'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Hemophilia is a disease that has:",
+      "options": [
+        "X -linked recessive inheritance",
+        "Autosomal recessive mode of inheritance",
+        "Autosomal dominant type of inheritance",
+        "Y -linked inheritance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'X -linked recessive inheritance'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Enamel hypoplasia is inherited as a sex-linked dominant trait. In a family where both parents suffer from this anomaly, a son was born with normal teeth. What is the probability that the next child will also have healthy teeth?",
+      "options": [
+        "50% boys",
+        "50% girls",
+        "50% of all children",
+        "all children"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '50% boys'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The holandric trait is:",
+      "options": [
+        "Hypertrichosis",
+        "Blonde hair",
+        "Hemophilia",
+        "Polydactyly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Hypertrichosis'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Hypertrichosis (hair growth along the edge of the ear) is inherited as a trait linked to the Y chromosome. What is the probability of having a child with this anomaly in a family where the father suffers from hypertrichosis?",
+      "options": [
+        "100% boys",
+        "50% boys",
+        "50% girls",
+        "All children"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '100% boys'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Gender-dependent signs:",
+      "options": [
+        "Traits determined by autosomal genes in men and women, but these traits appear more often in one sex than the other",
+        "Traits determined by autosomal genes in women",
+        "Traits are determined by genes that are located on the X and Y chromosomes",
+        "Polygenic traits"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Traits determined by autosomal genes in men and women, but these traits appear more often in one sex than the other'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "In what units is crossing over frequency measured?",
+      "options": [
+        "In percentages",
+        "In nanometers",
+        "In centimeters",
+        "In the Morganids"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'In percentages'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "If a disease (sign) is inherited through the male line from generation to generation from a father to all his sons, then this is a sign:",
+      "options": [
+        "Y -linked type of inheritance",
+        "X-linked recessive inheritance",
+        "X-linked dominant type of inheritance",
+        "Autosomal recessive type of inheritance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Y -linked type of inheritance'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "It is known that gene linkage is not absolute, since it is disrupted as a result of:",
+      "options": [
+        "Crossing over during meiosis",
+        "Pleiotropy",
+        "Non-allelic gene interactions",
+        "Independent chromosome segregation during meiosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Crossing over during meiosis'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Which of the following is a holandric trait?",
+      "options": [
+        "Hypertrichosis",
+        "Colorblindness",
+        "Polydactyly",
+        "Blonde hair"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Hypertrichosis'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What are the names of the characteristics predetermined by the genes that are located on the X and Y chromosomes?",
+      "options": [
+        "Glued to the floor",
+        "Dominant",
+        "holandric",
+        "Gender dependent"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Glued to the floor'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What is the number of gene linkage groups in the organisms of each biological species?",
+      "options": [
+        "Haploid set of chromosomes",
+        "Number of pairs of non-allelic genes",
+        "Number of sex chromosomes",
+        "Diploid set of chromosomes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Haploid set of chromosomes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Who established the linked inheritance of genes localized in one pair of homologous chromosomes?",
+      "options": [
+        "T. Morgan",
+        "H. Koran",
+        "G. de Vries",
+        "V. Johansen"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'T. Morgan'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Unit of distance between genes:",
+      "options": [
+        "Morganida",
+        "Centimeter",
+        "Nanometer",
+        "Angstrom"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Morganida'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The father is color blind, and the mother is heterozygous for a gene that predetermines normal color perception. With what genotypes should we expect offspring?",
+      "options": [
+        "XdXd",
+        "XDXD",
+        "XDXd",
+        "Dd"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'XdXd'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The father has hemophilia, and the mother is homozygous for a gene that determines normal blood clotting. With what genotypes should we expect offspring?",
+      "options": [
+        "XHXh",
+        "ХНХН",
+        "XhXh",
+        "XhY"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'XHXh'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Indicate a gender-linked human characteristic:",
+      "options": [
+        "Hemophilia",
+        "Polydactyly",
+        "Hair color",
+        "Color of the skin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Hemophilia'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Ichthyosis is observed in the family pedigree. This symptom occurs in all generations only in men. What type of inheritance of the trait?",
+      "options": [
+        "Linked to the Y chromosome",
+        "Dominant, linked to the X chromosome",
+        "Autosomal recessive",
+        "Recessive, linked to the X chromosome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Linked to the Y chromosome'. This choice aligns with the established clinical curriculum."
+    }
+  ],
+  "t-s-2-8-8": [
+    {
+      "question": "The reaction rate is determined by:",
+      "options": [
+        "Genotype and environment",
+        "Genotype only",
+        "External environment only",
+        "Internal environment of the body"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Genotype and environment'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "A woman suffered from viral rubella during pregnancy. As a result, a child born, despite a normal genotype, had developmental defects - cleft lip and palate. These developmental anomalies are a manifestation of :",
+      "options": [
+        "Modification variability",
+        "Combinative variability",
+        "Chromosomal mutation",
+        "Polyploidy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Modification variability'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Chromosome aberrations include:",
+      "options": [
+        "Translocation, duplication, deletion, inversion",
+        "Transformation, transduction, translocation",
+        "Transcription, translation, reduplication",
+        "Conjugation, lsyogeny, polytheny, copulation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Translocation, duplication, deletion, inversion'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What type of mutation is the development of Down syndrome?",
+      "options": [
+        "Tisomy 21 pairs",
+        "Trisomy 18 pair",
+        "Trisomy 13 pair",
+        "Monosomy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Tisomy 21 pairs'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "During embryonic development, the process of realizing genetic information can disrupt certain chemical compounds. In this case, the development of the body is disrupted, which leads to deformities. What is the name of this chemical compound?",
+      "options": [
+        "Teratogens",
+        "Fibrinogens",
+        "Antigens",
+        "Comutagens"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Teratogens'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Heteroploidy is",
+      "options": [
+        "Change in the number of chromosomes in a diploid set",
+        "Change in chromosome structure",
+        "Change in gene structure",
+        "Changes in the number and structure of chromosomes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Change in the number of chromosomes in a diploid set'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Mechanisms of gene mutation",
+      "options": [
+        "Changes in gene structure",
+        "Chromosome changes",
+        "Changes in the genome",
+        "Change in Phenotype"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Changes in gene structure'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Dominant mutations appear:",
+      "options": [
+        "In heterozygous and homozygous states",
+        "Only in homozygous state",
+        "Only in heterozygous state",
+        "In a dizygotic state"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'In heterozygous and homozygous states'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Mechanisms of somatic mutations:",
+      "options": [
+        "Changes in the chromosome structure of somatic cells",
+        "Changes in the chromosome structure of germ cells",
+        "Independent segregation of homologous chromosomes during meiosis",
+        "Random combination of gametes during fertilization"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Changes in the chromosome structure of somatic cells'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Hereditary variability is divided into:",
+      "options": [
+        "Combinative",
+        "Phenotypic",
+        "Modification",
+        "Spontaneous"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Combinative'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Spontaneous mutations occur:",
+      "options": [
+        "Under natural conditions without the influence of unusual agents",
+        "As a result of the influence of climate change on the body",
+        "As a result of the influence of viruses on the body",
+        "As a result of the influence of colchicine on the body"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Under natural conditions without the influence of unusual agents'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Hereditary variability is divided into:",
+      "options": [
+        "Mutational",
+        "Phenotypic",
+        "Modification",
+        "Spontaneous"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Mutational'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Spontaneous mutations are:",
+      "options": [
+        "Natural mutations",
+        "Artificial Mutations",
+        "Conditional mutations",
+        "Artificially induced mutations"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Natural mutations'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Tetraploidy (4n ) is an example:",
+      "options": [
+        "Polyploidy",
+        "Aneuploidy",
+        "Heteroploidy",
+        "Chromosomal aberration"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Polyploidy'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Triploidy (3n ) is an example:",
+      "options": [
+        "Polyploidy",
+        "Haploidy",
+        "Heteroploidy",
+        "Chromosomal aberration"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Polyploidy'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Conditionally lethal mutations are:",
+      "options": [
+        "Shows lethal effects under certain conditions",
+        "Reduce the vital activity of the body and it dies between birth and puberty",
+        "Incompatible with life; cause the death of the organism before birth",
+        "Occur in cytoplasmic organelles that have their own DNA (mitochondria, plastids)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Shows lethal effects under certain conditions'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Chromosomal aberrations are:",
+      "options": [
+        "Inversion",
+        "Monosomy",
+        "Trisomy",
+        "Polyploidy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Inversion'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Chromosomal mutations (aberrations) are associated with changes in:",
+      "options": [
+        "Structures of all types of chromosomes",
+        "Autosome structures only",
+        "Sex chromosome structures only",
+        "Number of autosomes in a karyotype"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Structures of all types of chromosomes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Cytoplasmic mutations:",
+      "options": [
+        "Occur in cytoplasmic organelles that have their own DNA (mitochondria, plastids)",
+        "Occurs only in mitochondria",
+        "Occurs only in plastids",
+        "Occurs in all cell organelles, including the nucleus"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Occur in cytoplasmic organelles that have their own DNA (mitochondria, plastids)'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Crossover frequency is measured in:",
+      "options": [
+        "Percentage",
+        "Morganids",
+        "Centimeters",
+        "Nanometers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Percentage'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What determines genetic hereditary diseases?",
+      "options": [
+        "Single gene mutation",
+        "Chromosomal mutations",
+        "Genomic mutations",
+        "Environmental factors"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Single gene mutation'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Artificial Mutations:",
+      "options": [
+        "Occurs when certain established factors act on the body",
+        "Occurs in natural conditions without experimenter intervention, with low frequency and for unknown reasons",
+        "Incompatible with life",
+        "Shows lethal effects under certain conditions"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Occurs when certain established factors act on the body'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What underlies the occurrence of genomic mutations?",
+      "options": [
+        "Violation of chromosome segregation during cell division",
+        "Chromosome conjugation",
+        "Change in gene structure",
+        "Replacing one gene with another"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Violation of chromosome segregation during cell division'. This choice aligns with the established clinical curriculum."
+    }
+  ],
+  "t-s-2-8-9": [
+    {
+      "question": "Discordance is:",
+      "options": [
+        "Absence of the trait in one of the twins",
+        "Percentage of similarity for this trait in twins",
+        "Quantitative indicator of gene expression",
+        "Degree of symptom expression"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Absence of the trait in one of the twins'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The genealogical method allows you to establish:",
+      "options": [
+        "Hereditary nature of the trait, type of inheritance",
+        "Gene linkage",
+        "The role of environment and genotype in the development of a trait",
+        "Violation of the number and structure of chromosomes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Hereditary nature of the trait, type of inheritance'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "A woman has three X chromosomes in her karyotype. How many Barr bodies can her somatic cells have?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "0"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '2'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The Hardy-Weinberg formula is not applicable:",
+      "options": [
+        "In populations with consanguineous marriages",
+        "In large, ideal populations",
+        "In numerous panmictic populations",
+        "Only in ideal populations"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'In populations with consanguineous marriages'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What skin patterns are there on the fingertips:",
+      "options": [
+        "Curl. Arc. Simple loop",
+        "Square",
+        "\"Knot\"",
+        "Triradius"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Curl. Arc. Simple loop'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Sex X-chromatin is absent in somatic cells in:",
+      "options": [
+        "Men",
+        "Women with Down syndrome",
+        "Women with Patau syndrome",
+        "Women with Edwards syndrome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Men'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The arrangement of pairs of chromosomes in order of decreasing size is:",
+      "options": [
+        "Idiogram",
+        "Genotype",
+        "Karyotype",
+        "Karyotyping"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Idiogram'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "How many Barr bodies do somatic cells of a healthy man have?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '0'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "How many heterochromosomes are there in a man's karyotype?",
+      "options": [
+        "2",
+        "1",
+        "46",
+        "44"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '2'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "According to the Denver classification (in 1960), the human karyotype is divided into the following number of groups:",
+      "options": [
+        "7",
+        "6",
+        "5",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '7'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "To determine gender, the following is used:",
+      "options": [
+        "Determination of sex chromatin",
+        "Genealogical method",
+        "Somatic cell genetics method",
+        "Biochemical method"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Determination of sex chromatin'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Concordance is",
+      "options": [
+        "Percentage of similarity for this trait in twins",
+        "Quantitative indicator of gene manifestation",
+        "Degree of symptom expression",
+        "Absence of the trait in one of the twins"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Percentage of similarity for this trait in twins'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The twin method is used for:",
+      "options": [
+        "Estimates of the role of heredity and environment in the development of a trait",
+        "Compilation and analysis of pedigree",
+        "Establishing the hereditary nature of a trait",
+        "Gene linkage studies"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Estimates of the role of heredity and environment in the development of a trait'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "No Barr bodies were found in the cell, please indicate the karyotype:",
+      "options": [
+        "45, X0",
+        "47, XX, 21",
+        "47, XXX",
+        "47, ХХУ"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '45, X0'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Using the cytogenetic method, you can determine:",
+      "options": [
+        "Number and structure of chromosomes",
+        "The influence of genotype and external environment on the development of the organism",
+        "Concentration and distribution of the gene in the population",
+        "Realization of genes in ontogenesis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Number and structure of chromosomes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "No X-chromatin was detected in the nuclei of the woman's buccal epithelium cells. This indicates the disappearance in the karyotype:",
+      "options": [
+        "One X chromosome",
+        "Two X chromosomes",
+        "Three X chromosomes",
+        "One Y chromosome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'One X chromosome'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "X-chromatin was detected in the nuclei of buccal epithelial cells of the buccal mucosa in a male patient. This is possible with:",
+      "options": [
+        "Klinefelter's syndrome",
+        "Shereshevsky-Turner syndrome",
+        "Patau syndrome",
+        "Edwards syndrome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Klinefelter's syndrome'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Studying patterns on the fingertips is:",
+      "options": [
+        "Fingerprinting",
+        "Palmoscopy",
+        "Plantoscopy",
+        "Microscopy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Fingerprinting'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What method is used to study the genetic composition of a population?",
+      "options": [
+        "Population statistical method",
+        "Dermatoglyphics method",
+        "Biochemical method",
+        "Molecular genetic method"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Population statistical method'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What method of genetics is used to find out the type of inheritance (dominant or recessive) of a particular pathological trait?",
+      "options": [
+        "Genealogical",
+        "Cytogenetic",
+        "Dermatoglyphics",
+        "Biochemical"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Genealogical'. This choice aligns with the established clinical curriculum."
+    }
+  ],
+  "t-s-2-8-10": [
+    {
+      "question": "Fingerprinting is the study of:",
+      "options": [
+        "Papillary patterns on the fingertips",
+        "Papillary patterns on the palms",
+        "Papillary patterns on the soles",
+        "Papillary patterns on the palms and soles"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Papillary patterns on the fingertips'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Dizygotic twins:",
+      "options": [
+        "Arise from different fertilized eggs",
+        "Develop from a single zygote",
+        "Have the same phenotype",
+        "They have the same patterns on the skin of the palms and fingers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Arise from different fertilized eggs'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "To carry out cytogenetic analysis use:",
+      "options": [
+        "Leukocytes",
+        "Buccal epithelial cells",
+        "Red blood cells",
+        "Pancreatic cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Leukocytes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Karyotype examination is necessary if:",
+      "options": [
+        "The couple had a stillborn fetus and two spontaneous miscarriages",
+        "The woman had one spontaneous miscarriage",
+        "The first child in the family was born with phenylketonuria",
+        "The first boy in the family was born colorblind"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'The couple had a stillborn fetus and two spontaneous miscarriages'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Using the cytogenetic method, diagnostics is carried out:",
+      "options": [
+        "Diseases associated with changes in the number of autosomes",
+        "Multifactorial diseases",
+        "Molecular diseases",
+        "Genetic diseases"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Diseases associated with changes in the number of autosomes'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Cells found in amniotic fluid do not contain X chromatin due to:",
+      "options": [
+        "X chromosome monosomy",
+        "Trisomy X chromosome",
+        "Trisomy of chromosome 21",
+        "Trisomy of chromosome 18"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'X chromosome monosomy'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The angle atd on the palm normally does not exceed:",
+      "options": [
+        "57°",
+        "80°",
+        "75°",
+        "108°"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '57°'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The angle atd in the palm of the hand in Down syndrome represents:",
+      "options": [
+        "81°",
+        "75°",
+        "57°",
+        "108°"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '81°'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The angle atd in the palm of the hand in Patau syndrome is:",
+      "options": [
+        "108°",
+        "80°",
+        "75°",
+        "120°"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '108°'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The method for determining X-chromatin is used for diagnosis:",
+      "options": [
+        "Shereshevsky-Turner syndrome",
+        "Diabetes mellitus",
+        "Stomach ulcers",
+        "Hypertension"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Shereshevsky-Turner syndrome'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The method for determining X-chromatin is used for diagnosis:",
+      "options": [
+        "Klinefelter's syndrome",
+        "Diabetes mellitus",
+        "Stomach ulcers",
+        "Patau syndrome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Klinefelter's syndrome'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Indicate the method of studying a trait (disease) in a family, indicating family ties between members of the pedigree - this is:",
+      "options": [
+        "Genealogical method",
+        "Biochemical method",
+        "Cytogenetic method",
+        "Molecular genetic method"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Genealogical method'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Monozygotic twins:",
+      "options": [
+        "Always have the same genotype",
+        "They have different genotypes.",
+        "Develop from a single somatic cell",
+        "Develop from different eggs"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Always have the same genotype'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Human populations, the number of which does not exceed 1500 individuals, and consanguineous marriages account for more than 90%, are called:",
+      "options": [
+        "Isolates",
+        "Closed populations",
+        "Demami",
+        "Ideal populations"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Isolates'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "The phenomenon of arbitrary marriages in a large population of people is called:",
+      "options": [
+        "Panmixia",
+        "Hybridization",
+        "Inbreeding",
+        "Outbreeding"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Panmixia'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Small populations, the number of which does not exceed 1500-4000 individuals, are called:",
+      "options": [
+        "Demami",
+        "Isolates",
+        "Ideal populations",
+        "Open populations"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Demami'. This choice aligns with the established clinical curriculum."
+    }
+  ],
+  "t-s-2-8-11": [
+    {
+      "question": "For Klinefelter syndrome:",
+      "options": [
+        "In the karyotype of men there is an extra X - the sex chromosome",
+        "In the karyotype of women, one sex chromosome is missing - the X chromosome.",
+        "In the karyotype of women there is an extra X - the sex chromosome",
+        "There is no clump of sex chromatin in the somatic cells of women"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'In the karyotype of men there is an extra X - the sex chromosome'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Monosomy is:",
+      "options": [
+        "Reducing the number of chromosomes in a karyotype by one chromosome",
+        "Complete absence of one pair of homologous chromosomes in the karyotype",
+        "An increase in the number of chromosomes in a karyotype by",
+        "Increasing the number of chromosomes in a karyotype to another"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Reducing the number of chromosomes in a karyotype by one chromosome'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Chromosomal diseases:",
+      "options": [
+        "Develop as a result of a change (increase or decrease) in the number of individual, paired, homologous chromosomes in the human karyotype",
+        "Not limited to distribution within just one generation",
+        "Passed on from generation to generation",
+        "Inherited through the male line"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Develop as a result of a change (increase or decrease) in the number of individual, paired, homologous chromosomes in the human karyotype'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Define diseases inherited in an autosomal dominant manner?",
+      "options": [
+        "Marfan syndrome",
+        "Phenylketonuria",
+        "Tay-Sachs disease",
+        "Hepatolenticular degeneration"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Marfan syndrome'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Signs that appear with phenylketonuria:",
+      "options": [
+        "Pigmentation of the skin, hair, and iris of the eyes decreases",
+        "Frequent respiratory diseases: bronchitis, bronchiectasis",
+        "Signs of the disease begin at 2-3 years of age",
+        "There is muscle atrophy, “duck gait”"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Pigmentation of the skin, hair, and iris of the eyes decreases'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "With an autosomal dominant type of inheritance, the following is observed:",
+      "options": [
+        "The trait is passed on from generation to generation and both sexes are affected with equal frequency",
+        "Healthy parents give birth to sick children",
+        "Sick parents give birth to healthy children",
+        "The father passes on his trait only to his daughters"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'The trait is passed on from generation to generation and both sexes are affected with equal frequency'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Specify diseases of lipid metabolism disorders:",
+      "options": [
+        "Leukodystrophy",
+        "Pentosuria",
+        "Mucopolysaccharidosis",
+        "Galactosemia"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Leukodystrophy'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Signs of \"Cry the Cat\" syndrome:",
+      "options": [
+        "Underdevelopment of vocal cords",
+        "Deletion of the short arm of chromosome pair 21",
+        "Number of chromosomes 45",
+        "Karyotype of syndrome 44+XXY"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Underdevelopment of vocal cords'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Hereditary diseases caused by genes linked to human sex chromosomes:",
+      "options": [
+        "Color blindness, lack of sweat glands",
+        "Hemophilia, hypertension, glycogenosis",
+        "Down syndrome, Marfan syndrome",
+        "Hepatitis, diabetes mellitus"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Color blindness, lack of sweat glands'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Genetic disease in which a change in the shape of red blood cells occurs",
+      "options": [
+        "Sickle cell anemia",
+        "Alkaptonuria",
+        "Tay–Sachs syndrome",
+        "Lesch–Nayan syndrome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Sickle cell anemia'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Disease related to hemoglobinopathy",
+      "options": [
+        "Thalassemia",
+        "Mental retardation",
+        "Galactosemia",
+        "Albinism"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Thalassemia'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Monogenic diseases:",
+      "options": [
+        "Alkaptonuria",
+        "Hypertension",
+        "Cry of the Cat Syndrome",
+        "Down's disease"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Alkaptonuria'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "To diagnose metabolic diseases, use:",
+      "options": [
+        "Biochemical method",
+        "Twin method",
+        "Hybridological method",
+        "Simulation method"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Biochemical method'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Alkaptonuria is a metabolic pathology:",
+      "options": [
+        "Tyrosine",
+        "Phenylalanine",
+        "Valina",
+        "Leucine"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Tyrosine'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Tay-Sachs disease is a genetic disease:",
+      "options": [
+        "Lipid metabolism disorder",
+        "Amino acid metabolism disorder",
+        "Hormone metabolism disorder",
+        "Metal metabolism disorder"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Lipid metabolism disorder'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Galactosemia is a metabolic disease:",
+      "options": [
+        "Galactose",
+        "Glycogen",
+        "Fructose",
+        "Maltose"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Galactose'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "To diagnose phenylketonuria use:",
+      "options": [
+        "Film sample",
+        "Test with 2,4-dinitrophenylhydrazine",
+        "Test with nitropruside",
+        "Sodium chloride test"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Film sample'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "When diagnosing chromosomal diseases, the mandatory method is: Karyotype study Fructosemia is a metabolic disease:",
+      "options": [
+        "Fructose",
+        "Glycogen",
+        "Maltose",
+        "Sucrose"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Fructose'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Diseases resulting from genomic mutations:",
+      "options": [
+        "Patau syndrome",
+        "Cry of the Cat Syndrome",
+        "Hypertrichosis",
+        "Thalassemia"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Patau syndrome'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Incestuous marriage is:",
+      "options": [
+        "Marriage between people of the first degree of family",
+        "Marriage between people of the second and third levels of family",
+        "Selective marriage",
+        "B cancer between individuals with the same phenotypes for a certain trait"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Marriage between people of the first degree of family'. This choice aligns with the established clinical curriculum."
+    }
+  ],
+  "t-s-2-8-12": [
+    {
+      "question": "Randomized marriage (panmixia) is:",
+      "options": [
+        "Non-selective marriage. Any person of the same sex is equally likely to marry any person of the opposite sex",
+        "Marriage between individuals who are not in family ties",
+        "Marriage between individuals who are in family ties",
+        "Marriage between people of the first degree of family"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Non-selective marriage. Any person of the same sex is equally likely to marry any person of the opposite sex'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Family marriage (consanguineous) is:",
+      "options": [
+        "Marriage between people of the second and third degrees of family",
+        "Marriage between people of the first degree of family",
+        "Selective marriage",
+        "B cancer between individuals with the same phenotypes for a certain trait"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Marriage between people of the second and third degrees of family'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Humans experience diseases that are determined by genes that are characterized by the property of incomplete dominance. Name this disease:",
+      "options": [
+        "Cystinuria",
+        "Albinism",
+        "Hemophilia",
+        "Phenylketonuria"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Cystinuria'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What is the formula for the karyotype of a patient with Down syndrome:",
+      "options": [
+        "47, XY , 21+",
+        "46, XX , 5р-",
+        "47, XY , 22+",
+        "47, XY , 13+"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '47, XY , 21+'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What is the formula for the karyotype of a patient with Edwards syndrome:",
+      "options": [
+        "47, XY , 18+",
+        "46, XX , 5р-",
+        "47, XY , 21+",
+        "47, XY , 13+"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '47, XY , 18+'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What is the formula for the karyotype of a patient with Klinefelter syndrome:",
+      "options": [
+        "47, XXY",
+        "46, XY",
+        "45, X 0",
+        "47, XXX"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '47, XXY'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What is the formula for the karyotype of a patient with Cry of the Cat syndrome:",
+      "options": [
+        "46, XY , 5р -",
+        "47, XXY",
+        "46, XY , 9р+",
+        "45, X 0"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '46, XY , 5р -'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What is the formula for the karyotype of a patient with Patau syndrome:",
+      "options": [
+        "47, XY , 13+",
+        "46, XX",
+        "47, XX , 18+",
+        "46, XX , 5r -"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '47, XY , 13+'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "What is the formula for the karyotype of a patient with Shereshevsky-Turner syndrome:",
+      "options": [
+        "45, X 0",
+        "46, XX",
+        "47, XXY",
+        "47, XXX"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is '45, X 0'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Inbreeding is:",
+      "options": [
+        "Marriage between individuals who are in family ties",
+        "Non-selective marriage",
+        "Marriage between individuals who are not related to each other",
+        "Marriage between individuals with the same phenotypes for a certain trait"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Marriage between individuals who are in family ties'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Unrelated marriage is:",
+      "options": [
+        "Marriage between individuals who are not related to each other (missing common ancestors in the next 4-6 generations)",
+        "Non-selective marriage. Any person of the same sex is equally likely to marry any person of the opposite sex",
+        "Marriage between individuals who are in family ties",
+        "Marriage between people of the second and third degrees of family"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Marriage between individuals who are not related to each other (missing common ancestors in the next 4-6 generations)'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Define diseases inherited in an autosomal recessive manner?",
+      "options": [
+        "Alcoptonuria",
+        "Huntington's chorea",
+        "Muscular dystrophy (Duchenne syndrome)",
+        "Neurofibromatosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Alcoptonuria'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Hemolytic disease is:",
+      "options": [
+        "Adhesion of red blood cells and their lysis",
+        "Erythrocyte sedimentation",
+        "Hemophilia",
+        "Polymerism"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Adhesion of red blood cells and their lysis'. This choice aligns with the established clinical curriculum."
+    },
+    {
+      "question": "Sex X-chromatin is absent in somatic cells in:",
+      "options": [
+        "Men and women with Turner–Shereshevsky syndrome",
+        "Women with Down syndrome",
+        "Women with Patau syndrome",
+        "Women with Edwards syndrome"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct answer is 'Men and women with Turner–Shereshevsky syndrome'. This choice aligns with the established clinical curriculum."
+    }
+  ]
+},
+  "s-1-10": {
+    "t-s-1-10-1": [
+      {
+        "question": "In the chlorophyll molecule, the substances forming the complex are cations:",
+        "options": [
+          "Fe²⁺",
+          "Mg²⁺",
+          "Fe³⁺",
+          "Co²⁺"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Mg²⁺'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the cation forming the complex in the hemoglobin molecule:",
+        "options": [
+          "Fe²⁺",
+          "Fe³⁺",
+          "Co²⁺",
+          "Mg²⁺"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fe²⁺'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the cation present in the Vitamin B12 complex molecule:",
+        "options": [
+          "Co²⁺",
+          "Fe²⁺",
+          "Fe³⁺",
+          "Mg²⁺"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Co²⁺'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the disease classified under occupational diseases:",
+        "options": [
+          "Fluorosis",
+          "Anthracosis",
+          "Caries",
+          "Goiter"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Anthracosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A disease resulting from the deficiency of one of the d-elements:",
+        "options": [
+          "Silicosis",
+          "Anemia",
+          "Berylliosis",
+          "Anthracosis"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Anemia'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A disease caused by the deficiency of the Cu element:",
+        "options": [
+          "Argyria",
+          "Hemophilia",
+          "Anemia",
+          "Hypertension"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Anemia'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What disease results from an excess of strontium in the body?",
+        "options": [
+          "Caries and osteoporosis",
+          "Rickets",
+          "Stones in the kidneys and gallbladder",
+          "Silicosis"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Rickets'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the name for poisoning caused by aluminum?",
+        "options": [
+          "Silicosis",
+          "Argyria",
+          "Anthracosis",
+          "Aluminosis"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Aluminosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the name for poisoning caused by silicon?",
+        "options": [
+          "Anthracosis",
+          "Silicosis",
+          "Argyria",
+          "Aluminosis"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Silicosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the name for poisoning caused by carbon?",
+        "options": [
+          "Argyria",
+          "Aluminosis",
+          "Anthracosis",
+          "Silicosis"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Anthracosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the name for poisoning caused by silver?",
+        "options": [
+          "Argyria",
+          "Aluminosis",
+          "Silicosis",
+          "Anthracosis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Argyria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the name for poisoning caused by beryllium?",
+        "options": [
+          "Anthracosis",
+          "Argyria",
+          "Berylliosis",
+          "Silicosis"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Berylliosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What are the elements that form the primary mass of the body called?",
+        "options": [
+          "Essential elements",
+          "Organogens",
+          "Silicosis",
+          "Inorganic elements"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Organogens'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Elements in the body, based on their quantity, are divided into:",
+        "options": [
+          "Microbiogenic and ultramicrobiogenic",
+          "Macrobiogenic and ultramacrobiogenic",
+          "Micro-, oligo-, and macrobiogenic",
+          "s, p, d-elements"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Micro-, oligo-, and macrobiogenic'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Besides calcium, which element is necessary for the formation of bones, tooth enamel, and dentin?",
+        "options": [
+          "Sodium",
+          "Chlorine",
+          "Fluorine",
+          "Potassium"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Fluorine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following belongs to macroelements?",
+        "options": [
+          "Iron",
+          "Copper",
+          "Cobalt",
+          "Sodium"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Sodium'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following belongs to macroelements?",
+        "options": [
+          "Copper",
+          "Mercury",
+          "Calcium",
+          "Bromine"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Calcium'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following belongs to microelements?",
+        "options": [
+          "Carbon",
+          "Iodine",
+          "Potassium",
+          "Sulfur"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Iodine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following belongs to microelements?",
+        "options": [
+          "Sulfur",
+          "Hydrogen",
+          "Oxygen",
+          "Iron"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Iron'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following does not belong to organogenic elements?",
+        "options": [
+          "Carbon",
+          "Iodine",
+          "Oxygen",
+          "Hydrogen"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Iodine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following does not belong to organogenic elements?",
+        "options": [
+          "Hydrogen",
+          "Oxygen",
+          "Iron",
+          "Sulfur"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Iron'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following does not belong to organogenic elements?",
+        "options": [
+          "Magnesium",
+          "Hydrogen",
+          "Oxygen",
+          "Sulfur"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Magnesium'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "It is known that there are six organogenic elements: oxygen, carbon, hydrogen, sulfur, and nitrogen. Identify the 6th element:",
+        "options": [
+          "Chlorine",
+          "Calcium",
+          "Phosphorus",
+          "Potassium"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Phosphorus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the biological element involved in generating nerve impulses:",
+        "options": [
+          "Potassium",
+          "Iodine",
+          "Calcium",
+          "Chlorine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Potassium'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which element is most abundant in bones and tooth enamel?",
+        "options": [
+          "Calcium",
+          "Sodium",
+          "Potassium",
+          "Sulfur"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Calcium'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which element is part of hemoglobin?",
+        "options": [
+          "Iron",
+          "Magnesium",
+          "Cobalt",
+          "Chromium"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Iron'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A deficiency of which element causes thyroid gland enlargement?",
+        "options": [
+          "Iodine",
+          "Chlorine",
+          "Bromine",
+          "Selenium"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Iodine'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-10-2": [
+      {
+        "question": "Which element helps heal wounds and is widely used in cosmetology and dermatology?",
+        "options": [
+          "Zinc",
+          "Copper",
+          "Calcium",
+          "Sodium"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Zinc'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which disease occurs due to fluorine deficiency in the body?",
+        "options": [
+          "Caries",
+          "Fluorosis",
+          "Osteoporosis",
+          "Rickets"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Caries'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which disease occurs due to fluorine excess in the body?",
+        "options": [
+          "Fluorosis",
+          "Caries",
+          "Rickets",
+          "Osteoporosis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fluorosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which disease occurs due to iodine deficiency in the body?",
+        "options": [
+          "Caries",
+          "Goiter",
+          "Rickets",
+          "Osteoporosis"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Goiter'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which disease occurs due to calcium deficiency in the body?",
+        "options": [
+          "Silicosis",
+          "Stones in the kidneys and gallbladder",
+          "Argyria",
+          "Caries and Osteoporosis"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Caries and Osteoporosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which disease occurs due to calcium excess in the body?",
+        "options": [
+          "Argyria",
+          "Caries and Osteoporosis",
+          "Silicosis",
+          "Stones in the kidneys and gallbladder"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Stones in the kidneys and gallbladder'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which disease occurs due to strontium excess in the body?",
+        "options": [
+          "Caries and Osteoporosis",
+          "Rickets",
+          "Stones in the kidneys and gallbladder",
+          "Silicosis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Caries and Osteoporosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the name for poisoning caused by aluminum?",
+        "options": [
+          "Argyria",
+          "Silicosis",
+          "Anthracosis",
+          "Aluminosis"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Aluminosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the name for poisoning caused by silicon?",
+        "options": [
+          "Argyria",
+          "Anthracosis",
+          "Aluminosis",
+          "Silicosis"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Silicosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the name for poisoning caused by carbon?",
+        "options": [
+          "Silicosis",
+          "Argyria",
+          "Aluminosis",
+          "Anthracosis"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Anthracosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the name for poisoning caused by silver?",
+        "options": [
+          "Silicosis",
+          "Anthracosis",
+          "Aluminosis",
+          "Argyria"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Argyria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the name for poisoning caused by beryllium?",
+        "options": [
+          "Berylliosis",
+          "Argyria",
+          "Silicosis",
+          "Anthracosis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Berylliosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What type(s) of biological elements does calcium represent?",
+        "options": [
+          "Inorganic",
+          "Organogenic, Essential",
+          "Essential",
+          "Organogenic"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Organogenic, Essential'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What type(s) of biological elements does carbon represent?",
+        "options": [
+          "Inorganic",
+          "Organogenic",
+          "Essential",
+          "Organogenic, Essential"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Essential'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What type(s) of biological elements does hydrogen represent?",
+        "options": [
+          "Essential",
+          "Inorganic",
+          "Organogenic",
+          "Organogenic, Essential"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Organogenic, Essential'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What type(s) of biological elements does oxygen represent?",
+        "options": [
+          "Inorganic",
+          "Essential",
+          "Organogenic",
+          "Organogenic, Essential"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Organogenic, Essential'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What type(s) of biological elements does sodium represent?",
+        "options": [
+          "Organogenic, Essential",
+          "Organogenic",
+          "Inorganic",
+          "Essential"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Essential'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What type(s) of biological elements does potassium represent?",
+        "options": [
+          "Organogenic",
+          "Essential",
+          "Organogenic, Essential",
+          "Inorganic"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Essential'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What type(s) of biological elements does chlorine represent?",
+        "options": [
+          "Organogenic",
+          "Essential",
+          "Inorganic",
+          "Organogenic, Essential"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Essential'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What type(s) of biological elements does magnesium represent?",
+        "options": [
+          "Organogenic, Essential",
+          "Organogenic",
+          "Essential",
+          "Inorganic"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Essential'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-10-3": [
+      {
+        "question": "Colligative properties depend on:",
+        "options": [
+          "The number of solute particles",
+          "The molecular weight of the solute",
+          "The type of solute",
+          "The color of the solute"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The number of solute particles'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a colligative property?",
+        "options": [
+          "Freezing point depression",
+          "Surface tension",
+          "Density",
+          "Refractive index"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Freezing point depression'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Boiling point elevation occurs when:",
+        "options": [
+          "The solvent is heated without solute",
+          "The solution is cooled",
+          "A solute is added to a solvent",
+          "The pressure decreases"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'A solute is added to a solvent'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Freezing point of a solution is:",
+        "options": [
+          "The same as the pure solvent",
+          "Independent of solute addition",
+          "Higher than that of the pure solvent",
+          "Lower than that of the pure solvent"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Lower than that of the pure solvent'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The formula for osmotic pressure is:",
+        "options": [
+          "π = iKf × m",
+          "π = P × V / T",
+          "π = iCRT",
+          "π = Kb × i × m"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'π = iCRT'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Van 't Hoff factor (i) for NaCl is:",
+        "options": [
+          "4",
+          "3",
+          "1",
+          "2"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is '2'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following depends on molality?",
+        "options": [
+          "Surface tension",
+          "Freezing point depression",
+          "Conductivity",
+          "Vapor pressure"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Freezing point depression'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following solutions has the highest boiling point?",
+        "options": [
+          "2 M NaCl",
+          "2 M Urea",
+          "2 M Sucrose",
+          "2 M Glucose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '2 M NaCl'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Adding a solute to a solvent causes its vapor pressure to:",
+        "options": [
+          "Fluctuate",
+          "Increase",
+          "Decrease",
+          "Remain the same"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Decrease'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which is NOT a colligative property?",
+        "options": [
+          "Boiling point elevation",
+          "Surface tension",
+          "Freezing point depression",
+          "Osmotic pressure"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Surface tension'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Raoult’s Law applies to:",
+        "options": [
+          "Suspensions",
+          "Colloids",
+          "Solid solutions",
+          "Ideal solutions"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Ideal solutions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which is an example of a colligative property?",
+        "options": [
+          "Surface area",
+          "Diffusion",
+          "Viscosity",
+          "Osmotic pressure"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Osmotic pressure'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Molality is defined as:",
+        "options": [
+          "Grams of solute per liter of solution",
+          "Grams of solute per kg of solvent",
+          "Moles of solute per liter of solution",
+          "Moles of solute per kg of solvent"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Moles of solute per kg of solvent'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Freezing point depression is caused by:",
+        "options": [
+          "Mixing two solvents",
+          "Evaporation of the solvent",
+          "Adding solute to the solvent",
+          "Cooling the solution rapidly"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Adding solute to the solvent'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Van 't Hoff factor (i) accounts for:",
+        "options": [
+          "The boiling point of the solvent",
+          "The number of particles a solute dissociates into",
+          "The molecular weight of the solute",
+          "The density of the solvent"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'The number of particles a solute dissociates into'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following will have the largest freezing point depression?",
+        "options": [
+          "1 M Urea",
+          "1 M MgCl2",
+          "1 M Glucose",
+          "1 M NaCl"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is '1 M MgCl2'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The boiling point of a solution is always:",
+        "options": [
+          "Lower than that of the pure solvent",
+          "Unaffected by solute addition",
+          "Higher than that of the pure solvent",
+          "The same as the pure solvent"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Higher than that of the pure solvent'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Colligative properties are used to determine:",
+        "options": [
+          "Color of solutions",
+          "Shape of solute molecules",
+          "Molar mass of solutes",
+          "Atomic mass of solutes"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Molar mass of solutes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Vapor pressure of a solution is lower than the vapor pressure of:",
+        "options": [
+          "A solute alone",
+          "A concentrated solution",
+          "None of the above",
+          "The pure solvent"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'The pure solvent'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Freezing point depression is represented by the formula:",
+        "options": [
+          "ΔTf = RT × m",
+          "ΔTf = Kf × m",
+          "ΔTf = i × C × R",
+          "ΔTf = Kb × m"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'ΔTf = Kf × m'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which constant is used in the freezing point depression formula?",
+        "options": [
+          "Kf",
+          "R",
+          "Kb",
+          "i"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Kf'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The unit of molality is:",
+        "options": [
+          "mol/kg",
+          "g/kg",
+          "g/L",
+          "mol/L"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'mol/kg'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of these increases when a non-volatile solute is added to water?",
+        "options": [
+          "Solvent density",
+          "Freezing point",
+          "Vapor pressure",
+          "Boiling point"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Boiling point'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A solution of 1 M NaCl will have a van 't Hoff factor (i) equal to:",
+        "options": [
+          "4",
+          "2",
+          "1",
+          "3"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is '2'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Osmosis occurs when a solution has:",
+        "options": [
+          "A lower solute concentration than the solvent",
+          "Equal solute and solvent concentrations",
+          "No solute",
+          "A higher solute concentration than the solvent"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'A higher solute concentration than the solvent'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-10-4": [
+      {
+        "question": "What is the purpose of titration? To determine the concentration of an unknown solution To mix two solutions To change the color of the solution To increase the temperature of the solution What is the solution of known concentration called in a titration? Standard solution Unknown solution Neutral solution Buffer solution The substance that changes color at the equivalence point is called: Indicator Titrant Analyte Buffer Which type of reaction is most commonly used in titration? Neutralization Combustion Precipitation Decomposition The point at which the reaction is complete is called the: Equivalence point Starting point Buffer point Dissociation point Which piece of equipment is used to deliver the titrant in a titration? Burette Pipette Beaker Funnel The volume of titrant added to reach the equivalence point is measured using a: Burette Flask Test tube Pipette What is the pH at the equivalence point in a strong acid-strong base titration? 7 Less than 7 Greater than 7 Depends on the indicator Which indicator is commonly used for acid-base titrations? Phenolphthalein Methylene blue Potassium permanganate Bromine What is the shape of the titration curve for a strong acid and strong base titration? S-shaped Straight line Circular Parabolic In a titration, the analyte is: The solution with an unknown concentration The solution with a known concentration The indicator used The final product What is a primary standard?",
+        "options": [
+          "A mixture of different compounds",
+          "A substance of high purity used to standardize a solution",
+          "A weak acid used in titrations",
+          "A solution with a pH of 7"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'A substance of high purity used to standardize a solution'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which titration involves the use of potassium permanganate?",
+        "options": [
+          "Acid-base titration",
+          "Redox titration",
+          "Complexometric titration",
+          "Precipitation titration"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Redox titration'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the color change of phenolphthalein in a basic solution?",
+        "options": [
+          "Blue",
+          "Pink",
+          "Yellow",
+          "Colorless"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Pink'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In a weak acid-strong base titration, the pH at equivalence is:",
+        "options": [
+          "Greater than 7",
+          "Depends on the acid",
+          "Less than 7",
+          "Equal to 7"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Greater than 7'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which titration method is used to determine water hardness?",
+        "options": [
+          "Complexometric titration",
+          "Redox titration",
+          "Precipitation titration",
+          "Acid-base titration"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Complexometric titration'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The substance being added during titration is called the:",
+        "options": [
+          "Indicator",
+          "Buffer",
+          "Titrant",
+          "Analyte"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Titrant'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A volumetric flask is used to:",
+        "options": [
+          "Prepare a standard solution",
+          "Mix the solutions",
+          "Add titrant to the analyte",
+          "Measure the final volume of the solution"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Prepare a standard solution'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the function of a pipette in titration?",
+        "options": [
+          "To measure a specific volume of analyte",
+          "To mix the solution",
+          "To act as an indicator",
+          "To deliver titrant to the solution"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'To measure a specific volume of analyte'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which titration involves EDTA as the titrant?",
+        "options": [
+          "Acid-base titration",
+          "Complexometric titration",
+          "Precipitation titration",
+          "Redox titration"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Complexometric titration'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In titration, an endpoint is:",
+        "options": [
+          "The point where the indicator changes color",
+          "The point of maximum pH",
+          "The halfway point of the reaction",
+          "The point where the reaction starts"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The point where the indicator changes color'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which is NOT required for titration?",
+        "options": [
+          "Pipette",
+          "Indicator",
+          "Filter paper",
+          "Burette"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Filter paper'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which type of titration uses iodine?",
+        "options": [
+          "Complexometric titration",
+          "Redox titration",
+          "Acid-base titration",
+          "Precipitation titration"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Redox titration'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The molarity of the solution can be calculated using the formula:",
+        "options": [
+          "M₁V₁ = M₂V₂",
+          "ΔT = Kb × m",
+          "PV = nRT",
+          "M = m × V"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'M₁V₁ = M₂V₂'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which titration method is used for the estimation of chloride ions?",
+        "options": [
+          "Redox titration",
+          "Complexometric titration",
+          "Acid-base titration",
+          "Precipitation titration"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Precipitation titration'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-10-5": [
+      {
+        "question": "Iodometry involves the titration of:",
+        "options": [
+          "Silver nitrate",
+          "Potassium permanganate",
+          "Free iodine",
+          "EDTA"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Free iodine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which indicator is commonly used in iodometry?",
+        "options": [
+          "Starch",
+          "Methylene blue",
+          "Phenolphthalein",
+          "Eriochrome Black T"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Starch'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Iodometry is often used to estimate the concentration of:",
+        "options": [
+          "Reducing agents",
+          "Oxidizing agents",
+          "Bases",
+          "Acids"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Oxidizing agents'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In iodometry, iodine is titrated with:",
+        "options": [
+          "Potassium permanganate",
+          "Sodium thiosulfate",
+          "Silver nitrate",
+          "EDTA"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Sodium thiosulfate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The end point in iodometry is indicated by the disappearance of:",
+        "options": [
+          "Blue color of starch-iodine complex",
+          "Yellow color of iodine",
+          "Pink color of phenolphthalein",
+          "Red color of methyl orange"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Blue color of starch-iodine complex'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In permanganometry, the titrant is:",
+        "options": [
+          "Hydrochloric acid",
+          "Sodium thiosulfate",
+          "EDTA",
+          "Potassium permanganate"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Potassium permanganate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the color change at the end point in permanganometry?",
+        "options": [
+          "Pink to colorless",
+          "Colorless to pink",
+          "Yellow to blue",
+          "Blue to yellow"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Colorless to pink'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Permanganometry is based on:",
+        "options": [
+          "Redox reactions",
+          "Complexation reactions",
+          "Neutralization reactions",
+          "Precipitation reactions"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Redox reactions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which acid is commonly used in permanganometry?",
+        "options": [
+          "Sulfuric acid",
+          "Nitric acid",
+          "Hydrochloric acid",
+          "Acetic acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Sulfuric acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Permanganometry is commonly used to determine the concentration of:",
+        "options": [
+          "Oxidizing agents",
+          "Acids",
+          "Reducing agents",
+          "Bases"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Reducing agents'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Complexometric titrations involve the formation of:",
+        "options": [
+          "Gases",
+          "Stable complexes",
+          "Precipitates",
+          "Neutral salts"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Stable complexes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which reagent is used as a titrant in complexometric titrations?",
+        "options": [
+          "Hydrochloric acid",
+          "Sodium thiosulfate",
+          "Potassium permanganate",
+          "EDTA"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'EDTA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Complexometric titration is commonly used to determine:",
+        "options": [
+          "Reducing agents",
+          "Gases",
+          "Acids",
+          "Metal ions"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Metal ions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the most commonly used indicator in complexometric titration?",
+        "options": [
+          "Eriochrome Black T",
+          "Methyl orange",
+          "Starch",
+          "Phenolphthalein"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Eriochrome Black T'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which type of titration is used to determine water hardness?",
+        "options": [
+          "Permanganometry",
+          "Iodometry",
+          "Complexometric titration",
+          "Precipitation titration"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Complexometric titration'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Precipitation titration involves the formation of:",
+        "options": [
+          "Neutral salts",
+          "Insoluble precipitates",
+          "Complexes",
+          "Redox products"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Insoluble precipitates'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which reagent is commonly used in precipitation titrations?",
+        "options": [
+          "Silver nitrate",
+          "Sodium thiosulfate",
+          "Potassium permanganate",
+          "EDTA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Silver nitrate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which indicator is used in the Mohr method of precipitation titration?",
+        "options": [
+          "Methylene blue",
+          "Potassium chromate",
+          "Phenolphthalein",
+          "Starch"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Potassium chromate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The Mohr method is used to determine:",
+        "options": [
+          "Bases",
+          "Reducing agents",
+          "Acids",
+          "Chloride ions"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Chloride ions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the end point in the Volhard method of precipitation titration?",
+        "options": [
+          "Disappearance of the blue color",
+          "Formation of a white precipitate",
+          "Appearance of a pink color",
+          "Formation of a red complex"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Formation of a red complex'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Iodometry is often classified as a type of:",
+        "options": [
+          "Redox titration",
+          "Neutralization titration",
+          "Complexometric titration",
+          "Precipitation titration"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Redox titration'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Permanganometry is particularly useful for analyzing:",
+        "options": [
+          "Iron and oxalates",
+          "Water hardness",
+          "Salts and gases",
+          "Acids and bases"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Iron and oxalates'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Complexometric titrations are commonly carried out in:",
+        "options": [
+          "Neutral medium",
+          "Slightly basic medium",
+          "Strongly acidic medium",
+          "Strongly basic medium"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Slightly basic medium'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The Volhard method is a type of:",
+        "options": [
+          "Neutralization titration",
+          "Complexometric titration",
+          "Redox titration",
+          "Precipitation titration"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Precipitation titration'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Precipitation titrations are useful for determining the concentration of:",
+        "options": [
+          "Bases",
+          "Metal ions",
+          "Acids",
+          "Halide ions"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Halide ions'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-10-6": [
+      {
+        "question": "Which radioactive isotope is commonly used for diagnosing thyroid disorders?",
+        "options": [
+          "Technetium-99m",
+          "Cobalt-60",
+          "Iodine-131",
+          "Carbon-14"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Iodine-131'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is used in PET scans?",
+        "options": [
+          "Iodine-131",
+          "Cesium-137",
+          "Fluorine-18",
+          "Cobalt-60"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Fluorine-18'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Nuclear medicine primarily involves the use of:",
+        "options": [
+          "Magnetic fields",
+          "X-rays",
+          "Ultrasound waves",
+          "Radioactive isotopes"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Radioactive isotopes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The most commonly used isotope in diagnostic nuclear medicine is:",
+        "options": [
+          "Carbon-14",
+          "Uranium-238",
+          "Technetium-99m",
+          "Iodine-125"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Technetium-99m'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which technique uses radioactive tracers to create images of organs?",
+        "options": [
+          "CT scan",
+          "MRI",
+          "Ultrasound",
+          "Scintigraphy"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Scintigraphy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Cobalt-60 is used in medicine for:",
+        "options": [
+          "Cancer treatment",
+          "Kidney function testing",
+          "Heart imaging",
+          "Bone density measurement"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cancer treatment'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Radiation therapy primarily targets:",
+        "options": [
+          "Viruses",
+          "Bacteria",
+          "Healthy cells",
+          "Cancerous cells"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Cancerous cells'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Brachytherapy involves:",
+        "options": [
+          "Using laser therapy",
+          "Implanting radioactive sources near a tumor",
+          "Ingesting radioactive substances",
+          "Using external radiation beams"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Implanting radioactive sources near a tumor'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which type of radiation is most commonly used in cancer treatment?",
+        "options": [
+          "Neutron radiation",
+          "Gamma radiation",
+          "Beta radiation",
+          "Alpha radiation"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Gamma radiation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of nuclear medicine in cancer treatment?",
+        "options": [
+          "Replacing damaged cells with healthy cells",
+          "Destroying cancer cells using targeted radiation",
+          "Performing surgery on tumors",
+          "Delivering chemotherapy drugs"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Destroying cancer cells using targeted radiation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Radioisotopes are used in nuclear medicine because they emit:",
+        "options": [
+          "Gamma rays",
+          "Infrared rays",
+          "X-rays",
+          "Ultraviolet rays"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Gamma rays'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The half-life of a radioactive isotope determines:",
+        "options": [
+          "How long it remains active in the body",
+          "Its medical applications",
+          "Its toxicity",
+          "Its stability"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'How long it remains active in the body'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What does SPECT stand for in nuclear medicine?",
+        "options": [
+          "Single Photon Emission Computed Tomography",
+          "Scanning Photon Emission Computed Technology",
+          "Special Photon Energy Computed Tomography",
+          "Standard Photon Emission Critical Tomography"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Single Photon Emission Computed Tomography'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which isotope is commonly used in bone scans?",
+        "options": [
+          "Cobalt-60",
+          "Carbon-14",
+          "Iodine-131",
+          "Technetium-99m"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Technetium-99m'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which property of a radioisotope is crucial for medical imaging?",
+        "options": [
+          "Short half-life",
+          "High toxicity",
+          "Long half-life",
+          "Low radiation emission"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Short half-life'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Radiopharmaceuticals are:",
+        "options": [
+          "Drugs containing radioactive isotopes",
+          "Non-radioactive drugs",
+          "Antibiotics",
+          "Chemotherapy agents"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Drugs containing radioactive isotopes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which radiopharmaceutical is used to measure cardiac blood flow?",
+        "options": [
+          "Cobalt-60",
+          "Iodine-131",
+          "Thallium-201",
+          "Technetium-99m"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Thallium-201'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which radioisotope is used to study lung ventilation?",
+        "options": [
+          "Xenon-133",
+          "Iodine-125",
+          "Fluorine-18",
+          "Radon-222"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Xenon-133'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In radiopharmaceuticals, the carrier molecule determines:",
+        "options": [
+          "The radiation type",
+          "The half-life",
+          "The decay mode",
+          "The target organ"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'The target organ'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Radiopharmaceuticals are introduced into the body by:",
+        "options": [
+          "Injection, inhalation, or ingestion",
+          "Laser therapy",
+          "Surgery",
+          "External application"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Injection, inhalation, or ingestion'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which device is used to monitor radiation exposure in medical workers?",
+        "options": [
+          "Thermometer",
+          "Stethoscope",
+          "ECG machine",
+          "Dosimeter"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Dosimeter'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The main advantage of nuclear medicine is:",
+        "options": [
+          "Minimal radiation exposure",
+          "Use of natural isotopes",
+          "Non-invasive imaging and treatment",
+          "Permanent removal of radioactive isotopes"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Non-invasive imaging and treatment'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which regulation ensures the safe use of radioactive materials in medicine?",
+        "options": [
+          "Radiation Protection Standards",
+          "Medical Ethics Guidelines",
+          "FDA Food Standards",
+          "Good Manufacturing Practices (GMP)"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Radiation Protection Standards'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "To minimize radiation risk, nuclear medicine uses isotopes with:",
+        "options": [
+          "Unlimited decay products",
+          "No half-lives",
+          "Long half-lives and high doses",
+          "Short half-lives and controlled doses"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Short half-lives and controlled doses'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Why is nuclear medicine highly targeted?",
+        "options": [
+          "Radiopharmaceuticals are designed to accumulate in specific tissues",
+          "Isotopes target all cells equally",
+          "High doses of radiation are always used",
+          "Radiation spreads uniformly in the body"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Radiopharmaceuticals are designed to accumulate in specific tissues'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-10-7": [
+      {
+        "question": "What are the solutions that maintain the pH value without changing when a small amount of acid or base is added?",
+        "options": [
+          "Bases",
+          "Electrolytes",
+          "Buffers",
+          "Acids"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Buffers'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Buffer solutions may consist of:",
+        "options": [
+          "A strong acid and its salt formed with a weak base",
+          "A weak acid and its salt formed with a strong base",
+          "A weak acid and its salt formed with another weak acid",
+          "A strong acid and its salt formed with another strong base"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'A weak acid and its salt formed with a strong base'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "According to the mechanism of buffer action, when a small amount of strong acid or base is added:",
+        "options": [
+          "A weaker electrolyte is formed from the initial electrolyte",
+          "A weak acid is formed",
+          "A strong acid and weak base salt is formed",
+          "A weak base is formed"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'A weaker electrolyte is formed from the initial electrolyte'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The pH of buffer solutions is calculated based on the formula of which author?",
+        "options": [
+          "Guldberg-Vaage",
+          "Henderson-Hasselbalch",
+          "Razumovsky",
+          "Gay-Lussac"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Henderson-Hasselbalch'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The formula for calculating the pH of buffer solutions is derived from which law?",
+        "options": [
+          "Law of small numbers ratio",
+          "Law of constant composition of chemical substances",
+          "Law of mass action",
+          "Law of conservation of mass"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Law of mass action'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the unit of measurement for buffer capacity?",
+        "options": [
+          "Milliequivalents",
+          "Grams",
+          "Liters",
+          "Milliliters"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Milliequivalents'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following buffer systems is not found in the human body?",
+        "options": [
+          "Phosphate-based",
+          "Ammonia-based",
+          "Bicarbonate-based",
+          "Hemoglobin-based"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Ammonia-based'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the alkaline reserve of blood?",
+        "options": [
+          "The amount of neutralizing salts in the blood",
+          "The amount of carbonic acid bound in the form of HCO₃⁻",
+          "The amount of strong acid in the blood",
+          "The amount of weak acid in the blood"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'The amount of carbonic acid bound in the form of HCO₃⁻'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What weak electrolyte is formed when hydrochloric acid is added to a phosphate buffer?",
+        "options": [
+          "Potassium phosphate",
+          "Sodium phosphate",
+          "Phosphoric acid",
+          "Dihydrogen phosphate ion (H₂PO₄⁻)"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Dihydrogen phosphate ion (H₂PO₄⁻)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which indicator is commonly used in determining the buffer capacity of blood in acidic conditions?",
+        "options": [
+          "Methyl orange",
+          "Methyl red",
+          "Phenolphthalein",
+          "Litmus"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Methyl orange'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which indicator is commonly used in determining the buffer capacity of blood in basic conditions?",
+        "options": [
+          "Thymolphthalein",
+          "Methyl orange",
+          "Phenolphthalein",
+          "Litmus"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Phenolphthalein'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In alkalosis, the pH of the body's organs shifts in which direction?",
+        "options": [
+          "Formation of products",
+          "Increase in acidity",
+          "Formation of acid",
+          "Increase in alkalinity"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Increase in alkalinity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In acidosis, the pH of the body's organs shifts in which direction?",
+        "options": [
+          "Formation of products",
+          "Increase in acidity",
+          "Increase in alkalinity",
+          "Formation of acid"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Increase in acidity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The buffer group that includes hemoglobin-based buffer systems is called:",
+        "options": [
+          "Protein-based",
+          "Bicarbonate-based",
+          "Amino acid-based",
+          "Phosphate-based"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Protein-based'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which buffer system has buffer capacity due to the bipolar nature of its molecules?",
+        "options": [
+          "Protein-based",
+          "Phosphate-based",
+          "Amino acid-based",
+          "Bicarbonate-based"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Amino acid-based'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which buffer solution keeps the pH constant in urine?",
+        "options": [
+          "Protein-based",
+          "Oxyhemoglobin-based",
+          "Phosphate-based",
+          "Amino acid-based"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Phosphate-based'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the name of the limit for the amount of acid or base that can be added to a buffer without significantly changing its pH?",
+        "options": [
+          "Concentration of acid or base",
+          "Buffer capacity",
+          "Buffer pH",
+          "Buffer concentration"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Buffer capacity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Buffer capacity is calculated for which volume of buffer solution?",
+        "options": [
+          "5 liters",
+          "1 liter",
+          "15 liters",
+          "10 liters"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is '1 liter'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is buffer capacity?",
+        "options": [
+          "The specific amount of base needed to change the pH by two units",
+          "The amount of water needed to change the buffer system's concentration",
+          "change the pH by one unit",
+          "The number of moles of acid or base that must be added to 1 liter of buffer solution to"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'The number of moles of acid or base that must be added to 1 liter of buffer solution to'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The number of moles of acid needed to change the pH of 1 liter of buffer solution by 1 unit If the pH = 3, what type of solution is this?",
+        "options": [
+          "Strong base",
+          "Weak acid",
+          "Strong acid",
+          "Weak base"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Strong acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Choose the carbonate buffer solution:",
+        "options": [
+          "NH₄Cl and NH₃",
+          "HCOOH and CH₃COONa",
+          "Na₂CO₃ and NaHCO₃",
+          "CH₃COOH and CH₃COONa"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Na₂CO₃ and NaHCO₃'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Choose the ammonia buffer solution:",
+        "options": [
+          "NH₄Cl and NH₃",
+          "Na₂CO₃ and NaHCO₃",
+          "HCOOH and CH₃COONa",
+          "CH₃COOH and CH₃COONa"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'NH₄Cl and NH₃'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Choose the acetate buffer solution:",
+        "options": [
+          "HCOOH and CH₃COONa",
+          "CH₃COOH and CH₃COONa",
+          "NH₄Cl and NH₃",
+          "Na₂CO₃ and NaHCO₃"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'CH₃COOH and CH₃COONa'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Choose the acidic buffer solution:",
+        "options": [
+          "HCOONa and CH₃COONa",
+          "Na₂SO₄ and NaHCO₃",
+          "CH₃COOH and CH₃COONa",
+          "NH₄Cl and NH₃"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'CH₃COOH and CH₃COONa'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Choose the basic buffer solution:",
+        "options": [
+          "CH₃COOH and CH₃COONa",
+          "NH₄Cl and NH₃",
+          "Na₂SO₄ and NaHCO₃",
+          "HCOONa and CH₃COONa"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'NH₄Cl and NH₃'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-10-8": [
+      {
+        "question": "What is a complex compound?",
+        "options": [
+          "A compound formed when a central atom bonds with ligands through coordinate",
+          "covalent bonds",
+          "A substance formed by simple covalent bonds",
+          "A mixture of ionic substances"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'A compound formed when a central atom bonds with ligands through coordinate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the central atom in a complex compound typically made of?",
+        "options": [
+          "A nonmetal atom",
+          "A metal atom or ion",
+          "Neutral molecules"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'A nonmetal atom'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What are chelates?",
+        "options": [
+          "Complexes formed when ligands with multiple bonding sites bind to a metal ion to",
+          "form a ring",
+          "Compounds formed by ionic bonds"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Compounds formed by ionic bonds'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Why is chelation therapy used?",
+        "options": [
+          "To enhance protein synthesis",
+          "To bind and remove toxic metal ions from the body",
+          "To promote muscle growth"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'To enhance protein synthesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What are the key elements involved in chelation reactions?",
+        "options": [
+          "Sodium and chloride ions",
+          "Carbon and hydrogen atoms",
+          "Nitrogen and oxygen atoms in ligands"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Sodium and chloride ions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an example of a chelating ligand?",
+        "options": [
+          "EDTA (Ethylenediaminetetraacetic acid)",
+          "Water (H₂O)",
+          "Ammonia (NH₃)"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'EDTA (Ethylenediaminetetraacetic acid)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the primary medical use of chelate complexes?",
+        "options": [
+          "Increasing calcium levels",
+          "Detoxification of toxic metals in the body",
+          "Enhancing enzyme activity"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Increasing calcium levels'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In a complex compound, what binds to the central atom?",
+        "options": [
+          "Ligands",
+          "Simple salts",
+          "Neutral molecules"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Neutral molecules'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an example of a chelate complex?",
+        "options": [
+          "[Cu(EDTA)]²⁻",
+          "[Fe(CN)₆]³⁻",
+          "NaCl"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'NaCl'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the function of EDTA in chelation therapy?",
+        "options": [
+          "It neutralizes acids",
+          "It binds toxic metal ions and removes them from the body",
+          "It promotes protein synthesis"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'It promotes protein synthesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What factors influence the formation of chelates?",
+        "options": [
+          "Only the pH of the solution",
+          "The molecular weight of the compound",
+          "Functional groups of the ligand and central atom properties"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Only the pH of the solution'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "When is chelation therapy most commonly recommended?",
+        "options": [
+          "In cases of heavy metal poisoning",
+          "For improving digestion",
+          "To treat calcium deficiency"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'For improving digestion'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What contributes to the stability of chelate complexes?",
+        "options": [
+          "The temperature of the environment",
+          "The ionic strength of the solution",
+          "The number of rings formed during chelation"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'The ionic strength of the solution'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How are chelates used in medicine?",
+        "options": [
+          "To detoxify toxic metals and improve health",
+          "To enhance blood circulation",
+          "To dissolve crystals in bones"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'To detoxify toxic metals and improve health'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What does the coordination number in a complex compound represent?",
+        "options": [
+          "The total molecular weight of the complex",
+          "The solubility of the compound",
+          "The number of ligands attached to the central atom"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The total molecular weight of the complex'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the primary advantage of chelation?",
+        "options": [
+          "Stabilizing metal ions by forming strong bonds",
+          "Enhancing enzymatic reactions",
+          "Dissolving toxic substances instantly"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Stabilizing metal ions by forming strong bonds'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In which field are chelate complexes widely used?",
+        "options": [
+          "Mechanics",
+          "Medicine",
+          "Electronics"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Electronics'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What group of substances typically forms chelates?",
+        "options": [
+          "Neutral salts",
+          "Simple covalent molecules",
+          "Polydentate ligands"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Neutral salts'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which ligand has a high chelating capacity?",
+        "options": [
+          "Polydentate ligands like EDTA",
+          "Monodentate ligands like NH₃",
+          "Neutral molecules like H₂O"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Polydentate ligands like EDTA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How are chelates used in toxicology?",
+        "options": [
+          "To dissolve solid substances",
+          "To neutralize and remove heavy metals from the body",
+          "To reduce acidity in the stomach"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'To dissolve solid substances'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where are inner complex compounds commonly formed?",
+        "options": [
+          "In organic and inorganic solutions",
+          "In metallic solids",
+          "In solid crystals only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In organic and inorganic solutions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What determines the stability constant of chelates?",
+        "options": [
+          "The ionic strength of water",
+          "The type of ligand and central atom",
+          "The temperature of the solution"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The ionic strength of water'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which organs are primarily involved in chelation therapy?",
+        "options": [
+          "Heart and lungs",
+          "Stomach and intestines",
+          "Liver and kidneys"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Heart and lungs'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which toxic metals are most commonly removed through chelation therapy?",
+        "options": [
+          "Magnesium and calcium",
+          "Sodium and potassium",
+          "Lead and mercury"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Magnesium and calcium'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How are complex compounds applied in medical diagnostics and treatment?",
+        "options": [
+          "For enhancing physical strength",
+          "For increasing acidity in blood",
+          "For detoxification and targeted delivery of therapeutic agents"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'For increasing acidity in blood'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-10-9": [
+      {
+        "question": "What is chemical kinetics?",
+        "options": [
+          "The study of the structure of compounds",
+          "The study of chemical equilibrium",
+          "The study of thermodynamics",
+          "The study of reaction rates and mechanisms"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'The study of reaction rates and mechanisms'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which factor directly affects the rate of a chemical reaction?",
+        "options": [
+          "Temperature",
+          "Shape of the molecules",
+          "Color of the reactants",
+          "Mass of the container"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Temperature'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How does an increase in temperature affect reaction rate?",
+        "options": [
+          "It has no effect on the reaction rate",
+          "It stops the reaction",
+          "It decreases the energy of activation",
+          "It increases the kinetic energy of the molecules, speeding up the reaction"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'It increases the kinetic energy of the molecules, speeding up the reaction'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the activation energy of a reaction?",
+        "options": [
+          "The total energy in the system",
+          "The energy released during the reaction",
+          "The minimum energy required for a reaction to occur",
+          "The energy required to break all bonds in the reactants"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'The minimum energy required for a reaction to occur'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a factor that influences reaction rate?",
+        "options": [
+          "The color of the solution",
+          "Atmospheric pressure",
+          "Concentration of reactants",
+          "Type of reaction container"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Concentration of reactants'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How does a catalyst affect the reaction rate?",
+        "options": [
+          "It lowers the activation energy, increasing the reaction rate",
+          "It does not affect the reaction rate",
+          "It raises the activation energy, slowing the reaction",
+          "It completely consumes the reactants"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It lowers the activation energy, increasing the reaction rate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is an enzyme ?",
+        "options": [
+          "A reactant in a chemical reaction",
+          "A biological catalyst that speeds up biochemical reactions",
+          "A product of a chemical reaction",
+          "A synthetic compound used in industry"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'A biological catalyst that speeds up biochemical reactions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of enzymes in enzymatic catalysis?",
+        "options": [
+          "To stop unwanted reactions",
+          "To maintain equilibrium in the reaction",
+          "To lower the activation energy of biochemical reactions",
+          "To act as reactants in the process"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'To lower the activation energy of biochemical reactions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which factor does not affect enzyme activity?",
+        "options": [
+          "Temperature and pH",
+          "Color of the enzyme",
+          "Presence of inhibitors",
+          "Substrate concentration"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Color of the enzyme'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do inhibitors affect enzymatic catalysis ?",
+        "options": [
+          "They convert enzymes into substrates",
+          "They do not affect enzyme activity",
+          "They increase enzyme activity by providing energy",
+          "They decrease enzyme activity by binding to the enzyme"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'They decrease enzyme activity by binding to the enzyme'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the Michaelis-Menten constant (Km)?",
+        "options": [
+          "A constant that measures the reaction speed",
+          "A measure of the substrate concentration at which the reaction rate is half of its maximum",
+          "value",
+          "The energy required to break enzyme-substrate bonds"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'A measure of the substrate concentration at which the reaction rate is half of its maximum'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The rate constant for all reactions How does substrate concentration affect enzymatic reactions?",
+        "options": [
+          "An increase in substrate concentration increases the reaction rate until the enzyme is",
+          "An increase in substrate concentration decreases reaction rate",
+          "saturated",
+          "Substrate concentration has no effect on reaction rate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'An increase in substrate concentration increases the reaction rate until the enzyme is'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Substrate concentration changes enzyme structure What is an example of an enzymatic reaction in the human body?",
+        "options": [
+          "The production of carbon dioxide from limestone",
+          "The breakdown of starch by amylase in the mouth",
+          "The reaction between acids and bases",
+          "The burning of fossil fuels"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'The breakdown of starch by amylase in the mouth'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What happens to enzymes at very high temperatures?",
+        "options": [
+          "They become more active",
+          "They stop binding to substrates temporarily",
+          "They denature and lose their catalytic properties",
+          "They increase reaction rate indefinitely"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'They denature and lose their catalytic properties'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a common use of enzymes in medicine?",
+        "options": [
+          "Neutralizing acids in the stomach",
+          "Producing new antibodies",
+          "Enzyme replacement therapy",
+          "Increasing drug solubility"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Enzyme replacement therapy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which enzyme is commonly used in diagnosing liver diseases?",
+        "options": [
+          "Alanine transaminase (ALT)",
+          "Lactase",
+          "Amylase",
+          "Catalase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Alanine transaminase (ALT)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of lactase in medicine?",
+        "options": [
+          "To treat protein deficiencies",
+          "To increase vitamin absorption",
+          "To help digest lactose in patients with lactose intolerance",
+          "To enhance immune response"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'To help digest lactose in patients with lactose intolerance'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the primary medical use of enzymatic catalysis?",
+        "options": [
+          "Promoting cell growth",
+          "Reducing muscle pain",
+          "Treating bacterial infections",
+          "Enhancing metabolic processes and diagnostics"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Enhancing metabolic processes and diagnostics'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What are coenzymes?",
+        "options": [
+          "Substrates in enzymatic reactions",
+          "Inhibitors that bind to the enzyme",
+          "Proteins that slow down reactions",
+          "Non-protein molecules that assist enzymes in catalysis"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Non-protein molecules that assist enzymes in catalysis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How does pH affect enzyme activity?",
+        "options": [
+          "Higher pH always increases enzyme activity",
+          "Lower pH always stops enzyme activity",
+          "pH has no effect on enzyme activity",
+          "Each enzyme has an optimal pH range for maximum activity"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Each enzyme has an optimal pH range for maximum activity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which enzyme is used to treat blood clots?",
+        "options": [
+          "Streptokinase",
+          "Catalase",
+          "Amylase",
+          "Lipase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Streptokinase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of catalase in the body?",
+        "options": [
+          "To break down hydrogen peroxide into water and oxygen",
+          "To break down carbohydrates",
+          "To speed up blood flow",
+          "To digest proteins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'To break down hydrogen peroxide into water and oxygen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What happens if enzyme inhibitors are present in high amounts?",
+        "options": [
+          "The enzyme becomes more active",
+          "The reaction rate decreases significantly",
+          "The reaction rate increases",
+          "The substrate becomes inactive"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'The reaction rate decreases significantly'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How are enzymes used in drug manufacturing?",
+        "options": [
+          "To make drugs insoluble",
+          "To inhibit drug solubility",
+          "To replace preservatives",
+          "To catalyze the production of active pharmaceutical ingredients"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'To catalyze the production of active pharmaceutical ingredients'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which is a key benefit of enzymatic catalysis in medicine?",
+        "options": [
+          "Reducing toxicity of all compounds",
+          "High specificity for target reactions",
+          "Increasing overall pH levels in the body",
+          "Preventing protein synthesis"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'High specificity for target reactions'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-10-10": [
+      {
+        "question": "What are dispers systems?",
+        "options": [
+          "Homogeneous mixtures",
+          "Pure substances",
+          "Gaseous mixtures",
+          "Systems where one substance is"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Systems where one substance is'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a characteristic of colloidal systems?",
+        "options": [
+          "The system is always homogeneous",
+          "The dispersed phase cannot be seen by the naked eye",
+          "The system is composed of only one substance",
+          "The dispersed phase is visible to the naked eye"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'The dispersed phase cannot be seen by the naked eye'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the size range of particles in a colloidal system?",
+        "options": [
+          "1 to 1000 nanometers",
+          "100 to 1000 micrometers",
+          "0.1 to 10 micrometers",
+          "1 to 100 micrometers"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '1 to 1000 nanometers'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "dispersed in another Which of the following is a common example of a colloidal system in medicine?",
+        "options": [
+          "Salt solution",
+          "Aerosols",
+          "Pure water",
+          "Sugar syrup"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Aerosols'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the structure of a colloidal system?",
+        "options": [
+          "A dispersed phase and a continuous phase",
+          "A single-phase system",
+          "A solid phase only",
+          "A crystalline structure"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'A dispersed phase and a continuous phase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which technique is used to prepare colloidal systems?",
+        "options": [
+          "Filtration method",
+          "Freezing method",
+          "Distillation method",
+          "Dispersion method"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Dispersion method'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the Tyndall effect observed in colloidal systems?",
+        "options": [
+          "Transmission of light without scattering",
+          "Complete absorption of light by colloidal particles",
+          "Reflection of light by colloidal particles",
+          "Scattering of light by colloidal particles"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Scattering of light by colloidal particles'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which method is commonly used to purify colloidal systems?",
+        "options": [
+          "Distillation",
+          "Dialysis",
+          "Evaporation",
+          "Filtration"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Dialysis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a characteristic of colloidal particles?",
+        "options": [
+          "They settle at the bottom rapidly",
+          "They remain suspended in the medium",
+          "They form a solid block",
+          "They evaporate easily"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They remain suspended in the medium'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an example of a pharmaceutical colloid?",
+        "options": [
+          "Powdered medications",
+          "Table salt",
+          "Injectable solutions",
+          "Glucose crystals"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Injectable solutions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the main characteristic of lyophilic colloids?",
+        "options": [
+          "They form stable solids",
+          "They have a strong affinity for the dispersing medium",
+          "They are always unstable",
+          "They do not mix with the dispersing medium"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They have a strong affinity for the dispersing medium'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a method for preparing colloidal dispersions?",
+        "options": [
+          "Boiling",
+          "Crystallization",
+          "Freezing",
+          "High-pressure homogenization"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'High-pressure homogenization'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the main use of colloidal silver in medicine?",
+        "options": [
+          "Blood thinner",
+          "Pain reliever",
+          "Antibacterial agent",
+          "Immunosuppressant"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Antibacterial agent'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How are colloidal systems used in drug delivery?",
+        "options": [
+          "To increase the viscosity of fluids",
+          "To remove toxic substances from the body",
+          "To improve the bioavailability of drugs",
+          "To decrease the shelf life of medications"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'To improve the bioavailability of drugs'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of surfactants in colloidal systems?",
+        "options": [
+          "To dissolve solid particles",
+          "To increase particle size",
+          "To filter impurities",
+          "To stabilize the dispersion of colloidal particles"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'To stabilize the dispersion of colloidal particles'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the function of colloidal systems in diagnostic imaging?",
+        "options": [
+          "They decrease the resolution of the images",
+          "They distort the image quality",
+          "They slow down the imaging process",
+          "They enhance the contrast in imaging techniques"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'They enhance the contrast in imaging techniques'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a typical use of colloidal systems in cosmetics?",
+        "options": [
+          "To separate active ingredients from inactive components",
+          "To increase the solubility of water in oils",
+          "To solidify cosmetic products",
+          "To stabilize emulsions in creams and lotions"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'To stabilize emulsions in creams and lotions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How are colloidal systems classified based on their dispersion medium?",
+        "options": [
+          "Solvents and solutes",
+          "Organic and inorganic",
+          "Aerosols, foams, gels, sols",
+          "Liquids, gases, solids"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Aerosols, foams, gels, sols'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the importance of colloidal systems in the pharmaceutical industry?",
+        "options": [
+          "They enhance the color of the medicine",
+          "They help in dissolving the active ingredients",
+          "They are used for packaging medications",
+          "They facilitate controlled drug release"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'They facilitate controlled drug release'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an example of a colloidal gel used in medicine?",
+        "options": [
+          "Alcohol-based solutions",
+          "Hydrogel wound dressings",
+          "Salt solutions",
+          "Solid tablets"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Hydrogel wound dressings'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What property of colloidal systems is used to separate particles in purification methods?",
+        "options": [
+          "Diffusion rate",
+          "Surface charge",
+          "Melting point",
+          "Sedimentation rate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Diffusion rate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which method is used to determine the size of particles in a colloidal system?",
+        "options": [
+          "Refractometry",
+          "Dynamic light scattering",
+          "Spectroscopy",
+          "Filtration"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Dynamic light scattering'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an application of colloidal systems in medical imaging?",
+        "options": [
+          "Magnetic resonance imaging (MRI)",
+          "Optical coherence tomography",
+          "Ultrasonic scanning",
+          "X-ray reflection"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Magnetic resonance imaging (MRI)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How can colloidal systems help in targeted drug delivery?",
+        "options": [
+          "By dissolving drugs faster in the bloodstream",
+          "By encapsulating drugs within nanoparticles for specific release",
+          "By reducing the dosage of drugs required",
+          "By preventing drug absorption in the digestive system"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'By encapsulating drugs within nanoparticles for specific release'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an example of a colloidal system used in vaccines?",
+        "options": [
+          "Solid tablets for oral administration",
+          "Crystalline antibody solutions",
+          "Liposomal formulations for drug delivery",
+          "Diluted saline solutions"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Liposomal formulations for drug delivery'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-10-11": [
+      {
+        "question": "Surfactants have the following properties:",
+        "options": [
+          "Partially changes surface activity",
+          "Increases surface activity",
+          "Generates surface energy",
+          "Reduces surface activity"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Reduces surface activity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An adsorbent is a substance that:",
+        "options": [
+          "Breaks down other substances on its surface",
+          "Absorbs the molecules or ions of another substance on its surface",
+          "Distributes other substances evenly",
+          "Dissolves other substances on its surface"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Absorbs the molecules or ions of another substance on its surface'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The Gibbs equation relates the amount of adsorption to the following parameter:",
+        "options": [
+          "Coagulation",
+          "Hydrophilicity",
+          "Degree of dispersity",
+          "Surface activity"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Surface activity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An adsorptive is a substance that:",
+        "options": [
+          "Is adsorbed on the surface of other substances",
+          "Increases surface tension",
+          "Changes surface tension",
+          "Adsorbs other substances on its surface"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Is adsorbed on the surface of other substances'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The reverse process of adsorption is called:",
+        "options": [
+          "Absorption",
+          "Sorption",
+          "Chemisorption",
+          "Desorption"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Desorption'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Hydrophilic surfaces:",
+        "options": [
+          "Interact with water",
+          "Do not absorb substances",
+          "Do not interact with organic solvents",
+          "Do not interact with water"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Interact with water'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Hydrophobic surfaces:",
+        "options": [
+          "Do not interact with organic solvents",
+          "Do not interact with water",
+          "Do not absorb substances",
+          "Interact with organic solvents"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Do not interact with water'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Chromatography is a physical-chemical method based on the following characteristic of the adsorbent:",
+        "options": [
+          "Selectively absorbing solvent molecules",
+          "Selectively adsorbing dissolved substances",
+          "Changing the color of dissolved substances",
+          "Compressing the adsorbed substances"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Selectively adsorbing dissolved substances'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "If the dissolved substance increases the surface tension of the solvent, adsorption will be:",
+        "options": [
+          "Negative",
+          "Neutralizing",
+          "Positive",
+          "Selective"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Negative'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "If the dissolved substance decreases the surface tension of the solvent, adsorption will be:",
+        "options": [
+          "Bilayer",
+          "Neutralizing",
+          "Selective",
+          "Positive"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Positive'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In the adsorption isotherm, the relationship between adsorption and concentration is shown, with the following condition required:",
+        "options": [
+          "Constant temperature",
+          "Variable temperature",
+          "Constant pressure",
+          "Temperature not depending on pressure"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Constant temperature'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The core and adsorption layer composition is:",
+        "options": [
+          "Diffusion layer and potential determining ions",
+          "Adsorption and diffusion layers",
+          "Core and adsorption layer",
+          "Diffusion and adsorption layers"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Core and adsorption layer'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The composition of a micelle:",
+        "options": [
+          "Core and adsorption layer",
+          "Core, adsorption, and diffusion layers together",
+          "Adsorption and diffusion layers",
+          "Core and diffusion layer"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Core, adsorption, and diffusion layers together'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Processes occurring at the phase boundary:",
+        "options": [
+          "Intramolecular processes",
+          "Boiling",
+          "Surface phenomena",
+          "Evaporation"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Surface phenomena'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The mathematical expression for calculating surface tension is:",
+        "options": [
+          "σ = nRT",
+          "σ = S/G",
+          "σ = C/RT",
+          "σ = G/S"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'σ = G/S'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Surface-active substances do not include:",
+        "options": [
+          "Fatty acid salt",
+          "Hydrochloric acid",
+          "Protein",
+          "Diethyl ether"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Hydrochloric acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The energy of molecules located on the surface:",
+        "options": [
+          "Surface energy",
+          "Entropy",
+          "Enthalpy",
+          "Helmholtz energy"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Surface energy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Adsorption is:",
+        "options": [
+          "The increase in the volume of substances",
+          "The change in concentration of components on the surface layer relative to the open phase",
+          "The change in concentration of components in the main part relative to the surface layer",
+          "The process by which a substance integrates into the entire volume of another substance"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'The change in concentration of components on the surface layer relative to the open phase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Surface-active substances include:",
+        "options": [
+          "Calcium hydroxide",
+          "Hydrochloric acid",
+          "Isopropyl alcohol",
+          "Sodium chloride"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Isopropyl alcohol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Surface tension is measured in:",
+        "options": [
+          "J/m²",
+          "J/cm",
+          "N/cm²",
+          "N/m²"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'J/m²'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Methods for measuring surface tension include:",
+        "options": [
+          "Stalagmometric method",
+          "Complexometry",
+          "Potentiometric method",
+          "Trommer method"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Stalagmometric method'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The increase in concentration of one or more components in the surface layer of the adsorbent is:",
+        "options": [
+          "Desorption",
+          "Adsorption",
+          "Absorption",
+          "Chemisorption"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Adsorption'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Absorption is:",
+        "options": [
+          "The change in concentration of components on the surface layer relative to the open phase",
+          "The increase in the volume of substances",
+          "The integration of a substance into the entire volume of another substance",
+          "The change in concentration of components in the main part relative to the surface layer"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'The integration of a substance into the entire volume of another substance'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Sorption is:",
+        "options": [
+          "The adsorption of gases and vapors by solid materials",
+          "The method of analyzing weight",
+          "The evaporation process",
+          "The separation of adsorbent and adsorbed material"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The adsorption of gases and vapors by solid materials'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An adsorbent is:",
+        "options": [
+          "An adsorbed substance",
+          "The initial material",
+          "A solid body where adsorption occurs",
+          "The working solution"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'A solid body where adsorption occurs'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Chemisorption is:",
+        "options": [
+          "The binding of toxins in the gastrointestinal tract",
+          "The evaporation process",
+          "The breakdown of hemoglobin",
+          "The purification of blood from toxins through adsorbents"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'The purification of blood from toxins through adsorbents'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Adsorption is:",
+        "options": [
+          "A titrant",
+          "A substance that adsorbs",
+          "A reaction product",
+          "An adsorbed substance"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'An adsorbed substance'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Enterosorption is:",
+        "options": [
+          "The binding of toxins in the gastrointestinal tract",
+          "The evaporation process",
+          "The breakdown of hemoglobin",
+          "The purification of blood from toxins through adsorbents"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The binding of toxins in the gastrointestinal tract'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Washing adsorbed substances from the adsorbent using solvents is called:",
+        "options": [
+          "Through adsorption",
+          "Hydration",
+          "Through absorption",
+          "Elution"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Elution'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The first rule of Panet-Fayans states:",
+        "options": [
+          "Polar adsorbents bind better to polar adsorbents",
+          "Only ions with opposite charges to the adsorbent’s surface charge are adsorbed",
+          "The crystal lattice of the adsorbent is filled with ions that are part of it",
+          "The crystal lattice of the adsorbent is filled not only with the ions in its composition"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'The crystal lattice of the adsorbent is filled with ions that are part of it'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Ion exchange adsorption is:",
+        "options": [
+          "The ion exchange process occurring in strict equivalent ratios",
+          "The adsorption of gases and vapors by solid materials",
+          "The electron exchange process",
+          "The molecular exchange process"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The ion exchange process occurring in strict equivalent ratios'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "From the given examples, choose the cation exchanger:",
+        "options": [
+          "AnCl-",
+          "AnOH-",
+          "AnSO₄²⁻",
+          "Kat-H+"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Kat-H+'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-10-12": [
+      {
+        "question": "What is a polyfunctional compound?",
+        "options": [
+          "A compound that contains two or more functional groups",
+          "A compound that does not react with other substances",
+          "A compound that is purely inorganic",
+          "A compound with only one functional group"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'A compound that contains two or more functional groups'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an example of a polyfunctional compound?",
+        "options": [
+          "Acetaminophen",
+          "Carbon dioxide",
+          "Sodium chloride",
+          "Methane"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acetaminophen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What role do polyfunctional compounds play in medicine?",
+        "options": [
+          "They act solely as preservatives",
+          "They are used as solvents only",
+          "They are only used in food processing",
+          "They serve as drugs and metabolites"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'They serve as drugs and metabolites'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a polyfunctional metabolite used in medicine?",
+        "options": [
+          "Sodium chloride",
+          "Glucose",
+          "Water",
+          "Glutathione"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Glutathione'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Polyfunctional compounds are important in drug design because they:",
+        "options": [
+          "Can only interact with enzymes",
+          "Have only one interaction site",
+          "Are completely inert",
+          "Can interact with multiple targets"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Can interact with multiple targets'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What functional groups are commonly found in polyfunctional compounds?",
+        "options": [
+          "Hydrocarbon chains only",
+          "Halide groups only",
+          "Ester groups only",
+          "Alcohol, amine, and carboxyl groups"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Alcohol, amine, and carboxyl groups'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a common use of polyfunctional compounds in medicine?",
+        "options": [
+          "As therapeutic agents",
+          "As disinfectants",
+          "As fertilizers",
+          "As flavor enhancers"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'As therapeutic agents'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following polyfunctional compounds is used as an analgesic?",
+        "options": [
+          "Benzene",
+          "Sodium bicarbonate",
+          "Methanol",
+          "Acetaminophen"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Acetaminophen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do polyfunctional compounds like antibiotics work in the body?",
+        "options": [
+          "By promoting sleep",
+          "By increasing blood pressure",
+          "By altering skin pigmentation",
+          "By targeting specific bacteria or fungi"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'By targeting specific bacteria or fungi'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which metabolic pathway involves polyfunctional compounds like ATP?",
+        "options": [
+          "Photosynthesis",
+          "Glycolysis",
+          "Nitrogen fixation",
+          "Cellular respiration"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Cellular respiration'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which polyfunctional compound is commonly used to treat bacterial infections?",
+        "options": [
+          "Glucose",
+          "Acetaminophen",
+          "Sodium chloride",
+          "Penicillin"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Penicillin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Polyfunctional compounds are important for the synthesis of:",
+        "options": [
+          "Oxygen",
+          "Water",
+          "Carbon dioxide",
+          "Proteins and nucleic acids"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Proteins and nucleic acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following polyfunctional compounds is involved in the inflammatory response?",
+        "options": [
+          "Prostaglandins",
+          "Insulin",
+          "Collagen",
+          "Hemoglobin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Prostaglandins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do polyfunctional compounds act as antioxidants in medicine?",
+        "options": [
+          "By increasing blood flow",
+          "By neutralizing free radicals",
+          "By speeding up metabolism",
+          "By improving digestion"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'By neutralizing free radicals'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a polyfunctional compound with anti-cancer properties?",
+        "options": [
+          "Glucose",
+          "Curcumin",
+          "Urea",
+          "Sodium chloride"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Curcumin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Polyfunctional compounds like steroids are used in medicine for:",
+        "options": [
+          "Controlling blood pressure",
+          "Enhancing taste",
+          "Increasing appetite",
+          "Anti-inflammatory purposes"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Anti-inflammatory purposes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which polyfunctional compound is known for its role in pain relief and inflammation reduction?",
+        "options": [
+          "Glucose",
+          "Aspirin",
+          "Sodium chloride",
+          "Methane"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Aspirin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do polyfunctional metabolites affect the central nervous system?",
+        "options": [
+          "By modulating neurotransmitter levels",
+          "By increasing blood sugar levels",
+          "By improving skin elasticity",
+          "By altering digestion processes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'By modulating neurotransmitter levels'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which polyfunctional compound is involved in the regulation of blood sugar levels?",
+        "options": [
+          "Cortisol",
+          "Vitamin C",
+          "Insulin",
+          "Sodium chloride"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Insulin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In what form do polyfunctional compounds typically exist when used as drugs?",
+        "options": [
+          "As water-soluble salts",
+          "As inactive metabolites",
+          "As insoluble crystals",
+          "As active pharmaceutical ingredients"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'As active pharmaceutical ingredients'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a polyfunctional compound that can be used to treat heart disease?",
+        "options": [
+          "Acetaminophen",
+          "Nitroglycerin",
+          "Sodium bicarbonate",
+          "Magnesium sulfate"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Nitroglycerin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Polyfunctional compounds in metabolic pathways can act as:",
+        "options": [
+          "Structural components only",
+          "Water carriers only",
+          "Energy sources exclusively",
+          "Enzyme inhibitors or activators"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Enzyme inhibitors or activators'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a key characteristic of polyfunctional compounds used in chemotherapy?",
+        "options": [
+          "They provide nutrition to the body",
+          "They target specific cancer cells",
+          "They act as general pain relievers",
+          "They increase the growth of healthy cells"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They target specific cancer cells'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which polyfunctional compound is involved in the body's response to stress?",
+        "options": [
+          "Thyroxine",
+          "Serotonin",
+          "Cortisol",
+          "Estrogen"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Cortisol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Polyfunctional compounds like antioxidants are often included in drugs to:",
+        "options": [
+          "Increase blood pressure",
+          "Promote digestion",
+          "Reduce appetite",
+          "Prevent oxidative damage"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Prevent oxidative damage'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What are heterofunctional compounds used for in medicine?",
+        "options": [
+          "The production of food additives",
+          "The manufacturing of synthetic fibers",
+          "The creation of plastic materials",
+          "The synthesis of drugs and metabolites"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'The synthesis of drugs and metabolites'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an example of a heterofunctional compound used as a medicinal agent?",
+        "options": [
+          "Water",
+          "Sodium chloride",
+          "Penicillin",
+          "Glucose"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Penicillin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do heterofunctional compounds interact in the body?",
+        "options": [
+          "They neutralize acidic substances",
+          "They serve as therapeutic agents and interact with biological targets",
+          "They provide energy to cells only",
+          "They function solely as preservatives"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They serve as therapeutic agents and interact with biological targets'. This choice aligns with the established clinical curriculum."
+      }
+    ]
+  },
+  "s-1-11": {
+    "t-s-1-11-13": [
+      {
+        "question": "What role do heterofunctional compounds play in drug development?",
+        "options": [
+          "They allow for targeting multiple disease mechanisms",
+          "They are used only in the preparation of vaccines",
+          "They are used exclusively for diagnostic purposes",
+          "They serve as food preservatives"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They allow for targeting multiple disease mechanisms'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What type of functional groups are typically present in heterofunctional compounds?",
+        "options": [
+          "Hydrocarbon chains",
+          "Halide groups",
+          "Alcohol, amine, and carboxyl groups",
+          "Only ester groups"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Alcohol, amine, and carboxyl groups'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which heterofunctional compound is commonly used as an antibiotic?",
+        "options": [
+          "Sodium chloride",
+          "Amoxicillin",
+          "Water",
+          "Methane"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Amoxicillin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do heterofunctional compounds contribute to metabolism?",
+        "options": [
+          "They act as intermediates in metabolic pathways",
+          "They increase the energy required for cellular processes",
+          "They serve only as storage molecules",
+          "They act as DNA builders"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They act as intermediates in metabolic pathways'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the significance of heterofunctional compounds in the synthesis of medicines?",
+        "options": [
+          "They act as preservatives without any other medicinal value",
+          "They enhance the specificity and efficiency of drug interactions",
+          "They function as carriers in drug delivery",
+          "They only increase the shelf-life of drugs"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They enhance the specificity and efficiency of drug interactions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which heterofunctional compound is involved in anti-inflammatory action?",
+        "options": [
+          "Sodium chloride",
+          "Caffeine",
+          "Chlorine",
+          "Aspirin"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Aspirin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do heterofunctional compounds influence disease treatment?",
+        "options": [
+          "They simply neutralize the presence of pathogens",
+          "They increase the acidity of tissues",
+          "They target specific molecular pathways in the body",
+          "They provide a source of energy for infected cells"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'They target specific molecular pathways in the body'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Heterofunctional compounds are primarily used in medicine for:",
+        "options": [
+          "Treating various diseases",
+          "Promoting hair growth",
+          "Increasing metabolic rate",
+          "Enhancing digestive functions"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Treating various diseases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which class of drugs includes heterofunctional compounds?",
+        "options": [
+          "Minerals",
+          "Vitamins",
+          "Antibiotics",
+          "Enzymes"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Antibiotics'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which heterofunctional compound is used in the treatment of bacterial infections?",
+        "options": [
+          "Glucose",
+          "Penicillin",
+          "Caffeine",
+          "Insulin"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Penicillin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the primary use of heterofunctional compounds like aspirin?",
+        "options": [
+          "Pain relief and anti-inflammatory purposes",
+          "Improving digestive health",
+          "Improving hair growth",
+          "Increasing muscle mass"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pain relief and anti-inflammatory purposes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Heterofunctional compounds are important because they:",
+        "options": [
+          "Serve as food preservatives",
+          "Can interact with multiple biological targets",
+          "Enhance the shelf life of non-pharmaceutical products",
+          "Are used in genetic engineering"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Can interact with multiple biological targets'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How are heterofunctional compounds metabolized in the body?",
+        "options": [
+          "Through enzymatic processes",
+          "Through simple absorption",
+          "Without any alteration in the body",
+          "By passive diffusion only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Through enzymatic processes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which heterofunctional compound is known for its role in treating hypertension?",
+        "options": [
+          "Glucose",
+          "Sodium chloride",
+          "Chlorophyll",
+          "ACE inhibitors"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'ACE inhibitors'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What makes heterofunctional compounds versatile in drug design?",
+        "options": [
+          "Their ability to bind to various receptors",
+          "Their sole role in preserving drugs",
+          "Their function in increasing drug solubility",
+          "Their involvement in food processing only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Their ability to bind to various receptors'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Heterofunctional compounds in medicine may act as:",
+        "options": [
+          "Energy storage molecules only",
+          "Structural components only",
+          "Water carriers only",
+          "Antioxidants or anti-inflammatory agents"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Antioxidants or anti-inflammatory agents'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a heterofunctional compound used to treat pain?",
+        "options": [
+          "Water",
+          "Ibuprofen",
+          "Sodium chloride",
+          "Glucose"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Ibuprofen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do heterofunctional compounds contribute to pharmaceutical formulations?",
+        "options": [
+          "They enhance drug bioavailability",
+          "They work to increase drug resistance",
+          "They only act as inactive carriers",
+          "They serve as colorants for tablets"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They enhance drug bioavailability'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a primary benefit of using heterofunctional compounds in drug development?",
+        "options": [
+          "Their ability to improve flavor",
+          "Their potential to serve as preservatives",
+          "Their ability to address multiple drug targets",
+          "Their role in altering drug color"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Their ability to address multiple drug targets'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an important characteristic of heterofunctional compounds in drug development?",
+        "options": [
+          "Their inertness in the body",
+          "Their incompatibility with other drugs",
+          "Their limited interaction with biological systems",
+          "Their ability to undergo functional transformations"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Their ability to undergo functional transformations'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In the context of drug design, heterofunctional compounds are:",
+        "options": [
+          "Not used in modern pharmacology",
+          "Used solely for aesthetic purposes",
+          "Key for optimizing drug efficacy",
+          "Involved in increasing the toxicity of drugs"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Key for optimizing drug efficacy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Heterofunctional compounds are critical in:",
+        "options": [
+          "Enhancing flavor in food products",
+          "Developing non-pharmaceutical products",
+          "Designing drugs that target specific biological processes",
+          "Creating preservatives for food storage"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Designing drugs that target specific biological processes'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-11-14": [
+      {
+        "question": "What is an aromatic heterofunctional compound?",
+        "options": [
+          "A compound containing only an aromatic ring",
+          "A compound containing only one functional group",
+          "A compound containing no functional groups",
+          "A compound containing an aromatic ring and multiple functional groups"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'A compound containing an aromatic ring and multiple functional groups'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an example of an aromatic heterofunctional compound?",
+        "options": [
+          "Paracetamol",
+          "Glucose",
+          "Methane",
+          "Sodium chloride"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Paracetamol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Why are aromatic heterofunctional compounds significant in medicine?",
+        "options": [
+          "They are primarily used as flavoring agents",
+          "They are used only as preservatives",
+          "They act as inert substances",
+          "They serve as active pharmaceutical ingredients"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'They serve as active pharmaceutical ingredients'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the key feature of aromatic heterofunctional compounds in drug design?",
+        "options": [
+          "Their exclusivity to non-biological systems",
+          "Their ability to interact with multiple biological targets",
+          "Their inability to dissolve in water",
+          "Their lack of reactivity"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Their ability to interact with multiple biological targets'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which aromatic heterofunctional compound is used as an analgesic?",
+        "options": [
+          "Methanol",
+          "Sodium bicarbonate",
+          "Benzene",
+          "Aspirin"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Aspirin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do aromatic heterofunctional compounds act in the body?",
+        "options": [
+          "By acting as energy storage molecules",
+          "By binding to specific enzymes and receptors",
+          "By forming structural components only",
+          "By remaining inert"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'By binding to specific enzymes and receptors'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which functional groups are commonly present in aromatic heterofunctional compounds?",
+        "options": [
+          "Halides only",
+          "Hydroxyl, amine, and carboxyl groups",
+          "Alkyl chains only",
+          "Hydrocarbons only"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Hydroxyl, amine, and carboxyl groups'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the medical use of aromatic heterofunctional compounds like sulfonamides?",
+        "options": [
+          "As antibacterial agents",
+          "As flavor enhancers",
+          "As emulsifiers",
+          "As sweetening agents"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'As antibacterial agents'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What role does phenol, an aromatic heterofunctional compound, play in medicine?",
+        "options": [
+          "It is used as an inert filler",
+          "It is used as a fertilizer",
+          "It is used as an antiseptic",
+          "It is used as a flavoring agent"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'It is used as an antiseptic'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which aromatic heterofunctional compound is a common anesthetic?",
+        "options": [
+          "Methane",
+          "Glucose",
+          "Sodium chloride",
+          "Lidocaine"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Lidocaine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do aromatic heterofunctional compounds contribute to cancer treatment?",
+        "options": [
+          "By targeting specific tumor cells",
+          "By inhibiting blood circulation",
+          "By promoting metastasis",
+          "By increasing tumor growth"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'By targeting specific tumor cells'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of aromatic heterofunctional compounds in anti-inflammatory medications?",
+        "options": [
+          "They suppress the immune system entirely",
+          "They enhance bacterial growth",
+          "They promote inflammation",
+          "They inhibit inflammatory pathways"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'They inhibit inflammatory pathways'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which aromatic heterofunctional compound is used in the treatment of fungal infections?",
+        "options": [
+          "Methane",
+          "Ketoconazole",
+          "Glucose",
+          "Water"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Ketoconazole'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Why are aromatic heterofunctional compounds like antihistamines used in medicine?",
+        "options": [
+          "To alleviate allergic reactions",
+          "To induce sleep exclusively",
+          "To cause inflammation",
+          "To inhibit blood clotting"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'To alleviate allergic reactions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the main use of aromatic heterofunctional compounds in antibiotics?",
+        "options": [
+          "They promote bacterial growth",
+          "They act as nutrient sources",
+          "They inhibit bacterial growth",
+          "They are used as solvents"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'They inhibit bacterial growth'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which aromatic heterofunctional compound is used as an anticoagulant?",
+        "options": [
+          "Warfarin",
+          "Sodium bicarbonate",
+          "Water",
+          "Methane"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Warfarin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do aromatic heterofunctional compounds act as antioxidants?",
+        "options": [
+          "By increasing free radicals",
+          "By neutralizing free radicals",
+          "By promoting oxidation",
+          "By damaging cellular structures"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'By neutralizing free radicals'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following aromatic heterofunctional compounds is used as a vasodilator?",
+        "options": [
+          "Glucose",
+          "Nitroglycerin",
+          "Methane",
+          "Sodium chloride"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Nitroglycerin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of aromatic heterofunctional compounds in neurotransmission?",
+        "options": [
+          "They regulate the synthesis and release of neurotransmitters",
+          "They inhibit neural activity",
+          "They degrade synaptic connections",
+          "They block neurotransmitter production"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They regulate the synthesis and release of neurotransmitters'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which aromatic heterofunctional compound is used as an antipyretic?",
+        "options": [
+          "Paracetamol",
+          "Sodium bicarbonate",
+          "Benzene",
+          "Methanol"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Paracetamol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do aromatic heterofunctional compounds act in cardiovascular drugs?",
+        "options": [
+          "By regulating blood pressure and heart rate",
+          "By promoting atherosclerosis",
+          "By inhibiting oxygen transport",
+          "By causing arrhythmias"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'By regulating blood pressure and heart rate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which aromatic heterofunctional compound is used in the synthesis of antidepressants?",
+        "options": [
+          "Sodium chloride",
+          "Glucose",
+          "Methane",
+          "Serotonin analogs"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Serotonin analogs'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a common characteristic of aromatic heterofunctional compounds used in chemotherapy?",
+        "options": [
+          "They target rapidly dividing cells",
+          "They cause random mutations",
+          "They are entirely non-toxic",
+          "They promote healthy cell division"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They target rapidly dividing cells'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which aromatic heterofunctional compound is a precursor for many essential drugs?",
+        "options": [
+          "Methanol",
+          "Glucose",
+          "Benzyl chloride",
+          "Sodium bicarbonate"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Benzyl chloride'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the significance of aromatic heterofunctional compounds in antiviral drugs?",
+        "options": [
+          "They inhibit viral replication",
+          "They destroy host cells directly",
+          "They promote viral growth",
+          "They act as nutrient carriers"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They inhibit viral replication'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-11-15": [
+      {
+        "question": "What are 5-membered heterocyclic compounds primarily used for in medicine?",
+        "options": [
+          "They serve as active pharmaceutical ingredients",
+          "They function as inert substances in the body",
+          "They are involved only in industrial applications",
+          "They are used solely as food additives"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They serve as active pharmaceutical ingredients'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an example of a 5-membered heterocyclic compound used in medicine?",
+        "options": [
+          "Acetone",
+          "Imidazole",
+          "Water",
+          "Chlorine"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Imidazole'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do 5-membered heterocyclic compounds function in neuromodulation?",
+        "options": [
+          "They act as preservatives",
+          "They only serve as energy sources",
+          "They interact with neurotransmitter systems",
+          "They have no effect on the nervous system"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'They interact with neurotransmitter systems'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which 5-membered heterocyclic compound is used in the treatment of fungal infections?",
+        "options": [
+          "Glucose",
+          "Fluconazole",
+          "Vitamin C",
+          "Sodium chloride"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Fluconazole'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "5-membered heterocyclic compounds can act as:",
+        "options": [
+          "Food preservatives",
+          "Water carriers only",
+          "Sources of vitamins",
+          "Antifungal and antibacterial agents"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Antifungal and antibacterial agents'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What role do heterocyclic compounds play in designing neuroactive drugs?",
+        "options": [
+          "They are used to create food coloring agents",
+          "They serve as modulators of neurotransmitter receptors",
+          "They enhance the absorption of nutrients",
+          "They are only used in diagnostic imaging"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They serve as modulators of neurotransmitter receptors'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an example of a neuromodulator containing a 5-membered heterocycle?",
+        "options": [
+          "Histamine",
+          "Cortisol",
+          "Insulin",
+          "Glucose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Histamine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "5-membered heterocyclic compounds are important because:",
+        "options": [
+          "They are used solely for energy production",
+          "They can alter brain chemistry to treat neurological disorders",
+          "They aid in digestion",
+          "They are used in food production"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They can alter brain chemistry to treat neurological disorders'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which 5-membered heterocyclic compound has anti-inflammatory properties?",
+        "options": [
+          "Methanol",
+          "Sodium bicarbonate",
+          "Caffeine",
+          "Chlorine"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Caffeine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do 5-membered heterocyclic compounds affect the central nervous system?",
+        "options": [
+          "They reduce energy expenditure",
+          "They directly bind to oxygen molecules",
+          "They modulate neurotransmitter release",
+          "They influence digestive processes"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'They modulate neurotransmitter release'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "5-membered heterocyclic compounds can be classified as:",
+        "options": [
+          "Food ingredients only",
+          "Solvents",
+          "Therapeutic agents",
+          "Coloring agents"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Therapeutic agents'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a therapeutic application of 5-membered heterocyclic compounds?",
+        "options": [
+          "Neutralizing toxins",
+          "Increasing blood pressure",
+          "Providing nutrition",
+          "Treating fungal infections"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Treating fungal infections'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a primary characteristic of condensed heterocyclic compounds?",
+        "options": [
+          "They are composed of fused rings",
+          "They contain no nitrogen atoms",
+          "They are used only for energy storage",
+          "They are simple linear molecules"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They are composed of fused rings'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the function of heterocyclic neuromodulators?",
+        "options": [
+          "They promote digestion",
+          "They are used to treat respiratory disorders",
+          "They assist in energy production",
+          "They alter neural signaling to affect mood and behavior"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'They alter neural signaling to affect mood and behavior'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Condensed heterocyclic compounds are often used in medicine to:",
+        "options": [
+          "Improve hair growth",
+          "Target bacterial and fungal infections",
+          "Increase appetite",
+          "Regulate digestion"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Target bacterial and fungal infections'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do condensed heterocyclic compounds contribute to drug efficacy?",
+        "options": [
+          "They enhance the binding to biological receptors",
+          "They serve as colorants in medications",
+          "They only act as food preservatives",
+          "They increase the shelf-life of drugs"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They enhance the binding to biological receptors'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which 5-membered heterocyclic compound is used as an antidepressant?",
+        "options": [
+          "Caffeine",
+          "Sodium chloride",
+          "Glucose",
+          "Fluoxetine"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Fluoxetine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Condensed heterocyclic compounds are typically used in:",
+        "options": [
+          "Antiviral drug development",
+          "Nutritional supplements",
+          "Skin care products",
+          "Food flavoring"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Antiviral drug development'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a key characteristic of heterocyclic compounds in terms of drug design?",
+        "options": [
+          "They provide structural diversity for targeting multiple diseases",
+          "They help to create non-toxic compounds",
+          "They are solely used to increase food shelf-life",
+          "They work only as colorants"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They provide structural diversity for targeting multiple diseases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a 5-membered heterocyclic compound used in treating parasitic infections?",
+        "options": [
+          "Caffeine",
+          "Albendazole",
+          "Glucose",
+          "Chlorine"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Albendazole'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do condensed heterocyclic compounds work as neuroprotective agents?",
+        "options": [
+          "By preventing neuronal damage and improving cognitive function",
+          "By acting as anti-inflammatory agents",
+          "By enhancing digestion",
+          "By neutralizing toxins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'By preventing neuronal damage and improving cognitive function'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of 5-membered heterocyclic compounds in antifungal treatments?",
+        "options": [
+          "They increase fungal growth",
+          "They act as preservatives",
+          "They target fungal cell wall synthesis",
+          "They reduce fungal resistance"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'They target fungal cell wall synthesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "5-membered heterocyclic compounds can act as:",
+        "options": [
+          "Energy sources",
+          "Food preservatives",
+          "Enzyme inhibitors in drug therapy",
+          "Plasticizers"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Enzyme inhibitors in drug therapy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an example of a neuromodulator with a 5-membered heterocycle?",
+        "options": [
+          "Serotonin",
+          "Urea",
+          "Chlorine",
+          "Glucose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Serotonin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How are 5-membered heterocyclic compounds metabolized in the body?",
+        "options": [
+          "By simple absorption",
+          "They are excreted unchanged",
+          "Through enzymatic transformations",
+          "Without modification"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Through enzymatic transformations'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-11-16": [
+      {
+        "question": "What are 6-membered heterocyclic compounds used for in medicine?",
+        "options": [
+          "They serve only as colorants",
+          "They are active ingredients in various medications",
+          "They are used in the production of plastics",
+          "They are used in food processing only"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They are active ingredients in various medications'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an example of a 6-membered heterocyclic compound used as a medicinal agent?",
+        "options": [
+          "Sodium chloride",
+          "Glucose",
+          "Pyrimidine",
+          "Acetone"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Pyrimidine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do 6-membered heterocyclic compounds function in the body?",
+        "options": [
+          "They serve only as energy sources",
+          "They neutralize free radicals",
+          "They act as preservatives in food",
+          "They modulate enzymes and receptors"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'They modulate enzymes and receptors'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which 6-membered heterocyclic compound is used in cancer treatment?",
+        "options": [
+          "Water",
+          "Vitamin D",
+          "Methotrexate",
+          "Caffeine"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Methotrexate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of 6-membered heterocyclic compounds in neurology?",
+        "options": [
+          "They act as modulators of neurotransmitter systems",
+          "They influence cellular growth only",
+          "They are used only for energy production",
+          "They assist in digestion"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They act as modulators of neurotransmitter systems'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an example of a 6-membered heterocyclic compound involved in brain function?",
+        "options": [
+          "Sodium bicarbonate",
+          "Glucose",
+          "Chlorine",
+          "Pyridoxine"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Pyridoxine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "6-membered heterocyclic compounds can act as:",
+        "options": [
+          "Structural components only",
+          "Enzyme inhibitors in drug therapies",
+          "Coloring agents only",
+          "Food preservatives"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Enzyme inhibitors in drug therapies'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which 6-membered heterocyclic compound is used to treat bacterial infections?",
+        "options": [
+          "Acetone",
+          "Sodium chloride",
+          "Chloramphenicol",
+          "Caffeine"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Chloramphenicol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do 6-membered heterocyclic compounds function in drug design?",
+        "options": [
+          "They serve as scaffolds for drug molecules to target specific receptors",
+          "They act as preservatives in drugs",
+          "They increase the energy needed for cellular processes",
+          "They neutralize free radicals in the body"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They serve as scaffolds for drug molecules to target specific receptors'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "6-membered heterocyclic compounds are important in the development of:",
+        "options": [
+          "Cosmetic products",
+          "Nutritional supplements",
+          "Antibiotics and anticancer drugs",
+          "Food flavorings only"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Antibiotics and anticancer drugs'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a 6-membered heterocyclic compound used in pain management?",
+        "options": [
+          "Codeine",
+          "Water",
+          "Chlorine",
+          "Caffeine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Codeine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a common feature of 6-membered heterocyclic compounds used in drug therapies?",
+        "options": [
+          "Their ability to reduce drug bioavailability",
+          "Their ability to target specific biological processes",
+          "Their lack of biological activity",
+          "Their sole use in food preservation"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Their ability to target specific biological processes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the mechanism of action for 6-membered heterocyclic compounds in treating infections?",
+        "options": [
+          "They inhibit bacterial cell division",
+          "They assist in digestion",
+          "They increase fungal growth",
+          "They improve nutrient absorption"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They inhibit bacterial cell division'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which 6-membered heterocyclic compound is used in the treatment of malaria?",
+        "options": [
+          "Vitamin C",
+          "Chloroquine",
+          "Water",
+          "Acetaminophen"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Chloroquine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the significance of 6-membered heterocyclic compounds in medicine?",
+        "options": [
+          "Their lack of any interaction with biological systems",
+          "Their role as food preservatives only",
+          "Their ability to interact with biological systems in specific ways",
+          "Their ability to neutralize pathogens without affecting human cells"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Their ability to interact with biological systems in specific ways'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do 6-membered heterocyclic compounds contribute to drug efficacy?",
+        "options": [
+          "By acting as inert carriers",
+          "By reducing side effects",
+          "By increasing drug solubility",
+          "By enhancing the interaction between drugs and their targets"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'By enhancing the interaction between drugs and their targets'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which 6-membered heterocyclic compound is commonly used as an antidepressant?",
+        "options": [
+          "Caffeine",
+          "Chlorine",
+          "Vitamin D",
+          "Fluoxetine"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Fluoxetine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "6-membered heterocyclic compounds are used to treat:",
+        "options": [
+          "Cardiovascular diseases",
+          "Food flavoring",
+          "Hair loss",
+          "Muscle growth"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cardiovascular diseases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do 6-membered heterocyclic compounds affect neurotransmitter systems?",
+        "options": [
+          "By modulating receptor activity",
+          "By increasing oxygen supply to tissues",
+          "By altering digestion processes",
+          "By improving cellular energy production"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'By modulating receptor activity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which 6-membered heterocyclic compound is used in immunosuppressive therapy?",
+        "options": [
+          "Sodium chloride",
+          "Vitamin C",
+          "Azathioprine",
+          "Caffeine"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Azathioprine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a role of 6-membered heterocyclic compounds in drug delivery?",
+        "options": [
+          "They improve the solubility and bioavailability of drugs",
+          "They preserve the taste of the drugs",
+          "They increase the stability of the drug color",
+          "They reduce the drug’s potency"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They improve the solubility and bioavailability of drugs'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do 6-membered heterocyclic compounds serve as neuromodulators?",
+        "options": [
+          "They influence neurotransmitter release and receptor binding",
+          "They enhance muscle contraction",
+          "They provide energy to nerve cells only",
+          "They improve nutrient absorption"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They influence neurotransmitter release and receptor binding'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the application of 6-membered heterocyclic compounds in anti-inflammatory drugs?",
+        "options": [
+          "They have no effect on inflammation",
+          "They reduce inflammation by blocking specific enzymes",
+          "They provide nutrients for cell growth",
+          "They increase inflammation"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They reduce inflammation by blocking specific enzymes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "6-membered heterocyclic compounds are often involved in the synthesis of:",
+        "options": [
+          "Coloring agents",
+          "Food additives",
+          "Therapeutic agents for various diseases",
+          "Plastic products"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Therapeutic agents for various diseases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What makes 6-membered heterocyclic compounds effective in medicine?",
+        "options": [
+          "Their limited interaction with enzymes",
+          "Their lack of therapeutic uses",
+          "Their inability to interact with biological systems",
+          "Their structural flexibility and biological activity"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Their structural flexibility and biological activity'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-11-17": [
+      {
+        "question": "What are amino acids primarily used for in medicine?",
+        "options": [
+          "They act as preservatives",
+          "They are the building blocks of proteins",
+          "They serve only as energy sources",
+          "They neutralize toxins in the body"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They are the building blocks of proteins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an amino acid important for protein synthesis?",
+        "options": [
+          "Chlorine",
+          "Leucine",
+          "Glucose",
+          "Sodium chloride"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Leucine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the function of amino acids in metabolism?",
+        "options": [
+          "They serve as energy storage molecules",
+          "They help neutralize free radicals",
+          "They are involved in building and repairing tissues",
+          "They increase the rate of digestion"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'They are involved in building and repairing tissues'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which amino acid is important for the synthesis of neurotransmitters?",
+        "options": [
+          "Caffeine",
+          "Chlorine",
+          "Tryptophan",
+          "Glucose"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Tryptophan'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do amino acids contribute to immune system function?",
+        "options": [
+          "By providing energy",
+          "By increasing body weight",
+          "By acting as colorants",
+          "By supporting the production of antibodies"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'By supporting the production of antibodies'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an essential amino acid in humans?",
+        "options": [
+          "Sodium chloride",
+          "Histidine",
+          "Acetone",
+          "Glucose"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Histidine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Amino acids play a key role in:",
+        "options": [
+          "Food preservation",
+          "Energy storage",
+          "Increasing the acidity of the blood",
+          "Protein synthesis and cellular repair"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Protein synthesis and cellular repair'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a primary role of amino acids in muscle function?",
+        "options": [
+          "They are involved in protein synthesis for muscle repair",
+          "They provide energy for muscle contractions only",
+          "They are used as preservatives in food",
+          "They act as flavor enhancers"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They are involved in protein synthesis for muscle repair'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which amino acid is involved in the production of the neurotransmitter serotonin?",
+        "options": [
+          "Tryptophan",
+          "Glucose",
+          "Caffeine",
+          "Sodium chloride"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Tryptophan'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Amino acids are used in medicine for:",
+        "options": [
+          "Treating nutritional deficiencies and metabolic disorders",
+          "Acting as preservatives",
+          "Increasing the shelf life of food products",
+          "Flavoring food only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Treating nutritional deficiencies and metabolic disorders'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following amino acids is critical for the production of hemoglobin?",
+        "options": [
+          "Histidine",
+          "Caffeine",
+          "Water",
+          "Chlorine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Histidine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do amino acids affect the nervous system?",
+        "options": [
+          "They are not involved in any brain processes",
+          "They only provide structural support to neurons",
+          "They help with nutrient absorption",
+          "They are precursors to neurotransmitter synthesis"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'They are precursors to neurotransmitter synthesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Amino acids are essential for:",
+        "options": [
+          "Building proteins and enzymes in the body",
+          "Providing energy for muscle contraction",
+          "Creating synthetic fibers",
+          "Increasing the amount of blood sugar"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Building proteins and enzymes in the body'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How does the body utilize amino acids during exercise?",
+        "options": [
+          "To generate energy directly",
+          "For muscle repair and growth",
+          "For controlling blood sugar levels",
+          "To increase fat storage"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'For muscle repair and growth'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which amino acid is crucial for the function of enzymes?",
+        "options": [
+          "Chlorine",
+          "Caffeine",
+          "Sodium chloride",
+          "Glutamate"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Glutamate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Amino acids can be used therapeutically to:",
+        "options": [
+          "Treat metabolic diseases and deficiencies",
+          "Act as colorants",
+          "Preserve food",
+          "Increase body weight"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Treat metabolic diseases and deficiencies'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which amino acid is often used in supplements for muscle recovery?",
+        "options": [
+          "Branched-chain amino acids (BCAAs)",
+          "Chlorine",
+          "Caffeine",
+          "Glucose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Branched-chain amino acids (BCAAs)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do amino acids contribute to the synthesis of hormones?",
+        "options": [
+          "They increase hormone secretion directly",
+          "They act as inhibitors of hormone production",
+          "They act as precursors for various hormones",
+          "They are irrelevant to hormone function"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'They act as precursors for various hormones'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Amino acids are important because they:",
+        "options": [
+          "Increase the shelf-life of food",
+          "Serve as preservatives only",
+          "Help in repairing tissues and regulating metabolic processes",
+          "Enhance drug solubility"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Help in repairing tissues and regulating metabolic processes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following amino acids is essential for skin health?",
+        "options": [
+          "Glucose",
+          "Caffeine",
+          "Proline",
+          "Sodium chloride"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Proline'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following amino acids is used in the production of neurotransmitters like dopamine?",
+        "options": [
+          "Glucose",
+          "Chlorine",
+          "Tyrosine",
+          "Water"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Tyrosine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Amino acids are essential for the synthesis of:",
+        "options": [
+          "Plastic products",
+          "Food preservatives",
+          "Proteins and enzymes",
+          "Nutritional supplements"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Proteins and enzymes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do amino acids contribute to growth and development?",
+        "options": [
+          "By providing food flavoring",
+          "By serving as food preservatives",
+          "By increasing drug potency",
+          "By supporting cell division and tissue repair"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'By supporting cell division and tissue repair'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Amino acids play a significant role in:",
+        "options": [
+          "Reducing hair loss",
+          "Protein metabolism and enzyme function",
+          "Food flavoring",
+          "Increasing blood pressure"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Protein metabolism and enzyme function'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which amino acid is used in the treatment of liver disease?",
+        "options": [
+          "Ornithine",
+          "Caffeine",
+          "Glucose",
+          "Sodium chloride"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ornithine'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-11-18": [
+      {
+        "question": "What are proteins primarily responsible for in the body?",
+        "options": [
+          "Building and repairing tissues",
+          "Increasing blood sugar levels",
+          "Preserving food",
+          "Acting as flavor enhancers"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Building and repairing tissues'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an important function of proteins in medicine?",
+        "options": [
+          "Increasing food shelf-life",
+          "Providing structural support in bones",
+          "Serving as a source of energy only",
+          "Enzyme catalysis and immune response"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Enzyme catalysis and immune response'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do proteins contribute to cellular functions?",
+        "options": [
+          "By serving as enzymes and structural components",
+          "By altering the taste of food",
+          "By acting as preservatives",
+          "By increasing fat storage"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'By serving as enzymes and structural components'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the primary structure of proteins?",
+        "options": [
+          "A chain of fatty acids",
+          "A sequence of amino acids linked by peptide bonds",
+          "A structure of glucose molecules",
+          "A series of nucleotides"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'A sequence of amino acids linked by peptide bonds'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an example of a protein involved in immune response?",
+        "options": [
+          "Vitamin C",
+          "Sodium chloride",
+          "Chlorine",
+          "Antibodies"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Antibodies'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do proteins contribute to muscle function?",
+        "options": [
+          "By forming structural components of muscle fibers",
+          "By serving as a source of glucose",
+          "By altering blood pressure",
+          "By increasing muscle size"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'By forming structural components of muscle fibers'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of proteins in enzyme catalysis?",
+        "options": [
+          "They speed up chemical reactions",
+          "They neutralize toxins",
+          "They preserve the taste of food",
+          "They provide energy for cellular processes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They speed up chemical reactions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following proteins is critical for blood clotting?",
+        "options": [
+          "Caffeine",
+          "Glucose",
+          "Fibrinogen",
+          "Sodium chloride"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Fibrinogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Proteins are important for:",
+        "options": [
+          "Flavoring food",
+          "Maintaining immune function and catalyzing reactions",
+          "Serving as preservatives",
+          "Increasing fat storage"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Maintaining immune function and catalyzing reactions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which protein is essential for the transport of oxygen in the blood?",
+        "options": [
+          "Chlorine",
+          "Hemoglobin",
+          "Caffeine",
+          "Sodium chloride"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Hemoglobin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How are proteins used in medicine to treat diseases?",
+        "options": [
+          "By neutralizing free radicals",
+          "By acting as food preservatives",
+          "By supplementing deficiencies and providing therapeutic enzymes",
+          "By increasing food flavoring"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'By supplementing deficiencies and providing therapeutic enzymes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a function of proteins in blood circulation?",
+        "options": [
+          "Reducing drug absorption",
+          "Increasing acidity",
+          "Regulating osmotic pressure",
+          "Enhancing flavor"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Regulating osmotic pressure'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Proteins can be used therapeutically to:",
+        "options": [
+          "Alter the taste of food",
+          "Treat enzyme deficiencies and hormonal imbalances",
+          "Enhance food flavor",
+          "Increase drug absorption"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Treat enzyme deficiencies and hormonal imbalances'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do proteins affect drug efficacy?",
+        "options": [
+          "By reducing drug solubility",
+          "By enhancing the taste of the drug",
+          "By increasing the shelf-life of the drug",
+          "By acting as carriers for drug molecules"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'By acting as carriers for drug molecules'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which protein is involved in oxygen transport in muscles?",
+        "options": [
+          "Caffeine",
+          "Glucose",
+          "Myoglobin",
+          "Chlorine"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Myoglobin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Proteins play an essential role in:",
+        "options": [
+          "Providing structural support in non-biological products",
+          "Increasing fat storage",
+          "Serving as preservatives",
+          "Muscle contraction and immune defense"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Muscle contraction and immune defense'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following reactions are specific to proteins?",
+        "options": [
+          "Food preservation reactions",
+          "Energy release reactions",
+          "Muscle contraction",
+          "Enzyme catalysis and antigen-antibody reactions"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Enzyme catalysis and antigen-antibody reactions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of proteins in cellular communication?",
+        "options": [
+          "They serve as preservatives",
+          "They act as receptors for signaling molecules",
+          "They increase blood sugar levels",
+          "They enhance the flavor of food"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They act as receptors for signaling molecules'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a function of proteins in the nervous system?",
+        "options": [
+          "They act as colorants",
+          "They neutralize toxins",
+          "They serve as neurotransmitters and receptors",
+          "They increase muscle growth"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'They serve as neurotransmitters and receptors'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Proteins contribute to cell structure by:",
+        "options": [
+          "Providing energy directly",
+          "Increasing fat storage",
+          "Providing structural integrity in the form of cytoskeletal elements",
+          "Serving as food preservatives"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Providing structural integrity in the form of cytoskeletal elements'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which protein is involved in the immune response to infections?",
+        "options": [
+          "Glucose",
+          "Antibodies",
+          "Caffeine",
+          "Sodium chloride"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Antibodies'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do proteins act in the healing of wounds?",
+        "options": [
+          "By enhancing nutrient absorption",
+          "By increasing blood pressure",
+          "By promoting tissue repair and collagen formation",
+          "By increasing blood sugar levels"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'By promoting tissue repair and collagen formation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Proteins are essential for the function of:",
+        "options": [
+          "Food preservatives",
+          "Enzymes and antibodies",
+          "Flavor enhancers",
+          "Colorants"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Enzymes and antibodies'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do proteins regulate metabolic processes in the body?",
+        "options": [
+          "By reducing fat storage",
+          "By neutralizing free radicals",
+          "By serving as preservatives",
+          "By acting as enzymes and hormone precursors"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'By acting as enzymes and hormone precursors'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which protein is involved in the response to cellular stress?",
+        "options": [
+          "Sodium chloride",
+          "Caffeine",
+          "Heat shock proteins",
+          "Glucose"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Heat shock proteins'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-11-19": [
+      {
+        "question": "What are carbohydrates primarily used for in the human body?",
+        "options": [
+          "Synthesizing proteins",
+          "Building bones",
+          "Digesting fats",
+          "Energy production"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Energy production'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a monosaccharide?",
+        "options": [
+          "Sucrose",
+          "Glucose",
+          "Lactose",
+          "Maltose"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Glucose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What type of bond holds monosaccharides together in disaccharides?",
+        "options": [
+          "Glycosidic bond",
+          "Peptide bond",
+          "Ionic bond",
+          "Hydrogen bond"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glycosidic bond'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the main function of glucose in medicine?",
+        "options": [
+          "It provides immediate energy",
+          "It helps in protein synthesis",
+          "It reduces cholesterol levels",
+          "It strengthens bones"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It provides immediate energy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which monosaccharide is a building block of the disaccharide sucrose?",
+        "options": [
+          "Ribose",
+          "Galactose",
+          "Fructose",
+          "Glucose"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Glucose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of carbohydrates in treating diabetes?",
+        "options": [
+          "To regulate blood sugar levels",
+          "To promote weight gain",
+          "To stimulate nerve growth",
+          "To increase insulin production"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'To regulate blood sugar levels'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which carbohydrate is commonly used in intravenous solutions to provide energy?",
+        "options": [
+          "Fructose",
+          "Sucrose",
+          "Lactose",
+          "Dextrose"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Dextrose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which carbohydrate is found in the human bloodstream to transport energy?",
+        "options": [
+          "Galactose",
+          "Glucose",
+          "Fructose",
+          "Maltose"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Glucose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which is a key characteristic of disaccharides in terms of digestion?",
+        "options": [
+          "They are stored in the liver",
+          "They must be broken down into monosaccharides",
+          "They are immediately absorbed by the body",
+          "They cannot be digested by the human body"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They must be broken down into monosaccharides'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the main therapeutic use of glucose in the medical field?",
+        "options": [
+          "It acts as an antibiotic",
+          "It reduces inflammation",
+          "It provides quick energy in emergencies",
+          "It is used for blood clotting"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'It provides quick energy in emergencies'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How is glucose metabolized in the body?",
+        "options": [
+          "By breaking down fats into ketones",
+          "By converting proteins into amino acids",
+          "By storing excess glucose in the form of fat",
+          "Through glycolysis and the citric acid cycle"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Through glycolysis and the citric acid cycle'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the common medical application of fructose?",
+        "options": [
+          "It is used to improve memory",
+          "It is used to reduce cholesterol levels",
+          "It is used as a sweetener in low-calorie foods",
+          "It is used to treat high blood pressure"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'It is used as a sweetener in low-calorie foods'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a disaccharide?",
+        "options": [
+          "Glucose",
+          "Galactose",
+          "Lactose",
+          "Fructose"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Lactose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What type of carbohydrate is lactose composed of?",
+        "options": [
+          "Glucose and fructose",
+          "Fructose and galactose",
+          "Sucrose and glucose",
+          "Glucose and galactose"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Glucose and galactose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which monosaccharide is crucial for brain function?",
+        "options": [
+          "Fructose",
+          "Galactose",
+          "Ribose",
+          "Glucose"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Glucose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What medical condition is associated with the inability to digest lactose?",
+        "options": [
+          "Diabetes",
+          "Lactose intolerance",
+          "Hypertension",
+          "Osteoporosis"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Lactose intolerance'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How is maltose typically used in medicine?",
+        "options": [
+          "It is used to treat infections",
+          "It is used in energy solutions",
+          "It is used as a laxative",
+          "It is used as an antacid"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'It is used in energy solutions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the major difference between a monosaccharide and a disaccharide?",
+        "options": [
+          "The solubility in water",
+          "The presence of vitamins",
+          "The type of chemical bonds",
+          "The number of sugar units"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'The number of sugar units'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which carbohydrate is often used in the treatment of dehydration in the medical field?",
+        "options": [
+          "Galactose",
+          "Glucose",
+          "Sucrose",
+          "Fructose"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Glucose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the primary function of polysaccharides like glycogen in the human body?",
+        "options": [
+          "To form structural components",
+          "To produce hormones",
+          "To store energy",
+          "To assist in digestion"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'To store energy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a known effect of excess fructose in the diet?",
+        "options": [
+          "It enhances bone density",
+          "It can contribute to insulin resistance",
+          "It increases muscle mass",
+          "It improves skin elasticity"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'It can contribute to insulin resistance'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What role do carbohydrates play in wound healing?",
+        "options": [
+          "They provide energy for tissue repair",
+          "They act as antioxidants",
+          "They reduce inflammation",
+          "They help in blood clotting"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They provide energy for tissue repair'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the significance of sucrose in medical solutions?",
+        "options": [
+          "It is used to lower cholesterol",
+          "It is used as a source of energy",
+          "It is used to enhance immune response",
+          "It acts as an antiseptic"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'It is used as a source of energy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How does glucose affect the body's insulin levels?",
+        "options": [
+          "It suppresses insulin secretion",
+          "It triggers insulin secretion to regulate blood sugar",
+          "It has no effect on insulin",
+          "It directly increases insulin resistance"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'It triggers insulin secretion to regulate blood sugar'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which carbohydrate is often included in sports drinks to provide rapid energy?",
+        "options": [
+          "Glucose",
+          "Sucrose",
+          "Galactose",
+          "Fructose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucose'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-11-20": [
+      {
+        "question": "What is the main function of polysaccharides in the human body?",
+        "options": [
+          "Hormone regulation",
+          "Muscle contraction",
+          "DNA synthesis",
+          "Energy storage and structural support"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Energy storage and structural support'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a homo-polysaccharide?",
+        "options": [
+          "Chitin",
+          "Hyaluronic acid",
+          "Heparin",
+          "Starch"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Starch'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the primary use of starch in medicine?",
+        "options": [
+          "It reduces cholesterol levels",
+          "It is used for pain relief",
+          "It serves as an energy source in intravenous solutions",
+          "It acts as an antibiotic"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'It serves as an energy source in intravenous solutions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which polysaccharide is commonly found in plant cell walls and used for fiber supplements?",
+        "options": [
+          "Glycogen",
+          "Cellulose",
+          "Chitin",
+          "Heparin"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Cellulose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the primary biological function of glycogen?",
+        "options": [
+          "Cell signaling",
+          "Energy storage in animals",
+          "Nerve transmission",
+          "Blood clotting"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Energy storage in animals'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which polysaccharide is often used as a blood thinner in medical treatments?",
+        "options": [
+          "Starch",
+          "Heparin",
+          "Glycogen",
+          "Cellulose"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Heparin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of polysaccharides like hyaluronic acid in the human body?",
+        "options": [
+          "They enhance digestion",
+          "They aid in protein synthesis",
+          "They provide lubrication and hydration to joints",
+          "They promote muscle growth"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'They provide lubrication and hydration to joints'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which heteropolysaccharide is used in wound healing and tissue repair?",
+        "options": [
+          "Starch",
+          "Cellulose",
+          "Hyaluronic acid",
+          "Chitin"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Hyaluronic acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a common medical application of chitosan, a derivative of chitin?",
+        "options": [
+          "It is used to increase muscle mass",
+          "It is used to treat anxiety",
+          "It is used in weight loss supplements",
+          "It is used to treat infections"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'It is used in weight loss supplements'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do polysaccharides like glycogen function in energy metabolism?",
+        "options": [
+          "They provide direct energy to muscles",
+          "They act as a form of stored protein",
+          "They are broken down into glucose for energy",
+          "They promote fat storage"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'They are broken down into glucose for energy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which polysaccharide is used in the pharmaceutical industry as a tablet binder?",
+        "options": [
+          "Hyaluronic acid",
+          "Cellulose",
+          "Starch",
+          "Glycogen"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Starch'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a key property of cellulose that makes it suitable for use in medical dressings?",
+        "options": [
+          "Its high acidity",
+          "Its strong odor",
+          "Its ability to absorb moisture",
+          "Its ability to dissolve easily"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Its ability to absorb moisture'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How does heparin work as a blood thinner in medicine?",
+        "options": [
+          "By preventing red blood cell breakdown",
+          "By increasing red blood cell production",
+          "By enhancing platelet function",
+          "By inhibiting blood clotting factors"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'By inhibiting blood clotting factors'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of polysaccharides in drug delivery systems?",
+        "options": [
+          "They help in controlled release of drugs",
+          "They increase the solubility of drugs",
+          "They reduce side effects",
+          "They act as preservatives"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They help in controlled release of drugs'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which polysaccharide is commonly used in eye drops for its moisture-retaining properties?",
+        "options": [
+          "Hyaluronic acid",
+          "Starch",
+          "Glycogen",
+          "Chitosan"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hyaluronic acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the significance of pectin, a heteropolysaccharide, in medicine?",
+        "options": [
+          "It is used in digestive health supplements",
+          "It is used to treat infections",
+          "It is used for skin care",
+          "It is used for pain relief"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It is used in digestive health supplements'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a characteristic of polysaccharides in the context of their medical use?",
+        "options": [
+          "They are biocompatible and biodegradable",
+          "They are toxic to cells",
+          "They cause allergic reactions",
+          "They are insoluble in water"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They are biocompatible and biodegradable'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a medical use of the polysaccharide dextran?",
+        "options": [
+          "It is used to treat high blood pressure",
+          "It is used in plasma volume expanders",
+          "It is used as a muscle relaxant",
+          "It is used for cancer therapy"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'It is used in plasma volume expanders'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How is cellulose used in the medical field?",
+        "options": [
+          "As an anesthetic",
+          "As a wound dressing material",
+          "As an antibiotic",
+          "As an anti-inflammatory agent"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'As a wound dressing material'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of heparin in preventing blood clots?",
+        "options": [
+          "It increases platelet aggregation",
+          "It promotes blood cell production",
+          "It inactivates thrombin and prevents clot formation",
+          "It thickens the blood"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'It inactivates thrombin and prevents clot formation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which polysaccharide is commonly found in joint supplements for its lubricating properties?",
+        "options": [
+          "Hyaluronic acid",
+          "Cellulose",
+          "Chitin",
+          "Starch"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hyaluronic acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the primary source of cellulose used in medical applications?",
+        "options": [
+          "Animal tissues",
+          "Plant fibers",
+          "Microorganisms",
+          "Synthetic chemicals"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Plant fibers'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do polysaccharides like dextran affect blood volume?",
+        "options": [
+          "They have no effect on blood volume",
+          "They cause blood vessel constriction",
+          "They decrease blood plasma volume",
+          "They increase blood plasma volume"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'They increase blood plasma volume'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which heteropolysaccharide has anti-inflammatory properties and is used in joint pain relief?",
+        "options": [
+          "Hyaluronic acid",
+          "Chitosan",
+          "Starch",
+          "Cellulose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hyaluronic acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do polysaccharides contribute to the formation of drug capsules?",
+        "options": [
+          "They increase the solubility of the drug",
+          "They serve as active ingredients",
+          "They enhance the flavor of the drug",
+          "They act as stabilizers and binders"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'They act as stabilizers and binders'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-11-21": [
+      {
+        "question": "What is the main function of nucleotides in the human body?",
+        "options": [
+          "They serve as an energy source",
+          "They are building blocks for DNA and RNA",
+          "They aid in digestion",
+          "They regulate blood pressure"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They are building blocks for DNA and RNA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the structure of a nucleoside?",
+        "options": [
+          "A nitrogenous base attached to a sugar molecule",
+          "A sugar molecule and a phosphate group",
+          "A nitrogenous base and a phosphate group",
+          "A sugar molecule attached to a fatty acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'A nitrogenous base attached to a sugar molecule'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a common medical use of nucleotides?",
+        "options": [
+          "They are used in pain relief medications",
+          "They are used in gene therapy",
+          "They are used as muscle relaxants",
+          "They are used to treat infections"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They are used in gene therapy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of ATP (adenosine triphosphate) in the body?",
+        "options": [
+          "It regulates blood sugar levels",
+          "It provides energy for cellular processes",
+          "It serves as a hormone",
+          "It helps in digestion"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'It provides energy for cellular processes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a component of a nucleotide?",
+        "options": [
+          "A protein",
+          "A lipid molecule",
+          "A nitrogenous base",
+          "A carbohydrate"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'A nitrogenous base'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do nucleoside analogs function in antiviral treatments?",
+        "options": [
+          "They block viral binding to cells",
+          "They enhance immune response",
+          "They inhibit viral replication",
+          "They increase viral production"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'They inhibit viral replication'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which nucleoside is commonly used in the treatment of herpesvirus infections?",
+        "options": [
+          "Paracetamol",
+          "Penicillin",
+          "Ibuprofen",
+          "Acyclovir"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Acyclovir'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the main function of cyclic AMP (cAMP) in cellular signaling?",
+        "options": [
+          "It regulates cell division",
+          "It provides energy for cellular functions",
+          "It acts as a secondary messenger",
+          "It directly binds to DNA"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'It acts as a secondary messenger'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a coenzyme derived from a nucleotide?",
+        "options": [
+          "Vitamin C",
+          "NAD+ (Nicotinamide adenine dinucleotide)",
+          "Glucose",
+          "ATP"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'NAD+ (Nicotinamide adenine dinucleotide)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of cAMP in the regulation of heart rate?",
+        "options": [
+          "It increases blood pressure",
+          "It regulates insulin secretion",
+          "It activates protein kinase A to influence heart muscle contraction",
+          "It directly affects sodium channels in the heart"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'It activates protein kinase A to influence heart muscle contraction'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the difference between a nucleoside and a nucleotide?",
+        "options": [
+          "A nucleoside contains a phosphate group, while a nucleotide does not",
+          "There is no difference",
+          "A nucleotide contains a phosphate group, while a nucleoside does not",
+          "Nucleotides are larger than nucleosides"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'A nucleotide contains a phosphate group, while a nucleoside does not'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a key enzyme involved in nucleotide metabolism?",
+        "options": [
+          "Kinase",
+          "Amylase",
+          "Lipase",
+          "Peptidase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Kinase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do nucleotides contribute to the synthesis of proteins?",
+        "options": [
+          "They are components of RNA, which is involved in protein synthesis",
+          "They act as enzymes in protein formation",
+          "They store genetic information in protein form",
+          "They directly form protein chains"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They are components of RNA, which is involved in protein synthesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of adenosine monophosphate (AMP) in cellular energy regulation?",
+        "options": [
+          "It promotes protein synthesis",
+          "It stores genetic information",
+          "It aids in cellular division",
+          "It helps regulate energy production"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'It helps regulate energy production'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do nucleoside analogs treat cancer?",
+        "options": [
+          "They strengthen the immune system",
+          "They block blood vessel growth in tumors",
+          "They promote cell growth and repair",
+          "They interfere with DNA replication and inhibit cancer cell division"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'They interfere with DNA replication and inhibit cancer cell division'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of NAD+ in cellular metabolism?",
+        "options": [
+          "It regulates insulin secretion",
+          "It acts as an electron carrier in redox reactions",
+          "It strengthens bones",
+          "It provides energy for muscle contraction"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'It acts as an electron carrier in redox reactions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a nucleotide-based coenzyme involved in energy metabolism?",
+        "options": [
+          "Coenzyme A",
+          "Glucose",
+          "Iron",
+          "Vitamin D"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Coenzyme A'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the function of the nucleotide GTP (Guanosine triphosphate) in the body?",
+        "options": [
+          "It promotes fat storage",
+          "It aids in blood clotting",
+          "It acts as an energy source and is involved in protein synthesis",
+          "It regulates blood pressure"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'It acts as an energy source and is involved in protein synthesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which nucleoside is used in the treatment of HIV infections?",
+        "options": [
+          "Amoxicillin",
+          "Ibuprofen",
+          "Zidovudine",
+          "Paracetamol"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Zidovudine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of nucleotides in DNA synthesis?",
+        "options": [
+          "They catalyze DNA replication",
+          "They are the building blocks of DNA",
+          "They regulate the expression of genes",
+          "They provide energy for the process"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They are the building blocks of DNA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following nucleosides is essential for the synthesis of RNA?",
+        "options": [
+          "Uridine",
+          "Glycine",
+          "Threonine",
+          "Glucose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Uridine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the main use of nucleotide analogs in cancer treatment?",
+        "options": [
+          "To promote the growth of cancer cells",
+          "To enhance the immune response",
+          "To inhibit DNA replication in rapidly dividing cancer cells",
+          "To decrease the side effects of chemotherapy"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'To inhibit DNA replication in rapidly dividing cancer cells'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the significance of ATP in cellular function?",
+        "options": [
+          "It regulates water balance in cells",
+          "It acts as the primary energy carrier in cells",
+          "It stores genetic information",
+          "It serves as a structural component of the cell membrane"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'It acts as the primary energy carrier in cells'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a nucleotide that plays a role in energy transfer within cells?",
+        "options": [
+          "Protein",
+          "ATP (Adenosine triphosphate)",
+          "Cholesterol",
+          "Glucose"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'ATP (Adenosine triphosphate)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do cyclic nucleotides, such as cAMP, influence cellular processes?",
+        "options": [
+          "They activate signaling pathways that regulate various cellular functions",
+          "They directly affect the structure of DNA",
+          "They promote cell division",
+          "They produce energy for the cell"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They activate signaling pathways that regulate various cellular functions'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-11-22": [
+      {
+        "question": "What is the primary function of nucleic acids in the body?",
+        "options": [
+          "To provide energy for cellular processes",
+          "To build muscle tissue",
+          "To store and transmit genetic information",
+          "To regulate cell division"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'To store and transmit genetic information'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the basic building block of DNA and RNA?",
+        "options": [
+          "Monosaccharides",
+          "Fatty acids",
+          "Nucleotides",
+          "Amino acids"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Nucleotides'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What does the structure of DNA look like?",
+        "options": [
+          "A triple helix",
+          "A double helix",
+          "A circular structure",
+          "A single strand"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'A double helix'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the complementary base pair for adenine (A) in DNA?",
+        "options": [
+          "Guanine (G)",
+          "Cytosine (C)",
+          "Uracil (U)",
+          "Thymine (T)"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Thymine (T)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the main function of RNA in the body?",
+        "options": [
+          "To store genetic information",
+          "To carry genetic information for protein synthesis",
+          "To provide energy for the cell",
+          "To regulate metabolism"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'To carry genetic information for protein synthesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the significance of the double helix structure of DNA?",
+        "options": [
+          "It aids in energy production",
+          "It provides structural support to the cell",
+          "It allows for the efficient storage and replication of genetic information",
+          "It helps in protein synthesis"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'It allows for the efficient storage and replication of genetic information'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of ribosomes in protein synthesis?",
+        "options": [
+          "They regulate the immune response",
+          "They store genetic information",
+          "They produce energy for the cell",
+          "They synthesize proteins by translating mRNA"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'They synthesize proteins by translating mRNA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What type of bonds hold the two strands of the DNA double helix together?",
+        "options": [
+          "Hydrogen bonds between complementary base pairs",
+          "Covalent bonds between sugars and phosphates",
+          "Van der Waals forces",
+          "Ionic bonds between nitrogenous bases"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hydrogen bonds between complementary base pairs'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the difference between DNA and RNA?",
+        "options": [
+          "DNA is double-stranded, while RNA is single-stranded",
+          "DNA is involved in protein synthesis, while RNA is not",
+          "DNA contains uracil, while RNA contains thymine",
+          "DNA is found only in the nucleus, while RNA is found only in the cytoplasm"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'DNA is double-stranded, while RNA is single-stranded'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How does DNA replication occur?",
+        "options": [
+          "DNA is broken down into nucleotides",
+          "Proteins are synthesized based on the DNA sequence",
+          "The two strands of DNA separate, and each serves as a template for a new strand",
+          "A single strand of DNA is copied into a single RNA molecule"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'The two strands of DNA separate, and each serves as a template for a new strand'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the function of mRNA (messenger RNA) in protein synthesis?",
+        "options": [
+          "It carries genetic information from DNA to ribosomes for protein synthesis",
+          "It carries amino acids to the ribosome",
+          "It helps fold proteins into their functional shape",
+          "It provides energy for protein synthesis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It carries genetic information from DNA to ribosomes for protein synthesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of tRNA (transfer RNA) in protein synthesis?",
+        "options": [
+          "It helps in the replication of DNA",
+          "It carries the genetic code to the ribosome",
+          "It brings amino acids to the ribosome for protein assembly",
+          "It catalyzes protein synthesis"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'It brings amino acids to the ribosome for protein assembly'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the secondary structure of nucleic acids?",
+        "options": [
+          "The sequence of nucleotides",
+          "The 3D structure of a protein encoded by the nucleic acid",
+          "The interactions between different RNA molecules",
+          "The local folding into structures like alpha helices and beta sheets"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'The local folding into structures like alpha helices and beta sheets'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the tertiary structure of DNA?",
+        "options": [
+          "The supercoiling of the DNA molecule",
+          "The bonding between nucleotides",
+          "The linear sequence of base pairs",
+          "The formation of hydrogen bonds between the strands"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The supercoiling of the DNA molecule'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which type of RNA is involved in the formation of ribosomes?",
+        "options": [
+          "tRNA (transfer RNA)",
+          "snRNA (small nuclear RNA)",
+          "mRNA (messenger RNA)",
+          "rRNA (ribosomal RNA)"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'rRNA (ribosomal RNA)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the main function of DNA in cells?",
+        "options": [
+          "To synthesize proteins",
+          "To regulate cell division",
+          "To store and replicate genetic information",
+          "To control energy production"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'To store and replicate genetic information'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a characteristic of the tertiary structure of DNA?",
+        "options": [
+          "DNA transcription",
+          "DNA supercoiling to fit inside the cell nucleus",
+          "DNA translation into protein",
+          "DNA replication"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'DNA supercoiling to fit inside the cell nucleus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What does the RNA sequence carry?",
+        "options": [
+          "The energy needed for cellular processes",
+          "The genetic material for cell replication",
+          "The structural components for the cell membrane",
+          "The instructions for protein synthesis"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'The instructions for protein synthesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the function of the ribosome in relation to mRNA?",
+        "options": [
+          "It stores the mRNA sequence for future use",
+          "It copies the mRNA to make DNA",
+          "It reads the mRNA sequence and synthesizes proteins",
+          "It breaks down the mRNA molecule"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'It reads the mRNA sequence and synthesizes proteins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How does complementary base pairing occur in DNA?",
+        "options": [
+          "Adenine pairs with uracil, and cytosine pairs with thymine",
+          "Uracil pairs with adenine, and thymine pairs with guanine",
+          "Guanine pairs with thymine, and cytosine pairs with adenine",
+          "Adenine pairs with thymine, and cytosine pairs with guanine"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Adenine pairs with thymine, and cytosine pairs with guanine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the structure of a ribosome?",
+        "options": [
+          "It is made of a single protein molecule",
+          "It contains DNA and amino acids",
+          "It is composed solely of mRNA",
+          "It consists of two subunits made of rRNA and proteins"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'It consists of two subunits made of rRNA and proteins'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-11-23": [
+      {
+        "question": "What is the purpose of the DNA double helix structure in terms of its function?",
+        "options": [
+          "It maintains the stability of the cell membrane",
+          "It provides the shape for proteins to function",
+          "It stores energy for cellular activities",
+          "It enables efficient and accurate DNA replication"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'It enables efficient and accurate DNA replication'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which RNA type is responsible for bringing amino acids to the ribosome?",
+        "options": [
+          "rRNA (ribosomal RNA)",
+          "siRNA (small interfering RNA)",
+          "mRNA (messenger RNA)",
+          "tRNA (transfer RNA)"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'tRNA (transfer RNA)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the significance of the base pairing between adenine and thymine in DNA?",
+        "options": [
+          "It ensures proper DNA replication and stability",
+          "It forms the bond between protein subunits",
+          "It helps with protein folding",
+          "It regulates cell cycle progression"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It ensures proper DNA replication and stability'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What type of bond forms between the phosphate group and the sugar in nucleotides?",
+        "options": [
+          "Phosphodiester bonds",
+          "Hydrogen bonds",
+          "Ionic bonds",
+          "Peptide bonds"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phosphodiester bonds'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the primary function of enzymes in the body?",
+        "options": [
+          "To store genetic information",
+          "To catalyze biochemical reactions",
+          "To regulate gene expression",
+          "To provide structural support"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'To catalyze biochemical reactions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is an enzyme?",
+        "options": [
+          "A nucleic acid involved in protein synthesis",
+          "A protein that speeds up biochemical reactions",
+          "A carbohydrate that provides energy",
+          "A lipid that stores energy"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'A protein that speeds up biochemical reactions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an example of an enzyme classification based on its function?",
+        "options": [
+          "Nucleic acids",
+          "Carbohydrates",
+          "Hydrolases",
+          "Lipids"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Hydrolases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the main role of enzymes in metabolism?",
+        "options": [
+          "They encode genetic information",
+          "They speed up chemical reactions without being consumed",
+          "They regulate the cell cycle",
+          "They store energy for the cell"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They speed up chemical reactions without being consumed'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following enzyme types catalyze oxidation-reduction reactions?",
+        "options": [
+          "Oxidoreductases",
+          "Hydrolases",
+          "Ligases",
+          "Transferases"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxidoreductases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of enzymes in enzymodiagnostics?",
+        "options": [
+          "They provide structural support to cells",
+          "They are used to detect specific biomarkers in diseases",
+          "They break down harmful substances in the blood",
+          "They regulate gene expression in the body"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'They are used to detect specific biomarkers in diseases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How do enzymes lower the activation energy of a reaction?",
+        "options": [
+          "By providing energy to the system",
+          "By increasing the temperature of the reaction",
+          "By changing the concentration of reactants",
+          "By stabilizing the transition state of the reaction"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'By stabilizing the transition state of the reaction'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is enzymopathology?",
+        "options": [
+          "The study of diseases caused by enzyme dysfunction",
+          "The diagnostic use of enzymes to detect diseases",
+          "The process of synthesizing enzymes in the lab",
+          "The classification of enzymes based on their structure"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The study of diseases caused by enzyme dysfunction'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following enzymes is involved in protein digestion?",
+        "options": [
+          "Amylase",
+          "Pepsin",
+          "Lactase",
+          "Lipase"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Pepsin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which factor affects the activity of enzymes?",
+        "options": [
+          "The concentration of the enzyme product",
+          "Temperature",
+          "The color of the enzyme",
+          "The molecular weight of the substrate"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Temperature'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the significance of enzyme inhibition in medicine?",
+        "options": [
+          "It increases the efficiency of protein synthesis",
+          "It speeds up the metabolic processes in the body",
+          "It can be used to treat diseases by blocking harmful enzyme activity",
+          "It helps in the formation of new cells"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'It can be used to treat diseases by blocking harmful enzyme activity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What type of enzymes are involved in transferring functional groups?",
+        "options": [
+          "Isomerases",
+          "Ligases",
+          "Transferases",
+          "Hydrolases"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Transferases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How does enzyme therapy work?",
+        "options": [
+          "By blocking enzymes to enhance drug effectiveness",
+          "By inhibiting enzymes that cause diseases",
+          "By supplementing the body with specific enzymes to replace deficiencies",
+          "By promoting the production of excess enzymes"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'By supplementing the body with specific enzymes to replace deficiencies'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the effect of high temperature on enzyme activity?",
+        "options": [
+          "It increases the reaction rate",
+          "It can denature the enzyme and reduce its activity",
+          "It stabilizes the enzyme structure",
+          "It speeds up enzyme production"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'It can denature the enzyme and reduce its activity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of coenzymes in enzyme activity?",
+        "options": [
+          "They store energy for enzyme reactions",
+          "They inhibit enzyme activity",
+          "They act as substrates for enzymes",
+          "They help enzymes catalyze reactions by transferring functional groups"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'They help enzymes catalyze reactions by transferring functional groups'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a diagnostic enzyme used to detect liver damage?",
+        "options": [
+          "Lipase",
+          "Trypsin",
+          "Alanine aminotransferase (ALT)",
+          "Amylase"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Alanine aminotransferase (ALT)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the mechanism of enzyme action?",
+        "options": [
+          "Enzymes break down substrates into simpler molecules",
+          "Enzymes increase the energy of substrates",
+          "Enzymes bind to substrates, forming an enzyme-substrate complex to catalyze",
+          "reactions"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Enzymes bind to substrates, forming an enzyme-substrate complex to catalyze'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following conditions can be caused by enzyme deficiencies?",
+        "options": [
+          "Hypertension",
+          "Enzymes release energy during the reaction",
+          "Phenylketonuria"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Enzymes release energy during the reaction'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of hydrolases in the body?",
+        "options": [
+          "Diabetes",
+          "Asthma",
+          "They catalyze the breakdown of bonds by adding water molecules"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Asthma'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of transferases in the body?",
+        "options": [
+          "They catalyze oxidation reactions",
+          "They form covalent bonds between substrates",
+          "They transfer phosphate groups between molecules"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'They transfer phosphate groups between molecules'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following diseases is related to a deficiency in the enzyme lactase?",
+        "options": [
+          "Diabetes",
+          "Gout",
+          "Sickle cell anemia",
+          "Lactose intolerance"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Lactose intolerance'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the function of isomerases?",
+        "options": [
+          "They catalyze the conversion of one isomer into another",
+          "They transfer functional groups between molecules",
+          "They break down complex molecules into simpler ones",
+          "They add functional groups to substrates"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'They catalyze the conversion of one isomer into another'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How can enzyme activity be measured in a laboratory?",
+        "options": [
+          "By measuring the temperature of the reaction",
+          "By counting the number of enzyme molecules",
+          "By analyzing the color of the enzyme",
+          "By measuring the rate of substrate conversion to product"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'By measuring the rate of substrate conversion to product'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a therapeutic use of enzyme inhibitors?",
+        "options": [
+          "To promote the synthesis of proteins",
+          "To treat infections by inhibiting bacterial enzymes",
+          "To increase the production of metabolic enzymes",
+          "To enhance enzyme activity in the body"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'To treat infections by inhibiting bacterial enzymes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the purpose of enzyme replacement therapy (ERT)?",
+        "options": [
+          "To increase the production of enzymes",
+          "To enhance enzyme secretion",
+          "To replace missing or deficient enzymes in the body",
+          "To block harmful enzyme activity"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'To replace missing or deficient enzymes in the body'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the primary structure of an enzyme?",
+        "options": [
+          "The number of substrate molecules it can bind",
+          "The energy it provides to a reaction",
+          "The sequence of amino acids that form the enzyme",
+          "The three-dimensional shape of the enzyme"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'The sequence of amino acids that form the enzyme'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-1-11-24": [
+      {
+        "question": "What is the main function of vitamins in the body?",
+        "options": [
+          "To regulate biochemical processes and support metabolism",
+          "To catalyze chemical reactions",
+          "To store genetic information",
+          "To provide energy"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'To regulate biochemical processes and support metabolism'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a fat-soluble vitamin?",
+        "options": [
+          "Vitamin B6",
+          "Vitamin B12",
+          "Vitamin A",
+          "Vitamin C"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Vitamin A'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the main role of vitamin A in the body?",
+        "options": [
+          "It supports vision and immune function",
+          "It regulates blood sugar levels",
+          "It aids in the absorption of calcium",
+          "It helps in protein digestion"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It supports vision and immune function'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which vitamin is essential for the synthesis of collagen in the body?",
+        "options": [
+          "Vitamin D",
+          "Vitamin C",
+          "Vitamin K",
+          "Vitamin A"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Vitamin C'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a deficiency of vitamin D commonly associated with?",
+        "options": [
+          "Rickets",
+          "Scurvy",
+          "Night blindness",
+          "Pellagra"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Rickets'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the function of vitamin E in the body?",
+        "options": [
+          "It regulates the metabolism of fats",
+          "It is involved in the synthesis of hemoglobin",
+          "It helps in blood clotting",
+          "It acts as an antioxidant and protects cells from damage"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'It acts as an antioxidant and protects cells from damage'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which vitamin is necessary for the synthesis of coenzyme A, which is involved in the Krebs cycle?",
+        "options": [
+          "Vitamin B2 (Riboflavin)",
+          "Vitamin B3 (Niacin)",
+          "Vitamin B5 (Pantothenic acid)",
+          "Vitamin B1 (Thiamine)"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Vitamin B5 (Pantothenic acid)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the function of vitamin K in the body?",
+        "options": [
+          "It plays a crucial role in blood clotting",
+          "It helps with calcium absorption",
+          "It regulates blood pressure",
+          "It supports immune function"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It plays a crucial role in blood clotting'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following vitamins is water-soluble?",
+        "options": [
+          "Vitamin D",
+          "Vitamin C",
+          "Vitamin E",
+          "Vitamin A"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Vitamin C'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How does vitamin B12 function in the body?",
+        "options": [
+          "system",
+          "It helps in the formation of red blood cells and the maintenance of the nervous",
+          "It helps in the digestion of fats",
+          "It supports bone health"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'It helps in the formation of red blood cells and the maintenance of the nervous'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What can cause vitamin C deficiency?",
+        "options": [
+          "Rickets",
+          "It regulates the immune response",
+          "Scurvy"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'It regulates the immune response'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the primary role of folic acid (vitamin B9) in the body?",
+        "options": [
+          "Beriberi",
+          "Pellagra",
+          "It is involved in DNA synthesis and red blood cell formation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Beriberi'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the major source of vitamin D for the body?",
+        "options": [
+          "It helps with bone formation",
+          "It supports the immune system",
+          "It is essential for nerve function"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It helps with bone formation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the major source of vitamin D for the body?",
+        "options": [
+          "Green leafy vegetables",
+          "Fruits",
+          "Animal fats",
+          "Sunlight exposure"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Sunlight exposure'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which vitamin is involved in the formation of collagen and is an antioxidant?",
+        "options": [
+          "Vitamin K",
+          "Vitamin C",
+          "Vitamin A",
+          "Vitamin E"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Vitamin C'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the effect of a deficiency in vitamin A?",
+        "options": [
+          "Scurvy",
+          "Beriberi",
+          "Rickets",
+          "Night blindness"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Night blindness'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the structure of vitamin A?",
+        "options": [
+          "It is a retinoid compound",
+          "It is a polyunsaturated fatty acid",
+          "It is a water-soluble antioxidant",
+          "It is a steroid hormone"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It is a retinoid compound'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following vitamins is essential for proper calcium metabolism?",
+        "options": [
+          "Vitamin C",
+          "Vitamin B12",
+          "Vitamin A",
+          "Vitamin D"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Vitamin D'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How is vitamin E involved in protecting the body?",
+        "options": [
+          "It regulates hormone production",
+          "It aids in the production of red blood cells",
+          "It helps in blood clotting",
+          "It acts as a potent antioxidant that protects cells from oxidative damage"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'It acts as a potent antioxidant that protects cells from oxidative damage'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What condition is associated with a deficiency of vitamin K?",
+        "options": [
+          "Hemorrhaging or excessive bleeding",
+          "Osteoporosis",
+          "Rickets",
+          "Night blindness"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hemorrhaging or excessive bleeding'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the primary function of vitamin B1 (thiamine)?",
+        "options": [
+          "It aids in the synthesis of DNA",
+          "It supports bone health",
+          "It protects the liver from toxins",
+          "It is essential for carbohydrate metabolism"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'It is essential for carbohydrate metabolism'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which vitamin deficiency is linked to the development of pellagra?",
+        "options": [
+          "Vitamin C",
+          "Vitamin A",
+          "Vitamin B6 (Pyridoxine)",
+          "Vitamin B3 (Niacin)"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Vitamin B3 (Niacin)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a common dietary source of vitamin B12?",
+        "options": [
+          "Animal products like meat and dairy",
+          "Whole grains",
+          "Citrus fruits",
+          "Leafy green vegetables"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Animal products like meat and dairy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How does vitamin C contribute to the immune system?",
+        "options": [
+          "It helps stimulate the production of white blood cells",
+          "It helps the body absorb iron",
+          "It promotes bone growth",
+          "It supports the synthesis of vitamin D"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It helps stimulate the production of white blood cells'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following vitamins is important for vision?",
+        "options": [
+          "Vitamin K",
+          "Vitamin E",
+          "Vitamin D",
+          "Vitamin A"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Vitamin A'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the consequence of vitamin D deficiency in children?",
+        "options": [
+          "For More Details And Answer Share With",
+          "Join now:",
+          "Your Friends (Thankyou)",
+          "Rickets"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Rickets'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the consequence of vitamin D deficiency in children?",
+        "options": [
+          "Bleeding disorders",
+          "Anemia",
+          "Night blindness"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Night blindness'. This choice aligns with the established clinical curriculum."
+      }
+    ]
+  },
+  "s-2-0": {
+    "t-s-2-0-1": [
+      {
+        "question": "Major components of food:",
+        "options": [
+          "Protein",
+          "Vitamin",
+          "Water",
+          "Mineral substance"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Protein'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is included in the minor component of food?",
+        "options": [
+          "Vitamin",
+          "Carbohydrate",
+          "Lipid",
+          "Protein"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Vitamin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Essential fatty acid:",
+        "options": [
+          "Arachidonic acid",
+          "Stearic acid",
+          "Palmitic acid",
+          "Oleic acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Arachidonic acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "When is dissimilation observed?",
+        "options": [
+          "Hunger",
+          "Body growth",
+          "Development of the organism",
+          "Body renewal"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hunger'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Essential fatty acid:",
+        "options": [
+          "Linol",
+          "Stearin",
+          "Palmine",
+          "Olein"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Linol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Daily need of proteins:",
+        "options": [
+          "80g",
+          "50g",
+          "300g",
+          "500g"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '80g'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Daily need of carbohydrates:",
+        "options": [
+          "400-500g",
+          "200-300g",
+          "50-100g",
+          "80-90g"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '400-500g'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Daily need of fats:",
+        "options": [
+          "100g",
+          "20-30g",
+          "50-60g",
+          "140-150g"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '100g'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Major components of food:",
+        "options": [
+          "Carbohydrate",
+          "Vitamin",
+          "Water",
+          "Mineral substances"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Carbohydrate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Minor component of food:",
+        "options": [
+          "Mineral substances",
+          "Carbohydrate",
+          "Protein",
+          "Lipid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Mineral substances'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Major component of food:",
+        "options": [
+          "Lipid",
+          "Mineral substance",
+          "Vitamin",
+          "Water"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Lipid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which substance is the building material for our body?",
+        "options": [
+          "Proteins",
+          "Carbohydrates",
+          "Oils",
+          "DNA and RNA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Proteins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the nutrients that give energy to the body?",
+        "options": [
+          "Carbohydrates",
+          "Proteins",
+          "Oils",
+          "DNA and RNA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Carbohydrates'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Minor components of food:",
+        "options": [
+          "Vitamins",
+          "Glucose",
+          "Amino acids - alanine, glycine",
+          "Amino acids methionine, valine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Vitamins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is formed from amino acids in human cells:",
+        "options": [
+          "own proteins",
+          "foreign proteins",
+          "vitamins",
+          "Nucleic acids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'own proteins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "This substance is not released from the body into the environment:",
+        "options": [
+          "Oxygen",
+          "Salt",
+          "Water",
+          "CO2"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxygen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Metabolism is:",
+        "options": [
+          "A set of complex chemical reactions aimed at breaking down and forming compounds",
+          "Complex chemical reactions that form proteins",
+          "The process of breaking down complex substances into simpler ones",
+          "Synthesis of proteins, fats, carbohydrates"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'A set of complex chemical reactions aimed at breaking down and forming compounds'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define the main function of carbohydrates?",
+        "options": [
+          "Providing energy to the body",
+          "Protecting the body from the effects",
+          "Participation in the formation of biologically important compounds",
+          "Participation in the formation of chemically important compounds"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Providing energy to the body'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Difference between anabolism and catabolism:",
+        "options": [
+          "In the process of catabolism, substances are broken down, in the process of anabolism, macromolecular substances are synthesized.",
+          "Catabolism slows down metabolism, anabolism speeds it up",
+          "Anabolism slows down metabolism, catabolism speeds it up",
+          "Anabolism produces energy, catabolism consumes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the process of catabolism, substances are broken down, in the process of anabolism, macromolecular substances are synthesized.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Meal plan:",
+        "options": [
+          "Time distribution of food products, calories, volume",
+          "Calorie distribution of food products",
+          "Time distribution of food products",
+          "Distribution of food products by volume"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Time distribution of food products, calories, volume'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following are micronutrients?",
+        "options": [
+          "Zinc",
+          "Chlorine",
+          "Potassium",
+          "Phosphorus"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Zinc'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a macronutrient?",
+        "options": [
+          "Calcium",
+          "Magnesium",
+          "Iodine",
+          "Phosphorus"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Calcium'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How is cholesterol removed from the body?",
+        "options": [
+          "With feces",
+          "With urine",
+          "By sweating",
+          "Through saliva"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'With feces'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Energy needs for students:",
+        "options": [
+          "2800 kcal / day",
+          "1200 kcal / day",
+          "3400 kcal / day",
+          "1900 kcal / day"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '2800 kcal / day'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How much energy is released when carbohydrates are broken down?",
+        "options": [
+          "4.2 kcal / g",
+          "9.3 kcal / g",
+          "7.5 kcal / g",
+          "2.1 kcal / g"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '4.2 kcal / g'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How much energy is released when fats are broken down?",
+        "options": [
+          "9.3 kcal / g",
+          "4.2 kcal / g",
+          "7.5 kcal / g",
+          "2.1 kcal / g"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '9.3 kcal / g'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How much energy is released when proteins are broken down?",
+        "options": [
+          "4.2 kcal / g",
+          "9.3 kcal / g",
+          "7.5 kcal / g",
+          "2.1 kcal / g"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '4.2 kcal / g'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Metabolism of matter and energy is:",
+        "options": [
+          "Consumption, transformation, use, accumulation and loss of substances and energy",
+          "Removal of undigested waste from the body",
+          "Entry of substances into the body",
+          "Removal of substances from the body"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Consumption, transformation, use, accumulation and loss of substances and energy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An example of anabolism:",
+        "options": [
+          "Hair growth",
+          "Ethanol decomposition",
+          "Glycolysis",
+          "Formation of amino acids from proteins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hair growth'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Physical inactivity contributes to the accumulation of stored fat, because:",
+        "options": [
+          "It consumes less energy",
+          "Atherosclerosis develops",
+          "Bone remodeling occurs",
+          "Consumes a lot of energy"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It consumes less energy'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-0-2": [
+      {
+        "question": "Which of the following is part of glycerophospholipids?",
+        "options": [
+          "Phosphotidylcholine",
+          "Cerebroside",
+          "Cholesterol",
+          "Prostoglandin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phosphotidylcholine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What substances enter the cell through normal diffusion?",
+        "options": [
+          "Oxygen",
+          "Lipid",
+          "Carbohydrate",
+          "Protein"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxygen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which substance passes into the cell through normal diffusion?",
+        "options": [
+          "Carbon dioxide",
+          "Protein",
+          "Lipid",
+          "Carbohydrates"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Carbon dioxide'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The minor component of the cell?",
+        "options": [
+          "Tocopherol",
+          "Protein",
+          "Carbohydrate",
+          "Lipid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Tocopherol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How many nm thick is the thinnest, strongest biomembrane?",
+        "options": [
+          "1.5-1.8 nm",
+          "2.5-2.8 nm",
+          "3.9-5.9 nm",
+          "3.5-10 nm"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '1.5-1.8 nm'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How are biomembranes structured?",
+        "options": [
+          "proteins, lipids, carbohydrates",
+          "only lipids",
+          "proteins and lipids",
+          "proteins, lipids, carbohydrates and tightly bound water"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'proteins, lipids, carbohydrates'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following determines membrane stiffness?",
+        "options": [
+          "cytoplasm",
+          "integral proteins",
+          "cholesterol",
+          "glycocalyx"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'cytoplasm'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Semi-integral proteins mainly perform what function?",
+        "options": [
+          "energy",
+          "transport",
+          "receptor",
+          "enzymatic"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'enzymatic'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Choose the wrong answer?",
+        "options": [
+          "The cell membrane performs an energy function",
+          "The cell membrane acts as a barrier",
+          "The cell membrane performs a regulatory function",
+          "The cell membrane performs a transport function"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The cell membrane performs an energy function'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How many layers does the cell membrane consist of?",
+        "options": [
+          "Two layers (bisloy)",
+          "From one layer (monolayer)",
+          "Four layers (tetrosloy)",
+          "Above six (hexoclay)"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Two layers (bisloy)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How are lipids structured?",
+        "options": [
+          "Head and tail",
+          "Membrane layer",
+          "Basic and subfunctional",
+          "Monosaccharides and polysaccharides"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Head and tail'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The thickness of the membrane?",
+        "options": [
+          "7-8 nm",
+          "0.25 nm",
+          "1-3 nm",
+          "5 nm"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '7-8 nm'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which proteins are part of the biological membrane?",
+        "options": [
+          "Integral, semi-integral, surface",
+          "Collagen, myosin",
+          "Globulin",
+          "pepsin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Integral, semi-integral, surface'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which lipids are part of the membrane?",
+        "options": [
+          "Phospholipids, glycolipids, cholesterol",
+          "Steroids, glycolipids",
+          "Cholesterol, steroids, proteolipids",
+          "phospholipids, steroids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phospholipids, glycolipids, cholesterol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What forms the basis of the cell membrane?",
+        "options": [
+          "Bilayer of lipid molecules",
+          "Double layers of protein molecules",
+          "Carbohydrate molecules",
+          "Three rows of protein molecules"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Bilayer of lipid molecules'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is not a membrane organoid?",
+        "options": [
+          "Ribosome",
+          "Mitochondria",
+          "Golgi apparatus",
+          "Plastids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ribosome'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following substances enter the cell directly?",
+        "options": [
+          "Ions",
+          "Large protein molecules",
+          "Large molecules of lipids",
+          "Liquid nutrients"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Characteristic of Membrane?",
+        "options": [
+          "Semiconductor",
+          "Only ions and small molecules pass through",
+          "It is not possible to pass",
+          "Conductive for any substance"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Semiconductor'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How many layers does the cell membrane consist of?",
+        "options": [
+          "Two floors (biqavat)",
+          "From one layer (monolayer)",
+          "Of four layers (tetraquat)",
+          "Six and more (hexa-story)"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Two floors (biqavat)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A cell membrane is present?",
+        "options": [
+          "In all living organisms",
+          "In plants and animals",
+          "Bacteria and fungi in plants",
+          "Only in animals"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In all living organisms'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the concentration of K+ ion inside the cell?",
+        "options": [
+          "High",
+          "Low",
+          "Minus",
+          "No"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'High'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the status of membrane lipids?",
+        "options": [
+          "liquid crystal",
+          "amorphous",
+          "liquid",
+          "hard"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'liquid crystal'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How are substances transferred to the membrane by facilitated diffusion?",
+        "options": [
+          "according to the concentration gradient",
+          "opposite to the concentration gradient",
+          "without the involvement of carrier proteins",
+          "ATP energy is involved"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'according to the concentration gradient'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where are receptors for primary messengers located?",
+        "options": [
+          "in the plasma membrane",
+          "in the mitochondrial membrane",
+          "in the nuclear membrane",
+          "in the lysosomal membrane"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'in the plasma membrane'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Characteristics of cell membranes?",
+        "options": [
+          "fluidity",
+          "poor water permeability",
+          "low electrical resistance",
+          "symmetry"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'fluidity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How are substances transferred from the membrane through the primary active transport pathway?",
+        "options": [
+          "opposite to the concentration gradient",
+          "according to the concentration gradient",
+          "without the involvement of carrier proteins",
+          "ATP energy is involved"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'opposite to the concentration gradient'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How are substances transferred from the membrane through the secondary active transport pathway?",
+        "options": [
+          "as opposed to concentration gradient",
+          "according to the concentration gradient",
+          "without the participation of protein carriers",
+          "in the presence of protein enzymes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'as opposed to concentration gradient'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following carries out the transport of substances through the membrane?",
+        "options": [
+          "Facilitated diffusion",
+          "lateral diffusion",
+          "dialysis",
+          "axonal current"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Facilitated diffusion'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The polar heads of phospholipid molecules have the following properties?",
+        "options": [
+          "Hydrophilic",
+          "Hyrophobia",
+          "Amphiphilic",
+          "Non-polarity"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hydrophilic'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Non-polar tails of phospholipid molecules have the following properties?",
+        "options": [
+          "Hyrophobia",
+          "Hydrophilic",
+          "Amphiphilic",
+          "Polarity"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hyrophobia'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-0-3": [
+      {
+        "question": "Ion that leads to energy production:",
+        "options": [
+          "H+",
+          "Mg2+",
+          "Ca2+",
+          "Cl-"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'H+'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Regarding macroergic compounds:",
+        "options": [
+          "ATP",
+          "Glucose 6-phosphate",
+          "Fatty acid",
+          "Creatinine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'ATP'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The separation of oxidation and phosphorylation causes which of the following?",
+        "options": [
+          "An increase in body temperature",
+          "Hypoxia",
+          "Decreased body temperature",
+          "Hypovitaminosis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'An increase in body temperature'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How many macroergic bonds does ATF store?",
+        "options": [
+          "Two",
+          "One",
+          "Three",
+          "Four"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Two'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Universal macroergic compound in man:",
+        "options": [
+          "ATP",
+          "Creatine phosphate",
+          "Phosphoenolpyruvate",
+          "UTF"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'ATP'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How much ATF is produced in the body through oxidative phosphorylation?",
+        "options": [
+          "90%",
+          "100%",
+          "75%",
+          "50%"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '90%'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where is the tissue respiratory chain located?",
+        "options": [
+          "In the inner membrane of mitochondria",
+          "In the nucleus",
+          "In the outer membrane of mitochondria",
+          "In the mitochondrial matrix"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the inner membrane of mitochondria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What group of proteins do cytochromes belong to?",
+        "options": [
+          "Hemoprotein",
+          "Lipoprotein",
+          "Phospholipid",
+          "Glycolipid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hemoprotein'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In which answer is the sequence of parts of the complete chain of tissue respiration?",
+        "options": [
+          "NAD, FMN-CoQ-cytochromes",
+          "NAD-NADF-CoQ-cytochromes",
+          "FAD - NAD-CoQ-cytochromes",
+          "NAD - FMN-CoA cytochromes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'NAD, FMN-CoQ-cytochromes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In which of the following processes is the synthesis of ATF by oxidative phosphorylation observed?",
+        "options": [
+          "Tissue is in the respiratory chain",
+          "In gluconeogenesis",
+          "In the synthesis of triglycerides",
+          "In glycolysis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Tissue is in the respiratory chain'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where is the main amount of ATF synthesized in the cell:",
+        "options": [
+          "Mitochondria",
+          "Endoplasmic reticulum",
+          "Cytoplasm",
+          "Microsome"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Mitochondria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where is the proton gradient formed during tissue respiration?",
+        "options": [
+          "In the intermembrane space of mitochondria",
+          "In the mitochondrial matrix",
+          "In the inner membrane",
+          "In the outer membrane"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the intermembrane space of mitochondria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Hypothesis explaining the mechanism of oxidative phosphorylation:",
+        "options": [
+          "Chemiosmotic",
+          "Chemical combination",
+          "Mechanical-chemical",
+          "Conformational compatibility"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Chemiosmotic'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which enzyme synthesizes ATF in the oxidation-reduction process?",
+        "options": [
+          "ATF synthase",
+          "Creatine kinase",
+          "Hexokinase",
+          "Phosphatase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'ATF synthase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How much ATF is formed when a pair of electrons is transferred from NADH2 to oxygen during tissue respiration?",
+        "options": [
+          "3",
+          "12",
+          "2",
+          "38"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '3'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How much ATF is formed when a pair of electrons is transferred from FADH2 to oxygen during tissue respiration?",
+        "options": [
+          "2",
+          "12",
+          "38",
+          "3"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '2'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Tissue respiratory chain inhibitor:",
+        "options": [
+          "Cyanide",
+          "Pyridine",
+          "Flavin",
+          "Nicotinamide"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cyanide'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Catalyzes the transfer of electrons to oxygen:",
+        "options": [
+          "Cytochrome",
+          "Superoxide dismutase",
+          "Catalase",
+          "Peroxidase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cytochrome'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which component of tissue respiration does cyanide inhibit?",
+        "options": [
+          "Cytochromoxidase",
+          "NADH dehydrogenase",
+          "KoQ",
+          "Cytochrome b"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cytochromoxidase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What enzyme activity decreases in B2 hypovitaminosis:",
+        "options": [
+          "Succinate dehydrogenase",
+          "Malate dehydrogenase",
+          "Isocitrate dehydrogenase",
+          "Aconitase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Succinate dehydrogenase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which cytochromes store iron and copper atoms?",
+        "options": [
+          "a a3",
+          "b",
+          "c1",
+          "b5"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'a a3'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An enzyme related to oxidoreductase:",
+        "options": [
+          "Succinate dehydrogenase",
+          "Aconitase",
+          "Fumarase",
+          "Amylase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Succinate dehydrogenase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Succinate dehydrogenase coenzyme:",
+        "options": [
+          "FAD",
+          "TDF",
+          "NAD",
+          "HSCoA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'FAD'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The specificity of cytochromoxidase construction:",
+        "options": [
+          "Gem storage",
+          "Normal protein",
+          "Contains fluoride",
+          "Zinc preserves"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Gem storage'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The role of cytochromes in ETZ:",
+        "options": [
+          "Electron transfer",
+          "Transfer of protons",
+          "Hydrogen transfer",
+          "Oxygen transfer"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Electron transfer'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Location of succinate dehydrogenase in the cell:",
+        "options": [
+          "Mitochondria",
+          "Nuclear membrane",
+          "Cytoplasm",
+          "Ribosome"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Mitochondria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Cytochrome 5 in respiratory chain",
+        "options": [
+          "a3",
+          "b5",
+          "c2",
+          "c3"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'a3'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Enzyme involved in H2O2 detoxification",
+        "options": [
+          "Catalase",
+          "Hexokinase",
+          "Methemoglobin reductase",
+          "Glucokinase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Catalase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In which answer, the coenzyme cannot be a substrate of the mitochondrial respiratory chain?",
+        "options": [
+          "NADPH2;",
+          "(FMN)H2;",
+          "FADH2;",
+          "NADH2"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'NADPH2;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Deficiency of which vitamin decreases the activity of dehydrogenases of the respiratory chain:",
+        "options": [
+          "B2 and PP",
+          "B6 and B8",
+          "B5 and B12",
+          "C and B10"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'B2 and PP'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-0-4": [
+      {
+        "question": "Who discovered the tricarboxylic acid cycle?",
+        "options": [
+          "Krebs",
+          "Senger",
+          "Fisher",
+          "Mitchell"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Krebs'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where does the three carbonic acid cycle take place in the cell?",
+        "options": [
+          "In mitochondria",
+          "In the cytoplasm",
+          "In the nucleus",
+          "In ribosomes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In mitochondria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which metabolite is absorbed in the tricarbonic acid cycle?",
+        "options": [
+          "Acetyl CoA",
+          "Pyruvate",
+          "Citrate",
+          "NADH2"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acetyl CoA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the enzyme that catalyzes the formation of FADH2 in the tricarboxylic acid cycle?",
+        "options": [
+          "Succinate dehydrogenase",
+          "Succinyl CoA synthase",
+          "Isocitrate dehydrogenase",
+          "Malate dehydrogenase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Succinate dehydrogenase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How many stages does catabolism, i.e. energy generation, consist of?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '3'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the coenzyme of the isocitrate dehydrogenase enzyme.",
+        "options": [
+          "NAD",
+          "FAD",
+          "Ubikinon",
+          "Cytochrome"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'NAD'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In which disease does the amount of pyruvic acid in the blood increase?",
+        "options": [
+          "Hypovitaminosis B5",
+          "Obesity",
+          "Diabetes",
+          "Hypovitaminosis B6"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hypovitaminosis B5'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The normal amount of pyruvic acid in blood serum:",
+        "options": [
+          "56.8 - 113.6 μmol/l",
+          "3.3 - 6.4 μmol/l",
+          "65 - 85 g/l",
+          "333 - 583 mg/l"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '56.8 - 113.6 μmol/l'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Catabolism is:",
+        "options": [
+          "Hydrolysis of biopolymers in the body",
+          "Biosynthesis of complex substances",
+          "Creation of new substances with special properties",
+          "Consumption of energy in the body"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hydrolysis of biopolymers in the body'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the first and last metabolite formed in the Krebs cycle?",
+        "options": [
+          "Oxaloacetate",
+          "Acetyl CoA",
+          "Citric acid",
+          "Carbon dioxide"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxaloacetate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The dysfunction of the pyruvate dehydrogenase complex can be evaluated as follows.",
+        "options": [
+          "Increased urinary pyruvate",
+          "Oxidation disorder of fatty acids",
+          "The amount of pyruvate in the urine is reduced",
+          "Increased glucose levels"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Increased urinary pyruvate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What vitamins are lacking in the body when the amount of pyruvic acid in the urine increases?",
+        "options": [
+          "B1, B2, B5",
+          "A and B6",
+          "D2 and D3",
+          "B6 and B12"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'B1, B2, B5'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "NADH2 formed during oxidative decarboxylation of pyruvate undergoes the following changes:",
+        "options": [
+          "Enters the respiratory chain",
+          "It is used in the synthesis of fatty acids",
+          "passes to FADH2",
+          "Used in the Krebs cycle"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Enters the respiratory chain'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How many ATF molecules are formed in the Krebs cycle for the oxidation of α-ketoglutarate to succinyl CoA?",
+        "options": [
+          "3 ATF",
+          "1ATF",
+          "12 ATF",
+          "2 ATF"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '3 ATF'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define the general path of catabolism.",
+        "options": [
+          "Oxidative decarboxylation of pyruvate",
+          "Fatty acid synthesis",
+          "Glycolysis",
+          "Hydrolysis of proteins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxidative decarboxylation of pyruvate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Pyruvic acid is an intermediate metabolic product of all substances except which answer:",
+        "options": [
+          "Fatty acids",
+          "Hexose",
+          "Glycerin",
+          "Pentose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fatty acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the amount of ATF molecules synthesized when one pyruvate molecule is oxidized to acetyl-CoA:",
+        "options": [
+          "3ATF",
+          "1ATF",
+          "2ATF",
+          "12ATF"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '3ATF'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the process of energy release called:",
+        "options": [
+          "Catabolism",
+          "Anabolism",
+          "Lipolysis",
+          "Hydrolysis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Catabolism'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Special pathways of metabolism end with the formation of compounds that initiate general pathways. This is:",
+        "options": [
+          "Acetyl-CoA",
+          "Malonyl-CoA",
+          "Succinyl-CoA",
+          "Oxaloacetate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acetyl-CoA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where do enzymes of the three carbonic acid cycle (Krebs cycle) take place in the mitochondria?",
+        "options": [
+          "In the mitochondrial matrix",
+          "In the outer membrane",
+          "In the intermembrane space",
+          "In the inner membrane"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the mitochondrial matrix'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The Krebs cycle performs an amphibolic function (combination of catabolism and anabolism). What is its catabolic function?",
+        "options": [
+          "Acetyl-CoA oxidation",
+          "PUK oxidation",
+          "Decomposition of oxaloacetate",
+          "Citrate degradation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acetyl-CoA oxidation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "All factors stimulate oxidation processes and ATF production, except which answer:",
+        "options": [
+          "H2S, CO, As.",
+          "trace elements Fe and Cu;",
+          "Mg and P macroelements;",
+          "group B vitamins;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'H2S, CO, As.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Oxidative decarboxylation of pyruvic acid (PUK) is catalyzed by a complex multi-enzyme complex with the participation of several functionally linked coenzymes. Show this complex coenzyme:",
+        "options": [
+          "TDF, FAD, CoASH, NAD, lipoyl acid",
+          "FAD, TGFK, PALF, TDF, choline",
+          "NAD, PALF, TDF, methylcobalamin, biopterin",
+          "CoASH, FAD, PALF, TGFK, carnitine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'TDF, FAD, CoASH, NAD, lipoyl acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Glycerin and glucose catabolism are connected through which substance:",
+        "options": [
+          "Pyruvate",
+          "Lactate",
+          "Acetyl CoA",
+          "Oxaloacetate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pyruvate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the main function of the Krebs cycle:",
+        "options": [
+          "Hydrogen donor",
+          "Amphibious",
+          "Integrative",
+          "Biosynthetic"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hydrogen donor'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the catabolite pathway common to all bioorganic substances:",
+        "options": [
+          "Electronic transport chain",
+          "Formation of pyruvate",
+          "β-oxidation",
+          "Anaerobic decomposition"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Electronic transport chain'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "PDG complex enzymes involved in oxidative decarboxylation of pyruvic acid (PUK) are correctly given in which answer?",
+        "options": [
+          "Decarboxylating pyruvate dehydrogenase, dihydrolipoyltransacetylase, dihydrolipoyldehydrogenase",
+          "Pyruvate carboxylase, succinyl thiokinase, dihydrolipoylacetyltransferase",
+          "Pyruvate kinase, pyruvate carboxylase, pyruvate dehydrogenase",
+          "Pyruvate dehydrogenase, FEP-carboxylase, isocitrate dehydrogenase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Decarboxylating pyruvate dehydrogenase, dihydrolipoyltransacetylase, dihydrolipoyldehydrogenase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the correct answer for the integrative function of the Krebs cycle:",
+        "options": [
+          "Linking the catabolism of all substances in one common pathway",
+          "Observation of direct substrate phosphorylation in the Krebs ring",
+          "Both anabolic and catabolic functions",
+          "Use of Krebs cycle metabolites in the synthesis of other substances"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Linking the catabolism of all substances in one common pathway'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Krebs cycle inhibitor:",
+        "options": [
+          "ATP",
+          "ADF",
+          "sAMF",
+          "GTF"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'ATP'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The slowest activating enzyme of the Krebs cycle:",
+        "options": [
+          "Isocitrate dehydrogenase",
+          "Sirtate synthase",
+          "α-ketoglutarate dehydrogenase complex",
+          "Succinate dehydrogenase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Isocitrate dehydrogenase'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-0-5": [
+      {
+        "question": "What homopolysaccharides are found in human tissues?",
+        "options": [
+          "Glycogen",
+          "Glucuronic acid",
+          "Starch",
+          "Cellulose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glycogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Functions of carbohydrates in the human body?",
+        "options": [
+          "Energy",
+          "Transportation",
+          "Issuer",
+          "Protection"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Energy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The amount of carbohydrates in the human body (in % of dry weight)?",
+        "options": [
+          "2%",
+          "5%",
+          "10%",
+          "50%"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '2%'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What percentage of glycogen in the liver reaches:",
+        "options": [
+          "6%",
+          "1%",
+          "10%",
+          "20%"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '6%'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which carbohydrate acts as the main intracellular energy source?",
+        "options": [
+          "Glucose",
+          "Cellulose",
+          "Glycogen",
+          "Amylopectin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What kind of carbohydrates mainly perform a structural function?",
+        "options": [
+          "Glycosaminoglycans",
+          "Glycogen",
+          "Fructose",
+          "Glucuronic acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glycosaminoglycans'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which carbohydrate is absorbed in the intestines?",
+        "options": [
+          "Fructose",
+          "Lactose",
+          "Sucrose",
+          "Maltose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fructose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Salivary amylase hydrolyzes which chemical bond?",
+        "options": [
+          "1-4 glycosidic bonds",
+          "1-6 glycosidic bonds",
+          "Glucose-fructose bond",
+          "Peptide bonds"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '1-4 glycosidic bonds'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "It is formed as a result of the breakdown of glycogen:",
+        "options": [
+          "Glucose-1-phosphate",
+          "UDF-glucose",
+          "Galactose-1-phosphate",
+          "Glucose-6-phosphate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucose-1-phosphate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where does the digestion of carbohydrates begin?",
+        "options": [
+          "In the oral cavity",
+          "In the stomach",
+          "In the duodenum",
+          "In the small intestine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the oral cavity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following enzymes is involved in the digestion of carbohydrates?",
+        "options": [
+          "Amylase",
+          "Pepsin",
+          "Glucose-6-phosphatase",
+          "Amylo-1,7-glucosidase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Amylase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How is fructose added to metabolism?",
+        "options": [
+          "All answers are correct",
+          "Fructose turns into 1-phosphate and becomes a substrate of glycolysis",
+          "Glucose is converted to 1-phosphate and stored as glycogen",
+          "Can participate in the synthesis of triacylglycerols"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'All answers are correct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which process increases in hypoglycemia?",
+        "options": [
+          "Gluconeogenesis",
+          "Glycolysis",
+          "Glycogen synthesis",
+          "Pentose phosphate pathway"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Gluconeogenesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Phosphorylation of glucose is catalyzed by which enzyme?",
+        "options": [
+          "Hexokinase",
+          "Glucose-6-phosphatase",
+          "Phosphorylase",
+          "Glucagon"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hexokinase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In which tissues is glucokinase activity determined?",
+        "options": [
+          "Liver",
+          "The brain",
+          "Myocardium",
+          "Kidney"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Liver'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Galactosemia is associated with insufficient activity of which enzyme?",
+        "options": [
+          "Galactose-1-phosphaturidyltransferase",
+          "Fructose-1,6-diphosphatase",
+          "Lactose synthetase",
+          "Lactase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Galactose-1-phosphaturidyltransferase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Essential fructosuria is associated with a deficiency of which substance?",
+        "options": [
+          "Fructokinase",
+          "Phosphofructokinase",
+          "Fructose-1-phosphataldolase",
+          "Hexokinase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fructokinase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Congenital fructose maldigestion is caused by which enzyme defect?",
+        "options": [
+          "Fructose-1-phosphataldolase",
+          "Fructokinase",
+          "Phosphofructokinase",
+          "Fructose-1,6-diphosphatase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fructose-1-phosphataldolase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Lactose includes:",
+        "options": [
+          "Glucose, galactose",
+          "Fructose, galactose",
+          "Sucrose, glucose",
+          "Ribose, deoxyribose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucose, galactose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following substances cannot be digested in the human body?",
+        "options": [
+          "Cellulose",
+          "Starch",
+          "Amylose",
+          "Sucrose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cellulose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is animal starch called?",
+        "options": [
+          "Glycogen",
+          "Homopolysaccharide",
+          "Glucosamine",
+          "Mucopolysaccharide"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glycogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the common name of enzymes that break down carbohydrates?",
+        "options": [
+          "Glycosidase",
+          "Amylase",
+          "Kinase",
+          "Hydrolytic protease"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glycosidase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Why are carbohydrates not digested in the stomach?",
+        "options": [
+          "The pH environment of the stomach is not optimal for glycosidases",
+          "No enzymes are produced in the stomach",
+          "It is related to the fact that the digestive juice of the pancreas does not flow into the stomach",
+          "It is also digested in the stomach"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The pH environment of the stomach is not optimal for glycosidases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The function of GLYuT-1 is given correctly in which answer?",
+        "options": [
+          "Delivering glucose to brain cells",
+          "Bringing glucose into the cell",
+          "Glucose transport to fat cells",
+          "Control of blood glucose homeostasis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Delivering glucose to brain cells'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define the mechanism of absorption of glucose from the intestine into the blood.",
+        "options": [
+          "Symport",
+          "Antiport",
+          "In the presence of insulin",
+          "γ-glutamyl cycle"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Symport'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the difference between glucokinase and hexokinase?",
+        "options": [
+          "Glucose is not inhibited by 6-phosphate",
+          "It is not inhibited by ATF",
+          "It is inhibited in high concentration of glucose",
+          "Glucokinase phosphorylates glucose, hexokinase phosphorylates galactose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucose is not inhibited by 6-phosphate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define the substrate of α-amylase.",
+        "options": [
+          "Starch",
+          "Maltose",
+          "Sucrose",
+          "Lactose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Starch'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What kind of bond is attached to the long chain of glycogen?",
+        "options": [
+          "1-4 glycosides",
+          "1-6 glycosides",
+          "Polypeptide",
+          "Amylopectin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '1-4 glycosides'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a disaccharide?",
+        "options": [
+          "Lactose",
+          "Galactose",
+          "Fructose",
+          "Amylopectin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Lactose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where is amylo-1,6 glucosidase secreted?",
+        "options": [
+          "From the wall of the small intestine",
+          "From the pancreas",
+          "From the duodenum",
+          "From the salivary glands"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'From the wall of the small intestine'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-0-6": [
+      {
+        "question": "Starch that comes with food is hydrolyzed in the gastrointestinal system. What substance is formed as the last product",
+        "options": [
+          "Glucose",
+          "Lactose",
+          "Galactose",
+          "Pyruvate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How does glucose enter brain cells:",
+        "options": [
+          "Facilitated diffusion",
+          "Secondary active transport",
+          "With carnitine",
+          "Basic active transport"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Facilitated diffusion'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the metabolite that initiates the aerobic catabolism of glucose:",
+        "options": [
+          "Pyruvate",
+          "Lactate",
+          "Phosphoenolpyruvate",
+          "Glucose 6-phosphate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pyruvate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How much of the ATP formed when 1 mole of glucose is completely broken down belongs to the Krebs cycle?",
+        "options": [
+          "24",
+          "12",
+          "36",
+          "2"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '24'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which metabolite is the substrate in the reaction of glycolysis in which NADH2 is formed?",
+        "options": [
+          "1,3 diphosphoglycerate",
+          "2 phosphoglycerate",
+          "3 phosphoglycerate",
+          "Pyruvate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '1,3 diphosphoglycerate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How much ATP is used to activate a glucose molecule and split it into two molecules of triose during glycolysis:",
+        "options": [
+          "2ATP",
+          "1 ATP",
+          "5 ATP",
+          "12 ATP"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '2ATP'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How much ATP is synthesized in step 1 of glycolysis?",
+        "options": [
+          "ATP is not synthesized",
+          "2",
+          "6",
+          "8"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'ATP is not synthesized'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the end product of aerobic glycolysis:",
+        "options": [
+          "Pyruvate",
+          "Lactate",
+          "Oxaloacetate",
+          "Phosphoenolpyruvate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pyruvate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the substance formed in the pentose phosphate pathway of glucose oxidation:",
+        "options": [
+          "Ribulose-5-phosphate",
+          "glucose-6-phosphate",
+          "galactose-6-phosphate",
+          "mannose-6-phosphate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ribulose-5-phosphate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the metabolite of the pentose phosphate pathway:",
+        "options": [
+          "6-Phosphogluconolactone",
+          "Ribose",
+          "Fructose 6-phosphate",
+          "UDF-galactose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '6-Phosphogluconolactone'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How much ATP is formed during the aerobic oxidation of glucose before PUK:",
+        "options": [
+          "6 ATP",
+          "2 ATP",
+          "12 ATP",
+          "4 ATP"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '6 ATP'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where does apatomic decay take place?",
+        "options": [
+          "In the cytoplasm",
+          "In the microsome",
+          "In mitochondria",
+          "In the lysosome"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the cytoplasm'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which oxidation product of glucose has the ability to neutralize the products of protein decay?",
+        "options": [
+          "Glucuronic acid",
+          "Hyaluronic acid",
+          "Iduronic acid",
+          "Glutamic acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucuronic acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In which of these organs is glucose not synthesized by gluconeogenesis?",
+        "options": [
+          "The brain",
+          "Liver",
+          "Kidney shell",
+          "There is no correct answer"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The brain'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The pentose phosphate pathway is the source of which of the following?:",
+        "options": [
+          "NADFH2",
+          "NADH2",
+          "Glucose-6-phosphate",
+          "Oxaloacetate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'NADFH2'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Enzyme that catalyzes reaction 1 of gluconeogenesis:",
+        "options": [
+          "Pyruvate carboxylase",
+          "FEP-carboxylase",
+          "Pyruvate kinase",
+          "Glucose 6-phosphatase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pyruvate carboxylase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The enzyme catalyzes the exchange of glucose-1-phosphate and glucose-6-phosphate:",
+        "options": [
+          "Phosphoglucomutase",
+          "Glucose-6-phosphatase",
+          "Glucose-6-phosphate isomerase",
+          "Aldolase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phosphoglucomutase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where does anaerobic glycolysis take place in the cell?",
+        "options": [
+          "Cytoplasm",
+          "Core",
+          "Mitochondria",
+          "Ribosomes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cytoplasm'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the enzyme that catalyzes one of the irreversible reactions of glycolysis?",
+        "options": [
+          "Phosphofructokinase",
+          "Aldolase",
+          "Enolase",
+          "Lactate dehydrogenase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phosphofructokinase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "End product of anaerobic glycolysis?",
+        "options": [
+          "Lactate",
+          "Pyruvate",
+          "Phosphoenolpyruvate",
+          "Acetyl-CoA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Lactate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Biotin is a coenzyme of which process:",
+        "options": [
+          "Gluconeogenesis",
+          "Ketogenesis",
+          "Glycogenolysis",
+          "Lipolysis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Gluconeogenesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the process of glycogenolysis?",
+        "options": [
+          "Anaerobic breakdown of glycogen",
+          "Glucose oxidation in muscles and brain",
+          "Glycogen synthesis in the liver, muscles",
+          "Lipogenesis in adipose tissue"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Anaerobic breakdown of glycogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following substances is excluded for gluconeogenesis:",
+        "options": [
+          "Nucleotides",
+          "Pyruvate and lactate",
+          "Glycogen-type amino acids",
+          "Glycerin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Nucleotides'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the enzyme that initiates glycolysis:",
+        "options": [
+          "Hexokinase",
+          "Phosphofructokinase",
+          "Glucose 6-phosphate isomerase",
+          "Glucokinase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hexokinase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the enzyme characteristic of gluconeogenesis:",
+        "options": [
+          "FEP-carboxylase",
+          "Hexokinase",
+          "Glucokinase",
+          "Pyruvate carboxylase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'FEP-carboxylase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Determine the characteristic response for the Cori cycle:",
+        "options": [
+          "Interdependence of anaerobic glycolysis and gluconeogenesis",
+          "Formation of lactate in muscles without the participation of oxygen",
+          "Glycogen synthesis in the liver, muscles",
+          "New synthesis of glucose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Interdependence of anaerobic glycolysis and gluconeogenesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Determine the characteristic response for gluconeogenesis:",
+        "options": [
+          "Synthesis of glucose from non-carbohydrate substances",
+          "Glucose oxidation in muscles and brain",
+          "Glycogen synthesis in the liver, muscles",
+          "Interdependence of anaerobic glycolysis and gluconeogenesis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Synthesis of glucose from non-carbohydrate substances'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Anaerobic glycolysis always occurs:",
+        "options": [
+          "In erythrocytes",
+          "In brain tissues",
+          "In the muscles",
+          "The kidney is in the hypothalamus"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In erythrocytes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Negative allosteric modifier of pyruvate kinase enzyme:",
+        "options": [
+          "Alanine",
+          "Citrate",
+          "Biotin",
+          "Pyruvate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Alanine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Biotin can be a coenzyme for which of the following enzymes:",
+        "options": [
+          "FEP-carboxylase",
+          "Hexokinase",
+          "Glucose 6-phosphatase",
+          "Pyruvate kinase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'FEP-carboxylase'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-0-7": [
+      {
+        "question": "A specific enzyme that catalyzes the phosphorylation of fructose:",
+        "options": [
+          "Fructokinase",
+          "Phosphofructokinase",
+          "Fructose 1,6 biphosphatase",
+          "Fructose 1-phosphate aldolase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fructokinase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The process that increases the amount of glucose in the blood is…..:",
+        "options": [
+          "Glucogenesis in the liver",
+          "Glucose oxidation in muscles and brain",
+          "Glycogen synthesis in the liver, muscles",
+          "Lipogenesis in adipose tissue"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucogenesis in the liver'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The value of the kidney threshold for glucose:",
+        "options": [
+          "8-10 mmol/l",
+          "10-15 mmol/l",
+          "2-3 mmol/l",
+          "15-20 mmol/l"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '8-10 mmol/l'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which substance stimulates the concentration of glucose in cells through passive transport?",
+        "options": [
+          "Insulin",
+          "Glucone",
+          "Adrenaline",
+          "GKS"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Insulin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which enzyme catalyzes the step of fructose metabolism to glycolysis?",
+        "options": [
+          "Fructose 1-phosphate aldolase",
+          "Fructokinase",
+          "Glucose 6-phosphate isomerase",
+          "Phosphofructokinase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fructose 1-phosphate aldolase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the metabolite of fructose metabolism that connects to glycolysis:",
+        "options": [
+          "Dihydroxyacetone phosphate",
+          "Fructose 1-phosphate",
+          "glyceraldehyde",
+          "Glucose 6-phosphate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Dihydroxyacetone phosphate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What factors activate glycogen breakdown?",
+        "options": [
+          "Adrenaline",
+          "Norepinephrine",
+          "Insulin",
+          "Glucose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Adrenaline'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An enzyme that catalyzes the synthesis of glycerolaldehyde phosphate from glycerolaldehyde:",
+        "options": [
+          "Thiokinase",
+          "Glycerolaldehyde dehydrogenase",
+          "Phosphotriose isomerase",
+          "Phosphoglycerate mutase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Thiokinase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Glycogenosis is:",
+        "options": [
+          "Disorders of glycogen breakdown",
+          "Glucose absorption disorder",
+          "Violation of insulin synthesis",
+          "Disruption of glucose synthesis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Disorders of glycogen breakdown'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the enzymes of glycolysis is controlled by insulin?",
+        "options": [
+          "Hexokinase",
+          "Phosphohexoisomerase",
+          "Aldolase",
+          "Hexokinase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hexokinase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Inherited fructose intolerance is associated with which enzyme defect?",
+        "options": [
+          "Fructose phosphate aldolase",
+          "Phosphofructokinase",
+          "Fructose 1,6-bisphosphatase",
+          "Phosphorylase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fructose phosphate aldolase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An enzyme that catalyzes the conversion of UDF-galactose to UDF-glucose:",
+        "options": [
+          "Epimerase",
+          "Isomerase",
+          "Mutaza",
+          "Transferase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Epimerase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define the disease caused by a genetic defect of the GALT enzyme:",
+        "options": [
+          "Galactosemia",
+          "Type 1 diabetes",
+          "Hereditary lactose intolerance",
+          "Gierke's disease"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Galactosemia'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Hypolactasia is caused by the defect of which enzyme?",
+        "options": [
+          "Lactase",
+          "Galactokinase",
+          "Uridylphosphate-4-epimerase",
+          "GALT"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Lactase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define the characteristic feature of galactose metabolism:",
+        "options": [
+          "Contains glycogen",
+          "Glucose is converted to 6-phosphate",
+          "It breaks down in the apotomic pathway",
+          "It serves as a source of pentoses"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Contains glycogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which disease occurs when the amount of glucose in the blood increases?",
+        "options": [
+          "Diabetes mellitus",
+          "Gastric ulcer and duodenal ulcer",
+          "Galactosemia",
+          "Cataract"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Diabetes mellitus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which enzyme of gluconeogenesis is located in mitochondria?",
+        "options": [
+          "Pyruvate carboxylase",
+          "Lactate dehydrogenase",
+          "Glucose-6-phosphatase",
+          "All enzymes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pyruvate carboxylase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "When does hereditary fructose intolerance appear?",
+        "options": [
+          "When sucrose products are included in the diet",
+          "Immediately after birth",
+          "When consuming mother's milk for the first time",
+          "3-4 years old"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'When sucrose products are included in the diet'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An enzyme that catalyzes the formation of galactylol:",
+        "options": [
+          "Galactose aldoreductase",
+          "Galactose 1-phosphaturidyltransferase",
+          "Galactokinase",
+          "Uridylphosphate-4-epimerase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Galactose aldoreductase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Galactylol causes:",
+        "options": [
+          "Cataract",
+          "Vomiting",
+          "Diarrhea",
+          "Diabetes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cataract'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which type of diabetes does not require insulin therapy:",
+        "options": [
+          "Type 2",
+          "Type 1",
+          "Gestational diabetes",
+          "Autoimmune type"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Type 2'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is observed in diabetes mellitus:",
+        "options": [
+          "Damage to hexokinases",
+          "Increased apatomic fragmentation",
+          "Decreased gluconeogenesis",
+          "Activation of glycogen synthetase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Damage to hexokinases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Disruption of lipid metabolism in diabetes can be explained by the following situation:",
+        "options": [
+          "Lipolysis increases",
+          "The synthesis of fatty acids slows down",
+          "Accumulation of fat in adipocytes increases",
+          "Ketone bodies are depleted"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Lipolysis increases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the substance involved in glucose homeostasis:",
+        "options": [
+          "All answers are correct",
+          "Insulin",
+          "Adrenaline",
+          "Cortisol"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'All answers are correct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the metabolite that initiates the pentose phosphate cycle and returns to the cycle:",
+        "options": [
+          "Glucose 6-phosphate",
+          "Ribulose 6-phosphate",
+          "Glucose",
+          "Galactose 1-phosphate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucose 6-phosphate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Phosphorylase stimulating factor:",
+        "options": [
+          "Adrenaline",
+          "Insulin",
+          "Glycogen",
+          "High concentration of ATP"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Adrenaline'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which enzyme causes low glutathione concentration in erythrocytes:",
+        "options": [
+          "Glucose 6-phosphate dehydrogenase",
+          "Glucose 6-phosphatase",
+          "Glucose 6-phosphate isomerase",
+          "Gluconolactone hydratase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucose 6-phosphate dehydrogenase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which type of diabetes is caused by autoimmune damage of β-cells of the pancreas:",
+        "options": [
+          "Type 1",
+          "Type 2",
+          "Gestational diabetes",
+          "Acquired diabetes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Type 1'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is glucosuria?",
+        "options": [
+          "Excretion of glucose with urine",
+          "High concentration of glucose in the blood",
+          "Low concentration of glucose in the blood",
+          "Inability of glucose to enter the cell"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Excretion of glucose with urine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which type of diabetes is without ketoacidosis?",
+        "options": [
+          "Non-insulin dependent",
+          "In insulin-dependent diabetes",
+          "In hereditary diabetes",
+          "In genetic tolerance to glucose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Non-insulin dependent'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-0-8": [
+      {
+        "question": "Which of the following is not a function of lipids?",
+        "options": [
+          "Formation of blood groups",
+          "Transmission of nerve impulses",
+          "Keeping the membrane in a liquid state",
+          "Participates in the absorption of vitamins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Formation of blood groups'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define unsaturated fatty acid?",
+        "options": [
+          "Nervous",
+          "Arachnid",
+          "Beginate",
+          "Miristin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Nervous'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find an essential fatty acid?",
+        "options": [
+          "Linol",
+          "Arachidon",
+          "Olein",
+          "Neuronate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Linol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define the source of essential fatty acids?",
+        "options": [
+          "Fish oil",
+          "Animal fat",
+          "Dairy products",
+          "Eggs and poultry products"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fish oil'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is included in glycerophospholipids?",
+        "options": [
+          "Cardiolipin",
+          "Ceramide",
+          "Sphingosine",
+          "Globoside"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cardiolipin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following substances contains a cyclopentaneoperhydrophenanthrene ring?",
+        "options": [
+          "Glycocholate",
+          "Lecithin",
+          "Taurine",
+          "Plasmalogen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glycocholate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Bile acids in bile are combined with:",
+        "options": [
+          "Glycine and Taurine",
+          "Bilirubin",
+          "Glycine and Alanine",
+          "Taurine and Valine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glycine and Taurine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Bile acids are metabolic products of:",
+        "options": [
+          "Cholesterol",
+          "Phospholipids",
+          "Triglycerides",
+          "Cerebrosides"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cholesterol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is a bile acid?",
+        "options": [
+          "Status",
+          "Arachidon",
+          "Olein",
+          "Miristin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Status'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The appearance of lysophospholipids in the intestine is related to the following.",
+        "options": [
+          "Phospholipase A2",
+          "Phospholipase A1",
+          "Phospholipase C",
+          "Phospholipase D."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phospholipase A2'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The main endogenous lipids that the body uses as alternative \"fuel\" are:",
+        "options": [
+          "Triacylglycerols of adipose tissue",
+          "Phospholipids",
+          "Membrane triacylglycerols",
+          "Cytoplasmic triacylglycerols"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Triacylglycerols of adipose tissue'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Bile must be present in the small intestine for fat emulsification, digestion and absorption. What components of bile are involved in these processes?",
+        "options": [
+          "Hydroxylated and conjugated cholanic acids",
+          "HCl acid and acidic pH environment",
+          "Conjugated bilirubin",
+          "Hydroxylated cholesterol"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hydroxylated and conjugated cholanic acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What substances mainly form gallstones?",
+        "options": [
+          "Bilirubin, cholesterol",
+          "Oxalate, chlorides",
+          "Urates, ammonium salts",
+          "Sulfates, hydrocarbons"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Bilirubin, cholesterol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Primary substrates in fat resynthesis in enterocytes:",
+        "options": [
+          "Monoacylglycerols, acyl-CoA",
+          "Glycerin, acetyl-CoA",
+          "Dioxyacetone phosphate, acyl-CoA",
+          "Glyceraldehyde phosphate, acyl-CoA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Monoacylglycerols, acyl-CoA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which bile acid helps dissolve gallstones?",
+        "options": [
+          "Xenodeoxycholate",
+          "Glycocholate",
+          "Deoxycholate",
+          "Taurine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Xenodeoxycholate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The component of lipids, which is the energy substrate of the body?",
+        "options": [
+          "Glycerin",
+          "Inositol",
+          "Cholesterol",
+          "None of the named components"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glycerin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Among the various representatives of lipids there are polar and non-polar. The most polar properties are expressed in the following compounds:",
+        "options": [
+          "Phosphoglycerides",
+          "Free fatty acids",
+          "Triacylglycerol",
+          "Sterol"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phosphoglycerides'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "State the name of the following compound: S15N31SOSKoA",
+        "options": [
+          "Palmityl CoA",
+          "Glutaryl CoA",
+          "Succinyl CoA",
+          "Palmitoleyl CoA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Palmityl CoA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The reason why the patient has nausea, heartburn, and steatorrhea after eating fatty foods:",
+        "options": [
+          "Disturbance of synthesis and conjugation of bile acids",
+          "Violation of synthesis of trypsin, chymotrypsin",
+          "Decreased activity of gastric lipase",
+          "Violation of the formation of choline complexes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Disturbance of synthesis and conjugation of bile acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How much endogenous water is released during complete oxidation of 100 grams of fat to final products?",
+        "options": [
+          "107 ml",
+          "30 ml",
+          "150 ml",
+          "83 m"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '107 ml'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Hydrolysis of triglyceride in the intestinal cavity is catalyzed by which enzyme?",
+        "options": [
+          "Lipases",
+          "Transacylase",
+          "Phospholipases",
+          "Acetylcholinesterase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Lipases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find a substance that belongs to steroids?",
+        "options": [
+          "deoxycholate",
+          "Taurine",
+          "Ganglioside",
+          "Neuronic acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'deoxycholate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Determine the function of bile acids?",
+        "options": [
+          "All answers are correct",
+          "Emulsification of oils",
+          "Activation of lipase",
+          "Micelle formation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'All answers are correct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where does fat digestion begin?",
+        "options": [
+          "Duodenum",
+          "Colon",
+          "Stomach",
+          "Small intestine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Duodenum'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where is monoglyceride lipase produced?",
+        "options": [
+          "In the intestinal mucosa",
+          "The duodenum is on the intestinal wall",
+          "In the pancreas",
+          "In the liver"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the intestinal mucosa'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where is diglyceride lipase synthesized?",
+        "options": [
+          "In the pancreas",
+          "The duodenum is on the intestinal wall",
+          "In the intestinal mucosa",
+          "In the liver"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the pancreas'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Substrate of phospholipase A1?",
+        "options": [
+          "Ether bond on the first C atom of glycerol",
+          "Ether bond on the second C atom of glycerol",
+          "The bond between the third C atom of glycerol and the phosphoric acid residue",
+          "The bond between phosphoric acid and nitrogen base"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ether bond on the first C atom of glycerol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which enzyme in snake venom causes hemolysis of erythrocytes?",
+        "options": [
+          "Phospholipase A2",
+          "Phospholipase A1",
+          "Lecithincholine acetyltransferase",
+          "Cholesterolesterase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phospholipase A2'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Determine the transport of fats in the blood?",
+        "options": [
+          "Chylomicron",
+          "Carnitine",
+          "Cholesterol",
+          "Transferases"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Chylomicron'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following processes can be disturbed if fats are not consumed enough?",
+        "options": [
+          "Absorption of certain vitamins",
+          "Bile acid synthesis",
+          "Activation of lipase",
+          "Gluconeogenesis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Absorption of certain vitamins'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-0-9": [
+      {
+        "question": "High fatty acids are transported from hyaloplasm to mitochondria using:",
+        "options": [
+          "Carnitine",
+          "Malate",
+          "Oxalate",
+          "Cholesterol"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Carnitine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where in the cell does fatty acid chain elongation occur?",
+        "options": [
+          "Cytoplasm",
+          "Lysosomes",
+          "Mitochondria",
+          "Ribosomes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cytoplasm'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where does the synthesis of palmitic acid take place in the cell?",
+        "options": [
+          "Cytoplasm",
+          "Core",
+          "Mitochondria",
+          "Microsomes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cytoplasm'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The following coenzymes, which contain vitamins, participate in the β-oxidation of fatty acids:",
+        "options": [
+          "FAD (B2), NAD (B5)",
+          "FAD (B2), TDF (B1)",
+          "NAD (B6), sAMF",
+          "NAD (B5), TDFK (B10)"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'FAD (B2), NAD (B5)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "As a result of which reactions, the largest amount of acetyl-CoA appears in the mitochondria?",
+        "options": [
+          "β-oxidation of fatty acids",
+          "Oxidative decarboxylation α-ketoglutarate",
+          "Oxidation of glucose to CO2 and H2O",
+          "Conversion of succinyl-CoA to succinate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'β-oxidation of fatty acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The entry of glycerol into metabolic processes in the body begins with the following reaction:",
+        "options": [
+          "Phosphorylation",
+          "Dehydrogenation",
+          "Hydroxylation",
+          "Conjugation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phosphorylation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "High fatty acids in the body are broken down mainly as a result of the following processes.",
+        "options": [
+          "Beta - oxidation",
+          "Hydrolysis",
+          "Peroxidation",
+          "Alpha - oxidation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Beta - oxidation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Ketone bodies include:",
+        "options": [
+          "Acetoacetate, β-hydroxybutyrate, acetone",
+          "Acetoacetate, succinate, acetone",
+          "Acetone, fumarate, A-hydroxybutyrate",
+          "D-hydroxybutyrate, malate, acetoacetate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acetoacetate, β-hydroxybutyrate, acetone'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Fatty acids are oxidized only aerobically. Name the organ in which fatty acids are the main energy substrate:",
+        "options": [
+          "Heart",
+          "Kidney",
+          "Liver",
+          "The brain"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Heart'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In what way is the transfer of fatty acids through mitochondrial membranes?",
+        "options": [
+          "Facilitated diffusion",
+          "Normal diffusion",
+          "Primary active transport",
+          "Secondary active transport"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Facilitated diffusion'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What coenzyme is needed for the synthesis of high fatty acids?",
+        "options": [
+          "NADFH",
+          "FMN",
+          "TDF",
+          "TGFK"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'NADFH'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which product of β-oxidation of fatty acids is broken down into 2 molecules of acetyl-CoA?",
+        "options": [
+          "Butyryl-CoA",
+          "Propionyl-CoA",
+          "Malonyl-CoA",
+          "Enoyl-CoA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Butyryl-CoA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where are ketone bodies formed:",
+        "options": [
+          "Liver",
+          "Muscle",
+          "Heart",
+          "Kidney"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Liver'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The norm of ketone bodies in the blood of a healthy person:",
+        "options": [
+          "30 mg/l",
+          "50 mg/l",
+          "10 mg/l",
+          "100 mg/l"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '30 mg/l'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Taking into account the energy consumption, how much energy is generated during the anaerobic oxidation of glycerol to lactic acid?",
+        "options": [
+          "1 mole. ATP",
+          "2 moles. ATP",
+          "9 moles. ATP",
+          "6 moles. ATP"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '1 mole. ATP'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Taking into account the energy consumption, how much energy is generated during the oxidation of glycerol to CO2 and H2O under aerobic conditions?",
+        "options": [
+          "22 moles. ATP",
+          "1 mole. ATP",
+          "3 moles. ATP",
+          "15 moles. ATP"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '22 moles. ATP'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Flooding of hepatocyte cytoplasm with triacylglycerols leads to:",
+        "options": [
+          "Fatty infiltration of the liver",
+          "Lipidosis",
+          "Hypocholesterolemia",
+          "Atherosclerosis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fatty infiltration of the liver'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Many fatty acids undergo β-oxidation. How many reactions does one oxidation cycle involve and what is its energetic effect?",
+        "options": [
+          "4 reactions (5 ATP)",
+          "2 reactions (2 ATP)",
+          "4 reactions (6 ATP)",
+          "6 reactions (12 ATP)"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '4 reactions (5 ATP)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A hormone that enhances the breakdown of intracellular fats:",
+        "options": [
+          "Adrenaline",
+          "Insulin",
+          "Steroid hormones",
+          "Thyroxine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Adrenaline'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where do fats resynthesized in enterocytes and included in chylomicrons fall first:",
+        "options": [
+          "into the lymph",
+          "To nerve cells",
+          "To the liver",
+          "To adipose tissue"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'into the lymph'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In the process of biosynthesis, the fatty acid chain is lengthened by several carbon atoms in one cycle:",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "5"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '2'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Indicate under what conditions the rate of synthesis of fatty acids in the body increases:",
+        "options": [
+          "As the amount of glucose in the body increases",
+          "With a decrease in insulin secretion",
+          "With a decrease in glucose concentration",
+          "With an extended protein diet"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'As the amount of glucose in the body increases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The bite of poisonous snakes is dangerous, because when their poison gets into the blood, it can cause severe hemolysis of erythrocytes and death. What enzymes are in the poison and what substances cause hemolysis?",
+        "options": [
+          "Phospholipase A2, lysophosphatidylcholine",
+          "Phospholipase C, hirudin",
+          "Phospholipase A2, lysoacylglycerol",
+          "Lipase, monoacylglycerols"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phospholipase A2, lysophosphatidylcholine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What are ketone bodies synthesized in the liver?",
+        "options": [
+          "Acetyl CoA",
+          "Acyl-CoA",
+          "Propionyl-CoA",
+          "Succinyl-CoA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acetyl CoA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "As a result of hyperketonemia, the following condition occurs:",
+        "options": [
+          "Acidosis",
+          "General obesity",
+          "Depression",
+          "Atherosclerosis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acidosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In the absence of the enzyme acetyl-CoA-carboxylase, what process of lipid metabolism is disturbed?",
+        "options": [
+          "Biosynthesis of fatty acids",
+          "Beta oxidation",
+          "Synthesis of phospholipids",
+          "Ketogenesis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Biosynthesis of fatty acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Arachidonic acid:",
+        "options": [
+          "is β-oxidized",
+          "is β-decarboxylated",
+          "is a-oxidized",
+          "γ-oxidized"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'is β-oxidized'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Ketoacidosis in diabetes is caused by the lack of which substance:",
+        "options": [
+          "Oxaloacetate",
+          "Glucose",
+          "Acetyl CoA",
+          "Fatty acids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxaloacetate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the number of complete β-oxidation cycles of stearic acid:",
+        "options": [
+          "8",
+          "5",
+          "7",
+          "9"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '8'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the mechanism of breakdown of intracellular fats under the influence of adrenaline called:",
+        "options": [
+          "Shalola",
+          "Ping-pong",
+          "Cyclic",
+          "Linear"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Shalola'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-0-10": [
+      {
+        "question": "Name the compound that is a derivative of cholesterol synthesized in the skin:",
+        "options": [
+          "Cholecalciferol",
+          "Choline acid",
+          "Kholin",
+          "Ergocalciferol"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cholecalciferol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What process of lipid metabolism is disturbed in the absence of acetyl-CoA-carboxylase enzyme?",
+        "options": [
+          "Biosynthesis of fatty acids",
+          "Beta oxidation",
+          "Synthesis of phospholipids",
+          "Ketogenesis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Biosynthesis of fatty acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Hereditary lipidosis is a consequence of:",
+        "options": [
+          "Accumulation of lipids in tissues",
+          "Enhanced lipid oxidation",
+          "Hypercholesterolemia",
+          "Hypoketonemia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Accumulation of lipids in tissues'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In the initial stages of cholesterol synthesis from acetyl-CoA, the following are formed:",
+        "options": [
+          "Mevalonic acid",
+          "Phosphatidic acid",
+          "Lactic acid",
+          "Pyruvic acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Mevalonic acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "If a person excludes fats from the diet, what are the negative consequences for the body?",
+        "options": [
+          "Avitaminosis",
+          "Atherosclerosis",
+          "Ketonemia",
+          "Hypoglycemia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Avitaminosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The development of atherosclerosis can be prevented:",
+        "options": [
+          "By limiting excess animal fat in food",
+          "By limiting carbohydrates in food",
+          "With protein restrictions in food products",
+          "With restrictions on vegetable oil"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'By limiting excess animal fat in food'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In alimentary hyperlipidemia, the amount of the following increases in the blood:",
+        "options": [
+          "Chylomicrons",
+          "Lipoprotein",
+          "Cholesterol",
+          "Glycolipids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Chylomicrons'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where does cholesterol biosynthesis take place?",
+        "options": [
+          "In the cytosol",
+          "In the Golgi complex",
+          "In the endoplasmic reticulum",
+          "In liver cell microsomes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the cytosol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "According to the chemical structure of cholesterol:",
+        "options": [
+          "Alcohol",
+          "Complex ether",
+          "Complex fatty acid",
+          "Hormone"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Alcohol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Cholesterol biosynthesis is controlled by the following enzyme:",
+        "options": [
+          "GMG CoA-reductase",
+          "Acetyl CoA thiolase",
+          "Esterase",
+          "Lipoprotein lipase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'GMG CoA-reductase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How much cholesterol is synthesized from the intestine:",
+        "options": [
+          "15-20%",
+          "50%",
+          "1%",
+          "90%"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '15-20%'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which intermediate metabolite is formed from squalene during cholesterol synthesis?",
+        "options": [
+          "Lanosterin",
+          "Mevalonic acid",
+          "Cholesterol",
+          "Hydroxymethylglutaryl"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Lanosterin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Carrier of exogenous cholesterol in the blood:",
+        "options": [
+          "Chylomicrons",
+          "LXAT",
+          "ZYL",
+          "Glycoproteins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Chylomicrons'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What enzyme helps ZYL to attach a large amount of cholesterol:",
+        "options": [
+          "LXAT",
+          "Esterase",
+          "Lipoprotein lipase",
+          "GMG-CoA reductase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'LXAT'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is the function of cholesterol?",
+        "options": [
+          "It is part of membranes",
+          "Participates in the inactivation of sex hormones",
+          "Facilitates the absorption of oils",
+          "Participates in the synthesis of phospholipids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It is part of membranes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the specific substance involved in the synthesis of phosphotidylethanolamine:",
+        "options": [
+          "STF",
+          "UTF",
+          "TTF",
+          "ATP"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'STF'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How does an increase in the amount of ATP affect oil exchange:",
+        "options": [
+          "Increases the synthesis of fatty acids",
+          "Accelerates fat breakdown",
+          "Increases the metabolism of ketone bodies",
+          "Increases cholesterol biosynthesis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Increases the synthesis of fatty acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Damage to the hypothalamus leads to the following change:",
+        "options": [
+          "To get fat",
+          "To lose weight",
+          "Ketoacidosis",
+          "Alkalosis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'To get fat'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How is the hereditary obesity gene inherited:",
+        "options": [
+          "Dominant",
+          "Recessive",
+          "Attached to the Y chromosome",
+          "Linked to the X sex chromosome"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Dominant'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Phosphatidylethanolamine can be a precursor for phosphatidylcholine, by which of the following changes can phosphatidylcholine be synthesized:",
+        "options": [
+          "Methylation",
+          "Carboxylation",
+          "Dehydroxylation",
+          "Ammonia attachment"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Methylation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where is the synthesis of glycerophospholipids important for the body:",
+        "options": [
+          "In the endoplasmic reticulum",
+          "In the Golgi apparatus",
+          "In mitochondria",
+          "In the cytoplasm"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the endoplasmic reticulum'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which enzyme activity is disturbed in hyperlipoproteinemia:",
+        "options": [
+          "Lipoprotein lipase",
+          "Phospholipase",
+          "Adenylate cyclase",
+          "LXAT"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Lipoprotein lipase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The first stage of cholesterol biosynthesis ends with the synthesis of which substance:",
+        "options": [
+          "Mevalon",
+          "Squalene",
+          "Cyclopentaneoperhydrophenanthrene ring",
+          "Lanosterin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Mevalon'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Gallstone disease:",
+        "options": [
+          "Cholesterol synthesis increases, bile acid synthesis decreases",
+          "Bile acid synthesis increases, cholesterol synthesis decreases",
+          "Bilirubin synthesis increases, cholesterol synthesis decreases",
+          "The activity of lipoprotein lipases increases, the activity of GMG CoA-reductase decreases"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cholesterol synthesis increases, bile acid synthesis decreases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How is the genetic obesity gene inherited:",
+        "options": [
+          "Dominant",
+          "Recessive",
+          "Attached to the Y chromosome",
+          "Linked to the X sex chromosome"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Dominant'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What disease is caused by a genetic defect of the apo-B 100 protein?",
+        "options": [
+          "Familial hypercholesterolemia",
+          "Bilirubinemia",
+          "Gallstone disease",
+          "Steratoria"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Familial hypercholesterolemia'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which disease has the highest death rate in atherosclerosis:",
+        "options": [
+          "Myocardial infarction",
+          "Fatty liver",
+          "Liver cirrhosis",
+          "Hypertension"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Myocardial infarction'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Determine the location of cardiolipin:",
+        "options": [
+          "Mitochondrial inner membrane",
+          "Myocardial cell membrane",
+          "In the wall of lysosomes",
+          "Cytoplasm of adipose tissue cells"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Mitochondrial inner membrane'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where in the cell does the catabolism of sphingomyelins take place:",
+        "options": [
+          "In the lysosome",
+          "In the cytoplasm",
+          "in EPR",
+          "In the mitochondrial matrix"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the lysosome'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Cachexia occurs in which of the following cases:",
+        "options": [
+          "In oncological diseases",
+          "In metabolic syndrome",
+          "In Itsengo-Cushing's disease",
+          "In hormonal disorders"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In oncological diseases'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-0-11": [
+      {
+        "question": "Where does protein digestion begin?",
+        "options": [
+          "In the stomach",
+          "In the small intestine",
+          "12 in the duodenum",
+          "In the pancreas"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the stomach'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define essential amino acid?",
+        "options": [
+          "Threonine",
+          "Histidine",
+          "Proline",
+          "Cysteine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Threonine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Toxic substances are formed from the decarboxylation of some amino acids in the large intestine. Which of the following is formed from ornithine?",
+        "options": [
+          "Putrescin",
+          "Agmatine",
+          "Skatol",
+          "Indole"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Putrescin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How amino acids are absorbed in the small intestine:",
+        "options": [
+          "Secondary sodium dependent active transport",
+          "Light diffusion",
+          "Pinocytosis",
+          "Phagocytosis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Secondary sodium dependent active transport'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Small intestinal exopeptidases include:",
+        "options": [
+          "Carboxypeptidase A and B",
+          "Gastrin, renin",
+          "Trypsin, chymotrypsin, elastase",
+          "Elastase, collagenase, trypsin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Carboxypeptidase A and B'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Gastric endopeptidases involved in the digestion of proteins:",
+        "options": [
+          "Pepsin, gastricin, rennin (chymosin)",
+          "Elastase, collagenase",
+          "Carboxy and aminopeptidase",
+          "Chymotrypsin, trypsin, elastase, collagenase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pepsin, gastricin, rennin (chymosin)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the intestinal endopeptidases involved in the digestion of proteins:",
+        "options": [
+          "Trypsin, chymotrypsin, elastase",
+          "Carboxy and aminopeptidases",
+          "Collagenase, amylase",
+          "Pepsin, trypsin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Trypsin, chymotrypsin, elastase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "It is known that pepsin affects only denatured protein. What factor denatures proteins in the stomach?",
+        "options": [
+          "Hydrochloric acid",
+          "Proteases",
+          "Bile acids",
+          "Shifting acidity towards alkalinity"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hydrochloric acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Determination of the acidity of gastric juice is important in the diagnosis and treatment of what diseases?",
+        "options": [
+          "Stomach and duodenum",
+          "Liver",
+          "12 duodenum",
+          "Colon"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Stomach and duodenum'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Optimum pH for pepsin in the stomach:",
+        "options": [
+          "1.5-2.0",
+          "5.0-6.0",
+          "6.0-7.0",
+          "8-10"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '1.5-2.0'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The pathological composition of gastric juice includes:",
+        "options": [
+          "Lactic acid, blood",
+          "Hydrochloric acid",
+          "Renin",
+          "Gastric"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Lactic acid, blood'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following endopeptidases is not involved in protein digestion in the stomach?",
+        "options": [
+          "Trypsin",
+          "Gastric",
+          "Renin",
+          "Chymosin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Trypsin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "It is an indicator of the intensity of the process of rotting in the intestine and the speed of detoxification reactions in the liver:",
+        "options": [
+          "Indian",
+          "Indole",
+          "Indole, skatole",
+          "Cresol"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Indian'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Absence of hydrochloric acid and pepsin in gastric juice is called:",
+        "options": [
+          "Achillea",
+          "Achlorhydria",
+          "Anemia",
+          "Hypochlorhydria"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Achillea'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "As a result of a decrease in the concentration of hydrochloric acid in gastric juice, the activity of which enzyme decreases?",
+        "options": [
+          "Pepsin",
+          "Renin",
+          "Chymotrypsin",
+          "Trypsin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pepsin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In chronic pancreatitis, the synthesis and secretion of trypsin is reduced. Digestion and absorption of which substance is disturbed?",
+        "options": [
+          "Protein",
+          "Lipid",
+          "Nucleic acids",
+          "Disaccharides"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Protein'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where is Gastricsin?",
+        "options": [
+          "In the stomach",
+          "In the duodenum",
+          "In the small intestine",
+          "In the esophagus"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the stomach'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define the breakdown product of proteins in the stomach?",
+        "options": [
+          "Albumosis",
+          "Dipeptide",
+          "Amino acid",
+          "Polypeptide"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Albumosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Non-exchangeable amino acids include:",
+        "options": [
+          "Lysine, leucine, isoleucine, valine, threonine, methionine, phenylalanine, tryptophan",
+          "Serine, threonine, tryptophan",
+          "Lysine, histidine, alanine, methionine",
+          "Phenylalanine, tyrosine, glycine, proline, alanine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Lysine, leucine, isoleucine, valine, threonine, methionine, phenylalanine, tryptophan'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Nitrogen balance is used to evaluate protein metabolism in the human body. In which case it will be positive:",
+        "options": [
+          "In pregnancy",
+          "In old age",
+          "In dystrophy",
+          "In hunger"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In pregnancy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is not an endopeptidases?",
+        "options": [
+          "Carboxypeptidase",
+          "Elastase",
+          "Chymotrypsin",
+          "Trypsin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Carboxypeptidase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is not a function of HCl:",
+        "options": [
+          "Activation of trypsinogen",
+          "Bactericidal effect",
+          "Activation of pepsinogen",
+          "Denaturation of food proteins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Activation of trypsinogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Trypsinogen is activated by which of the following methods?",
+        "options": [
+          "Proteolytic hydrolysis",
+          "Autocatalysis",
+          "Hydrolysis by HCl",
+          "Phosphorization"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Proteolytic hydrolysis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where is secretin synthesized?",
+        "options": [
+          "From the mucosa of the small intestine",
+          "From the pancreas",
+          "From the cells of the stomach wall",
+          "From the mucosa of the duodenum"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'From the mucosa of the small intestine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the product of protein decay in the intestine?",
+        "options": [
+          "Everything is correct",
+          "Hydrogen sulfide",
+          "Cadaverine",
+          "Putrecin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Everything is correct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The conversion of pepsinogen into pepsin occurs due to the cleavage of the N-end of the peptide under the influence of:",
+        "options": [
+          "Hydrochloric acid and pepsin",
+          "Hexapeptidase",
+          "Enteropeptidase",
+          "Proteolytic hydrolase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hydrochloric acid and pepsin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What are the names of endogenous protein-degrading enzymes?",
+        "options": [
+          "Cathepsins",
+          "Acid hydrolases",
+          "Endopeptidases",
+          "Protein kinases"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cathepsins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the process of protein decay in the intestine:",
+        "options": [
+          "Normal condition",
+          "Hereditary disease",
+          "Metabolic disorders",
+          "Fermentopathy"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Normal condition'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The amount of total acidity in gastric juice of the patient named G. is normal. Which indicator is appropriate for this situation?",
+        "options": [
+          "40-60 μM/l",
+          "20-30 μM/l",
+          "30-50 μM/l",
+          "20-40 μM/l"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '40-60 μM/l'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which product of glucose is used in the liver to detoxify putrefaction products formed in the intestine?",
+        "options": [
+          "UDFGK",
+          "FAFS",
+          "Indian",
+          "GALT"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'UDFGK'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-0-12": [
+      {
+        "question": "Serotonin is a neurotransmitter of the MNS. Serotonin is formed by decarboxylation and hydroxylation of which amino acid?",
+        "options": [
+          "Tryptophan",
+          "Tyrosine",
+          "Cool",
+          "Histidine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Tryptophan'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Transaminase is a coenzyme in transamination reactions:",
+        "options": [
+          "Pyridoxal phosphate",
+          "FAD",
+          "NAD",
+          "Coenzyme A"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pyridoxal phosphate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What vitamin deficiency reduces the activity of amino acid decarboxylase and aminotransferase?",
+        "options": [
+          "B6",
+          "B1",
+          "S",
+          "D"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'B6'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Products formed as a result of decarboxylation of amino acids are biologically active substances, which mediator that inhibits MNS is formed from decarboxylation of glutamic acid?",
+        "options": [
+          "GAMK",
+          "Cool",
+          "Histamine",
+          "Dopamine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'GAMK'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where does the oxidation of alpha-keto acids formed from the deamination of amino acids take place?",
+        "options": [
+          "In the tricarboxylic acid cycle",
+          "In the Corey cycle",
+          "In glycolysis",
+          "In gluconeogenesis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the tricarboxylic acid cycle'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The locally acting hormone histamine is produced in the lungs, digestive system, and skin. It is a vasodilator. As a result of the decarboxylation of which compound, histamine is formed?",
+        "options": [
+          "Histidine",
+          "Valin",
+          "Cool",
+          "Tyrosine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Histidine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the name of the process by which an amino group is separated from amino acids and free ammonia is formed?",
+        "options": [
+          "Decontamination",
+          "Peramination",
+          "Decarboxylation",
+          "Hydroxylation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Decontamination'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "It is formed as a result of decarboxylation of amino acids in the body:",
+        "options": [
+          "Amines, diamines",
+          "Indian",
+          "Dipeptide, xantine",
+          "Uric acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Amines, diamines'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Choose an amino acid whose non-nitrogenous residue is used only in the ketogenic way:",
+        "options": [
+          "Leucine",
+          "Valin",
+          "Lysine",
+          "Proline"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Leucine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where is the most active transamination of amino acids:",
+        "options": [
+          "Liver",
+          "Pancreas",
+          "Intestine",
+          "Erythrocytes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Liver'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which vitamin is involved in transamination reactions of amino acids?",
+        "options": [
+          "B6",
+          "B1",
+          "B2",
+          "B3"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'B6'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What substances are formed from oxidative deamination of amino acids:",
+        "options": [
+          "alpha-keto acids",
+          "alpha hydroxy acids",
+          "beta hydroxy acids",
+          "aldehyde acids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'alpha-keto acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which enzyme performs the oxidative deamination of amino acids:",
+        "options": [
+          "glutamate dehydrogenase",
+          "glutaminase",
+          "asparaginase",
+          "arginase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'glutamate dehydrogenase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Brain injury is characterized by reversible seizure symptoms. Which biogenic amine formation is disturbed in this case?",
+        "options": [
+          "GAMK",
+          "Histamine",
+          "Adrenaline",
+          "Serotonin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'GAMK'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Biogenic amine formed from 5-oxytryptophan has a vasoconstricting and hypertensive effect. Name this substance:",
+        "options": [
+          "Serotonin",
+          "Dopamine",
+          "Histamine",
+          "Adrenaline"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Serotonin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where does the oxidative deamination of glutamic acid occur with the formation of ammonia:",
+        "options": [
+          "In mitochondria",
+          "In the microsome",
+          "In hyaloplasm",
+          "In the nucleus"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In mitochondria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which biogenic amine has a vasoconstricting effect:",
+        "options": [
+          "serotonin",
+          "tryptamine",
+          "histamine",
+          "GAMK"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'serotonin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Mark the answer given by Biogen Amin:",
+        "options": [
+          "dopamine",
+          "cool",
+          "histidine",
+          "glutamine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'dopamine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which biogenic amine dilates blood vessels?",
+        "options": [
+          "histamine",
+          "tryptamine",
+          "serotonin",
+          "GAMK"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'histamine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Gamma-aminobutyric acid is:",
+        "options": [
+          "main inhibitory mediator in the central nervous system",
+          "the main mediator of excitation in the central nervous system",
+          "is formed as a result of decarboxylation of glutamine",
+          "is formed as a result of deamination of glutamate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'main inhibitory mediator in the central nervous system'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Cofactor of glutamate dehydrogenase:",
+        "options": [
+          "NAD",
+          "FAD",
+          "thiamine diphosphate",
+          "pyridoxal phosphate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'NAD'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the process of decarboxylation:",
+        "options": [
+          "Separation of carboxyl group from amino acids",
+          "Release of ammonia from amino acids",
+          "Transfer of the amino group",
+          "Digestion of proteins in the intestine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Separation of carboxyl group from amino acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Unsaturated fatty acid is formed in which of the following processes:",
+        "options": [
+          "Decontamination",
+          "Decarboxylation",
+          "Transmethylation",
+          "Transamination"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Decontamination'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which indicator increases in myocardial infarction:",
+        "options": [
+          "AST",
+          "ALT",
+          "PDG",
+          "LDG5"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'AST'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What does an increase in ALT in the blood mean:",
+        "options": [
+          "Hepatitis in the liver",
+          "That there is a myocardial infarction",
+          "Hypoxia in the brain",
+          "There is an infectious disease in the spleen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hepatitis in the liver'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Determine the importance of transamination:",
+        "options": [
+          "Redistribution of nitrogen",
+          "Formation of biogenic amines",
+          "Transfer of the methyl group",
+          "Causes allergic reactions"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Redistribution of nitrogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following derivatives of methionine can be a methyl group donor:",
+        "options": [
+          "S-adenosylmethionine",
+          "Homocysteine",
+          "Formylmethionine",
+          "System"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'S-adenosylmethionine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Gamma-amino fatty acid is formed from which amino acid:",
+        "options": [
+          "Glutamate",
+          "Asparagine",
+          "Cool",
+          "Proline"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glutamate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Dopamine is formed from which of the following:",
+        "options": [
+          "Phenylalanine",
+          "Glycine",
+          "Cool",
+          "Tryptophan"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phenylalanine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following substances is involved in the origin of allergic reactions:",
+        "options": [
+          "Histamine",
+          "Proline",
+          "Tyrosine",
+          "Noradrenaline"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Histamine'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-0-13": [
+      {
+        "question": "What are essential amino acids?",
+        "options": [
+          "It is not synthesized in the body",
+          "It has a synthesis mechanism in the body",
+          "It is most common in the body",
+          "It is part of all proteins in the body"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It is not synthesized in the body'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the essential amino acid:",
+        "options": [
+          "Isolation",
+          "Cool",
+          "Glutamine",
+          "Alanine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Isolation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What enzyme deficiency leads to citrullinuria?",
+        "options": [
+          "Argininosuccinate synthetase",
+          "Carbamoyl phosphate synthetase",
+          "Isocitrate dehydrogenase",
+          "Ornithinecarbamoyltransferase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Argininosuccinate synthetase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where does the synthesis of asparagine and glutamine mainly occur?",
+        "options": [
+          "In the liver",
+          "In the heart",
+          "In muscle",
+          "In the brain"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the liver'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the amino acid of ketogenic type:",
+        "options": [
+          "Leucine",
+          "alanine",
+          "ketone bodies",
+          "isolate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Leucine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The ornithine cycle is-?",
+        "options": [
+          "The main way to detoxify ammonia in the body",
+          "The way of formation of uric acid",
+          "The way of transport of amino acids through the membrane",
+          "ATP formation method"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The main way to detoxify ammonia in the body'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is formed in the first reaction of urea (urea) synthesis:",
+        "options": [
+          "Formation of carbamoyl phosphate",
+          "Citrate formation",
+          "Formation of ornithine",
+          "Detoxification of glutamate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Formation of carbamoyl phosphate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What substances are formed as a result of transmethylation?",
+        "options": [
+          "phosphatidylcholine",
+          "carnitine",
+          "thyroxine",
+          "adrenaline"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'phosphatidylcholine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where is urea synthesized:",
+        "options": [
+          "liver",
+          "liver and kidney",
+          "kidney",
+          "kidney and intestine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'liver'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the neutralization of ammonia in nerve tissue?",
+        "options": [
+          "glutamine synthesis and recovery by providing alpha-ketoglutarate",
+          "Urea synthesis",
+          "Formation of ammonium salts",
+          "Glutamine synthesis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'glutamine synthesis and recovery by providing alpha-ketoglutarate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Methionine is not involved in which of the following processes:",
+        "options": [
+          "In the synthesis of noradrenaline",
+          "In nucleotide methylation",
+          "In choline synthesis",
+          "When starting a broadcast"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the synthesis of noradrenaline'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Serine can be formed in the body from which of the following:",
+        "options": [
+          "Glucose",
+          "Acetoacetate",
+          "Acetone",
+          "Acetyl CoA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What substance is formed from tyrosine under the influence of intestinal microflora?",
+        "options": [
+          "Phenol",
+          "Indole",
+          "Skatol",
+          "Ammonia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phenol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An increase in the concentration of citrulline in the baby's urine and ammonia in his blood is observed. This situation is related to the disorder of the formation of which substance?",
+        "options": [
+          "Urea",
+          "Uric acid",
+          "Citrate",
+          "Creatine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Urea'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "It was found that the amount of Homogentizinic acid in urine increases. Urine blackened in the air. In what fermentopathy is this condition observed?",
+        "options": [
+          "Alkaptonuria",
+          "Albinism",
+          "Phenylketonuria",
+          "Acathalasia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Alkaptonuria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the reason for the accumulation of phenylpyruvate in the child's urine and blood, which has a toxic effect on the brain?",
+        "options": [
+          "Phenylalanine-4 hydroxylase deficiency",
+          "Tyrosinase deficiency",
+          "Activation of trypsin",
+          "Increased oxaloacetate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phenylalanine-4 hydroxylase deficiency'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Specify the ways of neutralization of ammonia?",
+        "options": [
+          "Everything is correct",
+          "Reversible amination",
+          "Mochivena synthesis, Glutamine formation",
+          "Ammonigenesis, formation of Aspargin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Everything is correct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The development of tyrosinoses is based on the genetic deficiency of the following enzyme:",
+        "options": [
+          "Tyrosine oxidase",
+          "Oxyphenylpyruvate decarboxylase",
+          "Homogentisinic acid oxidase",
+          "DOFA-chroma decarboxylase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Tyrosine oxidase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Such amino acids are involved in the synthesis of urea that they are metabolites without being part of proteins. These amino acids are:",
+        "options": [
+          "Ornithine and citrulline",
+          "Citrulline and aspartate",
+          "Aspartate and arginine",
+          "Citrulline and arginine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ornithine and citrulline'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "It is necessary to limit the diet of a child suffering from leucinosis:",
+        "options": [
+          "Let it be, let it be, let it be isolated",
+          "Tyrosine, tryptophan",
+          "Alanine, glycine",
+          "Serine, methionine, threonine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Let it be, let it be, let it be isolated'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Hepatic coma may develop as a result of liver damage. Its development is based on the following process:",
+        "options": [
+          "Hyperammonemia",
+          "Hyperketonemia",
+          "Hyperaminoacidemia",
+          "Hyperuricemia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hyperammonemia'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How are cases of decreased blood urea, increased ammonia, and glutamine clinically manifested due to a deficiency of urea synthesis enzymes?",
+        "options": [
+          "Encephalopathy",
+          "Hypoglycemic coma",
+          "Neuritis",
+          "Cardiac compensation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Encephalopathy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Glutamine and partly asparagine act as a transporter in transferring ammonia to a non-toxic form. The proof is:",
+        "options": [
+          "Glutamine is very little excreted in the urine",
+          "It is used in the synthesis of urea",
+          "Used for purine synthesis",
+          "It is used in the formation of ammonium salts"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glutamine is very little excreted in the urine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which reaction is the main source of ammonia formation in brain tissue?",
+        "options": [
+          "Hydrolytic deamination of AMF to IMF",
+          "Oxidative deamination of alanine to PUK",
+          "Deamination of glutamine",
+          "Oxidative deamination of glutamate to alphaketoglutarate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hydrolytic deamination of AMF to IMF'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The source of 2 amino groups in the formation of urea molecule:",
+        "options": [
+          "Ammonia and L-aspartate",
+          "Glutamate and alpha-ketoglutarate",
+          "Citrate and pyruvate",
+          "Lactate and Ornithine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ammonia and L-aspartate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The concentration of which substance in urine is determined during the screening test for phenylketanuria?",
+        "options": [
+          "Phenylpyruvic acid",
+          "Indian",
+          "Hippuric acid",
+          "Lactate and Ornithine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phenylpyruvic acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "At what age is screening for phenylketonuria?",
+        "options": [
+          "1-3 days after birth",
+          "On the 5-7th day of his life",
+          "1 month after birth",
+          "3 months after birth"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '1-3 days after birth'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The level of urea in the biochemical blood analysis is high. What kind of metabolic disorder does this state indicate?",
+        "options": [
+          "Protein",
+          "fat",
+          "Carbohydrate",
+          "Water-salt"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Protein'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Ammonia is a toxic substance for MNS neurons, which amino acid is used to transport ammonia from the brain cell to the liver?",
+        "options": [
+          "Glutamine",
+          "Cool",
+          "Leucine",
+          "Valin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glutamine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Acceptor of the second amino group of urea from aspartate occurs with its binding to citrulline, an enzyme involved in this process:",
+        "options": [
+          "Argininosuccinate synthetase",
+          "Citrullinoaspartate oxidoreductase",
+          "Aspartcitrulline aminotransferase",
+          "Arginino fumarate synthetase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Argininosuccinate synthetase'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-0-14": [
+      {
+        "question": "Show the monomers of nucleic acids:",
+        "options": [
+          "Nucleotides",
+          "Nucleosides",
+          "Nitrogen bases",
+          "Amino acids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Nucleotides'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How the protein part of nucleoproteins is digested in the stomach:",
+        "options": [
+          "Under the influence of HCl and proteolytic enzymes",
+          "Under the influence of amylolytic enzymes",
+          "Under the influence of cathepsins",
+          "Under the influence of exo and endonucleases"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Under the influence of HCl and proteolytic enzymes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Choline transferase coenzyme:",
+        "options": [
+          "STF",
+          "TTF",
+          "GTF",
+          "UTF"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'STF'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Indicate which of the following definitions corresponds to the term \"nucleoproteins\":",
+        "options": [
+          "Complex proteins made up of simple proteins and nucleic acids",
+          "Complex proteins made up of simple protein and carbohydrate derivatives",
+          "These are high molecular compounds consisting of nucleotides",
+          "Low molecular weight organic compounds necessary for normal life"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Complex proteins made up of simple proteins and nucleic acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Nucleic acids ingested with food are digested under the influence of which enzymes:",
+        "options": [
+          "DNA and RNA nucleases",
+          "Restrictases",
+          "Proteases",
+          "Hydrolases"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'DNA and RNA nucleases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What enzymes break down mononucleotides in the intestine:",
+        "options": [
+          "Alkaline and acid phosphatases",
+          "Nucleases",
+          "Restrictases",
+          "Hydrolases"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Alkaline and acid phosphatases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the substrate for the synthesis of nucleic acids?",
+        "options": [
+          "nucleoside triphosphates",
+          "amino acids",
+          "nucleoside diphosphates",
+          "nucleoside monophosphates"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'nucleoside triphosphates'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the biochemical indicator that characterizes the genetic disorder of UMF biosynthesis.",
+        "options": [
+          "Orotaciduria",
+          "Aspartate aciduria",
+          "Alkaptonuria",
+          "Cytosinuria"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Orotaciduria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Give a reason that prevents hyperuricemia:",
+        "options": [
+          "Using a structural analogue of hypoxanthine",
+          "The excretion of uric acid is disturbed",
+          "Excessive fragmentation of cellular DNA",
+          "Radiation damage to cells"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Using a structural analogue of hypoxanthine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The deposition of uric acid crystals in the joints leads to the development of which disease:",
+        "options": [
+          "Gout",
+          "Pellagra",
+          "Diabetes",
+          "Alkaptonuria"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Gout'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where does the hydrolytic breakdown of nucleoproteins begin?",
+        "options": [
+          "In the stomach",
+          "In the small intestine",
+          "In the duodenum",
+          "In the pancreas"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the stomach'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What substances are mainly absorbed into the blood as the final products of the breakdown of nucleic acids in the intestine?",
+        "options": [
+          "Nucleosides and phosphoric acid",
+          "Nucleoside triphosphates",
+          "Proteins and nucleotides",
+          "Nucleotide mono, di and tri phosphates"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Nucleosides and phosphoric acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the amino acid actively involved in the synthesis of purine nucleotides:",
+        "options": [
+          "Glycine",
+          "Cysteine",
+          "Arginine",
+          "Proline"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glycine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Restrictases:",
+        "options": [
+          "Destroys NKs foreign to the body",
+          "Participates in the digestion of NK",
+          "It breaks down any DNA",
+          "Participates in the synthesis of nucleotides"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Destroys NKs foreign to the body'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Specify the characteristic of restrictases?",
+        "options": [
+          "It has a specific effect",
+          "Has group specificity",
+          "It works in a strong alkaline environment",
+          "Cuts only DNA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It has a specific effect'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An enzyme that catalyzes the formation of a nucleoside from a nucleotide:",
+        "options": [
+          "Phosphatase",
+          "Kinase",
+          "Protease",
+          "Endonuclease"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phosphatase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the difference between a nucleotide and a nucleoside?",
+        "options": [
+          "Contains phosphate residues",
+          "It has a tertiary structure",
+          "It has a secondary structure",
+          "Contains purine bases"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Contains phosphate residues'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which substance is the source of nitrogen in positions 3 and 9 in the purine ring?",
+        "options": [
+          "Glutamine",
+          "Glycine",
+          "Folic acid",
+          "Oxyproline"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glutamine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "When the purine base is synthesized:",
+        "options": [
+          "A purine nucleotide is synthesized",
+          "Purine nitrogen base is synthesized",
+          "A purine nucleoside is formed",
+          "A purine dinucleotide is synthesized"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'A purine nucleotide is synthesized'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Determine the source of energy for the synthesis of AMF:",
+        "options": [
+          "GTF",
+          "ATP",
+          "TTF",
+          "STF"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'GTF'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Determine the source of energy for the synthesis of GMF:",
+        "options": [
+          "ATP",
+          "GTF",
+          "STF",
+          "TTF"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'ATP'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the precursor substance in the synthesis of GMF and AMF:",
+        "options": [
+          "Inosinate acid",
+          "Oratic acid",
+          "Glucose 6-phosphate",
+          "Uric acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Inosinate acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the final product of catabolism of purine nucleotides:",
+        "options": [
+          "Uric acid",
+          "Xanthine",
+          "Hypoxanthine",
+          "Carbon dioxide"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Uric acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Gout crises depend on which substance:",
+        "options": [
+          "To monosodium salts of uric acid",
+          "To the potassium salts of uric acid",
+          "Ammonium salts",
+          "Oratic acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'To monosodium salts of uric acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What reactions does xanthine oxidase catalyze:",
+        "options": [
+          "Oxidation of hypoxanthine",
+          "Oxidation of uric acid",
+          "Hydrolysis of allantoin",
+          "Oxidation of allantoic acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxidation of hypoxanthine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The final products of catabolism of pyrimidine bases are:",
+        "options": [
+          "β-Alanine, NH3 + CO2",
+          "uric acid",
+          "glyoxylic acid",
+          "dihydrothymine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'β-Alanine, NH3 + CO2'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In healthy people, which compound becomes the end product of the exchange of purine nucleosides adenosine and guanosine?",
+        "options": [
+          "uric acid",
+          "hypoxanthine",
+          "xanthine",
+          "creatinine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'uric acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following helps in the treatment of gout:",
+        "options": [
+          "Allopurinol",
+          "Salts of uric acid",
+          "Hypoxanthine",
+          "Oratic acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Allopurinol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which substance is initially formed in the biosynthesis of pyrimidine nucleotides:",
+        "options": [
+          "Uridine monophosphate",
+          "Cytidine monophosphate",
+          "Thymidine monophosphate",
+          "Guanosine monophosphate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Uridine monophosphate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Disease caused by pyrimidine deficiency:",
+        "options": [
+          "Orotaciduria",
+          "Gout",
+          "Hyperuricemia",
+          "Hyperammonemia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Orotaciduria'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-0-15": [
+      {
+        "question": "Name the ketogenic amino acid:",
+        "options": [
+          "Leucine",
+          "Glycine",
+          "Alanine",
+          "Cool"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Leucine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following amino acids can synthesize both ketone bodies and glucose:",
+        "options": [
+          "Lysine",
+          "Glycine",
+          "Methionine",
+          "Proline"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Lysine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which process must first occur to synthesize glucose from amino acids:",
+        "options": [
+          "Decontamination",
+          "Decarboxylation",
+          "Transmethylation",
+          "Ornithine cycle"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Decontamination'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the glycogen-type amino acid:",
+        "options": [
+          "Threonine",
+          "Leucine",
+          "Isolation",
+          "Phenylalanine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Threonine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What substance can be formed from the metabolism of glycogen-type amino acids:",
+        "options": [
+          "Oxaloacetate",
+          "Ketone bodies",
+          "Acetoacetate",
+          "Acetyl CoA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxaloacetate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What substance can be formed from ketogenic amino acid metabolism:",
+        "options": [
+          "Acetone",
+          "Oxaloacetate",
+          "Pyruvate",
+          "β-keto acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acetone'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Phenylalanine belongs to which of the following:",
+        "options": [
+          "Both ketogenic and glycogen",
+          "Glycogen type",
+          "Ketogenic type",
+          "It does not belong to any"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Both ketogenic and glycogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Glucose can be synthesized from amino acids by which of the following processes:",
+        "options": [
+          "Gluconeogenesis",
+          "Glycogenolysis",
+          "Transamination",
+          "Decarboxylation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Gluconeogenesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following can produce α-ketoglutarate:",
+        "options": [
+          "Of all",
+          "Cool",
+          "Methionine",
+          "Tryptophan"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Of all'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "From what amino acids can glucose be synthesized:",
+        "options": [
+          "Glycogen type",
+          "Ketogenic type",
+          "Non-exchangeable",
+          "Acetone-forming amino acids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glycogen type'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Fatty acids can be synthesized from amino acids, except which of the following:",
+        "options": [
+          "linolate, linolenate, arachidonate",
+          "stearin, palmitin, palmitoolien",
+          "palmitoolien, neuronate, mevalonate",
+          "palmitin, stearin, linolenate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'linolate, linolenate, arachidonate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the intermediate product for the synthesis of fatty acids from amino acids:",
+        "options": [
+          "Acetyl CoA",
+          "Oxaloacetate",
+          "Pyruvate",
+          "Malate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acetyl CoA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "At what time does the synthesis of fatty acids accelerate in the body:",
+        "options": [
+          "Increases the amount of glucose after meals",
+          "In reducing the amount of glucose",
+          "Increases glucagon secretion",
+          "In reducing the secretion of adrenaline"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Increases the amount of glucose after meals'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the cyclic process that ensures the bond between carbohydrates and amino acids:",
+        "options": [
+          "Glucose-alanine cycle",
+          "Corey cycle",
+          "Ornithine cycle",
+          "Pentose phosphate cycle"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucose-alanine cycle'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Is it possible to synthesize glucose from lipids in the body:",
+        "options": [
+          "Maybe from glycerin",
+          "Possibly from ketone bodies",
+          "Possibly from acetyl CoA",
+          "Cannot be synthesized"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Maybe from glycerin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What substance is the link between carbohydrate and lipid metabolism:",
+        "options": [
+          "Glycerin",
+          "Acetoacetate",
+          "Acetone",
+          "Citrate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glycerin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the hormone that stimulates gluconeogenesis:",
+        "options": [
+          "Cortisol",
+          "Aldosterone",
+          "Insulin",
+          "Vasopressin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cortisol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the hormone that inhibits the active transport of glucose into the cell:",
+        "options": [
+          "Hydrocortisone",
+          "Adrenaline",
+          "Insulin",
+          "Vasopressin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hydrocortisone'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which substance can cause diabetes when it is introduced into the body for a long time:",
+        "options": [
+          "Cortisol",
+          "Estrogen",
+          "Cholesterol",
+          "Prolactin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cortisol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Is it possible to synthesize an amino acid from glucose:",
+        "options": [
+          "Only interchangeable amino acids are possible",
+          "Possibly all amino acids",
+          "Only open-chain amino acids are possible",
+          "Cannot be synthesized"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Only interchangeable amino acids are possible'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which metabolite connects the Krebs cycle to the ornithine cycle:",
+        "options": [
+          "Argino-succinate",
+          "Malate",
+          "Citrulline",
+          "Carbomoyl phosphate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Argino-succinate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a Krebs bike:",
+        "options": [
+          "Connection of citrate cycle and ornithine cycle",
+          "Relationship between Krebs cycle and Curry cycle",
+          "Generality of catabolism pathways",
+          "Controllable reactions of the Krebs cycle"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Connection of citrate cycle and ornithine cycle'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Is it possible to synthesize glucose from fatty acids:",
+        "options": [
+          "Not allowed",
+          "Possibly Acetyl CoA",
+          "Possibly through ketone bodies",
+          "Possibly through pyruvate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Not allowed'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the Krebs cycle metabolite involved in amphibolic pathways:",
+        "options": [
+          "Oxaloacetate",
+          "succinate",
+          "cis-aconitate",
+          "citrate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxaloacetate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The source of oxaloacetate, the 2nd key substrate of the Krebs cycle:",
+        "options": [
+          "Asparagine",
+          "Fatty acids",
+          "Acetoacetate",
+          "Acetone"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Asparagine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Bile acids act as an emulsifier in the digestion of fats, which amino acid also participates in this process:",
+        "options": [
+          "Glycine",
+          "Alanine",
+          "Cool",
+          "Glutamate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glycine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which amino acid acts as an amide group donor for the formation of galactosamine:",
+        "options": [
+          "Glutamine",
+          "Glycine",
+          "Tyrosine",
+          "Aspartate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glutamine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Metabolism of protein, fat and carbohydrates in the body:",
+        "options": [
+          "Integrated",
+          "They do not connect to each other",
+          "Each one is done separately",
+          "They do not repeat each other"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Integrated'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following metabolites can be the first raw material of vitamin D3 synthesis in the body?",
+        "options": [
+          "Acetyl CoA",
+          "Tyrosine",
+          "Fumarate",
+          "Oxaloacetate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acetyl CoA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following metabolites is necessary for the combustion of acetyl CoA in the Krebs cycle:",
+        "options": [
+          "Oxaloacetate",
+          "Glucose",
+          "Citrate",
+          "Acetoacetic acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxaloacetate'. This choice aligns with the established clinical curriculum."
+      }
+    ]
+  },
+  "s-2-1": {
+    "t-s-2-1-1": [
+      {
+        "question": "What is the monomer of nucleic acids:",
+        "options": [
+          "Nucleotides",
+          "Amino acids",
+          "Monosaccharides",
+          "Peptides"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Nucleotides'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the heterocyclic compound that forms the basis of the structure of adenine:",
+        "options": [
+          "Purine",
+          "Pyrimidine",
+          "Imidazole",
+          "Tryptophan"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Purine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the nitrogenous base that is formed during the recovery of the RNA chain from the DNA chain:",
+        "options": [
+          "Uracil",
+          "Adenine",
+          "Guanine",
+          "Cytosine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Uracil'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What kind of bond provides the primary structure of DNA and RNA:",
+        "options": [
+          "Phosphodiether",
+          "Glycoside",
+          "Peptide",
+          "Hydrophobic"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phosphodiether'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name a structural component that is not specific to DNA:",
+        "options": [
+          "dUMF",
+          "dAMF",
+          "dSMF",
+          "dTMF"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'dUMF'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Select a matrix biosynthesis process:",
+        "options": [
+          "Everything is correct",
+          "Replication",
+          "Transcription",
+          "Broadcasting"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Everything is correct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Clover leaf structure is characteristic for which nucleic acid:",
+        "options": [
+          "tRNA",
+          "Tertiary structure of DNA",
+          "mRNA",
+          "mRNA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'tRNA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which type of nucleic acid contains thymine?",
+        "options": [
+          "DNA",
+          "rRNA",
+          "mRNA",
+          "tRNA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'DNA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Nucleoproteins are representatives of:",
+        "options": [
+          "Ribosome",
+          "Microsome",
+          "Mitochondria",
+          "Lysosome"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ribosome'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "One of the following compounds belongs to the group of pyrimidines:",
+        "options": [
+          "Cytosine",
+          "Adenine",
+          "Guanine",
+          "Inosine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cytosine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The place where the phosphodiether bond is formed in the structure of nucleic acids:",
+        "options": [
+          "Between the 3rd and 5th carbon atoms of pentose",
+          "Between the 1st and 3rd carbon atoms of pentose",
+          "Between the 2nd and 4th carbon atoms of pentose",
+          "Between the 1st and 5th carbon atoms of pentose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Between the 3rd and 5th carbon atoms of pentose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the complementary bases in the DNA structure:",
+        "options": [
+          "A=T, G=S",
+          "A=G, T=S",
+          "A=S, T=G",
+          "A=U, G=S"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'A=T, G=S'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the complementarity of bases in the RNA structure:",
+        "options": [
+          "A=U, G=S",
+          "A=T, G=S",
+          "A=G, T=S",
+          "A=S, T=G"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'A=U, G=S'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the purine nucleotides of the DNA structure:",
+        "options": [
+          "dAMF, dGMF",
+          "dAMF, dUMF",
+          "dUMF, dGMF",
+          "dTMF, dAMF"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'dAMF, dGMF'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The secondary structure of DNA is characterized by:",
+        "options": [
+          "By the presence of a double chain",
+          "By the presence of one chain",
+          "With clover leaf structure",
+          "By the presence of a circular chain"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'By the presence of a double chain'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A nitrogenous base that is part of the RNA structure and not found in the DNA structure:",
+        "options": [
+          "Uracil",
+          "Adenine",
+          "Guanine",
+          "Cytosine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Uracil'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How many nitrogenous bases make up DNA:",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "2"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '4'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What structure does mRNA have:",
+        "options": [
+          "linear",
+          "Clover leaf",
+          "Double chain",
+          "Circular"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'linear'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which nitrogenous base is not found in RNA:",
+        "options": [
+          "Thymine",
+          "Adenine",
+          "Uracil",
+          "Guanine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Thymine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A structural component that is not part of the nucleotide structure:",
+        "options": [
+          "Amino acids",
+          "Pentose",
+          "Nitrogenous bases",
+          "Phosphoric acid residues"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Amino acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the nitrogenous base that belongs to purines:",
+        "options": [
+          "Guanine",
+          "Uracil",
+          "Cytosine",
+          "Thymine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Guanine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the nitrogenous base that belongs to pyrimidines:",
+        "options": [
+          "Thymine",
+          "Adenine",
+          "Guanine",
+          "Inosine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Thymine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What kind of bond connects two chains of DNA to each other:",
+        "options": [
+          "Hydrogen",
+          "Phosphodiether",
+          "Glycoside",
+          "Peptide"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hydrogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Determine the amount of nitrogenous bases G=S in the DNA chain:",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "1"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '3'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The bond between A and T in the DNA chain is:",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "1"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '2'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "DNA replication is:",
+        "options": [
+          "Self-recovery",
+          "Self-reduction",
+          "Reduplication",
+          "All are correct"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Self-recovery'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Enzymes involved in the process of replication:",
+        "options": [
+          "Everything is correct",
+          "Helicase",
+          "DNA polymerase",
+          "DNA ligase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Everything is correct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Transcription enzyme:",
+        "options": [
+          "RNA polymerase",
+          "DNA polymerase",
+          "Helicase",
+          "DNA ligase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'RNA polymerase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Broadcasting process is:",
+        "options": [
+          "Biosynthesis of proteins",
+          "DNA biosynthesis",
+          "RNA biosynthesis",
+          "Lipid biosynthesis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Biosynthesis of proteins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where does replication take place?",
+        "options": [
+          "In the core",
+          "In the ribosome",
+          "In the lysosome",
+          "In the blood"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the core'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-1-2": [
+      {
+        "question": "Amino acid that initiates protein biosynthesis",
+        "options": [
+          "Methionine",
+          "Lysine",
+          "Alanine",
+          "Threonine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Methionine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is Elongation:",
+        "options": [
+          "Elongation of the polypeptide chain",
+          "Transfer of the peptide",
+          "One step displacement of the ribosome",
+          "Activation of amino acids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Elongation of the polypeptide chain'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Terminator codons include:",
+        "options": [
+          "UAA, UGA, UAG",
+          "ATSG,GUA,SAG",
+          "SATS, AGG, GGS",
+          "SAU, GATS, GSA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'UAA, UGA, UAG'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Does not participate in the broadcast:",
+        "options": [
+          "DNA",
+          "GTF",
+          "m-RNA",
+          "peptidyltransferase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'DNA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the process of recognition?",
+        "options": [
+          "Activation of amino acids",
+          "Dropping a nucleotide from a gene",
+          "Activation of amino acids",
+          "Transfer of the peptide"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Activation of amino acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the mechanism of action of antibiotics against tumors based on?",
+        "options": [
+          "Inhibition of matrix biosynthesis",
+          "Inhibition of DNA synthesis",
+          "Inhibition of RNA synthesis",
+          "Inhibition of protein synthesis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Inhibition of matrix biosynthesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The codon encodes:",
+        "options": [
+          "Amino acid",
+          "Nucleotide",
+          "Pyrimidine",
+          "Nucleoside"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Amino acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Protein biosynthesis begins",
+        "options": [
+          "From the initiation complex meeting",
+          "From elongation",
+          "From termination",
+          "From reparation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'From the initiation complex meeting'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Translocation",
+        "options": [
+          "The displacement of the ribosome to a triplet in mRNA",
+          "One triplet shift of mRNA",
+          "Meeting of the initiating complex",
+          "Phase of termination"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The displacement of the ribosome to a triplet in mRNA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Energy source in protein biosynthesis:",
+        "options": [
+          "ATP, GTF",
+          "GTF",
+          "ATP",
+          "STF"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'ATP, GTF'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where does protein synthesis take place",
+        "options": [
+          "In the ribosome",
+          "In the cytoplasm",
+          "In the nucleus",
+          "In the blood"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the ribosome'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is added to the amino acid during the activation of amino acids in protein biosynthesis:",
+        "options": [
+          "tRNA",
+          "Phosphoric acid residue",
+          "mRNA",
+          "The subunit of the ribosome"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'tRNA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Specify the start codon:",
+        "options": [
+          "AUG",
+          "AGG",
+          "UUU",
+          "To him"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'AUG'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Protein synthesizing system components:",
+        "options": [
+          "20 different amino acids and enzymes",
+          "Peroxisomes",
+          "Outer membrane",
+          "Microsomes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '20 different amino acids and enzymes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The initiating complex includes:",
+        "options": [
+          "The large and small subunits of the ribosome",
+          "All tRNAs",
+          "Translocase and transpeptidase",
+          "aa-tRNA synthetase and ATP"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The large and small subunits of the ribosome'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Features of the ribosomal subunit of prokaryotic cells",
+        "options": [
+          "The sedimentation constant is 30 C",
+          "The sedimentation constant is 40 C",
+          "The sedimentation constant is 50 C",
+          "The sedimentation constant is 60 C"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The sedimentation constant is 30 C'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Genetic code property",
+        "options": [
+          "Tripletness",
+          "Continuity",
+          "Generality",
+          "Dipletity"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Tripletness'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Genetic code property",
+        "options": [
+          "Universality",
+          "Continuity",
+          "Generality",
+          "Dipletity"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Universality'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Genetic code property",
+        "options": [
+          "Continuity",
+          "Continuity",
+          "Generality",
+          "Dipletity"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Continuity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Genetic code property",
+        "options": [
+          "Collinearity",
+          "Continuity",
+          "Generality",
+          "Dipletity"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Collinearity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In which direction does protein biosynthesis go:",
+        "options": [
+          "5??3?",
+          "3??5?",
+          "1??5?",
+          "1??3?"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '5??3?'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Protein biosynthesis is observed in the elongation stage",
+        "options": [
+          "Protein chain elongation",
+          "Stopping protein biosynthesis",
+          "Ribosome assembly",
+          "Reparation process"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Protein chain elongation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Observed in broadcast termination",
+        "options": [
+          "Stopping protein biosynthesis",
+          "Protein chain elongation",
+          "Ribosome assembly",
+          "Reparation process"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Stopping protein biosynthesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Observed at the initiation of transmission",
+        "options": [
+          "The small and large subunits of the ribosome are assembled",
+          "Protein chain elongation",
+          "Transfer of the peptide",
+          "Displacement of the ribosome"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The small and large subunits of the ribosome are assembled'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Observed in the post-translational process",
+        "options": [
+          "Protein maturation",
+          "Protein denaturation",
+          "Protein dysfunction",
+          "Peptide release from the ribosome"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Protein maturation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Can be observed in the post-translational process",
+        "options": [
+          "Partial proteolysis",
+          "Protein denaturation",
+          "Protein dysfunction",
+          "Peptide release from the ribosome"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Partial proteolysis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Aminoacyl is used in the formation of tRNA:",
+        "options": [
+          "Aminoacyl-tRNA synthetase",
+          "GTF",
+          "DNA",
+          "Nucleotides"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Aminoacyl-tRNA synthetase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In which section of the ribosome is the peptide bond synthesized:",
+        "options": [
+          "Peptidyl",
+          "Aminoacyl",
+          "in the 30S subunit",
+          "Acceptor"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Peptidyl'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Transpeptidation occurs in which process:",
+        "options": [
+          "Elongation",
+          "Initiation",
+          "Termination",
+          "Recognition"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Elongation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Fate of mRNA after termination:",
+        "options": [
+          "More protein can be synthesized",
+          "Restrictases immediately break it down",
+          "It is foaming",
+          "Polyadenylated"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'More protein can be synthesized'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-1-3": [
+      {
+        "question": "What is \"programmed\" cell death:",
+        "options": [
+          "Apoptosis",
+          "Necrosis",
+          "Metastasis",
+          "Invasion"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Apoptosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the violation of internal homeostasis as a result of the violation of the permeability property of the cell membrane?",
+        "options": [
+          "Necrosis",
+          "Apoptosis",
+          "NGF",
+          "Elimination"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Necrosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the removal of some cells by apoptosis?",
+        "options": [
+          "Elimination",
+          "Apoptosis",
+          "Necrosis",
+          "NGF"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Elimination'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is endoreproduction",
+        "options": [
+          "It is the occurrence of cells with an excess amount of DNA",
+          "A doubling of the amount of DNA",
+          "Chromosome condensation",
+          "It is the occurrence of cells with an excess amount of RNA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It is the occurrence of cells with an excess amount of DNA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the death of cells that occurs with inflammatory processes called?",
+        "options": [
+          "Necrosis",
+          "Apoptosis",
+          "Invasion",
+          "Transplantation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Necrosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In which of the following processes is the cell's gradual swelling and shrinking and death without harming other cells observed?",
+        "options": [
+          "In apoptosis",
+          "In necrosis",
+          "In metastasis",
+          "In reparation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In apoptosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is autolysis",
+        "options": [
+          "Self-destruction",
+          "Morphologically secondary lysosomes",
+          "Reconstruction",
+          "Residual body"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Self-destruction'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the study of the primary structure of DNA divided into fragments called?",
+        "options": [
+          "Sequencing",
+          "PSR",
+          "Gel electrophoresis",
+          "IFA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Sequencing'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the most important process that occurs before cell division?",
+        "options": [
+          "DNA replication",
+          "DNA compaction",
+          "DNA repair",
+          "RNA replication"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'DNA replication'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the enzymes involved in the process of apoptosis:",
+        "options": [
+          "Caspases",
+          "Restrictases",
+          "Reverse transcriptase",
+          "Revertase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Caspases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Apoptosis is induced in which of the following processes:",
+        "options": [
+          "When the number of damaged DNA increases",
+          "When damaged by acids",
+          "When inflammation occurs",
+          "When a heavy mechanic is injured"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'When the number of damaged DNA increases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define a cell that does not divide and reproduce throughout its life",
+        "options": [
+          "Nerve",
+          "epidermis;",
+          "intestinal epithelium.",
+          "Bone marrow;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Nerve'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which method can be used to isolate cell organoids separately?",
+        "options": [
+          "centrifugation",
+          "light microscope",
+          "cytochemical",
+          "electron microscope"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'centrifugation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What processes occur if apoptosis mechanisms are disrupted:",
+        "options": [
+          "Everything is correct",
+          "A mutation occurs",
+          "Cancer cells develop",
+          "Cells are not updated"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Everything is correct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The formation of the fingers of the fetus is based on which process",
+        "options": [
+          "Apoptosis",
+          "Necrosis",
+          "Determination",
+          "Invasion"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Apoptosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "If the death of one cell causes the death of other cells, this process is called...",
+        "options": [
+          "Necrosis",
+          "Apoptosis",
+          "Transduction",
+          "Transformation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Necrosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "When the induction of apoptosis goes to the irreversible stage:",
+        "options": [
+          "Once caspases are activated",
+          "When Fas-L interacts with Fas-R",
+          "of TNF expression",
+          "from the association of TNF with \"death domains\"."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Once caspases are activated'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Increased apoptosis can cause which of the following:",
+        "options": [
+          "Premature aging",
+          "The appearance of tumors",
+          "DNA damage",
+          "Origin of mutations"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Premature aging'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Decreasing apoptosis can be caused by which of the following",
+        "options": [
+          "The appearance of tumors",
+          "Premature aging",
+          "Neurodegenerative diseases",
+          "Thrombocytopenia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The appearance of tumors'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Renewal of skin cells is based on which process:",
+        "options": [
+          "Necrosis",
+          "Degeneration",
+          "Invasion",
+          "Implantation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Necrosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "DNA, which contains foreign genetic material, is called:",
+        "options": [
+          "Recombinant DNA",
+          "Native DNA",
+          "Vector DNA",
+          "Implant DNA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Recombinant DNA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Enzymes that cut DNA by forming sticky ends:",
+        "options": [
+          "Restrictase",
+          "Revertase",
+          "DNA ligase",
+          "Insertase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Restrictase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following enzymes is used in PSR analysis:",
+        "options": [
+          "Taq polymerase",
+          "Reverse transcriptase",
+          "Restrictase",
+          "DNA polymerase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Taq polymerase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is called a change in the cell's heredity as a result of the introduction of foreign DNA into it",
+        "options": [
+          "Transformation",
+          "Transduction",
+          "Transmission",
+          "choose the correct answer"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Transformation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where is non-nuclear heredity located?",
+        "options": [
+          "In mitochondria",
+          "In the lysosome",
+          "in the EPT",
+          "In the ribosome"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In mitochondria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What types of genetic variation are there?",
+        "options": [
+          "Mutation",
+          "Phenotypic",
+          "Random",
+          "choose the correct answer"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Mutation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Mutations depending on the origin",
+        "options": [
+          "Spontaneous, induction",
+          "Dominant, recessive",
+          "Monogene, polygene",
+          "Monosomy, polysomy"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Spontaneous, induction'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The following are used to obtain recombinant DNA:",
+        "options": [
+          "Everything is correct",
+          "From plasmids",
+          "From vectors",
+          "Of the restrictases"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Everything is correct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is a new organism whose genotype has changed under the influence of a mutagen called?",
+        "options": [
+          "Mutant",
+          "Mutagenesis",
+          "Genetic variability",
+          "Recon"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Mutant'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the factor that causes mutational variability?",
+        "options": [
+          "Mutagenesis",
+          "Mutant",
+          "Hereditary variability",
+          "Clone"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Mutagenesis'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-1-4": [
+      {
+        "question": "What are the characteristics of a malignant tumor:",
+        "options": [
+          "Low differentiation;",
+          "Big growth;",
+          "Lack of metastasis;",
+          "There is no morphological difference from normal progenitor cells."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Low differentiation;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the most correct sentence:",
+        "options": [
+          "Carcinogenic - stimulates tumor formation;",
+          "A carcinogen is only an endogenous tumorigenic agent;",
+          "Carcinogen is a gene that controls cell growth;",
+          "A carcinogen is a gene that codes for tumor growth."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Carcinogenic - stimulates tumor formation;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the serum histochemical tumor marker that indicates the origin of the tumor from the mesenchymal tissue:",
+        "options": [
+          "Vimentin;",
+          "Thyroglobulin;",
+          "Mucin;",
+          "Keratin."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Vimentin;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A decrease in p-53 proteins in the cell indicates:",
+        "options": [
+          "Inhibition of apoptosis processes.",
+          "Inhibition of cell division;",
+          "Activation of cell apoptosis processes;",
+          "Strengthening DNA repair processes;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Inhibition of apoptosis processes.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Describe the third stage of oncogenesis:",
+        "options": [
+          "Synthesis of oncoproteins, acquisition of tumor phenotype;",
+          "Uncontrolled proliferation of tumor cells;",
+          "Conversion of a proto-oncogene to an oncogene;",
+          "Interaction of carcinogens with proto-oncogenes and anti-oncogenes of the cell genome."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Synthesis of oncoproteins, acquisition of tumor phenotype;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Chemotherapeutic cancer drugs include:",
+        "options": [
+          "Everything is correct",
+          "Platinum compounds;",
+          "Pink vinca alkaloids",
+          "Antimetabolites"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Everything is correct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What are oncoproteins?",
+        "options": [
+          "Proteins that stimulate the growth and development of tumors;",
+          "Proteins that block cellular respiration;",
+          "Proteins that inhibit glycolysis;",
+          "Proteins that generate oncotic intravascular pressure."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Proteins that stimulate the growth and development of tumors;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define an extremely dangerous carcinogen:",
+        "options": [
+          "Benzypyrene",
+          "Phenol;",
+          "Ammonia;",
+          "Ethyl alcohol"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Benzypyrene'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the carcinogen that causes bladder cancer:",
+        "options": [
+          "2-naphthylamine;",
+          "Benzopyrene;",
+          "Benzanthracene;",
+          "Cyclophosphoamide."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '2-naphthylamine;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What properties of steroid sex hormones may depend on their blastomogenic effect?",
+        "options": [
+          "With the ability to form carcinogenic metabolites;",
+          "Activation of lipolysis;",
+          "With increased proliferative activity of T-lymphocytes;",
+          "By suppressing glycolysis."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'With the ability to form carcinogenic metabolites;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the enzyme that transfers genetic information to the genome of a virus-infected cell in RNA:",
+        "options": [
+          "RNA-dependent DNA polymerase",
+          "polynucleatidase;",
+          "endonuclease;",
+          "caspase;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'RNA-dependent DNA polymerase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Oncogenesis theories do not include:",
+        "options": [
+          "implantable;",
+          "virological;",
+          "dysontogenetic;",
+          "physical and chemical."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'implantable;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Benign tumors are characterized by:",
+        "options": [
+          "Expansive growth;",
+          "Rapid formation of a tumor node;",
+          "Infiltrative growth;",
+          "Metastasis."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Expansive growth;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What endogenous products are carcinogens?",
+        "options": [
+          "Free radicals.",
+          "S3 S5 complement part;",
+          "Ig A;",
+          "Lactic acid."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Free radicals.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Tumor formed from mesoderm cells:",
+        "options": [
+          "Sarcoma;",
+          "Carcinoma;",
+          "Adenoma;",
+          "Melanoma;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Sarcoma;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A tumor cell is a \"trap\" for the substance under it:",
+        "options": [
+          "Glucose",
+          "Free radicals;",
+          "Folates;",
+          "Hydroxides;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Tumor treatment methods:",
+        "options": [
+          "all of them.",
+          "surgery;",
+          "radiation therapy;",
+          "chemotherapy;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'all of them.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An enzyme that does not initiate metastasis:",
+        "options": [
+          "Glucuronidase;",
+          "Hyaluronidase;",
+          "Metalloproteinase;",
+          "Cathepsin B;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucuronidase;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the cell that exocytes TNF (tumor necrosis factor):",
+        "options": [
+          "Tissue macrophages;",
+          "Erythrocytes;",
+          "Platelets;",
+          "Eosinophil."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Tissue macrophages;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Dangerous liver cells intensively synthesize:",
+        "options": [
+          "?-fetoprotein;",
+          "?-tocopherol;",
+          "?-globulin;",
+          "C-reactive protein."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '?-fetoprotein;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Anticancer mechanisms include:",
+        "options": [
+          "All of the above is true.",
+          "Bonding with glucuronic acid, sulfates;",
+          "Excretion with body fluids;",
+          "Detoxification of free radicals with antioxidants;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'All of the above is true.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A characteristic feature of a benign tumor:",
+        "options": [
+          "Invasive growth;",
+          "High level of differentiation;",
+          "Absence of metastases;",
+          "Absence of clear morphological differences from normal progenitor cells."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Invasive growth;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show organic carcinogens of endogenous origin:",
+        "options": [
+          "Lipoperoxide compounds;",
+          "3.4 benzopyrene;",
+          "Diethyl nitrosoamine;",
+          "Carbon tetrachloride."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Lipoperoxide compounds;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define the concept of proto-oncogene.",
+        "options": [
+          "A gene that controls cell division;",
+          "Carcinogen interacting gene;",
+          "A viral gene that encodes the multiplication of viral proteins;",
+          "A mutated gene that controls the repair of a cell's genome (DNA)."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'A gene that controls cell division;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Describe the second stage of oncogenesis:",
+        "options": [
+          "Conversion of a proto-oncogene to an oncogene;",
+          "Uncontrolled proliferation of tumor cells;",
+          "Synthesis of oncoproteins, acquisition of tumor phenotype;",
+          "Interaction of carcinogens with proto-oncogenes and anti-oncogenes of the cell genome."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Conversion of a proto-oncogene to an oncogene;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the serum histochemical tumor marker that indicates the origin of the tumor from the cells of the prostate gland?",
+        "options": [
+          "Acid phosphatase;",
+          "Mustin;",
+          "?-fetoprotein;",
+          "Chromogranin."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acid phosphatase;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Oncogenesis suppressor genes include:",
+        "options": [
+          "p-53",
+          "c-myc",
+          "N-myc",
+          "c-erbB"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'p-53'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the cell that does not participate in the body's defense against tumors:",
+        "options": [
+          "Fibroblast;",
+          "Macrophage;",
+          "Leukocytes;",
+          "T-killer."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fibroblast;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is characteristic of a malignant tumor?",
+        "options": [
+          "Metastasis;",
+          "High level of differentiation;",
+          "Absence of morphological differences from a normal congenital cell;",
+          "Ability to control cell division."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Metastasis;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Describe the first stage of oncogenesis:",
+        "options": [
+          "Interaction of carcinogens with proto-oncogenes and anti-oncogenes of the cell genome.",
+          "Uncontrolled proliferation of tumor cells;",
+          "Synthesis of oncoproteins, acquisition of tumor phenotype;",
+          "Conversion of a proto-oncogene to an oncogene;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Interaction of carcinogens with proto-oncogenes and anti-oncogenes of the cell genome.'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-1-5": [
+      {
+        "question": "Serum albumin-globulin ratio of a healthy person:",
+        "options": [
+          "1.5-2.0",
+          "1.0-1.5",
+          "5.0-6.5",
+          "8.0-10.0"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '1.5-2.0'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What function of blood is included in the concept of oncotic blood pressure?",
+        "options": [
+          "Osmotic",
+          "Protection",
+          "Detoxification",
+          "Thermoregulation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Osmotic'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The amount of globulins in the blood serum of a healthy person:",
+        "options": [
+          "20-35 g / l",
+          "50-60 g / l",
+          "40-60 g/l",
+          "100-120 g / l"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '20-35 g / l'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Plasma proteins do not include which of the following:",
+        "options": [
+          "Myoglobin",
+          "Ceruloplasmin",
+          "Immunoglobulins",
+          "Haptoglobin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Myoglobin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Plasma differs from serum in terms of what proteins it contains",
+        "options": [
+          "Fibrinogen",
+          "Albumin",
+          "Alpha1 - globulins",
+          "Beta globulins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fibrinogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following acute phase proteins is not present in inflammation",
+        "options": [
+          "Albumin",
+          "Cryoglobulins",
+          "Alpha2-macroglobulin",
+          "Whey protein inhibitors"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Albumin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Blood performs the following functions:",
+        "options": [
+          "All the above functions",
+          "Nutrient transport",
+          "Regulator",
+          "Osmotic"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'All the above functions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Disturbance of the acid-alkaline balance of the blood, characterized by the accumulation of acidic compounds, is called:",
+        "options": [
+          "Acidosis",
+          "Anasiditis",
+          "Achilia",
+          "Hyperacidity"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acidosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Specific binding and transport of copper ions takes place in the blood plasma:",
+        "options": [
+          "Ceruloplasmin",
+          "Hemoglobin",
+          "Haptoglobin",
+          "Transferrin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ceruloplasmin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Colloid-osmotic blood pressure maintains:",
+        "options": [
+          "Albumin",
+          "Alpha1-globulins",
+          "Alpha globulins",
+          "Beta globulins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Albumin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is hyperproteinemia?",
+        "options": [
+          "An increase in the amount of blood plasma proteins",
+          "Disturbance of protein balance in the body",
+          "Violation of the albumin-globulin ratio",
+          "Excretion of protein in urine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'An increase in the amount of blood plasma proteins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The occurrence of ?-fetoglobulin, cryoglobulins in blood serum:",
+        "options": [
+          "Paraproteinemia",
+          "Dysproteinemia",
+          "Hyperproteinemia",
+          "Hypoproteinemia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Paraproteinemia'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Albumin is the carrier of the following:",
+        "options": [
+          "Everything is correct",
+          "Free fatty acids, unconjugated bilirubin",
+          "Bile acids, hormones",
+          "Various drugs"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Everything is correct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "When you are hungry, find the protein that serves as a protein reserve first:",
+        "options": [
+          "Albumin",
+          "Hemoglobin",
+          "Keratin",
+          "Collagen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Albumin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which protein group does haptoglobin belong to:",
+        "options": [
+          "?lpha 2-globulin",
+          "?lpha 1-globulin",
+          "Beta-globulin",
+          "Gama-globulin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '?lpha 2-globulin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following proteins is involved in apotransferrin being saturated with iron and turning into transferrin:",
+        "options": [
+          "Ceruloplasmin",
+          "Retinol binder",
+          "Transcortin",
+          "Hemopexin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ceruloplasmin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is Beta-globulin:",
+        "options": [
+          "Transferrin",
+          "Haptoglobin",
+          "Transcortin",
+          "Interferon"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Transferrin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the plasma protein that binds heme and prevents its excretion through the kidneys:",
+        "options": [
+          "Hemopexin",
+          "Transferrin",
+          "C-reactive protein",
+          "Haptoglobin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hemopexin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the protein that is not found in the blood serum of a healthy person:",
+        "options": [
+          "C-reactive protein",
+          "Interferon",
+          "Albumin",
+          "Hemopexin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'C-reactive protein'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Proteins involved in the body's defense reactions:",
+        "options": [
+          "Gama-globulins",
+          "?lpha 1-globulins",
+          "?lpha 2-globulins",
+          "Beta-globulins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Gama-globulins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the types of immunoglobulins:",
+        "options": [
+          "A, G, M, D, E",
+          "A, B, C, D, E",
+          "G, M, F, H, I",
+          "I, G, M, F, H"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'A, G, M, D, E'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Interferons belong to which group according to their structure:",
+        "options": [
+          "Glycoproteins",
+          "Normal proteins",
+          "Flavoproteins",
+          "Metalloproteins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glycoproteins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is hyperproteinemia?",
+        "options": [
+          "An increase in the amount of blood plasma proteins",
+          "Disturbance of protein balance in the body",
+          "Violation of the albumin-globulin ratio",
+          "Excretion of protein in urine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'An increase in the amount of blood plasma proteins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Proteins involved in inflammatory mechanisms as a response to injuries:",
+        "options": [
+          "Acute phase proteins",
+          "Immunity proteins",
+          "Flavoproteins",
+          "Glycoproteins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acute phase proteins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which enzyme activity increases when the salivary glands are inflamed:",
+        "options": [
+          "Amylase",
+          "Alkaline phosphatase",
+          "Protease",
+          "ALT"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Amylase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Activity increases during myocardial infarction:",
+        "options": [
+          "Everything is correct",
+          "Creatine kinase",
+          "AST",
+          "LDG1"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Everything is correct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following indicators increases in the blood in muscle diseases:",
+        "options": [
+          "Creatine",
+          "Alkaline phosphatase",
+          "Uric acid",
+          "Indian"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Creatine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What does an increase in the amount of lactate in the blood plasma indicate:",
+        "options": [
+          "Hypoxia",
+          "Acidosis",
+          "Alkalosis",
+          "Inflammation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hypoxia'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The role of phosphates in blood plasma:",
+        "options": [
+          "Participation in the buffer system",
+          "Regulation of protein balance in the body",
+          "Participation in blood clotting",
+          "Fluid control"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Participation in the buffer system'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is not an acute phase protein:",
+        "options": [
+          "Thrombin",
+          "Ceruloplasmin",
+          "Cryoglobulin",
+          "Haptoglobin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Thrombin'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-1-6": [
+      {
+        "question": "How much iron should be in the food in order for the body to absorb 10 mg of iron per day?",
+        "options": [
+          "50-60 mg",
+          "100-150 mg",
+          "1-2 g",
+          "200-300 mg"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '50-60 mg'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following substances interferes with the absorption of iron in the intestines::",
+        "options": [
+          "Tannin",
+          "Ascorbic acid",
+          "Cu ions",
+          "Folates"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Tannin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A strong buffer system that makes up 75% of the buffer system of blood:",
+        "options": [
+          "Hemoglobin",
+          "Phosphate",
+          "Protein",
+          "Acetate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hemoglobin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Excessive absorption of iron in the intestines:",
+        "options": [
+          "Hemochromatosis",
+          "Hemoglobinemia",
+          "Aplastic anemia",
+          "Hemoblastic anemia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hemochromatosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The main task of HBA:",
+        "options": [
+          "Transport of CO2 and O2",
+          "Synthesis of contractile system proteins (actin, myosin)",
+          "Ensuring the body's immune status",
+          "Participation in the formation of reactive oxygen species"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Transport of CO2 and O2'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define the pathological form of hemoglobin:",
+        "options": [
+          "HbS",
+          "HbA",
+          "HbF",
+          "HbA2"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'HbS'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Life expectancy of erythrocytes:",
+        "options": [
+          "120 days",
+          "1 month",
+          "2 months",
+          "15 days"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '120 days'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Beta-globulin fraction transports iron trivalent ion",
+        "options": [
+          "Transferrin",
+          "Interferon",
+          "Haptoglobin",
+          "Hemopexin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Transferrin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Adult erythrocytes contain 98% of hemoglobin:",
+        "options": [
+          "HbA.",
+          "HbR.",
+          "HbF",
+          "HA2"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'HbA.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Choose indicators of the normal amount of hemoglobin in women:",
+        "options": [
+          "115-145 g / l",
+          "90-100 g/l",
+          "50-80 g/l",
+          "70-100 g / l"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '115-145 g / l'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Choose indicators of normal hemoglobin content in men:",
+        "options": [
+          "130-160 g / l",
+          "115-145 g / l",
+          "70-90 g/l",
+          "100-120 g / l"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '130-160 g / l'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the types of hemoglobin in the red blood cells of healthy people:",
+        "options": [
+          "A1, A2, F",
+          "M, A1s, D.",
+          "C, M, E.",
+          "A2, S."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'A1, A2, F'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which disease causes the presence of HbA1S hemoglobin in the blood:",
+        "options": [
+          "Diabetes",
+          "Anemia",
+          "Carbon monoxide poisoning",
+          "Hypoxia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Diabetes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The hemoglobin buffer system of blood consists of:",
+        "options": [
+          "Oxyhemoglobin and deoxyhemoglobin",
+          "Carbhemoglobin and carboxyhemoglobin",
+          "Carboxyhemoglobin and oxyhemoglobin",
+          "Oxyhemoglobin and methemoglobin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxyhemoglobin and deoxyhemoglobin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the pH value of the bicarbonate buffer system of blood",
+        "options": [
+          "7.4",
+          "6.8",
+          "7.9",
+          "7.0"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '7.4'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Type B of hemophilia depends on which factor:",
+        "options": [
+          "Christmas factor",
+          "Stuart-Prawer factor",
+          "Anticonvertin",
+          "The Hageman factor"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Christmas factor'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A protein that ensures that iron (Fe3+) ions absorbed in the intestine are absorbed by various organs of the body and accumulate as a reserve in various organs:",
+        "options": [
+          "Ferritin",
+          "Transferrin",
+          "Haptoglobin",
+          "Ceruloplasmin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ferritin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the coenzyme of aminolevulinic synthase:",
+        "options": [
+          "Pridoxalphosphate",
+          "Folic acid",
+          "Cobalamin",
+          "Niacin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pridoxalphosphate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The combination of hemoglobin with oxygen is called:",
+        "options": [
+          "Oxyhemoglobin",
+          "Methemoglobin",
+          "Carbylamin hemoglobin",
+          "Carbemoglobin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxyhemoglobin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The compound that transports carbon dioxide from the tissues to the lungs is called:",
+        "options": [
+          "Carbhemoglobin",
+          "Oxyhemoglobin",
+          "Do not carbylate hemoglobin",
+          "Carboxyhemoglobin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Carbhemoglobin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In people carrying the HbS gene, the place of glutamic acid in the 6th position of the hemoglobin ?-chain is replaced by which amino acid:",
+        "options": [
+          "Valin",
+          "Cool",
+          "Aspartate",
+          "Methionine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Valin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the predecessor of fibrin",
+        "options": [
+          "Fibrinogen",
+          "Haptoglobin",
+          "Fibronectin",
+          "Fibroin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fibrinogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In the 1st stage of heme synthesis, aminolevulinic acid is formed from which substances:",
+        "options": [
+          "Glycine and succinyl CoA",
+          "From iron binding to the porphyrin ring",
+          "From bilirubin",
+          "From propionyl CoA and iron"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glycine and succinyl CoA'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Ferrochelatase enzyme is also known as:",
+        "options": [
+          "Hemesynthase",
+          "Aminolevulinic synthase",
+          "Aminolevulinate dehydratase",
+          "Porphoblinogen synthase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hemesynthase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In which disease the urine is red and the skin is sensitive to sunlight:",
+        "options": [
+          "Porphyria",
+          "Methemoglobinemia",
+          "Sickle cell anemia",
+          "Hemophilia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Porphyria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Blood coagulation reactions take place based on the mechanism of:",
+        "options": [
+          "Cascade",
+          "Ping-pong",
+          "Regulatory",
+          "Rescue"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cascade'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Choose an inactive factor of hemocoagulation:",
+        "options": [
+          "Prothrombin",
+          "Fibrin",
+          "Your axles",
+          "Convertin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Prothrombin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Factor that converts fibrinogen to fibrin:",
+        "options": [
+          "Thrombin",
+          "Kallikrine",
+          "Quinine",
+          "Vitamin K"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Thrombin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define an anticoagulant substance:",
+        "options": [
+          "Heparin",
+          "Vitamin K",
+          "Prothrombin",
+          "Thromboplastin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Heparin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the process of fibrinolysis::",
+        "options": [
+          "Fibrin clot breakdown",
+          "Transition of fibrin to an insoluble gel state",
+          "Blood clotting",
+          "Blood clotting disorders"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fibrin clot breakdown'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-1-7": [
+      {
+        "question": "What is the 2nd main protein of connective tissue?",
+        "options": [
+          "Elastin",
+          "Collagen",
+          "Heparin",
+          "Protoglycan"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Elastin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What makes up 30-60% of the total mass of aorta tissue?",
+        "options": [
+          "Elastin",
+          "Glycogen",
+          "Collagen",
+          "Protein"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Elastin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Where is the elastin-degrading proelastase produced?",
+        "options": [
+          "Pancreas",
+          "Liver",
+          "Kidney",
+          "Stomach"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pancreas'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Predecessor of elastin",
+        "options": [
+          "tropoelastin",
+          "procollagen",
+          "proglycan",
+          "prohyaluron"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'tropoelastin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How many percent of carbon do proteoglycans contain?",
+        "options": [
+          "95%",
+          "90%",
+          "97%",
+          "99%"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '95%'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How many classes are glycosaminoglycans divided into?",
+        "options": [
+          "6",
+          "5",
+          "3",
+          "2"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '6'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What are proteoglycans called today?",
+        "options": [
+          "Glycosaminoglycans",
+          "Mucopolysaccharides",
+          "Glucosamines",
+          "Galactosamines"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glycosaminoglycans'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following consists of insoluble, highly elastic, rigid cross-links?",
+        "options": [
+          "Elastin",
+          "Collagen",
+          "Proteoglycan",
+          "Procallogen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Elastin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Proteoglycans make up what percentage of tissue dry mass?",
+        "options": [
+          "30%",
+          "20%",
+          "50%",
+          "10%"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '30%'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A change in the viscosity of joint fluid in rheumatic patients is the result of a change in the structure of which compound",
+        "options": [
+          "Proteglycans",
+          "Glycoprotein",
+          "Fibrinogen",
+          "Desmosine and isodesmosine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Proteglycans'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the shape of fibrils?",
+        "options": [
+          "Cylinder",
+          "Round",
+          "Disc",
+          "Triangle"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cylinder'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What percentage of body weight is connective tissue?",
+        "options": [
+          "50%",
+          "30%",
+          "60%",
+          "20%"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '50%'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the mechanical and holding function of the connective tissue?",
+        "options": [
+          "An insoluble protein outside the cell",
+          "An insoluble protein inside the cell",
+          "Phospholipids",
+          "Glycolipids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'An insoluble protein outside the cell'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Specific structure for connective tissue?",
+        "options": [
+          "Fibrillar structure",
+          "Macromolecular structure",
+          "Globular structure",
+          "Two-layer structure"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fibrillar structure'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What makes up 1/3 of the amino acids in collagen?",
+        "options": [
+          "glycine",
+          "proline",
+          "alanine",
+          "hydroxyproline"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'glycine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which substance acts as a shock absorber in the joints?",
+        "options": [
+          "Hyaluronic acid",
+          "Fibronectin",
+          "Aminopectin",
+          "Arachidonic acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hyaluronic acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which hormone accelerates the synthesis of hyaluronic acid?",
+        "options": [
+          "Testosterone",
+          "Adrenal hormones",
+          "Adrenaline",
+          "Noradrenaline"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Testosterone'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "When is hyaluronic acid repolymerized?",
+        "options": [
+          "When adrenocorticosteroids are introduced",
+          "When its de novo synthesis increases",
+          "It is polymerized",
+          "If the amount of cholesterol increases"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'When adrenocorticosteroids are introduced'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In old age, the percentage of connective tissue decreases?",
+        "options": [
+          "Water and the main substance",
+          "Basic ingredients",
+          "Proteoglycans",
+          "Glucosamines"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Water and the main substance'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In old age, the amount of connective tissue decreases first?",
+        "options": [
+          "Hyaluronic acid",
+          "Collagen",
+          "Elastin",
+          "Glycoprotein"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hyaluronic acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "When does the molecular structure of collagen change?",
+        "options": [
+          "In old age",
+          "As a result of changes in metabolism",
+          "In maturity",
+          "During the reign of Yuvinil"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In old age'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What kind of disease is rheumatoid arthritis?",
+        "options": [
+          "Systemic connective tissue disease",
+          "Muscle inflammation",
+          "Chronic immune system disease",
+          "Contagious infectious disease"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Systemic connective tissue disease'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What disease is caused by changes in the exchange of collagen and proteoglycans?",
+        "options": [
+          "Rheumatic arthritis",
+          "Chronic arthritis",
+          "To you",
+          "Inflammation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Rheumatic arthritis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Rheumatoid arthritis is a systemic disease of which tissue",
+        "options": [
+          "Consolidator",
+          "Epithelium",
+          "Muscle",
+          "Nerve"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Consolidator'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A cell belonging to connective tissue:",
+        "options": [
+          "Erythrocyte",
+          "Nerve cell",
+          "Muscle",
+          "Epithelium"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Erythrocyte'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which hormonal influence accelerates your synthesis of hyaluronic acid?",
+        "options": [
+          "Testosterone",
+          "Thyroxine",
+          "Temozin",
+          "Somatotropy"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Testosterone'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Hyaluronidase enzyme is present in which of the following:",
+        "options": [
+          "In sperm",
+          "In the adrenal gland",
+          "In oocytes",
+          "In erythrocytes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In sperm'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What disease is caused by a change in the exchange of collagen and proteoglycans?",
+        "options": [
+          "Rheumatic arthritis",
+          "Chronic arthritis",
+          "Arthritis",
+          "Inflammation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Rheumatic arthritis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which process is disturbed in sinus disease?",
+        "options": [
+          "Hydroxylation of collagen",
+          "Collagen biosynthesis",
+          "Regeneration of elastin",
+          "Formation of hyaluronic acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hydroxylation of collagen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The amount of collagen in old age?",
+        "options": [
+          "Increases",
+          "Decreases",
+          "It will fall apart",
+          "Biosynthesis is accelerated"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Increases'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-1-8": [
+      {
+        "question": "What percentage of body weight is muscle tissue.",
+        "options": [
+          "40-42%",
+          "35-38%",
+          "45-50%",
+          "30-35%"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '40-42%'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "When muscles contract:",
+        "options": [
+          "Chemical energy is converted into mechanical energy",
+          "Mechanical energy is converted into electrochemical energy",
+          "Chemical energy is converted into electrochemical energy",
+          "Potential energy is converted into heat energy"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Chemical energy is converted into mechanical energy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The main function of the muscle.",
+        "options": [
+          "Abbreviation",
+          "Structural",
+          "Conductivity",
+          "Protection"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Abbreviation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define muscle proteins.",
+        "options": [
+          "Myosin, actin",
+          "Myosin, albumin",
+          "Actin, globulin",
+          "Tropomyosin, histone"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Myosin, actin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Mark the muscle contraction element.",
+        "options": [
+          "Myofibrils",
+          "Sarcomere",
+          "Sarcolemma",
+          "Muscle fiber"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Myofibrils'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The main source of energy for muscle contraction.",
+        "options": [
+          "ATP",
+          "GTF",
+          "Phosphoenolpyruvate",
+          "1,3 diphosphoglycerate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'ATP'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Myofibrillar proteins of muscle tissue:",
+        "options": [
+          "Troponin, Myosin",
+          "Albumin, tropomyosin",
+          "Myoglobin, actin",
+          "Hemoglobin, actin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Troponin, Myosin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "It can be a source of energy for muscle contraction:",
+        "options": [
+          "Creatine phosphate",
+          "Adenosine monophosphate",
+          "Phosphoenolpyruvate",
+          "Carbamoyl phosphate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Creatine phosphate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which ions are involved in the control of muscle contraction?:",
+        "options": [
+          "Calcium",
+          "Phosphorus",
+          "Magnesium",
+          "Iron"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Calcium'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "When the concentration of Ca2+ ions in muscles decreases:",
+        "options": [
+          "Muscles relax",
+          "It shortens",
+          "Tired",
+          "It cannot contract and relax"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Muscles relax'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Proteins that make up 35% of muscle tissue",
+        "options": [
+          "Sarcoplasmic",
+          "Microfibrillar",
+          "Myofibrillar",
+          "Stromal proteins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Sarcoplasmic'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "One of the extractive substances involved in the chemical processes of muscle contraction",
+        "options": [
+          "Creatine",
+          "Lecithin",
+          "Kholin",
+          "Triglycerides"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Creatine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Troponin belongs to the group of muscle proteins:",
+        "options": [
+          "Myofibrillar",
+          "Sarcoplasmic",
+          "Stromal protein",
+          "Microfibrillar"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Myofibrillar'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the sarcoplasmic protein in muscle tissue:",
+        "options": [
+          "Myoglobin",
+          "Troponin",
+          "Actin",
+          "Myosin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Myoglobin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "One of the non-protein nitrogen-storing extractives in muscle tissue:",
+        "options": [
+          "Anserine",
+          "Dicarnosine",
+          "Imino acid",
+          "Troponin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Anserine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the muscle protein with catalytic activity:",
+        "options": [
+          "Myosin",
+          "Actin",
+          "Troponin",
+          "All stromal proteins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Myosin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the correct sentence:",
+        "options": [
+          "The actin thread moves along the myosin threads",
+          "Myosin filaments move toward actin filaments",
+          "Myoglobin plays an important role in muscle contraction",
+          "Only anaerobic glycolysis occurs in muscles"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The actin thread moves along the myosin threads'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the concentration of Ca2+ in relaxed muscles:",
+        "options": [
+          "10-7M",
+          "10-4M",
+          "10-8M",
+          "10-2M"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '10-7M'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define the sarcoplasmic protein of muscle tissue:",
+        "options": [
+          "Myogen",
+          "Actomyosin",
+          "Creatine",
+          "Troponin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Myogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Specify the function of myoglobin:",
+        "options": [
+          "Oxygen transport in muscles",
+          "Regulation of aerobic glycolysis in muscle",
+          "Energy",
+          "Trophic"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxygen transport in muscles'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find a substance that increases the amplitude of contraction of tired muscles?:",
+        "options": [
+          "Carnosine",
+          "Phosphorus",
+          "Myogen",
+          "sAMF"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Carnosine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the amino acids involved in creatine synthesis:",
+        "options": [
+          "Arginine, glycine, methionine",
+          "Alanine, glycine",
+          "Alanine, histidine",
+          "Histidine, proline, oxyproline"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Arginine, glycine, methionine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which enzyme is an indicator for heart disease?",
+        "options": [
+          "Creatine phosphokinase",
+          "Gammaglutamyltranspeptidase",
+          "Acid phosphatase",
+          "Aldolase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Creatine phosphokinase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define the reactions that supply muscles with energy?",
+        "options": [
+          "Everything is correct",
+          "Creatine kinase, glycolysis",
+          "Resynthesis of ATP under aerobic conditions",
+          "Myokinase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Everything is correct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define the \"rescue mechanism\" of muscles in emergency situations?",
+        "options": [
+          "Myokinase reaction",
+          "Creatine kinase reaction",
+          "Resynthesis of ATP under aerobic conditions",
+          "Anserine-carnosine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Myokinase reaction'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Specify the condition observed in myopathy:",
+        "options": [
+          "Creatinuria",
+          "Ketonemia",
+          "Ketoacidosis",
+          "Azotemia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Creatinuria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which disease can cause creatinineuria?",
+        "options": [
+          "Progressive muscular dystrophy",
+          "Liver cirrhosis",
+          "Kidney pathology",
+          "Myocardial infarction"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Progressive muscular dystrophy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In cardiac muscles, the amount of creatine phosphate is less than in skeletal muscles, and ATP consumption is higher, so which reaction rate is higher?",
+        "options": [
+          "Aerobic resynthesis of ATP",
+          "Myokinase",
+          "Anaerobic glycolysis",
+          "Substrate Phosphorylation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Aerobic resynthesis of ATP'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the main LDG in skeletal muscle:",
+        "options": [
+          "LDG5",
+          "LDG1",
+          "LDG4",
+          "LDG3"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'LDG5'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Muscle atrophy can occur as a result of lipid peroxidation in muscles when there is a lack of which vitamin:",
+        "options": [
+          "Vitamin E",
+          "Vitamin D",
+          "Vitamin K",
+          "B group vitamins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Vitamin E'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-1-9": [
+      {
+        "question": "Where are micelles formed?",
+        "options": [
+          "in the intestinal cavity",
+          "in the intestinal wall",
+          "in the chest lymphatic system",
+          "in the lungs"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'in the intestinal cavity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Glycolytic enzymes are involved in the digestion of which substances?",
+        "options": [
+          "Carbohydrates",
+          "Oils",
+          "Proteins",
+          "Nucleoproteins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Carbohydrates'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Optimal pH environment of gastric juice for pepsinogen activation?",
+        "options": [
+          "1.5-2.5",
+          "6.4–7.0",
+          "4.2-4.8",
+          "7.8-8.3"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '1.5-2.5'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Standard indicator of free hydrochloric acid in gastric juice (mol/l)?",
+        "options": [
+          "20-40",
+          "40-60",
+          "70-80",
+          "90-100"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '20-40'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the phospholipase that ensures the digestion of phospholipids in the intestine?",
+        "options": [
+          "Phospholipase A",
+          "Phospholipase E",
+          "Phospholipase D",
+          "Phospholipase K"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phospholipase A'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The general name of enzymes involved in the breakdown of proteins in the gastrointestinal tract?",
+        "options": [
+          "Proteolytic enzymes",
+          "Glycolytic enzymes",
+          "Cathepsins",
+          "Lipases"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Proteolytic enzymes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Importance of hydrochloric acid of gastric juice?",
+        "options": [
+          "The bactericidal effect",
+          "Partially hydrolyzes proteins",
+          "It breaks down proteins into peptones",
+          "Ensures absorption of proteins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The bactericidal effect'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Necessary conditions for the absorption of amino acids in the small intestine?",
+        "options": [
+          "The presence of sodium ions",
+          "A weak alkaline environment",
+          "The presence of calcium",
+          "Presence of bile acids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The presence of sodium ions'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Representative of proteases found in gastric juice?",
+        "options": [
+          "Pepsin",
+          "Chymotrypsin",
+          "Trypsin",
+          "Elastase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pepsin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Representative of proteases present in pancreatic juice?",
+        "options": [
+          "Trypsinogen",
+          "Pepsin",
+          "Renin",
+          "Gastric"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Trypsinogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An enzyme involved in the digestion of proteins in the gastrointestinal tract?",
+        "options": [
+          "Aminopeptidase",
+          "Amylase",
+          "Thiol-cathepsin",
+          "Alanine aminotransferase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Aminopeptidase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What enzyme activity is determined in the blood in acute pancreatitis?",
+        "options": [
+          "Amylase",
+          "Keratin kinase",
+          "Arginase",
+          "Aminotransferases"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Amylase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The most important substance for the digestion and absorption of fats in the intestine?",
+        "options": [
+          "Bile acid",
+          "Intestinal lipase",
+          "Hydrochloric acid",
+          "Lipoprotein lipase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Bile acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What can be the cause of fat malabsorption?",
+        "options": [
+          "Insufficiency of bile acid in the intestines",
+          "Absence of lipoprotein lipase",
+          "Avitaminosis of water-soluble vitamins",
+          "Lack of gastric juice"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Insufficiency of bile acid in the intestines'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the drug recommended for the treatment of acute pancreatitis?",
+        "options": [
+          "Trasilol",
+          "Xenodeoxycholate",
+          "Taurine",
+          "Carnitine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Trasilol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "pH norm in gastric juice?",
+        "options": [
+          "1.5-2.0",
+          "3.0- 5.0",
+          "8.8-9.0",
+          "10.4-12.8"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '1.5-2.0'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Under what conditions are the enzymes released from the pancreas poured into the duodenum?",
+        "options": [
+          "In pro condition",
+          "In the methylated state",
+          "In active state",
+          "In the conjugated state"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In pro condition'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which proenzyme is activated in large quantities in peptic ulcer diseases?",
+        "options": [
+          "Pepsinogen",
+          "Trypsinogen",
+          "Proelastase",
+          "Procarboxypeptidase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pepsinogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the substance that is absorbed into the blood from the intestine?",
+        "options": [
+          "Galactose",
+          "Lactose",
+          "Nucleoprotein",
+          "Peptone"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Galactose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Absence of HCl in gastric juice?",
+        "options": [
+          "Achlorhydria",
+          "Achillea",
+          "Hypochlorhydria",
+          "Hyperchlorhydria"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Achlorhydria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Proteolytic enzyme of gastric juice?",
+        "options": [
+          "Gastric",
+          "Aminopeptidase",
+          "Amylase",
+          "Dipeptidase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Gastric'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Participates in the digestion of triglycerides in the gastrointestinal tract?",
+        "options": [
+          "Pancreatic lipase",
+          "LXAT",
+          "Lipoprotein lipase",
+          "Alkaline phosphatase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pancreatic lipase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The activity of which enzyme increases when the salivary glands are inflamed?",
+        "options": [
+          "?-amylase",
+          "?-amylase",
+          "Gastroxin",
+          "Ptyalin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '?-amylase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What does bilirubin turn into in the small and large intestines?",
+        "options": [
+          "Stercobilinogen",
+          "Di- and tripyrrole",
+          "Uroporphyrinogen",
+          "Biliverdin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Stercobilinogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An enzyme that is not included in the group of proteolytic enzymes in intestinal juice?",
+        "options": [
+          "Pepsinogen",
+          "Aminopeptidase",
+          "Carboxypeptidase",
+          "Dipeptidase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pepsinogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The patient was diagnosed with constipation. Which carbohydrate is recommended for improving bowel function?",
+        "options": [
+          "Kletchatka",
+          "Lactose",
+          "Sucrose",
+          "Glucose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Kletchatka'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which process is disturbed due to the insufficient amount of bile acid in the intestine?",
+        "options": [
+          "Fat digestion and absorption in the intestines",
+          "Lack of linoleic and linolenic acids",
+          "Hypervitaminosis of fat-soluble vitamins",
+          "Deficiency of essential amino acids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fat digestion and absorption in the intestines'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Gastric juice is green. What is the reason for this?",
+        "options": [
+          "Presence of bile in gastric juice",
+          "Presence of bilirubin in gastric juice",
+          "The presence of glucose in gastric juice",
+          "Presence of lactate in gastric juice"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Presence of bile in gastric juice'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Complete absence of HCl and pepsin in gastric juice?",
+        "options": [
+          "Achillea",
+          "Achlorhydria",
+          "Hypochlorhydria",
+          "Hyperchlorhydria"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Achillea'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The following drugs can be recommended when the synthesis of enzymes in the gastrointestinal tract is disturbed?",
+        "options": [
+          "Pepsin, festal",
+          "Pepsin, urokinase",
+          "Pacreatin, streptokinase",
+          "Fibrinolysin, panzinorm"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pepsin, festal'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-1-10": [
+      {
+        "question": "Define the biochemical function of the liver?",
+        "options": [
+          "All answers are correct",
+          "Participation in carbohydrate metabolism",
+          "Participation in the synthesis of urine",
+          "Participation in the regulation of metabolism"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'All answers are correct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In which organ is the transformation of provitamins into vitamins:",
+        "options": [
+          "In the liver",
+          "In the brain",
+          "In skeletal muscles",
+          "In the spleen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the liver'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Liver damage is not accompanied by an increase in nitrogen balance in the blood due to the following indicators:",
+        "options": [
+          "Uremia",
+          "Hyperammonemia",
+          "Hyperaminoacidemia",
+          "Hyperbilirubinemia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Uremia'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which enzyme activity is activated in hepatocytes under conditions of carbohydrate starvation?",
+        "options": [
+          "Glyconen phosphorylase",
+          "Hexokinase",
+          "Glycogen synthase",
+          "Phosphofructomutase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glyconen phosphorylase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Acetyl-CoA in the liver does not undergo which changes:",
+        "options": [
+          "For the synthesis of amino acids",
+          "For the synthesis of fatty acids",
+          "For cholesterol synthesis",
+          "It is oxidized to CO2 and H2O"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'For the synthesis of amino acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which change of lipids does not occur in the liver:",
+        "options": [
+          "Synthesis of linolenic acid",
+          "Breakdown of complex lipids into simple components",
+          "Synthesis of lipids, especially cholesterol",
+          "Oxidation of fatty acids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Synthesis of linolenic acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which lipid changes do not occur in the liver:",
+        "options": [
+          "Oxidation of acetoacetate",
+          "Phospholipid formation",
+          "Formation of ketone bodies",
+          "Formation of cholesterol"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxidation of acetoacetate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Gluconeogenesis enzymes are located in which of the following cells?",
+        "options": [
+          "In hepatocytes",
+          "In enterocytes",
+          "In cardiomyocytes",
+          "In sarcomyocytes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In hepatocytes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Indicate the possible sources of glucose-6-phosphate formation in the liver:",
+        "options": [
+          "All named sources",
+          "Glucose",
+          "Fructose",
+          "Galactose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'All named sources'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Glucose that passes through the blood from the intestine to the liver is not used for which functions:",
+        "options": [
+          "It is used to neutralize ammonia",
+          "Glycogen formation",
+          "With the release of energy, it is oxidized to CO2 and H2O",
+          "Converted to fat to store energy"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It is used to neutralize ammonia'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "K+ ion affects which of the following processes in the liver:",
+        "options": [
+          "Gluconeogenesis",
+          "Glycogenolysis",
+          "Synthesis of ketone bodies",
+          "Ammonia neutralization"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Gluconeogenesis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "For the biosynthesis of cholesterol, higher fatty acids and nucleic acids in the liver, the need for such coenzymes is great:",
+        "options": [
+          "NADFH",
+          "TDF",
+          "NAD+",
+          "FMN"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'NADFH'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Gallstone disease is not caused by the following factors:",
+        "options": [
+          "Lack of fat in the diet",
+          "Cholesterol overload of bile",
+          "Excess lithocholic acid in bile",
+          "Dyskinesia of bile ducts"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Lack of fat in the diet'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Fatty acids in the liver are used in every way, except for:",
+        "options": [
+          "For the synthesis of amino acids",
+          "For fat synthesis",
+          "For the synthesis of phospholipids",
+          "To form cholesterol esters"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'For the synthesis of amino acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Hypoprothrombinemia is associated with insufficient synthesis of which protein in the liver:",
+        "options": [
+          "Prothrombin",
+          "Proaxelrine",
+          "Thromboplastin",
+          "Proconvertin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Prothrombin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Jaundice occurs when the concentration of bilirubin in the blood is as follows:",
+        "options": [
+          "Above 32-35 ?mol/l",
+          "5-10 ?mol/l",
+          "10-20 ?mol/l",
+          "3-5 ?mol/l"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Above 32-35 ?mol/l'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Dysproteinemia develops in hepatitis, in which the ratio of which proteins changes:",
+        "options": [
+          "Albumin-globulin",
+          "Albumin-hemoglobin",
+          "Fibrin-thrombin",
+          "Glycoproteid-lipoproteid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Albumin-globulin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The reason why the blood glucose level of a healthy person is kept within normal limits during 12-24 hours of fasting is mainly:",
+        "options": [
+          "With the breakdown of liver glycogen into glucose",
+          "Through gluconeogenesis from amino acids",
+          "Via gluconeogenesis from lactate",
+          "With the breakdown of glycogen in the muscles to glucose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'With the breakdown of liver glycogen into glucose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In conditions of iron deficiency anemia in the liver, the synthesis of metalloproteins is disturbed, which serves as a source of iron for heme synthesis. Name this metalloprotein:",
+        "options": [
+          "Ferritin",
+          "Transferrin",
+          "Hemosiderin",
+          "Myoglobin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ferritin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Pellagra is not observed under conditions of adequate nutrition with animal proteins, because vitamin PP (B5) is partially formed in the liver:",
+        "options": [
+          "Tryptophan",
+          "Carbohydrates",
+          "Protein",
+          "Fatty acids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Tryptophan'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In which form of jaundice, hyperbilirubinemia is not accompanied by bilirubinuria:",
+        "options": [
+          "Hemolytic",
+          "Parenchymal",
+          "Mechanic",
+          "A mix"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hemolytic'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An increase in the amount of indican in the urine of a patient with intestinal dysbacteriosis indicates the following:",
+        "options": [
+          "Normal liver detoxification function",
+          "Kidney disease",
+          "Increased digestion of carbohydrates in the intestines",
+          "Increased fat hydrolysis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Normal liver detoxification function'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The following substance is not formed from amino acids in the liver:",
+        "options": [
+          "Fatty acids",
+          "Protein",
+          "Alpha-keto acids",
+          "NH3, hem"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fatty acids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The final product of the metabolism of nitrogenous substances in the liver:",
+        "options": [
+          "Urea",
+          "Bile acids",
+          "Purine bases",
+          "Carnitine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Urea'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The concentration of total bilirubin in the blood of a healthy person is as follows:",
+        "options": [
+          "8-20 ?m / l",
+          "15-30 ?m / l",
+          "2-20 mm / l",
+          "1-10 mm / l"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '8-20 ?m / l'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Substances that convert glucose-6-phosphate in the liver:",
+        "options": [
+          "All the listed substances",
+          "Glucose",
+          "Pyruvate",
+          "Glycogen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'All the listed substances'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A low level of which metabolite in hepatocytes leads to inhibition of the Krebs cycle and increased ketogenesis?",
+        "options": [
+          "Oxaloacetate",
+          "ATP",
+          "ADP",
+          "Acetyl CoA"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxaloacetate'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Newly synthesized fats in the liver carry which lipoproteins in the blood:",
+        "options": [
+          "ZJPLP",
+          "ZPLP",
+          "ZYLP",
+          "Chylomicrons"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'ZJPLP'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Uncharacteristic direction of changes in cholesterol in the liver:",
+        "options": [
+          "Secretion into urine through blood and kidneys",
+          "Bile acid synthesis",
+          "Adhesion of liver cells to membranes",
+          "Secretion of bile into the intestine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Secretion into urine through blood and kidneys'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The liver, as the main digestive gland, synthesizes and transfers to other tissues:",
+        "options": [
+          "All named components",
+          "Protein",
+          "Phospholipids",
+          "Carbohydrates"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'All named components'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-1-11": [
+      {
+        "question": "Blood detoxification function depends on the following.",
+        "options": [
+          "Neutralization of toxic substances using UDFGK",
+          "Transport of gases (CO2 and O2)",
+          "Nutrient transport",
+          "Heat exchange between tissues and blood"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Neutralization of toxic substances using UDFGK'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The greatest danger for the body in case of kidney failure:",
+        "options": [
+          "Uremia",
+          "Hypoglycemia",
+          "Hypoproteinemia",
+          "Acidosis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Uremia'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Substances that do not serve as a building or energy source in the body:",
+        "options": [
+          "Xenobiotics",
+          "Metabolites",
+          "Antimetabolites",
+          "Intermediate products"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Xenobiotics'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Most of the steroid hormones are metabolized in the liver (stage I) by retraction. Their binding to what substance (phase II) causes them to lose their biological effects and be excreted through the kidneys?",
+        "options": [
+          "Glucuronic acid",
+          "Amino acids",
+          "Glutathione",
+          "Acetic acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucuronic acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Biologically active amines serotonin and histamine are inactivated in the liver by the following reactions:",
+        "options": [
+          "Decontamination",
+          "Oxidation",
+          "Return",
+          "Conjugation with glucuronic acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Decontamination'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the enzyme that is not involved in step 1 of detoxification of xenobiotics in the liver?",
+        "options": [
+          "UDFGK-transferase",
+          "Cytochrome P-450-reductase",
+          "Monooxygenase",
+          "Hydroxylase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'UDFGK-transferase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Select a peptide commonly used in xenobiotic conjugation:",
+        "options": [
+          "Glutathione",
+          "Anserine",
+          "Carnosine",
+          "Brady's"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glutathione'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Choose an enzyme that combines toxic substances with glucuronic acid:",
+        "options": [
+          "UDP-glucuronyl transferase",
+          "Uridyltransferase",
+          "UDP dehydrogenase",
+          "Acetyltransferase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'UDP-glucuronyl transferase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the vitamins involved in the detoxification of xenobiotics in the liver:",
+        "options": [
+          "A, E, C",
+          "B group vitamins",
+          "Vitamin D and K",
+          "All vitamins are involved"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'A, E, C'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the substance that enhances the cytochrome P-450 enzyme by induction:",
+        "options": [
+          "Luminal",
+          "Acetone",
+          "Hippuric acid",
+          "Allopurinol"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Luminal'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "For microsomal oxidation, NADPH2 is mainly used as a donor of hydrogen atoms. What metabolic pathway is the main source of NADPH2?",
+        "options": [
+          "Pentose phosphate pathway",
+          "Glycolysis",
+          "Krebs cycle",
+          "Gluconeogenesis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pentose phosphate pathway'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Nonspecific function of the liver:",
+        "options": [
+          "Urination",
+          "Regulatory homeostatic",
+          "Making grass",
+          "Detoxification of toxic substances"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Urination'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Toxic substances, which of the following substances does not form conjugation:",
+        "options": [
+          "Orotic acid",
+          "Glucuronic acid",
+          "FAFS",
+          "Glutathione"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Orotic acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The source of glucuronic acid involved in the conjugation process in the body:",
+        "options": [
+          "Glucose",
+          "Histamine",
+          "Glutamine",
+          "Adenine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following sentences is correct?",
+        "options": [
+          "Hydrophilicity of conjugated substances increases",
+          "Oxygenases are involved in the conjugation process",
+          "After microsomal oxidation, the background of free radicals increases",
+          "S-adenosylmethionine is the main conjugate of conjugation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hydrophilicity of conjugated substances increases'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Neutralization of toxic substances in the endoplasmic reticulum occurs in two stages. Show step I:",
+        "options": [
+          "Microsomal oxidation",
+          "Hydroxylation",
+          "Phosphorylation",
+          "Dehydrogenation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Microsomal oxidation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Detoxification occurs in all tissues and organs, but the leading place belongs to the following.",
+        "options": [
+          "Liver",
+          "Kidney",
+          "Blood",
+          "Intestine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Liver'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An intermediate product formed during the neutralization of aspirin:",
+        "options": [
+          "Salicylates",
+          "Benzonate",
+          "Naphtholamine",
+          "Niacin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Salicylates'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What product is nicotinamide converted into and excreted:",
+        "options": [
+          "Methylnicotinamide",
+          "Acenicotinamide",
+          "Niacin",
+          "UDF-nicotinamide"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Methylnicotinamide'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Determine the specificity of androgen and estrogen inactivation in the liver:",
+        "options": [
+          "Oxidized and released as ketosteroids",
+          "It is oxidized under the action of aminooxidases",
+          "After the first stage, epoxides are formed",
+          "Extremely dangerous carcinogens are formed"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxidized and released as ketosteroids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Excess formation of ketone bodies in the liver, manifested by hyperketonemia, ketonuria, and the smell of acetone, is called ketosis. In what cases this does not happen:",
+        "options": [
+          "Diabetes without sugar",
+          "Hunger",
+          "Diabetes",
+          "Excessive consumption of alcohol"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Diabetes without sugar'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The most important role in the detoxification of toxic substances in the liver belongs to the following processes:",
+        "options": [
+          "Hydroxylation",
+          "Demethylation",
+          "Reassurance",
+          "Decontamination"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hydroxylation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Giving drugs in low doses in babies is related to which enzymes are not fully formed:",
+        "options": [
+          "Everything is correct",
+          "Glucuronyl transferase",
+          "Accelerator",
+          "Decelerating"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Everything is correct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find a carcinogen that results from epoxidation in the liver:",
+        "options": [
+          "Aflatoxin",
+          "Nitrosamine",
+          "Gentesinic acid",
+          "Salicylate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Aflatoxin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the coenzyme of alcohol dehydrogenase (1.1.1.1) enzyme involved in ethanol metabolism:",
+        "options": [
+          "NAD",
+          "Pridoxal Phosphate",
+          "Cobalamin",
+          "TPF"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'NAD'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Paraphenetidine has hepatotoxic properties, it can be formed from which drug:",
+        "options": [
+          "Paracetamol",
+          "Morphine",
+          "Aspirin",
+          "Phenobarbital"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Paracetamol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following can participate in the process of cleansing from free radicals:",
+        "options": [
+          "Trace elements such as Zn and Cu",
+          "Acetylating enzymes",
+          "Glycolipids",
+          "Conjugation with glycine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Trace elements such as Zn and Cu'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How many stages does the liver detoxify harmful substances?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '2'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the name of the second stage of detoxification of toxic substances in the liver?",
+        "options": [
+          "Conjugation",
+          "Divergence",
+          "Detoxification",
+          "Reactive supply"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Conjugation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In the liver, the conjugation stage goes by which substances are attached",
+        "options": [
+          "Glucuronic or sulfuric acid",
+          "Glucose, sucrose, maltose",
+          "Antioxidant vitamins",
+          "Microelements"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucuronic or sulfuric acid'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-1-12": [
+      {
+        "question": "Name the hormones released from the posterior lobe of the pituitary gland:",
+        "options": [
+          "Vasopressin, oxytocin",
+          "Somatotropic, gonadotropins",
+          "Thyrotropin, oxytocin",
+          "Somatotrope, vasopressin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Vasopressin, oxytocin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Hypothyroidism occurs when the activity of the gland is disturbed.",
+        "options": [
+          "Thyroid gland",
+          "Pituitary gland",
+          "Pineal gland",
+          "Adrenal gland"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Thyroid gland'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Acromegaly disease is caused by lack of which hormone",
+        "options": [
+          "Somatotropic",
+          "Intermidine",
+          "Vasopressin",
+          "Oxytocin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Somatotropic'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Precocious puberty occurs when the amount of the following hormones increases?",
+        "options": [
+          "Follicle stimulating hormone, luteinizing hormone",
+          "Luteinizing hormone, vasopressin",
+          "Adenocorticotropic hormone, follicle-stimulating hormone",
+          "Adenocorticotropic hormone, luteinizing hormone"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Follicle stimulating hormone, luteinizing hormone'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the role of thymus hormones in the body?",
+        "options": [
+          "Activates the immune system",
+          "It takes part in the process of separating urine from the kidneys",
+          "Strengthens the heart",
+          "Controls protein biosynthesis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Activates the immune system'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What role does the calcitonin hormone play in the body?",
+        "options": [
+          "It reduces the amount of calcium in the blood",
+          "Reduces blood sugar",
+          "Increases the amount of calcium in the blood",
+          "Increases the activity of immunoglobulins"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It reduces the amount of calcium in the blood'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the hormones involved in the control of carbohydrate metabolism in the body.",
+        "options": [
+          "Insulin, glucagon",
+          "Glucagon, tyrosine",
+          "Gonadotropin, somatotropin",
+          "Thymus hormones"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Insulin, glucagon'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Mixed - show endo and exocrine glands",
+        "options": [
+          "Pancreas, gonads",
+          "Sex, liver",
+          "Pancreatic, adrenal",
+          "Shield back, thyroid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pancreas, gonads'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which disease is characterized by excessive sweating, nervousness, insomnia, increased heart rate, and weight loss?",
+        "options": [
+          "Thyrotoxicosis",
+          "Diabetes",
+          "Tetany",
+          "Hypothyroidism"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Thyrotoxicosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What are the products produced by endocrine glands called?",
+        "options": [
+          "Hormones",
+          "Enzymes",
+          "Antibodies",
+          "Antigens"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hormones'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What gland's excessive hormone production leads to gigantism?",
+        "options": [
+          "Hypophysis",
+          "Epiphysis",
+          "Pancreas",
+          "Adrenal"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hypophysis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the endocrine gland whose activity increases until the child reaches puberty and stops completely before puberty?",
+        "options": [
+          "thymus",
+          "Epiphysis",
+          "Thyroid",
+          "Adrenal"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'thymus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The system involved in the transfer of hormone signal into the cell.",
+        "options": [
+          "Secondary messengers",
+          "Glycoproteins",
+          "Primary messengers",
+          "Motoneurons"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Secondary messengers'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the hormones of the pancreas",
+        "options": [
+          "Everything",
+          "Insulin",
+          "Pancreatin",
+          "Glucagon"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Everything'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the harmonic discovered by Senger in 1948-1953.",
+        "options": [
+          "Insulin",
+          "Glucagon",
+          "Pancreatin",
+          "Tyrosine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Insulin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Insulin is formed by combining several amino acids.",
+        "options": [
+          "51",
+          "50",
+          "52",
+          "58"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '51'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How many amino acids are there in the insulin A chain?",
+        "options": [
+          "21",
+          "51",
+          "24",
+          "30"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '21'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How many amino acids are the B chain of insulin?",
+        "options": [
+          "30",
+          "51",
+          "22",
+          "24"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '30'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "According to its chemical structure, secretin is a polypeptide composed of several residues.",
+        "options": [
+          "27",
+          "28",
+          "30",
+          "32"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '27'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Glucagon hormone is produced by which cells of the islet of Langerhans.",
+        "options": [
+          "a devices",
+          "b cells",
+          "both emit",
+          "this hormone is not released from the islets of Langerhans"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'a devices'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Adrenaline and noradrenaline hormones are released from which secretory gland?",
+        "options": [
+          "Adrenal",
+          "Hypophysis",
+          "Epiphysis",
+          "The stomach"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Adrenal'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Distinguish the hormones of the brain layer of the adrenal gland",
+        "options": [
+          "Adrenaline and noradrenaline",
+          "Glucagon, adrenaline",
+          "Insulin",
+          "Noradrenaline, mineralocorticoid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Adrenaline and noradrenaline'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which hormone is released from the cortical layer of the adrenal gland?",
+        "options": [
+          "Mineralocorticoid hormone",
+          "Vasopressin",
+          "Insulin",
+          "Glucagon"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Mineralocorticoid hormone'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What kind of hormone is prolactin according to its chemical structure:",
+        "options": [
+          "Normal protein nature",
+          "Complex protein",
+          "Peptide",
+          "Steroidal in nature"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Normal protein nature'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define a hormone with a cytosolic mechanism of action:",
+        "options": [
+          "Estrogen",
+          "Glucagon",
+          "Adrenaline",
+          "Insulin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Estrogen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Pituitary regulates the secretion of hormones:",
+        "options": [
+          "Releasing factors",
+          "Statins",
+          "Catecholamine",
+          "Samotostatin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Releasing factors'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Inhibitors of pituitary hormones:",
+        "options": [
+          "Statins",
+          "Liberines",
+          "Releasing factors",
+          "Neurohormones"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Statins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What amino acid is placed in oxytocin instead of phenylalanine at position 3 of the N end of vasopressin",
+        "options": [
+          "Isolation",
+          "Proline",
+          "Cysteine",
+          "Methionine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Isolation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define a hormone with a cytosolic mechanism of action:",
+        "options": [
+          "Remember",
+          "Prolactin",
+          "Oxytocin",
+          "Catecholamine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Remember'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the hormone that acts through the membrane:",
+        "options": [
+          "Adrenaline",
+          "Remember",
+          "Estrogen",
+          "Testosterone"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Adrenaline'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-1-13": [
+      {
+        "question": "The chemical structure of female and male sex hormones...",
+        "options": [
+          "steroids",
+          "protein",
+          "carbohydrate",
+          "protein+carbohydrate"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'steroids'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following substances are organic substances that, after being formed in special cells, enter the blood and have a regulatory (controlling) effect on metabolism and physiological functions",
+        "options": [
+          "Harmon",
+          "enzyme",
+          "vitamin",
+          "lipid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Harmon'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following hormones is not considered to be of protein nature",
+        "options": [
+          "Sex hormones",
+          "Insulin",
+          "Glucagon",
+          "Prolactin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Sex hormones'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the hormone that plays an important role in water and salt exchange in the body.",
+        "options": [
+          "Vasopressin",
+          "Somatotropin",
+          "Intermidine",
+          "Oxytocin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Vasopressin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "When the concentration of calcium in the body decreases, the synthesis of which hormone increases",
+        "options": [
+          "Paratharmonic",
+          "glucagon",
+          "tyrosine",
+          "insulin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Paratharmonic'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Itsenko-Cushi’s syndrome occurs when the amount of which hormone increases?",
+        "options": [
+          "Adrenocorticotropic",
+          "Somatotrope",
+          "Gonadotrope",
+          "Thyrotrope"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Adrenocorticotropic'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the hormone involved in water-salt exchange:",
+        "options": [
+          "Aldosterone",
+          "Insulin",
+          "Glucocorticosteroid",
+          "Catecholamine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Aldosterone'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the endocrine gland in the body.",
+        "options": [
+          "Hypophysis",
+          "Adrenal",
+          "pineal gland",
+          "salivary gland"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hypophysis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which substance below narrows blood vessels and increases blood pressure.",
+        "options": [
+          "Catecholamine",
+          "Somatotropic",
+          "Vasopressin",
+          "Progesterin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Catecholamine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which hormone increases the amount of glucose in the blood by increasing the breakdown of glycogen in the liver?",
+        "options": [
+          "Glucagon",
+          "Tyrosine",
+          "Insulin",
+          "Proinsulin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucagon'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "When the hormones of the gland increase, the state of virilism occurs and women develop a mustache.",
+        "options": [
+          "Adrenal",
+          "Hypophysis",
+          "Epiphysis",
+          "Sebaceous gland"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Adrenal'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What disease develops in the body if the posterior part of the pituitary gland atrophies.",
+        "options": [
+          "Diabetes without sugar",
+          "Diabetes",
+          "Phenylketanuria",
+          "Itsenko-Cushing syndrome"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Diabetes without sugar'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Parathyroid hormone consists of several amino acid residues",
+        "options": [
+          "87",
+          "28",
+          "30",
+          "32"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '87'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Distinguish the hormones of the corpus luteum",
+        "options": [
+          "Progestins",
+          "Androgens",
+          "Estrogens",
+          "Thymus hormones"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Progestins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which hormone is formed during maturation of the follicle and is important for the adhesion of the egg to the wall of the uterus.",
+        "options": [
+          "Progestins",
+          "Androgens",
+          "Estrogens",
+          "Thymus hormones"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Progestins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What were the first estrogens isolated from?",
+        "options": [
+          "From urine",
+          "From the ovary",
+          "From follicular cells",
+          "From Urugdon"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'From urine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The function of the cortex of the adrenal gland is controlled by which hormone is released from the anterior lobe of the pituitary gland.",
+        "options": [
+          "Adrenocorticotropic",
+          "Somatotrope",
+          "Vasopressin",
+          "Progesterone"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Adrenocorticotropic'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the hormone that reduces the mobilization of calcium:",
+        "options": [
+          "Calcitonin",
+          "Parathyroid hormone",
+          "Calcitriol",
+          "Mineralocorticoid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Calcitonin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Thyroid hormones are made from which amino acid:",
+        "options": [
+          "Tyrosine",
+          "Phenylalanine",
+          "Tryptophan",
+          "Proline"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Tyrosine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the predecessor of all sex hormones:",
+        "options": [
+          "Cholesterol",
+          "Triglycerides",
+          "Riboflavin",
+          "Nicotinamide"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cholesterol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Identify the gonadotropin hormone of the pituitary gland:",
+        "options": [
+          "Follicle stimulant",
+          "Vasopressin",
+          "Oxytocin",
+          "Somatostatin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Follicle stimulant'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Iodine deficiency disease:",
+        "options": [
+          "Endemic smallpox",
+          "Rickets",
+          "Hyperthyroidism",
+          "Threotoxicosis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Endemic smallpox'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define the disease associated with Ca2+: metabolism disorders:",
+        "options": [
+          "Tetany",
+          "Dwarfism",
+          "Bronze disease",
+          "Diabetes without sugar"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Tetany'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Steroid diabetes is observed in which of the following diseases:",
+        "options": [
+          "Warm up",
+          "Bronze disease",
+          "Gierke's disease",
+          "Anderson's disease"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Warm up'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the neuropeptide group",
+        "options": [
+          "Releasing factors",
+          "Quinine",
+          "Kallikren",
+          "Eicanazoids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Releasing factors'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Women are included in the sexual harmony:",
+        "options": [
+          "Estradiol",
+          "Prostaglandins",
+          "Aldosterone",
+          "Eicanazoids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Estradiol'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The place where noradrenaline is synthesized in the body:",
+        "options": [
+          "The brain layer of the adrenal gland",
+          "He got a shield",
+          "Cortical layer of the adrenal gland",
+          "Thyroid gland"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The brain layer of the adrenal gland'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Calcitonin hormone is formed:",
+        "options": [
+          "In the thyroid gland",
+          "In the pancreas",
+          "In the adrenal gland",
+          "In the pineal gland"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In the thyroid gland'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A disease that develops in adults with thyroxine deficiency:",
+        "options": [
+          "Myxidema",
+          "Cretinism",
+          "Bronze disease",
+          "Pheochromocytoma"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Myxidema'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Biological effects of estrogen:",
+        "options": [
+          "Increases the synthesis of angiotensinogen",
+          "Increases the synthesis of lipoproteins",
+          "It stimulates the activity of the adrenal gland",
+          "Increases skin oiliness"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Increases the synthesis of angiotensinogen'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-1-14": [
+      {
+        "question": "Pathology occurs when the amount of urine is less than what?",
+        "options": [
+          "500 ml",
+          "1000 ml",
+          "1200 ml",
+          "1600 ml"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '500 ml'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Increased urine volume?",
+        "options": [
+          "Polyuria",
+          "Oliguria",
+          "Anuria",
+          "Nocturia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Polyuria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is oliguria?",
+        "options": [
+          "Decreased daily urine output",
+          "Increased daily urine output",
+          "There is no urinary excretion",
+          "Evening urine is more than daytime urine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Decreased daily urine output'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What kind of disease is anuria?",
+        "options": [
+          "Complete cessation of urination",
+          "Profuse urination in the evening",
+          "Decreased daily urine output",
+          "Change in the color of urine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Complete cessation of urination'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is it called when you urinate more at night than during the day?",
+        "options": [
+          "Nocturia",
+          "Anuria",
+          "Oliguria",
+          "Polyuria"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Nocturia'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the pigment that determines the color of urine?",
+        "options": [
+          "Urobilin",
+          "Cholesterol",
+          "Hemoglobin",
+          "Myoglobin"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Urobilin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What color is urine when the concentration of bilirubin is high?",
+        "options": [
+          "Brown or reddish brown",
+          "Red",
+          "Green color",
+          "Light yellow color"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Brown or reddish brown'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What color does urine become when the process of protein decay in the intestine increases?",
+        "options": [
+          "Green",
+          "Red",
+          "Brown",
+          "Dark gold"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Green'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which substances make up the largest part of organic substances in urine?",
+        "options": [
+          "Diuretic",
+          "Creatinine",
+          "Creatine",
+          "Amino acids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Diuretic'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the cause of phenylketonuria?",
+        "options": [
+          "Deficiency of the enzyme phenylalanine hydroxylase",
+          "Lack of phenylalanine in the body",
+          "An increase in the amount of phenylalanine in the body",
+          "A large amount of tyrosine synthesis from phenylalanine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Deficiency of the enzyme phenylalanine hydroxylase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which substance can detect phenylalanine in urine?",
+        "options": [
+          "FeCl2",
+          "NH4NO3",
+          "(NH4)2SO4",
+          "FeSO4"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'FeCl2'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In which disease does the sudden darkening of the urine remaining in the air occur?",
+        "options": [
+          "Alcoptonuria",
+          "Phenylketonuria",
+          "Hyperthyroidism",
+          "In aminoacidurias"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Alcoptonuria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What substance is responsible for the sharp darkening of urine remaining in the air?",
+        "options": [
+          "Homogentisin acid",
+          "Phenylalanine",
+          "Tyrosine",
+          "Hippuric acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Homogentisin acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the cause of alkoptonuria?",
+        "options": [
+          "Failure of homogentisin oxidase enzyme",
+          "Failure of the enzyme phenylpyruvate hydoxylase",
+          "Dysfunction of tyrosinase enzyme",
+          "Failure of prolinoxidase enzyme"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Failure of homogentisin oxidase enzyme'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show the last product of purine metabolism?",
+        "options": [
+          "Uric acid",
+          "Diuretic",
+          "Creatinine",
+          "Hippuric acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Uric acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "When does the excretion of ammonia with urine increase?",
+        "options": [
+          "In acidosis",
+          "In alkalosis",
+          "In proteinuria",
+          "When glutamine metabolism is disturbed"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'In acidosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following substances is not found in normal urine?",
+        "options": [
+          "Acetone bodies",
+          "Diuretic",
+          "Uric acid",
+          "Ammonium salts"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acetone bodies'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following cannot be determined in normal urine?",
+        "options": [
+          "Glucose",
+          "Diuretic",
+          "Uric acid",
+          "Ammonium salts"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the release of protein in the urine?",
+        "options": [
+          "Protienuria",
+          "Aminoaciduria",
+          "Acidosis",
+          "Alkalosis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Protienuria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Hematuria is ?",
+        "options": [
+          "Excretion of red blood cells in the urine",
+          "Excretion of protein in the urine",
+          "Excretion of glucose in the urine",
+          "Excretion of amino acids in urine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Excretion of red blood cells in the urine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is ketonuria?",
+        "options": [
+          "Excretion of ketone bodies in urine",
+          "Reduction of ketone bodies in the urine",
+          "Disorder of ketone metabolism in the body",
+          "Excessive excretion of ?-oxymoic acid in urine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Excretion of ketone bodies in urine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "When is bilirubinuria observed?",
+        "options": [
+          "When grass roads are paved",
+          "In viral diseases of the liver",
+          "When the breakdown of bilirubin is impaired",
+          "When the formation of bilirubin is disturbed"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'When grass roads are paved'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name the substance that is not in urine in normal condition?",
+        "options": [
+          "Acetone",
+          "Ammonia",
+          "Mochivena",
+          "Uric acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acetone'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name a substance that is not excreted in normal urine?",
+        "options": [
+          "Bilirubin",
+          "Ammonia",
+          "Mochivena",
+          "Uric acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Bilirubin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Name a substance that is not excreted in normal urine?",
+        "options": [
+          "Acetoacetic acid",
+          "Ammonia",
+          "Mochivena",
+          "Uric acid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acetoacetic acid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Pathological components of urine include?",
+        "options": [
+          "Glucose",
+          "Creatinine",
+          "Uric acid",
+          "Urea"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which hormone accelerates water reabsorption?",
+        "options": [
+          "Vasopressin",
+          "Adrenaline",
+          "Insulin",
+          "Thyroxine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Vasopressin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The density of urine usually consists of?",
+        "options": [
+          "1.01-1.04 g/ml",
+          "0.3-0.5 g/ml",
+          "0.6-0.8 g/ml",
+          "1.1-1.2 g/ml"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '1.01-1.04 g/ml'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "During a normal diet, urea is excreted in the urine per day?",
+        "options": [
+          "25-35 g",
+          "5-10 g",
+          "80-90 g",
+          "110-130 g"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '25-35 g'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Structural-functional unit of kidneys?",
+        "options": [
+          "Nephron",
+          "Acinus",
+          "Neuron",
+          "Sarcomere"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Nephron'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-1-15": [
+      {
+        "question": "The main metabolic fuel for brain cells?",
+        "options": [
+          "Glucose",
+          "Fatty acid",
+          "Amino acids",
+          "Fructose"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Glucose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the membrane surrounding the nerve fibers called?",
+        "options": [
+          "Myelin",
+          "Synapse",
+          "Tubulin",
+          "Axoplasm"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Myelin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define mediators?",
+        "options": [
+          "Acetylcholine, noradrenaline",
+          "All hormones",
+          "Alkaloids",
+          "Acetylcholinesterase"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Acetylcholine, noradrenaline'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Cellular elements of nervous tissue?",
+        "options": [
+          "Neurons, glial cells",
+          "Synapse",
+          "A neurotransmitter",
+          "Low synaptic membrane"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Neurons, glial cells'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What substances are included in neurotransmitters?",
+        "options": [
+          "Serotonin",
+          "Phosphocholine",
+          "Histidine",
+          "Alanine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Serotonin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Characteristics of carbohydrate metabolism in nervous tissue?",
+        "options": [
+          "Mainly aerobic glucose metabolism",
+          "Mainly anaerobic glucose metabolism",
+          "Glucose utilization depends on insulin levels",
+          "High concentration of glycogen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Mainly aerobic glucose metabolism'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Characteristics of energy exchange in nervous tissue?",
+        "options": [
+          "High intensity of energy exchange",
+          "Low intensity of energy exchange, high activity of the Krebs cycle",
+          "The main mechanism of ATP synthesis is substrate phosphorylation",
+          "Proteins provide the main energy metabolism"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'High intensity of energy exchange'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Dopamine is made from which of the following substances?",
+        "options": [
+          "Tyrosine",
+          "Adrenaline",
+          "Kholin",
+          "Tryptophan"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Tyrosine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Define the main energy consumer in the brain?",
+        "options": [
+          "No, K-ATPase",
+          "Transmission of impulses",
+          "Excitement process",
+          "Braking processes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'No, K-ATPase'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How much glucose is oxidized in the brain during the day?",
+        "options": [
+          "100-120g",
+          "100-120 mg",
+          "600-650g",
+          "Around 1-2g"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '100-120g'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which amino acids make up the majority of brain free amino acids?",
+        "options": [
+          "Aspartate, glutamate and their derivatives",
+          "Proline and oxyproline",
+          "Phenylalanine and tyrosine",
+          "Lysine, arginine and derivatives"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Aspartate, glutamate and their derivatives'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How is the brain's need for energy met?",
+        "options": [
+          "Aerobic decomposition of glucose",
+          "Anaerobic breakdown of glucose",
+          "Krebs cycle",
+          "Catabolism of amino acids"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Aerobic decomposition of glucose'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the function of dopamine?",
+        "options": [
+          "Mediator",
+          "It transfers the nerve impulse to the working organ",
+          "Increases the concentration of Ca2+ ions",
+          "Participates in the synthesis of choline"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Mediator'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find a strong pain reliever?",
+        "options": [
+          "Morphine",
+          "Haloperidol",
+          "Our name",
+          "Dopamine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Morphine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The myelin sheath consists of?",
+        "options": [
+          "70% lipid, 30% protein",
+          "70% protein, 30% lipid",
+          "80% lipid, 20% protein",
+          "80% protein, 20% lipid"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '70% lipid, 30% protein'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "65% of all lipids in the brain are in.?",
+        "options": [
+          "Myelin sheath",
+          "In glial cells",
+          "In the cerebral hemispheres",
+          "Targil is in the article"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Myelin sheath'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "It belongs to neurospecific proteins?",
+        "options": [
+          "protein S-100",
+          "histones",
+          "neuroalbumins;",
+          "neuroglobulins;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'protein S-100'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Adrenaline is synthesized from which amino acid?",
+        "options": [
+          "Phenylalanine",
+          "glutamate;",
+          "lysine;",
+          "methionine;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phenylalanine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "During starvation, nerve cells can use as an additional energy substrate for oxidation?",
+        "options": [
+          "ketone bodies",
+          "glycogen",
+          "glutathione;",
+          "lecithin;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'ketone bodies'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "S-100 protein is used as a marker?",
+        "options": [
+          "melanomas",
+          "myocardial infarction",
+          "ischemic brain damage",
+          "liver damage"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'melanomas'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "It is \"raw material\" for the synthesis of acetylcholine?",
+        "options": [
+          "glucose and choline",
+          "UDP and oleic acid",
+          "creatine and GAMK",
+          "ribose and AMP"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'glucose and choline'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following substances does not belong to neurotransmitters?",
+        "options": [
+          "carnitine and gastrichin",
+          "adrenaline and noradrenaline",
+          "acetylcholine and GAMK",
+          "serotonin and glycine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'carnitine and gastrichin'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the most important reason why the composition of nervous tissue is so different from other tissues of the body?",
+        "options": [
+          "strong blood flow is determined by the presence of the blood-brain barrier",
+          "metabolic processes are slow",
+          "does not undergo changes during life",
+          "noone"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'strong blood flow is determined by the presence of the blood-brain barrier'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Noradrenaline is the predecessor of which amino acid?",
+        "options": [
+          "Phenylalanine",
+          "glutamate;",
+          "lysine;",
+          "methionine;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Phenylalanine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Serotonin is the predecessor of which amino acid?",
+        "options": [
+          "tryptophan;",
+          "glutamate;",
+          "lysine;",
+          "methionine;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'tryptophan;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the listed diseases is not associated with a disturbance in the metabolism of neurotransmitters?",
+        "options": [
+          "Addison's disease;",
+          "Alzheimer's disease;",
+          "Parkinson's disease;",
+          "depression;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Addison's disease;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Show one of the most characteristic signs of the structure of nervous tissue?",
+        "options": [
+          "high lipid content",
+          "large amounts of albumin",
+          "a large number of mineral components;",
+          "high content of nucleic acids;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'high lipid content'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "It is an inhibitory neurotransmitter in the central nervous system?",
+        "options": [
+          "GAMK;",
+          "adrenaline;",
+          "acetylcholine;",
+          "norepinephrine;"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'GAMK;'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Find the mediator that controls the voluntary actions of a person in the parts of the brain?",
+        "options": [
+          "Dopamine",
+          "Adrenaline",
+          "Acetylcholine",
+          "Phosphatidyl-ethanolamine"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Dopamine'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Parkinson's disease depends on the activity of which synapses?",
+        "options": [
+          "Dopaminergic",
+          "Cholinergic",
+          "Adrenergic",
+          "Postsynaptic"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Dopaminergic'. This choice aligns with the established clinical curriculum."
+      }
+    ]
+  },
+  "s-2-2": {
+    "t-s-2-2-1": [
+      {
+        "question": "A surgery is performed within 10 hours of the patient arrival is?",
+        "options": [
+          "Emergency",
+          "Endoscopic",
+          "Laproscopic",
+          "Elective",
+          "Urgency"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Emergency'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A surgery is performed within minutes of the patient arrival is?",
+        "options": [
+          "Urgency",
+          "Laproscopic",
+          "Elective",
+          "Emergency",
+          "Endoscopic"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Urgency'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A surgery is performed within no exact time frame is?",
+        "options": [
+          "Elective",
+          "Emergency",
+          "Endoscopic",
+          "Urgency",
+          "Laproscopic"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Elective'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A Surgical Cut or incision is made in an Organ is called?",
+        "options": [
+          "Otomy",
+          "Ostomy",
+          "Incision",
+          "Ectomy",
+          "Plasty"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Otomy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A surgical procedure is perfomed to remove gall bladder called?",
+        "options": [
+          "Cholecystectomy",
+          "Laparotomy",
+          "Mastectomy",
+          "Nephrectomy",
+          "Hysterectomy"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cholecystectomy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A surgical Removal Of part of an organ or whole organ?",
+        "options": [
+          "Ectomy",
+          "Incision",
+          "Otomy",
+          "Ostomy",
+          "Plasty"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ectomy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How many types of consents are used in medical practice?",
+        "options": [
+          "4",
+          "1",
+          "6",
+          "3",
+          "5"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '4'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "How to hold a scalpel for long and firm incision?",
+        "options": [
+          "Palm grip",
+          "Knife grip",
+          "Opposite hand grip",
+          "Pencil grip",
+          "Fingertip grip"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Palm grip'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Non Absorbable suture among the following is ?",
+        "options": [
+          "Proline",
+          "Monofilament",
+          "Monocryl",
+          "Polyglactic",
+          "Polydiaxanone"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Proline'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Silk is associated with infection because",
+        "options": [
+          "It has services lodging bacteria",
+          "Causes irritation",
+          "Cannot be properly sterilized",
+          "Infection goes deeper during bite",
+          "It is non-absorbable"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'It has services lodging bacteria'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Surgery performed to enhance the appearance of a person is?",
+        "options": [
+          "Cosmetic",
+          "Ablative",
+          "Incisional",
+          "Diagnostic",
+          "Palliative"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cosmetic'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Surgical removal of limb at the level of the joint?",
+        "options": [
+          "Disarticulation",
+          "Excision",
+          "Trepanation",
+          "Amputation",
+          "Baseline"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Disarticulation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Surgical removal of limb?",
+        "options": [
+          "Amputation",
+          "Excision",
+          "Trepanation",
+          "Baseline",
+          "Disarticulation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Amputation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The area where surgical incision is performed is?",
+        "options": [
+          "Sterile field",
+          "Antiseptics",
+          "Clean procedure",
+          "Sterile field",
+          "Surgical asepsis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Sterile field'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The period used during operation is ?",
+        "options": [
+          "Intraoperative",
+          "Peri operative",
+          "Pre operative",
+          "Post operative",
+          "Operative period"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Intraoperative'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "the Surgery used in abdomen to find the diagnosis is?",
+        "options": [
+          "Exploratory laparotomy",
+          "Raphy",
+          "Laprscopy surgery",
+          "Laparotomy",
+          "Plasty"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Exploratory laparotomy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the function of retractors?",
+        "options": [
+          "To expose the internal organs for better reach",
+          "To make an incision",
+          "To dissect organs",
+          "To cut organs",
+          "To clamp"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'To expose the internal organs for better reach'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the most initial step after completing a surgery?",
+        "options": [
+          "ICU care",
+          "OT care",
+          "OPD care",
+          "Ward care",
+          "Home care"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'ICU care'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "What is the opening called used for feeding and draining?",
+        "options": [
+          "Stoma",
+          "Lapa",
+          "Anastomosis",
+          "Baseline",
+          "Plasty"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Stoma'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is an absorbable suture material ?",
+        "options": [
+          "Polydioxanone",
+          "Polypropylene",
+          "Silk",
+          "Monofilament",
+          "Polyamide"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Polydioxanone'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-2-2": [
+      {
+        "question": "The suprascapular nerve supplies:",
+        "options": [
+          "Muscle inserted into the upper impression of the greater tuberosity of the humerus.",
+          "Muscle inserted into the middle impression of the greater tuberosity of the humerus.",
+          "Muscle that initiates abduction of the arm.",
+          "All of the above.",
+          "a and b only."
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'All of the above.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Lesion of the axillary nerve causes:",
+        "options": [
+          "Winging of the scapula.",
+          "Flat shoulder.",
+          "Claw hand.",
+          "Ape hand.",
+          "Wrist drop."
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Flat shoulder.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Muscles that rotate the scapula downward are attached to:",
+        "options": [
+          "Ventral lip of the medial border of the scapula.",
+          "Dorsal lip of the medial border of the scapula.",
+          "Upper lip of the crest of the spine.",
+          "Lower lip of the crest of the spine.",
+          "a and c."
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'a and c.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Muscles that rotate the scapula upward are attached to the:",
+        "options": [
+          "Ventral lip of the medial border of the scapula.",
+          "Dorsal lip of the medial border of the scapula.",
+          "Upper lip of the crest of the spine.",
+          "Lower lip of the crest of the spine.",
+          "a and c."
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'a and c.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "All the muscles attached to the bicipital (intertubercular) groove:",
+        "options": [
+          "Abduct the arm (shoulder joint).",
+          "Adduct the arm.",
+          "Medial rotation of the arm.",
+          "a and c.",
+          "b and c."
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'b and c.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Anastomosis around the scapula connects the subclavian artery with the:",
+        "options": [
+          "First part of the axillary artery.",
+          "Second part of the axillary artery.",
+          "Third part of the axillary artery.",
+          "Brachial artery.",
+          "None of the above."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'First part of the axillary artery.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Actions of the latissimus dorsi:",
+        "options": [
+          "Flexes the arm.",
+          "Abducts the arm.",
+          "Laterally rotates the arm.",
+          "All of the above.",
+          "None of the above."
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'None of the above.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Triangle of auscultation is associated with all of the following EXCEPT:",
+        "options": [
+          "Latissimus dorsi.",
+          "Teres major.",
+          "Rhomboid major.",
+          "Trapezius.",
+          "Medial border of the scapula."
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Teres major.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The quadrangular space is bounded by all of the following EXCEPT:",
+        "options": [
+          "Teres minor.",
+          "Teres major.",
+          "Long head of biceps.",
+          "Long head of triceps.",
+          "Surgical neck of the humerus."
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'Long head of biceps.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Regarding the biceps brachii, one is INCORRECT:",
+        "options": [
+          "Has long head attached to the supraglenoid tubercle.",
+          "Has short head attached to the tip of the coracoid process.",
+          "Has a tendon inserted into the radial tuberosity.",
+          "It flexes the elbow joint.",
+          "It is powerful supinator of the extended elbow."
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'It is powerful supinator of the extended elbow.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The direction of the nutrient foramen of the humerus is:",
+        "options": [
+          "Upward.",
+          "Downward.",
+          "Medially.",
+          "Laterally.",
+          "None of the above."
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Downward.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The bicipital aponeurosis passes obliquely deep to the:",
+        "options": [
+          "Brachial artery.",
+          "Median cubital vein.",
+          "Median nerve.",
+          "Radial nerve.",
+          "None of the above."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Brachial artery.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In movements of the arm, the coracobrachialis assists in:",
+        "options": [
+          "Flexion.",
+          "Extension.",
+          "Abduction.",
+          "Rotation.",
+          "Supination."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Flexion.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The brachial artery:",
+        "options": [
+          "Bifurcates opposite the neck of the humerus.",
+          "Is deep throughout its entire course.",
+          "In the cubital fossa, it lies medial to the biceps tendon.",
+          "The median nerve crosses in front of the artery from the medial to the lateral side.",
+          "None of the above."
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'In the cubital fossa, it lies medial to the biceps tendon.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The cubital fossa is bounded by the:",
+        "options": [
+          "Pronator quadratus.",
+          "Brachioradialis.",
+          "Coracobrachialis.",
+          "Biceps tendon.",
+          "a and b only."
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Brachioradialis.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The lateral cutaneous nerve of the forearm is derived from the:",
+        "options": [
+          "C5.",
+          "C6.",
+          "C7.",
+          "C5, 6, 7",
+          "C6, 7, 8"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'C5, 6, 7'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The anterior compartment of the arm contains all of the following EXCEPT:",
+        "options": [
+          "Biceps.",
+          "Triceps.",
+          "Brachialis.",
+          "Coracobrachialis.",
+          "Brachial artery."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Biceps.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Muscles innervated by the musculocutaneous nerve:",
+        "options": [
+          "Brachialis.",
+          "Coracobrachialis.",
+          "Biceps.",
+          "All of the above.",
+          "Triceps."
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'All of the above.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The cubital fossa contains all of the following EXCEPT:",
+        "options": [
+          "Brachial artery.",
+          "Radial artery.",
+          "Radial nerve.",
+          "Ulnar nerve.",
+          "Median nerve."
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Ulnar nerve.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The constriction below the greater and lesser tuberosities of the humerus is called:",
+        "options": [
+          "Anatomical neck.",
+          "Surgical neck.",
+          "Humeral shaft.",
+          "Humeral ring.",
+          "None of the above."
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Surgical neck.'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-2-3": [
+      {
+        "question": "Injury to a nerve at the wrist, the thumb is laterally rotated and adducted. The hand looks flattened and apelike. The nerve that has been damaged is the ?",
+        "options": [
+          "median nerve",
+          "superficial branch of the radial nerve.",
+          "ulnar nerve.",
+          "anterior interosseous nerve.",
+          "deep branch of the radial nerve."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'median nerve'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "During its course in the upper limb, the axillary nerve lies?",
+        "options": [
+          "against the surgical neck of the humerus.",
+          "in front of the lateral epicondyle of the humerus.",
+          "against the spiral groove of the humerus.",
+          "medial to the brachial artery in the cubital fossa.",
+          "behind the medial epicondyle of the humerus."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'against the surgical neck of the humerus.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "During its course in the upper limb, the ulnar nerve lies?",
+        "options": [
+          "behind the medial epicondyle of the humerus",
+          "in front of the lateral epicondyle of the humerus.",
+          "behind the flexor retinaculum of the wrist.",
+          "against the spiral groove of the humerus.",
+          "medial to the brachial artery in the cubital fossa."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'behind the medial epicondyle of the humerus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "During its course in the upper limb, the median nerve lies?",
+        "options": [
+          "medial to the brachial artery in the cubital fossa",
+          "anterior to the flexor retinaculum of the wrist.",
+          "in front of the lateral epicondyle of the humerus.",
+          "against the spiral groove of the humerus.",
+          "against the surgical neck of the humerus."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'medial to the brachial artery in the cubital fossa'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "During its course in the upper limb the radial nerve lies?",
+        "options": [
+          "against the spiral groove of the humerus.",
+          "in front of the medial epicondyle of the humerus.",
+          "behind the flexor retinaculum of the wrist.",
+          "medial to the brachial artery in the cubital fossa.",
+          "against the surgical neck of the humerus."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'against the spiral groove of the humerus.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The dorsal interossei muscles are innervated by the?",
+        "options": [
+          "deep branch of the ulnar nerve.",
+          "deep branch of the radial nerve.",
+          "superficial branch of the ulnar nerve.",
+          "median nerve.",
+          "recurrent branch of the median nerve."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'deep branch of the ulnar nerve.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "At the wrist, the flexor retinaculum is attached to the following bones except which?",
+        "options": [
+          "The triquetral bone",
+          "The pisiform bone",
+          "The hook of the hamate",
+          "The tubercle of the scaphoid",
+          "The ridge on the trapezium"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The triquetral bone'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Collateral circulation around the shoulder joint would involve the following except which?",
+        "options": [
+          "The superficial cervical artery",
+          "The anterior circumflex humeral artery",
+          "The suprascapular artery",
+          "The subscapular artery",
+          "The lateral thoracic artery"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The superficial cervical artery'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Cutting the dorsal scapular nerve would most likely result in paralysis of the ?",
+        "options": [
+          "rhomboid major muscle.",
+          "trapezius muscle.",
+          "supraspinatus muscle.",
+          "deltoid muscle.",
+          "infraspinatus muscle."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'rhomboid major muscle.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The following structures pass posterior to the flexor retinaculum except which?",
+        "options": [
+          "Ulnar nerve",
+          "Flexor digitorum superficialis tendons",
+          "Median nerve",
+          "Flexor pollicis longus tendon",
+          "Anterior interosseous nerve"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ulnar nerve'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The following tendons are inserted into the base of the proximal phalanx of the thumb except which?",
+        "options": [
+          "Abductor pollicis longus",
+          "Extensor pollicis brevis",
+          "Oblique head of adductor pollicis",
+          "Flexor pollicis brevis",
+          "First palmar interosseous"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Abductor pollicis longus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The anterior fascial compartment of the forearm contains the following arteries except which?",
+        "options": [
+          "Profunda",
+          "Brachial",
+          "Anterior interosseous",
+          "Radial",
+          "Ulnar"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Profunda'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The following bones form the proximal row of carpal bones except which?",
+        "options": [
+          "Trapezium",
+          "Lunate",
+          "Pisiform",
+          "Scaphoid",
+          "Triquetral"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Trapezium'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The dermatome present over the lateral side of the wrist is ?",
+        "options": [
+          "C6",
+          "T2",
+          "T1.",
+          "C8",
+          "C5"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'C6'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The sensory innervation of the dorsal surface of the root of the thumb is the?",
+        "options": [
+          "radial nerve",
+          "median nerve",
+          "superficial branch of the ulnar nerve",
+          "dorsal cutaneous branch of the ulnar nerve",
+          "posterior interosseous nerve"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'radial nerve'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The extensor carpi radialis brevis muscle is innervated by the ?",
+        "options": [
+          "deep branch of the radial nerve",
+          "superficial radial nerve",
+          "deep branch of the ulnar nerve",
+          "ulnar nerve",
+          "radial nerve"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'deep branch of the radial nerve'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The extensor carpi radialis longus muscle is innervated by the ?",
+        "options": [
+          "radial nerve.",
+          "anterior interosseous nerve.",
+          "deep branch of the ulnar nerve.",
+          "ulnar nerve.",
+          "median nerve."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'radial nerve.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The lymph from the medial quadrants of the breast drain mainly into the?",
+        "options": [
+          "posterior axillary (subscapular) nodes",
+          "internal thoracic nodes",
+          "anterior axillary (pectoral) nodes",
+          "lateral axillary (brachial) nodes",
+          "infraclavicular (deltopectoral) nodes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'posterior axillary (subscapular) nodes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The following structures pass superficial to the flexor retinaculum at the wrist except which?",
+        "options": [
+          "Flexor pollicis longus tendon",
+          "Palmar cutaneous branch of the median nerve",
+          "Ulnar nerve",
+          "Ulnar artery",
+          "Palmar cutaneous branch of"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Flexor pollicis longus tendon'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The following part or branch of the brachial plexus has a terminal branch that supplies the skin on the medial side of the arm.",
+        "options": [
+          "Medial cord",
+          "Musculocutaneous nerve",
+          "Lateral cord",
+          "Thoracodorsal nerve",
+          "Ulnar nerve"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Medial cord'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-2-4": [
+      {
+        "question": "The long head of the biceps femoris muscle is innervated by the",
+        "options": [
+          "tibial portion of the sciatic nerve.",
+          "femoral nerve.",
+          "sural nerve.",
+          "common peroneal nerve.",
+          "obturator nerve."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'tibial portion of the sciatic nerve.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The gracilis muscle is innervated by the",
+        "options": [
+          "obturator nerve.",
+          "tibial portion of the sciatic nerve.",
+          "sural nerve.",
+          "femoral nerve.",
+          "common peroneal nerve."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'obturator nerve.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The gluteus maximus muscle is innervated by the",
+        "options": [
+          "inferior gluteal nerve.",
+          "superior gluteal nerve.",
+          "nerve to quadratus femoris.",
+          "nerve to obturator internus.",
+          "obturator nerve."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'inferior gluteal nerve.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The sartorius muscle is innervated by the",
+        "options": [
+          "femoral nerve.",
+          "obturator nerve.",
+          "nerve to vastus medialis.",
+          "superior gluteal nerve.",
+          "lateral cutaneous nerve of the thigh."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'femoral nerve.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A malignant melanoma (cancer) of the skin covering the buttock is likely to spread via lymphatics to the",
+        "options": [
+          "horizontal group of superficial inguinal nodes.",
+          "internal iliac nodes.",
+          "popliteal nodes.",
+          "posterior axillary nodes.",
+          "vertical group of superficial inguinal nodes."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'horizontal group of superficial inguinal nodes.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Extension of the hip joint is limited by the",
+        "options": [
+          "iliofemoral ligament",
+          "pubofemoral ligament.",
+          "adductor magnus muscle.",
+          "ischiofemoral ligament.",
+          "quadriceps muscle."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'iliofemoral ligament'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Flexion of the hip joint (with the knee flexed) is limited by the",
+        "options": [
+          "hamstring muscles.",
+          "iliofemoral ligament.",
+          "anterior abdominal wall.",
+          "pubofemoral ligament.",
+          "adductor magnus muscle."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'hamstring muscles.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "If the dorsalis pedis artery is severed just proximal to its medial and lateral tarsal branches, blood can still reach the dorsum of the foot through which vessels()?",
+        "options": [
+          "All of the above.",
+          "The posterior tibial artery.",
+          "The lateral plantar artery.",
+          "The peroneal artery.",
+          "The medial plantar artery."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'All of the above.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "If the foot is permanently dorsiflexed and everted, which nerve might be injured?",
+        "options": [
+          "The tibial nerve",
+          "The common peroneal nerve",
+          "The obturator nerve",
+          "The superficial peroneal nerve",
+          "The deep peroneal nerve"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The tibial nerve'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In children, the chief arterial supply to the head of the femur is derived from which artery or arteries?",
+        "options": [
+          "Branches from the medial and lateral circumflex femoral arteries.",
+          "The superficial circumflex iliac artery.",
+          "The internal pudendal artery.",
+          "The deep circumflex iliac artery.",
+          "The obturator artery."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Branches from the medial and lateral circumflex femoral arteries.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Injury to the common peroneal nerve results in which condition?",
+        "options": [
+          "Inability to evert the foot",
+          "Inability to plantar flex the big toe",
+          "Inability to invert the foot",
+          "Inability to plantar flex the ankle",
+          "Inability to feel skin sensation on the medial side of the leg"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Inability to evert the foot'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Lymph from the nail bed of the big toe drains into the",
+        "options": [
+          "vertical group of superficial inguinal nodes.",
+          "internal iliac nodes",
+          "horizontal group of superficial inguinal nodes.",
+          "presacral nodes.",
+          "popliteal nodes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'vertical group of superficial inguinal nodes.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Lymph from the skin of the lateral side of the foot drains into the",
+        "options": [
+          "popliteal nodes",
+          "horizontal group of superficial inguinal nodes.",
+          "subsartorial nodes.",
+          "internal iliac nodes.",
+          "vertical group of superficial inguinal nodes."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'popliteal nodes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Lymph from the skin of the medial side of the knee drains into the",
+        "options": [
+          "vertical group of superficial inguinal nodes.",
+          "medial group of the horizontal superficial inguinal nodes",
+          "lateral group of horizontal inguinal nodes.",
+          "internal iliac nodes.",
+          "popliteal nodes."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'vertical group of superficial inguinal nodes.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Rupture of the tendo calcaneus results in an inability to do what?",
+        "options": [
+          "Plantar flex the foot",
+          "Dorsiflex the foot",
+          "None of the above.",
+          "d. Evert the foot",
+          "Invert the foot"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Plantar flex the foot'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The adductor longus muscle is innervated by the?",
+        "options": [
+          "anterior division of the obturator nerve.",
+          "posterior division of the femoral nerve.",
+          "femoral nerve.",
+          "common peroneal nerve.",
+          "tibial portion of the sciatic nerve."
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'anterior division of the obturator nerve.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The common peroneal nerve can be palpated in which region of the knee?",
+        "options": [
+          "As it winds around the lateral side of the neck of the fibula.",
+          "As it winds around the medial side of the neck of the fibula.",
+          "As it passes forward between the tibia and the fibula.",
+          "As it passes around the medial condyle of the tibia",
+          "As it passes around the lateral epicondyle of the tibia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'As it winds around the lateral side of the neck of the fibula.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The dermatome present over the lateral side of the foot is which of the following?",
+        "options": [
+          "S1",
+          "L4",
+          "S5",
+          "L3",
+          "L5"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'S1'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The femoral sheath is formed by which of the following layer(s) of fascia?",
+        "options": [
+          "The fascia iliaca and the fascia transversalis",
+          "The psoas fascia and the fatty layer of superficial fascia",
+          "The processus vaginalis",
+          "The pectineus fascia",
+          "The ilicus fascia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The fascia iliaca and the fascia transversalis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The fascia lata and the membranous layer of the superficial fascia Which nerve innervates the tibialis anterior muscle?",
+        "options": [
+          "Deep peroneal nerve",
+          "Superficial peroneal nerve",
+          "Tibial nerve",
+          "Obturator nerve",
+          "Sciatic nerve"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Deep peroneal nerve'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-2-5": [
+      {
+        "question": "Structures closely related to long saphenous vein at ankle include which of the following?",
+        "options": [
+          "major perforating veins to deep venous system",
+          "a branch of the femoral nerve",
+          "medial superficial lymphatic trunks",
+          "a branch of the anterior tibial nerve",
+          "dorsalis pedis artery"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'a branch of the femoral nerve'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The only muscle to cross the anterior tibial artery is:",
+        "options": [
+          "extensor hallucis longus",
+          "extensor digitorum brevis",
+          "extensor hallucis brevis",
+          "extensor digitorum longus",
+          "tibialis anterior"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'extensor hallucis longus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The dorsalis pedis artery is:",
+        "options": [
+          "lateral to extensor hallucis longus at the ankle",
+          "medial to extensor hallucis longus at the ankle",
+          "medial to tibialis anterior at the ankle",
+          "found perforating the first metatarsal space and joining with the medial plantar artery",
+          "lateral to the digital branch of the deep peroneal nerve"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'lateral to extensor hallucis longus at the ankle'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Features of the fibula include which of the following?",
+        "options": [
+          "it is on the medial side of the tibia",
+          "its medial surface is grooved for the origin of tibialis posterior",
+          "it is ossified from five centres",
+          "it does not provide origin for flexor digitorum longus",
+          "its lower third is rough for the origin of soleus"
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'its lower third is rough for the origin of soleus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is true of the saphenous nerve?",
+        "options": [
+          "is predominantly from L2",
+          "supplies adductor magnus",
+          "pierces the deep fascia in the femoral triangle",
+          "is cutaneous only",
+          "terminates just below the knee"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'is cutaneous only'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The superficial epigastric, superior perforating and deep external pudendal arteries are all branches of:",
+        "options": [
+          "profunda femoris",
+          "popliteal",
+          "internal iliac",
+          "external iliac",
+          "none of the above"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'external iliac'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is NOT a branch of the profunda femoris artery?",
+        "options": [
+          "medial femoral circumflex",
+          "lateral femoral circumflex",
+          "popliteal",
+          "perforating",
+          "all are branches of the profunda"
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'all are branches of the profunda'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The long saphenous vein:",
+        "options": [
+          "passes anterior to the inguinal ligament",
+          "passes posteriorly to the medial malleolus",
+          "ascends the lateral side of the leg",
+          "receives tributaries from the perineum",
+          "is in close relation with the saphenous nerve throughout the length of its course"
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'is in close relation with the saphenous nerve throughout the length of its course'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The chief dorsiflexor of the ankle joint:",
+        "options": [
+          "peroneus tertius",
+          "tibialis anterior",
+          "extensor longus hallucis",
+          "extensor longus digitorum",
+          "none of the above"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'tibialis anterior'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Iliopsoas:",
+        "options": [
+          "supplied by obturator nerve",
+          "medial rotator of hip",
+          "synergist of quadriceps femoris",
+          "lateral rotator of hip",
+          "none of the above"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'medial rotator of hip'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The lumbar plexus is formed by ventral primary rami of:",
+        "options": [
+          "T12, L1, L2 and L3",
+          "L1, L2, L3 and L4",
+          "L2, L3, L4 and L5",
+          "L2, L4, L5 and S1",
+          "formed by dorsal primary rami"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'L1, L2, L3 and L4'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The cutaneous nerve supplying the medial aspect of the calf is:",
+        "options": [
+          "anterior femoral cutaneous",
+          "sural",
+          "superficial peroneal",
+          "saphenous",
+          "posterior femoral cutaneous"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'saphenous'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The nerve supply to the knee joint comes from:",
+        "options": [
+          "sciatic",
+          "femoral",
+          "obturator",
+          "all of",
+          "none of these"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'all of'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The most powerful extensor of the hip is:",
+        "options": [
+          "gluteus maximus",
+          "psoas major",
+          "iliacus",
+          "obturator externus",
+          "piriformis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'gluteus maximus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following is not an action of gracilis?",
+        "options": [
+          "adduction of thigh",
+          "flexion of knee",
+          "extension of thigh",
+          "medial rotation of the flexed knee",
+          "none of these"
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'extension of thigh'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Obturator externus:",
+        "options": [
+          "is pierced by femoral circumflex artery",
+          "external rotator of hip",
+          "internal rotator of hip",
+          "hip flexor",
+          "supplied by S1."
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'external rotator of hip'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The intermediate cutaneous nerve of the thigh:",
+        "options": [
+          "arises from the sacral plexus",
+          "is a branch of the obturator nerve",
+          "pierces sartorius",
+          "extends beneath the knee",
+          "arises independently of the medial cutaneous nerve of the thigh"
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'arises independently of the medial cutaneous nerve of the thigh'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The dorsalis pedis artery is a continuation of:",
+        "options": [
+          "anterior perforating branch of posterior tibial",
+          "anterior tibial",
+          "popliteal",
+          "femoral",
+          "peroneal"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'anterior tibial'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The lateral aspect of the thigh has a cutaneous nerve supply derived from:",
+        "options": [
+          "L2 and 3",
+          "L3 and 4",
+          "L5, S1 and S2",
+          "L4, L5 and S1",
+          "S1 and S2"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'L2 and 3'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The sole of the foot has a cutaneous nerve supply derived from:",
+        "options": [
+          "L4, L5, S1 and S2",
+          "L5 and S1",
+          "L4, L5 and S1",
+          "L5 and L5",
+          "L5, S1 and S2"
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'L5, S1 and S2'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-2-6": [
+      {
+        "question": "Meninges of the brain:",
+        "options": [
+          "dura mater, arachnoid, pia mater",
+          "visceral",
+          "parietal",
+          "subarachnoid",
+          "internal"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'dura mater, arachnoid, pia mater'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Meningeal spaces of the brain, Choose the correct answer?",
+        "options": [
+          "intrameningeal",
+          "parietal",
+          "intracranial, intrameningeal",
+          "epidural, subdural, subarachnoid",
+          "visceral"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'epidural, subdural, subarachnoid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A patient has a boil on the tip of her nose. To which lymph nodes does the lymph from the skin of the infected area drain?",
+        "options": [
+          "Parotid nodes",
+          "Tracheobronchial nodes",
+          "Superficial cervical nodes",
+          "Submental nodes",
+          "Submandibular nodes"
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'Submandibular nodes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A patient having lunch accidentally bit the inside of her left cheek. To which lymph nodes are infecting bacteria likely to spread?",
+        "options": [
+          "Submandibular nodes",
+          "Superficial cervical nodes",
+          "Mastoid nodes",
+          "Parotid nodes",
+          "Submental nodes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Submandibular nodes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The deep groove that separates the right and left cerebral hemispheres is called the ____",
+        "options": [
+          "lateral fissure",
+          "precentral gyrus",
+          "postcentral gyrus",
+          "longitudinal fissure",
+          "central sulcus"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'longitudinal fissure'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "There are _____ ventricles in the brain.",
+        "options": [
+          "4",
+          "0",
+          "2",
+          "5",
+          "3"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '4'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which brain structure is located in the hindbrain?",
+        "options": [
+          "cerebral cortex",
+          "hypothalamus",
+          "hippocampus",
+          "substantia nigra",
+          "pons"
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'pons'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Failure to pass the finger-to-nose test is an indication of _____",
+        "options": [
+          "damage to the temporal lobe",
+          "damage to the frontal lobe",
+          "damage to the occipital lobe",
+          "sinisit",
+          "Alcohol intoxication, cerebellar damage"
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'Alcohol intoxication, cerebellar damage'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Sustained tension of the vocal cords (folds) is best achieved through the action of which of the following muscles?",
+        "options": [
+          "The salpingopharyngeus",
+          "The aryepiglottic",
+          "The posterior cricoarytenoid",
+          "The cricothyroid",
+          "The cricopharyngeus"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'The cricothyroid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which nervous system structure is associated with control of hunger ?",
+        "options": [
+          "cerebellum",
+          "none one",
+          "medulla",
+          "hippocampus",
+          "hypothalamus"
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'hypothalamus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The foramen magnum in the skull",
+        "options": [
+          "is located in the sphenoid bone.",
+          "allows entrance of the spinal part of the accessory nerve into the cranial cavity.",
+          "is located in the temporal bone.",
+          "allows entrance of the trigeminal nerve",
+          "allows exit of the facial nerve"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'allows entrance of the spinal part of the accessory nerve into the cranial cavity.'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The tectum is located in the ____________",
+        "options": [
+          "forebrain",
+          "midbrain",
+          "frontal lobe",
+          "hindbrain",
+          "spinal cord"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'midbrain'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The inner surface is covered with mucous mem- brane.",
+        "options": [
+          "Impaired function of which of the following muscles produce difficulty in protruding the jaw?",
+          "The medial pterygoid D. The masseter",
+          "The anterior belly of the digastric muscle",
+          "The temporalis",
+          "The lateral pterygoid"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'The medial pterygoid D. The masseter'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The jugular foramen in the skull",
+        "options": [
+          "allows exit of the hypoglossal nerve.",
+          "is located in the middle cranial fossa.",
+          "allows exit of the vagus nerve",
+          "is located in the petrous part of the temporal bone.",
+          "allows entrance of the external jugular vein."
+        ],
+        "correctIndex": 2,
+        "explanation": "The correct answer is 'allows exit of the vagus nerve'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The nervous system is divided into the ____",
+        "options": [
+          "sympathetic",
+          "sensory",
+          "brain",
+          "autonomic and somatic nervous system",
+          "spinal cord"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'autonomic and somatic nervous system'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which is the largest branch of the internal carotid artery?",
+        "options": [
+          "posterior communicating artery",
+          "anterior cerebral artery",
+          "ophthalmic artery",
+          "middle cerebral artery",
+          "posterior cerebral artery"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'middle cerebral artery'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which anatomic structure is most likely to have damaged the nerve?",
+        "options": [
+          "The lesser wing of the sphenoid bone",
+          "The falx cerebelli",
+          "The tentorium cerebelli",
+          "The greater wing of the sphenoid bone",
+          "The petrous part of the temporal bone"
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'The petrous part of the temporal bone'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which process is responsible for closing off the nasal cavity from the oropharynx during swallowing?",
+        "options": [
+          "Contraction of the aryepiglottic muscles",
+          "Bending of the epiglottis",
+          "Elevation of the tongue to the roof of the mouth",
+          "Relaxation of the pharyngeal constrictor muscles",
+          "Contraction of the tensor and the levator veli palatini muscles"
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'Contraction of the tensor and the levator veli palatini muscles'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which is the smallest cranial nerve?",
+        "options": [
+          "abducent nerve",
+          "oculomotor nerve",
+          "olfactory nerve",
+          "accessory nerve",
+          "trochlear nerve"
+        ],
+        "correctIndex": 4,
+        "explanation": "The correct answer is 'trochlear nerve'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The nasolacrimal duct drains into the",
+        "options": [
+          "lacrimal sac.",
+          "inferior meatus of the nose.",
+          "superior meatus of the nose.",
+          "middle meatus of the nose.",
+          "sphenoethmoidal recess"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'lacrimal sac.'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-2-7": [
+      {
+        "question": "Muscle Not Attached to the Hyoid Bone",
+        "options": [
+          "Which of the following muscles is not attached to the hyoid bone?",
+          "Sternothyroid",
+          "Mylohyoid",
+          "Geniohyoid",
+          "Omohyoid"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Sternothyroid'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Sternohyoid",
+        "options": [
+          "Function of the Suprahyoid Muscles\"What is the primary function of the suprahyoid muscles?",
+          "Elevate the hyoid bone and larynx during swallowing",
+          "Depress the hyoid bone during speech",
+          "Rotate the hyoid bone during mastication",
+          "Stabilize the hyoid bone during head movement"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Elevate the hyoid bone and larynx during swallowing'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Innervation of the Infrahyoid Muscles\"Which nerve innervates the majority of the infrahyoid muscles?",
+        "options": [
+          "Ansa cervicalis",
+          "Vagus nerve",
+          "Hypoglossal nerve",
+          "Ansa cervicalis",
+          "Phrenic nerve"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ansa cervicalis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Attachment Site of the Sternohyoid Muscle\"Where does the sternohyoid muscle attach?",
+        "options": [
+          "Sternum and thyroid cartilage",
+          "Hyoid bone and clavicle",
+          "Sternum and hyoid bone",
+          "Clavicle and mandible",
+          "Role of the Thyrohyoid Muscle \"What is the primary role of the thyrohyoid muscle?"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Sternum and thyroid cartilage'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "*Elevate the thyroid cartilage",
+        "options": [
+          "Depress the hyoid bone",
+          "Elevate the thyroid muscle",
+          "Elevate the hyoid bone",
+          "Depress the thyroid cartilage",
+          "Geniohyoid Muscle Function\"How does the geniohyoid muscle contribute to swallowing?"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Depress the hyoid bone'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "*Elevates and pulls the hyoid bone anteriorly",
+        "options": [
+          "Depresses the mandible",
+          "Retracts the tongue",
+          "Stabilizes the cervical vertebrae"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Depresses the mandible'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "*Stylohyoid muscle",
+        "options": [
+          "Hyoid bone",
+          "omohyoid muscle",
+          "Sternocleidomastoid muscle",
+          "Omohyoid muscle",
+          "Function of the Infrahyoid Muscles in Breathing \"What is the function of the infrahyoid muscles during breathing?"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hyoid bone'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "*Depress the hyoid bone and larynx",
+        "options": [
+          "Elevate the rib cage",
+          "Depress the thyroid cartilage",
+          "Expand the thoracic cavity",
+          "Elevate the diaphragm",
+          "Mylohyoid Muscle Innervation \"Which nerve innervates the mylohyoid muscle?"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Elevate the rib cage'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "*Mylohyoid nerve (branch of the trigeminal nerve)",
+        "options": [
+          "Hypoglossal nerve",
+          "Facial nerve",
+          "geniohyoid nerve",
+          "Glossopharyngeal nerve",
+          "Orbicularis Oris Function \"What is the primary function of the orbicularis oris muscle?"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hypoglossal nerve'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "*Pucker the lips",
+        "options": [
+          "Elevate the upper lip",
+          "Close the eyelids",
+          "Elevate jaw",
+          "Retract the corners of the mouth",
+          "Innervation of Buccinator\"Which nerve innervates the buccinator muscle?"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Elevate the upper lip'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "*B: Facial nerve (VII)",
+        "options": [
+          "A: Mandibular nerve (V3)",
+          "B: accessory nerve (11)",
+          "C: Glossopharyngeal nerve (IX)",
+          "D: Hypoglossal nerve (XII)",
+          "Zygomaticus Major Function\"What is the primary action of the zygomaticus major muscle?"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'A: Mandibular nerve (V3)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "*Smile",
+        "options": [
+          "Depress the lower lip",
+          "Elevate the upper lip",
+          "gaze",
+          "Frown",
+          "Risorius Muscle Action"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Depress the lower lip'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The risorius muscle is primarily responsible for which action?",
+        "options": [
+          "Retracting the corners of the mouth",
+          "Pouting",
+          "Smiling",
+          "Elevate the eyelids",
+          "Raising the eyebrows"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Retracting the corners of the mouth'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Depressor Anguli Oris Function \"Which action is performed by the depressor anguli oris muscle?",
+        "options": [
+          "Depress the corners of the mouth",
+          "Elevate the upper lip",
+          "Depress the eyebrows",
+          "Close the eyes",
+          "Flare the nostrils"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Depress the corners of the mouth'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Facial Nerve Branches\"Which branch of the facial nerve innervates the frontalis muscle?",
+        "options": [
+          "Temporal branch",
+          "Zygomatic branch",
+          "Buccal branch",
+          "Mandibular branch",
+          "Phrenic nerve"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Temporal branch'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Levator Labii Superioris Function\"What is the primary function of the levator labii superioris muscle?",
+        "options": [
+          "Elevate the upper lip",
+          "Depress the lower lip",
+          "Elevate the upper eye brows",
+          "Close the lips",
+          "Retract the lips"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Elevate the upper lip'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Corrugator Supercilii Function\"The corrugator supercilii muscle is responsible for which facial expression?",
+        "options": [
+          "Raising the eyebrows",
+          "Smiling",
+          "Grimacing",
+          "Frowning",
+          "Squinting"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Frowning'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Anterior Triangle Boundaries\"Which structure forms the superior boundary of the anterior triangle of the neck?",
+        "options": [
+          "Clavicle",
+          "Mandible",
+          "Sternum",
+          "Hyoid bone",
+          "First rib"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Mandible'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Posterior Triangle Boundaries\"Which muscle forms the posterior boundary of the posterior triangle of the neck?",
+        "options": [
+          "Sternocleidomastoid",
+          "Trapezius",
+          "Platysma",
+          "Omohyoid",
+          "sternohyoid"
+        ],
+        "correctIndex": 1,
+        "explanation": "The correct answer is 'Trapezius'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Sternothyroid Contents of the Carotid Triangle\"Which structure is NOT found within the carotid triangle?",
+        "options": [
+          "Common carotid artery",
+          "Internal jugular vein",
+          "Vagus nerve",
+          "Subclavian artery",
+          "Internal carotid artery"
+        ],
+        "correctIndex": 3,
+        "explanation": "The correct answer is 'Subclavian artery'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-2-8": [
+      {
+        "question": "The main blood supply to the breast comes from:",
+        "options": [
+          "All of the above",
+          "Internal thoracic artery",
+          "Lateral thoracic artery",
+          "Thoracoacromial artery",
+          "Subscapular artery"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'All of the above'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Lymphatic drainage from the breast primarily goes to:",
+        "options": [
+          "Both axillary and internal mammary lymph nodes",
+          "Axillary lymph nodes",
+          "Internal mammary lymph nodes",
+          "Supraclavicular lymph nodes",
+          "Inguinal lymph nodes"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Both axillary and internal mammary lymph nodes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The retromammary space is located:",
+        "options": [
+          "Between the mammary gland and deep fascia covering the pectoralis major muscle",
+          "Between the skin and subcutaneous tissue",
+          "Between the subcutaneous tissue and mammary gland",
+          "Within the mammary gland itself",
+          "Between the pectoralis major and minor muscles"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Between the mammary gland and deep fascia covering the pectoralis major muscle'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Cooper's ligaments are:",
+        "options": [
+          "Fibrous connective tissue that support the breast",
+          "Lymphatic vessels",
+          "Blood vessels",
+          "Nerve fibers",
+          "Muscle fibers"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fibrous connective tissue that support the breast'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The nipple is located at approximately the:",
+        "options": [
+          "Fourth intercostal space",
+          "Second intercostal space",
+          "Third intercostal space",
+          "Fifth intercostal space",
+          "Sixth intercostal space"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fourth intercostal space'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The areola contains:",
+        "options": [
+          "All of the above",
+          "Sweat glands",
+          "Sebaceous glands",
+          "Modified apocrine glands",
+          "Only hair follicles"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'All of the above'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Lactiferous ducts:",
+        "options": [
+          "Carry milk from the lobules to the nipple",
+          "Carry blood to the breast",
+          "Carry lymph from the breast",
+          "Produce milk",
+          "Store milk"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Carry milk from the lobules to the nipple'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The functional unit of the breast is the:",
+        "options": [
+          "Lobule",
+          "Nipple",
+          "Areola",
+          "Lactiferous duct",
+          "Montgomery gland"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Lobule'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Montgomery glands are:",
+        "options": [
+          "Sebaceous glands in the areola",
+          "Lymph nodes",
+          "Blood vessels",
+          "Sweat glands",
+          "Milk-producing glands"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Sebaceous glands in the areola'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A simple mastectomy involves removal of:",
+        "options": [
+          "All breast tissue",
+          "Breast tissue and axillary lymph nodes",
+          "Breast tissue, axillary lymph nodes, and pectoralis muscles",
+          "Only the tumor",
+          "Only the nipple and areola"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'All breast tissue'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A modified radical mastectomy involves removal of:",
+        "options": [
+          "Breast tissue and axillary lymph nodes",
+          "All breast tissue",
+          "Breast tissue, axillary lymph nodes, and pectoralis muscles",
+          "Only the tumor",
+          "Only the nipple and areola"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Breast tissue and axillary lymph nodes'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A radical mastectomy involves removal of:",
+        "options": [
+          "Breast tissue, axillary lymph nodes, and pectoralis muscles",
+          "All breast tissue",
+          "Breast tissue and axillary lymph nodes",
+          "Only the tumor",
+          "Only the nipple and areola"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Breast tissue, axillary lymph nodes, and pectoralis muscles'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Breast conserving surgery (lumpectomy) involves removal of:",
+        "options": [
+          "Only the tumor and a small margin of surrounding tissue",
+          "All breast tissue",
+          "Breast tissue and axillary lymph nodes",
+          "Breast tissue, axillary lymph nodes, and pectoralis muscles",
+          "Only the nipple and areola"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Only the tumor and a small margin of surrounding tissue'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Sentinel lymph node biopsy is performed to:",
+        "options": [
+          "Identify the first lymph node(s) that receive drainage from the tumor",
+          "Remove all axillary lymph nodes",
+          "Remove the internal mammary lymph nodes",
+          "Prevent lymphedema",
+          "Treat lymphedema"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Identify the first lymph node(s) that receive drainage from the tumor'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Lymphedema after breast surgery is caused by:",
+        "options": [
+          "Disruption of lymphatic drainage",
+          "Damage to blood vessels",
+          "Damage to nerves",
+          "Infection",
+          "Scar tissue formation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Disruption of lymphatic drainage'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The most common site of breast cancer is:",
+        "options": [
+          "Upper outer quadrant",
+          "Nipple",
+          "Areola",
+          "Lower outer quadrant",
+          "Lower inner quadrant"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Upper outer quadrant'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Peau d’orange appearance of the breast is a sign of:",
+        "options": [
+          "Inflammatory breast cancer",
+          "Benign cyst",
+          "Fibroadenoma",
+          "Mastitis",
+          "Fat necrosis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Inflammatory breast cancer'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Nipple retraction can be a sign of:",
+        "options": [
+          "Breast cancer",
+          "Benign cyst",
+          "Fibroadenoma",
+          "Mastitis",
+          "Fat necrosis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Breast cancer'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Paget’s disease of the nipple is a form of:",
+        "options": [
+          "Breast cancer",
+          "Benign skin condition",
+          "Bacterial infection",
+          "Fungal infection",
+          "Viral infection"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Breast cancer'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The axillary tail of Spence is:",
+        "options": [
+          "An extension of breast tissue into the axilla",
+          "A muscle",
+          "A ligament",
+          "A lymph node",
+          "A blood vessel"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'An extension of breast tissue into the axilla'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-2-9": [
+      {
+        "question": "The pericardium is composed of:",
+        "options": [
+          "Fibrous and serous layers",
+          "Only a fibrous layer",
+          "Only a serous layer",
+          "Muscle tissue and connective tissue",
+          "Epithelial tissue only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Fibrous and serous layers'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The heart is located in the:",
+        "options": [
+          "Mediastinum",
+          "Pleural cavity",
+          "Abdominal cavity",
+          "Cranial cavity",
+          "Spinal cavity"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Mediastinum'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The apex of the heart is formed by the:",
+        "options": [
+          "Left ventricle",
+          "Right ventricle",
+          "Left atrium",
+          "Right atrium",
+          "Interventricular septum"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Left ventricle'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The coronary arteries arise from the:",
+        "options": [
+          "Ascending aorta",
+          "Aortic arch",
+          "Descending aorta",
+          "Pulmonary trunk",
+          "Superior vena cava"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ascending aorta'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The sinoatrial (SA) node is located in the:",
+        "options": [
+          "Right atrium",
+          "Left atrium",
+          "Right ventricle",
+          "Left ventricle",
+          "Interatrial septum"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Right atrium'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The atrioventricular (AV) node is located in the:",
+        "options": [
+          "Interatrial septum",
+          "Right atrium",
+          "Left atrium",
+          "Right ventricle",
+          "Left ventricle"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Interatrial septum'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The mitral valve is located between the:",
+        "options": [
+          "Left atrium and left ventricle",
+          "Right atrium and right ventricle",
+          "Right atrium and pulmonary trunk",
+          "Left ventricle and aorta",
+          "Right ventricle and aorta"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Left atrium and left ventricle'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The tricuspid valve is located between the:",
+        "options": [
+          "Right atrium and right ventricle",
+          "Left atrium and left ventricle",
+          "Right atrium and pulmonary trunk",
+          "Left ventricle and aorta",
+          "Right ventricle and aorta"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Right atrium and right ventricle'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The pulmonary veins carry:",
+        "options": [
+          "Oxygenated blood to the left atrium",
+          "Deoxygenated blood to the right atrium",
+          "Oxygenated blood to the right atrium",
+          "Deoxygenated blood to the left atrium",
+          "Mixed blood to the left atrium"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Oxygenated blood to the left atrium'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The superior vena cava drains blood from the:",
+        "options": [
+          "Head, neck, and upper limbs",
+          "Abdomen and pelvis",
+          "Lower limbs",
+          "Lungs",
+          "Heart muscle"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Head, neck, and upper limbs'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The inferior vena cava drains blood from the:",
+        "options": [
+          "Abdomen, pelvis, and lower limbs",
+          "Head, neck, and upper limbs",
+          "Lungs",
+          "Heart muscle",
+          "Thoracic wall"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Abdomen, pelvis, and lower limbs'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The aortic arch gives rise to the:",
+        "options": [
+          "Brachiopcephalic trunk, left common carotid, and left subclavian arteries",
+          "Right and left coronary arteries",
+          "Pulmonary trunk and pulmonary arteries",
+          "Superior and inferior vena cavae",
+          "Azygos vein and hemiazygos vein"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Brachiopcephalic trunk, left common carotid, and left subclavian arteries'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The thyroid gland is located:",
+        "options": [
+          "Anterior to the trachea",
+          "Posterior to the trachea",
+          "Superior to the heart",
+          "Inferior to the diaphragm",
+          "Within the mediastinum"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Anterior to the trachea'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The thyroid gland produces:",
+        "options": [
+          "Thyroxine (T4) and triiodothyronine (T3)",
+          "Insulin and glucagon",
+          "Growth hormone",
+          "Adrenaline and noradrenaline",
+          "Cortisol and aldosterone"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Thyroxine (T4) and triiodothyronine (T3)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The recurrent laryngeal nerves supply:",
+        "options": [
+          "Most of the muscles of the larynx",
+          "The diaphragm",
+          "The heart muscle",
+          "The thyroid gland",
+          "The esophagus"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Most of the muscles of the larynx'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The thymus gland is located in the:",
+        "options": [
+          "Superior mediastinum",
+          "Posterior mediastinum",
+          "Anterior mediastinum",
+          "Middle mediastinum",
+          "Inferior mediastinum"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Superior mediastinum'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The phrenic nerve innervates the:",
+        "options": [
+          "Diaphragm",
+          "Intercostal muscles",
+          "Abdominal muscles",
+          "Neck muscles",
+          "Heart muscle"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Diaphragm'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The thoracic duct drains lymph from:",
+        "options": [
+          "Most of the body",
+          "Right upper limb and right side of head and thorax",
+          "Left upper limb and left side of head and thorax",
+          "Only the abdominal organs",
+          "Only the lower limbs"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Most of the body'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The azygos venous system drains blood from the:",
+        "options": [
+          "Posterior thoracic and abdominal walls",
+          "Head and neck",
+          "Upper limbs",
+          "Lower limbs",
+          "Heart muscle"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Posterior thoracic and abdominal walls'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The great cardiac vein drains into the:",
+        "options": [
+          "Coronary sinus",
+          "Superior vena cava",
+          "Inferior vena cava",
+          "Right atrium directly",
+          "Left atrium directly"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Coronary sinus'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-2-10": [
+      {
+        "question": "The posterior mediastinum is located:",
+        "options": [
+          "Posterior to the pericardium",
+          "Anterior to the pericardium",
+          "Superior to the heart",
+          "Inferior to the diaphragm",
+          "Lateral to the lungs"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Posterior to the pericardium'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The esophagus begins at the level of:",
+        "options": [
+          "C6 vertebra",
+          "C4 vertebra",
+          "T1 vertebra",
+          "T4 vertebra",
+          "T10 vertebra"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'C6 vertebra'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The esophagus passes through the diaphragm at the:",
+        "options": [
+          "Esophageal hiatus",
+          "Aortic hiatus",
+          "Caval opening",
+          "Central tendon",
+          "Median arcuate ligament"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Esophageal hiatus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The vagus nerves in the posterior mediastinum contribute to the:",
+        "options": [
+          "Esophageal plexus",
+          "Cardiac plexus",
+          "Pulmonary plexus",
+          "All of the above",
+          "Only the esophageal and cardiac plexuses"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Esophageal plexus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The right vagus nerve gives rise to the:",
+        "options": [
+          "Posterior vagal trunk",
+          "Anterior vagal trunk",
+          "Left recurrent laryngeal nerve",
+          "Right recurrent laryngeal nerve",
+          "Phrenic nerve"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Posterior vagal trunk'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The left vagus nerve gives rise to the:",
+        "options": [
+          "Anterior vagal trunk",
+          "Posterior vagal trunk",
+          "Right recurrent laryngeal nerve",
+          "Left recurrent laryngeal nerve",
+          "Phrenic nerve"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Anterior vagal trunk'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The thoracic duct empties into the:",
+        "options": [
+          "Left subclavian vein",
+          "Right subclavian vein",
+          "Superior vena cava",
+          "Inferior vena cava",
+          "Azygos vein"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Left subclavian vein'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The azygos vein drains into the:",
+        "options": [
+          "Superior vena cava",
+          "Inferior vena cava",
+          "Right atrium",
+          "Left atrium",
+          "Brachiocephalic vein"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Superior vena cava'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The hemiazygos vein drains into the:",
+        "options": [
+          "Azygos vein",
+          "Superior vena cava",
+          "Inferior vena cava",
+          "Left renal vein",
+          "Right renal vein"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Azygos vein'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The accessory hemiazygos vein drains into the:",
+        "options": [
+          "Azygos vein",
+          "Superior vena cava",
+          "Inferior vena cava",
+          "Left renal vein",
+          "Right renal vein"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Azygos vein'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The descending thoracic aorta begins at the level of:",
+        "options": [
+          "T4 vertebra",
+          "T1 vertebra",
+          "C6 vertebra",
+          "T12 vertebra",
+          "L1 vertebra"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'T4 vertebra'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The thoracic aorta gives off the:",
+        "options": [
+          "Posterior intercostal arteries",
+          "Bronchial arteries",
+          "Esophageal arteries",
+          "All of the above",
+          "Only the posterior intercostal arteries"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Posterior intercostal arteries'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Esophageal varices are most commonly caused by:",
+        "options": [
+          "Portal hypertension",
+          "Pulmonary hypertension",
+          "Systemic hypertension",
+          "Aortic aneurysm",
+          "Esophageal stricture"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Portal hypertension'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A common surgical procedure for esophageal cancer is:",
+        "options": [
+          "Esophagectomy",
+          "Lobectomy",
+          "Pneumonectomy",
+          "Thoracotomy",
+          "Mediastinoscopy"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Esophagectomy'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A hiatal hernia involves protrusion of the:",
+        "options": [
+          "Stomach into the thorax",
+          "Lung into the mediastinum",
+          "Heart into the abdomen",
+          "Liver into the thorax",
+          "Spleen into the thorax"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Stomach into the thorax'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The nerve most at risk during esophageal surgery is the:",
+        "options": [
+          "Recurrent laryngeal nerve",
+          "Phrenic nerve",
+          "Vagus nerve",
+          "Intercostal nerve",
+          "Sympathetic trunk"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Recurrent laryngeal nerve'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The paravertebral sympathetic chain is located:",
+        "options": [
+          "Along the lateral aspect of the vertebral bodies",
+          "Anterior to the vertebral bodies",
+          "Posterior to the vertebral bodies",
+          "Within the vertebral canal",
+          "Within the intervertebral foramina"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Along the lateral aspect of the vertebral bodies'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The splanchnic nerves carry:",
+        "options": [
+          "Preganglionic sympathetic fibers",
+          "Postganglionic sympathetic fibers",
+          "Preganglionic parasympathetic fibers",
+          "Postganglionic parasympathetic fibers",
+          "Sensory fibers only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Preganglionic sympathetic fibers'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The cisterna chyli is located:",
+        "options": [
+          "At the beginning of the thoracic duct",
+          "At the end of the thoracic duct",
+          "Within the superior mediastinum",
+          "Within the anterior mediastinum",
+          "Within the middle mediastinum"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'At the beginning of the thoracic duct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The posterior mediastinum contains:",
+        "options": [
+          "Esophagus, thoracic aorta, azygos venous system, vagus nerves, sympathetic trunks, thoracic duct",
+          "Heart, great vessels, trachea, primary bronchi",
+          "Thymus, lymph nodes, internal thoracic vessels",
+          "Lungs and pleura",
+          "Diaphragm only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Esophagus, thoracic aorta, azygos venous system, vagus nerves, sympathetic trunks, thoracic duct'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-2-11": [
+      {
+        "question": "The rectus abdominis muscle is enclosed within the:",
+        "options": [
+          "Rectus sheath",
+          "Transversalis fascia",
+          "External oblique aponeurosis",
+          "Internal oblique aponeurosis",
+          "Linea alba"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Rectus sheath'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The linea alba is formed by the aponeuroses of the:",
+        "options": [
+          "External oblique, internal oblique, and transversus abdominis",
+          "External oblique and internal oblique only",
+          "Internal oblique and transversus abdominis only",
+          "Rectus abdominis only",
+          "Transversus abdominis only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'External oblique, internal oblique, and transversus abdominis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The inguinal ligament is formed by the free edge of the:",
+        "options": [
+          "External oblique aponeurosis",
+          "Internal oblique aponeurosis",
+          "Transversus abdominis aponeurosis",
+          "Rectus abdominis aponeurosis",
+          "Transversalis fascia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'External oblique aponeurosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The superficial inguinal ring is an opening in the:",
+        "options": [
+          "External oblique aponeurosis",
+          "Internal oblique aponeurosis",
+          "Transversus abdominis aponeurosis",
+          "Transversalis fascia",
+          "Rectus sheath"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'External oblique aponeurosis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The deep inguinal ring is an opening in the:",
+        "options": [
+          "Transversalis fascia",
+          "External oblique aponeurosis",
+          "Internal oblique aponeurosis",
+          "Transversus abdominis aponeurosis",
+          "Rectus sheath"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Transversalis fascia'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The inguinal canal contains the:",
+        "options": [
+          "Spermatic cord (males) or round ligament of the uterus (females)",
+          "Femoral artery and vein",
+          "Femoral nerve",
+          "Obturator nerve",
+          "Ilioinguinal nerve only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Spermatic cord (males) or round ligament of the uterus (females)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The conjoint tendon is formed by the fusion of the aponeuroses of the:",
+        "options": [
+          "Internal oblique and transversus abdominis",
+          "External oblique and internal oblique",
+          "Transversus abdominis and rectus abdominis",
+          "External oblique and transversalis fascia",
+          "Internal oblique and transversalis fascia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Internal oblique and transversus abdominis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A direct inguinal hernia protrudes through:",
+        "options": [
+          "Hesselbach's triangle",
+          "The deep inguinal ring",
+          "The superficial inguinal ring",
+          "The femoral canal",
+          "The linea alba"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hesselbach's triangle'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An indirect inguinal hernia protrudes through:",
+        "options": [
+          "The deep inguinal ring",
+          "Hesselbach's triangle",
+          "The superficial inguinal ring",
+          "The femoral canal",
+          "The linea alba"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The deep inguinal ring'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A femoral hernia protrudes through the:",
+        "options": [
+          "Femoral canal",
+          "Inguinal canal",
+          "Umbilicus",
+          "Linea alba",
+          "Hesselbach's triangle"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Femoral canal'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An umbilical hernia occurs at the:",
+        "options": [
+          "Umbilicus",
+          "Inguinal region",
+          "Epigastric region",
+          "Linea alba above the umbilicus",
+          "Linea alba below the umbilicus"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Umbilicus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "An epigastric hernia occurs through the:",
+        "options": [
+          "Linea alba between the xiphoid process and umbilicus",
+          "Umbilicus",
+          "Inguinal region",
+          "Femoral canal",
+          "Hesselbach's triangle"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Linea alba between the xiphoid process and umbilicus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A Spigelian hernia occurs along the:",
+        "options": [
+          "Semilunar line (lateral border of the rectus sheath)",
+          "Linea alba",
+          "Inguinal ligament",
+          "Umbilicus",
+          "Femoral canal"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Semilunar line (lateral border of the rectus sheath)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The transversalis fascia is located:",
+        "options": [
+          "Deep to the transversus abdominis muscle",
+          "Superficial to the transversus abdominis muscle",
+          "Between the external and internal oblique muscles",
+          "Superficial to the external oblique muscle",
+          "Deep to the internal oblique muscle"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Deep to the transversus abdominis muscle'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The cremaster muscle is derived from the:",
+        "options": [
+          "Internal oblique muscle",
+          "External oblique muscle",
+          "Transversus abdominis muscle",
+          "Rectus abdominis muscle",
+          "Transversalis fascia"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Internal oblique muscle'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The ilioinguinal nerve provides sensory innervation to the:",
+        "options": [
+          "Skin of the groin and medial thigh",
+          "Muscles of the anterior abdominal wall",
+          "Peritoneum",
+          "Viscera",
+          "Scrotum/labia majora and adjacent medial thigh"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Skin of the groin and medial thigh'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The nerve at risk of injury during inguinal hernia repair is the:",
+        "options": [
+          "Ilioinguinal nerve",
+          "Femoral nerve",
+          "Obturator nerve",
+          "Genitofemoral nerve",
+          "Lateral femoral cutaneous nerve"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Ilioinguinal nerve'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The Bassini repair is a surgical technique for:",
+        "options": [
+          "Inguinal hernias",
+          "Umbilical hernias",
+          "Femoral hernias",
+          "Epigastric hernias",
+          "Incisional hernias"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Inguinal hernias'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The Lichtenstein repair uses a:",
+        "options": [
+          "Mesh patch",
+          "Primary suture repair",
+          "Muscle flap",
+          "Peritoneal flap",
+          "Skin graft"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Mesh patch'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A laparoscopic approach to hernia repair involves:",
+        "options": [
+          "Small incisions and specialized instruments",
+          "Large abdominal incision",
+          "Thoracotomy",
+          "Combined abdominal and thoracic incisions",
+          "Retroperitoneal approach"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Small incisions and specialized instruments'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-2-12": [
+      {
+        "question": "The stomach is located primarily in the:",
+        "options": [
+          "Left upper quadrant of the abdomen",
+          "Right upper quadrant of the abdomen",
+          "Left lower quadrant of the abdomen",
+          "Right lower quadrant of the abdomen",
+          "Epigastric region only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Left upper quadrant of the abdomen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The cardia of the stomach is located at the level of:",
+        "options": [
+          "T11 vertebra",
+          "T8 vertebra",
+          "T10 vertebra",
+          "L1 vertebra",
+          "L2 vertebra"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'T11 vertebra'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The pylorus of the stomach is located at the level of:",
+        "options": [
+          "L1 vertebra",
+          "T10 vertebra",
+          "T12 vertebra",
+          "L3 vertebra",
+          "S1 vertebra"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'L1 vertebra'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The fundus of the stomach is located:",
+        "options": [
+          "Superior to the esophageal opening",
+          "Inferior to the esophageal opening",
+          "Anterior to the pylorus",
+          "Posterior to the pylorus",
+          "Medial to the body"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Superior to the esophageal opening'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The greater curvature of the stomach is located:",
+        "options": [
+          "Laterally",
+          "Medially",
+          "Anteriorly",
+          "Posteriorly",
+          "Superiorly"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Laterally'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The lesser curvature of the stomach is located:",
+        "options": [
+          "Medially",
+          "Laterally",
+          "Anteriorly",
+          "Posteriorly",
+          "Inferiorly"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Medially'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The stomach receives its blood supply primarily from the:",
+        "options": [
+          "Celiac trunk",
+          "Superior mesenteric artery",
+          "Inferior mesenteric artery",
+          "Splenic artery only",
+          "Hepatic artery only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Celiac trunk'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The stomach drains its venous blood into the:",
+        "options": [
+          "Portal vein",
+          "Inferior vena cava",
+          "Superior vena cava",
+          "Hepatic veins",
+          "Splenic vein only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Portal vein'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The stomach is innervated by the:",
+        "options": [
+          "Vagus nerves and celiac plexus",
+          "Phrenic nerve",
+          "Intercostal nerves",
+          "Lumbar plexus",
+          "Sacral plexus"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Vagus nerves and celiac plexus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The gastric rugae are:",
+        "options": [
+          "Folds in the gastric mucosa",
+          "Folds in the gastric serosa",
+          "Muscle layers of the stomach",
+          "Lymphatic vessels of the stomach",
+          "Blood vessels of the stomach"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Folds in the gastric mucosa'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A hiatal hernia involves protrusion of the:",
+        "options": [
+          "Stomach into the thoracic cavity",
+          "Small intestine into the inguinal canal",
+          "Large intestine into the pelvis",
+          "Liver into the thoracic cavity",
+          "Spleen into the abdominal wall"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Stomach into the thoracic cavity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A paraesophageal hernia involves:",
+        "options": [
+          "The fundus of the stomach herniating alongside the esophagus",
+          "Only the esophagus herniating through the diaphragm",
+          "Only the cardia herniating through the diaphragm",
+          "The entire stomach herniating into the thorax",
+          "The small intestine herniating into the thorax"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The fundus of the stomach herniating alongside the esophagus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A sliding hiatal hernia involves:",
+        "options": [
+          "The cardia and fundus sliding into the thorax",
+          "Only the fundus sliding into the thorax",
+          "Only the cardia sliding into the thorax",
+          "The entire stomach sliding into the thorax",
+          "The small intestine sliding into the thorax"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The cardia and fundus sliding into the thorax'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Gastrostomy is a surgical procedure that creates an opening into the:",
+        "options": [
+          "Stomach",
+          "Duodenum",
+          "Jejunum",
+          "Ileum",
+          "Esophagus"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Stomach'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A percutaneous endoscopic gastrostomy (PEG) is performed:",
+        "options": [
+          "Through the abdominal wall using an endoscope",
+          "Through a large abdominal incision",
+          "Through the chest wall",
+          "Through the rectum",
+          "Through the urethra"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Through the abdominal wall using an endoscope'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A partial gastrectomy involves removal of:",
+        "options": [
+          "Part of the stomach",
+          "The entire stomach",
+          "The duodenum",
+          "The esophagus",
+          "The spleen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Part of the stomach'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A total gastrectomy involves removal of:",
+        "options": [
+          "The entire stomach",
+          "Part of the stomach",
+          "The duodenum and part of the stomach",
+          "The esophagus and part of the stomach",
+          "Only the pylorus"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The entire stomach'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A Billroth I gastrectomy involves:",
+        "options": [
+          "Anastomosis of the stomach to the duodenum",
+          "Anastomosis of the stomach to the jejunum",
+          "Removal of the duodenum",
+          "Removal of the esophagus",
+          "Removal of the spleen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Anastomosis of the stomach to the duodenum'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A Billroth II gastrectomy involves:",
+        "options": [
+          "Anastomosis of the stomach to the jejunum",
+          "Anastomosis of the stomach to the duodenum",
+          "Removal of the duodenum",
+          "Removal of the esophagus",
+          "Removal of the spleen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Anastomosis of the stomach to the jejunum'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Dumping syndrome is a potential complication of:",
+        "options": [
+          "Gastrectomy",
+          "Cholecystectomy",
+          "Appendectomy",
+          "Hernia repair",
+          "Liver transplantation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Gastrectomy'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-2-13": [
+      {
+        "question": "The liver is located primarily in the:",
+        "options": [
+          "Right upper quadrant of the abdomen",
+          "Left upper quadrant of the abdomen",
+          "Right lower quadrant of the abdomen",
+          "Left lower quadrant of the abdomen",
+          "Epigastric region only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Right upper quadrant of the abdomen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The liver receives blood supply from the:",
+        "options": [
+          "Hepatic artery and portal vein",
+          "Hepatic artery only",
+          "Portal vein only",
+          "Superior mesenteric artery",
+          "Inferior mesenteric artery"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hepatic artery and portal vein'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The portal vein carries blood from the:",
+        "options": [
+          "Gastrointestinal tract and spleen",
+          "Liver to the inferior vena cava",
+          "Heart to the liver",
+          "Kidneys to the liver",
+          "Lungs to the liver"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Gastrointestinal tract and spleen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Bile is produced by:",
+        "options": [
+          "Hepatocytes (liver cells)",
+          "Gallbladder",
+          "Pancreas",
+          "Spleen",
+          "Duodenum"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hepatocytes (liver cells)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Bile is stored in the:",
+        "options": [
+          "Gallbladder",
+          "Liver",
+          "Pancreas",
+          "Spleen",
+          "Duodenum"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Gallbladder'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The common bile duct is formed by the union of the:",
+        "options": [
+          "Cystic duct and common hepatic duct",
+          "Hepatic duct and pancreatic duct",
+          "Cystic duct and pancreatic duct",
+          "Hepatic artery and portal vein",
+          "Hepatic vein and portal vein"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Cystic duct and common hepatic duct'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The common bile duct empties into the:",
+        "options": [
+          "Duodenum (second part)",
+          "Stomach",
+          "Jejunum",
+          "Ileum",
+          "Colon"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Duodenum (second part)'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The sphincter of Oddi controls the flow of:",
+        "options": [
+          "Bile and pancreatic juice into the duodenum",
+          "Blood into the liver",
+          "Blood from the liver",
+          "Gastric contents into the duodenum",
+          "Intestinal contents into the colon"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Bile and pancreatic juice into the duodenum'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The gallbladder’s primary function is:",
+        "options": [
+          "Storing and concentrating bile",
+          "Producing bile",
+          "Filtering blood",
+          "Producing digestive enzymes",
+          "Storing glycogen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Storing and concentrating bile'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Cholecystitis is inflammation of the:",
+        "options": [
+          "Gallbladder",
+          "Liver",
+          "Pancreas",
+          "Spleen",
+          "Duodenum"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Gallbladder'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Cholelithiasis refers to the presence of:",
+        "options": [
+          "Gallstones",
+          "Liver cysts",
+          "Pancreatic stones",
+          "Splenic rupture",
+          "Duodenal ulcers"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Gallstones'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The spleen is located in the:",
+        "options": [
+          "Left upper quadrant of the abdomen",
+          "Right upper quadrant of the abdomen",
+          "Left lower quadrant of the abdomen",
+          "Right lower quadrant of the abdomen",
+          "Epigastric region"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Left upper quadrant of the abdomen'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The spleen's primary functions include:",
+        "options": [
+          "Filtering blood and removing old red blood cells",
+          "Producing bile",
+          "Storing glycogen",
+          "Producing digestive enzymes",
+          "Detoxifying blood"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Filtering blood and removing old red blood cells'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The splenic artery is a branch of the:",
+        "options": [
+          "Celiac trunk",
+          "Superior mesenteric artery",
+          "Inferior mesenteric artery",
+          "Abdominal aorta directly",
+          "Renal artery"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Celiac trunk'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The splenic vein drains into the:",
+        "options": [
+          "Portal vein",
+          "Inferior vena cava",
+          "Superior mesenteric vein",
+          "Hepatic vein",
+          "Renal vein"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Portal vein'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Liver stitches (sutures) are used to:",
+        "options": [
+          "Control bleeding after liver injury or surgery",
+          "Repair the gallbladder",
+          "Repair the spleen",
+          "Repair the pancreas",
+          "Repair the bile duct"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Control bleeding after liver injury or surgery'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Liver transplantation is a treatment option for:",
+        "options": [
+          "End-stage liver disease",
+          "Gallstones",
+          "Splenic rupture",
+          "Pancreatitis",
+          "Duodenal ulcers"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'End-stage liver disease'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The most common cause of liver cirrhosis leading to transplantation is:",
+        "options": [
+          "Hepatitis C",
+          "Gallstones",
+          "Splenic rupture",
+          "Pancreatitis",
+          "Duodenal ulcers"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Hepatitis C'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The recipient’s diseased liver is removed during:",
+        "options": [
+          "Orthotopic liver transplantation",
+          "Heterotopic liver transplantation",
+          "Living donor liver transplantation",
+          "Split liver transplantation",
+          "Domino liver transplantation"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Orthotopic liver transplantation'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "In living donor liver transplantation, a portion of the liver is taken from a:",
+        "options": [
+          "Living related or unrelated donor",
+          "Deceased donor",
+          "Pig",
+          "Cadaver",
+          "Animal"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Living related or unrelated donor'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-2-14": [
+      {
+        "question": "The retroperitoneal space is located:",
+        "options": [
+          "Posterior to the parietal peritoneum",
+          "Anterior to the parietal peritoneum",
+          "Within the peritoneal cavity",
+          "Superior to the diaphragm",
+          "Inferior to the pelvic floor"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Posterior to the parietal peritoneum'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "Which of the following organs is primarily retroperitoneal?",
+        "options": [
+          "Kidneys",
+          "Stomach",
+          "Small intestine",
+          "Liver",
+          "Spleen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Kidneys'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The ureters are located:",
+        "options": [
+          "Retroperitoneally",
+          "Intraperitoneally",
+          "Subcutaneously",
+          "Within the pelvis only",
+          "Within the thorax only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Retroperitoneally'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The abdominal aorta is located:",
+        "options": [
+          "Retroperitoneally",
+          "Intraperitoneally",
+          "Within the lesser sac",
+          "Within the greater sac",
+          "Within the peritoneal cavity"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Retroperitoneally'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The inferior vena cava is located:",
+        "options": [
+          "Retroperitoneally",
+          "Intraperitoneally",
+          "Within the lesser sac",
+          "Within the greater sac",
+          "Within the peritoneal cavity"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Retroperitoneally'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The pancreas is primarily located:",
+        "options": [
+          "Retroperitoneally",
+          "Intraperitoneally",
+          "Within the lesser sac",
+          "Within the greater sac",
+          "Within the peritoneal cavity"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Retroperitoneally'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The adrenal glands are located:",
+        "options": [
+          "Retroperitoneally",
+          "Intraperitoneally",
+          "Within the lesser sac",
+          "Within the greater sac",
+          "Within the peritoneal cavity"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Retroperitoneally'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The lumbar spine consists of:",
+        "options": [
+          "5 vertebrae",
+          "7 vertebrae",
+          "12 vertebrae",
+          "4 vertebrae",
+          "3 vertebrae"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is '5 vertebrae'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The intervertebral discs are located between the:",
+        "options": [
+          "Vertebral bodies",
+          "Vertebral arches",
+          "Transverse processes",
+          "Spinous processes",
+          "Laminae"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Vertebral bodies'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The nucleus pulposus is located within the:",
+        "options": [
+          "Intervertebral disc",
+          "Vertebral body",
+          "Vertebral arch",
+          "Spinous process",
+          "Transverse process"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Intervertebral disc'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The annulus fibrosus is located:",
+        "options": [
+          "Surrounding the nucleus pulposus",
+          "Within the vertebral body",
+          "Within the vertebral arch",
+          "Within the spinal canal",
+          "Within the intervertebral foramen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Surrounding the nucleus pulposus'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "A herniated disc typically occurs:",
+        "options": [
+          "Posterolaterally",
+          "Anteriorly",
+          "Laterally",
+          "Medially",
+          "Superiorly"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Posterolaterally'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The spinal cord typically ends at the level of:",
+        "options": [
+          "L1-L2 vertebra",
+          "T12 vertebra",
+          "L3-L4 vertebra",
+          "S1 vertebra",
+          "Coccyx"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'L1-L2 vertebra'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The cauda equina is located within the:",
+        "options": [
+          "Lumbar spinal canal",
+          "Thoracic spinal canal",
+          "Cervical spinal canal",
+          "Sacral canal",
+          "Intervertebral foramen"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Lumbar spinal canal'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The lumbar plexus is formed by the ventral rami of:",
+        "options": [
+          "L1-L4 spinal nerves",
+          "T12-L3 spinal nerves",
+          "L5-S1 spinal nerves",
+          "S2-S4 spinal nerves",
+          "Coccygeal nerve"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'L1-L4 spinal nerves'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The psoas major muscle is located:",
+        "options": [
+          "Retroperitoneally",
+          "Intraperitoneally",
+          "Within the pelvic cavity",
+          "Within the thoracic cavity",
+          "Within the abdominal wall"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Retroperitoneally'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The quadratus lumborum muscle is located:",
+        "options": [
+          "Posterior abdominal wall, retroperitoneally",
+          "Anterior abdominal wall",
+          "Within the pelvic cavity",
+          "Within the thoracic cavity",
+          "Within the diaphragm"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Posterior abdominal wall, retroperitoneally'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The sympathetic trunk runs:",
+        "options": [
+          "Along the anterolateral aspect of the vertebral bodies",
+          "Along the posterior aspect of the vertebral bodies",
+          "Within the spinal canal",
+          "Within the intervertebral foramen",
+          "Within the psoas muscle"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Along the anterolateral aspect of the vertebral bodies'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The kidneys filter:",
+        "options": [
+          "Blood",
+          "Lymph",
+          "Bile",
+          "Urine only",
+          "Gastric contents"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Blood'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The renal arteries arise from the:",
+        "options": [
+          "Abdominal aorta",
+          "Celiac trunk",
+          "Superior mesenteric artery",
+          "Inferior mesenteric artery",
+          "Common iliac arteries"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Abdominal aorta'. This choice aligns with the established clinical curriculum."
+      }
+    ],
+    "t-s-2-2-15": [
+      {
+        "question": "The pelvic inlet is formed by:",
+        "options": [
+          "SACRAL promontory, arcuate lines, pectineal lines, pubic crest",
+          "Sacral promontory, ischial spines, pubic symphysis",
+          "Ischial tuberosities, pubic arch, coccyx",
+          "Iliac crests, sacrum, pubic symphysis",
+          "Acetabula, ischial spines, sacrum"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'SACRAL promontory, arcuate lines, pectineal lines, pubic crest'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The pelvic outlet is bounded by:",
+        "options": [
+          "Pubic symphysis, ischiopubic rami, ischial tuberosities, sacrotuberous ligaments, coccyx",
+          "Sacral promontory, arcuate lines, pectineal lines, pubic crest",
+          "Ischial spines, pubic symphysis, coccyx",
+          "Iliac crests, sacrum, pubic symphysis",
+          "Acetabula, ischial spines, sacrum"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pubic symphysis, ischiopubic rami, ischial tuberosities, sacrotuberous ligaments, coccyx'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The true pelvis (lesser pelvis) is located:",
+        "options": [
+          "Inferior to the pelvic inlet",
+          "Superior to the pelvic inlet",
+          "Anterior to the pelvic inlet",
+          "Posterior to the pelvic inlet",
+          "Lateral to the pelvic inlet"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Inferior to the pelvic inlet'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The false pelvis (greater pelvis) is located:",
+        "options": [
+          "Superior to the pelvic inlet",
+          "Inferior to the pelvic inlet",
+          "Anterior to the pelvic inlet",
+          "Posterior to the pelvic inlet",
+          "Medial to the pelvic inlet"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Superior to the pelvic inlet'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The pelvic floor is mainly formed by the:",
+        "options": [
+          "Levator ani and coccygeus muscles",
+          "Piriformis and obturator internus muscles",
+          "Rectus abdominis and external oblique muscles",
+          "Psoas major and iliacus muscles",
+          "Gluteus maximus and medius muscles"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Levator ani and coccygeus muscles'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The levator ani muscle is composed of:",
+        "options": [
+          "Pubococcygeus, iliococcygeus, puborectalis",
+          "Piriformis, obturator internus, coccygeus",
+          "Rectus abdominis, external oblique, internal oblique",
+          "Psoas major, iliacus, quadratus lumborum",
+          "Gluteus maximus, medius, minimus"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Pubococcygeus, iliococcygeus, puborectalis'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The rectum is located:",
+        "options": [
+          "Posterior to the bladder and reproductive organs",
+          "Anterior to the bladder and reproductive organs",
+          "Lateral to the bladder",
+          "Superior to the bladder",
+          "Inferior to the bladder"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Posterior to the bladder and reproductive organs'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The rectum receives its blood supply from the:",
+        "options": [
+          "Superior, middle, and inferior rectal arteries",
+          "Inferior mesenteric artery only",
+          "Internal iliac arteries only",
+          "External iliac arteries only",
+          "Common iliac arteries only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Superior, middle, and inferior rectal arteries'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The venous drainage of the rectum occurs via the:",
+        "options": [
+          "Superior, middle, and inferior rectal veins",
+          "Inferior mesenteric vein only",
+          "Internal iliac veins only",
+          "External iliac veins only",
+          "Common iliac veins only"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Superior, middle, and inferior rectal veins'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The urinary bladder is located:",
+        "options": [
+          "Anterior in the pelvic cavity",
+          "Posterior in the pelvic cavity",
+          "Lateral in the pelvic cavity",
+          "Superior to the pelvic inlet",
+          "Inferior to the pelvic outlet"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Anterior in the pelvic cavity'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The detrusor muscle is located in the wall of the:",
+        "options": [
+          "Urinary bladder",
+          "Ureter",
+          "Urethra",
+          "Rectum",
+          "Uterus"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Urinary bladder'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The internal urethral sphincter is made of:",
+        "options": [
+          "Smooth muscle",
+          "Skeletal muscle",
+          "Connective tissue",
+          "Epithelial tissue",
+          "Nervous tissue"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Smooth muscle'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The external urethral sphincter is made of:",
+        "options": [
+          "Skeletal muscle",
+          "Smooth muscle",
+          "Connective tissue",
+          "Epithelial tissue",
+          "Nervous tissue"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Skeletal muscle'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The trigone of the bladder is defined by the openings of:",
+        "options": [
+          "The two ureters and the urethra",
+          "The urethra and the rectum",
+          "The ureters and the rectum",
+          "The urethra and the uterine tubes (females)",
+          "The uterine tubes and the ovaries (females)"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'The two ureters and the urethra'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The ureters transport urine from the:",
+        "options": [
+          "Kidneys to the bladder",
+          "Bladder to the urethra",
+          "Kidneys to the urethra",
+          "Liver to the bladder",
+          "Bladder to the kidneys"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Kidneys to the bladder'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The pelvic fascia is continuous with the:",
+        "options": [
+          "Transversalis fascia",
+          "Thoracolumbar fascia",
+          "Deep fascia of the thigh",
+          "Superficial fascia of the abdomen",
+          "All of the above"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Transversalis fascia'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The obturator internus muscle originates from the:",
+        "options": [
+          "Inner surface of the obturator membrane and surrounding bone",
+          "Outer surface of the obturator membrane and surrounding bone",
+          "Iliac crest",
+          "Sacrum",
+          "Pubis"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Inner surface of the obturator membrane and surrounding bone'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The piriformis muscle originates from the:",
+        "options": [
+          "Anterior surface of the sacrum",
+          "Posterior surface of the sacrum",
+          "Iliac crest",
+          "Pubis",
+          "Ischium"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Anterior surface of the sacrum'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The pudendal nerve provides innervation to the:",
+        "options": [
+          "Perineum, external genitalia, and pelvic floor muscles",
+          "Abdominal muscles",
+          "Thigh muscles",
+          "Gluteal muscles",
+          "Lower limb muscles"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Perineum, external genitalia, and pelvic floor muscles'. This choice aligns with the established clinical curriculum."
+      },
+      {
+        "question": "The pelvic splanchnic nerves carry:",
+        "options": [
+          "Parasympathetic fibers",
+          "Sympathetic fibers",
+          "Sensory fibers",
+          "Motor fibers to the lower limb",
+          "Motor fibers to the abdominal wall"
+        ],
+        "correctIndex": 0,
+        "explanation": "The correct answer is 'Parasympathetic fibers'. This choice aligns with the established clinical curriculum."
+      }
+    ]
+  }
+};
