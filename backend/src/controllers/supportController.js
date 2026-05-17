@@ -86,10 +86,15 @@ exports.getTicketById = async (req, res) => {
 exports.getAdminTickets = async (req, res) => {
   console.log('[Support] GET /admin/all (Admin)');
   try {
-    // We fetch tickets first, then users separately if relationship is tricky
     const { data: tickets, error } = await supabaseAdmin
       .from('support_tickets')
-      .select('*')
+      .select(`
+        *,
+        profiles (
+          name,
+          email
+        )
+      `)
       .order('created_at', { ascending: false });
 
     if (error) {
@@ -97,8 +102,6 @@ exports.getAdminTickets = async (req, res) => {
       throw error;
     }
 
-    // Attempt to join with profiles manually or via logic if needed
-    // For now, let's just return tickets and see if they appear
     res.json(tickets);
   } catch (error) {
     res.status(500).json({ message: error.message });
