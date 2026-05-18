@@ -257,7 +257,10 @@ router.post('/create', async (req, res) => {
     res.status(201).json({
       success: true,
       roomCode,
-      roomId: roomObj._id
+      roomId: roomObj._id,
+      questionsCount: mcqs.length,
+      sampleQuestion: mcqs[0] ? mcqs[0].question : null,
+      sampleExplanation: mcqs[0] ? mcqs[0].explanation : null
     });
   } catch (error) {
     console.error('[Battle Creator] Create room error:', error);
