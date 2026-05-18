@@ -17,7 +17,16 @@ const BattleLobbyScreen = ({ navigation }) => {
 
   const handleCopy = async () => {
     if (roomCode) {
-      await Clipboard.setStringAsync(roomCode);
+      try {
+        await Clipboard.setStringAsync(roomCode);
+      } catch (err) {
+        try {
+          const { Clipboard: RNClipboard } = require('react-native');
+          RNClipboard.setString(roomCode);
+        } catch (rnErr) {
+          console.warn("Clipboard not available", rnErr);
+        }
+      }
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     }
