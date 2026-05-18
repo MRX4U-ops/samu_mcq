@@ -37,6 +37,13 @@ const socketService = (io) => {
       }
     });
 
+    socket.on('submit_answer', async ({ roomCode, userId, questionIndex, selectedIndex, timeTaken }) => {
+      const result = await battleEngine.submitAnswer(roomCode, userId, questionIndex, selectedIndex, timeTaken);
+      if (result && result.error) {
+        socket.emit('error', { message: result.error });
+      }
+    });
+
     socket.on('disconnect', () => {
       console.log('User disconnected:', socket.id);
       // Could implement a short timeout to remove them from room if they don't reconnect
