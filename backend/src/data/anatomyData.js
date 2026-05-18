@@ -7647,13 +7647,13 @@ module.exports = {
         {
           "question": "The specificity of cytochromoxidase construction:",
           "options": [
-            "Gem storage",
+            "Hem storage",
             "Normal protein",
             "Contains fluoride",
             "Zinc preserves"
           ],
           "correctIndex": 0,
-          "explanation": "Cytochrome oxidase is characterized by its heme (gem) and metal ion centers."
+          "explanation": "Cytochrome oxidase is characterized by its heme (hem) and metal ion centers."
         },
         {
           "question": "The role of cytochromes in ETZ:",
@@ -8495,13 +8495,13 @@ module.exports = {
         {
           "question": "Where is amylo-1,6 glucosidase secreted?",
           "options": [
-            "From the wall of the small intestine",
             "From the pancreas",
+            "From the wall of the small intestine",
             "From the duodenum",
             "From the salivary glands"
           ],
           "correctIndex": 0,
-          "explanation": "Debranching enzymes like amylo-1,6-glucosidase are present as brush border enzymes in the small intestine."
+          "explanation": "Amylo-1,6-glucosidase is secreted from the pancreas."
         }
       ],
       "situational": [
@@ -9049,7 +9049,7 @@ module.exports = {
             "Hexokinase",
             "Phosphohexoisomerase",
             "Aldolase",
-            "Hexokinase"
+            "Enolase"
           ],
           "correctIndex": 0,
           "explanation": "Insulin induces the expression of key glycolytic enzymes, including hexokinase (specifically glucokinase in the liver)."
@@ -12474,7 +12474,7 @@ module.exports = {
             "Peptides"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Nucleotides is correct. Nucleic acids (DNA and RNA) are biopolymers composed of nucleotide monomers, holding the cell's genetic blueprints. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Show the heterocyclic compound that forms the basis of the structure of adenine:",
@@ -12485,7 +12485,7 @@ module.exports = {
             "Tryptophan"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Purine is correct. Purines (Adenine and Guanine) are double-ringed heterocyclic aromatic compounds serving as key genetic carriers and metabolic energy agents. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Show the nitrogenous base that is formed during the recovery of the RNA chain from the DNA chain:",
@@ -12496,7 +12496,7 @@ module.exports = {
             "Cytosine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Uracil is correct. Uracil is a pyrimidine base specific to RNA, playing a key role in protein translation and coding. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "What kind of bond provides the primary structure of DNA and RNA:",
@@ -12507,7 +12507,7 @@ module.exports = {
             "Hydrophobic"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Phosphodiether is correct. Phosphodiester (phosphodiether) bonds covalently link the sugar-phosphate backbone of DNA and RNA molecules. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Name a structural component that is not specific to DNA:",
@@ -12518,7 +12518,7 @@ module.exports = {
             "dTMF"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "dUMF is a primary example of a structural component that is not specific to DNA:."
         },
         {
           "question": "Select a matrix biosynthesis process:",
@@ -12529,7 +12529,7 @@ module.exports = {
             "Broadcasting"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Everything is correct is selected as the a matrix biosynthesis process:."
         },
         {
           "question": "Clover leaf structure is characteristic for which nucleic acid:",
@@ -12537,10 +12537,10 @@ module.exports = {
             "tRNA",
             "Tertiary structure of DNA",
             "mRNA",
-            "mRNA"
+            "rRNA"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "tRNA is correct. tRNA (transfer RNA) folds into a specific cloverleaf structure, carrying amino acids to ribosomes during translation. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Which type of nucleic acid contains thymine?",
@@ -12551,7 +12551,7 @@ module.exports = {
             "tRNA"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "DNA is correct. Thymine is a pyrimidine base unique to DNA, pairing with Adenine to maintain double-helix stability. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Nucleoproteins are representatives of:",
@@ -12562,7 +12562,7 @@ module.exports = {
             "Lysosome"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Ribosome is correct. Ribosomes are ribonucleoprotein complexes acting as the physical and enzymatic sites of protein translation. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "One of the following compounds belongs to the group of pyrimidines:",
@@ -12573,7 +12573,7 @@ module.exports = {
             "Inosine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Introns are cut and exons are joined is correct. Exons are the protein-coding regions of eukaryotic genes that are preserved during RNA splicing. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "The place where the phosphodiether bond is formed in the structure of nucleic acids:",
@@ -12584,7 +12584,7 @@ module.exports = {
             "Between the 1st and 5th carbon atoms of pentose"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Helicase is correct. DNA replication is the matrix template synthesis of DNA, ensuring accurate transmission of genetic codes before cell division. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Show the complementary bases in the DNA structure:",
@@ -12595,7 +12595,7 @@ module.exports = {
             "A=U, G=S"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "m-RNA is correct. DNA replication is the matrix template synthesis of DNA, ensuring accurate transmission of genetic codes before cell division. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Show the complementarity of bases in the RNA structure:",
@@ -12606,7 +12606,7 @@ module.exports = {
             "A=S, T=G"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "dATF, dGTF, dSTF, dTTF is selected as the substrates for DNA polymerase:."
         },
         {
           "question": "Identify the purine nucleotides of the DNA structure:",
@@ -12617,7 +12617,7 @@ module.exports = {
             "dTMF, dAMF"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Purine-insertase is correct. Purines (Adenine and Guanine) are double-ringed heterocyclic aromatic compounds serving as key genetic carriers and metabolic energy agents. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "The secondary structure of DNA is characterized by:",
@@ -12628,7 +12628,7 @@ module.exports = {
             "By the presence of a circular chain"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Phosphodiether is correct. Phosphodiester (phosphodiether) bonds covalently link the sugar-phosphate backbone of DNA and RNA molecules. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "A nitrogenous base that is part of the RNA structure and not found in the DNA structure:",
@@ -12639,7 +12639,7 @@ module.exports = {
             "Cytosine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "A single strand of DNA is the correct answer to the question regarding \"what determines the primary structure of rna\"."
         },
         {
           "question": "How many nitrogenous bases make up DNA:",
@@ -12650,7 +12650,7 @@ module.exports = {
             "2"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "the type of molecules is equal to the number of proteins is correct. mRNA (messenger RNA) carries transcription codes from DNA in the nucleus to ribosomes in the cytoplasm for translation. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "What structure does mRNA have:",
@@ -12661,7 +12661,7 @@ module.exports = {
             "Circular"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "61 different molecules is correct. tRNA (transfer RNA) folds into a specific cloverleaf structure, carrying amino acids to ribosomes during translation. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Which nitrogenous base is not found in RNA:",
@@ -12672,7 +12672,7 @@ module.exports = {
             "Guanine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "hydrogen bonds describes how is one strand connected to another to form the secondary structure of DNA:."
         },
         {
           "question": "A structural component that is not part of the nucleotide structure:",
@@ -12683,7 +12683,7 @@ module.exports = {
             "Phosphoric acid residues"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "exon is correct. Exons are the protein-coding regions of eukaryotic genes that are preserved during RNA splicing. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Identify the nitrogenous base that belongs to purines:",
@@ -12694,7 +12694,7 @@ module.exports = {
             "Thymine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "operator is the the part of the transcripton where the repressor protein binds:."
         },
         {
           "question": "Identify the nitrogenous base that belongs to pyrimidines:",
@@ -12705,7 +12705,7 @@ module.exports = {
             "Inosine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "substitution of a nitrogenous base in a gene refers to the mechanism of sickle cell anemia, representing a fundamental concept in biochemistry."
         },
         {
           "question": "What kind of bond connects two chains of DNA to each other:",
@@ -12716,7 +12716,7 @@ module.exports = {
             "Peptide"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Change of nitrogen bases in DNA molecule is the correct answer to the question regarding \"point mutations:\"."
         },
         {
           "question": "Determine the amount of nitrogenous bases G=S in the DNA chain:",
@@ -12727,7 +12727,7 @@ module.exports = {
             "1"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "exon+intron is correct. Exons are the protein-coding regions of eukaryotic genes that are preserved during RNA splicing. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "The bond between A and T in the DNA chain is:",
@@ -12738,7 +12738,7 @@ module.exports = {
             "1"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "DNA-based RNA synthesis is correct. Transcription is the matrix-directed synthesis of RNA from a DNA template, catalyzed by RNA polymerase. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "DNA replication is:",
@@ -12749,7 +12749,7 @@ module.exports = {
             "All are correct"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Processing is the correct answer to the question regarding \"rna maturation process:\"."
         },
         {
           "question": "Enzymes involved in the process of replication:",
@@ -12760,7 +12760,7 @@ module.exports = {
             "DNA ligase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "All answers are correct is the correct answer to the question regarding \"in the process of processing occurs:\"."
         },
         {
           "question": "Transcription enzyme:",
@@ -12771,7 +12771,7 @@ module.exports = {
             "DNA ligase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Repair of damaged parts of DNA refers to reparation, representing a fundamental concept in biochemistry."
         },
         {
           "question": "Broadcasting process is:",
@@ -12782,7 +12782,7 @@ module.exports = {
             "Lipid biosynthesis"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "TTF is the correct answer to the question regarding \"not used in rna synthesis:\"."
         },
         {
           "question": "Where does replication take place?",
@@ -12793,7 +12793,7 @@ module.exports = {
             "In the blood"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Ion radiations is the correct answer to the question regarding \"factor causing mutation:\"."
         }
       ],
       "situational": [
@@ -12865,7 +12865,7 @@ module.exports = {
             "Threonine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Methionine is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "What is Elongation:",
@@ -12876,7 +12876,7 @@ module.exports = {
             "Activation of amino acids"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Elongation of the polypeptide chain is correct. Peptide bonds are covalent amide links connecting amino acid residues in proteins and polypeptides. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Terminator codons include:",
@@ -12887,7 +12887,7 @@ module.exports = {
             "SAU, GATS, GSA"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "UAA, UGA, UAG is correct. A codon is a three-nucleotide sequence in mRNA that codes for a specific amino acid or translation stop/start. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Does not participate in the broadcast:",
@@ -12898,18 +12898,18 @@ module.exports = {
             "peptidyltransferase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "DNA is the correct answer to the question regarding \"does not participate in the broadcast:\"."
         },
         {
           "question": "What is the process of recognition?",
           "options": [
             "Activation of amino acids",
             "Dropping a nucleotide from a gene",
-            "Activation of amino acids",
+            "Splicing of exons",
             "Transfer of the peptide"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Activation of amino acids is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "What is the mechanism of action of antibiotics against tumors based on?",
@@ -12920,7 +12920,7 @@ module.exports = {
             "Inhibition of protein synthesis"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Inhibition of matrix biosynthesis refers to the mechanism of action of antibiotics against tumors based on, representing a fundamental concept in biochemistry."
         },
         {
           "question": "The codon encodes:",
@@ -12931,7 +12931,7 @@ module.exports = {
             "Nucleoside"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Amino acid is correct. A codon is a three-nucleotide sequence in mRNA that codes for a specific amino acid or translation stop/start. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Protein biosynthesis begins",
@@ -12942,7 +12942,7 @@ module.exports = {
             "From reparation"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "From the initiation complex meeting is the correct answer to the question regarding \"protein biosynthesis begins\"."
         },
         {
           "question": "Translocation",
@@ -12953,7 +12953,7 @@ module.exports = {
             "Phase of termination"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "The displacement of the ribosome to a triplet in mRNA is correct. mRNA (messenger RNA) carries transcription codes from DNA in the nucleus to ribosomes in the cytoplasm for translation. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Energy source in protein biosynthesis:",
@@ -12964,7 +12964,7 @@ module.exports = {
             "STF"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "ATP, GTF is correct. Adenosine triphosphate (ATP) is the universal biological energy currency, storing metabolic energy in its phosphoanhydride bonds. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Where does protein synthesis take place",
@@ -12975,7 +12975,7 @@ module.exports = {
             "In the blood"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "In the ribosome is correct. Ribosomes are ribonucleoprotein complexes acting as the physical and enzymatic sites of protein translation. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "What is added to the amino acid during the activation of amino acids in protein biosynthesis:",
@@ -12986,7 +12986,7 @@ module.exports = {
             "The subunit of the ribosome"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "tRNA is correct. tRNA (transfer RNA) folds into a specific cloverleaf structure, carrying amino acids to ribosomes during translation. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Specify the start codon:",
@@ -12997,7 +12997,7 @@ module.exports = {
             "To him"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "AUG is correct. A codon is a three-nucleotide sequence in mRNA that codes for a specific amino acid or translation stop/start. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Protein synthesizing system components:",
@@ -13008,7 +13008,7 @@ module.exports = {
             "Microsomes"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "20 different amino acids and enzymes is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "The initiating complex includes:",
@@ -13019,7 +13019,7 @@ module.exports = {
             "aa-tRNA synthetase and ATP"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "The large and small subunits of the ribosome is correct. Ribosomes are ribonucleoprotein complexes acting as the physical and enzymatic sites of protein translation. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Features of the ribosomal subunit of prokaryotic cells",
@@ -13030,7 +13030,7 @@ module.exports = {
             "The sedimentation constant is 60 C"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "The sedimentation constant is 30 C is the correct answer to the question regarding \"features of the ribosomal subunit of prokaryotic cells\"."
         },
         {
           "question": "Genetic code property",
@@ -13041,7 +13041,7 @@ module.exports = {
             "Dipletity"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Tripletness is the correct answer to the question regarding \"genetic code property\"."
         },
         {
           "question": "Genetic code property",
@@ -13052,18 +13052,18 @@ module.exports = {
             "Dipletity"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Universality is the correct answer to the question regarding \"genetic code property\"."
         },
         {
           "question": "Genetic code property",
           "options": [
             "Continuity",
-            "Continuity",
+            "Degeneracy",
             "Generality",
             "Dipletity"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Continuity is the correct answer to the question regarding \"genetic code property\"."
         },
         {
           "question": "Genetic code property",
@@ -13074,7 +13074,7 @@ module.exports = {
             "Dipletity"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Collinearity is the correct answer to the question regarding \"genetic code property\"."
         },
         {
           "question": "In which direction does protein biosynthesis go:",
@@ -13085,7 +13085,7 @@ module.exports = {
             "1??3?"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "5??3? is the correct answer to the question regarding \"in which direction does protein biosynthesis go:\"."
         },
         {
           "question": "Protein biosynthesis is observed in the elongation stage",
@@ -13096,7 +13096,7 @@ module.exports = {
             "Reparation process"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Protein chain elongation is the correct answer to the question regarding \"protein biosynthesis is observed in the elongation stage\"."
         },
         {
           "question": "Observed in broadcast termination",
@@ -13107,7 +13107,7 @@ module.exports = {
             "Reparation process"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Stopping protein biosynthesis is the correct answer to the question regarding \"observed in broadcast termination\"."
         },
         {
           "question": "Observed at the initiation of transmission",
@@ -13118,7 +13118,7 @@ module.exports = {
             "Displacement of the ribosome"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "The small and large subunits of the ribosome are assembled is correct. Ribosomes are ribonucleoprotein complexes acting as the physical and enzymatic sites of protein translation. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Observed in the post-translational process",
@@ -13129,7 +13129,7 @@ module.exports = {
             "Peptide release from the ribosome"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Protein maturation is correct. Translation (broadcasting) is the ribosomal synthesis of polypeptide chains using an mRNA template. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Can be observed in the post-translational process",
@@ -13140,7 +13140,7 @@ module.exports = {
             "Peptide release from the ribosome"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Partial proteolysis is correct. Translation (broadcasting) is the ribosomal synthesis of polypeptide chains using an mRNA template. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Aminoacyl is used in the formation of tRNA:",
@@ -13151,7 +13151,7 @@ module.exports = {
             "Nucleotides"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Aminoacyl-tRNA synthetase is correct. tRNA (transfer RNA) folds into a specific cloverleaf structure, carrying amino acids to ribosomes during translation. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "In which section of the ribosome is the peptide bond synthesized:",
@@ -13162,7 +13162,7 @@ module.exports = {
             "Acceptor"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Peptidyl is correct. Ribosomes are ribonucleoprotein complexes acting as the physical and enzymatic sites of protein translation. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Transpeptidation occurs in which process:",
@@ -13173,7 +13173,7 @@ module.exports = {
             "Recognition"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Elongation is the correct answer to the question regarding \"transpeptidation occurs in which process:\"."
         },
         {
           "question": "Fate of mRNA after termination:",
@@ -13184,7 +13184,7 @@ module.exports = {
             "Polyadenylated"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "More protein can be synthesized is correct. mRNA (messenger RNA) carries transcription codes from DNA in the nucleus to ribosomes in the cytoplasm for translation. This aligns with established biochemical pathways and clinical diagnostics."
         }
       ],
       "situational": [
@@ -13256,7 +13256,7 @@ module.exports = {
             "Invasion"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Apoptosis refers to \"programmed\" cell death:, representing a fundamental concept in biochemistry."
         },
         {
           "question": "What is the violation of internal homeostasis as a result of the violation of the permeability property of the cell membrane?",
@@ -13267,7 +13267,7 @@ module.exports = {
             "Elimination"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Necrosis refers to the violation of internal homeostasis as a result of the violation of the permeability property of the cell membrane, representing a fundamental concept in biochemistry."
         },
         {
           "question": "What is the removal of some cells by apoptosis?",
@@ -13278,7 +13278,7 @@ module.exports = {
             "NGF"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Elimination of specific cells is a key outcome of apoptosis, which is the programmed cell death mechanism that removes unwanted or damaged cells without causing inflammatory damage."
         },
         {
           "question": "What is endoreproduction",
@@ -13289,7 +13289,7 @@ module.exports = {
             "It is the occurrence of cells with an excess amount of RNA"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "It is the occurrence of cells with an excess amount of DNA refers to endoreproduction, representing a fundamental concept in biochemistry."
         },
         {
           "question": "What is the death of cells that occurs with inflammatory processes called?",
@@ -13300,7 +13300,7 @@ module.exports = {
             "Transplantation"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Necrosis refers to the premature, pathological death of cells and living tissue caused by external factors (like injury or infection), which triggers an inflammatory response."
         },
         {
           "question": "In which of the following processes is the cell's gradual swelling and shrinking and death without harming other cells observed?",
@@ -13311,7 +13311,7 @@ module.exports = {
             "In reparation"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "In apoptosis is the correct answer to the question regarding \"in which of the following processes is the cell's gradual swelling and shrinking and death without harming other cells observed\"."
         },
         {
           "question": "What is autolysis",
@@ -13322,7 +13322,7 @@ module.exports = {
             "Residual body"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Self-destruction refers to autolysis, representing a fundamental concept in biochemistry."
         },
         {
           "question": "What is the study of the primary structure of DNA divided into fragments called?",
@@ -13333,7 +13333,7 @@ module.exports = {
             "IFA"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Sequencing refers to the study of the primary structure of DNA divided into fragments, representing a fundamental concept in biochemistry."
         },
         {
           "question": "What is the most important process that occurs before cell division?",
@@ -13344,7 +13344,7 @@ module.exports = {
             "RNA replication"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "DNA replication is correct. DNA replication is the matrix template synthesis of DNA, ensuring accurate transmission of genetic codes before cell division. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Name the enzymes involved in the process of apoptosis:",
@@ -13355,7 +13355,7 @@ module.exports = {
             "Revertase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Caspases is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Apoptosis is induced in which of the following processes:",
@@ -13366,7 +13366,7 @@ module.exports = {
             "When a heavy mechanic is injured"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "When the number of damaged DNA increases is the correct answer to the question regarding \"apoptosis is induced in which of the following processes:\"."
         },
         {
           "question": "Define a cell that does not divide and reproduce throughout its life",
@@ -13377,7 +13377,7 @@ module.exports = {
             "Bone marrow;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Nerve is the correct answer to the question regarding \"define a cell that does not divide and reproduce throughout its life\"."
         },
         {
           "question": "Which method can be used to isolate cell organoids separately?",
@@ -13388,7 +13388,7 @@ module.exports = {
             "electron microscope"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "centrifugation is the specific method can be used to isolate cell organoids separately."
         },
         {
           "question": "What processes occur if apoptosis mechanisms are disrupted:",
@@ -13399,7 +13399,7 @@ module.exports = {
             "Cells are not updated"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Everything is correct is the correct answer to the question regarding \"what processes occur if apoptosis mechanisms are disrupted:\"."
         },
         {
           "question": "The formation of the fingers of the fetus is based on which process",
@@ -13410,7 +13410,7 @@ module.exports = {
             "Invasion"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Apoptosis is the correct answer to the question regarding \"the formation of the fingers of the fetus is based on which process\"."
         },
         {
           "question": "If the death of one cell causes the death of other cells, this process is called...",
@@ -13421,7 +13421,7 @@ module.exports = {
             "Transformation"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Necrosis is the correct answer to the question regarding \"if the death of one cell causes the death of other cells, this process is called...\"."
         },
         {
           "question": "When the induction of apoptosis goes to the irreversible stage:",
@@ -13432,7 +13432,7 @@ module.exports = {
             "from the association of TNF with \"death domains\"."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Once caspases are activated is the correct answer to the question regarding \"when the induction of apoptosis goes to the irreversible stage:\"."
         },
         {
           "question": "Increased apoptosis can cause which of the following:",
@@ -13443,7 +13443,7 @@ module.exports = {
             "Origin of mutations"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Premature aging is the correct answer to the question regarding \"increased apoptosis can cause which of the following:\"."
         },
         {
           "question": "Decreasing apoptosis can be caused by which of the following",
@@ -13454,18 +13454,18 @@ module.exports = {
             "Thrombocytopenia"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "The appearance of tumors is the correct answer to the question regarding \"decreasing apoptosis can be caused by which of the following\"."
         },
         {
           "question": "Renewal of skin cells is based on which process:",
           "options": [
-            "Necrosis",
+            "Apoptosis",
             "Degeneration",
             "Invasion",
             "Implantation"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Apoptosis is the correct answer to the question regarding \"renewal of skin cells is based on which process:\"."
         },
         {
           "question": "DNA, which contains foreign genetic material, is called:",
@@ -13476,7 +13476,7 @@ module.exports = {
             "Implant DNA"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Recombinant DNA is the correct answer to the question regarding \"dna, which contains foreign genetic material, is called:\"."
         },
         {
           "question": "Enzymes that cut DNA by forming sticky ends:",
@@ -13487,7 +13487,7 @@ module.exports = {
             "Insertase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Restrictase is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Which of the following enzymes is used in PSR analysis:",
@@ -13498,7 +13498,7 @@ module.exports = {
             "DNA polymerase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Taq polymerase is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "What is called a change in the cell's heredity as a result of the introduction of foreign DNA into it",
@@ -13509,7 +13509,7 @@ module.exports = {
             "choose the correct answer"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Transformation refers to called a change in the cell's heredity as a result of the introduction of foreign DNA into it, representing a fundamental concept in biochemistry."
         },
         {
           "question": "Where is non-nuclear heredity located?",
@@ -13520,7 +13520,7 @@ module.exports = {
             "In the ribosome"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "In mitochondria is the precise site where is non-nuclear heredity located."
         },
         {
           "question": "What types of genetic variation are there?",
@@ -13531,7 +13531,7 @@ module.exports = {
             "choose the correct answer"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Mutation is the correct answer to the question regarding \"what types of genetic variation are there\"."
         },
         {
           "question": "Mutations depending on the origin",
@@ -13542,7 +13542,7 @@ module.exports = {
             "Monosomy, polysomy"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Spontaneous, induction is the correct answer to the question regarding \"mutations depending on the origin\"."
         },
         {
           "question": "The following are used to obtain recombinant DNA:",
@@ -13553,7 +13553,7 @@ module.exports = {
             "Of the restrictases"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Everything is correct is the correct answer to the question regarding \"the following are used to obtain recombinant dna:\"."
         },
         {
           "question": "What is a new organism whose genotype has changed under the influence of a mutagen called?",
@@ -13564,7 +13564,7 @@ module.exports = {
             "Recon"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Mutant refers to a new organism whose genotype has changed under the influence of a mutagen, representing a fundamental concept in biochemistry."
         },
         {
           "question": "What is the factor that causes mutational variability?",
@@ -13575,7 +13575,7 @@ module.exports = {
             "Clone"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Mutagenesis refers to the factor that causes mutational variability, representing a fundamental concept in biochemistry."
         }
       ],
       "situational": [
@@ -13647,7 +13647,7 @@ module.exports = {
             "There is no morphological difference from normal progenitor cells."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Low differentiation; are defined as the characteristics of a malignant tumor:."
         },
         {
           "question": "Show the most correct sentence:",
@@ -13658,7 +13658,7 @@ module.exports = {
             "A carcinogen is a gene that codes for tumor growth."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Carcinogenic - stimulates tumor formation; is the the most correct sentence:."
         },
         {
           "question": "Name the serum histochemical tumor marker that indicates the origin of the tumor from the mesenchymal tissue:",
@@ -13669,7 +13669,7 @@ module.exports = {
             "Keratin."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Vimentin; is a primary example of the serum histochemical tumor marker that indicates the origin of the tumor from the mesenchymal tissue:."
         },
         {
           "question": "A decrease in p-53 proteins in the cell indicates:",
@@ -13680,7 +13680,7 @@ module.exports = {
             "Strengthening DNA repair processes;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Inhibition of apoptosis processes. is the correct answer to the question regarding \"a decrease in p-53 proteins in the cell indicates:\"."
         },
         {
           "question": "Describe the third stage of oncogenesis:",
@@ -13691,7 +13691,7 @@ module.exports = {
             "Interaction of carcinogens with proto-oncogenes and anti-oncogenes of the cell genome."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Synthesis of oncoproteins, acquisition of tumor phenotype; is the correct answer to the question regarding \"describe the third stage of oncogenesis:\"."
         },
         {
           "question": "Chemotherapeutic cancer drugs include:",
@@ -13702,7 +13702,7 @@ module.exports = {
             "Antimetabolites"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Everything is correct is the correct answer to the question regarding \"chemotherapeutic cancer drugs include:\"."
         },
         {
           "question": "What are oncoproteins?",
@@ -13713,7 +13713,7 @@ module.exports = {
             "Proteins that generate oncotic intravascular pressure."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Proteins that stimulate the growth and development of tumors; are defined as oncoproteins."
         },
         {
           "question": "Define an extremely dangerous carcinogen:",
@@ -13724,7 +13724,7 @@ module.exports = {
             "Ethyl alcohol"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Benzypyrene is the correct answer to the question regarding \"define an extremely dangerous carcinogen:\"."
         },
         {
           "question": "Find the carcinogen that causes bladder cancer:",
@@ -13735,7 +13735,7 @@ module.exports = {
             "Cyclophosphoamide."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "2-naphthylamine; is the correct answer to the question regarding \"find the carcinogen that causes bladder cancer:\"."
         },
         {
           "question": "What properties of steroid sex hormones may depend on their blastomogenic effect?",
@@ -13746,7 +13746,7 @@ module.exports = {
             "By suppressing glycolysis."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "With the ability to form carcinogenic metabolites; is the correct answer to the question regarding \"what properties of steroid sex hormones may depend on their blastomogenic effect\"."
         },
         {
           "question": "Name the enzyme that transfers genetic information to the genome of a virus-infected cell in RNA:",
@@ -13757,7 +13757,7 @@ module.exports = {
             "caspase;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "RNA-dependent DNA polymerase is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Oncogenesis theories do not include:",
@@ -13768,7 +13768,7 @@ module.exports = {
             "physical and chemical."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "implantable; is the correct answer to the question regarding \"oncogenesis theories do not include:\"."
         },
         {
           "question": "Benign tumors are characterized by:",
@@ -13779,7 +13779,7 @@ module.exports = {
             "Metastasis."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Expansive growth; is the correct answer to the question regarding \"benign tumors are characterized by:\"."
         },
         {
           "question": "What endogenous products are carcinogens?",
@@ -13790,7 +13790,7 @@ module.exports = {
             "Lactic acid."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Free radicals. is the correct answer to the question regarding \"what endogenous products are carcinogens\"."
         },
         {
           "question": "Tumor formed from mesoderm cells:",
@@ -13801,7 +13801,7 @@ module.exports = {
             "Melanoma;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Sarcoma; is the correct answer to the question regarding \"tumor formed from mesoderm cells:\"."
         },
         {
           "question": "A tumor cell is a \"trap\" for the substance under it:",
@@ -13812,7 +13812,7 @@ module.exports = {
             "Hydroxides;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Glucose is correct. Glucose is the primary monosaccharide used as a universal metabolic fuel source by human tissues, especially the brain. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Tumor treatment methods:",
@@ -13823,7 +13823,7 @@ module.exports = {
             "chemotherapy;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "all of them. is the correct answer to the question regarding \"tumor treatment methods:\"."
         },
         {
           "question": "An enzyme that does not initiate metastasis:",
@@ -13834,7 +13834,7 @@ module.exports = {
             "Cathepsin B;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Glucuronidase; is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Name the cell that exocytes TNF (tumor necrosis factor):",
@@ -13845,7 +13845,7 @@ module.exports = {
             "Eosinophil."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Tissue macrophages; is a primary example of the cell that exocytes TNF (tumor necrosis factor):."
         },
         {
           "question": "Dangerous liver cells intensively synthesize:",
@@ -13856,7 +13856,7 @@ module.exports = {
             "C-reactive protein."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "?-fetoprotein; is the correct answer to the question regarding \"dangerous liver cells intensively synthesize:\"."
         },
         {
           "question": "Anticancer mechanisms include:",
@@ -13867,7 +13867,7 @@ module.exports = {
             "Detoxification of free radicals with antioxidants;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "All of the above is true. is the correct answer to the question regarding \"anticancer mechanisms include:\"."
         },
         {
           "question": "A characteristic feature of a benign tumor:",
@@ -13878,7 +13878,7 @@ module.exports = {
             "Absence of clear morphological differences from normal progenitor cells."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Invasive growth; is the correct answer to the question regarding \"a characteristic feature of a benign tumor:\"."
         },
         {
           "question": "Show organic carcinogens of endogenous origin:",
@@ -13889,7 +13889,7 @@ module.exports = {
             "Carbon tetrachloride."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Lipoperoxide compounds; is the organic carcinogens of endogenous origin:."
         },
         {
           "question": "Define the concept of proto-oncogene.",
@@ -13900,7 +13900,7 @@ module.exports = {
             "A mutated gene that controls the repair of a cell's genome (DNA)."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "A gene that controls cell division; is the correct answer to the question regarding \"define the concept of proto-oncogene.\"."
         },
         {
           "question": "Describe the second stage of oncogenesis:",
@@ -13911,7 +13911,7 @@ module.exports = {
             "Interaction of carcinogens with proto-oncogenes and anti-oncogenes of the cell genome."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Conversion of a proto-oncogene to an oncogene; is the correct answer to the question regarding \"describe the second stage of oncogenesis:\"."
         },
         {
           "question": "What is the serum histochemical tumor marker that indicates the origin of the tumor from the cells of the prostate gland?",
@@ -13922,7 +13922,7 @@ module.exports = {
             "Chromogranin."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Acid phosphatase; refers to the serum histochemical tumor marker that indicates the origin of the tumor from the cells of the prostate gland, representing a fundamental concept in biochemistry."
         },
         {
           "question": "Oncogenesis suppressor genes include:",
@@ -13933,7 +13933,7 @@ module.exports = {
             "c-erbB"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "p-53 is the correct answer to the question regarding \"oncogenesis suppressor genes include:\"."
         },
         {
           "question": "Show the cell that does not participate in the body's defense against tumors:",
@@ -13944,7 +13944,7 @@ module.exports = {
             "T-killer."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Fibroblast; is the the cell that does not participate in the body's defense against tumors:."
         },
         {
           "question": "What is characteristic of a malignant tumor?",
@@ -13955,7 +13955,7 @@ module.exports = {
             "Ability to control cell division."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Metastasis; refers to characteristic of a malignant tumor, representing a fundamental concept in biochemistry."
         },
         {
           "question": "Describe the first stage of oncogenesis:",
@@ -13966,7 +13966,7 @@ module.exports = {
             "Conversion of a proto-oncogene to an oncogene;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Interaction of carcinogens with proto-oncogenes and anti-oncogenes of the cell genome. is the correct answer to the question regarding \"describe the first stage of oncogenesis:\"."
         }
       ],
       "situational": [
@@ -14038,7 +14038,7 @@ module.exports = {
             "8.0-10.0"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "1.5-2.0 is the correct answer to the question regarding \"serum albumin-globulin ratio of a healthy person:\"."
         },
         {
           "question": "What function of blood is included in the concept of oncotic blood pressure?",
@@ -14049,7 +14049,7 @@ module.exports = {
             "Thermoregulation"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Osmotic is the correct answer to the question regarding \"what function of blood is included in the concept of oncotic blood pressure\"."
         },
         {
           "question": "The amount of globulins in the blood serum of a healthy person:",
@@ -14060,7 +14060,7 @@ module.exports = {
             "100-120 g / l"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "20-35 g / l is the correct answer to the question regarding \"the amount of globulins in the blood serum of a healthy person:\"."
         },
         {
           "question": "Plasma proteins do not include which of the following:",
@@ -14071,7 +14071,7 @@ module.exports = {
             "Haptoglobin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Myoglobin is the correct answer to the question regarding \"plasma proteins do not include which of the following:\"."
         },
         {
           "question": "Plasma differs from serum in terms of what proteins it contains",
@@ -14082,7 +14082,7 @@ module.exports = {
             "Beta globulins"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Fibrinogen is the correct answer to the question regarding \"plasma differs from serum in terms of what proteins it contains\"."
         },
         {
           "question": "Which of the following acute phase proteins is not present in inflammation",
@@ -14093,7 +14093,7 @@ module.exports = {
             "Whey protein inhibitors"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Albumin is the specific of the following acute phase proteins is not present in inflammation."
         },
         {
           "question": "Blood performs the following functions:",
@@ -14104,7 +14104,7 @@ module.exports = {
             "Osmotic"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "All the above functions is the correct answer to the question regarding \"blood performs the following functions:\"."
         },
         {
           "question": "Disturbance of the acid-alkaline balance of the blood, characterized by the accumulation of acidic compounds, is called:",
@@ -14115,7 +14115,7 @@ module.exports = {
             "Hyperacidity"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Acidosis is the correct answer to the question regarding \"disturbance of the acid-alkaline balance of the blood, characterized by the accumulation of acidic compounds, is called:\"."
         },
         {
           "question": "Specific binding and transport of copper ions takes place in the blood plasma:",
@@ -14126,7 +14126,7 @@ module.exports = {
             "Transferrin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Ceruloplasmin is the correct answer to the question regarding \"specific binding and transport of copper ions takes place in the blood plasma:\"."
         },
         {
           "question": "Colloid-osmotic blood pressure maintains:",
@@ -14137,7 +14137,7 @@ module.exports = {
             "Beta globulins"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Albumin is the correct answer to the question regarding \"colloid-osmotic blood pressure maintains:\"."
         },
         {
           "question": "What is hyperproteinemia?",
@@ -14148,7 +14148,7 @@ module.exports = {
             "Excretion of protein in urine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "An increase in the amount of blood plasma proteins refers to hyperproteinemia, representing a fundamental concept in biochemistry."
         },
         {
           "question": "The occurrence of ?-fetoglobulin, cryoglobulins in blood serum:",
@@ -14159,7 +14159,7 @@ module.exports = {
             "Hypoproteinemia"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Paraproteinemia is the correct answer to the question regarding \"the occurrence of -fetoglobulin, cryoglobulins in blood serum:\"."
         },
         {
           "question": "Albumin is the carrier of the following:",
@@ -14170,7 +14170,7 @@ module.exports = {
             "Various drugs"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Everything is correct is the correct answer to the question regarding \"albumin is the carrier of the following:\"."
         },
         {
           "question": "When you are hungry, find the protein that serves as a protein reserve first:",
@@ -14181,7 +14181,7 @@ module.exports = {
             "Collagen"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Albumin is the correct answer to the question regarding \"when you are hungry, find the protein that serves as a protein reserve first:\"."
         },
         {
           "question": "Which protein group does haptoglobin belong to:",
@@ -14192,7 +14192,7 @@ module.exports = {
             "Gama-globulin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "?lpha 2-globulin is the specific protein group does haptoglobin belong to:."
         },
         {
           "question": "Which of the following proteins is involved in apotransferrin being saturated with iron and turning into transferrin:",
@@ -14203,7 +14203,7 @@ module.exports = {
             "Hemopexin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Ceruloplasmin is the specific of the following proteins is involved in apotransferrin being saturated with iron and turning into transferrin:."
         },
         {
           "question": "Which of the following is Beta-globulin:",
@@ -14214,7 +14214,7 @@ module.exports = {
             "Interferon"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Transferrin is the specific of the following is Beta-globulin:."
         },
         {
           "question": "Name the plasma protein that binds heme and prevents its excretion through the kidneys:",
@@ -14225,7 +14225,7 @@ module.exports = {
             "Haptoglobin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Hemopexin is a primary example of the plasma protein that binds heme and prevents its excretion through the kidneys:."
         },
         {
           "question": "Name the protein that is not found in the blood serum of a healthy person:",
@@ -14236,7 +14236,7 @@ module.exports = {
             "Hemopexin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "C-reactive protein is a primary example of the protein that is not found in the blood serum of a healthy person:."
         },
         {
           "question": "Proteins involved in the body's defense reactions:",
@@ -14247,7 +14247,7 @@ module.exports = {
             "Beta-globulins"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Gama-globulins is the correct answer to the question regarding \"proteins involved in the body's defense reactions:\"."
         },
         {
           "question": "Identify the types of immunoglobulins:",
@@ -14258,7 +14258,7 @@ module.exports = {
             "I, G, M, F, H"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "A, G, M, D, E is identified as the the types of immunoglobulins:."
         },
         {
           "question": "Interferons belong to which group according to their structure:",
@@ -14269,7 +14269,7 @@ module.exports = {
             "Metalloproteins"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Glycoproteins is the correct answer to the question regarding \"interferons belong to which group according to their structure:\"."
         },
         {
           "question": "What is hyperproteinemia?",
@@ -14280,7 +14280,7 @@ module.exports = {
             "Excretion of protein in urine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "An increase in the amount of blood plasma proteins refers to hyperproteinemia, representing a fundamental concept in biochemistry."
         },
         {
           "question": "Proteins involved in inflammatory mechanisms as a response to injuries:",
@@ -14291,7 +14291,7 @@ module.exports = {
             "Glycoproteins"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Acute phase proteins is the correct answer to the question regarding \"proteins involved in inflammatory mechanisms as a response to injuries:\"."
         },
         {
           "question": "Which enzyme activity increases when the salivary glands are inflamed:",
@@ -14302,7 +14302,7 @@ module.exports = {
             "ALT"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Amylase is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Activity increases during myocardial infarction:",
@@ -14313,7 +14313,7 @@ module.exports = {
             "LDG1"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Everything is correct is the correct answer to the question regarding \"activity increases during myocardial infarction:\"."
         },
         {
           "question": "Which of the following indicators increases in the blood in muscle diseases:",
@@ -14324,7 +14324,7 @@ module.exports = {
             "Indian"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Creatine is correct. Creatine phosphate acts as a rapid anaerobic ATP regenerator in skeletal muscle and cardiac tissues. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "What does an increase in the amount of lactate in the blood plasma indicate:",
@@ -14335,7 +14335,7 @@ module.exports = {
             "Inflammation"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Hypoxia is correct. Lactate is produced from pyruvate during anaerobic glycolysis, serving as a substrate for gluconeogenesis in the Cori cycle. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "The role of phosphates in blood plasma:",
@@ -14346,7 +14346,7 @@ module.exports = {
             "Fluid control"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Participation in the buffer system is the correct answer to the question regarding \"the role of phosphates in blood plasma:\"."
         },
         {
           "question": "Which of the following is not an acute phase protein:",
@@ -14357,7 +14357,7 @@ module.exports = {
             "Haptoglobin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Thrombin is the specific of the following is not an acute phase protein:."
         }
       ],
       "situational": [
@@ -14429,7 +14429,7 @@ module.exports = {
             "200-300 mg"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "50-60 mg describes how much iron should be in the food in order for the body to absorb 10 mg of iron per day."
         },
         {
           "question": "Which of the following substances interferes with the absorption of iron in the intestines::",
@@ -14440,7 +14440,7 @@ module.exports = {
             "Folates"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Tannin is the specific of the following substances interferes with the absorption of iron in the intestines::."
         },
         {
           "question": "A strong buffer system that makes up 75% of the buffer system of blood:",
@@ -14451,7 +14451,7 @@ module.exports = {
             "Acetate"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Hemoglobin is the correct answer to the question regarding \"a strong buffer system that makes up 75% of the buffer system of blood:\"."
         },
         {
           "question": "Excessive absorption of iron in the intestines:",
@@ -14462,7 +14462,7 @@ module.exports = {
             "Hemoblastic anemia"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Hemochromatosis is the correct answer to the question regarding \"excessive absorption of iron in the intestines:\"."
         },
         {
           "question": "The main task of HBA:",
@@ -14473,7 +14473,7 @@ module.exports = {
             "Participation in the formation of reactive oxygen species"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Transport of CO2 and O2 is the correct answer to the question regarding \"the main task of hba:\"."
         },
         {
           "question": "Define the pathological form of hemoglobin:",
@@ -14484,7 +14484,7 @@ module.exports = {
             "HbA2"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "HbS is the correct answer to the question regarding \"define the pathological form of hemoglobin:\"."
         },
         {
           "question": "Life expectancy of erythrocytes:",
@@ -14495,7 +14495,7 @@ module.exports = {
             "15 days"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "120 days is the correct answer to the question regarding \"life expectancy of erythrocytes:\"."
         },
         {
           "question": "Beta-globulin fraction transports iron trivalent ion",
@@ -14506,7 +14506,7 @@ module.exports = {
             "Hemopexin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Transferrin is the correct answer to the question regarding \"beta-globulin fraction transports iron trivalent ion\"."
         },
         {
           "question": "Adult erythrocytes contain 98% of hemoglobin:",
@@ -14517,7 +14517,7 @@ module.exports = {
             "HA2"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "HbA. is the correct answer to the question regarding \"adult erythrocytes contain 98% of hemoglobin:\"."
         },
         {
           "question": "Choose indicators of the normal amount of hemoglobin in women:",
@@ -14528,7 +14528,7 @@ module.exports = {
             "70-100 g / l"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "115-145 g / l is the correct answer to the question regarding \"choose indicators of the normal amount of hemoglobin in women:\"."
         },
         {
           "question": "Choose indicators of normal hemoglobin content in men:",
@@ -14539,7 +14539,7 @@ module.exports = {
             "100-120 g / l"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "130-160 g / l is the correct answer to the question regarding \"choose indicators of normal hemoglobin content in men:\"."
         },
         {
           "question": "Show the types of hemoglobin in the red blood cells of healthy people:",
@@ -14550,7 +14550,7 @@ module.exports = {
             "A2, S."
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "A1, A2, F is the the types of hemoglobin in the red blood cells of healthy people:."
         },
         {
           "question": "Which disease causes the presence of HbA1S hemoglobin in the blood:",
@@ -14561,7 +14561,7 @@ module.exports = {
             "Hypoxia"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Diabetes is the specific disease causes the presence of HbA1S hemoglobin in the blood:."
         },
         {
           "question": "The hemoglobin buffer system of blood consists of:",
@@ -14572,7 +14572,7 @@ module.exports = {
             "Oxyhemoglobin and methemoglobin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Oxyhemoglobin and deoxyhemoglobin is the correct answer to the question regarding \"the hemoglobin buffer system of blood consists of:\"."
         },
         {
           "question": "What is the pH value of the bicarbonate buffer system of blood",
@@ -14583,7 +14583,7 @@ module.exports = {
             "7.0"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "7.4 refers to the pH value of the bicarbonate buffer system of blood, representing a fundamental concept in biochemistry."
         },
         {
           "question": "Type B of hemophilia depends on which factor:",
@@ -14594,7 +14594,7 @@ module.exports = {
             "The Hageman factor"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Christmas factor is the correct answer to the question regarding \"type b of hemophilia depends on which factor:\"."
         },
         {
           "question": "A protein that ensures that iron (Fe3+) ions absorbed in the intestine are absorbed by various organs of the body and accumulate as a reserve in various organs:",
@@ -14605,7 +14605,7 @@ module.exports = {
             "Ceruloplasmin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Ferritin is the correct answer to the question regarding \"a protein that ensures that iron (fe3+) ions absorbed in the intestine are absorbed by various organs of the body and accumulate as a reserve in various organs:\"."
         },
         {
           "question": "Identify the coenzyme of aminolevulinic synthase:",
@@ -14616,7 +14616,7 @@ module.exports = {
             "Niacin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Pridoxalphosphate is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "The combination of hemoglobin with oxygen is called:",
@@ -14627,7 +14627,7 @@ module.exports = {
             "Carbemoglobin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Oxyhemoglobin is the correct answer to the question regarding \"the combination of hemoglobin with oxygen is called:\"."
         },
         {
           "question": "The compound that transports carbon dioxide from the tissues to the lungs is called:",
@@ -14638,7 +14638,7 @@ module.exports = {
             "Carboxyhemoglobin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Carbhemoglobin is the correct answer to the question regarding \"the compound that transports carbon dioxide from the tissues to the lungs is called:\"."
         },
         {
           "question": "In people carrying the HbS gene, the place of glutamic acid in the 6th position of the hemoglobin ?-chain is replaced by which amino acid:",
@@ -14649,7 +14649,7 @@ module.exports = {
             "Methionine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Valin is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Show the predecessor of fibrin",
@@ -14660,7 +14660,7 @@ module.exports = {
             "Fibroin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Fibrinogen is the the predecessor of fibrin."
         },
         {
           "question": "In the 1st stage of heme synthesis, aminolevulinic acid is formed from which substances:",
@@ -14671,7 +14671,7 @@ module.exports = {
             "From propionyl CoA and iron"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Glycine and succinyl CoA is the correct answer to the question regarding \"in the 1st stage of heme synthesis, aminolevulinic acid is formed from which substances:\"."
         },
         {
           "question": "Ferrochelatase enzyme is also known as:",
@@ -14682,7 +14682,7 @@ module.exports = {
             "Porphoblinogen synthase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Hemesynthase is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "In which disease the urine is red and the skin is sensitive to sunlight:",
@@ -14693,7 +14693,7 @@ module.exports = {
             "Hemophilia"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Porphyria is the correct answer to the question regarding \"in which disease the urine is red and the skin is sensitive to sunlight:\"."
         },
         {
           "question": "Blood coagulation reactions take place based on the mechanism of:",
@@ -14704,7 +14704,7 @@ module.exports = {
             "Rescue"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Cascade is the correct answer to the question regarding \"blood coagulation reactions take place based on the mechanism of:\"."
         },
         {
           "question": "Choose an inactive factor of hemocoagulation:",
@@ -14715,7 +14715,7 @@ module.exports = {
             "Convertin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Prothrombin is the correct answer to the question regarding \"choose an inactive factor of hemocoagulation:\"."
         },
         {
           "question": "Factor that converts fibrinogen to fibrin:",
@@ -14726,7 +14726,7 @@ module.exports = {
             "Vitamin K"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Thrombin is the correct answer to the question regarding \"factor that converts fibrinogen to fibrin:\"."
         },
         {
           "question": "Define an anticoagulant substance:",
@@ -14737,7 +14737,7 @@ module.exports = {
             "Thromboplastin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Heparin is the correct answer to the question regarding \"define an anticoagulant substance:\"."
         },
         {
           "question": "What is the process of fibrinolysis::",
@@ -14748,7 +14748,7 @@ module.exports = {
             "Blood clotting disorders"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Fibrin clot breakdown refers to the process of fibrinolysis::, representing a fundamental concept in biochemistry."
         }
       ],
       "situational": []
@@ -14764,7 +14764,7 @@ module.exports = {
             "Protoglycan"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Elastin refers to the 2nd main protein of connective tissue, representing a fundamental concept in biochemistry."
         },
         {
           "question": "What makes up 30-60% of the total mass of aorta tissue?",
@@ -14775,7 +14775,7 @@ module.exports = {
             "Protein"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Elastin is the correct answer to the question regarding \"what makes up 30-60% of the total mass of aorta tissue\"."
         },
         {
           "question": "Where is the elastin-degrading proelastase produced?",
@@ -14786,7 +14786,7 @@ module.exports = {
             "Stomach"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Pancreas is the precise site where is the elastin-degrading proelastase produced."
         },
         {
           "question": "Predecessor of elastin",
@@ -14797,7 +14797,7 @@ module.exports = {
             "prohyaluron"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "tropoelastin is the correct answer to the question regarding \"predecessor of elastin\"."
         },
         {
           "question": "How many percent of carbon do proteoglycans contain?",
@@ -14808,7 +14808,7 @@ module.exports = {
             "99%"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "95% describes how many percent of carbon do proteoglycans contain."
         },
         {
           "question": "How many classes are glycosaminoglycans divided into?",
@@ -14819,7 +14819,7 @@ module.exports = {
             "2"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "6 describes how many classes are glycosaminoglycans divided into."
         },
         {
           "question": "What are proteoglycans called today?",
@@ -14830,7 +14830,7 @@ module.exports = {
             "Galactosamines"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Glycosaminoglycans are defined as proteoglycans called today."
         },
         {
           "question": "Which of the following consists of insoluble, highly elastic, rigid cross-links?",
@@ -14841,7 +14841,7 @@ module.exports = {
             "Procallogen"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Elastin is the specific of the following consists of insoluble, highly elastic, rigid cross-links."
         },
         {
           "question": "Proteoglycans make up what percentage of tissue dry mass?",
@@ -14852,7 +14852,7 @@ module.exports = {
             "10%"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "30% is the correct answer to the question regarding \"proteoglycans make up what percentage of tissue dry mass\"."
         },
         {
           "question": "A change in the viscosity of joint fluid in rheumatic patients is the result of a change in the structure of which compound",
@@ -14863,7 +14863,7 @@ module.exports = {
             "Desmosine and isodesmosine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Proteglycans is the correct answer to the question regarding \"a change in the viscosity of joint fluid in rheumatic patients is the result of a change in the structure of which compound\"."
         },
         {
           "question": "What is the shape of fibrils?",
@@ -14874,7 +14874,7 @@ module.exports = {
             "Triangle"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Cylinder refers to the shape of fibrils, representing a fundamental concept in biochemistry."
         },
         {
           "question": "What percentage of body weight is connective tissue?",
@@ -14885,7 +14885,7 @@ module.exports = {
             "20%"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "50% is the correct answer to the question regarding \"what percentage of body weight is connective tissue\"."
         },
         {
           "question": "What is the mechanical and holding function of the connective tissue?",
@@ -14896,7 +14896,7 @@ module.exports = {
             "Glycolipids"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "An insoluble protein outside the cell refers to the mechanical and holding function of the connective tissue, representing a fundamental concept in biochemistry."
         },
         {
           "question": "Specific structure for connective tissue?",
@@ -14907,7 +14907,7 @@ module.exports = {
             "Two-layer structure"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Fibrillar structure is the correct answer to the question regarding \"specific structure for connective tissue\"."
         },
         {
           "question": "What makes up 1/3 of the amino acids in collagen?",
@@ -14918,7 +14918,7 @@ module.exports = {
             "hydroxyproline"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "glycine is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Which substance acts as a shock absorber in the joints?",
@@ -14929,7 +14929,7 @@ module.exports = {
             "Arachidonic acid"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Hyaluronic acid is the specific substance acts as a shock absorber in the joints."
         },
         {
           "question": "Which hormone accelerates the synthesis of hyaluronic acid?",
@@ -14940,7 +14940,7 @@ module.exports = {
             "Noradrenaline"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Testosterone is the specific hormone accelerates the synthesis of hyaluronic acid."
         },
         {
           "question": "When is hyaluronic acid repolymerized?",
@@ -14951,7 +14951,7 @@ module.exports = {
             "If the amount of cholesterol increases"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "When adrenocorticosteroids are introduced is the correct answer to the question regarding \"when is hyaluronic acid repolymerized\"."
         },
         {
           "question": "In old age, the percentage of connective tissue decreases?",
@@ -14962,7 +14962,7 @@ module.exports = {
             "Glucosamines"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Water and the main substance is the correct answer to the question regarding \"in old age, the percentage of connective tissue decreases\"."
         },
         {
           "question": "In old age, the amount of connective tissue decreases first?",
@@ -14973,7 +14973,7 @@ module.exports = {
             "Glycoprotein"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Hyaluronic acid is the correct answer to the question regarding \"in old age, the amount of connective tissue decreases first\"."
         },
         {
           "question": "When does the molecular structure of collagen change?",
@@ -14984,7 +14984,7 @@ module.exports = {
             "During the reign of Yuvinil"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "In old age is the correct answer to the question regarding \"when does the molecular structure of collagen change\"."
         },
         {
           "question": "What kind of disease is rheumatoid arthritis?",
@@ -14995,7 +14995,7 @@ module.exports = {
             "Contagious infectious disease"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Systemic connective tissue disease is the correct answer to the question regarding \"what kind of disease is rheumatoid arthritis\"."
         },
         {
           "question": "What disease is caused by changes in the exchange of collagen and proteoglycans?",
@@ -15006,7 +15006,7 @@ module.exports = {
             "Inflammation"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Rheumatic arthritis is the correct answer to the question regarding \"what disease is caused by changes in the exchange of collagen and proteoglycans\"."
         },
         {
           "question": "Rheumatoid arthritis is a systemic disease of which tissue",
@@ -15017,7 +15017,7 @@ module.exports = {
             "Nerve"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Consolidator is the correct answer to the question regarding \"rheumatoid arthritis is a systemic disease of which tissue\"."
         },
         {
           "question": "A cell belonging to connective tissue:",
@@ -15028,7 +15028,7 @@ module.exports = {
             "Epithelium"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Erythrocyte is the correct answer to the question regarding \"a cell belonging to connective tissue:\"."
         },
         {
           "question": "Which hormonal influence accelerates your synthesis of hyaluronic acid?",
@@ -15039,7 +15039,7 @@ module.exports = {
             "Somatotropy"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Testosterone is the specific hormonal influence accelerates your synthesis of hyaluronic acid."
         },
         {
           "question": "Hyaluronidase enzyme is present in which of the following:",
@@ -15050,7 +15050,7 @@ module.exports = {
             "In erythrocytes"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "In sperm is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "What disease is caused by a change in the exchange of collagen and proteoglycans?",
@@ -15061,7 +15061,7 @@ module.exports = {
             "Inflammation"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Rheumatic arthritis is the correct answer to the question regarding \"what disease is caused by a change in the exchange of collagen and proteoglycans\"."
         },
         {
           "question": "Which process is disturbed in sinus disease?",
@@ -15072,7 +15072,7 @@ module.exports = {
             "Formation of hyaluronic acid"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Hydroxylation of collagen is the specific process is disturbed in sinus disease."
         },
         {
           "question": "The amount of collagen in old age?",
@@ -15083,7 +15083,7 @@ module.exports = {
             "Biosynthesis is accelerated"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Increases is the correct answer to the question regarding \"the amount of collagen in old age\"."
         }
       ],
       "situational": [
@@ -15155,7 +15155,7 @@ module.exports = {
             "30-35%"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "40-42% is the correct answer to the question regarding \"what percentage of body weight is muscle tissue.\"."
         },
         {
           "question": "When muscles contract:",
@@ -15166,7 +15166,7 @@ module.exports = {
             "Potential energy is converted into heat energy"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Chemical energy is converted into mechanical energy is the correct answer to the question regarding \"when muscles contract:\"."
         },
         {
           "question": "The main function of the muscle.",
@@ -15177,7 +15177,7 @@ module.exports = {
             "Protection"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Abbreviation is the correct answer to the question regarding \"the main function of the muscle.\"."
         },
         {
           "question": "Define muscle proteins.",
@@ -15188,7 +15188,7 @@ module.exports = {
             "Tropomyosin, histone"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Myosin, actin is the correct answer to the question regarding \"define muscle proteins.\"."
         },
         {
           "question": "Mark the muscle contraction element.",
@@ -15199,7 +15199,7 @@ module.exports = {
             "Muscle fiber"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Myofibrils is the correct answer to the question regarding \"mark the muscle contraction element.\"."
         },
         {
           "question": "The main source of energy for muscle contraction.",
@@ -15210,7 +15210,7 @@ module.exports = {
             "1,3 diphosphoglycerate"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "ATP is correct. Adenosine triphosphate (ATP) is the universal biological energy currency, storing metabolic energy in its phosphoanhydride bonds. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Myofibrillar proteins of muscle tissue:",
@@ -15221,7 +15221,7 @@ module.exports = {
             "Hemoglobin, actin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Troponin, Myosin is the correct answer to the question regarding \"myofibrillar proteins of muscle tissue:\"."
         },
         {
           "question": "It can be a source of energy for muscle contraction:",
@@ -15232,7 +15232,7 @@ module.exports = {
             "Carbamoyl phosphate"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Creatine phosphate is correct. Creatine phosphate acts as a rapid anaerobic ATP regenerator in skeletal muscle and cardiac tissues. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Which ions are involved in the control of muscle contraction?:",
@@ -15243,7 +15243,7 @@ module.exports = {
             "Iron"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Calcium is the specific ions are involved in the control of muscle contraction?:."
         },
         {
           "question": "When the concentration of Ca2+ ions in muscles decreases:",
@@ -15254,7 +15254,7 @@ module.exports = {
             "It cannot contract and relax"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Muscles relax is the correct answer to the question regarding \"when the concentration of ca2+ ions in muscles decreases:\"."
         },
         {
           "question": "Proteins that make up 35% of muscle tissue",
@@ -15265,7 +15265,7 @@ module.exports = {
             "Stromal proteins"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Sarcoplasmic is the correct answer to the question regarding \"proteins that make up 35% of muscle tissue\"."
         },
         {
           "question": "One of the extractive substances involved in the chemical processes of muscle contraction",
@@ -15276,7 +15276,7 @@ module.exports = {
             "Triglycerides"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Creatine is correct. Creatine phosphate acts as a rapid anaerobic ATP regenerator in skeletal muscle and cardiac tissues. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Troponin belongs to the group of muscle proteins:",
@@ -15287,7 +15287,7 @@ module.exports = {
             "Microfibrillar"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Myofibrillar is the correct answer to the question regarding \"troponin belongs to the group of muscle proteins:\"."
         },
         {
           "question": "Name the sarcoplasmic protein in muscle tissue:",
@@ -15298,7 +15298,7 @@ module.exports = {
             "Myosin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Myoglobin is a primary example of the sarcoplasmic protein in muscle tissue:."
         },
         {
           "question": "One of the non-protein nitrogen-storing extractives in muscle tissue:",
@@ -15309,7 +15309,7 @@ module.exports = {
             "Troponin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Anserine is the correct answer to the question regarding \"one of the non-protein nitrogen-storing extractives in muscle tissue:\"."
         },
         {
           "question": "Name the muscle protein with catalytic activity:",
@@ -15320,7 +15320,7 @@ module.exports = {
             "All stromal proteins"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Myosin is a primary example of the muscle protein with catalytic activity:."
         },
         {
           "question": "Find the correct sentence:",
@@ -15331,7 +15331,7 @@ module.exports = {
             "Only anaerobic glycolysis occurs in muscles"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "The actin thread moves along the myosin threads is the correct answer to the question regarding \"find the correct sentence:\"."
         },
         {
           "question": "What is the concentration of Ca2+ in relaxed muscles:",
@@ -15342,7 +15342,7 @@ module.exports = {
             "10-2M"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "10-7M refers to the concentration of Ca2+ in relaxed muscles:, representing a fundamental concept in biochemistry."
         },
         {
           "question": "Define the sarcoplasmic protein of muscle tissue:",
@@ -15353,7 +15353,7 @@ module.exports = {
             "Troponin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Myogen is the correct answer to the question regarding \"define the sarcoplasmic protein of muscle tissue:\"."
         },
         {
           "question": "Specify the function of myoglobin:",
@@ -15364,7 +15364,7 @@ module.exports = {
             "Trophic"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Oxygen transport in muscles is the correct answer to the question regarding \"specify the function of myoglobin:\"."
         },
         {
           "question": "Find a substance that increases the amplitude of contraction of tired muscles?:",
@@ -15375,7 +15375,7 @@ module.exports = {
             "sAMF"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Carnosine is the correct answer to the question regarding \"find a substance that increases the amplitude of contraction of tired muscles:\"."
         },
         {
           "question": "Name the amino acids involved in creatine synthesis:",
@@ -15386,7 +15386,7 @@ module.exports = {
             "Histidine, proline, oxyproline"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Arginine, glycine, methionine is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Which enzyme is an indicator for heart disease?",
@@ -15397,7 +15397,7 @@ module.exports = {
             "Aldolase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Creatine phosphokinase is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Define the reactions that supply muscles with energy?",
@@ -15408,7 +15408,7 @@ module.exports = {
             "Myokinase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Everything is correct is the correct answer to the question regarding \"define the reactions that supply muscles with energy\"."
         },
         {
           "question": "Define the \"rescue mechanism\" of muscles in emergency situations?",
@@ -15419,7 +15419,7 @@ module.exports = {
             "Anserine-carnosine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Myokinase reaction is the correct answer to the question regarding \"define the \"rescue mechanism\" of muscles in emergency situations\"."
         },
         {
           "question": "Specify the condition observed in myopathy:",
@@ -15430,7 +15430,7 @@ module.exports = {
             "Azotemia"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Creatinuria is the correct answer to the question regarding \"specify the condition observed in myopathy:\"."
         },
         {
           "question": "Which disease can cause creatinineuria?",
@@ -15441,7 +15441,7 @@ module.exports = {
             "Myocardial infarction"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Progressive muscular dystrophy is the specific disease can cause creatinineuria."
         },
         {
           "question": "In cardiac muscles, the amount of creatine phosphate is less than in skeletal muscles, and ATP consumption is higher, so which reaction rate is higher?",
@@ -15452,7 +15452,7 @@ module.exports = {
             "Substrate Phosphorylation"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Aerobic resynthesis of ATP is correct. Adenosine triphosphate (ATP) is the universal biological energy currency, storing metabolic energy in its phosphoanhydride bonds. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Show the main LDG in skeletal muscle:",
@@ -15463,7 +15463,7 @@ module.exports = {
             "LDG3"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "LDG5 is the the main LDG in skeletal muscle:."
         },
         {
           "question": "Muscle atrophy can occur as a result of lipid peroxidation in muscles when there is a lack of which vitamin:",
@@ -15474,7 +15474,7 @@ module.exports = {
             "B group vitamins"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Vitamin E is correct. Vitamin E (tocopherol) is a lipid-soluble antioxidant protecting cellular membranes from free radical lipid peroxidation. This aligns with established biochemical pathways and clinical diagnostics."
         }
       ],
       "situational": [
@@ -15546,7 +15546,7 @@ module.exports = {
             "in the lungs"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "in the intestinal cavity is the precise site where are micelles formed."
         },
         {
           "question": "Glycolytic enzymes are involved in the digestion of which substances?",
@@ -15557,7 +15557,7 @@ module.exports = {
             "Nucleoproteins"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Carbohydrates is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Optimal pH environment of gastric juice for pepsinogen activation?",
@@ -15568,7 +15568,7 @@ module.exports = {
             "7.8-8.3"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "1.5-2.5 is correct. Pepsin is an acidic protease secreted by gastric chief cells, initiating protein digestion in the stomach. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Standard indicator of free hydrochloric acid in gastric juice (mol/l)?",
@@ -15579,7 +15579,7 @@ module.exports = {
             "90-100"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "20-40 is the correct answer to the question regarding \"standard indicator of free hydrochloric acid in gastric juice (mol/l)\"."
         },
         {
           "question": "Show the phospholipase that ensures the digestion of phospholipids in the intestine?",
@@ -15590,7 +15590,7 @@ module.exports = {
             "Phospholipase K"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Phospholipase A is correct. Phospholipids are major structural lipids containing a hydrophilic head and hydrophobic tails, forming the cellular bilayer. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "The general name of enzymes involved in the breakdown of proteins in the gastrointestinal tract?",
@@ -15601,7 +15601,7 @@ module.exports = {
             "Lipases"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Proteolytic enzymes is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Importance of hydrochloric acid of gastric juice?",
@@ -15612,7 +15612,7 @@ module.exports = {
             "Ensures absorption of proteins"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "The bactericidal effect is the correct answer to the question regarding \"importance of hydrochloric acid of gastric juice\"."
         },
         {
           "question": "Necessary conditions for the absorption of amino acids in the small intestine?",
@@ -15623,7 +15623,7 @@ module.exports = {
             "Presence of bile acids"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "The presence of sodium ions is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Representative of proteases found in gastric juice?",
@@ -15634,7 +15634,7 @@ module.exports = {
             "Elastase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Pepsin is correct. Pepsin is an acidic protease secreted by gastric chief cells, initiating protein digestion in the stomach. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Representative of proteases present in pancreatic juice?",
@@ -15645,7 +15645,7 @@ module.exports = {
             "Gastric"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Trypsinogen is the correct answer to the question regarding \"representative of proteases present in pancreatic juice\"."
         },
         {
           "question": "An enzyme involved in the digestion of proteins in the gastrointestinal tract?",
@@ -15656,7 +15656,7 @@ module.exports = {
             "Alanine aminotransferase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Aminopeptidase is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "What enzyme activity is determined in the blood in acute pancreatitis?",
@@ -15667,7 +15667,7 @@ module.exports = {
             "Aminotransferases"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Amylase is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "The most important substance for the digestion and absorption of fats in the intestine?",
@@ -15678,7 +15678,7 @@ module.exports = {
             "Lipoprotein lipase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Bile acid is correct. Bile acids are amphipathic molecules synthesized from cholesterol in the liver that emulsify dietary fats for absorption. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "What can be the cause of fat malabsorption?",
@@ -15689,7 +15689,7 @@ module.exports = {
             "Lack of gastric juice"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Insufficiency of bile acid in the intestines is correct. Bile acids are amphipathic molecules synthesized from cholesterol in the liver that emulsify dietary fats for absorption. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Show the drug recommended for the treatment of acute pancreatitis?",
@@ -15700,7 +15700,7 @@ module.exports = {
             "Carnitine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Trasilol is the the drug recommended for the treatment of acute pancreatitis."
         },
         {
           "question": "pH norm in gastric juice?",
@@ -15711,7 +15711,7 @@ module.exports = {
             "10.4-12.8"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "1.5-2.0 is the correct answer to the question regarding \"ph norm in gastric juice\"."
         },
         {
           "question": "Under what conditions are the enzymes released from the pancreas poured into the duodenum?",
@@ -15722,7 +15722,7 @@ module.exports = {
             "In the conjugated state"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "In pro condition is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Which proenzyme is activated in large quantities in peptic ulcer diseases?",
@@ -15733,7 +15733,7 @@ module.exports = {
             "Procarboxypeptidase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Pepsinogen is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Find the substance that is absorbed into the blood from the intestine?",
@@ -15744,7 +15744,7 @@ module.exports = {
             "Peptone"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Galactose is correct. Galactose is a monosaccharide derived from lactose hydrolysis, metabolized primarily in the liver. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Absence of HCl in gastric juice?",
@@ -15755,7 +15755,7 @@ module.exports = {
             "Hyperchlorhydria"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Achlorhydria is the correct answer to the question regarding \"absence of hcl in gastric juice\"."
         },
         {
           "question": "Proteolytic enzyme of gastric juice?",
@@ -15766,7 +15766,7 @@ module.exports = {
             "Dipeptidase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Gastric is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Participates in the digestion of triglycerides in the gastrointestinal tract?",
@@ -15777,18 +15777,18 @@ module.exports = {
             "Alkaline phosphatase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Pancreatic lipase is correct. Triglycerides (triacylglycerols) are esters of glycerol and three fatty acids, acting as the primary long-term energy reserve. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "The activity of which enzyme increases when the salivary glands are inflamed?",
           "options": [
             "?-amylase",
-            "?-amylase",
+            "Trypsin",
             "Gastroxin",
             "Ptyalin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Alpha-amylase is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "What does bilirubin turn into in the small and large intestines?",
@@ -15799,7 +15799,7 @@ module.exports = {
             "Biliverdin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Stercobilinogen is correct. Birubin is the yellow breakdown product of normal heme catabolism, conjugated with glucuronic acid in the liver before biliary excretion. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "An enzyme that is not included in the group of proteolytic enzymes in intestinal juice?",
@@ -15810,7 +15810,7 @@ module.exports = {
             "Dipeptidase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Pepsinogen is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "The patient was diagnosed with constipation. Which carbohydrate is recommended for improving bowel function?",
@@ -15821,7 +15821,7 @@ module.exports = {
             "Glucose"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Kletchatka is the correct answer to the question regarding \"the patient was diagnosed with constipation. which carbohydrate is recommended for improving bowel function\"."
         },
         {
           "question": "Which process is disturbed due to the insufficient amount of bile acid in the intestine?",
@@ -15832,7 +15832,7 @@ module.exports = {
             "Deficiency of essential amino acids"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Fat digestion and absorption in the intestines is correct. Bile acids are amphipathic molecules synthesized from cholesterol in the liver that emulsify dietary fats for absorption. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Gastric juice is green. What is the reason for this?",
@@ -15843,7 +15843,7 @@ module.exports = {
             "Presence of lactate in gastric juice"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Presence of bile in gastric juice is the correct answer to the question regarding \"gastric juice is green. what is the reason for this\"."
         },
         {
           "question": "Complete absence of HCl and pepsin in gastric juice?",
@@ -15854,7 +15854,7 @@ module.exports = {
             "Hyperchlorhydria"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Achillea is correct. Pepsin is an acidic protease secreted by gastric chief cells, initiating protein digestion in the stomach. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "The following drugs can be recommended when the synthesis of enzymes in the gastrointestinal tract is disturbed?",
@@ -15865,7 +15865,7 @@ module.exports = {
             "Fibrinolysin, panzinorm"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Pepsin, festal is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         }
       ],
       "situational": [
@@ -15937,7 +15937,7 @@ module.exports = {
             "Participation in the regulation of metabolism"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "All answers are correct is the correct answer to the question regarding \"define the biochemical function of the liver\"."
         },
         {
           "question": "In which organ is the transformation of provitamins into vitamins:",
@@ -15948,7 +15948,7 @@ module.exports = {
             "In the spleen"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "In the liver is the correct answer to the question regarding \"in which organ is the transformation of provitamins into vitamins:\"."
         },
         {
           "question": "Liver damage is not accompanied by an increase in nitrogen balance in the blood due to the following indicators:",
@@ -15959,7 +15959,7 @@ module.exports = {
             "Hyperbilirubinemia"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Uremia is the correct answer to the question regarding \"liver damage is not accompanied by an increase in nitrogen balance in the blood due to the following indicators:\"."
         },
         {
           "question": "Which enzyme activity is activated in hepatocytes under conditions of carbohydrate starvation?",
@@ -15970,7 +15970,7 @@ module.exports = {
             "Phosphofructomutase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Glyconen phosphorylase is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Acetyl-CoA in the liver does not undergo which changes:",
@@ -15981,7 +15981,7 @@ module.exports = {
             "It is oxidized to CO2 and H2O"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "For the synthesis of amino acids is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Which change of lipids does not occur in the liver:",
@@ -15992,7 +15992,7 @@ module.exports = {
             "Oxidation of fatty acids"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Synthesis of linolenic acid is the specific change of lipids does not occur in the liver:."
         },
         {
           "question": "Which lipid changes do not occur in the liver:",
@@ -16003,7 +16003,7 @@ module.exports = {
             "Formation of cholesterol"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Oxidation of acetoacetate is the specific lipid changes do not occur in the liver:."
         },
         {
           "question": "Gluconeogenesis enzymes are located in which of the following cells?",
@@ -16014,7 +16014,7 @@ module.exports = {
             "In sarcomyocytes"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "In hepatocytes is correct. Gluconeogenesis is the hepatic synthesis of glucose from non-carbohydrate precursors (like lactate, glycerol, and amino acids) during fasting. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Indicate the possible sources of glucose-6-phosphate formation in the liver:",
@@ -16025,7 +16025,7 @@ module.exports = {
             "Galactose"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "All named sources is correct. Glucose is the primary monosaccharide used as a universal metabolic fuel source by human tissues, especially the brain. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Glucose that passes through the blood from the intestine to the liver is not used for which functions:",
@@ -16036,7 +16036,7 @@ module.exports = {
             "Converted to fat to store energy"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "It is used to neutralize ammonia is correct. Glucose is the primary monosaccharide used as a universal metabolic fuel source by human tissues, especially the brain. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "K+ ion affects which of the following processes in the liver:",
@@ -16047,7 +16047,7 @@ module.exports = {
             "Ammonia neutralization"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Gluconeogenesis is correct. Gluconeogenesis is the hepatic synthesis of glucose from non-carbohydrate precursors (like lactate, glycerol, and amino acids) during fasting. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "For the biosynthesis of cholesterol, higher fatty acids and nucleic acids in the liver, the need for such coenzymes is great:",
@@ -16058,7 +16058,7 @@ module.exports = {
             "FMN"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "NADFH is correct. Nucleic acids (DNA and RNA) are biopolymers composed of nucleotide monomers, holding the cell's genetic blueprints. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Gallstone disease is not caused by the following factors:",
@@ -16069,7 +16069,7 @@ module.exports = {
             "Dyskinesia of bile ducts"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Lack of fat in the diet is the correct answer to the question regarding \"gallstone disease is not caused by the following factors:\"."
         },
         {
           "question": "Fatty acids in the liver are used in every way, except for:",
@@ -16080,7 +16080,7 @@ module.exports = {
             "To form cholesterol esters"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "For the synthesis of amino acids is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Hypoprothrombinemia is associated with insufficient synthesis of which protein in the liver:",
@@ -16091,7 +16091,7 @@ module.exports = {
             "Proconvertin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Prothrombin is the correct answer to the question regarding \"hypoprothrombinemia is associated with insufficient synthesis of which protein in the liver:\"."
         },
         {
           "question": "Jaundice occurs when the concentration of bilirubin in the blood is as follows:",
@@ -16102,7 +16102,7 @@ module.exports = {
             "3-5 ?mol/l"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Above 32-35 ?mol/l is correct. Birubin is the yellow breakdown product of normal heme catabolism, conjugated with glucuronic acid in the liver before biliary excretion. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Dysproteinemia develops in hepatitis, in which the ratio of which proteins changes:",
@@ -16113,7 +16113,7 @@ module.exports = {
             "Glycoproteid-lipoproteid"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Albumin-globulin is the correct answer to the question regarding \"dysproteinemia develops in hepatitis, in which the ratio of which proteins changes:\"."
         },
         {
           "question": "The reason why the blood glucose level of a healthy person is kept within normal limits during 12-24 hours of fasting is mainly:",
@@ -16124,7 +16124,7 @@ module.exports = {
             "With the breakdown of glycogen in the muscles to glucose"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "With the breakdown of liver glycogen into glucose is correct. Glycogen is a highly branched homopolymer of glucose serving as the primary short-term carbohydrate reserve in human liver and muscle. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "In conditions of iron deficiency anemia in the liver, the synthesis of metalloproteins is disturbed, which serves as a source of iron for heme synthesis. Name this metalloprotein:",
@@ -16135,7 +16135,7 @@ module.exports = {
             "Myoglobin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Ferritin is the correct answer to the question regarding \"in conditions of iron deficiency anemia in the liver, the synthesis of metalloproteins is disturbed, which serves as a source of iron for heme synthesis. name this metalloprotein:\"."
         },
         {
           "question": "Pellagra is not observed under conditions of adequate nutrition with animal proteins, because vitamin PP (B5) is partially formed in the liver:",
@@ -16146,7 +16146,7 @@ module.exports = {
             "Fatty acids"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Tryptophan is the correct answer to the question regarding \"pellagra is not observed under conditions of adequate nutrition with animal proteins, because vitamin pp (b5) is partially formed in the liver:\"."
         },
         {
           "question": "In which form of jaundice, hyperbilirubinemia is not accompanied by bilirubinuria:",
@@ -16157,7 +16157,7 @@ module.exports = {
             "A mix"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Hemolytic is correct. Birubin is the yellow breakdown product of normal heme catabolism, conjugated with glucuronic acid in the liver before biliary excretion. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "An increase in the amount of indican in the urine of a patient with intestinal dysbacteriosis indicates the following:",
@@ -16168,7 +16168,7 @@ module.exports = {
             "Increased fat hydrolysis"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Normal liver detoxification function is the correct answer to the question regarding \"an increase in the amount of indican in the urine of a patient with intestinal dysbacteriosis indicates the following:\"."
         },
         {
           "question": "The following substance is not formed from amino acids in the liver:",
@@ -16179,7 +16179,7 @@ module.exports = {
             "NH3, hem"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Fatty acids is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "The final product of the metabolism of nitrogenous substances in the liver:",
@@ -16190,7 +16190,7 @@ module.exports = {
             "Carnitine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Urea is correct. Urea is the non-toxic nitrogenous carrier synthesized in the liver via the urea cycle to safely excrete ammonia. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "The concentration of total bilirubin in the blood of a healthy person is as follows:",
@@ -16201,7 +16201,7 @@ module.exports = {
             "1-10 mm / l"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "8-20 ?m / l is correct. Birubin is the yellow breakdown product of normal heme catabolism, conjugated with glucuronic acid in the liver before biliary excretion. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Substances that convert glucose-6-phosphate in the liver:",
@@ -16212,7 +16212,7 @@ module.exports = {
             "Glycogen"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "All the listed substances is correct. Glucose is the primary monosaccharide used as a universal metabolic fuel source by human tissues, especially the brain. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "A low level of which metabolite in hepatocytes leads to inhibition of the Krebs cycle and increased ketogenesis?",
@@ -16223,7 +16223,7 @@ module.exports = {
             "Acetyl CoA"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Oxaloacetate is the correct answer to the question regarding \"a low level of which metabolite in hepatocytes leads to inhibition of the krebs cycle and increased ketogenesis\"."
         },
         {
           "question": "Newly synthesized fats in the liver carry which lipoproteins in the blood:",
@@ -16234,7 +16234,7 @@ module.exports = {
             "Chylomicrons"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "ZJPLP is correct. Lipoproteins (Chylomicrons, VLDL, LDL, HDL) are macromolecular complexes of lipids and proteins transporting fats through the bloodstream. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Uncharacteristic direction of changes in cholesterol in the liver:",
@@ -16245,7 +16245,7 @@ module.exports = {
             "Secretion of bile into the intestine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Secretion into urine through blood and kidneys is correct. Cholesterol is a vital eukaryotic cell membrane sterol and the precursor to bile acids, vitamin D, and steroid hormones. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "The liver, as the main digestive gland, synthesizes and transfers to other tissues:",
@@ -16256,7 +16256,7 @@ module.exports = {
             "Carbohydrates"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "All named components is the correct answer to the question regarding \"the liver, as the main digestive gland, synthesizes and transfers to other tissues:\"."
         }
       ],
       "situational": [
@@ -16276,7 +16276,7 @@ module.exports = {
           "options": [
             "Protein kinase",
             "Diphosphorylase",
-            "?-amylase",
+            "Alpha-amylase",
             "Lactase"
           ],
           "correctIndex": 0,
@@ -16328,7 +16328,7 @@ module.exports = {
             "Heat exchange between tissues and blood"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Neutralization of toxic substances using UDFGK is the correct answer to the question regarding \"blood detoxification function depends on the following.\"."
         },
         {
           "question": "The greatest danger for the body in case of kidney failure:",
@@ -16339,7 +16339,7 @@ module.exports = {
             "Acidosis"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Uremia is the correct answer to the question regarding \"the greatest danger for the body in case of kidney failure:\"."
         },
         {
           "question": "Substances that do not serve as a building or energy source in the body:",
@@ -16350,7 +16350,7 @@ module.exports = {
             "Intermediate products"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Xenobiotics is the correct answer to the question regarding \"substances that do not serve as a building or energy source in the body:\"."
         },
         {
           "question": "Most of the steroid hormones are metabolized in the liver (stage I) by retraction. Their binding to what substance (phase II) causes them to lose their biological effects and be excreted through the kidneys?",
@@ -16361,7 +16361,7 @@ module.exports = {
             "Acetic acid"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Glucuronic acid is the correct answer to the question regarding \"most of the steroid hormones are metabolized in the liver (stage i) by retraction. their binding to what substance (phase ii) causes them to lose their biological effects and be excreted through the kidneys\"."
         },
         {
           "question": "Biologically active amines serotonin and histamine are inactivated in the liver by the following reactions:",
@@ -16372,7 +16372,7 @@ module.exports = {
             "Conjugation with glucuronic acid"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Decontamination is the correct answer to the question regarding \"biologically active amines serotonin and histamine are inactivated in the liver by the following reactions:\"."
         },
         {
           "question": "Name the enzyme that is not involved in step 1 of detoxification of xenobiotics in the liver?",
@@ -16383,7 +16383,7 @@ module.exports = {
             "Hydroxylase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "UDFGK-transferase is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Select a peptide commonly used in xenobiotic conjugation:",
@@ -16394,7 +16394,7 @@ module.exports = {
             "Brady's"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Glutathione is correct. Peptide bonds are covalent amide links connecting amino acid residues in proteins and polypeptides. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Choose an enzyme that combines toxic substances with glucuronic acid:",
@@ -16405,7 +16405,7 @@ module.exports = {
             "Acetyltransferase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "UDP-glucuronyl transferase is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Name the vitamins involved in the detoxification of xenobiotics in the liver:",
@@ -16416,7 +16416,7 @@ module.exports = {
             "All vitamins are involved"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "A, E, C is a primary example of the vitamins involved in the detoxification of xenobiotics in the liver:."
         },
         {
           "question": "Identify the substance that enhances the cytochrome P-450 enzyme by induction:",
@@ -16427,7 +16427,7 @@ module.exports = {
             "Allopurinol"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Luminal is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "For microsomal oxidation, NADPH2 is mainly used as a donor of hydrogen atoms. What metabolic pathway is the main source of NADPH2?",
@@ -16438,7 +16438,7 @@ module.exports = {
             "Gluconeogenesis"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Pentose phosphate pathway is the correct answer to the question regarding \"for microsomal oxidation, nadph2 is mainly used as a donor of hydrogen atoms. what metabolic pathway is the main source of nadph2\"."
         },
         {
           "question": "Nonspecific function of the liver:",
@@ -16449,7 +16449,7 @@ module.exports = {
             "Detoxification of toxic substances"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Urination is the correct answer to the question regarding \"nonspecific function of the liver:\"."
         },
         {
           "question": "Toxic substances, which of the following substances does not form conjugation:",
@@ -16460,7 +16460,7 @@ module.exports = {
             "Glutathione"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Orotic acid is the correct answer to the question regarding \"toxic substances, which of the following substances does not form conjugation:\"."
         },
         {
           "question": "The source of glucuronic acid involved in the conjugation process in the body:",
@@ -16471,7 +16471,7 @@ module.exports = {
             "Adenine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Glucose is correct. Glucose is the primary monosaccharide used as a universal metabolic fuel source by human tissues, especially the brain. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Which of the following sentences is correct?",
@@ -16482,7 +16482,7 @@ module.exports = {
             "S-adenosylmethionine is the main conjugate of conjugation"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Hydrophilicity of conjugated substances increases is the specific of the following sentences is correct."
         },
         {
           "question": "Neutralization of toxic substances in the endoplasmic reticulum occurs in two stages. Show step I:",
@@ -16493,7 +16493,7 @@ module.exports = {
             "Dehydrogenation"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Microsomal oxidation is the correct answer to the question regarding \"neutralization of toxic substances in the endoplasmic reticulum occurs in two stages. show step i:\"."
         },
         {
           "question": "Detoxification occurs in all tissues and organs, but the leading place belongs to the following.",
@@ -16504,7 +16504,7 @@ module.exports = {
             "Intestine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Liver is the correct answer to the question regarding \"detoxification occurs in all tissues and organs, but the leading place belongs to the following.\"."
         },
         {
           "question": "An intermediate product formed during the neutralization of aspirin:",
@@ -16515,7 +16515,7 @@ module.exports = {
             "Niacin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Salicylates is the correct answer to the question regarding \"an intermediate product formed during the neutralization of aspirin:\"."
         },
         {
           "question": "What product is nicotinamide converted into and excreted:",
@@ -16526,7 +16526,7 @@ module.exports = {
             "UDF-nicotinamide"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Methylnicotinamide is the correct answer to the question regarding \"what product is nicotinamide converted into and excreted:\"."
         },
         {
           "question": "Determine the specificity of androgen and estrogen inactivation in the liver:",
@@ -16537,7 +16537,7 @@ module.exports = {
             "Extremely dangerous carcinogens are formed"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Oxidized and released as ketosteroids is the correct answer to the question regarding \"determine the specificity of androgen and estrogen inactivation in the liver:\"."
         },
         {
           "question": "Excess formation of ketone bodies in the liver, manifested by hyperketonemia, ketonuria, and the smell of acetone, is called ketosis. In what cases this does not happen:",
@@ -16548,7 +16548,7 @@ module.exports = {
             "Excessive consumption of alcohol"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Diabetes without sugar is correct. Ketone bodies (acetoacetate, beta-hydroxybutyrate) are water-soluble lipid derivatives synthesized by the liver during fasting as alternative fuels. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "The most important role in the detoxification of toxic substances in the liver belongs to the following processes:",
@@ -16559,7 +16559,7 @@ module.exports = {
             "Decontamination"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Hydroxylation is the correct answer to the question regarding \"the most important role in the detoxification of toxic substances in the liver belongs to the following processes:\"."
         },
         {
           "question": "Giving drugs in low doses in babies is related to which enzymes are not fully formed:",
@@ -16570,7 +16570,7 @@ module.exports = {
             "Decelerating"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Everything is correct is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Find a carcinogen that results from epoxidation in the liver:",
@@ -16581,7 +16581,7 @@ module.exports = {
             "Salicylate"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Aflatoxin is the correct answer to the question regarding \"find a carcinogen that results from epoxidation in the liver:\"."
         },
         {
           "question": "Name the coenzyme of alcohol dehydrogenase (1.1.1.1) enzyme involved in ethanol metabolism:",
@@ -16592,7 +16592,7 @@ module.exports = {
             "TPF"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "NAD is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Paraphenetidine has hepatotoxic properties, it can be formed from which drug:",
@@ -16603,7 +16603,7 @@ module.exports = {
             "Phenobarbital"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Paracetamol is the correct answer to the question regarding \"paraphenetidine has hepatotoxic properties, it can be formed from which drug:\"."
         },
         {
           "question": "Which of the following can participate in the process of cleansing from free radicals:",
@@ -16614,7 +16614,7 @@ module.exports = {
             "Conjugation with glycine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Trace elements such as Zn and Cu is the specific of the following can participate in the process of cleansing from free radicals:."
         },
         {
           "question": "How many stages does the liver detoxify harmful substances?",
@@ -16625,7 +16625,7 @@ module.exports = {
             "5"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "2 describes how many stages does the liver detoxify harmful substances."
         },
         {
           "question": "What is the name of the second stage of detoxification of toxic substances in the liver?",
@@ -16636,7 +16636,7 @@ module.exports = {
             "Reactive supply"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Conjugation refers to the name of the second stage of detoxification of toxic substances in the liver, representing a fundamental concept in biochemistry."
         },
         {
           "question": "In the liver, the conjugation stage goes by which substances are attached",
@@ -16647,7 +16647,7 @@ module.exports = {
             "Microelements"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Glucuronic or sulfuric acid is the correct answer to the question regarding \"in the liver, the conjugation stage goes by which substances are attached\"."
         }
       ],
       "situational": [
@@ -16667,7 +16667,7 @@ module.exports = {
           "options": [
             "protein kinase",
             "Diphosphorylase",
-            "?-amylase",
+            "Alpha-amylase",
             "Lactase"
           ],
           "correctIndex": 0,
@@ -16719,7 +16719,7 @@ module.exports = {
             "Somatotrope, vasopressin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Vasopressin, oxytocin is a primary example of the hormones released from the posterior lobe of the pituitary gland:."
         },
         {
           "question": "Hypothyroidism occurs when the activity of the gland is disturbed.",
@@ -16730,7 +16730,7 @@ module.exports = {
             "Adrenal gland"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Thyroid gland is the correct answer to the question regarding \"hypothyroidism occurs when the activity of the gland is disturbed.\"."
         },
         {
           "question": "Acromegaly disease is caused by lack of which hormone",
@@ -16741,7 +16741,7 @@ module.exports = {
             "Oxytocin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Somatotropic is the correct answer to the question regarding \"acromegaly disease is caused by lack of which hormone\"."
         },
         {
           "question": "Precocious puberty occurs when the amount of the following hormones increases?",
@@ -16752,7 +16752,7 @@ module.exports = {
             "Adenocorticotropic hormone, luteinizing hormone"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Follicle stimulating hormone, luteinizing hormone is the correct answer to the question regarding \"precocious puberty occurs when the amount of the following hormones increases\"."
         },
         {
           "question": "What is the role of thymus hormones in the body?",
@@ -16763,7 +16763,7 @@ module.exports = {
             "Controls protein biosynthesis"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Activates the immune system refers to the role of thymus hormones in the body, representing a fundamental concept in biochemistry."
         },
         {
           "question": "What role does the calcitonin hormone play in the body?",
@@ -16774,7 +16774,7 @@ module.exports = {
             "Increases the activity of immunoglobulins"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "It reduces the amount of calcium in the blood is the correct answer to the question regarding \"what role does the calcitonin hormone play in the body\"."
         },
         {
           "question": "Identify the hormones involved in the control of carbohydrate metabolism in the body.",
@@ -16785,7 +16785,7 @@ module.exports = {
             "Thymus hormones"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Insulin, glucagon is correct. Insulin is an anabolic hormone secreted by pancreatic beta cells that lowers blood glucose by promoting glucose entry and glycogen storage. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Mixed - show endo and exocrine glands",
@@ -16796,7 +16796,7 @@ module.exports = {
             "Shield back, thyroid"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Pancreas, gonads is the correct answer to the question regarding \"mixed - show endo and exocrine glands\"."
         },
         {
           "question": "Which disease is characterized by excessive sweating, nervousness, insomnia, increased heart rate, and weight loss?",
@@ -16807,7 +16807,7 @@ module.exports = {
             "Hypothyroidism"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Thyrotoxicosis is the specific disease is characterized by excessive sweating, nervousness, insomnia, increased heart rate, and weight loss."
         },
         {
           "question": "What are the products produced by endocrine glands called?",
@@ -16818,7 +16818,7 @@ module.exports = {
             "Antigens"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Hormones are defined as the products produced by endocrine glands."
         },
         {
           "question": "What gland's excessive hormone production leads to gigantism?",
@@ -16829,7 +16829,7 @@ module.exports = {
             "Adrenal"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Hypophysis is the correct answer to the question regarding \"what gland's excessive hormone production leads to gigantism\"."
         },
         {
           "question": "Identify the endocrine gland whose activity increases until the child reaches puberty and stops completely before puberty?",
@@ -16840,7 +16840,7 @@ module.exports = {
             "Adrenal"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "thymus is identified as the the endocrine gland whose activity increases until the child reaches puberty and stops completely before puberty."
         },
         {
           "question": "The system involved in the transfer of hormone signal into the cell.",
@@ -16851,7 +16851,7 @@ module.exports = {
             "Motoneurons"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Secondary messengers is the correct answer to the question regarding \"the system involved in the transfer of hormone signal into the cell.\"."
         },
         {
           "question": "Identify the hormones of the pancreas",
@@ -16862,7 +16862,7 @@ module.exports = {
             "Glucagon"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Everything is identified as the the hormones of the pancreas."
         },
         {
           "question": "Show the harmonic discovered by Senger in 1948-1953.",
@@ -16873,7 +16873,7 @@ module.exports = {
             "Tyrosine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Insulin is correct. Insulin is an anabolic hormone secreted by pancreatic beta cells that lowers blood glucose by promoting glucose entry and glycogen storage. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Insulin is formed by combining several amino acids.",
@@ -16884,7 +16884,7 @@ module.exports = {
             "58"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "51 is correct. Insulin is an anabolic hormone secreted by pancreatic beta cells that lowers blood glucose by promoting glucose entry and glycogen storage. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "How many amino acids are there in the insulin A chain?",
@@ -16895,7 +16895,7 @@ module.exports = {
             "30"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "21 is correct. Insulin is an anabolic hormone secreted by pancreatic beta cells that lowers blood glucose by promoting glucose entry and glycogen storage. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "How many amino acids are the B chain of insulin?",
@@ -16906,7 +16906,7 @@ module.exports = {
             "24"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "30 is correct. Insulin is an anabolic hormone secreted by pancreatic beta cells that lowers blood glucose by promoting glucose entry and glycogen storage. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "According to its chemical structure, secretin is a polypeptide composed of several residues.",
@@ -16917,7 +16917,7 @@ module.exports = {
             "32"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "27 is correct. Peptide bonds are covalent amide links connecting amino acid residues in proteins and polypeptides. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Glucagon hormone is produced by which cells of the islet of Langerhans.",
@@ -16928,7 +16928,7 @@ module.exports = {
             "this hormone is not released from the islets of Langerhans"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "a devices is correct. Glucagon is a counter-regulatory catabolic hormone secreted by pancreatic alpha cells that elevates blood glucose by initiating glycogenolysis. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Adrenaline and noradrenaline hormones are released from which secretory gland?",
@@ -16939,7 +16939,7 @@ module.exports = {
             "The stomach"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Adrenal is the correct answer to the question regarding \"adrenaline and noradrenaline hormones are released from which secretory gland\"."
         },
         {
           "question": "Distinguish the hormones of the brain layer of the adrenal gland",
@@ -16950,7 +16950,7 @@ module.exports = {
             "Noradrenaline, mineralocorticoid"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Adrenaline and noradrenaline is the correct answer to the question regarding \"distinguish the hormones of the brain layer of the adrenal gland\"."
         },
         {
           "question": "Which hormone is released from the cortical layer of the adrenal gland?",
@@ -16961,7 +16961,7 @@ module.exports = {
             "Glucagon"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Mineralocorticoid hormone is the specific hormone is released from the cortical layer of the adrenal gland."
         },
         {
           "question": "What kind of hormone is prolactin according to its chemical structure:",
@@ -16972,7 +16972,7 @@ module.exports = {
             "Steroidal in nature"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Normal protein nature is the correct answer to the question regarding \"what kind of hormone is prolactin according to its chemical structure:\"."
         },
         {
           "question": "Define a hormone with a cytosolic mechanism of action:",
@@ -16983,7 +16983,7 @@ module.exports = {
             "Insulin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Estrogen is the correct answer to the question regarding \"define a hormone with a cytosolic mechanism of action:\"."
         },
         {
           "question": "Pituitary regulates the secretion of hormones:",
@@ -16994,7 +16994,7 @@ module.exports = {
             "Samotostatin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Releasing factors is the correct answer to the question regarding \"pituitary regulates the secretion of hormones:\"."
         },
         {
           "question": "Inhibitors of pituitary hormones:",
@@ -17005,7 +17005,7 @@ module.exports = {
             "Neurohormones"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Statins is the correct answer to the question regarding \"inhibitors of pituitary hormones:\"."
         },
         {
           "question": "What amino acid is placed in oxytocin instead of phenylalanine at position 3 of the N end of vasopressin",
@@ -17016,29 +17016,29 @@ module.exports = {
             "Methionine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Isolation is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Define a hormone with a cytosolic mechanism of action:",
           "options": [
-            "Remember",
+            "No one",
             "Prolactin",
             "Oxytocin",
             "Catecholamine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "No one is the correct answer to the question regarding \"define a hormone with a cytosolic mechanism of action:\"."
         },
         {
           "question": "Find the hormone that acts through the membrane:",
           "options": [
             "Adrenaline",
-            "Remember",
+            "No one",
             "Estrogen",
             "Testosterone"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Adrenaline is the correct answer to the question regarding \"find the hormone that acts through the membrane:\"."
         }
       ],
       "situational": [
@@ -17110,7 +17110,7 @@ module.exports = {
             "protein+carbohydrate"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "steroids is the correct answer to the question regarding \"the chemical structure of female and male sex hormones...\"."
         },
         {
           "question": "Which of the following substances are organic substances that, after being formed in special cells, enter the blood and have a regulatory (controlling) effect on metabolism and physiological functions",
@@ -17121,7 +17121,7 @@ module.exports = {
             "lipid"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Harmon is the specific of the following substances are organic substances that, after being formed in special cells, enter the blood and have a regulatory (controlling) effect on metabolism and physiological functions."
         },
         {
           "question": "Which of the following hormones is not considered to be of protein nature",
@@ -17132,7 +17132,7 @@ module.exports = {
             "Prolactin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Sex hormones is the specific of the following hormones is not considered to be of protein nature."
         },
         {
           "question": "Show the hormone that plays an important role in water and salt exchange in the body.",
@@ -17143,7 +17143,7 @@ module.exports = {
             "Oxytocin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Vasopressin is the the hormone that plays an important role in water and salt exchange in the body.."
         },
         {
           "question": "When the concentration of calcium in the body decreases, the synthesis of which hormone increases",
@@ -17154,7 +17154,7 @@ module.exports = {
             "insulin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Paratharmonic is the correct answer to the question regarding \"when the concentration of calcium in the body decreases, the synthesis of which hormone increases\"."
         },
         {
           "question": "Itsenko-Cushi’s syndrome occurs when the amount of which hormone increases?",
@@ -17165,7 +17165,7 @@ module.exports = {
             "Thyrotrope"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Adrenocorticotropic is the correct answer to the question regarding \"itsenko-cushi’s syndrome occurs when the amount of which hormone increases\"."
         },
         {
           "question": "Find the hormone involved in water-salt exchange:",
@@ -17176,7 +17176,7 @@ module.exports = {
             "Catecholamine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Aldosterone is the correct answer to the question regarding \"find the hormone involved in water-salt exchange:\"."
         },
         {
           "question": "Show the endocrine gland in the body.",
@@ -17187,7 +17187,7 @@ module.exports = {
             "salivary gland"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Hypophysis is the the endocrine gland in the body.."
         },
         {
           "question": "Which substance below narrows blood vessels and increases blood pressure.",
@@ -17198,7 +17198,7 @@ module.exports = {
             "Progesterin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Catecholamine is the specific substance below narrows blood vessels and increases blood pressure.."
         },
         {
           "question": "Which hormone increases the amount of glucose in the blood by increasing the breakdown of glycogen in the liver?",
@@ -17209,7 +17209,7 @@ module.exports = {
             "Proinsulin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Glucagon is correct. Glycogen is a highly branched homopolymer of glucose serving as the primary short-term carbohydrate reserve in human liver and muscle. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "When the hormones of the gland increase, the state of virilism occurs and women develop a mustache.",
@@ -17220,7 +17220,7 @@ module.exports = {
             "Sebaceous gland"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Adrenal is the correct answer to the question regarding \"when the hormones of the gland increase, the state of virilism occurs and women develop a mustache.\"."
         },
         {
           "question": "What disease develops in the body if the posterior part of the pituitary gland atrophies.",
@@ -17231,7 +17231,7 @@ module.exports = {
             "Itsenko-Cushing syndrome"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Diabetes without sugar is the correct answer to the question regarding \"what disease develops in the body if the posterior part of the pituitary gland atrophies.\"."
         },
         {
           "question": "Parathyroid hormone consists of several amino acid residues",
@@ -17242,7 +17242,7 @@ module.exports = {
             "32"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "87 is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Distinguish the hormones of the corpus luteum",
@@ -17253,7 +17253,7 @@ module.exports = {
             "Thymus hormones"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Progestins is the correct answer to the question regarding \"distinguish the hormones of the corpus luteum\"."
         },
         {
           "question": "Which hormone is formed during maturation of the follicle and is important for the adhesion of the egg to the wall of the uterus.",
@@ -17264,7 +17264,7 @@ module.exports = {
             "Thymus hormones"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Progestins is the specific hormone is formed during maturation of the follicle and is important for the adhesion of the egg to the wall of the uterus.."
         },
         {
           "question": "What were the first estrogens isolated from?",
@@ -17275,7 +17275,7 @@ module.exports = {
             "From Urugdon"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "From urine is the correct answer to the question regarding \"what were the first estrogens isolated from\"."
         },
         {
           "question": "The function of the cortex of the adrenal gland is controlled by which hormone is released from the anterior lobe of the pituitary gland.",
@@ -17286,7 +17286,7 @@ module.exports = {
             "Progesterone"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Adrenocorticotropic is the correct answer to the question regarding \"the function of the cortex of the adrenal gland is controlled by which hormone is released from the anterior lobe of the pituitary gland.\"."
         },
         {
           "question": "Find the hormone that reduces the mobilization of calcium:",
@@ -17297,7 +17297,7 @@ module.exports = {
             "Mineralocorticoid"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Calcitonin is the correct answer to the question regarding \"find the hormone that reduces the mobilization of calcium:\"."
         },
         {
           "question": "Thyroid hormones are made from which amino acid:",
@@ -17308,7 +17308,7 @@ module.exports = {
             "Proline"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Tyrosine is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Find the predecessor of all sex hormones:",
@@ -17319,7 +17319,7 @@ module.exports = {
             "Nicotinamide"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Cholesterol is correct. Cholesterol is a vital eukaryotic cell membrane sterol and the precursor to bile acids, vitamin D, and steroid hormones. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Identify the gonadotropin hormone of the pituitary gland:",
@@ -17330,7 +17330,7 @@ module.exports = {
             "Somatostatin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Follicle stimulant is identified as the the gonadotropin hormone of the pituitary gland:."
         },
         {
           "question": "Iodine deficiency disease:",
@@ -17341,7 +17341,7 @@ module.exports = {
             "Threotoxicosis"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Endemic smallpox is the correct answer to the question regarding \"iodine deficiency disease:\"."
         },
         {
           "question": "Define the disease associated with Ca2+: metabolism disorders:",
@@ -17352,18 +17352,18 @@ module.exports = {
             "Diabetes without sugar"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Tetany is the correct answer to the question regarding \"define the disease associated with ca2+: metabolism disorders:\"."
         },
         {
           "question": "Steroid diabetes is observed in which of the following diseases:",
           "options": [
-            "Warm up",
+            "No one",
             "Bronze disease",
             "Gierke's disease",
             "Anderson's disease"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "No one is the correct answer to the question regarding \"steroid diabetes is observed in which of the following diseases:\"."
         },
         {
           "question": "Show the neuropeptide group",
@@ -17374,7 +17374,7 @@ module.exports = {
             "Eicanazoids"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Releasing factors is correct. Peptide bonds are covalent amide links connecting amino acid residues in proteins and polypeptides. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Women are included in the sexual harmony:",
@@ -17385,7 +17385,7 @@ module.exports = {
             "Eicanazoids"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Estradiol is the correct answer to the question regarding \"women are included in the sexual harmony:\"."
         },
         {
           "question": "The place where noradrenaline is synthesized in the body:",
@@ -17396,7 +17396,7 @@ module.exports = {
             "Thyroid gland"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "The brain layer of the adrenal gland is the correct answer to the question regarding \"the place where noradrenaline is synthesized in the body:\"."
         },
         {
           "question": "Calcitonin hormone is formed:",
@@ -17407,7 +17407,7 @@ module.exports = {
             "In the pineal gland"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "In the thyroid gland is the correct answer to the question regarding \"calcitonin hormone is formed:\"."
         },
         {
           "question": "A disease that develops in adults with thyroxine deficiency:",
@@ -17418,7 +17418,7 @@ module.exports = {
             "Pheochromocytoma"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Myxidema is the correct answer to the question regarding \"a disease that develops in adults with thyroxine deficiency:\"."
         },
         {
           "question": "Biological effects of estrogen:",
@@ -17429,7 +17429,7 @@ module.exports = {
             "Increases skin oiliness"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Increases the synthesis of angiotensinogen is the correct answer to the question regarding \"biological effects of estrogen:\"."
         }
       ],
       "situational": [
@@ -17501,7 +17501,7 @@ module.exports = {
             "1600 ml"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "500 ml is the correct answer to the question regarding \"pathology occurs when the amount of urine is less than what\"."
         },
         {
           "question": "Increased urine volume?",
@@ -17512,7 +17512,7 @@ module.exports = {
             "Nocturia"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Polyuria is the correct answer to the question regarding \"increased urine volume\"."
         },
         {
           "question": "What is oliguria?",
@@ -17523,7 +17523,7 @@ module.exports = {
             "Evening urine is more than daytime urine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Decreased daily urine output refers to oliguria, representing a fundamental concept in biochemistry."
         },
         {
           "question": "What kind of disease is anuria?",
@@ -17534,7 +17534,7 @@ module.exports = {
             "Change in the color of urine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Complete cessation of urination is the correct answer to the question regarding \"what kind of disease is anuria\"."
         },
         {
           "question": "What is it called when you urinate more at night than during the day?",
@@ -17545,7 +17545,7 @@ module.exports = {
             "Polyuria"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Nocturia refers to it called when you urinate more at night than during the day, representing a fundamental concept in biochemistry."
         },
         {
           "question": "Find the pigment that determines the color of urine?",
@@ -17556,7 +17556,7 @@ module.exports = {
             "Myoglobin"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Urobilin is the correct answer to the question regarding \"find the pigment that determines the color of urine\"."
         },
         {
           "question": "What color is urine when the concentration of bilirubin is high?",
@@ -17567,7 +17567,7 @@ module.exports = {
             "Light yellow color"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Brown or reddish brown is correct. Birubin is the yellow breakdown product of normal heme catabolism, conjugated with glucuronic acid in the liver before biliary excretion. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "What color does urine become when the process of protein decay in the intestine increases?",
@@ -17578,7 +17578,7 @@ module.exports = {
             "Dark gold"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Green is the correct answer to the question regarding \"what color does urine become when the process of protein decay in the intestine increases\"."
         },
         {
           "question": "Which substances make up the largest part of organic substances in urine?",
@@ -17589,7 +17589,7 @@ module.exports = {
             "Amino acids"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Diuretic is the specific substances make up the largest part of organic substances in urine."
         },
         {
           "question": "What is the cause of phenylketonuria?",
@@ -17600,7 +17600,7 @@ module.exports = {
             "A large amount of tyrosine synthesis from phenylalanine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Deficiency of the enzyme phenylalanine hydroxylase is correct. Alanine is a non-essential glucogenic amino acid, acting as a primary nitrogen carrier from skeletal muscle to the liver. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Which substance can detect phenylalanine in urine?",
@@ -17611,7 +17611,7 @@ module.exports = {
             "FeSO4"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "FeCl2 is correct. Alanine is a non-essential glucogenic amino acid, acting as a primary nitrogen carrier from skeletal muscle to the liver. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "In which disease does the sudden darkening of the urine remaining in the air occur?",
@@ -17622,7 +17622,7 @@ module.exports = {
             "In aminoacidurias"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Alcoptonuria is the correct answer to the question regarding \"in which disease does the sudden darkening of the urine remaining in the air occur\"."
         },
         {
           "question": "What substance is responsible for the sharp darkening of urine remaining in the air?",
@@ -17633,7 +17633,7 @@ module.exports = {
             "Hippuric acid"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Homogentisin acid is the correct answer to the question regarding \"what substance is responsible for the sharp darkening of urine remaining in the air\"."
         },
         {
           "question": "What is the cause of alkoptonuria?",
@@ -17644,7 +17644,7 @@ module.exports = {
             "Failure of prolinoxidase enzyme"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Failure of homogentisin oxidase enzyme is correct. Enzymes are highly specific macromolecular catalysts that dramatically lower reaction activation energy. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Show the last product of purine metabolism?",
@@ -17655,7 +17655,7 @@ module.exports = {
             "Hippuric acid"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Uric acid is correct. Purines (Adenine and Guanine) are double-ringed heterocyclic aromatic compounds serving as key genetic carriers and metabolic energy agents. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "When does the excretion of ammonia with urine increase?",
@@ -17666,7 +17666,7 @@ module.exports = {
             "When glutamine metabolism is disturbed"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "In acidosis is correct. Ammonia is a highly neurotoxic byproduct of amino acid deamination, rapidly converted to urea in the liver. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Which of the following substances is not found in normal urine?",
@@ -17677,7 +17677,7 @@ module.exports = {
             "Ammonium salts"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Acetone bodies is the specific of the following substances is not found in normal urine."
         },
         {
           "question": "Which of the following cannot be determined in normal urine?",
@@ -17688,7 +17688,7 @@ module.exports = {
             "Ammonium salts"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Glucose is correct. Glucose is the primary monosaccharide used as a universal metabolic fuel source by human tissues, especially the brain. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "What is the release of protein in the urine?",
@@ -17699,7 +17699,7 @@ module.exports = {
             "Alkalosis"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Protienuria refers to the release of protein in the urine, representing a fundamental concept in biochemistry."
         },
         {
           "question": "Hematuria is ?",
@@ -17710,7 +17710,7 @@ module.exports = {
             "Excretion of amino acids in urine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Excretion of red blood cells in the urine is the correct answer to the question regarding \"hematuria is \"."
         },
         {
           "question": "What is ketonuria?",
@@ -17721,7 +17721,7 @@ module.exports = {
             "Excessive excretion of ?-oxymoic acid in urine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Excretion of ketone bodies in urine is correct. Ketone bodies (acetoacetate, beta-hydroxybutyrate) are water-soluble lipid derivatives synthesized by the liver during fasting as alternative fuels. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "When is bilirubinuria observed?",
@@ -17732,7 +17732,7 @@ module.exports = {
             "When the formation of bilirubin is disturbed"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "When grass roads are paved is correct. Birubin is the yellow breakdown product of normal heme catabolism, conjugated with glucuronic acid in the liver before biliary excretion. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Name the substance that is not in urine in normal condition?",
@@ -17743,7 +17743,7 @@ module.exports = {
             "Uric acid"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Acetone is a primary example of the substance that is not in urine in normal condition."
         },
         {
           "question": "Name a substance that is not excreted in normal urine?",
@@ -17754,7 +17754,7 @@ module.exports = {
             "Uric acid"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Bilirubin is correct. Birubin is the yellow breakdown product of normal heme catabolism, conjugated with glucuronic acid in the liver before biliary excretion. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Name a substance that is not excreted in normal urine?",
@@ -17765,7 +17765,7 @@ module.exports = {
             "Uric acid"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Acetoacetic acid is a primary example of a substance that is not excreted in normal urine."
         },
         {
           "question": "Pathological components of urine include?",
@@ -17776,7 +17776,7 @@ module.exports = {
             "Urea"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Glucose is correct. Glucose is the primary monosaccharide used as a universal metabolic fuel source by human tissues, especially the brain. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Which hormone accelerates water reabsorption?",
@@ -17787,7 +17787,7 @@ module.exports = {
             "Thyroxine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Vasopressin is the specific hormone accelerates water reabsorption."
         },
         {
           "question": "The density of urine usually consists of?",
@@ -17798,7 +17798,7 @@ module.exports = {
             "1.1-1.2 g/ml"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "1.01-1.04 g/ml is the correct answer to the question regarding \"the density of urine usually consists of\"."
         },
         {
           "question": "During a normal diet, urea is excreted in the urine per day?",
@@ -17809,7 +17809,7 @@ module.exports = {
             "110-130 g"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "25-35 g is correct. Urea is the non-toxic nitrogenous carrier synthesized in the liver via the urea cycle to safely excrete ammonia. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Structural-functional unit of kidneys?",
@@ -17820,7 +17820,7 @@ module.exports = {
             "Sarcomere"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Nephron is the correct answer to the question regarding \"structural-functional unit of kidneys\"."
         }
       ],
       "situational": [
@@ -17892,7 +17892,7 @@ module.exports = {
             "Fructose"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Glucose is correct. Glucose is the primary monosaccharide used as a universal metabolic fuel source by human tissues, especially the brain. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "What is the membrane surrounding the nerve fibers called?",
@@ -17903,7 +17903,7 @@ module.exports = {
             "Axoplasm"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Myelin refers to the membrane surrounding the nerve fibers, representing a fundamental concept in biochemistry."
         },
         {
           "question": "Define mediators?",
@@ -17914,7 +17914,7 @@ module.exports = {
             "Acetylcholinesterase"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Acetylcholine, noradrenaline is the correct answer to the question regarding \"define mediators\"."
         },
         {
           "question": "Cellular elements of nervous tissue?",
@@ -17925,7 +17925,7 @@ module.exports = {
             "Low synaptic membrane"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Neurons, glial cells is the correct answer to the question regarding \"cellular elements of nervous tissue\"."
         },
         {
           "question": "What substances are included in neurotransmitters?",
@@ -17936,7 +17936,7 @@ module.exports = {
             "Alanine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Serotonin is the correct answer to the question regarding \"what substances are included in neurotransmitters\"."
         },
         {
           "question": "Characteristics of carbohydrate metabolism in nervous tissue?",
@@ -17947,7 +17947,7 @@ module.exports = {
             "High concentration of glycogen"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Mainly aerobic glucose metabolism is correct. Glucose is the primary monosaccharide used as a universal metabolic fuel source by human tissues, especially the brain. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Characteristics of energy exchange in nervous tissue?",
@@ -17958,7 +17958,7 @@ module.exports = {
             "Proteins provide the main energy metabolism"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "High intensity of energy exchange is the correct answer to the question regarding \"characteristics of energy exchange in nervous tissue\"."
         },
         {
           "question": "Dopamine is made from which of the following substances?",
@@ -17969,7 +17969,7 @@ module.exports = {
             "Tryptophan"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Tyrosine is correct. Tyrosine is a non-essential amino acid synthesized from phenylalanine, serving as the precursor for catecholamines, thyroid hormones, and melanin. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Define the main energy consumer in the brain?",
@@ -17980,7 +17980,7 @@ module.exports = {
             "Braking processes"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "No, K-ATPase is correct. Adenosine triphosphate (ATP) is the universal biological energy currency, storing metabolic energy in its phosphoanhydride bonds. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "How much glucose is oxidized in the brain during the day?",
@@ -17991,7 +17991,7 @@ module.exports = {
             "Around 1-2g"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "100-120g is correct. Glucose is the primary monosaccharide used as a universal metabolic fuel source by human tissues, especially the brain. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Which amino acids make up the majority of brain free amino acids?",
@@ -18002,7 +18002,7 @@ module.exports = {
             "Lysine, arginine and derivatives"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Aspartate, glutamate and their derivatives is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "How is the brain's need for energy met?",
@@ -18013,7 +18013,7 @@ module.exports = {
             "Catabolism of amino acids"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Aerobic decomposition of glucose is correct. Glucose is the primary monosaccharide used as a universal metabolic fuel source by human tissues, especially the brain. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "What is the function of dopamine?",
@@ -18024,7 +18024,7 @@ module.exports = {
             "Participates in the synthesis of choline"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Mediator refers to the function of dopamine, representing a fundamental concept in biochemistry."
         },
         {
           "question": "Find a strong pain reliever?",
@@ -18035,7 +18035,7 @@ module.exports = {
             "Dopamine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Morphine is the correct answer to the question regarding \"find a strong pain reliever\"."
         },
         {
           "question": "The myelin sheath consists of?",
@@ -18046,7 +18046,7 @@ module.exports = {
             "80% protein, 20% lipid"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "70% lipid, 30% protein is the correct answer to the question regarding \"the myelin sheath consists of\"."
         },
         {
           "question": "65% of all lipids in the brain are in.?",
@@ -18057,7 +18057,7 @@ module.exports = {
             "Targil is in the article"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Myelin sheath is the correct answer to the question regarding \"65% of all lipids in the brain are in.\"."
         },
         {
           "question": "It belongs to neurospecific proteins?",
@@ -18068,7 +18068,7 @@ module.exports = {
             "neuroglobulins;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "protein S-100 is the correct answer to the question regarding \"it belongs to neurospecific proteins\"."
         },
         {
           "question": "Adrenaline is synthesized from which amino acid?",
@@ -18079,7 +18079,7 @@ module.exports = {
             "methionine;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Phenylalanine is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "During starvation, nerve cells can use as an additional energy substrate for oxidation?",
@@ -18090,7 +18090,7 @@ module.exports = {
             "lecithin;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "ketone bodies is correct. Ketone bodies (acetoacetate, beta-hydroxybutyrate) are water-soluble lipid derivatives synthesized by the liver during fasting as alternative fuels. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "S-100 protein is used as a marker?",
@@ -18101,7 +18101,7 @@ module.exports = {
             "liver damage"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "melanomas is the correct answer to the question regarding \"s-100 protein is used as a marker\"."
         },
         {
           "question": "It is \"raw material\" for the synthesis of acetylcholine?",
@@ -18112,7 +18112,7 @@ module.exports = {
             "ribose and AMP"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "glucose and choline is correct. Glucose is the primary monosaccharide used as a universal metabolic fuel source by human tissues, especially the brain. This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Which of the following substances does not belong to neurotransmitters?",
@@ -18123,7 +18123,7 @@ module.exports = {
             "serotonin and glycine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "carnitine and gastrichin is the specific of the following substances does not belong to neurotransmitters."
         },
         {
           "question": "What is the most important reason why the composition of nervous tissue is so different from other tissues of the body?",
@@ -18134,7 +18134,7 @@ module.exports = {
             "noone"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "strong blood flow is determined by the presence of the blood-brain barrier refers to the most important reason why the composition of nervous tissue is so different from other tissues of the body, representing a fundamental concept in biochemistry."
         },
         {
           "question": "Noradrenaline is the predecessor of which amino acid?",
@@ -18145,7 +18145,7 @@ module.exports = {
             "methionine;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Phenylalanine is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Serotonin is the predecessor of which amino acid?",
@@ -18156,7 +18156,7 @@ module.exports = {
             "methionine;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "tryptophan; is correct. Amino acids are the amine- and carboxyl-bearing monomers of proteins, classified by their variable side chains (R groups). This aligns with established biochemical pathways and clinical diagnostics."
         },
         {
           "question": "Which of the listed diseases is not associated with a disturbance in the metabolism of neurotransmitters?",
@@ -18167,7 +18167,7 @@ module.exports = {
             "depression;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Addison's disease; is the specific of the listed diseases is not associated with a disturbance in the metabolism of neurotransmitters."
         },
         {
           "question": "Show one of the most characteristic signs of the structure of nervous tissue?",
@@ -18178,7 +18178,7 @@ module.exports = {
             "high content of nucleic acids;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "high lipid content is the one of the most characteristic signs of the structure of nervous tissue."
         },
         {
           "question": "It is an inhibitory neurotransmitter in the central nervous system?",
@@ -18189,7 +18189,7 @@ module.exports = {
             "norepinephrine;"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "GAMK; is the correct answer to the question regarding \"it is an inhibitory neurotransmitter in the central nervous system\"."
         },
         {
           "question": "Find the mediator that controls the voluntary actions of a person in the parts of the brain?",
@@ -18200,7 +18200,7 @@ module.exports = {
             "Phosphatidyl-ethanolamine"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Dopamine is the correct answer to the question regarding \"find the mediator that controls the voluntary actions of a person in the parts of the brain\"."
         },
         {
           "question": "Parkinson's disease depends on the activity of which synapses?",
@@ -18211,7 +18211,7 @@ module.exports = {
             "Postsynaptic"
           ],
           "correctIndex": 0,
-          "explanation": ""
+          "explanation": "Dopaminergic is the correct answer to the question regarding \"parkinson's disease depends on the activity of which synapses\"."
         }
       ],
       "situational": [
@@ -18274,6609 +18274,6969 @@ module.exports = {
     }
   },
   "s-2-2": {
-  "t-s-2-2-1": {
-    "situational": [
-      {
-        "question": "A surgeon needs to grasp and hold delicate tissue during a laparoscopic procedure. Which instrument is MOST appropriate?",
-        "options": [
-          "Grasping forceps",
-          "Scalpel",
-          "Hemostat",
-          "Mayo scissors",
-          "Retractor"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Grasping forceps"
-      },
-      {
-        "question": "During an open appendectomy, the surgeon needs to control bleeding from small blood vessels. Which instrument is BEST suited for this purpose?",
-        "options": [
-          "Hemostat",
-          "Scalpel",
-          "Scissors",
-          "Forceps",
-          "Retractor"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Hemostat"
-      },
-      {
-        "question": "A patient is scheduled for a cholecystectomy ,This procedure involves:",
-        "options": [
-          "Removal of the gallbladder",
-          "Removal of the appendix",
-          "Removal of the spleen",
-          "Removal of the liver",
-          "Removal of the pancreas"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Removal of the gallbladder"
-      },
-      {
-        "question": "through the skin and subcutaneous tissue. Which instrument is used to make the initial skin incision?",
-        "options": [
-          "Scalpel",
-          "Scissors",
-          "Forceps",
-          "Hemostat",
-          "Retractor"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Scalpel"
-      },
-      {
-        "question": "During a surgical procedure, the term \"anastomosis\" refers to:",
-        "options": [
-          "Surgical connection between two structures (e.g., blood vessels or bowel segments)",
-          "Removal of a structure",
-          "Repair of a structure",
-          "Cutting of a structure",
-          "Examination of a structure"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Surgical connection between two structures (e.g., blood vessels or bowel segments)"
-      },
-      {
-        "question": "What is the correct way to hold a scalpel? (Select all that apply)",
-        "options": [
-          "The pencil grip , the overhand/fingertip grip",
-          "Left hand",
-          "Wright hand",
-          "The scalpel grip",
-          "There is no incorrect way"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: The pencil grip , the overhand/fingertip grip"
-      },
-      {
-        "question": "In what hand should you hold your scalpel?",
-        "options": [
-          "The dominant hand",
-          "The in-dominant hand",
-          "Always the right hand",
-          "Always the left hand",
-          "Both hands"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: The dominant hand"
-      },
-      {
-        "question": "When and for how lang must you apply hand disinfectant?",
-        "options": [
-          "Two minutes before every surgery",
-          "Five minutes before every surgery",
-          "Two minutes before your first surgery only",
-          "Five minutes before your first surgery only",
-          "Ten minutes before every surgery"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Two minutes before every surgery"
-      },
-      {
-        "question": "What should you ALWAYS wear entering the operation room? (Select all that apply)",
-        "options": [
-          "Scrub cap",
-          "Sterile gloves",
-          "Sterile scrubs",
-          "Surgical mask",
-          "Sterile apron"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Scrub cap"
-      },
-      {
-        "question": "What forceps is used to hold sensitive tissue like nerves?",
-        "options": [
-          "The anatomical forceps",
-          "The tissue forceps",
-          "The adson forceps",
-          "The langenbeck forceps",
-          "The surgical forceps"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: The anatomical forceps"
-      },
-      {
-        "question": "What is a pean used to?",
-        "options": [
-          "To clamp blood vessels for haemostasis",
-          "To retract soft tissue exposing the surgical site",
-          "To provide a solide grip on tissue",
-          "To cut sutures?",
-          "Incision of the organ"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: To clamp blood vessels for haemostasis"
-      },
-      {
-        "question": "What does amputation means?",
-        "options": [
-          "Removal of  the limbs",
-          "Incision of the limbs",
-          "Excision pathological process",
-          "Incision of the abdominal wall",
-          "Stitching of the tissue"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Removal of  the limbs"
-      },
-      {
-        "question": "What does mean rraphy?",
-        "options": [
-          "Stitching of the organs wall",
-          "Removal part of the organs",
-          "Excision pathological process",
-          "Incision of the limbs",
-          "Fixation of the tissue"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Stitching of the organs wall"
-      },
-      {
-        "question": "What does mean laparotomy?",
-        "options": [
-          "Incision of the abdominal wall",
-          "Removal tissue",
-          "Stitching abdominal wall",
-          "Excision organ",
-          "Viewing organ with instruments"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Incision of the abdominal wall"
-      },
-      {
-        "question": "What does mean cholecystectomy?",
-        "options": [
-          "Removal of the gall bladder",
-          "Removal intestine",
-          "Removal liver",
-          "Removal uterus",
-          "Removal kidney"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Removal of the gall bladder"
-      }
-    ],
-    "test": [
-      {
-        "question": "A surgery is performed within 10 hours of the patient arrival is?",
-        "options": [
-          "Emergency",
-          "Endoscopic",
-          "Laproscopic",
-          "Elective",
-          "Urgency"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Emergency"
-      },
-      {
-        "question": "A surgery is performed within minutes of the patient arrival is?",
-        "options": [
-          "Urgency",
-          "Laproscopic",
-          "Elective",
-          "Emergency",
-          "Endoscopic"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Urgency"
-      },
-      {
-        "question": "A surgery is performed within no exact time frame is?",
-        "options": [
-          "Elective",
-          "Emergency",
-          "Endoscopic",
-          "Urgency",
-          "Laproscopic"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Elective"
-      },
-      {
-        "question": "A Surgical Cut or incision is made in an Organ is called?",
-        "options": [
-          "Otomy",
-          "Ostomy",
-          "Incision",
-          "Ectomy",
-          "Plasty"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Otomy"
-      },
-      {
-        "question": "A surgical procedure is perfomed to remove gall bladder called?",
-        "options": [
-          "Cholecystectomy",
-          "Laparotomy",
-          "Mastectomy",
-          "Nephrectomy",
-          "Hysterectomy"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Cholecystectomy"
-      },
-      {
-        "question": "A surgical Removal Of part of an organ or whole organ?",
-        "options": [
-          "Ectomy",
-          "Incision",
-          "Otomy",
-          "Ostomy",
-          "Plasty"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Ectomy"
-      },
-      {
-        "question": "How many types of consents are used in medical practice?",
-        "options": [
-          "4",
-          "1",
-          "6",
-          "3",
-          "5"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: 4"
-      },
-      {
-        "question": "How to hold a scalpel for long and firm incision?",
-        "options": [
-          "Palm grip",
-          "Knife grip",
-          "Opposite hand grip",
-          "Pencil grip",
-          "Fingertip grip"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Palm grip"
-      },
-      {
-        "question": "Non Absorbable suture among the following is ?",
-        "options": [
-          "Proline",
-          "Monofilament",
-          "Monocryl",
-          "Polyglactic",
-          "Polydiaxanone"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Proline"
-      },
-      {
-        "question": "Silk is associated with infection because",
-        "options": [
-          "It has services lodging bacteria",
-          "Causes irritation",
-          "Cannot be properly sterilized",
-          "Infection goes deeper during bite",
-          "It is non-absorbable"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: It has services lodging bacteria"
-      },
-      {
-        "question": "Surgery performed to enhance the appearance of a person is?",
-        "options": [
-          "Cosmetic",
-          "Ablative",
-          "Incisional",
-          "Diagnostic",
-          "Palliative"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Cosmetic"
-      },
-      {
-        "question": "Surgical removal of limb at the level of the joint?",
-        "options": [
-          "Disarticulation",
-          "Excision",
-          "Trepanation",
-          "Amputation",
-          "Baseline"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Disarticulation"
-      },
-      {
-        "question": "Surgical removal of limb?",
-        "options": [
-          "Amputation",
-          "Excision",
-          "Trepanation",
-          "Baseline",
-          "Disarticulation"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Amputation"
-      },
-      {
-        "question": "The area where surgical incision is performed is?",
-        "options": [
-          "Sterile field",
-          "Antiseptics",
-          "Clean procedure",
-          "Sterile field",
-          "Surgical asepsis"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Sterile field"
-      },
-      {
-        "question": "The period used during operation is ?",
-        "options": [
-          "Intraoperative",
-          "Peri operative",
-          "Pre operative",
-          "Post operative",
-          "Operative period"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Intraoperative"
-      },
-      {
-        "question": "the Surgery used in abdomen to find the diagnosis is?",
-        "options": [
-          "Exploratory laparotomy",
-          "Raphy",
-          "Laprscopy surgery",
-          "Laparotomy",
-          "Plasty"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Exploratory laparotomy"
-      },
-      {
-        "question": "What is the function of retractors?",
-        "options": [
-          "To expose the internal organs for better reach",
-          "To make an incision",
-          "To dissect organs",
-          "To cut organs",
-          "To clamp"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: To expose the internal organs for better reach"
-      },
-      {
-        "question": "What is the most initial step after completing a surgery?",
-        "options": [
-          "ICU care",
-          "OT care",
-          "OPD care",
-          "Ward care",
-          "Home care"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: ICU care"
-      },
-      {
-        "question": "What is the opening called used for feeding and draining?",
-        "options": [
-          "Stoma",
-          "Lapa",
-          "Anastomosis",
-          "Baseline",
-          "Plasty"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Stoma"
-      },
-      {
-        "question": "Which of the following is an absorbable suture material ?",
-        "options": [
-          "Polydioxanone",
-          "Polypropylene",
-          "Silk",
-          "Monofilament",
-          "Polyamide"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Polydioxanone"
-      }
-    ]
-  },
-  "t-s-2-2-2": {
-    "situational": [
-      {
-        "question": "A patient with Bennett fracture (a fracture of the base of the first metacarpal bone) experiences an impaired thumb movement. Which of the following intrinsic muscles of the thumb is most likely injured?",
-        "options": [
-          "Opponens pollicis",
-          "Abductor pollicis brevis",
-          "Flexor pollicis brevis (superficial head)",
-          "Adductor pollicis",
-          "Flexor pollicis brevis (deep head)"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Opponens pollicis"
-      },
-      {
-        "question": "A 27-year-old pianist with a known carpal tunnel syndrome experiences difficulty in finger movements. Which of the   following intrinsic muscles of her hand is paralyzed?",
-        "options": [
-          "Lateral two lumbricals and opponens",
-          "Palmar interossei and adductor pollicis",
-          "Dorsal interossei",
-          "Abductor pollicis brevis and palmar",
-          "interossei"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Lateral two lumbricals and opponens"
-      },
-      {
-        "question": "Medial two and lateral two lumbricals A 31-year-old roofer walks in with tenosynovitis resulting from a deep penetrated wound in the palm by a big nail. Examination indicates that he has an infection in the ulnar bursa. This infection most likely resulted in necrosis of which of the following tendons?",
-        "options": [
-          "Tendon of the flexor digitorum profundus",
-          "Tendon of the flexor carpi ulnaris",
-          "Tendon of the flexor pollicis longus",
-          "Tendon of the flexor carpi radialis",
-          "Tendon of the palmaris longus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Tendon of the flexor digitorum profundus"
-      },
-      {
-        "question": "An 18-year-old boy involved in an automobile accident presents with an arm that cannot abduct. His paralysis is caused by damage to which of the following nerves?",
-        "options": [
-          "Suprascapular and axillary",
-          "Thoracodorsal and upper subscapular",
-          "Axillary and musculocutaneous",
-          "Radial and lower subscapular",
-          "Suprascapular and dorsal scapular"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Suprascapular and axillary"
-      },
-      {
-        "question": "A 17-year-old boy with a stab wound received multiple injuries on the upper part of the arm and required surgery. If the brachial artery were ligated at its origin, which of the following arteries would supply blood to the profunda brachii artery?",
-        "options": [
-          "Posterior humeral circumflex",
-          "Lateral thoracic",
-          "Subscapular",
-          "Superior ulnar collateral",
-          "Radial recurrent"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Posterior humeral circumflex"
-      },
-      {
-        "question": "A man is unable to hold typing paper between his index and middle fingers. Which of the following nerves was likely injured?",
-        "options": [
-          "Ulnar nerve",
-          "Radial nerve",
-          "Median nerve",
-          "Musculocutaneous nerve",
-          "Axillary nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Ulnar nerve"
-      },
-      {
-        "question": "The victim of an automobile accident has a destructive injury of the proximal row of carpal bones. Which of the following bones is most likely damaged?",
-        "options": [
-          "Triquetrum",
-          "Capitate",
-          "Hamate",
-          "Trapezium",
-          "Trapezoid"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Triquetrum"
-      },
-      {
-        "question": "A patient has a torn rotator cuff of the shoulder joint as the result of an automobile accident. Which of the following muscle tendons is intact and has normal function?",
-        "options": [
-          "Teres major",
-          "Supraspinatus",
-          "Subscapularis",
-          "Teres minor",
-          "Infraspinatus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Teres major"
-      },
-      {
-        "question": "A patient complains of having pain with repeated movements of his thumb (claudication). His physician performs the Allen test and finds an insufficiency of the radial artery. Which of the following conditions would be a result of the radial artery stenosis?",
-        "options": [
-          "A marked decrease in the blood flow in the princeps pollicis artery",
-          "A marked decrease in the blood flow in the superficial palmar arterial arch",
-          "Decreased pulsation in the artery passing superficial to the flexor retinaculum",
-          "Ischemia of the entire extensor muscles of the forearm",
-          "A low blood pressure in the anterior interosseous artery"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: A marked decrease in the blood flow in the princeps pollicis artery"
-      },
-      {
-        "question": "A patient bleeding from the shoulder secondary to a knife wound is in fair condition because there is vascular anastomosis around the shoulder. Which of the following arteries is most likely a direct branch of the subclavian artery that is involved in the anastomosis?",
-        "options": [
-          "Dorsal scapular artery",
-          "Thoracoacromial artery",
-          "Circumflex scapular artery",
-          "Transverse cervical artery",
-          "A 20-year-old man fell from the parallel bar during the Olympic trial. A neurologic examination"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Dorsal scapular artery"
-      },
-      {
-        "question": "reveals that he has a lesion of the lateral cord of the brachial plexus. Which of the following muscles is most likely weakened by this injury?",
-        "options": [
-          "Pectoralis major",
-          "Subscapularis",
-          "Teres major",
-          "Latissimus dorsi",
-          "Teres minor"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Pectoralis major"
-      },
-      {
-        "question": "A 24-year-old carpenter suffers a crush injury of his entire little finger. Which of the following muscles is most likely to be spared?",
-        "options": [
-          "Dorsal interossei",
-          "Flexor digitorum profundus",
-          "Extensor digitorum",
-          "Palmar interossei",
-          "Lumbricals"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Dorsal interossei"
-      },
-      {
-        "question": "A patient presents with a stab wound to the anterior forearm, resulting in loss of wrist flexion and weakness in pronation. Which nerve is MOST likely injured?",
-        "options": [
-          "Median nerve",
-          "Radial nerve",
-          "Ulnar nerve",
-          "Musculocutaneous nerve",
-          "Axillary nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Median nerve"
-      },
-      {
-        "question": "A patient falls on an outstretched hand, resulting in a fracture of the distal radius with dorsal displacement. This is commonly known as a:",
-        "options": [
-          "Colles' fracture",
-          "Smith's fracture",
-          "Scaphoid fracture",
-          "Hamate fracture",
-          "Monteggia fracture"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Colles' fracture"
-      },
-      {
-        "question": "A surgeon is performing a carpal tunnel release. The primary goal of this procedure is to decompress the:",
-        "options": [
-          "Median nerve",
-          "Radial nerve",
-          "Ulnar nerve",
-          "Flexor carpi radialis tendon",
-          "Palmaris longus tendon"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Median nerve"
-      },
-      {
-        "question": "A patient sustains a deep laceration to the medial aspect of the forearm, just proximal to the wrist. Which artery is MOST at risk of injury?",
-        "options": [
-          "Ulnar artery",
-          "Radial artery",
-          "Anterior interosseous artery",
-          "Posterior interosseous artery",
-          "Brachial artery"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Ulnar artery"
-      },
-      {
-        "question": "drop. Which nerve is likely affected, often due to injury in the radial groove of the humerus or during procedures on the forearm?",
-        "options": [
-          "Radial nerve",
-          "Median nerve",
-          "Ulnar nerve",
-          "Musculocutaneous nerve",
-          "Axillary nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Radial nerve"
-      }
-    ],
-    "test": [
-      {
-        "question": "The suprascapular nerve supplies:",
-        "options": [
-          "Muscle inserted into the upper impression of the greater tuberosity of the humerus.",
-          "Muscle inserted into the middle impression of the greater tuberosity of the humerus.",
-          "Muscle that initiates abduction of the arm.",
-          "All of the above.",
-          "a and b only."
-        ],
-        "correctIndex": 3,
-        "explanation": "Correct answer: All of the above."
-      },
-      {
-        "question": "Lesion of the axillary nerve causes:",
-        "options": [
-          "Winging of the scapula.",
-          "Flat shoulder.",
-          "Claw hand.",
-          "Ape hand.",
-          "Wrist drop."
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: Flat shoulder."
-      },
-      {
-        "question": "Muscles that rotate the scapula downward are attached to:",
-        "options": [
-          "Ventral lip of the medial border of the scapula.",
-          "Dorsal lip of the medial border of the scapula.",
-          "Upper lip of the crest of the spine.",
-          "Lower lip of the crest of the spine.",
-          "a and c."
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: Dorsal lip of the medial border of the scapula."
-      },
-      {
-        "question": "Muscles that rotate the scapula upward are attached to the:",
-        "options": [
-          "Ventral lip of the medial border of the scapula.",
-          "Dorsal lip of the medial border of the scapula.",
-          "Upper lip of the crest of the spine.",
-          "Lower lip of the crest of the spine.",
-          "a and c."
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: a and c."
-      },
-      {
-        "question": "All the muscles attached to the bicipital (intertubercular) groove:",
-        "options": [
-          "Abduct the arm (shoulder joint).",
-          "Adduct the arm.",
-          "Medial rotation of the arm.",
-          "a and c.",
-          "b and c."
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: b and c."
-      },
-      {
-        "question": "Anastomosis around the scapula connects the subclavian artery with the:",
-        "options": [
-          "First part of the axillary artery.",
-          "Second part of the axillary artery.",
-          "Third part of the axillary artery.",
-          "Brachial artery.",
-          "None of the above."
-        ],
-        "correctIndex": 2,
-        "explanation": "Correct answer: Third part of the axillary artery."
-      },
-      {
-        "question": "Actions of the latissimus dorsi:",
-        "options": [
-          "Flexes the arm.",
-          "Abducts the arm.",
-          "Laterally rotates the arm.",
-          "All of the above.",
-          "None of the above."
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: None of the above."
-      },
-      {
-        "question": "Triangle of auscultation is associated with all of the following EXCEPT:",
-        "options": [
-          "Latissimus dorsi.",
-          "Teres major.",
-          "Rhomboid major.",
-          "Trapezius.",
-          "Medial border of the scapula."
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: Teres major."
-      },
-      {
-        "question": "The quadrangular space is bounded by all of the following EXCEPT:",
-        "options": [
-          "Teres minor.",
-          "Teres major.",
-          "Long head of biceps.",
-          "Long head of triceps.",
-          "Surgical neck of the humerus."
-        ],
-        "correctIndex": 2,
-        "explanation": "Correct answer: Long head of biceps."
-      },
-      {
-        "question": "Regarding the biceps brachii, one is INCORRECT:",
-        "options": [
-          "Has long head attached to the supraglenoid tubercle.",
-          "Has short head attached to the tip of the coracoid process.",
-          "Has a tendon inserted into the radial tuberosity.",
-          "It flexes the elbow joint.",
-          "It is powerful supinator of the extended elbow."
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: It is powerful supinator of the extended elbow."
-      },
-      {
-        "question": "The direction of the nutrient foramen of the humerus is:",
-        "options": [
-          "Upward.",
-          "Downward.",
-          "Medially.",
-          "Laterally.",
-          "None of the above."
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: Downward."
-      },
-      {
-        "question": "The bicipital aponeurosis passes obliquely deep to the:",
-        "options": [
-          "Brachial artery.",
-          "Median cubital vein.",
-          "Median nerve.",
-          "Radial nerve.",
-          "None of the above."
-        ],
-        "correctIndex": 1,
-        "explanation": "The bicipital aponeurosis passes superficial to the brachial artery and median nerve, but deep to the median cubital vein."
-      },
-      {
-        "question": "In movements of the arm, the coracobrachialis assists in:",
-        "options": [
-          "Flexion.",
-          "Extension.",
-          "Abduction.",
-          "Rotation.",
-          "Supination."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Flexion."
-      },
-      {
-        "question": "The brachial artery:",
-        "options": [
-          "Bifurcates opposite the neck of the humerus.",
-          "Is deep throughout its entire course.",
-          "In the cubital fossa, it lies medial to the biceps tendon.",
-          "The median nerve crosses in front of the artery from the medial to the lateral side.",
-          "None of the above."
-        ],
-        "correctIndex": 2,
-        "explanation": "Correct answer: In the cubital fossa, it lies medial to the biceps tendon."
-      },
-      {
-        "question": "The cubital fossa is bounded by the:",
-        "options": [
-          "Pronator quadratus.",
-          "Brachioradialis.",
-          "Coracobrachialis.",
-          "Biceps tendon.",
-          "a and b only."
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: Brachioradialis."
-      },
-      {
-        "question": "The lateral cutaneous nerve of the forearm is derived from the:",
-        "options": [
-          "C5.",
-          "C6.",
-          "C7.",
-          "C5, 6, 7",
-          "C6, 7, 8"
-        ],
-        "correctIndex": 3,
-        "explanation": "Correct answer: C5, 6, 7"
-      },
-      {
-        "question": "The anterior compartment of the arm contains all of the following EXCEPT:",
-        "options": [
-          "Biceps.",
-          "Triceps.",
-          "Brachialis.",
-          "Coracobrachialis.",
-          "Brachial artery."
-        ],
-        "correctIndex": 1,
-        "explanation": "The anterior compartment contains the Biceps, Brachialis, and Coracobrachialis. The Triceps is in the posterior compartment."
-      },
-      {
-        "question": "Muscles innervated by the musculocutaneous nerve:",
-        "options": [
-          "Brachialis.",
-          "Coracobrachialis.",
-          "Biceps.",
-          "All of the above.",
-          "Triceps."
-        ],
-        "correctIndex": 3,
-        "explanation": "Correct answer: All of the above."
-      },
-      {
-        "question": "The cubital fossa contains all of the following EXCEPT:",
-        "options": [
-          "Brachial artery.",
-          "Radial artery.",
-          "Radial nerve.",
-          "Ulnar nerve.",
-          "Median nerve."
-        ],
-        "correctIndex": 3,
-        "explanation": "Correct answer: Ulnar nerve."
-      },
-      {
-        "question": "The constriction below the greater and lesser tuberosities of the humerus is called:",
-        "options": [
-          "Anatomical neck.",
-          "Surgical neck.",
-          "Humeral shaft.",
-          "Humeral ring.",
-          "None of the above."
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: Surgical neck."
-      }
-    ]
-  },
-  "t-s-2-2-3": {
-    "situational": [
-      {
-        "question": "A 21-year-old patient has a lesion of the upper trunk of the brachial plexus (Erb–Duchenne paralysis). Which of the following is the most likely diagnosis?",
-        "options": [
-          "Arm tending to lie in medial rotation",
-          "Paralysis of the rhomboid major",
-          "Inability to elevate the arm above the horizontal",
-          "Loss of sensation on the medial side of the arm",
-          "Inability to adduct the thumb"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Arm tending to lie in medial rotation"
-      },
-      {
-        "question": "A patient comes in with a gunshot wound and requires surgery in which his thoracoacromial trunk needs to be ligated. Which of the following arterial branches would maintain normal blood flow?",
-        "options": [
-          "Superior thoracic",
-          "Acromia",
-          "Pectoral",
-          "Clavicular",
-          "Deltoid"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Superior thoracic"
-      },
-      {
-        "question": "A 29-year-old man comes in with a stab wound, cannot raise his arm above horizontal, and exhibits a condition known as “winged scapula.” Which of the following structures of the brachial plexus would most likely be damaged?",
-        "options": [
-          "Roots",
-          "Medial cord",
-          "Posterior cord",
-          "Lower trunk",
-          "Upper trunk"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Roots"
-      },
-      {
-        "question": "A 16-year-old patient has weakness flexing the metacarpophalangeal joint of the ring finger and is unable to adduct the same finger. Which of the following muscles is most likely paralyzed?",
-        "options": [
-          "Palmar interosseous",
-          "Flexor digitorum profundus",
-          "Extensor digitorum",
-          "Lumbrical",
-          "Dorsal interosseous"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Palmar interosseous"
-      },
-      {
-        "question": "A 27-year-old patient presents with an inability to draw the scapula forward and downward because of paralysis of the pectoralis minor. Which of the following would most likely be a cause of his condition?",
-        "options": [
-          "Fracture of the coracoid process",
-          "Fracture of the clavicle",
-          "Injury to the posterior cord of the brachial plexus",
-          "Fracture of the coracoid process",
-          "Axillary nerve injury"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Fracture of the coracoid process"
-      },
-      {
-        "question": "A 22-year-old patient received a stab wound in the chest that injured the intercostobrachial nerve. Which of the following conditions results from the described lesion of the nerve?",
-        "options": [
-          "Loss of sensory fibers from the second intercostal nerve Inability to move the ribs",
-          "Loss of tactile sensation on the lateral aspect of the arm",
-          "Absence of sweating on the posterior aspect of the arm",
-          "Loss of sensory fibers from the second intercostal nerve",
-          "Damage to the sympathetic preganglionic fibers"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Loss of sensory fibers from the second intercostal nerve Inability to move the ribs"
-      },
-      {
-        "question": "A 16-year-old boy fell from a motorcycle, and his radial nerve was severely damaged because of a fracture of the midshaft of the humerus. Which of the following conditions would most likely result from this accident?",
-        "options": [
-          "Loss of wrist extension leading to wrist drop",
-          "Weakness in pronating the forearm",
-          "Sensory loss over the ventral aspect of the base of the thumb",
-          "Inability to oppose the thumb",
-          "Inability to abduct the fingers"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Loss of wrist extension leading to wrist drop"
-      },
-      {
-        "question": "A patient comes in complaining that she cannot flex her proximal interphalangeal joints. Which of the following muscles appear(s) to be paralyzed on further examination of her finger?",
-        "options": [
-          "Flexor digitorum superficialis",
-          "Palmar interossei",
-          "Dorsal interossei",
-          "Flexor digitorum profundus",
-          "Lumbricals"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Flexor digitorum superficialis"
-      },
-      {
-        "question": "A 21-year-old woman walks in with a shoulder and arm injury after falling during horseback riding. Examination indicates that she cannot adduct her arm because of paralysis of which of the following muscles?",
-        "options": [
-          "Latissimus dorsi",
-          "Teres minor",
-          "Supraspinatus",
-          "Infraspinatus",
-          "Serratus anterior"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Latissimus dorsi"
-      },
-      {
-        "question": "A 35-year-old man walks in with a stab wound to the most medial side of the proximal portion of the cubital fossa. Which of the following structures would most likely be damaged?",
-        "options": [
-          "Median nerve",
-          "Biceps brachii tendon",
-          "Radial nerve",
-          "Brachial artery",
-          "Radial recurrent artery"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Median nerve"
-      },
-      {
-        "question": "A 7-year-old boy falls from a tree house and is brought to the emergency department of a local hospital. On examination, he has weakness in rotating his arm laterally because of an injury of a nerve. Which of the following conditions is most likely to cause a loss of this nerve function?",
-        "options": [
-          "Inferior dislocation of the head of the humerus",
-          "Injury to the lateral cord of the brachial plexus",
-          "Fracture of the anatomic neck of the humerus",
-          "Knife wound on the teres major muscle",
-          "A tumor in the triangular space in the shoulder region"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Inferior dislocation of the head of the humerus"
-      },
-      {
-        "question": "A 49-year-old woman is diagnosed as having a large lump in her right breast. Lymph from the cancerous breast drains primarily into which of the following nodes?",
-        "options": [
-          "Anterior (pectoral) nodes",
-          "Apical nodes",
-          "Parasternal (internal thoracic) nodes",
-          "Supraclavicular nodes",
-          "Nodes of the anterior abdominal wall"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Anterior (pectoral) nodes"
-      },
-      {
-        "question": "A patient presents with a stab wound to the anterior forearm, resulting in loss of wrist flexion and weakness in pronation. Which nerve is MOST likely injured?",
-        "options": [
-          "Median nerve",
-          "Radial nerve",
-          "Ulnar nerve",
-          "Musculocutaneous nerve",
-          "Axillary nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Median nerve"
-      },
-      {
-        "question": "A patient falls on an outstretched hand, resulting in a fracture of the distal radius with dorsal displacement. This is commonly known as a:",
-        "options": [
-          "Colles' fracture",
-          "Smith's fracture",
-          "Scaphoid fracture",
-          "Hamate fracture",
-          "Monteggia fracture"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Colles' fracture"
-      },
-      {
-        "question": "A surgeon is performing a carpal tunnel release. The primary goal of this procedure is to decompress the:",
-        "options": [
-          "Median nerve",
-          "Radial nerve",
-          "Ulnar nerve",
-          "Flexor carpi radialis tendon",
-          "Palmaris longus tendon"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Median nerve"
-      },
-      {
-        "question": "A patient sustains a deep laceration to the medial aspect of the forearm, just proximal to the wrist. Which artery is MOST at risk of injury?",
-        "options": [
-          "Ulnar artery",
-          "Radial artery",
-          "Anterior interosseous artery",
-          "Posterior interosseous artery",
-          "Brachial artery"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Ulnar artery"
-      },
-      {
-        "question": "drop. Which nerve is likely affected, often due to injury in the radial groove of the humerus or during procedures on the forearm?",
-        "options": [
-          "Radial nerve",
-          "Median nerve",
-          "Ulnar nerve",
-          "Musculocutaneous nerve",
-          "Axillary nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Radial nerve"
-      }
-    ],
-    "test": [
-      {
-        "question": "Injury to a nerve at the wrist, the thumb is laterally rotated and adducted. The hand looks flattened and apelike. The nerve that has been damaged is the ?",
-        "options": [
-          "median nerve",
-          "superficial branch of the radial nerve.",
-          "ulnar nerve.",
-          "anterior interosseous nerve.",
-          "deep branch of the radial nerve."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: median nerve"
-      },
-      {
-        "question": "During its course in the upper limb, the axillary nerve lies?",
-        "options": [
-          "against the surgical neck of the humerus.",
-          "in front of the lateral epicondyle of the humerus.",
-          "against the spiral groove of the humerus.",
-          "medial to the brachial artery in the cubital fossa.",
-          "behind the medial epicondyle of the humerus."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: against the surgical neck of the humerus."
-      },
-      {
-        "question": "During its course in the upper limb, the ulnar nerve lies?",
-        "options": [
-          "behind the medial epicondyle of the humerus",
-          "in front of the lateral epicondyle of the humerus.",
-          "behind the flexor retinaculum of the wrist.",
-          "against the spiral groove of the humerus.",
-          "medial to the brachial artery in the cubital fossa."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: behind the medial epicondyle of the humerus"
-      },
-      {
-        "question": "During its course in the upper limb, the median nerve lies?",
-        "options": [
-          "medial to the brachial artery in the cubital fossa",
-          "anterior to the flexor retinaculum of the wrist.",
-          "in front of the lateral epicondyle of the humerus.",
-          "against the spiral groove of the humerus.",
-          "against the surgical neck of the humerus."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: medial to the brachial artery in the cubital fossa"
-      },
-      {
-        "question": "During its course in the upper limb the radial nerve lies?",
-        "options": [
-          "against the spiral groove of the humerus.",
-          "in front of the medial epicondyle of the humerus.",
-          "behind the flexor retinaculum of the wrist.",
-          "medial to the brachial artery in the cubital fossa.",
-          "against the surgical neck of the humerus."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: against the spiral groove of the humerus."
-      },
-      {
-        "question": "The dorsal interossei muscles are innervated by the?",
-        "options": [
-          "deep branch of the ulnar nerve.",
-          "deep branch of the radial nerve.",
-          "superficial branch of the ulnar nerve.",
-          "median nerve.",
-          "recurrent branch of the median nerve."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: deep branch of the ulnar nerve."
-      },
-      {
-        "question": "At the wrist, the flexor retinaculum is attached to the following bones except which?",
-        "options": [
-          "The triquetral bone",
-          "The pisiform bone",
-          "The hook of the hamate",
-          "The tubercle of the scaphoid",
-          "The ridge on the trapezium"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: The triquetral bone"
-      },
-      {
-        "question": "Collateral circulation around the shoulder joint would involve the following except which?",
-        "options": [
-          "The superficial cervical artery",
-          "The anterior circumflex humeral artery",
-          "The suprascapular artery",
-          "The subscapular artery",
-          "The lateral thoracic artery"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: The superficial cervical artery"
-      },
-      {
-        "question": "Cutting the dorsal scapular nerve would most likely result in paralysis of the ?",
-        "options": [
-          "rhomboid major muscle.",
-          "trapezius muscle.",
-          "supraspinatus muscle.",
-          "deltoid muscle.",
-          "infraspinatus muscle."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: rhomboid major muscle."
-      },
-      {
-        "question": "The following structures pass posterior to the flexor retinaculum except which?",
-        "options": [
-          "Ulnar nerve",
-          "Flexor digitorum superficialis tendons",
-          "Median nerve",
-          "Flexor pollicis longus tendon",
-          "Anterior interosseous nerve"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Ulnar nerve"
-      },
-      {
-        "question": "The following tendons are inserted into the base of the proximal phalanx of the thumb except which?",
-        "options": [
-          "Abductor pollicis longus",
-          "Extensor pollicis brevis",
-          "Oblique head of adductor pollicis",
-          "Flexor pollicis brevis",
-          "First palmar interosseous"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Abductor pollicis longus"
-      },
-      {
-        "question": "The anterior fascial compartment of the forearm contains the following arteries except which?",
-        "options": [
-          "Profunda",
-          "Brachial",
-          "Anterior interosseous",
-          "Radial",
-          "Ulnar"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Profunda"
-      },
-      {
-        "question": "The following bones form the proximal row of carpal bones except which?",
-        "options": [
-          "Trapezium",
-          "Lunate",
-          "Pisiform",
-          "Scaphoid",
-          "Triquetral"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Trapezium"
-      },
-      {
-        "question": "The dermatome present over the lateral side of the wrist is ?",
-        "options": [
-          "C6",
-          "T2",
-          "T1.",
-          "C8",
-          "C5"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: C6"
-      },
-      {
-        "question": "The sensory innervation of the dorsal surface of the root of the thumb is the?",
-        "options": [
-          "radial nerve",
-          "median nerve",
-          "superficial branch of the ulnar nerve",
-          "dorsal cutaneous branch of the ulnar nerve",
-          "posterior interosseous nerve"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: radial nerve"
-      },
-      {
-        "question": "The extensor carpi radialis brevis muscle is innervated by the ?",
-        "options": [
-          "deep branch of the radial nerve",
-          "superficial radial nerve",
-          "deep branch of the ulnar nerve",
-          "ulnar nerve",
-          "radial nerve"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: deep branch of the radial nerve"
-      },
-      {
-        "question": "The extensor carpi radialis longus muscle is innervated by the ?",
-        "options": [
-          "radial nerve.",
-          "anterior interosseous nerve.",
-          "deep branch of the ulnar nerve.",
-          "ulnar nerve.",
-          "median nerve."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: radial nerve."
-      },
-      {
-        "question": "The lymph from the medial quadrants of the breast drain mainly into the?",
-        "options": [
-          "posterior axillary (subscapular) nodes",
-          "internal thoracic nodes",
-          "anterior axillary (pectoral) nodes",
-          "lateral axillary (brachial) nodes",
-          "infraclavicular (deltopectoral) nodes"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: posterior axillary (subscapular) nodes"
-      },
-      {
-        "question": "The following structures pass superficial to the flexor retinaculum at the wrist except which?",
-        "options": [
-          "Flexor pollicis longus tendon",
-          "Palmar cutaneous branch of the median nerve",
-          "Ulnar nerve",
-          "Ulnar artery",
-          "Palmar cutaneous branch of"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Flexor pollicis longus tendon"
-      },
-      {
-        "question": "The following part or branch of the brachial plexus has a terminal branch that supplies the skin on the medial side of the arm.",
-        "options": [
-          "Medial cord",
-          "Musculocutaneous nerve",
-          "Lateral cord",
-          "Thoracodorsal nerve",
-          "Ulnar nerve"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Medial cord"
-      }
-    ]
-  },
-  "t-s-2-2-4": {
-    "situational": [
-      {
-        "question": "A 27-year-old patient exhibits a loss of skin sensation and paralysis of muscles on the plantar aspect of the medial side of the foot. Which of the following nerves is most likely damaged?",
-        "options": [
-          "Tibia",
-          "Common peroneal",
-          "Superficial peroneal",
-          "Deep peroneal",
-          "Sural"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Tibia"
-      },
-      {
-        "question": "A patient with a deep knife wound in the buttock walks with a waddling gait that is characterized by the pelvis falling toward one side at each step. Which of the following nerves is damaged?",
-        "options": [
-          "Superior gluteal nerve",
-          "Femoral nerve",
-          "Obturator nerve",
-          "Nerve to obturator internus",
-          "Inferior gluteal nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Superior gluteal nerve"
-      },
-      {
-        "question": "A patient is unable to prevent anterior displacement of the femur on the tibia when the knee is flexed. Which of the following ligaments is most likely damaged?",
-        "options": [
-          "Posterior cruciate",
-          "Anterior cruciate",
-          "Fibular collateral",
-          "Patellar",
-          "Tibial collateral"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Posterior cruciate"
-      },
-      {
-        "question": "A 41-year-old man was involved in a fight and felt weakness in extending the knee joint. On examination, he was diagnosed with a lesion of the femoral nerve. Which of the following symptoms would be a result of this nerve damage?",
-        "options": [
-          "Paralysis of the vastus lateralis muscle",
-          "Paralysis of the psoas major muscle",
-          "Loss of skin sensation on the lateral side of the foot",
-          "Loss of skin sensation over the greater trochanter",
-          "Paralysis of the tensor fasciae latae"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Paralysis of the vastus lateralis muscle"
-      },
-      {
-        "question": "A 47-year-old woman is unable to invert her foot after she stumbled on her driveway. Which of the following nerves are most likely injured?",
-        "options": [
-          "Deep peroneal and tibial",
-          "Superficial and deep peroneal",
-          "Superficial peroneal and tibial",
-          "Medial and lateral plantar",
-          "Obturator and tibial"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Deep peroneal and tibial"
-      },
-      {
-        "question": "A 22-year-old patient is unable to “unlock” the knee joint to permit flexion of the leg. Which of the following muscles is most likely damaged?",
-        "options": [
-          "Popliteus",
-          "Rectus femoris",
-          "Semimembranosus",
-          "Gastrocnemius",
-          "Biceps femoris"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Popliteus"
-      },
-      {
-        "question": "A patient presents with sensory loss on adjacent sides of the great and second toes and impaired dorsiflexion of the foot. These signs probably indicate damage to which of the following nerves?",
-        "options": [
-          "Deep peroneal",
-          "Superficial peroneal",
-          "Lateral plantar",
-          "Sural",
-          "Tibial"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Deep peroneal"
-      },
-      {
-        "question": "A motorcyclist falls from his bike in an accident and gets a deep gash that severs the superficial peroneal nerve near its origin. Which of  the following muscles is paralyzed?",
-        "options": [
-          "Peroneus longus",
-          "Extensor hallucis longus",
-          "Extensor digitorum longus",
-          "Peroneus tertius",
-          "Extensor digitorum brevis"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Peroneus longus"
-      },
-      {
-        "question": "A 52-year-old woman slipped and fell and now complains of being unable to extend her leg at the knee joint. Which off the following muscles was paralyzed as a result of this accident?",
-        "options": [
-          "Gracilis",
-          "Semitendinosus",
-          "Sartorius",
-          "Quadriceps femoris",
-          "Biceps femoris"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Gracilis"
-      },
-      {
-        "question": "muscles is damaged? Tibialis anterior Peroneus longus Peroneus brevis Extensor digitorum longus Peroneus tertius Fracture of the neck of the femur results in avascular necrosis of the femoral head, probably resulting from lack of blood supply from which of the following arteries?",
-        "options": [
-          "Medial femoral circumflex",
-          "Obturator",
-          "Superior gluteal",
-          "Inferior gluteal",
-          "Lateral femoral circumflex"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Medial femoral circumflex"
-      },
-      {
-        "question": "If the acetabulum is fractured at its posterosuperior margin by dislocation of the hip joint, which of the following bones could be involved?",
-        "options": [
-          "Ilium",
-          "Pubis",
-          "Ischium",
-          "Sacrum",
-          "Head of the femur"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Ilium"
-      },
-      {
-        "question": "A patient presents with weakness in hip flexion and knee extension after a pelvic fracture. Which nerve is MOST likely injured?",
-        "options": [
-          "Femoral nerve",
-          "Obturator nerve",
-          "Sciatic nerve",
-          "Superior gluteal nerve",
-          "Inferior gluteal nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Femoral nerve"
-      },
-      {
-        "question": "A patient sustains a deep laceration to the anterior thigh. Which muscle is MOST likely to be affected, leading to difficulty extending the knee?",
-        "options": [
-          "Quadriceps femoris",
-          "Hamstrings",
-          "Adductors",
-          "Gluteals",
-          "Sartorius"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Quadriceps femoris"
-      },
-      {
-        "question": "A surgeon is performing a femoral artery catheterization. Which anatomical landmark is used to locate the femoral artery within the femoral triangle?",
-        "options": [
-          "Mid-inguinal point (midpoint between the anterior superior iliac spine and pubic symphysis)",
-          "Midpoint of the inguinal ligament",
-          "Femoral head",
-          "Pubic tubercle",
-          "Ischial tuberosity"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Mid-inguinal point (midpoint between the anterior superior iliac spine and pubic symphysis)"
-      },
-      {
-        "question": "A patient presents with medial thigh pain and difficulty adducting the thigh. Which nerve is MOST likely involved?",
-        "options": [
-          "Obturator nerve",
-          "Femoral nerve",
-          "Sciatic nerve",
-          "Superior gluteal nerve",
-          "Inferior gluteal nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Obturator nerve"
-      },
-      {
-        "question": "A patient experiences numbness and tingling along the lateral aspect of the thigh. Which nerve is MOST likely compressed or irritated?",
-        "options": [
-          "Lateral femoral cutaneous nerve",
-          "Femoral nerve",
-          "Obturator nerve",
-          "Sciatic nerve",
-          "Ilioinguinal nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Lateral femoral cutaneous nerve"
-      }
-    ],
-    "test": [
-      {
-        "question": "The long head of the biceps femoris muscle is innervated by the",
-        "options": [
-          "tibial portion of the sciatic nerve.",
-          "femoral nerve.",
-          "sural nerve.",
-          "common peroneal nerve.",
-          "obturator nerve."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: tibial portion of the sciatic nerve."
-      },
-      {
-        "question": "The gracilis muscle is innervated by the",
-        "options": [
-          "obturator nerve.",
-          "tibial portion of the sciatic nerve.",
-          "sural nerve.",
-          "femoral nerve.",
-          "common peroneal nerve."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: obturator nerve."
-      },
-      {
-        "question": "The gluteus maximus muscle is innervated by the",
-        "options": [
-          "inferior gluteal nerve.",
-          "superior gluteal nerve.",
-          "nerve to quadratus femoris.",
-          "nerve to obturator internus.",
-          "obturator nerve."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: inferior gluteal nerve."
-      },
-      {
-        "question": "The sartorius muscle is innervated by the",
-        "options": [
-          "femoral nerve.",
-          "obturator nerve.",
-          "nerve to vastus medialis.",
-          "superior gluteal nerve.",
-          "lateral cutaneous nerve of the thigh."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: femoral nerve."
-      },
-      {
-        "question": "A malignant melanoma (cancer) of the skin covering the buttock is likely to spread via lymphatics to the",
-        "options": [
-          "horizontal group of superficial inguinal nodes.",
-          "internal iliac nodes.",
-          "popliteal nodes.",
-          "posterior axillary nodes.",
-          "vertical group of superficial inguinal nodes."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: horizontal group of superficial inguinal nodes."
-      },
-      {
-        "question": "Extension of the hip joint is limited by the",
-        "options": [
-          "iliofemoral ligament",
-          "pubofemoral ligament.",
-          "adductor magnus muscle.",
-          "ischiofemoral ligament.",
-          "quadriceps muscle."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: iliofemoral ligament"
-      },
-      {
-        "question": "Flexion of the hip joint (with the knee flexed) is limited by the",
-        "options": [
-          "hamstring muscles.",
-          "iliofemoral ligament.",
-          "anterior abdominal wall.",
-          "pubofemoral ligament.",
-          "adductor magnus muscle."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: hamstring muscles."
-      },
-      {
-        "question": "If the dorsalis pedis artery is severed just proximal to its medial and lateral tarsal branches, blood can still reach the dorsum of the foot through which vessels()?",
-        "options": [
-          "All of the above.",
-          "The posterior tibial artery.",
-          "The lateral plantar artery.",
-          "The peroneal artery.",
-          "The medial plantar artery."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: All of the above."
-      },
-      {
-        "question": "If the foot is permanently dorsiflexed and everted, which nerve might be injured?",
-        "options": [
-          "The tibial nerve",
-          "The common peroneal nerve",
-          "The obturator nerve",
-          "The superficial peroneal nerve",
-          "The deep peroneal nerve"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: The tibial nerve"
-      },
-      {
-        "question": "In children, the chief arterial supply to the head of the femur is derived from which artery or arteries?",
-        "options": [
-          "Branches from the medial and lateral circumflex femoral arteries.",
-          "The superficial circumflex iliac artery.",
-          "The internal pudendal artery.",
-          "The deep circumflex iliac artery.",
-          "The obturator artery."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Branches from the medial and lateral circumflex femoral arteries."
-      },
-      {
-        "question": "Injury to the common peroneal nerve results in which condition?",
-        "options": [
-          "Inability to evert the foot",
-          "Inability to plantar flex the big toe",
-          "Inability to invert the foot",
-          "Inability to plantar flex the ankle",
-          "Inability to feel skin sensation on the medial side of the leg"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Inability to evert the foot"
-      },
-      {
-        "question": "Lymph from the nail bed of the big toe drains into the",
-        "options": [
-          "vertical group of superficial inguinal nodes.",
-          "internal iliac nodes",
-          "horizontal group of superficial inguinal nodes.",
-          "presacral nodes.",
-          "popliteal nodes"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: vertical group of superficial inguinal nodes."
-      },
-      {
-        "question": "Lymph from the skin of the lateral side of the foot drains into the",
-        "options": [
-          "popliteal nodes",
-          "horizontal group of superficial inguinal nodes.",
-          "subsartorial nodes.",
-          "internal iliac nodes.",
-          "vertical group of superficial inguinal nodes."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: popliteal nodes"
-      },
-      {
-        "question": "Lymph from the skin of the medial side of the knee drains into the",
-        "options": [
-          "vertical group of superficial inguinal nodes.",
-          "medial group of the horizontal superficial inguinal nodes",
-          "lateral group of horizontal inguinal nodes.",
-          "internal iliac nodes.",
-          "popliteal nodes."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: vertical group of superficial inguinal nodes."
-      },
-      {
-        "question": "Rupture of the tendo calcaneus results in an inability to do what?",
-        "options": [
-          "Plantar flex the foot",
-          "Dorsiflex the foot",
-          "None of the above.",
-          "d. Evert the foot",
-          "Invert the foot"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Plantar flex the foot"
-      },
-      {
-        "question": "The adductor longus muscle is innervated by the?",
-        "options": [
-          "anterior division of the obturator nerve.",
-          "posterior division of the femoral nerve.",
-          "femoral nerve.",
-          "common peroneal nerve.",
-          "tibial portion of the sciatic nerve."
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: anterior division of the obturator nerve."
-      },
-      {
-        "question": "The common peroneal nerve can be palpated in which region of the knee?",
-        "options": [
-          "As it winds around the lateral side of the neck of the fibula.",
-          "As it winds around the medial side of the neck of the fibula.",
-          "As it passes forward between the tibia and the fibula.",
-          "As it passes around the medial condyle of the tibia",
-          "As it passes around the lateral epicondyle of the tibia"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: As it winds around the lateral side of the neck of the fibula."
-      },
-      {
-        "question": "The dermatome present over the lateral side of the foot is which of the following?",
-        "options": [
-          "S1",
-          "L4",
-          "S5",
-          "L3",
-          "L5"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: S1"
-      },
-      {
-        "question": "The femoral sheath is formed by which of the following layer(s) of fascia?",
-        "options": [
-          "The fascia iliaca and the fascia transversalis",
-          "The psoas fascia and the fatty layer of superficial fascia",
-          "The processus vaginalis",
-          "The pectineus fascia",
-          "The ilicus fascia"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: The fascia iliaca and the fascia transversalis"
-      },
-      {
-        "question": "The fascia lata and the membranous layer of the superficial fascia Which nerve innervates the tibialis anterior muscle?",
-        "options": [
-          "Deep peroneal nerve",
-          "Superficial peroneal nerve",
-          "Tibial nerve",
-          "Obturator nerve",
-          "Sciatic nerve"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Deep peroneal nerve"
-      }
-    ]
-  },
-  "t-s-2-2-5": {
-    "situational": [
-      {
-        "question": "A patient experiences paralysis of the muscle that originates from the femur and contributes directly to the stability of the knee joint. Which of the following muscles is involved?",
-        "options": [
-          "Vastus lateralis",
-          "Semimembranosus",
-          "Sartorius",
-          "Biceps femoris (long head)",
-          "Rectus femoris"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Vastus lateralis"
-      },
-      {
-        "question": "A patient is involved in a motorcycle wreck that results in avulsion of the skin over the anterolateral leg and ankle. Which of the following structures is most likely destroyed with this type of injury?",
-        "options": [
-          "Superficial peroneal nerve",
-          "Deep peroneal nerve",
-          "Extensor digitorum longus muscle tendon",
-          "Dorsalis pedis artery",
-          "Great saphenous vein"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Superficial peroneal nerve"
-      },
-      {
-        "question": "A knife wound penetrates the superficial vein that terminates in the popliteal vein. Bleeding occurs from which of the following vessels?",
-        "options": [
-          "Lesser saphenous vein",
-          "Posterior tibial vein",
-          "Anterior tibial vein",
-          "Peroneal vein",
-          "Great saphenous vein"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Lesser saphenous vein"
-      },
-      {
-        "question": "A 10-year-old boy falls from a tree house. The resultant heavy compression of the sole of his foot against the ground caused a fracture of the head of the talus. Which of the following structures is unable to function normally?",
-        "options": [
-          "Medial longitudinal arch",
-          "Transverse arch",
-          "Lateral longitudinal arch",
-          "Tendon of the peroneus longus",
-          "Long plantar ligament"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Medial longitudinal arch"
-      },
-      {
-        "question": "A 24-year-old woman complains of weakness when she extends her thigh and rotates it laterally. Which of the following muscles is paralyzed?",
-        "options": [
-          "Gluteus maximus",
-          "Obturator externus",
-          "Sartorius",
-          "Tensor fasciae latae",
-          "Gluteus maximus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Gluteus maximus"
-      },
-      {
-        "question": "Semitendinosus A patient with hereditary blood clotting problems presents with pain in the back of her knee. An arteriograph reveals a blood clot in the popliteal artery at its proximal end. Which of the following arteries will allow blood to reach the foot?",
-        "options": [
-          "Lateral circumflex femoral",
-          "Anterior tibial",
-          "Posterior tibial",
-          "Peroneal",
-          "Superior medial genicular"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Lateral circumflex femoral"
-      },
-      {
-        "question": "A 72-year-old woman complains of a cramplike pain in her thigh and leg. She was diagnosed as having a severe intermittent claudication. Following surgery, an infection was found in the adductor canal, damaging the enclosed structures. Which of the following structures remains intact?",
-        "options": [
-          "Great saphenous vein",
-          "Femoral artery",
-          "Femoral vein",
-          "Saphenous nerve",
-          "Nerve to the vastus medialis"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Great saphenous vein"
-      },
-      {
-        "question": "A basketball player was hit in the thigh by an opponent’s knee. Which of the following arteries is likely to compress and cause ischemia because of the bruise and damage to the extensor muscles of the leg?",
-        "options": [
-          "Anterior tibial",
-          "Popliteal",
-          "Deep femoral",
-          "Posterior tibial",
-          "Peroneal"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Anterior tibial"
-      },
-      {
-        "question": "An elderly woman fell at home and fractured the greater trochanter of her femur. Which of the following muscles would continue to function normally?",
-        "options": [
-          "Gluteus maximus",
-          "Piriformis",
-          "Obturator internus",
-          "Gluteus medius",
-          "Gluteus minimus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Gluteus maximus"
-      },
-      {
-        "question": "A 20-year-old college student receives a severe blow on the inferolateral side of the left knee joint while playing football. Radiographic examination reveals a fracture of the head and neck of the f ibula. Which of the following nerves is damaged?",
-        "options": [
-          "Common peroneal",
-          "Sciatic",
-          "Tibial",
-          "Deep peroneal",
-          "Superficial peroneal"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Common peroneal"
-      },
-      {
-        "question": "After injury to this nerve, which of the following muscles could be paralyzed? Extensor hallucis longus Gastrocnemius Popliteus Flexor digitorum longus Tibialis posterior If the lateral (fibular) collateral ligament is torn by this fracture, which of the following conditions may occur?",
-        "options": [
-          "Abnormal passive adduction of the extended leg",
-          "Abnormal passive abduction of the extended leg",
-          "Anterior displacement of the femur on thetibia",
-          "Posterior displacement of the femur on thetibia",
-          "Maximal flexion of the leg"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Abnormal passive adduction of the extended leg"
-      },
-      {
-        "question": "A patient presents with foot drop (inability to dorsiflex the foot) after a fracture of the fibular neck. Which nerve is MOST likely injured?",
-        "options": [
-          "Common fibular (peroneal) nerve",
-          "Tibial nerve",
-          "Deep fibular (peroneal) nerve",
-          "Superficial fibular (peroneal) nerve",
-          "Sural nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Common fibular (peroneal) nerve"
-      },
-      {
-        "question": "A patient sustains a deep laceration to the posterior aspect of the leg. Which muscle group is MOST likely affected, leading to weakness in plantarflexion?",
-        "options": [
-          "Calf muscles (gastrocnemius and soleus)",
-          "Anterior compartment muscles (tibialis anterior, etc.)",
-          "Lateral compartment muscles (fibularis longus and brevis)",
-          "Posterior compartment muscles (tibialis posterior, flexor digitorum longus, flexor hallucis longus)",
-          "Popliteus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Calf muscles (gastrocnemius and soleus)"
-      },
-      {
-        "question": "A patient experiences numbness and tingling on the sole of the foot. Which nerve is MOST likely involved?",
-        "options": [
-          "Tibial nerve",
-          "Common fibular (peroneal) nerve",
-          "Deep fibular (peroneal) nerve",
-          "Superficial fibular (peroneal) nerve",
-          "Sural nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Tibial nerve"
-      },
-      {
-        "question": "A patient presents with pain and difficulty inverting the foot. Which muscle is MOST likely affected?",
-        "options": [
-          "Tibialis posterior",
-          "Fibularis longus",
-          "Fibularis brevis",
-          "Extensor digitorum longus",
-          "Extensor hallucis longus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Tibialis posterior"
-      },
-      {
-        "question": "A patient suffers a severe ankle sprain, damaging the lateral ligaments. Which ligament is MOST commonly injured in this type of sprain?",
-        "options": [
-          "Anterior talofibular ligament (ATFL)",
-          "Posterior talofibular ligament (PTFL)",
-          "Calcaneofibular ligament (CFL)",
-          "Deltoid ligament",
-          "Spring ligament"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Anterior talofibular ligament (ATFL)"
-      }
-    ],
-    "test": [
-      {
-        "question": "Structures closely related to long saphenous vein at ankle include which of the following?",
-        "options": [
-          "major perforating veins to deep venous system",
-          "a branch of the femoral nerve",
-          "medial superficial lymphatic trunks",
-          "a branch of the anterior tibial nerve",
-          "dorsalis pedis artery"
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: a branch of the femoral nerve"
-      },
-      {
-        "question": "The only muscle to cross the anterior tibial artery is:",
-        "options": [
-          "extensor hallucis longus",
-          "extensor digitorum brevis",
-          "extensor hallucis brevis",
-          "extensor digitorum longus",
-          "tibialis anterior"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: extensor hallucis longus"
-      },
-      {
-        "question": "The dorsalis pedis artery is:",
-        "options": [
-          "lateral to extensor hallucis longus at the ankle",
-          "medial to extensor hallucis longus at the ankle",
-          "medial to tibialis anterior at the ankle",
-          "found perforating the first metatarsal space and joining with the medial plantar artery",
-          "lateral to the digital branch of the deep peroneal nerve"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: lateral to extensor hallucis longus at the ankle"
-      },
-      {
-        "question": "Features of the fibula include which of the following?",
-        "options": [
-          "it is on the medial side of the tibia",
-          "its medial surface is grooved for the origin of tibialis posterior",
-          "it is ossified from five centres",
-          "it does not provide origin for flexor digitorum longus",
-          "its lower third is rough for the origin of soleus"
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: its lower third is rough for the origin of soleus"
-      },
-      {
-        "question": "Which of the following is true of the saphenous nerve?",
-        "options": [
-          "is predominantly from L2",
-          "supplies adductor magnus",
-          "pierces the deep fascia in the femoral triangle",
-          "is cutaneous only",
-          "terminates just below the knee"
-        ],
-        "correctIndex": 3,
-        "explanation": "Correct answer: is cutaneous only"
-      },
-      {
-        "question": "The superficial epigastric, superior perforating and deep external pudendal arteries are all branches of:",
-        "options": [
-          "profunda femoris",
-          "popliteal",
-          "internal iliac",
-          "external iliac",
-          "none of the above"
-        ],
-        "correctIndex": 3,
-        "explanation": "Correct answer: external iliac"
-      },
-      {
-        "question": "Which of the following is NOT a branch of the profunda femoris artery?",
-        "options": [
-          "medial femoral circumflex",
-          "lateral femoral circumflex",
-          "popliteal",
-          "perforating",
-          "all are branches of the profunda"
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: all are branches of the profunda"
-      },
-      {
-        "question": "The long saphenous vein:",
-        "options": [
-          "passes anterior to the inguinal ligament",
-          "passes posteriorly to the medial malleolus",
-          "ascends the lateral side of the leg",
-          "receives tributaries from the perineum",
-          "is in close relation with the saphenous nerve throughout the length of its course"
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: is in close relation with the saphenous nerve throughout the length of its course"
-      },
-      {
-        "question": "The chief dorsiflexor of the ankle joint:",
-        "options": [
-          "peroneus tertius",
-          "tibialis anterior",
-          "extensor longus hallucis",
-          "extensor longus digitorum",
-          "none of the above"
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: tibialis anterior"
-      },
-      {
-        "question": "Iliopsoas:",
-        "options": [
-          "supplied by obturator nerve",
-          "medial rotator of hip",
-          "synergist of quadriceps femoris",
-          "lateral rotator of hip",
-          "none of the above"
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: medial rotator of hip"
-      },
-      {
-        "question": "The lumbar plexus is formed by ventral primary rami of:",
-        "options": [
-          "T12, L1, L2 and L3",
-          "L1, L2, L3 and L4",
-          "L2, L3, L4 and L5",
-          "L2, L4, L5 and S1",
-          "formed by dorsal primary rami"
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: L1, L2, L3 and L4"
-      },
-      {
-        "question": "The cutaneous nerve supplying the medial aspect of the calf is:",
-        "options": [
-          "anterior femoral cutaneous",
-          "sural",
-          "superficial peroneal",
-          "saphenous",
-          "posterior femoral cutaneous"
-        ],
-        "correctIndex": 3,
-        "explanation": "Correct answer: saphenous"
-      },
-      {
-        "question": "The nerve supply to the knee joint comes from:",
-        "options": [
-          "sciatic",
-          "femoral",
-          "obturator",
-          "all of",
-          "none of these"
-        ],
-        "correctIndex": 3,
-        "explanation": "Correct answer: all of"
-      },
-      {
-        "question": "The most powerful extensor of the hip is:",
-        "options": [
-          "gluteus maximus",
-          "psoas major",
-          "iliacus",
-          "obturator externus",
-          "piriformis"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: gluteus maximus"
-      },
-      {
-        "question": "Which of the following is not an action of gracilis?",
-        "options": [
-          "adduction of thigh",
-          "flexion of knee",
-          "extension of thigh",
-          "medial rotation of the flexed knee",
-          "none of these"
-        ],
-        "correctIndex": 2,
-        "explanation": "Correct answer: extension of thigh"
-      },
-      {
-        "question": "Obturator externus:",
-        "options": [
-          "is pierced by femoral circumflex artery",
-          "external rotator of hip",
-          "internal rotator of hip",
-          "hip flexor",
-          "supplied by S1."
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: external rotator of hip"
-      },
-      {
-        "question": "The intermediate cutaneous nerve of the thigh:",
-        "options": [
-          "arises from the sacral plexus",
-          "is a branch of the obturator nerve",
-          "pierces sartorius",
-          "extends beneath the knee",
-          "arises independently of the medial cutaneous nerve of the thigh"
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: arises independently of the medial cutaneous nerve of the thigh"
-      },
-      {
-        "question": "The dorsalis pedis artery is a continuation of:",
-        "options": [
-          "anterior perforating branch of posterior tibial",
-          "anterior tibial",
-          "popliteal",
-          "femoral",
-          "peroneal"
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: anterior tibial"
-      },
-      {
-        "question": "The lateral aspect of the thigh has a cutaneous nerve supply derived from:",
-        "options": [
-          "L2 and 3",
-          "L3 and 4",
-          "L5, S1 and S2",
-          "L4, L5 and S1",
-          "S1 and S2"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: L2 and 3"
-      },
-      {
-        "question": "The sole of the foot has a cutaneous nerve supply derived from:",
-        "options": [
-          "L4, L5, S1 and S2",
-          "L5 and S1",
-          "L4, L5 and S1",
-          "L5 and L5",
-          "L5, S1 and S2"
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: L5, S1 and S2"
-      }
-    ]
-  },
-  "t-s-2-2-6": {
-    "situational": [
-      {
-        "question": "A high school basketball player experiences a sudden difficulty in breathing and is brought to an emergency department. When a low tracheotomy is performed below the isthmus of the thyroid, which of the following vessels may be encountered?",
-        "options": [
-          "Inferior thyroid vein",
-          "Inferior thyroid artery",
-          "Costocervical trunk",
-          "Superior thyroid artery",
-          "Right brachiocephalic vein"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Inferior thyroid vein"
-      },
-      {
-        "question": "A 59-year-old man complains of numbness in the anterior cervical triangle. Therefore, damage has occurred to which of the following nerves?",
-        "options": [
-          "Transverse cervical nerve",
-          "Phrenic nerve",
-          "Greater auricular nerve",
-          "Supraclavicular nerve",
-          "Lesser occipital nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Transverse cervical nerve"
-      },
-      {
-        "question": "A 53-year-old man has difficulty with breathing through his nose. On examination, his physician finds that he has swelling of the mucous membranes of the superior nasal meatus. Which opening of the paranasal sinuses is most likely plugged?",
-        "options": [
-          "Posterior ethmoidal sinus",
-          "Middle ethmoidal sinus",
-          "Maxillary sinus",
-          "Posterior ethmoidal sinus",
-          "Anterior ethmoidal sinus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Posterior ethmoidal sinus"
-      },
-      {
-        "question": "Frontal sinus A 61-year-old woman is found to have ocular lymphoma invading her optic canal. Which of the following structures would most likely be damaged?",
-        "options": [
-          "Ophthalmic artery",
-          "Ophthalmic vein",
-          "Ophthalmic nerve",
-          "Oculomotor nerve",
-          "Trochlear nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Ophthalmic artery"
-      },
-      {
-        "question": "A 76-year-old man with swallowing difficulties undergoes imaging for a possible mass. The CT scan image at the level of the cricothyroid ligament in his neck should show which of the following structures?",
-        "options": [
-          "Inferior laryngeal nerves",
-          "External carotid arteries",
-          "Inferior thyroid veins",
-          "Thyrocervical trunks",
-          "Internal laryngeal nerves"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Inferior laryngeal nerves"
-      },
-      {
-        "question": "The muscles that are of branchiomeric origin are paralyzed in a 26-year-old patient. A lesion of which of the following nerves would cause muscle dysfunction?",
-        "options": [
-          "Trigeminal nerve",
-          "Oculomotor nerve",
-          "Trochlear nerve",
-          "Abducens nerve",
-          "Hypoglossal nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Trigeminal nerve"
-      },
-      {
-        "question": "During surgery for a malignant parotid tumor in a 69-year-old woman, the main trunk of the facial nerve is lacerated. Which of the following muscles is paralyzed?",
-        "options": [
-          "Buccinator muscle",
-          "Masseter muscle",
-          "Stylopharyngeus muscle",
-          "Anterior belly of the digastric muscle",
-          "Tensor tympani"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Buccinator muscle"
-      },
-      {
-        "question": "During a gang fight, a 17-year-old boy is punched, and his nasal septum is broken. Which of the following structures would be damaged?",
-        "options": [
-          "Vomer and perpendicular plate of ethmoid",
-          "Septal cartilage and nasal bone",
-          "Inferior concha and vomer",
-          "Septal cartilage and middle concha",
-          "Cribriform plate and frontal bone"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Vomer and perpendicular plate of ethmoid"
-      },
-      {
-        "question": "A 58-year-old woman comes to the hospital and complains of progressive loss of voice, numbness, loss of taste on the back part of her tongue, and difficulty in shrugging her shoulders. Her MRI scan reveals a dural meningioma that compresses the nerves leaving the skull. These nerves leave the skull through which of the following openings?",
-        "options": [
-          "Jugular foramen",
-          "Foramen spinosum",
-          "Foramen rotundum",
-          "Internal auditory meatus",
-          "Foramen lacerum"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Jugular foramen"
-      },
-      {
-        "question": "A 21-year-old woman presents to her physician with a swelling on her neck. On examination, she is diagnosed with an infection within the carotid sheath. Which of the following structures would be damaged?",
-        "options": [
-          "Internal jugular vein and vagus nerve",
-          "Vagus nerve and middle cervical ganglion",
-          "Internal carotid artery and recurrent laryngeal nerve",
-          "Sympathetic trunk and common carotid artery",
-          "External carotid artery and ansa cervicalis"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Internal jugular vein and vagus nerve"
-      },
-      {
-        "question": "An angiogram of a 45-year-old man shows an occlusion of the costocervical trunk. This obstruction could produce a marked decrease in the blood flow in which of the following arteries?",
-        "options": [
-          "Deep cervical artery",
-          "Superior thoracic artery",
-          "Transverse cervical artery",
-          "Ascending cervical artery",
-          "Inferior thyroid artery"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Deep cervical artery"
-      },
-      {
-        "question": "A 45-year-old man comes to the local hospital with fever, headache, nausea, and vomiting. Laboratory tests reveal an infection, and radiologic examination localizes the infection to the cavernous sinus. Which of the following nerves would be unaffected by this condition?",
-        "options": [
-          "Mandibular nerves",
-          "Oculomotor nerves",
-          "Abducens nerves",
-          "Trochlear nerves",
-          "Ophthalmic nerves"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Mandibular nerves"
-      },
-      {
-        "question": "examination, she is diagnosed with adenoids. Which of the following tonsils is enlarged?",
-        "options": [
-          "Pharyngeal tonsil",
-          "Palatine tonsil",
-          "Tubal tonsil",
-          "Lingual tonsil",
-          "Eustachian tonsil"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Pharyngeal tonsil"
-      },
-      {
-        "question": "and then rapid deterioration. A CT scan reveals a lens-shaped hematoma that does not cross suture lines. This is MOST likely a/an:",
-        "options": [
-          "Epidural hematoma",
-          "Subdural hematoma",
-          "Subarachnoid hemorrhage",
-          "Intracerebral hemorrhage",
-          "Contusion"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Epidural hematoma"
-      },
-      {
-        "question": "injury. A CT scan shows a crescent-shaped hematoma that crosses suture lines. This is MOST likely a/an:",
-        "options": [
-          "Subdural hematoma",
-          "Epidural hematoma",
-          "Subarachnoid hemorrhage",
-          "Intracerebral hemorrhage",
-          "Contusion"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Subdural hematoma"
-      },
-      {
-        "question": "A surgeon is performing a trepanation (burr hole) procedure. The primary goal of this procedure is to:",
-        "options": [
-          "Relieve intracranial pressure by evacuating a hematoma or abscess",
-          "Repair a skull fracture",
-          "Remove a brain tumor",
-          "Perform a biopsy of brain tissue",
-          "Insert an intracranial pressure monitor"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Relieve intracranial pressure by evacuating a hematoma or abscess"
-      },
-      {
-        "question": "During a trepanation procedure to evacuate an epidural hematoma, the surgeon must be careful to avoid injuring the:",
-        "options": [
-          "Middle meningeal artery",
-          "Superior sagittal sinus",
-          "Inferior sagittal sinus",
-          "Transverse sinus",
-          "Cavernous sinus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Middle meningeal artery"
-      },
-      {
-        "question": "A patient undergoes a craniotomy for evacuation of a subdural hematoma. Postoperatively, which of the following is a potential complication related to damage to bridging veins?",
-        "options": [
-          "Recurrence of the hematoma",
-          "Infection",
-          "Seizures",
-          "Stroke",
-          "Cerebrospinal fluid leak"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Recurrence of the hematoma"
-      }
-    ],
-    "test": [
-      {
-        "question": "Meninges of the brain:",
-        "options": [
-          "dura mater, arachnoid, pia mater",
-          "visceral",
-          "parietal",
-          "subarachnoid",
-          "internal"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: dura mater, arachnoid, pia mater"
-      },
-      {
-        "question": "Meningeal spaces of the brain, Choose the correct answer?",
-        "options": [
-          "intrameningeal",
-          "parietal",
-          "intracranial, intrameningeal",
-          "epidural, subdural, subarachnoid",
-          "visceral"
-        ],
-        "correctIndex": 3,
-        "explanation": "Correct answer: epidural, subdural, subarachnoid"
-      },
-      {
-        "question": "A patient has a boil on the tip of her nose. To which lymph nodes does the lymph from the skin of the infected area drain?",
-        "options": [
-          "Parotid nodes",
-          "Tracheobronchial nodes",
-          "Superficial cervical nodes",
-          "Submental nodes",
-          "Submandibular nodes"
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: Submandibular nodes"
-      },
-      {
-        "question": "A patient having lunch accidentally bit the inside of her left cheek. To which lymph nodes are infecting bacteria likely to spread?",
-        "options": [
-          "Submandibular nodes",
-          "Superficial cervical nodes",
-          "Mastoid nodes",
-          "Parotid nodes",
-          "Submental nodes"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Submandibular nodes"
-      },
-      {
-        "question": "The deep groove that separates the right and left cerebral hemispheres is called the ____",
-        "options": [
-          "lateral fissure",
-          "precentral gyrus",
-          "postcentral gyrus",
-          "longitudinal fissure",
-          "central sulcus"
-        ],
-        "correctIndex": 3,
-        "explanation": "Correct answer: longitudinal fissure"
-      },
-      {
-        "question": "There are _____ ventricles in the brain.",
-        "options": [
-          "4",
-          "0",
-          "2",
-          "5",
-          "3"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: 4"
-      },
-      {
-        "question": "Which brain structure is located in the hindbrain?",
-        "options": [
-          "cerebral cortex",
-          "hypothalamus",
-          "hippocampus",
-          "substantia nigra",
-          "pons"
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: pons"
-      },
-      {
-        "question": "Failure to pass the finger-to-nose test is an indication of _____",
-        "options": [
-          "damage to the temporal lobe",
-          "damage to the frontal lobe",
-          "damage to the occipital lobe",
-          "sinisit",
-          "Alcohol intoxication, cerebellar damage"
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: Alcohol intoxication, cerebellar damage"
-      },
-      {
-        "question": "Sustained tension of the vocal cords (folds) is best achieved through the action of which of the following muscles?",
-        "options": [
-          "The salpingopharyngeus",
-          "The aryepiglottic",
-          "The posterior cricoarytenoid",
-          "The cricothyroid",
-          "The cricopharyngeus"
-        ],
-        "correctIndex": 3,
-        "explanation": "Correct answer: The cricothyroid"
-      },
-      {
-        "question": "Which nervous system structure is associated with control of hunger ?",
-        "options": [
-          "cerebellum",
-          "none one",
-          "medulla",
-          "hippocampus",
-          "hypothalamus"
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: hypothalamus"
-      },
-      {
-        "question": "The foramen magnum in the skull",
-        "options": [
-          "is located in the sphenoid bone.",
-          "allows entrance of the spinal part of the accessory nerve into the cranial cavity.",
-          "is located in the temporal bone.",
-          "allows entrance of the trigeminal nerve",
-          "allows exit of the facial nerve"
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: allows entrance of the spinal part of the accessory nerve into the cranial cavity."
-      },
-      {
-        "question": "The tectum is located in the ____________",
-        "options": [
-          "forebrain",
-          "midbrain",
-          "frontal lobe",
-          "hindbrain",
-          "spinal cord"
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: midbrain"
-      },
-      {
-        "question": "The inner surface is covered with mucous mem- brane.",
-        "options": [
-          "Impaired function of which of the following muscles produce difficulty in protruding the jaw?",
-          "The medial pterygoid D. The masseter",
-          "The anterior belly of the digastric muscle",
-          "The temporalis",
-          "The lateral pterygoid"
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: The medial pterygoid D. The masseter"
-      },
-      {
-        "question": "The jugular foramen in the skull",
-        "options": [
-          "allows exit of the hypoglossal nerve.",
-          "is located in the middle cranial fossa.",
-          "allows exit of the vagus nerve",
-          "is located in the petrous part of the temporal bone.",
-          "allows entrance of the external jugular vein."
-        ],
-        "correctIndex": 2,
-        "explanation": "Correct answer: allows exit of the vagus nerve"
-      },
-      {
-        "question": "The nervous system is divided into the ____",
-        "options": [
-          "sympathetic",
-          "sensory",
-          "brain",
-          "autonomic and somatic nervous system",
-          "spinal cord"
-        ],
-        "correctIndex": 3,
-        "explanation": "Correct answer: autonomic and somatic nervous system"
-      },
-      {
-        "question": "Which is the largest branch of the internal carotid artery?",
-        "options": [
-          "posterior communicating artery",
-          "anterior cerebral artery",
-          "ophthalmic artery",
-          "middle cerebral artery",
-          "posterior cerebral artery"
-        ],
-        "correctIndex": 3,
-        "explanation": "Correct answer: middle cerebral artery"
-      },
-      {
-        "question": "Which anatomic structure is most likely to have damaged the nerve?",
-        "options": [
-          "The lesser wing of the sphenoid bone",
-          "The falx cerebelli",
-          "The tentorium cerebelli",
-          "The greater wing of the sphenoid bone",
-          "The petrous part of the temporal bone"
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: The petrous part of the temporal bone"
-      },
-      {
-        "question": "Which process is responsible for closing off the nasal cavity from the oropharynx during swallowing?",
-        "options": [
-          "Contraction of the aryepiglottic muscles",
-          "Bending of the epiglottis",
-          "Elevation of the tongue to the roof of the mouth",
-          "Relaxation of the pharyngeal constrictor muscles",
-          "Contraction of the tensor and the levator veli palatini muscles"
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: Contraction of the tensor and the levator veli palatini muscles"
-      },
-      {
-        "question": "Which is the smallest cranial nerve?",
-        "options": [
-          "abducent nerve",
-          "oculomotor nerve",
-          "olfactory nerve",
-          "accessory nerve",
-          "trochlear nerve"
-        ],
-        "correctIndex": 4,
-        "explanation": "Correct answer: trochlear nerve"
-      },
-      {
-        "question": "The nasolacrimal duct drains into the",
-        "options": [
-          "lacrimal sac.",
-          "inferior meatus of the nose.",
-          "superior meatus of the nose.",
-          "middle meatus of the nose.",
-          "sphenoethmoidal recess"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: lacrimal sac."
-      }
-    ]
-  },
-  "t-s-2-2-7": {
-    "situational": [
-      {
-        "question": "A 19-year-old woman complains of numbness of the nasopharynx after surgical removal of the adenoid. A lesion of which of the following nerves would be expected?",
-        "options": [
-          "Glossopharyngeal nerve",
-          "Maxillary nerve",
-          "Superior cervical ganglion",
-          "External laryngeal nerve",
-          "Vagus nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Glossopharyngeal nerve"
-      },
-      {
-        "question": "During surgery on a 56-year-old man for a squamous cell carcinoma of the neck, the surgeon notices profuse bleeding from the deep cervical artery. Which of the following arteries must be ligated immediately to stop bleeding?) Costocervical trunk Inferior thyroid artery Transverse cervical artery Thyrocervical trunk Ascending cervical artery A 17-year-old boy receives an injury to the phrenic nerve by a knife wound in the neck. The damaged nerve passes by which of the following structures in the neck?",
-        "options": [
-          "Superficial to the anterior scalene muscle",
-          "Anterior to the subclavian vein",
-          "Posterior to the subclavian artery",
-          "Deep to the brachial plexus",
-          "Medial to the common carotid artery"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Superficial to the anterior scalene muscle"
-      },
-      {
-        "question": "A 45-year-old woman is suffering from numbness over the tip of her nose. Which of the following nerves is most likely to be damaged?",
-        "options": [
-          "Ophthalmic division of the trigeminal nerve",
-          "Maxillary division of the trigeminal nerve",
-          "Mandibular division of the trigeminal nerve",
-          "Facial nerve",
-          "Auriculotemporal nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Ophthalmic division of the trigeminal nerve"
-      },
-      {
-        "question": ".A 26-year-old singer visits her physician—an ear, nose, and throat (ENT) surgeon—and complains of changes in her voice. A laryngoscopic examination demonstrates a lesion of the superior laryngeal nerve, causing weakness of which of the following muscles?",
-        "options": [
-          "Inferior pharyngeal constrictor",
-          "Middle pharyngeal constrictor",
-          "Superior pharyngeal constrictor",
-          "Thyroarytenoid",
-          "Thyrohyoid"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Inferior pharyngeal constrictor"
-      },
-      {
-        "question": "A 44-year-old man with “crocodile tears syndrome” has spontaneous lacrimation during eating because of misdirection of regenerating autonomic nerve fibers. Which of the following nerves has been injured?",
-        "options": [
-          "Facial nerve proximal to the geniculate ganglion",
-          "Auriculotemporal nerve",
-          "Chorda tympani in the infratemporal fossa",
-          "Facial nerve at the stylomastoid foramen",
-          "Lacrimal nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Facial nerve proximal to the geniculate ganglion"
-      },
-      {
-        "question": "A young girl complains of dryness of the nose and the palate. This would indicate a lesion of which of the following ganglia?",
-        "options": [
-          "Pterygopalatine ganglion",
-          "Nodose ganglion",
-          "Optic ganglion",
-          "Submandibular ganglion",
-          "Ciliary ganglion"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Pterygopalatine ganglion"
-      },
-      {
-        "question": "A 33-year-old woman develops Bell palsy. She must be cautious because this can result in corneal inflammation and subsequent ulceration. This symptom results from which of the following conditions?",
-        "options": [
-          "Absence of the corneal blink reflex",
-          "Sensory loss of the cornea and conjunctiva",
-          "Lack of secretion of the parotid gland",
-          "Absence of sweating on the face",
-          "Inability to constrict the pupil"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Absence of the corneal blink reflex"
-      },
-      {
-        "question": "A 39-year-old woman presents to your clinic with complaints of headache and dizziness. She has an infection of a cranial dural sinus. The sinus that lies in the margin of the tentorium cerebelli and runs from the posterior end of the cavernous sinus to the transverse sinus is infected. Which of the following sinuses is affected by inflammation?",
-        "options": [
-          "Superior petrosal sinus",
-          "Straight sinus",
-          "Inferior sagittal sinus",
-          "Sphenoparietal sinus",
-          "Cavernous sinus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Superior petrosal sinus"
-      },
-      {
-        "question": "A 24-year-old man falls from his motorcycle and lands in a creek. Death may result from bilateral severance of which of the following nerves?",
-        "options": [
-          "Vagus nerve",
-          "Trigeminal nerve",
-          "Facial nerve",
-          "Spinal accessory nerve",
-          "Hypoglossal nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Vagus nerve"
-      },
-      {
-        "question": "A young singer at the local music theater visits her physician and complains of vocal difficulties. On examination, she is unable to abduct the vocal cords during quiet breathing. Which of the following muscles is most likely paralyzed?",
-        "options": [
-          "Posterior cricoarytenoid muscle",
-          "Vocalis muscle",
-          "Cricothyroid muscle",
-          "Oblique arytenoid muscle",
-          "Thyroarytenoid muscle"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Posterior cricoarytenoid muscle"
-      },
-      {
-        "question": "A 71-year-old woman often visits an emergency department with swallowing difficulties and subsequent choking while eating food. Which of the following pairs of muscles is most instrumental in preventing food from entering the larynx and trachea during swallowing?",
-        "options": [
-          "Oblique arytenoid and aryepiglottic Muscles",
-          "Sternohyoid and sternothyroid muscles",
-          "Inferior pharyngeal constrictor and thyrohyoid muscles",
-          "Levator veli palatini and tensor veli palatini muscles",
-          "Musculus uv"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Oblique arytenoid and aryepiglottic Muscles"
-      },
-      {
-        "question": "A patient presents with a stab wound to the anterior triangle of the neck, resulting in significant bleeding. Which major vessel is MOST likely injured?",
-        "options": [
-          "Carotid artery (common, internal, or external)",
-          "Subclavian artery",
-          "Jugular vein (internal or external)",
-          "Brachial artery",
-          "Vertebral artery"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Carotid artery (common, internal, or external)"
-      },
-      {
-        "question": "A patient undergoes a thyroidectomy (removal of the thyroid gland). Which nerve is at risk of injury during this procedure, potentially leading to hoarseness?",
-        "options": [
-          "Recurrent laryngeal nerve",
-          "Vagus nerve",
-          "Phrenic nerve",
-          "Hypoglossal nerve",
-          "Cervical sympathetic trunk"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Recurrent laryngeal nerve"
-      },
-      {
-        "question": "A patient presents with a swelling in the posterior triangle of the neck. Which lymph nodes are commonly located in this region and might be involved in infection or malignancy?",
-        "options": [
-          "Cervical lymph nodes (posterior)",
-          "Submandibular lymph nodes",
-          "Submental lymph nodes",
-          "Preauricular lymph nodes",
-          "Parotid lymph nodes"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Cervical lymph nodes (posterior)"
-      },
-      {
-        "question": "A patient has a deep infection in the neck that spreads along fascial planes. Which fascial layer is MOST likely to be involved in a deep neck infection that can spread to the mediastinum?",
-        "options": [
-          "Pretracheal fascia",
-          "Prevertebral fascia",
-          "Investing layer of deep cervical fascia",
-          "Carotid sheath",
-          "Superficial cervical fascia"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Pretracheal fascia"
-      },
-      {
-        "question": "cancer treatment. Which muscle is often used as a landmark during this procedure, dividing the anterior and posterior triangles of the neck?",
-        "options": [
-          "Sternocleidomastoid muscle",
-          "Trapezius muscle",
-          "Platysma muscle",
-          "Omohyoid muscle",
-          "Digastric muscle"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Sternocleidomastoid muscle"
-      }
-    ],
-    "test": [
-      {
-        "question": "Muscle Not Attached to the Hyoid Bone",
-        "options": [
-          "Which of the following muscles is not attached to the hyoid bone?",
-          "Sternothyroid",
-          "Mylohyoid",
-          "Geniohyoid",
-          "Omohyoid"
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: Sternothyroid"
-      },
-      {
-        "question": "Sternohyoid",
-        "options": [
-          "Function of the Suprahyoid Muscles\"What is the primary function of the suprahyoid muscles?",
-          "Elevate the hyoid bone and larynx during swallowing",
-          "Depress the hyoid bone during speech",
-          "Rotate the hyoid bone during mastication",
-          "Stabilize the hyoid bone during head movement"
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: Elevate the hyoid bone and larynx during swallowing"
-      },
-      {
-        "question": "Innervation of the Infrahyoid Muscles\"Which nerve innervates the majority of the infrahyoid muscles?",
-        "options": [
-          "Ansa cervicalis",
-          "Vagus nerve",
-          "Hypoglossal nerve",
-          "Ansa cervicalis",
-          "Phrenic nerve"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Ansa cervicalis"
-      },
-      {
-        "question": "Attachment Site of the Sternohyoid Muscle\"Where does the sternohyoid muscle attach?",
-        "options": [
-          "Sternum and thyroid cartilage",
-          "Hyoid bone and clavicle",
-          "Sternum and hyoid bone",
-          "Clavicle and mandible",
-          "Role of the Thyrohyoid Muscle \"What is the primary role of the thyrohyoid muscle?"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Sternum and thyroid cartilage"
-      },
-      {
-        "question": "*Elevate the thyroid cartilage",
-        "options": [
-          "Depress the hyoid bone",
-          "Elevate the thyroid muscle",
-          "Elevate the hyoid bone",
-          "Depress the thyroid cartilage",
-          "Geniohyoid Muscle Function\"How does the geniohyoid muscle contribute to swallowing?"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Depress the hyoid bone"
-      },
-      {
-        "question": "*Elevates and pulls the hyoid bone anteriorly",
-        "options": [
-          "Depresses the mandible",
-          "Retracts the tongue",
-          "Stabilizes the cervical vertebrae"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Depresses the mandible"
-      },
-      {
-        "question": "*Stylohyoid muscle",
-        "options": [
-          "Hyoid bone",
-          "omohyoid muscle",
-          "Sternocleidomastoid muscle",
-          "Omohyoid muscle",
-          "Function of the Infrahyoid Muscles in Breathing \"What is the function of the infrahyoid muscles during breathing?"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Hyoid bone"
-      },
-      {
-        "question": "*Depress the hyoid bone and larynx",
-        "options": [
-          "Elevate the rib cage",
-          "Depress the thyroid cartilage",
-          "Expand the thoracic cavity",
-          "Elevate the diaphragm",
-          "Mylohyoid Muscle Innervation \"Which nerve innervates the mylohyoid muscle?"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Elevate the rib cage"
-      },
-      {
-        "question": "*Mylohyoid nerve (branch of the trigeminal nerve)",
-        "options": [
-          "Hypoglossal nerve",
-          "Facial nerve",
-          "geniohyoid nerve",
-          "Glossopharyngeal nerve",
-          "Orbicularis Oris Function \"What is the primary function of the orbicularis oris muscle?"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Hypoglossal nerve"
-      },
-      {
-        "question": "*Pucker the lips",
-        "options": [
-          "Elevate the upper lip",
-          "Close the eyelids",
-          "Elevate jaw",
-          "Retract the corners of the mouth",
-          "Innervation of Buccinator\"Which nerve innervates the buccinator muscle?"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Elevate the upper lip"
-      },
-      {
-        "question": "*B: Facial nerve (VII)",
-        "options": [
-          "A: Mandibular nerve (V3)",
-          "B: accessory nerve (11)",
-          "C: Glossopharyngeal nerve (IX)",
-          "D: Hypoglossal nerve (XII)",
-          "Zygomaticus Major Function\"What is the primary action of the zygomaticus major muscle?"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: A: Mandibular nerve (V3)"
-      },
-      {
-        "question": "*Smile",
-        "options": [
-          "Depress the lower lip",
-          "Elevate the upper lip",
-          "gaze",
-          "Frown",
-          "Risorius Muscle Action"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Depress the lower lip"
-      },
-      {
-        "question": "The risorius muscle is primarily responsible for which action?",
-        "options": [
-          "Retracting the corners of the mouth",
-          "Pouting",
-          "Smiling",
-          "Elevate the eyelids",
-          "Raising the eyebrows"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Retracting the corners of the mouth"
-      },
-      {
-        "question": "Depressor Anguli Oris Function \"Which action is performed by the depressor anguli oris muscle?",
-        "options": [
-          "Depress the corners of the mouth",
-          "Elevate the upper lip",
-          "Depress the eyebrows",
-          "Close the eyes",
-          "Flare the nostrils"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Depress the corners of the mouth"
-      },
-      {
-        "question": "Facial Nerve Branches\"Which branch of the facial nerve innervates the frontalis muscle?",
-        "options": [
-          "Temporal branch",
-          "Zygomatic branch",
-          "Buccal branch",
-          "Mandibular branch",
-          "Phrenic nerve"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Temporal branch"
-      },
-      {
-        "question": "Levator Labii Superioris Function\"What is the primary function of the levator labii superioris muscle?",
-        "options": [
-          "Elevate the upper lip",
-          "Depress the lower lip",
-          "Elevate the upper eye brows",
-          "Close the lips",
-          "Retract the lips"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Elevate the upper lip"
-      },
-      {
-        "question": "Corrugator Supercilii Function\"The corrugator supercilii muscle is responsible for which facial expression?",
-        "options": [
-          "Raising the eyebrows",
-          "Smiling",
-          "Grimacing",
-          "Frowning",
-          "Squinting"
-        ],
-        "correctIndex": 3,
-        "explanation": "Correct answer: Frowning"
-      },
-      {
-        "question": "Anterior Triangle Boundaries\"Which structure forms the superior boundary of the anterior triangle of the neck?",
-        "options": [
-          "Clavicle",
-          "Mandible",
-          "Sternum",
-          "Hyoid bone",
-          "First rib"
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: Mandible"
-      },
-      {
-        "question": "Posterior Triangle Boundaries\"Which muscle forms the posterior boundary of the posterior triangle of the neck?",
-        "options": [
-          "Sternocleidomastoid",
-          "Trapezius",
-          "Platysma",
-          "Omohyoid",
-          "sternohyoid"
-        ],
-        "correctIndex": 1,
-        "explanation": "Correct answer: Trapezius"
-      },
-      {
-        "question": "Sternothyroid Contents of the Carotid Triangle\"Which structure is NOT found within the carotid triangle?",
-        "options": [
-          "Common carotid artery",
-          "Internal jugular vein",
-          "Vagus nerve",
-          "Subclavian artery",
-          "Internal carotid artery"
-        ],
-        "correctIndex": 3,
-        "explanation": "Correct answer: Subclavian artery"
-      }
-    ]
-  },
-  "t-s-2-2-8": {
-    "situational": [
-      {
-        "question": "A 32-year-old patient who weighs 275 lb comes to the doctor’s office. On the surface of the chest, the physician is able to locate the apex of the heart: In the left fifth intercostal space At the level of the sternal angle In the left fourth intercostal space In the right fifth intercostal space At the level of the xiphoid process of the sternum A 43-year-old female patient has been lying down on the hospital bed for more than 4 months. Her normal, quiet expiration is achieved by contraction of which of the following structures?",
-        "options": [
-          "Elastic tissue in the lungs and thoracic wall",
-          "Serratus posterior superior muscles",
-          "Pectoralis minor muscles",
-          "Serratus anterior muscles",
-          "Diaphragm"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Elastic tissue in the lungs and thoracic wall"
-      },
-      {
-        "question": "A 23-year-old man received a gunshot wound, and his greater splanchnic nerve was destroyed. Which of the following nerve fibers would be injured?",
-        "options": [
-          "GVA and preganglionic sympathetic fibers",
-          "General somatic afferent (GSA) and preganglionic sympathetic fibers",
-          "General visceral afferent (GVA) and postganglionic sympathetic fibers",
-          "General somatic efferent (GSE) and postganglionic sympathetic fibers",
-          "GVA and GSE fibers"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: GVA and preganglionic sympathetic fibers"
-      },
-      {
-        "question": "17-year-old boy was involved in a gang fight, and a stab wound severed the white rami communicantes at the level of his sixth thoracic vertebra. This injury would result in degeneration of nerve cell bodies in which of the following structures?",
-        "options": [
-          "Dorsal root ganglion and lateral horn of the spinal cord",
-          "Dorsal root ganglion and anterior horn of the spinal cord",
-          "Sympathetic chain ganglion and dorsal root ganglion",
-          "Sympathetic chain ganglion and posterior horn of the spinal cord",
-          "Anterior and lateral horns of the spinal cord"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Dorsal root ganglion and lateral horn of the spinal cord"
-      },
-      {
-        "question": "A 27-year-old cardiac patient with an irregular heartbeat visits her doctor’s office for examination. Where should the physician place the stethoscope to listen to the sound of the mitral valve?",
-        "options": [
-          "In the left fifth intercostal space at the midclavicular line",
-          "Over the medial end of the second left intercostal space",
-          "Over the medial end of the second right intercostal space",
-          "In the left fourth intercostal space at the midclavicular line",
-          "Over the right half of the lower end of the body of the sternum"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: In the left fifth intercostal space at the midclavicular line"
-      },
-      {
-        "question": "A 19-year-old man came to the emergency department, and his angiogram exhibited that he was bleeding from the vein that is accompanied by the posterior interventricular artery. Which of the following veins is most likely to be ruptured?",
-        "options": [
-          "Middle cardiac vein",
-          "Great cardiac vein",
-          "Anterior cardiac vein",
-          "Small cardiac vein",
-          "Oblique veins of the left atrium"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Middle cardiac vein"
-      },
-      {
-        "question": "A 37-year-old patient with palpitation was examined by her physician, and one of the diagnostic records included a posterior–anterior chest radiograph. Which of the following comprises the largest portion of the sternocostal surface of the heart seen on the radiograph?",
-        "options": [
-          "Right ventricle",
-          "Left atrium",
-          "Right atrium",
-          "Left ventricle",
-          "Base of the heart"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Right ventricle"
-      },
-      {
-        "question": "A 5-year-old girl is brought to the emergency department because of difficulty breathing (dyspnea), palpitations, and shortness of breath. Doppler study of the heart reveals an atrial septal defect (ASD). This malformation usually results from incomplete closure of which of the following embryonic structures?",
-        "options": [
-          "Foramen ovale",
-          "Ductus arteriosus",
-          "Ductus venosus",
-          "Sinus venarum",
-          "Truncus arteriosus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Foramen ovale"
-      },
-      {
-        "question": "A 54-year-old patient is implanted with an artificial cardiac pacemaker. Which of the following conductive tissues of the heart had a defective function that required the pacemaker?",
-        "options": [
-          "Sinoatrial",
-          "Atrioventricular (AV) bundle",
-          "AV node",
-          "(SA) node",
-          "Purkinje fiber"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Sinoatrial"
-      },
-      {
-        "question": "Moderator band A thoracic surgeon removed the right middle lobar (secondary) bronchus along with lung tissue from a 57-year-old heavy smoker with lung cancer. Which of the following bronchopulmonary segments must contain cancerous tissues?",
-        "options": [
-          "Medial and lateral",
-          "Anterior and posterior",
-          "Anterior basal and medial basal",
-          "Anterior basal and posterior basal",
-          "Lateral basal and posterior basal"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Medial and lateral"
-      },
-      {
-        "question": "Coronary angiographs of a 44-year-old male patient reveal an occlusion of the circumflex branch of the left coronary artery. This patient has been suffering from myocardial infarction in which of the following areas?",
-        "options": [
-          "Left atrium and ventricle",
-          "Right and left ventricles",
-          "Right and left atria",
-          "Interventricular septum",
-          "Apex of the heart"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Left atrium and ventricle"
-      },
-      {
-        "question": "A patient has a small but solid tumor in the mediastinum, which is confined at the level of the sternal angle. Which of the following structures would most likely be found at this level?",
-        "options": [
-          "Bifurcation of the trachea",
-          "Beginning of the ascending aorta",
-          "Middle of the aortic arch",
-          "Articulation of the third rib with the sternum",
-          "Superior border of the superior mediastinum"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Bifurcation of the trachea"
-      },
-      {
-        "question": "A woman notices a new lump in her breast during a self-exam. The most common location for breast masses, including cancerous ones, is the:",
-        "options": [
-          "Upper outer quadrant",
-          "Upper inner quadrant",
-          "Lower outer quadrant",
-          "Lower inner quadrant",
-          "Central (subareolar) region"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Upper outer quadrant"
-      },
-      {
-        "question": "A medical student is palpating the breast of a patient. The axillary tail of Spence, which is an extension of breast tissue, extends towards the:",
-        "options": [
-          "Axilla (armpit)",
-          "Clavicle",
-          "Sternum",
-          "Abdomen",
-          "Back"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Axilla (armpit)"
-      },
-      {
-        "question": "During a physical exam, the physician notes prominent skin dimpling over the breast. This finding is MOST suggestive of involvement of:",
-        "options": [
-          "Cooper's ligaments (suspensory ligaments)",
-          "Lactiferous ducts",
-          "Montgomery glands",
-          "Rib cage",
-          "Pectoralis major muscle"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Cooper's ligaments (suspensory ligaments)"
-      },
-      {
-        "question": "A breastfeeding mother experiences redness, warmth, and tenderness in a localized area of her breast. This is MOST likely due to:",
-        "options": [
-          "Mastitis (inflammation of the breast tissue)",
-          "Fibroadenoma (benign tumor)",
-          "Breast cancer",
-          "A simple cyst",
-          "Fat necrosis"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Mastitis (inflammation of the breast tissue)"
-      },
-      {
-        "question": "A physician is explaining the lymphatic drainage of the breast to a patient. They emphasize the importance of the axillary lymph nodes because they:",
-        "options": [
-          "Are the primary site of lymphatic drainage from the breast",
-          "Drain directly into the bloodstream",
-          "Are easily accessible for biopsy",
-          "Are located within the breast tissue itself",
-          "Drain only the medial aspect of the breast"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Are the primary site of lymphatic drainage from the breast"
-      }
-    ],
-    "test": [
-      {
-        "question": "The main blood supply to the breast comes from:",
-        "options": [
-          "All of the above",
-          "Internal thoracic artery",
-          "Lateral thoracic artery",
-          "Thoracoacromial artery",
-          "Subscapular artery"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: All of the above"
-      },
-      {
-        "question": "Lymphatic drainage from the breast primarily goes to:",
-        "options": [
-          "Both axillary and internal mammary lymph nodes",
-          "Axillary lymph nodes",
-          "Internal mammary lymph nodes",
-          "Supraclavicular lymph nodes",
-          "Inguinal lymph nodes"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Both axillary and internal mammary lymph nodes"
-      },
-      {
-        "question": "The retromammary space is located:",
-        "options": [
-          "Between the mammary gland and deep fascia covering the pectoralis major muscle",
-          "Between the skin and subcutaneous tissue",
-          "Between the subcutaneous tissue and mammary gland",
-          "Within the mammary gland itself",
-          "Between the pectoralis major and minor muscles"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Between the mammary gland and deep fascia covering the pectoralis major muscle"
-      },
-      {
-        "question": "Cooper's ligaments are:",
-        "options": [
-          "Fibrous connective tissue that support the breast",
-          "Lymphatic vessels",
-          "Blood vessels",
-          "Nerve fibers",
-          "Muscle fibers"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Fibrous connective tissue that support the breast"
-      },
-      {
-        "question": "The nipple is located at approximately the:",
-        "options": [
-          "Fourth intercostal space",
-          "Second intercostal space",
-          "Third intercostal space",
-          "Fifth intercostal space",
-          "Sixth intercostal space"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Fourth intercostal space"
-      },
-      {
-        "question": "The areola contains:",
-        "options": [
-          "All of the above",
-          "Sweat glands",
-          "Sebaceous glands",
-          "Modified apocrine glands",
-          "Only hair follicles"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: All of the above"
-      },
-      {
-        "question": "Lactiferous ducts:",
-        "options": [
-          "Carry milk from the lobules to the nipple",
-          "Carry blood to the breast",
-          "Carry lymph from the breast",
-          "Produce milk",
-          "Store milk"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Carry milk from the lobules to the nipple"
-      },
-      {
-        "question": "The functional unit of the breast is the:",
-        "options": [
-          "Lobule",
-          "Nipple",
-          "Areola",
-          "Lactiferous duct",
-          "Montgomery gland"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Lobule"
-      },
-      {
-        "question": "Montgomery glands are:",
-        "options": [
-          "Sebaceous glands in the areola",
-          "Lymph nodes",
-          "Blood vessels",
-          "Sweat glands",
-          "Milk-producing glands"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Sebaceous glands in the areola"
-      },
-      {
-        "question": "A simple mastectomy involves removal of:",
-        "options": [
-          "All breast tissue",
-          "Breast tissue and axillary lymph nodes",
-          "Breast tissue, axillary lymph nodes, and pectoralis muscles",
-          "Only the tumor",
-          "Only the nipple and areola"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: All breast tissue"
-      },
-      {
-        "question": "A modified radical mastectomy involves removal of:",
-        "options": [
-          "Breast tissue and axillary lymph nodes",
-          "All breast tissue",
-          "Breast tissue, axillary lymph nodes, and pectoralis muscles",
-          "Only the tumor",
-          "Only the nipple and areola"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Breast tissue and axillary lymph nodes"
-      },
-      {
-        "question": "A radical mastectomy involves removal of:",
-        "options": [
-          "Breast tissue, axillary lymph nodes, and pectoralis muscles",
-          "All breast tissue",
-          "Breast tissue and axillary lymph nodes",
-          "Only the tumor",
-          "Only the nipple and areola"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Breast tissue, axillary lymph nodes, and pectoralis muscles"
-      },
-      {
-        "question": "Breast conserving surgery (lumpectomy) involves removal of:",
-        "options": [
-          "Only the tumor and a small margin of surrounding tissue",
-          "All breast tissue",
-          "Breast tissue and axillary lymph nodes",
-          "Breast tissue, axillary lymph nodes, and pectoralis muscles",
-          "Only the nipple and areola"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Only the tumor and a small margin of surrounding tissue"
-      },
-      {
-        "question": "Sentinel lymph node biopsy is performed to:",
-        "options": [
-          "Identify the first lymph node(s) that receive drainage from the tumor",
-          "Remove all axillary lymph nodes",
-          "Remove the internal mammary lymph nodes",
-          "Prevent lymphedema",
-          "Treat lymphedema"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Identify the first lymph node(s) that receive drainage from the tumor"
-      },
-      {
-        "question": "Lymphedema after breast surgery is caused by:",
-        "options": [
-          "Disruption of lymphatic drainage",
-          "Damage to blood vessels",
-          "Damage to nerves",
-          "Infection",
-          "Scar tissue formation"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Disruption of lymphatic drainage"
-      },
-      {
-        "question": "The most common site of breast cancer is:",
-        "options": [
-          "Upper outer quadrant",
-          "Nipple",
-          "Areola",
-          "Lower outer quadrant",
-          "Lower inner quadrant"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Upper outer quadrant"
-      },
-      {
-        "question": "Peau d’orange appearance of the breast is a sign of:",
-        "options": [
-          "Inflammatory breast cancer",
-          "Benign cyst",
-          "Fibroadenoma",
-          "Mastitis",
-          "Fat necrosis"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Inflammatory breast cancer"
-      },
-      {
-        "question": "Nipple retraction can be a sign of:",
-        "options": [
-          "Breast cancer",
-          "Benign cyst",
-          "Fibroadenoma",
-          "Mastitis",
-          "Fat necrosis"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Breast cancer"
-      },
-      {
-        "question": "Paget’s disease of the nipple is a form of:",
-        "options": [
-          "Breast cancer",
-          "Benign skin condition",
-          "Bacterial infection",
-          "Fungal infection",
-          "Viral infection"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Breast cancer"
-      },
-      {
-        "question": "The axillary tail of Spence is:",
-        "options": [
-          "An extension of breast tissue into the axilla",
-          "A muscle",
-          "A ligament",
-          "A lymph node",
-          "A blood vessel"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: An extension of breast tissue into the axilla"
-      }
-    ]
-  },
-  "t-s-2-2-9": {
-    "situational": [
-      {
-        "question": "The bronchogram of a 45-year-old female smoker shows the presence of a tumor in the eparterial bronchus. Which airway is most likely blocked?",
-        "options": [
-          "Right superior bronchus",
-          "Left superior bronchus",
-          "Left inferior bronchus",
-          "Right middle bronchus",
-          "Right inferior bronchus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Right superior bronchus"
-      },
-      {
-        "question": "An 83-year-old man with a typical coronary circulation has been suffering from an embolism of the circumflex branch of the left coronary artery. This condition would result in ischemia of which of the following areas of the heart?",
-        "options": [
-          "Posterior part of the left ventricle",
-          "Anterior part of the left ventricle",
-          "Anterior interventricular region",
-          "Posterior interventricular region",
-          "Anterior part of the right ventricle"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Posterior part of the left ventricle"
-      },
-      {
-        "question": "A 44-year-old man with a stab wound was brought to the emergency department, and a physician found that the patient was suffering from a laceration of his right phrenic nerve. Which of the following conditions has likely occurred?",
-        "options": [
-          "Loss of sensation in the fibrous pericardium and mediastinal pleura",
-          "Injury to only GSE fiber",
-          "Difficulty in expiration",
-          "Normal function of the diaphragm",
-          "Loss of sensation in the costal part of the diaphragm"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Loss of sensation in the fibrous pericardium and mediastinal pleura"
-      },
-      {
-        "question": "An 8-year-old boy with ASD presents to a pediatrician. This congenital heart defect shunts blood from the left atrium to the right atrium and causes hypertrophy of the right atrium, right ventricle, and pulmonary trunk. Which of the following veins opens into the hypertrophied atrium?",
-        "options": [
-          "Anterior cardiac vein",
-          "Middle cardiac vein",
-          "Small cardiac vein",
-          "Oblique cardiac vein",
-          "Right pulmonary vein"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Anterior cardiac vein"
-      },
-      {
-        "question": "A 37-year-old patient with severe chest pain, shortness of breath, and congestive heart failure was admitted to a local hospital. His coronary angiograms reveal a thrombosis in the circumflex branch of the left coronary artery. Which of the following conditions could result from the blockage of blood f low in the circumflex branch?",
-        "options": [
-          "Mitral valve insufficiency",
-          "Tricuspid valve insufficiency",
-          "Ischemia of AV node",
-          "Paralysis of pectinate muscle",
-          "Necrosis of septomarginal trabecula"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Mitral valve insufficiency"
-      },
-      {
-        "question": "A 75-year-old patient has been suffering from lung cancer located near the cardiac notch, a deep indentation on the lung. Which of the following lobes is most likely to be excised?",
-        "options": [
-          "Superior lobe of the left lung",
-          "Superior lobe of the right lung",
-          "Middle lobe of the right lung",
-          "Inferior lobe of the right lung",
-          "Inferior lobe of the left lung"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Superior lobe of the left lung"
-      },
-      {
-        "question": "A thoracentesis is performed to aspirate an abnormal accumulation of fluid in a 37-yearold patient with pleural effusion. A needle should be inserted at the midaxillary line between which of the following two ribs so as to avoid puncturing the lung?",
-        "options": [
-          "Ribs 7 and 9",
-          "Ribs 1 and 3",
-          "Ribs 3 and 5",
-          "Ribs 5 and 7",
-          "Ribs 9 and 11"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Ribs 7 and 9"
-      },
-      {
-        "question": "A newborn baby is readmitted to the hospital with hypoxia and upon testing is found to have pulmonary stenosis, dextraposition of the aorta, interventricular septal defect, and hypertrophy of the right ventricle. Which of the following is best described by these symptoms?",
-        "options": [
-          "Tetralogy of Fallot",
-          "ASD",
-          "Patent ductus arteriosus",
-          "Aortic stenosis",
-          "Coarctation of the aorta"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Tetralogy of Fallot"
-      },
-      {
-        "question": "A 33-year-old patient is suffering from a sudden occlusion at the origin of the descending (thoracic) aorta. This condition would most likely decrease blood flow in which of the following intercostal arteries?",
-        "options": [
-          "Lower six posterior",
-          "Upper six anterior",
-          "All of the posterior",
-          "Upper two posterior",
-          "Lower anterior"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Lower six posterior"
-      },
-      {
-        "question": "A 56-year-old patient recently suffered a myocardial infarction in the area of the apex of the heart. The occlusion by atherosclerosis is in which of the following arteries?",
-        "options": [
-          "Anterior interventricular artery",
-          "Marginal artery",
-          "Right coronary artery at its origin",
-          "Posterior interventricular artery",
-          "Circumflex branch of the left coronary artery"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Anterior interventricular artery"
-      },
-      {
-        "question": "A 45-year-old woman presents with a tumor confined to the posterior mediastinum. This could result in compression of which of the following structures?",
-        "options": [
-          "Descending aorta",
-          "Trachea",
-          "Arch of the aorta",
-          "Arch of the azygos vein",
-          "Phrenic nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Descending aorta"
-      },
-      {
-        "question": "A 62-year-old patient with pericardial effusion comes to a local hospital for aspiration of pericardial fluid by pericardiocentesis. The needle is inserted into the pericardial cavity through which of the following intercostal spaces adjacent to the sternum?",
-        "options": [
-          "Left fifth intercostal space",
-          "Right fourth intercostal space",
-          "Left fourth intercostal space",
-          "Right fifth intercostal space",
-          "Right sixth intercostal space"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Left fifth intercostal space"
-      },
-      {
-        "question": "chest wall near the sternal angle (angle of Louis). Which structure is MOST likely to be directly posterior to this landmark?",
-        "options": [
-          "The aortic arch",
-          "The superior vena cava",
-          "The trachea",
-          "The esophagus",
-          "The pulmonary trunk"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: The aortic arch"
-      },
-      {
-        "question": "A surgeon is performing a median sternotomy (splitting the sternum) to access the heart. Which structure is immediately posterior to the sternum and must be carefully avoided?",
-        "options": [
-          "The thymus (or remnants of it)",
-          "The trachea",
-          "The esophagus",
-          "The aortic arch",
-          "The superior vena cava"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: The thymus (or remnants of it)"
-      },
-      {
-        "question": "A patient presents with a goiter (enlargement of the thyroid gland). Which anatomical structure is at risk of compression due to this enlargement, potentially causing difficulty breathing?",
-        "options": [
-          "The trachea",
-          "The esophagus",
-          "The vagus nerve",
-          "The phrenic nerve",
-          "The internal jugular vein"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: The trachea"
-      },
-      {
-        "question": "A patient undergoes a thyroidectomy (removal of the thyroid gland). Postoperatively, they develop hoarseness. Which nerve is MOST likely injured during the procedure?",
-        "options": [
-          "Recurrent laryngeal nerve",
-          "Vagus nerve",
-          "Phrenic nerve",
-          "Hypoglossal nerve",
-          "Cervical sympathetic trunk"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Recurrent laryngeal nerve"
-      },
-      {
-        "question": "A central venous catheter is being inserted into the subclavian vein. Which other large vessel is in close proximity and could be inadvertently punctured if the procedure is not performed carefully?",
-        "options": [
-          "Subclavian artery",
-          "Internal jugular vein",
-          "External jugular vein",
-          "Brachiocephalic vein",
-          "Axillary vein"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Subclavian artery"
-      }
-    ],
-    "test": [
-      {
-        "question": "The pericardium is composed of:",
-        "options": [
-          "Fibrous and serous layers",
-          "Only a fibrous layer",
-          "Only a serous layer",
-          "Muscle tissue and connective tissue",
-          "Epithelial tissue only"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Fibrous and serous layers"
-      },
-      {
-        "question": "The heart is located in the:",
-        "options": [
-          "Mediastinum",
-          "Pleural cavity",
-          "Abdominal cavity",
-          "Cranial cavity",
-          "Spinal cavity"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Mediastinum"
-      },
-      {
-        "question": "The apex of the heart is formed by the:",
-        "options": [
-          "Left ventricle",
-          "Right ventricle",
-          "Left atrium",
-          "Right atrium",
-          "Interventricular septum"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Left ventricle"
-      },
-      {
-        "question": "The coronary arteries arise from the:",
-        "options": [
-          "Ascending aorta",
-          "Aortic arch",
-          "Descending aorta",
-          "Pulmonary trunk",
-          "Superior vena cava"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Ascending aorta"
-      },
-      {
-        "question": "The sinoatrial (SA) node is located in the:",
-        "options": [
-          "Right atrium",
-          "Left atrium",
-          "Right ventricle",
-          "Left ventricle",
-          "Interatrial septum"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Right atrium"
-      },
-      {
-        "question": "The atrioventricular (AV) node is located in the:",
-        "options": [
-          "Interatrial septum",
-          "Right atrium",
-          "Left atrium",
-          "Right ventricle",
-          "Left ventricle"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Interatrial septum"
-      },
-      {
-        "question": "The mitral valve is located between the:",
-        "options": [
-          "Left atrium and left ventricle",
-          "Right atrium and right ventricle",
-          "Right atrium and pulmonary trunk",
-          "Left ventricle and aorta",
-          "Right ventricle and aorta"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Left atrium and left ventricle"
-      },
-      {
-        "question": "The tricuspid valve is located between the:",
-        "options": [
-          "Right atrium and right ventricle",
-          "Left atrium and left ventricle",
-          "Right atrium and pulmonary trunk",
-          "Left ventricle and aorta",
-          "Right ventricle and aorta"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Right atrium and right ventricle"
-      },
-      {
-        "question": "The pulmonary veins carry:",
-        "options": [
-          "Oxygenated blood to the left atrium",
-          "Deoxygenated blood to the right atrium",
-          "Oxygenated blood to the right atrium",
-          "Deoxygenated blood to the left atrium",
-          "Mixed blood to the left atrium"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Oxygenated blood to the left atrium"
-      },
-      {
-        "question": "The superior vena cava drains blood from the:",
-        "options": [
-          "Head, neck, and upper limbs",
-          "Abdomen and pelvis",
-          "Lower limbs",
-          "Lungs",
-          "Heart muscle"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Head, neck, and upper limbs"
-      },
-      {
-        "question": "The inferior vena cava drains blood from the:",
-        "options": [
-          "Abdomen, pelvis, and lower limbs",
-          "Head, neck, and upper limbs",
-          "Lungs",
-          "Heart muscle",
-          "Thoracic wall"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Abdomen, pelvis, and lower limbs"
-      },
-      {
-        "question": "The aortic arch gives rise to the:",
-        "options": [
-          "Brachiopcephalic trunk, left common carotid, and left subclavian arteries",
-          "Right and left coronary arteries",
-          "Pulmonary trunk and pulmonary arteries",
-          "Superior and inferior vena cavae",
-          "Azygos vein and hemiazygos vein"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Brachiopcephalic trunk, left common carotid, and left subclavian arteries"
-      },
-      {
-        "question": "The thyroid gland is located:",
-        "options": [
-          "Anterior to the trachea",
-          "Posterior to the trachea",
-          "Superior to the heart",
-          "Inferior to the diaphragm",
-          "Within the mediastinum"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Anterior to the trachea"
-      },
-      {
-        "question": "The thyroid gland produces:",
-        "options": [
-          "Thyroxine (T4) and triiodothyronine (T3)",
-          "Insulin and glucagon",
-          "Growth hormone",
-          "Adrenaline and noradrenaline",
-          "Cortisol and aldosterone"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Thyroxine (T4) and triiodothyronine (T3)"
-      },
-      {
-        "question": "The recurrent laryngeal nerves supply:",
-        "options": [
-          "Most of the muscles of the larynx",
-          "The diaphragm",
-          "The heart muscle",
-          "The thyroid gland",
-          "The esophagus"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Most of the muscles of the larynx"
-      },
-      {
-        "question": "The thymus gland is located in the:",
-        "options": [
-          "Superior mediastinum",
-          "Posterior mediastinum",
-          "Anterior mediastinum",
-          "Middle mediastinum",
-          "Inferior mediastinum"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Superior mediastinum"
-      },
-      {
-        "question": "The phrenic nerve innervates the:",
-        "options": [
-          "Diaphragm",
-          "Intercostal muscles",
-          "Abdominal muscles",
-          "Neck muscles",
-          "Heart muscle"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Diaphragm"
-      },
-      {
-        "question": "The thoracic duct drains lymph from:",
-        "options": [
-          "Most of the body",
-          "Right upper limb and right side of head and thorax",
-          "Left upper limb and left side of head and thorax",
-          "Only the abdominal organs",
-          "Only the lower limbs"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Most of the body"
-      },
-      {
-        "question": "The azygos venous system drains blood from the:",
-        "options": [
-          "Posterior thoracic and abdominal walls",
-          "Head and neck",
-          "Upper limbs",
-          "Lower limbs",
-          "Heart muscle"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Posterior thoracic and abdominal walls"
-      },
-      {
-        "question": "The great cardiac vein drains into the:",
-        "options": [
-          "Coronary sinus",
-          "Superior vena cava",
-          "Inferior vena cava",
-          "Right atrium directly",
-          "Left atrium directly"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Coronary sinus"
-      }
-    ]
-  },
-  "t-s-2-2-10": {
-    "situational": [
-      {
-        "question": "A 75-year-old woman was admitted to a local hospital, and bronchograms and radiographs revealed a lung carcinoma in her left lung. Which of the following structures or characteristics does the cancerous lung contain?",
-        "options": [
-          "Lingula",
-          "Horizontal fissure",
-          "Groove for superior vena cava (SVC)",
-          "Middle lobe",
-          "Larger capacity than the right"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Lingula"
-      },
-      {
-        "question": "An 18-year-old girl is thrust into the steering wheel while driving and experiences difficulty in expiration. Which of the following muscles is most likely damaged?",
-        "options": [
-          "Muscles of the abdominal wall",
-          "Levator costarum",
-          "Innermost intercostal muscle",
-          "External intercostal muscle",
-          "Diaphragm"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Muscles of the abdominal wall"
-      },
-      {
-        "question": "A 78-year-old patient presents with an advanced cancer in the posterior mediastinum. The surgeons are in a dilemma as to how to manage the condition. Which of the following structures is most likely damaged?",
-        "options": [
-          "Hemiazygos vein",
-          "Brachiocephalic veins",
-          "Trachea",
-          "Arch of the azygos vein",
-          "Arch of the aorta"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Hemiazygos vein"
-      },
-      {
-        "question": "A 46-year-old patient comes to his doctor’s office and complains of chest pain and headache. His computed tomography (CT) scan reveals a tumor located just superior to the root of the right lung. Blood flow in which of the following veins is most likely blocked by this tumor?",
-        "options": [
-          "Arch of the azygos vein",
-          "Hemiazygos vein",
-          "Right subclavian vein",
-          "Right brachiocephalic vein",
-          "Accessory hemiazygos vein"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Arch of the azygos vein"
-      },
-      {
-        "question": "A 21-year-old patient with a stab wound reveals a laceration of the right vagus nerve proximal to the origin of the recurrent laryngeal nerve. Which of the following conditions would most likely result from this lesion?",
-        "options": [
-          "Dilation of the bronchial lumen",
-          "Contraction of bronchial muscle",
-          "Stimulation of bronchial gland secretion",
-          "Decrease in cardiac rate",
-          "Constriction of coronary artery"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Dilation of the bronchial lumen"
-      },
-      {
-        "question": "A neonate appears severely cyanotic and breathing rapidly. Cardiac echocardiogram reveals that the aorta lies to the right of the pulmonary trunk. Which of the following is most likely occurred during development?",
-        "options": [
-          "AP septum failed to develop in a spiral fashion",
-          "Excessive resorption of septum primum",
-          "Pulmonary valve atresia",
-          "Persistent truncus arteriosus",
-          "Coarctation of the aorta"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: AP septum failed to develop in a spiral fashion"
-      },
-      {
-        "question": "A 12-year-old boy was admitted to a local hospital with a known history of heart problems. His left ventricular hypertrophy could result from which of the following conditions?",
-        "options": [
-          "Stenosis of the aorta",
-          "A constricted pulmonary trunk",
-          "An abnormally small left AV opening",
-          "Improper closing of the pulmonary valves",
-          "An abnormally large right AV opening"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Stenosis of the aorta"
-      },
-      {
-        "question": "A 31-year-old man was involved in a severe automobile accident and suffered laceration of the left primary bronchus. The damaged primary bronchus: Is longer than the right primary bronchus Has a larger diameter than the right primary bronchus Often receives more foreign bodies than the right primary bronchus Gives rise to the eparterial bronchus Runs under the arch of the azygos vein A 62-year-old woman who is a heavy smoker has an advanced lung cancer that spread into her right third posterior intercostal space posterior to the midaxillary line. If cancer cells are carried in the venous drainage, they would travel first to which of the following veins?",
-        "options": [
-          "Right superior intercostal vein",
-          "SVC",
-          "Right brachiocephalic vein",
-          "Azygos vein",
-          "Hemiazygos vein"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Right superior intercostal vein"
-      },
-      {
-        "question": "A radiologist examines posterior–anterior chest radiographs of a 27-year-old victim of a car accident. Which of the following structures forms the right border of the cardiovascular silhouette?",
-        "options": [
-          "SVC",
-          "Arch of the aorta",
-          "Pulmonary trunk",
-          "Ascending aorta",
-          "Left ventricle"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: SVC"
-      },
-      {
-        "question": "A 37-year-old man is brought to the emergency department complaining of severe chest pain. His angiogram reveals thromboses of both brachiocephalic veins just before entering the superior vena cava. This condition would most likely cause a dilation of which of the following veins?",
-        "options": [
-          "Left superior intercostal",
-          "Azygos",
-          "Hemiazygos",
-          "Right superior intercostal",
-          "Internal thoracic"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Left superior intercostal"
-      },
-      {
-        "question": "scan reveals a mass in the posterior mediastinum compressing the esophagus. Which structure is MOST likely involved?",
-        "options": [
-          "Esophagus",
-          "Trachea",
-          "Descending thoracic aorta",
-          "Superior vena cava",
-          "Azygos vein"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Esophagus"
-      },
-      {
-        "question": "MOST likely injured during the procedure, given its close relationship to the esophagus in the posterior mediastinum?",
-        "options": [
-          "Recurrent laryngeal nerve",
-          "Phrenic nerve",
-          "Vagus nerve",
-          "Intercostal nerves",
-          "Thoracic sympathetic trunk"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Recurrent laryngeal nerve"
-      },
-      {
-        "question": "A thoracic aortic aneurysm is discovered on a chest X-ray. This aneurysm involves which vessel located in the posterior mediastinum?",
-        "options": [
-          "Descending thoracic aorta",
-          "Ascending aorta",
-          "Aortic arch",
-          "Pulmonary trunk",
-          "Superior vena cava"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Descending thoracic aorta"
-      },
-      {
-        "question": "plexus, formed by branches of the vagus nerves, is closely associated with the esophageal wall and could be affected?",
-        "options": [
-          "Esophageal plexus",
-          "Cardiac plexus",
-          "Pulmonary plexus",
-          "Celiac plexus",
-          "Superior mesenteric plexus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Esophageal plexus"
-      },
-      {
-        "question": "A patient has a condition affecting venous drainage from the posterior thoracic and abdominal walls. Which venous system, located in the posterior mediastinum, is MOST likely involved?",
-        "options": [
-          "Azygos venous system (azygos, hemiazygos, and accessory hemiazygos veins)",
-          "Superior vena cava",
-          "Inferior vena cava",
-          "Pulmonary veins",
-          "Portal venous system"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Azygos venous system (azygos, hemiazygos, and accessory hemiazygos veins)"
-      }
-    ],
-    "test": [
-      {
-        "question": "The posterior mediastinum is located:",
-        "options": [
-          "Posterior to the pericardium",
-          "Anterior to the pericardium",
-          "Superior to the heart",
-          "Inferior to the diaphragm",
-          "Lateral to the lungs"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Posterior to the pericardium"
-      },
-      {
-        "question": "The esophagus begins at the level of:",
-        "options": [
-          "C6 vertebra",
-          "C4 vertebra",
-          "T1 vertebra",
-          "T4 vertebra",
-          "T10 vertebra"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: C6 vertebra"
-      },
-      {
-        "question": "The esophagus passes through the diaphragm at the:",
-        "options": [
-          "Esophageal hiatus",
-          "Aortic hiatus",
-          "Caval opening",
-          "Central tendon",
-          "Median arcuate ligament"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Esophageal hiatus"
-      },
-      {
-        "question": "The vagus nerves in the posterior mediastinum contribute to the:",
-        "options": [
-          "Esophageal plexus",
-          "Cardiac plexus",
-          "Pulmonary plexus",
-          "All of the above",
-          "Only the esophageal and cardiac plexuses"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Esophageal plexus"
-      },
-      {
-        "question": "The right vagus nerve gives rise to the:",
-        "options": [
-          "Posterior vagal trunk",
-          "Anterior vagal trunk",
-          "Left recurrent laryngeal nerve",
-          "Right recurrent laryngeal nerve",
-          "Phrenic nerve"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Posterior vagal trunk"
-      },
-      {
-        "question": "The left vagus nerve gives rise to the:",
-        "options": [
-          "Anterior vagal trunk",
-          "Posterior vagal trunk",
-          "Right recurrent laryngeal nerve",
-          "Left recurrent laryngeal nerve",
-          "Phrenic nerve"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Anterior vagal trunk"
-      },
-      {
-        "question": "The thoracic duct empties into the:",
-        "options": [
-          "Left subclavian vein",
-          "Right subclavian vein",
-          "Superior vena cava",
-          "Inferior vena cava",
-          "Azygos vein"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Left subclavian vein"
-      },
-      {
-        "question": "The azygos vein drains into the:",
-        "options": [
-          "Superior vena cava",
-          "Inferior vena cava",
-          "Right atrium",
-          "Left atrium",
-          "Brachiocephalic vein"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Superior vena cava"
-      },
-      {
-        "question": "The hemiazygos vein drains into the:",
-        "options": [
-          "Azygos vein",
-          "Superior vena cava",
-          "Inferior vena cava",
-          "Left renal vein",
-          "Right renal vein"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Azygos vein"
-      },
-      {
-        "question": "The accessory hemiazygos vein drains into the:",
-        "options": [
-          "Azygos vein",
-          "Superior vena cava",
-          "Inferior vena cava",
-          "Left renal vein",
-          "Right renal vein"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Azygos vein"
-      },
-      {
-        "question": "The descending thoracic aorta begins at the level of:",
-        "options": [
-          "T4 vertebra",
-          "T1 vertebra",
-          "C6 vertebra",
-          "T12 vertebra",
-          "L1 vertebra"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: T4 vertebra"
-      },
-      {
-        "question": "The thoracic aorta gives off the:",
-        "options": [
-          "Posterior intercostal arteries",
-          "Bronchial arteries",
-          "Esophageal arteries",
-          "All of the above",
-          "Only the posterior intercostal arteries"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Posterior intercostal arteries"
-      },
-      {
-        "question": "Esophageal varices are most commonly caused by:",
-        "options": [
-          "Portal hypertension",
-          "Pulmonary hypertension",
-          "Systemic hypertension",
-          "Aortic aneurysm",
-          "Esophageal stricture"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Portal hypertension"
-      },
-      {
-        "question": "A common surgical procedure for esophageal cancer is:",
-        "options": [
-          "Esophagectomy",
-          "Lobectomy",
-          "Pneumonectomy",
-          "Thoracotomy",
-          "Mediastinoscopy"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Esophagectomy"
-      },
-      {
-        "question": "A hiatal hernia involves protrusion of the:",
-        "options": [
-          "Stomach into the thorax",
-          "Lung into the mediastinum",
-          "Heart into the abdomen",
-          "Liver into the thorax",
-          "Spleen into the thorax"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Stomach into the thorax"
-      },
-      {
-        "question": "The nerve most at risk during esophageal surgery is the:",
-        "options": [
-          "Recurrent laryngeal nerve",
-          "Phrenic nerve",
-          "Vagus nerve",
-          "Intercostal nerve",
-          "Sympathetic trunk"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Recurrent laryngeal nerve"
-      },
-      {
-        "question": "The paravertebral sympathetic chain is located:",
-        "options": [
-          "Along the lateral aspect of the vertebral bodies",
-          "Anterior to the vertebral bodies",
-          "Posterior to the vertebral bodies",
-          "Within the vertebral canal",
-          "Within the intervertebral foramina"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Along the lateral aspect of the vertebral bodies"
-      },
-      {
-        "question": "The splanchnic nerves carry:",
-        "options": [
-          "Preganglionic sympathetic fibers",
-          "Postganglionic sympathetic fibers",
-          "Preganglionic parasympathetic fibers",
-          "Postganglionic parasympathetic fibers",
-          "Sensory fibers only"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Preganglionic sympathetic fibers"
-      },
-      {
-        "question": "The cisterna chyli is located:",
-        "options": [
-          "At the beginning of the thoracic duct",
-          "At the end of the thoracic duct",
-          "Within the superior mediastinum",
-          "Within the anterior mediastinum",
-          "Within the middle mediastinum"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: At the beginning of the thoracic duct"
-      },
-      {
-        "question": "The posterior mediastinum contains:",
-        "options": [
-          "Esophagus, thoracic aorta, azygos venous system, vagus nerves, sympathetic trunks, thoracic duct",
-          "Heart, great vessels, trachea, primary bronchi",
-          "Thymus, lymph nodes, internal thoracic vessels",
-          "Lungs and pleura",
-          "Diaphragm only"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Esophagus, thoracic aorta, azygos venous system, vagus nerves, sympathetic trunks, thoracic duct"
-      }
-    ]
-  },
-  "t-s-2-2-11": {
-    "situational": [
-      {
-        "question": "A 63-year-old man comes to the emergency department with back pain, weakness, and shortness of breath. On examination, he has an aneurysm of the abdominal aorta at the aortic hiatus of the diaphragm. Which of the following pairs of structures would most likely be compressed?",
-        "options": [
-          "Azygos vein and thoracic duct",
-          "Vagus nerve and azygos vein",
-          "Esophagus and vagus nerve",
-          "Thoracic duct and vagus nerve",
-          "Inferior vena cava (IVC) and phrenic nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Azygos vein and thoracic duct"
-      },
-      {
-        "question": "A 36-year-old woman with yellow pigmentation of the skin and sclerae presents at the outpatient clinic. Which of the following conditions most likely is the cause of her obstructive jaundice?",
-        "options": [
-          "Cancer in the head of the pancreas",
-          "Aneurysm of the splenic artery",
-          "Perforated ulcer of the stomach",
-          "Obstruction of the main pancreatic duct",
-          "Cancer in the body of the pancreas"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Cancer in the head of the pancreas"
-      },
-      {
-        "question": "A 2-year-old boy presents with pain in his groin that has been increasing in nature over the past few weeks. He is found to have a degenerative malformation of the transversalis fascia during development. Which of the following structures on the anterior abdominal wall is likely defective?",
-        "options": [
-          "Deep inguinal ring",
-          "Superficial inguinal ring",
-          "Inguinal ligament",
-          "Sac of a direct inguinal hernia",
-          "Anterior wall of the inguinal canal"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Deep inguinal ring"
-      },
-      {
-        "question": "A 29-year-old man comes to a local hospital with duodenal peptic ulcer and complains of cramping epigastric pain. Which of the following structures harbors the cell bodies of abdominal pain fibers?",
-        "options": [
-          "Dorsal root ganglion",
-          "Lateral horn of the spinal cord",
-          "Anterior horn of the spinal cord",
-          "Sympathetic chain ganglion",
-          "Celiac ganglion"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Dorsal root ganglion"
-      },
-      {
-        "question": "A 42-year-old obese woman with seven children is brought to a local hospital by her daughter. Physical examination and her radiograph reveal that large gallstones have ulcerated through the posterior wall of the fundus of the gallbladder into the intestine. Which of the following parts of the intestine is most likely to initially contain gallstones?",
-        "options": [
-          "Transverse colon",
-          "Cecum",
-          "Ascending colon",
-          "Descending colon",
-          "Sigmoid colon"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Transverse colon"
-      },
-      {
-        "question": "A 35-year-old woman comes to a local hospital with abdominal tenderness and acute pain. On examination, her physician observes that an abdominal infection has spread retroperitoneally. Which of the following structures is most likely affected?",
-        "options": [
-          "Descending colon",
-          "Stomach",
-          "Transverse colon",
-          "Jejunum",
-          "Spleen"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Descending colon"
-      },
-      {
-        "question": "During an annual health examination of a 46-year-old woman, a physician finds hypersecretion of norepinephrine from her suprarenal medulla. Which of the following types of nerve fibers are most likely overstimulated?",
-        "options": [
-          "Preganglionic sympathetic fibers",
-          "Postganglionic sympathetic fibers",
-          "Somatic motor fibers",
-          "Postganglionic parasympathetic fibers",
-          "Preganglionic parasympathetic fibers"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Preganglionic sympathetic fibers"
-      },
-      {
-        "question": "A 6-year-old girl comes to her pediatrician with constipation, abdominal distention, and vomiting. After thorough examination, she is diagnosed as having Hirschsprung disease (aganglionic megacolon), which is a congenital disease and leads to dilation of the colon. This condition is caused by an absence of which of the following kinds of neural cell bodies?",
-        "options": [
-          "Parasympathetic postganglionic neuron cell bodies",
-          "Sympathetic preganglionic neuron cell bodies",
-          "Sympathetic postganglionic neuron cell bodies",
-          "Parasympathetic preganglionic neuron cell bodies",
-          "Sensory neuron cell bodies"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Parasympathetic postganglionic neuron cell bodies"
-      },
-      {
-        "question": "A pediatric surgeon is resecting a possible malignant mass from the liver of a neonate with cerebral palsy. The surgeon divides the round ligament of the liver during surgery. A fibrous remnant of which of the following fetal vessels is severed?",
-        "options": [
-          "Left umbilical vein",
-          "Ductus venosus",
-          "Ductus arteriosus",
-          "Right umbilical vein",
-          "Umbilical artery"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Left umbilical vein"
-      },
-      {
-        "question": "A 27-year-old woman has suffered a gunshot wound to her midabdomen. After examining the patient’s angiogram, a trauma surgeon locates the source of bleeding from pairs of veins that typically terminate in the same vein. Which of the following veins are damaged?",
-        "options": [
-          "Left and right hepatic veins",
-          "Left and right ovarian veins",
-          "Left and right gastroepiploic veins",
-          "Left and right colic veins",
-          "Left and right suprarenal veins"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Left and right hepatic veins"
-      },
-      {
-        "question": "A patient presents with a bulge in the groin area that appears when they cough or strain. The bulge is located medial to the inferior epigastric vessels. This is MOST likely a/an:",
-        "options": [
-          "Direct inguinal hernia",
-          "Indirect inguinal hernia",
-          "Femoral hernia",
-          "Umbilical hernia",
-          "Epigastric hernia"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Direct inguinal hernia"
-      },
-      {
-        "question": "A patient develops a bulge in the groin area after heavy lifting. The bulge is located lateral to the inferior epigastric vessels. This is MOST likely a/an:",
-        "options": [
-          "Indirect inguinal hernia",
-          "Direct inguinal hernia",
-          "Femoral hernia",
-          "Umbilical hernia",
-          "Epigastric hernia"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Indirect inguinal hernia"
-      },
-      {
-        "question": "A female patient presents with a bulge in the upper thigh, just below the inguinal ligament. This type of hernia is MOST likely a/an:",
-        "options": [
-          "Femoral hernia",
-          "Inguinal hernia (direct or indirect)",
-          "Umbilical hernia",
-          "Epigastric hernia",
-          "Spigelian hernia"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Femoral hernia"
-      },
-      {
-        "question": "A patient has undergone abdominal surgery and develops a hernia at the site of the incision. This is known as a/an:",
-        "options": [
-          "Incisional hernia",
-          "Umbilical hernia",
-          "Epigastric hernia",
-          "Spigelian hernia",
-          "Hiatal hernia"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Incisional hernia"
-      },
-      {
-        "question": "During an inguinal hernia repair, the surgeon identifies the conjoint tendon. This structure is formed by the aponeuroses of which two muscles?",
-        "options": [
-          "Internal oblique and transversus abdominis",
-          "External oblique and internal oblique",
-          "Transversus abdominis and rectus abdominis",
-          "External oblique and transversalis fascia",
-          "Internal oblique and transversalis fascia"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Internal oblique and transversus abdominis"
-      }
-    ],
-    "test": [
-      {
-        "question": "The rectus abdominis muscle is enclosed within the:",
-        "options": [
-          "Rectus sheath",
-          "Transversalis fascia",
-          "External oblique aponeurosis",
-          "Internal oblique aponeurosis",
-          "Linea alba"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Rectus sheath"
-      },
-      {
-        "question": "The linea alba is formed by the aponeuroses of the:",
-        "options": [
-          "External oblique, internal oblique, and transversus abdominis",
-          "External oblique and internal oblique only",
-          "Internal oblique and transversus abdominis only",
-          "Rectus abdominis only",
-          "Transversus abdominis only"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: External oblique, internal oblique, and transversus abdominis"
-      },
-      {
-        "question": "The inguinal ligament is formed by the free edge of the:",
-        "options": [
-          "External oblique aponeurosis",
-          "Internal oblique aponeurosis",
-          "Transversus abdominis aponeurosis",
-          "Rectus abdominis aponeurosis",
-          "Transversalis fascia"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: External oblique aponeurosis"
-      },
-      {
-        "question": "The superficial inguinal ring is an opening in the:",
-        "options": [
-          "External oblique aponeurosis",
-          "Internal oblique aponeurosis",
-          "Transversus abdominis aponeurosis",
-          "Transversalis fascia",
-          "Rectus sheath"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: External oblique aponeurosis"
-      },
-      {
-        "question": "The deep inguinal ring is an opening in the:",
-        "options": [
-          "Transversalis fascia",
-          "External oblique aponeurosis",
-          "Internal oblique aponeurosis",
-          "Transversus abdominis aponeurosis",
-          "Rectus sheath"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Transversalis fascia"
-      },
-      {
-        "question": "The inguinal canal contains the:",
-        "options": [
-          "Spermatic cord (males) or round ligament of the uterus (females)",
-          "Femoral artery and vein",
-          "Femoral nerve",
-          "Obturator nerve",
-          "Ilioinguinal nerve only"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Spermatic cord (males) or round ligament of the uterus (females)"
-      },
-      {
-        "question": "The conjoint tendon is formed by the fusion of the aponeuroses of the:",
-        "options": [
-          "Internal oblique and transversus abdominis",
-          "External oblique and internal oblique",
-          "Transversus abdominis and rectus abdominis",
-          "External oblique and transversalis fascia",
-          "Internal oblique and transversalis fascia"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Internal oblique and transversus abdominis"
-      },
-      {
-        "question": "A direct inguinal hernia protrudes through:",
-        "options": [
-          "Hesselbach's triangle",
-          "The deep inguinal ring",
-          "The superficial inguinal ring",
-          "The femoral canal",
-          "The linea alba"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Hesselbach's triangle"
-      },
-      {
-        "question": "An indirect inguinal hernia protrudes through:",
-        "options": [
-          "The deep inguinal ring",
-          "Hesselbach's triangle",
-          "The superficial inguinal ring",
-          "The femoral canal",
-          "The linea alba"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: The deep inguinal ring"
-      },
-      {
-        "question": "A femoral hernia protrudes through the:",
-        "options": [
-          "Femoral canal",
-          "Inguinal canal",
-          "Umbilicus",
-          "Linea alba",
-          "Hesselbach's triangle"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Femoral canal"
-      },
-      {
-        "question": "An umbilical hernia occurs at the:",
-        "options": [
-          "Umbilicus",
-          "Inguinal region",
-          "Epigastric region",
-          "Linea alba above the umbilicus",
-          "Linea alba below the umbilicus"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Umbilicus"
-      },
-      {
-        "question": "An epigastric hernia occurs through the:",
-        "options": [
-          "Linea alba between the xiphoid process and umbilicus",
-          "Umbilicus",
-          "Inguinal region",
-          "Femoral canal",
-          "Hesselbach's triangle"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Linea alba between the xiphoid process and umbilicus"
-      },
-      {
-        "question": "A Spigelian hernia occurs along the:",
-        "options": [
-          "Semilunar line (lateral border of the rectus sheath)",
-          "Linea alba",
-          "Inguinal ligament",
-          "Umbilicus",
-          "Femoral canal"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Semilunar line (lateral border of the rectus sheath)"
-      },
-      {
-        "question": "The transversalis fascia is located:",
-        "options": [
-          "Deep to the transversus abdominis muscle",
-          "Superficial to the transversus abdominis muscle",
-          "Between the external and internal oblique muscles",
-          "Superficial to the external oblique muscle",
-          "Deep to the internal oblique muscle"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Deep to the transversus abdominis muscle"
-      },
-      {
-        "question": "The cremaster muscle is derived from the:",
-        "options": [
-          "Internal oblique muscle",
-          "External oblique muscle",
-          "Transversus abdominis muscle",
-          "Rectus abdominis muscle",
-          "Transversalis fascia"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Internal oblique muscle"
-      },
-      {
-        "question": "The ilioinguinal nerve provides sensory innervation to the:",
-        "options": [
-          "Skin of the groin and medial thigh",
-          "Muscles of the anterior abdominal wall",
-          "Peritoneum",
-          "Viscera",
-          "Scrotum/labia majora and adjacent medial thigh"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Skin of the groin and medial thigh"
-      },
-      {
-        "question": "The nerve at risk of injury during inguinal hernia repair is the:",
-        "options": [
-          "Ilioinguinal nerve",
-          "Femoral nerve",
-          "Obturator nerve",
-          "Genitofemoral nerve",
-          "Lateral femoral cutaneous nerve"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Ilioinguinal nerve"
-      },
-      {
-        "question": "The Bassini repair is a surgical technique for:",
-        "options": [
-          "Inguinal hernias",
-          "Umbilical hernias",
-          "Femoral hernias",
-          "Epigastric hernias",
-          "Incisional hernias"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Inguinal hernias"
-      },
-      {
-        "question": "The Lichtenstein repair uses a:",
-        "options": [
-          "Mesh patch",
-          "Primary suture repair",
-          "Muscle flap",
-          "Peritoneal flap",
-          "Skin graft"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Mesh patch"
-      },
-      {
-        "question": "A laparoscopic approach to hernia repair involves:",
-        "options": [
-          "Small incisions and specialized instruments",
-          "Large abdominal incision",
-          "Thoracotomy",
-          "Combined abdominal and thoracic incisions",
-          "Retroperitoneal approach"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Small incisions and specialized instruments"
-      }
-    ]
-  },
-  "t-s-2-2-12": {
-    "situational": [
-      {
-        "question": "A physical fitness trainer for a young Hollywood movie star explains the reasons for 100 stomach crunches a day. The young star, a medical student before ‘hitting it big,’ reaffirms to his trainer that the lateral margin of the rectus abdominis, the muscle responsible for a washboard stomach, defines which of the following structures?",
-        "options": [
-          "Linea semilunaris",
-          "Linea alba",
-          "Linea circularis",
-          "Transversalis fascia",
-          "Falx inguinalis"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Linea semilunaris"
-      },
-      {
-        "question": "During surgical treatment of portal hypertension in a 59-year-old man with liver cirrhosis, a surgeon inadvertently lacerates the dilated paraumbilical veins. The veins must be repaired to allow collateral f low. Which of the following ligaments is most likely severed?",
-        "options": [
-          "Ligamentum teres hepatis",
-          "Lienorenal ligament",
-          "Lienogastric ligament",
-          "Gastrophrenic ligament",
-          "Ligamentum venosum"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Ligamentum teres hepatis"
-      },
-      {
-        "question": "A 43-year-old woman is admitted to the hospital because of deep abdominal pain in her epigastric region. On examination, it is observed that a retroperitoneal infection erodes an artery that runs along the superior border of the pancreas. Which of the following arteries is likely injured?",
-        "options": [
-          "Splenic artery",
-          "Right gastric artery",
-          "Left gastroepiploic artery",
-          "Gastroduodenal artery",
-          "Dorsal pancreatic artery"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Splenic artery"
-      },
-      {
-        "question": "A 19-year-old young woman with a long history of irritable bowel syndrome presents for the possibility of surgical resection of the gastrointestinal (GI) tract where the vagal parasympathetic innervation terminates. Which of the following sites is most appropriate for surgical resection?",
-        "options": [
-          "Left colic flexure",
-          "Duodenojejunal junction",
-          "Ileocecal junction",
-          "Right colic flexure",
-          "Anorectal junction"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Left colic flexure"
-      },
-      {
-        "question": "A 58-year-old man is admitted to the hospital with severe abdominal pain, nausea, and vomiting resulting in dehydration. Emergency CT scan reveals a tumor located between the celiac trunk and the superior mesenteric artery. Which of the following structures is likely compressed by this tumor?",
-        "options": [
-          "Neck of the pancreas",
-          "Fundus of the stomach",
-          "Transverse colon",
-          "Hepatopancreatic ampulla",
-          "Duodenojejunal junction"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Neck of the pancreas"
-      },
-      {
-        "question": "An emergent hernia repair is scheduled. Asthe attending physician is driving to the hospital, the medical student assisting on the case quickly reviews his anatomy atlas and is trying to commit to memory that the internal oblique abdominis muscle contributes to the formation of which of the following structures?",
-        "options": [
-          "Falx inguinalis (conjoint tendon",
-          "Inguinal ligament",
-          "Deep inguinal ring",
-          "Internal spermatic fascia",
-          "Reflected inguinal ligament"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Falx inguinalis (conjoint tendon"
-      },
-      {
-        "question": "49. A 9-year-old girl has crashed into her neighbor’s brick fence while riding her bike and is brought to the emergency department with a great deal of abdominal pain. Her radiogram and angiogram show laceration of the superior mesenteric artery immediately distal to the origin of the middle colic artery. If collateral circulation is discounted, which of the following organs may become ischemic?",
-        "options": [
-          "Ascending colon",
-          "Descending colon",
-          "Duodenum",
-          "Pancreas",
-          "Transverse colon"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Ascending colon"
-      },
-      {
-        "question": "A 53-year-old woman with known kidney disease presents to a hospital because her pain has become increasingly more severe. A physician performing kidney surgery must remember that: The left renal vein runs anterior to both the aorta and the left renal artery The left kidney lies a bit lower than the right one The perirenal fat lies external to the renal fascia The renal fascia does not surround the suprarenal gland The right renal artery is shorter than the left renal artery 51. A neonatal baby was born with diabetes mellitus due to an inadequate production of insulin. Cells in the endocrine portion of the pancreas that secrete insulin, glucagon, and somatostatin are derived from which of the following?",
-        "options": [
-          "Endoderm",
-          "Ectoderm",
-          "Mesoderm",
-          "Proctodeum",
-          "Neural crest cells"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Endoderm"
-      },
-      {
-        "question": "52. During development, the midgut arteryappears to be markedly narrowed at its origin. Which of the following structures is derivedfrom the midgut and may receive inadequate blood supply?",
-        "options": [
-          "Ascending colon",
-          "Gallbladder",
-          "Stomach",
-          "Descending colon",
-          "Rectum"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Ascending colon"
-      },
-      {
-        "question": "A 3-year-old boy is admitted to the children’s hospital with complaints of restlessness, abdominal pain, and fever. An MRI examination reveals that he has a double ureter. Which of the following embryonic structures is most likely failed to develop normally?",
-        "options": [
-          "Ureteric bud",
-          "Mesonephric (Wolffian) duct",
-          "Paramesonephric (Müllerian) duct",
-          "Metanephros",
-          "Pronephros"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Ureteric bud"
-      },
-      {
-        "question": "A neonate has a small reducible protrusion through a defined ring at the umbilicus. His pediatrician indicates to the parents that this will likely close spontaneously. Which of the following congenital malformations is present?",
-        "options": [
-          "Umbilical hernia",
-          "Symptomatic patent urachus",
-          "Patent omphalomesenteric duct",
-          "Omphalocele",
-          "Gastroschisi"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Umbilical hernia"
-      },
-      {
-        "question": "A patient with severe esophageal stricture is unable to eat orally. A surgical procedure is performed to create an opening into the stomach for feeding. This procedure is called a:",
-        "options": [
-          "Gastrostomy",
-          "Cholecystostomy",
-          "Jejunostomy",
-          "Ileostomy",
-          "Esophagectomy"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Gastrostomy"
-      },
-      {
-        "question": "A patient undergoes a partial gastrectomy for gastric cancer. A Billroth I procedure is performed, which involves:",
-        "options": [
-          "Anastomosis of the remaining stomach to the duodenum",
-          "Anastomosis of the remaining stomach to the jejunum",
-          "Removal of the entire stomach",
-          "Removal of the duodenum",
-          "Creation of a new esophagus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Anastomosis of the remaining stomach to the duodenum"
-      },
-      {
-        "question": "A patient develops severe postprandial dumping syndrome after a gastrectomy. This syndrome is characterized by:",
-        "options": [
-          "Rapid emptying of gastric contents into the small intestine",
-          "Delayed gastric emptying",
-          "Obstruction of the pylorus",
-          "Inflammation of the gastric mucosa",
-          "Perforation of the stomach"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Rapid emptying of gastric contents into the small intestine"
-      },
-      {
-        "question": "abdominal wall to visualize the stomach and guide the placement of the feeding tube. The initial puncture site is typically in the:",
-        "options": [
-          "Left upper quadrant",
-          "Right upper quadrant",
-          "Left lower quadrant",
-          "Right lower quadrant",
-          "Epigastric region"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Left upper quadrant"
-      },
-      {
-        "question": "A patient presents with a perforated gastric ulcer in the anterior wall of the stomach. Which anatomical structure is MOST likely to be involved in the resulting peritonitis?",
-        "options": [
-          "Greater omentum",
-          "Lesser omentum",
-          "Transverse colon",
-          "Root of the mesentery",
-          "Retroperitoneal space"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Greater omentum"
-      }
-    ],
-    "test": [
-      {
-        "question": "The stomach is located primarily in the:",
-        "options": [
-          "Left upper quadrant of the abdomen",
-          "Right upper quadrant of the abdomen",
-          "Left lower quadrant of the abdomen",
-          "Right lower quadrant of the abdomen",
-          "Epigastric region only"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Left upper quadrant of the abdomen"
-      },
-      {
-        "question": "The cardia of the stomach is located at the level of:",
-        "options": [
-          "T11 vertebra",
-          "T8 vertebra",
-          "T10 vertebra",
-          "L1 vertebra",
-          "L2 vertebra"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: T11 vertebra"
-      },
-      {
-        "question": "The pylorus of the stomach is located at the level of:",
-        "options": [
-          "L1 vertebra",
-          "T10 vertebra",
-          "T12 vertebra",
-          "L3 vertebra",
-          "S1 vertebra"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: L1 vertebra"
-      },
-      {
-        "question": "The fundus of the stomach is located:",
-        "options": [
-          "Superior to the esophageal opening",
-          "Inferior to the esophageal opening",
-          "Anterior to the pylorus",
-          "Posterior to the pylorus",
-          "Medial to the body"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Superior to the esophageal opening"
-      },
-      {
-        "question": "The greater curvature of the stomach is located:",
-        "options": [
-          "Laterally",
-          "Medially",
-          "Anteriorly",
-          "Posteriorly",
-          "Superiorly"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Laterally"
-      },
-      {
-        "question": "The lesser curvature of the stomach is located:",
-        "options": [
-          "Medially",
-          "Laterally",
-          "Anteriorly",
-          "Posteriorly",
-          "Inferiorly"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Medially"
-      },
-      {
-        "question": "The stomach receives its blood supply primarily from the:",
-        "options": [
-          "Celiac trunk",
-          "Superior mesenteric artery",
-          "Inferior mesenteric artery",
-          "Splenic artery only",
-          "Hepatic artery only"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Celiac trunk"
-      },
-      {
-        "question": "The stomach drains its venous blood into the:",
-        "options": [
-          "Portal vein",
-          "Inferior vena cava",
-          "Superior vena cava",
-          "Hepatic veins",
-          "Splenic vein only"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Portal vein"
-      },
-      {
-        "question": "The stomach is innervated by the:",
-        "options": [
-          "Vagus nerves and celiac plexus",
-          "Phrenic nerve",
-          "Intercostal nerves",
-          "Lumbar plexus",
-          "Sacral plexus"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Vagus nerves and celiac plexus"
-      },
-      {
-        "question": "The gastric rugae are:",
-        "options": [
-          "Folds in the gastric mucosa",
-          "Folds in the gastric serosa",
-          "Muscle layers of the stomach",
-          "Lymphatic vessels of the stomach",
-          "Blood vessels of the stomach"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Folds in the gastric mucosa"
-      },
-      {
-        "question": "A hiatal hernia involves protrusion of the:",
-        "options": [
-          "Stomach into the thoracic cavity",
-          "Small intestine into the inguinal canal",
-          "Large intestine into the pelvis",
-          "Liver into the thoracic cavity",
-          "Spleen into the abdominal wall"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Stomach into the thoracic cavity"
-      },
-      {
-        "question": "A paraesophageal hernia involves:",
-        "options": [
-          "The fundus of the stomach herniating alongside the esophagus",
-          "Only the esophagus herniating through the diaphragm",
-          "Only the cardia herniating through the diaphragm",
-          "The entire stomach herniating into the thorax",
-          "The small intestine herniating into the thorax"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: The fundus of the stomach herniating alongside the esophagus"
-      },
-      {
-        "question": "A sliding hiatal hernia involves:",
-        "options": [
-          "The cardia and fundus sliding into the thorax",
-          "Only the fundus sliding into the thorax",
-          "Only the cardia sliding into the thorax",
-          "The entire stomach sliding into the thorax",
-          "The small intestine sliding into the thorax"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: The cardia and fundus sliding into the thorax"
-      },
-      {
-        "question": "Gastrostomy is a surgical procedure that creates an opening into the:",
-        "options": [
-          "Stomach",
-          "Duodenum",
-          "Jejunum",
-          "Ileum",
-          "Esophagus"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Stomach"
-      },
-      {
-        "question": "A percutaneous endoscopic gastrostomy (PEG) is performed:",
-        "options": [
-          "Through the abdominal wall using an endoscope",
-          "Through a large abdominal incision",
-          "Through the chest wall",
-          "Through the rectum",
-          "Through the urethra"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Through the abdominal wall using an endoscope"
-      },
-      {
-        "question": "A partial gastrectomy involves removal of:",
-        "options": [
-          "Part of the stomach",
-          "The entire stomach",
-          "The duodenum",
-          "The esophagus",
-          "The spleen"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Part of the stomach"
-      },
-      {
-        "question": "A total gastrectomy involves removal of:",
-        "options": [
-          "The entire stomach",
-          "Part of the stomach",
-          "The duodenum and part of the stomach",
-          "The esophagus and part of the stomach",
-          "Only the pylorus"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: The entire stomach"
-      },
-      {
-        "question": "A Billroth I gastrectomy involves:",
-        "options": [
-          "Anastomosis of the stomach to the duodenum",
-          "Anastomosis of the stomach to the jejunum",
-          "Removal of the duodenum",
-          "Removal of the esophagus",
-          "Removal of the spleen"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Anastomosis of the stomach to the duodenum"
-      },
-      {
-        "question": "A Billroth II gastrectomy involves:",
-        "options": [
-          "Anastomosis of the stomach to the jejunum",
-          "Anastomosis of the stomach to the duodenum",
-          "Removal of the duodenum",
-          "Removal of the esophagus",
-          "Removal of the spleen"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Anastomosis of the stomach to the jejunum"
-      },
-      {
-        "question": "Dumping syndrome is a potential complication of:",
-        "options": [
-          "Gastrectomy",
-          "Cholecystectomy",
-          "Appendectomy",
-          "Hernia repair",
-          "Liver transplantation"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Gastrectomy"
-      }
-    ]
-  },
-  "t-s-2-2-13": {
-    "situational": [
-      {
-        "question": "A 35-year-old woman with a history of cholecystectomy arrives in the emergency department with intractable hiccups most likely caused by an abdominal abscess secondary to surgical infection. Which of the following nerves carries pain sensation caused by irritation of the peritoneum on the central portion of the inferior surface of the diaphragm?",
-        "options": [
-          "Phrenic nerve",
-          "Vagus nerve",
-          "Lower intercostal nerve",
-          "Greater splanchnic nerve",
-          "Subcostal nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Phrenic nerve"
-      },
-      {
-        "question": "A 16-year-old boy with a ruptured spleen comes to the emergency department for splenectomy. Soon after ligation of the splenic artery just distal to its origin, a surgical resident observes that the patient is healing normally. Normal blood flow would occur in which of the following arteries?",
-        "options": [
-          "Inferior pancreaticoduodenal artery",
-          "Short gastric arteries",
-          "Dorsal pancreatic artery",
-          "Left gastroepiploic artery",
-          "Artery in the lienorenal ligament"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Inferior pancreaticoduodenal artery"
-      },
-      {
-        "question": "A 9-year-old boy was admitted to the emergency department complaining of nausea, vomiting, fever, and loss of appetite. On examination, he was found to have tenderness and pain on the right lower quadrant. Based on signs and symptoms, the diagnosis of acute appendicitis was made. During an appendectomy performed at McBurney point, which of the following structures is most likely to be injured?",
-        "options": [
-          "Iliohypogastric nerve",
-          "Deep circumflex femoral artery",
-          "Inferior epigastric artery",
-          "Genitofemoral nerve",
-          "Spermatic cord"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Iliohypogastric nerve"
-      },
-      {
-        "question": "A 54-year-old man with a long history of alcohol abuse presents to the emergency department with rapidly increasing abdominal distention most likely resulting from an alteration in portal systemic blood flow. Which of the following characteristics is associated with the portal vein or the portal venous system?",
-        "options": [
-          "Caput medusae and hemorrhoids caused",
-          "by portal hypertension",
-          "Lower blood pressure than in the IVC",
-          "Least risk of venous varices because of portal hypertension",
-          "Distention of the portal vein resulting from"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Caput medusae and hemorrhoids caused"
-      },
-      {
-        "question": "its numerous valves Less blood flow than in the hepatic artery While examining radiographs and angiograms of a 52-year-old patient, a physician is trying to distinguish the jejunum from the ileum. He has observed that the jejunum has: Fewer mesenteric arterial arcades Fewer plicae circulares Less digestion and absorption of nutrients Shorter vasa recta More fat in its mesentery A 67-year-old woman with a long history of liver cirrhosis was seen in the emergency department. In this patient with portal hypertension, which of the following veins is most likely to be dilated?",
-        "options": [
-          "Right colic vein",
-          "Inferior epigastric vein",
-          "Inferior phrenic vein",
-          "Suprarenal vein",
-          "Ovarian vein"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Right colic vein"
-      },
-      {
-        "question": "A 26-year-old patient is admitted to a local hospital with a retroperitoneal infection. Which of the following arteries is most likely to be infected?",
-        "options": [
-          "Dorsal pancreatic artery",
-          "Left gastric artery",
-          "Proper hepatic artery",
-          "Middle colic artery",
-          "Sigmoid arteries"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Dorsal pancreatic artery"
-      },
-      {
-        "question": "A pediatric surgeon has resected a structure that is a fibrous remnant of an embryonic or fetal artery in a 5-year-old child. Which of the following structures is most likely to be divided?",
-        "options": [
-          "Medial umbilical fold",
-          "Lateral umbilical fold",
-          "Median umbilical fold",
-          "Ligamentum teres hepatis",
-          "Ligamentum venosum"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Medial umbilical fold"
-      },
-      {
-        "question": "A 57-year-old patient has a tumor in the body of the pancreas that obstructs the inferior mesenteric vein just before joining the splenic vein. Which of the following veins is most likely to be enlarged?",
-        "options": [
-          "Left colic vein",
-          "Middle colic vein",
-          "Left gastroepiploic vein",
-          "Inferior pancreaticoduodenal vein",
-          "Ileocolic vein"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Left colic vein"
-      },
-      {
-        "question": "An elderly man with prostatic hypertrophy returns to his urologist with another case of epididymitis. An acute infection involving the dartos muscle layer of the scrotum most likely leads to an enlargement of which of the following lymph nodes?",
-        "options": [
-          "Superficial inguinal nodes",
-          "Preaortic nodes",
-          "Lumbar nodes",
-          "External iliac nodes",
-          "Common iliac nodes"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Superficial inguinal nodes"
-      },
-      {
-        "question": "A 3-year-old boy is diagnosed as having a persistent processus vaginalis in its middle portion. Which of the following conditions is most likely to be associated with this developmental anomaly?",
-        "options": [
-          "Hydrocele",
-          "Direct inguinal hernia",
-          "Gubernaculum testis",
-          "Hematocele",
-          "Cryptorchidism"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Hydrocele"
-      },
-      {
-        "question": "Examination of a 54-year-old man reveals an isolated tumor located at the porta hepatis. This tumor most likely compresses which of the following structures?",
-        "options": [
-          "Branches of the portal vein",
-          "Cystic duct",
-          "Hepatic veins",
-          "Common hepatic artery",
-          "Left gastric artery"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Branches of the portal vein"
-      },
-      {
-        "question": "A patient presents with right upper quadrant pain that radiates to the right shoulder. This pain is MOST likely due to pathology of the:",
-        "options": [
-          "Gallbladder",
-          "Spleen",
-          "Liver",
-          "Stomach",
-          "Pancreas"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Gallbladder"
-      },
-      {
-        "question": "A patient is diagnosed with cirrhosis of the liver. This condition primarily affects the:",
-        "options": [
-          "Hepatocytes (liver cells)",
-          "Gallbladder",
-          "Spleen",
-          "Pancreas",
-          "Bile ducts"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Hepatocytes (liver cells)"
-      },
-      {
-        "question": "A patient has a history of portal hypertension. Which organ is directly involved in this condition due to its role in receiving blood from the gastrointestinal tract?",
-        "options": [
-          "Liver",
-          "Gallbladder",
-          "Spleen",
-          "Pancreas",
-          "Kidneys"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Liver"
-      },
-      {
-        "question": "A patient presents with left upper quadrant pain and tenderness after a blunt abdominal trauma. Which organ is MOST likely injured?",
-        "options": [
-          "Spleen",
-          "Liver",
-          "Gallbladder",
-          "Stomach",
-          "Pancreas"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Spleen"
-      },
-      {
-        "question": "A physician is palpating the abdomen. Under normal circumstances, the spleen is:",
-        "options": [
-          "Not palpable",
-          "Easily palpable in the right upper quadrant",
-          "Palpable in the left lower quadrant",
-          "Palpable below the xiphoid process",
-          "Palpable in the midline of the abdomen"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Not palpable"
-      }
-    ],
-    "test": [
-      {
-        "question": "The liver is located primarily in the:",
-        "options": [
-          "Right upper quadrant of the abdomen",
-          "Left upper quadrant of the abdomen",
-          "Right lower quadrant of the abdomen",
-          "Left lower quadrant of the abdomen",
-          "Epigastric region only"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Right upper quadrant of the abdomen"
-      },
-      {
-        "question": "The liver receives blood supply from the:",
-        "options": [
-          "Hepatic artery and portal vein",
-          "Hepatic artery only",
-          "Portal vein only",
-          "Superior mesenteric artery",
-          "Inferior mesenteric artery"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Hepatic artery and portal vein"
-      },
-      {
-        "question": "The portal vein carries blood from the:",
-        "options": [
-          "Gastrointestinal tract and spleen",
-          "Liver to the inferior vena cava",
-          "Heart to the liver",
-          "Kidneys to the liver",
-          "Lungs to the liver"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Gastrointestinal tract and spleen"
-      },
-      {
-        "question": "Bile is produced by:",
-        "options": [
-          "Hepatocytes (liver cells)",
-          "Gallbladder",
-          "Pancreas",
-          "Spleen",
-          "Duodenum"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Hepatocytes (liver cells)"
-      },
-      {
-        "question": "Bile is stored in the:",
-        "options": [
-          "Gallbladder",
-          "Liver",
-          "Pancreas",
-          "Spleen",
-          "Duodenum"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Gallbladder"
-      },
-      {
-        "question": "The common bile duct is formed by the union of the:",
-        "options": [
-          "Cystic duct and common hepatic duct",
-          "Hepatic duct and pancreatic duct",
-          "Cystic duct and pancreatic duct",
-          "Hepatic artery and portal vein",
-          "Hepatic vein and portal vein"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Cystic duct and common hepatic duct"
-      },
-      {
-        "question": "The common bile duct empties into the:",
-        "options": [
-          "Duodenum (second part)",
-          "Stomach",
-          "Jejunum",
-          "Ileum",
-          "Colon"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Duodenum (second part)"
-      },
-      {
-        "question": "The sphincter of Oddi controls the flow of:",
-        "options": [
-          "Bile and pancreatic juice into the duodenum",
-          "Blood into the liver",
-          "Blood from the liver",
-          "Gastric contents into the duodenum",
-          "Intestinal contents into the colon"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Bile and pancreatic juice into the duodenum"
-      },
-      {
-        "question": "The gallbladder’s primary function is:",
-        "options": [
-          "Storing and concentrating bile",
-          "Producing bile",
-          "Filtering blood",
-          "Producing digestive enzymes",
-          "Storing glycogen"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Storing and concentrating bile"
-      },
-      {
-        "question": "Cholecystitis is inflammation of the:",
-        "options": [
-          "Gallbladder",
-          "Liver",
-          "Pancreas",
-          "Spleen",
-          "Duodenum"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Gallbladder"
-      },
-      {
-        "question": "Cholelithiasis refers to the presence of:",
-        "options": [
-          "Gallstones",
-          "Liver cysts",
-          "Pancreatic stones",
-          "Splenic rupture",
-          "Duodenal ulcers"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Gallstones"
-      },
-      {
-        "question": "The spleen is located in the:",
-        "options": [
-          "Left upper quadrant of the abdomen",
-          "Right upper quadrant of the abdomen",
-          "Left lower quadrant of the abdomen",
-          "Right lower quadrant of the abdomen",
-          "Epigastric region"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Left upper quadrant of the abdomen"
-      },
-      {
-        "question": "The spleen's primary functions include:",
-        "options": [
-          "Filtering blood and removing old red blood cells",
-          "Producing bile",
-          "Storing glycogen",
-          "Producing digestive enzymes",
-          "Detoxifying blood"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Filtering blood and removing old red blood cells"
-      },
-      {
-        "question": "The splenic artery is a branch of the:",
-        "options": [
-          "Celiac trunk",
-          "Superior mesenteric artery",
-          "Inferior mesenteric artery",
-          "Abdominal aorta directly",
-          "Renal artery"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Celiac trunk"
-      },
-      {
-        "question": "The splenic vein drains into the:",
-        "options": [
-          "Portal vein",
-          "Inferior vena cava",
-          "Superior mesenteric vein",
-          "Hepatic vein",
-          "Renal vein"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Portal vein"
-      },
-      {
-        "question": "Liver stitches (sutures) are used to:",
-        "options": [
-          "Control bleeding after liver injury or surgery",
-          "Repair the gallbladder",
-          "Repair the spleen",
-          "Repair the pancreas",
-          "Repair the bile duct"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Control bleeding after liver injury or surgery"
-      },
-      {
-        "question": "Liver transplantation is a treatment option for:",
-        "options": [
-          "End-stage liver disease",
-          "Gallstones",
-          "Splenic rupture",
-          "Pancreatitis",
-          "Duodenal ulcers"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: End-stage liver disease"
-      },
-      {
-        "question": "The most common cause of liver cirrhosis leading to transplantation is:",
-        "options": [
-          "Hepatitis C",
-          "Gallstones",
-          "Splenic rupture",
-          "Pancreatitis",
-          "Duodenal ulcers"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Hepatitis C"
-      },
-      {
-        "question": "The recipient’s diseased liver is removed during:",
-        "options": [
-          "Orthotopic liver transplantation",
-          "Heterotopic liver transplantation",
-          "Living donor liver transplantation",
-          "Split liver transplantation",
-          "Domino liver transplantation"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Orthotopic liver transplantation"
-      },
-      {
-        "question": "In living donor liver transplantation, a portion of the liver is taken from a:",
-        "options": [
-          "Living related or unrelated donor",
-          "Deceased donor",
-          "Pig",
-          "Cadaver",
-          "Animal"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Living related or unrelated donor"
-      }
-    ]
-  },
-  "t-s-2-2-14": {
-    "situational": [
-      {
-        "question": "During an outbreak of meningitis at a local college, a 20-year-old student presents to a hospital emergency department complaining of headache, fever, chills, and stiff neck. On examination, it appears that he may have meningitis and needs a lumbar puncture or a spinal tap. Cerebrospinal f luid (CSF) is normally withdrawn from which of the following spaces?",
-        "options": [
-          "Subarachnoid space",
-          "Epidural space",
-          "Subdural space",
-          "Space between the spinal cord and the piamater",
-          "Space between the arachnoid and dura maters"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Subarachnoid space"
-      },
-      {
-        "question": "A 23-year-old jockey falls from her horse and complains of headache, backache, and weakness. Radiologic examination would reveal blood in which of the following spaces if the internal vertebral venous plexus was ruptured?",
-        "options": [
-          "Epidural space",
-          "Space deep to the pia mater",
-          "Space between the arachnoid and duramaters",
-          "Subdural space",
-          "Subarachnoid space"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Epidural space"
-      },
-      {
-        "question": "A 42-year-old woman with metastatic breast cancer is known to have tumors in the intervertebral foramina between the fourth and fifth cervical vertebrae and between the fourth and fifth thoracic vertebrae. Which of the following spinal nerves may be damaged?",
-        "options": [
-          "Fifth cervical and fourth thoracic nerves",
-          "Fourth cervical and fourth thoracic nerves",
-          "Fifth cervical and fifth thoracic nerves",
-          "Fourth cervical and fifth thoracic nerves",
-          "Third cervical and fourth thoracic nerves"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Fifth cervical and fourth thoracic nerves"
-      },
-      {
-        "question": "A 39-year-old woman with headaches presents to her primary care physician with a possible herniated disk. Her magnetic resonance imaging (MRI) scan reveals that the posterolateral protrusion of the intervertebral disk between L4 and L5 vertebrae would most likely affect nerve roots of which of the following spinal nerves?",
-        "options": [
-          "Fifth lumbar nerve",
-          "Third lumbar nerve",
-          "Fourth lumbar nerve",
-          "First sacral nerve",
-          "Second sacral nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Fifth lumbar nerve"
-      },
-      {
-        "question": "A 57-year-old woman comes into her physician’s office complaining of fever, nausea, vomiting, and the worst headache of her life. Tests and physical examination suggest hydrocephalus (widening ventricles) resulting from a decrease in the absorption of cerebrospinal fluid (CSF). A decrease of f low in the CSF through which of the following structures would be responsible for these findings?",
-        "options": [
-          "Arachnoid villi",
-          "Choroid plexus",
-          "Vertebral venous plexus",
-          "Internal jugular vein",
-          "Subarachnoid trabeculae"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Arachnoid villi"
-      },
-      {
-        "question": "After a 26-year-old man’s car was broadsided by a large truck, he is brought to the emergency department with multiple fractures of the transverse processes of the cervical and upper thoracic vertebrae. Which of the following muscles might be affected?",
-        "options": [
-          "Levator scapulae",
-          "Trapezius",
-          "Rhomboid major",
-          "Serratus posterior superior",
-          "Rectus capitis posterior major"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Levator scapulae"
-      },
-      {
-        "question": "A 27-year-old mountain climber falls from a steep rock wall and is brought to the emergency department. His physical examination and computed tomography (CT) scan reveal dislocation fracture of the upper thoracic vertebrae. The fractured body of the T4 vertebra articulates with which of the following parts of the ribs?",
-        "options": [
-          "Head of the fifth rib",
-          "Head of the third rib",
-          "Neck of the fourth rib",
-          "Tubercle of the fourth rib",
-          "Tubercle of the fifth rib"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Head of the fifth rib"
-      },
-      {
-        "question": "A young toddler presents to her pediatrician with rather new onset of bowel and bladder dysfunction and loss of the lower limb function. Her mother had not taken enough folic acid (to the point of a deficiency) during her pregnancy. On examination, the child has protrusion of the spinal cord and meninges and is diagnosed with which of the following conditions?",
-        "options": [
-          "Meningomyelocele",
-          "Spina bifida occulta",
-          "Meningocele",
-          "Myeloschisis",
-          "Syringomyelocele"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Meningomyelocele"
-      },
-      {
-        "question": "A 34-year-old woman crashes into a tree during a skiing lesson and is brought to a hospital with multiple injuries that impinge the dorsal primary rami of several spinal nerves. Such lesions could affect which of the following muscles?",
-        "options": [
-          "Iliocostalis",
-          "Rhomboid major",
-          "Levator scapulae",
-          "Serratus posterior superior",
-          "Latissimus dorsi"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Iliocostalis"
-      },
-      {
-        "question": "During a domestic dispute, a 16-year-old boy receives a deep stab wound around the superior angle of the scapula near the medial border, which injures both the dorsal scapular and spinal accessory nerves. Such an injury could result in paralysis or weakness of which of the following muscles?",
-        "options": [
-          "Rhomboid major and trapezius",
-          "Trapezius and serratus posterior superior",
-          "Rhomboid minor and latissimus dorsi",
-          "Splenius cervicis and sternocleidomastoid",
-          "Levator scapulae and erector spinae"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Rhomboid major and trapezius"
-      },
-      {
-        "question": "f luid (CSF) is withdrawn by lumbar puncture for further examination, which of the following structures is most likely penetrated by the needle?",
-        "options": [
-          "Ligamentum flavum",
-          "Pia mater",
-          "Filum terminale externum",
-          "Posterior longitudinal ligament",
-          "Annulus fibrosus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Ligamentum flavum"
-      },
-      {
-        "question": "A 27-year-old stuntman is thrown out of his vehicle prematurely when the car used for a particular scene speeds out of control. His spinal cord is crushed at the level of the fourth lumbar spinal segment. Which of the following structures would most likely be spared from destruction?",
-        "options": [
-          "Lateral horn",
-          "Dorsal horn",
-          "Ventral horn",
-          "Gray matter",
-          "Pia mater"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Lateral horn"
-      },
-      {
-        "question": "A patient presents with lower back pain radiating down the posterior aspect of the leg. This pain is MOST likely caused by compression of a nerve root at which level of the spine?",
-        "options": [
-          "Lumbar spine",
-          "Thoracic spine",
-          "Cervical spine",
-          "Sacral spine",
-          "Coccyx"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Lumbar spine"
-      },
-      {
-        "question": "A patient is diagnosed with a retroperitoneal hematoma after a car accident. Which of the following organs, located in the retroperitoneal space, is MOST likely the source of the bleeding?",
-        "options": [
-          "Kidney",
-          "Stomach",
-          "Small intestine",
-          "Liver",
-          "Gallbladder"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Kidney"
-      },
-      {
-        "question": "A patient undergoes an abdominal CT scan that reveals a mass in the retroperitoneal space anterior to the vertebral bodies and posterior to the peritoneum. Which structure is MOST likely involved?",
-        "options": [
-          "Abdominal aorta or inferior vena cava",
-          "Stomach",
-          "Spleen",
-          "Liver",
-          "Transverse colon"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Abdominal aorta or inferior vena cava"
-      },
-      {
-        "question": "A patient presents with flank pain and hematuria (blood in the urine). Which retroperitoneal organ is MOST likely affected?",
-        "options": [
-          "Kidney",
-          "Pancreas",
-          "Adrenal gland",
-          "Ureter",
-          "Ascending colon"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Kidney"
-      },
-      {
-        "question": "A patient has a tumor involving the psoas major muscle. This muscle is located:",
-        "options": [
-          "Retroperitoneally",
-          "Intraperitoneally",
-          "Within the pelvis only",
-          "Within the abdominal wall only",
-          "Within the thoracic cavity"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Retroperitoneally"
-      }
-    ],
-    "test": [
-      {
-        "question": "The retroperitoneal space is located:",
-        "options": [
-          "Posterior to the parietal peritoneum",
-          "Anterior to the parietal peritoneum",
-          "Within the peritoneal cavity",
-          "Superior to the diaphragm",
-          "Inferior to the pelvic floor"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Posterior to the parietal peritoneum"
-      },
-      {
-        "question": "Which of the following organs is primarily retroperitoneal?",
-        "options": [
-          "Kidneys",
-          "Stomach",
-          "Small intestine",
-          "Liver",
-          "Spleen"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Kidneys"
-      },
-      {
-        "question": "The ureters are located:",
-        "options": [
-          "Retroperitoneally",
-          "Intraperitoneally",
-          "Subcutaneously",
-          "Within the pelvis only",
-          "Within the thorax only"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Retroperitoneally"
-      },
-      {
-        "question": "The abdominal aorta is located:",
-        "options": [
-          "Retroperitoneally",
-          "Intraperitoneally",
-          "Within the lesser sac",
-          "Within the greater sac",
-          "Within the peritoneal cavity"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Retroperitoneally"
-      },
-      {
-        "question": "The inferior vena cava is located:",
-        "options": [
-          "Retroperitoneally",
-          "Intraperitoneally",
-          "Within the lesser sac",
-          "Within the greater sac",
-          "Within the peritoneal cavity"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Retroperitoneally"
-      },
-      {
-        "question": "The pancreas is primarily located:",
-        "options": [
-          "Retroperitoneally",
-          "Intraperitoneally",
-          "Within the lesser sac",
-          "Within the greater sac",
-          "Within the peritoneal cavity"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Retroperitoneally"
-      },
-      {
-        "question": "The adrenal glands are located:",
-        "options": [
-          "Retroperitoneally",
-          "Intraperitoneally",
-          "Within the lesser sac",
-          "Within the greater sac",
-          "Within the peritoneal cavity"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Retroperitoneally"
-      },
-      {
-        "question": "The lumbar spine consists of:",
-        "options": [
-          "5 vertebrae",
-          "7 vertebrae",
-          "12 vertebrae",
-          "4 vertebrae",
-          "3 vertebrae"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: 5 vertebrae"
-      },
-      {
-        "question": "The intervertebral discs are located between the:",
-        "options": [
-          "Vertebral bodies",
-          "Vertebral arches",
-          "Transverse processes",
-          "Spinous processes",
-          "Laminae"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Vertebral bodies"
-      },
-      {
-        "question": "The nucleus pulposus is located within the:",
-        "options": [
-          "Intervertebral disc",
-          "Vertebral body",
-          "Vertebral arch",
-          "Spinous process",
-          "Transverse process"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Intervertebral disc"
-      },
-      {
-        "question": "The annulus fibrosus is located:",
-        "options": [
-          "Surrounding the nucleus pulposus",
-          "Within the vertebral body",
-          "Within the vertebral arch",
-          "Within the spinal canal",
-          "Within the intervertebral foramen"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Surrounding the nucleus pulposus"
-      },
-      {
-        "question": "A herniated disc typically occurs:",
-        "options": [
-          "Posterolaterally",
-          "Anteriorly",
-          "Laterally",
-          "Medially",
-          "Superiorly"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Posterolaterally"
-      },
-      {
-        "question": "The spinal cord typically ends at the level of:",
-        "options": [
-          "L1-L2 vertebra",
-          "T12 vertebra",
-          "L3-L4 vertebra",
-          "S1 vertebra",
-          "Coccyx"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: L1-L2 vertebra"
-      },
-      {
-        "question": "The cauda equina is located within the:",
-        "options": [
-          "Lumbar spinal canal",
-          "Thoracic spinal canal",
-          "Cervical spinal canal",
-          "Sacral canal",
-          "Intervertebral foramen"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Lumbar spinal canal"
-      },
-      {
-        "question": "The lumbar plexus is formed by the ventral rami of:",
-        "options": [
-          "L1-L4 spinal nerves",
-          "T12-L3 spinal nerves",
-          "L5-S1 spinal nerves",
-          "S2-S4 spinal nerves",
-          "Coccygeal nerve"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: L1-L4 spinal nerves"
-      },
-      {
-        "question": "The psoas major muscle is located:",
-        "options": [
-          "Retroperitoneally",
-          "Intraperitoneally",
-          "Within the pelvic cavity",
-          "Within the thoracic cavity",
-          "Within the abdominal wall"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Retroperitoneally"
-      },
-      {
-        "question": "The quadratus lumborum muscle is located:",
-        "options": [
-          "Posterior abdominal wall, retroperitoneally",
-          "Anterior abdominal wall",
-          "Within the pelvic cavity",
-          "Within the thoracic cavity",
-          "Within the diaphragm"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Posterior abdominal wall, retroperitoneally"
-      },
-      {
-        "question": "The sympathetic trunk runs:",
-        "options": [
-          "Along the anterolateral aspect of the vertebral bodies",
-          "Along the posterior aspect of the vertebral bodies",
-          "Within the spinal canal",
-          "Within the intervertebral foramen",
-          "Within the psoas muscle"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Along the anterolateral aspect of the vertebral bodies"
-      },
-      {
-        "question": "The kidneys filter:",
-        "options": [
-          "Blood",
-          "Lymph",
-          "Bile",
-          "Urine only",
-          "Gastric contents"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Blood"
-      },
-      {
-        "question": "The renal arteries arise from the:",
-        "options": [
-          "Abdominal aorta",
-          "Celiac trunk",
-          "Superior mesenteric artery",
-          "Inferior mesenteric artery",
-          "Common iliac arteries"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Abdominal aorta"
-      }
-    ]
-  },
-  "t-s-2-2-15": {
-    "situational": [
-      {
-        "question": "A 68-year-old woman with uterine carcinoma undergoes surgical resection. This cancer can spread directly to the labia majora in lymphatics that follow which of the following structures?",
-        "options": [
-          "Round ligament of the uterus",
-          "Pubic arcuate ligament",
-          "Suspensory ligament of the ovary",
-          "Cardinal (transverse cervical) ligament",
-          "Suspensory ligament of the clitoris"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Round ligament of the uterus"
-      },
-      {
-        "question": "A 17-year-old boy suffers a traumatic groin injury during a soccer match. The urologist notices tenderness and swelling of the boy’s left testicle that may be produced by thrombosis in which of the following veins?",
-        "options": [
-          "Left renal vein",
-          "Left internal pudendal vein",
-          "Inferior vena cava",
-          "Left inferior epigastric vein",
-          "Left external pudendal vein"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Left renal vein"
-      },
-      {
-        "question": "On a busy Saturday night in Chicago, a 16-year-old boy presents to the emergency department with a stab wound from a knife that entered the pelvis above the piriformis muscle. Which of the following structures is most likely to be damaged?",
-        "options": [
-          "Superior gluteal nerve",
-          "Sciatic nerve",
-          "Internal pudendal artery",
-          "Inferior gluteal artery",
-          "Posterior femoral cutaneous nerve"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Superior gluteal nerve"
-      },
-      {
-        "question": "A 22-year-old woman receives a deep cut in the inguinal canal 1 in. lateral to the pubic tubercle. Which of the following ligaments is lacerated within the inguinal canal?",
-        "options": [
-          "Round ligament of the uterus",
-          "Suspensory ligament of the ovary",
-          "Ovarian ligament",
-          "Mesosalpinx",
-          "Rectouterine ligament"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Round ligament of the uterus"
-      },
-      {
-        "question": "A 29-year-old carpenter sustains severe injuries of the pelvic splanchnic nerve by a deep puncture wound, which has become contaminated. The injured parasympathetic preganglionic fibers in the splanchnic nerve are most likely to synapse in which of the following ganglia?",
-        "options": [
-          "Ganglia in or near the viscera or pelvic plexus",
-          "Sympathetic chain ganglia",
-          "Collateral ganglia",
-          "Dorsal root ganglia",
-          "Ganglion impar"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Ganglia in or near the viscera or pelvic plexus"
-      },
-      {
-        "question": "A 59-year-old woman comes to a local hospital for uterine cancer surgery. As the uterine artery passes from the internal iliac artery to the uterus, it crosses superior to which of the following structures that is sometimes mistakenly ligated during such surgery?",
-        "options": [
-          "Ureter",
-          "Ovarian artery",
-          "Ovarian ligament",
-          "Uterine tube",
-          "Round ligament of the uterus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Ureter"
-      },
-      {
-        "question": "A 29-year-old woman is admitted to a hospital because the birth of her child is several days overdue. Tearing of the pelvic diaphragm during childbirth leads to paralysis of which of the following muscles?",
-        "options": [
-          "Levator ani",
-          "Piriformis",
-          "Sphincter urethrae",
-          "Obturator internus",
-          "Sphincter ani externus"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Levator ani"
-      },
-      {
-        "question": "8. A 37-year-old small business manager receives a gunshot wound in the pelvic cavity, resulting in a lesion of the sacral splanchnic nerves. Which of the following nerve fibers would primarily be damaged?",
-        "options": [
-          "Preganglionic sympathetic fibers",
-          "Postganglionic parasympathetic fibers",
-          "Postganglionic sympathetic fibers",
-          "Preganglionic parasympathetic fibers",
-          "Postganglionic sympathetic and parasympathetic fibers"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Preganglionic sympathetic fibers"
-      },
-      {
-        "question": "A young couple is having difficulty conceiving a child. Their physician at a reproduction and fertility clinic explains to them that Fertilization occurs in the infundibulum or ampulla of the uterine tube The ovary lies within the broad ligament The glans clitoris is formed from the corpus spongiosum Erection of the penis is a sympathetic response Ejaculation follows parasympathetic stimulation A 46-year-old woman has a history of infection in her perineal region. A comprehensive examination reveals a tear of the superior boundary of the superficial perineal space. Which of the following structures would most likely be injured?",
-        "options": [
-          "Perineal membrane",
-          "Pelvic diaphragm",
-          "Colles fascia",
-          "Superficial perineal fascia",
-          "Deep perineal fascia"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Perineal membrane"
-      },
-      {
-        "question": "11. A 58-year-old man is diagnosed as having a slowly growing tumor in the deep perineal space. Which of the following structures would most likely be injured?",
-        "options": [
-          "Bulbourethral glands",
-          "Crus of penis",
-          "Bulb of vestibule",
-          "Spongy urethra",
-          "Great vestibular gland"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Bulbourethral glands"
-      },
-      {
-        "question": "12. An elderly man with a benign enlargement of his prostate experiences difficulty in urination, urinary frequency, and urgency. Which of the following lobes of the prostate gland is commonly involved in benign hypertrophy that obstructs the prostatic urethra?",
-        "options": [
-          "Middle lobe",
-          "Anterior lobe",
-          "Right lateral lobe",
-          "Left lateral lobe",
-          "Posterior lobe"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Middle lobe"
-      },
-      {
-        "question": "A male patient presents with difficulty initiating urination and a weak urinary stream. Digital rectal examination reveals an enlarged prostate gland. The prostate gland is located:",
-        "options": [
-          "Inferior to the urinary bladder",
-          "Superior to the urinary bladder",
-          "Anterior to the rectum",
-          "Posterior to the rectum",
-          "Lateral to the rectum"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Inferior to the urinary bladder"
-      },
-      {
-        "question": "A female patient presents with pelvic pain and a feeling of pressure in the pelvis. On examination, a prolapse of the pelvic organs is noted. Which structure is MOST likely involved in a rectocele?",
-        "options": [
-          "Rectum",
-          "Urinary bladder",
-          "Uterus",
-          "Urethra",
-          "Vagina"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Rectum"
-      },
-      {
-        "question": "A patient is diagnosed with bladder cancer. The tumor is located in the trigone of the bladder. This area is defined by the openings of:",
-        "options": [
-          "The two ureters and the urethra",
-          "The ureters and the rectum",
-          "The urethra and the rectum",
-          "The ureters and the uterine tubes (in females)",
-          "The urethra and the uterine tubes (in females)"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: The two ureters and the urethra"
-      },
-      {
-        "question": "A patient undergoes a pelvic fracture that damages the pelvic floor muscles. Which muscle is MOST important for supporting the pelvic organs and preventing prolapse?",
-        "options": [
-          "Levator ani",
-          "Piriformis",
-          "Obturator internus",
-          "Coccygeus",
-          "Iliopsoas"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Levator ani"
-      },
-      {
-        "question": "A patient experiences fecal incontinence after a difficult childbirth. Which muscle, part of the levator ani, is MOST likely damaged?",
-        "options": [
-          "Puborectalis",
-          "Pubococcygeus",
-          "Iliococcygeus",
-          "Coccygeus",
-          "Piriformis"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Correct answer: Puborectalis"
-      }
-    ],
-    "test": [
-      {
-        "question": "The pelvic inlet is formed by:",
-        "options": [
-          "SACRAL promontory, arcuate lines, pectineal lines, pubic crest",
-          "Sacral promontory, ischial spines, pubic symphysis",
-          "Ischial tuberosities, pubic arch, coccyx",
-          "Iliac crests, sacrum, pubic symphysis",
-          "Acetabula, ischial spines, sacrum"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: SACRAL promontory, arcuate lines, pectineal lines, pubic crest"
-      },
-      {
-        "question": "The pelvic outlet is bounded by:",
-        "options": [
-          "Pubic symphysis, ischiopubic rami, ischial tuberosities, sacrotuberous ligaments, coccyx",
-          "Sacral promontory, arcuate lines, pectineal lines, pubic crest",
-          "Ischial spines, pubic symphysis, coccyx",
-          "Iliac crests, sacrum, pubic symphysis",
-          "Acetabula, ischial spines, sacrum"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Pubic symphysis, ischiopubic rami, ischial tuberosities, sacrotuberous ligaments, coccyx"
-      },
-      {
-        "question": "The true pelvis (lesser pelvis) is located:",
-        "options": [
-          "Inferior to the pelvic inlet",
-          "Superior to the pelvic inlet",
-          "Anterior to the pelvic inlet",
-          "Posterior to the pelvic inlet",
-          "Lateral to the pelvic inlet"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Inferior to the pelvic inlet"
-      },
-      {
-        "question": "The false pelvis (greater pelvis) is located:",
-        "options": [
-          "Superior to the pelvic inlet",
-          "Inferior to the pelvic inlet",
-          "Anterior to the pelvic inlet",
-          "Posterior to the pelvic inlet",
-          "Medial to the pelvic inlet"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Superior to the pelvic inlet"
-      },
-      {
-        "question": "The pelvic floor is mainly formed by the:",
-        "options": [
-          "Levator ani and coccygeus muscles",
-          "Piriformis and obturator internus muscles",
-          "Rectus abdominis and external oblique muscles",
-          "Psoas major and iliacus muscles",
-          "Gluteus maximus and medius muscles"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Levator ani and coccygeus muscles"
-      },
-      {
-        "question": "The levator ani muscle is composed of:",
-        "options": [
-          "Pubococcygeus, iliococcygeus, puborectalis",
-          "Piriformis, obturator internus, coccygeus",
-          "Rectus abdominis, external oblique, internal oblique",
-          "Psoas major, iliacus, quadratus lumborum",
-          "Gluteus maximus, medius, minimus"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Pubococcygeus, iliococcygeus, puborectalis"
-      },
-      {
-        "question": "The rectum is located:",
-        "options": [
-          "Posterior to the bladder and reproductive organs",
-          "Anterior to the bladder and reproductive organs",
-          "Lateral to the bladder",
-          "Superior to the bladder",
-          "Inferior to the bladder"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Posterior to the bladder and reproductive organs"
-      },
-      {
-        "question": "The rectum receives its blood supply from the:",
-        "options": [
-          "Superior, middle, and inferior rectal arteries",
-          "Inferior mesenteric artery only",
-          "Internal iliac arteries only",
-          "External iliac arteries only",
-          "Common iliac arteries only"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Superior, middle, and inferior rectal arteries"
-      },
-      {
-        "question": "The venous drainage of the rectum occurs via the:",
-        "options": [
-          "Superior, middle, and inferior rectal veins",
-          "Inferior mesenteric vein only",
-          "Internal iliac veins only",
-          "External iliac veins only",
-          "Common iliac veins only"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Superior, middle, and inferior rectal veins"
-      },
-      {
-        "question": "The urinary bladder is located:",
-        "options": [
-          "Anterior in the pelvic cavity",
-          "Posterior in the pelvic cavity",
-          "Lateral in the pelvic cavity",
-          "Superior to the pelvic inlet",
-          "Inferior to the pelvic outlet"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Anterior in the pelvic cavity"
-      },
-      {
-        "question": "The detrusor muscle is located in the wall of the:",
-        "options": [
-          "Urinary bladder",
-          "Ureter",
-          "Urethra",
-          "Rectum",
-          "Uterus"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Urinary bladder"
-      },
-      {
-        "question": "The internal urethral sphincter is made of:",
-        "options": [
-          "Smooth muscle",
-          "Skeletal muscle",
-          "Connective tissue",
-          "Epithelial tissue",
-          "Nervous tissue"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Smooth muscle"
-      },
-      {
-        "question": "The external urethral sphincter is made of:",
-        "options": [
-          "Skeletal muscle",
-          "Smooth muscle",
-          "Connective tissue",
-          "Epithelial tissue",
-          "Nervous tissue"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Skeletal muscle"
-      },
-      {
-        "question": "The trigone of the bladder is defined by the openings of:",
-        "options": [
-          "The two ureters and the urethra",
-          "The urethra and the rectum",
-          "The ureters and the rectum",
-          "The urethra and the uterine tubes (females)",
-          "The uterine tubes and the ovaries (females)"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: The two ureters and the urethra"
-      },
-      {
-        "question": "The ureters transport urine from the:",
-        "options": [
-          "Kidneys to the bladder",
-          "Bladder to the urethra",
-          "Kidneys to the urethra",
-          "Liver to the bladder",
-          "Bladder to the kidneys"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Kidneys to the bladder"
-      },
-      {
-        "question": "The pelvic fascia is continuous with the:",
-        "options": [
-          "Transversalis fascia",
-          "Thoracolumbar fascia",
-          "Deep fascia of the thigh",
-          "Superficial fascia of the abdomen",
-          "All of the above"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Transversalis fascia"
-      },
-      {
-        "question": "The obturator internus muscle originates from the:",
-        "options": [
-          "Inner surface of the obturator membrane and surrounding bone",
-          "Outer surface of the obturator membrane and surrounding bone",
-          "Iliac crest",
-          "Sacrum",
-          "Pubis"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Inner surface of the obturator membrane and surrounding bone"
-      },
-      {
-        "question": "The piriformis muscle originates from the:",
-        "options": [
-          "Anterior surface of the sacrum",
-          "Posterior surface of the sacrum",
-          "Iliac crest",
-          "Pubis",
-          "Ischium"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Anterior surface of the sacrum"
-      },
-      {
-        "question": "The pudendal nerve provides innervation to the:",
-        "options": [
-          "Perineum, external genitalia, and pelvic floor muscles",
-          "Abdominal muscles",
-          "Thigh muscles",
-          "Gluteal muscles",
-          "Lower limb muscles"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Perineum, external genitalia, and pelvic floor muscles"
-      },
-      {
-        "question": "The pelvic splanchnic nerves carry:",
-        "options": [
-          "Parasympathetic fibers",
-          "Sympathetic fibers",
-          "Sensory fibers",
-          "Motor fibers to the lower limb",
-          "Motor fibers to the abdominal wall"
-        ],
-        "correctIndex": 0,
-        "explanation": "Correct answer: Parasympathetic fibers"
-      }
-    ]
+    "t-s-2-2-1": {
+      "situational": [
+        {
+          "question": "A surgeon needs to grasp and hold delicate tissue during a laparoscopic procedure. Which instrument is MOST appropriate?",
+          "options": [
+            "Grasping forceps",
+            "Scalpel",
+            "Hemostat",
+            "Mayo scissors",
+            "Retractor"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Grasping forceps"
+        },
+        {
+          "question": "During an open appendectomy, the surgeon needs to control bleeding from small blood vessels. Which instrument is BEST suited for this purpose?",
+          "options": [
+            "Hemostat",
+            "Scalpel",
+            "Scissors",
+            "Forceps",
+            "Retractor"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Hemostat"
+        },
+        {
+          "question": "A patient is scheduled for a cholecystectomy ,This procedure involves:",
+          "options": [
+            "Removal of the gallbladder",
+            "Removal of the appendix",
+            "Removal of the spleen",
+            "Removal of the liver",
+            "Removal of the pancreas"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Removal of the gallbladder"
+        },
+        {
+          "question": "A surgeon is performing a laparotomy (abdominal exploration) and needs to create an incision through the skin and subcutaneous tissue. Which instrument is used to make the initial skin incision?",
+          "options": [
+            "Scalpel",
+            "Scissors",
+            "Forceps",
+            "Hemostat",
+            "Retractor"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Scalpel"
+        },
+        {
+          "question": "During a surgical procedure, the term \"anastomosis\" refers to:",
+          "options": [
+            "Surgical connection between two structures (e.g., blood vessels or bowel segments)",
+            "Removal of a structure",
+            "Repair of a structure",
+            "Cutting of a structure",
+            "Examination of a structure"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Surgical connection between two structures (e.g., blood vessels or bowel segments)"
+        },
+        {
+          "question": "What is the correct way to hold a scalpel? (Select all that apply)",
+          "options": [
+            "The pencil grip , the overhand/fingertip grip",
+            "Left hand",
+            "Wright hand",
+            "The scalpel grip",
+            "There is no incorrect way"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: The pencil grip , the overhand/fingertip grip"
+        },
+        {
+          "question": "In what hand should you hold your scalpel?",
+          "options": [
+            "The dominant hand",
+            "The in-dominant hand",
+            "Always the right hand",
+            "Always the left hand",
+            "Both hands"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: The dominant hand"
+        },
+        {
+          "question": "When and for how lang must you apply hand disinfectant?",
+          "options": [
+            "Two minutes before every surgery",
+            "Five minutes before every surgery",
+            "Two minutes before your first surgery only",
+            "Five minutes before your first surgery only",
+            "Ten minutes before every surgery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Two minutes before every surgery"
+        },
+        {
+          "question": "What should you ALWAYS wear entering the operation room? (Select all that apply)",
+          "options": [
+            "Scrub cap",
+            "Sterile gloves",
+            "Sterile scrubs",
+            "Surgical mask",
+            "Sterile apron"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Scrub cap"
+        },
+        {
+          "question": "What forceps is used to hold sensitive tissue like nerves?",
+          "options": [
+            "The anatomical forceps",
+            "The tissue forceps",
+            "The adson forceps",
+            "The langenbeck forceps",
+            "The surgical forceps"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: The anatomical forceps"
+        },
+        {
+          "question": "What is a pean used to?",
+          "options": [
+            "To clamp blood vessels for haemostasis",
+            "To retract soft tissue exposing the surgical site",
+            "To provide a solide grip on tissue",
+            "To cut sutures?",
+            "Incision of the organ"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: To clamp blood vessels for haemostasis"
+        },
+        {
+          "question": "What does amputation means?",
+          "options": [
+            "Removal of  the limbs",
+            "Incision of the limbs",
+            "Excision pathological process",
+            "Incision of the abdominal wall",
+            "Stitching of the tissue"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Removal of  the limbs"
+        },
+        {
+          "question": "What does mean rraphy?",
+          "options": [
+            "Stitching of the organs wall",
+            "Removal part of the organs",
+            "Excision pathological process",
+            "Incision of the limbs",
+            "Fixation of the tissue"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Stitching of the organs wall"
+        },
+        {
+          "question": "What does mean laparotomy?",
+          "options": [
+            "Incision of the abdominal wall",
+            "Removal tissue",
+            "Stitching abdominal wall",
+            "Excision organ",
+            "Viewing organ with instruments"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Incision of the abdominal wall"
+        },
+        {
+          "question": "What does mean cholecystectomy?",
+          "options": [
+            "Removal of the gall bladder",
+            "Removal intestine",
+            "Removal liver",
+            "Removal uterus",
+            "Removal kidney"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Removal of the gall bladder"
+        }
+      ],
+      "test": [
+        {
+          "question": "A surgery is performed within 10 hours of the patient arrival is?",
+          "options": [
+            "Emergency",
+            "Endoscopic",
+            "Laproscopic",
+            "Elective",
+            "Urgency"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Emergency"
+        },
+        {
+          "question": "A surgery is performed within minutes of the patient arrival is?",
+          "options": [
+            "Urgency",
+            "Laproscopic",
+            "Elective",
+            "Emergency",
+            "Endoscopic"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Urgency"
+        },
+        {
+          "question": "A surgery is performed within no exact time frame is?",
+          "options": [
+            "Elective",
+            "Emergency",
+            "Endoscopic",
+            "Urgency",
+            "Laproscopic"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Elective"
+        },
+        {
+          "question": "A Surgical Cut or incision is made in an Organ is called?",
+          "options": [
+            "Otomy",
+            "Ostomy",
+            "Incision",
+            "Ectomy",
+            "Plasty"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Otomy"
+        },
+        {
+          "question": "A surgical procedure is perfomed to remove gall bladder called?",
+          "options": [
+            "Cholecystectomy",
+            "Laparotomy",
+            "Mastectomy",
+            "Nephrectomy",
+            "Hysterectomy"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Cholecystectomy"
+        },
+        {
+          "question": "A surgical Removal Of part of an organ or whole organ?",
+          "options": [
+            "Ectomy",
+            "Incision",
+            "Otomy",
+            "Ostomy",
+            "Plasty"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Ectomy"
+        },
+        {
+          "question": "How many types of consents are used in medical practice?",
+          "options": [
+            "4",
+            "1",
+            "6",
+            "3",
+            "5"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: 4"
+        },
+        {
+          "question": "How to hold a scalpel for long and firm incision?",
+          "options": [
+            "Palm grip",
+            "Knife grip",
+            "Opposite hand grip",
+            "Pencil grip",
+            "Fingertip grip"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Palm grip"
+        },
+        {
+          "question": "Non Absorbable suture among the following is ?",
+          "options": [
+            "Proline",
+            "Monofilament",
+            "Monocryl",
+            "Polyglactic",
+            "Polydiaxanone"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Proline"
+        },
+        {
+          "question": "Silk is associated with infection because",
+          "options": [
+            "It has services lodging bacteria",
+            "Causes irritation",
+            "Cannot be properly sterilized",
+            "Infection goes deeper during bite",
+            "It is non-absorbable"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: It has services lodging bacteria"
+        },
+        {
+          "question": "Surgery performed to enhance the appearance of a person is?",
+          "options": [
+            "Cosmetic",
+            "Ablative",
+            "Incisional",
+            "Diagnostic",
+            "Palliative"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Cosmetic"
+        },
+        {
+          "question": "Surgical removal of limb at the level of the joint?",
+          "options": [
+            "Disarticulation",
+            "Excision",
+            "Trepanation",
+            "Amputation",
+            "Baseline"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Disarticulation"
+        },
+        {
+          "question": "Surgical removal of limb?",
+          "options": [
+            "Amputation",
+            "Excision",
+            "Trepanation",
+            "Baseline",
+            "Disarticulation"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Amputation"
+        },
+        {
+          "question": "The area where surgical incision is performed is?",
+          "options": ["Sterile field", "Antiseptics", "Clean procedure", "Contaminated area", "Surgical asepsis"],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Sterile field"
+        },
+        {
+          "question": "The period used during operation is ?",
+          "options": [
+            "Intraoperative",
+            "Peri operative",
+            "Pre operative",
+            "Post operative",
+            "Operative period"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Intraoperative"
+        },
+        {
+          "question": "the Surgery used in abdomen to find the diagnosis is?",
+          "options": [
+            "Exploratory laparotomy",
+            "Raphy",
+            "Laprscopy surgery",
+            "Laparotomy",
+            "Plasty"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Exploratory laparotomy"
+        },
+        {
+          "question": "What is the function of retractors?",
+          "options": [
+            "To expose the internal organs for better reach",
+            "To make an incision",
+            "To dissect organs",
+            "To cut organs",
+            "To clamp"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: To expose the internal organs for better reach"
+        },
+        {
+          "question": "What is the most initial step after completing a surgery?",
+          "options": [
+            "ICU care",
+            "OT care",
+            "OPD care",
+            "Ward care",
+            "Home care"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: ICU care"
+        },
+        {
+          "question": "What is the opening called used for feeding and draining?",
+          "options": [
+            "Stoma",
+            "Lapa",
+            "Anastomosis",
+            "Baseline",
+            "Plasty"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Stoma"
+        },
+        {
+          "question": "Which of the following is an absorbable suture material ?",
+          "options": [
+            "Polydioxanone",
+            "Polypropylene",
+            "Silk",
+            "Monofilament",
+            "Polyamide"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Polydioxanone"
+        }
+      ]
+    },
+    "t-s-2-2-2": {
+      "situational": [
+        {
+          "question": "A patient with Bennett fracture (a fracture of the base of the first metacarpal bone) experiences an impaired thumb movement. Which of the following intrinsic muscles of the thumb is most likely injured?",
+          "options": [
+            "Opponens pollicis",
+            "Abductor pollicis brevis",
+            "Flexor pollicis brevis (superficial head)",
+            "Adductor pollicis",
+            "Flexor pollicis brevis (deep head)"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Opponens pollicis"
+        },
+        {
+          "question": "A 27-year-old pianist with a known carpal tunnel syndrome experiences difficulty in finger movements. Which of the following intrinsic muscles of her hand is paralyzed?",
+          "options": [
+            "Lateral two lumbricals and opponens",
+            "Palmar interossei and adductor pollicis",
+            "Dorsal interossei",
+            "Abductor pollicis brevis and palmar interossei",
+            "Medial two and lateral two lumbricals"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Lateral two lumbricals and opponens"
+        },
+        {
+          "question": "A 31-year-old roofer walks in with tenosynovitis resulting from a deep penetrated wound in the palm by a big nail. Examination indicates that he has an infection in the ulnar bursa. This infection most likely resulted in necrosis of which of the following tendons?",
+          "options": [
+            "Tendon of the flexor digitorum profundus",
+            "Tendon of the flexor carpi ulnaris",
+            "Tendon of the flexor pollicis longus",
+            "Tendon of the flexor carpi radialis",
+            "Tendon of the palmaris longus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Tendon of the flexor digitorum profundus"
+        },
+        {
+          "question": "An 18-year-old boy involved in an automobile accident presents with an arm that cannot abduct. His paralysis is caused by damage to which of the following nerves?",
+          "options": [
+            "Suprascapular and axillary",
+            "Thoracodorsal and upper subscapular",
+            "Axillary and musculocutaneous",
+            "Radial and lower subscapular",
+            "Suprascapular and dorsal scapular"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Suprascapular and axillary"
+        },
+        {
+          "question": "A 17-year-old boy with a stab wound received multiple injuries on the upper part of the arm and required surgery. If the brachial artery were ligated at its origin, which of the following arteries would supply blood to the profunda brachii artery?",
+          "options": [
+            "Posterior humeral circumflex",
+            "Lateral thoracic",
+            "Subscapular",
+            "Superior ulnar collateral",
+            "Radial recurrent"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Posterior humeral circumflex"
+        },
+        {
+          "question": "A man is unable to hold typing paper between his index and middle fingers. Which of the following nerves was likely injured?",
+          "options": [
+            "Ulnar nerve",
+            "Radial nerve",
+            "Median nerve",
+            "Musculocutaneous nerve",
+            "Axillary nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Ulnar nerve"
+        },
+        {
+          "question": "The victim of an automobile accident has a destructive injury of the proximal row of carpal bones. Which of the following bones is most likely damaged?",
+          "options": [
+            "Triquetrum",
+            "Capitate",
+            "Hamate",
+            "Trapezium",
+            "Trapezoid"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Triquetrum"
+        },
+        {
+          "question": "A patient has a torn rotator cuff of the shoulder joint as the result of an automobile accident. Which of the following muscle tendons is intact and has normal function?",
+          "options": [
+            "Teres major",
+            "Supraspinatus",
+            "Subscapularis",
+            "Teres minor",
+            "Infraspinatus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Teres major"
+        },
+        {
+          "question": "A patient complains of having pain with repeated movements of his thumb (claudication). His physician performs the Allen test and finds an insufficiency of the radial artery. Which of the following conditions would be a result of the radial artery stenosis?",
+          "options": [
+            "A marked decrease in the blood flow in the princeps pollicis artery",
+            "A marked decrease in the blood flow in the superficial palmar arterial arch",
+            "Decreased pulsation in the artery passing superficial to the flexor retinaculum",
+            "Ischemia of the entire extensor muscles of the forearm",
+            "A low blood pressure in the anterior interosseous artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: A marked decrease in the blood flow in the princeps pollicis artery"
+        },
+        {
+          "question": "A patient bleeding from the shoulder secondary to a knife wound is in fair condition because there is vascular anastomosis around the shoulder. Which of the following arteries is most likely a direct branch of the subclavian artery that is involved in the anastomosis?",
+          "options": [
+            "Dorsal scapular artery",
+            "Thoracoacromial artery",
+            "Circumflex scapular artery",
+            "Transverse cervical artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Dorsal scapular artery"
+        },
+        {
+          "question": "A 20-year-old man fell from the parallel bar during the Olympic trial. A neurologic examination reveals that he has a lesion of the lateral cord of the brachial plexus. Which of the following muscles is most likely weakened by this injury?",
+          "options": [
+            "Pectoralis major",
+            "Subscapularis",
+            "Teres major",
+            "Latissimus dorsi",
+            "Teres minor"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Pectoralis major"
+        },
+        {
+          "question": "A 24-year-old carpenter suffers a crush injury of his little finger. Which of the following muscles is most likely to be spared?",
+          "options": [
+            "Dorsal interossei",
+            "Flexor digitorum profundus",
+            "Extensor digitorum",
+            "Palmar interossei",
+            "Lumbricals"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Dorsal interossei"
+        },
+        {
+          "question": "A patient presents with a stab wound to the anterior forearm, resulting in loss of wrist flexion and weakness in pronation. Which nerve is MOST likely injured?",
+          "options": [
+            "Median nerve",
+            "Radial nerve",
+            "Ulnar nerve",
+            "Musculocutaneous nerve",
+            "Axillary nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Median nerve"
+        },
+        {
+          "question": "A patient falls on an outstretched hand, resulting in a fracture of the distal radius with dorsal displacement. This is commonly known as a:",
+          "options": [
+            "Colles' fracture",
+            "Smith's fracture",
+            "Scaphoid fracture",
+            "Hamate fracture",
+            "Monteggia fracture"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Colles' fracture"
+        },
+        {
+          "question": "A surgeon is performing a carpal tunnel release. The primary goal of this procedure is to decompress the:",
+          "options": [
+            "Median nerve",
+            "Radial nerve",
+            "Ulnar nerve",
+            "Flexor carpi radialis tendon",
+            "Palmaris longus tendon"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Median nerve"
+        },
+        {
+          "question": "A patient sustains a deep laceration to the medial aspect of the forearm, just proximal to the wrist. Which artery is MOST at risk of injury?",
+          "options": [
+            "Ulnar artery",
+            "Radial artery",
+            "Anterior interosseous artery",
+            "Posterior interosseous artery",
+            "Brachial artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Ulnar artery"
+        },
+        {
+          "question": "A patient presents with difficulty extending the fingers at the metacarpophalangeal joints and wrist drop. Which nerve is likely affected, often due to injury in the radial groove of the humerus or during procedures on the forearm?",
+          "options": [
+            "Radial nerve",
+            "Median nerve",
+            "Ulnar nerve",
+            "Musculocutaneous nerve",
+            "Axillary nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Radial nerve"
+        }
+      ],
+      "test": [
+        {
+          "question": "The suprascapular nerve supplies:",
+          "options": [
+            "Muscle inserted into the upper impression of the greater tuberosity of the humerus.",
+            "Muscle inserted into the middle impression of the greater tuberosity of the humerus.",
+            "Muscle that initiates abduction of the arm.",
+            "All of the above.",
+            "a and b only."
+          ],
+          "correctIndex": 3,
+          "explanation": "Correct answer: All of the above."
+        },
+        {
+          "question": "Lesion of the axillary nerve causes:",
+          "options": [
+            "Winging of the scapula.",
+            "Flat shoulder.",
+            "Claw hand.",
+            "Ape hand.",
+            "Wrist drop."
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: Flat shoulder."
+        },
+        {
+          "question": "Muscles that rotate the scapula downward are attached to:",
+          "options": [
+            "Ventral lip of the medial border of the scapula.",
+            "Dorsal lip of the medial border of the scapula.",
+            "Upper lip of the crest of the spine.",
+            "Lower lip of the crest of the spine.",
+            "a and c."
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: Dorsal lip of the medial border of the scapula."
+        },
+        {
+          "question": "Muscles that rotate the scapula upward are attached to the:",
+          "options": [
+            "Ventral lip of the medial border of the scapula.",
+            "Dorsal lip of the medial border of the scapula.",
+            "Upper lip of the crest of the spine.",
+            "Lower lip of the crest of the spine.",
+            "a and c."
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: a and c."
+        },
+        {
+          "question": "All the muscles attached to the bicipital (intertubercular) groove:",
+          "options": [
+            "Abduct the arm (shoulder joint).",
+            "Adduct the arm.",
+            "Medial rotation of the arm.",
+            "a and c.",
+            "b and c."
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: b and c."
+        },
+        {
+          "question": "Anastomosis around the scapula connects the subclavian artery with the:",
+          "options": [
+            "First part of the axillary artery.",
+            "Second part of the axillary artery.",
+            "Third part of the axillary artery.",
+            "Brachial artery.",
+            "None of the above."
+          ],
+          "correctIndex": 2,
+          "explanation": "Correct answer: Third part of the axillary artery."
+        },
+        {
+          "question": "Actions of the latissimus dorsi:",
+          "options": [
+            "Flexes the arm.",
+            "Abducts the arm.",
+            "Laterally rotates the arm.",
+            "All of the above.",
+            "None of the above."
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: None of the above."
+        },
+        {
+          "question": "Triangle of auscultation is associated with all of the following EXCEPT:",
+          "options": [
+            "Latissimus dorsi.",
+            "Teres major.",
+            "Rhomboid major.",
+            "Trapezius.",
+            "Medial border of the scapula."
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: Teres major."
+        },
+        {
+          "question": "The quadrangular space is bounded by all of the following EXCEPT:",
+          "options": [
+            "Teres minor.",
+            "Teres major.",
+            "Long head of biceps.",
+            "Long head of triceps.",
+            "Surgical neck of the humerus."
+          ],
+          "correctIndex": 2,
+          "explanation": "Correct answer: Long head of biceps."
+        },
+        {
+          "question": "Regarding the biceps brachii, one is INCORRECT:",
+          "options": [
+            "Has long head attached to the supraglenoid tubercle.",
+            "Has short head attached to the tip of the coracoid process.",
+            "Has a tendon inserted into the radial tuberosity.",
+            "It flexes the elbow joint.",
+            "It is powerful supinator of the extended elbow."
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: It is powerful supinator of the extended elbow."
+        },
+        {
+          "question": "The direction of the nutrient foramen of the humerus is:",
+          "options": [
+            "Upward.",
+            "Downward.",
+            "Medially.",
+            "Laterally.",
+            "None of the above."
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: Downward."
+        },
+        {
+          "question": "The bicipital aponeurosis passes obliquely deep to the:",
+          "options": [
+            "Brachial artery.",
+            "Median cubital vein.",
+            "Median nerve.",
+            "Radial nerve.",
+            "None of the above."
+          ],
+          "correctIndex": 1,
+          "explanation": "The bicipital aponeurosis passes superficial to the brachial artery and median nerve, but deep to the median cubital vein."
+        },
+        {
+          "question": "In movements of the arm, the coracobrachialis assists in:",
+          "options": [
+            "Flexion.",
+            "Extension.",
+            "Abduction.",
+            "Rotation.",
+            "Supination."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Flexion."
+        },
+        {
+          "question": "The brachial artery:",
+          "options": [
+            "Bifurcates opposite the neck of the humerus.",
+            "Is deep throughout its entire course.",
+            "In the cubital fossa, it lies medial to the biceps tendon.",
+            "The median nerve crosses in front of the artery from the medial to the lateral side.",
+            "None of the above."
+          ],
+          "correctIndex": 2,
+          "explanation": "Correct answer: In the cubital fossa, it lies medial to the biceps tendon."
+        },
+        {
+          "question": "The cubital fossa is bounded by the:",
+          "options": [
+            "Pronator quadratus.",
+            "Brachioradialis.",
+            "Coracobrachialis.",
+            "Biceps tendon.",
+            "a and b only."
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: Brachioradialis."
+        },
+        {
+          "question": "The lateral cutaneous nerve of the forearm is derived from the:",
+          "options": [
+            "C5.",
+            "C6.",
+            "C7.",
+            "C5, 6, 7",
+            "C6, 7, 8"
+          ],
+          "correctIndex": 3,
+          "explanation": "Correct answer: C5, 6, 7"
+        },
+        {
+          "question": "The anterior compartment of the arm contains all of the following EXCEPT:",
+          "options": [
+            "Biceps.",
+            "Triceps.",
+            "Brachialis.",
+            "Coracobrachialis.",
+            "Brachial artery."
+          ],
+          "correctIndex": 1,
+          "explanation": "The anterior compartment contains the Biceps, Brachialis, and Coracobrachialis. The Triceps is in the posterior compartment."
+        },
+        {
+          "question": "Muscles innervated by the musculocutaneous nerve:",
+          "options": [
+            "Brachialis.",
+            "Coracobrachialis.",
+            "Biceps.",
+            "All of the above.",
+            "Triceps."
+          ],
+          "correctIndex": 3,
+          "explanation": "Correct answer: All of the above."
+        },
+        {
+          "question": "The cubital fossa contains all of the following EXCEPT:",
+          "options": [
+            "Brachial artery.",
+            "Radial artery.",
+            "Radial nerve.",
+            "Ulnar nerve.",
+            "Median nerve."
+          ],
+          "correctIndex": 3,
+          "explanation": "Correct answer: Ulnar nerve."
+        },
+        {
+          "question": "The constriction below the greater and lesser tuberosities of the humerus is called:",
+          "options": [
+            "Anatomical neck.",
+            "Surgical neck.",
+            "Humeral shaft.",
+            "Humeral ring.",
+            "None of the above."
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: Surgical neck."
+        }
+      ]
+    },
+    "t-s-2-2-3": {
+      "situational": [
+        {
+          "question": "A 21-year-old patient has a lesion of the upper trunk of the brachial plexus (Erb–Duchenne paralysis). Which of the following is the most likely diagnosis?",
+          "options": [
+            "Arm tending to lie in medial rotation",
+            "Paralysis of the rhomboid major",
+            "Inability to elevate the arm above the horizontal",
+            "Loss of sensation on the medial side of the arm",
+            "Inability to adduct the thumb"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Arm tending to lie in medial rotation"
+        },
+        {
+          "question": "A patient comes in with a gunshot wound and requires surgery in which his thoracoacromial trunk needs to be ligated. Which of the following arterial branches would maintain normal blood flow?",
+          "options": [
+            "Superior thoracic",
+            "Acromia",
+            "Pectoral",
+            "Clavicular",
+            "Deltoid"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Superior thoracic"
+        },
+        {
+          "question": "A 29-year-old man comes in with a stab wound, cannot raise his arm above horizontal, and exhibits a condition known as “winged scapula.” Which of the following structures of the brachial plexus would most likely be damaged?",
+          "options": [
+            "Roots",
+            "Medial cord",
+            "Posterior cord",
+            "Lower trunk",
+            "Upper trunk"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Roots"
+        },
+        {
+          "question": "A 16-year-old patient has weakness flexing the metacarpophalangeal joint of the ring finger and is unable to adduct the same finger. Which of the following muscles is most likely paralyzed?",
+          "options": [
+            "Palmar interosseous",
+            "Flexor digitorum profundus",
+            "Extensor digitorum",
+            "Lumbrical",
+            "Dorsal interosseous"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Palmar interosseous"
+        },
+        {
+          "question": "A 27-year-old patient presents with an inability to draw the scapula forward and downward because of paralysis of the pectoralis minor. Which of the following would most likely be a cause of his condition?",
+          "options": ["Fracture of the coracoid process", "Fracture of the clavicle", "Injury to the posterior cord of the brachial plexus", "Fracture of the scapular spine", "Axillary nerve injury"],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Fracture of the coracoid process"
+        },
+        {
+          "question": "A 22-year-old patient received a stab wound in the chest that injured the intercostobrachial nerve. Which of the following conditions results from the described lesion of the nerve?",
+          "options": [
+            "Loss of sensory fibers from the second intercostal nerve Inability to move the ribs",
+            "Loss of tactile sensation on the lateral aspect of the arm",
+            "Absence of sweating on the posterior aspect of the arm",
+            "Loss of sensory fibers from the second intercostal nerve",
+            "Damage to the sympathetic preganglionic fibers"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Loss of sensory fibers from the second intercostal nerve Inability to move the ribs"
+        },
+        {
+          "question": "A 16-year-old boy fell from a motorcycle, and his radial nerve was severely damaged because of a fracture of the midshaft of the humerus. Which of the following conditions would most likely result from this accident?",
+          "options": [
+            "Loss of wrist extension leading to wrist drop",
+            "Weakness in pronating the forearm",
+            "Sensory loss over the ventral aspect of the base of the thumb",
+            "Inability to oppose the thumb",
+            "Inability to abduct the fingers"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Loss of wrist extension leading to wrist drop"
+        },
+        {
+          "question": "A patient comes in complaining that she cannot flex her proximal interphalangeal joints. Which of the following muscles appear(s) to be paralyzed on further examination of her finger?",
+          "options": [
+            "Flexor digitorum superficialis",
+            "Palmar interossei",
+            "Dorsal interossei",
+            "Flexor digitorum profundus",
+            "Lumbricals"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Flexor digitorum superficialis"
+        },
+        {
+          "question": "A 21-year-old woman walks in with a shoulder and arm injury after falling during horseback riding. Examination indicates that she cannot adduct her arm because of paralysis of which of the following muscles?",
+          "options": [
+            "Latissimus dorsi",
+            "Teres minor",
+            "Supraspinatus",
+            "Infraspinatus",
+            "Serratus anterior"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Latissimus dorsi"
+        },
+        {
+          "question": "A 35-year-old man walks in with a stab wound to the most medial side of the proximal portion of the cubital fossa. Which of the following structures would most likely be damaged?",
+          "options": [
+            "Median nerve",
+            "Biceps brachii tendon",
+            "Radial nerve",
+            "Brachial artery",
+            "Radial recurrent artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Median nerve"
+        },
+        {
+          "question": "A 7-year-old boy falls from a tree house and is brought to the emergency department of a local hospital. On examination, he has weakness in rotating his arm laterally because of an injury of a nerve. Which of the following conditions is most likely to cause a loss of this nerve function?",
+          "options": [
+            "Inferior dislocation of the head of the humerus",
+            "Injury to the lateral cord of the brachial plexus",
+            "Fracture of the anatomic neck of the humerus",
+            "Knife wound on the teres major muscle",
+            "A tumor in the triangular space in the shoulder region"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Inferior dislocation of the head of the humerus"
+        },
+        {
+          "question": "A 49-year-old woman is diagnosed as having a large lump in her right breast. Lymph from the cancerous breast drains primarily into which of the following nodes?",
+          "options": [
+            "Anterior (pectoral) nodes",
+            "Apical nodes",
+            "Parasternal (internal thoracic) nodes",
+            "Supraclavicular nodes",
+            "Nodes of the anterior abdominal wall"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Anterior (pectoral) nodes"
+        },
+        {
+          "question": "A patient presents with a stab wound to the anterior forearm, resulting in loss of wrist flexion and weakness in pronation. Which nerve is MOST likely injured?",
+          "options": [
+            "Median nerve",
+            "Radial nerve",
+            "Ulnar nerve",
+            "Musculocutaneous nerve",
+            "Axillary nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Median nerve"
+        },
+        {
+          "question": "A patient falls on an outstretched hand, resulting in a fracture of the distal radius with dorsal displacement. This is commonly known as a:",
+          "options": [
+            "Colles' fracture",
+            "Smith's fracture",
+            "Scaphoid fracture",
+            "Hamate fracture",
+            "Monteggia fracture"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Colles' fracture"
+        },
+        {
+          "question": "A surgeon is performing a carpal tunnel release. The primary goal of this procedure is to decompress the:",
+          "options": [
+            "Median nerve",
+            "Radial nerve",
+            "Ulnar nerve",
+            "Flexor carpi radialis tendon",
+            "Palmaris longus tendon"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Median nerve"
+        },
+        {
+          "question": "A patient sustains a deep laceration to the medial aspect of the forearm, just proximal to the wrist. Which artery is MOST at risk of injury?",
+          "options": [
+            "Ulnar artery",
+            "Radial artery",
+            "Anterior interosseous artery",
+            "Posterior interosseous artery",
+            "Brachial artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Ulnar artery"
+        },
+        {
+          "question": "A patient presents with difficulty extending the fingers at the metacarpophalangeal joints and wrist drop. Which nerve is likely affected, often due to injury in the radial groove of the humerus or during procedures on the forearm?",
+          "options": [
+            "Radial nerve",
+            "Median nerve",
+            "Ulnar nerve",
+            "Musculocutaneous nerve",
+            "Axillary nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Radial nerve"
+        }
+      ],
+      "test": [
+        {
+          "question": "Injury to a nerve at the wrist, the thumb is laterally rotated and adducted. The hand looks flattened and apelike. The nerve that has been damaged is the ?",
+          "options": [
+            "median nerve",
+            "superficial branch of the radial nerve.",
+            "ulnar nerve.",
+            "anterior interosseous nerve.",
+            "deep branch of the radial nerve."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: median nerve"
+        },
+        {
+          "question": "During its course in the upper limb, the axillary nerve lies?",
+          "options": [
+            "against the surgical neck of the humerus.",
+            "in front of the lateral epicondyle of the humerus.",
+            "against the spiral groove of the humerus.",
+            "medial to the brachial artery in the cubital fossa.",
+            "behind the medial epicondyle of the humerus."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: against the surgical neck of the humerus."
+        },
+        {
+          "question": "During its course in the upper limb, the ulnar nerve lies?",
+          "options": [
+            "behind the medial epicondyle of the humerus",
+            "in front of the lateral epicondyle of the humerus.",
+            "behind the flexor retinaculum of the wrist.",
+            "against the spiral groove of the humerus.",
+            "medial to the brachial artery in the cubital fossa."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: behind the medial epicondyle of the humerus"
+        },
+        {
+          "question": "During its course in the upper limb, the median nerve lies?",
+          "options": [
+            "medial to the brachial artery in the cubital fossa",
+            "anterior to the flexor retinaculum of the wrist.",
+            "in front of the lateral epicondyle of the humerus.",
+            "against the spiral groove of the humerus.",
+            "against the surgical neck of the humerus."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: medial to the brachial artery in the cubital fossa"
+        },
+        {
+          "question": "During its course in the upper limb the radial nerve lies?",
+          "options": [
+            "against the spiral groove of the humerus.",
+            "in front of the medial epicondyle of the humerus.",
+            "behind the flexor retinaculum of the wrist.",
+            "medial to the brachial artery in the cubital fossa.",
+            "against the surgical neck of the humerus."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: against the spiral groove of the humerus."
+        },
+        {
+          "question": "The dorsal interossei muscles are innervated by the?",
+          "options": [
+            "deep branch of the ulnar nerve.",
+            "deep branch of the radial nerve.",
+            "superficial branch of the ulnar nerve.",
+            "median nerve.",
+            "recurrent branch of the median nerve."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: deep branch of the ulnar nerve."
+        },
+        {
+          "question": "At the wrist, the flexor retinaculum is attached to the following bones except which?",
+          "options": [
+            "The triquetral bone",
+            "The pisiform bone",
+            "The hook of the hamate",
+            "The tubercle of the scaphoid",
+            "The ridge on the trapezium"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: The triquetral bone"
+        },
+        {
+          "question": "Collateral circulation around the shoulder joint would involve the following except which?",
+          "options": [
+            "The superficial cervical artery",
+            "The anterior circumflex humeral artery",
+            "The suprascapular artery",
+            "The subscapular artery",
+            "The lateral thoracic artery"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: The superficial cervical artery"
+        },
+        {
+          "question": "Cutting the dorsal scapular nerve would most likely result in paralysis of the ?",
+          "options": [
+            "rhomboid major muscle.",
+            "trapezius muscle.",
+            "supraspinatus muscle.",
+            "deltoid muscle.",
+            "infraspinatus muscle."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: rhomboid major muscle."
+        },
+        {
+          "question": "The following structures pass posterior to the flexor retinaculum except which?",
+          "options": [
+            "Ulnar nerve",
+            "Flexor digitorum superficialis tendons",
+            "Median nerve",
+            "Flexor pollicis longus tendon",
+            "Anterior interosseous nerve"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Ulnar nerve"
+        },
+        {
+          "question": "The following tendons are inserted into the base of the proximal phalanx of the thumb except which?",
+          "options": [
+            "Abductor pollicis longus",
+            "Extensor pollicis brevis",
+            "Oblique head of adductor pollicis",
+            "Flexor pollicis brevis",
+            "First palmar interosseous"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Abductor pollicis longus"
+        },
+        {
+          "question": "The anterior fascial compartment of the forearm contains the following arteries except which?",
+          "options": [
+            "Profunda",
+            "Brachial",
+            "Anterior interosseous",
+            "Radial",
+            "Ulnar"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Profunda"
+        },
+        {
+          "question": "The following bones form the proximal row of carpal bones except which?",
+          "options": [
+            "Trapezium",
+            "Lunate",
+            "Pisiform",
+            "Scaphoid",
+            "Triquetral"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Trapezium"
+        },
+        {
+          "question": "The dermatome present over the lateral side of the wrist is ?",
+          "options": [
+            "C6",
+            "T2",
+            "T1.",
+            "C8",
+            "C5"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: C6"
+        },
+        {
+          "question": "The sensory innervation of the dorsal surface of the root of the thumb is the?",
+          "options": [
+            "radial nerve",
+            "median nerve",
+            "superficial branch of the ulnar nerve",
+            "dorsal cutaneous branch of the ulnar nerve",
+            "posterior interosseous nerve"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: radial nerve"
+        },
+        {
+          "question": "The extensor carpi radialis brevis muscle is innervated by the ?",
+          "options": [
+            "deep branch of the radial nerve",
+            "superficial radial nerve",
+            "deep branch of the ulnar nerve",
+            "ulnar nerve",
+            "radial nerve"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: deep branch of the radial nerve"
+        },
+        {
+          "question": "The extensor carpi radialis longus muscle is innervated by the ?",
+          "options": [
+            "radial nerve.",
+            "anterior interosseous nerve.",
+            "deep branch of the ulnar nerve.",
+            "ulnar nerve.",
+            "median nerve."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: radial nerve."
+        },
+        {
+          "question": "The lymph from the medial quadrants of the breast drain mainly into the?",
+          "options": [
+            "posterior axillary (subscapular) nodes",
+            "internal thoracic nodes",
+            "anterior axillary (pectoral) nodes",
+            "lateral axillary (brachial) nodes",
+            "infraclavicular (deltopectoral) nodes"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: posterior axillary (subscapular) nodes"
+        },
+        {
+          "question": "The following structures pass superficial to the flexor retinaculum at the wrist except which?",
+          "options": [
+            "Flexor pollicis longus tendon",
+            "Palmar cutaneous branch of the median nerve",
+            "Ulnar nerve",
+            "Ulnar artery",
+            "Palmar cutaneous branch of"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Flexor pollicis longus tendon"
+        },
+        {
+          "question": "The following part or branch of the brachial plexus has a terminal branch that supplies the skin on the medial side of the arm.",
+          "options": [
+            "Medial cord",
+            "Musculocutaneous nerve",
+            "Lateral cord",
+            "Thoracodorsal nerve",
+            "Ulnar nerve"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Medial cord"
+        }
+      ]
+    },
+    "t-s-2-2-4": {
+      "situational": [
+        {
+          "question": "A 27-year-old patient exhibits a loss of skin sensation and paralysis of muscles on the plantar aspect of the medial side of the foot. Which of the following nerves is most likely damaged?",
+          "options": [
+            "Tibia",
+            "Common peroneal",
+            "Superficial peroneal",
+            "Deep peroneal",
+            "Sural"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Tibia"
+        },
+        {
+          "question": "A patient with a deep knife wound in the buttock walks with a waddling gait that is characterized by the pelvis falling toward one side at each step. Which of the following nerves is damaged?",
+          "options": [
+            "Superior gluteal nerve",
+            "Femoral nerve",
+            "Obturator nerve",
+            "Nerve to obturator internus",
+            "Inferior gluteal nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Superior gluteal nerve"
+        },
+        {
+          "question": "A patient is unable to prevent anterior displacement of the femur on the tibia when the knee is flexed. Which of the following ligaments is most likely damaged?",
+          "options": [
+            "Posterior cruciate",
+            "Anterior cruciate",
+            "Fibular collateral",
+            "Patellar",
+            "Tibial collateral"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Posterior cruciate"
+        },
+        {
+          "question": "A 41-year-old man was involved in a fight and felt weakness in extending the knee joint. On examination, he was diagnosed with a lesion of the femoral nerve. Which of the following symptoms would be a result of this nerve damage?",
+          "options": [
+            "Paralysis of the vastus lateralis muscle",
+            "Paralysis of the psoas major muscle",
+            "Loss of skin sensation on the lateral side of the foot",
+            "Loss of skin sensation over the greater trochanter",
+            "Paralysis of the tensor fasciae latae"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Paralysis of the vastus lateralis muscle"
+        },
+        {
+          "question": "A 47-year-old woman is unable to invert her foot after she stumbled on her driveway. Which of the following nerves are most likely injured?",
+          "options": [
+            "Deep peroneal and tibial",
+            "Superficial and deep peroneal",
+            "Superficial peroneal and tibial",
+            "Medial and lateral plantar",
+            "Obturator and tibial"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Deep peroneal and tibial"
+        },
+        {
+          "question": "A 22-year-old patient is unable to “unlock” the knee joint to permit flexion of the leg. Which of the following muscles is most likely damaged?",
+          "options": [
+            "Popliteus",
+            "Rectus femoris",
+            "Semimembranosus",
+            "Gastrocnemius",
+            "Biceps femoris"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Popliteus"
+        },
+        {
+          "question": "A patient presents with sensory loss on adjacent sides of the great and second toes and impaired dorsiflexion of the foot. These signs probably indicate damage to which of the following nerves?",
+          "options": [
+            "Deep peroneal",
+            "Superficial peroneal",
+            "Lateral plantar",
+            "Sural",
+            "Tibial"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Deep peroneal"
+        },
+        {
+          "question": "A motorcyclist falls from his bike in an accident and gets a deep gash that severs the superficial peroneal nerve near its origin. Which of the following muscles is paralyzed?",
+          "options": [
+            "Peroneus longus",
+            "Extensor hallucis longus",
+            "Extensor digitorum longus",
+            "Peroneus tertius",
+            "Extensor digitorum brevis"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Peroneus longus"
+        },
+        {
+          "question": "A 52-year-old woman slipped and fell and now complains of being unable to extend her leg at the knee joint. Which off the following muscles was paralyzed as a result of this accident?",
+          "options": [
+            "Gracilis",
+            "Semitendinosus",
+            "Sartorius",
+            "Quadriceps femoris",
+            "Biceps femoris"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Gracilis"
+        },
+        {
+          "question": "A patient experiences weakness in dorsiflexing and inverting the foot. Which of the following muscles is damaged?",
+          "options": [
+            "Tibialis anterior",
+            "Peroneus longus",
+            "Peroneus brevis",
+            "Extensor digitorum longus",
+            "Peroneus tertius"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Tibialis anterior"
+        },
+        {
+          "question": "Fracture of the neck of the femur results in avascular necrosis of the femoral head, probably resulting from lack of blood supply from which of the following arteries?",
+          "options": [
+            "Medial femoral circumflex",
+            "Obturator",
+            "Superior gluteal",
+            "Inferior gluteal",
+            "Lateral femoral circumflex"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Medial femoral circumflex"
+        },
+        {
+          "question": "If the acetabulum is fractured at its posterosuperior margin by dislocation of the hip joint, which of the following bones could be involved?",
+          "options": [
+            "Ilium",
+            "Pubis",
+            "Ischium",
+            "Sacrum",
+            "Head of the femur"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Ilium"
+        },
+        {
+          "question": "A patient presents with weakness in hip flexion and knee extension after a pelvic fracture. Which nerve is MOST likely injured?",
+          "options": [
+            "Femoral nerve",
+            "Obturator nerve",
+            "Sciatic nerve",
+            "Superior gluteal nerve",
+            "Inferior gluteal nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Femoral nerve"
+        },
+        {
+          "question": "A patient sustains a deep laceration to the anterior thigh. Which muscle is MOST likely to be affected, leading to difficulty extending the knee?",
+          "options": [
+            "Quadriceps femoris",
+            "Hamstrings",
+            "Adductors",
+            "Gluteals",
+            "Sartorius"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Quadriceps femoris"
+        },
+        {
+          "question": "A surgeon is performing a femoral artery catheterization. Which anatomical landmark is used to locate the femoral artery within the femoral triangle?",
+          "options": [
+            "Mid-inguinal point (midpoint between the anterior superior iliac spine and pubic symphysis)",
+            "Midpoint of the inguinal ligament",
+            "Femoral head",
+            "Pubic tubercle",
+            "Ischial tuberosity"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Mid-inguinal point (midpoint between the anterior superior iliac spine and pubic symphysis)"
+        },
+        {
+          "question": "A patient presents with medial thigh pain and difficulty adducting the thigh. Which nerve is MOST likely involved?",
+          "options": [
+            "Obturator nerve",
+            "Femoral nerve",
+            "Sciatic nerve",
+            "Superior gluteal nerve",
+            "Inferior gluteal nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Obturator nerve"
+        },
+        {
+          "question": "A patient experiences numbness and tingling along the lateral aspect of the thigh. Which nerve is MOST likely compressed or irritated?",
+          "options": [
+            "Lateral femoral cutaneous nerve",
+            "Femoral nerve",
+            "Obturator nerve",
+            "Sciatic nerve",
+            "Ilioinguinal nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Lateral femoral cutaneous nerve"
+        }
+      ],
+      "test": [
+        {
+          "question": "The long head of the biceps femoris muscle is innervated by the",
+          "options": [
+            "tibial portion of the sciatic nerve.",
+            "femoral nerve.",
+            "sural nerve.",
+            "common peroneal nerve.",
+            "obturator nerve."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: tibial portion of the sciatic nerve."
+        },
+        {
+          "question": "The gracilis muscle is innervated by the",
+          "options": [
+            "obturator nerve.",
+            "tibial portion of the sciatic nerve.",
+            "sural nerve.",
+            "femoral nerve.",
+            "common peroneal nerve."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: obturator nerve."
+        },
+        {
+          "question": "The gluteus maximus muscle is innervated by the",
+          "options": [
+            "inferior gluteal nerve.",
+            "superior gluteal nerve.",
+            "nerve to quadratus femoris.",
+            "nerve to obturator internus.",
+            "obturator nerve."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: inferior gluteal nerve."
+        },
+        {
+          "question": "The sartorius muscle is innervated by the",
+          "options": [
+            "femoral nerve.",
+            "obturator nerve.",
+            "nerve to vastus medialis.",
+            "superior gluteal nerve.",
+            "lateral cutaneous nerve of the thigh."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: femoral nerve."
+        },
+        {
+          "question": "A malignant melanoma (cancer) of the skin covering the buttock is likely to spread via lymphatics to the",
+          "options": [
+            "horizontal group of superficial inguinal nodes.",
+            "internal iliac nodes.",
+            "popliteal nodes.",
+            "posterior axillary nodes.",
+            "vertical group of superficial inguinal nodes."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: horizontal group of superficial inguinal nodes."
+        },
+        {
+          "question": "Extension of the hip joint is limited by the",
+          "options": [
+            "iliofemoral ligament",
+            "pubofemoral ligament.",
+            "adductor magnus muscle.",
+            "ischiofemoral ligament.",
+            "quadriceps muscle."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: iliofemoral ligament"
+        },
+        {
+          "question": "Flexion of the hip joint (with the knee flexed) is limited by the",
+          "options": [
+            "hamstring muscles.",
+            "iliofemoral ligament.",
+            "anterior abdominal wall.",
+            "pubofemoral ligament.",
+            "adductor magnus muscle."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: hamstring muscles."
+        },
+        {
+          "question": "If the dorsalis pedis artery is severed just proximal to its medial and lateral tarsal branches, blood can still reach the dorsum of the foot through which vessels()?",
+          "options": [
+            "All of the above.",
+            "The posterior tibial artery.",
+            "The lateral plantar artery.",
+            "The peroneal artery.",
+            "The medial plantar artery."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: All of the above."
+        },
+        {
+          "question": "If the foot is permanently dorsiflexed and everted, which nerve might be injured?",
+          "options": [
+            "The tibial nerve",
+            "The common peroneal nerve",
+            "The obturator nerve",
+            "The superficial peroneal nerve",
+            "The deep peroneal nerve"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: The tibial nerve"
+        },
+        {
+          "question": "In children, the chief arterial supply to the head of the femur is derived from which artery or arteries?",
+          "options": [
+            "Branches from the medial and lateral circumflex femoral arteries.",
+            "The superficial circumflex iliac artery.",
+            "The internal pudendal artery.",
+            "The deep circumflex iliac artery.",
+            "The obturator artery."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Branches from the medial and lateral circumflex femoral arteries."
+        },
+        {
+          "question": "Injury to the common peroneal nerve results in which condition?",
+          "options": [
+            "Inability to evert the foot",
+            "Inability to plantar flex the big toe",
+            "Inability to invert the foot",
+            "Inability to plantar flex the ankle",
+            "Inability to feel skin sensation on the medial side of the leg"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Inability to evert the foot"
+        },
+        {
+          "question": "Lymph from the nail bed of the big toe drains into the",
+          "options": [
+            "vertical group of superficial inguinal nodes.",
+            "internal iliac nodes",
+            "horizontal group of superficial inguinal nodes.",
+            "presacral nodes.",
+            "popliteal nodes"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: vertical group of superficial inguinal nodes."
+        },
+        {
+          "question": "Lymph from the skin of the lateral side of the foot drains into the",
+          "options": [
+            "popliteal nodes",
+            "horizontal group of superficial inguinal nodes.",
+            "subsartorial nodes.",
+            "internal iliac nodes.",
+            "vertical group of superficial inguinal nodes."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: popliteal nodes"
+        },
+        {
+          "question": "Lymph from the skin of the medial side of the knee drains into the",
+          "options": [
+            "vertical group of superficial inguinal nodes.",
+            "medial group of the horizontal superficial inguinal nodes",
+            "lateral group of horizontal inguinal nodes.",
+            "internal iliac nodes.",
+            "popliteal nodes."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: vertical group of superficial inguinal nodes."
+        },
+        {
+          "question": "Rupture of the tendo calcaneus results in an inability to do what?",
+          "options": [
+            "Plantar flex the foot",
+            "Dorsiflex the foot",
+            "None of the above.",
+            "d. Evert the foot",
+            "Invert the foot"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Plantar flex the foot"
+        },
+        {
+          "question": "The adductor longus muscle is innervated by the?",
+          "options": [
+            "anterior division of the obturator nerve.",
+            "posterior division of the femoral nerve.",
+            "femoral nerve.",
+            "common peroneal nerve.",
+            "tibial portion of the sciatic nerve."
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: anterior division of the obturator nerve."
+        },
+        {
+          "question": "The common peroneal nerve can be palpated in which region of the knee?",
+          "options": [
+            "As it winds around the lateral side of the neck of the fibula.",
+            "As it winds around the medial side of the neck of the fibula.",
+            "As it passes forward between the tibia and the fibula.",
+            "As it passes around the medial condyle of the tibia",
+            "As it passes around the lateral epicondyle of the tibia"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: As it winds around the lateral side of the neck of the fibula."
+        },
+        {
+          "question": "The dermatome present over the lateral side of the foot is which of the following?",
+          "options": [
+            "S1",
+            "L4",
+            "S5",
+            "L3",
+            "L5"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: S1"
+        },
+        {
+          "question": "The femoral sheath is formed by which of the following layer(s) of fascia?",
+          "options": [
+            "The fascia iliaca and the fascia transversalis",
+            "The psoas fascia and the fatty layer of superficial fascia",
+            "The processus vaginalis",
+            "The pectineus fascia",
+            "The ilicus fascia"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: The fascia iliaca and the fascia transversalis"
+        },
+        {
+          "question": "The fascia lata and the membranous layer of the superficial fascia Which nerve innervates the tibialis anterior muscle?",
+          "options": [
+            "Deep peroneal nerve",
+            "Superficial peroneal nerve",
+            "Tibial nerve",
+            "Obturator nerve",
+            "Sciatic nerve"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Deep peroneal nerve"
+        }
+      ]
+    },
+    "t-s-2-2-5": {
+      "situational": [
+        {
+          "question": "A patient experiences paralysis of the muscle that originates from the femur and contributes directly to the stability of the knee joint. Which of the following muscles is involved?",
+          "options": [
+            "Vastus lateralis",
+            "Semimembranosus",
+            "Sartorius",
+            "Biceps femoris (long head)",
+            "Rectus femoris"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Vastus lateralis"
+        },
+        {
+          "question": "A patient is involved in a motorcycle wreck that results in avulsion of the skin over the anterolateral leg and ankle. Which of the following structures is most likely destroyed with this type of injury?",
+          "options": [
+            "Superficial peroneal nerve",
+            "Deep peroneal nerve",
+            "Extensor digitorum longus muscle tendon",
+            "Dorsalis pedis artery",
+            "Great saphenous vein"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Superficial peroneal nerve"
+        },
+        {
+          "question": "A knife wound penetrates the superficial vein that terminates in the popliteal vein. Bleeding occurs from which of the following vessels?",
+          "options": [
+            "Lesser saphenous vein",
+            "Posterior tibial vein",
+            "Anterior tibial vein",
+            "Peroneal vein",
+            "Great saphenous vein"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Lesser saphenous vein"
+        },
+        {
+          "question": "A 10-year-old boy falls from a tree house. The resultant heavy compression of the sole of his foot against the ground caused a fracture of the head of the talus. Which of the following structures is unable to function normally?",
+          "options": [
+            "Medial longitudinal arch",
+            "Transverse arch",
+            "Lateral longitudinal arch",
+            "Tendon of the peroneus longus",
+            "Long plantar ligament"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Medial longitudinal arch"
+        },
+        {
+          "question": "A 24-year-old woman complains of weakness when she extends her thigh and rotates it laterally. Which of the following muscles is paralyzed? Gluteus maximus",
+          "options": [
+            "Obturator externus",
+            "Sartorius",
+            "Tensor fasciae latae",
+            "Gluteus maximus",
+            "Semitendinosus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Obturator externus"
+        },
+        {
+          "question": "A patient with hereditary blood clotting problems presents with pain in the back of her knee. An arteriograph reveals a blood clot in the popliteal artery at its proximal end. Which of the following arteries will allow blood to reach the foot?",
+          "options": [
+            "Lateral circumflex femoral",
+            "Anterior tibial",
+            "Posterior tibial",
+            "Peroneal",
+            "Superior medial genicular"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Lateral circumflex femoral"
+        },
+        {
+          "question": "A 72-year-old woman complains of a cramplike pain in her thigh and leg. She was diagnosed as having a severe intermittent claudication. Following surgery, an infection was found in the adductor canal, damaging the enclosed structures. Which of the following structures remains intact?",
+          "options": [
+            "Great saphenous vein",
+            "Femoral artery",
+            "Femoral vein",
+            "Saphenous nerve",
+            "Nerve to the vastus medialis"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Great saphenous vein"
+        },
+        {
+          "question": "A basketball player was hit in the thigh by an opponent’s knee. Which of the following arteries is likely to compress and cause ischemia because of the bruise and damage to the extensor muscles of the leg?",
+          "options": [
+            "Anterior tibial",
+            "Popliteal",
+            "Deep femoral",
+            "Posterior tibial",
+            "Peroneal"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Anterior tibial"
+        },
+        {
+          "question": "An elderly woman fell at home and fractured the greater trochanter of her femur. Which of the following muscles would continue to function normally?",
+          "options": [
+            "Gluteus maximus",
+            "Piriformis",
+            "Obturator internus",
+            "Gluteus medius",
+            "Gluteus minimus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Gluteus maximus"
+        },
+        {
+          "question": "A 20-year-old college student receives a severe blow on the inferolateral side of the left knee joint while playing football. Radiographic examination reveals a fracture of the head and neck of the fibula. Which of the following nerves is damaged?",
+          "options": [
+            "Common peroneal",
+            "Sciatic",
+            "Tibial",
+            "Deep peroneal",
+            "Superficial peroneal"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Common peroneal"
+        },
+        {
+          "question": "After injury to this nerve, which of the following muscles could be paralyzed?",
+          "options": [
+            "Extensor hallucis longus",
+            "Gastrocnemius",
+            "Popliteus",
+            "Flexor digitorum longus",
+            "Tibialis posterior"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Extensor hallucis longus"
+        },
+        {
+          "question": "If the lateral (fibular) collateral ligament is torn by this fracture, which of the following conditions may occur?",
+          "options": [
+            "Abnormal passive adduction of the extended leg",
+            "Abnormal passive abduction of the extended leg",
+            "Anterior displacement of the femur on thetibia",
+            "Posterior displacement of the femur on thetibia",
+            "Maximal flexion of the leg"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Abnormal passive adduction of the extended leg"
+        },
+        {
+          "question": "A patient presents with foot drop (inability to dorsiflex the foot) after a fracture of the fibular neck. Which nerve is MOST likely injured?",
+          "options": [
+            "Common fibular (peroneal) nerve",
+            "Tibial nerve",
+            "Deep fibular (peroneal) nerve",
+            "Superficial fibular (peroneal) nerve",
+            "Sural nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Common fibular (peroneal) nerve"
+        },
+        {
+          "question": "A patient sustains a deep laceration to the posterior aspect of the leg. Which muscle group is MOST likely affected, leading to weakness in plantarflexion?",
+          "options": [
+            "Calf muscles (gastrocnemius and soleus)",
+            "Anterior compartment muscles (tibialis anterior, etc.)",
+            "Lateral compartment muscles (fibularis longus and brevis)",
+            "Posterior compartment muscles (tibialis posterior, flexor digitorum longus, flexor hallucis longus)",
+            "Popliteus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Calf muscles (gastrocnemius and soleus)"
+        },
+        {
+          "question": "A patient experiences numbness and tingling on the sole of the foot. Which nerve is MOST likely involved?",
+          "options": [
+            "Tibial nerve",
+            "Common fibular (peroneal) nerve",
+            "Deep fibular (peroneal) nerve",
+            "Superficial fibular (peroneal) nerve",
+            "Sural nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Tibial nerve"
+        },
+        {
+          "question": "A patient presents with pain and difficulty inverting the foot. Which muscle is MOST likely affected?",
+          "options": [
+            "Tibialis posterior",
+            "Fibularis longus",
+            "Fibularis brevis",
+            "Extensor digitorum longus",
+            "Extensor hallucis longus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Tibialis posterior"
+        },
+        {
+          "question": "A patient suffers a severe ankle sprain, damaging the lateral ligaments. Which ligament is MOST Commonly injured in this type of sprain?",
+          "options": [
+            "Anterior talofibular ligament (ATFL)",
+            "Posterior talofibular ligament (PTFL)",
+            "Calcaneofibular ligament (CFL)",
+            "Deltoid ligament",
+            "Spring ligament"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Anterior talofibular ligament (ATFL)"
+        }
+      ],
+      "test": [
+        {
+          "question": "Structures closely related to long saphenous vein at ankle include which of the following?",
+          "options": [
+            "major perforating veins to deep venous system",
+            "a branch of the femoral nerve",
+            "medial superficial lymphatic trunks",
+            "a branch of the anterior tibial nerve",
+            "dorsalis pedis artery"
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: a branch of the femoral nerve"
+        },
+        {
+          "question": "The only muscle to cross the anterior tibial artery is:",
+          "options": [
+            "extensor hallucis longus",
+            "extensor digitorum brevis",
+            "extensor hallucis brevis",
+            "extensor digitorum longus",
+            "tibialis anterior"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: extensor hallucis longus"
+        },
+        {
+          "question": "The dorsalis pedis artery is:",
+          "options": [
+            "lateral to extensor hallucis longus at the ankle",
+            "medial to extensor hallucis longus at the ankle",
+            "medial to tibialis anterior at the ankle",
+            "found perforating the first metatarsal space and joining with the medial plantar artery",
+            "lateral to the digital branch of the deep peroneal nerve"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: lateral to extensor hallucis longus at the ankle"
+        },
+        {
+          "question": "Features of the fibula include which of the following?",
+          "options": [
+            "it is on the medial side of the tibia",
+            "its medial surface is grooved for the origin of tibialis posterior",
+            "it is ossified from five centres",
+            "it does not provide origin for flexor digitorum longus",
+            "its lower third is rough for the origin of soleus"
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: its lower third is rough for the origin of soleus"
+        },
+        {
+          "question": "Which of the following is true of the saphenous nerve?",
+          "options": [
+            "is predominantly from L2",
+            "supplies adductor magnus",
+            "pierces the deep fascia in the femoral triangle",
+            "is cutaneous only",
+            "terminates just below the knee"
+          ],
+          "correctIndex": 3,
+          "explanation": "Correct answer: is cutaneous only"
+        },
+        {
+          "question": "The superficial epigastric, superior perforating and deep external pudendal arteries are all branches of:",
+          "options": [
+            "profunda femoris",
+            "popliteal",
+            "internal iliac",
+            "external iliac",
+            "none of the above"
+          ],
+          "correctIndex": 3,
+          "explanation": "Correct answer: external iliac"
+        },
+        {
+          "question": "Which of the following is NOT a branch of the profunda femoris artery?",
+          "options": [
+            "medial femoral circumflex",
+            "lateral femoral circumflex",
+            "popliteal",
+            "perforating",
+            "all are branches of the profunda"
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: all are branches of the profunda"
+        },
+        {
+          "question": "The long saphenous vein:",
+          "options": [
+            "passes anterior to the inguinal ligament",
+            "passes posteriorly to the medial malleolus",
+            "ascends the lateral side of the leg",
+            "receives tributaries from the perineum",
+            "is in close relation with the saphenous nerve throughout the length of its course"
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: is in close relation with the saphenous nerve throughout the length of its course"
+        },
+        {
+          "question": "The chief dorsiflexor of the ankle joint:",
+          "options": [
+            "peroneus tertius",
+            "tibialis anterior",
+            "extensor longus hallucis",
+            "extensor longus digitorum",
+            "none of the above"
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: tibialis anterior"
+        },
+        {
+          "question": "Iliopsoas:",
+          "options": [
+            "supplied by obturator nerve",
+            "medial rotator of hip",
+            "synergist of quadriceps femoris",
+            "lateral rotator of hip",
+            "none of the above"
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: medial rotator of hip"
+        },
+        {
+          "question": "The lumbar plexus is formed by ventral primary rami of:",
+          "options": [
+            "T12, L1, L2 and L3",
+            "L1, L2, L3 and L4",
+            "L2, L3, L4 and L5",
+            "L2, L4, L5 and S1",
+            "formed by dorsal primary rami"
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: L1, L2, L3 and L4"
+        },
+        {
+          "question": "The cutaneous nerve supplying the medial aspect of the calf is:",
+          "options": [
+            "anterior femoral cutaneous",
+            "sural",
+            "superficial peroneal",
+            "saphenous",
+            "posterior femoral cutaneous"
+          ],
+          "correctIndex": 3,
+          "explanation": "Correct answer: saphenous"
+        },
+        {
+          "question": "The nerve supply to the knee joint comes from:",
+          "options": [
+            "sciatic",
+            "femoral",
+            "obturator",
+            "all of",
+            "none of these"
+          ],
+          "correctIndex": 3,
+          "explanation": "Correct answer: all of"
+        },
+        {
+          "question": "The most powerful extensor of the hip is:",
+          "options": [
+            "gluteus maximus",
+            "psoas major",
+            "iliacus",
+            "obturator externus",
+            "piriformis"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: gluteus maximus"
+        },
+        {
+          "question": "Which of the following is not an action of gracilis?",
+          "options": [
+            "adduction of thigh",
+            "flexion of knee",
+            "extension of thigh",
+            "medial rotation of the flexed knee",
+            "none of these"
+          ],
+          "correctIndex": 2,
+          "explanation": "Correct answer: extension of thigh"
+        },
+        {
+          "question": "Obturator externus:",
+          "options": [
+            "is pierced by femoral circumflex artery",
+            "external rotator of hip",
+            "internal rotator of hip",
+            "hip flexor",
+            "supplied by S1."
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: external rotator of hip"
+        },
+        {
+          "question": "The intermediate cutaneous nerve of the thigh:",
+          "options": [
+            "arises from the sacral plexus",
+            "is a branch of the obturator nerve",
+            "pierces sartorius",
+            "extends beneath the knee",
+            "arises independently of the medial cutaneous nerve of the thigh"
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: arises independently of the medial cutaneous nerve of the thigh"
+        },
+        {
+          "question": "The dorsalis pedis artery is a continuation of:",
+          "options": [
+            "anterior perforating branch of posterior tibial",
+            "anterior tibial",
+            "popliteal",
+            "femoral",
+            "peroneal"
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: anterior tibial"
+        },
+        {
+          "question": "The lateral aspect of the thigh has a cutaneous nerve supply derived from:",
+          "options": [
+            "L2 and 3",
+            "L3 and 4",
+            "L5, S1 and S2",
+            "L4, L5 and S1",
+            "S1 and S2"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: L2 and 3"
+        },
+        {
+          "question": "The sole of the foot has a cutaneous nerve supply derived from:",
+          "options": [
+            "L4, L5, S1 and S2",
+            "L5 and S1",
+            "L4, L5 and S1",
+            "L5 and L5",
+            "L5, S1 and S2"
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: L5, S1 and S2"
+        }
+      ]
+    },
+    "t-s-2-2-6": {
+      "situational": [
+        {
+          "question": "A high school basketball player experiences a sudden difficulty in breathing and is brought to an emergency department. When a low tracheotomy is performed below the isthmus of the thyroid, which of the following vessels may be encountered?",
+          "options": [
+            "Inferior thyroid vein",
+            "Inferior thyroid artery",
+            "Costocervical trunk",
+            "Superior thyroid artery",
+            "Right brachiocephalic vein"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Inferior thyroid vein"
+        },
+        {
+          "question": "A 59-year-old man complains of numbness in the anterior cervical triangle. Therefore, damage has occurred to which of the following nerves?",
+          "options": [
+            "Transverse cervical nerve",
+            "Phrenic nerve",
+            "Greater auricular nerve",
+            "Supraclavicular nerve",
+            "Lesser occipital nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Transverse cervical nerve"
+        },
+        {
+          "question": "A 53-year-old man has difficulty with breathing through his nose. On examination, his physician finds that he has swelling of the mucous membranes of the superior nasal meatus. Which opening of the paranasal sinuses is most likely plugged? Posterior ethmoidal sinus",
+          "options": [
+            "Middle ethmoidal sinus",
+            "Maxillary sinus",
+            "Posterior ethmoidal sinus",
+            "Anterior ethmoidal sinus",
+            "Frontal sinus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Middle ethmoidal sinus"
+        },
+        {
+          "question": "A 61-year-old woman is found to have ocular lymphoma invading her optic canal. Which of the following structures would most likely be damaged?",
+          "options": [
+            "Ophthalmic artery",
+            "Ophthalmic vein",
+            "Ophthalmic nerve",
+            "Oculomotor nerve",
+            "Trochlear nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Ophthalmic artery"
+        },
+        {
+          "question": "A 76-year-old man with swallowing difficulties undergoes imaging for a possible mass. The CT scan image at the level of the cricothyroid ligament in his neck should show which of the following structures?",
+          "options": [
+            "Inferior laryngeal nerves",
+            "External carotid arteries",
+            "Inferior thyroid veins",
+            "Thyrocervical trunks",
+            "Internal laryngeal nerves"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Inferior laryngeal nerves"
+        },
+        {
+          "question": "The muscles that are of branchiomeric origin are paralyzed in a 26-year-old patient. A lesion of which of the following nerves would cause muscle dysfunction?",
+          "options": [
+            "Trigeminal nerve",
+            "Oculomotor nerve",
+            "Trochlear nerve",
+            "Abducens nerve",
+            "Hypoglossal nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Trigeminal nerve"
+        },
+        {
+          "question": "During surgery for a malignant parotid tumor in a 69-year-old woman, the main trunk of the facial nerve is lacerated. Which of the following muscles is paralyzed?",
+          "options": [
+            "Buccinator muscle",
+            "Masseter muscle",
+            "Stylopharyngeus muscle",
+            "Anterior belly of the digastric muscle",
+            "Tensor tympani"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Buccinator muscle"
+        },
+        {
+          "question": "During a gang fight, a 17-year-old boy is punched, and his nasal septum is broken. Which of the following structures would be damaged?",
+          "options": [
+            "Vomer and perpendicular plate of ethmoid",
+            "Septal cartilage and nasal bone",
+            "Inferior concha and vomer",
+            "Septal cartilage and middle concha",
+            "Cribriform plate and frontal bone"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Vomer and perpendicular plate of ethmoid"
+        },
+        {
+          "question": "A 58-year-old woman comes to the hospital and complains of progressive loss of voice, numbness, loss of taste on the back part of her tongue, and difficulty in shrugging her shoulders. Her MRI scan reveals a dural meningioma that compresses the nerves leaving the skull. These nerves leave the skull through which of the following openings?",
+          "options": [
+            "Jugular foramen",
+            "Foramen spinosum",
+            "Foramen rotundum",
+            "Internal auditory meatus",
+            "Foramen lacerum"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Jugular foramen"
+        },
+        {
+          "question": "A 21-year-old woman presents to her physician with a swelling on her neck. On examination, she is diagnosed with an infection within the carotid sheath. Which of the following structures would be damaged?",
+          "options": [
+            "Internal jugular vein and vagus nerve",
+            "Vagus nerve and middle cervical ganglion",
+            "Internal carotid artery and recurrent laryngeal nerve",
+            "Sympathetic trunk and common carotid artery",
+            "External carotid artery and ansa cervicalis"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Internal jugular vein and vagus nerve"
+        },
+        {
+          "question": "An angiogram of a 45-year-old man shows an occlusion of the costocervical trunk. This obstruction could produce a marked decrease in the blood flow in which of the following arteries?",
+          "options": [
+            "Deep cervical artery",
+            "Superior thoracic artery",
+            "Transverse cervical artery",
+            "Ascending cervical artery",
+            "Inferior thyroid artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Deep cervical artery"
+        },
+        {
+          "question": "A 57-year-old man comes to the local hospital with fever, headache, nausea, and vomiting. Laboratory tests reveal an infection, and radiologic examination localizes the infection to the cavernous sinus. Which of the following nerves would be unaffected by this condition?",
+          "options": [
+            "Mandibular nerves",
+            "Oculomotor nerves",
+            "Abducens nerves",
+            "Trochlear nerves",
+            "Ophthalmic nerves"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Mandibular nerves"
+        },
+        {
+          "question": "A 7-year-old girl has difficulty breathing through her nose and is brought to her pediatrician. On examination, she is diagnosed with adenoids. Which of the following tonsils is enlarged?",
+          "options": [
+            "Pharyngeal tonsil",
+            "Palatine tonsil",
+            "Tubal tonsil",
+            "Lingual tonsil",
+            "Eustachian tonsil"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Pharyngeal tonsil"
+        },
+        {
+          "question": "A patient presents after a head injury with a brief loss of consciousness followed by a lucid interval, and then rapid deterioration. A CT scan reveals a lens-shaped hematoma that does not cross suture lines. This is MOST likely a/an:",
+          "options": [
+            "Epidural hematoma",
+            "Subdural hematoma",
+            "Subarachnoid hemorrhage",
+            "Intracerebral hemorrhage",
+            "Contusion"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Epidural hematoma"
+        },
+        {
+          "question": "A patient presents with headache, drowsiness, and confusion several weeks after a minor head injury. A CT scan shows a crescent-shaped hematoma that crosses suture lines. This is MOST likely a/an:",
+          "options": [
+            "Subdural hematoma",
+            "Epidural hematoma",
+            "Subarachnoid hemorrhage",
+            "Intracerebral hemorrhage",
+            "Contusion"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Subdural hematoma"
+        },
+        {
+          "question": "A surgeon is performing a trepanation (burr hole) procedure. The primary goal of this procedure is to:",
+          "options": [
+            "Relieve intracranial pressure by evacuating a hematoma or abscess",
+            "Repair a skull fracture",
+            "Remove a brain tumor",
+            "Perform a biopsy of brain tissue",
+            "Insert an intracranial pressure monitor"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Relieve intracranial pressure by evacuating a hematoma or abscess"
+        },
+        {
+          "question": "During a trepanation procedure to evacuate an epidural hematoma, the surgeon must be careful to avoid injuring the:",
+          "options": [
+            "Middle meningeal artery",
+            "Superior sagittal sinus",
+            "Inferior sagittal sinus",
+            "Transverse sinus",
+            "Cavernous sinus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Middle meningeal artery"
+        },
+        {
+          "question": "A patient undergoes a craniotomy for evacuation of a subdural hematoma. Postoperatively, which of the following is a potential complication related to damage to bridging veins?",
+          "options": [
+            "Recurrence of the hematoma",
+            "Infection",
+            "Seizures",
+            "Stroke",
+            "Cerebrospinal fluid leak"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Recurrence of the hematoma"
+        }
+      ],
+      "test": [
+        {
+          "question": "Meninges of the brain:",
+          "options": [
+            "dura mater, arachnoid, pia mater",
+            "visceral",
+            "parietal",
+            "subarachnoid",
+            "internal"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: dura mater, arachnoid, pia mater"
+        },
+        {
+          "question": "Meningeal spaces of the brain, Choose the correct answer?",
+          "options": [
+            "intrameningeal",
+            "parietal",
+            "intracranial, intrameningeal",
+            "epidural, subdural, subarachnoid",
+            "visceral"
+          ],
+          "correctIndex": 3,
+          "explanation": "Correct answer: epidural, subdural, subarachnoid"
+        },
+        {
+          "question": "A patient has a boil on the tip of her nose. To which lymph nodes does the lymph from the skin of the infected area drain?",
+          "options": [
+            "Parotid nodes",
+            "Tracheobronchial nodes",
+            "Superficial cervical nodes",
+            "Submental nodes",
+            "Submandibular nodes"
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: Submandibular nodes"
+        },
+        {
+          "question": "A patient having lunch accidentally bit the inside of her left cheek. To which lymph nodes are infecting bacteria likely to spread?",
+          "options": [
+            "Submandibular nodes",
+            "Superficial cervical nodes",
+            "Mastoid nodes",
+            "Parotid nodes",
+            "Submental nodes"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Submandibular nodes"
+        },
+        {
+          "question": "The deep groove that separates the right and left cerebral hemispheres is called the ____",
+          "options": [
+            "lateral fissure",
+            "precentral gyrus",
+            "postcentral gyrus",
+            "longitudinal fissure",
+            "central sulcus"
+          ],
+          "correctIndex": 3,
+          "explanation": "Correct answer: longitudinal fissure"
+        },
+        {
+          "question": "There are _____ ventricles in the brain.",
+          "options": [
+            "4",
+            "0",
+            "2",
+            "5",
+            "3"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: 4"
+        },
+        {
+          "question": "Which brain structure is located in the hindbrain?",
+          "options": [
+            "cerebral cortex",
+            "hypothalamus",
+            "hippocampus",
+            "substantia nigra",
+            "pons"
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: pons"
+        },
+        {
+          "question": "Failure to pass the finger-to-nose test is an indication of _____",
+          "options": [
+            "damage to the temporal lobe",
+            "damage to the frontal lobe",
+            "damage to the occipital lobe",
+            "sinisit",
+            "Alcohol intoxication, cerebellar damage"
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: Alcohol intoxication, cerebellar damage"
+        },
+        {
+          "question": "Sustained tension of the vocal cords (folds) is best achieved through the action of which of the following muscles?",
+          "options": [
+            "The salpingopharyngeus",
+            "The aryepiglottic",
+            "The posterior cricoarytenoid",
+            "The cricothyroid",
+            "The cricopharyngeus"
+          ],
+          "correctIndex": 3,
+          "explanation": "Correct answer: The cricothyroid"
+        },
+        {
+          "question": "Which nervous system structure is associated with control of hunger ?",
+          "options": [
+            "cerebellum",
+            "none one",
+            "medulla",
+            "hippocampus",
+            "hypothalamus"
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: hypothalamus"
+        },
+        {
+          "question": "The foramen magnum in the skull",
+          "options": [
+            "is located in the sphenoid bone.",
+            "allows entrance of the spinal part of the accessory nerve into the cranial cavity.",
+            "is located in the temporal bone.",
+            "allows entrance of the trigeminal nerve",
+            "allows exit of the facial nerve"
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: allows entrance of the spinal part of the accessory nerve into the cranial cavity."
+        },
+        {
+          "question": "The tectum is located in the ____________",
+          "options": [
+            "forebrain",
+            "midbrain",
+            "frontal lobe",
+            "hindbrain",
+            "spinal cord"
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: midbrain"
+        },
+        {
+          "question": "The inner surface is covered with mucous mem- brane.",
+          "options": [
+            "Impaired function of which of the following muscles produce difficulty in protruding the jaw?",
+            "The medial pterygoid D. The masseter",
+            "The anterior belly of the digastric muscle",
+            "The temporalis",
+            "The lateral pterygoid"
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: The medial pterygoid D. The masseter"
+        },
+        {
+          "question": "The jugular foramen in the skull",
+          "options": [
+            "allows exit of the hypoglossal nerve.",
+            "is located in the middle cranial fossa.",
+            "allows exit of the vagus nerve",
+            "is located in the petrous part of the temporal bone.",
+            "allows entrance of the external jugular vein."
+          ],
+          "correctIndex": 2,
+          "explanation": "Correct answer: allows exit of the vagus nerve"
+        },
+        {
+          "question": "The nervous system is divided into the ____",
+          "options": [
+            "sympathetic",
+            "sensory",
+            "brain",
+            "autonomic and somatic nervous system",
+            "spinal cord"
+          ],
+          "correctIndex": 3,
+          "explanation": "Correct answer: autonomic and somatic nervous system"
+        },
+        {
+          "question": "Which is the largest branch of the internal carotid artery?",
+          "options": [
+            "posterior communicating artery",
+            "anterior cerebral artery",
+            "ophthalmic artery",
+            "middle cerebral artery",
+            "posterior cerebral artery"
+          ],
+          "correctIndex": 3,
+          "explanation": "Correct answer: middle cerebral artery"
+        },
+        {
+          "question": "Which anatomic structure is most likely to have damaged the nerve?",
+          "options": [
+            "The lesser wing of the sphenoid bone",
+            "The falx cerebelli",
+            "The tentorium cerebelli",
+            "The greater wing of the sphenoid bone",
+            "The petrous part of the temporal bone"
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: The petrous part of the temporal bone"
+        },
+        {
+          "question": "Which process is responsible for closing off the nasal cavity from the oropharynx during swallowing?",
+          "options": [
+            "Contraction of the aryepiglottic muscles",
+            "Bending of the epiglottis",
+            "Elevation of the tongue to the roof of the mouth",
+            "Relaxation of the pharyngeal constrictor muscles",
+            "Contraction of the tensor and the levator veli palatini muscles"
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: Contraction of the tensor and the levator veli palatini muscles"
+        },
+        {
+          "question": "Which is the smallest cranial nerve?",
+          "options": [
+            "abducent nerve",
+            "oculomotor nerve",
+            "olfactory nerve",
+            "accessory nerve",
+            "trochlear nerve"
+          ],
+          "correctIndex": 4,
+          "explanation": "Correct answer: trochlear nerve"
+        },
+        {
+          "question": "The nasolacrimal duct drains into the",
+          "options": [
+            "lacrimal sac.",
+            "inferior meatus of the nose.",
+            "superior meatus of the nose.",
+            "middle meatus of the nose.",
+            "sphenoethmoidal recess"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: lacrimal sac."
+        }
+      ]
+    },
+    "t-s-2-2-7": {
+      "situational": [
+        {
+          "question": "A 19-year-old woman complains of numbness of the nasopharynx after surgical removal of the adenoid. A lesion of which of the following nerves would be expected?",
+          "options": [
+            "Glossopharyngeal nerve",
+            "Maxillary nerve",
+            "Superior cervical ganglion",
+            "External laryngeal nerve",
+            "Vagus nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Glossopharyngeal nerve"
+        },
+        {
+          "question": "During surgery on a 56-year-old man for a squamous cell carcinoma of the neck, the surgeon notices profuse bleeding from the deep cervical artery. Which of the following arteries must be ligated immediately to stop bleeding?)",
+          "options": [
+            "Costocervical trunk",
+            "Inferior thyroid artery",
+            "Transverse cervical artery",
+            "Thyrocervical trunk",
+            "Ascending cervical artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Costocervical trunk"
+        },
+        {
+          "question": "A 17-year-old boy receives an injury to the phrenic nerve by a knife wound in the neck. The damaged nerve passes by which of the following structures in the neck?",
+          "options": [
+            "Superficial to the anterior scalene muscle",
+            "Anterior to the subclavian vein",
+            "Posterior to the subclavian artery",
+            "Deep to the brachial plexus",
+            "Medial to the common carotid artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Superficial to the anterior scalene muscle"
+        },
+        {
+          "question": "A 45-year-old woman is suffering from numbness over the tip of her nose. Which of the following nerves is most likely to be damaged?",
+          "options": [
+            "Ophthalmic division of the trigeminal nerve",
+            "Maxillary division of the trigeminal nerve",
+            "Mandibular division of the trigeminal nerve",
+            "Facial nerve",
+            "Auriculotemporal nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Ophthalmic division of the trigeminal nerve"
+        },
+        {
+          "question": "A 26-year-old singer visits her physician—an ear, nose, and throat (ENT) surgeon—and complains of changes in her voice. A laryngoscopic examination demonstrates a lesion of the superior laryngeal nerve, causing weakness of which of the following muscles?",
+          "options": [
+            "Inferior pharyngeal constrictor",
+            "Middle pharyngeal constrictor",
+            "Superior pharyngeal constrictor",
+            "Thyroarytenoid",
+            "Thyrohyoid"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Inferior pharyngeal constrictor"
+        },
+        {
+          "question": "A 44-year-old man with “crocodile tears syndrome” has spontaneous lacrimation during eating because of misdirection of regenerating autonomic nerve fibers. Which of the following nerves has been injured?",
+          "options": [
+            "Facial nerve proximal to the geniculate ganglion",
+            "Auriculotemporal nerve",
+            "Chorda tympani in the infratemporal fossa",
+            "Facial nerve at the stylomastoid foramen",
+            "Lacrimal nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Facial nerve proximal to the geniculate ganglion"
+        },
+        {
+          "question": "A young girl complains of dryness of the nose and the palate. This would indicate a lesion of which of the following ganglia?",
+          "options": [
+            "Pterygopalatine ganglion",
+            "Nodose ganglion",
+            "Optic ganglion",
+            "Submandibular ganglion",
+            "Ciliary ganglion"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Pterygopalatine ganglion"
+        },
+        {
+          "question": "A 33-year-old woman develops Bell palsy. She must be cautious because this can result in corneal inflammation and subsequent ulceration. This symptom results from which of the following conditions?",
+          "options": [
+            "Absence of the corneal blink reflex",
+            "Sensory loss of the cornea and conjunctiva",
+            "Lack of secretion of the parotid gland",
+            "Absence of sweating on the face",
+            "Inability to constrict the pupil"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Absence of the corneal blink reflex"
+        },
+        {
+          "question": "A 39-year-old woman presents to your clinic with complaints of headache and dizziness. She has an infection of a cranial dural sinus. The sinus that lies in the margin of the tentorium cerebelli and runs from the posterior end of the cavernous sinus to the transverse sinus is infected. Which of the following sinuses is affected by inflammation?",
+          "options": [
+            "Superior petrosal sinus",
+            "Straight sinus",
+            "Inferior sagittal sinus",
+            "Sphenoparietal sinus",
+            "Cavernous sinus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Superior petrosal sinus"
+        },
+        {
+          "question": "A 24-year-old man falls from his motorcycle and lands in a creek. Death may result from bilateral severance of which of the following nerves?",
+          "options": [
+            "Vagus nerve",
+            "Trigeminal nerve",
+            "Facial nerve",
+            "Spinal accessory nerve",
+            "Hypoglossal nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Vagus nerve"
+        },
+        {
+          "question": "A young singer at the local music theater visits her physician and complains of vocal difficulties. On examination, she is unable to abduct the vocal cords during quiet breathing. Which of the following muscles is most likely paralyzed?",
+          "options": [
+            "Posterior cricoarytenoid muscle",
+            "Vocalis muscle",
+            "Cricothyroid muscle",
+            "Oblique arytenoid muscle",
+            "Thyroarytenoid muscle"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Posterior cricoarytenoid muscle"
+        },
+        {
+          "question": "A 71-year-old woman often visits an emergency department with swallowing difficulties and subsequent choking while eating food. Which of the following pairs of muscles is most instrumental in preventing food from entering the larynx and trachea during swallowing?",
+          "options": [
+            "Oblique arytenoid and aryepiglottic Muscles",
+            "Sternohyoid and sternothyroid muscles",
+            "Inferior pharyngeal constrictor and thyrohyoid muscles",
+            "Levator veli palatini and tensor veli palatini muscles",
+            "Musculus uv"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Oblique arytenoid and aryepiglottic Muscles"
+        },
+        {
+          "question": "A patient presents with a stab wound to the anterior triangle of the neck, resulting in significant bleeding. Which major vessel is MOST likely injured?",
+          "options": [
+            "Carotid artery (common, internal, or external)",
+            "Subclavian artery",
+            "Jugular vein (internal or external)",
+            "Brachial artery",
+            "Vertebral artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Carotid artery (common, internal, or external)"
+        },
+        {
+          "question": "A patient undergoes a thyroidectomy (removal of the thyroid gland). Which nerve is at risk of injury during this procedure, potentially leading to hoarseness?",
+          "options": [
+            "Recurrent laryngeal nerve",
+            "Vagus nerve",
+            "Phrenic nerve",
+            "Hypoglossal nerve",
+            "Cervical sympathetic trunk"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Recurrent laryngeal nerve"
+        },
+        {
+          "question": "A patient presents with a swelling in the posterior triangle of the neck. Which lymph nodes are commonly located in this region and might be involved in infection or malignancy?",
+          "options": [
+            "Cervical lymph nodes (posterior)",
+            "Submandibular lymph nodes",
+            "Submental lymph nodes",
+            "Preauricular lymph nodes",
+            "Parotid lymph nodes"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Cervical lymph nodes (posterior)"
+        },
+        {
+          "question": "A patient has a deep infection in the neck that spreads along fascial planes. Which fascial layer is MOST likely to be involved in a deep neck infection that can spread to the mediastinum?",
+          "options": [
+            "Pretracheal fascia",
+            "Prevertebral fascia",
+            "Investing layer of deep cervical fascia",
+            "Carotid sheath",
+            "Superficial cervical fascia"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Pretracheal fascia"
+        },
+        {
+          "question": "A surgeon is performing a neck dissection, a procedure to remove lymph nodes in the neck, often for cancer treatment. Which muscle is often used as a landmark during this procedure, dividing the anterior and posterior triangles of the neck?",
+          "options": [
+            "Sternocleidomastoid muscle",
+            "Trapezius muscle",
+            "Platysma muscle",
+            "Omohyoid muscle",
+            "Digastric muscle"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Sternocleidomastoid muscle"
+        }
+      ],
+      "test": [
+        {
+          "question": "Muscle Not Attached to the Hyoid Bone",
+          "options": [
+            "Which of the following muscles is not attached to the hyoid bone?",
+            "Sternothyroid",
+            "Mylohyoid",
+            "Geniohyoid",
+            "Omohyoid"
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: Sternothyroid"
+        },
+        {
+          "question": "Sternohyoid",
+          "options": [
+            "Function of the Suprahyoid Muscles\"What is the primary function of the suprahyoid muscles?",
+            "Elevate the hyoid bone and larynx during swallowing",
+            "Depress the hyoid bone during speech",
+            "Rotate the hyoid bone during mastication",
+            "Stabilize the hyoid bone during head movement"
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: Elevate the hyoid bone and larynx during swallowing"
+        },
+        {
+          "question": "Innervation of the Infrahyoid Muscles\"Which nerve innervates the majority of the infrahyoid muscles?",
+          "options": ["Ansa cervicalis", "Vagus nerve", "Hypoglossal nerve", "Accessory nerve", "Phrenic nerve"],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Ansa cervicalis"
+        },
+        {
+          "question": "Attachment Site of the Sternohyoid Muscle\"Where does the sternohyoid muscle attach?",
+          "options": [
+            "Sternum and thyroid cartilage",
+            "Hyoid bone and clavicle",
+            "Sternum and hyoid bone",
+            "Clavicle and mandible",
+            "Role of the Thyrohyoid Muscle \"What is the primary role of the thyrohyoid muscle?"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Sternum and thyroid cartilage"
+        },
+        {
+          "question": "*Elevate the thyroid cartilage",
+          "options": [
+            "Depress the hyoid bone",
+            "Elevate the thyroid muscle",
+            "Elevate the hyoid bone",
+            "Depress the thyroid cartilage",
+            "Geniohyoid Muscle Function\"How does the geniohyoid muscle contribute to swallowing?"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Depress the hyoid bone"
+        },
+        {
+          "question": "*Elevates and pulls the hyoid bone anteriorly",
+          "options": [
+            "Depresses the mandible",
+            "Retracts the tongue",
+            "Stabilizes the cervical vertebrae"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Depresses the mandible"
+        },
+        {
+          "question": "*Stylohyoid muscle",
+          "options": ["Hyoid bone", "omohyoid muscle", "Sternocleidomastoid muscle", "Sternohyoid muscle", "Function of the Infrahyoid Muscles in Breathing \"What is the function of the infrahyoid muscles during breathing?"],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Hyoid bone"
+        },
+        {
+          "question": "*Depress the hyoid bone and larynx",
+          "options": [
+            "Elevate the rib cage",
+            "Depress the thyroid cartilage",
+            "Expand the thoracic cavity",
+            "Elevate the diaphragm",
+            "Mylohyoid Muscle Innervation \"Which nerve innervates the mylohyoid muscle?"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Elevate the rib cage"
+        },
+        {
+          "question": "*Mylohyoid nerve (branch of the trigeminal nerve)",
+          "options": [
+            "Hypoglossal nerve",
+            "Facial nerve",
+            "geniohyoid nerve",
+            "Glossopharyngeal nerve",
+            "Orbicularis Oris Function \"What is the primary function of the orbicularis oris muscle?"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Hypoglossal nerve"
+        },
+        {
+          "question": "*Pucker the lips",
+          "options": [
+            "Elevate the upper lip",
+            "Close the eyelids",
+            "Elevate jaw",
+            "Retract the corners of the mouth",
+            "Innervation of Buccinator\"Which nerve innervates the buccinator muscle?"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Elevate the upper lip"
+        },
+        {
+          "question": "*B: Facial nerve (VII)",
+          "options": [
+            "A: Mandibular nerve (V3)",
+            "B: accessory nerve (11)",
+            "C: Glossopharyngeal nerve (IX)",
+            "D: Hypoglossal nerve (XII)",
+            "Zygomaticus Major Function\"What is the primary action of the zygomaticus major muscle?"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: A: Mandibular nerve (V3)"
+        },
+        {
+          "question": "*Smile",
+          "options": [
+            "Depress the lower lip",
+            "Elevate the upper lip",
+            "gaze",
+            "Frown",
+            "Risorius Muscle Action"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Depress the lower lip"
+        },
+        {
+          "question": "The risorius muscle is primarily responsible for which action?",
+          "options": [
+            "Retracting the corners of the mouth",
+            "Pouting",
+            "Smiling",
+            "Elevate the eyelids",
+            "Raising the eyebrows"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Retracting the corners of the mouth"
+        },
+        {
+          "question": "Depressor Anguli Oris Function \"Which action is performed by the depressor anguli oris muscle?",
+          "options": [
+            "Depress the corners of the mouth",
+            "Elevate the upper lip",
+            "Depress the eyebrows",
+            "Close the eyes",
+            "Flare the nostrils"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Depress the corners of the mouth"
+        },
+        {
+          "question": "Facial Nerve Branches\"Which branch of the facial nerve innervates the frontalis muscle?",
+          "options": [
+            "Temporal branch",
+            "Zygomatic branch",
+            "Buccal branch",
+            "Mandibular branch",
+            "Phrenic nerve"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Temporal branch"
+        },
+        {
+          "question": "Levator Labii Superioris Function\"What is the primary function of the levator labii superioris muscle?",
+          "options": [
+            "Elevate the upper lip",
+            "Depress the lower lip",
+            "Elevate the upper eye brows",
+            "Close the lips",
+            "Retract the lips"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Elevate the upper lip"
+        },
+        {
+          "question": "Corrugator Supercilii Function\"The corrugator supercilii muscle is responsible for which facial expression?",
+          "options": [
+            "Raising the eyebrows",
+            "Smiling",
+            "Grimacing",
+            "Frowning",
+            "Squinting"
+          ],
+          "correctIndex": 3,
+          "explanation": "Correct answer: Frowning"
+        },
+        {
+          "question": "Anterior Triangle Boundaries\"Which structure forms the superior boundary of the anterior triangle of the neck?",
+          "options": [
+            "Clavicle",
+            "Mandible",
+            "Sternum",
+            "Hyoid bone",
+            "First rib"
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: Mandible"
+        },
+        {
+          "question": "Posterior Triangle Boundaries\"Which muscle forms the posterior boundary of the posterior triangle of the neck?",
+          "options": [
+            "Sternocleidomastoid",
+            "Trapezius",
+            "Platysma",
+            "Omohyoid",
+            "sternohyoid"
+          ],
+          "correctIndex": 1,
+          "explanation": "Correct answer: Trapezius"
+        },
+        {
+          "question": "Sternothyroid Contents of the Carotid Triangle\"Which structure is NOT found within the carotid triangle?",
+          "options": [
+            "Common carotid artery",
+            "Internal jugular vein",
+            "Vagus nerve",
+            "Subclavian artery",
+            "Internal carotid artery"
+          ],
+          "correctIndex": 3,
+          "explanation": "Correct answer: Subclavian artery"
+        }
+      ]
+    },
+    "t-s-2-2-8": {
+      "situational": [
+        {
+          "question": "A 32-year-old patient who weighs 275 lb comes to the doctor’s office. On the surface of the chest, the physician is able to locate the apex of the heart:",
+          "options": [
+            "In the left fifth intercostal space",
+            "At the level of the sternal angle",
+            "In the left fourth intercostal space",
+            "In the right fifth intercostal space",
+            "At the level of the xiphoid process of the sternum"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: In the left fifth intercostal space"
+        },
+        {
+          "question": "A 43-year-old female patient has been lying down on the hospital bed for more than 4 months. Her normal, quiet expiration is achieved by contraction of which of the following structures?",
+          "options": [
+            "Elastic tissue in the lungs and thoracic wall",
+            "Serratus posterior superior muscles",
+            "Pectoralis minor muscles",
+            "Serratus anterior muscles",
+            "Diaphragm"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Elastic tissue in the lungs and thoracic wall"
+        },
+        {
+          "question": "A 23-year-old man received a gunshot wound, and his greater splanchnic nerve was destroyed. Which of the following nerve fibers would be injured?",
+          "options": [
+            "GVA and preganglionic sympathetic fibers",
+            "General somatic afferent (GSA) and preganglionic sympathetic fibers",
+            "General visceral afferent (GVA) and postganglionic sympathetic fibers",
+            "General somatic efferent (GSE) and postganglionic sympathetic fibers",
+            "GVA and GSE fibers"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: GVA and preganglionic sympathetic fibers"
+        },
+        {
+          "question": "17-year-old boy was involved in a gang fight, and a stab wound severed the white rami communicantes at the level of his sixth thoracic vertebra. This injury would result in degeneration of nerve cell bodies in which of the following structures?",
+          "options": [
+            "Dorsal root ganglion and lateral horn of the spinal cord",
+            "Dorsal root ganglion and anterior horn of the spinal cord",
+            "Sympathetic chain ganglion and dorsal root ganglion",
+            "Sympathetic chain ganglion and posterior horn of the spinal cord",
+            "Anterior and lateral horns of the spinal cord"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Dorsal root ganglion and lateral horn of the spinal cord"
+        },
+        {
+          "question": "A 27-year-old cardiac patient with an irregular heartbeat visits her doctor’s office for examination. Where should the physician place the stethoscope to listen to the sound of the mitral valve?",
+          "options": [
+            "In the left fifth intercostal space at the midclavicular line",
+            "Over the medial end of the second left intercostal space",
+            "Over the medial end of the second right intercostal space",
+            "In the left fourth intercostal space at the midclavicular line",
+            "Over the right half of the lower end of the body of the sternum"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: In the left fifth intercostal space at the midclavicular line"
+        },
+        {
+          "question": "A 19-year-old man came to the emergency department, and his angiogram exhibited that he was bleeding from the vein that is accompanied by the posterior interventricular artery. Which of the following veins is most likely to be ruptured?",
+          "options": [
+            "Middle cardiac vein",
+            "Great cardiac vein",
+            "Anterior cardiac vein",
+            "Small cardiac vein",
+            "Oblique veins of the left atrium"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Middle cardiac vein"
+        },
+        {
+          "question": "A 37-year-old patient with palpitation was examined by her physician, and one of the diagnostic records included a posterior–anterior chest radiograph. Which of the following comprises the largest portion of the sternocostal surface of the heart seen on the radiograph?",
+          "options": [
+            "Right ventricle",
+            "Left atrium",
+            "Right atrium",
+            "Left ventricle",
+            "Base of the heart"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Right ventricle"
+        },
+        {
+          "question": "A 5-year-old girl is brought to the emergency department because of difficulty breathing (dyspnea), palpitations, and shortness of breath. Doppler study of the heart reveals an atrial septal defect (ASD). This malformation usually results from incomplete closure of which of the following embryonic structures?",
+          "options": [
+            "Foramen ovale",
+            "Ductus arteriosus",
+            "Ductus venosus",
+            "Sinus venarum",
+            "Truncus arteriosus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Foramen ovale"
+        },
+        {
+          "question": "A 54-year-old patient is implanted with an artificial cardiac pacemaker. Which of the following conductive tissues of the heart had a defective function that required the pacemaker? Sinoatrial",
+          "options": [
+            "Atrioventricular (AV) bundle",
+            "AV node",
+            "(SA) node",
+            "Purkinje fiber",
+            "Moderator band"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Atrioventricular (AV) bundle"
+        },
+        {
+          "question": "A thoracic surgeon removed the right middle lobar (secondary) bronchus along with lung tissue from a 57-year-old heavy smoker with lung cancer. Which of the following bronchopulmonary segments must contain cancerous tissues?",
+          "options": [
+            "Medial and lateral",
+            "Anterior and posterior",
+            "Anterior basal and medial basal",
+            "Anterior basal and posterior basal",
+            "Lateral basal and posterior basal"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Medial and lateral"
+        },
+        {
+          "question": "Coronary angiographs of a 44-year-old male patient reveal an occlusion of the circumflex branch of the left coronary artery. This patient has been suffering from myocardial infarction in which of the following areas?",
+          "options": [
+            "Left atrium and ventricle",
+            "Right and left ventricles",
+            "Right and left atria",
+            "Interventricular septum",
+            "Apex of the heart"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Left atrium and ventricle"
+        },
+        {
+          "question": "A patient has a small but solid tumor in the mediastinum, which is confined at the level of the sternal angle. Which of the following structures would most likely be found at this level?",
+          "options": [
+            "Bifurcation of the trachea",
+            "Beginning of the ascending aorta",
+            "Middle of the aortic arch",
+            "Articulation of the third rib with the sternum",
+            "Superior border of the superior mediastinum"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Bifurcation of the trachea"
+        },
+        {
+          "question": "A woman notices a new lump in her breast during a self-exam. The most common location for breast masses, including cancerous ones, is the:",
+          "options": [
+            "Upper outer quadrant",
+            "Upper inner quadrant",
+            "Lower outer quadrant",
+            "Lower inner quadrant",
+            "Central (subareolar) region"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Upper outer quadrant"
+        },
+        {
+          "question": "A medical student is palpating the breast of a patient. The axillary tail of Spence, which is an extension of breast tissue, extends towards the:",
+          "options": [
+            "Axilla (armpit)",
+            "Clavicle",
+            "Sternum",
+            "Abdomen",
+            "Back"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Axilla (armpit)"
+        },
+        {
+          "question": "During a physical exam, the physician notes prominent skin dimpling over the breast. This finding is MOST suggestive of involvement of:",
+          "options": [
+            "Cooper's ligaments (suspensory ligaments)",
+            "Lactiferous ducts",
+            "Montgomery glands",
+            "Rib cage",
+            "Pectoralis major muscle"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Cooper's ligaments (suspensory ligaments)"
+        },
+        {
+          "question": "A breastfeeding mother experiences redness, warmth, and tenderness in a localized area of her breast. This is MOST likely due to:",
+          "options": [
+            "Mastitis (inflammation of the breast tissue)",
+            "Fibroadenoma (benign tumor)",
+            "Breast cancer",
+            "A simple cyst",
+            "Fat necrosis"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Mastitis (inflammation of the breast tissue)"
+        },
+        {
+          "question": "A physician is explaining the lymphatic drainage of the breast to a patient. They emphasize the importance of the axillary lymph nodes because they:",
+          "options": [
+            "Are the primary site of lymphatic drainage from the breast",
+            "Drain directly into the bloodstream",
+            "Are easily accessible for biopsy",
+            "Are located within the breast tissue itself",
+            "Drain only the medial aspect of the breast"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Are the primary site of lymphatic drainage from the breast"
+        }
+      ],
+      "test": [
+        {
+          "question": "The main blood supply to the breast comes from:",
+          "options": [
+            "All of the above",
+            "Internal thoracic artery",
+            "Lateral thoracic artery",
+            "Thoracoacromial artery",
+            "Subscapular artery"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: All of the above"
+        },
+        {
+          "question": "Lymphatic drainage from the breast primarily goes to:",
+          "options": [
+            "Both axillary and internal mammary lymph nodes",
+            "Axillary lymph nodes",
+            "Internal mammary lymph nodes",
+            "Supraclavicular lymph nodes",
+            "Inguinal lymph nodes"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Both axillary and internal mammary lymph nodes"
+        },
+        {
+          "question": "The retromammary space is located:",
+          "options": [
+            "Between the mammary gland and deep fascia covering the pectoralis major muscle",
+            "Between the skin and subcutaneous tissue",
+            "Between the subcutaneous tissue and mammary gland",
+            "Within the mammary gland itself",
+            "Between the pectoralis major and minor muscles"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Between the mammary gland and deep fascia covering the pectoralis major muscle"
+        },
+        {
+          "question": "Cooper's ligaments are:",
+          "options": [
+            "Fibrous connective tissue that support the breast",
+            "Lymphatic vessels",
+            "Blood vessels",
+            "Nerve fibers",
+            "Muscle fibers"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Fibrous connective tissue that support the breast"
+        },
+        {
+          "question": "The nipple is located at approximately the:",
+          "options": [
+            "Fourth intercostal space",
+            "Second intercostal space",
+            "Third intercostal space",
+            "Fifth intercostal space",
+            "Sixth intercostal space"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Fourth intercostal space"
+        },
+        {
+          "question": "The areola contains:",
+          "options": [
+            "All of the above",
+            "Sweat glands",
+            "Sebaceous glands",
+            "Modified apocrine glands",
+            "Only hair follicles"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: All of the above"
+        },
+        {
+          "question": "Lactiferous ducts:",
+          "options": [
+            "Carry milk from the lobules to the nipple",
+            "Carry blood to the breast",
+            "Carry lymph from the breast",
+            "Produce milk",
+            "Store milk"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Carry milk from the lobules to the nipple"
+        },
+        {
+          "question": "The functional unit of the breast is the:",
+          "options": [
+            "Lobule",
+            "Nipple",
+            "Areola",
+            "Lactiferous duct",
+            "Montgomery gland"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Lobule"
+        },
+        {
+          "question": "Montgomery glands are:",
+          "options": [
+            "Sebaceous glands in the areola",
+            "Lymph nodes",
+            "Blood vessels",
+            "Sweat glands",
+            "Milk-producing glands"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Sebaceous glands in the areola"
+        },
+        {
+          "question": "A simple mastectomy involves removal of:",
+          "options": [
+            "All breast tissue",
+            "Breast tissue and axillary lymph nodes",
+            "Breast tissue, axillary lymph nodes, and pectoralis muscles",
+            "Only the tumor",
+            "Only the nipple and areola"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: All breast tissue"
+        },
+        {
+          "question": "A modified radical mastectomy involves removal of:",
+          "options": [
+            "Breast tissue and axillary lymph nodes",
+            "All breast tissue",
+            "Breast tissue, axillary lymph nodes, and pectoralis muscles",
+            "Only the tumor",
+            "Only the nipple and areola"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Breast tissue and axillary lymph nodes"
+        },
+        {
+          "question": "A radical mastectomy involves removal of:",
+          "options": [
+            "Breast tissue, axillary lymph nodes, and pectoralis muscles",
+            "All breast tissue",
+            "Breast tissue and axillary lymph nodes",
+            "Only the tumor",
+            "Only the nipple and areola"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Breast tissue, axillary lymph nodes, and pectoralis muscles"
+        },
+        {
+          "question": "Breast conserving surgery (lumpectomy) involves removal of:",
+          "options": [
+            "Only the tumor and a small margin of surrounding tissue",
+            "All breast tissue",
+            "Breast tissue and axillary lymph nodes",
+            "Breast tissue, axillary lymph nodes, and pectoralis muscles",
+            "Only the nipple and areola"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Only the tumor and a small margin of surrounding tissue"
+        },
+        {
+          "question": "Sentinel lymph node biopsy is performed to:",
+          "options": [
+            "Identify the first lymph node(s) that receive drainage from the tumor",
+            "Remove all axillary lymph nodes",
+            "Remove the internal mammary lymph nodes",
+            "Prevent lymphedema",
+            "Treat lymphedema"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Identify the first lymph node(s) that receive drainage from the tumor"
+        },
+        {
+          "question": "Lymphedema after breast surgery is caused by:",
+          "options": [
+            "Disruption of lymphatic drainage",
+            "Damage to blood vessels",
+            "Damage to nerves",
+            "Infection",
+            "Scar tissue formation"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Disruption of lymphatic drainage"
+        },
+        {
+          "question": "The most common site of breast cancer is:",
+          "options": [
+            "Upper outer quadrant",
+            "Nipple",
+            "Areola",
+            "Lower outer quadrant",
+            "Lower inner quadrant"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Upper outer quadrant"
+        },
+        {
+          "question": "Peau d’orange appearance of the breast is a sign of:",
+          "options": [
+            "Inflammatory breast cancer",
+            "Benign cyst",
+            "Fibroadenoma",
+            "Mastitis",
+            "Fat necrosis"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Inflammatory breast cancer"
+        },
+        {
+          "question": "Nipple retraction can be a sign of:",
+          "options": [
+            "Breast cancer",
+            "Benign cyst",
+            "Fibroadenoma",
+            "Mastitis",
+            "Fat necrosis"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Breast cancer"
+        },
+        {
+          "question": "Paget’s disease of the nipple is a form of:",
+          "options": [
+            "Breast cancer",
+            "Benign skin condition",
+            "Bacterial infection",
+            "Fungal infection",
+            "Viral infection"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Breast cancer"
+        },
+        {
+          "question": "The axillary tail of Spence is:",
+          "options": [
+            "An extension of breast tissue into the axilla",
+            "A muscle",
+            "A ligament",
+            "A lymph node",
+            "A blood vessel"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: An extension of breast tissue into the axilla"
+        }
+      ]
+    },
+    "t-s-2-2-9": {
+      "situational": [
+        {
+          "question": "The bronchogram of a 45-year-old female smoker shows the presence of a tumor in the eparterial bronchus. Which airway is most likely blocked?",
+          "options": [
+            "Right superior bronchus",
+            "Left superior bronchus",
+            "Left inferior bronchus",
+            "Right middle bronchus",
+            "Right inferior bronchus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Right superior bronchus"
+        },
+        {
+          "question": "An 83-year-old man with a typical coronary circulation has been suffering from an embolism of the circumflex branch of the left coronary artery. This condition would result in ischemia of which of the following areas of the heart?",
+          "options": [
+            "Posterior part of the left ventricle",
+            "Anterior part of the left ventricle",
+            "Anterior interventricular region",
+            "Posterior interventricular region",
+            "Anterior part of the right ventricle"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Posterior part of the left ventricle"
+        },
+        {
+          "question": "A 44-year-old man with a stab wound was brought to the emergency department, and a physician found that the patient was suffering from a laceration of his right phrenic nerve. Which of the following conditions has likely occurred?",
+          "options": [
+            "Loss of sensation in the fibrous pericardium and mediastinal pleura",
+            "Injury to only GSE fiber",
+            "Difficulty in expiration",
+            "Normal function of the diaphragm",
+            "Loss of sensation in the costal part of the diaphragm"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Loss of sensation in the fibrous pericardium and mediastinal pleura"
+        },
+        {
+          "question": "An 8-year-old boy with ASD presents to a pediatrician. This congenital heart defect shunts blood from the left atrium to the right atrium and causes hypertrophy of the right atrium, right ventricle, and pulmonary trunk. Which of the following veins opens into the hypertrophied atrium?",
+          "options": [
+            "Anterior cardiac vein",
+            "Middle cardiac vein",
+            "Small cardiac vein",
+            "Oblique cardiac vein",
+            "Right pulmonary vein"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Anterior cardiac vein"
+        },
+        {
+          "question": "A 37-year-old patient with severe chest pain, shortness of breath, and congestive heart failure was admitted to a local hospital. His coronary angiograms reveal a thrombosis in the circumflex branch of the left coronary artery. Which of the following conditions could result from the blockage of blood flow in the circumflex branch?",
+          "options": [
+            "Mitral valve insufficiency",
+            "Tricuspid valve insufficiency",
+            "Ischemia of AV node",
+            "Paralysis of pectinate muscle",
+            "Necrosis of septomarginal trabecula"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Mitral valve insufficiency"
+        },
+        {
+          "question": "A 75-year-old patient has been suffering from lung cancer located near the cardiac notch, a deep indentation on the lung. Which of the following lobes is most likely to be excised?",
+          "options": [
+            "Superior lobe of the left lung",
+            "Superior lobe of the right lung",
+            "Middle lobe of the right lung",
+            "Inferior lobe of the right lung",
+            "Inferior lobe of the left lung"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Superior lobe of the left lung"
+        },
+        {
+          "question": "A thoracentesis is performed to aspirate an abnormal accumulation of fluid in a 37-yearold patient with pleural effusion. A needle should be inserted at the midaxillary line between which of the following two ribs so as to avoid puncturing the lung?",
+          "options": [
+            "Ribs 7 and 9",
+            "Ribs 1 and 3",
+            "Ribs 3 and 5",
+            "Ribs 5 and 7",
+            "Ribs 9 and 11"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Ribs 7 and 9"
+        },
+        {
+          "question": "A newborn baby is readmitted to the hospital with hypoxia and upon testing is found to have pulmonary stenosis, dextraposition of the aorta, interventricular septal defect, and hypertrophy of the right ventricle. Which of the following is best described by these symptoms?",
+          "options": [
+            "Tetralogy of Fallot",
+            "ASD",
+            "Patent ductus arteriosus",
+            "Aortic stenosis",
+            "Coarctation of the aorta"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Tetralogy of Fallot"
+        },
+        {
+          "question": "A 33-year-old patient is suffering from a sudden occlusion at the origin of the descending (thoracic) aorta. This condition would most likely decrease blood flow in which of the following intercostal arteries?",
+          "options": [
+            "Lower six posterior",
+            "Upper six anterior",
+            "All of the posterior",
+            "Upper two posterior",
+            "Lower anterior"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Lower six posterior"
+        },
+        {
+          "question": "A 56-year-old patient recently suffered a myocardial infarction in the area of the apex of the heart. The occlusion by atherosclerosis is in which of the following arteries?",
+          "options": [
+            "Anterior interventricular artery",
+            "Marginal artery",
+            "Right coronary artery at its origin",
+            "Posterior interventricular artery",
+            "Circumflex branch of the left coronary artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Anterior interventricular artery"
+        },
+        {
+          "question": "A 45-year-old woman presents with a tumor on fined to the posterior mediastinum. This could result in compression of which of the following structures?",
+          "options": [
+            "Descending aorta",
+            "Trachea",
+            "Arch of the aorta",
+            "Arch of the azygos vein",
+            "Phrenic nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Descending aorta"
+        },
+        {
+          "question": "A 62-year-old patient with pericardial effusion comes to a local hospital for aspiration of pericardial fluid by pericardiocentesis. The needle is inserted into the pericardial cavity through which of the following intercostal spaces adjacent to the sternum?",
+          "options": [
+            "Left fifth intercostal space",
+            "Right fourth intercostal space",
+            "Left fourth intercostal space",
+            "Right fifth intercostal space",
+            "Right sixth intercostal space"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Left fifth intercostal space"
+        },
+        {
+          "question": "A patient is involved in a motor vehicle accident and sustains a penetrating injury to the anterior chest wall near the sternal angle (angle of Louis). Which structure is MOST likely to be directly posterior to this landmark?",
+          "options": [
+            "The aortic arch",
+            "The superior vena cava",
+            "The trachea",
+            "The esophagus",
+            "The pulmonary trunk"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: The aortic arch"
+        },
+        {
+          "question": "A surgeon is performing a median sternotomy (splitting the sternum) to access the heart. Which structure is immediately posterior to the sternum and must be carefully avoided?",
+          "options": [
+            "The thymus (or remnants of it)",
+            "The trachea",
+            "The esophagus",
+            "The aortic arch",
+            "The superior vena cava"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: The thymus (or remnants of it)"
+        },
+        {
+          "question": "A patient presents with a goiter (enlargement of the thyroid gland). Which anatomical structure is at risk of compression due to this enlargement, potentially causing difficulty breathing?",
+          "options": [
+            "The trachea",
+            "The esophagus",
+            "The vagus nerve",
+            "The phrenic nerve",
+            "The internal jugular vein"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: The trachea"
+        },
+        {
+          "question": "A patient undergoes a thyroidectomy (removal of the thyroid gland). Postoperatively, they develop hoarseness. Which nerve is MOST likely injured during the procedure?",
+          "options": [
+            "Recurrent laryngeal nerve",
+            "Vagus nerve",
+            "Phrenic nerve",
+            "Hypoglossal nerve",
+            "Cervical sympathetic trunk"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Recurrent laryngeal nerve"
+        },
+        {
+          "question": "A central venous catheter is being inserted into the subclavian vein. Which other large vessel is in close proximity and could be inadvertently punctured if the procedure is not performed carefully?",
+          "options": [
+            "Subclavian artery",
+            "Internal jugular vein",
+            "External jugular vein",
+            "Brachiocephalic vein",
+            "Axillary vein"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Subclavian artery"
+        }
+      ],
+      "test": [
+        {
+          "question": "The pericardium is composed of:",
+          "options": [
+            "Fibrous and serous layers",
+            "Only a fibrous layer",
+            "Only a serous layer",
+            "Muscle tissue and connective tissue",
+            "Epithelial tissue only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Fibrous and serous layers"
+        },
+        {
+          "question": "The heart is located in the:",
+          "options": [
+            "Mediastinum",
+            "Pleural cavity",
+            "Abdominal cavity",
+            "Cranial cavity",
+            "Spinal cavity"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Mediastinum"
+        },
+        {
+          "question": "The apex of the heart is formed by the:",
+          "options": [
+            "Left ventricle",
+            "Right ventricle",
+            "Left atrium",
+            "Right atrium",
+            "Interventricular septum"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Left ventricle"
+        },
+        {
+          "question": "The coronary arteries arise from the:",
+          "options": [
+            "Ascending aorta",
+            "Aortic arch",
+            "Descending aorta",
+            "Pulmonary trunk",
+            "Superior vena cava"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Ascending aorta"
+        },
+        {
+          "question": "The sinoatrial (SA) node is located in the:",
+          "options": [
+            "Right atrium",
+            "Left atrium",
+            "Right ventricle",
+            "Left ventricle",
+            "Interatrial septum"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Right atrium"
+        },
+        {
+          "question": "The atrioventricular (AV) node is located in the:",
+          "options": [
+            "Interatrial septum",
+            "Right atrium",
+            "Left atrium",
+            "Right ventricle",
+            "Left ventricle"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Interatrial septum"
+        },
+        {
+          "question": "The mitral valve is located between the:",
+          "options": [
+            "Left atrium and left ventricle",
+            "Right atrium and right ventricle",
+            "Right atrium and pulmonary trunk",
+            "Left ventricle and aorta",
+            "Right ventricle and aorta"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Left atrium and left ventricle"
+        },
+        {
+          "question": "The tricuspid valve is located between the:",
+          "options": [
+            "Right atrium and right ventricle",
+            "Left atrium and left ventricle",
+            "Right atrium and pulmonary trunk",
+            "Left ventricle and aorta",
+            "Right ventricle and aorta"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Right atrium and right ventricle"
+        },
+        {
+          "question": "The pulmonary veins carry:",
+          "options": [
+            "Oxygenated blood to the left atrium",
+            "Deoxygenated blood to the right atrium",
+            "Oxygenated blood to the right atrium",
+            "Deoxygenated blood to the left atrium",
+            "Mixed blood to the left atrium"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Oxygenated blood to the left atrium"
+        },
+        {
+          "question": "The superior vena cava drains blood from the:",
+          "options": [
+            "Head, neck, and upper limbs",
+            "Abdomen and pelvis",
+            "Lower limbs",
+            "Lungs",
+            "Heart muscle"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Head, neck, and upper limbs"
+        },
+        {
+          "question": "The inferior vena cava drains blood from the:",
+          "options": [
+            "Abdomen, pelvis, and lower limbs",
+            "Head, neck, and upper limbs",
+            "Lungs",
+            "Heart muscle",
+            "Thoracic wall"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Abdomen, pelvis, and lower limbs"
+        },
+        {
+          "question": "The aortic arch gives rise to the:",
+          "options": [
+            "Brachiopcephalic trunk, left common carotid, and left subclavian arteries",
+            "Right and left coronary arteries",
+            "Pulmonary trunk and pulmonary arteries",
+            "Superior and inferior vena cavae",
+            "Azygos vein and hemiazygos vein"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Brachiopcephalic trunk, left common carotid, and left subclavian arteries"
+        },
+        {
+          "question": "The thyroid gland is located:",
+          "options": [
+            "Anterior to the trachea",
+            "Posterior to the trachea",
+            "Superior to the heart",
+            "Inferior to the diaphragm",
+            "Within the mediastinum"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Anterior to the trachea"
+        },
+        {
+          "question": "The thyroid gland produces:",
+          "options": [
+            "Thyroxine (T4) and triiodothyronine (T3)",
+            "Insulin and glucagon",
+            "Growth hormone",
+            "Adrenaline and noradrenaline",
+            "Cortisol and aldosterone"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Thyroxine (T4) and triiodothyronine (T3)"
+        },
+        {
+          "question": "The recurrent laryngeal nerves supply:",
+          "options": [
+            "Most of the muscles of the larynx",
+            "The diaphragm",
+            "The heart muscle",
+            "The thyroid gland",
+            "The esophagus"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Most of the muscles of the larynx"
+        },
+        {
+          "question": "The thymus gland is located in the:",
+          "options": [
+            "Superior mediastinum",
+            "Posterior mediastinum",
+            "Anterior mediastinum",
+            "Middle mediastinum",
+            "Inferior mediastinum"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Superior mediastinum"
+        },
+        {
+          "question": "The phrenic nerve innervates the:",
+          "options": [
+            "Diaphragm",
+            "Intercostal muscles",
+            "Abdominal muscles",
+            "Neck muscles",
+            "Heart muscle"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Diaphragm"
+        },
+        {
+          "question": "The thoracic duct drains lymph from:",
+          "options": [
+            "Most of the body",
+            "Right upper limb and right side of head and thorax",
+            "Left upper limb and left side of head and thorax",
+            "Only the abdominal organs",
+            "Only the lower limbs"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Most of the body"
+        },
+        {
+          "question": "The azygos venous system drains blood from the:",
+          "options": [
+            "Posterior thoracic and abdominal walls",
+            "Head and neck",
+            "Upper limbs",
+            "Lower limbs",
+            "Heart muscle"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Posterior thoracic and abdominal walls"
+        },
+        {
+          "question": "The great cardiac vein drains into the:",
+          "options": [
+            "Coronary sinus",
+            "Superior vena cava",
+            "Inferior vena cava",
+            "Right atrium directly",
+            "Left atrium directly"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Coronary sinus"
+        }
+      ]
+    },
+    "t-s-2-2-10": {
+      "situational": [
+        {
+          "question": "A 75-year-old woman was admitted to a local hospital, and bronchograms and radiographs revealed a lung carcinoma in her left lung. Which of the following structures or characteristics does the cancerous lung contain?",
+          "options": [
+            "Lingula",
+            "Horizontal fissure",
+            "Groove for superior vena cava (SVC)",
+            "Middle lobe",
+            "Larger capacity than the right"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Lingula"
+        },
+        {
+          "question": "An 18-year-old girl is thrust into the steering wheel while driving and experiences difficulty in expiration. Which of the following muscles is most likely damaged?",
+          "options": [
+            "Muscles of the abdominal wall",
+            "Levator costarum",
+            "Innermost intercostal muscle",
+            "External intercostal muscle",
+            "Diaphragm"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Muscles of the abdominal wall"
+        },
+        {
+          "question": "A 78-year-old patient presents with an advanced cancer in the posterior mediastinum. The surgeons are in a dilemma as to how to manage the condition. Which of the following structures is most likely damaged?",
+          "options": [
+            "Hemiazygos vein",
+            "Brachiocephalic veins",
+            "Trachea",
+            "Arch of the azygos vein",
+            "Arch of the aorta"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Hemiazygos vein"
+        },
+        {
+          "question": "A 46-year-old patient comes to his doctor’s office and complains of chest pain and headache. His computed tomography (CT) scan reveals a tumor located just superior to the root of the right lung. Blood flow in which of the following veins is most likely blocked by this tumor?",
+          "options": [
+            "Arch of the azygos vein",
+            "Hemiazygos vein",
+            "Right subclavian vein",
+            "Right brachiocephalic vein",
+            "Accessory hemiazygos vein"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Arch of the azygos vein"
+        },
+        {
+          "question": "A 21-year-old patient with a stab wound reveals a laceration of the right vagus nerve proximal to the origin of the recurrent laryngeal nerve. Which of the following conditions would most likely result from this lesion?",
+          "options": [
+            "Dilation of the bronchial lumen",
+            "Contraction of bronchial muscle",
+            "Stimulation of bronchial gland secretion",
+            "Decrease in cardiac rate",
+            "Constriction of coronary artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Dilation of the bronchial lumen"
+        },
+        {
+          "question": "A neonate appears severely cyanotic and breathing rapidly. Cardiac echocardiogram reveals that the aorta lies to the right of the pulmonary trunk. Which of the following is most likely occurred during development?",
+          "options": [
+            "AP septum failed to develop in a spiral fashion",
+            "Excessive resorption of septum primum",
+            "Pulmonary valve atresia",
+            "Persistent truncus arteriosus",
+            "Coarctation of the aorta"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: AP septum failed to develop in a spiral fashion"
+        },
+        {
+          "question": "A 12-year-old boy was admitted to a local hospital with a known history of heart problems. His left ventricular hypertrophy could result from which of the following conditions?",
+          "options": [
+            "Stenosis of the aorta",
+            "A constricted pulmonary trunk",
+            "An abnormally small left AV opening",
+            "Improper closing of the pulmonary valves",
+            "An abnormally large right AV opening"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Stenosis of the aorta"
+        },
+        {
+          "question": "A 31-year-old man was involved in a severe automobile accident and suffered laceration of the left primary bronchus. The damaged primary bronchus:",
+          "options": [
+            "Is longer than the right primary bronchus",
+            "Has a larger diameter than the right primary bronchus",
+            "Often receives more foreign bodies than the right primary bronchus",
+            "Gives rise to the eparterial bronchus",
+            "Runs under the arch of the azygos vein"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Is longer than the right primary bronchus"
+        },
+        {
+          "question": "A 62-year-old woman who is a heavy smoker has an advanced lung cancer that spread into her right third posterior intercostal space posterior to the midaxillary line. If cancer cells are carried in the venous drainage, they would travel first to which of the following veins?",
+          "options": [
+            "Right superior intercostal vein",
+            "SVC",
+            "Right brachiocephalic vein",
+            "Azygos vein",
+            "Hemiazygos vein"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Right superior intercostal vein"
+        },
+        {
+          "question": "A radiologist examines posterior–anterior chest radiographs of a 27-year-old victim of a car accident. Which of the following structures forms the right border of the cardiovascular silhouette?",
+          "options": [
+            "SVC",
+            "Arch of the aorta",
+            "Pulmonary trunk",
+            "Ascending aorta",
+            "Left ventricle"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: SVC"
+        },
+        {
+          "question": "A 37-year-old man is brought to the emergency department complaining of severe chest pain. His angiogram reveals thromboses of both brachiocephalic veins just before entering the superior vena cava. This condition would most likely cause a dilation of which of the following veins?",
+          "options": [
+            "Left superior intercostal",
+            "Azygos",
+            "Hemiazygos",
+            "Right superior intercostal",
+            "Internal thoracic"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Left superior intercostal"
+        },
+        {
+          "question": "A cardiologist is on clinical rounds with her medical students. She asks them, “During the cardiac cycle, which of the following events occurs?”",
+          "options": [
+            "Blood flow in coronary arteries is maximal during diastole",
+            "AV valves close during diastole",
+            "Aortic valve closes during systole",
+            "Pulmonary valve opens during diastole",
+            "Aortic valve closes at the same time as AVvalve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Blood flow in coronary arteries is maximal during diastole"
+        },
+        {
+          "question": "A patient presents with dysphagia (difficulty swallowing) and recurrent aspiration pneumonia. A CT scan reveals a mass in the posterior mediastinum compressing the esophagus. Which structure is MOST likely involved?",
+          "options": [
+            "Esophagus",
+            "Trachea",
+            "Descending thoracic aorta",
+            "Superior vena cava",
+            "Azygos vein"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Esophagus"
+        },
+        {
+          "question": "A patient undergoes a thoracic surgery and experiences postoperative hoarseness. Which nerve is MOST likely injured during the procedure, given its close relationship to the esophagus in the posterior mediastinum?",
+          "options": [
+            "Recurrent laryngeal nerve",
+            "Phrenic nerve",
+            "Vagus nerve",
+            "Intercostal nerves",
+            "Thoracic sympathetic trunk"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Recurrent laryngeal nerve"
+        },
+        {
+          "question": "A thoracic aortic aneurysm is discovered on a chest X-ray. This aneurysm involves which vessel located in the posterior mediastinum?",
+          "options": [
+            "Descending thoracic aorta",
+            "Ascending aorta",
+            "Aortic arch",
+            "Pulmonary trunk",
+            "Superior vena cava"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Descending thoracic aorta"
+        },
+        {
+          "question": "A patient undergoes a procedure involving the esophagus in the posterior mediastinum. Which nerve plexus, formed by branches of the vagus nerves, is closely associated with the esophageal wall and could be affected?",
+          "options": [
+            "Esophageal plexus",
+            "Cardiac plexus",
+            "Pulmonary plexus",
+            "Celiac plexus",
+            "Superior mesenteric plexus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Esophageal plexus"
+        },
+        {
+          "question": "A patient has a condition affecting venous drainage from the posterior thoracic and abdominal walls. Which venous system, located in the posterior mediastinum, is MOST likely involved?",
+          "options": [
+            "Azygos venous system (azygos, hemiazygos, and accessory hemiazygos veins)",
+            "Superior vena cava",
+            "Inferior vena cava",
+            "Pulmonary veins",
+            "Portal venous system"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Azygos venous system (azygos, hemiazygos, and accessory hemiazygos veins)"
+        }
+      ],
+      "test": [
+        {
+          "question": "The posterior mediastinum is located:",
+          "options": [
+            "Posterior to the pericardium",
+            "Anterior to the pericardium",
+            "Superior to the heart",
+            "Inferior to the diaphragm",
+            "Lateral to the lungs"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Posterior to the pericardium"
+        },
+        {
+          "question": "The esophagus begins at the level of:",
+          "options": [
+            "C6 vertebra",
+            "C4 vertebra",
+            "T1 vertebra",
+            "T4 vertebra",
+            "T10 vertebra"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: C6 vertebra"
+        },
+        {
+          "question": "The esophagus passes through the diaphragm at the:",
+          "options": [
+            "Esophageal hiatus",
+            "Aortic hiatus",
+            "Caval opening",
+            "Central tendon",
+            "Median arcuate ligament"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Esophageal hiatus"
+        },
+        {
+          "question": "The vagus nerves in the posterior mediastinum contribute to the:",
+          "options": [
+            "Esophageal plexus",
+            "Cardiac plexus",
+            "Pulmonary plexus",
+            "All of the above",
+            "Only the esophageal and cardiac plexuses"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Esophageal plexus"
+        },
+        {
+          "question": "The right vagus nerve gives rise to the:",
+          "options": [
+            "Posterior vagal trunk",
+            "Anterior vagal trunk",
+            "Left recurrent laryngeal nerve",
+            "Right recurrent laryngeal nerve",
+            "Phrenic nerve"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Posterior vagal trunk"
+        },
+        {
+          "question": "The left vagus nerve gives rise to the:",
+          "options": [
+            "Anterior vagal trunk",
+            "Posterior vagal trunk",
+            "Right recurrent laryngeal nerve",
+            "Left recurrent laryngeal nerve",
+            "Phrenic nerve"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Anterior vagal trunk"
+        },
+        {
+          "question": "The thoracic duct empties into the:",
+          "options": [
+            "Left subclavian vein",
+            "Right subclavian vein",
+            "Superior vena cava",
+            "Inferior vena cava",
+            "Azygos vein"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Left subclavian vein"
+        },
+        {
+          "question": "The azygos vein drains into the:",
+          "options": [
+            "Superior vena cava",
+            "Inferior vena cava",
+            "Right atrium",
+            "Left atrium",
+            "Brachiocephalic vein"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Superior vena cava"
+        },
+        {
+          "question": "The hemiazygos vein drains into the:",
+          "options": [
+            "Azygos vein",
+            "Superior vena cava",
+            "Inferior vena cava",
+            "Left renal vein",
+            "Right renal vein"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Azygos vein"
+        },
+        {
+          "question": "The accessory hemiazygos vein drains into the:",
+          "options": [
+            "Azygos vein",
+            "Superior vena cava",
+            "Inferior vena cava",
+            "Left renal vein",
+            "Right renal vein"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Azygos vein"
+        },
+        {
+          "question": "The descending thoracic aorta begins at the level of:",
+          "options": [
+            "T4 vertebra",
+            "T1 vertebra",
+            "C6 vertebra",
+            "T12 vertebra",
+            "L1 vertebra"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: T4 vertebra"
+        },
+        {
+          "question": "The thoracic aorta gives off the:",
+          "options": [
+            "Posterior intercostal arteries",
+            "Bronchial arteries",
+            "Esophageal arteries",
+            "All of the above",
+            "Only the posterior intercostal arteries"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Posterior intercostal arteries"
+        },
+        {
+          "question": "Esophageal varices are most commonly caused by:",
+          "options": [
+            "Portal hypertension",
+            "Pulmonary hypertension",
+            "Systemic hypertension",
+            "Aortic aneurysm",
+            "Esophageal stricture"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Portal hypertension"
+        },
+        {
+          "question": "A common surgical procedure for esophageal cancer is:",
+          "options": [
+            "Esophagectomy",
+            "Lobectomy",
+            "Pneumonectomy",
+            "Thoracotomy",
+            "Mediastinoscopy"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Esophagectomy"
+        },
+        {
+          "question": "A hiatal hernia involves protrusion of the:",
+          "options": [
+            "Stomach into the thorax",
+            "Lung into the mediastinum",
+            "Heart into the abdomen",
+            "Liver into the thorax",
+            "Spleen into the thorax"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Stomach into the thorax"
+        },
+        {
+          "question": "The nerve most at risk during esophageal surgery is the:",
+          "options": [
+            "Recurrent laryngeal nerve",
+            "Phrenic nerve",
+            "Vagus nerve",
+            "Intercostal nerve",
+            "Sympathetic trunk"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Recurrent laryngeal nerve"
+        },
+        {
+          "question": "The paravertebral sympathetic chain is located:",
+          "options": [
+            "Along the lateral aspect of the vertebral bodies",
+            "Anterior to the vertebral bodies",
+            "Posterior to the vertebral bodies",
+            "Within the vertebral canal",
+            "Within the intervertebral foramina"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Along the lateral aspect of the vertebral bodies"
+        },
+        {
+          "question": "The splanchnic nerves carry:",
+          "options": [
+            "Preganglionic sympathetic fibers",
+            "Postganglionic sympathetic fibers",
+            "Preganglionic parasympathetic fibers",
+            "Postganglionic parasympathetic fibers",
+            "Sensory fibers only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Preganglionic sympathetic fibers"
+        },
+        {
+          "question": "The cisterna chyli is located:",
+          "options": [
+            "At the beginning of the thoracic duct",
+            "At the end of the thoracic duct",
+            "Within the superior mediastinum",
+            "Within the anterior mediastinum",
+            "Within the middle mediastinum"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: At the beginning of the thoracic duct"
+        },
+        {
+          "question": "The posterior mediastinum contains:",
+          "options": [
+            "Esophagus, thoracic aorta, azygos venous system, vagus nerves, sympathetic trunks, thoracic duct",
+            "Heart, great vessels, trachea, primary bronchi",
+            "Thymus, lymph nodes, internal thoracic vessels",
+            "Lungs and pleura",
+            "Diaphragm only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Esophagus, thoracic aorta, azygos venous system, vagus nerves, sympathetic trunks, thoracic duct"
+        }
+      ]
+    },
+    "t-s-2-2-11": {
+      "situational": [
+        {
+          "question": "A 63-year-old man comes to the emergency department with back pain, weakness, and shortness of breath. On examination, he has an aneurysm of the abdominal aorta at the aortic hiatus of the diaphragm. Which of the following pairs of structures would most likely be compressed?",
+          "options": [
+            "Azygos vein and thoracic duct",
+            "Vagus nerve and azygos vein",
+            "Esophagus and vagus nerve",
+            "Thoracic duct and vagus nerve",
+            "Inferior vena cava (IVC) and phrenic nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Azygos vein and thoracic duct"
+        },
+        {
+          "question": "A 36-year-old woman with yellow pigmentation of the skin and sclerae presents at the outpatient clinic. Which of the following conditions most likely is the cause of her obstructive jaundice?",
+          "options": [
+            "Cancer in the head of the pancreas",
+            "Aneurysm of the splenic artery",
+            "Perforated ulcer of the stomach",
+            "Obstruction of the main pancreatic duct",
+            "Cancer in the body of the pancreas"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Cancer in the head of the pancreas"
+        },
+        {
+          "question": "A 2-year-old boy presents with pain in his groin that has been increasing in nature over the past few weeks. He is found to have a degenerative malformation of the transversalis fascia during development. Which of the following structures on the anterior abdominal wall is likely defective?",
+          "options": [
+            "Deep inguinal ring",
+            "Superficial inguinal ring",
+            "Inguinal ligament",
+            "Sac of a direct inguinal hernia",
+            "Anterior wall of the inguinal canal"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Deep inguinal ring"
+        },
+        {
+          "question": "A 29-year-old man comes to a local hospital with duodenal peptic ulcer and complains of cramping epigastric pain. Which of the following structures harbors the cell bodies of abdominal pain fibers?",
+          "options": [
+            "Dorsal root ganglion",
+            "Lateral horn of the spinal cord",
+            "Anterior horn of the spinal cord",
+            "Sympathetic chain ganglion",
+            "Celiac ganglion"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Dorsal root ganglion"
+        },
+        {
+          "question": "A 42-year-old obese woman with seven children is brought to a local hospital by her daughter. Physical examination and her radiograph reveal that large gallstones have ulcerated through the posterior wall of the fundus of the gallbladder into the intestine. Which of the following parts of the intestine is most likely to initially contain gallstones?",
+          "options": [
+            "Transverse colon",
+            "Cecum",
+            "Ascending colon",
+            "Descending colon",
+            "Sigmoid colon"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Transverse colon"
+        },
+        {
+          "question": "A 35-year-old woman comes to a local hospital with abdominal tenderness and acute pain. On examination, her physician observes that an abdominal infection has spread retroperitoneally. Which of the following structures is most likely affected?",
+          "options": [
+            "Descending colon",
+            "Stomach",
+            "Transverse colon",
+            "Jejunum",
+            "Spleen"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Descending colon"
+        },
+        {
+          "question": "During an annual health examination of a 46-year-old woman, a physician finds hypersecretion of norepinephrine from her suprarenal medulla. Which of the following types of nerve fibers are most likely overstimulated?",
+          "options": [
+            "Preganglionic sympathetic fibers",
+            "Postganglionic sympathetic fibers",
+            "Somatic motor fibers",
+            "Postganglionic parasympathetic fibers",
+            "Preganglionic parasympathetic fibers"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Preganglionic sympathetic fibers"
+        },
+        {
+          "question": "A 6-year-old girl comes to her pediatrician with constipation, abdominal distention, and vomiting. After thorough examination, she is diagnosed as having Hirschsprung disease (aganglionic megacolon), which is a congenital disease and leads to dilation of the colon. This condition is caused by an absence of which of the following kinds of neural cell bodies?",
+          "options": [
+            "Parasympathetic postganglionic neuron cell bodies",
+            "Sympathetic preganglionic neuron cell bodies",
+            "Sympathetic postganglionic neuron cell bodies",
+            "Parasympathetic preganglionic neuron cell bodies",
+            "Sensory neuron cell bodies"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Parasympathetic postganglionic neuron cell bodies"
+        },
+        {
+          "question": "A pediatric surgeon is resecting a possible malignant mass from the liver of a neonate with cerebral palsy. The surgeon divides the round ligament of the liver during surgery. A fibrous remnant of which of the following fetal vessels is severed?",
+          "options": [
+            "Left umbilical vein",
+            "Ductus venosus",
+            "Ductus arteriosus",
+            "Right umbilical vein",
+            "Umbilical artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Left umbilical vein"
+        },
+        {
+          "question": "A 27-year-old woman has suffered a gunshot wound to her midabdomen. After examining the patient’s angiogram, a trauma surgeon locates the source of bleeding from pairs of veins that typically terminate in the same vein. Which of the following veins are damaged?",
+          "options": [
+            "Left and right hepatic veins",
+            "Left and right ovarian veins",
+            "Left and right gastroepiploic veins",
+            "Left and right colic veins",
+            "Left and right suprarenal veins"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Left and right hepatic veins"
+        },
+        {
+          "question": "A 6-year-old boy comes to his pediatrician with a lump in the groin near the thigh and pain in the groin. On examination, the physician makes a diagnosis of a direct inguinal hernia because the herniated tissue:",
+          "options": [
+            "Develops after birth",
+            "Enters the deep inguinal ring",
+            "Lies lateral to the inferior epigastric artery",
+            "Is covered by spermatic fasciae",
+            "Descends into the scrotum"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Develops after birth"
+        },
+        {
+          "question": "A 21-year-old man developed a hernia after lifting heavy boxes while moving into his new house. During the repair of his resulting hernia, the urologist recalls that the genitofemoral nerve:",
+          "options": [
+            "Passes through the deep inguinal ring",
+            "Runs in front of the quadratus lumborum",
+            "Is a branch of the femoral nerve",
+            "Supplies the testis",
+            "Gives rise to an anterior scrotal branch"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Passes through the deep inguinal ring"
+        },
+        {
+          "question": "A patient presents with a bulge in the groin area that appears when they cough or strain. The bulge is located medial to the inferior epigastric vessels. This is MOST likely a/an:",
+          "options": [
+            "Direct inguinal hernia",
+            "Indirect inguinal hernia",
+            "Femoral hernia",
+            "Umbilical hernia",
+            "Epigastric hernia"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Direct inguinal hernia"
+        },
+        {
+          "question": "A patient develops a bulge in the groin area after heavy lifting. The bulge is located lateral to the inferior epigastric vessels. This is MOST likely a/an:",
+          "options": [
+            "Indirect inguinal hernia",
+            "Direct inguinal hernia",
+            "Femoral hernia",
+            "Umbilical hernia",
+            "Epigastric hernia"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Indirect inguinal hernia"
+        },
+        {
+          "question": "A female patient presents with a bulge in the upper thigh, just below the inguinal ligament. This type of hernia is MOST likely a/an:",
+          "options": [
+            "Femoral hernia",
+            "Inguinal hernia (direct or indirect)",
+            "Umbilical hernia",
+            "Epigastric hernia",
+            "Spigelian hernia"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Femoral hernia"
+        },
+        {
+          "question": "A patient has undergone abdominal surgery and develops a hernia at the site of the incision. This is known as a/an:",
+          "options": [
+            "Incisional hernia",
+            "Umbilical hernia",
+            "Epigastric hernia",
+            "Spigelian hernia",
+            "Hiatal hernia"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Incisional hernia"
+        },
+        {
+          "question": "During an inguinal hernia repair, the surgeon identifies the conjoint tendon. This structure is formed by the aponeuroses of which two muscles?",
+          "options": [
+            "Internal oblique and transversus abdominis",
+            "External oblique and internal oblique",
+            "Transversus abdominis and rectus abdominis",
+            "External oblique and transversalis fascia",
+            "Internal oblique and transversalis fascia"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Internal oblique and transversus abdominis"
+        }
+      ],
+      "test": [
+        {
+          "question": "The rectus abdominis muscle is enclosed within the:",
+          "options": [
+            "Rectus sheath",
+            "Transversalis fascia",
+            "External oblique aponeurosis",
+            "Internal oblique aponeurosis",
+            "Linea alba"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Rectus sheath"
+        },
+        {
+          "question": "The linea alba is formed by the aponeuroses of the:",
+          "options": [
+            "External oblique, internal oblique, and transversus abdominis",
+            "External oblique and internal oblique only",
+            "Internal oblique and transversus abdominis only",
+            "Rectus abdominis only",
+            "Transversus abdominis only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: External oblique, internal oblique, and transversus abdominis"
+        },
+        {
+          "question": "The inguinal ligament is formed by the free edge of the:",
+          "options": [
+            "External oblique aponeurosis",
+            "Internal oblique aponeurosis",
+            "Transversus abdominis aponeurosis",
+            "Rectus abdominis aponeurosis",
+            "Transversalis fascia"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: External oblique aponeurosis"
+        },
+        {
+          "question": "The superficial inguinal ring is an opening in the:",
+          "options": [
+            "External oblique aponeurosis",
+            "Internal oblique aponeurosis",
+            "Transversus abdominis aponeurosis",
+            "Transversalis fascia",
+            "Rectus sheath"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: External oblique aponeurosis"
+        },
+        {
+          "question": "The deep inguinal ring is an opening in the:",
+          "options": [
+            "Transversalis fascia",
+            "External oblique aponeurosis",
+            "Internal oblique aponeurosis",
+            "Transversus abdominis aponeurosis",
+            "Rectus sheath"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Transversalis fascia"
+        },
+        {
+          "question": "The inguinal canal contains the:",
+          "options": [
+            "Spermatic cord (males) or round ligament of the uterus (females)",
+            "Femoral artery and vein",
+            "Femoral nerve",
+            "Obturator nerve",
+            "Ilioinguinal nerve only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Spermatic cord (males) or round ligament of the uterus (females)"
+        },
+        {
+          "question": "The conjoint tendon is formed by the fusion of the aponeuroses of the:",
+          "options": [
+            "Internal oblique and transversus abdominis",
+            "External oblique and internal oblique",
+            "Transversus abdominis and rectus abdominis",
+            "External oblique and transversalis fascia",
+            "Internal oblique and transversalis fascia"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Internal oblique and transversus abdominis"
+        },
+        {
+          "question": "A direct inguinal hernia protrudes through:",
+          "options": [
+            "Hesselbach's triangle",
+            "The deep inguinal ring",
+            "The superficial inguinal ring",
+            "The femoral canal",
+            "The linea alba"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Hesselbach's triangle"
+        },
+        {
+          "question": "An indirect inguinal hernia protrudes through:",
+          "options": [
+            "The deep inguinal ring",
+            "Hesselbach's triangle",
+            "The superficial inguinal ring",
+            "The femoral canal",
+            "The linea alba"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: The deep inguinal ring"
+        },
+        {
+          "question": "A femoral hernia protrudes through the:",
+          "options": [
+            "Femoral canal",
+            "Inguinal canal",
+            "Umbilicus",
+            "Linea alba",
+            "Hesselbach's triangle"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Femoral canal"
+        },
+        {
+          "question": "An umbilical hernia occurs at the:",
+          "options": [
+            "Umbilicus",
+            "Inguinal region",
+            "Epigastric region",
+            "Linea alba above the umbilicus",
+            "Linea alba below the umbilicus"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Umbilicus"
+        },
+        {
+          "question": "An epigastric hernia occurs through the:",
+          "options": [
+            "Linea alba between the xiphoid process and umbilicus",
+            "Umbilicus",
+            "Inguinal region",
+            "Femoral canal",
+            "Hesselbach's triangle"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Linea alba between the xiphoid process and umbilicus"
+        },
+        {
+          "question": "A Spigelian hernia occurs along the:",
+          "options": [
+            "Semilunar line (lateral border of the rectus sheath)",
+            "Linea alba",
+            "Inguinal ligament",
+            "Umbilicus",
+            "Femoral canal"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Semilunar line (lateral border of the rectus sheath)"
+        },
+        {
+          "question": "The transversalis fascia is located:",
+          "options": [
+            "Deep to the transversus abdominis muscle",
+            "Superficial to the transversus abdominis muscle",
+            "Between the external and internal oblique muscles",
+            "Superficial to the external oblique muscle",
+            "Deep to the internal oblique muscle"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Deep to the transversus abdominis muscle"
+        },
+        {
+          "question": "The cremaster muscle is derived from the:",
+          "options": [
+            "Internal oblique muscle",
+            "External oblique muscle",
+            "Transversus abdominis muscle",
+            "Rectus abdominis muscle",
+            "Transversalis fascia"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Internal oblique muscle"
+        },
+        {
+          "question": "The ilioinguinal nerve provides sensory innervation to the:",
+          "options": [
+            "Skin of the groin and medial thigh",
+            "Muscles of the anterior abdominal wall",
+            "Peritoneum",
+            "Viscera",
+            "Scrotum/labia majora and adjacent medial thigh"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Skin of the groin and medial thigh"
+        },
+        {
+          "question": "The nerve at risk of injury during inguinal hernia repair is the:",
+          "options": [
+            "Ilioinguinal nerve",
+            "Femoral nerve",
+            "Obturator nerve",
+            "Genitofemoral nerve",
+            "Lateral femoral cutaneous nerve"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Ilioinguinal nerve"
+        },
+        {
+          "question": "The Bassini repair is a surgical technique for:",
+          "options": [
+            "Inguinal hernias",
+            "Umbilical hernias",
+            "Femoral hernias",
+            "Epigastric hernias",
+            "Incisional hernias"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Inguinal hernias"
+        },
+        {
+          "question": "The Lichtenstein repair uses a:",
+          "options": [
+            "Mesh patch",
+            "Primary suture repair",
+            "Muscle flap",
+            "Peritoneal flap",
+            "Skin graft"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Mesh patch"
+        },
+        {
+          "question": "A laparoscopic approach to hernia repair involves:",
+          "options": [
+            "Small incisions and specialized instruments",
+            "Large abdominal incision",
+            "Thoracotomy",
+            "Combined abdominal and thoracic incisions",
+            "Retroperitoneal approach"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Small incisions and specialized instruments"
+        }
+      ]
+    },
+    "t-s-2-2-12": {
+      "situational": [
+        {
+          "question": "A physical fitness trainer for a young Hollywood movie star explains the reasons for 100 stomach crunches a day. The young star, a medical student before ‘hitting it big,’ reaffirms to his trainer that the lateral margin of the rectus abdominis, the muscle responsible for a washboard stomach, defines which of the following structures?",
+          "options": [
+            "Linea semilunaris",
+            "Linea alba",
+            "Linea circularis",
+            "Transversalis fascia",
+            "Falx inguinalis"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Linea semilunaris"
+        },
+        {
+          "question": "During surgical treatment of portal hypertension in a 59-year-old man with liver cirrhosis, a surgeon inadvertently lacerates the dilated paraumbilical veins. The veins must be repaired to allow collateral flow. Which of the following ligaments is most likely severed?",
+          "options": [
+            "Ligamentum teres hepatis",
+            "Lienorenal ligament",
+            "Lienogastric ligament",
+            "Gastrophrenic ligament",
+            "Ligamentum venosum"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Ligamentum teres hepatis"
+        },
+        {
+          "question": "A 43-year-old woman is admitted to the hospital because of deep abdominal pain in her epigastric region. On examination, it is observed that a retroperitoneal infection erodes an artery that runs along the superior border of the pancreas. Which of the following arteries is likely injured?",
+          "options": [
+            "Splenic artery",
+            "Right gastric artery",
+            "Left gastroepiploic artery",
+            "Gastroduodenal artery",
+            "Dorsal pancreatic artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Splenic artery"
+        },
+        {
+          "question": "A 19-year-old young woman with a long history of irritable bowel syndrome presents for the possibility of surgical resection of the gastrointestinal (GI) tract where the vagal parasympathetic innervation terminates. Which of the following sites is most appropriate for surgical resection?",
+          "options": [
+            "Left colic flexure",
+            "Duodenojejunal junction",
+            "Ileocecal junction",
+            "Right colic flexure",
+            "Anorectal junction"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Left colic flexure"
+        },
+        {
+          "question": "A 58-year-old man is admitted to the hospital with severe abdominal pain, nausea, and vomiting resulting in dehydration. Emergency CT scan reveals a tumor located between the celiac trunk and the superior mesenteric artery. Which of the following structures is likely compressed by this tumor?",
+          "options": [
+            "Neck of the pancreas",
+            "Fundus of the stomach",
+            "Transverse colon",
+            "Hepatopancreatic ampulla",
+            "Duodenojejunal junction"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Neck of the pancreas"
+        },
+        {
+          "question": "An emergent hernia repair is scheduled. As the attending physician is driving to the hospital, the medical student assisting on the case quickly reviews his anatomy atlas and is trying to commit to memory that the internal oblique abdominis muscle contributes to the formation of which of the following structures?",
+          "options": [
+            "Falx inguinalis (conjoint tendon",
+            "Inguinal ligament",
+            "Deep inguinal ring",
+            "Internal spermatic fascia",
+            "Reflected inguinal ligament"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Falx inguinalis (conjoint tendon"
+        },
+        {
+          "question": "A 9-year-old girl has crashed into her neighbor’s brick fence while riding her bike and is brought to the emergency department with a great deal of abdominal pain. Her radiogram and angiogram show laceration of the superior mesenteric artery immediately distal to the origin of the middle colic artery. If collateral circulation is discounted, which of the following organs may become ischemic?",
+          "options": [
+            "Ascending colon",
+            "Descending colon",
+            "Duodenum",
+            "Pancreas",
+            "Transverse colon"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Ascending colon"
+        },
+        {
+          "question": "A 53-year-old woman with known kidney disease presents to a hospital because her pain has become increasingly more severe. A physician performing kidney surgery must remember that:",
+          "options": [
+            "The left renal vein runs anterior to both the aorta and the left renal artery",
+            "The left kidney lies a bit lower than the right one",
+            "The perirenal fat lies external to the renal fascia",
+            "The renal fascia does not surround the suprarenal gland",
+            "The right renal artery is shorter than the left renal artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: The left renal vein runs anterior to both the aorta and the left renal artery"
+        },
+        {
+          "question": "A neonatal baby was born with diabetes mellitus due to an inadequate production of insulin. Cells in the endocrine portion of the pancreas that secrete insulin, glucagon, and somatostatin are derived from which of the following?",
+          "options": [
+            "Endoderm",
+            "Ectoderm",
+            "Mesoderm",
+            "Proctodeum",
+            "Neural crest cells"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Endoderm"
+        },
+        {
+          "question": "During development, the midgut artery appears to be markedly narrowed at its origin. Which of the following structures is derived from the midgut and may receive inadequate blood supply?",
+          "options": [
+            "Ascending colon",
+            "Gallbladder",
+            "Stomach",
+            "Descending colon",
+            "Rectum"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Ascending colon"
+        },
+        {
+          "question": "A 3-year-old boy is admitted to the children’s hospital with complaints of restlessness, abdominal pain, and fever. An MRI examination reveals that he has a double ureter. Which of the following embryonic structures is most likely failed to develop normally?",
+          "options": [
+            "Ureteric bud",
+            "Mesonephric (Wolffian) duct",
+            "Paramesonephric (Müllerian) duct",
+            "Metanephros",
+            "Pronephros"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Ureteric bud"
+        },
+        {
+          "question": "A neonate has a small reducible protrusion through a defined ring at the umbilicus. His pediatrician indicates to the parents that this will likely close spontaneously. Which of the following congenital malformations is present?",
+          "options": [
+            "Umbilical hernia",
+            "Symptomatic patent urachus",
+            "Patent omphalomesenteric duct",
+            "Omphalocele",
+            "Gastroschisi"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Umbilical hernia"
+        },
+        {
+          "question": "A patient with severe esophageal stricture is unable to eat orally. A surgical procedure is performed to create an opening into the stomach for feeding. This procedure is called a:",
+          "options": [
+            "Gastrostomy",
+            "Cholecystostomy",
+            "Jejunostomy",
+            "Ileostomy",
+            "Esophagectomy"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Gastrostomy"
+        },
+        {
+          "question": "A patient undergoes a partial gastrectomy for gastric cancer. A Billroth I procedure is performed, which involves:",
+          "options": [
+            "Anastomosis of the remaining stomach to the duodenum",
+            "Anastomosis of the remaining stomach to the jejunum",
+            "Removal of the entire stomach",
+            "Removal of the duodenum",
+            "Creation of a new esophagus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Anastomosis of the remaining stomach to the duodenum"
+        },
+        {
+          "question": "A patient develops severe postprandial dumping syndrome after a gastrectomy. This syndrome is characterized by:",
+          "options": [
+            "Rapid emptying of gastric contents into the small intestine",
+            "Delayed gastric emptying",
+            "Obstruction of the pylorus",
+            "Inflammation of the gastric mucosa",
+            "Perforation of the stomach"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Rapid emptying of gastric contents into the small intestine"
+        },
+        {
+          "question": "A surgeon is performing a laparoscopic gastrostomy. The endoscope is inserted through the abdominal wall to visualize the stomach and guide the placement of the feeding tube. The initial puncture site is typically in the:",
+          "options": [
+            "Left upper quadrant",
+            "Right upper quadrant",
+            "Left lower quadrant",
+            "Right lower quadrant",
+            "Epigastric region"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Left upper quadrant"
+        },
+        {
+          "question": "A patient presents with a perforated gastric ulcer in the anterior wall of the stomach. Which anatomical structure is MOST likely to be involved in the resulting peritonitis?",
+          "options": [
+            "Greater omentum",
+            "Lesser omentum",
+            "Transverse mesocolon",
+            "Root of the mesentery",
+            "Retroperitoneal space"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Greater omentum"
+        }
+      ],
+      "test": [
+        {
+          "question": "The stomach is located primarily in the:",
+          "options": [
+            "Left upper quadrant of the abdomen",
+            "Right upper quadrant of the abdomen",
+            "Left lower quadrant of the abdomen",
+            "Right lower quadrant of the abdomen",
+            "Epigastric region only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Left upper quadrant of the abdomen"
+        },
+        {
+          "question": "The cardia of the stomach is located at the level of:",
+          "options": [
+            "T11 vertebra",
+            "T8 vertebra",
+            "T10 vertebra",
+            "L1 vertebra",
+            "L2 vertebra"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: T11 vertebra"
+        },
+        {
+          "question": "The pylorus of the stomach is located at the level of:",
+          "options": [
+            "L1 vertebra",
+            "T10 vertebra",
+            "T12 vertebra",
+            "L3 vertebra",
+            "S1 vertebra"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: L1 vertebra"
+        },
+        {
+          "question": "The fundus of the stomach is located:",
+          "options": [
+            "Superior to the esophageal opening",
+            "Inferior to the esophageal opening",
+            "Anterior to the pylorus",
+            "Posterior to the pylorus",
+            "Medial to the body"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Superior to the esophageal opening"
+        },
+        {
+          "question": "The greater curvature of the stomach is located:",
+          "options": [
+            "Laterally",
+            "Medially",
+            "Anteriorly",
+            "Posteriorly",
+            "Superiorly"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Laterally"
+        },
+        {
+          "question": "The lesser curvature of the stomach is located:",
+          "options": [
+            "Medially",
+            "Laterally",
+            "Anteriorly",
+            "Posteriorly",
+            "Inferiorly"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Medially"
+        },
+        {
+          "question": "The stomach receives its blood supply primarily from the:",
+          "options": [
+            "Celiac trunk",
+            "Superior mesenteric artery",
+            "Inferior mesenteric artery",
+            "Splenic artery only",
+            "Hepatic artery only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Celiac trunk"
+        },
+        {
+          "question": "The stomach drains its venous blood into the:",
+          "options": [
+            "Portal vein",
+            "Inferior vena cava",
+            "Superior vena cava",
+            "Hepatic veins",
+            "Splenic vein only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Portal vein"
+        },
+        {
+          "question": "The stomach is innervated by the:",
+          "options": [
+            "Vagus nerves and celiac plexus",
+            "Phrenic nerve",
+            "Intercostal nerves",
+            "Lumbar plexus",
+            "Sacral plexus"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Vagus nerves and celiac plexus"
+        },
+        {
+          "question": "The gastric rugae are:",
+          "options": [
+            "Folds in the gastric mucosa",
+            "Folds in the gastric serosa",
+            "Muscle layers of the stomach",
+            "Lymphatic vessels of the stomach",
+            "Blood vessels of the stomach"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Folds in the gastric mucosa"
+        },
+        {
+          "question": "A hiatal hernia involves protrusion of the:",
+          "options": [
+            "Stomach into the thoracic cavity",
+            "Small intestine into the inguinal canal",
+            "Large intestine into the pelvis",
+            "Liver into the thoracic cavity",
+            "Spleen into the abdominal wall"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Stomach into the thoracic cavity"
+        },
+        {
+          "question": "A paraesophageal hernia involves:",
+          "options": [
+            "The fundus of the stomach herniating alongside the esophagus",
+            "Only the esophagus herniating through the diaphragm",
+            "Only the cardia herniating through the diaphragm",
+            "The entire stomach herniating into the thorax",
+            "The small intestine herniating into the thorax"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: The fundus of the stomach herniating alongside the esophagus"
+        },
+        {
+          "question": "A sliding hiatal hernia involves:",
+          "options": [
+            "The cardia and fundus sliding into the thorax",
+            "Only the fundus sliding into the thorax",
+            "Only the cardia sliding into the thorax",
+            "The entire stomach sliding into the thorax",
+            "The small intestine sliding into the thorax"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: The cardia and fundus sliding into the thorax"
+        },
+        {
+          "question": "Gastrostomy is a surgical procedure that creates an opening into the:",
+          "options": [
+            "Stomach",
+            "Duodenum",
+            "Jejunum",
+            "Ileum",
+            "Esophagus"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Stomach"
+        },
+        {
+          "question": "A percutaneous endoscopic gastrostomy (PEG) is performed:",
+          "options": [
+            "Through the abdominal wall using an endoscope",
+            "Through a large abdominal incision",
+            "Through the chest wall",
+            "Through the rectum",
+            "Through the urethra"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Through the abdominal wall using an endoscope"
+        },
+        {
+          "question": "A partial gastrectomy involves removal of:",
+          "options": [
+            "Part of the stomach",
+            "The entire stomach",
+            "The duodenum",
+            "The esophagus",
+            "The spleen"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Part of the stomach"
+        },
+        {
+          "question": "A total gastrectomy involves removal of:",
+          "options": [
+            "The entire stomach",
+            "Part of the stomach",
+            "The duodenum and part of the stomach",
+            "The esophagus and part of the stomach",
+            "Only the pylorus"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: The entire stomach"
+        },
+        {
+          "question": "A Billroth I gastrectomy involves:",
+          "options": [
+            "Anastomosis of the stomach to the duodenum",
+            "Anastomosis of the stomach to the jejunum",
+            "Removal of the duodenum",
+            "Removal of the esophagus",
+            "Removal of the spleen"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Anastomosis of the stomach to the duodenum"
+        },
+        {
+          "question": "A Billroth II gastrectomy involves:",
+          "options": [
+            "Anastomosis of the stomach to the jejunum",
+            "Anastomosis of the stomach to the duodenum",
+            "Removal of the duodenum",
+            "Removal of the esophagus",
+            "Removal of the spleen"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Anastomosis of the stomach to the jejunum"
+        },
+        {
+          "question": "Dumping syndrome is a potential complication of:",
+          "options": [
+            "Gastrectomy",
+            "Cholecystectomy",
+            "Appendectomy",
+            "Hernia repair",
+            "Liver transplantation"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Gastrectomy"
+        }
+      ]
+    },
+    "t-s-2-2-13": {
+      "situational": [
+        {
+          "question": "A 35-year-old woman with a history of cholecystectomy arrives in the emergency department with intractable hiccups most likely caused by an abdominal abscess secondary to surgical infection. Which of the following nerves carries pain sensation caused by irritation of the peritoneum on the central portion of the inferior surface of the diaphragm?",
+          "options": [
+            "Phrenic nerve",
+            "Vagus nerve",
+            "Lower intercostal nerve",
+            "Greater splanchnic nerve",
+            "Subcostal nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Phrenic nerve"
+        },
+        {
+          "question": "A 16-year-old boy with a ruptured spleen comes to the emergency department for splenectomy. Soon after ligation of the splenic artery just distal to its origin, a resident observes that the patient is healing normally. Normal blood flow would occur in which of the following arteries?",
+          "options": [
+            "Inferior pancreaticoduodenal artery",
+            "Short gastric arteries",
+            "Dorsal pancreatic artery",
+            "Left gastroepiploic artery",
+            "Artery in the lienorenal ligament"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Inferior pancreaticoduodenal artery"
+        },
+        {
+          "question": "A 9-year-old boy was admitted to the emergency department complaining of nausea, vomiting, fever, and loss of appetite. On examination, he was found to have tenderness and pain on the right lower quadrant. Based on signs and symptoms, the diagnosis of acute appendicitis was made. During an appendectomy performed at McBurney point, which of the following structures is most likely to be injured?",
+          "options": [
+            "Iliohypogastric nerve",
+            "Deep circumflex femoral artery",
+            "Inferior epigastric artery",
+            "Genitofemoral nerve",
+            "Spermatic cord"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Iliohypogastric nerve"
+        },
+        {
+          "question": "A 54-year-old man with a long history of alcohol abuse presents to the emergency department with rapidly increasing abdominal distention most likely resulting from an alteration in portal systemic blood flow. Which of the following characteristics is associated with the portal vein or the portal venous system?",
+          "options": [
+            "Caput medusae and hemorrhoids caused by portal hypertension",
+            "Lower blood pressure than in the IVC",
+            "Least risk of venous varices because of portal hypertension",
+            "Less blood flow than in the hepatic artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Caput medusae and hemorrhoids caused by portal hypertension"
+        },
+        {
+          "question": "While examining radiographs and angiograms of a 52-year-old patient, a physician is trying to distinguish the jejunum from the ileum. He has observed that the jejunum has:",
+          "options": [
+            "Fewer mesenteric arterial arcades",
+            "Fewer plicae circulares",
+            "Less digestion and absorption of nutrients",
+            "Shorter vasa recta",
+            "More fat in its mesentery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Fewer mesenteric arterial arcades"
+        },
+        {
+          "question": "A 67-year-old woman with a long history of liver cirrhosis was seen in the emergency department. In this patient with portal hypertension, which of the following veins is most likely to be dilated?",
+          "options": [
+            "Right colic vein",
+            "Inferior epigastric vein",
+            "Inferior phrenic vein",
+            "Suprarenal vein",
+            "Ovarian vein"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Right colic vein"
+        },
+        {
+          "question": "A 26-year-old patient is admitted to a local hospital with a retroperitoneal infection. Which of the following arteries is most likely to be infected?",
+          "options": [
+            "Dorsal pancreatic artery",
+            "Left gastric artery",
+            "Proper hepatic artery",
+            "Middle colic artery",
+            "Sigmoid arteries"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Dorsal pancreatic artery"
+        },
+        {
+          "question": "A pediatric surgeon has resected a structure that is a fibrous remnant of an embryonic or fetal artery in a 5-year-old child. Which of the following structures is most likely to be divided?",
+          "options": [
+            "Medial umbilical fold",
+            "Lateral umbilical fold",
+            "Median umbilical fold",
+            "Ligamentum teres hepatis",
+            "Ligamentum venosum"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Medial umbilical fold"
+        },
+        {
+          "question": "A 57-year-old patient has a tumor in the body of the pancreas that obstructs the inferior mesenteric vein just before joining the splenic vein. Which of the following veins is most likely to be enlarged?",
+          "options": [
+            "Left colic vein",
+            "Middle colic vein",
+            "Left gastroepiploic vein",
+            "Inferior pancreaticoduodenal vein",
+            "Ileocolic vein"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Left colic vein"
+        },
+        {
+          "question": "An elderly man with prostatic hypertrophy returns to his urologist with another case of epididymitis. An acute infection involving the dartos muscle layer of the scrotum most likely leads to an enlargement of which of the following lymph nodes?",
+          "options": [
+            "Superficial inguinal nodes",
+            "Preaortic nodes",
+            "Lumbar nodes",
+            "External iliac nodes",
+            "Common iliac nodes"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Superficial inguinal nodes"
+        },
+        {
+          "question": "A 3-year-old boy is diagnosed as having a persistent processus vaginalis in its middle portion. Which of the following conditions is most likely to be associated with this developmental anomaly?",
+          "options": [
+            "Hydrocele",
+            "Direct inguinal hernia",
+            "Gubernaculum testis",
+            "Hematocele",
+            "Cryptorchidism"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Hydrocele"
+        },
+        {
+          "question": "Examination of a 54-year-old man reveals an isolated tumor located at the porta hepatis. This tumor most likely compresses which of the following structures?",
+          "options": [
+            "Branches of the portal vein",
+            "Cystic duct",
+            "Hepatic veins",
+            "Common hepatic artery",
+            "Left gastric artery"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Branches of the portal vein"
+        },
+        {
+          "question": "A patient presents with right upper quadrant pain that radiates to the right shoulder. This pain is MOST likely due to pathology of the:",
+          "options": [
+            "Gallbladder",
+            "Spleen",
+            "Liver",
+            "Stomach",
+            "Pancreas"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Gallbladder"
+        },
+        {
+          "question": "A patient is diagnosed with cirrhosis of the liver. This condition primarily affects the:",
+          "options": [
+            "Hepatocytes (liver cells)",
+            "Gallbladder",
+            "Spleen",
+            "Pancreas",
+            "Bile ducts"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Hepatocytes (liver cells)"
+        },
+        {
+          "question": "A patient has a history of portal hypertension. Which organ is directly involved in this condition due to its role in receiving blood from the gastrointestinal tract?",
+          "options": [
+            "Liver",
+            "Gallbladder",
+            "Spleen",
+            "Pancreas",
+            "Kidneys"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Liver"
+        },
+        {
+          "question": "A patient presents with left upper quadrant pain and tenderness after a blunt abdominal trauma. Which organ is MOST likely injured?",
+          "options": [
+            "Spleen",
+            "Liver",
+            "Gallbladder",
+            "Stomach",
+            "Pancreas"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Spleen"
+        },
+        {
+          "question": "A physician is palpating the abdomen. Under normal circumstances, the spleen is:",
+          "options": [
+            "Not palpable",
+            "Easily palpable in the right upper quadrant",
+            "Palpable in the left lower quadrant",
+            "Palpable below the xiphoid process",
+            "Palpable in the midline of the abdomen"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Not palpable"
+        }
+      ],
+      "test": [
+        {
+          "question": "The liver is located primarily in the:",
+          "options": [
+            "Right upper quadrant of the abdomen",
+            "Left upper quadrant of the abdomen",
+            "Right lower quadrant of the abdomen",
+            "Left lower quadrant of the abdomen",
+            "Epigastric region only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Right upper quadrant of the abdomen"
+        },
+        {
+          "question": "The liver receives blood supply from the:",
+          "options": [
+            "Hepatic artery and portal vein",
+            "Hepatic artery only",
+            "Portal vein only",
+            "Superior mesenteric artery",
+            "Inferior mesenteric artery"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Hepatic artery and portal vein"
+        },
+        {
+          "question": "The portal vein carries blood from the:",
+          "options": [
+            "Gastrointestinal tract and spleen",
+            "Liver to the inferior vena cava",
+            "Heart to the liver",
+            "Kidneys to the liver",
+            "Lungs to the liver"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Gastrointestinal tract and spleen"
+        },
+        {
+          "question": "Bile is produced by:",
+          "options": [
+            "Hepatocytes (liver cells)",
+            "Gallbladder",
+            "Pancreas",
+            "Spleen",
+            "Duodenum"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Hepatocytes (liver cells)"
+        },
+        {
+          "question": "Bile is stored in the:",
+          "options": [
+            "Gallbladder",
+            "Liver",
+            "Pancreas",
+            "Spleen",
+            "Duodenum"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Gallbladder"
+        },
+        {
+          "question": "The common bile duct is formed by the union of the:",
+          "options": [
+            "Cystic duct and common hepatic duct",
+            "Hepatic duct and pancreatic duct",
+            "Cystic duct and pancreatic duct",
+            "Hepatic artery and portal vein",
+            "Hepatic vein and portal vein"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Cystic duct and common hepatic duct"
+        },
+        {
+          "question": "The common bile duct empties into the:",
+          "options": [
+            "Duodenum (second part)",
+            "Stomach",
+            "Jejunum",
+            "Ileum",
+            "Colon"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Duodenum (second part)"
+        },
+        {
+          "question": "The sphincter of Oddi controls the flow of:",
+          "options": [
+            "Bile and pancreatic juice into the duodenum",
+            "Blood into the liver",
+            "Blood from the liver",
+            "Gastric contents into the duodenum",
+            "Intestinal contents into the colon"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Bile and pancreatic juice into the duodenum"
+        },
+        {
+          "question": "The gallbladder’s primary function is:",
+          "options": [
+            "Storing and concentrating bile",
+            "Producing bile",
+            "Filtering blood",
+            "Producing digestive enzymes",
+            "Storing glycogen"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Storing and concentrating bile"
+        },
+        {
+          "question": "Cholecystitis is inflammation of the:",
+          "options": [
+            "Gallbladder",
+            "Liver",
+            "Pancreas",
+            "Spleen",
+            "Duodenum"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Gallbladder"
+        },
+        {
+          "question": "Cholelithiasis refers to the presence of:",
+          "options": [
+            "Gallstones",
+            "Liver cysts",
+            "Pancreatic stones",
+            "Splenic rupture",
+            "Duodenal ulcers"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Gallstones"
+        },
+        {
+          "question": "The spleen is located in the:",
+          "options": [
+            "Left upper quadrant of the abdomen",
+            "Right upper quadrant of the abdomen",
+            "Left lower quadrant of the abdomen",
+            "Right lower quadrant of the abdomen",
+            "Epigastric region"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Left upper quadrant of the abdomen"
+        },
+        {
+          "question": "The spleen's primary functions include:",
+          "options": [
+            "Filtering blood and removing old red blood cells",
+            "Producing bile",
+            "Storing glycogen",
+            "Producing digestive enzymes",
+            "Detoxifying blood"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Filtering blood and removing old red blood cells"
+        },
+        {
+          "question": "The splenic artery is a branch of the:",
+          "options": [
+            "Celiac trunk",
+            "Superior mesenteric artery",
+            "Inferior mesenteric artery",
+            "Abdominal aorta directly",
+            "Renal artery"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Celiac trunk"
+        },
+        {
+          "question": "The splenic vein drains into the:",
+          "options": [
+            "Portal vein",
+            "Inferior vena cava",
+            "Superior mesenteric vein",
+            "Hepatic vein",
+            "Renal vein"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Portal vein"
+        },
+        {
+          "question": "Liver stitches (sutures) are used to:",
+          "options": [
+            "Control bleeding after liver injury or surgery",
+            "Repair the gallbladder",
+            "Repair the spleen",
+            "Repair the pancreas",
+            "Repair the bile duct"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Control bleeding after liver injury or surgery"
+        },
+        {
+          "question": "Liver transplantation is a treatment option for:",
+          "options": [
+            "End-stage liver disease",
+            "Gallstones",
+            "Splenic rupture",
+            "Pancreatitis",
+            "Duodenal ulcers"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: End-stage liver disease"
+        },
+        {
+          "question": "The most common cause of liver cirrhosis leading to transplantation is:",
+          "options": [
+            "Hepatitis C",
+            "Gallstones",
+            "Splenic rupture",
+            "Pancreatitis",
+            "Duodenal ulcers"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Hepatitis C"
+        },
+        {
+          "question": "The recipient’s diseased liver is removed during:",
+          "options": [
+            "Orthotopic liver transplantation",
+            "Heterotopic liver transplantation",
+            "Living donor liver transplantation",
+            "Split liver transplantation",
+            "Domino liver transplantation"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Orthotopic liver transplantation"
+        },
+        {
+          "question": "In living donor liver transplantation, a portion of the liver is taken from a:",
+          "options": [
+            "Living related or unrelated donor",
+            "Deceased donor",
+            "Pig",
+            "Cadaver",
+            "Animal"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Living related or unrelated donor"
+        }
+      ]
+    },
+    "t-s-2-2-14": {
+      "situational": [
+        {
+          "question": "During an outbreak of meningitis at a local college, a 20-year-old student presents to a hospital emergency department complaining of headache, fever, chills, and stiff neck. On examination, it appears that he may have meningitis and needs a lumbar puncture or a spinal tap. Cerebrospinal fluid (CSF) is normally withdrawn from which of the following spaces?",
+          "options": [
+            "Subarachnoid space",
+            "Epidural space",
+            "Subdural space",
+            "Space between the spinal cord and the piamater",
+            "Space between the arachnoid and dura maters"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Subarachnoid space"
+        },
+        {
+          "question": "A 23-year-old jockey falls from her horse and complains of headache, backache, and weakness. Radiologic examination would reveal blood in which of the following spaces if the internal vertebral venous plexus was ruptured?",
+          "options": [
+            "Epidural space",
+            "Space deep to the pia mater",
+            "Space between the arachnoid and duramaters",
+            "Subdural space",
+            "Subarachnoid space"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Epidural space"
+        },
+        {
+          "question": "A 42-year-old woman with metastatic breast cancer is known to have tumors in the intervertebral foramina between the fourth and fifth cervical vertebrae and between the fourth and fifth thoracic vertebrae. Which of the following spinal nerves may be damaged?",
+          "options": [
+            "Fifth cervical and fourth thoracic nerves",
+            "Fourth cervical and fourth thoracic nerves",
+            "Fifth cervical and fifth thoracic nerves",
+            "Fourth cervical and fifth thoracic nerves",
+            "Third cervical and fourth thoracic nerves"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Fifth cervical and fourth thoracic nerves"
+        },
+        {
+          "question": "A 39-year-old woman with headaches presents to her primary care physician with a possible herniated disk. Her magnetic resonance imaging (MRI) scan reveals that the posterolateral protrusion of the intervertebral disk between L4 and L5 vertebrae would most likely affect nerve roots of which of the following spinal nerves?",
+          "options": [
+            "Fifth lumbar nerve",
+            "Third lumbar nerve",
+            "Fourth lumbar nerve",
+            "First sacral nerve",
+            "Second sacral nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Fifth lumbar nerve"
+        },
+        {
+          "question": "A 57-year-old woman comes into her physician’s office complaining of fever, nausea, vomiting, and the worst headache of her life. Tests and physical examination suggest hydrocephalus (widening ventricles) resulting from a decrease in the absorption of cerebrospinal fluid (CSF). A decrease of flow in the CSF through which of the following structures would be responsible for these findings?",
+          "options": [
+            "Arachnoid villi",
+            "Choroid plexus",
+            "Vertebral venous plexus",
+            "Internal jugular vein",
+            "Subarachnoid trabeculae"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Arachnoid villi"
+        },
+        {
+          "question": "After a 26-year-old man’s car was broadsided by a large truck, he is brought to the emergency department with multiple fractures of the transverse processes of the cervical and upper thoracic vertebrae. Which of the following muscles might be affected?",
+          "options": [
+            "Levator scapulae",
+            "Trapezius",
+            "Rhomboid major",
+            "Serratus posterior superior",
+            "Rectus capitis posterior major"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Levator scapulae"
+        },
+        {
+          "question": "A 27-year-old mountain climber falls from a steep rock wall and is brought to the emergency department. His physical examination and computed tomography (CT) scan reveal dislocation fracture of the upper thoracic vertebrae. The fractured body of the T4 vertebra articulates with which of the following parts of the ribs?",
+          "options": [
+            "Head of the fifth rib",
+            "Head of the third rib",
+            "Neck of the fourth rib",
+            "Tubercle of the fourth rib",
+            "Tubercle of the fifth rib"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Head of the fifth rib"
+        },
+        {
+          "question": "A young toddler presents to her pediatrician with rather new onset of bowel and bladder dysfunction and loss of the lower limb function. Her mother had not taken enough folic acid (to the point of a deficiency) during her pregnancy. On examination, the child has protrusion of the spinal cord and meninges and is diagnosed with which of the following conditions?",
+          "options": [
+            "Meningomyelocele",
+            "Spina bifida occulta",
+            "Meningocele",
+            "Myeloschisis",
+            "Syringomyelocele"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Meningomyelocele"
+        },
+        {
+          "question": "A 34-year-old woman crashes into a tree during a skiing lesson and is brought to a hospital with multiple injuries that impinge the dorsal primary rami of several spinal nerves. Such lesions could affect which of the following muscles?",
+          "options": [
+            "Iliocostalis",
+            "Rhomboid major",
+            "Levator scapulae",
+            "Serratus posterior superior",
+            "Latissimus dorsi"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Iliocostalis"
+        },
+        {
+          "question": "During a domestic dispute, a 16-year-old boy receives a deep stab wound around the superior angle of the scapula near the medial border, which injures both the dorsal scapular and spinal accessory nerves. Such an injury could result in paralysis or weakness of which of the following muscles?",
+          "options": [
+            "Rhomboid major and trapezius",
+            "Trapezius and serratus posterior superior",
+            "Rhomboid minor and latissimus dorsi",
+            "Splenius cervicis and sternocleidomastoid",
+            "Levator scapulae and erector spinae"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Rhomboid major and trapezius"
+        },
+        {
+          "question": "An elderly man at a nursing home is known to have degenerative brain disease. When cerebrospinal fluid (CSF) is withdrawn by lumbar puncture for further examination, which of the following structures is most likely penetrated by the needle?",
+          "options": [
+            "Ligamentum flavum",
+            "Pia mater",
+            "Filum terminale externum",
+            "Posterior longitudinal ligament",
+            "Annulus fibrosus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Ligamentum flavum"
+        },
+        {
+          "question": "A 27-year-old stuntman is thrown out of his vehicle prematurely when the car used for a particular scene speeds out of control. His spinal cord is crushed at the level of the fourth lumbar spinal segment. Which of the following structures would most likely be spared from destruction?",
+          "options": [
+            "Lateral horn",
+            "Dorsal horn",
+            "Ventral horn",
+            "Gray matter",
+            "Pia mater"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Lateral horn"
+        },
+        {
+          "question": "A patient presents with lower back pain radiating down the posterior aspect of the leg. This pain is MOST likely caused by compression of a nerve root at which level of the spine?",
+          "options": [
+            "Lumbar spine",
+            "Thoracic spine",
+            "Cervical spine",
+            "Sacral spine",
+            "Coccyx"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Lumbar spine"
+        },
+        {
+          "question": "A patient is diagnosed with a retroperitoneal hematoma after a car accident. Which of the following organs, located in the retroperitoneal space, is MOST likely the source of the bleeding?",
+          "options": [
+            "Kidney",
+            "Stomach",
+            "Small intestine",
+            "Liver",
+            "Gallbladder"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Kidney"
+        },
+        {
+          "question": "A patient undergoes an X-ray or CT scan that reveals a mass in the retroperitoneal space anterior to the vertebral bodies and posterior to the peritoneum. Which structure is MOST likely involved?",
+          "options": [
+            "Abdominal aorta or inferior vena cava",
+            "Stomach",
+            "Spleen",
+            "Liver",
+            "Transverse colon"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Abdominal aorta or inferior vena cava"
+        },
+        {
+          "question": "A patient presents with flank pain and hematuria (blood in the urine). Which retroperitoneal organ is MOST likely affected?",
+          "options": [
+            "Kidney",
+            "Pancreas",
+            "Adrenal gland",
+            "Ureter",
+            "Ascending colon"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Kidney"
+        },
+        {
+          "question": "A patient has a tumor involving the psoas major muscle. This muscle is located:",
+          "options": [
+            "Retroperitoneally",
+            "Intraperitoneally",
+            "Within the pelvis only",
+            "Within the abdominal wall only",
+            "Within the thoracic cavity"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Retroperitoneally"
+        }
+      ],
+      "test": [
+        {
+          "question": "The retroperitoneal space is located:",
+          "options": [
+            "Posterior to the parietal peritoneum",
+            "Anterior to the parietal peritoneum",
+            "Within the peritoneal cavity",
+            "Superior to the diaphragm",
+            "Inferior to the pelvic floor"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Posterior to the parietal peritoneum"
+        },
+        {
+          "question": "Which of the following organs is primarily retroperitoneal?",
+          "options": [
+            "Kidneys",
+            "Stomach",
+            "Small intestine",
+            "Liver",
+            "Spleen"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Kidneys"
+        },
+        {
+          "question": "The ureters are located:",
+          "options": [
+            "Retroperitoneally",
+            "Intraperitoneally",
+            "Subcutaneously",
+            "Within the pelvis only",
+            "Within the thorax only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Retroperitoneally"
+        },
+        {
+          "question": "The abdominal aorta is located:",
+          "options": [
+            "Retroperitoneally",
+            "Intraperitoneally",
+            "Within the lesser sac",
+            "Within the greater sac",
+            "Within the peritoneal cavity"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Retroperitoneally"
+        },
+        {
+          "question": "The inferior vena cava is located:",
+          "options": [
+            "Retroperitoneally",
+            "Intraperitoneally",
+            "Within the lesser sac",
+            "Within the greater sac",
+            "Within the peritoneal cavity"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Retroperitoneally"
+        },
+        {
+          "question": "The pancreas is primarily located:",
+          "options": [
+            "Retroperitoneally",
+            "Intraperitoneally",
+            "Within the lesser sac",
+            "Within the greater sac",
+            "Within the peritoneal cavity"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Retroperitoneally"
+        },
+        {
+          "question": "The adrenal glands are located:",
+          "options": [
+            "Retroperitoneally",
+            "Intraperitoneally",
+            "Within the lesser sac",
+            "Within the greater sac",
+            "Within the peritoneal cavity"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Retroperitoneally"
+        },
+        {
+          "question": "The lumbar spine consists of:",
+          "options": [
+            "5 vertebrae",
+            "7 vertebrae",
+            "12 vertebrae",
+            "4 vertebrae",
+            "3 vertebrae"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: 5 vertebrae"
+        },
+        {
+          "question": "The intervertebral discs are located between the:",
+          "options": [
+            "Vertebral bodies",
+            "Vertebral arches",
+            "Transverse processes",
+            "Spinous processes",
+            "Laminae"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Vertebral bodies"
+        },
+        {
+          "question": "The nucleus pulposus is located within the:",
+          "options": [
+            "Intervertebral disc",
+            "Vertebral body",
+            "Vertebral arch",
+            "Spinous process",
+            "Transverse process"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Intervertebral disc"
+        },
+        {
+          "question": "The annulus fibrosus is located:",
+          "options": [
+            "Surrounding the nucleus pulposus",
+            "Within the vertebral body",
+            "Within the vertebral arch",
+            "Within the spinal canal",
+            "Within the intervertebral foramen"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Surrounding the nucleus pulposus"
+        },
+        {
+          "question": "A herniated disc typically occurs:",
+          "options": [
+            "Posterolaterally",
+            "Anteriorly",
+            "Laterally",
+            "Medially",
+            "Superiorly"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Posterolaterally"
+        },
+        {
+          "question": "The spinal cord typically ends at the level of:",
+          "options": [
+            "L1-L2 vertebra",
+            "T12 vertebra",
+            "L3-L4 vertebra",
+            "S1 vertebra",
+            "Coccyx"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: L1-L2 vertebra"
+        },
+        {
+          "question": "The cauda equina is located within the:",
+          "options": [
+            "Lumbar spinal canal",
+            "Thoracic spinal canal",
+            "Cervical spinal canal",
+            "Sacral canal",
+            "Intervertebral foramen"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Lumbar spinal canal"
+        },
+        {
+          "question": "The lumbar plexus is formed by the ventral rami of:",
+          "options": [
+            "L1-L4 spinal nerves",
+            "T12-L3 spinal nerves",
+            "L5-S1 spinal nerves",
+            "S2-S4 spinal nerves",
+            "Coccygeal nerve"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: L1-L4 spinal nerves"
+        },
+        {
+          "question": "The psoas major muscle is located:",
+          "options": [
+            "Retroperitoneally",
+            "Intraperitoneally",
+            "Within the pelvic cavity",
+            "Within the thoracic cavity",
+            "Within the abdominal wall"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Retroperitoneally"
+        },
+        {
+          "question": "The quadratus lumborum muscle is located:",
+          "options": [
+            "Posterior abdominal wall, retroperitoneally",
+            "Anterior abdominal wall",
+            "Within the pelvic cavity",
+            "Within the thoracic cavity",
+            "Within the diaphragm"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Posterior abdominal wall, retroperitoneally"
+        },
+        {
+          "question": "The sympathetic trunk runs:",
+          "options": [
+            "Along the anterolateral aspect of the vertebral bodies",
+            "Along the posterior aspect of the vertebral bodies",
+            "Within the spinal canal",
+            "Within the intervertebral foramen",
+            "Within the psoas muscle"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Along the anterolateral aspect of the vertebral bodies"
+        },
+        {
+          "question": "The kidneys filter:",
+          "options": [
+            "Blood",
+            "Lymph",
+            "Bile",
+            "Urine only",
+            "Gastric contents"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Blood"
+        },
+        {
+          "question": "The renal arteries arise from the:",
+          "options": [
+            "Abdominal aorta",
+            "Celiac trunk",
+            "Superior mesenteric artery",
+            "Inferior mesenteric artery",
+            "Common iliac arteries"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Abdominal aorta"
+        }
+      ]
+    },
+    "t-s-2-2-15": {
+      "situational": [
+        {
+          "question": "A 68-year-old woman with uterine carcinoma undergoes surgical resection. This cancer can spread directly to the labia majora in lymphatics that follow which of the following structures?",
+          "options": [
+            "Round ligament of the uterus",
+            "Pubic arcuate ligament",
+            "Suspensory ligament of the ovary",
+            "Cardinal (transverse cervical) ligament",
+            "Suspensory ligament of the clitoris"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Round ligament of the uterus"
+        },
+        {
+          "question": "A 17-year-old boy suffers a traumatic groin injury during a soccer match. The urologist notices tenderness and swelling of the boy’s left testicle that may be produced by thrombosis in which of the following veins?",
+          "options": [
+            "Left renal vein",
+            "Left internal pudendal vein",
+            "Inferior vena cava",
+            "Left inferior epigastric vein",
+            "Left external pudendal vein"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Left renal vein"
+        },
+        {
+          "question": "On a busy Saturday night in Chicago, a 16-year-old boy presents to the emergency department with a stab wound from a knife that entered the pelvis above the piriformis muscle. Which of the following structures is most likely to be damaged?",
+          "options": [
+            "Superior gluteal nerve",
+            "Sciatic nerve",
+            "Internal pudendal artery",
+            "Inferior gluteal artery",
+            "Posterior femoral cutaneous nerve"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Superior gluteal nerve"
+        },
+        {
+          "question": "A 22-year-old woman receives a deep cut in the inguinal canal 1 in. lateral to the pubic tubercle. Which of the following ligaments is lacerated within the inguinal canal?",
+          "options": [
+            "Round ligament of the uterus",
+            "Suspensory ligament of the ovary",
+            "Ovarian ligament",
+            "Mesosalpinx",
+            "Rectouterine ligament"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Round ligament of the uterus"
+        },
+        {
+          "question": "A 29-year-old carpenter sustains severe injuries of the pelvic splanchnic nerve by a deep puncture wound, which has become contaminated. The injured parasympathetic preganglionic fibers in the splanchnic nerve are most likely to synapse in which of the following ganglia?",
+          "options": [
+            "Ganglia in or near the viscera or pelvic plexus",
+            "Sympathetic chain ganglia",
+            "Collateral ganglia",
+            "Dorsal root ganglia",
+            "Ganglion impar"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Ganglia in or near the viscera or pelvic plexus"
+        },
+        {
+          "question": "A 59-year-old woman comes to a local hospital for uterine cancer surgery. As the uterine artery passes from the internal iliac artery to the uterus, it crosses superior to which of the following structures that is sometimes mistakenly ligated during such surgery?",
+          "options": [
+            "Ureter",
+            "Ovarian artery",
+            "Ovarian ligament",
+            "Uterine tube",
+            "Round ligament of the uterus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Ureter"
+        },
+        {
+          "question": "A 29-year-old woman is admitted to a hospital because the birth of her child is several days overdue. Tearing of the pelvic diaphragm during childbirth leads to paralysis of which of the following muscles?",
+          "options": [
+            "Levator ani",
+            "Piriformis",
+            "Sphincter urethrae",
+            "Obturator internus",
+            "Sphincter ani externus"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Levator ani"
+        },
+        {
+          "question": "A 37-year-old small business manager receives a gunshot wound in the pelvic cavity, resulting in a lesion of the sacral splanchnic nerves. Which of the following nerve fibers would primarily be damaged?",
+          "options": [
+            "Preganglionic sympathetic fibers",
+            "Postganglionic parasympathetic fibers",
+            "Postganglionic sympathetic fibers",
+            "Preganglionic parasympathetic fibers",
+            "Postganglionic sympathetic and parasympathetic fibers"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Preganglionic sympathetic fibers"
+        },
+        {
+          "question": "A young couple is having difficulty conceiving a child. Their physician at a reproduction and fertility clinic explains to them that",
+          "options": [
+            "Fertilization occurs in the infundibulum or ampulla of the uterine tube",
+            "The ovary lies within the broad ligament",
+            "The glans clitoris is formed from the corpus spongiosum",
+            "Erection of the penis is a sympathetic response",
+            "Ejaculation follows parasympathetic stimulation"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Fertilization occurs in the infundibulum or ampulla of the uterine tube"
+        },
+        {
+          "question": "A 46-year-old woman has a history of infection in her perineal region. A comprehensive examination reveals a tear of the superior boundary of the superficial perineal space. Which of the following structures would most likely be injured?",
+          "options": [
+            "Perineal membrane",
+            "Pelvic diaphragm",
+            "Colles fascia",
+            "Superficial perineal fascia",
+            "Deep perineal fascia"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Perineal membrane"
+        },
+        {
+          "question": "A 58-year-old man is diagnosed as having a slowly growing tumor in the deep perineal space. Which of the following structures would most likely be injured?",
+          "options": [
+            "Bulbourethral glands",
+            "Crus of penis",
+            "Bulb of vestibule",
+            "Spongy urethra",
+            "Great vestibular gland"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Bulbourethral glands"
+        },
+        {
+          "question": "An elderly man with a benign enlargement of his prostate experiences difficulty in urination, urinary frequency, and urgency. Which of the following lobes of the prostate gland is commonly involved in benign hypertrophy that obstructs the prostatic urethra?",
+          "options": [
+            "Middle lobe",
+            "Anterior lobe",
+            "Right lateral lobe",
+            "Left lateral lobe",
+            "Posterior lobe"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Middle lobe"
+        },
+        {
+          "question": "A male patient presents with difficulty initiating urination and a weak urinary stream. Digital rectal examination reveals an enlarged prostate gland. The prostate gland is located:",
+          "options": [
+            "Inferior to the urinary bladder",
+            "Superior to the urinary bladder",
+            "Anterior to the rectum",
+            "Posterior to the rectum",
+            "Lateral to the rectum"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Inferior to the urinary bladder"
+        },
+        {
+          "question": "A female patient presents with pelvic pain and a feeling of pressure in the pelvis. On examination, a prolapse of the pelvic organs is noted. Which structure is MOST likely involved in a rectocele?",
+          "options": [
+            "Rectum",
+            "Urinary bladder",
+            "Uterus",
+            "Urethra",
+            "Vagina"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Rectum"
+        },
+        {
+          "question": "A patient is diagnosed with bladder cancer. The tumor is located in the trigone of the bladder. This area is defined by the openings of:",
+          "options": [
+            "The two ureters and the urethra",
+            "The ureters and the rectum",
+            "The urethra and the rectum",
+            "The ureters and the uterine tubes (in females)",
+            "The urethra and the uterine tubes (in females)"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: The two ureters and the urethra"
+        },
+        {
+          "question": "A patient undergoes a pelvic fracture that damages the pelvic floor muscles. Which muscle is MOST important for supporting the pelvic organs and preventing prolapse?",
+          "options": [
+            "Levator ani",
+            "Piriformis",
+            "Obturator internus",
+            "Coccygeus",
+            "Iliopsoas"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Levator ani"
+        },
+        {
+          "question": "A patient experiences fecal incontinence after a difficult childbirth. Which muscle, part of the levator ani, is MOST likely damaged?",
+          "options": [
+            "Puborectalis",
+            "Pubococcygeus",
+            "Iliococcygeus",
+            "Coccygeus",
+            "Piriformis"
+          ],
+          "correctIndex": 0,
+          "correctAnswer": 0,
+          "explanation": "Correct answer: Puborectalis"
+        }
+      ],
+      "test": [
+        {
+          "question": "The pelvic inlet is formed by:",
+          "options": [
+            "SACRAL promontory, arcuate lines, pectineal lines, pubic crest",
+            "Sacral promontory, ischial spines, pubic symphysis",
+            "Ischial tuberosities, pubic arch, coccyx",
+            "Iliac crests, sacrum, pubic symphysis",
+            "Acetabula, ischial spines, sacrum"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: SACRAL promontory, arcuate lines, pectineal lines, pubic crest"
+        },
+        {
+          "question": "The pelvic outlet is bounded by:",
+          "options": [
+            "Pubic symphysis, ischiopubic rami, ischial tuberosities, sacrotuberous ligaments, coccyx",
+            "Sacral promontory, arcuate lines, pectineal lines, pubic crest",
+            "Ischial spines, pubic symphysis, coccyx",
+            "Iliac crests, sacrum, pubic symphysis",
+            "Acetabula, ischial spines, sacrum"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Pubic symphysis, ischiopubic rami, ischial tuberosities, sacrotuberous ligaments, coccyx"
+        },
+        {
+          "question": "The true pelvis (lesser pelvis) is located:",
+          "options": [
+            "Inferior to the pelvic inlet",
+            "Superior to the pelvic inlet",
+            "Anterior to the pelvic inlet",
+            "Posterior to the pelvic inlet",
+            "Lateral to the pelvic inlet"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Inferior to the pelvic inlet"
+        },
+        {
+          "question": "The false pelvis (greater pelvis) is located:",
+          "options": [
+            "Superior to the pelvic inlet",
+            "Inferior to the pelvic inlet",
+            "Anterior to the pelvic inlet",
+            "Posterior to the pelvic inlet",
+            "Medial to the pelvic inlet"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Superior to the pelvic inlet"
+        },
+        {
+          "question": "The pelvic floor is mainly formed by the:",
+          "options": [
+            "Levator ani and coccygeus muscles",
+            "Piriformis and obturator internus muscles",
+            "Rectus abdominis and external oblique muscles",
+            "Psoas major and iliacus muscles",
+            "Gluteus maximus and medius muscles"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Levator ani and coccygeus muscles"
+        },
+        {
+          "question": "The levator ani muscle is composed of:",
+          "options": [
+            "Pubococcygeus, iliococcygeus, puborectalis",
+            "Piriformis, obturator internus, coccygeus",
+            "Rectus abdominis, external oblique, internal oblique",
+            "Psoas major, iliacus, quadratus lumborum",
+            "Gluteus maximus, medius, minimus"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Pubococcygeus, iliococcygeus, puborectalis"
+        },
+        {
+          "question": "The rectum is located:",
+          "options": [
+            "Posterior to the bladder and reproductive organs",
+            "Anterior to the bladder and reproductive organs",
+            "Lateral to the bladder",
+            "Superior to the bladder",
+            "Inferior to the bladder"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Posterior to the bladder and reproductive organs"
+        },
+        {
+          "question": "The rectum receives its blood supply from the:",
+          "options": [
+            "Superior, middle, and inferior rectal arteries",
+            "Inferior mesenteric artery only",
+            "Internal iliac arteries only",
+            "External iliac arteries only",
+            "Common iliac arteries only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Superior, middle, and inferior rectal arteries"
+        },
+        {
+          "question": "The venous drainage of the rectum occurs via the:",
+          "options": [
+            "Superior, middle, and inferior rectal veins",
+            "Inferior mesenteric vein only",
+            "Internal iliac veins only",
+            "External iliac veins only",
+            "Common iliac veins only"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Superior, middle, and inferior rectal veins"
+        },
+        {
+          "question": "The urinary bladder is located:",
+          "options": [
+            "Anterior in the pelvic cavity",
+            "Posterior in the pelvic cavity",
+            "Lateral in the pelvic cavity",
+            "Superior to the pelvic inlet",
+            "Inferior to the pelvic outlet"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Anterior in the pelvic cavity"
+        },
+        {
+          "question": "The detrusor muscle is located in the wall of the:",
+          "options": [
+            "Urinary bladder",
+            "Ureter",
+            "Urethra",
+            "Rectum",
+            "Uterus"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Urinary bladder"
+        },
+        {
+          "question": "The internal urethral sphincter is made of:",
+          "options": [
+            "Smooth muscle",
+            "Skeletal muscle",
+            "Connective tissue",
+            "Epithelial tissue",
+            "Nervous tissue"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Smooth muscle"
+        },
+        {
+          "question": "The external urethral sphincter is made of:",
+          "options": [
+            "Skeletal muscle",
+            "Smooth muscle",
+            "Connective tissue",
+            "Epithelial tissue",
+            "Nervous tissue"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Skeletal muscle"
+        },
+        {
+          "question": "The trigone of the bladder is defined by the openings of:",
+          "options": [
+            "The two ureters and the urethra",
+            "The urethra and the rectum",
+            "The ureters and the rectum",
+            "The urethra and the uterine tubes (females)",
+            "The uterine tubes and the ovaries (females)"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: The two ureters and the urethra"
+        },
+        {
+          "question": "The ureters transport urine from the:",
+          "options": [
+            "Kidneys to the bladder",
+            "Bladder to the urethra",
+            "Kidneys to the urethra",
+            "Liver to the bladder",
+            "Bladder to the kidneys"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Kidneys to the bladder"
+        },
+        {
+          "question": "The pelvic fascia is continuous with the:",
+          "options": [
+            "Transversalis fascia",
+            "Thoracolumbar fascia",
+            "Deep fascia of the thigh",
+            "Superficial fascia of the abdomen",
+            "All of the above"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Transversalis fascia"
+        },
+        {
+          "question": "The obturator internus muscle originates from the:",
+          "options": [
+            "Inner surface of the obturator membrane and surrounding bone",
+            "Outer surface of the obturator membrane and surrounding bone",
+            "Iliac crest",
+            "Sacrum",
+            "Pubis"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Inner surface of the obturator membrane and surrounding bone"
+        },
+        {
+          "question": "The piriformis muscle originates from the:",
+          "options": [
+            "Anterior surface of the sacrum",
+            "Posterior surface of the sacrum",
+            "Iliac crest",
+            "Pubis",
+            "Ischium"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Anterior surface of the sacrum"
+        },
+        {
+          "question": "The pudendal nerve provides innervation to the:",
+          "options": [
+            "Perineum, external genitalia, and pelvic floor muscles",
+            "Abdominal muscles",
+            "Thigh muscles",
+            "Gluteal muscles",
+            "Lower limb muscles"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Perineum, external genitalia, and pelvic floor muscles"
+        },
+        {
+          "question": "The pelvic splanchnic nerves carry:",
+          "options": [
+            "Parasympathetic fibers",
+            "Sympathetic fibers",
+            "Sensory fibers",
+            "Motor fibers to the lower limb",
+            "Motor fibers to the abdominal wall"
+          ],
+          "correctIndex": 0,
+          "explanation": "Correct answer: Parasympathetic fibers"
+        }
+      ]
+    }
   }
-}
 };
