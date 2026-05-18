@@ -8074,7 +8074,7 @@ module.exports = {
             "Decarboxylating pyruvate dehydrogenase, dihydrolipoyltransacetylase, dihydrolipoyldehydrogenase",
             "Pyruvate carboxylase, succinyl thiokinase, dihydrolipoylacetyltransferase",
             "Pyruvate kinase, pyruvate carboxylase, pyruvate dehydrogenase",
-            "Pyruvate dehydrogenase, FEP-carboxylase, isocitrate dehydrogenase"
+            "Pyruvate dehydrogenase, Phosphoenolpyruvate-carboxylase, isocitrate dehydrogenase"
           ],
           "correctIndex": 0,
           "explanation": "The PDH complex consists of E1 (pyruvate dehydrogenase), E2 (dihydrolipoyl transacetylase), and E3 (dihydrolipoyl dehydrogenase)."
@@ -8733,7 +8733,7 @@ module.exports = {
           "question": "Enzyme that catalyzes reaction 1 of gluconeogenesis:",
           "options": [
             "Pyruvate carboxylase",
-            "FEP-carboxylase",
+            "Phosphoenolpyruvate-carboxylase",
             "Pyruvate kinase",
             "Glucose 6-phosphatase"
           ],
@@ -8831,13 +8831,13 @@ module.exports = {
         {
           "question": "Name the enzyme characteristic of gluconeogenesis:",
           "options": [
-            "FEP-carboxylase",
+            "Phosphoenolpyruvate-carboxylase",
             "Hexokinase",
             "Glucokinase",
             "Pyruvate carboxylase"
           ],
           "correctIndex": 0,
-          "explanation": "Phosphoenolpyruvate carboxylase (FEP-carboxylase/PEPCK) is one of the unique enzymes of gluconeogenesis."
+          "explanation": "Phosphoenolpyruvate carboxylase (Phosphoenolpyruvate-carboxylase/PEPCK) is one of the unique enzymes of gluconeogenesis."
         },
         {
           "question": "Determine the characteristic response for the Cori cycle:",
@@ -8886,7 +8886,7 @@ module.exports = {
         {
           "question": "Biotin can be a coenzyme for which of the following enzymes:",
           "options": [
-            "FEP-carboxylase",
+            "Phosphoenolpyruvate-carboxylase",
             "Hexokinase",
             "Glucose 6-phosphatase",
             "Pyruvate kinase"
