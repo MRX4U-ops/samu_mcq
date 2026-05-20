@@ -1,0 +1,161 @@
+Topic:-11
+
+The rectus abdominis muscle is enclosed within the:{
+=Rectus sheath
+~Transversalis fascia
+~External oblique aponeurosis
+~Internal oblique aponeurosis
+~Linea alba
+}
+
+The linea alba is formed by the aponeuroses of the:{
+=External oblique, internal oblique, and transversus abdominis
+~External oblique and internal oblique only
+~Internal oblique and transversus abdominis only
+~Rectus abdominis only
+~Transversus abdominis only
+}
+
+The inguinal ligament is formed by the free edge of the:{
+=External oblique aponeurosis
+~Internal oblique aponeurosis
+~Transversus abdominis aponeurosis
+~Rectus abdominis aponeurosis
+~Transversalis fascia
+}
+
+The superficial inguinal ring is an opening in the:{
+=External oblique aponeurosis
+~Internal oblique aponeurosis
+~Transversus abdominis aponeurosis
+~Transversalis fascia
+~Rectus sheath
+}
+
+The deep inguinal ring is an opening in the:{
+=Transversalis fascia
+~External oblique aponeurosis
+~Internal oblique aponeurosis
+~Transversus abdominis aponeurosis
+~Rectus sheath
+}
+
+The inguinal canal contains the:{
+=Spermatic cord (males) or round ligament of the uterus (females)
+~Femoral artery and vein
+~Femoral nerve
+~Obturator nerve
+~Ilioinguinal nerve only
+}
+
+The conjoint tendon is formed by the fusion of the aponeuroses of the:{
+=Internal oblique and transversus abdominis
+~External oblique and internal oblique
+~Transversus abdominis and rectus abdominis
+~External oblique and transversalis fascia
+~Internal oblique and transversalis fascia
+}
+
+A direct inguinal hernia protrudes through:{
+=Hesselbach's triangle
+~The deep inguinal ring
+~The superficial inguinal ring
+~The femoral canal
+~The linea alba
+}
+
+An indirect inguinal hernia protrudes through:{
+=The deep inguinal ring
+~Hesselbach's triangle
+~The superficial inguinal ring
+~The femoral canal
+~The linea alba
+}
+
+A femoral hernia protrudes through the:{
+=Femoral canal
+~Inguinal canal
+~Umbilicus
+~Linea alba
+~Hesselbach's triangle
+}
+
+An umbilical hernia occurs at the:{
+=Umbilicus
+~Inguinal region
+~Epigastric region
+~Linea alba above the umbilicus
+~Linea alba below the umbilicus
+}
+
+An epigastric hernia occurs through the:{
+=Linea alba between the xiphoid process and umbilicus
+~Umbilicus
+~Inguinal region
+~Femoral canal
+~Hesselbach's triangle
+}
+
+A Spigelian hernia occurs along the:{
+=Semilunar line (lateral border of the rectus sheath)
+~Linea alba
+~Inguinal ligament
+~Umbilicus
+~Femoral canal
+}
+
+The transversalis fascia is located:{
+=Deep to the transversus abdominis muscle
+~Superficial to the transversus abdominis muscle
+~Between the external and internal oblique muscles
+~Superficial to the external oblique muscle
+~Deep to the internal oblique muscle
+}
+
+The cremaster muscle is derived from the:{
+=Internal oblique muscle
+~External oblique muscle
+~Transversus abdominis muscle
+~Rectus abdominis muscle
+~Transversalis fascia
+}
+
+The ilioinguinal nerve provides sensory innervation to the:{
+=Skin of the groin and medial thigh
+~Muscles of the anterior abdominal wall
+~Peritoneum
+~Viscera
+~Scrotum/labia majora and adjacent medial thigh
+}
+
+The nerve at risk of injury during inguinal hernia repair is the:{
+=Ilioinguinal nerve
+~Femoral nerve
+~Obturator nerve
+~Genitofemoral nerve
+~Lateral femoral cutaneous nerve
+}
+
+The Bassini repair is a surgical technique for:{
+=Inguinal hernias
+~Umbilical hernias
+~Femoral hernias
+~Epigastric hernias
+~Incisional hernias
+}
+
+The Lichtenstein repair uses a:{
+=Mesh patch
+~Primary suture repair
+~Muscle flap
+~Peritoneal flap
+~Skin graft
+}
+
+A laparoscopic approach to hernia repair involves:{
+=Small incisions and specialized instruments
+~Large abdominal incision
+~Thoracotomy
+~Combined abdominal and thoracic incisions
+~Retroperitoneal approach
+}

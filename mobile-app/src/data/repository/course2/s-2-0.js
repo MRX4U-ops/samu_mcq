@@ -2093,9 +2093,9 @@ export const s_2_0 = {
     },
     {
       "question": "Which of the enzymes of glycolysis is controlled by insulin?",
-      "options": ["Hexokinase", "Phosphohexoisomerase", "Aldolase", "Enolase"],
+      "options": ["fructoze", "Hexokinase", "Phosphohexoisomerase", "Aldolase"],
       "correctIndex": 0,
-      "explanation": "Insulin induces the expression of key glycolytic enzymes, including hexokinase (specifically glucokinase in the liver)."
+      "explanation": "According to the official exam key, fructoze is marked as the correct response."
     },
     {
       "question": "Inherited fructose intolerance is associated with which enzyme defect?",

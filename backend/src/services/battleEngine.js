@@ -16,28 +16,29 @@ class BattleEngine {
     const state = this.getRoomState(roomCode);
     if (!state) return { error: 'Room not found' };
     
-    if (state.participants.length >= state.room.maxPlayers) {
-      return { error: 'Room is full' };
+    const existing = state.participants.find(p => p.userId === userId);
+    if (existing) {
+      existing.socketId = socketId; // Reconnect socket mapping
+      return { success: true, state };
     }
 
     if (state.room.status !== 'lobby') {
        return { error: 'Game already started' };
     }
 
-    const existing = state.participants.find(p => p.userId === userId);
-    if (!existing) {
-      state.participants.push({
-        userId,
-        name,
-        socketId,
-        score: 0,
-        ready: false,
-        finished: false,
-        answers: {} // index -> selectedIndex
-      });
-    } else {
-      existing.socketId = socketId; // Reconnect socket mapping
+    if (state.participants.length >= state.room.maxPlayers) {
+      return { error: 'Room is full' };
     }
+
+    state.participants.push({
+      userId,
+      name,
+      socketId,
+      score: 0,
+      ready: false,
+      finished: false,
+      answers: {} // index -> selectedIndex
+    });
 
     return { success: true, state };
   }

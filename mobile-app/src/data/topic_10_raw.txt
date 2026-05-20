@@ -1,0 +1,161 @@
+Topic:-10
+
+The posterior mediastinum is located:{
+=Posterior to the pericardium
+~Anterior to the pericardium
+~Superior to the heart
+~Inferior to the diaphragm
+~Lateral to the lungs
+}
+
+The esophagus begins at the level of:{
+=C6 vertebra
+~C4 vertebra
+~T1 vertebra
+~T4 vertebra
+~T10 vertebra
+}
+
+The esophagus passes through the diaphragm at the:{
+=Esophageal hiatus
+~Aortic hiatus
+~Caval opening
+~Central tendon
+~Median arcuate ligament
+}
+
+The vagus nerves in the posterior mediastinum contribute to the:{
+=Esophageal plexus
+~Cardiac plexus
+~Pulmonary plexus
+~All of the above
+~Only the esophageal and cardiac plexuses
+}
+
+The right vagus nerve gives rise to the:{
+=Posterior vagal trunk
+~Anterior vagal trunk
+~Left recurrent laryngeal nerve
+~Right recurrent laryngeal nerve
+~Phrenic nerve
+}
+
+The left vagus nerve gives rise to the:{
+=Anterior vagal trunk
+~Posterior vagal trunk
+~Right recurrent laryngeal nerve
+~Left recurrent laryngeal nerve
+~Phrenic nerve
+}
+
+The thoracic duct empties into the:{
+=Left subclavian vein
+~Right subclavian vein
+~Superior vena cava
+~Inferior vena cava
+~Azygos vein
+}
+
+The azygos vein drains into the:{
+=Superior vena cava
+~Inferior vena cava
+~Right atrium
+~Left atrium
+~Brachiocephalic vein
+}
+
+The hemiazygos vein drains into the:{
+=Azygos vein
+~Superior vena cava
+~Inferior vena cava
+~Left renal vein
+~Right renal vein
+}
+
+The accessory hemiazygos vein drains into the:{
+=Azygos vein
+~Superior vena cava
+~Inferior vena cava
+~Left renal vein
+~Right renal vein
+}
+
+The descending thoracic aorta begins at the level of:{
+=T4 vertebra
+~T1 vertebra
+~C6 vertebra
+~T12 vertebra
+~L1 vertebra
+}
+
+The thoracic aorta gives off the:{
+=Posterior intercostal arteries
+~Bronchial arteries
+~Esophageal arteries
+~All of the above
+~Only the posterior intercostal arteries
+}
+
+Esophageal varices are most commonly caused by:{
+=Portal hypertension
+~Pulmonary hypertension
+~Systemic hypertension
+~Aortic aneurysm
+~Esophageal stricture
+}
+
+A common surgical procedure for esophageal cancer is:{
+=Esophagectomy
+~Lobectomy
+~Pneumonectomy
+~Thoracotomy
+~Mediastinoscopy
+}
+
+A hiatal hernia involves protrusion of the:{
+=Stomach into the thorax
+~Lung into the mediastinum
+~Heart into the abdomen
+~Liver into the thorax
+~Spleen into the thorax
+}
+
+The nerve most at risk during esophageal surgery is the:{
+=Recurrent laryngeal nerve
+~Phrenic nerve
+~Vagus nerve
+~Intercostal nerve
+~Sympathetic trunk
+}
+
+The paravertebral sympathetic chain is located:{
+=Along the lateral aspect of the vertebral bodies
+~Anterior to the vertebral bodies
+~Posterior to the vertebral bodies
+~Within the vertebral canal
+~Within the intervertebral foramina
+}
+
+The splanchnic nerves carry:{
+=Preganglionic sympathetic fibers
+~Postganglionic sympathetic fibers
+~Preganglionic parasympathetic fibers
+~Postganglionic parasympathetic fibers
+~Sensory fibers only
+}
+
+The cisterna chyli is located:{
+=At the beginning of the thoracic duct
+~At the end of the thoracic duct
+~Within the superior mediastinum
+~Within the anterior mediastinum
+~Within the middle mediastinum
+}
+
+The posterior mediastinum contains:{
+=Esophagus, thoracic aorta, azygos venous system, vagus nerves, sympathetic trunks, thoracic duct
+~Heart, great vessels, trachea, primary bronchi
+~Thymus, lymph nodes, internal thoracic vessels
+~Lungs and pleura
+~Diaphragm only
+}

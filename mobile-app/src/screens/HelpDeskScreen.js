@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, SafeAreaView, TouchableOpacity, ScrollView, TextInput, ActivityIndicator, Alert } from 'react-native';
+import { View, Text, StyleSheet, SafeAreaView, TouchableOpacity, ScrollView, TextInput, ActivityIndicator, Alert, Linking } from 'react-native';
 import { ArrowLeft, MessageSquare, Send, CircleCheck, AlertCircle, ChevronRight, HelpCircle } from 'lucide-react-native';
 import { useTheme } from '../context/ThemeContext';
 import { API_URL } from '../config/Constants';
@@ -58,7 +58,14 @@ const HelpDeskScreen = ({ route, navigation }) => {
         throw new Error(errorMessage);
       }
     } catch (error) {
-      Alert.alert("Submission Error", error.message || "Could not reach support server. Please make sure the backend server is running and reachable.");
+      Alert.alert(
+        "Submission Error", 
+        "Could not reach support server. Please contact us directly on Telegram: @mrx4u",
+        [
+          { text: "Cancel", style: "cancel" },
+          { text: "Open Telegram", onPress: () => Linking.openURL('https://t.me/mrx4u') }
+        ]
+      );
     } finally {
       setSubmitting(false);
     }
@@ -161,6 +168,19 @@ const HelpDeskScreen = ({ route, navigation }) => {
         </TouchableOpacity>
 
         <MyTicketsSection user={user} navigation={navigation} colors={colors} />
+
+        <View style={{ marginTop: 30, alignItems: 'center' }}>
+          <Text style={{ fontSize: 13, color: colors.textSecondary, marginBottom: 8 }}>
+            Need immediate assistance?
+          </Text>
+          <TouchableOpacity 
+            style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: '#0088cc', paddingHorizontal: 20, paddingVertical: 12, borderRadius: 25 }}
+            onPress={() => Linking.openURL('https://t.me/mrx4u')}
+          >
+            <MessageSquare size={16} color="#FFF" style={{ marginRight: 8 }} />
+            <Text style={{ color: '#FFF', fontWeight: 'bold', fontSize: 14 }}>Contact us on Telegram: @mrx4u</Text>
+          </TouchableOpacity>
+        </View>
 
         <Text style={styles.footerInfo}>Support Team Status: Online</Text>
       </ScrollView>

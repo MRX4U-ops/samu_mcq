@@ -25,78 +25,116 @@ export const useBattleStore = create((set, get) => ({
   error: null,
 
   initSocket: () => {
-    if (!get().socket) {
-      console.log('[Battle Store] Initializing Socket.IO connection at:', SOCKET_URL);
-      const socket = io(SOCKET_URL, {
-        transports: ['websocket'],
-        forceNew: true
-      });
-      
-      socket.on('connect', () => {
-        console.log('[Battle Store] Socket connected successfully!');
-      });
-      
-      socket.on('room_state_update', (participants) => {
-        console.log('[Battle Store] Received room state update:', participants);
-        set({ participants });
-      });
-
-      socket.on('question_active', (data) => {
-        console.log('[Battle Store] Question active:', data);
-        set({
-          status: 'live',
-          currentIndex: data.questionIndex,
-          activeQuestion: {
-            question: data.question,
-            options: data.options,
-            totalQuestions: data.totalQuestions
-          },
-          timeLeft: data.timeLeft,
-          selectedOptionIndex: null,
-          isAnswerLocked: false,
-          revealedResult: null,
-          playerAnswersCount: 0,
-          questionStartTime: Date.now()
-        });
-      });
-
-      socket.on('timer_tick', (data) => {
-        set({ timeLeft: data.timeLeft });
-      });
-
-      socket.on('player_answered', (data) => {
-        console.log('[Battle Store] Player answered update:', data);
-        set({ playerAnswersCount: data.answersCount });
-      });
-
-      socket.on('question_result', (data) => {
-        console.log('[Battle Store] Received question result reveal:', data);
-        set({
-          revealedResult: {
-            correctIndex: data.correctIndex,
-            explanation: data.explanation
-          },
-          participants: data.leaderboard, // updates live scorecard
-          leaderboard: data.leaderboard
-        });
-      });
-
-      socket.on('game_end', (data) => {
-        console.log('[Battle Store] Battle ended. Final leaderboard:', data.leaderboard);
-        set({ 
-          status: 'ended', 
-          leaderboard: data.leaderboard,
-          activeQuestion: null
-        });
-      });
-
-      socket.on('error', (err) => {
-        console.error('[Battle Store] Received socket error:', err);
-        set({ error: err.message || 'An error occurred' });
-      });
-
-      set({ socket });
+    const existingSocket = get().socket;
+    if (existingSocket && existingSocket.connected) {
+      console.log('[Battle Store] Socket already connected.');
+      return;
     }
+
+    if (existingSocket) {
+      console.log('[Battle Store] Socket exists but is disconnected. Reconnecting...');
+      existingSocket.connect();
+      return;
+    }
+
+    console.log('[Battle Store] Initializing Socket.IO connection at:', SOCKET_URL);
+    const socket = io(SOCKET_URL, {
+      transports: ['websocket', 'polling'],
+      forceNew: true
+    });
+    
+    socket.on('connect', () => {
+      console.log('[Battle Store] Socket connected successfully!');
+      // If we were already in a room, re-join it!
+      const { roomCode, myUserId, myUserName } = get();
+      if (roomCode && myUserId) {
+        console.log('[Battle Store] Re-joining room after connection/reconnection:', roomCode);
+        socket.emit('player_join', { roomCode, userId: myUserId, name: myUserName });
+      }
+    });
+
+    socket.on('connect_error', (err) => {
+      console.error('[Battle Store] Socket connection error:', err);
+      set({ error: `Connection failed: ${err.message}` });
+    });
+
+    socket.on('disconnect', (reason) => {
+      console.log('[Battle Store] Socket disconnected:', reason);
+    });
+    
+    socket.on('room_state_update', (participants) => {
+      console.log('[Battle Store] Received room state update:', participants);
+      set({ participants });
+    });
+
+    socket.on('question_active', (data) => {
+      console.log('[Battle Store] Question active:', data);
+      const { participants } = get();
+      const resetParticipants = participants.map(p => ({ ...p, answeredCurrent: false }));
+      set({
+        status: 'live',
+        currentIndex: data.questionIndex,
+        participants: resetParticipants,
+        activeQuestion: {
+          question: data.question,
+          options: data.options,
+          totalQuestions: data.totalQuestions
+        },
+        timeLeft: data.timeLeft,
+        selectedOptionIndex: null,
+        isAnswerLocked: false,
+        revealedResult: null,
+        playerAnswersCount: 0,
+        questionStartTime: Date.now()
+      });
+    });
+
+    socket.on('timer_tick', (data) => {
+      set({ timeLeft: data.timeLeft });
+    });
+
+    socket.on('player_answered', (data) => {
+      console.log('[Battle Store] Player answered update:', data);
+      const { participants } = get();
+      const updated = participants.map(p => {
+        if (p.userId === data.userId) {
+          return { ...p, answeredCurrent: true };
+        }
+        return p;
+      });
+      set({ 
+        playerAnswersCount: data.answersCount,
+        participants: updated
+      });
+    });
+
+    socket.on('question_result', (data) => {
+      console.log('[Battle Store] Received question result reveal:', data);
+      set({
+        revealedResult: {
+          correctIndex: data.correctIndex,
+          explanation: data.explanation
+        },
+        participants: data.leaderboard, // updates live scorecard
+        leaderboard: data.leaderboard
+      });
+    });
+
+    socket.on('game_end', (data) => {
+      console.log('[Battle Store] Battle ended. Final leaderboard:', data.leaderboard);
+      set({ 
+        status: 'ended', 
+        leaderboard: data.leaderboard,
+        activeQuestion: null
+      });
+    });
+
+    socket.on('error', (err) => {
+      console.error('[Battle Store] Received socket error:', err);
+      set({ error: err.message || 'An error occurred' });
+    });
+
+    set({ socket });
   },
 
   joinRoom: (roomCode, userId, name) => {

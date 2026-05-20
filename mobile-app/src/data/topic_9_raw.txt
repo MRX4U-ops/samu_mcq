@@ -1,0 +1,161 @@
+Topic:-09
+
+The pericardium is composed of:{
+=Fibrous and serous layers
+~Only a fibrous layer
+~Only a serous layer
+~Muscle tissue and connective tissue
+~Epithelial tissue only
+}
+
+The heart is located in the:{
+=Mediastinum
+~Pleural cavity
+~Abdominal cavity
+~Cranial cavity
+~Spinal cavity
+}
+
+The apex of the heart is formed by the:{
+=Left ventricle
+~Right ventricle
+~Left atrium
+~Right atrium
+~Interventricular septum
+}
+
+The coronary arteries arise from the:{
+=Ascending aorta
+~Aortic arch
+~Descending aorta
+~Pulmonary trunk
+~Superior vena cava
+}
+
+The sinoatrial (SA) node is located in the:{
+=Right atrium
+~Left atrium
+~Right ventricle
+~Left ventricle
+~Interatrial septum
+}
+
+The atrioventricular (AV) node is located in the:{
+=Interatrial septum
+~Right atrium
+~Left atrium
+~Right ventricle
+~Left ventricle
+}
+
+The mitral valve is located between the:{
+=Left atrium and left ventricle
+~Right atrium and right ventricle
+~Right atrium and pulmonary trunk
+~Left ventricle and aorta
+~Right ventricle and aorta
+}
+
+The tricuspid valve is located between the:{
+=Right atrium and right ventricle
+~Left atrium and left ventricle
+~Right atrium and pulmonary trunk
+~Left ventricle and aorta
+~Right ventricle and aorta
+}
+
+The pulmonary veins carry:{
+=Oxygenated blood to the left atrium
+~Deoxygenated blood to the right atrium
+~Oxygenated blood to the right atrium
+~Deoxygenated blood to the left atrium
+~Mixed blood to the left atrium
+}
+
+The superior vena cava drains blood from the:{
+=Head, neck, and upper limbs
+~Abdomen and pelvis
+~Lower limbs
+~Lungs
+~Heart muscle
+}
+
+The inferior vena cava drains blood from the:{
+=Abdomen, pelvis, and lower limbs
+~Head, neck, and upper limbs
+~Lungs
+~Heart muscle
+~Thoracic wall
+}
+
+The aortic arch gives rise to the:{
+=Brachiopcephalic trunk, left common carotid, and left subclavian arteries
+~Right and left coronary arteries
+~Pulmonary trunk and pulmonary arteries
+~Superior and inferior vena cavae
+~Azygos vein and hemiazygos vein
+}
+
+The thyroid gland is located:{
+=Anterior to the trachea
+~Posterior to the trachea
+~Superior to the heart
+~Inferior to the diaphragm
+~Within the mediastinum
+}
+
+The thyroid gland produces:{
+=Thyroxine (T4) and triiodothyronine (T3)
+~Insulin and glucagon
+~Growth hormone
+~Adrenaline and noradrenaline
+~Cortisol and aldosterone
+}
+
+The recurrent laryngeal nerves supply:{
+=Most of the muscles of the larynx
+~The diaphragm
+~The heart muscle
+~The thyroid gland
+~The esophagus
+}
+
+The thymus gland is located in the:{
+=Superior mediastinum
+~Posterior mediastinum
+~Anterior mediastinum
+~Middle mediastinum
+~Inferior mediastinum
+}
+
+The phrenic nerve innervates the:{
+=Diaphragm
+~Intercostal muscles
+~Abdominal muscles
+~Neck muscles
+~Heart muscle
+}
+
+The thoracic duct drains lymph from:{
+=Most of the body
+~Right upper limb and right side of head and thorax
+~Left upper limb and left side of head and thorax
+~Only the abdominal organs
+~Only the lower limbs
+}
+
+The azygos venous system drains blood from the:{
+=Posterior thoracic and abdominal walls
+~Head and neck
+~Upper limbs
+~Lower limbs
+~Heart muscle
+}
+
+The great cardiac vein drains into the:{
+=Coronary sinus
+~Superior vena cava
+~Inferior vena cava
+~Right atrium directly
+~Left atrium directly
+}

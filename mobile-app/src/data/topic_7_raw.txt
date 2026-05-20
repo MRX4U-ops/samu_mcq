@@ -1,0 +1,163 @@
+Topic:-07
+
+Muscle Not Attached to the Hyoid Bone{
+~Which of the following muscles is not attached to the hyoid bone?
+=Sternothyroid
+~Mylohyoid
+~Geniohyoid
+~Omohyoid
+}
+
+Sternohyoid{
+~Function of the Suprahyoid Muscles"What is the primary function of the suprahyoid muscles?
+=Elevate the hyoid bone and larynx during swallowing
+~Depress the hyoid bone during speech
+~Rotate the hyoid bone during mastication
+~Stabilize the hyoid bone during head movement
+}
+
+Innervation of the Infrahyoid Muscles"Which nerve innervates the majority of the infrahyoid muscles?{
+=Ansa cervicalis
+~Vagus nerve
+~Hypoglossal nerve
+~Ansa cervicalis
+~Phrenic nerve
+}
+
+Attachment Site of the Sternohyoid Muscle"Where does the sternohyoid muscle attach?{
+=Sternum and thyroid cartilage
+~Hyoid bone and clavicle
+~Sternum and hyoid bone
+~Clavicle and mandible
+~Role of the Thyrohyoid Muscle "What is the primary role of the thyrohyoid muscle?
+}
+
+*Elevate the thyroid cartilage{
+~Depress the hyoid bone
+~Elevate the thyroid muscle
+~Elevate the hyoid bone
+~Depress the thyroid cartilage
+~Geniohyoid Muscle Function"How does the geniohyoid muscle contribute to swallowing?
+}
+
+*Elevates and pulls the hyoid bone anteriorly{
+~Depresses the mandible
+~Retracts the tongue
+~Stabilizes the cervical vertebrae
+}
+
+~Digastric Muscle Anatomy
+~Which structure passes through the intermediate tendon of the digastric muscle?
+}
+
+*Stylohyoid muscle{
+~Hyoid bone
+~omohyoid muscle
+~Sternocleidomastoid muscle
+~Omohyoid muscle
+~Function of the Infrahyoid Muscles in Breathing "What is the function of the infrahyoid muscles during breathing?
+}
+
+*Depress the hyoid bone and larynx{
+~Elevate the rib cage
+~Depress the thyroid cartilage
+~Expand the thoracic cavity
+~Elevate the diaphragm
+~Mylohyoid Muscle Innervation "Which nerve innervates the mylohyoid muscle?
+}
+
+*Mylohyoid nerve (branch of the trigeminal nerve){
+~Hypoglossal nerve
+~Facial nerve
+~geniohyoid nerve
+~Glossopharyngeal nerve
+~Orbicularis Oris Function "What is the primary function of the orbicularis oris muscle?
+}
+
+*Pucker the lips{
+~Elevate the upper lip
+~Close the eyelids
+~Elevate jaw
+~Retract the corners of the mouth
+~Innervation of Buccinator"Which nerve innervates the buccinator muscle?
+}
+
+*B: Facial nerve (VII){
+~A: Mandibular nerve (V3)
+~B: accessory nerve (11)
+~C: Glossopharyngeal nerve (IX)
+~D: Hypoglossal nerve (XII)
+~Zygomaticus Major Function"What is the primary action of the zygomaticus major muscle?
+}
+
+*Smile{
+~Depress the lower lip
+~Elevate the upper lip
+~gaze
+~Frown
+~Risorius Muscle Action
+}
+
+The risorius muscle is primarily responsible for which action?{
+~Retracting the corners of the mouth
+~Pouting
+~Smiling
+~Elevate the eyelids
+~Raising the eyebrows
+}
+
+Depressor Anguli Oris Function "Which action is performed by the depressor anguli oris muscle?{
+=Depress the corners of the mouth
+~Elevate the upper lip
+~Depress the eyebrows
+~Close the eyes
+~Flare the nostrils
+}
+
+Facial Nerve Branches"Which branch of the facial nerve innervates the frontalis muscle?{
+=Temporal branch
+~Zygomatic branch
+~Buccal branch
+~Mandibular branch
+~Phrenic nerve
+}
+
+Levator Labii Superioris Function"What is the primary function of the levator labii superioris muscle?{
+=Elevate the upper lip
+~Depress the lower lip
+~Elevate the upper eye brows
+~Close the lips
+~Retract the lips
+}
+
+Corrugator Supercilii Function"The corrugator supercilii muscle is responsible for which facial expression?{
+~Raising the eyebrows
+~Smiling
+~Grimacing
+=Frowning
+~Squinting
+}
+
+Anterior Triangle Boundaries"Which structure forms the superior boundary of the anterior triangle of the neck?{
+~Clavicle
+=Mandible
+~Sternum
+~Hyoid bone
+~First rib
+}
+
+Posterior Triangle Boundaries"Which muscle forms the posterior boundary of the posterior triangle of the neck?{
+~Sternocleidomastoid
+=Trapezius
+~Platysma
+~Omohyoid
+~sternohyoid
+}
+
+Sternothyroid Contents of the Carotid Triangle"Which structure is NOT found within the carotid triangle?{
+~Common carotid artery
+~Internal jugular vein
+~Vagus nerve
+=Subclavian artery
+~Internal carotid artery
+}

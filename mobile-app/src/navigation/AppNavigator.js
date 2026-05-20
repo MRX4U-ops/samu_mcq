@@ -24,6 +24,7 @@ import HelpDeskScreen from '../screens/HelpDeskScreen';
 import SupportChatScreen from '../screens/SupportChatScreen';
 import AskAIScreen from '../screens/AskAIScreen';
 import AddExamScreen from '../screens/AddExamScreen';
+import ExamResultsScreen from '../screens/ExamResultsScreen';
 import SavedQuestionsScreen from '../screens/SavedQuestionsScreen';
 import TimerSetScreen from '../screens/TimerSetScreen';
 import ResultScreen from '../screens/ResultScreen';
@@ -38,6 +39,8 @@ import AdminUsers from '../screens/admin/AdminUsers';
 import AdminPayments from '../screens/admin/AdminPayments';
 import AdminSupport from '../screens/admin/AdminSupport';
 import SetPasswordScreen from '../screens/SetPasswordScreen';
+import AppGuidelinesScreen from '../screens/AppGuidelinesScreen';
+
 
 const Stack = createNativeStackNavigator();
 
@@ -108,10 +111,12 @@ const AppNavigator = () => {
           <Stack.Screen name="HelpDesk" component={HelpDeskScreen} />
           <Stack.Screen name="SupportChat" component={SupportChatScreen} />
           <Stack.Screen name="AddExam" component={AddExamScreen} />
+          <Stack.Screen name="ExamResults" component={ExamResultsScreen} />
           <Stack.Screen name="SavedQuestions" component={SavedQuestionsScreen} />
           <Stack.Screen name="TimerSet" component={TimerSetScreen} />
           <Stack.Screen name="WebsiteOption" component={WebsiteOptionScreen} />
           <Stack.Screen name="WebView" component={WebViewScreen} />
+          <Stack.Screen name="AppGuidelines" component={AppGuidelinesScreen} />
 
           {/* Admin Routes */}
           {isAdmin() && (

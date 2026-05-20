@@ -1,0 +1,161 @@
+Topic:-1
+
+A surgery is performed within 10 hours of the patient arrival is?{
+=Emergency
+~Endoscopic
+~Laproscopic
+~Elective
+~Urgency
+}
+
+A surgery is performed within minutes of the patient arrival is?{
+=Urgency
+~Laproscopic
+~Elective
+~Emergency
+~Endoscopic
+}
+
+A surgery is performed within no exact time frame is?{
+=Elective
+~Emergency
+~Endoscopic
+~Urgency
+~Laproscopic
+}
+
+A Surgical Cut or incision is made in an Organ is called?{
+=Otomy
+~Ostomy
+~Incision
+~Ectomy
+~Plasty
+}
+
+A surgical procedure is perfomed to remove gall bladder called?{
+=Cholecystectomy
+~Laparotomy
+~Mastectomy
+~Nephrectomy
+~Hysterectomy
+}
+
+A surgical Removal Of part of an organ or whole organ?{
+=Ectomy
+~Incision
+~Otomy
+~Ostomy
+~Plasty
+}
+
+How many types of consents are used in medical practice?{
+=4
+~1
+~6
+~3
+~5
+}
+
+How to hold a scalpel for long and firm incision?{
+=Palm grip
+~Knife grip
+~Opposite hand grip
+~Pencil grip
+~Fingertip grip
+}
+
+Non Absorbable suture among the following is ?{
+=Proline
+~Monofilament
+~Monocryl
+~Polyglactic
+~Polydiaxanone
+}
+
+Silk is associated with infection because{
+=It has services lodging bacteria
+~Causes irritation
+~Cannot be properly sterilized
+~Infection goes deeper during bite
+~It is non-absorbable
+}
+
+Surgery performed to enhance the appearance of a person is?{
+=Cosmetic
+~Ablative
+~Incisional
+~Diagnostic
+~Palliative
+}
+
+Surgical removal of limb at the level of the joint?{
+=Disarticulation
+~Excision
+~Trepanation
+~Amputation
+~Baseline
+}
+
+Surgical removal of limb?{
+=Amputation
+~Excision
+~Trepanation
+~Baseline
+~Disarticulation
+}
+
+The area where surgical incision is performed is?{
+=Sterile field
+~Antiseptics
+~Clean procedure
+~Sterile field
+~Surgical asepsis
+}
+
+The period used during operation is ?{
+=Intraoperative
+~Peri operative
+~Pre operative
+~Post operative
+~Operative period
+}
+
+the Surgery used in abdomen to find the diagnosis is?{
+=Exploratory laparotomy
+~Raphy
+~Laprscopy surgery
+~Laparotomy
+~Plasty
+}
+
+What is the function of retractors?{
+=To expose the internal organs for better reach
+~To make an incision
+~To dissect organs
+~To cut organs
+~To clamp
+}
+
+What is the most initial step after completing a surgery?{
+=ICU care
+~OT care
+~OPD care
+~Ward care
+~Home care
+}
+
+What is the opening called used for feeding and draining?{
+=Stoma
+~Lapa
+~Anastomosis
+~Baseline
+~Plasty
+}
+
+Which of the following is an absorbable suture material ?{
+=Polydioxanone
+~Polypropylene
+~Silk
+~Monofilament
+~Polyamide
+}

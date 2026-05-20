@@ -19321,61 +19321,61 @@ module.exports = {
       {
         "question": "The suprascapular nerve supplies:",
         "options": [
+          "All of the above.",
           "Muscle inserted into the upper impression of the greater tuberosity of the humerus.",
           "Muscle inserted into the middle impression of the greater tuberosity of the humerus.",
           "Muscle that initiates abduction of the arm.",
-          "All of the above.",
           "a and b only."
         ],
-        "correctIndex": 3,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'All of the above.'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Lesion of the axillary nerve causes:",
         "options": [
-          "Winging of the scapula.",
           "Flat shoulder.",
+          "Winging of the scapula.",
           "Claw hand.",
           "Ape hand.",
           "Wrist drop."
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Flat shoulder.'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Muscles that rotate the scapula downward are attached to:",
         "options": [
+          "a and c.",
           "Ventral lip of the medial border of the scapula.",
           "Dorsal lip of the medial border of the scapula.",
           "Upper lip of the crest of the spine.",
-          "Lower lip of the crest of the spine.",
-          "a and c."
+          "Lower lip of the crest of the spine."
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'a and c.'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Muscles that rotate the scapula upward are attached to the:",
         "options": [
+          "a and c.",
           "Ventral lip of the medial border of the scapula.",
           "Dorsal lip of the medial border of the scapula.",
           "Upper lip of the crest of the spine.",
-          "Lower lip of the crest of the spine.",
-          "a and c."
+          "Lower lip of the crest of the spine."
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'a and c.'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "All the muscles attached to the bicipital (intertubercular) groove:",
         "options": [
+          "b and c.",
           "Abduct the arm (shoulder joint).",
           "Adduct the arm.",
           "Medial rotation of the arm.",
-          "a and c.",
-          "b and c."
+          "a and c."
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'b and c.'. This choice aligns with the established clinical curriculum."
       },
       {
@@ -19393,61 +19393,61 @@ module.exports = {
       {
         "question": "Actions of the latissimus dorsi:",
         "options": [
+          "None of the above.",
           "Flexes the arm.",
           "Abducts the arm.",
           "Laterally rotates the arm.",
-          "All of the above.",
-          "None of the above."
+          "All of the above."
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'None of the above.'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Triangle of auscultation is associated with all of the following EXCEPT:",
         "options": [
-          "Latissimus dorsi.",
           "Teres major.",
+          "Latissimus dorsi.",
           "Rhomboid major.",
           "Trapezius.",
           "Medial border of the scapula."
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Teres major.'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The quadrangular space is bounded by all of the following EXCEPT:",
         "options": [
+          "Long head of biceps.",
           "Teres minor.",
           "Teres major.",
-          "Long head of biceps.",
           "Long head of triceps.",
           "Surgical neck of the humerus."
         ],
-        "correctIndex": 2,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Long head of biceps.'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Regarding the biceps brachii, one is INCORRECT:",
         "options": [
+          "It is powerful supinator of the extended elbow.",
           "Has long head attached to the supraglenoid tubercle.",
           "Has short head attached to the tip of the coracoid process.",
           "Has a tendon inserted into the radial tuberosity.",
-          "It flexes the elbow joint.",
-          "It is powerful supinator of the extended elbow."
+          "It flexes the elbow joint."
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'It is powerful supinator of the extended elbow.'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The direction of the nutrient foramen of the humerus is:",
         "options": [
-          "Upward.",
           "Downward.",
+          "Upward.",
           "Medially.",
           "Laterally.",
           "None of the above."
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Downward.'. This choice aligns with the established clinical curriculum."
       },
       {
@@ -19477,37 +19477,37 @@ module.exports = {
       {
         "question": "The brachial artery:",
         "options": [
+          "In the cubital fossa, it lies medial to the biceps tendon.",
           "Bifurcates opposite the neck of the humerus.",
           "Is deep throughout its entire course.",
-          "In the cubital fossa, it lies medial to the biceps tendon.",
           "The median nerve crosses in front of the artery from the medial to the lateral side.",
           "None of the above."
         ],
-        "correctIndex": 2,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'In the cubital fossa, it lies medial to the biceps tendon.'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The cubital fossa is bounded by the:",
         "options": [
-          "Pronator quadratus.",
           "Brachioradialis.",
+          "Pronator quadratus.",
           "Coracobrachialis.",
           "Biceps tendon.",
           "a and b only."
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Brachioradialis.'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The lateral cutaneous nerve of the forearm is derived from the:",
         "options": [
+          "C5, 6, 7",
           "C5.",
           "C6.",
           "C7.",
-          "C5, 6, 7",
           "C6, 7, 8"
         ],
-        "correctIndex": 3,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'C5, 6, 7'. This choice aligns with the established clinical curriculum."
       },
       {
@@ -19525,37 +19525,37 @@ module.exports = {
       {
         "question": "Muscles innervated by the musculocutaneous nerve:",
         "options": [
+          "All of the above.",
           "Brachialis.",
           "Coracobrachialis.",
           "Biceps.",
-          "All of the above.",
           "Triceps."
         ],
-        "correctIndex": 3,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'All of the above.'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The cubital fossa contains all of the following EXCEPT:",
         "options": [
+          "Ulnar nerve.",
           "Brachial artery.",
           "Radial artery.",
           "Radial nerve.",
-          "Ulnar nerve.",
           "Median nerve."
         ],
-        "correctIndex": 3,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Ulnar nerve.'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The constriction below the greater and lesser tuberosities of the humerus is called:",
         "options": [
-          "Anatomical neck.",
           "Surgical neck.",
+          "Anatomical neck.",
           "Humeral shaft.",
           "Humeral ring.",
           "None of the above."
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Surgical neck.'. This choice aligns with the established clinical curriculum."
       }
     ],
@@ -20047,13 +20047,13 @@ module.exports = {
       {
         "question": "Structures closely related to long saphenous vein at ankle include which of the following?",
         "options": [
-          "major perforating veins to deep venous system",
           "a branch of the femoral nerve",
+          "major perforating veins to deep venous system",
           "medial superficial lymphatic trunks",
           "a branch of the anterior tibial nerve",
           "dorsalis pedis artery"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'a branch of the femoral nerve'. This choice aligns with the established clinical curriculum."
       },
       {
@@ -20083,121 +20083,121 @@ module.exports = {
       {
         "question": "Features of the fibula include which of the following?",
         "options": [
+          "its lower third is rough for the origin of soleus",
           "it is on the medial side of the tibia",
           "its medial surface is grooved for the origin of tibialis posterior",
           "it is ossified from five centres",
-          "it does not provide origin for flexor digitorum longus",
-          "its lower third is rough for the origin of soleus"
+          "it does not provide origin for flexor digitorum longus"
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'its lower third is rough for the origin of soleus'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Which of the following is true of the saphenous nerve?",
         "options": [
+          "is cutaneous only",
           "is predominantly from L2",
           "supplies adductor magnus",
           "pierces the deep fascia in the femoral triangle",
-          "is cutaneous only",
           "terminates just below the knee"
         ],
-        "correctIndex": 3,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'is cutaneous only'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The superficial epigastric, superior perforating and deep external pudendal arteries are all branches of:",
         "options": [
+          "external iliac",
           "profunda femoris",
           "popliteal",
           "internal iliac",
-          "external iliac",
           "none of the above"
         ],
-        "correctIndex": 3,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'external iliac'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Which of the following is NOT a branch of the profunda femoris artery?",
         "options": [
+          "all are branches of the profunda",
           "medial femoral circumflex",
           "lateral femoral circumflex",
           "popliteal",
-          "perforating",
-          "all are branches of the profunda"
+          "perforating"
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'all are branches of the profunda'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The long saphenous vein:",
         "options": [
+          "is in close relation with the saphenous nerve throughout the length of its course",
           "passes anterior to the inguinal ligament",
           "passes posteriorly to the medial malleolus",
           "ascends the lateral side of the leg",
-          "receives tributaries from the perineum",
-          "is in close relation with the saphenous nerve throughout the length of its course"
+          "receives tributaries from the perineum"
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'is in close relation with the saphenous nerve throughout the length of its course'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The chief dorsiflexor of the ankle joint:",
         "options": [
-          "peroneus tertius",
           "tibialis anterior",
+          "peroneus tertius",
           "extensor longus hallucis",
           "extensor longus digitorum",
           "none of the above"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'tibialis anterior'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Iliopsoas:",
         "options": [
-          "supplied by obturator nerve",
           "medial rotator of hip",
+          "supplied by obturator nerve",
           "synergist of quadriceps femoris",
           "lateral rotator of hip",
           "none of the above"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'medial rotator of hip'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The lumbar plexus is formed by ventral primary rami of:",
         "options": [
-          "T12, L1, L2 and L3",
           "L1, L2, L3 and L4",
+          "T12, L1, L2 and L3",
           "L2, L3, L4 and L5",
           "L2, L4, L5 and S1",
           "formed by dorsal primary rami"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'L1, L2, L3 and L4'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The cutaneous nerve supplying the medial aspect of the calf is:",
         "options": [
+          "saphenous",
           "anterior femoral cutaneous",
           "sural",
           "superficial peroneal",
-          "saphenous",
           "posterior femoral cutaneous"
         ],
-        "correctIndex": 3,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'saphenous'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The nerve supply to the knee joint comes from:",
         "options": [
+          "all of",
           "sciatic",
           "femoral",
           "obturator",
-          "all of",
           "none of these"
         ],
-        "correctIndex": 3,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'all of'. This choice aligns with the established clinical curriculum."
       },
       {
@@ -20215,49 +20215,49 @@ module.exports = {
       {
         "question": "Which of the following is not an action of gracilis?",
         "options": [
+          "extension of thigh",
           "adduction of thigh",
           "flexion of knee",
-          "extension of thigh",
           "medial rotation of the flexed knee",
           "none of these"
         ],
-        "correctIndex": 2,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'extension of thigh'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Obturator externus:",
         "options": [
-          "is pierced by femoral circumflex artery",
           "external rotator of hip",
+          "is pierced by femoral circumflex artery",
           "internal rotator of hip",
           "hip flexor",
           "supplied by S1."
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'external rotator of hip'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The intermediate cutaneous nerve of the thigh:",
         "options": [
+          "arises independently of the medial cutaneous nerve of the thigh",
           "arises from the sacral plexus",
           "is a branch of the obturator nerve",
           "pierces sartorius",
-          "extends beneath the knee",
-          "arises independently of the medial cutaneous nerve of the thigh"
+          "extends beneath the knee"
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'arises independently of the medial cutaneous nerve of the thigh'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The dorsalis pedis artery is a continuation of:",
         "options": [
-          "anterior perforating branch of posterior tibial",
           "anterior tibial",
+          "anterior perforating branch of posterior tibial",
           "popliteal",
           "femoral",
           "peroneal"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'anterior tibial'. This choice aligns with the established clinical curriculum."
       },
       {
@@ -20275,13 +20275,13 @@ module.exports = {
       {
         "question": "The sole of the foot has a cutaneous nerve supply derived from:",
         "options": [
+          "L5, S1 and S2",
           "L4, L5, S1 and S2",
           "L5 and S1",
           "L4, L5 and S1",
-          "L5 and L5",
-          "L5, S1 and S2"
+          "L5 and L5"
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'L5, S1 and S2'. This choice aligns with the established clinical curriculum."
       }
     ],
@@ -20301,25 +20301,25 @@ module.exports = {
       {
         "question": "Meningeal spaces of the brain, Choose the correct answer?",
         "options": [
+          "epidural, subdural, subarachnoid",
           "intrameningeal",
           "parietal",
           "intracranial, intrameningeal",
-          "epidural, subdural, subarachnoid",
           "visceral"
         ],
-        "correctIndex": 3,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'epidural, subdural, subarachnoid'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "A patient has a boil on the tip of her nose. To which lymph nodes does the lymph from the skin of the infected area drain?",
         "options": [
+          "Submandibular nodes",
           "Parotid nodes",
           "Tracheobronchial nodes",
           "Superficial cervical nodes",
-          "Submental nodes",
-          "Submandibular nodes"
+          "Submental nodes"
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Submandibular nodes'. This choice aligns with the established clinical curriculum."
       },
       {
@@ -20337,13 +20337,13 @@ module.exports = {
       {
         "question": "The deep groove that separates the right and left cerebral hemispheres is called the ____",
         "options": [
+          "longitudinal fissure",
           "lateral fissure",
           "precentral gyrus",
           "postcentral gyrus",
-          "longitudinal fissure",
           "central sulcus"
         ],
-        "correctIndex": 3,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'longitudinal fissure'. This choice aligns with the established clinical curriculum."
       },
       {
@@ -20361,157 +20361,157 @@ module.exports = {
       {
         "question": "Which brain structure is located in the hindbrain?",
         "options": [
+          "pons",
           "cerebral cortex",
           "hypothalamus",
           "hippocampus",
-          "substantia nigra",
-          "pons"
+          "substantia nigra"
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'pons'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Failure to pass the finger-to-nose test is an indication of _____",
         "options": [
+          "Alcohol intoxication, cerebellar damage",
           "damage to the temporal lobe",
           "damage to the frontal lobe",
           "damage to the occipital lobe",
-          "sinisit",
-          "Alcohol intoxication, cerebellar damage"
+          "sinisit"
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Alcohol intoxication, cerebellar damage'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Sustained tension of the vocal cords (folds) is best achieved through the action of which of the following muscles?",
         "options": [
+          "The cricothyroid",
           "The salpingopharyngeus",
           "The aryepiglottic",
           "The posterior cricoarytenoid",
-          "The cricothyroid",
           "The cricopharyngeus"
         ],
-        "correctIndex": 3,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'The cricothyroid'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Which nervous system structure is associated with control of hunger ?",
         "options": [
+          "hypothalamus",
           "cerebellum",
           "none one",
           "medulla",
-          "hippocampus",
-          "hypothalamus"
+          "hippocampus"
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'hypothalamus'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The foramen magnum in the skull",
         "options": [
-          "is located in the sphenoid bone.",
           "allows entrance of the spinal part of the accessory nerve into the cranial cavity.",
+          "is located in the sphenoid bone.",
           "is located in the temporal bone.",
           "allows entrance of the trigeminal nerve",
           "allows exit of the facial nerve"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'allows entrance of the spinal part of the accessory nerve into the cranial cavity.'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The tectum is located in the ____________",
         "options": [
-          "forebrain",
           "midbrain",
+          "forebrain",
           "frontal lobe",
           "hindbrain",
           "spinal cord"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'midbrain'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The inner surface is covered with mucous mem- brane.",
         "options": [
-          "Impaired function of which of the following muscles produce difficulty in protruding the jaw?",
           "The medial pterygoid D. The masseter",
+          "Impaired function of which of the following muscles produce difficulty in protruding the jaw?",
           "The anterior belly of the digastric muscle",
           "The temporalis",
           "The lateral pterygoid"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'The medial pterygoid D. The masseter'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The jugular foramen in the skull",
         "options": [
+          "allows exit of the vagus nerve",
           "allows exit of the hypoglossal nerve.",
           "is located in the middle cranial fossa.",
-          "allows exit of the vagus nerve",
           "is located in the petrous part of the temporal bone.",
           "allows entrance of the external jugular vein."
         ],
-        "correctIndex": 2,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'allows exit of the vagus nerve'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "The nervous system is divided into the ____",
         "options": [
+          "autonomic and somatic nervous system",
           "sympathetic",
           "sensory",
           "brain",
-          "autonomic and somatic nervous system",
           "spinal cord"
         ],
-        "correctIndex": 3,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'autonomic and somatic nervous system'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Which is the largest branch of the internal carotid artery?",
         "options": [
+          "middle cerebral artery",
           "posterior communicating artery",
           "anterior cerebral artery",
           "ophthalmic artery",
-          "middle cerebral artery",
           "posterior cerebral artery"
         ],
-        "correctIndex": 3,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'middle cerebral artery'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Which anatomic structure is most likely to have damaged the nerve?",
         "options": [
+          "The petrous part of the temporal bone",
           "The lesser wing of the sphenoid bone",
           "The falx cerebelli",
           "The tentorium cerebelli",
-          "The greater wing of the sphenoid bone",
-          "The petrous part of the temporal bone"
+          "The greater wing of the sphenoid bone"
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'The petrous part of the temporal bone'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Which process is responsible for closing off the nasal cavity from the oropharynx during swallowing?",
         "options": [
+          "Contraction of the tensor and the levator veli palatini muscles",
           "Contraction of the aryepiglottic muscles",
           "Bending of the epiglottis",
           "Elevation of the tongue to the roof of the mouth",
-          "Relaxation of the pharyngeal constrictor muscles",
-          "Contraction of the tensor and the levator veli palatini muscles"
+          "Relaxation of the pharyngeal constrictor muscles"
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Contraction of the tensor and the levator veli palatini muscles'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Which is the smallest cranial nerve?",
         "options": [
+          "trochlear nerve",
           "abducent nerve",
           "oculomotor nerve",
           "olfactory nerve",
-          "accessory nerve",
-          "trochlear nerve"
+          "accessory nerve"
         ],
-        "correctIndex": 4,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'trochlear nerve'. This choice aligns with the established clinical curriculum."
       },
       {
@@ -20531,25 +20531,25 @@ module.exports = {
       {
         "question": "Muscle Not Attached to the Hyoid Bone",
         "options": [
-          "Which of the following muscles is not attached to the hyoid bone?",
           "Sternothyroid",
+          "Which of the following muscles is not attached to the hyoid bone?",
           "Mylohyoid",
           "Geniohyoid",
           "Omohyoid"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Sternothyroid'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Sternohyoid",
         "options": [
-          "Function of the Suprahyoid Muscles\"What is the primary function of the suprahyoid muscles?",
           "Elevate the hyoid bone and larynx during swallowing",
+          "Function of the Suprahyoid Muscles\"What is the primary function of the suprahyoid muscles?",
           "Depress the hyoid bone during speech",
           "Rotate the hyoid bone during mastication",
           "Stabilize the hyoid bone during head movement"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Elevate the hyoid bone and larynx during swallowing'. This choice aligns with the established clinical curriculum."
       },
       {
@@ -20721,49 +20721,49 @@ module.exports = {
       {
         "question": "Corrugator Supercilii Function\"The corrugator supercilii muscle is responsible for which facial expression?",
         "options": [
+          "Frowning",
           "Raising the eyebrows",
           "Smiling",
           "Grimacing",
-          "Frowning",
           "Squinting"
         ],
-        "correctIndex": 3,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Frowning'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Anterior Triangle Boundaries\"Which structure forms the superior boundary of the anterior triangle of the neck?",
         "options": [
-          "Clavicle",
           "Mandible",
+          "Clavicle",
           "Sternum",
           "Hyoid bone",
           "First rib"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Mandible'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Posterior Triangle Boundaries\"Which muscle forms the posterior boundary of the posterior triangle of the neck?",
         "options": [
-          "Sternocleidomastoid",
           "Trapezius",
+          "Sternocleidomastoid",
           "Platysma",
           "Omohyoid",
           "sternohyoid"
         ],
-        "correctIndex": 1,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Trapezius'. This choice aligns with the established clinical curriculum."
       },
       {
         "question": "Sternothyroid Contents of the Carotid Triangle\"Which structure is NOT found within the carotid triangle?",
         "options": [
+          "Subclavian artery",
           "Common carotid artery",
           "Internal jugular vein",
           "Vagus nerve",
-          "Subclavian artery",
           "Internal carotid artery"
         ],
-        "correctIndex": 3,
+        "correctIndex": 0,
         "explanation": "The correct answer is 'Subclavian artery'. This choice aligns with the established clinical curriculum."
       }
     ],

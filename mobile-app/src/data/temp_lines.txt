@@ -1,0 +1,20 @@
+                      "options": [
+                                "Surgical neck.",
+                                "None of the above.",
+                                "Humeral ring.",
+                                "Humeral shaft.",
+                                "Anatomical neck."
+                      ],
+                      "correctIndex": 0,
+                      "explanation": "Correct answer: Surgical neck.."
+            }
+  ]
+  },
+    "t-s-2-2-3": {
+    "situational": [
+      {
+          "question": "A 21-year-old patient has a lesion of the upper trunk of the brachial plexus (Erb–Duchenne paralysis). Which of the following is the most likely diagnosis?",
+          "options": ["Arm tending to lie in medial rotation", "Paralysis of the rhomboid major", "Inability to elevate the arm above the horizontal", "Loss of sensation on the medial side of the arm", "Inability to adduct the thumb"
+    ],
+    "test": [
+            {

@@ -2,8 +2,10 @@ import React, { useEffect } from 'react';
 import { View, Text, StyleSheet, SafeAreaView, TouchableOpacity, ScrollView, ActivityIndicator } from 'react-native';
 import { Clock, CheckCircle, Info, Users, Check, X } from 'lucide-react-native';
 import { useBattleStore } from '../store/battleStore';
+import { useTheme } from '../context/ThemeContext';
 
 const BattleQuestionScreen = ({ navigation }) => {
+  const { colors, isDarkMode } = useTheme();
   const {
     status,
     currentIndex,
@@ -66,7 +68,7 @@ const BattleQuestionScreen = ({ navigation }) => {
       <View style={styles.answeredBar}>
         <View style={styles.avatarsRow}>
           {participants.map((player) => {
-            const hasAnswered = player.answersCount > currentIndex;
+            const hasAnswered = !!(player.answeredCurrent || (player.answersCount !== undefined && player.answersCount > currentIndex));
             return (
               <View 
                 key={player.userId} 
@@ -96,53 +98,101 @@ const BattleQuestionScreen = ({ navigation }) => {
         contentContainerStyle={styles.sheetContent}
         showsVerticalScrollIndicator={false}
       >
-        <View style={styles.questionBox}>
-          <Text style={styles.questionText}>
-            {activeQuestion.question}
+        <View style={[{ backgroundColor: colors.questionBg, padding: 22, borderRadius: 24 }]}>
+          <View style={[styles.questionBox, { marginBottom: 16 }]}>
+            <Text style={[styles.questionText, { color: colors.questionText }]}>
+              {activeQuestion.question}
+            </Text>
+          </View>
+
+          <Text style={{ fontSize: 13, fontWeight: 'bold', color: colors.questionText + '80', marginBottom: 12 }}>
+            Select one:
           </Text>
-        </View>
 
-        <View style={styles.optionsList}>
-          {activeQuestion.options.map((opt, i) => {
-            const isSelected = i === selectedOptionIndex;
-            const isRevealed = revealedResult !== null;
-            const isCorrectAnswer = isRevealed && i === revealedResult.correctIndex;
-            
-            let btnStyle = styles.optionBtn;
-            let textStyle = styles.optionTxt;
-            let iconToShow = null;
+          <View style={styles.optionsList}>
+            {activeQuestion.options.map((opt, i) => {
+              const isSelected = i === selectedOptionIndex;
+              const isRevealed = revealedResult !== null;
+              const isCorrectAnswer = isRevealed && i === revealedResult.correctIndex;
+              
+              let borderCol = colors.questionText + '15';
+              let bgCol = 'transparent';
+              let txtCol = colors.questionText;
+              let iconToShow = null;
 
-            if (isRevealed) {
-              if (isCorrectAnswer) {
-                btnStyle = [styles.optionBtn, styles.correctBtn];
-                textStyle = [styles.optionTxt, styles.correctTxt];
-                iconToShow = <CheckCircle size={20} color="#10B981" />;
+              if (isRevealed) {
+                if (isCorrectAnswer) {
+                  borderCol = '#10B981';
+                  bgCol = '#ECFDF5';
+                  txtCol = '#166534';
+                  iconToShow = <CheckCircle size={20} color="#10B981" />;
+                } else if (isSelected) {
+                  borderCol = '#EF4444';
+                  bgCol = '#FEF2F2';
+                  txtCol = '#991B1B';
+                  iconToShow = <X size={20} color="#EF4444" />;
+                } else {
+                  borderCol = colors.questionText + '08';
+                  bgCol = 'transparent';
+                  txtCol = colors.questionText + '50';
+                }
               } else if (isSelected) {
-                btnStyle = [styles.optionBtn, styles.wrongBtn];
-                textStyle = [styles.optionTxt, styles.wrongTxt];
-                iconToShow = <X size={20} color="#EF4444" />;
-              } else {
-                btnStyle = [styles.optionBtn, styles.disabledBtn];
-                textStyle = [styles.optionTxt, styles.disabledTxt];
+                borderCol = colors.primary;
+                bgCol = colors.primary + '15';
+                txtCol = colors.primary;
               }
-            } else if (isSelected) {
-              btnStyle = [styles.optionBtn, styles.selectedBtn];
-              textStyle = [styles.optionTxt, styles.selectedTxt];
-            }
 
-            return (
-              <TouchableOpacity
-                key={i}
-                style={btnStyle}
-                onPress={() => handleOptionSelect(i)}
-                disabled={isAnswerLocked || isRevealed}
-                activeOpacity={0.7}
-              >
-                <Text style={textStyle}>{opt}</Text>
-                {iconToShow}
-              </TouchableOpacity>
-            );
-          })}
+              const letter = String.fromCharCode(97 + i);
+
+              return (
+                <TouchableOpacity
+                  key={i}
+                  style={[
+                    styles.optionBtn,
+                    {
+                      borderColor: borderCol,
+                      backgroundColor: bgCol,
+                      borderWidth: 1.5,
+                      borderRadius: 14,
+                      paddingVertical: 12,
+                      paddingHorizontal: 16,
+                      marginBottom: 8,
+                      flexDirection: 'row',
+                      alignItems: 'center',
+                      justifyContent: 'space-between'
+                    }
+                  ]}
+                  onPress={() => handleOptionSelect(i)}
+                  disabled={isAnswerLocked || isRevealed}
+                  activeOpacity={0.7}
+                >
+                  <View style={{ flexDirection: 'row', alignItems: 'center', flex: 1 }}>
+                    <View style={{
+                      width: 20,
+                      height: 20,
+                      borderRadius: 10,
+                      borderWidth: 2,
+                      borderColor: isSelected ? colors.primary : colors.questionText + '60',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      marginRight: 12
+                    }}>
+                      {isSelected && (
+                        <View style={{
+                          width: 10,
+                          height: 10,
+                          borderRadius: 5,
+                          backgroundColor: colors.primary
+                        }} />
+                      )}
+                    </View>
+                    <Text style={{ color: txtCol, fontSize: 15, fontWeight: '600', flex: 1 }}>{letter}. {opt}</Text>
+                  </View>
+                  {iconToShow}
+                </TouchableOpacity>
+              );
+            })}
+          </View>
         </View>
 
         {/* Explain Card during Reveal Phase */}

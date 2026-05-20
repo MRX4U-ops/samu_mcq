@@ -1,0 +1,161 @@
+Topic:-12
+
+The stomach is located primarily in the:{
+=Left upper quadrant of the abdomen
+~Right upper quadrant of the abdomen
+~Left lower quadrant of the abdomen
+~Right lower quadrant of the abdomen
+~Epigastric region only
+}
+
+The cardia of the stomach is located at the level of:{
+=T11 vertebra
+~T8 vertebra
+~T10 vertebra
+~L1 vertebra
+~L2 vertebra
+}
+
+The pylorus of the stomach is located at the level of:{
+=L1 vertebra
+~T10 vertebra
+~T12 vertebra
+~L3 vertebra
+~S1 vertebra
+}
+
+The fundus of the stomach is located:{
+=Superior to the esophageal opening
+~Inferior to the esophageal opening
+~Anterior to the pylorus
+~Posterior to the pylorus
+~Medial to the body
+}
+
+The greater curvature of the stomach is located:{
+=Laterally
+~Medially
+~Anteriorly
+~Posteriorly
+~Superiorly
+}
+
+The lesser curvature of the stomach is located:{
+=Medially
+~Laterally
+~Anteriorly
+~Posteriorly
+~Inferiorly
+}
+
+The stomach receives its blood supply primarily from the:{
+=Celiac trunk
+~Superior mesenteric artery
+~Inferior mesenteric artery
+~Splenic artery only
+~Hepatic artery only
+}
+
+The stomach drains its venous blood into the:{
+=Portal vein
+~Inferior vena cava
+~Superior vena cava
+~Hepatic veins
+~Splenic vein only
+}
+
+The stomach is innervated by the:{
+=Vagus nerves and celiac plexus
+~Phrenic nerve
+~Intercostal nerves
+~Lumbar plexus
+~Sacral plexus
+}
+
+The gastric rugae are:{
+=Folds in the gastric mucosa
+~Folds in the gastric serosa
+~Muscle layers of the stomach
+~Lymphatic vessels of the stomach
+~Blood vessels of the stomach
+}
+
+A hiatal hernia involves protrusion of the:{
+=Stomach into the thoracic cavity
+~Small intestine into the inguinal canal
+~Large intestine into the pelvis
+~Liver into the thoracic cavity
+~Spleen into the abdominal wall
+}
+
+A paraesophageal hernia involves:{
+=The fundus of the stomach herniating alongside the esophagus
+~Only the esophagus herniating through the diaphragm
+~Only the cardia herniating through the diaphragm
+~The entire stomach herniating into the thorax
+~The small intestine herniating into the thorax
+}
+
+A sliding hiatal hernia involves:{
+=The cardia and fundus sliding into the thorax
+~Only the fundus sliding into the thorax
+~Only the cardia sliding into the thorax
+~The entire stomach sliding into the thorax
+~The small intestine sliding into the thorax
+}
+
+Gastrostomy is a surgical procedure that creates an opening into the:{
+=Stomach
+~Duodenum
+~Jejunum
+~Ileum
+~Esophagus
+}
+
+A percutaneous endoscopic gastrostomy (PEG) is performed:{
+=Through the abdominal wall using an endoscope
+~Through a large abdominal incision
+~Through the chest wall
+~Through the rectum
+~Through the urethra
+}
+
+A partial gastrectomy involves removal of:{
+=Part of the stomach
+~The entire stomach
+~The duodenum
+~The esophagus
+~The spleen
+}
+
+A total gastrectomy involves removal of:{
+=The entire stomach
+~Part of the stomach
+~The duodenum and part of the stomach
+~The esophagus and part of the stomach
+~Only the pylorus
+}
+
+A Billroth I gastrectomy involves:{
+=Anastomosis of the stomach to the duodenum
+~Anastomosis of the stomach to the jejunum
+~Removal of the duodenum
+~Removal of the esophagus
+~Removal of the spleen
+}
+
+A Billroth II gastrectomy involves:{
+=Anastomosis of the stomach to the jejunum
+~Anastomosis of the stomach to the duodenum
+~Removal of the duodenum
+~Removal of the esophagus
+~Removal of the spleen
+}
+
+Dumping syndrome is a potential complication of:{
+=Gastrectomy
+~Cholecystectomy
+~Appendectomy
+~Hernia repair
+~Liver transplantation
+}

@@ -6,7 +6,7 @@ import * as Clipboard from 'expo-clipboard';
 import { useBattleStore } from '../store/battleStore';
 
 const BattleLobbyScreen = ({ navigation }) => {
-  const { roomCode, participants, status, isHost, startGame, setReady, myUserId, disconnect } = useBattleStore();
+  const { roomCode, participants, status, isHost, startGame, setReady, myUserId, disconnect, error } = useBattleStore();
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
@@ -14,6 +14,13 @@ const BattleLobbyScreen = ({ navigation }) => {
       navigation.replace('LiveBattle');
     }
   }, [status]);
+
+  useEffect(() => {
+    if (error) {
+      Alert.alert('Battle Error', error);
+      useBattleStore.setState({ error: null });
+    }
+  }, [error]);
 
   const handleCopy = async () => {
     if (roomCode) {

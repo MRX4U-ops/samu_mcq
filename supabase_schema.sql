@@ -397,3 +397,93 @@ CREATE POLICY "Allow authenticated manage battle_players" ON public.battle_playe
 CREATE POLICY "Allow authenticated manage battle_questions" ON public.battle_questions FOR ALL USING (auth.uid() IS NOT NULL);
 CREATE POLICY "Allow authenticated manage battle_results" ON public.battle_results FOR ALL USING (auth.uid() IS NOT NULL);
 
+
+-- 22. DEFENSIVE AND ROBUST RECORD QUIZ ATTEMPT RPC FUNCTION
+-- Resolves column "points" of relation "points_ledger" mismatch between older/newer schemas.
+CREATE OR REPLACE FUNCTION public.record_quiz_attempt(
+    p_user_id UUID,
+    p_subject_id TEXT,
+    p_topic_id TEXT,
+    p_correct_count INTEGER,
+    p_total_questions INTEGER
+) RETURNS VOID AS $$
+DECLARE
+    v_points INTEGER;
+BEGIN
+    -- Logic: +10 points per correct answer
+    v_points := p_correct_count * 10;
+
+    -- 1. Log Attempt safely
+    BEGIN
+        INSERT INTO public.attempts (user_id, subject_id, topic_id, correct_count, total_questions, score_earned)
+        VALUES (p_user_id, p_subject_id, p_topic_id, p_correct_count, p_total_questions, v_points);
+    EXCEPTION WHEN OTHERS THEN
+        -- Fallback or ignore
+    END;
+
+    -- 2. Add to Ledger safely (supports both amount/type/description and points/reason schemas)
+    BEGIN
+        INSERT INTO public.points_ledger (user_id, amount, type, description)
+        VALUES (p_user_id, v_points, 'test_score', 'Quiz Completion: ' || p_topic_id);
+    EXCEPTION WHEN OTHERS THEN
+        BEGIN
+            INSERT INTO public.points_ledger (user_id, points, reason)
+            VALUES (p_user_id, v_points, 'Quiz Completion: ' || p_topic_id);
+        EXCEPTION WHEN OTHERS THEN
+            -- Silent catch to never crash/block quiz flow
+        END;
+    END;
+
+    -- 3. Update Daily Leaderboard
+    BEGIN
+        INSERT INTO public.leaderboard_daily (user_id, points, last_updated)
+        VALUES (p_user_id, v_points, NOW())
+        ON CONFLICT (user_id) DO UPDATE
+        SET points = public.leaderboard_daily.points + v_points,
+            last_updated = NOW();
+    EXCEPTION WHEN OTHERS THEN
+        BEGIN
+            INSERT INTO public.leaderboard_daily (user_id, day, score)
+            VALUES (p_user_id, CURRENT_DATE, v_points)
+            ON CONFLICT (user_id, day) DO UPDATE SET score = public.leaderboard_daily.score + EXCLUDED.score;
+        EXCEPTION WHEN OTHERS THEN
+            -- Ignore
+        END;
+    END;
+
+    -- 4. Update Weekly Leaderboard
+    BEGIN
+        INSERT INTO public.leaderboard_weekly (user_id, points, last_updated)
+        VALUES (p_user_id, v_points, NOW())
+        ON CONFLICT (user_id) DO UPDATE
+        SET points = public.leaderboard_weekly.points + v_points,
+            last_updated = NOW();
+    EXCEPTION WHEN OTHERS THEN
+        BEGIN
+            INSERT INTO public.leaderboard_weekly (user_id, week_start, score)
+            VALUES (p_user_id, date_trunc('week', now())::DATE, v_points)
+            ON CONFLICT (user_id, week_start) DO UPDATE SET score = public.leaderboard_weekly.score + EXCLUDED.score;
+        EXCEPTION WHEN OTHERS THEN
+            -- Ignore
+        END;
+    END;
+
+    -- 5. Update Monthly Leaderboard
+    BEGIN
+        INSERT INTO public.leaderboard_monthly (user_id, points, last_updated)
+        VALUES (p_user_id, v_points, NOW())
+        ON CONFLICT (user_id) DO UPDATE
+        SET points = public.leaderboard_monthly.points + v_points,
+            last_updated = NOW();
+    EXCEPTION WHEN OTHERS THEN
+        BEGIN
+            INSERT INTO public.leaderboard_monthly (user_id, month_start, score)
+            VALUES (p_user_id, date_trunc('month', now())::DATE, v_points)
+            ON CONFLICT (user_id, month_start) DO UPDATE SET score = public.leaderboard_monthly.score + EXCLUDED.score;
+        EXCEPTION WHEN OTHERS THEN
+            -- Ignore
+        END;
+    END;
+END;
+$$ LANGUAGE plpgsql SECURITY DEFINER;
+

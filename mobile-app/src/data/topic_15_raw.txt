@@ -1,0 +1,161 @@
+Topic:-15
+
+The pelvic inlet is formed by:{
+=SACRAL promontory, arcuate lines, pectineal lines, pubic crest
+~Sacral promontory, ischial spines, pubic symphysis
+~Ischial tuberosities, pubic arch, coccyx
+~Iliac crests, sacrum, pubic symphysis
+~Acetabula, ischial spines, sacrum
+}
+
+The pelvic outlet is bounded by:{
+=Pubic symphysis, ischiopubic rami, ischial tuberosities, sacrotuberous ligaments, coccyx
+~Sacral promontory, arcuate lines, pectineal lines, pubic crest
+~Ischial spines, pubic symphysis, coccyx
+~Iliac crests, sacrum, pubic symphysis
+~Acetabula, ischial spines, sacrum
+}
+
+The true pelvis (lesser pelvis) is located:{
+=Inferior to the pelvic inlet
+~Superior to the pelvic inlet
+~Anterior to the pelvic inlet
+~Posterior to the pelvic inlet
+~Lateral to the pelvic inlet
+}
+
+The false pelvis (greater pelvis) is located:{
+=Superior to the pelvic inlet
+~Inferior to the pelvic inlet
+~Anterior to the pelvic inlet
+~Posterior to the pelvic inlet
+~Medial to the pelvic inlet
+}
+
+The pelvic floor is mainly formed by the:{
+=Levator ani and coccygeus muscles
+~Piriformis and obturator internus muscles
+~Rectus abdominis and external oblique muscles
+~Psoas major and iliacus muscles
+~Gluteus maximus and medius muscles
+}
+
+The levator ani muscle is composed of:{
+=Pubococcygeus, iliococcygeus, puborectalis
+~Piriformis, obturator internus, coccygeus
+~Rectus abdominis, external oblique, internal oblique
+~Psoas major, iliacus, quadratus lumborum
+~Gluteus maximus, medius, minimus
+}
+
+The rectum is located:{
+=Posterior to the bladder and reproductive organs
+~Anterior to the bladder and reproductive organs
+~Lateral to the bladder
+~Superior to the bladder
+~Inferior to the bladder
+}
+
+The rectum receives its blood supply from the:{
+=Superior, middle, and inferior rectal arteries
+~Inferior mesenteric artery only
+~Internal iliac arteries only
+~External iliac arteries only
+~Common iliac arteries only
+}
+
+The venous drainage of the rectum occurs via the:{
+=Superior, middle, and inferior rectal veins
+~Inferior mesenteric vein only
+~Internal iliac veins only
+~External iliac veins only
+~Common iliac veins only
+}
+
+The urinary bladder is located:{
+=Anterior in the pelvic cavity
+~Posterior in the pelvic cavity
+~Lateral in the pelvic cavity
+~Superior to the pelvic inlet
+~Inferior to the pelvic outlet
+}
+
+The detrusor muscle is located in the wall of the:{
+=Urinary bladder
+~Ureter
+~Urethra
+~Rectum
+~Uterus
+}
+
+The internal urethral sphincter is made of:{
+=Smooth muscle
+~Skeletal muscle
+~Connective tissue
+~Epithelial tissue
+~Nervous tissue
+}
+
+The external urethral sphincter is made of:{
+= Skeletal muscle
+~Smooth muscle
+~Connective tissue
+~Epithelial tissue
+~Nervous tissue
+}
+
+The trigone of the bladder is defined by the openings of:{
+=The two ureters and the urethra
+~The urethra and the rectum
+~The ureters and the rectum
+~The urethra and the uterine tubes (females)
+~The uterine tubes and the ovaries (females)
+}
+
+The ureters transport urine from the:{
+=Kidneys to the bladder
+~Bladder to the urethra
+~Kidneys to the urethra
+~Liver to the bladder
+~Bladder to the kidneys
+}
+
+The pelvic fascia is continuous with the:{
+=Transversalis fascia
+~Thoracolumbar fascia
+~Deep fascia of the thigh
+~Superficial fascia of the abdomen
+~All of the above
+}
+
+The obturator internus muscle originates from the:{
+=Inner surface of the obturator membrane and surrounding bone
+~Outer surface of the obturator membrane and surrounding bone
+~Iliac crest
+~Sacrum
+~Pubis
+}
+
+The piriformis muscle originates from the:{
+=Anterior surface of the sacrum
+~Posterior surface of the sacrum
+~Iliac crest
+~Pubis
+~Ischium
+}
+
+The pudendal nerve provides innervation to the:{
+=Perineum, external genitalia, and pelvic floor muscles
+~Abdominal muscles
+~Thigh muscles
+~Gluteal muscles
+~Lower limb muscles
+}
+
+The pelvic splanchnic nerves carry:{
+=Parasympathetic fibers
+~Sympathetic fibers
+~Sensory fibers
+~Motor fibers to the lower limb
+~Motor fibers to the abdominal wall
+}

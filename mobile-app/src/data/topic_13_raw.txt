@@ -1,0 +1,161 @@
+Topic:-13
+
+The liver is located primarily in the:{
+=Right upper quadrant of the abdomen
+~Left upper quadrant of the abdomen
+~Right lower quadrant of the abdomen
+~Left lower quadrant of the abdomen
+~Epigastric region only
+}
+
+The liver receives blood supply from the:{
+=Hepatic artery and portal vein
+~Hepatic artery only
+~Portal vein only
+~Superior mesenteric artery
+~Inferior mesenteric artery
+}
+
+The portal vein carries blood from the:{
+=Gastrointestinal tract and spleen
+~Liver to the inferior vena cava
+~Heart to the liver
+~Kidneys to the liver
+~Lungs to the liver
+}
+
+Bile is produced by:{
+=Hepatocytes (liver cells)
+~Gallbladder
+~Pancreas
+~Spleen
+~Duodenum
+}
+
+Bile is stored in the:{
+=Gallbladder
+~Liver
+~Pancreas
+~Spleen
+~Duodenum
+}
+
+The common bile duct is formed by the union of the:{
+=Cystic duct and common hepatic duct
+~Hepatic duct and pancreatic duct
+~Cystic duct and pancreatic duct
+~Hepatic artery and portal vein
+~Hepatic vein and portal vein
+}
+
+The common bile duct empties into the:{
+=Duodenum (second part)
+~Stomach
+~Jejunum
+~Ileum
+~Colon
+}
+
+The sphincter of Oddi controls the flow of:{
+=Bile and pancreatic juice into the duodenum
+~Blood into the liver
+~Blood from the liver
+~Gastric contents into the duodenum
+~Intestinal contents into the colon
+}
+
+The gallbladder’s primary function is:{
+=Storing and concentrating bile
+~Producing bile
+~Filtering blood
+~Producing digestive enzymes
+~Storing glycogen
+}
+
+Cholecystitis is inflammation of the:{
+=Gallbladder
+~Liver
+~Pancreas
+~Spleen
+~Duodenum
+}
+
+Cholelithiasis refers to the presence of:{
+=Gallstones
+~Liver cysts
+~Pancreatic stones
+~Splenic rupture
+~Duodenal ulcers
+}
+
+The spleen is located in the:{
+=Left upper quadrant of the abdomen
+~Right upper quadrant of the abdomen
+~Left lower quadrant of the abdomen
+~Right lower quadrant of the abdomen
+~Epigastric region
+}
+
+The spleen's primary functions include:{
+=Filtering blood and removing old red blood cells
+~Producing bile
+~Storing glycogen
+~Producing digestive enzymes
+~Detoxifying blood
+}
+
+The splenic artery is a branch of the:{
+=Celiac trunk
+~Superior mesenteric artery
+~Inferior mesenteric artery
+~Abdominal aorta directly
+~Renal artery
+}
+
+The splenic vein drains into the:{
+=Portal vein
+~Inferior vena cava
+~Superior mesenteric vein
+~Hepatic vein
+~Renal vein
+}
+
+Liver stitches (sutures) are used to:{
+=Control bleeding after liver injury or surgery
+~Repair the gallbladder
+~Repair the spleen
+~Repair the pancreas
+~Repair the bile duct
+}
+
+Liver transplantation is a treatment option for:{
+=End-stage liver disease
+~Gallstones
+~Splenic rupture
+~Pancreatitis
+~Duodenal ulcers
+}
+
+The most common cause of liver cirrhosis leading to transplantation is:{
+=Hepatitis C
+~Gallstones
+~Splenic rupture
+~Pancreatitis
+~Duodenal ulcers
+}
+
+The recipient’s diseased liver is removed during:{
+=Orthotopic liver transplantation
+~Heterotopic liver transplantation
+~Living donor liver transplantation
+~Split liver transplantation
+~Domino liver transplantation
+}
+
+In living donor liver transplantation, a portion of the liver is taken from a:{
+=Living related or unrelated donor
+~Deceased donor
+~Pig
+~Cadaver
+~Animal
+}

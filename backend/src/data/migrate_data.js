@@ -29,13 +29,23 @@ async function migrate() {
 
     for (const c of ACADEMIC_STRUCTURE) {
         console.log(`\n📦 Migrating Course: ${c.title}`);
-        const { data: course, error: cErr } = await supabase.from('courses').upsert({ title: c.title }).select().single();
-        if (cErr) { console.error(`Error courses: ${cErr.message}`); continue; }
+        let { data: course, error: cErr } = await supabase.from('courses').select('id').eq('title', c.title).maybeSingle();
+        
+        if (!course) {
+            const { data: newCourse, error: insertErr } = await supabase.from('courses').insert({ title: c.title }).select().single();
+            if (insertErr) { console.error(`Error inserting course: ${insertErr.message}`); continue; }
+            course = newCourse;
+        }
 
         for (const sTitle of c.subjects) {
             console.log(`  🔹 Subject: ${sTitle}`);
-            const { data: subject, error: sErr } = await supabase.from('subjects').upsert({ course_id: course.id, title: sTitle }).select().single();
-            if (sErr) { console.error(`Error subjects: ${sErr.message}`); continue; }
+            let { data: subject, error: sErr } = await supabase.from('subjects').select('id').eq('title', sTitle).eq('course_id', course.id).maybeSingle();
+            
+            if (!subject) {
+                const { data: newSubject, error: insertErr } = await supabase.from('subjects').insert({ course_id: course.id, title: sTitle }).select().single();
+                if (insertErr) { console.error(`Error inserting subject: ${insertErr.message}`); continue; }
+                subject = newSubject;
+            }
 
             // Determine which data object to use for this subject
             let mcqSource = null;
@@ -46,36 +56,70 @@ async function migrate() {
             else if (sTitle === "Biochemistry Module 1") { mcqSource = BIOCHEMISTRY_DATA["s-2-0"]; subjectId = "s-2-0"; }
             else if (sTitle === "Biochemistry Module 2") { mcqSource = BIOCHEMISTRY_DATA["s-2-1"]; subjectId = "s-2-1"; }
             else if (sTitle === "Clinic anatomy") { mcqSource = ANATOMY_DATA["s-2-2"]; subjectId = "s-2-2"; }
-            else {
-                // Check in general repo
-                for (const key in REPO_DATA) {
-                    // Logic to match subject title to repo key could be added here
-                    // For now, we'll assume the 15-topic pattern for others
-                }
-            }
 
             // Create 15 Topics
             for (let i = 1; i <= 15; i++) {
                 const topicTitle = `Topic ${i}`;
-                const { data: topic, error: tErr } = await supabase.from('topics').upsert({ subject_id: subject.id, title: topicTitle }).select().single();
-                if (tErr) continue;
+                let { data: topic, error: tErr } = await supabase.from('topics').select('id').eq('title', topicTitle).eq('subject_id', subject.id).maybeSingle();
+                
+                if (!topic) {
+                    const { data: newTopic, error: insertErr } = await supabase.from('topics').insert({ subject_id: subject.id, title: topicTitle }).select().single();
+                    if (insertErr) continue;
+                    topic = newTopic;
+                }
 
                 // Migrate MCQs for this topic if source exists
                 if (mcqSource) {
                     const topicKey = `t-${subjectId}-${i}`;
                     const questions = mcqSource[topicKey];
-                    if (questions && Array.isArray(questions)) {
-                        const mcqData = questions.map(q => ({
-                            topic_id: topic.id,
-                            question: q.question,
-                            options: q.options,
-                            correct_index: q.correctIndex,
-                            explanation: q.explanation,
-                            task_type: 'test_question'
-                        }));
-                        
-                        const { error: mErr } = await supabase.from('mcqs').insert(mcqData);
-                        if (mErr) console.error(`    ❌ MCQ Error: ${mErr.message}`);
+                    if (questions) {
+                        // Delete existing MCQs for this topic to refresh them
+                        const { error: delErr } = await supabase.from('mcqs').delete().eq('topic_id', topic.id);
+                        if (delErr) {
+                            console.error(`    ❌ Error deleting old MCQs: ${delErr.message}`);
+                        }
+
+                        let mcqDataList = [];
+                        if (Array.isArray(questions)) {
+                            mcqDataList = questions.map(q => ({
+                                topic_id: topic.id,
+                                question: q.question,
+                                options: q.options,
+                                correct_index: q.correctIndex !== undefined ? q.correctIndex : 0,
+                                explanation: q.explanation || '',
+                                task_type: 'test_question'
+                            }));
+                        } else {
+                            if (Array.isArray(questions.test)) {
+                                mcqDataList.push(...questions.test.map(q => ({
+                                    topic_id: topic.id,
+                                    question: q.question,
+                                    options: q.options,
+                                    correct_index: q.correctIndex !== undefined ? q.correctIndex : 0,
+                                    explanation: q.explanation || '',
+                                    task_type: 'test_question'
+                                })));
+                            }
+                            if (Array.isArray(questions.situational)) {
+                                mcqDataList.push(...questions.situational.map(q => ({
+                                    topic_id: topic.id,
+                                    question: q.question,
+                                    options: q.options,
+                                    correct_index: q.correctIndex !== undefined ? q.correctIndex : 0,
+                                    explanation: q.explanation || '',
+                                    task_type: 'situational_task'
+                                })));
+                            }
+                        }
+
+                        if (mcqDataList.length > 0) {
+                            const { error: mErr } = await supabase.from('mcqs').insert(mcqDataList);
+                            if (mErr) {
+                                console.error(`    ❌ MCQ Error for ${topicTitle}: ${mErr.message}`);
+                            } else {
+                                console.log(`    ✅ Migrated ${mcqDataList.length} MCQs for ${topicTitle}`);
+                            }
+                        }
                     }
                 }
             }
