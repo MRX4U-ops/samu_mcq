@@ -13,7 +13,9 @@ const ExamResultsScreen = ({ navigation }) => {
 
   // Filter results based on search query
   const filteredResults = useMemo(() => {
-    if (!query || query.trim().length < 2) return [];
+    if (!query || query.trim().length === 0) {
+      return biochemistryResults;
+    }
     
     const term = query.toLowerCase().trim();
     return biochemistryResults.filter(item => 
@@ -116,24 +118,19 @@ const ExamResultsScreen = ({ navigation }) => {
         keyExtractor={(item, index) => index.toString()}
         renderItem={renderItem}
         contentContainerStyle={styles.listContent}
+        initialNumToRender={15}
+        maxToRenderPerBatch={20}
+        windowSize={10}
         ListEmptyComponent={
-          query.trim().length >= 2 ? (
-            <View style={styles.emptyBox}>
-              <XCircle size={48} color="#EF4444" style={{ marginBottom: 15 }} />
-              <Text style={[styles.emptyText, { color: colors.text }]}>No records found</Text>
-              <Text style={[styles.emptySubtext, { color: colors.textSecondary }]}>
-                We couldn't find any results matching "{query}". Make sure the name is spelled correctly.
-              </Text>
-            </View>
-          ) : (
-            <View style={styles.emptyBox}>
-              <Award size={48} color={colors.accent} style={{ marginBottom: 15 }} />
-              <Text style={[styles.emptyText, { color: colors.text }]}>Find Your Exam Result</Text>
-              <Text style={[styles.emptySubtext, { color: colors.textSecondary }]}>
-                Type at least 2 characters of your name or group to view your official Biochemistry 2026 score.
-              </Text>
-            </View>
-          )
+          <View style={styles.emptyBox}>
+            <XCircle size={48} color="#EF4444" style={{ marginBottom: 15 }} />
+            <Text style={[styles.emptyText, { color: colors.text }]}>No records found</Text>
+            <Text style={[styles.emptySubtext, { color: colors.textSecondary }]}>
+              {query.trim().length > 0 
+                ? `We couldn't find any results matching "${query}".`
+                : "No results currently available."}
+            </Text>
+          </View>
         }
       />
     </SafeAreaView>
