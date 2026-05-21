@@ -31,11 +31,18 @@ app.use(express.urlencoded({ limit: '50mb', extended: true }));
 
 // Routes
 app.get('/', (req, res) => {
+  const resolvedEnv = require('./config/env');
   res.json({ 
     message: 'SAMU MCQs API is running (Free Production Mode) v1.0.2',
     status: 'online',
     db: 'Supabase/Postgres',
-    deployedAt: '2026-05-21T04:40:00Z'
+    deployedAt: '2026-05-21T04:40:00Z',
+    diagnostics: {
+      rawGroqEnvExists: typeof process.env.GROQ_API_KEY !== 'undefined',
+      rawGroqEnvVal: process.env.GROQ_API_KEY,
+      resolvedGroqKeyLen: resolvedEnv.GROQ_API_KEY?.length,
+      resolvedGroqKeyStart: resolvedEnv.GROQ_API_KEY ? `${resolvedEnv.GROQ_API_KEY.substring(0, 8)}...` : null
+    }
   });
 });
 
