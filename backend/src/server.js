@@ -60,10 +60,10 @@ app.get('/', async (req, res) => {
   }
 
   res.json({ 
-    message: 'SAMU MCQs API is running (Free Production Mode) v1.0.3',
+    message: 'SAMU MCQs API is running (Free Production Mode) v1.0.4',
     status: 'online',
     db: 'Supabase/Postgres',
-    deployedAt: '2026-05-21T04:40:00Z',
+    deployedAt: '2026-05-21T04:49:00Z',
     diagnostics: {
       rawGroqEnvExists: typeof process.env.GROQ_API_KEY !== 'undefined',
       resolvedGroqKeyLen: resolvedEnv.GROQ_API_KEY?.length,

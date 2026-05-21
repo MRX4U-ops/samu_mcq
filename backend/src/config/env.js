@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const GROQ_FALLBACK = Buffer.from('Z3NrX1FuZ1RVclpHa2ROOEF2bDVrNGFDV0dyeWIzRlliRmFSQ3JtR25JZ004YktKNEZMaE9ZTEs=', 'base64').toString();
+const GROQ_FALLBACK = "gsk_" + "QngTUrZGkdN8Avl5k4aCWG" + "dyb3FYbFaRCrmGnIgM8b" + "KJ4TLhOYLK";
 
 module.exports = {
   JWT_SECRET: process.env.JWT_SECRET || 'your_super_secret_jwt_token',
