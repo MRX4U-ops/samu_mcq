@@ -32,9 +32,10 @@ app.use(express.urlencoded({ limit: '50mb', extended: true }));
 // Routes
 app.get('/', (req, res) => {
   res.json({ 
-    message: 'SAMU MCQs API is running (Free Production Mode)',
+    message: 'SAMU MCQs API is running (Free Production Mode) v1.0.2',
     status: 'online',
-    db: 'Supabase/Postgres'
+    db: 'Supabase/Postgres',
+    deployedAt: '2026-05-21T04:40:00Z'
   });
 });
 
