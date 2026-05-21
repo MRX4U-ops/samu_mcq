@@ -30,18 +30,45 @@ app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ limit: '50mb', extended: true }));
 
 // Routes
-app.get('/', (req, res) => {
+app.get('/', async (req, res) => {
   const resolvedEnv = require('./config/env');
+  const axios = require('axios');
+  let groqTestResult = null;
+  try {
+    const response = await axios.post(
+      'https://api.groq.com/openai/v1/chat/completions',
+      {
+        model: 'llama-3.3-70b-versatile',
+        messages: [{ role: 'user', content: 'hi' }]
+      },
+      {
+        headers: {
+          'Authorization': `Bearer ${resolvedEnv.GROQ_API_KEY}`,
+          'Content-Type': 'application/json'
+        },
+        timeout: 5000
+      }
+    );
+    groqTestResult = { success: true, status: response.status, data: response.data };
+  } catch (e) {
+    groqTestResult = {
+      success: false,
+      message: e.message,
+      statusCode: e.response?.status,
+      responseData: e.response?.data
+    };
+  }
+
   res.json({ 
-    message: 'SAMU MCQs API is running (Free Production Mode) v1.0.2',
+    message: 'SAMU MCQs API is running (Free Production Mode) v1.0.3',
     status: 'online',
     db: 'Supabase/Postgres',
     deployedAt: '2026-05-21T04:40:00Z',
     diagnostics: {
       rawGroqEnvExists: typeof process.env.GROQ_API_KEY !== 'undefined',
-      rawGroqEnvVal: process.env.GROQ_API_KEY,
       resolvedGroqKeyLen: resolvedEnv.GROQ_API_KEY?.length,
-      resolvedGroqKeyStart: resolvedEnv.GROQ_API_KEY ? `${resolvedEnv.GROQ_API_KEY.substring(0, 8)}...` : null
+      resolvedGroqKeyStart: resolvedEnv.GROQ_API_KEY ? `${resolvedEnv.GROQ_API_KEY.substring(0, 8)}...` : null,
+      groqTestResult
     }
   });
 });
