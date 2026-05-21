@@ -86,15 +86,21 @@ const askHuggingFace = async (question) => {
   for (const modelUrl of models) {
     try {
       console.log(`🔗 Trying Fallback AI: ${modelUrl.split('/').pop()}`);
+      const headers = {
+        'Content-Type': 'application/json'
+      };
+      if (env.HF_API_KEY) {
+        headers['Authorization'] = `Bearer ${env.HF_API_KEY}`;
+      }
       const response = await axios.post(
         modelUrl,
         { inputs: `User Question: ${question}\nAssistant: Provide a short, qualitative 5-line answer.` },
-        { timeout: 6000 }
+        { headers, timeout: 6000 }
       );
       const text = response.data?.[0]?.generated_text || response.data?.[0]?.summary_text;
       if (text) return text;
     } catch (e) {
-      console.error(`❌ Fallback ${modelUrl.split('/').pop()} failed.`);
+      console.error(`❌ Fallback ${modelUrl.split('/').pop()} failed: ${e.message}`);
     }
   }
   return null;
