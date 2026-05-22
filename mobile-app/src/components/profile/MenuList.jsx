@@ -1,16 +1,17 @@
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, Switch } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, Switch, Alert } from 'react-native';
 import { 
   Settings, Bell, Moon, Sun, 
   Smartphone, LogOut, ChevronRight,
-  Bookmark, AlertCircle, RefreshCw, LayoutDashboard, HelpCircle
+  Bookmark, AlertCircle, RefreshCw, LayoutDashboard, HelpCircle, Lock
 } from 'lucide-react-native';
 import { useNavigation } from '@react-navigation/native';
 import useAuthStore from '../../store/authStore';
 
 const MenuList = ({ colors, isDarkMode, toggleTheme, onLogout }) => {
   const navigation = useNavigation();
-  const { isAdmin } = useAuthStore();
+  const { isAdmin, subscription, profile } = useAuthStore();
+  const isSubscribed = !!subscription || profile?.role === 'admin';
 
   const sections = [
     {
@@ -20,7 +21,20 @@ const MenuList = ({ colors, isDarkMode, toggleTheme, onLogout }) => {
           label: 'Bookmarked Questions', 
           icon: Bookmark, 
           color: '#F59E0B',
-          onPress: () => navigation.navigate('SavedQuestions')
+          onPress: () => {
+            if (!isSubscribed) {
+              Alert.alert(
+                "Subscription Required",
+                "Please subscribe to unlock access to all courses and content.",
+                [
+                  { text: "Cancel", style: "cancel" },
+                  { text: "Subscribe Now", onPress: () => navigation.navigate('Subscription') }
+                ]
+              );
+            } else {
+              navigation.navigate('SavedQuestions');
+            }
+          }
         },
         { label: 'Wrong Questions List', icon: AlertCircle, color: '#EF4444' },
         { label: 'Retry Option', icon: RefreshCw, color: '#10B981' },
@@ -83,7 +97,11 @@ const MenuList = ({ colors, isDarkMode, toggleTheme, onLogout }) => {
                     thumbColor={isDarkMode ? '#6366F1' : '#F1F5F9'}
                   />
                 ) : (
-                  <ChevronRight size={18} color="#94A3B8" />
+                  item.label === 'Bookmarked Questions' && !isSubscribed ? (
+                    <Lock size={18} color="#EF4444" />
+                  ) : (
+                    <ChevronRight size={18} color="#94A3B8" />
+                  )
                 )}
               </TouchableOpacity>
             ))}

@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, SafeAreaView, TextInput, FlatList, TouchableOpacity, StatusBar } from 'react-native';
-import { ArrowLeft, Search as SearchIcon, X, BookOpen, ChevronRight } from 'lucide-react-native';
+import { View, Text, StyleSheet, SafeAreaView, TextInput, FlatList, TouchableOpacity, StatusBar, Alert } from 'react-native';
+import { ArrowLeft, Search as SearchIcon, X, BookOpen, ChevronRight, Lock } from 'lucide-react-native';
 import { useTheme } from '../context/ThemeContext';
 import { ALL_SUBJECTS } from '../data/subjectData';
+import useAuthStore from '../store/authStore';
 
 const SearchScreen = ({ navigation }) => {
   const { colors, isDarkMode } = useTheme();
   const [query, setQuery] = useState('');
+  const { subscription, profile } = useAuthStore();
+  const isSubscribed = !!subscription || profile?.role === 'admin';
   
   const filteredResults = ALL_SUBJECTS.filter(item => 
     item.title.toLowerCase().replace(/[^a-z0-9]/g, '').includes(query.toLowerCase().replace(/[^a-z0-9]/g, ''))
@@ -47,11 +50,22 @@ const SearchScreen = ({ navigation }) => {
           <TouchableOpacity 
             style={[styles.resultItem, { backgroundColor: colors.surface }]}
             onPress={() => {
-               navigation.navigate('Topic', { 
-                 subjectId: item.id, 
-                 title: item.title, 
-                 courseTitle: item.course 
-               });
+              if (!isSubscribed) {
+                Alert.alert(
+                  "Subscription Required",
+                  "Please subscribe to unlock access to all courses and content.",
+                  [
+                    { text: "Cancel", style: "cancel" },
+                    { text: "Subscribe Now", onPress: () => navigation.navigate('Subscription') }
+                  ]
+                );
+              } else {
+                navigation.navigate('Topic', { 
+                  subjectId: item.id, 
+                  title: item.title, 
+                  courseTitle: item.course 
+                });
+              }
             }}
           >
             <View style={[styles.iconWrapper, { backgroundColor: colors.accent + '15' }]}>
@@ -61,7 +75,11 @@ const SearchScreen = ({ navigation }) => {
               <Text style={[styles.itemTitle, { color: colors.text }]}>{item.title}</Text>
               <Text style={styles.itemType}>{item.course}</Text>
             </View>
-            <ChevronRight size={18} color="#94A3B8" />
+            {isSubscribed ? (
+              <ChevronRight size={18} color="#94A3B8" />
+            ) : (
+              <Lock size={16} color="#EF4444" />
+            )}
           </TouchableOpacity>
         )}
         ListEmptyComponent={

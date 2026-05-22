@@ -1,17 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, ActivityIndicator, Alert } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { ArrowLeft, BookOpen, GraduationCap, ClipboardList, Info, Star, Eye } from 'lucide-react-native';
+import { ArrowLeft, BookOpen, GraduationCap, ClipboardList, Info, Star, Eye, Lock } from 'lucide-react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useIsFocused } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useTheme } from '../context/ThemeContext';
 import { API_URL } from '../config/Constants';
 import { MCQ_REPOSITORY } from '../data/mcqRepository';
+import useAuthStore from '../store/authStore';
 
 const TopicScreen = ({ route, navigation }) => {
   const { colors, isDarkMode } = useTheme();
   const { subjectId, title, courseTitle, localSubjectId: passedLocalId } = route.params || { subjectId: 1, title: 'Medical Module', courseTitle: '1st Course' };
+  const { subscription, profile } = useAuthStore();
+  const isSubscribed = !!subscription || profile?.role === 'admin';
   
   // If subjectId is already a local key (s-1-10), use it; otherwise use the passedLocalId
   const localSubjectId = (subjectId && !subjectId.includes('-') || (subjectId && subjectId.startsWith('s-'))) 
@@ -71,8 +74,14 @@ const TopicScreen = ({ route, navigation }) => {
     // Microbiology, Virology, Parasitology and Immunology-1: 12 topics
     localTopics = Array.from({ length: 12 }, (_, i) => ({ _id: `t-${localSubjectId}-${i}`, title: `Topic ${i + 1}`, localSubjectId }));
   } else if (localSubjectId === 's-2-10') {
-    // Microbiology, Virology, Parasitology and Immunology-2: Topic 13 to Topic 20
-    localTopics = Array.from({ length: 8 }, (_, i) => ({ _id: `t-${localSubjectId}-${i + 13}`, title: `Topic ${i + 13}`, localSubjectId }));
+    // Microbiology, Virology, Parasitology and Immunology-2: Topic 13 to Topic 20 + Added Questions 1, 2, 3
+    const mainTopics = Array.from({ length: 8 }, (_, i) => ({ _id: `t-${localSubjectId}-${i + 13}`, title: `Topic ${i + 13}`, localSubjectId }));
+    const addedTopics = [
+      { _id: `t-${localSubjectId}-21`, title: 'Added Question 1', localSubjectId },
+      { _id: `t-${localSubjectId}-22`, title: 'Added Question 2', localSubjectId },
+      { _id: `t-${localSubjectId}-23`, title: 'Added Question 3', localSubjectId }
+    ];
+    localTopics = [...mainTopics, ...addedTopics];
   } else {
     // Others (like Course 2) are generally 0-indexed: t-s-x-x-0
     localTopics = Array.from({ length: 15 }, (_, i) => ({ _id: `t-${localSubjectId}-${i}`, title: `Topic ${i + 1}`, localSubjectId }));
@@ -85,6 +94,14 @@ const TopicScreen = ({ route, navigation }) => {
     isMaster: true,
     localSubjectId
   });
+
+  const isMicroBio2 = localSubjectId === 's-2-10';
+  const [showAdditional, setShowAdditional] = useState(false);
+
+  // For Microbiology-2: hide Added Questions unless toggled
+  const visibleTopics = isMicroBio2 && !showAdditional
+    ? localTopics.filter(t => !t.title.startsWith('Added Question'))
+    : localTopics;
 
   const [topics, setTopics] = useState(localTopics);
   const [loading, setLoading] = useState(false); // Instant access
@@ -107,6 +124,28 @@ const TopicScreen = ({ route, navigation }) => {
       loadHistory();
     }
   }, [isFocused]);
+
+  const handleTopicPress = (topic, mode) => {
+    if (!isSubscribed) {
+      Alert.alert(
+        "Subscription Required",
+        "Please subscribe to unlock access to all courses and content.",
+        [
+          { text: "Cancel", style: "cancel" },
+          { text: "Subscribe Now", onPress: () => navigation.navigate('Subscription') }
+        ]
+      );
+    } else {
+      navigation.navigate('MCQ', { 
+        topicId: topic._id, 
+        title: topic.title, 
+        mode: mode,
+        subjectId: topic.localSubjectId || localSubjectId,
+        subjectTitle: title,
+        courseTitle: courseTitle
+      });
+    }
+  };
 
   // NOTE: We intentionally do NOT fetch topics from the server.
   // The server returns UUID-based topic IDs that don't match our local repository.
@@ -134,7 +173,30 @@ const TopicScreen = ({ route, navigation }) => {
         </View>
       ) : (
         <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
-          {topics.length > 0 ? topics.map((topic, index) => {
+          {isMicroBio2 && (
+            <TouchableOpacity
+              onPress={() => setShowAdditional(prev => !prev)}
+              style={{
+                marginHorizontal: 16,
+                marginBottom: 10,
+                marginTop: 4,
+                backgroundColor: showAdditional ? '#FEF3C7' : '#F0FDF4',
+                borderRadius: 12,
+                paddingHorizontal: 16,
+                paddingVertical: 12,
+                flexDirection: 'row',
+                alignItems: 'center',
+                borderWidth: 1,
+                borderColor: showAdditional ? '#F59E0B' : '#10B981',
+              }}
+            >
+              <Eye size={18} color={showAdditional ? '#D97706' : '#059669'} style={{ marginRight: 8 }} />
+              <Text style={{ fontSize: 13, fontWeight: '700', color: showAdditional ? '#D97706' : '#059669' }}>
+                {showAdditional ? 'Hide Added Questions (3)' : 'Show Added Questions (3)'}
+              </Text>
+            </TouchableOpacity>
+          )}
+          {visibleTopics.length > 0 ? visibleTopics.map((topic, index) => {
             const isMaster = topic.isMaster || (topic._id && topic._id.startsWith('master-'));
             
             const attemptsTest = attemptsHistory[`${topic._id}_test`] || [];
@@ -145,7 +207,9 @@ const TopicScreen = ({ route, navigation }) => {
               <View key={topic._id} style={[styles.topicSection, { backgroundColor: colors.surface }]}>
                 <View style={styles.topicHeader}>
                   <View style={[styles.numberBadge, isMaster && { backgroundColor: '#FFF7ED' }]}>
-                    {isMaster ? (
+                    {!isSubscribed ? (
+                      <Lock size={18} color="#EF4444" />
+                    ) : isMaster ? (
                       <Star size={18} color="#F97316" fill="#F97316" />
                     ) : (
                       <Text style={styles.numberText}>{index + 1}</Text>
@@ -164,14 +228,7 @@ const TopicScreen = ({ route, navigation }) => {
                   {isMaster ? (
                     <TouchableOpacity 
                       style={{ flex: 1 }}
-                      onPress={() => navigation.navigate('MCQ', { 
-                        topicId: topic._id, 
-                        title: topic.title, 
-                        mode: 'test',
-                        subjectId: topic.localSubjectId || localSubjectId,
-                        subjectTitle: title,
-                        courseTitle: courseTitle
-                      })}
+                      onPress={() => handleTopicPress(topic, 'test')}
                     >
                       <LinearGradient
                         colors={['#EF4444', '#F59E0B', '#10B981']}
@@ -187,14 +244,7 @@ const TopicScreen = ({ route, navigation }) => {
                     <>
                       <TouchableOpacity 
                         style={[styles.typeButton, { backgroundColor: '#6366F1' }]}
-                        onPress={() => navigation.navigate('MCQ', { 
-                          topicId: topic._id, 
-                          title: topic.title, 
-                          mode: 'test',
-                          subjectId: topic.localSubjectId || localSubjectId,
-                          subjectTitle: title,
-                          courseTitle: courseTitle
-                        })}
+                        onPress={() => handleTopicPress(topic, 'test')}
                       >
                         <ClipboardList size={18} color="#FFF" />
                         <Text style={styles.typeButtonText}>{getQuestionCount(topic._id) || 'XX'} Questions</Text>
@@ -202,14 +252,7 @@ const TopicScreen = ({ route, navigation }) => {
        
                       <TouchableOpacity 
                         style={[styles.typeButton, { backgroundColor: '#10B981' }]}
-                        onPress={() => navigation.navigate('MCQ', { 
-                          topicId: topic._id, 
-                          title: topic.title, 
-                          mode: 'situational',
-                          subjectId: topic.localSubjectId || localSubjectId,
-                          subjectTitle: title,
-                          courseTitle: courseTitle
-                        })}
+                        onPress={() => handleTopicPress(topic, 'situational')}
                       >
                         <GraduationCap size={18} color="#FFF" />
                         <Text style={styles.typeButtonText}>{getSituationalCount(topic._id) || '0'} Case Tasks</Text>

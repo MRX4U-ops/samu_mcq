@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, FlatList, TouchableOpacity, SafeAreaView, ActivityIndicator } from 'react-native';
+import { View, Text, StyleSheet, FlatList, TouchableOpacity, SafeAreaView, ActivityIndicator, Alert } from 'react-native';
 import { ChevronLeft, BookOpen, Trash2, CircleCheck, CircleX } from 'lucide-react-native';
 
 import { MCQ_REPOSITORY } from '../data/mcqRepository';
@@ -13,12 +13,23 @@ const SavedQuestionsScreen = ({ navigation }) => {
   const [loading, setLoading] = useState(true);
   const [savedQuestions, setSavedQuestions] = useState([]);
   const [expanded, setExpanded] = useState({});
-  const { user } = useAuthStore();
+  const { user, subscription, profile } = useAuthStore();
+  const isSubscribed = !!subscription || profile?.role === 'admin';
 
   useEffect(() => {
+    if (!isSubscribed) {
+      Alert.alert(
+        "Subscription Required",
+        "Please subscribe to unlock access to all courses and content.",
+        [
+          { text: "OK", onPress: () => navigation.navigate('Home') }
+        ]
+      );
+      return;
+    }
     if (user) fetchSavedQuestions();
     else setLoading(false);
-  }, [user]);
+  }, [user, isSubscribed]);
 
   const fetchSavedQuestions = async () => {
     try {

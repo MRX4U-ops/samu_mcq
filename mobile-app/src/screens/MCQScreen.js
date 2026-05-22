@@ -14,9 +14,22 @@ import { supabase } from '../services/supabaseClient';
 
 const MCQScreen = ({ route, navigation }) => {
   const { colors, isDarkMode } = useTheme();
-  const { user } = useAuthStore();
+  const { user, subscription, profile } = useAuthStore();
+  const isSubscribed = !!subscription || profile?.role === 'admin';
   const { topicId, title } = route.params || { topicId: 1, title: 'Medical Case Study' };
   
+  useEffect(() => {
+    if (!isSubscribed) {
+      Alert.alert(
+        "Subscription Required",
+        "Please subscribe to unlock access to all courses and content.",
+        [
+          { text: "OK", onPress: () => navigation.navigate('Home') }
+        ]
+      );
+    }
+  }, [isSubscribed, navigation]);
+
   const rawType = route.params?.taskType || route.params?.mode || 'test';
   const taskType = (rawType === 'test_question' || rawType === 'test') ? 'test' : 'situational';
   
@@ -30,6 +43,7 @@ const MCQScreen = ({ route, navigation }) => {
   const [timeLeft, setTimeLeft] = useState(isMasterTopic ? 40 * 60 : 30 * 60); 
   const [userAnswers, setUserAnswers] = useState([]); 
   const [quizMode, setQuizMode] = useState('quiz');
+  const [focusTrigger, setFocusTrigger] = useState(0);
   
   const startTime = useRef(Date.now());
   // Prevent double submission (timer + manual submit race condition)
@@ -103,6 +117,26 @@ const MCQScreen = ({ route, navigation }) => {
 
     return unsubscribe;
   }, [navigation, topicId, taskType, saveActiveAttempt]);
+
+  useEffect(() => {
+    const unsubscribe = navigation.addListener('focus', () => {
+      if (quizFinished.current) {
+        quizFinished.current = false;
+        startTime.current = Date.now();
+        setCurrentIndex(0);
+        setSelectedOption(null);
+        setIsSubmitted(false);
+        setIsBookmarked(false);
+        setTimeLeft(isMasterTopic ? 40 * 60 : 30 * 60);
+        setUserAnswers([]);
+        setQuizMode('quiz');
+        setLoading(true);
+        setFocusTrigger(prev => prev + 1);
+      }
+    });
+
+    return unsubscribe;
+  }, [navigation, isMasterTopic]);
 
   useEffect(() => {
     const checkAndFetch = async () => {
@@ -296,7 +330,7 @@ const MCQScreen = ({ route, navigation }) => {
     };
 
     checkAndFetch();
-  }, [topicId, taskType, isMasterTopic]);
+  }, [topicId, taskType, isMasterTopic, focusTrigger]);
 
   // useCallback ensures handleFinalSubmit always uses latest state via refs
   const handleFinalSubmit = useCallback((answersOverride) => {
@@ -375,7 +409,7 @@ const MCQScreen = ({ route, navigation }) => {
     };
     saveAttemptHistory();
 
-    navigation.navigate('Result', {
+    navigation.replace('Result', {
       resultData: {
         totalQuestions: totalQ,
         attempted,
@@ -385,6 +419,8 @@ const MCQScreen = ({ route, navigation }) => {
         accuracy,
         timeTaken: `${Math.floor(timeTaken / 60)}:${(timeTaken % 60).toString().padStart(2, '0')}`,
         topicName: title || 'Quiz',
+        topicId: topicId,
+        taskType: taskType,
         subjectId: route.params?.subjectId || 'general',
         subjectTitle: route.params?.subjectTitle || 'Topics',
         courseTitle: route.params?.courseTitle || 'Course',
