@@ -140,4 +140,101 @@ router.post('/admin/approve/:id', protect, adminOnly, async (req, res) => {
     res.json({ message: "Payment approved and subscription activated." });
 });
 
+// Claim Free Promo (100% discount code)
+router.post('/claim-free-promo', protect, async (req, res) => {
+  try {
+    const userId = req.user.id;
+    const { promoCode } = req.body;
+    
+    if (!promoCode) {
+      return res.status(400).json({ error: "Promo code is required." });
+    }
+
+    // 1. Validate promo code via RPC
+    const { data: promoData, error: promoErr } = await supabaseAdmin.rpc('validate_promo', { promo_code: promoCode });
+    if (promoErr) throw promoErr;
+
+    if (!promoData || !promoData.valid) {
+      return res.status(400).json({ error: promoData?.message || "Invalid or inactive promo code." });
+    }
+
+    if (parseFloat(promoData.discount_percentage) !== 100.00) {
+      return res.status(400).json({ error: "This promo code does not offer a 100% discount." });
+    }
+
+    // Check if user already has an active subscription
+    const { data: activeSub, error: subCheckErr } = await supabaseAdmin
+      .from('subscriptions')
+      .select('*')
+      .eq('user_id', userId)
+      .eq('status', 'active')
+      .gt('end_date', new Date().toISOString())
+      .maybeSingle();
+
+    if (subCheckErr) throw subCheckErr;
+
+    if (activeSub) {
+      return res.status(400).json({ error: "You already have an active subscription." });
+    }
+
+    // Generate unique payment reference and transaction ID
+    const userIdLast4 = userId.slice(-4).toUpperCase();
+    const random4 = crypto.randomBytes(2).toString('hex').toUpperCase();
+    const paymentReference = `SAMU_${userIdLast4}_${random4}`;
+    const transactionId = `FREE_${promoCode}_${paymentReference}`;
+
+    // 2. Insert payment request with approved status and 0 amount
+    const { error: insertErr } = await supabaseAdmin
+      .from('payment_requests')
+      .insert({
+        user_id: userId,
+        payment_reference: paymentReference,
+        transaction_id: transactionId,
+        amount: 0,
+        promo_code_id: promoData.id,
+        status: 'approved'
+      });
+
+    if (insertErr) {
+      if (insertErr.code === '23505') {
+        return res.status(400).json({ error: "This request has already been processed." });
+      }
+      throw insertErr;
+    }
+
+    // 3. Upsert subscription for 90 days
+    const endDate = new Date();
+    endDate.setDate(endDate.getDate() + 90);
+
+    const { error: subUpsertErr } = await supabaseAdmin
+      .from('subscriptions')
+      .upsert({
+        user_id: userId,
+        status: 'active',
+        end_date: endDate.toISOString()
+      }, { onConflict: 'user_id' });
+
+    if (subUpsertErr) throw subUpsertErr;
+
+    // 4. Increment promo code usage
+    const { data: promoObj, error: getPromoErr } = await supabaseAdmin
+      .from('promo_codes')
+      .select('current_usage')
+      .eq('id', promoData.id)
+      .single();
+
+    if (!getPromoErr && promoObj) {
+      const newUsage = (promoObj.current_usage || 0) + 1;
+      await supabaseAdmin
+        .from('promo_codes')
+        .update({ current_usage: newUsage })
+        .eq('id', promoData.id);
+    }
+
+    res.json({ message: "Subscription activated successfully!", end_date: endDate.toISOString() });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 module.exports = router;
