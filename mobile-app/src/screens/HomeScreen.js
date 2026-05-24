@@ -289,11 +289,6 @@ const HomeScreen = ({ navigation }) => {
                 key={course.id} 
                 style={styles.courseCard}
                 onPress={() => {
-                  if (course.num === '1' || course.title.includes('1st Course')) {
-                    Alert.alert("Coming Soon", "All data available on Before 27 may");
-                    return;
-                  }
-
                   if (!isSubscribed) {
                     Alert.alert(
                       "Subscription Required",

@@ -126,6 +126,22 @@ const TopicScreen = ({ route, navigation }) => {
   }, [isFocused]);
 
   const handleTopicPress = (topic, mode) => {
+    let count = 0;
+    if (topic.isMaster || (topic._id && topic._id.startsWith('master-'))) {
+       const sId = topic.localSubjectId || localSubjectId;
+       // If the subject exists in the repository, assume it has data
+       if (MCQ_REPOSITORY[sId]) {
+         count = 1; 
+       }
+    } else {
+       count = mode === 'situational' ? getSituationalCount(topic._id) : getQuestionCount(topic._id);
+    }
+
+    if (count === 0) {
+      Alert.alert("Coming Soon", "All data available on Before 27 may");
+      return;
+    }
+
     if (!isSubscribed) {
       Alert.alert(
         "Subscription Required",
