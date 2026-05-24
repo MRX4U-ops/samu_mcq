@@ -1560,5 +1560,686 @@ export const s_1_9 = {
         "Na₂SO₄ and NaHCO₃"
       ]
     }
+  ],
+  "t-s-1-9-7": [
+    {
+      "question": "1.\tWhat is a complex compound?",
+      "options": [
+        "A compound formed when a central atom bonds with ligands through coordinate covalent bonds",
+        "A mixture of ionic substances",
+        "A substance formed by simple covalent bonds",
+        "A compound insoluble in water"
+      ]
+    },
+    {
+      "question": "2.\tWhat is the central atom in a complex compound typically made of?",
+      "options": [
+        "A metal atom or ion",
+        "A nonmetal atom",
+        "Neutral molecules",
+        "Hydrogen ion"
+      ]
+    },
+    {
+      "question": "3.\tWhat are chelates?",
+      "options": [
+        "Complexes formed when ligands with multiple bonding sites bind to a metal ion to form a ring",
+        "Compounds formed by ionic bonds",
+        "Neutral covalent molecules",
+        "Non-metallic organic substances"
+      ]
+    },
+    {
+      "question": "4.\tWhy is chelation therapy used?",
+      "options": [
+        "To bind and remove toxic metal ions from the body",
+        "To enhance protein synthesis",
+        "To promote muscle growth",
+        "To regulate blood sugar"
+      ]
+    },
+    {
+      "question": "5.\tWhat are the key elements involved in chelation reactions?",
+      "options": [
+        "Nitrogen and oxygen atoms in ligands",
+        "Carbon and hydrogen atoms",
+        "Sodium and chloride ions",
+        "Fluorine and bromine atoms"
+      ]
+    },
+    {
+      "question": "6.\tWhich of the following is an example of a chelating ligand?",
+      "options": [
+        "EDTA (Ethylenediaminetetraacetic acid)",
+        "Ammonia (NH₃)",
+        "Water (H₂O)",
+        "Chloride ion (Cl⁻)"
+      ]
+    },
+    {
+      "question": "7.\tWhat is the primary medical use of chelate complexes?",
+      "options": [
+        "Detoxification of toxic metals in the body",
+        "Increasing calcium levels",
+        "Enhancing enzyme activity",
+        "Treating hypertension"
+      ]
+    },
+    {
+      "question": "8.\tIn a complex compound, what binds to the central atom?",
+      "options": [
+        "Ligands",
+        "Neutral molecules",
+        "Simple salts",
+        "Gases"
+      ]
+    },
+    {
+      "question": "9.\tWhich of the following is an example of a chelate complex?",
+      "options": [
+        "[Cu(EDTA)]²⁻",
+        "NaCl",
+        "[Fe(CN)₆]³⁻",
+        "[Co(NH₃)₆]³⁺"
+      ]
+    },
+    {
+      "question": "10.\tWhat is the function of EDTA in chelation therapy?",
+      "options": [
+        "It binds toxic metal ions and removes them from the body",
+        "It neutralizes acids",
+        "It promotes protein synthesis",
+        "It decreases water solubility"
+      ]
+    },
+    {
+      "question": "11.\tWhat factors influence the formation of chelates?",
+      "options": [
+        "Functional groups of the ligand and central atom properties",
+        "The molecular weight of the compound",
+        "Only the pH of the solution",
+        "The type of solvent used"
+      ]
+    },
+    {
+      "question": "12.\tWhen is chelation therapy most commonly recommended?",
+      "options": [
+        "In cases of heavy metal poisoning",
+        "To treat calcium deficiency",
+        "For improving digestion",
+        "To treat respiratory diseases"
+      ]
+    },
+    {
+      "question": "13.\tWhat contributes to the stability of chelate complexes?",
+      "options": [
+        "The number of rings formed during chelation",
+        "The temperature of the environment",
+        "The ionic strength of the solution",
+        "The molecular structure of water"
+      ]
+    },
+    {
+      "question": "14.\tHow are chelates used in medicine?",
+      "options": [
+        "To detoxify toxic metals and improve health",
+        "To enhance blood circulation",
+        "To dissolve crystals in bones",
+        "To balance hormones"
+      ]
+    },
+    {
+      "question": "15.\tWhat does the coordination number in a complex compound represent?",
+      "options": [
+        "The number of ligands attached to the central atom",
+        "The total molecular weight of the complex",
+        "The solubility of the compound",
+        "The stability of the metal"
+      ]
+    },
+    {
+      "question": "16.\tWhat is the primary advantage of chelation?",
+      "options": [
+        "Stabilizing metal ions by forming strong bonds",
+        "Dissolving toxic substances instantly",
+        "Enhancing enzymatic reactions",
+        "Breaking down neutral molecules"
+      ]
+    },
+    {
+      "question": "17.\tIn which field are chelate complexes widely used?",
+      "options": [
+        "Medicine",
+        "Mechanics",
+        "Electronics",
+        "Food processing"
+      ]
+    },
+    {
+      "question": "18.\tWhat group of substances typically forms chelates?",
+      "options": [
+        "Polydentate ligands",
+        "Simple covalent molecules",
+        "Neutral salts",
+        "Monodentate ligands"
+      ]
+    },
+    {
+      "question": "19.\tWhich ligand has a high chelating capacity?",
+      "options": [
+        "Polydentate ligands like EDTA",
+        "Monodentate ligands like NH₃",
+        "Neutral molecules like H₂O",
+        "Halides like Cl⁻"
+      ]
+    },
+    {
+      "question": "20.\tHow are chelates used in toxicology?",
+      "options": [
+        "To neutralize and remove heavy metals from the body",
+        "To dissolve solid substances",
+        "To reduce acidity in the stomach",
+        "To promote ion exchange"
+      ]
+    },
+    {
+      "question": "21.\tWhere are inner complex compounds commonly formed?",
+      "options": [
+        "In organic and inorganic solutions",
+        "In solid crystals only",
+        "In metallic solids",
+        "In gases"
+      ]
+    },
+    {
+      "question": "22.\tWhat determines the stability constant of chelates?",
+      "options": [
+        "The type of ligand and central atom",
+        "The temperature of the solution",
+        "The ionic strength of water",
+        "The compound's molecular weight"
+      ]
+    },
+    {
+      "question": "23.\tWhich organs are primarily involved in chelation therapy?",
+      "options": [
+        "Liver and kidneys",
+        "Heart and lungs",
+        "Stomach and intestines",
+        "Skin and muscles"
+      ]
+    },
+    {
+      "question": "24.\tWhich toxic metals are most commonly removed through chelation therapy?",
+      "options": [
+        "Lead and mercury",
+        "Sodium and potassium",
+        "Magnesium and calcium",
+        "Aluminum and zinc"
+      ]
+    },
+    {
+      "question": "25.\tHow are complex compounds applied in medical diagnostics and treatment?",
+      "options": [
+        "For detoxification and targeted delivery of therapeutic agents",
+        "For enhancing physical strength",
+        "For increasing acidity in blood",
+        "For reducing water retention"
+      ]
+    }
+  ],
+  "t-s-1-9-8": [
+    {
+      "question": "What is chemical kinetics?",
+      "options": [
+        "The study of reaction rates and mechanisms",
+        "The study of the structure of compounds",
+        "The study of thermodynamics",
+        "The study of chemical equilibrium"
+      ]
+    },
+    {
+      "question": "Which factor directly affects the rate of a chemical reaction?",
+      "options": [
+        "Temperature",
+        "Color of the reactants",
+        "Mass of the container",
+        "Shape of the molecules"
+      ]
+    },
+    {
+      "question": "How does an increase in temperature affect reaction rate?",
+      "options": [
+        "It increases the kinetic energy of the molecules, speeding up the reaction",
+        "It decreases the energy of activation",
+        "It stops the reaction",
+        "It has no effect on the reaction rate"
+      ]
+    },
+    {
+      "question": "What is the activation energy of a reaction?",
+      "options": [
+        "The minimum energy required for a reaction to occur",
+        "The energy required to break all bonds in the reactants",
+        "The energy released during the reaction",
+        "The total energy in the system"
+      ]
+    },
+    {
+      "question": "Which of the following is a factor that influences reaction rate?",
+      "options": [
+        "Concentration of reactants",
+        "The color of the solution",
+        "Atmospheric pressure",
+        "Type of reaction container"
+      ]
+    },
+    {
+      "question": "How does a catalyst affect the reaction rate?",
+      "options": [
+        "It lowers the activation energy, increasing the reaction rate",
+        "It raises the activation energy, slowing the reaction",
+        "It does not affect the reaction rate",
+        "It completely consumes the reactants"
+      ]
+    },
+    {
+      "question": "What is an enzyme ?",
+      "options": [
+        "A biological catalyst that speeds up biochemical reactions",
+        "A reactant in a chemical reaction",
+        "A product of a chemical reaction",
+        "A synthetic compound used in industry"
+      ]
+    },
+    {
+      "question": "What is the role of enzymes in enzymatic catalysis?",
+      "options": [
+        "To lower the activation energy of biochemical reactions",
+        "To stop unwanted reactions",
+        "To maintain equilibrium in the reaction",
+        "To act as reactants in the process"
+      ]
+    },
+    {
+      "question": "Which factor does not affect enzyme activity?",
+      "options": [
+        "Color of the enzyme",
+        "Temperature and pH",
+        "Substrate concentration",
+        "Presence of inhibitors"
+      ]
+    },
+    {
+      "question": "How do inhibitors affect enzymatic catalysis ?",
+      "options": [
+        "They decrease enzyme activity by binding to the enzyme",
+        "They increase enzyme activity by providing energy",
+        "They do not affect enzyme activity",
+        "They convert enzymes into substrates"
+      ]
+    },
+    {
+      "question": "What is the Michaelis-Menten constant (Km)?",
+      "options": [
+        "A measure of the substrate concentration at which the reaction rate is half of its maximum value",
+        "A constant that measures the reaction speed",
+        "The energy required to break enzyme-substrate bonds",
+        "The rate constant for all reactions"
+      ]
+    },
+    {
+      "question": "How does substrate concentration affect enzymatic reactions?",
+      "options": [
+        "An increase in substrate concentration increases the reaction rate until the enzyme is saturated",
+        "An increase in substrate concentration decreases reaction rate",
+        "Substrate concentration has no effect on reaction rate",
+        "Substrate concentration changes enzyme structure"
+      ]
+    },
+    {
+      "question": "What is an example of an enzymatic reaction in the human body?",
+      "options": [
+        "The breakdown of starch by amylase in the mouth",
+        "The burning of fossil fuels",
+        "The reaction between acids and bases",
+        "The production of carbon dioxide from limestone"
+      ]
+    },
+    {
+      "question": "What happens to enzymes at very high temperatures?",
+      "options": [
+        "They denature and lose their catalytic properties",
+        "They become more active",
+        "They stop binding to substrates temporarily",
+        "They increase reaction rate indefinitely"
+      ]
+    },
+    {
+      "question": "What is a common use of enzymes in medicine?",
+      "options": [
+        "Enzyme replacement therapy",
+        "Increasing drug solubility",
+        "Producing new antibodies",
+        "Neutralizing acids in the stomach"
+      ]
+    },
+    {
+      "question": "Which enzyme is commonly used in diagnosing liver diseases?",
+      "options": [
+        "Alanine transaminase (ALT)",
+        "Amylase",
+        "Lactase",
+        "Catalase"
+      ]
+    },
+    {
+      "question": "What is the role of lactase in medicine?",
+      "options": [
+        "To help digest lactose in patients with lactose intolerance",
+        "To treat protein deficiencies",
+        "To enhance immune response",
+        "To increase vitamin absorption"
+      ]
+    },
+    {
+      "question": "What is the primary medical use of enzymatic catalysis?",
+      "options": [
+        "Enhancing metabolic processes and diagnostics",
+        "Reducing muscle pain",
+        "Promoting cell growth",
+        "Treating bacterial infections"
+      ]
+    },
+    {
+      "question": "What are coenzymes?",
+      "options": [
+        "Non-protein molecules that assist enzymes in catalysis",
+        "Proteins that slow down reactions",
+        "Inhibitors that bind to the enzyme",
+        "Substrates in enzymatic reactions"
+      ]
+    },
+    {
+      "question": "How does pH affect enzyme activity?",
+      "options": [
+        "Each enzyme has an optimal pH range for maximum activity",
+        "pH has no effect on enzyme activity",
+        "Higher pH always increases enzyme activity",
+        "Lower pH always stops enzyme activity"
+      ]
+    },
+    {
+      "question": "Which enzyme is used to treat blood clots?",
+      "options": [
+        "Streptokinase",
+        "Amylase",
+        "Catalase",
+        "Lipase"
+      ]
+    },
+    {
+      "question": "What is the role of catalase in the body?",
+      "options": [
+        "To break down hydrogen peroxide into water and oxygen",
+        "To digest proteins",
+        "To speed up blood flow",
+        "To break down carbohydrates"
+      ]
+    },
+    {
+      "question": "What happens if enzyme inhibitors are present in high amounts?",
+      "options": [
+        "The reaction rate decreases significantly",
+        "The reaction rate increases",
+        "The enzyme becomes more active",
+        "The substrate becomes inactive"
+      ]
+    },
+    {
+      "question": "How are enzymes used in drug manufacturing?",
+      "options": [
+        "To catalyze the production of active pharmaceutical ingredients",
+        "To inhibit drug solubility",
+        "To replace preservatives",
+        "To make drugs insoluble"
+      ]
+    },
+    {
+      "question": "Which is a key benefit of enzymatic catalysis in medicine?",
+      "options": [
+        "High specificity for target reactions",
+        "Increasing overall pH levels in the body",
+        "Reducing toxicity of all compounds",
+        "Preventing protein synthesis"
+      ]
+    }
+  ],
+  "t-s-1-9-9": [
+    {
+      "question": "What are dispers systems?",
+      "options": [
+        "Systems where one substance is dispersed in another",
+        "Pure substances",
+        "Homogeneous mixtures",
+        "Gaseous mixtures"
+      ]
+    },
+    {
+      "question": "Which of the following is a characteristic of colloidal systems?",
+      "options": [
+        "The dispersed phase cannot be seen by the naked eye",
+        "The dispersed phase is visible to the naked eye",
+        "The system is always homogeneous",
+        "The system is composed of only one substance"
+      ]
+    },
+    {
+      "question": "What is the size range of particles in a colloidal system?",
+      "options": [
+        "1 to 1000 nanometers",
+        "100 to 1000 micrometers",
+        "0.1 to 10 micrometers",
+        "1 to 100 micrometers"
+      ]
+    },
+    {
+      "question": "Which of the following is a common example of a colloidal system in medicine?",
+      "options": [
+        "Aerosols",
+        "Salt solution",
+        "Sugar syrup",
+        "Pure water"
+      ]
+    },
+    {
+      "question": "What is the structure of a colloidal system?",
+      "options": [
+        "A dispersed phase and a continuous phase",
+        "A single-phase system",
+        "A crystalline structure",
+        "A solid phase only"
+      ]
+    },
+    {
+      "question": "Which technique is used to prepare colloidal systems?",
+      "options": [
+        "Dispersion method",
+        "Distillation method",
+        "Filtration method",
+        "Freezing method"
+      ]
+    },
+    {
+      "question": "What is the Tyndall effect observed in colloidal systems?",
+      "options": [
+        "Scattering of light by colloidal particles",
+        "Complete absorption of light by colloidal particles",
+        "Reflection of light by colloidal particles",
+        "Transmission of light without scattering"
+      ]
+    },
+    {
+      "question": "Which method is commonly used to purify colloidal systems?",
+      "options": [
+        "Dialysis",
+        "Filtration",
+        "Distillation",
+        "Evaporation"
+      ]
+    },
+    {
+      "question": "Which of the following is a characteristic of colloidal particles?",
+      "options": [
+        "They remain suspended in the medium",
+        "They settle at the bottom rapidly",
+        "They form a solid block",
+        "They evaporate easily"
+      ]
+    },
+    {
+      "question": "Which of the following is an example of a pharmaceutical colloid?",
+      "options": [
+        "Injectable solutions",
+        "Table salt",
+        "Glucose crystals",
+        "Powdered medications"
+      ]
+    },
+    {
+      "question": "What is the main characteristic of lyophilic colloids?",
+      "options": [
+        "They have a strong affinity for the dispersing medium",
+        "They do not mix with the dispersing medium",
+        "They form stable solids",
+        "They are always unstable"
+      ]
+    },
+    {
+      "question": "Which of the following is a method for preparing colloidal dispersions?",
+      "options": [
+        "High-pressure homogenization",
+        "Boiling",
+        "Freezing",
+        "Crystallization"
+      ]
+    },
+    {
+      "question": "What is the main use of colloidal silver in medicine?",
+      "options": [
+        "Antibacterial agent",
+        "Pain reliever",
+        "Blood thinner",
+        "Immunosuppressant"
+      ]
+    },
+    {
+      "question": "How are colloidal systems used in drug delivery?",
+      "options": [
+        "To improve the bioavailability of drugs",
+        "To decrease the shelf life of medications",
+        "To remove toxic substances from the body",
+        "To increase the viscosity of fluids"
+      ]
+    },
+    {
+      "question": "What is the role of surfactants in colloidal systems?",
+      "options": [
+        "To stabilize the dispersion of colloidal particles",
+        "To dissolve solid particles",
+        "To increase particle size",
+        "To filter impurities"
+      ]
+    },
+    {
+      "question": "What is the function of colloidal systems in diagnostic imaging?",
+      "options": [
+        "They enhance the contrast in imaging techniques",
+        "They slow down the imaging process",
+        "They decrease the resolution of the images",
+        "They distort the image quality"
+      ]
+    },
+    {
+      "question": "Which of the following is a typical use of colloidal systems in cosmetics?",
+      "options": [
+        "To stabilize emulsions in creams and lotions",
+        "To increase the solubility of water in oils",
+        "To solidify cosmetic products",
+        "To separate active ingredients from inactive components"
+      ]
+    },
+    {
+      "question": "How are colloidal systems classified based on their dispersion medium?",
+      "options": [
+        "Aerosols, foams, gels, sols",
+        "Liquids, gases, solids",
+        "Organic and inorganic",
+        "Solvents and solutes"
+      ]
+    },
+    {
+      "question": "What is the importance of colloidal systems in the pharmaceutical industry?",
+      "options": [
+        "They facilitate controlled drug release",
+        "They are used for packaging medications",
+        "They help in dissolving the active ingredients",
+        "They enhance the color of the medicine"
+      ]
+    },
+    {
+      "question": "Which of the following is an example of a colloidal gel used in medicine?",
+      "options": [
+        "Hydrogel wound dressings",
+        "Salt solutions",
+        "Alcohol-based solutions",
+        "Solid tablets"
+      ]
+    },
+    {
+      "question": "What property of colloidal systems is used to separate particles in purification methods?",
+      "options": [
+        "Diffusion rate",
+        "Sedimentation rate",
+        "Surface charge",
+        "Melting point"
+      ]
+    },
+    {
+      "question": "Which method is used to determine the size of particles in a colloidal system?",
+      "options": [
+        "Dynamic light scattering",
+        "Refractometry",
+        "Spectroscopy",
+        "Filtration"
+      ]
+    },
+    {
+      "question": "Which of the following is an application of colloidal systems in medical imaging?",
+      "options": [
+        "Magnetic resonance imaging (MRI)",
+        "X-ray reflection",
+        "Ultrasonic scanning",
+        "Optical coherence tomography"
+      ]
+    },
+    {
+      "question": "How can colloidal systems help in targeted drug delivery?",
+      "options": [
+        "By encapsulating drugs within nanoparticles for specific release",
+        "By dissolving drugs faster in the bloodstream",
+        "By reducing the dosage of drugs required",
+        "By preventing drug absorption in the digestive system"
+      ]
+    },
+    {
+      "question": "Which of the following is an example of a colloidal system used in vaccines?",
+      "options": [
+        "Liposomal formulations for drug delivery",
+        "Crystalline antibody solutions",
+        "Solid tablets for oral administration",
+        "Diluted saline solutions"
+      ]
+    }
   ]
 };
