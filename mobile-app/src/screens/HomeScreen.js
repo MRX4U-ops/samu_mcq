@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, StatusBar, Linking, Image, Alert } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Search, Bell, Lock, Unlock, Swords, Trophy, Timer, Camera, HelpCircle, Plane, User, BookOpen, Sparkles, ChevronRight, Globe, CircleCheck, Youtube, Flame, GraduationCap } from 'lucide-react-native';
+import { Search, Bell, Lock, Unlock, Swords, Trophy, Timer, Camera, HelpCircle, Plane, User, BookOpen, Sparkles, ChevronRight, Globe, CircleCheck, Youtube, Flame, GraduationCap, AlertTriangle } from 'lucide-react-native';
 import { useTheme } from '../context/ThemeContext';
 import { API_URL } from '../config/Constants';
 import TopHeader from '../components/TopHeader';
@@ -10,17 +10,88 @@ import useSubscriptionStore from '../store/subscriptionStore';
 import OfferPopup from '../components/OfferPopup';
 import { supabase } from '../services/supabaseClient';
 import { LinearGradient } from 'expo-linear-gradient';
+import useAlarmStore from '../store/alarmStore';
+import { AVATAR_DATA } from '../assets/AvatarData';
+
+const PREDEFINED_AVATARS = [
+  { id: 'dr1',  src: { uri: AVATAR_DATA.dr1 } },
+  { id: 'dr2',  src: { uri: AVATAR_DATA.dr2 } },
+  { id: 'dr3',  src: { uri: AVATAR_DATA.dr3 } },
+  { id: 'dr4',  src: { uri: AVATAR_DATA.dr4 } },
+  { id: 'dr5',  src: { uri: AVATAR_DATA.dr5 } },
+  { id: 'dr6',  src: { uri: AVATAR_DATA.dr6 } },
+  { id: 'dr7',  src: { uri: AVATAR_DATA.dr7 } },
+  { id: 'dr8',  src: { uri: AVATAR_DATA.dr8 } },
+  { id: 'dr9',  src: { uri: AVATAR_DATA.dr9 } },
+  { id: 'dr10', src: { uri: AVATAR_DATA.dr10 } },
+];
+
+const getAvatarSrc = (avatarId) => {
+  const found = PREDEFINED_AVATARS.find(a => a.id === avatarId);
+  return found ? found.src : null;
+};
 
 const HomeScreen = ({ navigation }) => {
   const { colors, isDarkMode } = useTheme();
-  const { user } = useAuthStore();
+  const { user, profile } = useAuthStore();
   const { subscription, checkSubscription, offerPopupShown, setOfferPopupShown } = useAuthStore();
+  
+  const avatarSrc = profile?.avatar_url
+    ? (getAvatarSrc(profile.avatar_url) || (profile.avatar_url.startsWith('http') ? { uri: profile.avatar_url } : null))
+    : null;
   const [isOfferVisible, setIsOfferVisible] = useState(false);
   const [greeting, setGreeting] = useState('');
   const [showGreeting, setShowGreeting] = useState(false);
   const [quote, setQuote] = useState('');
 
   const [streak, setStreak] = useState(0);
+  const [hasPracticedToday, setHasPracticedToday] = useState(true);
+  const [examTomorrow, setExamTomorrow] = useState(null);
+  
+  const { exams, initialize: initializeAlarms } = useAlarmStore();
+
+  const checkPracticeToday = async () => {
+    if (!user) return;
+    try {
+      const todayStart = new Date();
+      todayStart.setHours(0, 0, 0, 0);
+      
+      const { data, error } = await supabase
+        .from('attempts')
+        .select('created_at')
+        .eq('user_id', user.id)
+        .gte('created_at', todayStart.toISOString())
+        .limit(1);
+      
+      if (data && data.length > 0) {
+        setHasPracticedToday(true);
+      } else {
+        setHasPracticedToday(false);
+      }
+    } catch (e) {
+      console.log('Error checking today\'s attempts:', e.message);
+      setHasPracticedToday(true);
+    }
+  };
+
+  useEffect(() => {
+    if (user) {
+      initializeAlarms(user.id);
+      checkPracticeToday();
+    }
+  }, [user]);
+
+  useEffect(() => {
+    if (exams && exams.length > 0) {
+      const tomorrow = new Date();
+      tomorrow.setDate(tomorrow.getDate() + 1);
+      const tomorrowStr = tomorrow.toDateString();
+      const found = exams.find(e => new Date(e.exam_date).toDateString() === tomorrowStr);
+      setExamTomorrow(found || null);
+    } else {
+      setExamTomorrow(null);
+    }
+  }, [exams]);
 
   useEffect(() => {
     if (user) {
@@ -159,53 +230,9 @@ const HomeScreen = ({ navigation }) => {
       <TopHeader title="SAMU MCQs" />
 
       <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.scrollContent}>
-        {/* Gorgeous Welcome & Greeting Card */}
-        <LinearGradient
-          colors={['#1E1B4B', '#312E81', '#4F46E5']}
-          start={{ x: 0, y: 0 }}
-          end={{ x: 1, y: 1 }}
-          style={styles.welcomeCard}
-        >
-          <View style={styles.welcomeCardHeader}>
-            <View>
-              <Text style={styles.welcomeSubtitle}>{greeting || "Welcome Back, Doctor"}</Text>
-              <Text style={styles.welcomeTitle}>{user?.name || 'Academic Scholar'}</Text>
-            </View>
-            <View style={styles.sparkleBadge}>
-              <Sparkles size={20} color="#FBBF24" />
-            </View>
-          </View>
-          
-          <Text style={styles.quoteText}>{quote || "Study hard today, save lives tomorrow."}</Text>
-          
-          <View style={styles.welcomeDivider} />
-          
-          <View style={styles.welcomeStatsRow}>
-            <View style={styles.welcomeStatItem}>
-              <Flame size={16} color="#F59E0B" fill="#F59E0B" />
-              <Text style={styles.welcomeStatText}>{streak} Day Streak</Text>
-            </View>
-            
-            <View style={styles.welcomeStatItem}>
-              <GraduationCap size={16} color="#60A5FA" />
-              <Text style={styles.welcomeStatText}>
-                {subscription ? "Premium Active" : "Free Plan"}
-              </Text>
-            </View>
-          </View>
 
-          <View style={styles.challengeBox}>
-            <View style={styles.challengeIcon}>
-              <Swords size={12} color="#FFF" />
-            </View>
-            <Text style={styles.challengeText}>
-              Today's Challenge: Try a Master Topic mixed test with random questions!
-            </Text>
-          </View>
-        </LinearGradient>
-
-        {/* Daily MCQ Practice Streak Card for Premium Active Users */}
-        {subscription && streak > 0 && (
+        {/* Daily MCQ Practice Streak Card for Active Users */}
+        {streak > 0 && (
           <View style={{
             flexDirection: 'row',
             alignItems: 'center',
@@ -232,44 +259,7 @@ const HomeScreen = ({ navigation }) => {
           </View>
         )}
 
-        {/* Subscription Status Banner for Free Plan Users */}
-        {!subscription && (
-          <TouchableOpacity 
-            style={[
-              styles.subBanner, 
-              { backgroundColor: '#FFFBEB', borderColor: '#F59E0B' }
-            ]}
-            onPress={() => navigation.navigate('Subscription')}
-          >
-            <View style={styles.subBannerLeft}>
-              <View style={[styles.subIconBox, { backgroundColor: '#F59E0B' }]}>
-                <Lock size={18} color="#FFF" />
-              </View>
-              <View>
-                <Text style={[styles.subStatusText, { color: '#92400E' }]}>
-                  FREE PLAN
-                </Text>
-                <Text style={styles.subDetailText}>
-                  Unlock all clinical modules
-                </Text>
-              </View>
-            </View>
-            
-            {streak > 0 && (
-              <View style={styles.streakBadge}>
-                <Flame size={16} color="#F59E0B" fill="#F59E0B" />
-                <Text style={styles.streakText}>{streak}</Text>
-              </View>
-            )}
 
-            <View style={styles.subActionBox}>
-              <Text style={[styles.subActionText, { color: '#F59E0B' }]}>
-                UPGRADE
-              </Text>
-              <ChevronRight size={16} color='#F59E0B' />
-            </View>
-          </TouchableOpacity>
-        )}
 
         {/* ASK AI Card */}
         <TouchableOpacity 
@@ -292,26 +282,47 @@ const HomeScreen = ({ navigation }) => {
         
         {/* Academic Grid */}
         <View style={styles.courseGrid}>
-          {courses.map((course) => (
-            <TouchableOpacity 
-              key={course.id} 
-              style={styles.courseCard}
-              onPress={() => navigation.navigate('Subject', { courseId: course.id, title: course.title })}
-            >
-              <View style={styles.courseCardTop}>
-                <View style={[styles.numIconBox, { backgroundColor: course.color }]}>
-                  <Text style={styles.numIconText}>{course.num}</Text>
+          {courses.map((course) => {
+            const isSubscribed = !!subscription || profile?.role === 'admin';
+            return (
+              <TouchableOpacity 
+                key={course.id} 
+                style={styles.courseCard}
+                onPress={() => {
+                  if (course.num === '1' || course.title.includes('1st Course')) {
+                    Alert.alert("Coming Soon", "All data available on Before 27 may");
+                    return;
+                  }
+
+                  if (!isSubscribed) {
+                    Alert.alert(
+                      "Subscription Required",
+                      "Please subscribe to unlock access to all courses and content.",
+                      [
+                        { text: "Cancel", style: "cancel" },
+                        { text: "Subscribe Now", onPress: () => navigation.navigate('Subscription') }
+                      ]
+                    );
+                  } else {
+                    navigation.navigate('Subject', { courseId: course.id, title: course.title });
+                  }
+                }}
+              >
+                <View style={styles.courseCardTop}>
+                  <View style={[styles.numIconBox, { backgroundColor: course.color }]}>
+                    <Text style={styles.numIconText}>{course.num}</Text>
+                  </View>
+                  {isSubscribed ? (
+                    <Unlock size={16} color="#10B981" />
+                  ) : (
+                    <Lock size={16} color="#EF4444" />
+                  )}
                 </View>
-                {subscription ? (
-                  <Unlock size={16} color="#10B981" />
-                ) : (
-                  <Lock size={16} color="#FBBF24" />
-                )}
-              </View>
-              <Text style={styles.courseTitle}>{course.title}</Text>
-              <Text style={[styles.courseSubTitle, { color: course.color }]}>{course.subjects}</Text>
-            </TouchableOpacity>
-          ))}
+                <Text style={styles.courseTitle}>{course.title}</Text>
+                <Text style={[styles.courseSubTitle, { color: course.color }]}>{course.subjects}</Text>
+              </TouchableOpacity>
+            );
+          })}
         </View>
 
         {/* Feature Action Cards */}
@@ -353,8 +364,93 @@ const HomeScreen = ({ navigation }) => {
           <Text style={styles.telegramArrow}>↗</Text>
         </TouchableOpacity>
 
+        {examTomorrow && (
+          <TouchableOpacity 
+            style={styles.alertBannerWarning}
+            onPress={() => navigation.navigate('ExamReminder')}
+            activeOpacity={0.9}
+          >
+            <View style={styles.alertLeft}>
+              <View style={[styles.alertIconBox, { backgroundColor: '#EF4444' }]}>
+                <AlertTriangle size={20} color="#FFF" />
+              </View>
+              <View style={{ flex: 1 }}>
+                <Text style={[styles.alertTitle, { color: '#EF4444' }]}>CBT EXAM TOMORROW!</Text>
+                <Text style={styles.alertSub}>{examTomorrow.subject} is scheduled for tomorrow. Review your revision notes.</Text>
+              </View>
+            </View>
+            <ChevronRight size={20} color="#EF4444" />
+          </TouchableOpacity>
+        )}
+
+        {!hasPracticedToday && (
+          <TouchableOpacity 
+            style={styles.alertBannerInfo}
+            onPress={() => navigation.navigate('TimerSet')}
+            activeOpacity={0.9}
+          >
+            <View style={styles.alertLeft}>
+              <View style={[styles.alertIconBox, { backgroundColor: '#F59E0B' }]}>
+                <Flame size={20} color="#FFF" fill="#FFF" />
+              </View>
+              <View style={{ flex: 1 }}>
+                <Text style={[styles.alertTitle, { color: '#D97706' }]}>DAILY PRACTICE PENDING</Text>
+                <Text style={styles.alertSub}>
+                  {streak > 0 
+                    ? `Your ${streak}-day streak is about to break! Solve MCQs now.` 
+                    : "You haven't practiced today yet. Solve MCQs to start a new streak!"}
+                </Text>
+              </View>
+            </View>
+            <ChevronRight size={20} color="#F59E0B" />
+          </TouchableOpacity>
+        )}
+
+        {/* Gorgeous Welcome & Greeting Card */}
+        <LinearGradient
+          colors={['#1E1B4B', '#312E81', '#4F46E5']}
+          start={{ x: 0, y: 0 }}
+          end={{ x: 1, y: 1 }}
+          style={styles.welcomeCard}
+        >
+          <View style={styles.welcomeCardHeader}>
+            <View>
+              <Text style={styles.welcomeSubtitle}>{greeting || "Welcome Back, Doctor"}</Text>
+              <Text style={styles.welcomeTitle}>{user?.name || 'Academic Scholar'}</Text>
+            </View>
+            <View style={styles.sparkleBadge}>
+              <Sparkles size={20} color="#FBBF24" />
+            </View>
+          </View>
+          
+          <Text style={styles.quoteText}>{quote || "Study hard today, save lives tomorrow."}</Text>
+          
+          <View style={styles.welcomeDivider} />
+          
+          <View style={styles.welcomeStatsRow}>
+            <View style={styles.welcomeStatItem}>
+              <Flame size={16} color="#F59E0B" fill="#F59E0B" />
+              <Text style={styles.welcomeStatText}>{streak} Day Streak</Text>
+            </View>
+            
+            <View style={styles.welcomeStatItem}>
+              <GraduationCap size={16} color="#60A5FA" />
+              <Text style={styles.welcomeStatText}>Verified Account</Text>
+            </View>
+          </View>
+
+          <View style={styles.challengeBox}>
+            <View style={styles.challengeIcon}>
+              <Swords size={12} color="#FFF" />
+            </View>
+            <Text style={styles.challengeText}>
+              Today's Challenge: Try a Master Topic mixed test with random questions!
+            </Text>
+          </View>
+        </LinearGradient>
+
         <View style={styles.versionContainer}>
-          <Text style={styles.versionText}>App Version: 1.0.2-FINAL</Text>
+          <Text style={styles.versionText}>App Version: 1.0.3-mrx</Text>
         </View>
       </ScrollView>
 
@@ -373,7 +469,11 @@ const HomeScreen = ({ navigation }) => {
           <Text style={styles.barTextActive}>Home</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.barItem} onPress={() => navigation.navigate('Profile')}>
-          <User size={24} color="#3B82F6" />
+          {avatarSrc ? (
+            <Image source={avatarSrc} style={styles.barAvatarImage} />
+          ) : (
+            <User size={24} color="#3B82F6" />
+          )}
           <Text style={styles.barText}>Profile</Text>
         </TouchableOpacity>
       </View>
@@ -752,6 +852,69 @@ const styles = StyleSheet.create({
     fontSize: 11,
     fontWeight: '700',
     flex: 1,
+  },
+  alertBannerWarning: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    backgroundColor: '#FEF2F2',
+    marginHorizontal: 16,
+    marginTop: 8,
+    padding: 16,
+    borderRadius: 16,
+    borderWidth: 1,
+    borderColor: '#FEE2E2',
+    elevation: 2,
+    shadowColor: '#EF4444',
+    shadowOpacity: 0.05,
+    shadowRadius: 5,
+  },
+  alertBannerInfo: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    backgroundColor: '#FFFBEB',
+    marginHorizontal: 16,
+    marginTop: 8,
+    padding: 16,
+    borderRadius: 16,
+    borderWidth: 1,
+    borderColor: '#FEF3C7',
+    elevation: 2,
+    shadowColor: '#F59E0B',
+    shadowOpacity: 0.05,
+    shadowRadius: 5,
+  },
+  alertLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    flex: 1,
+    gap: 12,
+  },
+  alertIconBox: {
+    width: 36,
+    height: 36,
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  alertTitle: {
+    fontSize: 13,
+    fontWeight: '900',
+    letterSpacing: 0.5,
+  },
+  alertSub: {
+    fontSize: 11,
+    color: '#475569',
+    fontWeight: '600',
+    marginTop: 2,
+    lineHeight: 15,
+  },
+  barAvatarImage: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    marginBottom: 4,
   },
 });
 
