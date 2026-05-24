@@ -2241,5 +2241,522 @@ export const s_1_9 = {
         "Diluted saline solutions"
       ]
     }
+  ],
+  "t-s-1-9-10": [
+    {
+      "question": "Surfactants have the following properties:",
+      "options": [
+        "Reduces surface activity",
+        "Increases surface activity",
+        "Partially changes surface activity",
+        "Generates surface energy"
+      ]
+    },
+    {
+      "question": "An adsorbent is a substance that:",
+      "options": [
+        "Absorbs the molecules or ions of another substance on its surface",
+        "Dissolves other substances on its surface",
+        "Distributes other substances evenly",
+        "Breaks down other substances on its surface"
+      ]
+    },
+    {
+      "question": "The Gibbs equation relates the amount of adsorption to the following parameter:",
+      "options": [
+        "Surface activity",
+        "Degree of dispersity",
+        "Coagulation",
+        "Hydrophilicity"
+      ]
+    },
+    {
+      "question": "An adsorptive is a substance that:",
+      "options": [
+        "Is adsorbed on the surface of other substances",
+        "Changes surface tension",
+        "Adsorbs other substances on its surface",
+        "Increases surface tension"
+      ]
+    },
+    {
+      "question": "The reverse process of adsorption is called:",
+      "options": [
+        "Desorption",
+        "Absorption",
+        "Chemisorption",
+        "Sorption"
+      ]
+    },
+    {
+      "question": "Hydrophilic surfaces:",
+      "options": [
+        "Interact with water",
+        "Do not interact with water",
+        "Do not interact with organic solvents",
+        "Do not absorb substances"
+      ]
+    },
+    {
+      "question": "Hydrophobic surfaces:",
+      "options": [
+        "Do not interact with water",
+        "Do not interact with organic solvents",
+        "Do not absorb substances",
+        "Interact with organic solvents"
+      ]
+    },
+    {
+      "question": "Chromatography is a physical-chemical method based on the following characteristic of the adsorbent:",
+      "options": [
+        "Selectively adsorbing dissolved substances",
+        "Changing the color of dissolved substances",
+        "Compressing the adsorbed substances",
+        "Selectively absorbing solvent molecules"
+      ]
+    },
+    {
+      "question": "If the dissolved substance increases the surface tension of the solvent, adsorption will be:",
+      "options": [
+        "Negative",
+        "Positive",
+        "Selective",
+        "Neutralizing"
+      ]
+    },
+    {
+      "question": "If the dissolved substance decreases the surface tension of the solvent, adsorption will be:",
+      "options": [
+        "Positive",
+        "Selective",
+        "Neutralizing",
+        "Bilayer"
+      ]
+    },
+    {
+      "question": "In the adsorption isotherm, the relationship between adsorption and concentration is shown, with the following condition required:",
+      "options": [
+        "Constant temperature",
+        "Variable temperature",
+        "Constant pressure",
+        "Temperature not depending on pressure"
+      ]
+    },
+    {
+      "question": "The core and adsorption layer composition is:",
+      "options": [
+        "Core and adsorption layer",
+        "Diffusion layer and potential determining ions",
+        "Adsorption and diffusion layers",
+        "Diffusion and adsorption layers"
+      ]
+    },
+    {
+      "question": "The composition of a micelle:",
+      "options": [
+        "Core, adsorption, and diffusion layers together",
+        "Core and adsorption layer",
+        "Adsorption and diffusion layers",
+        "Core and diffusion layer"
+      ]
+    },
+    {
+      "question": "Processes occurring at the phase boundary:",
+      "options": [
+        "Surface phenomena",
+        "Intramolecular processes",
+        "Evaporation",
+        "Boiling"
+      ]
+    },
+    {
+      "question": "The mathematical expression for calculating surface tension is:",
+      "options": [
+        "σ = G/S",
+        "σ = S/G",
+        "σ = nRT",
+        "σ = C/RT"
+      ]
+    },
+    {
+      "question": "Surface-active substances do not include:",
+      "options": [
+        "Hydrochloric acid",
+        "Fatty acid salt",
+        "Protein",
+        "Diethyl ether"
+      ]
+    },
+    {
+      "question": "The energy of molecules located on the surface:",
+      "options": [
+        "Surface energy",
+        "Enthalpy",
+        "Entropy",
+        "Helmholtz energy"
+      ]
+    },
+    {
+      "question": "Adsorption is:",
+      "options": [
+        "The change in concentration of components on the surface layer relative to the open phase",
+        "The process by which a substance integrates into the entire volume of another substance",
+        "The change in concentration of components in the main part relative to the surface layer",
+        "The increase in the volume of substances"
+      ]
+    },
+    {
+      "question": "Surface-active substances include:",
+      "options": [
+        "Isopropyl alcohol",
+        "Hydrochloric acid",
+        "Calcium hydroxide",
+        "Sodium chloride"
+      ]
+    },
+    {
+      "question": "Surface tension is measured in:",
+      "options": [
+        "J/m²",
+        "N/m²",
+        "J/cm",
+        "N/cm²"
+      ]
+    },
+    {
+      "question": "Methods for measuring surface tension include:",
+      "options": [
+        "Stalagmometric method",
+        "Potentiometric method",
+        "Complexometry",
+        "Trommer method"
+      ]
+    },
+    {
+      "question": "The increase in concentration of one or more components in the surface layer of the adsorbent is:",
+      "options": [
+        "Adsorption",
+        "Absorption",
+        "Desorption",
+        "Chemisorption"
+      ]
+    },
+    {
+      "question": "Absorption is:",
+      "options": [
+        "The integration of a substance into the entire volume of another substance",
+        "The change in concentration of components on the surface layer relative to the open phase",
+        "The change in concentration of components in the main part relative to the surface layer",
+        "The increase in the volume of substances"
+      ]
+    },
+    {
+      "question": "Sorption is:",
+      "options": [
+        "The adsorption of gases and vapors by solid materials",
+        "The separation of adsorbent and adsorbed material",
+        "The evaporation process",
+        "The method of analyzing weight"
+      ]
+    },
+    {
+      "question": "An adsorbent is:",
+      "options": [
+        "A solid body where adsorption occurs",
+        "An adsorbed substance",
+        "The working solution",
+        "The initial material"
+      ]
+    },
+    {
+      "question": "Chemisorption is:",
+      "options": [
+        "The purification of blood from toxins through adsorbents",
+        "The binding of toxins in the gastrointestinal tract",
+        "The evaporation process",
+        "The breakdown of hemoglobin"
+      ]
+    },
+    {
+      "question": "Adsorption is:",
+      "options": [
+        "An adsorbed substance",
+        "A substance that adsorbs",
+        "A reaction product",
+        "A titrant"
+      ]
+    },
+    {
+      "question": "Enterosorption is:",
+      "options": [
+        "The binding of toxins in the gastrointestinal tract",
+        "The purification of blood from toxins through adsorbents",
+        "The evaporation process",
+        "The breakdown of hemoglobin"
+      ]
+    },
+    {
+      "question": "Washing adsorbed substances from the adsorbent using solvents is called:",
+      "options": [
+        "Elution",
+        "Hydration",
+        "Through adsorption",
+        "Through absorption"
+      ]
+    },
+    {
+      "question": "The first rule of Panet-Fayans states:",
+      "options": [
+        "The crystal lattice of the adsorbent is filled with ions that are part of it",
+        "The crystal lattice of the adsorbent is filled not only with the ions in its composition",
+        "Only ions with opposite charges to the adsorbent’s surface charge are adsorbed",
+        "Polar adsorbents bind better to polar adsorbents"
+      ]
+    },
+    {
+      "question": "Ion exchange adsorption is:",
+      "options": [
+        "The ion exchange process occurring in strict equivalent ratios",
+        "The electron exchange process",
+        "The molecular exchange process",
+        "The adsorption of gases and vapors by solid materials"
+      ]
+    },
+    {
+      "question": "From the given examples, choose the cation exchanger:",
+      "options": [
+        "Kat-H+",
+        "AnOH-",
+        "AnCl-",
+        "AnSO₄²⁻"
+      ]
+    }
+  ],
+  "t-s-1-9-11": [
+    {
+      "question": "What is a polyfunctional compound?",
+      "options": [
+        "A compound that contains two or more functional groups",
+        "A compound with only one functional group",
+        "A compound that is purely inorganic",
+        "A compound that does not react with other substances"
+      ]
+    },
+    {
+      "question": "Which of the following is an example of a polyfunctional compound?",
+      "options": [
+        "Acetaminophen",
+        "Methane",
+        "Sodium chloride",
+        "Carbon dioxide"
+      ]
+    },
+    {
+      "question": "What role do polyfunctional compounds play in medicine?",
+      "options": [
+        "They serve as drugs and metabolites",
+        "They are used as solvents only",
+        "They act solely as preservatives",
+        "They are only used in food processing"
+      ]
+    },
+    {
+      "question": "Which of the following is a polyfunctional metabolite used in medicine?",
+      "options": [
+        "Glutathione",
+        "Sodium chloride",
+        "Glucose",
+        "Water"
+      ]
+    },
+    {
+      "question": "Polyfunctional compounds are important in drug design because they:",
+      "options": [
+        "Can interact with multiple targets",
+        "Have only one interaction site",
+        "Are completely inert",
+        "Can only interact with enzymes"
+      ]
+    },
+    {
+      "question": "What functional groups are commonly found in polyfunctional compounds?",
+      "options": [
+        "Alcohol, amine, and carboxyl groups",
+        "Ester groups only",
+        "Hydrocarbon chains only",
+        "Halide groups only"
+      ]
+    },
+    {
+      "question": "What is a common use of polyfunctional compounds in medicine?",
+      "options": [
+        "As therapeutic agents",
+        "As fertilizers",
+        "As flavor enhancers",
+        "As disinfectants"
+      ]
+    },
+    {
+      "question": "Which of the following polyfunctional compounds is used as an analgesic?",
+      "options": [
+        "Acetaminophen",
+        "Sodium bicarbonate",
+        "Benzene",
+        "Methanol"
+      ]
+    },
+    {
+      "question": "How do polyfunctional compounds like antibiotics work in the body?",
+      "options": [
+        "By targeting specific bacteria or fungi",
+        "By increasing blood pressure",
+        "By promoting sleep",
+        "By altering skin pigmentation"
+      ]
+    },
+    {
+      "question": "Which metabolic pathway involves polyfunctional compounds like ATP?",
+      "options": [
+        "Cellular respiration",
+        "Photosynthesis",
+        "Glycolysis",
+        "Nitrogen fixation"
+      ]
+    },
+    {
+      "question": "Which polyfunctional compound is commonly used to treat bacterial infections?",
+      "options": [
+        "Penicillin",
+        "Acetaminophen",
+        "Sodium chloride",
+        "Glucose"
+      ]
+    },
+    {
+      "question": "Polyfunctional compounds are important for the synthesis of:",
+      "options": [
+        "Proteins and nucleic acids",
+        "Water",
+        "Oxygen",
+        "Carbon dioxide"
+      ]
+    },
+    {
+      "question": "Which of the following polyfunctional compounds is involved in the inflammatory response?",
+      "options": [
+        "Prostaglandins",
+        "Hemoglobin",
+        "Collagen",
+        "Insulin"
+      ]
+    },
+    {
+      "question": "How do polyfunctional compounds act as antioxidants in medicine?",
+      "options": [
+        "By neutralizing free radicals",
+        "By speeding up metabolism",
+        "By improving digestion",
+        "By increasing blood flow"
+      ]
+    },
+    {
+      "question": "Which of the following is a polyfunctional compound with anti-cancer properties?",
+      "options": [
+        "Curcumin",
+        "Glucose",
+        "Urea",
+        "Sodium chloride"
+      ]
+    },
+    {
+      "question": "Polyfunctional compounds like steroids are used in medicine for:",
+      "options": [
+        "Anti-inflammatory purposes",
+        "Enhancing taste",
+        "Increasing appetite",
+        "Controlling blood pressure"
+      ]
+    },
+    {
+      "question": "Which polyfunctional compound is known for its role in pain relief and inflammation reduction?",
+      "options": [
+        "Aspirin",
+        "Methane",
+        "Sodium chloride",
+        "Glucose"
+      ]
+    },
+    {
+      "question": "How do polyfunctional metabolites affect the central nervous system?",
+      "options": [
+        "By modulating neurotransmitter levels",
+        "By increasing blood sugar levels",
+        "By altering digestion processes",
+        "By improving skin elasticity"
+      ]
+    },
+    {
+      "question": "Which polyfunctional compound is involved in the regulation of blood sugar levels?",
+      "options": [
+        "Insulin",
+        "Sodium chloride",
+        "Cortisol",
+        "Vitamin C"
+      ]
+    },
+    {
+      "question": "In what form do polyfunctional compounds typically exist when used as drugs?",
+      "options": [
+        "As active pharmaceutical ingredients",
+        "As inactive metabolites",
+        "As water-soluble salts",
+        "As insoluble crystals"
+      ]
+    },
+    {
+      "question": "Which of the following is a polyfunctional compound that can be used to treat heart disease?",
+      "options": [
+        "Nitroglycerin",
+        "Acetaminophen",
+        "Sodium bicarbonate",
+        "Magnesium sulfate"
+      ]
+    },
+    {
+      "question": "Polyfunctional compounds in metabolic pathways can act as:",
+      "options": [
+        "Enzyme inhibitors or activators",
+        "Water carriers only",
+        "Energy sources exclusively",
+        "Structural components only"
+      ]
+    },
+    {
+      "question": "What is a key characteristic of polyfunctional compounds used in chemotherapy?",
+      "options": [
+        "They target specific cancer cells",
+        "They act as general pain relievers",
+        "They provide nutrition to the body",
+        "They increase the growth of healthy cells"
+      ]
+    },
+    {
+      "question": "Which polyfunctional compound is involved in the body's response to stress?",
+      "options": [
+        "Cortisol",
+        "Serotonin",
+        "Estrogen",
+        "Thyroxine"
+      ]
+    },
+    {
+      "question": "Polyfunctional compounds like antioxidants are often included in drugs to:",
+      "options": [
+        "Prevent oxidative damage",
+        "Increase blood pressure",
+        "Promote digestion",
+        "Reduce appetite"
+      ]
+    }
   ]
 };
