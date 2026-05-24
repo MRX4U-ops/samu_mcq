@@ -3,31 +3,38 @@ import {
   View, Text, StyleSheet, SafeAreaView, TextInput, 
   FlatList, TouchableOpacity, StatusBar
 } from 'react-native';
-import { ArrowLeft, Search, Award, Clock, XCircle, BookOpen } from 'lucide-react-native';
+import { ArrowLeft, Search, Award, Clock, XCircle, BookOpen, ChevronDown, ChevronUp } from 'lucide-react-native';
 import { useTheme } from '../context/ThemeContext';
 import biochemistryResults from '../data/biochemistry_results.json';
 import microbiologyResults from '../data/microbiology_results.json';
+import anatomyResults from '../data/clinical_anatomy_results.json';
+
+const SUBJECTS = [
+  { id: 'biochemistry', title: 'Biochemistry 2026', data: biochemistryResults },
+  { id: 'microbiology', title: 'Microbiology CBT 2026', data: microbiologyResults },
+  { id: 'anatomy', title: 'Clinical Anatomy 2026', data: anatomyResults },
+];
 
 const ExamResultsScreen = ({ navigation }) => {
   const { colors, isDarkMode } = useTheme();
   const [query, setQuery] = useState('');
-  const [activeTab, setActiveTab] = useState('biochemistry');
+  const [activeSubjectId, setActiveSubjectId] = useState('biochemistry');
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  const currentData = activeTab === 'biochemistry' ? biochemistryResults : microbiologyResults;
-  const currentTitle = activeTab === 'biochemistry' ? 'Biochemistry 2026' : 'Microbiology CBT 2026';
+  const currentSubject = SUBJECTS.find(s => s.id === activeSubjectId) || SUBJECTS[0];
 
   // Filter results based on search query
   const filteredResults = useMemo(() => {
     if (!query || query.trim().length === 0) {
-      return currentData;
+      return currentSubject.data;
     }
     
     const term = query.toLowerCase().trim();
-    return currentData.filter(item => 
+    return currentSubject.data.filter(item => 
       item.name.toLowerCase().includes(term) || 
       item.group.toLowerCase().includes(term)
     );
-  }, [query, currentData]);
+  }, [query, currentSubject]);
 
   const renderItem = ({ item }) => {
     const isPassed = item.score !== null && item.score >= 60;
@@ -37,7 +44,7 @@ const ExamResultsScreen = ({ navigation }) => {
         <View style={styles.cardHeader}>
           <View style={styles.titleWrapper}>
             <BookOpen size={16} color={colors.accent} style={{ marginRight: 6 }} />
-            <Text style={[styles.subjectTitle, { color: colors.text }]}>{currentTitle}</Text>
+            <Text style={[styles.subjectTitle, { color: colors.text }]}>{currentSubject.title}</Text>
           </View>
           <View style={[
             styles.badge, 
@@ -102,28 +109,52 @@ const ExamResultsScreen = ({ navigation }) => {
         <View style={{ width: 24 }} />
       </View>
 
-      {/* Tabs */}
-      <View style={[styles.tabContainer, { borderBottomColor: colors.border }]}>
+      {/* Subject Dropdown Selector */}
+      <View style={{ paddingHorizontal: 20, paddingTop: 15, zIndex: 10 }}>
         <TouchableOpacity 
-          style={[styles.tab, activeTab === 'biochemistry' && { borderBottomColor: colors.accent, borderBottomWidth: 3 }]}
-          onPress={() => setActiveTab('biochemistry')}
+          style={[styles.dropdownBtn, { backgroundColor: isDarkMode ? '#1E293B' : '#F1F5F9', borderColor: colors.border }]}
+          onPress={() => setIsDropdownOpen(!isDropdownOpen)}
         >
-          <Text style={[styles.tabText, activeTab === 'biochemistry' ? { color: colors.accent, fontWeight: 'bold' } : { color: colors.textSecondary }]}>
-            Biochemistry
-          </Text>
+          <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+            <BookOpen size={20} color={colors.accent} style={{ marginRight: 10 }} />
+            <Text style={[styles.dropdownBtnText, { color: colors.text }]}>{currentSubject.title}</Text>
+          </View>
+          {isDropdownOpen ? (
+            <ChevronUp size={20} color={colors.textSecondary} />
+          ) : (
+            <ChevronDown size={20} color={colors.textSecondary} />
+          )}
         </TouchableOpacity>
-        <TouchableOpacity 
-          style={[styles.tab, activeTab === 'microbiology' && { borderBottomColor: colors.accent, borderBottomWidth: 3 }]}
-          onPress={() => setActiveTab('microbiology')}
-        >
-          <Text style={[styles.tabText, activeTab === 'microbiology' ? { color: colors.accent, fontWeight: 'bold' } : { color: colors.textSecondary }]}>
-            Microbiology
-          </Text>
-        </TouchableOpacity>
+
+        {isDropdownOpen && (
+          <View style={[styles.dropdownList, { backgroundColor: colors.surface, borderColor: colors.border }]}>
+            {SUBJECTS.map((subj, index) => (
+              <TouchableOpacity 
+                key={subj.id}
+                style={[
+                  styles.dropdownItem, 
+                  { borderBottomColor: colors.border },
+                  index === SUBJECTS.length - 1 && { borderBottomWidth: 0 }
+                ]}
+                onPress={() => {
+                  setActiveSubjectId(subj.id);
+                  setIsDropdownOpen(false);
+                }}
+              >
+                <Text style={[
+                  styles.dropdownItemText, 
+                  activeSubjectId === subj.id ? { color: colors.accent, fontWeight: 'bold' } : { color: colors.text }
+                ]}>
+                  {subj.title}
+                </Text>
+              </TouchableOpacity>
+            ))}
+          </View>
+        )}
       </View>
 
       {/* Search Box */}
-      <View style={styles.searchContainer}>
+      <View style={[styles.searchContainer, { zIndex: 1 }]}>
         <View style={[styles.searchBox, { backgroundColor: isDarkMode ? '#1E293B' : '#F1F5F9' }]}>
           <Search size={20} color="#94A3B8" />
           <TextInput
@@ -174,17 +205,37 @@ const styles = StyleSheet.create({
   },
   backBtn: { padding: 5 },
   headerTitle: { fontSize: 18, fontWeight: 'bold' },
-  tabContainer: {
+  dropdownBtn: {
     flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    padding: 15,
+    borderRadius: 12,
+    borderWidth: 1,
+  },
+  dropdownBtnText: {
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  dropdownList: {
+    position: 'absolute',
+    top: 75,
+    left: 20,
+    right: 20,
+    borderRadius: 12,
+    borderWidth: 1,
+    elevation: 5,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 6,
+    zIndex: 100,
+  },
+  dropdownItem: {
+    padding: 15,
     borderBottomWidth: 1,
   },
-  tab: {
-    flex: 1,
-    paddingVertical: 15,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  tabText: {
+  dropdownItemText: {
     fontSize: 15,
     fontWeight: '500',
   },
@@ -308,3 +359,4 @@ const styles = StyleSheet.create({
 });
 
 export default ExamResultsScreen;
+
