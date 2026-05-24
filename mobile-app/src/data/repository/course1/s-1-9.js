@@ -425,5 +425,232 @@ export const s_1_9 = {
         "Inorganic"
       ]
     }
+  ],
+  "t-s-1-9-2": [
+    {
+      "question": "Colligative properties depend on:",
+      "options": [
+        "The number of solute particles",
+        "The type of solute",
+        "The molecular weight of the solute",
+        "The color of the solute"
+      ]
+    },
+    {
+      "question": "Which of the following is a colligative property?",
+      "options": [
+        "Freezing point depression",
+        "Surface tension",
+        "Density",
+        "Refractive index"
+      ]
+    },
+    {
+      "question": "Boiling point elevation occurs when:",
+      "options": [
+        "A solute is added to a solvent",
+        "The solvent is heated without solute",
+        "The pressure decreases",
+        "The solution is cooled"
+      ]
+    },
+    {
+      "question": "Freezing point of a solution is:",
+      "options": [
+        "Lower than that of the pure solvent",
+        "Higher than that of the pure solvent",
+        "The same as the pure solvent",
+        "Independent of solute addition"
+      ]
+    },
+    {
+      "question": "The formula for osmotic pressure is:",
+      "options": [
+        "π = iCRT",
+        "π = iKf × m",
+        "π = P × V / T",
+        "π = Kb × i × m"
+      ]
+    },
+    {
+      "question": "Van 't Hoff factor (i) for NaCl is:",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "question": "Which of the following depends on molality?",
+      "options": [
+        "Freezing point depression",
+        "Vapor pressure",
+        "Surface tension",
+        "Conductivity"
+      ]
+    },
+    {
+      "question": "Which of the following solutions has the highest boiling point?",
+      "options": [
+        "2 M NaCl",
+        "2 M Glucose",
+        "2 M Sucrose",
+        "2 M Urea"
+      ]
+    },
+    {
+      "question": "Adding a solute to a solvent causes its vapor pressure to:",
+      "options": [
+        "Decrease",
+        "Increase",
+        "Remain the same",
+        "Fluctuate"
+      ]
+    },
+    {
+      "question": "Which is NOT a colligative property?",
+      "options": [
+        "Surface tension",
+        "Osmotic pressure",
+        "Boiling point elevation",
+        "Freezing point depression"
+      ]
+    },
+    {
+      "question": "Raoult’s Law applies to:",
+      "options": [
+        "Ideal solutions",
+        "Solid solutions",
+        "Suspensions",
+        "Colloids"
+      ]
+    },
+    {
+      "question": "Which is an example of a colligative property?",
+      "options": [
+        "Osmotic pressure",
+        "Surface area",
+        "Viscosity",
+        "Diffusion"
+      ]
+    },
+    {
+      "question": "Molality is defined as:",
+      "options": [
+        "Moles of solute per kg of solvent",
+        "Moles of solute per liter of solution",
+        "Grams of solute per kg of solvent",
+        "Grams of solute per liter of solution"
+      ]
+    },
+    {
+      "question": "Freezing point depression is caused by:",
+      "options": [
+        "Adding solute to the solvent",
+        "Evaporation of the solvent",
+        "Cooling the solution rapidly",
+        "Mixing two solvents"
+      ]
+    },
+    {
+      "question": "Van 't Hoff factor (i) accounts for:",
+      "options": [
+        "The number of particles a solute dissociates into",
+        "The molecular weight of the solute",
+        "The boiling point of the solvent",
+        "The density of the solvent"
+      ]
+    },
+    {
+      "question": "Which of the following will have the largest freezing point depression?",
+      "options": [
+        "1 M MgCl2",
+        "1 M NaCl",
+        "1 M Glucose",
+        "1 M Urea"
+      ]
+    },
+    {
+      "question": "The boiling point of a solution is always:",
+      "options": [
+        "Higher than that of the pure solvent",
+        "Lower than that of the pure solvent",
+        "The same as the pure solvent",
+        "Unaffected by solute addition"
+      ]
+    },
+    {
+      "question": "Colligative properties are used to determine:",
+      "options": [
+        "Molar mass of solutes",
+        "Atomic mass of solutes",
+        "Color of solutions",
+        "Shape of solute molecules"
+      ]
+    },
+    {
+      "question": "Vapor pressure of a solution is lower than the vapor pressure of:",
+      "options": [
+        "The pure solvent",
+        "A concentrated solution",
+        "A solute alone",
+        "None of the above"
+      ]
+    },
+    {
+      "question": "Freezing point depression is represented by the formula:",
+      "options": [
+        "ΔTf = Kf × m",
+        "ΔTf = Kb × m",
+        "ΔTf = i × C × R",
+        "ΔTf = RT × m"
+      ]
+    },
+    {
+      "question": "Which constant is used in the freezing point depression formula?",
+      "options": [
+        "Kf",
+        "Kb",
+        "R",
+        "i"
+      ]
+    },
+    {
+      "question": "The unit of molality is:",
+      "options": [
+        "mol/kg",
+        "mol/L",
+        "g/L",
+        "g/kg"
+      ]
+    },
+    {
+      "question": "Which of these increases when a non-volatile solute is added to water?",
+      "options": [
+        "Boiling point",
+        "Freezing point",
+        "Vapor pressure",
+        "Solvent density"
+      ]
+    },
+    {
+      "question": "A solution of 1 M NaCl will have a van 't Hoff factor (i) equal to:",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "question": "Osmosis occurs when a solution has:",
+      "options": [
+        "A higher solute concentration than the solvent",
+        "A lower solute concentration than the solvent",
+        "Equal solute and solvent concentrations",
+        "No solute"
+      ]
+    }
   ]
 };
