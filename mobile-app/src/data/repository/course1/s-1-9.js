@@ -243,5 +243,187 @@ export const s_1_9 = {
         "Selenium"
       ]
     }
+  ],
+  "t-s-1-9-1": [
+    {
+      "question": "Which element helps heal wounds and is widely used in cosmetology and dermatology?",
+      "options": [
+        "Zinc",
+        "Sodium",
+        "Calcium",
+        "Copper"
+      ]
+    },
+    {
+      "question": "Which disease occurs due to fluorine deficiency in the body?",
+      "options": [
+        "Caries",
+        "Fluorosis",
+        "Osteoporosis",
+        "Rickets"
+      ]
+    },
+    {
+      "question": "Which disease occurs due to fluorine excess in the body?",
+      "options": [
+        "Fluorosis",
+        "Caries",
+        "Osteoporosis",
+        "Rickets"
+      ]
+    },
+    {
+      "question": "Which disease occurs due to iodine deficiency in the body?",
+      "options": [
+        "Goiter",
+        "Caries",
+        "Osteoporosis",
+        "Rickets"
+      ]
+    },
+    {
+      "question": "Which disease occurs due to calcium deficiency in the body?",
+      "options": [
+        "Caries and Osteoporosis",
+        "Stones in the kidneys and gallbladder",
+        "Argyria",
+        "Silicosis"
+      ]
+    },
+    {
+      "question": "Which disease occurs due to calcium excess in the body?",
+      "options": [
+        "Stones in the kidneys and gallbladder",
+        "Caries and Osteoporosis",
+        "Argyria",
+        "Silicosis"
+      ]
+    },
+    {
+      "question": "Which disease occurs due to strontium excess in the body?",
+      "options": [
+        "Caries and Osteoporosis",
+        "Rickets",
+        "Stones in the kidneys and gallbladder",
+        "Silicosis"
+      ]
+    },
+    {
+      "question": "What is the name for poisoning caused by aluminum?",
+      "options": [
+        "Aluminosis",
+        "Anthracosis",
+        "Argyria",
+        "Silicosis"
+      ]
+    },
+    {
+      "question": "What is the name for poisoning caused by silicon?",
+      "options": [
+        "Silicosis",
+        "Aluminosis",
+        "Anthracosis",
+        "Argyria"
+      ]
+    },
+    {
+      "question": "What is the name for poisoning caused by carbon?",
+      "options": [
+        "Anthracosis",
+        "Aluminosis",
+        "Argyria",
+        "Silicosis"
+      ]
+    },
+    {
+      "question": "What is the name for poisoning caused by silver?",
+      "options": [
+        "Argyria",
+        "Aluminosis",
+        "Anthracosis",
+        "Silicosis"
+      ]
+    },
+    {
+      "question": "What is the name for poisoning caused by beryllium?",
+      "options": [
+        "Berylliosis",
+        "Anthracosis",
+        "Argyria",
+        "Silicosis"
+      ]
+    },
+    {
+      "question": "What type(s) of biological elements does calcium represent?",
+      "options": [
+        "Organogenic, Essential",
+        "Essential",
+        "Organogenic",
+        "Inorganic"
+      ]
+    },
+    {
+      "question": "What type(s) of biological elements does carbon represent?",
+      "options": [
+        "Essential",
+        "Organogenic, Essential",
+        "Organogenic",
+        "Inorganic"
+      ]
+    },
+    {
+      "question": "What type(s) of biological elements does hydrogen represent?",
+      "options": [
+        "Organogenic, Essential",
+        "Essential",
+        "Organogenic",
+        "Inorganic"
+      ]
+    },
+    {
+      "question": "What type(s) of biological elements does oxygen represent?",
+      "options": [
+        "Organogenic, Essential",
+        "Essential",
+        "Organogenic",
+        "Inorganic"
+      ]
+    },
+    {
+      "question": "What type(s) of biological elements does sodium represent?",
+      "options": [
+        "Essential",
+        "Organogenic, Essential",
+        "Organogenic",
+        "Inorganic"
+      ]
+    },
+    {
+      "question": "What type(s) of biological elements does potassium represent?",
+      "options": [
+        "Essential",
+        "Organogenic, Essential",
+        "Organogenic",
+        "Inorganic"
+      ]
+    },
+    {
+      "question": "What type(s) of biological elements does chlorine represent?",
+      "options": [
+        "Essential",
+        "Organogenic, Essential",
+        "Organogenic",
+        "Inorganic"
+      ]
+    },
+    {
+      "question": "What type(s) of biological elements does magnesium represent?",
+      "options": [
+        "Essential",
+        "Organogenic, Essential",
+        "Organogenic",
+        "Inorganic"
+      ]
+    }
   ]
 };
