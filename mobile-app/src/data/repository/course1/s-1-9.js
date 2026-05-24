@@ -2758,5 +2758,232 @@ export const s_1_9 = {
         "Reduce appetite"
       ]
     }
+  ],
+  "t-s-1-9-12": [
+    {
+      "question": "1.\tWhat are heterofunctional compounds used for in medicine?",
+      "options": [
+        "The synthesis of drugs and metabolites",
+        "The production of food additives",
+        "The creation of plastic materials",
+        "The manufacturing of synthetic fibers"
+      ]
+    },
+    {
+      "question": "2.\tWhich of the following is an example of a heterofunctional compound used as a medicinal agent?",
+      "options": [
+        "Penicillin",
+        "Sodium chloride",
+        "Water",
+        "Glucose"
+      ]
+    },
+    {
+      "question": "3.\tHow do heterofunctional compounds interact in the body?",
+      "options": [
+        "They serve as therapeutic agents and interact with biological targets",
+        "They provide energy to cells only",
+        "They function solely as preservatives",
+        "They neutralize acidic substances"
+      ]
+    },
+    {
+      "question": "4.\tWhat role do heterofunctional compounds play in drug development?",
+      "options": [
+        "They allow for targeting multiple disease mechanisms",
+        "They are used exclusively for diagnostic purposes",
+        "They are used only in the preparation of vaccines",
+        "They serve as food preservatives"
+      ]
+    },
+    {
+      "question": "5.\tWhat type of functional groups are typically present in heterofunctional compounds?",
+      "options": [
+        "Alcohol, amine, and carboxyl groups",
+        "Only ester groups",
+        "Hydrocarbon chains",
+        "Halide groups"
+      ]
+    },
+    {
+      "question": "6.\tWhich heterofunctional compound is commonly used as an antibiotic?",
+      "options": [
+        "Amoxicillin",
+        "Methane",
+        "Sodium chloride",
+        "Water"
+      ]
+    },
+    {
+      "question": "7.\tHow do heterofunctional compounds contribute to metabolism?",
+      "options": [
+        "They act as intermediates in metabolic pathways",
+        "They serve only as storage molecules",
+        "They increase the energy required for cellular processes",
+        "They act as DNA builders"
+      ]
+    },
+    {
+      "question": "8.\tWhat is the significance of heterofunctional compounds in the synthesis of medicines?",
+      "options": [
+        "They enhance the specificity and efficiency of drug interactions",
+        "They only increase the shelf-life of drugs",
+        "They act as preservatives without any other medicinal value",
+        "They function as carriers in drug delivery"
+      ]
+    },
+    {
+      "question": "9.\tWhich heterofunctional compound is involved in anti-inflammatory action?",
+      "options": [
+        "Aspirin",
+        "Caffeine",
+        "Chlorine",
+        "Sodium chloride"
+      ]
+    },
+    {
+      "question": "10.\tHow do heterofunctional compounds influence disease treatment?",
+      "options": [
+        "They target specific molecular pathways in the body",
+        "They simply neutralize the presence of pathogens",
+        "They provide a source of energy for infected cells",
+        "They increase the acidity of tissues"
+      ]
+    },
+    {
+      "question": "11.\tHeterofunctional compounds are primarily used in medicine for:",
+      "options": [
+        "Treating various diseases",
+        "Increasing metabolic rate",
+        "Enhancing digestive functions",
+        "Promoting hair growth"
+      ]
+    },
+    {
+      "question": "12.\tWhich class of drugs includes heterofunctional compounds?",
+      "options": [
+        "Antibiotics",
+        "Vitamins",
+        "Minerals",
+        "Enzymes"
+      ]
+    },
+    {
+      "question": "13.\tWhich heterofunctional compound is used in the treatment of bacterial infections?",
+      "options": [
+        "Penicillin",
+        "Insulin",
+        "Glucose",
+        "Caffeine"
+      ]
+    },
+    {
+      "question": "14.\tWhat is the primary use of heterofunctional compounds like aspirin?",
+      "options": [
+        "Pain relief and anti-inflammatory purposes",
+        "Improving digestive health",
+        "Improving hair growth",
+        "Increasing muscle mass"
+      ]
+    },
+    {
+      "question": "15.\tHeterofunctional compounds are important because they:",
+      "options": [
+        "Can interact with multiple biological targets",
+        "Serve as food preservatives",
+        "Are used in genetic engineering",
+        "Enhance the shelf life of non-pharmaceutical products"
+      ]
+    },
+    {
+      "question": "16.\tHow are heterofunctional compounds metabolized in the body?",
+      "options": [
+        "Through enzymatic processes",
+        "Through simple absorption",
+        "By passive diffusion only",
+        "Without any alteration in the body"
+      ]
+    },
+    {
+      "question": "17.\tWhich heterofunctional compound is known for its role in treating hypertension?",
+      "options": [
+        "ACE inhibitors",
+        "Sodium chloride",
+        "Glucose",
+        "Chlorophyll"
+      ]
+    },
+    {
+      "question": "18.\tWhat makes heterofunctional compounds versatile in drug design?",
+      "options": [
+        "Their ability to bind to various receptors",
+        "Their sole role in preserving drugs",
+        "Their function in increasing drug solubility",
+        "Their involvement in food processing only"
+      ]
+    },
+    {
+      "question": "19.\tHeterofunctional compounds in medicine may act as:",
+      "options": [
+        "Antioxidants or anti-inflammatory agents",
+        "Water carriers only",
+        "Energy storage molecules only",
+        "Structural components only"
+      ]
+    },
+    {
+      "question": "20.\tWhich of the following is a heterofunctional compound used to treat pain?",
+      "options": [
+        "Ibuprofen",
+        "Glucose",
+        "Water",
+        "Sodium chloride"
+      ]
+    },
+    {
+      "question": "21.\tHow do heterofunctional compounds contribute to pharmaceutical formulations?",
+      "options": [
+        "They enhance drug bioavailability",
+        "They only act as inactive carriers",
+        "They serve as colorants for tablets",
+        "They work to increase drug resistance"
+      ]
+    },
+    {
+      "question": "22.\tWhat is a primary benefit of using heterofunctional compounds in drug development?",
+      "options": [
+        "Their ability to address multiple drug targets",
+        "Their potential to serve as preservatives",
+        "Their ability to improve flavor",
+        "Their role in altering drug color"
+      ]
+    },
+    {
+      "question": "23.\tWhich of the following is an important characteristic of heterofunctional compounds in drug development?",
+      "options": [
+        "Their ability to undergo functional transformations",
+        "Their inertness in the body",
+        "Their incompatibility with other drugs",
+        "Their limited interaction with biological systems"
+      ]
+    },
+    {
+      "question": "24.\tIn the context of drug design, heterofunctional compounds are:",
+      "options": [
+        "Key for optimizing drug efficacy",
+        "Used solely for aesthetic purposes",
+        "Involved in increasing the toxicity of drugs",
+        "Not used in modern pharmacology"
+      ]
+    },
+    {
+      "question": "25.\tHeterofunctional compounds are critical in:",
+      "options": [
+        "Designing drugs that target specific biological processes",
+        "Creating preservatives for food storage",
+        "Developing non-pharmaceutical products",
+        "Enhancing flavor in food products"
+      ]
+    }
   ]
 };
