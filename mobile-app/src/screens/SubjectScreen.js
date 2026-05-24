@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, FlatList, TouchableOpacity, ActivityIndicator, StatusBar, Alert } from 'react-native';
+import { View, Text, StyleSheet, FlatList, TouchableOpacity, ActivityIndicator, StatusBar, Alert, Animated } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { ArrowLeft, ChevronRight, BookOpen, Pin, Lock } from 'lucide-react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -96,6 +96,9 @@ const SubjectScreen = ({ route, navigation }) => {
   const [subjects, setSubjects] = useState(localSubjects);
   const [loading, setLoading] = useState(false); // Never show loading for pre-loaded curriculum
   const [pinnedSubjectIds, setPinnedSubjectIds] = useState([]);
+  
+  const [showPinTutorial, setShowPinTutorial] = useState(false);
+  const pulseAnim = React.useRef(new Animated.Value(1)).current;
 
   useEffect(() => {
     const loadPinnedSubjects = async () => {
@@ -112,10 +115,34 @@ const SubjectScreen = ({ route, navigation }) => {
       }
     };
     loadPinnedSubjects();
+
+    const checkTutorial = async () => {
+      try {
+        const hasSeen = await AsyncStorage.getItem('hasSeenPinTutorial');
+        if (!hasSeen) {
+          setShowPinTutorial(true);
+          Animated.loop(
+            Animated.sequence([
+              Animated.timing(pulseAnim, { toValue: 1.25, duration: 600, useNativeDriver: true }),
+              Animated.timing(pulseAnim, { toValue: 1, duration: 600, useNativeDriver: true })
+            ])
+          ).start();
+        }
+      } catch (e) {
+        console.log('Error checking pin tutorial:', e.message);
+      }
+    };
+    checkTutorial();
   }, [internalId]);
 
   const togglePin = async (subjectId) => {
     try {
+      if (showPinTutorial) {
+        setShowPinTutorial(false);
+        await AsyncStorage.setItem('hasSeenPinTutorial', 'true');
+        pulseAnim.stopAnimation();
+      }
+
       const key = `samu_mcq_pinned_subjects_${internalId}`;
       let updated = [...pinnedSubjectIds];
       if (updated.includes(subjectId)) {
@@ -168,9 +195,10 @@ const SubjectScreen = ({ route, navigation }) => {
     }
   };
 
-  const renderItem = ({ item }) => {
+  const renderItem = ({ item, index }) => {
     const originalIndex = localSubjects.findIndex(s => s._id === item._id);
     const isPinned = pinnedSubjectIds.includes(item._id);
+    const isFirstItem = index === 0;
 
     return (
       <View style={[styles.subjectCard, isPinned && styles.subjectCardPinned]}>
@@ -194,7 +222,20 @@ const SubjectScreen = ({ route, navigation }) => {
             onPress={() => togglePin(item._id)}
             hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
           >
-            <Pin size={16} color={isPinned ? "#2563EB" : "#94A3B8"} fill={isPinned ? "#2563EB" : "none"} />
+            {showPinTutorial && isFirstItem ? (
+              <Animated.View style={{ transform: [{ scale: pulseAnim }] }}>
+                <Pin size={16} color={isPinned ? "#2563EB" : "#EF4444"} fill={isPinned ? "#2563EB" : "none"} />
+              </Animated.View>
+            ) : (
+              <Pin size={16} color={isPinned ? "#2563EB" : "#94A3B8"} fill={isPinned ? "#2563EB" : "none"} />
+            )}
+            
+            {showPinTutorial && isFirstItem && (
+               <View style={styles.tutorialPopup}>
+                  <Text style={styles.tutorialText}>You can pin subject from here</Text>
+                  <View style={styles.tutorialArrow} />
+               </View>
+            )}
           </TouchableOpacity>
           <TouchableOpacity 
             style={styles.arrowCircle}
@@ -303,8 +344,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.06, 
     shadowRadius: 12,
     borderWidth: 1,
-    borderColor: 'transparent',
-    overflow: 'hidden'
+    borderColor: 'transparent'
   },
   subjectCardPinned: {
     backgroundColor: '#EFF6FF',
@@ -361,6 +401,43 @@ const styles = StyleSheet.create({
     backgroundColor: '#EFF6FF',
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  tutorialPopup: {
+    position: 'absolute',
+    bottom: 45,
+    right: -20,
+    backgroundColor: '#1E293B',
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+    borderRadius: 10,
+    width: 140,
+    alignItems: 'center',
+    zIndex: 9999,
+    elevation: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.2,
+    shadowRadius: 8,
+  },
+  tutorialText: {
+    color: '#FFF',
+    fontSize: 13,
+    fontWeight: '700',
+    textAlign: 'center',
+    lineHeight: 18
+  },
+  tutorialArrow: {
+    position: 'absolute',
+    bottom: -6,
+    right: 32,
+    width: 0,
+    height: 0,
+    borderLeftWidth: 8,
+    borderRightWidth: 8,
+    borderTopWidth: 8,
+    borderLeftColor: 'transparent',
+    borderRightColor: 'transparent',
+    borderTopColor: '#1E293B'
   }
 });
 
