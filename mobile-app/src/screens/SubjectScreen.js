@@ -12,7 +12,7 @@ const ACADEMIC_CURRICULUM = {
     "Entering to the profession", "Histology, cytology and embriology moodle 1", "Religious studies",
     "The latest history of Uzbekistan. Bioethics", "Human Anatomy -Moodul 2", "Human Anatomy -Moodul 1",
     "Information technologies in medicine", "Medical and biological physics", "MEDICAL BIOLOGY WITH ELEMENTS OF ECOLOGY",
-    "Medical chemistry Module 1", "Medical chemistry Module 2",
+    "MEDICAL CHEMISTRY",
     "Medical English", "Medical latin terminology", "Microbiology, Virology, Parasitology and Immunology",
     "New medical technology and medical equipments", "Pharmacology", "Physiology module 1", "Physiology module 2",
     "Russian language for the students of medical institute", "Uzbek language"
