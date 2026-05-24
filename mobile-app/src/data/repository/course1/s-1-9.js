@@ -757,126 +757,126 @@ export const s_1_9 = {
       "question": "What is a primary standard?",
       "options": [
         "(a) A substance of high purity used to standardize a solution",
-        "b) A mixture of different compounds",
-        "c) A solution with a pH of 7",
-        "d) A weak acid used in titrations"
+        "A mixture of different compounds",
+        "A solution with a pH of 7",
+        "A weak acid used in titrations"
       ]
     },
     {
       "question": "Which titration involves the use of potassium permanganate?",
       "options": [
         "(a) Redox titration",
-        "b) Acid-base titration",
-        "c) Complexometric titration",
-        "d) Precipitation titration"
+        "Acid-base titration",
+        "Complexometric titration",
+        "Precipitation titration"
       ]
     },
     {
       "question": "What is the color change of phenolphthalein in a basic solution?",
       "options": [
         "(a) Pink",
-        "b) Colorless",
-        "c) Yellow",
-        "d) Blue"
+        "Colorless",
+        "Yellow",
+        "Blue"
       ]
     },
     {
       "question": "In a weak acid-strong base titration, the pH at equivalence is:",
       "options": [
         "(a) Greater than 7",
-        "b) Less than 7",
-        "c) Equal to 7",
-        "d) Depends on the acid"
+        "Less than 7",
+        "Equal to 7",
+        "Depends on the acid"
       ]
     },
     {
       "question": "Which titration method is used to determine water hardness?",
       "options": [
         "(a) Complexometric titration",
-        "b) Redox titration",
-        "c) Acid-base titration",
-        "d) Precipitation titration"
+        "Redox titration",
+        "Acid-base titration",
+        "Precipitation titration"
       ]
     },
     {
       "question": "The substance being added during titration is called the:",
       "options": [
         "(a) Titrant",
-        "b) Analyte",
-        "c) Indicator",
-        "d) Buffer"
+        "Analyte",
+        "Indicator",
+        "Buffer"
       ]
     },
     {
       "question": "A volumetric flask is used to:",
       "options": [
         "(a) Prepare a standard solution",
-        "b) Add titrant to the analyte",
-        "c) Measure the final volume of the solution",
-        "d) Mix the solutions"
+        "Add titrant to the analyte",
+        "Measure the final volume of the solution",
+        "Mix the solutions"
       ]
     },
     {
       "question": "What is the function of a pipette in titration?",
       "options": [
         "(a) To measure a specific volume of analyte",
-        "b) To deliver titrant to the solution",
-        "c) To mix the solution",
-        "d) To act as an indicator"
+        "To deliver titrant to the solution",
+        "To mix the solution",
+        "To act as an indicator"
       ]
     },
     {
       "question": "Which titration involves EDTA as the titrant?",
       "options": [
         "(a) Complexometric titration",
-        "b) Acid-base titration",
-        "c) Redox titration",
-        "d) Precipitation titration"
+        "Acid-base titration",
+        "Redox titration",
+        "Precipitation titration"
       ]
     },
     {
       "question": "In titration, an endpoint is:",
       "options": [
         "(a) The point where the indicator changes color",
-        "b) The point where the reaction starts",
-        "c) The point of maximum pH",
-        "d) The halfway point of the reaction"
+        "The point where the reaction starts",
+        "The point of maximum pH",
+        "The halfway point of the reaction"
       ]
     },
     {
       "question": "Which is NOT required for titration?",
       "options": [
         "(a) Filter paper",
-        "b) Indicator",
-        "c) Burette",
-        "d) Pipette"
+        "Indicator",
+        "Burette",
+        "Pipette"
       ]
     },
     {
       "question": "Which type of titration uses iodine?",
       "options": [
         "(a) Redox titration",
-        "b) Acid-base titration",
-        "c) Precipitation titration",
-        "d) Complexometric titration"
+        "Acid-base titration",
+        "Precipitation titration",
+        "Complexometric titration"
       ]
     },
     {
       "question": "The molarity of the solution can be calculated using the formula:",
       "options": [
         "(a) M₁V₁ = M₂V₂",
-        "b) PV = nRT",
-        "c) M = m × V",
-        "d) ΔT = Kb × m"
+        "PV = nRT",
+        "M = m × V",
+        "ΔT = Kb × m"
       ]
     },
     {
       "question": "Which titration method is used for the estimation of chloride ions?",
       "options": [
         "(a) Precipitation titration",
-        "b) Acid-base titration",
-        "c) Complexometric titration",
-        "d) Redox titration"
+        "Acid-base titration",
+        "Complexometric titration",
+        "Redox titration"
       ]
     }
   ],
@@ -2990,226 +2990,226 @@ export const s_1_9 = {
     {
       "question": "•  What is an aromatic heterofunctional compound?",
       "options": [
-        "A) A compound containing an aromatic ring and multiple functional groups",
-        "B) A compound containing only an aromatic ring",
-        "C) A compound containing only one functional group",
-        "D) A compound containing no functional groups"
+        "A compound containing an aromatic ring and multiple functional groups",
+        "A compound containing only an aromatic ring",
+        "A compound containing only one functional group",
+        "A compound containing no functional groups"
       ]
     },
     {
       "question": "•  Which of the following is an example of an aromatic heterofunctional compound?",
       "options": [
-        "A) Paracetamol",
-        "B) Methane",
-        "C) Sodium chloride",
-        "D) Glucose"
+        "Paracetamol",
+        "Methane",
+        "Sodium chloride",
+        "Glucose"
       ]
     },
     {
       "question": "•  Why are aromatic heterofunctional compounds significant in medicine?",
       "options": [
-        "A) They serve as active pharmaceutical ingredients",
-        "B) They act as inert substances",
-        "C) They are used only as preservatives",
-        "D) They are primarily used as flavoring agents"
+        "They serve as active pharmaceutical ingredients",
+        "They act as inert substances",
+        "They are used only as preservatives",
+        "They are primarily used as flavoring agents"
       ]
     },
     {
       "question": "•  What is the key feature of aromatic heterofunctional compounds in drug design?",
       "options": [
-        "A) Their ability to interact with multiple biological targets",
-        "B) Their lack of reactivity",
-        "C) Their exclusivity to non-biological systems",
-        "D) Their inability to dissolve in water"
+        "Their ability to interact with multiple biological targets",
+        "Their lack of reactivity",
+        "Their exclusivity to non-biological systems",
+        "Their inability to dissolve in water"
       ]
     },
     {
       "question": "•  Which aromatic heterofunctional compound is used as an analgesic?",
       "options": [
-        "A) Aspirin",
-        "B) Sodium bicarbonate",
-        "C) Benzene",
-        "D) Methanol"
+        "Aspirin",
+        "Sodium bicarbonate",
+        "Benzene",
+        "Methanol"
       ]
     },
     {
       "question": "•  How do aromatic heterofunctional compounds act in the body?",
       "options": [
-        "A) By binding to specific enzymes and receptors",
-        "B) By acting as energy storage molecules",
-        "C) By forming structural components only",
-        "D) By remaining inert"
+        "By binding to specific enzymes and receptors",
+        "By acting as energy storage molecules",
+        "By forming structural components only",
+        "By remaining inert"
       ]
     },
     {
       "question": "•  Which functional groups are commonly present in aromatic heterofunctional compounds?",
       "options": [
-        "A) Hydroxyl, amine, and carboxyl groups",
-        "B) Halides only",
-        "C) Hydrocarbons only",
-        "D) Alkyl chains only"
+        "Hydroxyl, amine, and carboxyl groups",
+        "Halides only",
+        "Hydrocarbons only",
+        "Alkyl chains only"
       ]
     },
     {
       "question": "•  What is the medical use of aromatic heterofunctional compounds like sulfonamides?",
       "options": [
-        "A) As antibacterial agents",
-        "B) As sweetening agents",
-        "C) As emulsifiers",
-        "D) As flavor enhancers"
+        "As antibacterial agents",
+        "As sweetening agents",
+        "As emulsifiers",
+        "As flavor enhancers"
       ]
     },
     {
       "question": "•  What role does phenol, an aromatic heterofunctional compound, play in medicine?",
       "options": [
-        "A) It is used as an antiseptic",
-        "B) It is used as a flavoring agent",
-        "C) It is used as a fertilizer",
-        "D) It is used as an inert filler"
+        "It is used as an antiseptic",
+        "It is used as a flavoring agent",
+        "It is used as a fertilizer",
+        "It is used as an inert filler"
       ]
     },
     {
       "question": "•  Which aromatic heterofunctional compound is a common anesthetic?",
       "options": [
-        "A) Lidocaine",
-        "B) Methane",
-        "C) Sodium chloride",
-        "D) Glucose"
+        "Lidocaine",
+        "Methane",
+        "Sodium chloride",
+        "Glucose"
       ]
     },
     {
       "question": "•  How do aromatic heterofunctional compounds contribute to cancer treatment?",
       "options": [
-        "A) By targeting specific tumor cells",
-        "B) By increasing tumor growth",
-        "C) By promoting metastasis",
-        "D) By inhibiting blood circulation"
+        "By targeting specific tumor cells",
+        "By increasing tumor growth",
+        "By promoting metastasis",
+        "By inhibiting blood circulation"
       ]
     },
     {
       "question": "•  What is the role of aromatic heterofunctional compounds in anti-inflammatory medications?",
       "options": [
-        "A) They inhibit inflammatory pathways",
-        "B) They promote inflammation",
-        "C) They suppress the immune system entirely",
-        "D) They enhance bacterial growth"
+        "They inhibit inflammatory pathways",
+        "They promote inflammation",
+        "They suppress the immune system entirely",
+        "They enhance bacterial growth"
       ]
     },
     {
       "question": "•  Which aromatic heterofunctional compound is used in the treatment of fungal infections?",
       "options": [
-        "A) Ketoconazole",
-        "B) Methane",
-        "C) Water",
-        "D) Glucose"
+        "Ketoconazole",
+        "Methane",
+        "Water",
+        "Glucose"
       ]
     },
     {
       "question": "•  Why are aromatic heterofunctional compounds like antihistamines used in medicine?",
       "options": [
-        "A) To alleviate allergic reactions",
-        "B) To induce sleep exclusively",
-        "C) To cause inflammation",
-        "D) To inhibit blood clotting"
+        "To alleviate allergic reactions",
+        "To induce sleep exclusively",
+        "To cause inflammation",
+        "To inhibit blood clotting"
       ]
     },
     {
       "question": "•  What is the main use of aromatic heterofunctional compounds in antibiotics?",
       "options": [
-        "A) They inhibit bacterial growth",
-        "B) They promote bacterial growth",
-        "C) They act as nutrient sources",
-        "D) They are used as solvents"
+        "They inhibit bacterial growth",
+        "They promote bacterial growth",
+        "They act as nutrient sources",
+        "They are used as solvents"
       ]
     },
     {
       "question": "•  Which aromatic heterofunctional compound is used as an anticoagulant?",
       "options": [
-        "A) Warfarin",
-        "B) Sodium bicarbonate",
-        "C) Methane",
-        "D) Water"
+        "Warfarin",
+        "Sodium bicarbonate",
+        "Methane",
+        "Water"
       ]
     },
     {
       "question": "•  How do aromatic heterofunctional compounds act as antioxidants?",
       "options": [
-        "A) By neutralizing free radicals",
-        "B) By increasing free radicals",
-        "C) By promoting oxidation",
-        "D) By damaging cellular structures"
+        "By neutralizing free radicals",
+        "By increasing free radicals",
+        "By promoting oxidation",
+        "By damaging cellular structures"
       ]
     },
     {
       "question": "•  Which of the following aromatic heterofunctional compounds is used as a vasodilator?",
       "options": [
-        "A) Nitroglycerin",
-        "B) Glucose",
-        "C) Methane",
-        "D) Sodium chloride"
+        "Nitroglycerin",
+        "Glucose",
+        "Methane",
+        "Sodium chloride"
       ]
     },
     {
       "question": "•  What is the role of aromatic heterofunctional compounds in neurotransmission?",
       "options": [
-        "A) They regulate the synthesis and release of neurotransmitters",
-        "B) They block neurotransmitter production",
-        "C) They inhibit neural activity",
-        "D) They degrade synaptic connections"
+        "They regulate the synthesis and release of neurotransmitters",
+        "They block neurotransmitter production",
+        "They inhibit neural activity",
+        "They degrade synaptic connections"
       ]
     },
     {
       "question": "•  Which aromatic heterofunctional compound is used as an antipyretic?",
       "options": [
-        "A) Paracetamol",
-        "B) Methanol",
-        "C) Sodium bicarbonate",
-        "D) Benzene"
+        "Paracetamol",
+        "Methanol",
+        "Sodium bicarbonate",
+        "Benzene"
       ]
     },
     {
       "question": "•  How do aromatic heterofunctional compounds act in cardiovascular drugs?",
       "options": [
-        "A) By regulating blood pressure and heart rate",
-        "B) By causing arrhythmias",
-        "C) By promoting atherosclerosis",
-        "D) By inhibiting oxygen transport"
+        "By regulating blood pressure and heart rate",
+        "By causing arrhythmias",
+        "By promoting atherosclerosis",
+        "By inhibiting oxygen transport"
       ]
     },
     {
       "question": "•  Which aromatic heterofunctional compound is used in the synthesis of antidepressants?",
       "options": [
-        "A) Serotonin analogs",
-        "B) Glucose",
-        "C) Methane",
-        "D) Sodium chloride"
+        "Serotonin analogs",
+        "Glucose",
+        "Methane",
+        "Sodium chloride"
       ]
     },
     {
       "question": "•  What is a common characteristic of aromatic heterofunctional compounds used in chemotherapy?",
       "options": [
-        "A) They target rapidly dividing cells",
-        "B) They promote healthy cell division",
-        "C) They cause random mutations",
-        "D) They are entirely non-toxic"
+        "They target rapidly dividing cells",
+        "They promote healthy cell division",
+        "They cause random mutations",
+        "They are entirely non-toxic"
       ]
     },
     {
       "question": "•  Which aromatic heterofunctional compound is a precursor for many essential drugs?",
       "options": [
-        "A) Benzyl chloride",
-        "B) Sodium bicarbonate",
-        "C) Methanol",
-        "D) Glucose"
+        "Benzyl chloride",
+        "Sodium bicarbonate",
+        "Methanol",
+        "Glucose"
       ]
     },
     {
       "question": "•  What is the significance of aromatic heterofunctional compounds in antiviral drugs?",
       "options": [
-        "A) They inhibit viral replication",
-        "B) They promote viral growth",
-        "C) They act as nutrient carriers",
-        "D) They destroy host cells directly"
+        "They inhibit viral replication",
+        "They promote viral growth",
+        "They act as nutrient carriers",
+        "They destroy host cells directly"
       ]
     }
   ],
@@ -4125,226 +4125,226 @@ export const s_1_9 = {
     {
       "question": "1.\tWhat are carbohydrates primarily used for in the human body?",
       "options": [
-        "A) Energy production",
-        "B) Building bones",
-        "C) Digesting fats",
-        "D) Synthesizing proteins"
+        "Energy production",
+        "Building bones",
+        "Digesting fats",
+        "Synthesizing proteins"
       ]
     },
     {
       "question": "2.\tWhich of the following is a monosaccharide?",
       "options": [
-        "A) Glucose",
-        "B) Sucrose",
-        "C) Lactose",
-        "D) Maltose"
+        "Glucose",
+        "Sucrose",
+        "Lactose",
+        "Maltose"
       ]
     },
     {
       "question": "3.\tWhat type of bond holds monosaccharides together in disaccharides?",
       "options": [
-        "A) Glycosidic bond",
-        "B) Peptide bond",
-        "C) Ionic bond",
-        "D) Hydrogen bond"
+        "Glycosidic bond",
+        "Peptide bond",
+        "Ionic bond",
+        "Hydrogen bond"
       ]
     },
     {
       "question": "4.\tWhat is the main function of glucose in medicine?",
       "options": [
-        "A) It provides immediate energy",
-        "B) It strengthens bones",
-        "C) It helps in protein synthesis",
-        "D) It reduces cholesterol levels"
+        "It provides immediate energy",
+        "It strengthens bones",
+        "It helps in protein synthesis",
+        "It reduces cholesterol levels"
       ]
     },
     {
       "question": "5.\tWhich monosaccharide is a building block of the disaccharide sucrose?",
       "options": [
-        "A) Glucose",
-        "B) Fructose",
-        "C) Galactose",
-        "D) Ribose"
+        "Glucose",
+        "Fructose",
+        "Galactose",
+        "Ribose"
       ]
     },
     {
       "question": "6.\tWhat is the role of carbohydrates in treating diabetes?",
       "options": [
-        "A) To regulate blood sugar levels",
-        "B) To increase insulin production",
-        "C) To promote weight gain",
-        "D) To stimulate nerve growth"
+        "To regulate blood sugar levels",
+        "To increase insulin production",
+        "To promote weight gain",
+        "To stimulate nerve growth"
       ]
     },
     {
       "question": "7.\tWhich carbohydrate is commonly used in intravenous solutions to provide energy?",
       "options": [
-        "A) Dextrose",
-        "B) Sucrose",
-        "C) Fructose",
-        "D) Lactose"
+        "Dextrose",
+        "Sucrose",
+        "Fructose",
+        "Lactose"
       ]
     },
     {
       "question": "8.\tWhich carbohydrate is found in the human bloodstream to transport energy?",
       "options": [
-        "A) Glucose",
-        "B) Galactose",
-        "C) Fructose",
-        "D) Maltose"
+        "Glucose",
+        "Galactose",
+        "Fructose",
+        "Maltose"
       ]
     },
     {
       "question": "9.\tWhich is a key characteristic of disaccharides in terms of digestion?",
       "options": [
-        "A) They must be broken down into monosaccharides",
-        "B) They are immediately absorbed by the body",
-        "C) They cannot be digested by the human body",
-        "D) They are stored in the liver"
+        "They must be broken down into monosaccharides",
+        "They are immediately absorbed by the body",
+        "They cannot be digested by the human body",
+        "They are stored in the liver"
       ]
     },
     {
       "question": "10.\tWhat is the main therapeutic use of glucose in the medical field?",
       "options": [
-        "A) It provides quick energy in emergencies",
-        "B) It acts as an antibiotic",
-        "C) It is used for blood clotting",
-        "D) It reduces inflammation"
+        "It provides quick energy in emergencies",
+        "It acts as an antibiotic",
+        "It is used for blood clotting",
+        "It reduces inflammation"
       ]
     },
     {
       "question": "11.\tHow is glucose metabolized in the body?",
       "options": [
-        "A) Through glycolysis and the citric acid cycle",
-        "B) By breaking down fats into ketones",
-        "C) By converting proteins into amino acids",
-        "D) By storing excess glucose in the form of fat"
+        "Through glycolysis and the citric acid cycle",
+        "By breaking down fats into ketones",
+        "By converting proteins into amino acids",
+        "By storing excess glucose in the form of fat"
       ]
     },
     {
       "question": "12.\tWhat is the common medical application of fructose?",
       "options": [
-        "A) It is used as a sweetener in low-calorie foods",
-        "B) It is used to treat high blood pressure",
-        "C) It is used to reduce cholesterol levels",
-        "D) It is used to improve memory"
+        "It is used as a sweetener in low-calorie foods",
+        "It is used to treat high blood pressure",
+        "It is used to reduce cholesterol levels",
+        "It is used to improve memory"
       ]
     },
     {
       "question": "13.\tWhich of the following is a disaccharide?",
       "options": [
-        "A) Lactose",
-        "B) Glucose",
-        "C) Galactose",
-        "D) Fructose"
+        "Lactose",
+        "Glucose",
+        "Galactose",
+        "Fructose"
       ]
     },
     {
       "question": "14.\tWhat type of carbohydrate is lactose composed of?",
       "options": [
-        "A) Glucose and galactose",
-        "B) Glucose and fructose",
-        "C) Sucrose and glucose",
-        "D) Fructose and galactose"
+        "Glucose and galactose",
+        "Glucose and fructose",
+        "Sucrose and glucose",
+        "Fructose and galactose"
       ]
     },
     {
       "question": "15.\tWhich monosaccharide is crucial for brain function?",
       "options": [
-        "A) Glucose",
-        "B) Fructose",
-        "C) Galactose",
-        "D) Ribose"
+        "Glucose",
+        "Fructose",
+        "Galactose",
+        "Ribose"
       ]
     },
     {
       "question": "16.\tWhat medical condition is associated with the inability to digest lactose?",
       "options": [
-        "A) Lactose intolerance",
-        "B) Diabetes",
-        "C) Hypertension",
-        "D) Osteoporosis"
+        "Lactose intolerance",
+        "Diabetes",
+        "Hypertension",
+        "Osteoporosis"
       ]
     },
     {
       "question": "17.\tHow is maltose typically used in medicine?",
       "options": [
-        "A) It is used in energy solutions",
-        "B) It is used as a laxative",
-        "C) It is used to treat infections",
-        "D) It is used as an antacid"
+        "It is used in energy solutions",
+        "It is used as a laxative",
+        "It is used to treat infections",
+        "It is used as an antacid"
       ]
     },
     {
       "question": "18.\tWhat is the major difference between a monosaccharide and a disaccharide?",
       "options": [
-        "A) The number of sugar units",
-        "B) The presence of vitamins",
-        "C) The type of chemical bonds",
-        "D) The solubility in water"
+        "The number of sugar units",
+        "The presence of vitamins",
+        "The type of chemical bonds",
+        "The solubility in water"
       ]
     },
     {
       "question": "19.\tWhich carbohydrate is often used in the treatment of dehydration in the medical field?",
       "options": [
-        "A) Glucose",
-        "B) Sucrose",
-        "C) Fructose",
-        "D) Galactose"
+        "Glucose",
+        "Sucrose",
+        "Fructose",
+        "Galactose"
       ]
     },
     {
       "question": "20.\tWhat is the primary function of polysaccharides like glycogen in the human body?",
       "options": [
-        "A) To store energy",
-        "B) To assist in digestion",
-        "C) To produce hormones",
-        "D) To form structural components"
+        "To store energy",
+        "To assist in digestion",
+        "To produce hormones",
+        "To form structural components"
       ]
     },
     {
       "question": "21.\tWhat is a known effect of excess fructose in the diet?",
       "options": [
-        "A) It can contribute to insulin resistance",
-        "B) It enhances bone density",
-        "C) It improves skin elasticity",
-        "D) It increases muscle mass"
+        "It can contribute to insulin resistance",
+        "It enhances bone density",
+        "It improves skin elasticity",
+        "It increases muscle mass"
       ]
     },
     {
       "question": "22.\tWhat role do carbohydrates play in wound healing?",
       "options": [
-        "A) They provide energy for tissue repair",
-        "B) They act as antioxidants",
-        "C) They help in blood clotting",
-        "D) They reduce inflammation"
+        "They provide energy for tissue repair",
+        "They act as antioxidants",
+        "They help in blood clotting",
+        "They reduce inflammation"
       ]
     },
     {
       "question": "23.\tWhat is the significance of sucrose in medical solutions?",
       "options": [
-        "A) It is used as a source of energy",
-        "B) It acts as an antiseptic",
-        "C) It is used to lower cholesterol",
-        "D) It is used to enhance immune response"
+        "It is used as a source of energy",
+        "It acts as an antiseptic",
+        "It is used to lower cholesterol",
+        "It is used to enhance immune response"
       ]
     },
     {
       "question": "24.\tHow does glucose affect the body's insulin levels?",
       "options": [
-        "A) It triggers insulin secretion to regulate blood sugar",
-        "B) It suppresses insulin secretion",
-        "C) It directly increases insulin resistance",
-        "D) It has no effect on insulin"
+        "It triggers insulin secretion to regulate blood sugar",
+        "It suppresses insulin secretion",
+        "It directly increases insulin resistance",
+        "It has no effect on insulin"
       ]
     },
     {
       "question": "25.\tWhich carbohydrate is often included in sports drinks to provide rapid energy?",
       "options": [
-        "A) Glucose",
-        "B) Fructose",
-        "C) Galactose",
-        "D) Sucrose"
+        "Glucose",
+        "Fructose",
+        "Galactose",
+        "Sucrose"
       ]
     }
   ],
@@ -4352,226 +4352,226 @@ export const s_1_9 = {
     {
       "question": "1.\tWhat is the main function of polysaccharides in the human body?",
       "options": [
-        "A) Energy storage and structural support",
-        "B) Hormone regulation",
-        "C) DNA synthesis",
-        "D) Muscle contraction"
+        "Energy storage and structural support",
+        "Hormone regulation",
+        "DNA synthesis",
+        "Muscle contraction"
       ]
     },
     {
       "question": "2.\tWhich of the following is a homo-polysaccharide?",
       "options": [
-        "A) Starch",
-        "B) Hyaluronic acid",
-        "C) Chitin",
-        "D) Heparin"
+        "Starch",
+        "Hyaluronic acid",
+        "Chitin",
+        "Heparin"
       ]
     },
     {
       "question": "3.\tWhat is the primary use of starch in medicine?",
       "options": [
-        "A) It serves as an energy source in intravenous solutions",
-        "B) It acts as an antibiotic",
-        "C) It reduces cholesterol levels",
-        "D) It is used for pain relief"
+        "It serves as an energy source in intravenous solutions",
+        "It acts as an antibiotic",
+        "It reduces cholesterol levels",
+        "It is used for pain relief"
       ]
     },
     {
       "question": "4.\tWhich polysaccharide is commonly found in plant cell walls and used for fiber supplements?",
       "options": [
-        "A) Cellulose",
-        "B) Glycogen",
-        "C) Chitin",
-        "D) Heparin"
+        "Cellulose",
+        "Glycogen",
+        "Chitin",
+        "Heparin"
       ]
     },
     {
       "question": "5.\tWhat is the primary biological function of glycogen?",
       "options": [
-        "A) Energy storage in animals",
-        "B) Blood clotting",
-        "C) Cell signaling",
-        "D) Nerve transmission"
+        "Energy storage in animals",
+        "Blood clotting",
+        "Cell signaling",
+        "Nerve transmission"
       ]
     },
     {
       "question": "6.\tWhich polysaccharide is often used as a blood thinner in medical treatments?",
       "options": [
-        "A) Heparin",
-        "B) Starch",
-        "C) Glycogen",
-        "D) Cellulose"
+        "Heparin",
+        "Starch",
+        "Glycogen",
+        "Cellulose"
       ]
     },
     {
       "question": "7.\tWhat is the role of polysaccharides like hyaluronic acid in the human body?",
       "options": [
-        "A) They provide lubrication and hydration to joints",
-        "B) They enhance digestion",
-        "C) They promote muscle growth",
-        "D) They aid in protein synthesis"
+        "They provide lubrication and hydration to joints",
+        "They enhance digestion",
+        "They promote muscle growth",
+        "They aid in protein synthesis"
       ]
     },
     {
       "question": "8.\tWhich heteropolysaccharide is used in wound healing and tissue repair?",
       "options": [
-        "A) Hyaluronic acid",
-        "B) Cellulose",
-        "C) Chitin",
-        "D) Starch"
+        "Hyaluronic acid",
+        "Cellulose",
+        "Chitin",
+        "Starch"
       ]
     },
     {
       "question": "9.\tWhat is a common medical application of chitosan, a derivative of chitin?",
       "options": [
-        "A) It is used in weight loss supplements",
-        "B) It is used to treat infections",
-        "C) It is used to increase muscle mass",
-        "D) It is used to treat anxiety"
+        "It is used in weight loss supplements",
+        "It is used to treat infections",
+        "It is used to increase muscle mass",
+        "It is used to treat anxiety"
       ]
     },
     {
       "question": "10.\tHow do polysaccharides like glycogen function in energy metabolism?",
       "options": [
-        "A) They are broken down into glucose for energy",
-        "B) They act as a form of stored protein",
-        "C) They provide direct energy to muscles",
-        "D) They promote fat storage"
+        "They are broken down into glucose for energy",
+        "They act as a form of stored protein",
+        "They provide direct energy to muscles",
+        "They promote fat storage"
       ]
     },
     {
       "question": "11.\tWhich polysaccharide is used in the pharmaceutical industry as a tablet binder?",
       "options": [
-        "A) Starch",
-        "B) Glycogen",
-        "C) Hyaluronic acid",
-        "D) Cellulose"
+        "Starch",
+        "Glycogen",
+        "Hyaluronic acid",
+        "Cellulose"
       ]
     },
     {
       "question": "12.\tWhat is a key property of cellulose that makes it suitable for use in medical dressings?",
       "options": [
-        "A) Its ability to absorb moisture",
-        "B) Its strong odor",
-        "C) Its ability to dissolve easily",
-        "D) Its high acidity"
+        "Its ability to absorb moisture",
+        "Its strong odor",
+        "Its ability to dissolve easily",
+        "Its high acidity"
       ]
     },
     {
       "question": "13.\tHow does heparin work as a blood thinner in medicine?",
       "options": [
-        "A) By inhibiting blood clotting factors",
-        "B) By increasing red blood cell production",
-        "C) By enhancing platelet function",
-        "D) By preventing red blood cell breakdown"
+        "By inhibiting blood clotting factors",
+        "By increasing red blood cell production",
+        "By enhancing platelet function",
+        "By preventing red blood cell breakdown"
       ]
     },
     {
       "question": "14.\tWhat is the role of polysaccharides in drug delivery systems?",
       "options": [
-        "A) They help in controlled release of drugs",
-        "B) They act as preservatives",
-        "C) They reduce side effects",
-        "D) They increase the solubility of drugs"
+        "They help in controlled release of drugs",
+        "They act as preservatives",
+        "They reduce side effects",
+        "They increase the solubility of drugs"
       ]
     },
     {
       "question": "15.\tWhich polysaccharide is commonly used in eye drops for its moisture-retaining properties?",
       "options": [
-        "A) Hyaluronic acid",
-        "B) Starch",
-        "C) Glycogen",
-        "D) Chitosan"
+        "Hyaluronic acid",
+        "Starch",
+        "Glycogen",
+        "Chitosan"
       ]
     },
     {
       "question": "16.\tWhat is the significance of pectin, a heteropolysaccharide, in medicine?",
       "options": [
-        "A) It is used in digestive health supplements",
-        "B) It is used to treat infections",
-        "C) It is used for pain relief",
-        "D) It is used for skin care"
+        "It is used in digestive health supplements",
+        "It is used to treat infections",
+        "It is used for pain relief",
+        "It is used for skin care"
       ]
     },
     {
       "question": "17.\tWhich of the following is a characteristic of polysaccharides in the context of their medical use?",
       "options": [
-        "A) They are biocompatible and biodegradable",
-        "B) They are toxic to cells",
-        "C) They are insoluble in water",
-        "D) They cause allergic reactions"
+        "They are biocompatible and biodegradable",
+        "They are toxic to cells",
+        "They are insoluble in water",
+        "They cause allergic reactions"
       ]
     },
     {
       "question": "18.\tWhat is a medical use of the polysaccharide dextran?",
       "options": [
-        "A) It is used in plasma volume expanders",
-        "B) It is used to treat high blood pressure",
-        "C) It is used as a muscle relaxant",
-        "D) It is used for cancer therapy"
+        "It is used in plasma volume expanders",
+        "It is used to treat high blood pressure",
+        "It is used as a muscle relaxant",
+        "It is used for cancer therapy"
       ]
     },
     {
       "question": "19.\tHow is cellulose used in the medical field?",
       "options": [
-        "A) As a wound dressing material",
-        "B) As an antibiotic",
-        "C) As an anti-inflammatory agent",
-        "D) As an anesthetic"
+        "As a wound dressing material",
+        "As an antibiotic",
+        "As an anti-inflammatory agent",
+        "As an anesthetic"
       ]
     },
     {
       "question": "20.\tWhat is the role of heparin in preventing blood clots?",
       "options": [
-        "A) It inactivates thrombin and prevents clot formation",
-        "B) It increases platelet aggregation",
-        "C) It promotes blood cell production",
-        "D) It thickens the blood"
+        "It inactivates thrombin and prevents clot formation",
+        "It increases platelet aggregation",
+        "It promotes blood cell production",
+        "It thickens the blood"
       ]
     },
     {
       "question": "21.\tWhich polysaccharide is commonly found in joint supplements for its lubricating properties?",
       "options": [
-        "A) Hyaluronic acid",
-        "B) Cellulose",
-        "C) Chitin",
-        "D) Starch"
+        "Hyaluronic acid",
+        "Cellulose",
+        "Chitin",
+        "Starch"
       ]
     },
     {
       "question": "22.\tWhat is the primary source of cellulose used in medical applications?",
       "options": [
-        "A) Plant fibers",
-        "B) Animal tissues",
-        "C) Microorganisms",
-        "D) Synthetic chemicals"
+        "Plant fibers",
+        "Animal tissues",
+        "Microorganisms",
+        "Synthetic chemicals"
       ]
     },
     {
       "question": "23.\tHow do polysaccharides like dextran affect blood volume?",
       "options": [
-        "A) They increase blood plasma volume",
-        "B) They decrease blood plasma volume",
-        "C) They have no effect on blood volume",
-        "D) They cause blood vessel constriction"
+        "They increase blood plasma volume",
+        "They decrease blood plasma volume",
+        "They have no effect on blood volume",
+        "They cause blood vessel constriction"
       ]
     },
     {
       "question": "24.\tWhich heteropolysaccharide has anti-inflammatory properties and is used in joint pain relief?",
       "options": [
-        "A) Hyaluronic acid",
-        "B) Starch",
-        "C) Cellulose",
-        "D) Chitosan"
+        "Hyaluronic acid",
+        "Starch",
+        "Cellulose",
+        "Chitosan"
       ]
     },
     {
       "question": "25.\tHow do polysaccharides contribute to the formation of drug capsules?",
       "options": [
-        "A) They act as stabilizers and binders",
-        "B) They serve as active ingredients",
-        "C) They enhance the flavor of the drug",
-        "D) They increase the solubility of the drug"
+        "They act as stabilizers and binders",
+        "They serve as active ingredients",
+        "They enhance the flavor of the drug",
+        "They increase the solubility of the drug"
       ]
     }
   ],
@@ -4579,226 +4579,226 @@ export const s_1_9 = {
     {
       "question": "1.\tWhat is the main function of nucleotides in the human body?",
       "options": [
-        "A) They are building blocks for DNA and RNA",
-        "B) They serve as an energy source",
-        "C) They regulate blood pressure",
-        "D) They aid in digestion"
+        "They are building blocks for DNA and RNA",
+        "They serve as an energy source",
+        "They regulate blood pressure",
+        "They aid in digestion"
       ]
     },
     {
       "question": "2.\tWhat is the structure of a nucleoside?",
       "options": [
-        "A) A nitrogenous base attached to a sugar molecule",
-        "B) A sugar molecule and a phosphate group",
-        "C) A nitrogenous base and a phosphate group",
-        "D) A sugar molecule attached to a fatty acid"
+        "A nitrogenous base attached to a sugar molecule",
+        "A sugar molecule and a phosphate group",
+        "A nitrogenous base and a phosphate group",
+        "A sugar molecule attached to a fatty acid"
       ]
     },
     {
       "question": "3.\tWhich of the following is a common medical use of nucleotides?",
       "options": [
-        "A) They are used in gene therapy",
-        "B) They are used in pain relief medications",
-        "C) They are used as muscle relaxants",
-        "D) They are used to treat infections"
+        "They are used in gene therapy",
+        "They are used in pain relief medications",
+        "They are used as muscle relaxants",
+        "They are used to treat infections"
       ]
     },
     {
       "question": "4.\tWhat is the role of ATP (adenosine triphosphate) in the body?",
       "options": [
-        "A) It provides energy for cellular processes",
-        "B) It serves as a hormone",
-        "C) It helps in digestion",
-        "D) It regulates blood sugar levels"
+        "It provides energy for cellular processes",
+        "It serves as a hormone",
+        "It helps in digestion",
+        "It regulates blood sugar levels"
       ]
     },
     {
       "question": "5.\tWhich of the following is a component of a nucleotide?",
       "options": [
-        "A) A nitrogenous base",
-        "B) A protein",
-        "C) A lipid molecule",
-        "D) A carbohydrate"
+        "A nitrogenous base",
+        "A protein",
+        "A lipid molecule",
+        "A carbohydrate"
       ]
     },
     {
       "question": "6.\tHow do nucleoside analogs function in antiviral treatments?",
       "options": [
-        "A) They inhibit viral replication",
-        "B) They increase viral production",
-        "C) They enhance immune response",
-        "D) They block viral binding to cells"
+        "They inhibit viral replication",
+        "They increase viral production",
+        "They enhance immune response",
+        "They block viral binding to cells"
       ]
     },
     {
       "question": "7.\tWhich nucleoside is commonly used in the treatment of herpesvirus infections?",
       "options": [
-        "A) Acyclovir",
-        "B) Ibuprofen",
-        "C) Paracetamol",
-        "D) Penicillin"
+        "Acyclovir",
+        "Ibuprofen",
+        "Paracetamol",
+        "Penicillin"
       ]
     },
     {
       "question": "8.\tWhat is the main function of cyclic AMP (cAMP) in cellular signaling?",
       "options": [
-        "A) It acts as a secondary messenger",
-        "B) It directly binds to DNA",
-        "C) It provides energy for cellular functions",
-        "D) It regulates cell division"
+        "It acts as a secondary messenger",
+        "It directly binds to DNA",
+        "It provides energy for cellular functions",
+        "It regulates cell division"
       ]
     },
     {
       "question": "9.\tWhich of the following is a coenzyme derived from a nucleotide?",
       "options": [
-        "A) NAD+ (Nicotinamide adenine dinucleotide)",
-        "B) ATP",
-        "C) Glucose",
-        "D) Vitamin C"
+        "NAD+ (Nicotinamide adenine dinucleotide)",
+        "ATP",
+        "Glucose",
+        "Vitamin C"
       ]
     },
     {
       "question": "10.\tWhat is the role of cAMP in the regulation of heart rate?",
       "options": [
-        "A) It activates protein kinase A to influence heart muscle contraction",
-        "B) It directly affects sodium channels in the heart",
-        "C) It increases blood pressure",
-        "D) It regulates insulin secretion"
+        "It activates protein kinase A to influence heart muscle contraction",
+        "It directly affects sodium channels in the heart",
+        "It increases blood pressure",
+        "It regulates insulin secretion"
       ]
     },
     {
       "question": "11.\tWhat is the difference between a nucleoside and a nucleotide?",
       "options": [
-        "A) A nucleotide contains a phosphate group, while a nucleoside does not",
-        "B) A nucleoside contains a phosphate group, while a nucleotide does not",
-        "C) Nucleotides are larger than nucleosides",
-        "D) There is no difference"
+        "A nucleotide contains a phosphate group, while a nucleoside does not",
+        "A nucleoside contains a phosphate group, while a nucleotide does not",
+        "Nucleotides are larger than nucleosides",
+        "There is no difference"
       ]
     },
     {
       "question": "12.\tWhich of the following is a key enzyme involved in nucleotide metabolism?",
       "options": [
-        "A) Kinase",
-        "B) Amylase",
-        "C) Lipase",
-        "D) Peptidase"
+        "Kinase",
+        "Amylase",
+        "Lipase",
+        "Peptidase"
       ]
     },
     {
       "question": "13.\tHow do nucleotides contribute to the synthesis of proteins?",
       "options": [
-        "A) They are components of RNA, which is involved in protein synthesis",
-        "B) They directly form protein chains",
-        "C) They store genetic information in protein form",
-        "D) They act as enzymes in protein formation"
+        "They are components of RNA, which is involved in protein synthesis",
+        "They directly form protein chains",
+        "They store genetic information in protein form",
+        "They act as enzymes in protein formation"
       ]
     },
     {
       "question": "14.\tWhat is the role of adenosine monophosphate (AMP) in cellular energy regulation?",
       "options": [
-        "A) It helps regulate energy production",
-        "B) It promotes protein synthesis",
-        "C) It stores genetic information",
-        "D) It aids in cellular division"
+        "It helps regulate energy production",
+        "It promotes protein synthesis",
+        "It stores genetic information",
+        "It aids in cellular division"
       ]
     },
     {
       "question": "15.\tHow do nucleoside analogs treat cancer?",
       "options": [
-        "A) They interfere with DNA replication and inhibit cancer cell division",
-        "B) They strengthen the immune system",
-        "C) They block blood vessel growth in tumors",
-        "D) They promote cell growth and repair"
+        "They interfere with DNA replication and inhibit cancer cell division",
+        "They strengthen the immune system",
+        "They block blood vessel growth in tumors",
+        "They promote cell growth and repair"
       ]
     },
     {
       "question": "16.\tWhat is the role of NAD+ in cellular metabolism?",
       "options": [
-        "A) It acts as an electron carrier in redox reactions",
-        "B) It provides energy for muscle contraction",
-        "C) It regulates insulin secretion",
-        "D) It strengthens bones"
+        "It acts as an electron carrier in redox reactions",
+        "It provides energy for muscle contraction",
+        "It regulates insulin secretion",
+        "It strengthens bones"
       ]
     },
     {
       "question": "17.\tWhich of the following is a nucleotide-based coenzyme involved in energy metabolism?",
       "options": [
-        "A) Coenzyme A",
-        "B) Glucose",
-        "C) Vitamin D",
-        "D) Iron"
+        "Coenzyme A",
+        "Glucose",
+        "Vitamin D",
+        "Iron"
       ]
     },
     {
       "question": "18.\tWhat is the function of the nucleotide GTP (Guanosine triphosphate) in the body?",
       "options": [
-        "A) It acts as an energy source and is involved in protein synthesis",
-        "B) It aids in blood clotting",
-        "C) It promotes fat storage",
-        "D) It regulates blood pressure"
+        "It acts as an energy source and is involved in protein synthesis",
+        "It aids in blood clotting",
+        "It promotes fat storage",
+        "It regulates blood pressure"
       ]
     },
     {
       "question": "19.\tWhich nucleoside is used in the treatment of HIV infections?",
       "options": [
-        "A) Zidovudine",
-        "B) Paracetamol",
-        "C) Amoxicillin",
-        "D) Ibuprofen"
+        "Zidovudine",
+        "Paracetamol",
+        "Amoxicillin",
+        "Ibuprofen"
       ]
     },
     {
       "question": "20.\tWhat is the role of nucleotides in DNA synthesis?",
       "options": [
-        "A) They are the building blocks of DNA",
-        "B) They provide energy for the process",
-        "C) They regulate the expression of genes",
-        "D) They catalyze DNA replication"
+        "They are the building blocks of DNA",
+        "They provide energy for the process",
+        "They regulate the expression of genes",
+        "They catalyze DNA replication"
       ]
     },
     {
       "question": "21.\tWhich of the following nucleosides is essential for the synthesis of RNA?",
       "options": [
-        "A) Uridine",
-        "B) Glucose",
-        "C) Glycine",
-        "D) Threonine"
+        "Uridine",
+        "Glucose",
+        "Glycine",
+        "Threonine"
       ]
     },
     {
       "question": "22.\tWhat is the main use of nucleotide analogs in cancer treatment?",
       "options": [
-        "A) To inhibit DNA replication in rapidly dividing cancer cells",
-        "B) To enhance the immune response",
-        "C) To promote the growth of cancer cells",
-        "D) To decrease the side effects of chemotherapy"
+        "To inhibit DNA replication in rapidly dividing cancer cells",
+        "To enhance the immune response",
+        "To promote the growth of cancer cells",
+        "To decrease the side effects of chemotherapy"
       ]
     },
     {
       "question": "23.\tWhat is the significance of ATP in cellular function?",
       "options": [
-        "A) It acts as the primary energy carrier in cells",
-        "B) It serves as a structural component of the cell membrane",
-        "C) It stores genetic information",
-        "D) It regulates water balance in cells"
+        "It acts as the primary energy carrier in cells",
+        "It serves as a structural component of the cell membrane",
+        "It stores genetic information",
+        "It regulates water balance in cells"
       ]
     },
     {
       "question": "24.\tWhich of the following is a nucleotide that plays a role in energy transfer within cells?",
       "options": [
-        "A) ATP (Adenosine triphosphate)",
-        "B) Glucose",
-        "C) Protein",
-        "D) Cholesterol"
+        "ATP (Adenosine triphosphate)",
+        "Glucose",
+        "Protein",
+        "Cholesterol"
       ]
     },
     {
       "question": "25.\tHow do cyclic nucleotides, such as cAMP, influence cellular processes?",
       "options": [
-        "A) They activate signaling pathways that regulate various cellular functions",
-        "B) They directly affect the structure of DNA",
-        "C) They produce energy for the cell",
-        "D) They promote cell division"
+        "They activate signaling pathways that regulate various cellular functions",
+        "They directly affect the structure of DNA",
+        "They produce energy for the cell",
+        "They promote cell division"
       ]
     }
   ],
@@ -4806,226 +4806,226 @@ export const s_1_9 = {
     {
       "question": "1.\tWhat is the primary function of nucleic acids in the body?",
       "options": [
-        "A) To store and transmit genetic information",
-        "B) To provide energy for cellular processes",
-        "C) To regulate cell division",
-        "D) To build muscle tissue"
+        "To store and transmit genetic information",
+        "To provide energy for cellular processes",
+        "To regulate cell division",
+        "To build muscle tissue"
       ]
     },
     {
       "question": "2.\tWhat is the basic building block of DNA and RNA?",
       "options": [
-        "A) Nucleotides",
-        "B) Amino acids",
-        "C) Fatty acids",
-        "D) Monosaccharides"
+        "Nucleotides",
+        "Amino acids",
+        "Fatty acids",
+        "Monosaccharides"
       ]
     },
     {
       "question": "3.\tWhat does the structure of DNA look like?",
       "options": [
-        "A) A double helix",
-        "B) A single strand",
-        "C) A triple helix",
-        "D) A circular structure"
+        "A double helix",
+        "A single strand",
+        "A triple helix",
+        "A circular structure"
       ]
     },
     {
       "question": "4.\tWhat is the complementary base pair for adenine (A) in DNA?",
       "options": [
-        "A) Thymine (T)",
-        "B) Cytosine (C)",
-        "C) Guanine (G)",
-        "D) Uracil (U)"
+        "Thymine (T)",
+        "Cytosine (C)",
+        "Guanine (G)",
+        "Uracil (U)"
       ]
     },
     {
       "question": "5.\tWhat is the main function of RNA in the body?",
       "options": [
-        "A) To carry genetic information for protein synthesis",
-        "B) To store genetic information",
-        "C) To provide energy for the cell",
-        "D) To regulate metabolism"
+        "To carry genetic information for protein synthesis",
+        "To store genetic information",
+        "To provide energy for the cell",
+        "To regulate metabolism"
       ]
     },
     {
       "question": "6.\tWhat is the significance of the double helix structure of DNA?",
       "options": [
-        "A) It allows for the efficient storage and replication of genetic information",
-        "B) It helps in protein synthesis",
-        "C) It aids in energy production",
-        "D) It provides structural support to the cell"
+        "It allows for the efficient storage and replication of genetic information",
+        "It helps in protein synthesis",
+        "It aids in energy production",
+        "It provides structural support to the cell"
       ]
     },
     {
       "question": "7.\tWhat is the role of ribosomes in protein synthesis?",
       "options": [
-        "A) They synthesize proteins by translating mRNA",
-        "B) They store genetic information",
-        "C) They produce energy for the cell",
-        "D) They regulate the immune response"
+        "They synthesize proteins by translating mRNA",
+        "They store genetic information",
+        "They produce energy for the cell",
+        "They regulate the immune response"
       ]
     },
     {
       "question": "8.\tWhat type of bonds hold the two strands of the DNA double helix together?",
       "options": [
-        "A) Hydrogen bonds between complementary base pairs",
-        "B) Covalent bonds between sugars and phosphates",
-        "C) Ionic bonds between nitrogenous bases",
-        "D) Van der Waals forces"
+        "Hydrogen bonds between complementary base pairs",
+        "Covalent bonds between sugars and phosphates",
+        "Ionic bonds between nitrogenous bases",
+        "Van der Waals forces"
       ]
     },
     {
       "question": "9.\tWhat is the difference between DNA and RNA?",
       "options": [
-        "A) DNA is double-stranded, while RNA is single-stranded",
-        "B) DNA contains uracil, while RNA contains thymine",
-        "C) DNA is involved in protein synthesis, while RNA is not",
-        "D) DNA is found only in the nucleus, while RNA is found only in the cytoplasm"
+        "DNA is double-stranded, while RNA is single-stranded",
+        "DNA contains uracil, while RNA contains thymine",
+        "DNA is involved in protein synthesis, while RNA is not",
+        "DNA is found only in the nucleus, while RNA is found only in the cytoplasm"
       ]
     },
     {
       "question": "10.\tHow does DNA replication occur?",
       "options": [
-        "A) The two strands of DNA separate, and each serves as a template for a new strand",
-        "B) A single strand of DNA is copied into a single RNA molecule",
-        "C) DNA is broken down into nucleotides",
-        "D) Proteins are synthesized based on the DNA sequence"
+        "The two strands of DNA separate, and each serves as a template for a new strand",
+        "A single strand of DNA is copied into a single RNA molecule",
+        "DNA is broken down into nucleotides",
+        "Proteins are synthesized based on the DNA sequence"
       ]
     },
     {
       "question": "11.\tWhat is the function of mRNA (messenger RNA) in protein synthesis?",
       "options": [
-        "A) It carries genetic information from DNA to ribosomes for protein synthesis",
-        "B) It carries amino acids to the ribosome",
-        "C) It helps fold proteins into their functional shape",
-        "D) It provides energy for protein synthesis"
+        "It carries genetic information from DNA to ribosomes for protein synthesis",
+        "It carries amino acids to the ribosome",
+        "It helps fold proteins into their functional shape",
+        "It provides energy for protein synthesis"
       ]
     },
     {
       "question": "12.\tWhat is the role of tRNA (transfer RNA) in protein synthesis?",
       "options": [
-        "A) It brings amino acids to the ribosome for protein assembly",
-        "B) It carries the genetic code to the ribosome",
-        "C) It catalyzes protein synthesis",
-        "D) It helps in the replication of DNA"
+        "It brings amino acids to the ribosome for protein assembly",
+        "It carries the genetic code to the ribosome",
+        "It catalyzes protein synthesis",
+        "It helps in the replication of DNA"
       ]
     },
     {
       "question": "13.\tWhat is the secondary structure of nucleic acids?",
       "options": [
-        "A) The local folding into structures like alpha helices and beta sheets",
-        "B) The sequence of nucleotides",
-        "C) The interactions between different RNA molecules",
-        "D) The 3D structure of a protein encoded by the nucleic acid"
+        "The local folding into structures like alpha helices and beta sheets",
+        "The sequence of nucleotides",
+        "The interactions between different RNA molecules",
+        "The 3D structure of a protein encoded by the nucleic acid"
       ]
     },
     {
       "question": "14.\tWhat is the tertiary structure of DNA?",
       "options": [
-        "A) The supercoiling of the DNA molecule",
-        "B) The bonding between nucleotides",
-        "C) The linear sequence of base pairs",
-        "D) The formation of hydrogen bonds between the strands"
+        "The supercoiling of the DNA molecule",
+        "The bonding between nucleotides",
+        "The linear sequence of base pairs",
+        "The formation of hydrogen bonds between the strands"
       ]
     },
     {
       "question": "15.\tWhich type of RNA is involved in the formation of ribosomes?",
       "options": [
-        "A) rRNA (ribosomal RNA)",
-        "B) mRNA (messenger RNA)",
-        "C) tRNA (transfer RNA)",
-        "D) snRNA (small nuclear RNA)"
+        "rRNA (ribosomal RNA)",
+        "mRNA (messenger RNA)",
+        "tRNA (transfer RNA)",
+        "snRNA (small nuclear RNA)"
       ]
     },
     {
       "question": "16.\tWhat is the main function of DNA in cells?",
       "options": [
-        "A) To store and replicate genetic information",
-        "B) To synthesize proteins",
-        "C) To regulate cell division",
-        "D) To control energy production"
+        "To store and replicate genetic information",
+        "To synthesize proteins",
+        "To regulate cell division",
+        "To control energy production"
       ]
     },
     {
       "question": "17.\tWhich of the following is a characteristic of the tertiary structure of DNA?",
       "options": [
-        "A) DNA supercoiling to fit inside the cell nucleus",
-        "B) DNA replication",
-        "C) DNA transcription",
-        "D) DNA translation into protein"
+        "DNA supercoiling to fit inside the cell nucleus",
+        "DNA replication",
+        "DNA transcription",
+        "DNA translation into protein"
       ]
     },
     {
       "question": "18.\tWhat does the RNA sequence carry?",
       "options": [
-        "A) The instructions for protein synthesis",
-        "B) The genetic material for cell replication",
-        "C) The energy needed for cellular processes",
-        "D) The structural components for the cell membrane"
+        "The instructions for protein synthesis",
+        "The genetic material for cell replication",
+        "The energy needed for cellular processes",
+        "The structural components for the cell membrane"
       ]
     },
     {
       "question": "19.\tWhat is the function of the ribosome in relation to mRNA?",
       "options": [
-        "A) It reads the mRNA sequence and synthesizes proteins",
-        "B) It copies the mRNA to make DNA",
-        "C) It stores the mRNA sequence for future use",
-        "D) It breaks down the mRNA molecule"
+        "It reads the mRNA sequence and synthesizes proteins",
+        "It copies the mRNA to make DNA",
+        "It stores the mRNA sequence for future use",
+        "It breaks down the mRNA molecule"
       ]
     },
     {
       "question": "20.\tHow does complementary base pairing occur in DNA?",
       "options": [
-        "A) Adenine pairs with thymine, and cytosine pairs with guanine",
-        "B) Adenine pairs with uracil, and cytosine pairs with thymine",
-        "C) Guanine pairs with thymine, and cytosine pairs with adenine",
-        "D) Uracil pairs with adenine, and thymine pairs with guanine"
+        "Adenine pairs with thymine, and cytosine pairs with guanine",
+        "Adenine pairs with uracil, and cytosine pairs with thymine",
+        "Guanine pairs with thymine, and cytosine pairs with adenine",
+        "Uracil pairs with adenine, and thymine pairs with guanine"
       ]
     },
     {
       "question": "21.\tWhat is the structure of a ribosome?",
       "options": [
-        "A) It consists of two subunits made of rRNA and proteins",
-        "B) It is made of a single protein molecule",
-        "C) It is composed solely of mRNA",
-        "D) It contains DNA and amino acids"
+        "It consists of two subunits made of rRNA and proteins",
+        "It is made of a single protein molecule",
+        "It is composed solely of mRNA",
+        "It contains DNA and amino acids"
       ]
     },
     {
       "question": "22.\tWhat is the purpose of the DNA double helix structure in terms of its function?",
       "options": [
-        "A) It enables efficient and accurate DNA replication",
-        "B) It provides the shape for proteins to function",
-        "C) It stores energy for cellular activities",
-        "D) It maintains the stability of the cell membrane"
+        "It enables efficient and accurate DNA replication",
+        "It provides the shape for proteins to function",
+        "It stores energy for cellular activities",
+        "It maintains the stability of the cell membrane"
       ]
     },
     {
       "question": "23.\tWhich RNA type is responsible for bringing amino acids to the ribosome?",
       "options": [
-        "A) tRNA (transfer RNA)",
-        "B) mRNA (messenger RNA)",
-        "C) rRNA (ribosomal RNA)",
-        "D) siRNA (small interfering RNA)"
+        "tRNA (transfer RNA)",
+        "mRNA (messenger RNA)",
+        "rRNA (ribosomal RNA)",
+        "siRNA (small interfering RNA)"
       ]
     },
     {
       "question": "24.\tWhat is the significance of the base pairing between adenine and thymine in DNA?",
       "options": [
-        "A) It ensures proper DNA replication and stability",
-        "B) It helps with protein folding",
-        "C) It regulates cell cycle progression",
-        "D) It forms the bond between protein subunits"
+        "It ensures proper DNA replication and stability",
+        "It helps with protein folding",
+        "It regulates cell cycle progression",
+        "It forms the bond between protein subunits"
       ]
     },
     {
       "question": "25.\tWhat type of bond forms between the phosphate group and the sugar in nucleotides?",
       "options": [
-        "A) Phosphodiester bonds",
-        "B) Hydrogen bonds",
-        "C) Ionic bonds",
-        "D) Peptide bonds"
+        "Phosphodiester bonds",
+        "Hydrogen bonds",
+        "Ionic bonds",
+        "Peptide bonds"
       ]
     }
   ],
@@ -5033,226 +5033,226 @@ export const s_1_9 = {
     {
       "question": "1.\tWhat is the primary function of enzymes in the body?",
       "options": [
-        "A) To catalyze biochemical reactions",
-        "B) To store genetic information",
-        "C) To provide structural support",
-        "D) To regulate gene expression"
+        "To catalyze biochemical reactions",
+        "To store genetic information",
+        "To provide structural support",
+        "To regulate gene expression"
       ]
     },
     {
       "question": "2.\tWhat is an enzyme?",
       "options": [
-        "A) A protein that speeds up biochemical reactions",
-        "B) A lipid that stores energy",
-        "C) A carbohydrate that provides energy",
-        "D) A nucleic acid involved in protein synthesis"
+        "A protein that speeds up biochemical reactions",
+        "A lipid that stores energy",
+        "A carbohydrate that provides energy",
+        "A nucleic acid involved in protein synthesis"
       ]
     },
     {
       "question": "3.\tWhich of the following is an example of an enzyme classification based on its function?",
       "options": [
-        "A) Hydrolases",
-        "B) Carbohydrates",
-        "C) Lipids",
-        "D) Nucleic acids"
+        "Hydrolases",
+        "Carbohydrates",
+        "Lipids",
+        "Nucleic acids"
       ]
     },
     {
       "question": "4.\tWhat is the main role of enzymes in metabolism?",
       "options": [
-        "A) They speed up chemical reactions without being consumed",
-        "B) They store energy for the cell",
-        "C) They regulate the cell cycle",
-        "D) They encode genetic information"
+        "They speed up chemical reactions without being consumed",
+        "They store energy for the cell",
+        "They regulate the cell cycle",
+        "They encode genetic information"
       ]
     },
     {
       "question": "5.\tWhich of the following enzyme types catalyze oxidation-reduction reactions?",
       "options": [
-        "A) Oxidoreductases",
-        "B) Transferases",
-        "C) Hydrolases",
-        "D) Ligases"
+        "Oxidoreductases",
+        "Transferases",
+        "Hydrolases",
+        "Ligases"
       ]
     },
     {
       "question": "6.\tWhat is the role of enzymes in enzymodiagnostics?",
       "options": [
-        "A) They are used to detect specific biomarkers in diseases",
-        "B) They provide structural support to cells",
-        "C) They regulate gene expression in the body",
-        "D) They break down harmful substances in the blood"
+        "They are used to detect specific biomarkers in diseases",
+        "They provide structural support to cells",
+        "They regulate gene expression in the body",
+        "They break down harmful substances in the blood"
       ]
     },
     {
       "question": "7.\tHow do enzymes lower the activation energy of a reaction?",
       "options": [
-        "A) By stabilizing the transition state of the reaction",
-        "B) By increasing the temperature of the reaction",
-        "C) By providing energy to the system",
-        "D) By changing the concentration of reactants"
+        "By stabilizing the transition state of the reaction",
+        "By increasing the temperature of the reaction",
+        "By providing energy to the system",
+        "By changing the concentration of reactants"
       ]
     },
     {
       "question": "8.\tWhat is enzymopathology?",
       "options": [
-        "A) The study of diseases caused by enzyme dysfunction",
-        "B) The classification of enzymes based on their structure",
-        "C) The process of synthesizing enzymes in the lab",
-        "D) The diagnostic use of enzymes to detect diseases"
+        "The study of diseases caused by enzyme dysfunction",
+        "The classification of enzymes based on their structure",
+        "The process of synthesizing enzymes in the lab",
+        "The diagnostic use of enzymes to detect diseases"
       ]
     },
     {
       "question": "9.\tWhich of the following enzymes is involved in protein digestion?",
       "options": [
-        "A) Pepsin",
-        "B) Amylase",
-        "C) Lactase",
-        "D) Lipase"
+        "Pepsin",
+        "Amylase",
+        "Lactase",
+        "Lipase"
       ]
     },
     {
       "question": "10.\tWhich factor affects the activity of enzymes?",
       "options": [
-        "A) Temperature",
-        "B) The molecular weight of the substrate",
-        "C) The concentration of the enzyme product",
-        "D) The color of the enzyme"
+        "Temperature",
+        "The molecular weight of the substrate",
+        "The concentration of the enzyme product",
+        "The color of the enzyme"
       ]
     },
     {
       "question": "11.\tWhat is the significance of enzyme inhibition in medicine?",
       "options": [
-        "A) It can be used to treat diseases by blocking harmful enzyme activity",
-        "B) It speeds up the metabolic processes in the body",
-        "C) It increases the efficiency of protein synthesis",
-        "D) It helps in the formation of new cells"
+        "It can be used to treat diseases by blocking harmful enzyme activity",
+        "It speeds up the metabolic processes in the body",
+        "It increases the efficiency of protein synthesis",
+        "It helps in the formation of new cells"
       ]
     },
     {
       "question": "12.\tWhat type of enzymes are involved in transferring functional groups?",
       "options": [
-        "A) Transferases",
-        "B) Hydrolases",
-        "C) Isomerases",
-        "D) Ligases"
+        "Transferases",
+        "Hydrolases",
+        "Isomerases",
+        "Ligases"
       ]
     },
     {
       "question": "13.\tHow does enzyme therapy work?",
       "options": [
-        "A) By supplementing the body with specific enzymes to replace deficiencies",
-        "B) By inhibiting enzymes that cause diseases",
-        "C) By promoting the production of excess enzymes",
-        "D) By blocking enzymes to enhance drug effectiveness"
+        "By supplementing the body with specific enzymes to replace deficiencies",
+        "By inhibiting enzymes that cause diseases",
+        "By promoting the production of excess enzymes",
+        "By blocking enzymes to enhance drug effectiveness"
       ]
     },
     {
       "question": "14.\tWhat is the effect of high temperature on enzyme activity?",
       "options": [
-        "A) It can denature the enzyme and reduce its activity",
-        "B) It increases the reaction rate",
-        "C) It stabilizes the enzyme structure",
-        "D) It speeds up enzyme production"
+        "It can denature the enzyme and reduce its activity",
+        "It increases the reaction rate",
+        "It stabilizes the enzyme structure",
+        "It speeds up enzyme production"
       ]
     },
     {
       "question": "15.\tWhat is the role of coenzymes in enzyme activity?",
       "options": [
-        "A) They help enzymes catalyze reactions by transferring functional groups",
-        "B) They inhibit enzyme activity",
-        "C) They store energy for enzyme reactions",
-        "D) They act as substrates for enzymes"
+        "They help enzymes catalyze reactions by transferring functional groups",
+        "They inhibit enzyme activity",
+        "They store energy for enzyme reactions",
+        "They act as substrates for enzymes"
       ]
     },
     {
       "question": "16.\tWhich of the following is a diagnostic enzyme used to detect liver damage?",
       "options": [
-        "A) Alanine aminotransferase (ALT)",
-        "B) Amylase",
-        "C) Lipase",
-        "D) Trypsin"
+        "Alanine aminotransferase (ALT)",
+        "Amylase",
+        "Lipase",
+        "Trypsin"
       ]
     },
     {
       "question": "17.\tWhat is the mechanism of enzyme action?",
       "options": [
-        "A) Enzymes bind to substrates, forming an enzyme-substrate complex to catalyze reactions",
-        "B) Enzymes break down substrates into simpler molecules",
-        "C) Enzymes increase the energy of substrates",
-        "D) Enzymes release energy during the reaction"
+        "Enzymes bind to substrates, forming an enzyme-substrate complex to catalyze reactions",
+        "Enzymes break down substrates into simpler molecules",
+        "Enzymes increase the energy of substrates",
+        "Enzymes release energy during the reaction"
       ]
     },
     {
       "question": "18.\tWhich of the following conditions can be caused by enzyme deficiencies?",
       "options": [
-        "A) Phenylketonuria",
-        "B) Hypertension",
-        "C) Asthma",
-        "D) Diabetes"
+        "Phenylketonuria",
+        "Hypertension",
+        "Asthma",
+        "Diabetes"
       ]
     },
     {
       "question": "19.\tWhat is the role of hydrolases in the body?",
       "options": [
-        "A) They catalyze the breakdown of bonds by adding water molecules",
-        "B) They transfer phosphate groups between molecules",
-        "C) They form covalent bonds between substrates",
-        "D) They catalyze oxidation reactions"
+        "They catalyze the breakdown of bonds by adding water molecules",
+        "They transfer phosphate groups between molecules",
+        "They form covalent bonds between substrates",
+        "They catalyze oxidation reactions"
       ]
     },
     {
       "question": "20.\tWhich of the following diseases is related to a deficiency in the enzyme lactase?",
       "options": [
-        "A) Lactose intolerance",
-        "B) Diabetes",
-        "C) Gout",
-        "D) Sickle cell anemia"
+        "Lactose intolerance",
+        "Diabetes",
+        "Gout",
+        "Sickle cell anemia"
       ]
     },
     {
       "question": "21.\tWhat is the function of isomerases?",
       "options": [
-        "A) They catalyze the conversion of one isomer into another",
-        "B) They transfer functional groups between molecules",
-        "C) They break down complex molecules into simpler ones",
-        "D) They add functional groups to substrates"
+        "They catalyze the conversion of one isomer into another",
+        "They transfer functional groups between molecules",
+        "They break down complex molecules into simpler ones",
+        "They add functional groups to substrates"
       ]
     },
     {
       "question": "22.\tHow can enzyme activity be measured in a laboratory?",
       "options": [
-        "A) By measuring the rate of substrate conversion to product",
-        "B) By measuring the temperature of the reaction",
-        "C) By analyzing the color of the enzyme",
-        "D) By counting the number of enzyme molecules"
+        "By measuring the rate of substrate conversion to product",
+        "By measuring the temperature of the reaction",
+        "By analyzing the color of the enzyme",
+        "By counting the number of enzyme molecules"
       ]
     },
     {
       "question": "23.\tWhich of the following is a therapeutic use of enzyme inhibitors?",
       "options": [
-        "A) To treat infections by inhibiting bacterial enzymes",
-        "B) To increase the production of metabolic enzymes",
-        "C) To promote the synthesis of proteins",
-        "D) To enhance enzyme activity in the body"
+        "To treat infections by inhibiting bacterial enzymes",
+        "To increase the production of metabolic enzymes",
+        "To promote the synthesis of proteins",
+        "To enhance enzyme activity in the body"
       ]
     },
     {
       "question": "24.\tWhat is the purpose of enzyme replacement therapy (ERT)?",
       "options": [
-        "A) To replace missing or deficient enzymes in the body",
-        "B) To increase the production of enzymes",
-        "C) To block harmful enzyme activity",
-        "D) To enhance enzyme secretion"
+        "To replace missing or deficient enzymes in the body",
+        "To increase the production of enzymes",
+        "To block harmful enzyme activity",
+        "To enhance enzyme secretion"
       ]
     },
     {
       "question": "25.\tWhat is the primary structure of an enzyme?",
       "options": [
-        "A) The sequence of amino acids that form the enzyme",
-        "B) The three-dimensional shape of the enzyme",
-        "C) The number of substrate molecules it can bind",
-        "D) The energy it provides to a reaction"
+        "The sequence of amino acids that form the enzyme",
+        "The three-dimensional shape of the enzyme",
+        "The number of substrate molecules it can bind",
+        "The energy it provides to a reaction"
       ]
     }
   ],
@@ -5260,226 +5260,226 @@ export const s_1_9 = {
     {
       "question": "1.\tWhat is the main function of vitamins in the body?",
       "options": [
-        "A) To regulate biochemical processes and support metabolism",
-        "B) To provide energy",
-        "C) To store genetic information",
-        "D) To catalyze chemical reactions"
+        "To regulate biochemical processes and support metabolism",
+        "To provide energy",
+        "To store genetic information",
+        "To catalyze chemical reactions"
       ]
     },
     {
       "question": "2.\tWhich of the following is a fat-soluble vitamin?",
       "options": [
-        "A) Vitamin A",
-        "B) Vitamin C",
-        "C) Vitamin B12",
-        "D) Vitamin B6"
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin B12",
+        "Vitamin B6"
       ]
     },
     {
       "question": "3.\tWhat is the main role of vitamin A in the body?",
       "options": [
-        "A) It supports vision and immune function",
-        "B) It helps in protein digestion",
-        "C) It regulates blood sugar levels",
-        "D) It aids in the absorption of calcium"
+        "It supports vision and immune function",
+        "It helps in protein digestion",
+        "It regulates blood sugar levels",
+        "It aids in the absorption of calcium"
       ]
     },
     {
       "question": "4.\tWhich vitamin is essential for the synthesis of collagen in the body?",
       "options": [
-        "A) Vitamin C",
-        "B) Vitamin D",
-        "C) Vitamin A",
-        "D) Vitamin K"
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin A",
+        "Vitamin K"
       ]
     },
     {
       "question": "5.\tWhat is a deficiency of vitamin D commonly associated with?",
       "options": [
-        "A) Rickets",
-        "B) Night blindness",
-        "C) Pellagra",
-        "D) Scurvy"
+        "Rickets",
+        "Night blindness",
+        "Pellagra",
+        "Scurvy"
       ]
     },
     {
       "question": "6.\tWhat is the function of vitamin E in the body?",
       "options": [
-        "A) It acts as an antioxidant and protects cells from damage",
-        "B) It helps in blood clotting",
-        "C) It is involved in the synthesis of hemoglobin",
-        "D) It regulates the metabolism of fats"
+        "It acts as an antioxidant and protects cells from damage",
+        "It helps in blood clotting",
+        "It is involved in the synthesis of hemoglobin",
+        "It regulates the metabolism of fats"
       ]
     },
     {
       "question": "7.\tWhich vitamin is necessary for the synthesis of coenzyme A, which is involved in the Krebs cycle?",
       "options": [
-        "A) Vitamin B5 (Pantothenic acid)",
-        "B) Vitamin B2 (Riboflavin)",
-        "C) Vitamin B1 (Thiamine)",
-        "D) Vitamin B3 (Niacin)"
+        "Vitamin B5 (Pantothenic acid)",
+        "Vitamin B2 (Riboflavin)",
+        "Vitamin B1 (Thiamine)",
+        "Vitamin B3 (Niacin)"
       ]
     },
     {
       "question": "8.\tWhat is the function of vitamin K in the body?",
       "options": [
-        "A) It plays a crucial role in blood clotting",
-        "B) It supports immune function",
-        "C) It helps with calcium absorption",
-        "D) It regulates blood pressure"
+        "It plays a crucial role in blood clotting",
+        "It supports immune function",
+        "It helps with calcium absorption",
+        "It regulates blood pressure"
       ]
     },
     {
       "question": "9.\tWhich of the following vitamins is water-soluble?",
       "options": [
-        "A) Vitamin C",
-        "B) Vitamin A",
-        "C) Vitamin D",
-        "D) Vitamin E"
+        "Vitamin C",
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin E"
       ]
     },
     {
       "question": "10.\tHow does vitamin B12 function in the body?",
       "options": [
-        "A) It helps in the formation of red blood cells and the maintenance of the nervous system",
-        "B) It supports bone health",
-        "C) It helps in the digestion of fats",
-        "D) It regulates the immune response"
+        "It helps in the formation of red blood cells and the maintenance of the nervous system",
+        "It supports bone health",
+        "It helps in the digestion of fats",
+        "It regulates the immune response"
       ]
     },
     {
       "question": "11.\tWhat can cause vitamin C deficiency?",
       "options": [
-        "A) Scurvy",
-        "B) Rickets",
-        "C) Beriberi",
-        "D) Pellagra"
+        "Scurvy",
+        "Rickets",
+        "Beriberi",
+        "Pellagra"
       ]
     },
     {
       "question": "12.\tWhat is the primary role of folic acid (vitamin B9) in the body?",
       "options": [
-        "A) It is involved in DNA synthesis and red blood cell formation",
-        "B) It helps with bone formation",
-        "C) It is essential for nerve function",
-        "D) It supports the immune system"
+        "It is involved in DNA synthesis and red blood cell formation",
+        "It helps with bone formation",
+        "It is essential for nerve function",
+        "It supports the immune system"
       ]
     },
     {
       "question": "13.\tWhat is the major source of vitamin D for the body?",
       "options": [
-        "A) Sunlight exposure",
-        "B) Green leafy vegetables",
-        "C) Fruits",
-        "D) Animal fats"
+        "Sunlight exposure",
+        "Green leafy vegetables",
+        "Fruits",
+        "Animal fats"
       ]
     },
     {
       "question": "14.\tWhich vitamin is involved in the formation of collagen and is an antioxidant?",
       "options": [
-        "A) Vitamin C",
-        "B) Vitamin A",
-        "C) Vitamin E",
-        "D) Vitamin K"
+        "Vitamin C",
+        "Vitamin A",
+        "Vitamin E",
+        "Vitamin K"
       ]
     },
     {
       "question": "15.\tWhat is the effect of a deficiency in vitamin A?",
       "options": [
-        "A) Night blindness",
-        "B) Scurvy",
-        "C) Rickets",
-        "D) Beriberi"
+        "Night blindness",
+        "Scurvy",
+        "Rickets",
+        "Beriberi"
       ]
     },
     {
       "question": "16.\tWhat is the structure of vitamin A?",
       "options": [
-        "A) It is a retinoid compound",
-        "B) It is a polyunsaturated fatty acid",
-        "C) It is a water-soluble antioxidant",
-        "D) It is a steroid hormone"
+        "It is a retinoid compound",
+        "It is a polyunsaturated fatty acid",
+        "It is a water-soluble antioxidant",
+        "It is a steroid hormone"
       ]
     },
     {
       "question": "17.\tWhich of the following vitamins is essential for proper calcium metabolism?",
       "options": [
-        "A) Vitamin D",
-        "B) Vitamin A",
-        "C) Vitamin C",
-        "D) Vitamin B12"
+        "Vitamin D",
+        "Vitamin A",
+        "Vitamin C",
+        "Vitamin B12"
       ]
     },
     {
       "question": "18.\tHow is vitamin E involved in protecting the body?",
       "options": [
-        "A) It acts as a potent antioxidant that protects cells from oxidative damage",
-        "B) It helps in blood clotting",
-        "C) It aids in the production of red blood cells",
-        "D) It regulates hormone production"
+        "It acts as a potent antioxidant that protects cells from oxidative damage",
+        "It helps in blood clotting",
+        "It aids in the production of red blood cells",
+        "It regulates hormone production"
       ]
     },
     {
       "question": "19.\tWhat condition is associated with a deficiency of vitamin K?",
       "options": [
-        "A) Hemorrhaging or excessive bleeding",
-        "B) Rickets",
-        "C) Night blindness",
-        "D) Osteoporosis"
+        "Hemorrhaging or excessive bleeding",
+        "Rickets",
+        "Night blindness",
+        "Osteoporosis"
       ]
     },
     {
       "question": "20.\tWhat is the primary function of vitamin B1 (thiamine)?",
       "options": [
-        "A) It is essential for carbohydrate metabolism",
-        "B) It aids in the synthesis of DNA",
-        "C) It supports bone health",
-        "D) It protects the liver from toxins"
+        "It is essential for carbohydrate metabolism",
+        "It aids in the synthesis of DNA",
+        "It supports bone health",
+        "It protects the liver from toxins"
       ]
     },
     {
       "question": "21.\tWhich vitamin deficiency is linked to the development of pellagra?",
       "options": [
-        "A) Vitamin B3 (Niacin)",
-        "B) Vitamin B6 (Pyridoxine)",
-        "C) Vitamin C",
-        "D) Vitamin A"
+        "Vitamin B3 (Niacin)",
+        "Vitamin B6 (Pyridoxine)",
+        "Vitamin C",
+        "Vitamin A"
       ]
     },
     {
       "question": "22.\tWhat is a common dietary source of vitamin B12?",
       "options": [
-        "A) Animal products like meat and dairy",
-        "B) Leafy green vegetables",
-        "C) Citrus fruits",
-        "D) Whole grains"
+        "Animal products like meat and dairy",
+        "Leafy green vegetables",
+        "Citrus fruits",
+        "Whole grains"
       ]
     },
     {
       "question": "23.\tHow does vitamin C contribute to the immune system?",
       "options": [
-        "A) It helps stimulate the production of white blood cells",
-        "B) It helps the body absorb iron",
-        "C) It promotes bone growth",
-        "D) It supports the synthesis of vitamin D"
+        "It helps stimulate the production of white blood cells",
+        "It helps the body absorb iron",
+        "It promotes bone growth",
+        "It supports the synthesis of vitamin D"
       ]
     },
     {
       "question": "24.\tWhich of the following vitamins is important for vision?",
       "options": [
-        "A) Vitamin A",
-        "B) Vitamin E",
-        "C) Vitamin D",
-        "D) Vitamin K"
+        "Vitamin A",
+        "Vitamin E",
+        "Vitamin D",
+        "Vitamin K"
       ]
     },
     {
       "question": "25.\tWhat is the consequence of vitamin D deficiency in children?",
       "options": [
-        "A) Rickets",
-        "B) Night blindness",
-        "C) Anemia",
-        "D) Bleeding disorders"
+        "Rickets",
+        "Night blindness",
+        "Anemia",
+        "Bleeding disorders"
       ]
     }
   ]
