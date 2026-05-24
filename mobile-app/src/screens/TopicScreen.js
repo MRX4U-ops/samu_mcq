@@ -58,12 +58,16 @@ const TopicScreen = ({ route, navigation }) => {
     return 0;
   };
   let localTopics = [];
-  if (localSubjectId === 's-1-10') {
-    // s-1-10 starts at t-s-1-10-0
+  if (localSubjectId === 's-1-8') {
+    // MEDICAL BIOLOGY WITH ELEMENTS OF ECOLOGY (combined)
+    localTopics = Array.from({ length: 24 }, (_, i) => ({ _id: `t-${localSubjectId}-${i}`, title: `Topic ${i + 1}`, localSubjectId }));
+  } else if (localSubjectId === 's-1-9') {
+    // Medical chemistry Module 1
     localTopics = Array.from({ length: 12 }, (_, i) => ({ _id: `t-${localSubjectId}-${i}`, title: `Topic ${i + 1}`, localSubjectId }));
-  } else if (localSubjectId === 's-1-11') {
-    // s-1-11 starts at t-s-1-11-12
+  } else if (localSubjectId === 's-1-10') {
+    // Medical chemistry Module 2
     localTopics = Array.from({ length: 12 }, (_, i) => ({ _id: `t-${localSubjectId}-${i + 12}`, title: `Topic ${i + 13}`, localSubjectId }));
+
   } else if (localSubjectId === 's-2-8') {
     // s-2-8 starts at t-s-2-8-1
     localTopics = Array.from({ length: 15 }, (_, i) => ({ _id: `t-${localSubjectId}-${i + 1}`, title: `Topic ${i + 1}`, localSubjectId }));

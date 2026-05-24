@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, FlatList, TouchableOpacity, ActivityIndicator, StatusBar } from 'react-native';
+import { View, Text, StyleSheet, FlatList, TouchableOpacity, ActivityIndicator, StatusBar, Alert } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { ArrowLeft, ChevronRight, BookOpen } from 'lucide-react-native';
+import { ArrowLeft, ChevronRight, BookOpen, Pin, Lock } from 'lucide-react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useTheme } from '../context/ThemeContext';
 import { API_URL } from '../config/Constants';
+import useAuthStore from '../store/authStore';
 
 const ACADEMIC_CURRICULUM = {
   "1": [
     "Entering to the profession", "Histology, cytology and embriology moodle 1", "Religious studies",
     "The latest history of Uzbekistan. Bioethics", "Human Anatomy -Moodul 2", "Human Anatomy -Moodul 1",
-    "Information technologies in medicine", "Medical and biological physics", "Medical biology with elements of ecology Module 1",
-    "Medical biology with elements of ecology Module 2", "Medical chemistry Module 1", "Medical chemistry Module 2",
+    "Information technologies in medicine", "Medical and biological physics", "MEDICAL BIOLOGY WITH ELEMENTS OF ECOLOGY",
+    "Medical chemistry Module 1", "Medical chemistry Module 2",
     "Medical English", "Medical latin terminology", "Microbiology, Virology, Parasitology and Immunology",
     "New medical technology and medical equipments", "Pharmacology", "Physiology module 1", "Physiology module 2",
     "Russian language for the students of medical institute", "Uzbek language"
@@ -63,6 +65,8 @@ const ACADEMIC_CURRICULUM = {
 const SubjectScreen = ({ route, navigation }) => {
   const { colors, isDarkMode } = useTheme();
   const { courseId, title } = route.params || { courseId: "1", title: '1st Course' };
+  const { subscription, profile } = useAuthStore();
+  const isSubscribed = !!subscription || profile?.role === 'admin';
 
   // Map UUID to local index if needed (e.g., if title is "1st Course", we want "1")
   const getInternalId = () => {
@@ -91,33 +95,121 @@ const SubjectScreen = ({ route, navigation }) => {
 
   const [subjects, setSubjects] = useState(localSubjects);
   const [loading, setLoading] = useState(false); // Never show loading for pre-loaded curriculum
+  const [pinnedSubjectIds, setPinnedSubjectIds] = useState([]);
+
+  useEffect(() => {
+    const loadPinnedSubjects = async () => {
+      try {
+        const key = `samu_mcq_pinned_subjects_${internalId}`;
+        const value = await AsyncStorage.getItem(key);
+        if (value) {
+          setPinnedSubjectIds(JSON.parse(value));
+        } else {
+          setPinnedSubjectIds([]);
+        }
+      } catch (e) {
+        console.log('Error loading pinned subjects:', e.message);
+      }
+    };
+    loadPinnedSubjects();
+  }, [internalId]);
+
+  const togglePin = async (subjectId) => {
+    try {
+      const key = `samu_mcq_pinned_subjects_${internalId}`;
+      let updated = [...pinnedSubjectIds];
+      if (updated.includes(subjectId)) {
+        updated = updated.filter(id => id !== subjectId);
+      } else {
+        if (updated.length >= 3) {
+          Alert.alert(
+            "Limit Reached",
+            "You can pin up to 3 subjects per course. Please unpin another subject first.",
+            [{ text: "OK" }]
+          );
+          return;
+        }
+        updated.push(subjectId);
+      }
+      setPinnedSubjectIds(updated);
+      await AsyncStorage.setItem(key, JSON.stringify(updated));
+    } catch (e) {
+      console.log('Error toggling pin:', e.message);
+    }
+  };
+
+  const displayedSubjects = [
+    ...subjects.filter(s => pinnedSubjectIds.includes(s._id)),
+    ...subjects.filter(s => !pinnedSubjectIds.includes(s._id))
+  ];
 
   // NOTE: We intentionally do NOT fetch subjects from the server.
   // The server returns UUID-based subject IDs that would break the topic/question
   // ID chain which depends on local keys like s-2-1, s-1-10, etc.
   // All subjects are served from the local ACADEMIC_CURRICULUM mapping.
 
-  const renderItem = ({ item, index }) => (
-    <TouchableOpacity 
-      style={styles.subjectCard}
-      onPress={() => navigation.navigate('Topic', { 
+  const handleSubjectPress = (item) => {
+    if (!isSubscribed) {
+      Alert.alert(
+        "Subscription Required",
+        "Please subscribe to unlock access to all courses and content.",
+        [
+          { text: "Cancel", style: "cancel" },
+          { text: "Subscribe Now", onPress: () => navigation.navigate('Subscription') }
+        ]
+      );
+    } else {
+      navigation.navigate('Topic', { 
         subjectId: item._id,      // local repo key (e.g. s-2-1)
         localSubjectId: item._id, // explicitly pass local key
         title: item.title, 
         courseTitle: title 
-      })}
-    >
-      <View style={styles.subjectInfo}>
-        <View style={styles.numberBadge}>
-          <Text style={styles.numberText}>{(index + 1).toString().padStart(2, '0')}</Text>
+      });
+    }
+  };
+
+  const renderItem = ({ item }) => {
+    const originalIndex = localSubjects.findIndex(s => s._id === item._id);
+    const isPinned = pinnedSubjectIds.includes(item._id);
+
+    return (
+      <View style={[styles.subjectCard, isPinned && styles.subjectCardPinned]}>
+        <TouchableOpacity 
+          style={styles.subjectCardMain}
+          onPress={() => handleSubjectPress(item)}
+        >
+          <View style={styles.subjectInfo}>
+            <View style={[styles.numberBadge, isPinned && styles.numberBadgePinned]}>
+              <Text style={[styles.numberText, isPinned && styles.numberTextPinned]}>
+                {(originalIndex + 1).toString().padStart(2, '0')}
+              </Text>
+            </View>
+            <Text style={styles.subjectTitle} numberOfLines={2}>{item.title}</Text>
+          </View>
+        </TouchableOpacity>
+        
+        <View style={styles.rightActions}>
+          <TouchableOpacity 
+            style={[styles.pinButton, isPinned && styles.pinButtonActive]} 
+            onPress={() => togglePin(item._id)}
+            hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
+          >
+            <Pin size={16} color={isPinned ? "#2563EB" : "#94A3B8"} fill={isPinned ? "#2563EB" : "none"} />
+          </TouchableOpacity>
+          <TouchableOpacity 
+            style={styles.arrowCircle}
+            onPress={() => handleSubjectPress(item)}
+          >
+            {isSubscribed ? (
+              <ChevronRight size={18} color="#2563EB" />
+            ) : (
+              <Lock size={16} color="#EF4444" />
+            )}
+          </TouchableOpacity>
         </View>
-        <Text style={styles.subjectTitle} numberOfLines={2}>{item.title}</Text>
       </View>
-      <View style={styles.arrowCircle}>
-        <ChevronRight size={18} color="#2563EB" />
-      </View>
-    </TouchableOpacity>
-  );
+    );
+  };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -141,7 +233,7 @@ const SubjectScreen = ({ route, navigation }) => {
         </View>
       ) : (
         <FlatList
-          data={subjects}
+          data={displayedSubjects}
           renderItem={renderItem}
           keyExtractor={item => item._id}
           contentContainerStyle={styles.listContent}
@@ -200,7 +292,6 @@ const styles = StyleSheet.create({
   emptySubtitle: { fontSize: 15, color: '#64748B', textAlign: 'center', marginTop: 10, lineHeight: 24, paddingHorizontal: 20 },
   subjectCard: { 
     backgroundColor: '#FFFFFF', 
-    padding: 22, 
     borderRadius: 30, 
     flexDirection: 'row', 
     alignItems: 'center', 
@@ -210,7 +301,46 @@ const styles = StyleSheet.create({
     shadowColor: '#64748B', 
     shadowOffset: { width: 0, height: 4 }, 
     shadowOpacity: 0.06, 
-    shadowRadius: 12 
+    shadowRadius: 12,
+    borderWidth: 1,
+    borderColor: 'transparent',
+    overflow: 'hidden'
+  },
+  subjectCardPinned: {
+    backgroundColor: '#EFF6FF',
+    borderColor: '#BFDBFE',
+    borderWidth: 1,
+  },
+  subjectCardMain: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 20,
+    paddingLeft: 20,
+    paddingRight: 10,
+  },
+  rightActions: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingRight: 20,
+    gap: 12,
+  },
+  pinButton: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F1F5F9',
+  },
+  pinButtonActive: {
+    backgroundColor: '#DBEAFE',
+  },
+  numberBadgePinned: {
+    backgroundColor: '#2563EB',
+  },
+  numberTextPinned: {
+    color: '#FFF',
   },
   subjectInfo: { flexDirection: 'row', alignItems: 'center', flex: 1, marginRight: 15 },
   numberBadge: { 
