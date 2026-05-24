@@ -1,4 +1,5 @@
 import { s_1_0 } from './course1/s-1-0.js';
+import { s_1_9 } from './course1/s-1-9.js';
 import { s_1_10 } from './course1/s-1-10.js';
 import { s_1_11 } from './course1/s-1-11.js';
 import { s_2_0 } from './course2/s-2-0.js';
@@ -51,6 +52,7 @@ const s_2_10_merged = Object.fromEntries(
 
 export const MCQ_REPOSITORY = {
   "s-1-0": s_1_0,
+  "s-1-9": s_1_9,
   "s-1-10": s_1_10,
   "s-1-11": s_1_11,
   "s-2-0": s_2_0_merged,
