@@ -15,6 +15,13 @@ function shuffle(arr) {
   return a;
 }
 
+const cleanOption = (opt) => {
+  if (typeof opt !== 'string') return opt;
+  let cleaned = opt.replace(/^[\*\s]+/, '');
+  cleaned = cleaned.replace(/^[a-zA-Z][\.\)\-]\s+/, '');
+  return cleaned;
+};
+
 export default function QuizPage() {
   const { state } = useLocation();
   const navigate = useNavigate();
@@ -76,9 +83,10 @@ export default function QuizPage() {
         // Shuffle and limit to 50
         const shuffledPool = shuffle(pool).slice(0, 50);
         const mapped = shuffledPool.map((q, idx) => {
-          const opts = q.options || [];
-          const correctValue = opts[q.correctIndex !== undefined ? q.correctIndex : 0];
-          const shuffledOpts = shuffle([...opts]);
+          const rawOpts = q.options || [];
+          const cleanedOpts = rawOpts.map(cleanOption);
+          const correctValue = cleanedOpts[q.correctIndex !== undefined ? q.correctIndex : 0];
+          const shuffledOpts = shuffle([...cleanedOpts]);
           return {
             _id: `master-${idx}`,
             question: q.question || '',
@@ -116,9 +124,10 @@ export default function QuizPage() {
 
       if (rawQuestions.length > 0) {
         const mapped = rawQuestions.map((q, idx) => {
-          const opts = q.options || [];
-          const correctValue = opts[q.correctIndex !== undefined ? q.correctIndex : 0];
-          const shuffled = shuffle([...opts]);
+          const rawOpts = q.options || [];
+          const cleanedOpts = rawOpts.map(cleanOption);
+          const correctValue = cleanedOpts[q.correctIndex !== undefined ? q.correctIndex : 0];
+          const shuffled = shuffle([...cleanedOpts]);
           return {
             _id: `local-${idx}`,
             question: q.question || '',
@@ -152,8 +161,10 @@ export default function QuizPage() {
       }
 
       const mapped = data.map(q => {
-        const correctValue = q.options[q.correct_index || 0];
-        const shuffled = shuffle(q.options);
+        const rawOpts = q.options || [];
+        const cleanedOpts = rawOpts.map(cleanOption);
+        const correctValue = cleanedOpts[q.correct_index || 0];
+        const shuffled = shuffle(cleanedOpts);
         return {
           _id: q.id,
           question: q.question,
