@@ -953,450 +953,6 @@ export const s_1_8 = {
   "t-s-1-8-4": {
     "test": [
       {
-        "question": "In humans, a polygenic trait is:",
-        "options": [
-          "a. Brachydactyly",
-          "**\\\\*b. Height**",
-          "c. Blood type",
-          "d. Hair color"
-        ]
-      },
-      {
-        "question": "In polymerization, the splitting of the trait when crossing two diheterozygotes will be:",
-        "options": [
-          "**\\\\*a. 15:1, 1:4:6:4:1**",
-          "b. 9:4:3, 1:4:6:4:1, 13:3",
-          "c. 9:3:4, 9:7, 15:1",
-          "d. 9:4:3, 12:3:1, 13:3"
-        ]
-      },
-      {
-        "question": "With complementary interaction of genes, the splitting of the trait when crossing two diheterozygotes will be in the ratio:",
-        "options": [
-          "a. 9:4:3, 1:4:6:4:1, 13:3",
-          "b. 9:4:3, 12:3:1, 13:3",
-          "c. 15:1, 1:4:6:4:1",
-          "**\\\\*d. 9:3:3:1, 9:6:1, 9:3:4, 9:7**"
-        ]
-      },
-      {
-        "question": "Polygenic traits include:",
-        "options": [
-          "**\\\\*a. Body weight. Finger length**",
-          "b. Blood clotting",
-          "c. Microcephaly",
-          "d. Polydactyly"
-        ]
-      },
-      {
-        "question": "Penetrance is:",
-        "options": [
-          "a. Manifestation of the gene in a heterozygous state",
-          "b. Degree of gene penetration",
-          "c. The influence of one gene on the manifestation of several traits",
-          "**\\\\*d. Gene penetration frequency**"
-        ]
-      },
-      {
-        "question": "The property of organisms to transmit their characteristics and developmental characteristics to their offspring - is this?",
-        "options": [
-          "a. Karyotyping",
-          "b. Variability",
-          "**\\\\*c. Heredity**",
-          "d. Crossbreeding"
-        ]
-      },
-      {
-        "question": "What is a phenotype?",
-        "options": [
-          "a. Gene system of a particular organism",
-          "b. Traits caused by genes located only on autosomes",
-          "**\\\\*c. A system of external and internal signs and properties of an organism that are formed during its individual development**",
-          "d. Haploid set of chromosomes"
-        ]
-      },
-      {
-        "question": "A cross in which the parent organisms differ in three pairs of characteristics is:",
-        "options": [
-          "**\\\\*a. Trihybrid**",
-          "b. Tetrahybrid",
-          "c. Polyhybrid",
-          "d. Dihybrid"
-        ]
-      },
-      {
-        "question": "The ability of organisms to transmit their characteristics and developmental characteristics to their offspring is:",
-        "options": [
-          "a. Genotype",
-          "b. Inheritance",
-          "c. Variability",
-          "**\\\\*d. Heredity**"
-        ]
-      },
-      {
-        "question": "Gene is:",
-        "options": [
-          "a. A section of an RNA molecule in which information about the secondary structure of a polypeptide is encoded",
-          "b. A section of an RNA molecule in which information about the primary structure of a polypeptide is encoded",
-          "c. A section of a DNA molecule in which information about the secondary structure of a polypeptide is encoded",
-          "**\\\\*d. A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded**"
-        ]
-      },
-      {
-        "question": "How many types of gametes does an individual with genotype AAbbCC produce?",
-        "options": [
-          "**\\\\*a. 1**",
-          "b. 8",
-          "c. 3",
-          "d. 6"
-        ]
-      },
-      {
-        "question": "An analysis cross is a cross in which an individual whose genotype is unknown but needs to be determined (AA or Aa ) is crossed with:",
-        "options": [
-          "a. Heterozygous (A a )",
-          "**\\\\*b. Recessive homozygote (aa)**",
-          "c. Dominant homozygote (A A )",
-          "d. Zygote"
-        ]
-      },
-      {
-        "question": "Allelic genes are genes located in:",
-        "options": [
-          "**\\\\*a. The same loci of homologous chromosomes**",
-          "b. Different loci of homologous chromosomes",
-          "c. Same loci of non-homologous chromosomes",
-          "d. One chromosome"
-        ]
-      },
-      {
-        "question": "Where are non-allelic genes located?",
-        "options": [
-          "a. Different pairs of chromosomes",
-          "b. Only in autosomes",
-          "c. Only on sex chromosomes",
-          "**\\\\*d. At different loci on the chromosome**"
-        ]
-      },
-      {
-        "question": "G. Mendel developed a method for studying heredity:",
-        "options": [
-          "**\\\\*a. Hybridological**",
-          "b. Biological",
-          "c. Twin",
-          "d. Cytological"
-        ]
-      },
-      {
-        "question": "In what ratio is splitting observed for different types of gene interactions?",
-        "options": [
-          "a. With dominant epistasis 9:3:4 or 12:3:1",
-          "b. With recessive epistasis 13:3",
-          "**\\\\*c. With polymer 15:1 or 1:4:6:4:1**",
-          "d. With complementary interaction 15:1 or 9:6:1"
-        ]
-      },
-      {
-        "question": "Is this complementarity?",
-        "options": [
-          "a. Interaction of non-allelic genes, in which one gene suppresses the action of nother, non-allelic gene",
-          "**\\\\*b. When two or more genes interact, new traits are formed**",
-          "c. One of the forms of interaction of non-allelic genes, in which the development of a certain trait is predetermined by the influence of several genes",
-          "d. The ability of one gene to control several traits (multiple gene action)"
-        ]
-      },
-      {
-        "question": "The ability of organisms to acquire new characteristics or lose previous ones during development is:",
-        "options": [
-          "a. Genotype",
-          "b. Heredity",
-          "**\\\\*c. Variability**",
-          "d. Inheritance"
-        ]
-      },
-      {
-        "question": "In which blood group is agglutinogen A and B found?",
-        "options": [
-          "a. II",
-          "b. I",
-          "c. III",
-          "**\\\\*d. IV**"
-        ]
-      },
-      {
-        "question": "Mendel's first law reveals patterns:",
-        "options": [
-          "a. Law of splitting",
-          "b. Independent combination of features",
-          "c. Incomplete dominance",
-          "**\\\\*d. First generation law of uniformity**"
-        ]
-      },
-      {
-        "question": "The intensity of skin pigmentation in humans is controlled by several non-allelic dominant genes. It has been established that with an increase in the number of these genes, pigmentation becomes more intense. What is the type of interaction between these genes called?",
-        "options": [
-          "**\\\\*a. Polymerism**",
-          "b. Pleiotropy",
-          "c. Codominance",
-          "d. Epistasis"
-        ]
-      }
-    ],
-    "situational": [
-      {
-        "question": "Q1. Specify the characteristics characteristic of the X-linked recessive type of inheritance:",
-        "options": [
-          "*a. A mother who carries the gene passes the trait on to half of her sons",
-          "b. Affected men pass on the recessive allele of the gene to 50% of their sons",
-          "c. Occurs predominantly in women",
-          "d. Both men and women get sick equally"
-        ]
-      },
-      {
-        "question": "Q2. What type of inheritance does hemophilia have?",
-        "options": [
-          "* c. X-linked recessive inheritance",
-          "b. X-linked dominant inheritance",
-          "a. Autosomal recessive mode of inheritance",
-          "d. Y-chained inheritance"
-        ]
-      },
-      {
-        "question": "Q3. What type of inheritance does color blindness have?",
-        "options": [
-          "* c. X-linked recessive inheritance",
-          "b. X-linked dominant mode of inheritance",
-          "a. Autosomal recessive mode of inheritance",
-          "d. Y-chained inheritance"
-        ]
-      },
-      {
-        "question": "Q4. What patterns are characteristic of a pedigree with an X-linked recessive type of inheritance?",
-        "options": [
-          "*a. All answers are correct",
-          "b. A female carrier transmits the disease to half of her sons, none of the daughters will be affected, but half of the daughters are carriers of the hereditary gene",
-          "c. The trait is always transmitted through a heterozygous mother, who is phenotypically healthy",
-          "d. A sick father never passes the disease on to his sons"
-        ]
-      },
-      {
-        "question": "Q5. For the X-linked dominant type of inheritance, it is characteristic that the trait manifests itself:",
-        "options": [
-          "* c. The father passes the trait on to all his daughters",
-          "b. Not in all generations",
-          "a. Only for women",
-          "d. Along the pedigree"
-        ]
-      },
-      {
-        "question": "Q6. For the Y-linked type of inheritance, it is characteristic that the trait manifests itself:",
-        "options": [
-          "* d. The father passes the trait on to all his sons",
-          "b. Along the pedigree",
-          "c. Vertical pedigree",
-          "a. Not in all generations"
-        ]
-      }
-    ]
-  },
-  "t-s-1-8-5": {
-    "test": [
-      {
-        "question": "A cross in which the parent organisms differ in many pairs of characters is:",
-        "options": [
-          "a. Dihybrid",
-          "b. Monohybrid",
-          "c. Tetrahybrid",
-          "*d. Polyhybrid"
-        ]
-      },
-      {
-        "question": "A cross in which the parent organisms differ in one pair of characteristics is:",
-        "options": [
-          "a. Dihybrid",
-          "b. Polyhybrid",
-          "*c. Monohybrid",
-          "d. Trihybrid"
-        ]
-      },
-      {
-        "question": "The set of genes in a population, which is characterized by a certain frequency, is:",
-        "options": [
-          "a. Genome",
-          "*b. Gene pool",
-          "c. Genotype",
-          "d. Gene"
-        ]
-      },
-      {
-        "question": "A cross in which the parent organisms differ in four pairs of characters is:",
-        "options": [
-          "*a. Tetrahybrid",
-          "b. Dihybrid",
-          "c. Trihybrid",
-          "d. Polyhybrid"
-        ]
-      },
-      {
-        "question": "The totality of all external and internal signs of the body is:",
-        "options": [
-          "a. Genotype",
-          "b. Changeability",
-          "c. Heredity",
-          "*d. Phenotype"
-        ]
-      },
-      {
-        "question": "The totality of all the genes of an organism is:",
-        "options": [
-          "a. Changeability",
-          "*b. Genotype",
-          "c. Heredity",
-          "d. Inheritance"
-        ]
-      },
-      {
-        "question": "What is the name of the allele that is phenotypically manifested in the heterozygous state?",
-        "options": [
-          "a. Heterozygous",
-          "*b. Dominant",
-          "c. Recessive",
-          "d. Homozygote recessive"
-        ]
-      },
-      {
-        "question": "Which genotype can be accurately determined by phenotype without special research?",
-        "options": [
-          "*a. Recessive homozygote genotype (aa)",
-          "b. Genotype of dominant homozygote (AA)",
-          "c. Heterozygote genotype (Aa)",
-          "d. Genotype of any individual"
-        ]
-      },
-      {
-        "question": "A cross in which the parent organisms differ in two pairs of characteristics is:",
-        "options": [
-          "a. Polyhybrid",
-          "*b. Dihybrid",
-          "c. Trihybrid",
-          "d. Monohybrid"
-        ]
-      },
-      {
-        "question": "An example of codominance is:",
-        "options": [
-          "a. Inheritance of deafness",
-          "b. Height inheritance",
-          "*c. Inheritance of blood groups (group IV)",
-          "d. Inheritance of polydactyly"
-        ]
-      },
-      {
-        "question": "Rhesus conflict occurs when:",
-        "options": [
-          "a. Mother is Rh +, and child is Rh +",
-          "*b. Mother is Rh - and child is Rh +",
-          "c. The mother is Rh - and the child is Rh -",
-          "d. Mother is Rh + and child is Rh -"
-        ]
-      },
-      {
-        "question": "The set of genes of the haploid set of chromosomes is:",
-        "options": [
-          "a. Genotype",
-          "b. Gene",
-          "c. Gene pool",
-          "*d. Genome"
-        ]
-      },
-      {
-        "question": "An example of phenocopy would be:",
-        "options": [
-          "*a. The birth of a deaf child with a normal genotype to a healthy woman who had rubella during pregnancy",
-          "b. Colorblindness in a child whose parents are colorblind",
-          "c. Albinism in a child whose mother is an albino and whose father has normal skin pigmentation",
-          "d. Hypertension in an adult man who has healthy parents"
-        ]
-      },
-      {
-        "question": "An example of complementarity is:",
-        "options": [
-          "a. Inheritance of polydactyly",
-          "b. Inheritance of blood groups",
-          "c. Inheritance of phenylketonuria",
-          "*d. Inheritance of deafness"
-        ]
-      },
-      {
-        "question": "Mendel's third law reveals patterns:",
-        "options": [
-          "a. Intermediate inheritance",
-          "b. Analyzing crossing",
-          "c. Sex-linked inheritance",
-          "*d. Independent combination of features"
-        ]
-      },
-      {
-        "question": "What is the name of the allele that is not phenotypically manifested in the heterozygous state?",
-        "options": [
-          "a. Dominant",
-          "b. Heterozygous",
-          "*c. Recessive",
-          "d. Homozygote dominant"
-        ]
-      }
-    ],
-    "situational": [
-      {
-        "question": "Which genotype can be accurately determined by phenotype without special research?",
-        "options": [
-          "*a. Recessive homozygote genotype (aa)",
-          "b. Genotype of any individual",
-          "c. Heterozygote genotype (Aa)",
-          "d. Genotype of dominant homozygote (AA)"
-        ]
-      },
-      {
-        "question": "What is the name of the allele that is phenotypically manifested in the heterozygous state?",
-        "options": [
-          "*a. Dominant",
-          "b. Recessive",
-          "c. Homozygote recessive",
-          "d. Heterozygous"
-        ]
-      },
-      {
-        "question": "The set of genes in a population, which is characterized by a certain frequency, is:",
-        "options": [
-          "*a. Gene pool",
-          "b. Genome",
-          "c. Gene",
-          "d. Genotype"
-        ]
-      },
-      {
-        "question": "An example of complementarity is:",
-        "options": [
-          "*a. Inheritance of deafness",
-          "b. Inheritance of phenylketonuria",
-          "c. Inheritance of polydactyly",
-          "d. Inheritance of blood groups"
-        ]
-      },
-      {
-        "question": "A cross in which the parent organisms differ in four pairs of characters is:",
-        "options": [
-          "a. Dihybrid",
-          "*b. Tetrahybrid",
-          "c. Polyhybrid",
-          "d. Trihybrid"
-        ]
-      }
-    ]
-  },
-  "t-s-1-8-6": {
-    "test": [
-      {
         "question": "Q1. In humans, a polygenic trait is:",
         "options": [
           "* b. Height",
@@ -1639,6 +1195,450 @@ export const s_1_8 = {
           "a. Hypostatic",
           "c. Repressors",
           "d. Corepressors"
+        ]
+      }
+    ]
+  },
+  "t-s-1-8-5": {
+    "test": [
+      {
+        "question": "A cross in which the parent organisms differ in many pairs of characters is:",
+        "options": [
+          "a. Dihybrid",
+          "b. Monohybrid",
+          "c. Tetrahybrid",
+          "*d. Polyhybrid"
+        ]
+      },
+      {
+        "question": "A cross in which the parent organisms differ in one pair of characteristics is:",
+        "options": [
+          "a. Dihybrid",
+          "b. Polyhybrid",
+          "*c. Monohybrid",
+          "d. Trihybrid"
+        ]
+      },
+      {
+        "question": "The set of genes in a population, which is characterized by a certain frequency, is:",
+        "options": [
+          "a. Genome",
+          "*b. Gene pool",
+          "c. Genotype",
+          "d. Gene"
+        ]
+      },
+      {
+        "question": "A cross in which the parent organisms differ in four pairs of characters is:",
+        "options": [
+          "*a. Tetrahybrid",
+          "b. Dihybrid",
+          "c. Trihybrid",
+          "d. Polyhybrid"
+        ]
+      },
+      {
+        "question": "The totality of all external and internal signs of the body is:",
+        "options": [
+          "a. Genotype",
+          "b. Changeability",
+          "c. Heredity",
+          "*d. Phenotype"
+        ]
+      },
+      {
+        "question": "The totality of all the genes of an organism is:",
+        "options": [
+          "a. Changeability",
+          "*b. Genotype",
+          "c. Heredity",
+          "d. Inheritance"
+        ]
+      },
+      {
+        "question": "What is the name of the allele that is phenotypically manifested in the heterozygous state?",
+        "options": [
+          "a. Heterozygous",
+          "*b. Dominant",
+          "c. Recessive",
+          "d. Homozygote recessive"
+        ]
+      },
+      {
+        "question": "Which genotype can be accurately determined by phenotype without special research?",
+        "options": [
+          "*a. Recessive homozygote genotype (aa)",
+          "b. Genotype of dominant homozygote (AA)",
+          "c. Heterozygote genotype (Aa)",
+          "d. Genotype of any individual"
+        ]
+      },
+      {
+        "question": "A cross in which the parent organisms differ in two pairs of characteristics is:",
+        "options": [
+          "a. Polyhybrid",
+          "*b. Dihybrid",
+          "c. Trihybrid",
+          "d. Monohybrid"
+        ]
+      },
+      {
+        "question": "An example of codominance is:",
+        "options": [
+          "a. Inheritance of deafness",
+          "b. Height inheritance",
+          "*c. Inheritance of blood groups (group IV)",
+          "d. Inheritance of polydactyly"
+        ]
+      },
+      {
+        "question": "Rhesus conflict occurs when:",
+        "options": [
+          "a. Mother is Rh +, and child is Rh +",
+          "*b. Mother is Rh - and child is Rh +",
+          "c. The mother is Rh - and the child is Rh -",
+          "d. Mother is Rh + and child is Rh -"
+        ]
+      },
+      {
+        "question": "The set of genes of the haploid set of chromosomes is:",
+        "options": [
+          "a. Genotype",
+          "b. Gene",
+          "c. Gene pool",
+          "*d. Genome"
+        ]
+      },
+      {
+        "question": "An example of phenocopy would be:",
+        "options": [
+          "*a. The birth of a deaf child with a normal genotype to a healthy woman who had rubella during pregnancy",
+          "b. Colorblindness in a child whose parents are colorblind",
+          "c. Albinism in a child whose mother is an albino and whose father has normal skin pigmentation",
+          "d. Hypertension in an adult man who has healthy parents"
+        ]
+      },
+      {
+        "question": "An example of complementarity is:",
+        "options": [
+          "a. Inheritance of polydactyly",
+          "b. Inheritance of blood groups",
+          "c. Inheritance of phenylketonuria",
+          "*d. Inheritance of deafness"
+        ]
+      },
+      {
+        "question": "Mendel's third law reveals patterns:",
+        "options": [
+          "a. Intermediate inheritance",
+          "b. Analyzing crossing",
+          "c. Sex-linked inheritance",
+          "*d. Independent combination of features"
+        ]
+      },
+      {
+        "question": "What is the name of the allele that is not phenotypically manifested in the heterozygous state?",
+        "options": [
+          "a. Dominant",
+          "b. Heterozygous",
+          "*c. Recessive",
+          "d. Homozygote dominant"
+        ]
+      }
+    ],
+    "situational": [
+      {
+        "question": "Which genotype can be accurately determined by phenotype without special research?",
+        "options": [
+          "*a. Recessive homozygote genotype (aa)",
+          "b. Genotype of any individual",
+          "c. Heterozygote genotype (Aa)",
+          "d. Genotype of dominant homozygote (AA)"
+        ]
+      },
+      {
+        "question": "What is the name of the allele that is phenotypically manifested in the heterozygous state?",
+        "options": [
+          "*a. Dominant",
+          "b. Recessive",
+          "c. Homozygote recessive",
+          "d. Heterozygous"
+        ]
+      },
+      {
+        "question": "The set of genes in a population, which is characterized by a certain frequency, is:",
+        "options": [
+          "*a. Gene pool",
+          "b. Genome",
+          "c. Gene",
+          "d. Genotype"
+        ]
+      },
+      {
+        "question": "An example of complementarity is:",
+        "options": [
+          "*a. Inheritance of deafness",
+          "b. Inheritance of phenylketonuria",
+          "c. Inheritance of polydactyly",
+          "d. Inheritance of blood groups"
+        ]
+      },
+      {
+        "question": "A cross in which the parent organisms differ in four pairs of characters is:",
+        "options": [
+          "a. Dihybrid",
+          "*b. Tetrahybrid",
+          "c. Polyhybrid",
+          "d. Trihybrid"
+        ]
+      }
+    ]
+  },
+  "t-s-1-8-6": {
+    "test": [
+      {
+        "question": "In humans, a polygenic trait is:",
+        "options": [
+          "a. Brachydactyly",
+          "**\\\\*b. Height**",
+          "c. Blood type",
+          "d. Hair color"
+        ]
+      },
+      {
+        "question": "In polymerization, the splitting of the trait when crossing two diheterozygotes will be:",
+        "options": [
+          "**\\\\*a. 15:1, 1:4:6:4:1**",
+          "b. 9:4:3, 1:4:6:4:1, 13:3",
+          "c. 9:3:4, 9:7, 15:1",
+          "d. 9:4:3, 12:3:1, 13:3"
+        ]
+      },
+      {
+        "question": "With complementary interaction of genes, the splitting of the trait when crossing two diheterozygotes will be in the ratio:",
+        "options": [
+          "a. 9:4:3, 1:4:6:4:1, 13:3",
+          "b. 9:4:3, 12:3:1, 13:3",
+          "c. 15:1, 1:4:6:4:1",
+          "**\\\\*d. 9:3:3:1, 9:6:1, 9:3:4, 9:7**"
+        ]
+      },
+      {
+        "question": "Polygenic traits include:",
+        "options": [
+          "**\\\\*a. Body weight. Finger length**",
+          "b. Blood clotting",
+          "c. Microcephaly",
+          "d. Polydactyly"
+        ]
+      },
+      {
+        "question": "Penetrance is:",
+        "options": [
+          "a. Manifestation of the gene in a heterozygous state",
+          "b. Degree of gene penetration",
+          "c. The influence of one gene on the manifestation of several traits",
+          "**\\\\*d. Gene penetration frequency**"
+        ]
+      },
+      {
+        "question": "The property of organisms to transmit their characteristics and developmental characteristics to their offspring - is this?",
+        "options": [
+          "a. Karyotyping",
+          "b. Variability",
+          "**\\\\*c. Heredity**",
+          "d. Crossbreeding"
+        ]
+      },
+      {
+        "question": "What is a phenotype?",
+        "options": [
+          "a. Gene system of a particular organism",
+          "b. Traits caused by genes located only on autosomes",
+          "**\\\\*c. A system of external and internal signs and properties of an organism that are formed during its individual development**",
+          "d. Haploid set of chromosomes"
+        ]
+      },
+      {
+        "question": "A cross in which the parent organisms differ in three pairs of characteristics is:",
+        "options": [
+          "**\\\\*a. Trihybrid**",
+          "b. Tetrahybrid",
+          "c. Polyhybrid",
+          "d. Dihybrid"
+        ]
+      },
+      {
+        "question": "The ability of organisms to transmit their characteristics and developmental characteristics to their offspring is:",
+        "options": [
+          "a. Genotype",
+          "b. Inheritance",
+          "c. Variability",
+          "**\\\\*d. Heredity**"
+        ]
+      },
+      {
+        "question": "Gene is:",
+        "options": [
+          "a. A section of an RNA molecule in which information about the secondary structure of a polypeptide is encoded",
+          "b. A section of an RNA molecule in which information about the primary structure of a polypeptide is encoded",
+          "c. A section of a DNA molecule in which information about the secondary structure of a polypeptide is encoded",
+          "**\\\\*d. A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded**"
+        ]
+      },
+      {
+        "question": "How many types of gametes does an individual with genotype AAbbCC produce?",
+        "options": [
+          "**\\\\*a. 1**",
+          "b. 8",
+          "c. 3",
+          "d. 6"
+        ]
+      },
+      {
+        "question": "An analysis cross is a cross in which an individual whose genotype is unknown but needs to be determined (AA or Aa ) is crossed with:",
+        "options": [
+          "a. Heterozygous (A a )",
+          "**\\\\*b. Recessive homozygote (aa)**",
+          "c. Dominant homozygote (A A )",
+          "d. Zygote"
+        ]
+      },
+      {
+        "question": "Allelic genes are genes located in:",
+        "options": [
+          "**\\\\*a. The same loci of homologous chromosomes**",
+          "b. Different loci of homologous chromosomes",
+          "c. Same loci of non-homologous chromosomes",
+          "d. One chromosome"
+        ]
+      },
+      {
+        "question": "Where are non-allelic genes located?",
+        "options": [
+          "a. Different pairs of chromosomes",
+          "b. Only in autosomes",
+          "c. Only on sex chromosomes",
+          "**\\\\*d. At different loci on the chromosome**"
+        ]
+      },
+      {
+        "question": "G. Mendel developed a method for studying heredity:",
+        "options": [
+          "**\\\\*a. Hybridological**",
+          "b. Biological",
+          "c. Twin",
+          "d. Cytological"
+        ]
+      },
+      {
+        "question": "In what ratio is splitting observed for different types of gene interactions?",
+        "options": [
+          "a. With dominant epistasis 9:3:4 or 12:3:1",
+          "b. With recessive epistasis 13:3",
+          "**\\\\*c. With polymer 15:1 or 1:4:6:4:1**",
+          "d. With complementary interaction 15:1 or 9:6:1"
+        ]
+      },
+      {
+        "question": "Is this complementarity?",
+        "options": [
+          "a. Interaction of non-allelic genes, in which one gene suppresses the action of nother, non-allelic gene",
+          "**\\\\*b. When two or more genes interact, new traits are formed**",
+          "c. One of the forms of interaction of non-allelic genes, in which the development of a certain trait is predetermined by the influence of several genes",
+          "d. The ability of one gene to control several traits (multiple gene action)"
+        ]
+      },
+      {
+        "question": "The ability of organisms to acquire new characteristics or lose previous ones during development is:",
+        "options": [
+          "a. Genotype",
+          "b. Heredity",
+          "**\\\\*c. Variability**",
+          "d. Inheritance"
+        ]
+      },
+      {
+        "question": "In which blood group is agglutinogen A and B found?",
+        "options": [
+          "a. II",
+          "b. I",
+          "c. III",
+          "**\\\\*d. IV**"
+        ]
+      },
+      {
+        "question": "Mendel's first law reveals patterns:",
+        "options": [
+          "a. Law of splitting",
+          "b. Independent combination of features",
+          "c. Incomplete dominance",
+          "**\\\\*d. First generation law of uniformity**"
+        ]
+      },
+      {
+        "question": "The intensity of skin pigmentation in humans is controlled by several non-allelic dominant genes. It has been established that with an increase in the number of these genes, pigmentation becomes more intense. What is the type of interaction between these genes called?",
+        "options": [
+          "**\\\\*a. Polymerism**",
+          "b. Pleiotropy",
+          "c. Codominance",
+          "d. Epistasis"
+        ]
+      }
+    ],
+    "situational": [
+      {
+        "question": "Q1. Specify the characteristics characteristic of the X-linked recessive type of inheritance:",
+        "options": [
+          "*a. A mother who carries the gene passes the trait on to half of her sons",
+          "b. Affected men pass on the recessive allele of the gene to 50% of their sons",
+          "c. Occurs predominantly in women",
+          "d. Both men and women get sick equally"
+        ]
+      },
+      {
+        "question": "Q2. What type of inheritance does hemophilia have?",
+        "options": [
+          "* c. X-linked recessive inheritance",
+          "b. X-linked dominant inheritance",
+          "a. Autosomal recessive mode of inheritance",
+          "d. Y-chained inheritance"
+        ]
+      },
+      {
+        "question": "Q3. What type of inheritance does color blindness have?",
+        "options": [
+          "* c. X-linked recessive inheritance",
+          "b. X-linked dominant mode of inheritance",
+          "a. Autosomal recessive mode of inheritance",
+          "d. Y-chained inheritance"
+        ]
+      },
+      {
+        "question": "Q4. What patterns are characteristic of a pedigree with an X-linked recessive type of inheritance?",
+        "options": [
+          "*a. All answers are correct",
+          "b. A female carrier transmits the disease to half of her sons, none of the daughters will be affected, but half of the daughters are carriers of the hereditary gene",
+          "c. The trait is always transmitted through a heterozygous mother, who is phenotypically healthy",
+          "d. A sick father never passes the disease on to his sons"
+        ]
+      },
+      {
+        "question": "Q5. For the X-linked dominant type of inheritance, it is characteristic that the trait manifests itself:",
+        "options": [
+          "* c. The father passes the trait on to all his daughters",
+          "b. Not in all generations",
+          "a. Only for women",
+          "d. Along the pedigree"
+        ]
+      },
+      {
+        "question": "Q6. For the Y-linked type of inheritance, it is characteristic that the trait manifests itself:",
+        "options": [
+          "* d. The father passes the trait on to all his sons",
+          "b. Along the pedigree",
+          "c. Vertical pedigree",
+          "a. Not in all generations"
         ]
       }
     ]
