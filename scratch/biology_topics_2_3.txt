@@ -1,0 +1,231 @@
+t.s. Mavzu 2
+
+Characteristic features of viruses: 
+They do not have a cellular structure - non-cellular life forms. Genetic the material is represented by a DNA or RNA molecule
+They are cellular organisms
+Among them there are both parasitic forms and saprophytes.
+The genetic material is represented only by the DNA molecule (circular chromosome)
+
+Find the structural features of prokaryotes:
+They do not have a typical nucleus, the chromosome (genophore) is ring-shaped
+Cellular organelles are well defined
+Rod-shaped chromosomes, i.e. not circular 
+Among them there are both unicellular and multicellular forms
+
+Find the structural features of eukaryotes:
+The nucleus is formed and consists of: nuclear membrane, karyoplasm, nucleolus and chromatin (chromosomes), cellular organelles are well defined
+The chromosome (genophore) has a ring shape             
+There are mesosomes that perform the functions of mitochondria and plastids           
+Of the organelles, only ribosomes are present
+
+What are the characteristic features of lysosomes?
+There are three groups of these organelles: primary, secondary and cytolysomes (autophagosomes or cytolysosomes)
+Lysosomes break down only those substances that enter the cell
+Lysosomes are structures visible even to the naked eye
+Always located near the cell nucleus
+
+What are the characteristic features of the Golgi apparatus?
+The main function is concentration, dehydration and compaction of intracellular secretion products
+It consists of a system of tubes, a shell, which is three-layered, about 5 nm thick
+The Krebs cycle occurs in the membranes of the Golgi complex.
+Participates in mitotic cell division
+
+Cell organelles of general importance:
+Mitochondria. Ribosome. Golgi complex
+Neurofibrils. Myofibrils. Ribosome
+Tonofibrils. Cilia Golgi complex
+Cilia. Flagella. Mitochondria
+
+Specify cell organelles of special significance:
+Neurofibrils. Myofibrils. Tonofibrils
+Cilia. Flagella. Mitochondria
+Golgi complex. Lysosome. Centrosome
+Flagella. Mitochondria. Ribosome
+
+Indicate the correct levels of organization of living things?
+Organismal
+Atmospheric
+Soil
+Real
+
+Identify the mechanical part of a microscope?
+Screws (macro, micro)
+Condenser
+Diaphragm
+Mirror
+
+Identify the components of the nucleus of a eukaryotic cell?
+Nuclear envelope. Nuclear juice (karyolymph). Nucleoli (one or two). Chromosomes
+Nucleoli (one or two). Chromosomes. DNA or RNA
+Chromosomes. DNA or RNA. Nucleoid. Genophore
+Nuclear envelope. Nuclear juice (karyolymph). Nucleoid. Microtubules
+
+Single membrane organelles:
+Endoplasmic reticulum
+Microtubules
+Microfibrils
+Centrioles
+
+Identify the substances contained in the mitochondrial matrix:
+DNA and RNA. Enzymes that ensure protein biosynthesis . Ribosomes
+Enzymes involved in the processes of transcription and translation. Enzymes providing chemosynthesis
+Microfibrils. Microtubules
+Microtubules. A system of enzymes that ensures the process of photosynthesis
+
+Determine what functions the endoplasmic reticulum performs?
+Performs a transport function, linking cell structures into a single whole
+Carries out the process of glycolysis
+Primary and secondary lysosomes are formed
+Breaks down foreign substances that have entered cells  
+
+Characteristic features of the nuclear membrane:
+There is a perinuclear space between the membranes
+Formed by a three-layer membrane
+The membrane is made up of proteins and lipids
+Pores are formed by nuclear complexes
+
+Indicate the representatives of prokaryotes:
+Bacteria. Blue-green algae
+Bacteriophages. Viruses
+Unicellular algae
+Multicellular algae
+
+The agranular endoplasmic reticulum performs the function:
+Lipid synthesis
+Lysosome formation
+ATP synthesis
+Support
+
+A decrease in the level of albumin and fibrinogen was detected in the patient's blood. A decrease in the activity of which liver cell organelles causes this phenomenon?
+Granular EPS
+Agranular EPS
+Mitochondria
+Golgi complex
+
+What is the name for the protrusion of the cell membrane into the cytoplasm of prokaryotic cells, on which ATP is synthesized?
+Mesosomes
+Lysosomes
+Mitochondria
+Desmosomes
+
+The cell contains single-membrane spherical organelles 0.2 - 1 µm in size, containing proteolytic enzymes. Their formation is associated with the Golgi apparatus. What are these organelles?
+Lysosome
+Mitochondria
+Plastids
+Ribosomes
+
+In a human cell, the ribosomes, which are located on the membranes of the granular endoplasmic reticulum, receive immature mRNA containing both exonic and intronic regions. This structure of mRNA is due to the absence of:
+Processing
+Elongation
+Transcriptions
+Replications
+
+In eukaryotes:
+There is a core
+No core
+No vacuoles
+Simple cell division, no mitosis
+
+t.s./ Mavzu 3
+
+What function does not belong to the glycocalyx?
+Synthesis of ATP and proteins
+Intercellular interaction
+Parietal digestion
+Intercellular contacts
+
+What are primary chromosome constrictions?
+Centromeres
+Telomeres
+Nucleosomes
+Shoulders
+
+What ensures the transmission of hereditary information in viruses?
+DNA
+Protein
+Gistone
+ATP
+
+What is the chemical composition of biological membranes?
+Lipids, proteins, carbohydrates
+RNA, DNA, carbohydrates, water
+DNA, proteins, carbohydrates
+DNA, RNA, histone proteins
+
+What is the process of growing a polypeptide chain during transcription called?
+Splicing
+Initiation
+Processing
+Elongation
+
+Is this a genephore?
+DNA strand
+ATP chain
+Membrane
+Histone protein
+
+A section of DNA that contains information about the synthesis of one protein is called?
+Codon
+Recon
+Cistron
+Genome
+
+The smallest section of the cistron, a change in which can lead to a mutation, is called:
+Recon
+Codon
+Mouton
+Cistron
+
+The smallest section of a cistron that does not divide by recombination is called?
+Recon
+Mouton
+Codon
+Cistron
+
+Non-informative sections of structural genes that do not encode an amino acid are:
+Recons
+Exons
+Moutons
+Introns
+
+Regulatory genes?
+Control and regulate the process of protein biosynthesis
+Have a regulatory or enhancing effect on structural genes
+Carry information about the structure of certain polypeptides
+Contain a large number of repeating nucleotide groups
+
+The specificity of the genetic code is manifested in the fact that:
+Each individual codon triplet codes for only one specific amino acid
+The genetic code is unique for all organisms
+No nitrogenous base from one codon is ever included in another
+An amino acid can be encoded by more than one triplet of nucleotides
+
+What is the formation of an RNA molecule on a DNA template?
+Transcription
+Replication
+Broadcast
+Transduction
+
+Indicate what substances are included in one nucleotide?
+Nitrogenous base, pentose, phosphate acid residue
+Nitrogenous base, amino acid, phosphate acid residue
+Nitrogen base, hexose, phosphate acid residue
+Amino group, pentose, phosphate acid residue
+
+How many ATP molecules are formed at the first stage of energy metabolism:
+2
+4
+6
+36
+
+What is the duplication of DNA involving the enzyme DNA polymerase called?
+Replication
+Transcription
+Broadcast
+Processing
+
+Genetic code -
+A unified system for recording genetic information in a DNA molecule in the form of a sequential arrangement of nucleotides in an m-RNA molecule
+A triplet defining the location of one amino acid in a synthesized protein
+A triplet in a tRNA molecule that determines the location of one amino acid in the protein being synthesized
+A triplet in an rRNA molecule that determines the location of one amino acid in the synthesized protein

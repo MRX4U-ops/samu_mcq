@@ -1,0 +1,344 @@
+<USER_REQUEST>
+UPDATE THIS QUESTION IN MEDICAL CHEMISTRY TOPIC 8 IN TEST QUESTIONS
+
+## Question 1
+
+How are chelates used in medicine?
+
+a. To balance hormones
+b. To dissolve crystals in bones
+c. To enhance blood circulation
+**d. To detoxify toxic metals and improve health**
+
+---
+
+## Question 2
+
+How are chelates used in toxicology?
+
+a. To dissolve solid substances
+b. To promote ion exchange
+c. To reduce acidity in the stomach
+**d. To neutralize and remove heavy metals from the body**
+
+---
+
+## Question 3
+
+In a complex compound, what binds to the central atom?
+
+a. Neutral molecules
+b. Simple salts
+**c. Ligands**
+d. Gases
+
+---
+
+## Question 4
+
+In which field are chelate complexes widely used?
+
+a. Food processing
+b. Mechanics
+c. Electronics
+**d. Medicine**
+
+---
+
+## Question 5
+
+What are chelates?
+
+a. Compounds formed by ionic bonds
+b. Non-metallic organic substances
+c. Neutral covalent molecules
+**d. Complexes formed when ligands with multiple bonding sites bind to a metal ion to form a ring**
+
+---
+
+## Question 6
+
+What are the key elements involved in chelation reactions?
+
+a. Carbon and hydrogen atoms
+b. Fluorine and bromine atoms
+c. Sodium and chloride ions
+**d. Nitrogen and oxygen atoms in ligands**
+
+---
+
+## Question 7
+
+What contributes to the stability of chelate complexes?
+
+**a. The number of rings formed during chelation**
+b. The molecular structure of water
+c. The ionic strength of the solution
+d. The temperature of the environment
+
+---
+
+## Question 8
+
+What does the coordination number in a complex compound represent?
+
+**a. The number of ligands attached to the central atom**
+b. The solubility of the compound
+c. The stability of the metal
+d. The total molecular weight of the complex
+
+---
+
+## Question 9
+
+What factors influence the formation of chelates?
+
+a. Only the pH of the solution
+b. The molecular weight of the compound
+c. The type of solvent used
+**d. Functional groups of the ligand and central atom properties**
+
+
+<truncated 282 bytes>
+imple covalent bonds
+c. A mixture of ionic substances
+**d. A compound formed when a central atom bonds with ligands through coordinate covalent bonds**
+
+---
+
+**12. What is the central atom in a complex compound typically made of?**
+a. Hydrogen ion
+**b. A metal atom or ion**
+c. Neutral molecules
+d. A nonmetal atom
+
+---
+
+**13. What is the function of EDTA in chelation therapy?**
+**a. It binds toxic metal ions and removes them from the body**
+b. It neutralizes acids
+c. It decreases water solubility
+d. It promotes protein synthesis
+
+---
+
+**14. What is the primary advantage of chelation?**
+**a. Stabilizing metal ions by forming strong bonds**
+b. Dissolving toxic substances instantly
+c. Enhancing enzymatic reactions
+d. Breaking down neutral molecules
+
+---
+
+**15. What is the primary medical use of chelate complexes?**
+a. Treating hypertension
+**b. Detoxification of toxic metals in the body**
+c. Increasing calcium levels
+d. Enhancing enzyme activity
+
+---
+
+**16. When is chelation therapy most commonly recommended?**
+**a. In cases of heavy metal poisoning**
+b. To treat respiratory diseases
+c. To treat calcium deficiency
+d. For improving digestion
+
+---
+
+**17. Which ligand has a high chelating capacity?**
+a. Halides like Cl⁻
+**b. Polydentate ligands like EDTA**
+c. Monodentate ligands like NH₃
+d. Neutral molecules like H₂O
+
+---
+
+**18. Which of the following is an example of a chelate complex?**
+a. [Fe(CN)₆]³⁻
+b. NaCl
+**c. [Cu(EDTA)]²⁻**
+d. [Co(NH₃)₆]³⁺
+
+---
+
+**19. Which of the following is an example of a chelating ligand?**
+a. Chloride ion (Cl⁻)
+**b. EDTA (Ethylenediaminetetraacetic acid)**
+c. Ammonia (NH₃)
+d. Water (H₂O)
+
+---
+
+**20. Why is chelation therapy used?**
+a. To enhance protein synthesis
+b. To regulate blood sugar
+c. To promote muscle growth
+**d. To bind and remove toxic metal ions from the body**
+
+
+
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-06-02T21:33:42+05:30.
+</ADDITIONAL_METADATA>
+
+=======
+
+<USER_REQUEST>
+UPDATE THIS QUESTION IN MEDICAL CHEMISTRY TOPIC 9 IN TEST QUESTIONS
+
+**1. How do inhibitors affect enzymatic catalysis?**
+a. They convert enzymes into substrates
+b. They increase enzyme activity by providing energy
+c. They do not affect enzyme activity
+**d. They decrease enzyme activity by binding to the enzyme**
+
+---
+
+**2. How does a catalyst affect the reaction rate?**
+a. It does not affect the reaction rate
+**b. It lowers the activation energy, increasing the reaction rate**
+c. It raises the activation energy, slowing the reaction
+d. It completely consumes the reactants
+
+---
+
+**3. How does an increase in temperature affect reaction rate?**
+a. It stops the reaction
+b. It has no effect on the reaction rate
+**c. It increases the kinetic energy of the molecules, speeding up the reaction**
+d. It decreases the energy of activation
+
+---
+
+**4. How does pH affect enzyme activity?**
+a. pH has no effect on enzyme activity
+b. Lower pH always stops enzyme activity
+**c. Each enzyme has an optimal pH range for maximum activity**
+d. Higher pH always increases enzyme activity
+
+---
+
+**5. How does substrate concentration affect enzymatic reactions?**
+a. An increase in substrate concentration decreases reaction rate
+b. Substrate concentration changes enzyme structure
+c. Substrate concentration has no effect on reaction rate
+**d. An increase in substrate concentration increases the reaction rate until the enzyme is saturated**
+
+---
+
+**6. What are coenzymes?**
+a. Inhibitors that bind to the enzyme
+b. Substrates in enzymatic reactions
+c. Proteins that slow down reactions
+**d. Non-protein molecules that assist enzymes in catalysis**
+
+---
+
+**7. What happens to enzymes at very high temperatures?**
+a. They stop binding to substrates temporarily
+**b. They denature and lose their catalytic properties**
+c. They become more active
+d. They increase reaction rate indefinitely
+
+---
+
+**8. What is a common use of enzymes in medicine?**
+a. Increasing drug solubility
+b. Pro
+<truncated 999 bytes>
+e reaction
+d. The minimum energy required for a reaction to occur ✅
+
+**Answer: d**
+
+---
+
+**13. What is the Michaelis-Menten constant (Km)?**
+a. The energy required to break enzyme-substrate bonds
+b. A measure of the substrate concentration at which the reaction rate is half of its maximum value ✅
+c. The rate constant for all reactions
+d. A constant that measures the reaction speed
+
+**Answer: b**
+
+---
+
+**14. What is the primary medical use of enzymatic catalysis?**
+a. Treating bacterial infections
+b. Reducing muscle pain
+c. Promoting cell growth
+d. Enhancing metabolic processes and diagnostics ✅
+
+**Answer: d**
+
+---
+
+**15. What is the role of enzymes in enzymatic catalysis?**
+a. To lower the activation energy of biochemical reactions ✅
+b. To maintain equilibrium in the reaction
+c. To act as reactants in the process
+d. To stop unwanted reactions
+
+**Answer: a**
+
+---
+
+**16. What is the role of lactase in medicine?**
+a. To increase vitamin absorption
+b. To help digest lactose in patients with lactose intolerance ✅
+c. To enhance immune response
+d. To treat protein deficiencies
+
+**Answer: b**
+
+---
+
+**17. Which enzyme is commonly used in diagnosing liver diseases?**
+a. Catalase
+b. Amylase
+c. Lactase
+d. Alanine transaminase (ALT) ✅
+
+**Answer: d**
+
+---
+
+**18. Which factor directly affects the rate of a chemical reaction?**
+a. Shape of the molecules
+b. Mass of the container
+c. Temperature ✅
+d. Color of the reactants
+
+**Answer: c**
+
+---
+
+**19. Which factor does not affect enzyme activity?**
+a. Substrate concentration
+b. Presence of inhibitors
+c. Color of the enzyme ✅
+d. Temperature and pH
+
+**Answer: c**
+
+---
+
+**20. Which of the following is a factor that influences reaction rate?**
+a. Atmospheric pressure
+b. The color of the solution
+c. Type of reaction container
+d. Concentration of reactants ✅
+
+**Answer: d**
+
+
+
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-06-02T21:43:01+05:30.
+</ADDITIONAL_METADATA>
+
+=======
+

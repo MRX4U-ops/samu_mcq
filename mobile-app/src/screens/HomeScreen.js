@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, StatusBar, Linking, Image, Alert } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, StatusBar, Linking, Image, Alert, Modal } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { Search, Bell, Lock, Unlock, Swords, Trophy, Timer, Camera, HelpCircle, Plane, User, BookOpen, Sparkles, ChevronRight, Globe, CircleCheck, Youtube, Flame, GraduationCap, AlertTriangle } from 'lucide-react-native';
+import { Search, Bell, Lock, Unlock, Swords, Trophy, Timer, Camera, HelpCircle, Plane, User, BookOpen, Sparkles, ChevronRight, Globe, CircleCheck, Youtube, Flame, GraduationCap, AlertTriangle, Stethoscope } from 'lucide-react-native';
 import { useTheme } from '../context/ThemeContext';
 import { API_URL } from '../config/Constants';
 import TopHeader from '../components/TopHeader';
@@ -40,6 +41,34 @@ const HomeScreen = ({ navigation }) => {
     ? (getAvatarSrc(profile.avatar_url) || (profile.avatar_url.startsWith('http') ? { uri: profile.avatar_url } : null))
     : null;
   const [isOfferVisible, setIsOfferVisible] = useState(false);
+  const [isEidPopupVisible, setIsEidPopupVisible] = useState(false);
+
+  useEffect(() => {
+    const checkEidPopup = async () => {
+      try {
+        const storedData = await AsyncStorage.getItem('eid_popup_data');
+        const now = new Date().getTime();
+        let data = storedData ? JSON.parse(storedData) : null;
+
+        if (!data) {
+          // Initialize for 3 days from now, count = 0
+          const expiry = now + (3 * 24 * 60 * 60 * 1000);
+          data = { count: 0, expiry };
+        }
+
+        // Check if within 3 days and count < 3
+        if (now < data.expiry && data.count < 3) {
+          data.count += 1;
+          await AsyncStorage.setItem('eid_popup_data', JSON.stringify(data));
+          setIsEidPopupVisible(true);
+        }
+      } catch (error) {
+        console.log('Error checking Eid popup data:', error);
+      }
+    };
+    
+    checkEidPopup();
+  }, []);
   const [greeting, setGreeting] = useState('');
   const [showGreeting, setShowGreeting] = useState(false);
   const [quote, setQuote] = useState('');
@@ -191,6 +220,7 @@ const HomeScreen = ({ navigation }) => {
   ]);
 
   const featureCards = [
+    { title: 'Diagnostics Hub', sub: 'Clinical tests & imaging', icon: Stethoscope, color: '#0284C7', screen: 'DiagnosticsHub', premium: true },
     { title: 'Quiz Battle', sub: 'Multiplayer real-time', icon: Swords, color: '#8B5CF6', screen: 'BattleHome' },
     { title: 'Leaderboard', sub: 'Live arena rankings', icon: Trophy, color: '#F59E0B', screen: 'Leaderboard' },
     { title: 'Exam Results', sub: 'Biochemistry & more', icon: GraduationCap, color: '#0F172A', screen: 'ExamResults' },
@@ -230,6 +260,8 @@ const HomeScreen = ({ navigation }) => {
       <TopHeader title="SAMU MCQs" />
 
       <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.scrollContent}>
+
+
 
         {/* Daily MCQ Practice Streak Card for Active Users */}
         {streak > 0 && (
@@ -322,19 +354,42 @@ const HomeScreen = ({ navigation }) => {
 
         {/* Feature Action Cards */}
         <View style={styles.actionGrid}>
-          {featureCards.map((card, idx) => (
-            <TouchableOpacity 
-              key={idx} 
-              style={[styles.actionCard, { backgroundColor: card.color }]}
-              onPress={() => navigation.navigate(card.screen)}
-            >
-              <View style={styles.actionIconBox}>
-                <card.icon size={28} color="#FFF" />
-              </View>
-              <Text style={styles.actionTitle}>{card.title}</Text>
-              <Text style={styles.actionSub}>{card.sub}</Text>
-            </TouchableOpacity>
-          ))}
+          {featureCards.map((card, idx) => {
+            const isSubscribed = !!subscription || profile?.role === 'admin';
+            return (
+              <TouchableOpacity 
+                key={idx} 
+                style={[styles.actionCard, { backgroundColor: card.color }]}
+                onPress={() => {
+                  if (card.premium && !isSubscribed) {
+                    Alert.alert(
+                      "Subscription Required",
+                      "Please subscribe to unlock access to the premium Clinical Diagnostics Hub.",
+                      [
+                        { text: "Cancel", style: "cancel" },
+                        { text: "Subscribe Now", onPress: () => navigation.navigate('Subscription') }
+                      ]
+                    );
+                  } else {
+                    navigation.navigate(card.screen);
+                  }
+                }}
+              >
+                <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+                  <View style={styles.actionIconBox}>
+                    <card.icon size={28} color="#FFF" />
+                  </View>
+                  {card.premium && (
+                    <View style={{ backgroundColor: 'rgba(255,255,255,0.2)', paddingHorizontal: 6, paddingVertical: 2, borderRadius: 8, height: 20 }}>
+                      <Text style={{ color: '#FFF', fontSize: 10, fontWeight: 'bold' }}>PREMIUM</Text>
+                    </View>
+                  )}
+                </View>
+                <Text style={styles.actionTitle}>{card.title}</Text>
+                <Text style={styles.actionSub}>{card.sub}</Text>
+              </TouchableOpacity>
+            );
+          })}
         </View>
 
         {/* Telegram Banner */}
@@ -477,6 +532,40 @@ const HomeScreen = ({ navigation }) => {
         visible={isOfferVisible && !subscription} 
         onClose={() => setIsOfferVisible(false)} 
       />
+
+      {/* Eid Mubarak Modal Popup */}
+      <Modal
+        visible={isEidPopupVisible}
+        transparent={true}
+        animationType="fade"
+        onRequestClose={() => setIsEidPopupVisible(false)}
+      >
+        <View style={{ flex: 1, backgroundColor: 'rgba(0,0,0,0.6)', justifyContent: 'center', alignItems: 'center', padding: 20 }}>
+          <LinearGradient
+            colors={['#047857', '#065F46', '#064E3B']}
+            start={{ x: 0, y: 0 }}
+            end={{ x: 1, y: 1 }}
+            style={{ width: '100%', borderRadius: 24, padding: 24, alignItems: 'center', elevation: 10 }}
+          >
+            <View style={{ width: 80, height: 80, borderRadius: 40, backgroundColor: 'rgba(255,255,255,0.2)', justifyContent: 'center', alignItems: 'center', marginBottom: 16 }}>
+              <Sparkles size={40} color="#FDE047" />
+            </View>
+            
+            <Text style={{ color: '#FDE047', fontSize: 26, fontWeight: '900', letterSpacing: 1, marginBottom: 10, textAlign: 'center' }}>EID MUBARAK! 🌙</Text>
+            <Text style={{ color: '#D1FAE5', fontSize: 15, fontWeight: '600', textAlign: 'center', lineHeight: 22, marginBottom: 24 }}>
+              May this beautiful occasion bring peace, happiness, and prosperity to you and your family.
+            </Text>
+            
+            <TouchableOpacity 
+              onPress={() => setIsEidPopupVisible(false)}
+              style={{ backgroundColor: '#FDE047', paddingVertical: 12, paddingHorizontal: 30, borderRadius: 12, width: '100%', alignItems: 'center' }}
+            >
+              <Text style={{ color: '#064E3B', fontSize: 16, fontWeight: 'bold' }}>Thank You!</Text>
+            </TouchableOpacity>
+          </LinearGradient>
+        </View>
+      </Modal>
+
     </SafeAreaView>
   );
 };

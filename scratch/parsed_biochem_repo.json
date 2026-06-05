@@ -1,0 +1,332 @@
+[
+  {
+    "question": "What is the monomer of nucleic acids:",
+    "options": [
+      "Nucleotides",
+      "Amino acids",
+      "Monosaccharides",
+      "Peptides"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'Nucleotides'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Show the heterocyclic compound that forms the basis of the structure of adenine:",
+    "options": [
+      "Purine",
+      "Pyrimidine",
+      "Imidazole",
+      "Tryptophan"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'Purine'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Show the nitrogenous base that is formed during the recovery of the RNA chain from the DNA chain:",
+    "options": [
+      "Uracil",
+      "Adenine",
+      "Guanine",
+      "Cytosine"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'Uracil'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "What kind of bond provides the primary structure of DNA and RNA:",
+    "options": [
+      "Phosphodiether",
+      "Glycoside",
+      "Peptide",
+      "Hydrophobic"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'Phosphodiether'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Name a structural component that is not specific to DNA:",
+    "options": [
+      "dUMF",
+      "dAMF",
+      "dSMF",
+      "dTMF"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'dUMF'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Select a matrix biosynthesis process:",
+    "options": [
+      "Everything is correct",
+      "Replication",
+      "Transcription",
+      "Broadcasting"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'Everything is correct'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Clover leaf structure is characteristic for which nucleic acid:",
+    "options": [
+      "tRNA",
+      "Tertiary structure of DNA",
+      "mRNA",
+      "mRNA"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'tRNA'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Which type of nucleic acid contains thymine?",
+    "options": [
+      "DNA",
+      "rRNA",
+      "mRNA",
+      "tRNA"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'DNA'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Nucleoproteins are representatives of:",
+    "options": [
+      "Ribosome",
+      "Microsome",
+      "Liposome",
+      "Lysosome"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'Ribosome'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Splicing is:",
+    "options": [
+      "Introns are cut and exons are joined",
+      "Copying of RNA molecules",
+      "Cutting of exons, splicing of introns",
+      "An adenylate residue is attached to the 3-end of the mRNA molecule"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'Introns are cut and exons are joined'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Enzyme involved in replication:",
+    "options": [
+      "Helicase",
+      "Insertase",
+      "DNA hydrolase",
+      "Phosphokinase"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'Helicase'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "What is not involved in the replication process:",
+    "options": [
+      "m-RNA",
+      "Primer",
+      "Primaza",
+      "DNA polymerase"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'm-RNA'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Select substrates for DNA polymerase:",
+    "options": [
+      "dATF, dGTF, dSTF, dTTF",
+      "ATF, GTF, UTF, STF",
+      "ATF, GTF, STF, TTF",
+      "AMF, GMF, TMF, SMF"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'dATF, dGTF, dSTF, dTTF'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Enzyme involved in repair:",
+    "options": [
+      "Purine-insertase",
+      "RNA polymerase",
+      "Helicase",
+      "s.s.b proteins"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'Purine-insertase'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Determine the name of the chemical bond that forms the primary structure of the DNA molecule:",
+    "options": [
+      "Phosphodiether",
+      "Hydrogen",
+      "Coordination",
+      "Disulfide"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'Phosphodiether'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "What determines the primary structure of RNA?",
+    "options": [
+      "A single strand of DNA",
+      "Two strands of DNA",
+      "RNA polymerase",
+      "ribosome"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'A single strand of DNA'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "How many types of mRNA are there?",
+    "options": [
+      "the type of molecules is equal to the number of proteins",
+      "61 different molecules",
+      "3 different molecules",
+      "64 different molecules"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'the type of molecules is equal to the number of proteins'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "How many types of tRNA are there?",
+    "options": [
+      "61 different molecules",
+      "the type of molecules is equal to the number of proteins",
+      "3 different molecules",
+      "64 different molecules"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is '61 different molecules'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "How is one strand connected to another to form the secondary structure of DNA:",
+    "options": [
+      "hydrogen bonds",
+      "covalent bonds",
+      "ionic interactions",
+      "hydrophobic bonds"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'hydrogen bonds'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Information storage parts of transcriptons:",
+    "options": [
+      "exon",
+      "acceptor",
+      "operon",
+      "intron"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'exon'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Show the part of the transcripton where the repressor protein binds:",
+    "options": [
+      "operator",
+      "promoter",
+      "operon",
+      "intron"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'operator'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "What is the mechanism of sickle cell anemia?",
+    "options": [
+      "substitution of a nitrogenous base in a gene",
+      "dropping a nucleotide from the gene",
+      "entering the nucleotide into the gene",
+      "substitution of termination codon instead of sense codon"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'substitution of a nitrogenous base in a gene'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Point mutations:",
+    "options": [
+      "Change of nitrogen bases in DNA molecule",
+      "Multiple damage to the DNA molecule",
+      "Change in enzyme activity",
+      "Change in gene operator activity"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'Change of nitrogen bases in DNA molecule'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Primary transcript content:",
+    "options": [
+      "exon+intron",
+      "exon only",
+      "intron only",
+      "operon"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'exon+intron'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Define transcription:",
+    "options": [
+      "DNA-based RNA synthesis",
+      "RNA-based DNA synthesis",
+      "DNA-based protein synthesis",
+      "RNA-based protein synthesis"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'DNA-based RNA synthesis'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "RNA maturation process:",
+    "options": [
+      "Processing",
+      "Splicing",
+      "Broadcasting",
+      "Transcription"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'Processing'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "In the process of processing occurs:",
+    "options": [
+      "All answers are correct",
+      "Excision of introns",
+      "Splicing of nonsense codons",
+      "Modification of informative parts"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'All answers are correct'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "What is reparation?",
+    "options": [
+      "Repair of damaged parts of DNA",
+      "Repair of damaged RNA fragments",
+      "The origin of mutations in DNA",
+      "DNA synthesis based on RNA"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'Repair of damaged parts of DNA'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Not used in RNA synthesis:",
+    "options": [
+      "TTF",
+      "ATF",
+      "GTF",
+      "STF"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'TTF'. This choice aligns with the established clinical curriculum."
+  },
+  {
+    "question": "Factor causing mutation:",
+    "options": [
+      "Ion radiations",
+      "Somatic diseases",
+      "Hunger",
+      "Obesity"
+    ],
+    "correctIndex": 0,
+    "explanation": "The correct answer is 'Ion radiations'. This choice aligns with the established clinical curriculum."
+  }
+]

@@ -1,0 +1,31 @@
+Situational Task Topic 1
+1. The optical part of the microscope includes:
+a. Mirror
+*b. Eyepiece
+c. Condenser
+d. Diaphragm
+2. The mechanical part of the microscope includes:
+a. Eyepiece
+b. Mirror
+*c. Macro screw
+d. Diaphragm
+3. What is the total magnification of a microscope that has an x7 eyepiece and an x90 objective?
+a. x56
+*b. x630
+c. x33
+d. x47
+4. Name the low power lens:
+a. x 15
+b. x 90
+*c. x 8
+d. x 40
+5. The lighting part of the microscope includes:
+*a. Mirror
+b. Microscrew
+c. Tube
+d. Eyepiece
+6. What is the function of the micrometer screw of a light microscope?
+a. Increased illumination of the field of view
+*b. Accurate focusing of the object image
+c. Reducing illumination of the field of view
+d. Adjusting the condenser position

@@ -86,12 +86,30 @@ export const setupNotificationListeners = (navigation) => {
   // Foreground listener
   const notificationListener = Notifications.addNotificationReceivedListener(notification => {
     console.log('Notification Received in Foreground:', notification);
+    const data = notification.request.content.data;
+    if (data && data.action === 'trigger_alarm' && data.alarmId) {
+      try {
+        const useAlarmStore = require('../store/alarmStore').default;
+        useAlarmStore.getState().triggerAlarm(data.alarmId);
+      } catch (e) {
+        console.error('Error triggering alarm in foreground:', e);
+      }
+    }
   });
 
   // Response listener (user tapped notification)
   const responseListener = Notifications.addNotificationResponseReceivedListener(response => {
     const data = response.notification.request.content.data;
     console.log('Notification Tapped:', data);
+
+    if (data && data.action === 'trigger_alarm' && data.alarmId) {
+      try {
+        const useAlarmStore = require('../store/alarmStore').default;
+        useAlarmStore.getState().triggerAlarm(data.alarmId);
+      } catch (e) {
+        console.error('Error triggering alarm on tap:', e);
+      }
+    }
 
     if (data.screen) {
       navigation.navigate(data.screen, data.params || {});

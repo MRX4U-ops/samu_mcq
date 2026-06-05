@@ -1,0 +1,528 @@
+const fs = require('fs');
+
+const data = `$CATEGORY:v.m./Topic16
+AGGSSAAGGTTSS Find the i-RNA synthesized from the following DNA fragment.{
+=USGSGUUSSAAGG
+~UGGAATTSSAAUU
+~TSSGGTTGGTTSS
+~AGGGGSSTTAAGG
+}
+USSGAAGUUGAA Find the structure of the DNA double chain synthesized from the following i-RNA.{
+=AGGSTTSAASTT=TSSGAAGTTGAA
+~TSSGAAGTTGAA=TSSGAAGTTGAA
+~USGSGUUSSAAGG=UGGAATTSSAAUU
+~TSSGGTTGGTTSS=AGGGGSSTTAAGG
+}
+Show the function of GGGTTA nucleotide{
+=Stores genetic information
+~methylates DNA
+~Starts transcription
+~Starts replication
+}
+Which enzyme replaces the primer parts of DNA?{
+=Telomerase
+~Isoshizomerase
+~Helicase
+~Methylase
+}
+There is a tumor cell in the body. Which enzyme activity is higher in this cell?{
+=Telomerase
+~Isoshizomerase
+~Helicase
+~Methylase
+}
+
+$CATEGORY:v.m./Topic17
+As a result of clinical examination, it was found that the blood of a pregnant woman has increased phenylalanine. How can this condition affect the child?{
+=May cause oligophrenia
+~Causes anemia
+~Causes diarrhea
+~Causes hepatitis
+}
+An 18-year-old man applied to a genetic doctor. His shoulders are narrow, his hair is broad, he is tall, he has hair typical of a woman, and his voice is thick. There is mental retardation. Klinefelter's syndrome was diagnosed based on the initial diagnosis. Which genetic testing method allows you to confirm the diagnosis?{
+=Cytogenetic method
+~Fermentative method
+~Dialysis
+~Chromatography
+}
+An 18-year-old girl complained to the doctor that she did not have her period. As a result of the examination, it was found that her height is 140 cm, her neck is short (Sphinx neck), her shoulders are wide, her vagina is narrow, she does not have secondary sex organs, and her ovaries are not developed. What is the approximate diagnosis?{
+=Shershevsky_-Turner syndrome
+~Down syndrome
+~Klinefelter's syndrome
+~Patau's syndrome
+}
+A few months after the birth of the child, it was found that he has SNS, his skin and hair are gray. When 5% trichloroxic acid was dropped into the urine, an olive-green color appeared. What disease is this?{
+=Phenylketinuria
+~Alkaptonuria
+~Galactosemia
+~Albinism
+}
+A woman who was lagging behind in sexual and physical development applied to the medical-genetic consulting room. Sex chromatin was not detected during examination of the cells of the oral mucosa. Which chromosomal disorder is this characteristic of?{
+=Shevshvesky-Turner syndrome
+~Down syndrome
+~Klinefelter's syndrome
+~Patau's syndrome
+}
+
+$CATEGORY:v.m./Topic18
+Acute pain appeared in the right leg of a patient with diabetes. On examination, the thumb is black, the leg tissues are swollen, epidermal separation foci, foul-smelling discharge. What clinical-morphological form of necrosis has developed in the patient?{
+=wet gangrene
+~dry gangrene
+~bed pain
+~heart attack
+}
+As a result of the microscopic examination of the liver tissue, it was found that some cells were broken into small pieces surrounded by a membrane with separate organelles and nuclear remnants. No inflammatory reaction. Select the pathological process characterized by the described changes.{
+=apoptosis
+~necrosis
+~karyorrhexis
+~Plasmorexis
+}
+Cell ultrastructures that ensure the processes of autolysis in the cell{
+=Lysosomes
+~Mitochondria
+~Microsomes
+~Endoplasmic reticulum
+}
+A 60-year-old man referred to a surgeon, who had long-standing diabetes. The tissue of the right leg was dense with black, distinct edges. Make a diagnosis.{
+=dry gangrene
+~bed pain
+~trophic ulcer
+~wet gangrene
+}
+In the molecular analysis of the hemoglobin of a patient with anemia, it was found that the beta chain was replaced by 6 val by 6 glu. What is the molecular mechanism of pathology?{
+=Gene mutation
+~Impairment of mRNA modification
+~Dysfunction of the nuclear membrane
+~Transduction of genes
+}
+
+$CATEGORY:v.m./Topic19
+In a 22-year-old patient, palpation reveals a round, dense, painless tumor of 2 cm in the border of the upper quadrants of the left mammary gland. The most likely diagnosis:{
+=Fibroadenoma
+~Breast cancer
+~Breast sarcoma
+~Swelling of leaves
+}
+An 80-year-old patient has stage II b cancer of the middle thoracic esophagus. The optimal treatment method:{
+=Surgical treatment
+~dynamic tracking
+~combined treatment with preoperative radiation therapy
+~combined treatment with postoperative radiation therapy
+}
+A 60-year-old patient was admitted to the polyclinic with complaints of pain in the pelvis, spine, femur, and ribs. X-rays of the pelvis and spine revealed multiple osteoblastic metastases. The most likely diagnosis?{
+=Prostate cancer with bone metastases.
+~Kidney cancer
+~Osteoparosis of the lumbar spine
+~Pelvic fracture
+}
+Which method of special antitumor treatment is not used in the treatment of small cell lung cancer?{
+=Surgery.
+~Chemotherapy.
+~Radiation therapy.
+~Immunotherapy.
+}
+The process of multistage accumulation of cell cycle regulation, apoptosis, differentiation, cell morphogenetic reactions, mutations and other genetic changes leading to disruption of anti-tumor immunity is called:{
+=Carcinogenesis
+~Cancer
+~Precancerous condition
+~Dysplasia
+}
+
+$CATEGORY:v.m./Topic20
+A 38-year-old patient has a decompensated form of diabetes. Under these conditions, does the type of hemoglobin appear in the red blood cells?{
+=Glycosylated hemoglobin (Nva1c)
+~Fetal hemoglobin (HbF)
+~Methemoglobin (hvm)
+~Abnormal hemoglobin G
+}
+A 48-year-old patient consulted a doctor with a diagnosis of rheumatism, active stage. Which indicator of blood serum is diagnostically important in this pathology?{
+=C-reactive protein
+~Urea
+~Uric acid
+~Creatinine
+}
+The examined N., in 30 years, the following blood parameters were determined: erythrocytes - 4 g / l, hemoglobin - 145 g / l, leukocytes - 5 g / l, fibrinogen - 3 g / l, total protein - 120 g / l. which reading is not normal?{
+=Total protein
+~Red Blood Cells
+~Hemoglobin
+~White Blood Cells
+}
+As a result of chronic liver disease, the function of protein synthesis in a person is significantly impaired. Can this cause a decrease in the homeostasis parameter?{
+=Oncotic pressure
+~Blood pH
+~Hypervolemia
+~Anticoagulant
+}
+In the postoperative period, the patient experiences complications from time to time - bleeding from the wound. Is it related to the lack of a substance synthesized in the liver in the blood?{
+=Prothrombin
+~Heparin
+~Creatine
+~Ceruloplasmin
+}
+
+$CATEGORY:v.m./Topic21
+The patient was admitted to the hospital with a diagnosis of acute intermittent porphyria. Urine is red. The cause of the disease may be a violation of biosynthesis:{
+=Hema
+~Bile acids
+~Prostaglandins
+~Collagen
+}
+In the urine of a healthy person, there is a small amount of bilirubin that cannot be detected by ordinary laboratory methods. Pathological conditions are accompanied by the appearance of bilirubin (bilirubinuria) in the urine.{
+=The correct answers are B and C
+~Damage to the liver parenchyma
+~Biliary obstruction
+~Kidney diseases
+}
+After the blood transfusion, the skin and mucous membranes of the patient turned yellow, the level of total and indirect bilirubin in the blood increased, the amount of urobilin in the urine, and the level of stercobilin in the feces increased. What type of jaundice is this talking about?{
+=Hemolytic jaundice
+~Obstructive jaundice
+~Parenchymal jaundice
+~Neonatal jaundice
+}
+Yellowing of the skin and mucous membranes is observed in a newborn baby. Which blood count caused this condition to increase?{
+=Indirect bilirubin
+~Direct bilirubin
+~Uric acid
+~Urea
+}
+A venomous snake bite causes hemolytic jaundice in the affected person. First of all, what indicator of blood plasma increases in the victim?{
+=Bilirubin indirect (unconjugated)
+~Direct (conjugated) bilirubin
+~Uric acid
+~Urea
+}
+
+$CATEGORY:v.m./Topic22
+Oxyproline and proline were found in high concentrations in the patient's urine.In this patient, a disorder of protein metabolism can be assumed:{
+=Collagen
+~Hemoglobin
+~Myosin
+~Fibrinogen
+}
+The patient has a violation of the permeability of blood vessels. Name the connective tissue protein whose synthesis is impaired:{
+=Collagen
+~Myoglobin
+~Albumin
+~Tropomyosin
+}
+The patient has progressive muscle weakness and low performance, the amount of carnitine in skeletal and heart muscles, liver and blood plasma decreases. Which amino acids are not enough in food?{
+=Lysine and methionine
+~Arginine and Vali
+~Aspartic and glutamic acids
+~Histidine and serine
+}
+An 18-year-old man was diagnosed with muscular dystrophy. Is there a high probability of an increase in the serum substance with this pathology?{
+=Creatine
+~Myosin
+~Lactate
+~Alanina
+}
+The patient has frequent bleeding from internal organs and mucous membranes. The analysis revealed a deficiency of hydroxyproline and hydroxylysine. Hydroxylation processes of these amino acids are disturbed due to which vitamin deficiency?{
+=Vitamin C
+~Vitamin A
+~Vitamin K
+~Vitamin PP
+}
+
+$CATEGORY:v.m./Topic23
+In a 63-year-old patient, as a result of bleeding in the gastrointestinal tract, the decay of blood proteins under the influence of intestinal microorganisms was observed. It is possible to see the increased concentration of which substance in the patient? What simple substance does this compound consist of? What are the salts of this substance called?{
+=Indole, Amino acids, Indican
+~Phenol, methane, cadaverine
+~Putrescine, carbohydrate, indole
+~Indole, amino acids, cadaverine
+}
+The patient has acute pancreatitis. For treatment, the doctor prescribed trasilol. What kind of disease is pancreatitis, and why was Trasilol prescribed to this patient?{
+=Prevention of inflammation of the pancreas
+~prevention of inflammation of the pituitary gland
+~Prevention of inflammation of the stomach wall
+~Prevention of intestinal inflammation
+}
+The patient complains of acute pain in the abdomen, nausea, vomiting. In diastase, the result of urine analysis showed 800 grams/l hour. How to diagnose? How is diastase enzyme related to this pathological process? Which organ produces this enzyme?{
+=Acute pancreatitis, amylase, pancreas
+~Acute pancreatitis, lipase, pancreas
+~Acute pancreatitis, ligase, thyroid gland
+~Acute pancreatitis, amylase, adrenal glands
+}
+Fatty degeneration develops in the baby's liver, galactazuria and aminoaciduria are observed. Total bilirubin in the blood increases. The child was diagnosed with galactosuria. What substance should be excluded from the child's diet? How is bilirubin related to this pathology?{
+=Milk sugar (galactose), urinary excretion of galactose.
+~Urinary excretion of glucose, the end product of protein breakdown.
+~Salivary excretion of galactose, the end product of fat breakdown.
+~The end product of heme breakdown is urinary excretion of fructose.
+}
+The pH value of gastric juice in children is 4.0 to 5.0. Name the enzyme that is active in this condition in gastric juice in children. pH value of gastric juice in adults? In adults, the main enzyme that breaks down proteins in the stomach?{
+=Renin, 1.5-2.0, Pepsin
+~Pepsin, 2.0-4.0, trypsin
+~Renin, 1.0-3.0, Hemotrypsin
+~Hemotrypsin 3.0-2.5 Pepsin
+}
+
+$CATEGORY:v.m./Topic24
+A 12-month-old girl was found to have weakness in the development of muscles in her arms and legs and difficulty in breathing. The liver was enlarged and cardiomegaly was seen on computed tomography. A biopsy taken from the muscle showed that most of it was degenerated, and the primary lysosomes were filled with electron-dense bodies. It was explained to the parents that if these conditions were not treated, the symptoms would worsen and lead to death in 1-2 years. Enzyme replacement therapy was started for the patient. Question: What disease did the patient have?{
+=Pompe
+~Von-Girke
+~Anderson
+~McArdel
+}
+The student walked around the gym 10 times in the physical education class. The next day, he had severe pain in his hip and calf muscles, and difficulty climbing the stairs. What causes muscle pain? Is it necessary to treat the student to relieve these pains?{
+=Formation and accumulation of lactic acids from anaerobic breakdown of glucose
+~Formation and accumulation of pyruvate from aerobic breakdown of glucose
+~Occurrence of muscle cantructure
+~Lack of nutrition to the muscles
+}
+A mother who noticed tremors in the fingers of a 4-year-old child turned to a pediatrician. The doctor said that the child has low Ca2 +. What is the importance of Ca2 + ions and troponin protein in muscle contraction?{
+=Muscle contraction depends on the concentration of Ca2+ ions, troponin binds Ca2+ and forms an actomyosin complex
+~Troponin activates calmodulin depending on the concentration of Ca2 + ions during muscle relaxation
+~The concentration of Ca2 + ions ensures muscle contraction and relaxation, troponin activates it
+~Muscle contraction does not depend on the concentration of Ca2 + ions, it is important as a macroelement, troponin forms the actomyosin complex.
+}
+Why is the ratio of FT and ST fibers and the length of the sarcomere in human skeletal muscles called a genetic predisposition factor?{
+=FT and ST fibers and sarcomere are protein in nature, and their synthesis depends on the sequence of nucleotides in DNA.
+~Ft to ST ratio and length of sarcomere proteins have no genetic predisposition.
+~FT and ST fibers and sarcomere are protein in nature, their synthesis is stored in RNA.
+~FT and ST fibers and sarcomere fat are fatty in nature, and their synthesis depends on the sequence of nucleotides in DNA and RNA
+}
+A 60-year-old man came to the doctor after chest pain. A significant increase in the activity of certain enzymes was found in blood serum: creatine phosphokinase and its MB-isoform, aspartate aminotransferase. These changes indicate the development of a pathological process in which tissues? What is the name of this disease? What is the name of this biochemical diagnostic method?{
+=Heart muscles, myocardial infarction, enzymodiagnostics
+~Liver cell tissue, liver cirrhosis, immunoenzyme method
+~In muscle tissues, muscular dystrophy, enzymodiagnostics.
+~In blood cells, thalassemia, immunoenzyme method
+}
+
+$CATEGORY:v.m./Topic25
+In which organ is the main depot of glycogen?{
+=Liver
+~Muscle
+~Kidney
+~Lungs
+}
+Indicate the enzyme involved in the cascade mechanism in the mobilization of liver glycogen:{
+=Protein kinase
+~Diphosphorylase
+~?-amylase
+~Lactase
+}
+Show the detoxification process in the liver:{
+=Synthesis of harmless substances from harmful substances
+~Synthesis of biogenic amines
+~Decarboxylation of cyclic amino acids
+~Demineralization
+}
+From which substance are bile acids produced in the liver?{
+=Cholesterol
+~Phospholipid
+~Acetoacetate
+~Lecithin
+}
+Detoxification of bilirubin in the liver takes place with the participation of the following enzyme:{
+=UDF-glucuronyltransferases
+~Glycinetransferases
+~Methyltransferases
+~Glutaminetransferases
+}
+
+$CATEGORY:v.m./Topic26
+In what organ is the main depot of glycogen located?{
+=Liver
+~muscles
+~kidneys
+~Lung
+}
+Specify the enzyme involved in the cascade mechanism of hepatic glycogen mobilization:{
+=protein kinase
+~Diphosphorylase
+~?-amylase
+~Lactase
+}
+Show the process of late detoxification in the liver:{
+=Synthesis of substances insensitive to harmful substances
+~Synthesis of biogenic amines
+~Decarboxylation of cyclic amino acids
+~Deamination
+}
+From what substance are bile acids formed in the liver?{
+=Cholesterol
+~Phospholipid
+~Acetoacetate
+~Lecithin
+}
+Neutralization of bilirubin in the liver is carried out in the presence of the following enzyme:{
+=UDF-glucuronyltransferase
+~Glycine transferase
+~Methyltransferases
+~Glutamine transferase
+}
+
+$CATEGORY:v.m./Topic27
+The patient complained of a lot of polydepsia (a lot of thirst) and polyuria (a lot of urination). Glucose was not detected in his urine, and his blood glucose was normal. What hormonal function is disturbed in this case?{
+=Vasopressin
+~Insulin
+~Oxytocin
+~Tyrosine
+}
+A 50-year-old patient complains that his ears, nose and hands have recently started to enlarge. Hyperfunction of which hormone produces similar symptoms?{
+=Somatotropic
+~Gonadotrope
+~Lieutenant
+~Androgen
+}
+Patient N., 45 years old, complains of weakness, fatigue, lack of appetite, weight loss, abdominal pain. Objective examination: the skin and visible mucous membranes have a bronze color, blood pressure is reduced. The patient was diagnosed with Addison's disease. What hormone dysfunction is this associated with?{
+=Aldosterone
+~Catecholamine
+~ADG
+~Androgen
+}
+Drugs are used to stimulate the contractile activity of the uterus based on which pituitary hormone?{
+=Oxytocin
+~Prolactin
+~Vasopressin
+~Follicle stimulating hormone
+}
+For the past 6 months, the patient has had multiple bone fractures, muscle weakness, and leg pain. What hormonal dysfunction could this be related to?{
+=Paratharmonic
+~Aldosterone
+~Catecholamine
+~Triiodothreonine
+}
+
+$CATEGORY:v.m./Topic28
+Patient K., 30 years old, complains of severe thirst and dry mouth after a severe nervous shock. In the laboratory examination, it was found that blood sugar increased to 10 mmol/l. What kind of endocrine disease does the patient have?{
+=Pancreas
+~Thyroid gland.
+~Adrenal glands
+~Epiphysis.
+}
+In the summer, a mother whose son's height grew by 18 cm turned to a doctor. During the examination of a 12-year-old boy: his height is 180 cm, his weight is 68 kg. What kind of endocrine gland dysfunction is it associated with?{
+=Pituitary gland
+~Epiphysis
+~Thyroid gland
+~Gonads
+}
+A patient who lost consciousness on the street was brought to the emergency department of the hospital. The examination revealed the smell of acetone from the mouth. What is the initial diagnosis?{
+=Diabetic coma
+~Hepatic coma
+~Threotoxicosis
+~Tetany
+}
+The mother of a 9-year-old boy complained to the endocrinologist that her child was showing signs of early puberty. Which gland may have hypofunction in a child?{
+=Epiphysis
+~Hypophysis
+~Thyroid gland
+~Gonads
+}
+A 25-year-old patient was admitted to the endocrinology clinic with complaints of short stature and lack of signs of puberty. He was born as a full-term baby of normal weight and height. From the age of 2-3, for no apparent reason, he began to lag behind in growth. Mental development is normal. The genitals are immature. Mammary glands are not developed. An X-ray of the skull above the Turkish saddle revealed a calcified tumor. Neither estrogen nor androgen sex hormones were found in the urine, the amount of 17-ketosteroid is reduced. Which endocrine gland is associated with this condition?{
+=Hypophysis
+~Epiphysis
+~Thyroid gland
+~Gonads
+}
+
+$CATEGORY:v.m./Topic29
+A patient who worked at a metallurgical plant for 3 years received lead poisoning. As a result, the kidney parenchyma is severely damaged. What complications can the patient experience?{
+=anuria - complete cessation of urination
+~the appearance of blood in the urine
+~uremia
+~the occurrence of cystitis
+}
+The daily dose of protein in the patient's urine is 2 g. What does this indicator mean?{
+=functional proteinuria
+~urolithiasis disease
+~nephroptosis
+~proteinuria
+}
+Patient, male, 49 years old. Suffering from nocturia, urine is excreted at night in greater quantities than during the day. What pathological conditions are possible with this kidney damage?{
+=initial form of cardiac decompensation
+~hepatitis
+~cirrhosis
+~diabetes
+}
+Analysis of the patient's urine showed that the color of the urine is different from the norm - pinkish-red. The patient was previously diagnosed with acute articular rheumatism. What drug changed the color of the patient's urine?{
+=amidopyrine
+~aponyl
+~Ceftriaxone
+~analgin
+}
+The relative density of urine ranges from 1.002 to 1.035. High density of urine in a patient and the presence of ketone bodies in the urine. Examinations revealed that the patient had diabetes mellitus. What caused the urine change?{
+=glucose, sharply acidic urine
+~acid urine
+~kidney function concentration
+~bicarbonate of soda
+}
+
+$CATEGORY:v.m./Topic30
+A 75-year-old woman has multiple sclerosis.What influenced the occurrence of this disease?{
+=myelin deficiency
+~Impaired dendritic function
+~Problems with the cerebellum
+~Trigeminal nerve injury
+}
+Sitting non-stop for 4 lessons, the student began to feel weak, it became difficult for him to concentrate, work physically, and soon he lost consciousness. What caused these symptoms to appear?{
+=Glucose deficiency
+~protein deficiency
+~Excess glucose
+~Excess protein
+}
+In embryonic mice, the level of glycogen in the brain is 3 times higher than in adults. What is the reason?{
+=In an adult, the brain differentiates and increases in size.
+~The adult brain is undifferentiated and not large
+~Due to the large size of the mouse brain
+~Abundance of mouse neurons
+}
+An 80-year-old patient has a disturbance in the supply and outflow of amino acids to the brain. What is the reason?{
+=Absence of the hematological-brain barrier
+~The presence of a hematological-brain barrier
+~Absence of the cerebellum
+~The presence of alcohol in the liver
+}
+What is observed in a patient with myasthenia gravis?{
+=Reducing the number of active postsynaptic receptors
+~Increase in the number of active postsynaptic receptors
+~Man is awake
+~The person becomes hyperactive
+}`;
+
+const lines = data.split('\n');
+let categories = [];
+let curCat = null;
+let curQ = null;
+
+for(let line of lines) {
+  line = line.trim();
+  if(!line) continue;
+  if(line.startsWith('$CATEGORY')) {
+    curCat = { qs: [] };
+    categories.push(curCat);
+    continue;
+  }
+  if(line.includes('{') && !line.startsWith('=') && !line.startsWith('~')) {
+    curQ = { q: line.replace('{','').trim(), ops: [] };
+    curCat.qs.push(curQ);
+  } else if (line.startsWith('=')) {
+    curQ.ops.push(line.substring(1).trim());
+  } else if (line.startsWith('~')) {
+    curQ.ops.push(line.substring(1).trim());
+  }
+}
+
+let out = `export const s_2_1_situational = {\n`;
+
+categories.forEach((cat, idx) => {
+  out += `  "t-s-2-1-${idx}": [\n`;
+  cat.qs.forEach((q, qidx) => {
+    out += `    {\n`;
+    out += `      "question": ${JSON.stringify(q.q)},\n`;
+    out += `      "options": [\n`;
+    q.ops.forEach((op, opidx) => {
+      out += `        ${JSON.stringify(op)}${opidx === q.ops.length-1 ? '' : ','}\n`;
+    });
+    out += `      ],\n`;
+    out += `      "correctIndex": 0,\n`;
+    out += `      "explanation": ""\n`;
+    out += `    }${qidx === cat.qs.length-1 ? '' : ','}\n`;
+  });
+  out += `  ]${idx === categories.length-1 ? '' : ','}\n`;
+});
+
+out += `};\n`;
+
+fs.writeFileSync('c:\\samu_mcq\\mobile-app\\src\\data\\repository\\course2\\s-2-1-situational.js', out);
+console.log('done');

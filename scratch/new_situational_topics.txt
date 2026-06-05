@@ -1,0 +1,815 @@
+Topic 1
+
+Question 1
+Situation: A patient visited a doctor with hypokalemia (potassium deficiency). How does the potassium deficiency in this patient affect the biological significance of S-elements in the body?
+a. Increase in immunity
+b. Decrease in vitamin assimilation
+*c. Disruption of cellular electrolyte balance
+d. Acceleration of protein synthesis
+Question 2
+Situation: A patient was diagnosed with hyponatremia (sodium deficiency). Which process will this lead to a disruption in?
+*a. Water-electrolyte balance and nerve impulse transmission
+b. Increased carbohydrate metabolism
+c. Decreased cholesterol synthesis
+d. Sharp increase in blood pressure
+Question 3
+Situation: People use fluoride toothpaste to strengthen teeth. What role does fluoride play in the body?
+a. Stimulates the circulatory system
+b. Transmits nerve impulses
+*c. Strengthens teeth and bones
+d. Enhances immune response
+Question 4
+Situation: The doctor recommended calcium supplements for the patient. Which key process in the body requires calcium?
+a. Neurotransmitter production
+b. Hormonal regulation
+c. Blood clotting and bone tissue formation
+*d. Maintaining water-electrolyte balance
+Question 5
+Situation: Which S-element decreases the effectiveness of hemoglobin, the oxygen-carrying molecule in the body?
+a. Silicon increases concentration its effectiveness
+*b. Iron deficiency causes disruption of oxygen transport
+c. Phosphorus deficiency increases oxygen transport
+d. Iodine reduces its effectiveness
+
+
+Topic 2
+Question 1
+Situation: If salt is added to boiling water, how does the boiling point change?
+*a. Boiling point increases
+b. Boiling point decreases
+c. No change occurs
+d. Boiling process accelerates
+Question 2
+Situation: What factors does the osmometric pressure of a solution depend on?
+*a. The number of particles in the solution
+b. The temperature and pH value of the solution
+c. The concentration and color of the solution
+d. The volume of the solution
+Question 3
+Situation: What happens to the properties of a solution when acid is added to boiling water?
+a. Tension increases
+b. Cell walls weaken
+*c. The boiling point increases
+d. Osmotic pressure decreases
+Question 4
+Situation: What happens when a hypotonic solution is introduced into the body?
+*a. Cells may swell and burst
+b. Cells
+c. Water is expelled from cells
+d. Cells shrink and decrease in size
+Question 5
+Situation: What is the purpose of isotonic solutions in medicine?
+a. To control cholesterol levels
+b. To stimulate neurotransmitter production
+c. To reduce blood sugar levels
+*d. To maintain blood volume
+
+
+Topic 3
+Question 1
+Situation: A patient complained of increased gastric acidity. What method will be used to prepare medicine to address this issue?
+*a. By neutralization reaction
+b. Dilution with water
+c. Administration of electrolyte solutions
+d. Control of osmotic pressure
+Question 2
+Situation: The doctor used the acidimetry method to determine the acid levels in the patient's blood. How does this method work?
+a. Thermal analysis is used
+b. CO2 is absorbed from the air
+c. Electrolytes react
+*d. Acids and bases undergo neutralization reactions
+Question 3
+Situation: When phenolphthalein is used as an indicator in titrimetric analysis, when does the solution change color?
+a. In an acidic environment
+b. In a basic environment
+*c. In a neutral environment
+d. In any environment
+Question 4
+Situation: Which alkalimetric substance is used to reduce the amount of gastric acid?
+*a. Sodium bicarbonate
+b. Glucose solution
+c. Hydrochloric acid
+d. Sulfuric acid
+Question 5
+Situation: Which substance is used as an indicator during the acidimetry process?
+*a. Methyl orange
+b. Ether
+c. Salt solution
+d. Sodium chloride
+
+
+Topic 4
+Question 1
+Situation: How does the color of the solution change when potassium permanganate is used?
+*a. From red-violet to colorless
+b. From white to blue
+c. To black
+d. From blue to yellow
+Question 2
+Situation: How is the oxidation state measured in oxidimetric analysis?
+*a. By the amount of reagent used
+b. By measuring osmotic pressure
+c. By the color change of the solution
+d. By determining the amount of electrolytes
+Question 3
+Situation: What is the primary application of the permanganometric method?
+*a. Determining the amount of organic substances in blood and fluids
+b. Assessing ion activity
+c. Synthesizing neurotransmitters
+d. Determining acid-base balance
+Question 4
+Situation: Which analysis method uses potassium permanganate as a strong oxidizer?
+a. Iodometry
+b. Complexometric analysis
+*c. Permanganometry
+d. Neutralization method
+Question 5
+Situation: Which substance is measured in the body using iodometric analysis?
+*a. Acids and bases
+b. Vitamin C
+c. Carbonate compounds
+d. Sugar content
+
+
+Topic 5
+
+Question 1
+Situation: A doctor recommended using radioactive iodine to examine the thyroid gland in a patient. What principle does this method rely on ?
+a. Imaging through gamma radiation
+b. Neutron activation analysis
+*c. Emission of alpha particles
+d. Reaction with beta particles
+Question 2
+Situation: In nuclear tomography (PET), a radiopharmaceutical was administered to the patient. What particles are detected by the detector in this method?
+a. Neutrons
+b. Positron-annihilation radiation
+c. Beta particles
+*d. Alpha particles
+Question 3
+Situation: What advantage do medical instruments have?
+a. Sterilizes without increasing temperature
+b. Separates ions in solutions
+*c. Only kills microorganisms
+d. Produces polymeric materials
+Question 4
+Situation: What safety precautions are required when using radioactive isotopes in diagnostics and therapy in medicine?
+a. Performing activities for a short time
+*b. Use of low-energy radiation sources
+c. All of the above
+d. Use of radiation protection equipment
+Question 5
+Situation: Which nuclear reactant is used to irradiate cancer cells?
+a. Beryllium-9
+*b. Radioactive cobalt-60
+c. Magnetic resonance imaging (MRI)
+d. Catalyst for protein synthesis
+
+
+Topic 6
+Question 1
+Situation: In acid-base balance, the pH of the blood increased to 7.8. What is this condition called?
+a. Respiratory acidosis
+b. Metabolic acidosis
+*c. Acidosis
+d. Alkalemia
+Question 2
+Situation: The patient needs an infusion solution with a stable pH. Which buffer solution should be chosen?
+a. Glucose solution
+b. Potassium permanganate solution
+c. NaCl solution
+*d. Sodium citrate and citric acid
+Question 3
+Situation: The pH of blood was found to drop to 7.3. Which buffer system will help normalize this condition?
+a. Carbonate buffer
+*b. Ammonia buffer
+c. Phosphate buffer
+d. Citrate buffer
+Question 4
+Situation: What are the main components of the carbonate buffer?
+*a. H2CO3 and HCO3-
+b. H2SO4 and SO42-
+c. NaOH and NaCl
+d. NH3 and NH4+
+Question 5
+Situation: Why are buffer systems important for enzymatic reactions in the body?
+a. They decrease metabolic rate
+b. They disrupt chemical equilibrium
+*c. They maintain optimal reaction speed
+d. They break down biological catalysts
+
+
+
+Topic 7
+Question 1
+Situation: A doctor recommended chelate compounds to address iron deficiency. What characteristic do these compounds have?
+a. They break down ions
+b. They remove ions
+*c. They stabilize iron ions in solutions
+d. They serve as active catalysts
+Question 2
+Situation: Doctors recommended using EDTA to manage calcium ion concentration. What process is this based on?
+a. Neutralization reactions
+b. Oxidation-reduction reactions
+c. Hydrolysis reactions
+*d. Formation of complexes
+Question 3
+Situation: What is the purpose of using chelate compounds in chronic heavy metal poisoning?
+*a. To remove heavy metals from the body
+b. To restore blood pH balance
+c. To enhance the effect of antibiotics
+d. To normalize electrolyte balance
+Question 4
+Situation: What type of chemical bond forms the structure of internal complex compounds?
+a. Metal-metal bonds
+*b. Covalent and ionic bonds
+c. Coordination bonds
+d. Only hydrogen bonds
+Question 5
+Situation: When is chelation therapy used?
+a. In infectious diseases
+*b. To eliminate cancer cells
+c. In heavy metal poisoning
+d. In hypertension treatment
+
+
+Topic 8
+Question 1
+Situation: A chemical catalyst was added to increase the reaction rate. What is the role of this catalyst?
+a. It shifts the chemical equilibrium
+b. It decomposes the substrate
+c. It increases temperature
+*d. It lowers activation energy
+Question 2
+Situation: How does changing the pH affect catalysis by enzymes?
+*a. Alters the enzyme's activity
+b. Stop the reaction
+c. Increases thermodynamic stability
+d. Changes the reaction mechanism
+Question 3
+Situation: The reaction rate increased with higher temperature. Which factor does this demonstrate?
+a. Addition of a catalyst
+b. Spatial arrangement of reactants
+c. Increased concentration of reactive molecules
+*d. Decreased activation energy
+Question 4
+Situation: What does the Arrhenius equation in chemical kinetics explain?
+a. Measuring reaction heat
+b. Calculating ion activity
+c. Osmotic pressure of solutions
+*d. The relationship between reaction rate and activation energy
+Question 5
+Situation: When the substrate concentration increased in enzymatic reactions, the reaction rate showed a limited increase. What does this indicate?
+a. Activation energy is increasing
+b. Reactive molecules are decomposing
+*c. Enzymes are operating in a saturated state
+d. The catalyst is being depleted
+
+
+
+
+Topic 9
+Question 1
+Situation: How can the structure of colloidal systems be studied?
+Select one:
+a. Only through chemical reactions
+b. NMR analysis
+c. X-ray spectroscopy
+*d. Electron microscopy
+Question 2
+Situation: What is one of the methods for purifying colloidal systems?
+Select one:
+*a. Dialysis
+b. Distillation
+c. Filtration
+d. Electrolysis
+Question 3
+Situation: What is the size of particles in a colloid system?
+Select one:
+*a. 1-100 nm
+b. 1-10 mm
+c. 100-1000 nm
+d. 1-100 um
+Question 4
+Situation: What type of dispersed system are the proteins in blood plasma classified as?
+Select one:
+*a. Colloid system
+b. Dissolved system
+c. Suspension
+d. Emulsion
+Question 5
+Situation: Which physical phenomenon is used to separate colloid systems?
+Select one:
+*a. Brownian motion
+b. Electromagnetic resonance
+c. Encapsulation
+d. Adsorption
+
+
+Topic 10
+Question 1
+Absorption is:
+Select one:
+a. The change in concentration of components on the surface layer relative to the open phase
+*b. The integration of a substance into the entire volume of another substance
+c. The change in concentration of components in the main part relative to the surface layer
+d. The increase in the concentration of components in the main part relative
+Question 2
+Adsorption is:
+Select one:
+*a. An adsorbed substance
+b. A substance that adsorbs
+c. A reaction product
+d. A titrant
+Question 3
+An adsorbent is:
+Select one:
+a. The initial material
+b. The working solution
+c. An adsorbed substance
+*d. A solid body where adsorption occurs
+Question 4
+Chemisorption is:
+Select one:
+a. The binding of toxins in the gastrointestinal tract
+b. The breakdown of hemoglobin
+c. The evaporation process
+*d. The purification of blood from toxins through adsorbents
+Question 5
+Enterosorption is:
+Select one:
+a. The breakdown of hemoglobin
+b. The purification of blood from toxins through adsorbents
+c. The evaporation process
+*d. The binding of toxins in the gastrointestinal tract
+Question 6
+Sorption is:
+Select one:
+*a. The adsorption of gases and vapors by solid materials
+b. The evaporation process
+c. The separation of adsorbent and adsorbed material
+d. The method of analyzing weight
+Question 7
+The increase in concentration of one or more components in the surface layer of the adsorbent is:
+Select one:
+a. Absorption
+b. Desorption
+*c. Adsorption
+d. Chemisorption
+Question 8
+Washing adsorbed substances from the adsorbent using solvents is called:
+Select one:
+a. Hydration
+*b. Elution
+c. Through adsorption
+d. Through absorption
+
+
+Topic 11
+Question 1
+Situation: How do polyfunctional compounds regulate metabolic processes in the body?
+Select one answer:
+*a. They modulate enzyme activity
+b. They block brain activity
+c. They increase oxygen flow
+d. They stop energy production
+Question 2
+Situation: What is the main role of polyfunctional compounds in metabolic processes?
+Select one answer:
+*a. Increases the rate of chemical reactions
+b. Blocks metabolites required for energy production
+c. Activates inactive metabolites
+d. Reduces the formation of secondary metabolites
+Question 3
+Situation: When producing polyfunctional compounds as medicinal agents, which modification is most important?
+Select one answer:
+a. Rapidly incorporating them into metabolism
+b. Transferring them to the final transport site
+*c. Increasing their biological activity
+d. Making them completely inert
+Question 4
+Situation: Which polyfunctional compound is used as an antibiotic and how does it affect bacterial infections?
+Select one answer:
+a. Aspirin
+b. Paracetamol
+c. Ibuprofen
+*d. Penicillin
+Question 5
+Situation: Why are polyfunctional compounds used as medicinal agents in medicine?
+Select one answer:
+a. They are quickly eliminated from the body
+*b. They have multiple biological effects
+c. They are not toxic
+d. They only affect one system
+
+Topic 12
+
+Question 1
+Situation: As heterofunctional compounds, how does the presence of acidic and basic groups affect them?
+Выберите один ответ:
+a. It blocks internal activity
+b. Their activity decreases
+c. They only release excess energy
+*d. It increases their biological activity
+Question 2
+Situation: In what forms are heterofunctional compounds used as medicinal agents?
+Select one answer:
+*a. Mainly as potassium and sodium salts
+b. Chemical modifications are made to activate their activity
+c. They are used only in syringes
+d. They have only one function
+Question 3
+Situation: What are the benefits of using heterofunctional compounds in metabolic processes?
+Select one answer:
+a. They help only in energy production
+*b. They create opportunities to produce multiple metabolites
+c. They are used only to eliminate toxins
+d. They directly control acid-base reactions
+Question 4
+Situation: What is the most important characteristic when producing heterofunctional compounds as medicinal agents?
+Select one answer:
+*a. Their biocompatibility
+b. Their rapid degradation
+c. Their oxidation
+d. Their fastest growth
+Question 5
+Situation: What medical activities are associated with heterofunctional compounds?
+Select one answer:
+a. They only affect one system
+*b. They perform multiple biological effects
+c. They are used only as vitamins
+d. They only relieve pain
+
+
+Topic 13
+Question 1
+Situation: How is aminobenzoic acid used in medicine?
+Select one answer:
+a. Provides long-lasting effects
+b. Anti-inflammatory
+c. Stops biochemical processes in the brain
+*d. As an anesthetic
+Question 2
+Situation: In which case is salicylic acid effective?
+Select one answer:
+a. Reducing fat
+*b. Reducing inflammation
+c. Killing bacteria
+d. Increasing blood pressure
+Question 3
+Situation: What important medicinal use does sulfanilic acid have?
+Select one answer:
+*a. Used as an antimicrobial drug
+b. Drugs that stimulate liver function
+c. Anti-inflammatory drugs
+d. Growth stimulants
+Question 4
+Situation: What is the main advantage of sulfanilic acid as an antibiotic?
+Select one answer:
+*a. Works effectively against pathogenic microorganisms
+b. Stops energy production
+c. Has no effect
+d. Quickly causes pus formation
+Question 5
+Situation: What is the medical importance of salicylic acid?
+Select one answer:
+*a. Used as an antiseptic
+b. Increases inflammation
+c. Produces active metabolites
+d. Stimulates the heart
+
+
+Topic 14
+Question 1
+Situation: How are condensed heterocyclic compounds used?
+Select one answer:
+*a. They are converted into therapeutic substances
+b. They only enhance biological activity
+c. They produce energy
+d. They have toxic effects
+Question 2
+Situation: In which conditions can heterocyclic compounds be used?
+Select one answer:
+a. To induce chronic diseases
+*b. As antidepressants
+c. Only to strengthen bones
+d. To enhance vision
+Question 3
+Situation: What biochemical processes do neurotransmitters containing heterocyclic rings regulate?
+Select one answer:
+a. They make the person feel relaxed
+b. They increase blood pressure
+*c. They help transmit nerve impulses
+d. They are not active.
+Question 4
+Situation: What is the medical significance of heterocyclic compounds?
+Select one answer:
+a. They break down proteins
+b. They intensify pain
+*c. They function as neurotransmitters
+d. They stop the heart
+Question 5
+Situation: What is the role of neurotransmitters containing heterocyclic rings in medicine?
+Select one answer:
+a. They disrupt metabolism
+b. They enhance inflammation
+c. They produce new cells
+*d. They are used to modulate the nervous system
+
+
+Topic 15
+Question 1
+Situation: How do amino acids affect the body?
+Select one:
+a. They completely break down proteins
+*b. They regulate protein synthesis
+c. They only serve as an energy source
+d. They only contribute to the body's composition
+Question 2
+Situation: What are the properties of amino acids?
+Select one:
+a. They inhibit enzymes
+b. They only produce energy
+c. They stop protein synthesis
+*d. They affect important biological processes in the body
+Question 3
+Situation: What groups are present in the structure of amino acids?
+Select one:
+a. Carbonyl and aldehyde groups
+b. Methyl and amino groups
+*c. Amino and carboxyl groups
+d. Carboxyl and methyl groups
+Question 4
+Situation: What is the biological significance of amino acids?
+Select one:
+a. They maintain balance
+*b. They form proteins
+c. They only function as neurotransmitters
+d. They only produce energy
+Question 5
+Situation: Which amino acid affects the nervous system and functions as a neurotransmitter?
+Select one:
+*a. Glutamate
+b. Alanine
+c. Glycine
+d. Arginine
+
+
+Topic 16
+Question 1
+Situation: How is one of the qualitative reactions for proteins performed?
+Select one answer:
+a. Acid-sodium reaction
+b. Hydrogen oxidation
+c. Chlorophyll reaction
+*d. Biuret reaction
+Question 2
+Situation: What factors affect the properties of proteins?
+Select one answer:
+a. Number of ions in the system
+b. Cell structure
+*c. Temperature and pH levels
+d. Concentration of active substances
+Question 3
+Situation: What is the main function of proteins?
+Select one answer:
+*a. Supporting the structure of cells and tissues
+b. Producing energy
+c. Increasing blood pressure
+d. Eliminating toxins
+Question 4
+Situation: What is the structure of proteins?
+Select one answer:
+a. Made from only one group of amino acids
+b. Composed of a nucleotide chain
+*c. Composed of a chain of amino acids
+d. Made from a sugar chain
+Question 5
+Situation: What laboratory method can be used to detect proteins?
+Select one answer:
+*a. Biuret reaction
+b. Physical indicators
+c. Photon microscopy
+d. Spectroscopy
+
+
+Topic 17
+Question 1
+Situation: What effect does glucose have on disaccharides?
+Select one answer:
+a. It does not react with acids
+b. It synthesizes proteins
+*c. It forms maltose and sucrose
+d. It only serves as an energy source
+Question 2
+Situation: What is the difference between fructose and glucose?
+Select one answer:
+a. They are only used in metabolism
+b. Their structures are the same, but they are isomers
+c. Fructose is used only in acid reactions
+*d. Fructose dissolves well in buffered systems
+Question 3
+Situation: What is the main function of sucrose?
+Select one answer:
+a. Reduces inflammation
+b. Increases fat synthesis
+c. Raises blood pressure
+*d. Used as an energy source
+Question 4
+Situation: What is the structure of monosaccharides?
+Select one answer:
+a. Made of large molecules
+b. Composed of amino acid chains
+c. Composed of nucleotide chains
+*d. Composed of one or several carbon atoms
+Question 5
+Situation: What role do monosaccharides play in the body?
+Select one answer:
+*a. They serve as an energy source
+b. They only assist in fermentation
+c. They affect fat formation
+d. They only synthesize proteins
+
+Topic 18
+Question 1
+Situation: What is the biological significance of starch?
+Select one answer:
+a. It neutralizes acids
+b. It reduces inflammation
+c. It is essential for cell structure
+*d. It serves as an energy source
+Question 2
+Situation: What is the similarity between glycogen and starch?
+Select one answer:
+a. Both are made from lipids
+b. Both dissolve in liquid
+c. Both have the same structure
+*d. Both are made from glucose
+Question 3
+Situation: What is the structure of heteropolysaccharides?
+Select one answer:
+a. Made from nucleotide chains
+b. Made from only one type of monosaccharide
+c. Composed only of proteins
+*d. Composed of several types of monosaccharides
+Question 4
+Situation: What is the structure of polysaccharides?
+Select one answer:
+*a. Composed of many monosaccharide chains
+b. Made of several types of lipid chains
+c. Made from several amino acids
+d. Composed of several nucleotide chains
+Question 5
+Situation: Where is cellulose found and what role does it play?
+Select one answer:
+a. In animals, it controls the nervous system
+*b. In plants, it provides mechanical support
+c. It protects against external damage
+d. It dissolves in water and produces energy
+
+
+Topic 19
+Question 1
+Situation: How are polyphosphate nucleosides applied in medicine?
+Select one answer:
+a. In pharmaceutical development.
+b. For fat breakdown.
+c. To target bacteria.
+*d. As coenzymes.
+Question 2
+Situation: In which biological processes are nucleosides and nucleotides involved?
+Select one answer:
+a. Energy production.
+*b. Nucleic acid formation.
+c. Promoting inflammation.
+d. Inhibiting protein synthesis.
+Question 3
+Situation: What distinguishes nucleosides from nucleotides?
+Select one answer:
+a. Nucleosides do not contain phosphates.
+*b. Nucleosides lack phosphate groups.
+c. Nucleotides form nucleic acids.
+d. Nucleodes only provide energy.
+Question 4
+Situation: What is the action of nucleoside cyclophosphates?
+Select one answer:
+a. They protect from external damage.
+b. They aid in liver detoxification.
+*c. They assist in DNA and RNA synthesis.
+d. They contribute to protein synthesis.
+Question 5
+Situation: What is the role of nucleotides as coenzymes?
+Select one answer:
+a. They modify genetic material.
+b. They help in pain reduction.
+c. They contribute to cell structure formation.
+*d. They facilitate energy transfer.
+
+Topic 20
+Question 1
+Situation: How is the ribosome structured and what is its function?
+Select one answer:
+a. Made solely of DNA.
+b. Only contributes to protein formation.
+c. Only involved in lipid regulation.
+*d. Composed of RNA and proteins, involved in protein synthesis.
+Question 2
+Situation: What are the complementary base pairs in DNA?
+Select one answer:
+a. Adenine-Uracil and Guanine-Cytosine.
+b. Cytosine-Adenine and Thymine-Guanine.
+*c. Adenine-Thymine and Guanine-Cytosine.
+d. Thymine-Uracil and Guanine-Adenine.
+Question 3
+Situation: What is the function of nucleic acids?
+Select one answer:
+a. Regulating protein synthesis.
+*b. Storing and transmitting genetic information.
+c. Controlling fat synthesis.
+d. Storing memories.
+Question 4
+Situation: What is the structure of the DNA double helix?
+Select one answer:
+a. Circular in shape.
+*b. A two-chain spiral.
+c. A single-chain structure.
+d. Flat in structure.
+Question 5
+Situation: Which RNA type is responsible for protein production?
+Select one answer:
+a. Transfer RNA.
+b. Messenger RNA.
+*c. Ribosomal RNA.
+d. Centric RNA.
+Topic 21
+Question 1
+Situation: How are enzymes classified?
+Select one answer:
+*a. Based on their chemical properties and activity.
+b. Based on their types and functions.
+c. Based on their molecular structure.
+d. Based on their structure.
+Question 2
+Situation: How does enzyme diagnostics work?
+Select one answer:
+a. Through nucleotide analysis.
+b. Treating genetic disorders.
+*c. By detecting diseases via enzyme activity.
+d. Involving protein synthesis.
+Question 3
+Situation: How does enzyme therapy function?
+Select one answer:
+a. It halts protein synthesis.
+*b. It restores the biological activity of enzymes.
+c. It enhances energy production.
+d. It reduces inflammation.
+Question 4
+Situation: What does enzyme pathology refer to?
+Select one answer:
+a. Absorption of toxins.
+*b. Structural changes in enzymes.
+c. Genetic mutations.
+d. Errors in protein synthesis.
+Question 5
+Situation: What is the primary function of enzymes?
+Select one answer:
+a. Producing energy.
+b. Protecting from toxic substances.
+*c. Accelerating chemical reactions.
+d. Boosting immune function.
+
+Topic 22
+Question 1
+Situation: How do water-soluble vitamins function?
+Select one answer:
+a. They dissolve in fats and perform functions.
+b. They are used only for genetic diseases.
+c. They have toxic effects.
+*d. They dissolve in water and are absorbed by the body.
+Question 2
+Situation: What are the effects of vitamin A deficiency?
+Select one answer:
+*a. Impaired vision.
+b. Improved metabolism.
+c. Lowered blood pressure.
+d. Accelerated cell regeneration.
+Question 3
+Situation: What are the functions of fat-soluble vitamins?
+Select one answer:
+*a. They dissolve in fats and are stored in cell membranes.
+b. They solely produce energy.
+c. They dissolve only in liquids.
+d. They dissolve only in the bloodstream.
+Question 4
+Situation: What is the biological importance of B vitamins?
+Select one answer:
+a. They stop cell growth.
+b. They inhibit protein synthesis.
+c. They solely produce energy.
+*d. They enhance metabolism.
+Question 5
+Situation: What is the primary function of vitamin C?
+Select one answer:
+a. Maintaining a healthy lifestyle.
+b. Inhibiting immune system function.
+*c. Acting as an antioxidant.
+d. Stimulating inflammation.

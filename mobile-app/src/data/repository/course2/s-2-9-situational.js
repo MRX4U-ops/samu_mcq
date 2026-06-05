@@ -708,12 +708,12 @@ export const s_2_9_situational = {
       "explanation": "This aligns with standard microbiology and immunology curriculum."
     },
     {
-      "question": "A doctor is struggling to diagnose a woman's flulike illness. She complains of a fever that rises during the day and peaks after dinner (undulant fever), fatigue, spinal tenderness, and loss of appetite. Her lymph nodes are enlarged in physical exam. The doctor has trouble narrowing down the possible etiologies until he hears that the tasted goat cheese at a French village a month before the onset of her symptoms. Which of the following is the most likely cause?",
+      "question": "A surgeon is struggling to diagnose a woman's flulike illness. She complains of a fever that rises during the day and peaks after dinner (undulant fever), fatigue, spinal tenderness, and loss of appetite. Her lymph nodes are enlarged in physical exam. The doctor has trouble narrowing down the possible etiologies until he hears that she tasted goat cheese at a French village a month before the onset of her symptoms. Which of the following is the most likely cause?",
       "options": [
-        "Brucella species",
         "Pseudomonas aeruginosa",
         "Bordetella pertussis",
-        "Francisella tularensis"
+        "Francisella tularensis",
+        "Brucella species"
       ],
       "correctIndex": 0,
       "explanation": "This aligns with standard microbiology and immunology curriculum."

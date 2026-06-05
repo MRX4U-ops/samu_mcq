@@ -1,0 +1,127 @@
+t.s.Mavzu 5
+
+Gene is:
+A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded
+A section of an RNA molecule in which information about the primary structure of  polypeptide is encoded
+A section of an RNA molecule in which information about the secondary structure of a polypeptide is encoded
+A section of a DNA molecule in which information about the secondary structure of a polypeptide is encoded
+
+In what ratio is splitting observed for different types of gene interactions?
+With polymer 15:1 or 1:4:6:4:1
+With dominant epistasis 9:3:4 or 12:3:1
+With recessive epistasis 13:3
+With complementary interaction 15:1 or 9:6:1
+
+The property of organisms to transmit their characteristics and developmental characteristics to their offspring - is this?
+Heredity
+Variability
+Karyotyping
+Crossbreeding
+
+Penetrance is:
+Gene penetration frequency
+Degree of gene penetration
+Manifestation of the gene in a heterozygous state
+The influence of one gene on the manifestation of several traits
+
+An analysis cross is a cross in which an individual whose genotype is unknown but needs to be determined (AA or A A ) is crossed with:
+Recessive homozygote (aa)
+Dominant homozygote (A A )
+Heterozygous (A a )
+Zygote
+
+In polymerization, the splitting of the trait when crossing two diheterozygotes will be:
+15:1, 1:4:6:4:1   
+9:4:3, 12:3:1, 13:3
+9:4:3, 1:4:6:4:1, 13:3
+9:3:4, 9:7, 15:1
+
+With complementary interaction of genes, the splitting of the trait when crossing two diheterozygotes will be in the ratio:
+9:3:3:1, 9:6:1, 9:3:4, 9:7
+9:4:3, 12:3:1, 13:3
+15:1, 1:4:6:4:1
+9:4:3, 1:4:6:4:1, 13:3
+
+Is this complementarity?
+When two or more genes interact, new traits are formed
+Interaction of non-allelic genes, in which one gene suppresses the action of  nother, non-allelic gene
+One of the forms of interaction of non-allelic genes, in which the development of a certain trait is predetermined by the influence of several genes
+The ability of one gene to control several traits (multiple gene action)
+
+Allelic genes are genes located in:
+The same loci of homologous chromosomes
+Same loci of non-homologous chromosomes
+Different loci of homologous chromosomes
+One chromosome
+
+Polygenic traits include:
+Body weight. Finger length
+Microcephaly
+Blood clotting
+Polydactyly
+
+Mendel's first law reveals patterns:
+First generation law of uniformity
+Incomplete dominance
+Law of splitting
+Independent combination of features
+
+In which blood group is agglutinogen A and B found?
+IV
+I
+II
+III
+
+Where are non-allelic genes located?
+At different loci on the chromosome
+Different pairs of chromosomes
+Only on sex chromosomes
+Only in autosomes
+
+In humans, a polygenic trait is:
+Height
+Hair color
+Blood type
+Brachydactyly
+
+A cross in which the parent organisms differ in three pairs of characteristics is:
+Trihybrid
+Dihybrid
+Polyhybrid
+Tetrahybrid
+
+What is a phenotype?
+A system of external and internal signs and properties of an organism that are formed during its individual development
+Gene system of a particular organism
+Traits caused by genes located only on autosomes
+Haploid set of chromosomes
+
+How many types of gametes does an individual with genotype AAbbCC produce?
+1
+8
+6
+3
+
+The intensity of skin pigmentation in humans is controlled by several non-allelic dominant genes. It has been established that with an increase in the number of these genes, pigmentation becomes more intense. What is the type of interaction between these genes called?
+Polymerism
+Codominance
+Pleiotropy
+Epistasis
+
+The ability of organisms to acquire new characteristics or lose previous ones during development is:
+Variability
+Heredity
+Inheritance
+Genotype
+
+The ability of organisms to transmit their characteristics and developmental characteristics to their offspring is:
+Heredity
+Variability
+Inheritance
+Genotype
+
+G. Mendel developed a method for studying heredity:
+Hybridological
+Twin
+Cytological
+Biological

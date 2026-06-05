@@ -1,0 +1,121 @@
+Test Questions Topic 3
+Medical biology with elements of ecology
+1. The smallest section of the cistron, a change in which can lead to a mutation, is called:
+a. Mouton
+b. Cistron
+*** c. Recon**
+d. Codon
+________________________________________
+2. What ensures the transmission of hereditary information in viruses?
+a. Gistone
+b. ATP
+*** c. DNA**
+d. Protein
+________________________________________
+3. What is the chemical composition of biological membranes?
+a. DNA, RNA, histone proteins
+b. DNA, proteins, carbohydrates
+c. RNA, DNA, carbohydrates, water
+*** d. Lipids, proteins, carbohydrates**
+________________________________________
+4. Genetic code -
+a. A triplet defining the location of one amino acid in a synthesized protein
+b. A triplet in a tRNA molecule that determines the location of one amino acid in the protein being synthesized
+c. A triplet in an rRNA molecule that determines the location of one amino acid in the synthesized protein
+*** d. A unified system for recording genetic information in a DNA molecule in the form of a sequential arrangement of nucleotides in an m-RNA molecule**
+________________________________________
+5. Depending on the location of the centromere, the types of chromosomes are distinguished:
+a. Metacentric, polytene, acrocentric
+b. Autosomes, sex chromosomes
+c. Heterochromosomes, telocentric chromosomes
+*** d. Metacentric, submetacentric, acrocentric**
+________________________________________
+6. Regulatory genes?
+*** a. Control and regulate the process of protein biosynthesis**
+b. Carry information about the structure of certain polypeptides
+c. Have a regulatory or enhancing effect on structural genes
+d. Contain a large number of repeating nucleotide groups
+________________________________________
+7. What are primary chromosome constrictions?
+*** a. Centromeres**
+b. Nucleosomes
+c. Shoulders
+d. Telomeres
+________________________________________
+8. What is the formation of an RNA molecule on a DNA template?
+a. Broadcast
+b. Transduction
+c. Replication
+*** d. Transcription**
+________________________________________
+9. Indicate what substances are included in one nucleotide?
+*** a. Nitrogenous base, pentose, phosphate acid residue**
+b. Nitrogen base, hexose, phosphate acid residue
+c. Nitrogenous base, amino acid, phosphate acid residue
+d. Amino group, pentose, phosphate acid residue
+________________________________________
+10. What is the process of growing a polypeptide chain during transcription called?
+*** a. Splicing**
+b. Initiation
+c. Processing
+d. Elongation
+________________________________________
+11. How many ATP molecules are formed at the first stage of energy metabolism:
+a. 6
+b. 4
+*** c. 2**
+d. 36
+________________________________________
+12. What is the duplication of DNA involving the enzyme DNA polymerase called?
+a. Transcription
+b. Processing
+c. Broadcast
+*** d. Replication**
+________________________________________
+13. Which nitrogenous base does not contain DNA?
+*** a. Uracil**
+b. Cytosine
+c. Adenine
+d. Timin
+________________________________________
+14. Rules specific to chromosomes:
+a. Homology, independence
+*** b. In general, the constancy of the number of chromosomes, pairing, homology, individuality, continuity**
+c. Permanence, splitting, individuality
+d. Uniformity of first generation hybrids
+________________________________________
+15. The smallest section of a cistron that does not divide by recombination is called?
+*** a. Recon**
+b. Cistron
+c. Codon
+d. Mouton
+________________________________________
+16. A section of DNA that contains information about the synthesis of one protein is called?
+*** a. Codon**
+b. Cistron
+c. Genome
+d. Recon
+________________________________________
+17. Non-informative sections of structural genes that do not encode an amino acid are:
+*** a. Recons**
+b. Introns
+c. Exons
+d. Moutons
+________________________________________
+18. Is this a genephore?
+a. Histone protein
+*** b. DNA strand**
+c. Membrane
+d. ATP chain
+________________________________________
+19. The specificity of the genetic code is manifested in the fact that:
+a. The genetic code is unique for all organisms
+b. An amino acid can be encoded by more than one triplet of nucleotides
+c. No nitrogenous base from one codon is ever included in another
+*** d. Each individual codon triplet codes for only one specific amino acid**
+________________________________________
+20. What function does not belong to the glycocalyx?
+a. Parietal digestion
+b. Intercellular contacts
+c. Intercellular interaction
+*** d. Synthesis of ATP and proteins**

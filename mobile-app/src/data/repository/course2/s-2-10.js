@@ -92,13 +92,13 @@ export const s_2_10 = {
     {
       "question": "Protein A is found in cell wall of",
       "options": [
-        "Staphylococcus aureus",
         "coagulase-negative staphylococci",
+        "none of these",
         "Micrococci",
-        "none of these"
+        "Staphylococcus aureus"
       ],
       "correctIndex": 0,
-      "explanation": "Staphylococcus aureus is correct. This aligns with standard microbiology and immunology curriculum."
+      "explanation": "coagulase-negative staphylococci is correct. This aligns with standard microbiology and immunology curriculum."
     },
     {
       "question": "Staphylococcal food poisoning usually manifests itself following ingestion of contaminated food after",
@@ -402,13 +402,13 @@ export const s_2_10 = {
     {
       "question": "In a smear from a patients tonsils with suspicion of diphtheria blue rod-shaped bacteria display terminal club-shaped swellings, which stained more intensely at their ends were revealed. What method of staining was used?",
       "options": [
-        "Neisser",
-        "Gram",
         "Loeffler",
+        "Gram",
+        "Neisser",
         "Giemsa"
       ],
       "correctIndex": 0,
-      "explanation": "Neisser is correct. This aligns with standard microbiology and immunology curriculum."
+      "explanation": "Loeffler is correct. This aligns with standard microbiology and immunology curriculum."
     },
     {
       "question": "The common substrate of cholera toxin (ctx) and diphtheria toxin (dtx) is",
@@ -470,13 +470,13 @@ export const s_2_10 = {
     {
       "question": "What is the most common cause of urinary tract infections?",
       "options": [
-        "Escherichia coli",
         "Enterococcus faecalis",
         "Staphylococcus epidermidis",
-        "Staphylococcus saprophyticus"
+        "Staphylococcus saprophyticus",
+        "Escherichia coli"
       ],
       "correctIndex": 0,
-      "explanation": "Escherichia coli is correct. This aligns with standard microbiology and immunology curriculum."
+      "explanation": "Enterococcus faecalis is correct. This aligns with standard microbiology and immunology curriculum."
     },
     {
       "question": "Which of the following serotypes of Salmonella can cause gastroenteritis?",
@@ -1140,14 +1140,14 @@ export const s_2_10 = {
     {
       "question": "Of the following organisms that can cross the placenta, which of the following is associated with congenital CN VIII deafness, mulberry molars, saddle nose, blindness, deafness, and cardiovascular problems?",
       "options": [
-        "Rubella",
-        "Herpes, HIV",
-        "Toxoplasma gondii",
         "Syphilis",
-        "Cytomegalovirus"
+        "Herpes, HIV",
+        "Cytomegalovirus",
+        "Toxoplasma gondii",
+        "Rubella"
       ],
       "correctIndex": 0,
-      "explanation": "Rubella is correct. This aligns with standard microbiology and immunology curriculum."
+      "explanation": "Syphilis is correct. This aligns with standard microbiology and immunology curriculum."
     },
     {
       "question": "What is characteristic of primary syphilis?",
@@ -1624,13 +1624,13 @@ export const s_2_10 = {
     {
       "question": "Salmonella causes Enteric fever (typhoid) and food poisoning. Is it a...",
       "options": [
-        "Gram negative bacteria",
+        "Gram negative bacilli",
         "Gram positive cocci",
-        "Gram-positive bacteria",
+        "Gram-positive bacilli",
         "Fungi"
       ],
       "correctIndex": 0,
-      "explanation": "Gram negative bacteria is correct. This aligns with standard microbiology and immunology curriculum."
+      "explanation": "Gram negative bacilli is correct. This aligns with standard microbiology and immunology curriculum."
     },
     {
       "question": "Which virus is known to cause cervical cancer?",

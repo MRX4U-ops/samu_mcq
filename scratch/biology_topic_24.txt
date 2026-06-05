@@ -1,0 +1,43 @@
+t.s./mavzu 24
+
+First aid for poisoning with hymenoptera venom:
+Remove the sting, treat the sting site with disinfectants. 
+Suck out the poison, treat the sting site with disinfectants.
+Apply a warm, tight bandage to the sting site
+Leave the sting, treat the sting site with disinfectants
+
+First aid for snake poisoning:
+Suck out the poison and treat the bite site with disinfectants.
+Cauterize the bite site and place the victim in the shade.
+Cauterize and treat the bite site with disinfectants
+Apply a tight bandage to the bite site and transport in any position
+
+Picture of poisoning with toadstool:
+Death due to cardiovascular and liver failure
+Hemolysis of red blood cells
+Intestinal obstruction
+Hyperemia and swelling of the affected area, skin necrosis
+
+Picture of red fly agaric poisoning:
+Increased temperature, tachycardia
+Labored breathing
+Hallucinations and seizures
+Intestinal obstruction
+ 
+Poppy poisoning clinic:
+Allergic reactions, decreased blood pressure
+Death from cardiac arrest
+Retention of urination and defecation
+Hemolysis of red blood cells
+
+Cannabis poisoning clinic:
+State of intoxication, speech and motor agitation, vivid hallucinations
+Bloody diarrhea
+Bradycardia, hypotension, diarrhea
+Hyperemia and swelling of the affected area, skin necrosis
+
+Picture of wild rosemary poisoning:
+Decreased blood pressure, tachycardia
+Sore throat
+Increased urination and cramps
+Labored breathing

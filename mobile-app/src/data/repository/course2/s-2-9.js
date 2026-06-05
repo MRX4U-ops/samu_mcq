@@ -2490,13 +2490,13 @@ export const s_2_9 = {
     {
       "question": "The envelope of which of the following viruses is derived from the host cell membrane?",
       "options": [
-        "Herpesviruses",
+        "Adenoviruses",
         "Retroviruses",
-        "Orthomyxoviruses",
-        "Adenoviruses"
+        "Herpesviruses",
+        "Orthomyxoviruses"
       ],
       "correctIndex": 0,
-      "explanation": "Herpesviruses is correct. This aligns with standard microbiology and immunology curriculum."
+      "explanation": "Adenoviruses is correct. This aligns with standard microbiology and immunology curriculum."
     },
     {
       "question": "The first step in infection of a host bacterial cells by a phage is",
@@ -2534,13 +2534,13 @@ export const s_2_9 = {
     {
       "question": "The virus(es) which can cause aseptic factor is/are",
       "options": [
-        "Coxsackieviruses",
+        "Coronaviradae",
         "All of these",
-        "Coronaviruses",
+        "Coxsackieviruses",
         "Polioviruses"
       ],
       "correctIndex": 0,
-      "explanation": "Coxsackieviruses is correct. This aligns with standard microbiology and immunology curriculum."
+      "explanation": "Coronaviradae is correct. This aligns with standard microbiology and immunology curriculum."
     },
     {
       "question": "The virus(es) which can cause aseptic meningitis is/are",
@@ -2554,26 +2554,26 @@ export const s_2_9 = {
       "explanation": "All of these is correct. This aligns with standard microbiology and immunology curriculum."
     },
     {
-      "question": "Which family has received interest in their development as a biological control agent insects?",
+      "question": "Which family has received in their development as a biological control agent insects?",
       "options": [
-        "Poxviridae",
-        "Iridoviridae",
-        "Reoviridae",
-        "Rotoviridae"
-      ],
-      "correctIndex": 0,
-      "explanation": "Poxviridae is correct. This aligns with standard microbiology and immunology curriculum."
-    },
-    {
-      "question": "Which family has received most interest in their development as a biological control agent against insects?",
-      "options": [
-        "Baculoviridae",
+        "Rotoviradae",
         "Reoviridae",
         "Iridoviridae",
         "Poxviridae"
       ],
       "correctIndex": 0,
-      "explanation": "Baculoviridae is correct. This aligns with standard microbiology and immunology curriculum."
+      "explanation": "Rotoviradae is correct. This aligns with standard microbiology and immunology curriculum."
+    },
+    {
+      "question": "Which family has received most interest in their development as a biological control agent against insects?",
+      "options": [
+        "Poxviridae",
+        "Iridoviridae",
+        "Reoviridae",
+        "Baculoviridae"
+      ],
+      "correctIndex": 0,
+      "explanation": "Poxviridae is correct. This aligns with standard microbiology and immunology curriculum."
     },
     {
       "question": "Which family has received most interest in their development as a biological control agent antagonistic insects?",

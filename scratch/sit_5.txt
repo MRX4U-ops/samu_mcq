@@ -1,0 +1,37 @@
+t.s./mavzu 5 
+
+A hemizygous organism is an organism in which:
+The gene is represented not by two, but by one allele, and this allele is always phenotypically manifested, even in a recessive state
+The gene is represented by a dominant allele
+The gene is represented by a recessive allele
+The gene is represented by dominant and recessive alleles
+
+Genes that suppress other genes are called:
+Inhibitors
+Repressors
+Corepressors
+Hypostatic
+
+The ability of one gene to control several traits (multiple gene action) is:
+Pleiotropy
+Complete Domination
+Incomplete dominance
+Codominance
+
+The object of genetic research by G. Mendel was the plant:
+Peas
+Wheat spinous
+Potato
+Corn
+
+With incomplete dominance:
+Heterozygotes are phenotypically different from homozygotes with a dominant gene
+In homozygotes with a dominant gene, the trait is expressed in the same way as in heterozygotes
+In homozygotes with a dominant gene, the trait is less pronounced than in heterozygotes
+The genotypes of heterozygotes do not differ from homozygotes with a dominant gene
+
+In what type of interaction of allelic genes do lethal genes lead to the death of individuals in the homozygous state?
+Overdominance
+Complete Domination
+Incomplete dominance
+Codominance

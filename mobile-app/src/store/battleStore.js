@@ -39,7 +39,7 @@ export const useBattleStore = create((set, get) => ({
 
     console.log('[Battle Store] Initializing Socket.IO connection at:', SOCKET_URL);
     const socket = io(SOCKET_URL, {
-      transports: ['websocket', 'polling'],
+      transports: ['polling', 'websocket'], // Use polling first for maximum reliability across cold starts and proxies
       forceNew: true
     });
     
@@ -137,9 +137,57 @@ export const useBattleStore = create((set, get) => ({
     set({ socket });
   },
 
-  joinRoom: (roomCode, userId, name) => {
-    const { socket } = get();
-    if (socket) {
+  connectSocket: () => {
+    return new Promise((resolve, reject) => {
+      const socket = get().socket;
+      if (socket && socket.connected) {
+        resolve(socket);
+        return;
+      }
+
+      // Initialize socket if it doesn't exist
+      if (!socket) {
+        get().initSocket();
+      } else if (!socket.connected) {
+        socket.connect();
+      }
+
+      const checkSocket = get().socket;
+      if (!checkSocket) {
+        reject(new Error("Socket failed to initialize"));
+        return;
+      }
+
+      const onConnect = () => {
+        cleanup();
+        resolve(checkSocket);
+      };
+
+      const onConnectError = (err) => {
+        cleanup();
+        reject(new Error(`Socket connection failed: ${err.message}`));
+      };
+
+      const timeoutId = setTimeout(() => {
+        cleanup();
+        reject(new Error("Socket connection timeout (30s)"));
+      }, 30000); // 30 seconds for cold start tolerance
+
+      const cleanup = () => {
+        clearTimeout(timeoutId);
+        checkSocket.off('connect', onConnect);
+        checkSocket.off('connect_error', onConnectError);
+      };
+
+      checkSocket.on('connect', onConnect);
+      checkSocket.on('connect_error', onConnectError);
+    });
+  },
+
+  joinRoom: async (roomCode, userId, name) => {
+    try {
+      console.log('[Battle Store] Ensuring socket is connected for joinRoom...');
+      const socket = await get().connectSocket();
       console.log('[Battle Store] Emitting player_join for code:', roomCode);
       set({ 
         roomCode, 
@@ -150,33 +198,36 @@ export const useBattleStore = create((set, get) => ({
         myUserName: name
       });
       socket.emit('player_join', { roomCode, userId, name });
+    } catch (err) {
+      console.error('[Battle Store] joinRoom failed:', err);
+      set({ error: err.message || 'Failed to connect to battle server' });
     }
   },
 
   createRoom: async (params, userId, name) => {
     try {
+      console.log('[Battle Store] Ensuring socket is connected before room creation...');
+      const socket = await get().connectSocket();
+      
       console.log('[Battle Store] Sending request to create battle room:', params);
       const payload = { ...params, hostUserId: userId };
       const response = await axios.post(`${API_URL}/battle/create`, payload);
       const roomCode = response.data.roomCode;
       
-      const { socket } = get();
-      if (socket) {
-        set({ 
-          roomCode, 
-          status: 'lobby', 
-          error: null, 
-          isHost: true, 
-          myUserId: userId,
-          myUserName: name
-        });
-        console.log('[Battle Store] Room created. Emitting player_join for host:', roomCode);
-        socket.emit('player_join', { roomCode, userId, name });
-      }
+      set({ 
+        roomCode, 
+        status: 'lobby', 
+        error: null, 
+        isHost: true, 
+        myUserId: userId,
+        myUserName: name
+      });
+      console.log('[Battle Store] Room created. Emitting player_join for host:', roomCode);
+      socket.emit('player_join', { roomCode, userId, name });
       return roomCode;
     } catch (error) {
       console.error('[Battle Store] Failed to create room:', error);
-      set({ error: error.response?.data?.message || 'Failed to create room' });
+      set({ error: error.response?.data?.message || error.message || 'Failed to create room' });
       return null;
     }
   },

@@ -1,0 +1,140 @@
+Test Questions Topic 9
+Question  1
+A woman has three X chromosomes in her karyotype. How many Barr bodies can her somatic cells have?
+**\*a. 2**
+b. 0
+c. 1
+d. 3
+
+Question  2
+X-chromatin was detected in the nuclei of buccal epithelial cells of the buccal mucosa in a male patient. This is possible with:
+a. Patau syndrome
+b. Shereshevsky-Turner syndrome
+**\*c. Klinefelter's syndrome**
+d. Edwards syndrome
+
+Question  3
+According to the Denver classification (in 1960), the human karyotype is divided into the following number of groups:
+a. 4
+b. 5
+**\*c. 7**
+d. 6
+
+Question  4
+The arrangement of pairs of chromosomes in order of decreasing size is:
+a. Genotype
+b. Karyotype
+**\*c. Idiogram**
+d. Karyotyping
+
+Question  5
+No X-chromatin was detected in the nuclei of the woman's buccal epithelium cells. This indicates the disappearance in the karyotype:
+a. One Y chromosome
+**\*b. One X chromosome**
+c. Two X chromosomes
+d. Three X chromosomes
+
+Question  6
+The genealogical method allows you to establish:
+a. Gene linkage
+**\*b. Hereditary nature of the trait, type of inheritance**
+c. Violation of the number and structure of chromosomes
+d. The role of environment and genotype in the development of a trait
+
+Question  7
+Studying patterns on the fingertips is:
+a. Palmoscopy
+b. Microscopy
+**\*c. Fingerprinting**
+d. Plantoscopy
+
+Question  8
+What method of genetics is used to find out the type of inheritance (dominant or recessive) of a particular pathological trait?
+**\*a. Genealogical**
+b. Cytogenetic
+c. Dermatoglyphics
+d. Biochemical
+
+Question  9
+The twin method is used for:
+a. Establishing the hereditary nature of a trait
+**\*b. Estimates of the role of heredity and environment in the development of a trait**
+c. Compilation and analysis of pedigree
+d. Gene linkage studies
+
+Question  10
+Discordance is:
+**\*a. Absence of the trait in one of the twins**
+b. Quantitative indicator of gene expression
+c. Percentage of similarity for this trait in twins
+d. Degree of symptom expression
+
+Question  11
+No Barr bodies were found in the cell, please indicate the karyotype:
+**\*a. 45, X0**
+b. 47, XX, 21
+c. 47, XXY
+d. 47, XXX
+
+Question  12
+What skin patterns are there on the fingertips:
+a. Triradius
+**\*b. Curl. Arc. Simple loop**
+c. "Knot"
+d. Square
+
+Question  13
+What method is used to study the genetic composition of a population?
+a. Dermatoglyphics method
+b. Biochemical method
+c. Molecular genetic method
+**\*d. Population statistical method**
+
+Question  14
+Concordance is
+a. Quantitative indicator of gene manifestation
+b. Absence of the trait in one of the twins
+**\*c. Percentage of similarity for this trait in twins**
+d. Degree of symptom expression
+
+Question  15
+Using the cytogenetic method, you can determine:
+a. Concentration and distribution of the gene in the population
+b. The influence of genotype and external environment on the development of the organism
+**\*c. Number and structure of chromosomes**
+d. Realization of genes in ontogenesis
+
+Question  16
+To determine gender, the following is used:
+a. Biochemical method
+b. Somatic cell genetics method
+c. Genealogical method
+**\*d. Determination of sex chromatin**
+
+Question  17
+How many heterochromosomes are there in a man's karyotype?
+a. 46
+b. 44
+c. 1
+**\*d. 2**
+
+Question  18
+How many Barr bodies do somatic cells of a healthy man have?
+a. 1
+b. 3
+c. 2
+**\*d. 0**
+
+Question  19
+The Hardy-Weinberg formula is not applicable:
+**\*a. In populations with consanguineous marriages**
+b. In numerous panmictic populations
+c. Only in ideal populations
+d. In large, ideal populations
+
+Question  20
+Sex X-chromatin is absent in somatic cells in:
+a. Women with Patau syndrome
+**\*b. Men**
+c. Women with Edwards syndrome
+d. Women with Down syndrome

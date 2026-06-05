@@ -1,0 +1,493 @@
+*Topic 20
+*Question 1
+How do polysaccharides like glycogen function in energy metabolism?
+•	a. They provide direct energy to muscles
+•	b. They act as a form of stored protein
+•	c. They promote fat storage
+•	*d. They are broken down into glucose for energy
+*Question 2
+How does heparin work as a blood thinner in medicine?
+•	*a. By inhibiting blood clotting factors
+•	b. By enhancing platelet function
+•	c. By preventing red blood cell breakdown
+•	d. By increasing red blood cell production
+*Question 3
+How is cellulose used in the medical field?
+•	*a. As a wound dressing material
+•	b. As an anesthetic
+•	c. As an antibiotic
+•	d. As an anti-inflammatory agent
+*Question 4
+What is a common medical application of chitosan, a derivative of chitin?
+•	*a. It is used in weight loss supplements
+•	b. It is used to treat anxiety
+•	c. It is used to increase muscle mass
+•	d. It is used to treat infections
+*Question 5
+What is a key property of cellulose that makes it suitable for use in medical dressings?
+•	a. Its ability to dissolve easily
+•	*b. Its ability to absorb moisture
+•	c. Its strong odor
+•	d. Its high acidity
+*Question 6
+What is a medical use of the polysaccharide dextran?
+•	a. It is used as a muscle relaxant
+•	b. It is used to treat high blood pressure
+•	c. It is used for cancer therapy
+•	*d. It is used in plasma volume expanders
+*Question 7
+What is the main function of polysaccharides in the human body?
+•	a. DNA synthesis
+•	b. Hormone regulation
+•	c. Muscle contraction
+•	*d. Energy storage and structural support
+*Question 8
+What is the primary biological function of glycogen?
+•	a. Cell signaling
+•	b. Blood clotting
+•	*c. Energy storage in animals
+•	d. Nerve transmission
+*Question 9
+What is the primary use of starch in medicine?
+•	a. It is used for pain relief
+•	b. It acts as an antibiotic
+•	*c. It serves as an energy source in intravenous solutions
+•	d. It reduces cholesterol levels
+*Question 10
+What is the role of heparin in preventing blood clots?
+•	a. It increases platelet aggregation
+•	b. It promotes blood cell production
+•	*c. It inactivates thrombin and prevents clot formation
+•	d. It thickens the blood
+*Question 11
+What is the role of polysaccharides in drug delivery systems?
+•	a. They reduce side effects
+•	*b. They help in controlled release of drugs
+•	c. They act as preserves
+•	d. They increase the solubility of drugs
+*Question 12
+What is the role of polysaccharides like hyaluronic acid in the human body?
+•	a. They aid in protein synthesis
+•	*b. They provide lubrication and hydration to joints
+•	c. They enhance digestion
+•	d. They promote muscle growth
+*Question 13
+What is the significance of pectin, a heteropolysaccharide, in medicine?
+•	*a. It is used in digestive health supplements
+•	b. It is used to treat infections
+•	c. It is used for skin care
+•	d. It is used for pain relief
+*Question 14
+Which heteropolysaccharide is used in wound healing and tissue repair?
+•	a. Chitin
+•	b. Starch
+•	*c. Hyaluronic acid
+•	d. Cellulose
+*Question 15
+Which of the following is a characteristic of polysaccharides in the context of their medical use?
+•	*a. They are biocompatible and biodegradable
+•	b. They cause allergic reactions
+•	c. They are insoluble in water
+•	d. They are toxic to cells
+*Question 16
+Which of the following is a homo-polysaccharide?
+•	*a. Starch
+•	b. Chitin
+•	c. Hyaluronic acid
+•	d. Heparin
+*Question 17
+Which polysaccharide is commonly found in plant cell walls and used for fiber supplements?
+•	a. Chitin
+•	b. Heparin
+•	c. Glycogen
+•	*d. Cellulose
+*Question 18
+Which polysaccharide is commonly used in eye drops for its moisture-retaining properties?
+•	a. Starch
+•	*b. Hyaluronic acid
+•	c. Chitosan
+•	d. Glycogen
+*Question 19
+Which polysaccharide is often used as a blood thinner in medical treatments?
+•	a. Cellulose
+•	*b. Heparin
+•	c. Glycogen
+•	d. Starch
+*Question 20
+Which polysaccharide is used in the pharmaceutical industry as a tablet binder?
+•	a. Hyaluronic acid
+•	b. Cellulose
+•	*c. Starch
+•	d. Glycogen
+
+
+
+*Topic 21
+*Question 1
+How do nucleoside analogs function in antiviral treatments?
+•	a. They block viral binding to cells
+•	*b. They inhibit viral replication
+•	c. They increase viral production
+•	d. They enhance immune response
+*Question 2
+How do nucleoside analogs treat cancer?
+•	a. They strengthen the immune system
+•	b. They block blood vessel growth in tumors
+•	*c. They interfere with DNA replication and inhibit cancer cell division
+•	d. They promote cell growth and repair
+*Question 3
+How do nucleotides contribute to the synthesis of proteins?
+•	*a. They are components of RNA, which is involved in protein synthesis
+•	b. They act as enzymes in protein formation
+•	c. They store genetic information in protein form
+•	d. They directly form protein chains
+*Question 4
+What is the difference between a nucleoside and a nucleotide?
+•	*a. A nucleotide contains a phosphate group, while a nucleoside does not
+•	b. A nucleoside contains a phosphate group, while a nucleotide does not
+•	c. Nucleotides are larger than nucleosides
+•	d. There is no difference
+*Question 5
+What is the function of the nucleotide GTP (Guanosine triphosphate) in the body?
+•	a. It aids in blood clotting
+•	*b. It acts as an energy source and is involved in protein synthesis
+•	c. It regulates blood pressure
+•	d. It promotes fat storage
+*Question 6
+What is the main function of cyclic AMP (cAMP) in cellular signaling?
+•	*a. It acts as a secondary messenger
+•	b. It directly binds to DNA
+•	c. It regulates cell division
+•	d. It provides energy for cellular functions
+*Question 7
+What is the main function of nucleotides in the human body?
+•	a. They aid in digestion
+•	*b. They are building blocks for DNA and RNA
+•	c. They serve as an energy source
+•	d. They regulate blood pressure
+*Question 8
+What is the role of adenosine monophosphate (AMP) in cellular energy regulation?
+•	*a. It helps regulate energy production
+•	b. It aids in cellular division
+•	c. It stores genetic information
+•	d. It promotes protein synthesis
+*Question 9
+What is the role of ATP (adenosine triphosphate) in the body?
+•	a. It regulates blood sugar levels
+•	b. It serves as a hormone
+•	*c. It provides energy for cellular processes
+•	d. It helps in digestion
+*Question 10
+What is the role of cAMP in the regulation of heart rate?
+•	*a. It activates protein kinase A to influence heart muscle contraction
+•	b. It increases blood pressure
+•	c. It directly affects sodium channels in the heart
+•	d. It regulates insulin secretion
+*Question 11
+What is the role of NAD+ in cellular metabolism?
+•	a. It regulates insulin secretion
+•	b. It provides energy for muscle contraction
+•	c. It strengthens bones
+•	*d. It acts as an electron carrier in redox reactions
+*Question 12
+What is the role of nucleotides in DNA synthesis?
+•	*a. They are the building blocks of DNA
+•	b. They regulate the expression of genes
+•	c. They catalyze DNA replication
+•	d. They provide energy for the process
+*Question 13
+What is the structure of a nucleoside?
+•	a. A sugar molecule attached to a fatty acid
+•	*b. A nitrogenous base attached to a sugar molecule
+•	c. A sugar molecule and a phosphate group
+•	d. A nitrogenous base and a phosphate group
+*Question 14
+Which nucleoside is commonly used in the treatment of herpesvirus infections?
+•	a. Paracetamol
+•	b. Penicillin
+•	c. Ibuprofen
+•	*d. Acyclovir
+*Question 15
+Which nucleoside is used in the treatment of HIV infections?
+•	a. Ibuprofen
+•	b. Paracetamol
+•	c. Amoxicillin
+•	*d. Zidovudine
+*Question 16
+Which of the following is a coenzyme derived from a nucleotide?
+•	a. Glucose
+•	b. Vitamin C
+•	c. ATP
+•	*d. NAD+ (Nicotinamide adenine dinucleotide)
+*Question 17
+Which of the following is a common medical use of nucleotides?
+•	a. They are used in pain relief medications
+•	b. They are used as muscle relaxants
+•	c. They are used to treat infections
+•	*d. They are used in gene therapy
+*Question 18
+Which of the following is a component of a nucleotide?
+•	a. A carbohydrate
+•	b. A protein
+•	*c. A nitrogenous base
+•	d. A lipid molecule
+*Question 19
+Which of the following is a key enzyme involved in nucleotide metabolism?
+•	a. Peptidase
+•	b. Lipase
+•	*c. Kinase
+•	d. Amylase
+*Question 20
+Which of the following is a nucleotide-based coenzyme involved in energy metabolism?
+•	a. Glucose
+•	*b. Coenzyme A
+•	c. Iron
+•	d. Vitamin D
+
+
+
+*Topic 22
+*Question 1
+How does complementary base pairing occur in DNA?
+•	a. Uracil pairs with adenine, and thymine pairs with guanine
+•	*b. Adenine pairs with thymine, and cytosine pairs with guanine
+•	c. Guanine pairs with thymine, and cytosine pairs with adenine
+•	d. Adenine pairs with uracil, and cytosine pairs with thymine
+*Question 2
+How does DNA replication occur?
+•	a. DNA is broken down into nucleotides
+•	b. A single strand of DNA is copied into a single RNA molecule
+•	*c. The two strands of DNA separate, and each serves as a template for a new strand
+•	d. Proteins are synthesized based on the DNA sequence
+*Question 3
+What does the RNA sequence carry?
+•	a. The energy needed for cellular processes
+•	b. The genetic material for cell replication
+•	c. The structural components for the cell membrane
+•	*d. The instructions for protein synthesis
+*Question 4
+What does the structure of DNA look like?
+•	*a. A double helix
+•	b. A triple helix
+•	c. A single strand
+•	d. A circular structure
+*Question 5
+What is the basic building block of DNA and RNA?
+•	*a. Nucleotides
+•	b. Fatty acids
+•	c. Monosaccharides
+•	d. Amino acids
+*Question 6
+What is the complementary base pair for adenine (A) in DNA?
+•	a. Uracil (U)
+•	*b. Thymine (T)
+•	c. Guanine (G)
+•	d. Cytosine (C)
+*Question 7
+What is the difference between DNA and RNA?
+•	a. DNA is involved in protein synthesis, while RNA is not
+•	*b. DNA is double-stranded, while RNA is single-stranded
+•	c. DNA contains uracil, while RNA contains thymine
+•	d. DNA is found only in the nucleus, while RNA is found only in the cytoplasm
+*Question 8
+What is the function of mRNA (messenger RNA) in protein synthesis?
+•	a. It carries amino acids to the ribosome
+•	b. It helps fold proteins into their functional shape
+•	c. It provides energy for protein synthesis
+•	*d. It carries genetic information from DNA to ribosomes for protein synthesis
+*Question 9
+What is the function of the ribosome in relation to mRNA?
+•	a. It breaks down the mRNA molecule
+•	b. It copies the mRNA to make DNA
+•	c. It stores the mRNA sequence for future use
+•	*d. It reads the mRNA sequence and synthesizes proteins
+*Question 10
+What is the main function of DNA in cells?
+•	a. To control energy production
+•	*b. To store and replicate genetic information
+•	c. To regulate cell division
+•	d. To synthesize proteins
+*Question 11
+What is the main function of RNA in the body?
+•	a. To store genetic information
+•	b. To regulate metabolism
+•	c. To provide energy for the cell
+•	*d. To carry genetic information for protein synthesis
+*Question 12
+What is the primary function of nucleic acids in the body?
+•	a. To provide energy for cellular processes
+•	*b. To store and transmit genetic information
+•	c. To build muscle tissue
+•	d. To regulate cell division
+*Question 13
+What is the role of ribosomes in protein synthesis?
+•	*a. They synthesize proteins by translating mRNA
+•	b. They store genetic information
+•	c. They produce energy for the cell
+•	d. They regulate the immune response
+*Question 14
+What is the role of tRNA (transfer RNA) in protein synthesis?
+•	a. It carries the genetic code to the ribosome
+•	*b. It brings amino acids to the ribosome for protein assembly
+•	c. It helps in the replication of DNA
+•	d. It catalyzes protein synthesis
+*Question 15
+What is the secondary structure of nucleic acids?
+•	*a. The local folding into structures like alpha helices and beta sheets
+•	b. The 3D structure of a protein encoded by the nucleic acid
+•	c. The interactions between different RNA molecules
+•	d. The sequence of nucleotides
+*Question 16
+What is the significance of the double helix structure of DNA?
+•	*a. It allows for the efficient storage and replication of genetic information
+•	b. It aids in energy production
+•	c. It helps in protein synthesis
+•	d. It provides structural support to the cell
+*Question 17
+What is the tertiary structure of DNA?
+•	a. The linear sequence of base pairs
+•	b. The bonding between nucleotides
+•	c. The formation of hydrogen bonds between the strands
+•	*d. The supercoiling of the DNA molecule
+*Question 18
+What type of bonds hold the two strands of the DNA double helix together?
+•	a. Ionic bonds between nitrogenous bases
+•	b. Covalent bonds between sugars and phosphates
+•	c. Van der Waals forces
+•	*d. Hydrogen bonds between complementary base pairs
+*Question 19
+Which of the following is a characteristic of the tertiary structure of DNA?
+•	a. DNA replication
+•	b. DNA transcription
+•	c. DNA translation into protein
+•	*d. DNA supercoiling to fit inside the cell nucleus
+*Question 20
+Which type of RNA is involved in the formation of ribosomes?
+•	a. mRNA (messenger RNA)
+•	*b. rRNA (ribosomal RNA)
+•	c. tRNA (transfer RNA)
+•	d. snRNA (small nuclear RNA)
+
+
+
+*Topic 23
+*Question 1
+How do enzymes lower the activation energy of a reaction?
+•	a. By providing energy to the system
+•	*b. By stabilizing the transition state of the reaction
+•	c. By increasing the temperature of the reaction
+•	d. By changing the concentration of reactants
+*Question 2
+How does enzyme therapy work?
+•	a. By inhibiting enzymes that cause diseases
+•	b. By blocking enzymes to enhance drug effectiveness
+•	c. By promoting the production of excess enzymes
+•	*d. By supplementing the body with specific enzymes to replace deficiencies
+*Question 3
+How does vitamin B12 function in the body?
+•	a. It helps in the digestion of fats
+•	b. It supports bone health
+•	c. It regulates the immune response
+•	*d. It helps in the formation of red blood cells and the maintenance of the nervous system
+*Question 4
+How is vitamin E involved in protecting the body?
+•	a. It aids in the production of red blood cells
+•	b. It regulates hormone production
+•	*c. It acts as a potent antioxidant that protects cells from oxidative damage
+•	d. It helps in blood clotting
+*Question 5
+What can cause vitamin C deficiency?
+•	*a. Scurvy
+•	b. Rickets
+•	c. Beriberi
+•	d. Pellagra
+*Question 6
+What condition is associated with a deficiency of vitamin K?
+•	*a. Hemorrhaging or excessive bleeding
+•	b. Osteoporosis
+•	c. Rickets
+•	d. Night blindness
+*Question 7
+What is a deficiency of vitamin D commonly associated with?
+•	a. Night blindness
+•	b. Scurvy
+•	*c. Rickets
+•	d. Pellagra
+*Question 8
+What is an enzyme?
+•	a. A lipid that stores energy
+•	b. A carbohydrate that provides energy
+•	*c. A protein that speeds up biochemical reactions
+•	d. A nucleic acid involved in protein synthesis
+*Question 9
+What is enzymopathology?
+•	a. The diagnostic use of enzymes to detect diseases
+•	b. The classification of enzymes based on their structure
+•	*c. The study of diseases caused by enzyme dysfunction
+•	d. The process of synthesizing enzymes in the lab
+*Question 10
+What is the effect of a deficiency in vitamin A?
+•	*a. Night blindness
+•	b. Beriberi
+•	c. Rickets
+•	d. Scurvy
+*Question 11
+What is the effect of high temperature on enzyme activity?
+•	a. It speeds up enzyme production
+•	*b. It can denature the enzyme and reduce its activity
+•	c. It stabilizes the enzyme structure
+•	d. It increases the reaction rate
+*Question 12
+What is the function of vitamin E in the body?
+•	a. It regulates the metabolism of fats
+•	b. It helps in blood clotting
+•	*c. It acts as an antioxidant and protects cells from damage
+•	d. It is involved in the synthesis of hemoglobin
+*Question 13
+What is the function of vitamin K in the body?
+•	*a. It plays a crucial role in blood clotting
+•	b. It supports immune function
+•	c. It helps with calcium absorption
+•	d. It regulates blood pressure
+*Question 14
+What is the main function of vitamins in the body?
+•	a. To catalyze chemical reactions
+•	b. To provide energy
+•	*c. To regulate biochemical processes and support metabolism
+•	d. To store genetic information
+*Question 15
+What is the main role of enzymes in metabolism?
+•	a. They store energy for the cell
+•	b. They encode genetic information
+•	*c. They speed up chemical reactions without being consumed
+•	d. They regulate the cell cycle
+*Question 16
+What is the main role of vitamin A in the body?
+•	a. It helps in protein digestion
+•	*b. It supports vision and immune function
+•	c. It regulates blood sugar levels
+•	d. It aids in the absorption of calcium
+*Question 17
+What is the major source of vitamin D for the body?
+•	a. Animal fats
+•	b. Fruits
+•	c. Green leafy vegetables
+•	*d. Sunlight exposure
+*Question 18
+What is the mechanism of enzyme action?
+•	a. Enzymes break down substrates into simpler molecules
+•	*b. Enzymes bind to substrates, forming an enzyme-substrate complex to catalyze reactions
+•	c. Enzymes release energy during the reaction
+•	d. Enzymes increase the energy of substrates
+*Question 19
+What is the primary function of enzymes in the body?
+•	a. To regulate gene expression
+•	b. To store genetic information
+•	c. To provide structural support
+•	*d. To catalyze biochemical reactions
+*Question 20
+What is the primary function of vitamin B1 (thiamine)?
+•	*a. It is essential for carbohydrate metabolism
+•	b. It protects the liver from toxins
+•	c. It supports bone health
+•	d. It aids in the synthesis of DNA

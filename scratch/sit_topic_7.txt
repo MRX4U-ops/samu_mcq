@@ -1,0 +1,36 @@
+Situational Task Topic 7
+Q1. The ability of one gene to control several traits (multiple gene action) is:
+  a. Incomplete dominance
+  b. Codominance
+* c. Pleiotropy
+  d. Complete Domination
+
+Q2. The object of genetic research by G. Mendel was the plant:
+* a. Peas
+  b. Wheat spinous
+  c. Potato
+  d. Corn
+
+Q3. In what type of interaction of allelic genes do lethal genes lead to the death of individuals in the homozygous state?
+  a. Incomplete dominance
+  b. Complete Domination
+  c. Codominance
+* d. Overdominance
+
+Q4. With incomplete dominance:
+  a. The genotypes of heterozygotes do not differ from homozygotes with a dominant gene
+* b. Heterozygotes are phenotypically different from homozygotes with a dominant gene
+  c. In homozygotes with a dominant gene, the trait is less pronounced than in heterozygotes
+  d. In homozygotes with a dominant gene, the trait is expressed in the same way as in heterozygotes
+
+Q5. A hemizygous organism is an organism in which:
+* a. The gene is represented not by two, but by one allele, and this allele is always phenotypically manifested, even in a recessive state
+  b. The gene is represented by a recessive allele
+  c. The gene is represented by dominant and recessive alleles
+  d. The gene is represented by a dominant allele
+
+Q6. Genes that suppress other genes are called:
+  a. Hypostatic
+* b. Inhibitors
+  c. Repressors
+  d. Corepressors

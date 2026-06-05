@@ -1,0 +1,843 @@
+The ability of Vibrio fischeri to convert chemical energy directly into radiant energy in bioluminescence is an example of __ at work.
+Shelford's law of tolerance
+Leibig's law of the minimum
+*the first law of thermodynamics
+the third law of thermodynamics
+
+
+The ability of a competitive inhibitor to bind to an active site in an allosterically controlled enzyme is __ than the ability of a non-competitive inhibitor to bind to an active site in the same allosterically controlled enzyme.
+*greater
+lesser
+approximately equal
+half
+
+
+The ability of FADH to be oxidized is __ than the ability of FAD to be oxidized.
+*greater
+lesser
+approximately equal
+half
+
+
+An endergonic reaction is one that
+*requires energy in order to proceed
+releases energy for work
+gives off much heat
+looses energy
+
+
+Reduction is the
+loss of proton
+*gain of electron
+loss of electron
+gain of protons
+
+
+If the Keq for an enzymatic reaction is greater than 1, the reaction
+will be endergonic
+can not occur without the input of energy
+both (a) and (b)
+*none of these
+
+
+An exergonic reaction is one that
+requires energy to proceed
+*releases energy for work
+gives off much heat
+looses energy
+
+
+If the free energy change (ΔG) in a reaction is a negative value, it indicates that the
+*reaction releases energy
+reaction absorbs energy
+reaction is in negative direction
+reaction is in positive direction
+
+
+To a living organism, which of the following has the greatest amount of available energy per molecule?
+*ATP
+ADP
+AMP
+H2O
+
+
+Which of the following is the best evidence for the lock and key theory of enzyme action?
+*Compounds similar in structure to the substrate inhibit enzyme activity
+Enzymes are found in living organisms and speed up certain reactions
+Enzymes speed up reactions by definite amounts
+Enzymes determine the direction of a reaction
+
+
+In the reaction, C6H12O6* 6O2 → 6CO2 * 6H2O * energy, which component is being oxidized?
+*C6H12O6
+O2
+CO2
+H2O
+
+
+The fact that β-oxidation of fatty acids, occurs in the mitochondria whereas fatty acid synthesis occurs in the cytoplasmic matrix, is an example of regulation of enzymatic activity by the __ mechanism.
+compartmentation
+induction
+competitive inhibition
+*repression
+
+
+In the reaction, C6H12O6 * 6O2 → 6CO2 * 6H2O * energy, which component is being reduced?
+*O2
+CO2
+H2O
+Energy
+
+
+The affinity of an enzyme for its substrate, when the enzyme has a Km of 0.50 M will be __ than the affinity of an enzyme for its substrate when the enzyme has a Km of 0.05 M.
+greater
+*lesser
+approximately equal
+half
+
+
+Anthranilate synthase, the first enzyme of tryptophan biosynthesis after the branch point shows feedback inhibition and repression due to
+*L-tryptophan
+D-L-tryptophan hydantoin
+L-serine
+pyruvate
+
+
+A substrate binds to its enzyme at a location called the __ site.
+coenzyme
+substrate
+*active
+polypeptide
+
+
+Hydrogen and oxygen release enormous amounts of energy when they reactYet, hydrogen and oxygen can be mixed together in a balloon and nothing will happenWhy?
+*Competitive inhibitors are blocking the reaction from occurring in the active site
+There must be contaminating elements in the balloon that prohibit the reaction from occurring
+The energy of activation to form the transition-state complex is too high to allow the reaction to occur without assistance
+all of the above
+
+
+Adenosine triphosphate is a type of
+fatty acid
+amino acid
+*nucleotide
+Steroid
+
+
+An enzyme that is always produced, regardless of the presence of substrates or the end products, is called
+*a constitutive enzyme
+an isoenzyme
+a repressible enzyme
+an allosteric enzyme
+
+
+About 7.3 kcal/mole are released when
+*glucose is converted to CO2 and H2O
+NAD* is reduced to NADH
+ATP hydrolysis is coupled to sucrose synthesis
+the terminal phosphate bond of ATP is broken by hydrolysis
+
+
+
+Gram stain of CSF sediment from a patient with meningitis contains Gram-negative cocci, many in pairs. Which organism below is most likely?
+Streptococcus pneumoniae
+*Neisseria meningitidis
+Pseudomonas aeruginosa
+Escherichia coli
+
+
+The carrier site in humans for pathogenic Neisseria meningitidis is the
+Conjunctiva
+*nasopharynx
+blood
+meninges
+
+
+The main carrier site on the human body for strains of potentially pathogenic Neisseria meningitidis is the
+nasal membranes
+*throat (posterior nasopharynx)
+gastrointestinal tract
+vagina
+
+
+The main carrier site on the human body for strains of potentially pathogenic Neisseria meningitidis is the
+nasal membranes
+*throat (posterior nasopharynx)
+gastrointestinal tract
+vagina
+
+
+In serum broth Meningococci produce:
+No visible changes
+All answers are correct
+There is no correct answer
+*Turbidity and a sediment at the bottom of the test tube
+
+
+Meningococci were described by:
+Pasteur
+Bilroth
+Loeffler
+*Weichselbaum
+
+
+Condition of Meningococci cultivation  for diagnosis of epidemic meningitis:
+The  inoculated culture is incubated at 22 °C and in conditions of elevated CO2 contents
+The  inoculated culture is incubated at 37 °C and in conditions of elevated O2 contents
+The  inoculated culture is incubated at 37 °C
+*The  inoculated culture is incubated at 37 °C and in conditions of elevated CO2 contents
+
+
+Neisseria meningitidis is classified with _____.
+proteobacteria
+chlamydias
+cyanobacteria
+*gram-negative bacteria
+
+
+Show fermentative properties of Meningococci:
+do not liquefy gelatin
+cause no change in milk
+ferment maltose with acid formation
+*ferment glucose and maltose with acid formation
+
+
+The meningococcus is an aerobe or facultative anaerobe and does not grow on common media. It grows readily at pH 7.2-7.4 on media to which _________ has been added.
+Glucose
+Bile
+Urine
+*Serum
+
+
+The Neisseria gonorrhoeae does not grow on common media. It grows readily on media to which _________ has been added.
+Glucose
+Mannitol
+Yolk
+*Ascitic fluid
+
+
+Which of the following statements about gonorrhea is true?
+Men are frequently asymptomatic carriers.
+Bacteremia is common..
+Penicillins are no longer recommended for treatment.
+*Gonococci are within leucocytes in a sample
+
+
+Which of the following is NOT true of Neisseria gonorrhea?
+Is a mucosal pathogen
+*Requires a vaginal pH of 5 or more to grow
+Can disseminate in the immunosuppressed
+Gram-negative diplococci
+
+
+Who did discover gonococci first?
+Pasteur
+Koch
+Loeffler
+*Neisser
+
+
+The gonococcus possesses low biochemical activity and no proteolytic activity. It ferments only _____________  with acid formation
+Maltose
+Mannitol
+All answers are correct
+*Glucose
+
+
+The Gonococci do not grow on common media. They grow readily at pH 7.2-7.4 on media to which _________ has been added.
+Glucose
+Bile
+No correct answer
+*Serum
+
+
+The causative agent of gonorrhea is
+Neisseria meningitidis
+Treponema pallidum
+gonorrhea mycobacterium
+*Neisseria gonorrhea
+
+
+Pili increase the virulence in which of the following?
+Treponema pallidum
+Mycobacterium tuberculosis
+Neisseria meningitidis
+*Neisseria gonorrhea
+
+
+Gonococcus is pathogenic for:
+Rabbits
+Mice
+Rats
+*No correct  answer
+
+
+The Gonococci are pathogenic for:
+Rabbit
+Mice
+Rat
+*Human
+
+
+
+The class of immunoglobulins which can cross the placenta is
+IgM
+*IgG
+IgA
+IgD
+
+
+Self reactive antibodies are not found in significant concentration in normal serum because
+it is impossible to generate a self-reactive antibody
+self reactive B cells are killed by CD8 T cells
+*B cells that are stimulated via their surface bound antibody in the absence of T cell help to commit suicide
+self reactive B cells switch to IgA which is all secreted and not present in serum
+
+
+Simulation of which of the following will lead to appearance of first antibody to appear following stimulation by an antigen?
+*IgM
+IgA
+IgE
+IgG
+
+
+Antigen binding sites of an immunoglobulin are located in
+light chain alone
+heavy chain alone
+Fc region of the antibody
+*Fab regions of the antibody
+
+
+Which of the following mediates Type I hypersensitivity reaction?
+*IgE
+IgG
+IgM
+IgD
+
+
+Which of the following theory of antibody production is most widely accepted?
+Side chain theory
+*Clonal selection theory
+Direct template theory
+Indirect template theory
+
+
+Which is the most efficient complement fixing class of antibody?
+IgE
+IgA
+*IgM
+IgG
+
+
+The class of immunoglobulin, most abundant in body is
+IgD
+IgE
+*IgG
+IgM
+
+
+Which is not a function of IgG?
+Major antibody in serum
+*First antibody type produced against an antigen during the primary antibody response
+Activates or fixes complement
+Involved in opsonization
+
+
+J chain is present in
+IgA
+IgM
+*Both (a) and (b)
+IgE
+
+
+Heat-labile class of immunoglobulins include
+IgA
+*IgE
+IgG
+IgM
+
+
+Which of the following (s) is/are function (s) of Fc fragment of IgG?
+It determines catabolic rate
+It binds complement
+It is related to passage of IgG across the placental barrier
+*All of these
+
+
+Which of the following is the phylogenetically oldest immunoglobulin?
+IgE
+*IgM
+IgG
+All are similar
+
+
+The secretary component of sIgA is
+made by plasma cells that secrete dimeric IgA
+added to dimeric IgA by the M cell
+*formed by cleavage of an epithelial cell receptor used to transport the dimeric IgA across the epithelial cell
+made by T cells
+
+
+Anti-Rh antibodies are
+*IgG type
+IgA type
+IgE type
+IgD type
+
+
+Which is not a function of IgA?
+Protect mucosal surfaces
+*Fix complement
+Protect eyes
+Agglutinate antigen
+
+
+For example of ......... is VDRL test
+Tube test
+Ring test
+*Slide test
+none of these
+
+
+Inner which of the following case a large lattice is formed?
+Antibody is in excess
+*Antigens and antibodies are in optimal proportion
+Antigen is in excess
+None of these
+
+
+precipitate reaction is relatively less sensitive for the detection of
+antigens
+antigen-antibody complexes
+*antibodies
+complement
+
+
+more sensitive than precipitation for the detection of ..........is Agglutination reaction
+*antigens
+antibodies
+complement
+antigen-antibody complexes
+
+
+
+Which of the following lymphokine(s) is secreted by delayed-type-hypersensitivity cells?
+Macrophage stimulating factor
+Migration inhibiting factor
+Macrophage activating factor
+*All of the above
+
+
+Which of the following is an example of autoimmune disease?
+Rheumatoid arthritis
+Systemic lupus erythematosus
+Polyarteritis nodosa
+*All of the above
+
+
+Immunosuppressive agent(s) is/are
+Cyclosporine
+Methotrexate
+Anti-lymphocytic serum
+*All of these
+
+
+Induction of tolerance mechanism(s) is/are
+suppression
+clonal deletion
+clonal anergy
+*all of these
+
+
+Lens antigens of the eye are
+cross-reacting antigens
+*sequestrated antigens
+neoantigens
+none of these
+
+
+Negative phase is observed in
+*secondary humoral response
+primary humoral response
+both (a) and (b)
+none of the above
+
+
+Method(s) that can be used to detect CMI is/are
+migration inhibition
+target cell destruction factor test
+skin test for delayed hypersensitivity
+*all of the above
+
+
+In which of the following cell mediated immunity (CMI) participates?
+Delayed hypersensitivity reaction
+Graft versus host reaction
+Allograft rejection
+*All of the above
+
+
+Overactivity of Th cells may result into
+*autoimmunity
+optimal antibody response
+optimal cell-mediated response
+none of the above
+
+
+Found of the following is correct for isoantigens?
+They are antigens found in all members of different species
+*They are antigens found in some members of a species
+They are antigens found in all members of a species
+They are antigens found in some members of different species
+
+
+Found of the following is correct for CD8 T cells?
+CD8 T cells only recognize virus-infected cells
+CD8 T cell receptor recognizes epitopes that are also commonly recognized by B cells
+In the thymus, CD8 T cells undergo positive selection only, whereas CD4 T cells undergo negative selection only
+*CD8 T cells can kill individual virus-infected cells in a contact dependent fashion
+
+
+Found of the following expresses CD3 surface antigen?
+Granulocytes
+*T cells
+Monocytes
+B cells
+
+
+Found of the following is correct for isoantigens?
+They are antigens found in all members of different species
+*They are antigens found in some members of a species
+They are antigens found in all members of a species
+They are antigens found in some members of different species
+
+
+Found of the following is correct for CD8 T cells?
+CD8 T cells only recognize virus-infected cells
+CD8 T cell receptor recognizes epitopes that are also commonly recognized by B cells
+In the thymus, CD8 T cells undergo positive selection only, whereas CD4 T cells undergo negative selection only
+*CD8 T cells can kill individual virus-infected cells in a contact dependent fashion
+
+
+Found is not an antigen-presenting cell (or APC)?
+B cell
+*Polymorphonuclear leukocyte (or PMN)
+Dendritic cell
+All of the above
+
+
+Found of the following proteins would not need localization signal?
+A nuclear protein
+*A cytosolic protein
+A protein bound to the endoplasmic reticulum (ER) membrane
+A cell surface protein
+
+
+Found of the following(s) is/are the determinants of antigenicity?
+Chemical nature
+Size of the antigen
+Foreignness
+*All of these
+
+
+Found of the following is correct?
+All T Cells are CD4*
+An epitope can have multiple antigens
+*T Cell receptors are generated by random assortment of gene cassettes
+MHC Class II molecules are generated by random assortment of gene cassettes
+
+
+Found of the following statements is false regarding B cells?
+B cells can undergo class switching and produce a different antibody type
+*B one marrow stem cells migrate to the thymus and develop into B cells
+B cells synthesize antibodies and put them on their cell surface
+B cells that recognize high concentrations of antigens (self) in the absence of other signals undergo apoptosis in the bone marrow
+
+
+role of the M cell is to
+trap virus in mucus and prevent entry
+induce apoptosis in virus-infected small intestinal epithelia cells
+*pass bacteria or virus to underlying macrophages for processing and presentation of antigen
+they use their cilia to propel mucus out of the small intestine
+
+
+
+In heat oven at 160 C Petry palates were sterilized. What test-microbe is it possible to use for sterilization control?
+Bacillus cereus
+Clostridium perfringens
+Clostridium difficile
+*Bacillus subtilis
+
+
+Indicate the composition of liquid Hiss media
+1 % peptone water, different carbohydrates (glucose, maltose, lactose, saccharose, Mannitol and other), an indicator bromthymol dark blue
+1 % peptone water, different carbohydrates (glucose, maltose, lactose, saccharose, Mannitol and other), an indicator eosin
+1 % peptone water, different carbohydrates (glucose, maltose, lactose, saccharose, Mannitol and other), an indicator is methylene blue
+*1 % peptone water, different carbohydrates (glucose, maltose, lactose, saccharose, mannitol and other), indicator of Andrede
+
+
+Which microorganisms can be used for quality control of sterilization by filtration?
+Escherichia coli
+Salmonella typhi
+Clostridium perfringens
+*Serratia mаrcescens
+
+
+What colour does non-inoculated Olkenitsky medium have?
+bright red
+pink
+*yellow
+greenish
+
+
+What colour does noninoculated Ressel’s medium have?
+bright red
+greenish
+violet
+*yellow
+
+
+What is advantage of Koch, Drigalsky and streak techniques above the Pasteur method?
+Enable to study biochemical properties of bacteria
+Enable to study antigen properties of bacteria
+Enable to obtain  a pure culture
+*Enable to obtain the isolated colonies
+
+
+What is an essence of Koch technique for isolation of pure cultures?
+Use of liquid nutrient media for obtaining the isolated colonies
+Use of blood agar for examination of hemolysines types
+Use of solid nutrient media for examination of antibiotics susceptibility
+*Use of solid nutrient media (gelatin) for obtaining the isolated colonies
+
+
+What is an essence of Pasteur technique for isolation of pure cultures?
+Dilution of tested material in gelatin
+Dilution of tested material  in MPA
+Dilution of tested material in the AGV nutrient medium
+*Dilution of tested material in a liquid nutrient medium
+
+
+The primary use of Koch's postulates is to
+clearly identify and characterize a particular microorganism.
+isolate microorganisms from diseased animals.
+develop vaccines for specific diseases.
+*demonstrate that a disease is caused by a microorganism.
+
+
+Which of the following is NOT part of Koch's postulates?
+the microorganism is never found in healthy animals.
+the microorganisms is always found in diseased animals.
+the microorganism must cause disease in healthy animals.
+*the microorganism must secrete a toxin in culture.
+
+
+At what advantage of Koch method in comparing Pasteur one for isolation of pure cultures?
+Enables  to examine antibiotics susceptibility
+Enables to examine biochemical properties of microbes
+Enables to examine antigen properties of microbes
+*Enables to obtain the isolated colonies
+
+
+Anaerobic microorganisms may be isolated by:
+Fortner method
+Shukevich method
+Pasteur method
+*Veynberg method
+
+
+For mechanical separation of bacteria is not used such method:
+Pasteur serial dilution
+Koch method
+Drigalsky method
+*Leffler method
+
+
+What is advantage of Koch, Drigalsky and streak techniques above the Pasteur method?
+Enable to study biochemical properties of bacteria
+Enable to study antigen properties of bacteria
+Enable to obtain  a pure culture
+*Enable to obtain the isolated colonies
+
+
+What is an essence of ІV stage of isolation of pure culture of anaerobic bacteria?
+Inoculation of colonies on the proper nutrient medium
+Examination of tinctorial properties of bacteria
+Examination of serologic features of bacteria which form colonies by precipitation test
+*Checking the culture purity and its identification
+
+
+Water testing relies on the detection of certain indicator organisms known as
+acid-fast bacteria
+bacteroids
+*coliforms
+dinoflagellates
+
+
+For most bacteria, the optimum pH for growth lies between
+*6.5-7.5
+3.5-4.5
+4.5-5.5
+5.5-6.5
+
+
+Semi-solid media, prepared with agar at concentrations of 0.5% or less are useful for the cultivation of
+*Microaerophillic bacteria
+Lactobacilli
+E.coli
+all of these
+
+
+The isolation of the gonorrhoea - causing organisms, Neisseria gonorrhoeae,from a clinical specimen is facilitated by the use of media containing
+cellulose
+*certain antibiotics
+succinate
+none of these
+
+
+The archaebacterium Halobacterium, an extreme halophile, and Sulfolobus, a thermoacidophile, can be cultured in the presence of antibiotics such as streptomycin and chloramphenicol because
+they contain ether-linked isoprenoids in their plasma membrane
+*they lack murein in their cell wall
+they contain 80S, as opposed to 70S, ribosomes
+all of the above
+
+
+
+Which of the following virus is already detectable after infections?
+Hepatitis B virus
+*Herpes simplex virus
+Varicella-zoster virus
+Cytomegalovirus
+
+
+Which of the following viruses has been associated with human cancer?
+Hepatitis C virus
+Hepatitis B virus
+*All of them
+Herpes simplex virus type 2
+
+
+The envelope of which of the following viruses is derived from the  cell membrane?
+Paramyxoviruses
+Retroviruses
+Orthomyxoviruses
+*Herpesviruses
+
+
+Which of the following viruses   of infected cells?
+*Hepatitis B virus
+Human T cell lymphotronic virus type I
+Epstein-Barr virus
+All of these
+
+
+Which of the following viruses belong/s to family caliciviridae?
+Hepatitis B virus
+Hepatitis D virus
+*Hepatitis E virus
+All of these
+
+
+Enzyme neuraminidase is carried by which of the following viruses?
+Human immunodeficiency virus
+Epstein-Barr virus
+*Influenza virus
+Adenovirus
+
+
+Which of the following virus is susceptible to chloroform?
+Herpes
+Influenza
+Measles
+*All of these
+
+
+Which of the following virus is always detectable after infections?
+Hepatitis B virus
+*Herpes simplex virus
+Varicella-zoster virus
+Cytomegalovirus
+
+
+Which of the following hepatitis viruses is not RNA virus?
+*Hepatitis A virus
+Hepatitis B virus
+Hepatitis E virus
+Hepatitis G virus
+
+
+Which of the following nucleic acid is present in hepatitis B virus?
+*dsDNA
+ssRNA
+ssDNA
+dsRNA
+
+
+The agent representing an isolate of hepatitis G virus is
+GBA-A
+GBV-B
+*GBV-C
+none of these
+
+
+Hepatitis G virus belongs to the family
+Caliciviridae
+Flaviviridae
+*Hepadnaviridae
+Coronaviridae
+
+
+Transmission of hepatitis G virus is
+Parenterally
+Sexually
+*Both (a) and (b)
+None of these
+
+
+Which of the following specimens contain/s hepatitis B virus in an infected person?
+Blood
+Semen
+Saliva
+*All of these
+
+
+Vertical transmission may be seen in
+Hepatitis B virus
+Hepatitis C virus
+Hepatitis D virus
+*All of these
+
+
+Hepatocellular carcinoma (Hepatoma) may be caused by
+Hepatitis A virus
+Hepatitis C virus
+*Both (a) and (b)
+None of these
+
+
+The defective satellite virus is
+hepatitis B
+hepatitis C
+*hepatitis D
+hepatitis A
+
+
+All of the following viruses are enveloped except
+*Hepatitis A virus
+Hepatitis B virus
+Hepatitis C virus
+Hepatitis D virus
+
+
+The viruses, which is/are transmitted by parenteral and sexual routes is/are
+Hepatitis B virus
+Hepatitis C virus
+Hepatitis G virus
+*All of these
+
+
+Which of the following antigenic types of hepatitis B virus is present in the envelope?
+*HbsAg
+HBcAg
+HBeAg
+HBxAg

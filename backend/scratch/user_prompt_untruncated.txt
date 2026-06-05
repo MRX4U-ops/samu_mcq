@@ -1,0 +1,120 @@
+<USER_REQUEST>
+The gram-negative organisms is 
+Actinomyces 
+Bacillus 
+Clostridium 
+*None of these 
+Catalase production is negative in which of the following? 
+*Streptococcus 
+Salmonella 
+Proteus 
+Staphylococcus 
+Which of the following is a substitute for crystal violet used in gram-staining procedure? 
+*Methylene blue 
+Bromocresol green 
+Safranin 
+Phenolpthalene 
+Which of the following inference(s) indicate(s) the ability of an organism to utilize citrate as a 
+sole source of carbon in Simmon's citrate medium? 
+Blue colour 
+Appearance of growth 
+*Both (a) and (b) 
+None of these 
+The organisms that can be acid-fast stained is 
+Nocardia 
+Tubercle bacilli 
+Lepra bacilli 
+*all of these 
+The primary stain of Gram's method is 
+safranin 
+phenolpthalene 
+*crystal violet 
+methyl red 
+At what concentration of sulphuric acid, Nocardia resists decolourization? 
+*0.5% sulphuric acid 
+5% sulphuric acid 
+10% sulphuric acid 
+8% sulphuric acid 
+Which of the following is commonly used as Gram's decolouriser? 
+Ethyl alcohol 
+Methyl alcohol 
+Acetone 
+*A mixture of ethyl alcohol and acetone 
+Production of acetoin can be detected by which of the following tests? 
+Citrate test 
+*Voges-Proskauer test 
+Methyl red test 
+Indole test 
+The production of sufficient acid by fermentation of glucose leads to decrease in pH such that 
+pH of the medium falls below 4.5Which of the following test can detect it? 
+Indole test 
+*Methyl red test 
+Citrate utilization test 
+Voges-Proskauer test 
+What is the colour of gram -postive bacteria on a gram staining? 
+*Purple 
+Pink 
+Colourless 
+Green 
+What is the colour of gram-negative bacteria on a gram staining? 
+Purple 
+*Pink 
+Green 
+Colourless 
+Which of the following is a primary stain for acid fast staining of mycobacteria? 
+Crystal violet 
+*Carbol fuchsin 
+Geimsa 
+Methylene blue 
+The deinococci are gram-positive cocci and rods that are distinctive in their unusually great 
+resistance to 
+radiation 
+desiccation 
+*both (a) and (b) 
+extre
+<truncated 45216 bytes>
+um diphtheriae, the agent of diphtheria? 
+skin 
+eye 
+*throat 
+all are false 
+There is a bacteriological method for laboratory diagnosis of diphtheria. For cultivation of  . 
+diphtheriae it is necessary to know the some bacterial properties. What nutrient media it is 
+necessary to use for cultivation of Corynebacterium diphtheriae? 
+*blood agar, blood tellurite agar 
+sugar MPB, sugar MPA 
+yolk-salt agar 
+Endo, Ploskirev 
+In an infectious department there is a girl, 10 years of old with a diagnosis diphtheria of 
+pharynxвЂќ. Toxigenic strain of Corynebacterium diphtheriae was isolated. How can you 
+examine the strain toxigenicity? 
+test 
+*By precipitation test in a gel 
+By indirect haemagglutination test 
+By flocculation test 
+During examination of bacterial carriers in the kindergarten one nurse showed the presence of 
+Corynebacterium in her throat.  The production of toxin by Corynebacterium diphtheriae  was 
+checked. It did not produce exotoxin. What test was used for examination of toxigenicity? 
+Ring precipitation test 
+*Precipitation test in gel 
+Complement fixation test 
+Immunofluorescence test 
+The common substrate of cholera toxin (ctx) and diphtheria toxin (dtx) is 
+NAD 
+*ADP ribose 
+ATP 
+elongation factor 2 (EF-2) 
+According to epidemiological indication in preschool it is necessary to make vaccination 
+against a whooping cough. What preparation may be used? 
+live attenuated pertussis vaccine 
+Human immunoglobulin 
+Killed pertussis vaccine 
+*Pertussis-diphtheria-tetanus vaccine 
+During examination of bacterial carriers in the kindergarten one nurse showed the presence of 
+Corynebacterium in her throat.  The production of toxin by Corynebacterium diphtheriae  was 
+checked. It did not produce exotoxin. What test was used for examination of toxigenicity? 
+Ring precipitation test 
+*Precipitation test in gel 
+<truncated 129005 bytes>
+
+NOTE: The output was truncated because it was too long. Use a more targeted query or a smaller range to get the information you need.

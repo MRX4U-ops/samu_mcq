@@ -487,3 +487,44 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql SECURITY DEFINER;
 
+
+-- 23. STUDY ALARMS TABLE
+CREATE TABLE public.study_alarms (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    user_id UUID NOT NULL REFERENCES public.profiles(id) ON DELETE CASCADE,
+    title TEXT NOT NULL,
+    time TEXT NOT NULL, -- e.g., "08:00 PM"
+    repeat_type TEXT NOT NULL, -- 'daily', 'weekly', 'custom'
+    days_of_week TEXT[], -- e.g., ['Mon', 'Tue', 'Wed']
+    ringtone_enabled BOOLEAN DEFAULT TRUE,
+    vibration_enabled BOOLEAN DEFAULT TRUE,
+    is_active BOOLEAN DEFAULT TRUE,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
+-- 24. EXAM REMINDERS TABLE
+CREATE TABLE public.exam_reminders (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    user_id UUID NOT NULL REFERENCES public.profiles(id) ON DELETE CASCADE,
+    subject TEXT NOT NULL,
+    exam_date TIMESTAMP WITH TIME ZONE NOT NULL,
+    notes TEXT,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+);
+
+-- Enable RLS
+ALTER TABLE public.study_alarms ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.exam_reminders ENABLE ROW LEVEL SECURITY;
+
+-- Policies
+CREATE POLICY "Users can manage own study alarms" ON public.study_alarms
+    FOR ALL USING (auth.uid() = user_id);
+
+CREATE POLICY "Users can manage own exam reminders" ON public.exam_reminders
+    FOR ALL USING (auth.uid() = user_id);
+
+CREATE POLICY "Admins can manage all study alarms" ON public.study_alarms
+    FOR ALL USING (public.is_admin());
+
+CREATE POLICY "Admins can manage all exam reminders" ON public.exam_reminders
+    FOR ALL USING (public.is_admin());

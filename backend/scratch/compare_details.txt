@@ -1,0 +1,130 @@
+Number of questions with different correct answers: 32
+
+1. Q: Which of the following bacteria lack a cell wall and are therefore resistant to penicillin?
+   Clip: Mycoplasmas
+   DB:   Mycoplasma
+----------------------------------------
+2. Q: Chemotaxis is a phenomenon of
+   Clip: swimming away or towards of bacteria in presence of chemical compound
+   DB:   swimming away or towards of bacteria in the presence of chemical compound
+----------------------------------------
+3. Q: Cell wall of gram-negative bacteria contains all, except:
+   Clip: thin monolayer peptidiglycan
+   DB:   thin monolayer peptidoglycan
+----------------------------------------
+4. Q: Choose method of staining of bacterial spores:
+   Clip: Staining by Auesko’s method
+   DB:   Staining by Auesko's method
+----------------------------------------
+5. Q: For verifying the peptolytic properties of bacteria what substances are examined in nutrient medium?
+   Clip: indole and hydrogen sulphide
+   DB:   indole and hydrogen sulfide
+----------------------------------------
+6. Q: Functional purpose of the central organs of the immune system:
+   Clip: actigen-independent differentiation of lymphocytes
+   DB:   antigen-independent differentiation of lymphocytes
+----------------------------------------
+7. Q: Which family has received most interest in their development as a biological control agent against insects?
+   Clip: Poxviridae
+   DB:   Baculoviridae
+----------------------------------------
+8. Q: The envelope of which of the following viruses is derived from the host cell membrane?
+   Clip: Adenoviruses
+   DB:   Herpesviruses
+----------------------------------------
+9. Q: Which of the following virus is always detectable before infections?
+   Clip: Adenoviradae
+   DB:   Adenoviridae
+----------------------------------------
+10. Q: The virus(es) which can cause aseptic factor is/are
+   Clip: Coronaviradae
+   DB:   Coxsackieviruses
+----------------------------------------
+11. Q: Protein A is found in cell wall of
+   Clip: coagulase-negative staphylococci
+   DB:   Staphylococcus aureus
+----------------------------------------
+12. Q: Hemolytic uremic syndrome is caused by which of the following bacterium?
+   Clip: Escherichia coli 0157
+   DB:   Escherichia coli O157
+----------------------------------------
+13. Q: What is the most common cause of urinary tract infections?
+   Clip: Enterococcus fecalis
+   DB:   Escherichia coli
+----------------------------------------
+14. Q: Which of the following serotypes of Salmonella can cause gastroenteritis?
+   Clip: S. cholerae suis
+   DB:   S. Enteritidis
+----------------------------------------
+15. Q: A young child develops bloody diarrhea, produced by Shigella infection.  From which source was this infection most likely to have been contracted?
+   Clip: Another child.
+   DB:   Another child
+----------------------------------------
+16. Q: Salmonella causes Enteric fever (typhoid) and food poisoning. Is it a...
+   Clip: Gram negative bacilli
+   DB:   Gram negative bacteria
+----------------------------------------
+17. Q: Which of these is not a gram-negative bacteria?
+   Clip: Streptococcus pneumonia
+   DB:   Streptococcus pneumoniae
+----------------------------------------
+18. Q: Aminoglycosides work by Interaction with the 30S subunit of ribosomes. Which of these are examples of aminoglycosides?
+   Clip: Streptomycin, gentamycin
+   DB:   Streptomycin, gentamicin
+----------------------------------------
+19. Q: Which of these antibiotics works by inhibiting the folic acid converting enzyme?
+   Clip: Trimetroprim
+   DB:   Trimethoprim
+----------------------------------------
+20. Q: Each of the following statements concerning Clostridium tetani is correct EXCEPT:
+   Clip: It is a facultative organism; it will grow on a blood agar plate in the presence of room air
+   DB:   It is a facultative organization; it will grow on a blood agar plate in the presence of room air
+----------------------------------------
+21. Q: Choose method of staining of bacterial spores, which are formed by C. perfringens:
+   Clip: Staining by Aujesko’s method
+   DB:   Staining by Aujesko's method
+----------------------------------------
+22. Q: A 15-year-old female presented with a three-day history of fever, headache and a non productive cough. Penicillin was prescribed and the patient was sent home. Her illness did not respond to this antibiotic. Gram stain and culture of the patient's sputum and a throat swab revealed only 'normal oral flora'. She was then successfully treated with erythromycin. Which organism below is most likely to have caused her illness?
+   Clip: Mycoplasma pneumoniae.
+   DB:   Mycoplasma pneumoniae
+----------------------------------------
+23. Q: A doctor is struggling to diagnose a woman’s flulike illness. She complains of a fever that rises during the day and peaks after dinner (undulant fever), fatigue, spinal tenderness, and loss of appetite. Her lymph nodes are enlarged in physical exam. The doctor has trouble narrowing down the possible etiologies until he hears that the tasted goat cheese at a French village a month before the onset of her symptoms. Which of the following is the most likely cause?
+   Clip: Pseudomonas aeruginosa
+   DB:   Brucella species
+----------------------------------------
+24. Q: A man enters the emergency room claiming to have been stabbed two days earlier. Muscles in his arm hurt, and on palpation small air bubbles are felt below the skin. The wound area exudes a blackish, ill-smelling fluid that generates a crackling sound when touched. The patient has a fever, a low blood pressure, marked tachycardia, and urina very little since his injury. The doctor decides to amputate the arm, as well as monitor the patient for shock and renal failure Which of the following is the most likely cause?
+   Clip: perfingens
+   DB:   C. perfringens
+----------------------------------------
+25. Q: A middle aged man recently returned from visiting his family in India develops severe diarrhea. He in fact has cholera. His diarrhea is produced by a protein exotoxin secreted by Vibrio cholerae. How does this toxin act?
+   Clip: Stimulates a G protein that activates adenyl cyclase.
+   DB:   Stimulates a Gs protein that activates adenyl cyclase.
+----------------------------------------
+26. Q: A sore child was tested by Mantouxs test. In 24 hours there were tumidity, hyperemia and painfulness in the place of allergen injection. What basic mechanisms do provide this reaction of a body?
+   Clip: Mononuclear cells, T-cell, and lymphokines
+   DB:   Mononuclear cells, T-cells, and lymphokines
+----------------------------------------
+27. Q: A surgeon is struggling to diagnose a woman’s flulike illness. She complains of a fever that rises during the day and peaks after dinner (undulant fever), fatigue, spinal tenderness, and loss of appetite. Her lymph nodes are enlarged in physical exam. The doctor has trouble narrowing down the possible etiologies until he hears that the tasted goat cheese at a French village a month before the onset of her symptoms. Which of the following is the most likely cause?
+   Clip: Pseudomonas aeruginosa
+   DB:   Brucella species
+----------------------------------------
+28. Q: 28 old woman comes to the doctor with a fever and loose bowels. Her diarrhea occurs in tremendous volumes, she complains, though she doesn’t remember seeing blood. She has an unremarkable recent past medical history, except for an infection a few weeks earlier that was treated with clindamycin. Sigmoidoscopy of her colon reveals yellow-white plaques which the doctor predicted after analyzing her stools for toxins. Which of the following is the most likely cause?
+   Clip: difficile
+   DB:   C. difficile
+----------------------------------------
+29. Q: Man enters the emergency room claiming to have been stabbed two days earlier. Muscles in his arm hurt, and on palpation small air bubbles are felt below the skin. The wound area exudes a blackish, ill-smelling fluid that generates a crackling sound when touched. The patient has a fever, a low blood pressure, marked tachycardia, and urina very little Since his injury. The doctor decides to amputate the arm, as well as monitor the patient for shock and renal failure Which of the following is the most likely cause?
+   Clip: perfingens
+   DB:   C. perfringens
+----------------------------------------
+30. Q: Old women comes to the doctor with a fever and loose bowels. Her diarrhea occurs in tremendous volumes, she complains, though she doesn’t remember seeing blood. She has an unremarkable recent past medical history, except for an infection a few weeks earlier that was treated with clindamycin. Sigmoidoscopy of her colon reveals yellow-white plaques which the doctor predicted after analyzing her stools for toxins. Which of the following is the most likely cause?
+   Clip: difficile
+   DB:   C. difficile
+----------------------------------------
+31. Q: A individual may have repeated infections with Neisseria gonorrhoeae, despite the fact that each infection gives rise to an immune response. By which mechanism does the gonococcus evade protective immunity?
+   Clip: The surface antigens present change continually, as a result of pre-programmed changes in
+   DB:   The surface antigens present change continually, as a result of pre-programmed changes in DNA.
+----------------------------------------
+32. Q: A 75-year-old man reports malaise, headache, and fever. On examination his neck is stiff. Gram stain of CSF reveals neutrophils and numerous Gram-negative cocci, many in pairs.Which organism below is most likely?
+   Clip: Neisseria meningitides
+   DB:   Neisseria meningitidis
+----------------------------------------

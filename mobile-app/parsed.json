@@ -1,0 +1,349 @@
+{
+  "t8": [
+    {
+      "question": "Question 1",
+      "options": []
+    },
+    {
+      "question": "How are chelates used in medicine?",
+      "options": [
+        "To detoxify toxic metals and improve health",
+        "To dissolve crystals in bones",
+        "To enhance blood circulation",
+        "To balance hormones"
+      ]
+    },
+    {
+      "question": "Question 2",
+      "options": []
+    },
+    {
+      "question": "How are chelates used in toxicology?",
+      "options": [
+        "To neutralize and remove heavy metals from the body",
+        "To promote ion exchange",
+        "To reduce acidity in the stomach",
+        "To dissolve solid substances"
+      ]
+    },
+    {
+      "question": "Question 3",
+      "options": []
+    },
+    {
+      "question": "In a complex compound, what binds to the central atom?",
+      "options": [
+        "Ligands",
+        "Simple salts",
+        "Neutral molecules",
+        "Gases"
+      ]
+    },
+    {
+      "question": "Question 4",
+      "options": []
+    },
+    {
+      "question": "In which field are chelate complexes widely used?",
+      "options": [
+        "Medicine",
+        "Mechanics",
+        "Electronics",
+        "Food processing"
+      ]
+    },
+    {
+      "question": "Question 5",
+      "options": []
+    },
+    {
+      "question": "What are chelates?",
+      "options": [
+        "Complexes formed when ligands with multiple bonding sites bind to a metal ion to form a ring",
+        "Non-metallic organic substances",
+        "Neutral covalent molecules",
+        "Compounds formed by ionic bonds"
+      ]
+    },
+    {
+      "question": "Question 6",
+      "options": []
+    },
+    {
+      "question": "What are the key elements involved in chelation reactions?",
+      "options": [
+        "Nitrogen and oxygen atoms in ligands",
+        "Fluorine and bromine atoms",
+        "Sodium and chloride ions",
+        "Carbon and hydrogen atoms"
+      ]
+    },
+    {
+      "question": "Question 7",
+      "options": []
+    },
+    {
+      "question": "What contributes to the stability of chelate complexes?",
+      "options": [
+        "The number of rings formed during chelation",
+        "The molecular structure of water",
+        "The ionic strength of the solution",
+        "The temperature of the environment"
+      ]
+    },
+    {
+      "question": "Question 8",
+      "options": []
+    },
+    {
+      "question": "What does the coordination number in a complex compound represent?",
+      "options": [
+        "The number of ligands attached to the central atom",
+        "The solubility of the compound",
+        "The stability of the metal",
+        "The total molecular weight of the complex"
+      ]
+    },
+    {
+      "question": "Question 9",
+      "options": []
+    },
+    {
+      "question": "What factors influence the formation of chelates?",
+      "options": [
+        "A compound formed when a central atom bonds with ligands through coordinate covalent bonds",
+        "The molecular weight of the compound",
+        "The type of solvent used",
+        "Functional groups of the ligand and central atom properties",
+        "A mixture of ionic substances",
+        "Only the pH of the solution"
+      ]
+    },
+    {
+      "question": "12. What is the central atom in a complex compound typically made of?",
+      "options": [
+        "A metal atom or ion",
+        "Hydrogen ion",
+        "Neutral molecules",
+        "A nonmetal atom"
+      ]
+    },
+    {
+      "question": "13. What is the function of EDTA in chelation therapy?",
+      "options": [
+        "It binds toxic metal ions and removes them from the body",
+        "It neutralizes acids",
+        "It decreases water solubility",
+        "It promotes protein synthesis"
+      ]
+    },
+    {
+      "question": "14. What is the primary advantage of chelation?",
+      "options": [
+        "Stabilizing metal ions by forming strong bonds",
+        "Dissolving toxic substances instantly",
+        "Enhancing enzymatic reactions",
+        "Breaking down neutral molecules"
+      ]
+    },
+    {
+      "question": "15. What is the primary medical use of chelate complexes?",
+      "options": [
+        "Detoxification of toxic metals in the body",
+        "Treating hypertension",
+        "Increasing calcium levels",
+        "Enhancing enzyme activity"
+      ]
+    },
+    {
+      "question": "16. When is chelation therapy most commonly recommended?",
+      "options": [
+        "In cases of heavy metal poisoning",
+        "To treat respiratory diseases",
+        "To treat calcium deficiency",
+        "For improving digestion"
+      ]
+    },
+    {
+      "question": "17. Which ligand has a high chelating capacity?",
+      "options": [
+        "Polydentate ligands like EDTA",
+        "Halides like Cl⁻",
+        "Monodentate ligands like NH₃",
+        "Neutral molecules like H₂O"
+      ]
+    },
+    {
+      "question": "18. Which of the following is an example of a chelate complex?",
+      "options": [
+        "[Cu(EDTA)]²⁻",
+        "NaCl",
+        "[Fe(CN)₆]³⁻",
+        "[Co(NH₃)₆]³⁺"
+      ]
+    },
+    {
+      "question": "19. Which of the following is an example of a chelating ligand?",
+      "options": [
+        "EDTA (Ethylenediaminetetraacetic acid)",
+        "Chloride ion (Cl⁻)",
+        "Ammonia (NH₃)",
+        "Water (H₂O)"
+      ]
+    }
+  ],
+  "t9": [
+    {
+      "question": "20. Why is chelation therapy used?",
+      "options": [
+        "To bind and remove toxic metal ions from the body",
+        "To regulate blood sugar",
+        "To promote muscle growth",
+        "To enhance protein synthesis"
+      ]
+    },
+    {
+      "question": "1. How do inhibitors affect enzymatic catalysis?",
+      "options": [
+        "They decrease enzyme activity by binding to the enzyme",
+        "They increase enzyme activity by providing energy",
+        "They do not affect enzyme activity",
+        "They convert enzymes into substrates"
+      ]
+    },
+    {
+      "question": "2. How does a catalyst affect the reaction rate?",
+      "options": [
+        "It lowers the activation energy, increasing the reaction rate",
+        "It does not affect the reaction rate",
+        "It raises the activation energy, slowing the reaction",
+        "It completely consumes the reactants"
+      ]
+    },
+    {
+      "question": "3. How does an increase in temperature affect reaction rate?",
+      "options": [
+        "It increases the kinetic energy of the molecules, speeding up the reaction",
+        "It has no effect on the reaction rate",
+        "It stops the reaction",
+        "It decreases the energy of activation"
+      ]
+    },
+    {
+      "question": "4. How does pH affect enzyme activity?",
+      "options": [
+        "Each enzyme has an optimal pH range for maximum activity",
+        "Lower pH always stops enzyme activity",
+        "pH has no effect on enzyme activity",
+        "Higher pH always increases enzyme activity"
+      ]
+    },
+    {
+      "question": "5. How does substrate concentration affect enzymatic reactions?",
+      "options": [
+        "An increase in substrate concentration increases the reaction rate until the enzyme is saturated",
+        "Substrate concentration changes enzyme structure",
+        "Substrate concentration has no effect on reaction rate",
+        "An increase in substrate concentration decreases reaction rate"
+      ]
+    },
+    {
+      "question": "6. What are coenzymes?",
+      "options": [
+        "Non-protein molecules that assist enzymes in catalysis",
+        "Substrates in enzymatic reactions",
+        "Proteins that slow down reactions",
+        "Inhibitors that bind to the enzyme"
+      ]
+    },
+    {
+      "question": "7. What happens to enzymes at very high temperatures?",
+      "options": [
+        "They denature and lose their catalytic properties",
+        "They stop binding to substrates temporarily",
+        "They become more active",
+        "They increase reaction rate indefinitely"
+      ]
+    },
+    {
+      "question": "8. What is a common use of enzymes in medicine?",
+      "options": [
+        "Increasing drug solubility",
+        "Pro",
+        "The minimum energy required for a reaction to occur"
+      ]
+    },
+    {
+      "question": "13. What is the Michaelis-Menten constant (Km)?",
+      "options": [
+        "A measure of the substrate concentration at which the reaction rate is half of its maximum value",
+        "The energy required to break enzyme-substrate bonds",
+        "The rate constant for all reactions",
+        "A constant that measures the reaction speed"
+      ]
+    },
+    {
+      "question": "14. What is the primary medical use of enzymatic catalysis?",
+      "options": [
+        "Enhancing metabolic processes and diagnostics",
+        "Reducing muscle pain",
+        "Promoting cell growth",
+        "Treating bacterial infections"
+      ]
+    },
+    {
+      "question": "15. What is the role of enzymes in enzymatic catalysis?",
+      "options": [
+        "To lower the activation energy of biochemical reactions",
+        "To maintain equilibrium in the reaction",
+        "To act as reactants in the process",
+        "To stop unwanted reactions"
+      ]
+    },
+    {
+      "question": "16. What is the role of lactase in medicine?",
+      "options": [
+        "To help digest lactose in patients with lactose intolerance",
+        "To increase vitamin absorption",
+        "To enhance immune response",
+        "To treat protein deficiencies"
+      ]
+    },
+    {
+      "question": "17. Which enzyme is commonly used in diagnosing liver diseases?",
+      "options": [
+        "Alanine transaminase (ALT)",
+        "Amylase",
+        "Lactase",
+        "Catalase"
+      ]
+    },
+    {
+      "question": "18. Which factor directly affects the rate of a chemical reaction?",
+      "options": [
+        "Temperature",
+        "Mass of the container",
+        "Shape of the molecules",
+        "Color of the reactants"
+      ]
+    },
+    {
+      "question": "19. Which factor does not affect enzyme activity?",
+      "options": [
+        "Color of the enzyme",
+        "Presence of inhibitors",
+        "Substrate concentration",
+        "Temperature and pH"
+      ]
+    },
+    {
+      "question": "20. Which of the following is a factor that influences reaction rate?",
+      "options": [
+        "Concentration of reactants",
+        "The color of the solution",
+        "Type of reaction container",
+        "Atmospheric pressure"
+      ]
+    }
+  ]
+}

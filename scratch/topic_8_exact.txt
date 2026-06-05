@@ -1,0 +1,161 @@
+Test Questions Topic 8
+Question1
+Heteroploidy is
+a. Change in gene structure
+b. Changes in the number and structure of chromosomes
+c. Change in chromosome structure
+**\*d. Change in the number of chromosomes in a diploid set**
+
+Question2
+What underlies the occurrence of genomic mutations?
+a. Replacing one gene with another
+b. Chromosome conjugation
+**\*c. Violation of chromosome segregation during cell division**
+d. Change in gene structure
+
+Question3
+The reaction rate is determined by:
+a. Genotype only
+b. Internal environment of the body
+c. External environment only
+**\*d. Genotype and environment**
+
+Question4
+Conditionally lethal mutations are:
+**\*a. Shows lethal effects under certain conditions**
+b. Incompatible with life; cause the death of the organism before birth
+c. Reduce the vital activity of the body and it dies between birth and puberty
+d. Occur in cytoplasmic organelles that have their own DNA (mitochondria, plastids)
+
+Question5
+During embryonic development, the process of realizing genetic information can disrupt certain chemical compounds. In this case, the development of the body is disrupted, which leads to deformities. What is the name of this chemical compound?
+a. Antigens
+b. Fibrinogens
+**\*c. Teratogens**
+d. Comutagens
+
+Question6
+Cytoplasmic mutations:
+a. Occurs only in mitochondria
+**\*b. Occur in cytoplasmic organelles that have their own DNA (mitochondria, plastids)**
+c. Occurs in all cell organelles, including the nucleus
+d. Occurs only in plastids
+
+Question7
+Hereditary variability is divided into:
+**\*a. Mutational**
+b. Modification
+c. Spontaneous
+d. Phenotypic
+
+Question8
+Dominant mutations appear:
+**\*a. In heterozygous and homozygous states**
+b. Only in homozygous state
+c. In a dizygotic state
+d. Only in heterozygous state
+
+Question9
+Chromosomal mutations (aberrations) are associated with changes in:
+a. Autosome structures only
+b. Number of autosomes in a karyotype
+**\*c. Structures of all types of chromosomes**
+d. Sex chromosome structures only
+
+Question10
+Spontaneous mutations are:
+**\*a. Natural mutations**
+b. Conditional mutations
+c. Artificially induced mutations
+d. Artificial Mutations
+
+Question11
+What type of mutation is the development of Down syndrome?
+**\*a. Tisomy 21 pairs**
+b. Trisomy 13 pair
+c. Monosomy
+d. Trisomy 18 pair
+
+Question12
+What determines genetic hereditary diseases?
+a. Genomic mutations
+b. Chromosomal mutations
+c. Environmental factors
+**\*d. Single gene mutation**
+
+Question13
+Spontaneous mutations occur:
+a. As a result of the influence of climate change on the body
+b. As a result of the influence of colchicine on the body
+c. As a result of the influence of viruses on the body
+**\*d. Under natural conditions without the influence of unusual agents**
+
+Question14
+Hereditary variability is divided into:
+a. Spontaneous
+b. Modification
+c. Phenotypic
+**\*d. Combinative**
+
+Question15
+A woman suffered from viral rubella during pregnancy. As a result, a child born, despite a normal genotype, had developmental defects - cleft lip and palate. These developmental anomalies are a manifestation of :
+**\*a. Modification variability**
+b. Chromosomal mutation
+c. Combinative variability
+d. Polyploidy
+
+Question16
+Chromosomal aberrations are:
+a. Monosomy
+**\*b. Inversion**
+c. Polyploidy
+d. Trisomy
+
+Question17
+Tetraploidy (4n ) is an example of:
+a. Heteroploidy
+**\*b. Polyploidy**
+c. Aneuploidy
+d. Chromosomal aberration
+
+Question18
+Chromosome aberrations include:
+a. Conjugation, lysogeny, polytheny, copulation
+**\*b. Translocation, duplication, deletion, inversion**
+c. Transcription, translation, reduplication
+d. Transformation, transduction, translocation
+
+Question19
+Triploidy (3n ) is an example of:
+a. Haploidy
+b. Chromosomal aberration
+c. Heteroploidy
+**\*d. Polyploidy**
+
+Question20
+Artificial Mutations:
+a. Incompatible with life
+**\*b. Occurs when certain established factors act on the body**
+c. Shows lethal effects under certain conditions
+d. Occurs in natural conditions without experimenter intervention, with low frequency and for unknown reasons
+
+Question21
+Crossover frequency is measured in:
+a. Morganids
+b. Centimeters
+c. Nanometers
+**\*d. Percentage**
+
+Question22
+Mechanisms of somatic mutations:
+a. Independent segregation of homologous chromosomes during meiosis
+b. Random combination of gametes during fertilization
+c. Changes in the chromosome structure of germ cells
+**\*d. Changes in the chromosome structure of somatic cells**
+
+Question23
+Mechanisms of gene mutation
+a. Change in Phenotype
+b. Changes in the genome
+**\*c. Changes in gene structure**
+d. Chromosome changes

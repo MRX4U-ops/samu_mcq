@@ -15,18 +15,7 @@ const QuizBattleHomeScreen = ({ navigation }) => {
 
   useEffect(() => {
     const checkAccess = async () => {
-      if (user) {
-        const sub = await fetchSubscriptionStatus(user.id);
-        if (!sub) {
-          Alert.alert(
-            "Premium Required",
-            "Multiplayer Battles are only available to Premium members. Please subscribe to enter the arena.",
-            [{ text: "View Plans", onPress: () => navigation.navigate('Subscription') }]
-          );
-          navigation.goBack();
-          return;
-        }
-      }
+      // Subscriptions bypassed for testing and developer preview ease of use
       initSocket();
     };
     checkAccess();

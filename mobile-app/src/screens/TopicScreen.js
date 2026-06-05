@@ -63,7 +63,7 @@ const TopicScreen = ({ route, navigation }) => {
     localTopics = Array.from({ length: 24 }, (_, i) => ({ _id: `t-${localSubjectId}-${i}`, title: `Topic ${i + 1}`, localSubjectId }));
   } else if (localSubjectId === 's-1-9') {
     // MEDICAL CHEMISTRY (combined)
-    localTopics = Array.from({ length: 24 }, (_, i) => ({ _id: `t-${localSubjectId}-${i}`, title: `Topic ${i + 1}`, localSubjectId }));
+    localTopics = Array.from({ length: 23 }, (_, i) => ({ _id: `t-${localSubjectId}-${i}`, title: `Topic ${i + 1}`, localSubjectId }));
 
   } else if (localSubjectId === 's-2-8') {
     // s-2-8 starts at t-s-2-8-1

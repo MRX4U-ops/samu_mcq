@@ -1,13 +1,38 @@
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, Linking } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, Linking, Image } from 'react-native';
 import { Search, Bell, User, CreditCard } from 'lucide-react-native';
 import { useTheme } from '../context/ThemeContext';
 import { useNavigation } from '@react-navigation/native';
 import NotificationBell from './NotificationBell';
+import useAuthStore from '../store/authStore';
+import { AVATAR_DATA } from '../assets/AvatarData';
+
+const PREDEFINED_AVATARS = [
+  { id: 'dr1',  src: { uri: AVATAR_DATA.dr1 } },
+  { id: 'dr2',  src: { uri: AVATAR_DATA.dr2 } },
+  { id: 'dr3',  src: { uri: AVATAR_DATA.dr3 } },
+  { id: 'dr4',  src: { uri: AVATAR_DATA.dr4 } },
+  { id: 'dr5',  src: { uri: AVATAR_DATA.dr5 } },
+  { id: 'dr6',  src: { uri: AVATAR_DATA.dr6 } },
+  { id: 'dr7',  src: { uri: AVATAR_DATA.dr7 } },
+  { id: 'dr8',  src: { uri: AVATAR_DATA.dr8 } },
+  { id: 'dr9',  src: { uri: AVATAR_DATA.dr9 } },
+  { id: 'dr10', src: { uri: AVATAR_DATA.dr10 } },
+];
+
+const getAvatarSrc = (avatarId) => {
+  const found = PREDEFINED_AVATARS.find(a => a.id === avatarId);
+  return found ? found.src : null;
+};
 
 const TopHeader = ({ title, showIcons = true }) => {
   const { colors, isDarkMode } = useTheme();
   const navigation = useNavigation();
+  const { profile } = useAuthStore();
+
+  const avatarSrc = profile?.avatar_url
+    ? (getAvatarSrc(profile.avatar_url) || (profile.avatar_url.startsWith('http') ? { uri: profile.avatar_url } : null))
+    : null;
 
   return (
     <View style={[styles.container, { backgroundColor: colors.surface, borderBottomColor: colors.border }]}>
@@ -35,7 +60,11 @@ const TopHeader = ({ title, showIcons = true }) => {
             style={styles.iconBtn} 
             onPress={() => navigation.navigate('Profile')}
           >
-            <User size={22} color={colors.text} />
+            {avatarSrc ? (
+              <Image source={avatarSrc} style={styles.avatarImage} />
+            ) : (
+              <User size={22} color={colors.text} />
+            )}
           </TouchableOpacity>
         </View>
       )}
@@ -69,6 +98,11 @@ const styles = StyleSheet.create({
     marginLeft: 15,
     padding: 8,
     borderRadius: 12,
+  },
+  avatarImage: {
+    width: 24,
+    height: 24,
+    borderRadius: 8,
   },
   bellWrapper: {
     position: 'relative',

@@ -1,0 +1,179 @@
+**1. How do inhibitors affect enzymatic catalysis?**
+a. They convert enzymes into substrates
+b. They increase enzyme activity by providing energy
+c. They do not affect enzyme activity
+**d. They decrease enzyme activity by binding to the enzyme**
+
+---
+
+**2. How does a catalyst affect the reaction rate?**
+a. It does not affect the reaction rate
+**b. It lowers the activation energy, increasing the reaction rate**
+c. It raises the activation energy, slowing the reaction
+d. It completely consumes the reactants
+
+---
+
+**3. How does an increase in temperature affect reaction rate?**
+a. It stops the reaction
+b. It has no effect on the reaction rate
+**c. It increases the kinetic energy of the molecules, speeding up the reaction**
+d. It decreases the energy of activation
+
+---
+
+**4. How does pH affect enzyme activity?**
+a. pH has no effect on enzyme activity
+b. Lower pH always stops enzyme activity
+**c. Each enzyme has an optimal pH range for maximum activity**
+d. Higher pH always increases enzyme activity
+
+---
+
+**5. How does substrate concentration affect enzymatic reactions?**
+a. An increase in substrate concentration decreases reaction rate
+b. Substrate concentration changes enzyme structure
+c. Substrate concentration has no effect on reaction rate
+**d. An increase in substrate concentration increases the reaction rate until the enzyme is saturated**
+
+---
+
+**6. What are coenzymes?**
+a. Inhibitors that bind to the enzyme
+b. Substrates in enzymatic reactions
+c. Proteins that slow down reactions
+**d. Non-protein molecules that assist enzymes in catalysis**
+
+---
+
+**7. What happens to enzymes at very high temperatures?**
+a. They stop binding to substrates temporarily
+**b. They denature and lose their catalytic properties**
+c. They become more active
+d. They increase reaction rate indefinitely
+
+---
+
+**8. What is a common use of enzymes in medicine?**
+a. Increasing drug solubility
+b. Producing new antibodies
+**c. Enzyme replacement therapy**
+d. Neutralizing acids in the stomach
+
+---
+
+**9. What is an enzyme?**
+a. A reactant in a chemical reaction
+b. A synthetic compound used in industry
+c. A product of a chemical reaction
+**d. A biological catalyst that speeds up biochemical reactions**
+
+---
+
+**10. What is an example of an enzymatic reaction in the human body?**
+a. The reaction between acids and bases
+b. The production of carbon dioxide from limestone
+c. The burning of fossil fuels
+**d. The breakdown of starch by amylase in the mouth**
+
+---
+
+
+
+**11. What is chemical kinetics?**
+a. The study of reaction rates and mechanisms ✅
+b. The study of chemical equilibrium
+c. The study of the structure of compounds
+d. The study of thermodynamics
+
+**Answer: a**
+
+---
+
+**12. What is the activation energy of a reaction?**
+a. The energy required to break all bonds in the reactants
+b. The total energy in the system
+c. The energy released during the reaction
+d. The minimum energy required for a reaction to occur ✅
+
+**Answer: d**
+
+---
+
+**13. What is the Michaelis-Menten constant (Km)?**
+a. The energy required to break enzyme-substrate bonds
+b. A measure of the substrate concentration at which the reaction rate is half of its maximum value ✅
+c. The rate constant for all reactions
+d. A constant that measures the reaction speed
+
+**Answer: b**
+
+---
+
+**14. What is the primary medical use of enzymatic catalysis?**
+a. Treating bacterial infections
+b. Reducing muscle pain
+c. Promoting cell growth
+d. Enhancing metabolic processes and diagnostics ✅
+
+**Answer: d**
+
+---
+
+**15. What is the role of enzymes in enzymatic catalysis?**
+a. To lower the activation energy of biochemical reactions ✅
+b. To maintain equilibrium in the reaction
+c. To act as reactants in the process
+d. To stop unwanted reactions
+
+**Answer: a**
+
+---
+
+**16. What is the role of lactase in medicine?**
+a. To increase vitamin absorption
+b. To help digest lactose in patients with lactose intolerance ✅
+c. To enhance immune response
+d. To treat protein deficiencies
+
+**Answer: b**
+
+---
+
+**17. Which enzyme is commonly used in diagnosing liver diseases?**
+a. Catalase
+b. Amylase
+c. Lactase
+d. Alanine transaminase (ALT) ✅
+
+**Answer: d**
+
+---
+
+**18. Which factor directly affects the rate of a chemical reaction?**
+a. Shape of the molecules
+b. Mass of the container
+c. Temperature ✅
+d. Color of the reactants
+
+**Answer: c**
+
+---
+
+**19. Which factor does not affect enzyme activity?**
+a. Substrate concentration
+b. Presence of inhibitors
+c. Color of the enzyme ✅
+d. Temperature and pH
+
+**Answer: c**
+
+---
+
+**20. Which of the following is a factor that influences reaction rate?**
+a. Atmospheric pressure
+b. The color of the solution
+c. Type of reaction container
+d. Concentration of reactants ✅
+
+**Answer: d**

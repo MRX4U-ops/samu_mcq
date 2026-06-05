@@ -1,0 +1,76 @@
+[
+  {
+    "question": "Sternohyoid",
+    "options": [
+      "Function of the Suprahyoid Muscles\\",
+      ",",
+      ",",
+      ",",
+      ","
+    ],
+    "duplicates": [
+      ",",
+      ",",
+      ","
+    ],
+    "files": [
+      "C:\\samu_mcq\\backend\\src\\data\\anatomyData.js",
+      "C:\\samu_mcq\\backend\\src\\data\\mcqRepository.js",
+      "C:\\samu_mcq\\mobile-app\\src\\data\\repository\\course2\\s-2-2.js"
+    ]
+  },
+  {
+    "question": "The father is color blind, and the mother is heterozygous for a gene that predetermines normal color perception. With what genotypes should we expect offspring?",
+    "options": [
+      "XdXd",
+      "XDXD",
+      "XDXd",
+      "Dd"
+    ],
+    "duplicates": [
+      "XDXD",
+      "XDXd"
+    ],
+    "files": [
+      "C:\\samu_mcq\\backend\\src\\data\\mcqRepository.js",
+      "C:\\samu_mcq\\mobile-app\\src\\data\\recovered_topics.json",
+      "C:\\samu_mcq\\mobile-app\\src\\data\\recovered_topics.json",
+      "C:\\samu_mcq\\mobile-app\\src\\data\\repository\\course2\\s-2-8.js"
+    ]
+  },
+  {
+    "question": "The father has hemophilia, and the mother is homozygous for a gene that determines normal blood clotting. With what genotypes should we expect offspring?",
+    "options": [
+      "XHXh",
+      "ХНХН",
+      "XhXh",
+      "XhY"
+    ],
+    "duplicates": [
+      "XhXh"
+    ],
+    "files": [
+      "C:\\samu_mcq\\backend\\src\\data\\mcqRepository.js",
+      "C:\\samu_mcq\\mobile-app\\src\\data\\recovered_topics.json",
+      "C:\\samu_mcq\\mobile-app\\src\\data\\recovered_topics.json",
+      "C:\\samu_mcq\\mobile-app\\src\\data\\repository\\course2\\s-2-8.js"
+    ]
+  },
+  {
+    "question": "The area where surgical incision is performed is?",
+    "options": [
+      "Sterile field",
+      "Antiseptics",
+      "Surgical asepsis",
+      "Clean procedure",
+      "Sterile field"
+    ],
+    "duplicates": [
+      "Sterile field"
+    ],
+    "files": [
+      "C:\\samu_mcq\\mobile-app\\src\\data\\mined_questions.json",
+      "C:\\samu_mcq\\mobile-app\\src\\data\\recovered_topics.json"
+    ]
+  }
+]

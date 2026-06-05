@@ -404,12 +404,12 @@ export const s_2_10_situational = {
       "explanation": "This aligns with standard microbiology and immunology curriculum."
     },
     {
-      "question": "A surgeon is struggling to diagnose a woman's flulike illness. She complains of a fever that rises during the day and peaks after dinner (undulant fever), fatigue, spinal tenderness, and loss of appetite. Her lymph nodes are enlarged in physical exam. The doctor has trouble narrowing down the possible etiologies until he hears that the tasted goat cheese at a French village a month before the onset of her symptoms. Which of the following is the most likely cause?",
+      "question": "A surgeon is struggling to diagnose a woman's flulike illness. She complains of a fever that rises during the day and peaks after dinner (undulant fever), fatigue, spinal tenderness, and loss of appetite. Her lymph nodes are enlarged in physical exam. The doctor has trouble narrowing down the possible etiologies until he hears that she tasted goat cheese at a French village a month before the onset of her symptoms. Which of the following is the most likely cause?",
       "options": [
-        "Brucella species",
-        "Francisella tularensis",
+        "Pseudomonas aeruginosa",
         "Bordetella pertussis",
-        "Pseudomonas aeruginosa"
+        "Francisella tularensis",
+        "Brucella species"
       ],
       "correctIndex": 0,
       "explanation": "This aligns with standard microbiology and immunology curriculum."
@@ -606,7 +606,7 @@ export const s_2_10_situational = {
       "explanation": "This aligns with standard microbiology and immunology curriculum."
     },
     {
-      "question": "Surgeon is struggling to diagnose a woman's flulike illness. She complains of a fever that rises during the day and peaks after dinner (undulant fever), fatigue, spinal tenderness, and loss of appetite. Her lymph nodes are enlarged in physical exam. The doctor has trouble narrowing down the possible etiologies until he hears that the tasted goat cheese at a French village a month before the onset of her symptoms. Which of the following is the most likely cause?",
+      "question": "A surgeon is struggling to diagnose a woman's flulike illness. She complains of a fever that rises during the day and peaks after dinner (undulant fever), fatigue, spinal tenderness, and loss of appetite. Her lymph nodes are enlarged in physical exam. The doctor has trouble narrowing down the possible etiologies until he hears that she tasted goat cheese at a French village a month before the onset of her symptoms. Which of the following is the most likely cause?",
       "options": [
         "Pseudomonas aeruginosa",
         "Francisella tularensis",

@@ -1,0 +1,530 @@
+*Topic 6
+*Question 1
+Brachytherapy involves:
+a. Using external radiation beams
+b. Using laser therapy
+*c. Implanting radioactive sources near a tumor
+d. Ingesting radioactive substances
+________________________________________
+*Question 2
+Cobalt-60 is used in medicine for:
+a. Bone density measurement
+b. Kidney function testing
+c. Heart imaging
+*d. Cancer treatment
+________________________________________
+*Question 3
+In radiopharmaceuticals, the carrier molecule determines:
+a. The half-life
+*b. The target organ
+c. The radiation type
+d. Decay mode
+________________________________________
+*Question 4
+Nuclear medicine primarily involves the use of:
+a. Magnetic fields
+b. Ultrasound waves
+c. X-rays
+*d. Radioactive isotopes
+________________________________________
+*Question 5
+Radiation therapy primarily targets:
+a. Healthy cells
+b. Viruses
+*c. Cancer cells
+d. Bacteria
+________________________________________
+*Question 6
+Radioisotopes are used in nuclear medicine because they emit:
+a. Ultraviolet rays
+b. X-rays
+c. Infrared rays
+*d. Gamma rays
+________________________________________
+*Question 7
+Radiopharmaceuticals are introduced into the body by:
+*a. Injection, inhalation, or ingestion
+b. External application
+c. Surgery
+d. Laser therapy
+________________________________________
+*Question 8
+Radiopharmaceuticals are:
+a. Non-radioactive drugs
+b. Chemotherapy agents
+c. Antibiotics
+*d. Drugs containing radioactive isotopes
+________________________________________
+*Question 9
+The half-life of a radioactive isotope determines:
+*a. How long does it remain active in the body
+b. Its toxicity
+c. Its stability
+d. Its medical applications
+________________________________________
+*Question 10
+The most commonly used isotope in diagnostic nuclear medicine is:
+a. Iodine-125
+b. Carbon-14
+c. Uranium-238
+*d. Technetium-99m
+________________________________________
+*Question 11
+What does SPECT stand for in nuclear medicine?
+a. Scanning Photon Emission Computed Technology
+*b. Single Photon Emission Computed Tomography
+c. Standard Photon Emission Critical Tomography
+d. Special Photon Energy Computed Tomography
+________________________________________
+*Question 12
+What is the role of nuclear medicine in cancer treatment?
+*a. Destroying cancer cells using targeted radiation
+b. Performing surgery on tumors
+c. Delivering drugs chemotherapy
+d. Replacing damaged cells with healthy cells
+________________________________________
+*Question 13
+Which isotope is commonly used in bone scans?
+a. Iodine-131
+b. Cobalt-60
+c. Carbon-14
+*d. Technetium-99m
+________________________________________
+*Question 14
+Which of the following is used in PET scans?
+a. Cobalt-60
+b. Iodine-131
+c. Cesium-137
+*d. Fluorine-18
+________________________________________
+*Question 15
+Which property of a radioisotope is crucial for medical imaging?
+a. Low radiation emission
+*b. Short half-life
+c. Long half-life
+d. High toxicity
+________________________________________
+*Question 16
+Which radioactive isotope is commonly used for diagnosing thyroid disorders?
+a. Carbon-14
+b. Technetium-99m
+*c. Iodine-131
+d. Cobalt-60
+________________________________________
+*Question 17
+Which radioisotope is used to study lung ventilation?
+a. Radon-222
+b. Iodine-125
+*c. Xenon-133
+d. Fluorine-18
+________________________________________
+*Question 18
+Which radiopharmaceutical is used to measure cardiac blood flow?
+a. Iodine-131
+b. Cobalt-60
+*c. Thallium-201
+d. Technetium-99m
+________________________________________
+*Question 19
+Which technique uses radioactive tracers to create images of organs?
+a. CT scan
+*b. Scintigraphy
+c. MRI
+d. Ultrasound
+________________________________________
+*Question 20
+Which type of radiation is most commonly used in cancer treatment?
+a. Alpha radiation
+*b. Gamma radiation
+c. Neutron radiation
+d. Beta radiation
+
+
+
+
+*Topic 7
+*Question 1
+According to the mechanism of buffer action, when a small amount of strong acid or base is added:
+*a. A weaker electrolyte is formed from the initial electrolyte
+b. A weak base is formed
+c. A weak acid is formed
+d. A strong acid and weak base salt is formed
+________________________________________
+*Question 2
+Buffer capacity is calculated for which volume of buffer solution?
+a. 10 liters
+b. 15 liters
+*c. 1 liter
+d. 5 liters
+________________________________________
+*Question 3
+Buffer solutions may consist of:
+a. A strong acid and its salt formed with another strong base
+b. A strong acid and its salt formed with a weak base
+*c. A weak acid and its salt formed with a strong base
+d. A weak acid and its salt formed with another weak acid
+________________________________________
+*Question 4
+If the pH = 3, what type of solution is this?
+a. Weak acid
+b. Strong base
+*c. Strong acid
+d. Weak base
+________________________________________
+*Question 5
+In acidosis, the pH of the body's organs shifts in which direction?
+a. Formation of products
+*b. Increase in acidity
+c. Formation of acids
+d. Increase in alkalinity
+________________________________________
+*Question 6
+In alkalosis, the pH of the body's organs shifts in which direction?
+*a. Increase in alkalinity
+b. Formation of acids
+c. Increase in acidity
+d. Formation of products
+________________________________________
+*Question 7
+The buffer group that includes hemoglobin-based buffer systems is called:
+a. Bicarbonate-based
+b. Phosphate-based
+c. Amino acid-based
+*d. Protein-based
+________________________________________
+*Question 8
+The formula for calculating the pH of buffer solutions is derived from which law?
+a. Law of conservation of mass
+b. Law of constant composition of chemical substances
+c. Law of small numbers ratio
+*d. Law of mass action
+________________________________________
+*Question 9
+The pH of buffer solutions is calculated based on the formula of which author?
+a. Gay-Lussac
+b. Razumovsky
+c. Guldberg-Vaage
+*d. Henderson-Hasselbalch
+________________________________________
+*Question 10
+What are the solutions that maintain the pH value without changing when a small amount of acid or base is added?
+a. Acids
+b. Electrolytes
+c. Bases
+*d. Buffers
+________________________________________
+*Question 11
+What is buffer capacity?
+a. The amount of water needed to change the buffer system's concentration
+*b. The number of moles of acid or base that must be added to 1 liter of buffer solution to change the pH by one unit
+c. The number of moles of acid needed to change the pH of 1 liter of buffer solution by 1 unit
+d. The specific amount of base needed to change the pH by two units
+________________________________________
+*Question 12
+What is the alkaline reserve of blood?
+a. The amount of strong acid in the blood
+b. The amount of weak acid in the blood
+*c. The amount of carbonic acid bound in the form of HCO₃⁻
+d. The amount of neutralizing salts in the blood
+________________________________________
+*Question 13
+What is the name of the limit for the amount of acid or base that can be added to a buffer without significantly changing its pH?
+a. Concentration of acid or base
+b. Buffer pH
+*c. Buffer capacity
+d. Buffer concentration
+________________________________________
+*Question 14
+What is the unit of measurement for buffer capacity?
+*a. Milliequivalents
+b. Liters
+c. Milliliters
+d. Grams
+________________________________________
+*Question 15
+What weak electrolyte is formed when hydrochloric acid is added to a phosphate buffer?
+a. Potassium phosphate
+b. Phosphoric acid
+c. Sodium phosphate
+*d. Dihydrogen phosphate ion (H₂PO₄⁻)
+________________________________________
+*Question 16
+Which buffer solution keeps the pH constant in urine?
+*a. Phosphate-based
+b. Protein-based
+c. Oxyhemoglobin-based
+d. Amino acid-based
+________________________________________
+*Question 17
+Which buffer system has buffer capacity due to the bipolar nature of its molecules?
+a. Protein-based
+*b. Amino acid-based
+c. Bicarbonate-based
+d. Phosphate-based
+________________________________________
+*Question 18
+Which indicator is commonly used in determining the buffer capacity of blood in acidic conditions?
+*a. Methyl orange
+b. Methyl red
+c. Phenolphthalein
+d. Litmus
+________________________________________
+*Question 19
+Which indicator is commonly used in determining the buffer capacity of blood in basic conditions?
+a. Thymolphthalein
+*b. Phenolphthalein
+c. Methyl orange
+d. Litmus
+________________________________________
+*Question 20
+Which of the following buffer systems is not found in the human body?
+a. Phosphate-based
+b. Bicarbonate-based
+*c. Ammonia-based
+d. Hemoglobin-based
+
+
+
+*Topic 8: Medical Chemistry
+Question 1
+How are chelates used in medicine?
+•	a. To dissolve crystals in bones
+•	b. To enhance blood circulation
+•	*c. To detoxify toxic metals and improve health
+•	d. To balance hormones
+Question 2
+How are chelates used in toxicology?
+•	*a. To neutralize and remove heavy metals from the body
+•	b. To promote ion exchange
+•	c. To reduce acidity in the stomach
+•	d. To dissolve solid substances
+Question 3
+In a complex compound, what binds to the central atom?
+•	*a. Ligands
+•	b. Neutral molecules
+•	c. Simple salts
+•	d. Gases
+Question 4
+In which field are chelate complexes widely used?
+•	a. Electronics
+•	b. Food processing
+•	c. Mechanics
+•	*d. Medicine
+Question 5
+What are chelates?
+•	*a. Complexes formed when ligands with multiple bonding sites bind to a metal ion to form a ring
+•	b. Compounds formed by ionic bonds
+•	c. Neutral covalent molecules
+•	d. Non-metallic substance organics
+Question 6
+What are the key elements involved in chelation reactions?
+•	a. Carbon and hydrogen atoms
+•	b. Sodium and chloride ions
+•	c. Fluorine and bromine atoms
+•	*d. Nitrogen and oxygen atoms in ligands
+Question 7
+What contributes to the stability of chelate complexes?
+•	a. The molecular structure of water
+•	b. The temperature of the environment
+•	*c. The number of rings formed during chelation
+•	d. The ionic strength of the solution
+Question 8
+What does the coordination number in a complex compound represent?
+•	a. The solubility of the compound
+•	*b. The number of ligands attached to the central atom
+•	c. The stability of the metal
+•	d. The total molecular weight of the complex
+Question 9
+What factors influence the formation of chelates?
+•	a. Only the pH of the solution
+•	b. The type of solvent used
+•	*c. Functional groups of the ligand and central atom properties
+•	d. The molecular weight of the compound
+Question 10
+What group of substances typically forms chelates?
+•	*a. Polydentate ligands
+•	b. Simple covalent molecules
+•	c. Monodentate ligands
+•	d. Neutral salts
+Question 11
+What is a complex compound?
+•	a. A substance formed by simple covalent bonds
+•	b. A compound insoluble in water
+•	c. A mixture of ionic substances
+•	*d. A compound formed when a central atom bonds with ligands through coordinate covalent bonds
+Question 12
+What is the central atom in a complex compound typically made of?
+•	a. A nonmetallic atom
+•	*b. A metal atom or ion
+•	c. Hydrogen ion
+•	d. Neutral molecules
+Question 13
+What is the function of EDTA in chelation therapy?
+•	*a. It binds toxic metal ions and removes them from the body
+•	b. It promotes protein synthesis
+•	c. It decreases water solubility
+•	d. It neutralizes acids
+Question 14
+What is the primary advantage of chelation?
+•	a. Enhancing enzymatic reactions
+•	*b. Stabilizing metal ions by forming strong bonds
+•	c. Dissolving toxic substances instantly
+•	d. Breaking down neutral molecules
+Question 15
+What is the primary medical use of chelate complexes?
+•	a. Treating hypertension
+•	b. Enhancing enzyme activity
+•	c. Increasing calcium levels
+•	*d. Detoxification of toxic metals in the body
+Question 16
+When is chelation therapy most commonly recommended?
+•	a. To treat respiratory diseases
+•	*b. In cases of heavy metal poisoning
+•	c. To treat calcium deficiency
+•	d. For improving digestion
+Question 17
+Which ligand has a high chelating capacity?
+•	*a. Polydentate ligands like EDTA
+•	b. Halides like Cl⁻
+•	c. Neutral molecules like H₂O
+•	d. Monodentate ligands like NH₃
+Question 18
+Which of the following is an example of a chelate complex?
+•	a. NaCl
+•	b. [Co(NH₃)₆]³⁺
+•	*c. [Cu(EDTA)]²⁻
+•	d. [Fe(CN)₆]³⁻
+Question 19
+Which of the following is an example of a chelating ligand?
+•	a. Chloride ion (Cl-)
+•	b. Water (H2O)
+•	*c. EDTA (Ethylenediaminetetraacetic acid)
+•	d. Ammonia (NH₃)
+Question 20
+Why is chelation therapy used?
+•	a. To promote muscle growth
+•	*b. To bind and remove toxic metal ions from the body
+•	c. To regulate blood sugar
+•	d. To enhance protein synthesis
+
+*Topic 9: Medical Chemistry
+Question 1
+How do inhibitors affect enzymatic catalysis ?
+•	a. They increase enzyme activity by providing energy
+•	b. They do not affect enzyme activity
+•	*c. They decrease enzyme activity by binding to the enzyme
+•	d. They convert enzymes into substrates
+Question 2
+How does a catalyst affect the reaction rate?
+•	*a. It lowers the activation energy, increasing the reaction rate
+•	b. It completely consumes the reactants
+•	c. It raises the activation energy, slowing the reaction
+•	d. It does not affect the reaction rate
+Question 3
+How does an increase in temperature affect reaction rate?
+•	a. It decreases the energy of activation
+•	*b. It increases the kinetic energy of the molecules, speeding up the reaction
+•	c. It stops the reaction
+•	d. It has no effect on the reaction rate
+Question 4
+How does pH affect enzyme activity?
+•	a. Higher pH always increases enzyme activity
+•	*b. Each enzyme has an optimal pH range for maximum activity
+•	c. pH has no effect on enzyme activity
+•	d. Lower pH always stops enzyme activity
+Question 5
+How does substrate concentration affect enzymatic reactions?
+•	*a. An increase in substrate concentration increases the reaction rate until the enzyme is saturated
+•	b. An increase in substrate concentration decreases reaction rate
+•	c. Substrate concentration has no effect on reaction rate
+•	d. Substrate concentration changes enzyme structure
+Question 6
+What are coenzymes?
+•	a. Proteins that slow down reactions
+•	*b. Non-protein molecules that assist enzymes in catalysis
+•	c. Inhibitors that bind to the enzyme
+•	d. Substrates in enzymatic reactions
+Question 7
+What happens to enzymes at very high temperatures?
+•	a. They increase reaction rate indefinitely
+•	*b. They denature and lose their catalytic properties
+•	c. They become more active
+•	d. They stop binding to substrates temporarily
+Question 8
+What is a common use of enzymes in medicine?
+•	a. Producing new antibodies
+•	*b. Enzyme replacement therapy
+•	c. Neutralizing acids in the stomach
+•	d. Increasing drug solubility
+Question 9
+What is an enzyme?
+•	*a. A biological catalyst that speeds up biochemical reactions
+•	b. A reactant in a chemical reaction
+•	c. A product of a chemical reaction
+•	d. A synthetic compound used in industry
+Question 10
+What is an example of an enzymatic reaction in the human body?
+•	a. The production of carbon dioxide from limestone
+•	b. The burning of fossil fuels
+•	c. The reaction between acids and bases
+•	*d. The breakdown of starch by amylase in the mouth
+Question 11
+What are chemical kinetics?
+•	a. The study of chemical equilibrium
+•	b. The study of thermodynamics
+•	c. The study of the structure of compounds
+•	*d. The study of reaction rates and mechanisms
+Question 12
+What is the activation energy of a reaction?
+•	a. The total energy in the system
+•	*b. The minimum energy required for a reaction to occur
+•	c. The energy released during the reaction
+•	d. The energy required to break all bonds in the reactants
+Question 13
+What is the Michaelis-Menten constant (Km)?
+•	a. The energy required to break enzyme-substrate bonds
+•	b. A constant that measures the reaction speed
+•	*c. A measure of the substrate concentration at which the reaction rate is half of its maximum value
+•	d. The rate constant for all reactions
+Question 14
+What is the primary medical use of enzymatic catalysis?
+•	a. Reducing muscle pain
+•	*b. Enhancing metabolic processes and diagnostics
+•	c. Promoting cell growth
+•	d. Treating bacterial infections
+Question 15
+What is the role of enzymes in enzymatic catalysis?
+•	*a. To lower the activation energy of biochemical reactions
+•	b. To act as reactants in the process
+•	c. To stop unwanted reactions
+•	d. To maintain equilibrium in the reaction
+Question 16
+What is the role of lactase in medicine?
+•	*a. To help digest lactose in patients with lactose intolerance
+•	b. To enhance immune response
+•	c. To increase vitamin absorption
+•	d. To treat protein deficiencies
+Question 17
+Which enzyme is commonly used in diagnosing liver diseases?
+•	a. Amylase
+•	b. Catalase
+•	*c. Alanine transaminase (ALT)
+•	d. Lactase
+Question 18
+Which factor directly affects the rate of a chemical reaction?
+•	*a. Temperature
+•	b. Mass of the container
+•	c. Color of the reactants
+•	d. Shape of the molecules
+Question 19
+Which factor does not affect enzyme activity?
+•	a. Presence of inhibitors
+•	b. Temperature and pH
+•	*c. Color of the enzyme
+•	d. Substrate concentration
+Question 20
+Which of the following is a factor that influences reaction rate?
+•	a. The color of the solution
+•	b. Atmospheric pressure
+•	*c. Concentration of reactants
+•	d. Type of reaction container

@@ -1,0 +1,37 @@
+Situational Task Topic 5
+
+Q1. Specify the characteristics characteristic of the X-linked recessive type of inheritance:
+ *a. A mother who carries the gene passes the trait on to half of her sons
+  b. Affected men pass on the recessive allele of the gene to 50% of their sons
+  c. Occurs predominantly in women
+  d. Both men and women get sick equally
+
+Q2. What type of inheritance does hemophilia have?
+  a. Autosomal recessive mode of inheritance
+  b. X-linked dominant inheritance
+* c. X-linked recessive inheritance
+  d. Y-chained inheritance
+
+Q3. What type of inheritance does color blindness have?
+  a. Autosomal recessive mode of inheritance
+  b. X-linked dominant mode of inheritance
+* c. X-linked recessive inheritance
+  d. Y-chained inheritance
+
+Q4. What patterns are characteristic of a pedigree with an X-linked recessive type of inheritance?
+  *a. All answers are correct
+  b. A female carrier transmits the disease to half of her sons, none of the daughters will be affected, but half of the daughters are carriers of the hereditary gene
+  c. The trait is always transmitted through a heterozygous mother, who is phenotypically healthy
+  d. A sick father never passes the disease on to his sons
+
+Q5. For the X-linked dominant type of inheritance, it is characteristic that the trait manifests itself:
+  a. Only for women
+  b. Not in all generations
+* c. The father passes the trait on to all his daughters
+  d. Along the pedigree
+
+Q6. For the Y-linked type of inheritance, it is characteristic that the trait manifests itself:
+  a. Not in all generations
+  b. Along the pedigree
+  c. Vertical pedigree
+* d. The father passes the trait on to all his sons

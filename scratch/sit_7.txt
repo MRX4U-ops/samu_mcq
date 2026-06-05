@@ -1,0 +1,37 @@
+t.s./mavzu 7
+
+Specify the characteristics characteristic of the X -linked recessive type of inheritance:
+A mother who carries the gene passes the trait on to half of her sons
+Both men and women get sick equally
+Affected men pass on the recessive allele of the gene to 50% of their sons
+Occurs predominantly in women
+
+For the Y -linked type of inheritance, it is characteristic that the trait manifests itself:
+The father passes the trait on to all his sons
+Along the pedigree
+Vertical pedigree
+Not in all generations
+
+For the X-linked dominant type of inheritance, it is characteristic that the trait manifests itself:
+The father passes the trait on to all his daughters
+Along the pedigree
+Only for women
+Not in all generations
+
+What patterns are characteristic of a pedigree with an X-linked recessive type of inheritance?
+All answers are correct
+A female carrier transmits the disease to half of her sons, none of the daughters will be affected, but half of the daughters are carriers of the hereditary gene
+The trait is always transmitted through a heterozygous mother, who is phenotypically healthy
+A sick father never passes the disease on to his sons
+
+What type of inheritance does hemophilia have?
+X -linked recessive inheritance
+Y - chained inheritance
+X - linked dominant inheritance
+Autosomal recessive mode of inheritance
+
+What type of inheritance does color blindness have?
+X -linked recessive inheritance
+X-linked dominant mode of inheritance
+Y - chained inheritance
+Autosomal recessive mode of inheritance

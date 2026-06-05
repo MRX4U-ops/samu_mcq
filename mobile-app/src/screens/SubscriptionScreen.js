@@ -20,7 +20,7 @@ import useSubscriptionStore from '../store/subscriptionStore';
 
 const SubscriptionScreen = ({ navigation }) => {
   const { colors } = useTheme();
-  const { user } = useAuthStore();
+  const { user, session } = useAuthStore();
   const { 
     subscription, 
     paymentRequests, 
@@ -29,7 +29,8 @@ const SubscriptionScreen = ({ navigation }) => {
     fetchSubscriptionStatus,
     fetchPaymentRequests,
     createPaymentRequest,
-    generatePaymentReference 
+    generatePaymentReference,
+    claimFreePromoCode
   } = useSubscriptionStore();
 
   const [transactionId, setTransactionId] = useState('');
@@ -111,6 +112,27 @@ const SubscriptionScreen = ({ navigation }) => {
     }
   };
 
+  const handleClaimFreeSubscription = async () => {
+    if (!appliedPromo || parseFloat(appliedPromo.discount_percentage) !== 100) return;
+
+    const token = session?.access_token;
+    if (!token) {
+      Alert.alert("Authentication Error", "You must be logged in to claim a promo code.");
+      return;
+    }
+
+    const promoCodeStr = promoCode.trim().toUpperCase();
+    const { success, error: claimError } = await claimFreePromoCode(user.id, promoCodeStr, token);
+
+    if (success) {
+      Alert.alert("Success", "Your free subscription has been activated for 90 days!");
+      setAppliedPromo(null);
+      setPromoCode('');
+    } else {
+      Alert.alert("Activation Failed", claimError || "Something went wrong.");
+    }
+  };
+
   const copyToClipboard = (text, label) => {
     Clipboard.setString(text);
     Alert.alert("Copied", `${label} copied to clipboard!`);
@@ -155,106 +177,148 @@ const SubscriptionScreen = ({ navigation }) => {
           </View>
         ) : (
           <View style={[styles.mainCard, { backgroundColor: colors.surface }]}>
-            <Text style={styles.stepTitle}>Step 1: Pay via UPI</Text>
-            
-            <View style={styles.paymentInfoRow}>
-              <View style={{ flex: 1 }}>
-                <Text style={styles.infoLabel}>UPI ID</Text>
-                <Text style={styles.infoValue}>suhailsaikh@ybl</Text>
+            {appliedPromo && parseFloat(appliedPromo.discount_percentage) === 100 ? (
+              // 100% Discount/Promo Flow
+              <View>
+                <Text style={styles.stepTitle}>Activate Free Subscription</Text>
+                
+                <View style={[styles.paymentInfoRow, { backgroundColor: '#ECFDF5', borderColor: '#A7F3D0' }]}>
+                  <View style={{ flex: 1 }}>
+                    <Text style={[styles.infoLabel, { color: '#047857' }]}>Applied Promo Code</Text>
+                    <Text style={[styles.infoValue, { color: '#065F46' }]}>{promoCode.toUpperCase()}</Text>
+                  </View>
+                  <TouchableOpacity 
+                    onPress={() => { setAppliedPromo(null); setPromoCode(''); }} 
+                    style={[styles.copyBtn, { backgroundColor: '#FEE2E2' }]}
+                  >
+                    <Text style={{ color: '#EF4444', fontWeight: 'bold' }}>Remove</Text>
+                  </TouchableOpacity>
+                </View>
+
+                <View style={[styles.warningBox, { backgroundColor: '#EFF6FF', borderColor: '#BFDBFE' }]}>
+                  <Info size={16} color="#1D4ED8" />
+                  <Text style={[styles.warningText, { color: '#1E40AF' }]}>
+                    This promo code grants you 100% discount. Click below to activate your 90 days subscription instantly.
+                  </Text>
+                </View>
+
+                <TouchableOpacity 
+                  style={[styles.submitBtn, { backgroundColor: '#10B981', marginTop: 25 }, isLoading && { opacity: 0.7 }]} 
+                  onPress={handleClaimFreeSubscription}
+                  disabled={isLoading}
+                >
+                  {isLoading ? (
+                    <ActivityIndicator color="#FFF" />
+                  ) : (
+                    <Text style={styles.submitBtnText}>Activate Free Subscription</Text>
+                  )}
+                </TouchableOpacity>
               </View>
-              <TouchableOpacity onPress={() => copyToClipboard('suhailsaikh@ybl', 'UPI ID')} style={styles.copyBtn}>
-                <Copy size={18} color="#6366F1" />
-              </TouchableOpacity>
-            </View>
+            ) : (
+              // Normal Payment / Less than 100% Discount Flow
+              <View>
+                <Text style={styles.stepTitle}>Step 1: Pay via UPI</Text>
+                
+                <View style={styles.paymentInfoRow}>
+                  <View style={{ flex: 1 }}>
+                    <Text style={styles.infoLabel}>UPI ID</Text>
+                    <Text style={styles.infoValue}>suhailsaikh@ybl</Text>
+                  </View>
+                  <TouchableOpacity onPress={() => copyToClipboard('suhailsaikh@ybl', 'UPI ID')} style={styles.copyBtn}>
+                    <Copy size={18} color="#6366F1" />
+                  </TouchableOpacity>
+                </View>
 
-            <View style={styles.paymentInfoRow}>
-              <View style={{ flex: 1 }}>
-                <Text style={styles.infoLabel}>Payment Note (MANDATORY)</Text>
-                <Text style={[styles.infoValue, { color: '#EF4444' }]}>{currentReference}</Text>
-              </View>
-              <TouchableOpacity onPress={() => copyToClipboard(currentReference, 'Payment Note')} style={styles.copyBtn}>
-                <Copy size={18} color="#6366F1" />
-              </TouchableOpacity>
-            </View>
+                <View style={styles.paymentInfoRow}>
+                  <View style={{ flex: 1 }}>
+                    <Text style={styles.infoLabel}>Payment Note (MANDATORY)</Text>
+                    <Text style={[styles.infoValue, { color: '#EF4444' }]}>{currentReference}</Text>
+                  </View>
+                  <TouchableOpacity onPress={() => copyToClipboard(currentReference, 'Payment Note')} style={styles.copyBtn}>
+                    <Copy size={18} color="#6366F1" />
+                  </TouchableOpacity>
+                </View>
 
-            <View style={styles.qrSection}>
-              <View style={styles.qrBox}>
-                <QRCode
-                  value={`upi://pay?pa=suhailsaikh@ybl&pn=SAMU%20MCQs&am=${currentPrice}&cu=INR&tn=${currentReference}`}
-                  size={160}
-                />
-              </View>
-              <TouchableOpacity style={styles.deepLinkBtn} onPress={handlePayNow}>
-                <Smartphone size={20} color="#FFF" />
-                <Text style={styles.deepLinkText}>Open UPI App Directly</Text>
-              </TouchableOpacity>
-            </View>
+                <View style={styles.qrSection}>
+                  <View style={styles.qrBox}>
+                    <QRCode
+                      value={`upi://pay?pa=suhailsaikh@ybl&pn=SAMU%20MCQs&am=${currentPrice}&cu=INR&tn=${currentReference}`}
+                      size={160}
+                    />
+                  </View>
+                  <TouchableOpacity style={styles.deepLinkBtn} onPress={handlePayNow}>
+                    <Smartphone size={20} color="#FFF" />
+                    <Text style={styles.deepLinkText}>Open UPI App Directly</Text>
+                  </TouchableOpacity>
+                </View>
 
-            <View style={styles.warningBox}>
-              <Info size={16} color="#B45309" />
-              <Text style={styles.warningText}>
-                Do NOT change the Payment Note. If changed, your verification will fail.
-              </Text>
-            </View>
+                <View style={styles.warningBox}>
+                  <Info size={16} color="#B45309" />
+                  <Text style={styles.warningText}>
+                    Do NOT change the Payment Note. If changed, your verification will fail.
+                  </Text>
+                </View>
 
-            <View style={styles.sectionDivider} />
+                <View style={styles.sectionDivider} />
 
-            <Text style={styles.stepTitle}>Have a Promocode?</Text>
-            <View style={styles.promoContainer}>
-              <TextInput
-                style={[styles.input, { flex: 1, marginBottom: 0, marginRight: 10 }]}
-                placeholder="Enter Code (e.g. TRH20)"
-                placeholderTextColor="#94A3B8"
-                value={promoCode}
-                onChangeText={setPromoCode}
-                autoCapitalize="characters"
-                editable={!appliedPromo}
-              />
-              <TouchableOpacity 
-                style={[styles.applyBtn, (appliedPromo || !promoCode.trim() || isApplyingPromo) && { opacity: 0.6 }]} 
-                onPress={handleApplyPromo}
-                disabled={!!appliedPromo || !promoCode.trim() || isApplyingPromo}
-              >
-                {isApplyingPromo ? (
-                  <ActivityIndicator color="#FFF" size="small" />
-                ) : (
-                  <Text style={styles.applyBtnText}>{appliedPromo ? 'Applied' : 'Apply'}</Text>
+                <Text style={styles.stepTitle}>Have a Promocode?</Text>
+                <View style={styles.promoContainer}>
+                  <TextInput
+                    style={[styles.input, { flex: 1, marginBottom: 0, marginRight: 10 }]}
+                    placeholder="Enter Code (e.g. TRH20)"
+                    placeholderTextColor="#94A3B8"
+                    value={promoCode}
+                    onChangeText={setPromoCode}
+                    autoCapitalize="characters"
+                    editable={!appliedPromo}
+                  />
+                  <TouchableOpacity 
+                    style={[styles.applyBtn, (appliedPromo || !promoCode.trim() || isApplyingPromo) && { opacity: 0.6 }]} 
+                    onPress={handleApplyPromo}
+                    disabled={!!appliedPromo || !promoCode.trim() || isApplyingPromo}
+                  >
+                    {isApplyingPromo ? (
+                      <ActivityIndicator color="#FFF" size="small" />
+                    ) : (
+                      <Text style={styles.applyBtnText}>{appliedPromo ? 'Applied' : 'Apply'}</Text>
+                    )}
+                  </TouchableOpacity>
+                </View>
+                {appliedPromo && (
+                  <View style={styles.promoSuccess}>
+                    <Ticket size={14} color="#10B981" />
+                    <Text style={styles.promoSuccessText}>Applied: {appliedPromo.discount_percentage}% discount</Text>
+                    <TouchableOpacity onPress={() => { setAppliedPromo(null); setPromoCode(''); }}>
+                      <Text style={styles.removePromo}>Remove</Text>
+                    </TouchableOpacity>
+                  </View>
                 )}
-              </TouchableOpacity>
-            </View>
-            {appliedPromo && (
-              <View style={styles.promoSuccess}>
-                <Ticket size={14} color="#10B981" />
-                <Text style={styles.promoSuccessText}>Applied: {appliedPromo.discount_percentage}% discount</Text>
-                <TouchableOpacity onPress={() => { setAppliedPromo(null); setPromoCode(''); }}>
-                  <Text style={styles.removePromo}>Remove</Text>
+
+                <View style={styles.sectionDivider} />
+
+                <Text style={styles.stepTitle}>Step 2: Submit Details</Text>
+                <TextInput
+                  style={styles.input}
+                  placeholder="Enter Transaction ID / UTR"
+                  placeholderTextColor="#94A3B8"
+                  value={transactionId}
+                  onChangeText={setTransactionId}
+                  autoCapitalize="characters"
+                />
+
+                <TouchableOpacity 
+                  style={[styles.submitBtn, isLoading && { opacity: 0.7 }]} 
+                  onPress={handleSubmitPayment}
+                  disabled={isLoading}
+                >
+                  {isLoading ? (
+                    <ActivityIndicator color="#FFF" />
+                  ) : (
+                    <Text style={styles.submitBtnText}>I Have Paid</Text>
+                  )}
                 </TouchableOpacity>
               </View>
             )}
-
-            <View style={styles.sectionDivider} />
-
-            <Text style={styles.stepTitle}>Step 2: Submit Details</Text>
-            <TextInput
-              style={styles.input}
-              placeholder="Enter Transaction ID / UTR"
-              placeholderTextColor="#94A3B8"
-              value={transactionId}
-              onChangeText={setTransactionId}
-              autoCapitalize="characters"
-            />
-
-            <TouchableOpacity 
-              style={[styles.submitBtn, isLoading && { opacity: 0.7 }]} 
-              onPress={handleSubmitPayment}
-              disabled={isLoading}
-            >
-              {isLoading ? (
-                <ActivityIndicator color="#FFF" />
-              ) : (
-                <Text style={styles.submitBtnText}>I Have Paid</Text>
-              )}
-            </TouchableOpacity>
           </View>
         )}
 

@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { supabase } from '../services/supabaseClient';
+import { API_URL } from '../config/Constants';
 
 const useSubscriptionStore = create((set, get) => ({
   subscription: null,
@@ -108,6 +109,35 @@ const useSubscriptionStore = create((set, get) => ({
     const last4 = userId.slice(-4).toUpperCase();
     const random = Math.random().toString(36).substring(2, 6).toUpperCase();
     return `SAMU_${last4}_${random}`;
+  },
+
+  claimFreePromoCode: async (userId, promoCode, token) => {
+    set({ isLoading: true, error: null });
+    try {
+      const response = await fetch(`${API_URL}/payments/claim-free-promo`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`
+        },
+        body: JSON.stringify({ promoCode })
+      });
+
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to claim promo code.');
+      }
+
+      // Refresh subscription and payment request history
+      await get().fetchSubscriptionStatus(userId);
+      await get().fetchPaymentRequests(userId);
+
+      set({ isLoading: false });
+      return { success: true, message: data.message };
+    } catch (error) {
+      set({ error: error.message, isLoading: false });
+      return { success: false, error: error.message };
+    }
   }
 }));
 

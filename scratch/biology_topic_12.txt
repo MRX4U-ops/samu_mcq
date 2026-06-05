@@ -1,0 +1,85 @@
+t.s./Mavzu 12
+
+Randomized marriage (panmixia) is:
+Non-selective marriage. Any person of the same sex is equally likely to marry any person of the opposite sex
+Marriage between individuals who are not in family ties
+Marriage between individuals who are in family ties
+Marriage between people of the first degree of family
+
+Family marriage (consanguineous) is:
+Marriage between people of the second and third degrees of family
+Marriage between people of the first degree of family
+Selective marriage
+B cancer between individuals with the same phenotypes for a certain trait
+
+Humans experience diseases that are determined by genes that are characterized by the property of incomplete dominance. Name this disease: 
+Cystinuria
+Albinism
+Hemophilia
+Phenylketonuria
+
+What is the formula for the karyotype of a patient with Down syndrome:
+47, XY , 21+
+46, XX , 5р-
+47, XY , 22+
+47, XY , 13+
+
+What is the formula for the karyotype of a patient with Edwards syndrome:
+47, XY , 18+
+46, XX , 5р-
+47, XY , 21+
+47, XY , 13+
+
+What is the formula for the karyotype of a patient with Klinefelter syndrome:
+47, XXY
+46, XY
+45, X 0
+47, XXX
+
+What is the formula for the karyotype of a patient with Cry of the Cat syndrome:
+46, XY , 5р -
+47, XXY
+46, XY , 9р+
+45, X 0
+
+What is the formula for the karyotype of a patient with Patau syndrome:
+47, XY , 13+
+46, XX
+47, XX , 18+
+46, XX , 5r -
+
+What is the formula for the karyotype of a patient with Shereshevsky-Turner syndrome:
+45, X 0
+46, XX
+47, XXY
+47, XXX
+
+Inbreeding is:
+Marriage between individuals who are in family ties
+Non-selective marriage
+Marriage between individuals who are not related to each other
+Marriage between individuals with the same phenotypes for a certain trait
+
+Unrelated marriage is:
+Marriage between individuals who are not related to each other (missing common ancestors in the next 4-6 generations)
+Non-selective marriage. Any person of the same sex is equally likely to marry any person of the opposite sex
+Marriage between individuals who are in family ties
+Marriage between people of the second and third degrees of family
+
+Define diseases inherited in an autosomal recessive manner?
+Alcoptonuria
+Huntington's chorea
+Muscular dystrophy (Duchenne syndrome)
+Neurofibromatosis
+
+Hemolytic disease is:
+Adhesion of red blood cells and their lysis
+Erythrocyte sedimentation
+Hemophilia
+Polymerism
+
+Sex X-chromatin is absent in somatic cells in:
+Men and women with Turner–Shereshevsky syndrome
+Women with Down syndrome
+Women with Patau syndrome
+Women with Edwards syndrome

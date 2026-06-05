@@ -45,9 +45,12 @@ const BattleLobbyScreen = ({ navigation }) => {
     if (isHost) {
       if (participants.length < 2) {
         Alert.alert(
-          "Waiting for Players",
-          "You need at least 2 players to start a quiz battle. Share the room code with your friends!",
-          [{ text: "OK" }]
+          "Start Solo?",
+          "You are the only player in this lobby. Would you like to start the battle solo for practice/testing?",
+          [
+            { text: "Cancel", style: "cancel" },
+            { text: "Start Solo", onPress: () => startGame() }
+          ]
         );
         return;
       }

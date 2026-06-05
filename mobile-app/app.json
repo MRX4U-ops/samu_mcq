@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "SAMU MCQs",
+    "slug": "samu-mcqs",
+    "version": "1.0.4-mrx",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/f5b56136-32c0-486d-9a5c-77774bfb57c3",
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 30000
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.samu.mcqs",
+      "versionCode": 4,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": {
+            "scheme": "upi"
+          }
+        }
+      ]
+    },
+    "web": {
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f5b56136-32c0-486d-9a5c-77774bfb57c3"
+      }
+    }
+  }
+}

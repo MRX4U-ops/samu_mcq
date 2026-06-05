@@ -1,0 +1,98 @@
+Test Questions Topic 12
+Question  1
+What is the formula for the karyotype of a patient with Klinefelter syndrome:
+a. 46, XY
+b. 47, XXX
+**\*c. 47, XXY**
+d. 45, X 0
+
+Question  2
+Hemolytic disease is:
+**\*a. Adhesion of red blood cells and their lysis**
+b. Erythrocyte sedimentation
+c. Polymerism
+d. Hemophilia
+
+Question  3
+What is the formula for the karyotype of a patient with Edwards syndrome:
+**\*a. 47, XY , 21+**
+b. 47, XY , 13+
+c. 46, XX , 5p-
+d. 47, XY , 18+
+
+Question  4
+What is the formula for the karyotype of a patient with Patau syndrome:
+a. 46, XX
+b. 46, XX , 5r -
+c. 47, XX , 18+
+**\*d. 47, XY , 13+**
+
+Question  5
+What is the formula for the karyotype of a patient with Cry of the Cat syndrome:
+a. 46, XY , 9p+
+**\*b. 46, XY , 5p -**
+c. 45, X 0
+d. 47, XXY
+
+Question  6
+Family marriage (consanguineous) is:
+a. Marriage between people of the first degree of family
+b. Selective marriage
+c. B cancer between individuals with the same phenotypes for a certain trait
+**\*d. Marriage between people of the second and third degrees of family**
+
+Question  7
+Sex X-chromatin is absent in somatic cells in:
+a. Women with Edwards syndrome
+**\*b. Men and women with Turner–Shereshevsky syndrome**
+c. Women with Patau syndrome
+d. Women with Down syndrome
+
+Question  8
+Randomized marriage (panmixia) is:
+a. Marriage between people of the first degree of family
+**\*b. Non-selective marriage. Any person of the same sex is equally likely to marry any person of the opposite sex**
+c. Marriage between individuals who are not in family ties
+d. Marriage between individuals who are in family ties
+
+Question  9
+Inbreeding is:
+a. Non-selective marriage
+b. Marriage between individuals who are not related to each other
+c. Marriage between individuals with the same phenotypes for a certain trait
+**\*d. Marriage between individuals who are in family ties**
+
+Question  10
+Unrelated marriage is:
+a. Non-selective marriage. Any person of the same sex is equally likely to marry any person of the opposite sex
+**\*b. Marriage between individuals who are not related to each other (missing common ancestors in the next 4-6 generations) **
+c. Marriage between people of the second and third degrees of family
+d. Marriage between individuals who are in family ties
+
+Question  11
+What is the formula for the karyotype of a patient with Down syndrome:
+a. 47, XY , 13+
+**\*b. 47, XY , 21+**
+c. 47, XY , 22+
+d. 46, XX , 5p-
+
+Question  12
+Define diseases inherited in an autosomal recessive manner?
+a. Muscular dystrophy (Duchenne syndrome)
+b. Neurofibromatosis
+c. Huntington's chorea
+**\*d. Alcoptonuria**
+
+Question  13
+What is the formula for the karyotype of a patient with Shereshevsky-Turner syndrome:
+**\*a. 45, X 0**
+b. 47, XXX
+c. 47, XXY
+d. 46, XX
+
+Question  14
+Humans experience diseases that are determined by genes that are characterized by the property of incomplete dominance. Name this disease:
+a. Hemophilia
+b. Phenylketonuria
+**\*c. Cystinuria**
+d. Albinism

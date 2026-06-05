@@ -1,0 +1,75 @@
+t.s./mavzu 1
+
+The optical part of the microscope includes:
+Eyepiece
+Condenser
+Diaphragm
+Mirror
+
+Name the low power lens:
+x 8
+x 15
+x 40
+x 90
+
+What is the function of the micrometer screw of a light microscope?
+Accurate focusing of the object image
+Reducing illumination of the field of view
+Increased illumination of the field of view
+Adjusting the condenser position
+
+What is the total magnification of a microscope that has an x7 eyepiece and an x90 objective?
+x630
+x47
+x56
+x33
+
+The mechanical part of the microscope includes:
+Macro screw
+Diaphragm
+Mirror
+Eyepiece
+
+The lighting part of the microscope includes:
+Mirror
+Eyepiece
+Microscrew
+Tube
+
+t.s./mavzu 2
+
+The following stage of energy metabolism occurs in mitochondria:
+Oxygen
+Oxygen-free
+Preparatory
+Preparatory and oxygen 
+
+Functions of the nucleolus:
+Synthesis of ribosomes and RNA particles
+Protein synthesis
+Synthesis of fats, carbohydrates and proteins
+Synthesis of some steroid hormones
+
+Ribosomes are formed:
+Proteins and rRNA
+Proteins and mRNA      
+Proteins and tRNA
+Proteins and m-RNA
+
+Trophic inclusions include:
+Nutrient reserves
+Hemoglobin
+Melanin
+Insulin
+
+Specify semi-autonomous cell organelles:
+Mitochondria and plastids
+Mitochondria and Golgi apparatus
+Mitochondria and lysosomes
+Mitochondria and vacuoles
+
+The “power energy stations” of the cell are:
+Mitochondria
+Core
+Ribosomes
+Golgi complex

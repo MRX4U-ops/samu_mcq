@@ -26,7 +26,10 @@ import AskAIScreen from '../screens/AskAIScreen';
 import AddExamScreen from '../screens/AddExamScreen';
 import ExamResultsScreen from '../screens/ExamResultsScreen';
 import SavedQuestionsScreen from '../screens/SavedQuestionsScreen';
-import TimerSetScreen from '../screens/TimerSetScreen';
+import AlarmScreen from '../screens/AlarmScreen';
+import AddAlarmScreen from '../screens/AddAlarmScreen';
+import ExamReminderScreen from '../screens/ExamReminderScreen';
+import StudyTimerScreen from '../screens/StudyTimerScreen';
 import ResultScreen from '../screens/ResultScreen';
 import ReviewScreen from '../screens/ReviewScreen';
 import SearchScreen from '../screens/SearchScreen';
@@ -40,9 +43,47 @@ import AdminPayments from '../screens/admin/AdminPayments';
 import AdminSupport from '../screens/admin/AdminSupport';
 import SetPasswordScreen from '../screens/SetPasswordScreen';
 import AppGuidelinesScreen from '../screens/AppGuidelinesScreen';
+import DiagnosticsHubScreen from '../screens/DiagnosticsHubScreen';
+import DiagnosticCategoryScreen from '../screens/DiagnosticCategoryScreen';
+import DiagnosticDetailScreen from '../screens/DiagnosticDetailScreen';
 
 
 const Stack = createNativeStackNavigator();
+
+// Static Protected Screen Wrappers
+const ProtectedMCQScreen = (props) => (
+  <AuthGuard><MCQScreen {...props} /></AuthGuard>
+);
+const ProtectedQuizBattleHomeScreen = (props) => (
+  <AuthGuard><QuizBattleHomeScreen {...props} /></AuthGuard>
+);
+const ProtectedCreateBattleScreen = (props) => (
+  <AuthGuard><CreateBattleScreen {...props} /></AuthGuard>
+);
+const ProtectedJoinBattleScreen = (props) => (
+  <AuthGuard><JoinBattleScreen {...props} /></AuthGuard>
+);
+const ProtectedBattleLobbyScreen = (props) => (
+  <AuthGuard><BattleLobbyScreen {...props} /></AuthGuard>
+);
+const ProtectedBattleQuestionScreen = (props) => (
+  <AuthGuard><BattleQuestionScreen {...props} /></AuthGuard>
+);
+const ProtectedAskAIScreen = (props) => (
+  <AuthGuard><AskAIScreen {...props} /></AuthGuard>
+);
+const ProtectedImageAnswerScreen = (props) => (
+  <AuthGuard><ImageAnswerScreen {...props} /></AuthGuard>
+);
+const ProtectedDiagnosticsHubScreen = (props) => (
+  <AuthGuard><DiagnosticsHubScreen {...props} /></AuthGuard>
+);
+const ProtectedDiagnosticCategoryScreen = (props) => (
+  <AuthGuard><DiagnosticCategoryScreen {...props} /></AuthGuard>
+);
+const ProtectedDiagnosticDetailScreen = (props) => (
+  <AuthGuard><DiagnosticDetailScreen {...props} /></AuthGuard>
+);
 
 const AppNavigator = () => {
   const { user, profile, loading, isAdmin, isRecovering } = useAuthStore();
@@ -66,37 +107,17 @@ const AppNavigator = () => {
           <Stack.Screen name="Topic" component={TopicScreen} />
           
           {/* Protected Routes */}
-          <Stack.Screen name="MCQ">
-            {props => <AuthGuard><MCQScreen {...props} /></AuthGuard>}
-          </Stack.Screen>
-          
-          <Stack.Screen name="BattleHome">
-            {props => <AuthGuard><QuizBattleHomeScreen {...props} /></AuthGuard>}
-          </Stack.Screen>
-
-          <Stack.Screen name="CreateBattle">
-            {props => <AuthGuard><CreateBattleScreen {...props} /></AuthGuard>}
-          </Stack.Screen>
-
-          <Stack.Screen name="JoinBattle">
-            {props => <AuthGuard><JoinBattleScreen {...props} /></AuthGuard>}
-          </Stack.Screen>
-
-          <Stack.Screen name="Lobby">
-            {props => <AuthGuard><BattleLobbyScreen {...props} /></AuthGuard>}
-          </Stack.Screen>
-
-          <Stack.Screen name="LiveBattle">
-            {props => <AuthGuard><BattleQuestionScreen {...props} /></AuthGuard>}
-          </Stack.Screen>
-
-          <Stack.Screen name="AskAI">
-            {props => <AuthGuard><AskAIScreen {...props} /></AuthGuard>}
-          </Stack.Screen>
-
-          <Stack.Screen name="ImageAnswer">
-            {props => <AuthGuard><ImageAnswerScreen {...props} /></AuthGuard>}
-          </Stack.Screen>
+          <Stack.Screen name="MCQ" component={ProtectedMCQScreen} />
+          <Stack.Screen name="BattleHome" component={ProtectedQuizBattleHomeScreen} />
+          <Stack.Screen name="CreateBattle" component={ProtectedCreateBattleScreen} />
+          <Stack.Screen name="JoinBattle" component={ProtectedJoinBattleScreen} />
+          <Stack.Screen name="Lobby" component={ProtectedBattleLobbyScreen} />
+          <Stack.Screen name="LiveBattle" component={ProtectedBattleQuestionScreen} />
+          <Stack.Screen name="AskAI" component={ProtectedAskAIScreen} />
+          <Stack.Screen name="ImageAnswer" component={ProtectedImageAnswerScreen} />
+          <Stack.Screen name="DiagnosticsHub" component={ProtectedDiagnosticsHubScreen} />
+          <Stack.Screen name="DiagnosticCategory" component={ProtectedDiagnosticCategoryScreen} />
+          <Stack.Screen name="DiagnosticDetail" component={ProtectedDiagnosticDetailScreen} />
 
           {/* Regular Routes */}
           <Stack.Screen name="Result" component={ResultScreen} />
@@ -113,7 +134,10 @@ const AppNavigator = () => {
           <Stack.Screen name="AddExam" component={AddExamScreen} />
           <Stack.Screen name="ExamResults" component={ExamResultsScreen} />
           <Stack.Screen name="SavedQuestions" component={SavedQuestionsScreen} />
-          <Stack.Screen name="TimerSet" component={TimerSetScreen} />
+          <Stack.Screen name="TimerSet" component={AlarmScreen} />
+          <Stack.Screen name="AddAlarm" component={AddAlarmScreen} />
+          <Stack.Screen name="ExamReminder" component={ExamReminderScreen} />
+          <Stack.Screen name="StudyTimer" component={StudyTimerScreen} />
           <Stack.Screen name="WebsiteOption" component={WebsiteOptionScreen} />
           <Stack.Screen name="WebView" component={WebViewScreen} />
           <Stack.Screen name="AppGuidelines" component={AppGuidelinesScreen} />

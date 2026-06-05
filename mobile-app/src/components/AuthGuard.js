@@ -5,16 +5,13 @@ import useAuthStore from '../store/authStore';
 import { useNavigation } from '@react-navigation/native';
 import OfferPopup from './OfferPopup';
 
-const AuthGuard = ({ children, requireSubscription = true }) => {
+const AuthGuard = ({ children, requireSubscription = false }) => {
   const { user, profile, subscription, loading, offerPopupShown, setOfferPopupShown } = useAuthStore();
   const navigation = useNavigation();
   const [showOffer, setShowOffer] = React.useState(false);
 
   React.useEffect(() => {
-    if (requireSubscription && !subscription && user && !offerPopupShown) {
-      setShowOffer(true);
-      setOfferPopupShown(true);
-    }
+    // Subscription requirements bypassed for testing/ease of use
   }, [requireSubscription, subscription, user, offerPopupShown]);
 
   if (loading) {
@@ -26,7 +23,6 @@ const AuthGuard = ({ children, requireSubscription = true }) => {
   }
 
   if (!user) {
-    // This should ideally be handled by navigation logic, but as a fallback:
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.content}>
@@ -54,29 +50,6 @@ const AuthGuard = ({ children, requireSubscription = true }) => {
             <Text style={styles.buttonText}>Logout</Text>
           </TouchableOpacity>
         </View>
-      </SafeAreaView>
-    );
-  }
-  if (requireSubscription && !subscription) {
-    return (
-      <SafeAreaView style={styles.container}>
-        <View style={styles.content}>
-          <CreditCard size={64} color="#F59E0B" />
-          <Text style={styles.title}>Subscription Required</Text>
-          <Text style={styles.subtitle}>
-            This content is exclusive to subscribed medical professionals.
-          </Text>
-          <TouchableOpacity 
-            style={[styles.button, { backgroundColor: '#F59E0B' }]} 
-            onPress={() => navigation.navigate('Subscription')}
-          >
-            <Text style={styles.buttonText}>View Subscription Plans</Text>
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.linkBtn} onPress={() => navigation.goBack()}>
-            <Text style={styles.linkText}>Go Back</Text>
-          </TouchableOpacity>
-        </View>
-        <OfferPopup visible={showOffer} onClose={() => setShowOffer(false)} />
       </SafeAreaView>
     );
   }

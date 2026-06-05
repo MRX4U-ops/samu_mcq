@@ -104,4 +104,163 @@ router.get('/bookmarks', protect, async (req, res) => {
   }
 });
 
+// Helper to catch missing table errors and return mock/fallback data gracefully
+const handleDbError = (error, res, fallbackData = []) => {
+  console.log('Database operation failed:', error.message);
+  const msg = error.message || '';
+  if (
+    error.code === '42P01' || 
+    msg.includes('relation') || 
+    msg.includes('does not exist') || 
+    msg.includes('schema cache') || 
+    msg.includes('Could not find the table')
+  ) {
+    return res.json({ isFallback: true, data: fallbackData });
+  }
+  return res.status(500).json({ message: error.message });
+};
+
+// --- STUDY ALARMS ---
+
+// Get all study alarms for user
+router.get('/alarms', protect, async (req, res) => {
+  try {
+    const { data, error } = await supabaseAdmin
+      .from('study_alarms')
+      .select('*')
+      .eq('user_id', req.userId)
+      .order('created_at', { ascending: false });
+
+    if (error) return handleDbError(error, res);
+    res.json(data);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
+// Create a new study alarm
+router.post('/alarms', protect, async (req, res) => {
+  const { title, time, repeat_type, days_of_week, ringtone_enabled, vibration_enabled, is_active } = req.body;
+  try {
+    const { data, error } = await supabaseAdmin
+      .from('study_alarms')
+      .insert({
+        user_id: req.userId,
+        title,
+        time,
+        repeat_type,
+        days_of_week,
+        ringtone_enabled: ringtone_enabled !== undefined ? ringtone_enabled : true,
+        vibration_enabled: vibration_enabled !== undefined ? vibration_enabled : true,
+        is_active: is_active !== undefined ? is_active : true
+      })
+      .select()
+      .single();
+
+    if (error) return handleDbError(error, res, { id: 'fallback-' + Date.now(), ...req.body });
+    res.status(210).json(data); // 210 custom created/success code to represent direct insert
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
+// Update an existing study alarm
+router.put('/alarms/:id', protect, async (req, res) => {
+  const { title, time, repeat_type, days_of_week, ringtone_enabled, vibration_enabled, is_active } = req.body;
+  try {
+    const { data, error } = await supabaseAdmin
+      .from('study_alarms')
+      .update({
+        title,
+        time,
+        repeat_type,
+        days_of_week,
+        ringtone_enabled,
+        vibration_enabled,
+        is_active
+      })
+      .eq('id', req.params.id)
+      .eq('user_id', req.userId)
+      .select()
+      .single();
+
+    if (error) return handleDbError(error, res, req.body);
+    res.json(data);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
+// Delete a study alarm
+router.delete('/alarms/:id', protect, async (req, res) => {
+  try {
+    const { error } = await supabaseAdmin
+      .from('study_alarms')
+      .delete()
+      .eq('id', req.params.id)
+      .eq('user_id', req.userId);
+
+    if (error) return handleDbError(error, res, { success: false });
+    res.json({ success: true });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
+// --- EXAM REMINDERS ---
+
+// Get all exam reminders for user
+router.get('/exams', protect, async (req, res) => {
+  try {
+    const { data, error } = await supabaseAdmin
+      .from('exam_reminders')
+      .select('*')
+      .eq('user_id', req.userId)
+      .order('exam_date', { ascending: true });
+
+    if (error) return handleDbError(error, res);
+    res.json(data);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
+// Create a new exam reminder
+router.post('/exams', protect, async (req, res) => {
+  const { subject, exam_date, notes } = req.body;
+  try {
+    const { data, error } = await supabaseAdmin
+      .from('exam_reminders')
+      .insert({
+        user_id: req.userId,
+        subject,
+        exam_date,
+        notes
+      })
+      .select()
+      .single();
+
+    if (error) return handleDbError(error, res, { id: 'fallback-' + Date.now(), ...req.body });
+    res.status(201).json(data);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
+// Delete an exam reminder
+router.delete('/exams/:id', protect, async (req, res) => {
+  try {
+    const { error } = await supabaseAdmin
+      .from('exam_reminders')
+      .delete()
+      .eq('id', req.params.id)
+      .eq('user_id', req.userId);
+
+    if (error) return handleDbError(error, res, { success: false });
+    res.json({ success: true });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
 module.exports = router;

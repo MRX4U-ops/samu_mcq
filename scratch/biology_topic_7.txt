@@ -1,0 +1,121 @@
+t.s.Mavzu 7
+
+Genes localized on one chromosome:
+Form a gene linkage group 
+Called unlinked
+Inherited independently of each other 
+Give different combinations  
+
+Indicate the main provisions of the chromosomal theory of heredity? 
+The frequency of crossing over between chromosomes is directly proportional to the distance between genes
+Crossing over can occur between non-homologous chromosomes 
+The number of linkage groups is equal to the diploid set of chromosomes 
+Crossing over is not observed in male mammals 
+
+Linkage between genes can be:
+Full or incomplete
+Incomplete, not providing discrepancies
+Full, but crossing over
+Complete, there is a discrepancy           
+
+Hemophilia is a disease that has:
+X -linked recessive inheritance
+Autosomal recessive mode of inheritance
+Autosomal dominant type of inheritance
+Y -linked inheritance
+
+Enamel hypoplasia is inherited as a sex-linked dominant trait. In a family where both parents suffer from this anomaly, a son was born with normal teeth. What is the probability that the next child will also have healthy teeth?
+50% boys
+50% girls
+50% of all children
+all children
+
+The holandric trait is:
+Hypertrichosis
+Blonde hair
+Hemophilia
+Polydactyly
+
+Hypertrichosis (hair growth along the edge of the ear) is inherited as a trait linked to the Y chromosome. What is the probability of having a child with this anomaly in a family where the father suffers from hypertrichosis?
+100% boys
+50% boys
+50% girls
+All children
+
+Gender-dependent signs:
+Traits determined by autosomal genes in men and women, but these traits appear more often in one sex than the other
+Traits determined by autosomal genes in women
+Traits are determined by genes that are located on the X and Y chromosomes
+Polygenic traits
+
+In what units is crossing over frequency measured?
+In percentages
+In nanometers
+In centimeters
+In the Morganids
+
+If a disease (sign) is inherited through the male line from generation to generation from a father to all his sons, then this is a sign:
+Y -linked type of inheritance
+X-linked recessive inheritance
+X-linked dominant type of inheritance
+Autosomal recessive type of inheritance
+
+It is known that gene linkage is not absolute, since it is disrupted as a result of:
+Crossing over during meiosis
+Pleiotropy
+Non-allelic gene interactions
+Independent chromosome segregation during meiosis
+
+Which of the following is a holandric trait?
+Hypertrichosis
+Colorblindness
+Polydactyly
+Blonde hair
+
+What are the names of the characteristics predetermined by the genes that are located on the X and Y chromosomes?
+Glued to the floor
+Dominant
+holandric
+Gender dependent
+
+What is the number of gene linkage groups in the organisms of each biological species?
+Haploid set of chromosomes
+Number of pairs of non-allelic genes
+Number of sex chromosomes
+Diploid set of chromosomes
+
+Who established the linked inheritance of genes localized in one pair of homologous chromosomes?
+T. Morgan
+H. Koran
+G. de Vries
+V. Johansen
+
+Unit of distance between genes:
+Morganida
+Centimeter
+Nanometer
+Angstrom
+
+The father is color blind, and the mother is heterozygous for a gene that predetermines normal color perception. With what genotypes should we expect offspring?
+XdXd
+XDXD
+XDXd
+Dd
+
+The father has hemophilia, and the mother is homozygous for a gene that determines normal blood clotting. With what genotypes should we expect offspring?
+XHXh
+ХНХН
+XhXh
+XhY
+
+Indicate a gender-linked human characteristic:
+Hemophilia
+Polydactyly
+Hair color
+Color of the skin
+
+Ichthyosis is observed in the family pedigree. This symptom occurs in all generations only in men. What type of inheritance of the trait?
+Linked to the Y chromosome
+Dominant, linked to the X chromosome
+Autosomal recessive
+Recessive, linked to the X chromosome

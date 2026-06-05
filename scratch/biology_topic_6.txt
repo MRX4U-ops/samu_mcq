@@ -1,0 +1,99 @@
+t.s. Mavzu 6
+
+A cross in which the parent organisms differ in four pairs of characters is:
+Tetrahybrid
+Dihybrid
+Polyhybrid
+Trihybrid
+
+An example of codominance is:
+Inheritance of blood groups ( group IV )
+Inheritance of polydactyly
+Height inheritance
+Inheritance of deafness
+
+An example of complementarity is:
+Inheritance of deafness
+Inheritance of blood groups
+Inheritance of phenylketonuria
+Inheritance of polydactyly
+
+An example of phenocopy would be:
+The birth of a deaf child with a normal genotype to a healthy woman who had rubella during pregnancy
+Colorblindness in a child whose parents are colorblind
+Hypertension in an adult man who has healthy parents
+Albinism in a child whose mother is an albino and whose father has normal skin pigmentation
+
+Rhesus conflict occurs when:
+Mother is Rh - and child is Rh +
+Mother is Rh +, and child is Rh +
+The mother is Rh - and the child is Rh -
+Mother is Rh + and child is Rh -
+
+ The totality of all the genes of an organism is:
+Genotype
+Heredity
+Changeability
+Inheritance
+
+The totality of all external and internal signs of the body is:
+Phenotype
+Heredity
+Genotype
+Changeability
+
+The set of genes of the haploid set of chromosomes is:
+Genome
+Gene
+Genotype
+Gene pool
+
+The set of genes in a population, which is characterized by a certain frequency, is:
+Gene pool
+Genome
+Gene
+Genotype
+
+A cross in which the parent organisms differ in one pair of characteristics is:
+Monohybrid
+Dihybrid
+Polyhybrid
+Trihybrid
+
+
+A cross in which the parent organisms differ in two pairs of characteristics is:
+Dihybrid
+Monohybrid
+Polyhybrid
+Trihybrid
+
+
+A cross in which the parent organisms differ in many pairs of characters is:
+Polyhybrid
+Dihybrid
+Monohybrid
+Tetrahybrid
+
+Mendel's third law reveals patterns:
+Independent combination of features
+Analyzing crossing
+Sex-linked inheritance
+Intermediate inheritance
+
+What is the name of the allele that is not phenotypically manifested in the heterozygous state?
+Recessive
+Dominant
+Heterozygous
+Homozygote dominant
+
+What is the name of the allele that is phenotypically manifested in the heterozygous state?
+Dominant
+Recessive
+Heterozygous
+Homozygote recessive
+
+Which genotype can be accurately determined by phenotype without special research?
+Recessive homozygote genotype (aa)
+Genotype of dominant homozygote (AA)
+Heterozygote genotype (Aa)
+Genotype of any individual

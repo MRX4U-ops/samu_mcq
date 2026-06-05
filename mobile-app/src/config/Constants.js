@@ -6,12 +6,7 @@ const getDevBaseUrl = () => {
   const hostUri = Constants?.expoConfig?.hostUri || Constants?.manifest?.hostUri;
   if (hostUri) {
     const ip = hostUri.split(':')[0];
-    if (ip && ip.includes('exp.direct')) {
-      // Tunnel detected! Return the local machine IP for the backend
-      console.log('Tunnel detected, using local machine IP 10.45.70.102 for backend.');
-      return 'http://10.45.70.102:5000';
-    }
-    if (ip && ip !== 'localhost' && ip !== '127.0.0.1') {
+    if (ip && !ip.includes('exp.direct') && ip !== 'localhost' && ip !== '127.0.0.1') {
       return `http://${ip}:5000`;
     }
   }
@@ -30,7 +25,7 @@ const getDevBaseUrl = () => {
     return 'http://10.0.2.2:5000';
   }
 
-  return 'http://10.45.70.102:5000';
+  return 'http://localhost:5000';
 };
 
 const BASE_URL = __DEV__ ? getDevBaseUrl() : 'https://samu-mcqs.onrender.com';

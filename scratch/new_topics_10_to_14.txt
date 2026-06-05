@@ -1,0 +1,617 @@
+*Topic 10: Medical Chemistry
+Question 1
+How are colloidal systems classified based on their dispersion medium?
+•	a. Liquids, gases, solids
+•	b. Solvents and solutions
+•	*c. Aerosols, foams, gels, sols
+•	d. Organic and inorganic
+Question 2
+How are colloidal systems used in drug delivery?
+•	a. To decrease the shelf life of medications
+•	*b. To improve the bioavailability of drugs
+•	c. To increase the viscosity of fluids
+•	d. To remove toxic substances from the body
+Question 3
+What are dispersing systems?
+•	a. Pure substances
+•	b. Gaseous mixtures
+•	*c. Systems where one substance is dispersed in another
+•	d. Homogeneous mixtures
+Question 4
+What is the function of colloidal systems in diagnostic imaging?
+•	*a. They enhance the contrast in imaging techniques
+•	b. They slow down the imaging process
+•	c. They decrease the resolution of the images
+•	d. They distort the image quality
+Question 5
+What is the importance of colloidal systems in the pharmaceutical industry?
+•	a. They help in dissolving the active ingredients
+•	b. They are used for packaging medications
+•	*c. They facilitate controlled drug release
+•	d. They enhance the color of the medicine
+Question 6
+What is the main characteristic of lyophilic colloids?
+•	a. They form stable solids
+•	*b. They have a strong affinity for the dispersing medium
+•	c. They are always unstable
+•	d. They do not mix with the dispersing medium
+Question 7
+What is the main use of colloidal silver in medicine?
+•	*a. Antibacterial agent
+•	b. Immunosuppressant
+•	c. Blood thinner
+•	d. Pain reliever
+Question 8
+What is the role of surfactants in colloidal systems?
+•	*a. To stabilize the dispersion of colloidal particles
+•	b. To increase particle size
+•	c. To filter impurities
+•	d. To dissolve solid particles
+Question 9
+What is the size range of particles in a colloidal system?
+•	a. 0.1 to 10 micrometers
+•	b. 1 to 100 micrometers
+•	*c. 1 to 1000 nanometers
+•	d. 100 to 1000 micrometers
+Question 10
+What is the structure of a colloidal system?
+•	a. A single-phase system
+•	b. A solid phase only
+•	c. A crystalline structure
+•	*d. A dispersed phase and a continuous phase
+Question 11
+What is the Tyndall effect observed in colloidal systems?
+•	a. Transmission of light without scattering
+•	b. Complete absorption of light by colloidal particles
+•	*c. Scattering of light by colloidal particles
+•	d. Reflection of light by colloidal particles
+Question 12
+Which method is commonly used to purify colloidal systems?
+•	*a. Dialysis
+•	b. Filtration
+•	c. Evaporation
+•	d. Distillation
+Question 13
+Which of the following is a characteristic of colloidal particles?
+•	a. They form a solid block
+•	b. They settle at the bottom rapidly
+•	*c. They remain suspended in the medium
+•	d. They evaporate easily
+Question 14
+Which of the following is a characteristic of colloidal systems?
+•	a. The system is always homogeneous
+•	b. The dispersed phase is visible to the naked eye
+•	*c. The dispersed phase cannot be seen by the naked eye
+•	d. The system is composed of only one substance
+Question 15
+Which of the following is a common example of a colloidal system in medicine?
+•	*a. Aerosols
+•	b. Pure water
+•	c. Salt solution
+•	d. Sugar syrup
+Question 16
+Which of the following is a method for preparing colloidal dispersions?
+•	a. Boiling
+•	b. Crystallization
+•	*c. High-pressure homogenization
+•	d. Freezing
+Question 17
+Which of the following is a typical use of colloidal systems in cosmetics?
+•	a. To solidify cosmetic products
+•	b. To separate active ingredients from inactive components
+•	c. To increase the solubility of water in oils
+•	*d. To stabilize emulsions in creams and lotions
+Question 18
+Which of the following is an example of a colloidal gel used in medicine?
+•	a. Alcohol-based solutions
+•	b. Salt solutions
+•	*c. Hydrogel wound dressings
+•	d. Solid tablets
+Question 19
+Which of the following is an example of a pharmaceutical colloid?
+•	a. Glucose crystals
+•	*b. Injectable solutions
+•	c. Table salt
+•	d. Powdered medications
+Question 20
+Which technique is used to prepare colloidal systems?
+•	a. Distillation method
+•	*b. Dispersion method
+•	c. Freezing method
+•	d. Filtration method
+
+
+
+*Topic 11: Medical Chemistry
+Question 1
+How are colloidal systems classified based on their dispersion medium?
+•	*a. Aerosols, foams, gels, sols
+•	b. Solvents and solutions
+•	c. Organic and inorganic
+•	d. Liquids, gases, solids
+Question 2
+How are colloidal systems used in drug delivery?
+•	a. To decrease the shelf life of medications
+•	b. To increase the viscosity of fluids
+•	c. To remove toxic substances from the body
+•	*d. To improve the bioavailability of drugs
+Question 3
+What are dispersing systems?
+•	a. Pure substances
+•	b. Homogeneous mixtures
+•	*c. Systems where one substance is dispersed in another
+•	d. Gaseous mixtures
+Question 4
+What is the function of colloidal systems in diagnostic imaging?
+•	*a. They enhance the contrast in imaging techniques
+•	b. They decrease the resolution of the images
+•	c. They distort the image quality
+•	d. They slow down the imaging process
+Question 5
+What is the importance of colloidal systems in the pharmaceutical industry?
+•	*a. They facilitate controlled drug release
+•	b. They help in dissolving the active ingredients
+•	c. They are used for packaging medications
+•	d. They enhance the color of the medicine
+Question 6
+What is the main characteristic of lyophilic colloids?
+•	a. They do not mix with the dispersing medium
+•	b. They form stable solids
+•	c. They are always unstable
+•	*d. They have a strong affinity for the dispersing medium
+Question 7
+What is the main use of colloidal silver in medicine?
+•	a. Blood thinner
+•	b. Pain reliever
+•	*c. Antibacterial agent
+•	d. Immunosuppressant
+Question 8
+What is the role of surfactants in colloidal systems?
+•	a. To filter impurities
+•	b. To dissolve solid particles
+•	*c. To stabilize the dispersion of colloidal particles
+•	d. To increase particle size
+Question 9
+What is the size range of particles in a colloidal system?
+•	a. 0.1 to 10 micrometers
+•	b. 1 to 100 micrometers
+•	*c. 1 to 1000 nanometers
+•	d. 100 to 1000 micrometers
+Question 10
+What is the structure of a colloidal system?
+•	a. A single-phase system
+•	*b. A dispersed phase and a continuous phase
+•	c. A solid phase only
+•	d. A crystalline structure
+Question 11
+What is the Tyndall effect observed in colloidal systems?
+•	a. Complete absorption of light by colloidal particles
+•	*b. Scattering of light by colloidal particles
+•	c. Transmission of light without scattering
+•	d. Reflection of light by colloidal particles
+Question 12
+Which method is commonly used to purify colloidal systems?
+•	a. Evaporation
+•	b. Distillation
+•	c. Filtration
+•	*d. Dialysis
+Question 13
+Which of the following is a characteristic of colloidal particles?
+•	*a. They remain suspended in the medium
+•	b. They evaporate easily
+•	c. They form a solid block
+•	d. They settle at the bottom rapidly
+Question 14
+Which of the following is a characteristic of colloidal systems?
+•	a. The system is composed of only one substance
+•	b. The system is always homogeneous
+•	*c. The dispersed phase cannot be seen by the naked eye
+•	d. The dispersed phase is visible to the naked eye
+Question 15
+Which of the following is a common example of a colloidal system in medicine?
+•	*a. Aerosols
+•	b. Pure water
+•	c. Salt solution
+•	d. Sugar syrup
+Question 16
+Which of the following is a method for preparing colloidal dispersions?
+•	a. Freezing
+•	b. Boiling
+•	c. Crystallization
+•	*d. High-pressure homogenization
+Question 17
+Which of the following is a typical use of colloidal systems in cosmetics?
+•	a. To solidify cosmetic products
+•	b. To increase the solubility of water in oils
+•	*c. To stabilize emulsions in creams and lotions
+•	d. To separate active ingredients from inactive components
+Question 18
+Which of the following is an example of a colloidal gel used in medicine?
+•	*a. Hydrogel wound dressings
+•	b. Alcohol-based solutions
+•	c. Salt solutions
+•	d. Solid tablets
+Question 19
+Which of the following is an example of a pharmaceutical colloid?
+•	a. Powdered medications
+•	b. Glucose crystals
+•	c. Table salt
+•	*d. Injectable solutions
+Question 20
+Which technique is used to prepare colloidal systems?
+•	a. Freezing method
+•	*b. Dispersion method
+•	c. Distillation method
+•	d. Filtration method
+
+
+
+*Topic 12: Medical Chemistry
+Question 1
+How do polyfunctional compounds act as antioxidants in medicine?
+•	*a. By neutralizing free radicals
+•	b. By increasing blood flow
+•	c. By improving digestion
+•	d. By speeding up metabolism
+Question 2
+How do polyfunctional compounds like antibiotics work in the body?
+•	a. By increasing blood pressure
+•	b. By promoting sleep
+•	c. By altering skin pigmentation
+•	*d. By targeting specific bacteria or fungi
+Question 3
+How do multifunctional metabolites affect the central nervous system?
+•	a. By improving skin elasticity
+•	*b. By modulating neurotransmitter levels
+•	c. By increasing blood sugar levels
+•	d. By altering digestion processes
+Question 4
+In what form do polyfunctional compounds typically exist when used as drugs?
+•	a. As inactive metabolites
+•	b. As insoluble crystals
+•	*c. As active pharmaceutical ingredients
+•	d. As water-soluble salts
+Question 5
+Polyfunctional compounds are important for the synthesis of:
+•	a. Carbon dioxide
+•	*b. Proteins and nucleic acids
+•	c. Oxygen
+•	d. Water
+Question 6
+Polyfunctional compounds are important in drug design because they:
+•	a. Have only one interaction site
+•	b. Are completely inert
+•	*c. Can interact with multiple targets
+•	d. Can only interact with enzymes
+Question 7
+Polyfunctional compounds like steroids are used in medicine for:
+•	*a. Anti-inflammatory purposes
+•	b. Increasing appetite
+•	c. Controlling blood pressure
+•	d. Enhancing taste
+Question 8
+What functional groups are commonly found in polyfunctional compounds?
+•	a. Ester groups only
+•	b. Halide groups only
+•	*c. Alcohol, amine, and carboxyl groups
+•	d. Hydrocarbon chains only
+Question 9
+What is a common use of polyfunctional compounds in medicine?
+•	a. As flavor enhancers
+•	*b. As therapeutic agents
+•	c. As fertilizers
+•	d. As disinfectants
+Question 10
+What is a polyfunctional compound?
+•	a. A compound that is purely inorganic
+•	b. A compound that does not react with other substances
+•	c. A compound with only one functional group
+•	*d. A compound that contains two or more functional groups
+Question 11
+What role do polyfunctional compounds play in medicine?
+•	*a. They serve as drugs and metabolites
+•	b. They are used as solvents only
+•	c. They act solely as preservatives
+•	d. They are only used in food processing
+Question 12
+Which metabolic pathway involves polyfunctional compounds like ATP?
+•	a. Photosynthesis
+•	b. Glycolysis
+•	*c. Cellular respiration
+•	d. Nitrogen fixation
+Question 13
+Which of the following is a polyfunctional compound with anti-cancer properties?
+•	a. Sodium chloride
+•	b. Urea
+•	c. Glucose
+•	*d. Curcumin
+Question 14
+Which of the following is a polyfunctional metabolite used in medicine?
+•	a. Glucose
+•	b. Sodium chloride
+•	*c. Glutathione
+•	d. Water
+Question 15
+Which of the following is an example of a polyfunctional compound?
+•	a. Carbon dioxide
+•	b. Methane
+•	*c. Acetaminophen
+•	d. Sodium chloride
+Question 16
+Which of the following polyfunctional compounds is involved in the inflammatory response?
+•	a. Hemoglobin
+•	b. Collagen
+•	c. Insulin
+•	*d. Prostaglandins
+Question 17
+Which of the following polyfunctional compounds is used as an analgesic?
+•	a. Sodium bicarbonate
+•	b. Methanol
+•	c. Benzene
+•	*d. Acetaminophen
+Question 18
+Which polyfunctional compound is commonly used to treat bacterial infections?
+•	a. Glucose
+•	*b. Penicillin
+•	c. Sodium chloride
+•	d. Acetaminophen
+Question 19
+Which polyfunctional compound is involved in the regulation of blood sugar levels?
+•	*a. Insulin
+•	b. Sodium chloride
+•	c. Cortisol
+•	d. Vitamin C
+Question 20
+Which multifunctional compound is known for its role in pain relief and inflammation reduction?
+•	a. Glucose
+•	*b. Aspirin
+•	c. Sodium chloride
+•	d. Methane
+
+
+
+*Topic 13: Medical Chemistry
+Question 1
+Heterofunctional compounds are important because they:
+•	a. Enhance the shelf life of non-pharmaceutical products
+•	b. Serve as food preserves
+•	c. Are used in genetic engineering
+•	*d. Can interact with multiple biological targets
+Question 2
+Heterofunctional compounds are primarily used in medicine for:
+•	a. Enhancing digestive functions
+•	b. Increasing metabolic rate
+•	c. Promoting hair growth
+•	*d. Treating various diseases
+Question 3
+Heterofunctional compounds in medicine may act as:
+•	*a. Antioxidants or anti-inflammatory agents
+•	b. Structural components only
+•	c. Energy storage molecules only
+•	d. Water carriers only
+Question 4
+How are heterofunctional compounds metabolized in the body?
+•	a. By passive diffusion only
+•	b. Without any alteration in the body
+•	c. Through simple absorption
+•	*d. Through enzymatic processes
+Question 5
+How do heterofunctional compounds contribute to metabolism?
+•	a. They act as DNA builders
+•	*b. They act as intermediates in metabolic pathways
+•	c. They serve only as storage molecules
+•	d. They increase the energy required for cellular processes
+Question 6
+How do heterofunctional compounds influence disease treatment?
+•	a. They simply neutralize the presence of pathogens
+•	b. They provide a source of energy for infected cells
+•	c. They increase the acidity of tissues
+•	*d. They target specific molecular pathways in the body
+Question 7
+How do heterofunctional compounds interact in the body?
+•	a. They function solely as preservatives
+•	b. They provide energy to cells only
+•	c. They neutralize acidic substances
+•	*d. They serve as therapeutic agents and interact with biological targets
+Question 8
+What are heterofunctional compounds used for in medicine?
+•	a. The manufacturing of synthetic fibers
+•	b. The creation of plastic materials
+•	*c. The synthesis of drugs and metabolites
+•	d. The production of food additives
+Question 9
+What is the primary use of heterofunctional compounds like aspirin?
+•	a. Improving hair growth
+•	*b. Pain relief and anti-inflammatory purposes
+•	c. Improving digestive health
+•	d. Increasing muscle mass
+Question 10
+What is the significance of heterofunctional compounds in the synthesis of medicines?
+•	a. They only increase the shelf-life of drugs
+•	b. They function as carriers in drug delivery
+•	c. They act as preservatives without any other medicinal value
+•	*d. They enhance the specificity and effectiveness of drug interactions
+Question 11
+What makes heterofunctional compounds versatile in drug design?
+•	a. Their involvement in food processing only
+•	b. Their sole role in preserving drugs
+•	*c. Their ability to bind to various receptors
+•	d. Their function in increasing drug solubility
+Question 12
+What role do heterofunctional compounds play in drug development?
+•	*a. They allow for targeting multiple disease mechanisms
+•	b. They serve as food preserves
+•	c. They are used only in the preparation of vaccines
+•	d. They are used exclusively for diagnostic purposes
+Question 13
+What type of functional groups are typically present in heterofunctional compounds?
+•	*a. Alcohol, amine, and carboxyl groups
+•	b. Only ester groups
+•	c. Halide groups
+•	d. Hydrocarbon chains
+Question 14
+Which class of drugs includes heterofunctional compounds?
+•	a. Enzymes
+•	b. Minerals
+•	*c. Antibiotics
+•	d. Vitamins
+Question 15
+Which heterofunctional compound is commonly used as an antibiotic?
+•	a. Water
+•	b. Methane
+•	c. Sodium chloride
+•	*d. Amoxicillin
+Question 16
+Which heterofunctional compound is involved in anti-inflammatory action?
+•	a. Caffeine
+•	*b. Aspirin
+•	c. Sodium chloride
+•	d. Chlorine
+Question 17
+Which heterofunctional compound is known for its role in treating hypertension?
+•	a. Glucose
+•	b. Chlorophyll
+•	c. Sodium chloride
+•	*d. ACE inhibitors
+Question 18
+Which heterofunctional compound is used in the treatment of bacterial infections?
+•	a. Caffeine
+•	b. Insulin
+•	c. Glucose
+•	*d. Penicillin
+Question 19
+Which of the following is a heterofunctional compound used to treat pain?
+•	*a. Ibuprofen
+•	b. Glucose
+•	c. Water
+•	d. Sodium chloride
+Question 20
+Which of the following is an example of a heterofunctional compound used as a medicinal agent?
+•	*a. Penicillin
+•	b. Glucose
+•	c. Water
+•	d. Sodium chloride
+
+
+
+*Topic 14: Medical Chemistry
+Question 1
+How do aromatic heterofunctional compounds act as antioxidants?
+•	*a. By neutralizing free radicals
+•	b. By damaging cellular structures
+•	c. By promoting oxidation
+•	d. By increasing free radicals
+Question 2
+How do aromatic heterofunctional compounds act in the body?
+•	a. By remaining inert
+•	b. By forming structural components only
+•	c. By acting as energy storage molecules
+•	*d. By binding to specific enzymes and receptors
+Question 3
+How do aromatic heterofunctional compounds contribute to cancer treatment?
+•	a. By increasing tumor growth
+•	*b. By targeting specific tumor cells
+•	c. By promoting metastasis
+•	d. By inhibiting blood circulation
+Question 4
+What is an aromatic heterofunctional compound?
+•	*a. A compound containing an aromatic ring and multiple functional groups
+•	b. A compound containing only an aromatic ring
+•	c. A compound containing no functional groups
+•	d. A compound containing only one functional group
+Question 5
+What is the key feature of aromatic heterofunctional compounds in drug design?
+•	*a. Their ability to interact with multiple biological targets
+•	b. Their exclusivity to non-biological systems
+•	c. Their disability to dissolve in water
+•	d. Their lack of reactivity
+Question 6
+What is the main use of aromatic heterofunctional compounds in antibiotics?
+•	*a. They inhibit bacterial growth
+•	b. They act as nutrient sources
+•	c. They are used as solvents
+•	d. They promote bacterial growth
+Question 7
+What is the medical use of aromatic heterofunctional compounds like sulfonamides?
+•	a. As flavor enhancers
+•	*b. As antibacterial agents
+•	c. As emulsifiers
+•	d. As sweetening agents
+Question 8
+What is the role of aromatic heterofunctional compounds in anti-inflammatory medications?
+•	a. They enhance bacterial growth
+•	b. They promote inflammation
+•	c. They suppress the immune system entirely
+•	*d. They inhibit inflammatory pathways
+Question 9
+What is the role of aromatic heterofunctional compounds in neurotransmission?
+•	*a. They regulate the synthesis and release of neurotransmitters
+•	b. They block neurotransmitter production
+•	c. They degrade synaptic connections
+•	d. They inhibit neural activity
+Question 10
+What role does phenol, an aromatic heterofunctional compound, play in medicine?
+•	*a. It is used as an antiseptic
+•	b. It is used as a fertilizer
+•	c. It is used as an inert filler
+•	d. It is used as a flavoring agent
+Question 11
+Which aromatic heterofunctional compound is a common anesthetic?
+•	a. Methane
+•	*b. Lidocaine
+•	c. Glucose
+•	d. Sodium chloride
+Question 12
+Which aromatic heterofunctional compound is used as an analgesic?
+•	a. Benzene
+•	b. Methanol
+•	*c. Aspirin
+•	d. Sodium bicarbonate
+Question 13
+Which aromatic heterofunctional compound is used as an anticoagulant?
+•	a. Water
+•	*b. Warfarin
+•	c. Methane
+•	d. Sodium bicarbonate
+Question 14
+Which aromatic heterofunctional compound is used as an antipyretic?
+•	a. Benzene
+•	b. Methanol
+•	c. Sodium bicarbonate
+•	*d. Paracetamol
+Question 15
+Which aromatic heterofunctional compound is used in the treatment of fungal infections?
+•	a. Water
+•	b. Glucose
+•	*c. Ketoconazole
+•	d. Methane
+Question 16
+Which functional groups are commonly present in aromatic heterofunctional compounds?
+•	a. Halides only
+•	b. Hydrocarbons only
+•	*c. Hydroxyl, amine, and carboxyl groups
+•	d. Alkyl chains only
+Question 17
+Which of the following aromatic heterofunctional compounds is used as a vasodilator?
+•	a. Methane
+•	b. Sodium chloride
+•	c. Glucose
+•	*d. Nitroglycerin
+Question 18
+Which of the following is an example of an aromatic heterofunctional compound?
+•	*a. Paracetamol
+•	b. Methane
+•	c. Sodium chloride
+•	d. Glucose
+Question 19
+Why are aromatic heterofunctional compounds like antihistamines used in medicine?
+•	a. To induce sleep exclusively
+•	b. To inhibit blood clotting
+•	*c. To alleviate allergic reactions
+•	d. To cause inflammation
+Question 20
+Why are aromatic heterofunctional compounds significant in medicine?
+•	a. They act as inert substances
+•	b. They are used only as preservatives
+•	c. They are primarily used as flavoring agents
+•	*d. They serve as active pharmaceutical ingredients

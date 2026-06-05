@@ -1,0 +1,35 @@
+Situational Task Topic 12
+Question  1 
+What is the formula for the karyotype of a patient with Cry of the Cat syndrome:
+**\*a. 46, XY , 5p -**
+b. 46, XY , 9p+
+c. 47, XXY
+d. 45, X 0
+
+Question  2 
+What is the formula for the karyotype of a patient with Down syndrome:
+a. 47, XY , 22+
+b. 46, XX , 5p-
+c. 47, XY , 13+
+**\*d. 47, XY , 21+**
+
+Question  3 
+What is the formula for the karyotype of a patient with Edwards syndrome:
+a. 47, XY , 21+
+b. 47, XY , 13+
+c. 46, XX , 5p-
+**\*3d. 47, XY , 18+**
+
+Question  4 
+Define diseases inherited in an autosomal recessive manner?
+a. Neurofibromatosis
+b. Muscular dystrophy (Duchenne syndrome)
+c. Huntington's chorea
+**\*d. Alcoptonuria**
+
+Question  5 
+Humans experience diseases that are determined by genes that are characterized by the property of incomplete dominance. Name this disease:
+a. Hemophilia
+b. Phenylketonuria
+**\*c. Cystinuria**
+d. Albinism

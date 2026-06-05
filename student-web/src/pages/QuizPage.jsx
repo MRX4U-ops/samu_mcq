@@ -55,6 +55,42 @@ export default function QuizPage() {
     // 1. Try local MCQ_REPOSITORY
     let localData = null;
 
+    // CHECK IF MASTER TOPIC
+    const isMaster = topicId && typeof topicId === 'string' && topicId.startsWith('master-');
+    if (isMaster) {
+      const sId = topicId.replace('master-', '');
+      let pool = [];
+      if (MCQ_REPOSITORY[sId]) {
+        Object.keys(MCQ_REPOSITORY[sId]).forEach(tKey => {
+          const tData = MCQ_REPOSITORY[sId][tKey];
+          if (Array.isArray(tData)) {
+            pool = [...pool, ...tData];
+          } else if (tData && typeof tData === 'object') {
+            if (Array.isArray(tData.test)) pool = [...pool, ...tData.test];
+            if (Array.isArray(tData.situational)) pool = [...pool, ...tData.situational];
+          }
+        });
+      }
+
+      if (pool.length > 0) {
+        // Shuffle and limit to 50
+        const shuffledPool = shuffle(pool).slice(0, 50);
+        const mapped = shuffledPool.map((q, idx) => {
+          const correctValue = q.options[q.correctIndex !== undefined ? q.correctIndex : 0];
+          const shuffledOpts = shuffle([...q.options]);
+          return {
+            _id: `master-${idx}`,
+            question: q.question,
+            options: shuffledOpts,
+            correctIndex: shuffledOpts.indexOf(correctValue),
+          };
+        });
+        setQuestions(mapped);
+        setLoading(false);
+        return;
+      }
+    }
+
     if (subjectId && MCQ_REPOSITORY[subjectId]) {
       // Try with topicId key
       localData = MCQ_REPOSITORY[subjectId][topicId];
@@ -79,8 +115,8 @@ export default function QuizPage() {
 
       if (rawQuestions.length > 0) {
         const mapped = rawQuestions.map((q, idx) => {
-          const correctValue = q.options[0];
-          const shuffled = shuffle(q.options);
+          const correctValue = q.options[q.correctIndex !== undefined ? q.correctIndex : 0];
+          const shuffled = shuffle([...q.options]);
           return {
             _id: `local-${idx}`,
             question: q.question,

@@ -1,0 +1,906 @@
+Situational Task Topic 1
+1. The optical part of the microscope includes:
+a. Mirror
+*b. Eyepiece
+c. Condenser
+d. Diaphragm
+2. The mechanical part of the microscope includes:
+a. Eyepiece
+b. Mirror
+*c. Macro screw
+d. Diaphragm
+3. What is the total magnification of a microscope that has an x7 eyepiece and an x90 objective?
+a. x56
+*b. x630
+c. x33
+d. x47
+4. Name the low power lens:
+a. x 15
+b. x 90
+*c. x 8
+d. x 40
+5. The lighting part of the microscope includes:
+*a. Mirror
+b. Microscrew
+c. Tube
+d. Eyepiece
+6. What is the function of the micrometer screw of a light microscope?
+a. Increased illumination of the field of view
+*b. Accurate focusing of the object image
+c. Reducing illumination of the field of view
+d. Adjusting the condenser position
+
+
+Situational Task Topic 2
+1. Ribosomes are formed:
+a. Proteins and tRNA
+b. Proteins and mRNA
+*c. Proteins and rRNA
+d. Proteins and m-RNA
+2. The "power energy stations" of the cell are:
+a. Golgi complex
+*b. Mitochondria
+c. Ribosomes
+d. Core
+3. Functions of the nucleolus:
+a. Synthesis of fats, carbohydrates and proteins
+b. Protein synthesis
+*c. Synthesis of ribosomes and RNA particles
+d. Synthesis of some steroid hormones
+4. Trophic inclusions include:
+a. Melanin
+*b. Nutrient reserves
+c. Hemoglobin
+d. Insulin
+5. The following stage of energy metabolism occurs in mitochondria:
+a. Preparatory
+b. Preparatory and oxygen
+c. Oxygen-free
+*d. Oxygen
+6. Specify semi-autonomous cell organelles:
+a. Mitochondria and Golgi apparatus
+*b. Mitochondria and plastids
+c. Mitochondria and vacuoles
+d. Mitochondria and lysosomes
+
+
+Situational Task Topic 3
+Question 1. Metabolism and energy is one of the basic properties of life. What is the name of the totality of all decomposition reactions of substances that occur with the release of energy?
+a. Plastic exchange
+b. Assimilation
+c. Anabolism
+*d. Dissimilation
+Question 2. Metabolism and energy is one of the basic properties of life. What is the name of the totality of all reactions of biosynthesis of substances that occur with the absorption of energy?
+a. Catabolism
+*b. Assimilation
+c. Energy metabolism
+d. Dissimilation
+Question 3. How many ATP molecules are formed at the second stage of energy metabolism:
+a. 42
+b. 38
+c. 40
+*d. 36
+Question 4. What is an example of dissimilation?
+a. DNA replication
+b. Photosynthesis
+*c. Glycolysis
+d. Protein biosynthesis
+Question 5. The supramembrane of animal cell complexes includes:
+a. Cellulose
+b. Chitin
+*c. Glyocalyx
+d. Murein
+
+
+Situational Task Topic 4
+Question 1. Which genotype can be accurately determined by phenotype without special research?
+*a. Recessive homozygote genotype (aa)
+b. Genotype of any individual
+c. Heterozygote genotype (Aa)
+d. Genotype of dominant homozygote (AA)
+Question 2. What is the name of the allele that is phenotypically manifested in the heterozygous state?
+*a. Dominant
+b. Recessive
+c. Homozygote recessive
+d. Heterozygous
+Question 3. The set of genes in a population, which is characterized by a certain frequency, is:
+*a. Gene pool
+b. Genome
+c. Gene
+d. Genotype
+Question 4. An example of complementarity is:
+*a. Inheritance of deafness
+b. Inheritance of phenylketonuria
+c. Inheritance of polydactyly
+d. Inheritance of blood groups
+Question 5. A cross in which the parent organisms differ in four pairs of characters is:
+a. Dihybrid
+*b. Tetrahybrid
+c. Polyhybrid
+d. Trihybrid
+
+
+
+Situational Task Topic 5
+
+Q1. Specify the characteristics characteristic of the X-linked recessive type of inheritance:
+ *a. A mother who carries the gene passes the trait on to half of her sons
+  b. Affected men pass on the recessive allele of the gene to 50% of their sons
+  c. Occurs predominantly in women
+  d. Both men and women get sick equally
+
+Q2. What type of inheritance does hemophilia have?
+  a. Autosomal recessive mode of inheritance
+  b. X-linked dominant inheritance
+* c. X-linked recessive inheritance
+  d. Y-chained inheritance
+
+Q3. What type of inheritance does color blindness have?
+  a. Autosomal recessive mode of inheritance
+  b. X-linked dominant mode of inheritance
+* c. X-linked recessive inheritance
+  d. Y-chained inheritance
+
+Q4. What patterns are characteristic of a pedigree with an X-linked recessive type of inheritance?
+  *a. All answers are correct
+  b. A female carrier transmits the disease to half of her sons, none of the daughters will be affected, but half of the daughters are carriers of the hereditary gene
+  c. The trait is always transmitted through a heterozygous mother, who is phenotypically healthy
+  d. A sick father never passes the disease on to his sons
+
+Q5. For the X-linked dominant type of inheritance, it is characteristic that the trait manifests itself:
+  a. Only for women
+  b. Not in all generations
+* c. The father passes the trait on to all his daughters
+  d. Along the pedigree
+
+Q6. For the Y-linked type of inheritance, it is characteristic that the trait manifests itself:
+  a. Not in all generations
+  b. Along the pedigree
+  c. Vertical pedigree
+* d. The father passes the trait on to all his sons
+
+
+
+Situational Task Topic 6
+Q1. In the presynthetic period of the mitotic cycle:
+  a. DNA replication occurs
+  b. The nuclear envelope is destroyed
+* c. Enzymes are synthesized that ensure replication
+  d. Nothing is synthesized
+
+Q2. During the synthetic period of the mitotic cycle:
+  a. The cell does not synthesize anything
+* b. DNA replication occurs
+  c. Broadcast in progress
+  d. DNA repair occurs
+
+Q3. The regions of chromosomes to which the spindle strands are attached are called:
+  a. Satellites
+  b. Secondary chromosome constrictions
+  c. Shoulders of chromosomes
+* d. Kinetochores
+
+Q4. Pachynema is a stage of prophase I of meiosis, during which:
+* a. Chromosomes are connected into bivalents and look like thick threads (crossing over occurs here)
+  b. Homologous chromosomes that were connected into bivalents begin to repel each other
+  c. Homologous chromosomes are connected in pairs to each other (conjugation occurs here)
+  d. The nuclear envelope is synthesized
+
+Q5. The preparation shows a section of the seminiferous tubule, which contains spermatids. What stage of spermatogenesis is visible in the section?
+  a. Ovulation
+  b. Formations
+  c. Maturation
+ * d. Growth
+
+Situational Task Topic 7
+Q1. The ability of one gene to control several traits (multiple gene action) is:
+  a. Incomplete dominance
+  b. Codominance
+* c. Pleiotropy
+  d. Complete Domination
+
+Q2. The object of genetic research by G. Mendel was the plant:
+* a. Peas
+  b. Wheat spinous
+  c. Potato
+  d. Corn
+
+Q3. In what type of interaction of allelic genes do lethal genes lead to the death of individuals in the homozygous state?
+  a. Incomplete dominance
+  b. Complete Domination
+  c. Codominance
+* d. Overdominance
+
+Q4. With incomplete dominance:
+  a. The genotypes of heterozygotes do not differ from homozygotes with a dominant gene
+* b. Heterozygotes are phenotypically different from homozygotes with a dominant gene
+  c. In homozygotes with a dominant gene, the trait is less pronounced than in heterozygotes
+  d. In homozygotes with a dominant gene, the trait is expressed in the same way as in heterozygotes
+
+Q5. A hemizygous organism is an organism in which:
+* a. The gene is represented not by two, but by one allele, and this allele is always phenotypically manifested, even in a recessive state
+  b. The gene is represented by a recessive allele
+  c. The gene is represented by dominant and recessive alleles
+  d. The gene is represented by a dominant allele
+
+Q6. Genes that suppress other genes are called:
+  a. Hypostatic
+* b. Inhibitors
+  c. Repressors
+  d. Corepressors
+
+
+Situational Task Topic 8
+Question1 
+What is crossing over?
+a. The process of divergence of homologous chromosomes
+b. Stage of pairwise joining of homologous chromosomes
+**\*c. The process of exchange of identical sections of homologous chromosomes**
+d. The process of exchanging sections of non-homologous chromosomes
+
+Question2 
+What is modification variability?
+a. Type of variability predetermined by changes in the number of chromosomes
+b. Type of variability predetermined by the appearance of a new combination of genes in the genotype
+**\*c. Type of variability predetermined by the action of environmental factors on the phenotype of an organism**
+d. Type of variability predetermined by changes in gene structure
+
+Question3 
+What is a gene mutation?
+a. Changing the structure of any chromosome
+**\*b. Change in the structure of the DNA molecule within a gene**
+c. Change in the number of sex chromosomes in the karyotype
+d. Change in the total number of chromosomes in the karyotype
+
+Question4 
+What is combinative variability?
+**\*a. Type of variability predetermined by the appearance of a new combination of genes in the genotype**
+b. Type of variability predetermined by changes in chromosome structure
+c. Type of variability predetermined by the action of environmental factors on the phenotype of an organism
+d. Type of variability predetermined by changes in gene structure
+
+Question5 
+What underlies the occurrence of different types of chromosomal aberrations?
+a. Chromosome conjugation
+b. Chromosome segregation in anaphase of meiosis
+**\*c. Chromosome breakage**
+d. Chromosome segregation in anaphase of mitosis
+
+
+Situational Task Topic 9
+Question  1 
+The essence ... is to establish family ties, trace signs or diseases among close and distant, direct and indirect relatives:
+a. Cytogenetic method
+b. Biochemical method
+**\*c. Genealogical method**
+d. Method of dermatoglyphics and palmoscopy
+
+Question  2 
+The parents of a newborn who is suspected of having Down syndrome sought medical genetic consultation. Which genetic method should be used to establish a diagnosis?
+a. Biochemical
+b. Genealogical
+**\*c. Cytogenetic**
+d. Twin
+
+Question  3 
+One Barr body was found in the cell, indicate its karyotype:
+a. 47, XXX, 21+
+b. 47, XUU
+c. 46, XY, 5p-
+**\*d. 47, XX, XXY**
+
+Question  4 
+The amniotic fluid, in which the embryo develops, is immersed, contains proteins, carbohydrates, mineral salts, hormones, urea, as well as desquamated fetal cells. What genetic method is used to determine the sex of the unborn child during the study of amniotic fluid content?
+a. Genealogical
+b. Biochemical
+**\*c. Cytogenetic**
+d. Twin
+
+Question  5 
+To diagnose gene diseases use:
+a. Twin method
+**\*b. Molecular genetic**
+c. Hybridological method
+d. Population-statistical
+
+Question  6 
+To determine gender, the following is used:
+a. Biochemical method
+b. Somatic cell genetics method
+**\*c. Determination of sex chromatin**
+d. Genealogical method
+
+
+Situational Task Topic 10
+Question 1 
+The angle atd in the palm of the hand in Down syndrome represents:
+a. 108°
+b. 75°
+c. 57°
+**\*d. 81°**
+
+Question 2 
+Cells found in amniotic fluid do not contain X chromatin due to:
+**\*a. X chromosome monosomy**
+b. Trisomy X chromosome
+c. Trisomy of chromosome 18
+d. Trisomy of chromosome 21
+
+Question 3 
+Small populations, the number of which does not exceed 1500-4000 individuals, are called:
+a. Open populations
+b. Isolates
+**\*c. Demami**
+d. Ideal populations
+
+Question 4 
+The angle atd in the palm of the hand in Patau syndrome is:
+**\*a. 108°**
+b. 120°
+c. 80°
+d. 75°
+
+Question 5 
+Human populations, the number of which does not exceed 1500 individuals, and consanguineous marriages account for more than 90%, are called:
+a. Closed populations
+**\*b. Isolates**
+c. Demami
+d. Ideal populations
+
+Question 6 
+The phenomenon of arbitrary marriages in a large population of people is called:
+**\*a. Panmixia**
+b. Inbreeding
+c. Hybridization
+d. Outbreeding
+
+
+Situational Task Topic 11
+Question  1 
+Enzymopathies belong to metabolic diseases caused by enzyme defects. Disorders of amino acid metabolism include:
+a. Hemophilia
+b. Cystic fibrosis
+c. Vitamin D -resistant rickets
+**\*d. Albinism**
+
+Question  2 
+Phenotypically healthy parents gave birth to a child with alkaptonuria (an autosomal recessive type of inheritance). What are the genotypes of women and men?
+a. AA and AA
+b. AA and Aa
+**\*c. Aa and Aa**
+d. Aa and aa
+
+Question  3 
+The autosomal dominant type of inheritance of the disease is characterized by the following situation:
+a. The disease is transmitted horizontally through the family tree
+b. The disease occurs only in males of the family
+c. The disease occurs only in women of the family
+**\*d. The disease is transmitted from parents to children in every generation**
+
+Question  4 
+Mother and father are phenotypically healthy. They had a sick child, in whose urine and blood phenylpyruvic acid was found. Based on this, phenylketonuria was diagnosed. What is the type of inheritance of this disease?
+a. Autosomal dominant
+b. Linked to the Y chromosome
+c. Recessive, linked to the X chromosome
+**\*d. Autosomal recessive**
+
+Question  5 
+An 18-year-old girl consulted a doctor with complaints of lack of menstruation. The examination revealed the following signs: height 140 cm, short neck with characteristic folds of skin ("sphinx neck"), broad shoulders, narrow pelvis, absence of secondary sexual characteristics, underdevelopment of the ovaries. What preliminary diagnosis can be made?
+**\*a. Shereshevsky-Turner syndrome**
+b. Patau syndrome
+c. Morris syndrome
+d. Klinefelter syndrome
+
+Question  6 
+Which gene disease is characterized by premature aging of the body that occurs at the age of 6-7 years and leads to the death of patients from cardiovascular diseases before the age of 10?
+a. Phenylketonuria
+b. Tay-Sachs disease
+**\*c. Progeria**
+d. Galactosemia
+
+Question  7 
+Achondroplasia (hereditary dwarfism) is inherited as a dominant autosomal trait. What is the probability of having healthy children from healthy parents?
+**\*a. 100%**
+b. 0%
+c. 25%
+d. 50%
+
+Question  8 
+A sick child has a disorder of lipid metabolism, accompanied by an increase in the concentration of lipids in the blood serum and the deposition of these substances in nerve cells. There are dysfunctions of the higher nervous system. What hereditary disease should we think about in this case?
+a. Phenylketonuria
+**\*b. Tay-Sachs disease**
+c. Marfan syndrome
+d. Edwards syndrome
+
+
+Situational Task Topic 12
+Question  1 
+What is the formula for the karyotype of a patient with Cry of the Cat syndrome:
+**\*a. 46, XY , 5p -**
+b. 46, XY , 9p+
+c. 47, XXY
+d. 45, X 0
+
+Question  2 
+What is the formula for the karyotype of a patient with Down syndrome:
+a. 47, XY , 22+
+b. 46, XX , 5p-
+c. 47, XY , 13+
+**\*d. 47, XY , 21+**
+
+Question  3 
+What is the formula for the karyotype of a patient with Edwards syndrome:
+a. 47, XY , 21+
+b. 47, XY , 13+
+c. 46, XX , 5p-
+**\*3d. 47, XY , 18+**
+
+Question  4 
+Define diseases inherited in an autosomal recessive manner?
+a. Neurofibromatosis
+b. Muscular dystrophy (Duchenne syndrome)
+c. Huntington's chorea
+**\*d. Alcoptonuria**
+
+Question  5 
+Humans experience diseases that are determined by genes that are characterized by the property of incomplete dominance. Name this disease:
+a. Hemophilia
+b. Phenylketonuria
+**\*c. Cystinuria**
+d. Albinism
+
+
+Situational Task Topic 13
+Question  1 
+Which immature female germ cells have a diploid set of chromosomes?
+**\*a. Ovogonia**
+b. Spermatogonia
+c. Secondary polocyte
+d. Second order oocytes
+
+Question  2 
+Set of chromosomes and amount of DNA in first -order spermatocyte:
+a. 1 n 1 c
+**\*b. 2 n 4 c**
+c. 2 n 4 c
+d. 2 n 2 c
+
+Question  3 
+A cross-section of the seminiferous tubule shows the cells of the primary spermatocyte. At what stage of spermatogenesis are the cells?
+a. Maturation
+**\*b. Growth**
+c. Formations
+d. Reproduction
+
+Question  4 
+How many chromosomes and DNA does a primary spermatocyte contain?
+**\*a. 2 n 4 c**
+b. 1 n 2 c
+c. 4 n 4 c
+d. 2 n 2 c
+
+Question  5 
+As a result of the second meiotic division in a woman's body, the following are formed:
+a. Second order oocytes
+b. Ovogonia
+c. First order oocytes
+**\*d. Ovules**
+
+Situational Task Topic 14
+Question  1 
+The functions of the skeleton include:
+a. The emergence of synapses that provide communication between neurons
+**\*b. Depot of calcium and phosphorus salts**
+c. Fusion of the visceral skeleton with the neural
+d. Increase in mucosal area
+
+Question  2 
+The evolution of the nervous system occurred in the direction of:
+**\*a. Differentiation of neuron structure**
+b. Progressive development of the axial skull
+c. Increase in mucosal area
+d. Depot of calcium and phosphorus salts
+
+Question  3 
+The evolution of the digestive system went in the direction of:
+**\*a. Improvement of the alimentary canal by differentiation into sections**
+b. Support function for soft tissues of the body
+c. The emergence of synapses that provide communication between neurons
+d. Fusion of the visceral skeleton with the neural
+
+Question  4 
+The functions of the circulatory system include:
+a. Depot of calcium and phosphorus salts
+**\*b. Transport of substances to all organs**
+c. Neuron specialization
+d. Protecting the body from damage
+
+Question  5 
+Which animals first develop two circuits of blood circulation?
+a. Pisces
+**\*b. Amphibians**
+c. Reptiles
+d. Cyclostomes
+
+	Situational Task Topic 15	
+Question  1 
+In which human organ does Plasmodium falciparum parasitize?
+a. Small intestine
+b. Genitourinary tract
+**\*c. Blood**
+d. Colon
+
+Question  2 
+In which human organs is Entamoeba coli localized?
+a. Blood
+**\*b. Colon**
+c. Small intestine
+d. Genitourinary tract
+
+Question  3 
+In which human organ does Giardia parasitize?
+a. Blood
+**\*b. Duodenum**
+c. Oral cavity
+d. Cecum
+
+Question  4 
+Skin ulcers are typical for:
+a. Chagas' diseases
+**\*b. Cutaneous leishmaniasis**
+c. Visceral leishmaniasis
+d. Toxoplasmosis
+
+Question  5 
+Which human organ is parasitized by dermatotropic leishmania?
+a. Small intestine
+**\*b. Leather**
+c. Colon
+d. Oral cavity
+
+Situational Task Topic 16
+
+Question 1 
+Trichomonas vaginalis in the human body determines:
+a. Anemia
+b. Enlarged spleen and liver
+c. Depression and drowsiness
+**\*d. Inflammatory processes in the genital tract**
+
+Question 2 
+Balantidium coli is localized in the human body in:
+**\*a. Colon**
+b. Liver
+c. Heart
+d. Small intestine
+
+Question 3 
+Plasmodium vivax, Plasmodium malariae, Plasmodium falciparum, plasmodium ovale differ from each other:
+a. Presence of different definitive hosts
+**\*b. Morphologically**
+c. Presence of different intermediate hosts
+d. The presence of different carriers
+
+Question 4 
+In which human organ does Giardia parasitize?
+a. Cecum
+**\*b. Duodenum**
+c. Oral cavity
+d. Blood
+
+Question 5 
+In which human organs is the small vegetative form of dysentery amoeba localized?
+a. Blood
+b. Oral cavity
+**\*c. Colon lumen**
+d. Genitourinary tract
+
+Situational Task Topic 17
+Question 1 
+Which helminth has a rosette-shaped uterus?
+**\*a. Wide tapeworm**
+b. Tapeworm unarmed
+c. Cat fluke
+d. Solitaire is armed
+
+Question 2 
+In the human body, the complete life cycle goes through:
+a. Alveococcus multilocularis
+**\*b. Hymenolepis nana**
+c. Taeniarhynchus saginatus
+d. Echinococcus granulosus
+
+Question 3 
+They have two intermediate hosts:
+**\*a. Diphyllobothrium latum**
+b. Taeniarhynchus saginatus
+c. Fasciola hepatica
+d. Taenia solium
+
+Question 4 
+Alveococcus multilocularis is:
+a. Dioecious organism
+b. Autotroph
+**\*c. Hermaphrodite**
+d. Ectoparasite
+
+Question 5 
+What stage do the eggs of the common tapeworm turn into in water?
+a. Plerocercoid
+**\*b. Koracidi th**
+c. Cysticercus
+d. Procercoid
+
+Situational Task Topic 18
+Question  1 
+The first intermediate host of Dicrocoelium lanceatum is:
+a. Ants of the genus Formica
+b. Mollusk of the genus Melania
+**\*c. Mollusk of the genus Zebrina or Helicella**
+d. Small pond snail (Galba truncatula)
+
+Question  2 
+The intermediate host of the causative agent of taeniasis is:
+a. Cow
+**\*b. pig**
+c. Dog
+d. cat
+
+Question  3 
+The definitive host of the causative agent of taeniasis is:
+a. Pig
+**\*b. Human**
+c. Dog
+d. Cat
+
+Question  4 
+The invasive stage can enter the human body through the percutaneous route:
+**\*a. Schistosoma japonicum**
+b. Opisthorchis felineus
+c. Paragonimus ringeri
+d. Fasciola hepatica
+
+Question  5 
+Echinococcus strobila contains:
+a. 50-70 members
+b. 200 members
+c. 5-7 segments
+**\*d. 3-4 segments**
+
+Situational Task Topic 19
+Question 1 
+What are the names of diseases caused by flukes?
+a. Nematodes
+b. Cestodoses
+**\*c. Trematodes**
+d. Protozoa
+
+Question 2 
+Which of the following helminths parasitizes the human lungs?
+**\*a. Paragonimus ringeri**
+b. Taenia solium
+c. Diphyllobothrium latum
+d. Taeniarhynhus saginatus
+
+Question 3 
+Which helminth eggs can be detected in urine?
+a. Fasciola hepatica
+**\*b. Schistosoma haematobium**
+c. Paragonimus vestermani
+d. Opisthorchis felineus
+
+Question 4 
+Which of the following measures belongs to the prevention of paragonimiasis?
+**\*a. It is good to heat process freshwater crayfish and crabs**
+b. Do not drink water from open reservoirs
+c. Wash hands, vegetables, berries
+d. Cook fish well
+
+Question 5 
+What disease is caused by the larval stage of the armed tapeworm?
+**\*a. Cysticercosis**
+b. Diphyllobothriasis
+c. Taeniasis
+d. Teniarinhoz
+
+Question 6 
+Which helminth eggs can be detected in duodenal contents?
+a. Dwarf tapeworm
+b. Echinococcus
+c. Alveococcus
+**\*d. Cat fluke**
+
+Question 7 
+What sign do cestodes have?
+a. There is a primary body cavity
+**\*b. No digestive system**
+c. Round on the cross section
+d. Oral and ventral suckers
+
+Situational Task Topic 20
+Question  1 
+Ancylostoma duodenale belongs to the class:
+a. Trematoda
+b. Plathelminthes
+c. Cestoidea
+**\*d. Nematoda**
+
+Question  2 
+Ancylostoma duodenale is:
+**\*a. Dioecious organism**
+b. Ectoparasite
+c. Autotroph
+d. Hermaphrodite
+
+Question  3 
+Ascaris lumbricoides is:
+**\*a. Dioecious organism**
+b. Autotroph
+c. Hermaphrodite
+d. Ectoparasite
+
+Question  4 
+Ancylostoma duodenale is:
+a. Hermaphrodite
+**\*b. Geohelminth**
+c. Ectoparasite
+d. Biohelminth
+
+Question  5 
+"Elephantiasis" is a symptom of:
+a. Onchocerciasis
+b. Brugioze
+c. Loalose
+**\*d. Wuhereriosis**
+
+
+Situational Task Topic 21
+Question 1 
+Entamoeba histolytica forma minuta is:
+a. Erythrophage
+**\*b. Commensal**
+c. Parasite
+d. Pathogenic form
+
+Question 2 
+Which nematode is characterized by the birth of live larvae?
+a. Eel intestinalis
+b. Ascaris human
+c. Pinworm
+**\*d. Guinea worm**
+
+Question 3 
+Which human organs are parasitized by the large vegetative form of dysenteric amoeba?
+a. Colon lumen
+b. Genitourinary tract
+c. Small intestinal wall
+**\*d. Colon wall**
+
+Question 4 
+Balantidium coli is localized in the human body in:
+a. Liver
+b. Small intestine
+**\*c. Colon**
+d. Heart
+
+Question 5 
+Which human organ is parasitized by dermatotropic leishmania?
+a. Colon
+b. Small intestine
+**\*c. Leather**
+d. Oral cavity
+
+Question 6 
+Enterobius vermicularis is localized in humans in:
+a. Upper small intestine
+**\*b. Upper colon**
+c. Liver
+d. Lower colon
+
+Question 7 
+In which human organs is the small vegetative form of dysentery amoeba localized?
+a. Oral cavity
+b. Blood
+c. Genitourinary tract
+**\*d. Colon lumen**
+
+Question 8 
+Plasmodium vivax, Plasmodium malariae, Plasmodium falciparum, plasmodium ovale differ from each other:
+**\*a. Morphologically**
+b. The presence of different carriers
+c. Presence of different definitive hosts
+d. Presence of different intermediate hosts
+
+Question 9 
+In which human organ does Plasmodium falciparum parasitize?
+a. Small intestine
+b. Genitourinary tract
+**\*c. Blood**
+d. Colon
+
+
+Situational Task Topic 22
+Question  1
+Where does the Wohlfarth fly lay its larvae?
+a. On intact skin
+b. Sticks to hair
+c. On animal corpses
+**\*d. In the eyes, nose, skin wounds**
+
+Question  2
+The larvae of most types of gadflies are:
+**\*a. Endoparasites**
+b. Producers
+c. Ectoparasites
+d. Commensal
+
+Question  3
+The scabies mite does not have:
+a. Gnawing type mouthparts
+b. Stubble on the body
+**\*c. Eyes**
+d. Chelicerae
+
+Question  4
+The larvae of subcutaneous gadflies complete their development:
+**\*a. Under the owner's skin**
+b. In the sebaceous glands
+c. In the abdominal cavity
+d. In the hair follicle
+
+Question  5
+An insect that parasitizes humans only at the larval stage:
+a. Mosquito
+**\*b. Wohlfart fly**
+c. woodlouse
+d. Housefly
+
+Situational Task Topic 23
+Question  1 
+What insects carry the causative agent of visceral leishmaniasis?
+a. Lice
+b. Woodlice
+c. flies
+**\*d. M oscytes**
+
+Question  2 
+During a medical examination, some patients had 2-3 mm gray insects on their heads. With deep cutouts on the sides of the body. What are these ectoparasites?
+a. Xenopsylla cheopis
+b. Phthirus pubis
+**\*c. Pediculus humanus capitis**
+d. Cimex lectularius
+
+Question  3 
+The patient was diagnosed with African sleeping sickness. What insect, biting a patient, could transmit to him the causative agent of this disease?
+a. Mosquito
+b. Wohlfart fly
+**\*c. Fly Tsetse**
+d. Housefly
+
+Question  4 
+Name the specific vector of leishmaniasis:
+**\*a. Phlebotomus papatasii**
+b. Stomoxys calcitrans
+c. Wohlfahrtia magnifica
+d. Musca domestica
+
+Question  5 			
+During a medical examination, insects measuring 1-1.5 mm in size, with a wide body, were identified under the patient's armpits, on the pubic eminence and eyelids. Name these ectoparasites:
+**\*a. Phthirus pubis**
+b. Pediculus humanus capitis
+c. Xenopsylla cheopis
+d. Cimex lectularius
+Plaintext
+Question  6
+Specify the disease that is caused by the larvae of dipteran insects:
+a. M alaria
+b. African sleeping sickness
+**\*c. Miaz**
+d. Leishmaniasis
+
+Question  7
+Which insect carries the causative agent of Chagas disease ?
+a. Tsetse fly
+b. Village tick
+**\*c. kissing bug**
+d. Mosquito

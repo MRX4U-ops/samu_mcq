@@ -146,13 +146,26 @@ const ResultScreen = ({ route, navigation }) => {
              )}
 
              <View style={styles.secondaryRow}>
-                <TouchableOpacity 
-                  style={[styles.secondaryAction, { backgroundColor: colors.surface }]}
-                  onPress={() => navigation.goBack()}
-                >
-                   <RotateCcw size={20} color="#6366F1" />
-                   <Text style={[styles.secondaryActionText, { color: colors.text }]}>Try Again</Text>
-                </TouchableOpacity>
+                 <TouchableOpacity 
+                   style={[styles.secondaryAction, { backgroundColor: colors.surface }]}
+                   onPress={() => {
+                     if (resultData.topicId) {
+                       navigation.replace('MCQ', {
+                         topicId: resultData.topicId,
+                         title: resultData.topicName,
+                         taskType: resultData.taskType,
+                         subjectId: resultData.subjectId,
+                         subjectTitle: resultData.subjectTitle,
+                         courseTitle: resultData.courseTitle
+                       });
+                     } else {
+                       navigation.goBack();
+                     }
+                   }}
+                 >
+                    <RotateCcw size={20} color="#6366F1" />
+                    <Text style={[styles.secondaryActionText, { color: colors.text }]}>Try Again</Text>
+                 </TouchableOpacity>
 
                 <TouchableOpacity 
                   style={[styles.secondaryAction, { backgroundColor: colors.surface }]}

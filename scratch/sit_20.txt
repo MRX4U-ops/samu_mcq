@@ -1,0 +1,31 @@
+t.s./mavzu 20 v
+
+"Elephantiasis" is a symptom of:
+Wuhereriosis
+Onchocerciasis
+Brugiose
+Loalose
+
+Ancylostoma duodenale is:
+Geohelminth
+Biohelminth
+Ectoparasite
+Hermaphrodite
+
+Ancylostoma duodenale is:
+Dioecious organism
+Hermaphrodite
+Ectoparasite
+Autotroph
+
+Ancylostoma duodenale belongs to the class:
+Nematoda
+Trematoda
+Cestoidea
+Plathelminthes
+
+Ascaris lumbricoides is:
+Dioecious organism
+Hermaphrodite
+Ectoparasite
+Autotroph
