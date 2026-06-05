@@ -733,8 +733,8 @@ export const s_1_8 = {
       {
         "question": "Crossing over occurs during:",
         "options": [
+          "**\\** b. Pachynema**",
           "a. Diplonemes",
-          "* b. Pachynema",
           "c. Zygonema",
           "d. Diakinesis"
         ]
@@ -5242,10 +5242,10 @@ export const s_1_8 = {
       {
         "question": "Name the causative agent of epidemic typhus:",
         "options": [
+          "**\\***\\*d. Obermeyer's spirochetes****",
           "a. Village tick",
           "b. Clothes louse",
-          "c. Rickettsia Provacek",
-          "**\\*d. Obermeyer's spirochetes**"
+          "c. Rickettsia Provacek"
         ]
       },
       {
@@ -5350,10 +5350,10 @@ export const s_1_8 = {
       {
         "question": "Name the causative agent of epidemic typhus:",
         "options": [
+          "**\\***\\*d. Obermeyer's spirochetes****",
           "a. Village tick",
           "b. Clothes louse",
-          "c. Rickettsia Provacek",
-          "**\\*d. Obermeyer's spirochetes**"
+          "c. Rickettsia Provacek"
         ]
       },
       {
@@ -6101,7 +6101,71 @@ export const s_1_8 = {
         ]
       }
     ],
-    "situational": []
+    "situational": [
+      {
+        "question": "First aid for poisoning with hymenoptera venom:",
+        "options": [
+          "**\\*d. Remove the sting, treat the sting site with disinfectants.**",
+          "a. Apply a warm, tight bandage to the sting site",
+          "b. Suck out the poison, treat the sting site with disinfectants.",
+          "c. Leave the sting, treat the sting site with disinfectants"
+        ]
+      },
+      {
+        "question": "The larval stage of Fasciola hepatica that is invasive to humans is called:",
+        "options": [
+          "**\\*b. Adoleskariem**",
+          "a. Redia",
+          "c. Cercaria",
+          "d. Miracidium"
+        ]
+      },
+      {
+        "question": "For personal prevention of taeniasis it is necessary:",
+        "options": [
+          "**\\*d. Heat treat pork before eating**",
+          "a. Wash your hands regularly before eating food",
+          "b. Wash vegetables and fruits thoroughly",
+          "c. Clean your home thoroughly"
+        ]
+      },
+      {
+        "question": "First aid for snake poisoning:",
+        "options": [
+          "**\\*d. Suck out the poison and treat the bite site with disinfectants.**",
+          "a. Apply a tight bandage to the bite site and transport in any position",
+          "b. Cauterize the bite site and place the victim in the shade.",
+          "c. Cauterize and treat the bite site with disinfectants"
+        ]
+      },
+      {
+        "question": "When poisoned by the venom of slate snakes, the following are observed:",
+        "options": [
+          "**\\*d. Excitation and then depression of the central nervous system, respiratory failure**",
+          "a. Excitation and then depression of the central nervous system, tissue necrosis",
+          "b. Inflammation of lymphatic vessels, tissue necrosis",
+          "c. Acute pain, tissue necrosis"
+        ]
+      },
+      {
+        "question": "Mature segments of the causative agent of the disease can actively crawl out of a person’s anus in the following cases:",
+        "options": [
+          "**\\*d. Teniarinhosa**",
+          "a. Hymenolepiasis",
+          "b. Echinococcosis",
+          "c. Alveococcosis"
+        ]
+      },
+      {
+        "question": "What helminthiasis pathogen can be contracted directly from a sick dog?",
+        "options": [
+          "**\\*c. Echinococcosis**",
+          "a. Diphyllobothriasis",
+          "b. Opisthorchiasis",
+          "d. Hymenolepiasis"
+        ]
+      }
+    ]
   },
   "t-s-1-8-17": {
     "test": [
