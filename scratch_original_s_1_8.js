@@ -1,4 +1,4 @@
-export const s_1_8 = {
+﻿export const s_1_8 = {
   "t-s-1-8-0": {
     "test": [
       {
@@ -377,7 +377,7 @@ export const s_1_8 = {
         ]
       },
       {
-        "question": "16. The cell contains single-membrane spherical organelles 0.2 - 1 μm in size, containing proteolytic enzymes. Their formation is associated with the Golgi apparatus. What are these organelles?",
+        "question": "16. The cell contains single-membrane spherical organelles 0.2 - 1 ╬╝m in size, containing proteolytic enzymes. Their formation is associated with the Golgi apparatus. What are these organelles?",
         "options": [
           "*b. Lysosome",
           "a. Mitochondria",
@@ -722,230 +722,194 @@ export const s_1_8 = {
   "t-s-1-8-3": {
     "test": [
       {
-        "question": "Find the features characteristic of mitosis:",
+        "question": "Question 1. A cross in which the parent organisms differ in many pairs of characters is:",
         "options": [
-          "*a. Daughter cells contain the exact same set of chromosomes as the mother - diploid",
-          "b. As a result of division in daughter cells, the set of chromosomes is not diploid but haploid",
-          "c. Maintains species constancy of the number of chromosomes during sexual reproduction",
-          "d. Between two cell divisions there is a short interphase, but DNA synthesis does not occur in it, which is why it is called interkinesis"
+          "*d. Polyhybrid",
+          "b. Monohybrid",
+          "c. Tetrahybrid",
+          "a. Dihybrid"
         ]
       },
       {
-        "question": "Crossing over occurs during:",
+        "question": "Question 2. A cross in which the parent organisms differ in one pair of characteristics is:",
         "options": [
-          "a. Diplonemes",
-          "* b. Pachynema",
-          "c. Zygonema",
-          "d. Diakinesis"
+          "*c. Monohybrid",
+          "b. Polyhybrid",
+          "a. Dihybrid",
+          "d. Trihybrid"
         ]
       },
       {
-        "question": "The haploid set of chromosomes contains:",
+        "question": "Question 3. The set of genes in a population, which is characterized by a certain frequency, is:",
         "options": [
-          "a. Any immature sex cell",
-          "b. Spermatogonia",
-          "* c. A mature germ cell that is formed as a result of the normal course of meiosis",
-          "d. Ovogonium"
+          "*b. Gene pool",
+          "a. Genome",
+          "c. Genotype",
+          "d. Gene"
         ]
       },
       {
-        "question": "Biological significance of mitosis:",
+        "question": "Question 4. A cross in which the parent organisms differ in four pairs of characters is:",
         "options": [
-          "a. From one mother cell two daughter cells are formed with a different set of chromosomes",
-          "b. From one mother cell two daughter cells with a triploid set of chromosomes are formed",
-          "* c. From one mother cell two daughter cells are formed, genetically identical to the mother one",
-          "d. From one mother cell two daughter cells with a haploid set of chromosomes are formed"
+          "*a. Tetrahybrid",
+          "b. Dihybrid",
+          "c. Trihybrid",
+          "d. Polyhybrid"
         ]
       },
       {
-        "question": "Meiosis is:",
+        "question": "Question 5. The totality of all external and internal signs of the body is:",
         "options": [
-          "a. Direct division of the cell nucleus",
-          "b. Indirect division of the cell nucleus, resulting in the formation of genetically identical cells",
-          "c. Cytokinesis",
-          "* d. Reductive division of the cell nucleus (reduction in the number of chromosomes) and the formation of cells with a haploid set of chromosomes"
+          "*d. Phenotype",
+          "b. Changeability",
+          "c. Heredity",
+          "a. Genotype"
         ]
       },
       {
-        "question": "The chromatids of the chromosomes separate and move to different poles of the cell in:",
+        "question": "Question 6. The totality of all the genes of an organism is:",
         "options": [
-          "a. Prophase of mitosis",
-          "* b. Anaphase of mitosis",
-          "c. Telophase of mitosis",
-          "d. Metaphase of mitosis"
+          "*b. Genotype",
+          "a. Changeability",
+          "c. Heredity",
+          "d. Inheritance"
         ]
       },
       {
-        "question": "Crossing over is:",
+        "question": "Question 7. What is the name of the allele that is phenotypically manifested in the heterozygous state?",
         "options": [
-          "a. The mechanism by which daughter cells receive the same genetic material from the mother",
-          "* b. Exchange of homologous regions of chromosomes",
-          "c. Exchange of non-homologous regions between different pairs of chromosomes",
-          "d. Fusion of germ cells"
+          "*b. Dominant",
+          "a. Heterozygous",
+          "c. Recessive",
+          "d. Homozygote recessive"
         ]
       },
       {
-        "question": "Chromosomes are best seen under a light microscope at:",
+        "question": "Question 8. Which genotype can be accurately determined by phenotype without special research?",
         "options": [
-          "a. Telophase of mitosis",
-          "b. Prophase of mitosis",
-          "* c. Metaphase of mitosis",
-          "d. Anaphase of mitosis"
+          "*a. Recessive homozygote genotype (aa)",
+          "b. Genotype of dominant homozygote (AA)",
+          "c. Heterozygote genotype (Aa)",
+          "d. Genotype of any individual"
         ]
       },
       {
-        "question": "Near the poles of the cell there is a haploid set of single-chromatid chromosomes in:",
+        "question": "Question 9. A cross in which the parent organisms differ in two pairs of characteristics is:",
         "options": [
-          "a. Metaphase of the second meiotic division",
-          "b. Metaphase of the first meiotic division",
-          "* c. Telophase of the second meiotic division",
-          "d. Prophase of the second meiotic division"
+          "*b. Dihybrid",
+          "a. Polyhybrid",
+          "c. Trihybrid",
+          "d. Monohybrid"
         ]
       },
       {
-        "question": "During cell division, the nuclear membrane dissolves into:",
+        "question": "Question 10. An example of codominance is:",
         "options": [
-          "* a. Prophase of mitosis",
-          "b. Anaphase of mitosis",
-          "c. Metaphase of mitosis",
-          "d. Telophase of mitosis"
+          "*c. Inheritance of blood groups (group IV)",
+          "b. Height inheritance",
+          "a. Inheritance of deafness",
+          "d. Inheritance of polydactyly"
         ]
       },
       {
-        "question": "Near the cell poles there is a haploid set of bichromatid chromosomes in:",
+        "question": "Question 11. Rhesus conflict occurs when:",
         "options": [
-          "a. Prophase of the first meiotic division",
-          "* b. Telophase of the first meiotic division",
-          "c. Telophase of the second meiotic division",
-          "d. Metaphase of the second meiotic division"
+          "*b. Mother is Rh - and child is Rh +",
+          "a. Mother is Rh +, and child is Rh +",
+          "c. The mother is Rh - and the child is Rh -",
+          "d. Mother is Rh + and child is Rh -"
         ]
       },
       {
-        "question": "Chromosome conjugation occurs in:",
+        "question": "Question 12. The set of genes of the haploid set of chromosomes is:",
         "options": [
-          "* a. Prophase of the first meiotic division",
-          "b. Anaphase of the second meiotic division",
-          "c. Anaphase of the first meiotic division",
-          "d. Metaphase of the second meiotic division"
+          "*d. Genome",
+          "b. Gene",
+          "c. Gene pool",
+          "a. Genotype"
         ]
       },
       {
-        "question": "During cell division, the nuclear membrane is formed in:",
+        "question": "Question 13. An example of phenocopy would be:",
         "options": [
-          "a. Metaphase of mitosis",
-          "b. Prophase of mitosis",
-          "c. Anaphase of mitosis",
-          "* d. Telophase of mitosis"
+          "*a. The birth of a deaf child with a normal genotype to a healthy woman who had rubella during pregnancy",
+          "b. Colorblindness in a child whose parents are colorblind",
+          "c. Albinism in a child whose mother is an albino and whose father has normal skin pigmentation",
+          "d. Hypertension in an adult man who has healthy parents"
         ]
       },
       {
-        "question": "The exchange of homologous regions of chromosomes is:",
+        "question": "Question 14. An example of complementarity is:",
         "options": [
-          "* a. Crossing over",
-          "b. Replication",
-          "c. Bivalent",
-          "d. Conjugation"
+          "*d. Inheritance of deafness",
+          "b. Inheritance of blood groups",
+          "c. Inheritance of phenylketonuria",
+          "a. Inheritance of polydactyly"
         ]
       },
       {
-        "question": "At what stage of meiosis, prophase I, does crossing over occur?",
+        "question": "Question 15. Mendel's third law reveals patterns:",
         "options": [
-          "* a. Pachinema",
-          "b. Leptonema",
-          "c. Zygonema",
-          "d. Diplonema"
+          "*d. Independent combination of features",
+          "b. Analyzing crossing",
+          "c. Sex-linked inheritance",
+          "a. Intermediate inheritance"
         ]
       },
       {
-        "question": "Chromosomes line up along the equatorial plane of the cell during:",
+        "question": "Question 16. What is the name of the allele that is not phenotypically manifested in the heterozygous state?",
         "options": [
-          "a. Prophase of mitosis",
-          "* b. Metaphase of mitosis",
-          "c. Anaphase of mitosis",
-          "d. Telophase of mitosis"
-        ]
-      },
-      {
-        "question": "Chromosome spiralization begins in:",
-        "options": [
-          "a. Anaphase of mitosis",
-          "* b. Prophase of mitosis",
-          "c. Telophase of mitosis",
-          "d. Metaphase of mitosis"
-        ]
-      },
-      {
-        "question": "Meiosis precedes the formation of:",
-        "options": [
-          "a. Corneal cells of the eye",
-          "b. Red blood cells",
-          "* c. Mature germ cells",
-          "d. Nerve cells"
-        ]
-      },
-      {
-        "question": "Biological significance of meiosis?",
-        "options": [
-          "a. From one mother cell two daughter cells with a tetraploid set of chromosomes are formed",
-          "b. From one mother cell, 4 daughter cells with a triploid set of chromosomes are formed",
-          "c. From one mother cell two daughter cells with a double set of chromosomes are formed",
-          "* d. From one mother cell, 4 daughter cells with a haploid set of chromosomes are formed"
-        ]
-      },
-      {
-        "question": "The very first phase of mitosis (karyokinesis) is:",
-        "options": [
-          "a. Telophase",
-          "b. Anaphase",
-          "* c. Prophase",
-          "d. Interphase"
+          "*c. Recessive",
+          "b. Heterozygous",
+          "a. Dominant",
+          "d. Homozygote dominant"
         ]
       }
     ],
     "situational": [
       {
-        "question": "In the presynthetic period of the mitotic cycle:",
+        "question": "Question 1. Which genotype can be accurately determined by phenotype without special research?",
         "options": [
-          "a. DNA replication occurs",
-          "b. The nuclear envelope is destroyed",
-          "* c. Enzymes are synthesized that ensure replication",
-          "d. Nothing is synthesized"
+          "*a. Recessive homozygote genotype (aa)",
+          "b. Genotype of any individual",
+          "c. Heterozygote genotype (Aa)",
+          "d. Genotype of dominant homozygote (AA)"
         ]
       },
       {
-        "question": "During the synthetic period of the mitotic cycle:",
+        "question": "Question 2. What is the name of the allele that is phenotypically manifested in the heterozygous state?",
         "options": [
-          "a. The cell does not synthesize anything",
-          "* b. DNA replication occurs",
-          "c. Broadcast in progress",
-          "d. DNA repair occurs"
+          "*a. Dominant",
+          "b. Recessive",
+          "c. Homozygote recessive",
+          "d. Heterozygous"
         ]
       },
       {
-        "question": "The regions of chromosomes to which the spindle strands are attached are called:",
+        "question": "Question 3. The set of genes in a population, which is characterized by a certain frequency, is:",
         "options": [
-          "a. Satellites",
-          "b. Secondary chromosome constrictions",
-          "c. Shoulders of chromosomes",
-          "* d. Kinetochores"
+          "*a. Gene pool",
+          "b. Genome",
+          "c. Gene",
+          "d. Genotype"
         ]
       },
       {
-        "question": "Pachynema is a stage of prophase I of meiosis, during which:",
+        "question": "Question 4. An example of complementarity is:",
         "options": [
-          "* a. Chromosomes are connected into bivalents and look like thick threads (crossing over occurs here)",
-          "b. Homologous chromosomes that were connected into bivalents begin to repel each other",
-          "c. Homologous chromosomes are connected in pairs to each other (conjugation occurs here)",
-          "d. The nuclear envelope is synthesized"
+          "*a. Inheritance of deafness",
+          "b. Inheritance of phenylketonuria",
+          "c. Inheritance of polydactyly",
+          "d. Inheritance of blood groups"
         ]
       },
       {
-        "question": "The preparation shows a section of the seminiferous tubule, which contains spermatids. What stage of spermatogenesis is visible in the section?",
+        "question": "Question 5. A cross in which the parent organisms differ in four pairs of characters is:",
         "options": [
-          "a. Ovulation",
-          "b. Formations",
-          "c. Maturation",
-          "* d. Growth"
+          "*b. Tetrahybrid",
+          "a. Dihybrid",
+          "c. Polyhybrid",
+          "d. Trihybrid"
         ]
       }
     ]
@@ -1193,194 +1157,230 @@ export const s_1_8 = {
   "t-s-1-8-5": {
     "test": [
       {
-        "question": "A cross in which the parent organisms differ in many pairs of characters is:",
+        "question": "Q1. Find the features characteristic of mitosis:",
         "options": [
-          "a. Dihybrid",
-          "b. Monohybrid",
-          "c. Tetrahybrid",
-          "*d. Polyhybrid"
+          "*a. Daughter cells contain the exact same set of chromosomes as the mother - diploid",
+          "b. As a result of division in daughter cells, the set of chromosomes is not diploid but haploid",
+          "c. Maintains species constancy of the number of chromosomes during sexual reproduction",
+          "d. Between two cell divisions there is a short interphase, but DNA synthesis does not occur in it, which is why it is called interkinesis"
         ]
       },
       {
-        "question": "A cross in which the parent organisms differ in one pair of characteristics is:",
+        "question": "Q2. Crossing over occurs during:",
         "options": [
-          "a. Dihybrid",
-          "b. Polyhybrid",
-          "*c. Monohybrid",
-          "d. Trihybrid"
+          "* b. Pachynema",
+          "a. Diplonemes",
+          "c. Zygonema",
+          "d. Diakinesis"
         ]
       },
       {
-        "question": "The set of genes in a population, which is characterized by a certain frequency, is:",
+        "question": "Q3. The haploid set of chromosomes contains:",
         "options": [
-          "a. Genome",
-          "*b. Gene pool",
-          "c. Genotype",
-          "d. Gene"
+          "* c. A mature germ cell that is formed as a result of the normal course of meiosis",
+          "b. Spermatogonia",
+          "a. Any immature sex cell",
+          "d. Ovogonium"
         ]
       },
       {
-        "question": "A cross in which the parent organisms differ in four pairs of characters is:",
+        "question": "Q4. Biological significance of mitosis:",
         "options": [
-          "*a. Tetrahybrid",
-          "b. Dihybrid",
-          "c. Trihybrid",
-          "d. Polyhybrid"
+          "* c. From one mother cell two daughter cells are formed, genetically identical to the mother one",
+          "b. From one mother cell two daughter cells with a triploid set of chromosomes are formed",
+          "a. From one mother cell two daughter cells are formed with a different set of chromosomes",
+          "d. From one mother cell two daughter cells with a haploid set of chromosomes are formed"
         ]
       },
       {
-        "question": "The totality of all external and internal signs of the body is:",
+        "question": "Q5. Meiosis is:",
         "options": [
-          "a. Genotype",
-          "b. Changeability",
-          "c. Heredity",
-          "*d. Phenotype"
+          "* d. Reductive division of the cell nucleus (reduction in the number of chromosomes) and the formation of cells with a haploid set of chromosomes",
+          "b. Indirect division of the cell nucleus, resulting in the formation of genetically identical cells",
+          "c. Cytokinesis",
+          "a. Direct division of the cell nucleus"
         ]
       },
       {
-        "question": "The totality of all the genes of an organism is:",
+        "question": "Q6. The chromatids of the chromosomes separate and move to different poles of the cell in:",
         "options": [
-          "a. Changeability",
-          "*b. Genotype",
-          "c. Heredity",
-          "d. Inheritance"
+          "* b. Anaphase of mitosis",
+          "a. Prophase of mitosis",
+          "c. Telophase of mitosis",
+          "d. Metaphase of mitosis"
         ]
       },
       {
-        "question": "What is the name of the allele that is phenotypically manifested in the heterozygous state?",
+        "question": "Q7. Crossing over is:",
         "options": [
-          "a. Heterozygous",
-          "*b. Dominant",
-          "c. Recessive",
-          "d. Homozygote recessive"
+          "* b. Exchange of homologous regions of chromosomes",
+          "a. The mechanism by which daughter cells receive the same genetic material from the mother",
+          "c. Exchange of non-homologous regions between different pairs of chromosomes",
+          "d. Fusion of germ cells"
         ]
       },
       {
-        "question": "Which genotype can be accurately determined by phenotype without special research?",
+        "question": "Q8. Chromosomes are best seen under a light microscope at:",
         "options": [
-          "*a. Recessive homozygote genotype (aa)",
-          "b. Genotype of dominant homozygote (AA)",
-          "c. Heterozygote genotype (Aa)",
-          "d. Genotype of any individual"
+          "* c. Metaphase of mitosis",
+          "b. Prophase of mitosis",
+          "a. Telophase of mitosis",
+          "d. Anaphase of mitosis"
         ]
       },
       {
-        "question": "A cross in which the parent organisms differ in two pairs of characteristics is:",
+        "question": "Q9. Near the poles of the cell there is a haploid set of single-chromatid chromosomes in:",
         "options": [
-          "a. Polyhybrid",
-          "*b. Dihybrid",
-          "c. Trihybrid",
-          "d. Monohybrid"
+          "* c. Telophase of the second meiotic division",
+          "b. Metaphase of the first meiotic division",
+          "a. Metaphase of the second meiotic division",
+          "d. Prophase of the second meiotic division"
         ]
       },
       {
-        "question": "An example of codominance is:",
+        "question": "Q10. During cell division, the nuclear membrane dissolves into:",
         "options": [
-          "a. Inheritance of deafness",
-          "b. Height inheritance",
-          "*c. Inheritance of blood groups (group IV)",
-          "d. Inheritance of polydactyly"
+          "* a. Prophase of mitosis",
+          "b. Anaphase of mitosis",
+          "c. Metaphase of mitosis",
+          "d. Telophase of mitosis"
         ]
       },
       {
-        "question": "Rhesus conflict occurs when:",
+        "question": "Q11. Near the cell poles there is a haploid set of bichromatid chromosomes in:",
         "options": [
-          "a. Mother is Rh +, and child is Rh +",
-          "*b. Mother is Rh - and child is Rh +",
-          "c. The mother is Rh - and the child is Rh -",
-          "d. Mother is Rh + and child is Rh -"
+          "* b. Telophase of the first meiotic division",
+          "a. Prophase of the first meiotic division",
+          "c. Telophase of the second meiotic division",
+          "d. Metaphase of the second meiotic division"
         ]
       },
       {
-        "question": "The set of genes of the haploid set of chromosomes is:",
+        "question": "Q12. Chromosome conjugation occurs in:",
         "options": [
-          "a. Genotype",
-          "b. Gene",
-          "c. Gene pool",
-          "*d. Genome"
+          "* a. Prophase of the first meiotic division",
+          "b. Anaphase of the second meiotic division",
+          "c. Anaphase of the first meiotic division",
+          "d. Metaphase of the second meiotic division"
         ]
       },
       {
-        "question": "An example of phenocopy would be:",
+        "question": "Q13. During cell division, the nuclear membrane is formed in:",
         "options": [
-          "*a. The birth of a deaf child with a normal genotype to a healthy woman who had rubella during pregnancy",
-          "b. Colorblindness in a child whose parents are colorblind",
-          "c. Albinism in a child whose mother is an albino and whose father has normal skin pigmentation",
-          "d. Hypertension in an adult man who has healthy parents"
+          "* d. Telophase of mitosis",
+          "b. Prophase of mitosis",
+          "c. Anaphase of mitosis",
+          "a. Metaphase of mitosis"
         ]
       },
       {
-        "question": "An example of complementarity is:",
+        "question": "Q14. The exchange of homologous regions of chromosomes is:",
         "options": [
-          "a. Inheritance of polydactyly",
-          "b. Inheritance of blood groups",
-          "c. Inheritance of phenylketonuria",
-          "*d. Inheritance of deafness"
+          "* a. Crossing over",
+          "b. Replication",
+          "c. Bivalent",
+          "d. Conjugation"
         ]
       },
       {
-        "question": "Mendel's third law reveals patterns:",
+        "question": "Q15. At what stage of meiosis, prophase I, does crossing over occur?",
         "options": [
-          "a. Intermediate inheritance",
-          "b. Analyzing crossing",
-          "c. Sex-linked inheritance",
-          "*d. Independent combination of features"
+          "* a. Pachinema",
+          "b. Leptonema",
+          "c. Zygonema",
+          "d. Diplonema"
         ]
       },
       {
-        "question": "What is the name of the allele that is not phenotypically manifested in the heterozygous state?",
+        "question": "Q16. Chromosomes line up along the equatorial plane of the cell during:",
         "options": [
-          "a. Dominant",
-          "b. Heterozygous",
-          "*c. Recessive",
-          "d. Homozygote dominant"
+          "* b. Metaphase of mitosis",
+          "a. Prophase of mitosis",
+          "c. Anaphase of mitosis",
+          "d. Telophase of mitosis"
+        ]
+      },
+      {
+        "question": "Q17. Chromosome spiralization begins in:",
+        "options": [
+          "* b. Prophase of mitosis",
+          "a. Anaphase of mitosis",
+          "c. Telophase of mitosis",
+          "d. Metaphase of mitosis"
+        ]
+      },
+      {
+        "question": "Q18. Meiosis precedes the formation of:",
+        "options": [
+          "* c. Mature germ cells",
+          "b. Red blood cells",
+          "a. Corneal cells of the eye",
+          "d. Nerve cells"
+        ]
+      },
+      {
+        "question": "Q19. Biological significance of meiosis?",
+        "options": [
+          "* d. From one mother cell, 4 daughter cells with a haploid set of chromosomes are formed",
+          "b. From one mother cell, 4 daughter cells with a triploid set of chromosomes are formed",
+          "c. From one mother cell two daughter cells with a double set of chromosomes are formed",
+          "a. From one mother cell two daughter cells with a tetraploid set of chromosomes are formed"
+        ]
+      },
+      {
+        "question": "Q20. The very first phase of mitosis (karyokinesis) is:",
+        "options": [
+          "* c. Prophase",
+          "b. Anaphase",
+          "a. Telophase",
+          "d. Interphase"
         ]
       }
     ],
     "situational": [
       {
-        "question": "Which genotype can be accurately determined by phenotype without special research?",
+        "question": "Q1. In the presynthetic period of the mitotic cycle:",
         "options": [
-          "*a. Recessive homozygote genotype (aa)",
-          "b. Genotype of any individual",
-          "c. Heterozygote genotype (Aa)",
-          "d. Genotype of dominant homozygote (AA)"
+          "* c. Enzymes are synthesized that ensure replication",
+          "b. The nuclear envelope is destroyed",
+          "a. DNA replication occurs",
+          "d. Nothing is synthesized"
         ]
       },
       {
-        "question": "What is the name of the allele that is phenotypically manifested in the heterozygous state?",
+        "question": "Q2. During the synthetic period of the mitotic cycle:",
         "options": [
-          "*a. Dominant",
-          "b. Recessive",
-          "c. Homozygote recessive",
-          "d. Heterozygous"
+          "* b. DNA replication occurs",
+          "a. The cell does not synthesize anything",
+          "c. Broadcast in progress",
+          "d. DNA repair occurs"
         ]
       },
       {
-        "question": "The set of genes in a population, which is characterized by a certain frequency, is:",
+        "question": "Q3. The regions of chromosomes to which the spindle strands are attached are called:",
         "options": [
-          "*a. Gene pool",
-          "b. Genome",
-          "c. Gene",
-          "d. Genotype"
+          "* d. Kinetochores",
+          "b. Secondary chromosome constrictions",
+          "c. Shoulders of chromosomes",
+          "a. Satellites"
         ]
       },
       {
-        "question": "An example of complementarity is:",
+        "question": "Q4. Pachynema is a stage of prophase I of meiosis, during which:",
         "options": [
-          "*a. Inheritance of deafness",
-          "b. Inheritance of phenylketonuria",
-          "c. Inheritance of polydactyly",
-          "d. Inheritance of blood groups"
+          "* a. Chromosomes are connected into bivalents and look like thick threads (crossing over occurs here)",
+          "b. Homologous chromosomes that were connected into bivalents begin to repel each other",
+          "c. Homologous chromosomes are connected in pairs to each other (conjugation occurs here)",
+          "d. The nuclear envelope is synthesized"
         ]
       },
       {
-        "question": "A cross in which the parent organisms differ in four pairs of characters is:",
+        "question": "Q5. The preparation shows a section of the seminiferous tubule, which contains spermatids. What stage of spermatogenesis is visible in the section?",
         "options": [
-          "a. Dihybrid",
-          "*b. Tetrahybrid",
-          "c. Polyhybrid",
-          "d. Trihybrid"
+          "* d. Growth",
+          "b. Formations",
+          "c. Maturation",
+          "a. Ovulation"
         ]
       }
     ]
@@ -1388,189 +1388,189 @@ export const s_1_8 = {
   "t-s-1-8-6": {
     "test": [
       {
-        "question": "In humans, a polygenic trait is:",
+        "question": "Q1. In humans, a polygenic trait is:",
         "options": [
+          "* b. Height",
           "a. Brachydactyly",
-          "**\\\\*b. Height**",
           "c. Blood type",
           "d. Hair color"
         ]
       },
       {
-        "question": "In polymerization, the splitting of the trait when crossing two diheterozygotes will be:",
+        "question": "Q2. In polymerization, the splitting of the trait when crossing two diheterozygotes will be:",
         "options": [
-          "**\\\\*a. 15:1, 1:4:6:4:1**",
+          "* a. 15:1, 1:4:6:4:1",
           "b. 9:4:3, 1:4:6:4:1, 13:3",
           "c. 9:3:4, 9:7, 15:1",
           "d. 9:4:3, 12:3:1, 13:3"
         ]
       },
       {
-        "question": "With complementary interaction of genes, the splitting of the trait when crossing two diheterozygotes will be in the ratio:",
+        "question": "Q3. With complementary interaction of genes, the splitting of the trait when crossing two diheterozygotes will be in the ratio:",
         "options": [
-          "a. 9:4:3, 1:4:6:4:1, 13:3",
+          "*  d. 9:3:3:1, 9:6:1, 9:3:4, 9:7",
           "b. 9:4:3, 12:3:1, 13:3",
           "c. 15:1, 1:4:6:4:1",
-          "**\\\\*d. 9:3:3:1, 9:6:1, 9:3:4, 9:7**"
+          "a. 9:4:3, 1:4:6:4:1, 13:3"
         ]
       },
       {
-        "question": "Polygenic traits include:",
+        "question": "Q4. Polygenic traits include:",
         "options": [
-          "**\\\\*a. Body weight. Finger length**",
+          "* a. Body weight: Finger length",
           "b. Blood clotting",
           "c. Microcephaly",
           "d. Polydactyly"
         ]
       },
       {
-        "question": "Penetrance is:",
+        "question": "Q5. Penetrance is:",
         "options": [
-          "a. Manifestation of the gene in a heterozygous state",
+          "* d. Gene penetration frequency",
           "b. Degree of gene penetration",
           "c. The influence of one gene on the manifestation of several traits",
-          "**\\\\*d. Gene penetration frequency**"
+          "a. Manifestation of the gene in a heterozygous state"
         ]
       },
       {
-        "question": "The property of organisms to transmit their characteristics and developmental characteristics to their offspring - is this?",
+        "question": "Q6. The property of organisms to transmit their characteristics and developmental characteristics to their offspring - is this?",
         "options": [
-          "a. Karyotyping",
+          "* c. Heredity",
           "b. Variability",
-          "**\\\\*c. Heredity**",
+          "a. Karyotyping",
           "d. Crossbreeding"
         ]
       },
       {
-        "question": "What is a phenotype?",
+        "question": "Q7. What is a phenotype?",
         "options": [
-          "a. Gene system of a particular organism",
+          "* c. A system of external and internal signs and properties of an organism that are formed during its individual development",
           "b. Traits caused by genes located only on autosomes",
-          "**\\\\*c. A system of external and internal signs and properties of an organism that are formed during its individual development**",
+          "a. Gene system of a particular organism",
           "d. Haploid set of chromosomes"
         ]
       },
       {
-        "question": "A cross in which the parent organisms differ in three pairs of characteristics is:",
+        "question": "Q8. A cross in which the parent organisms differ in three pairs of characteristics is:",
         "options": [
-          "**\\\\*a. Trihybrid**",
+          "* a. Trihybrid",
           "b. Tetrahybrid",
           "c. Polyhybrid",
           "d. Dihybrid"
         ]
       },
       {
-        "question": "The ability of organisms to transmit their characteristics and developmental characteristics to their offspring is:",
+        "question": "Q9. The ability of organisms to transmit their characteristics and developmental characteristics to their offspring is:",
         "options": [
-          "a. Genotype",
+          "* d. Heredity",
           "b. Inheritance",
           "c. Variability",
-          "**\\\\*d. Heredity**"
+          "a. Genotype"
         ]
       },
       {
-        "question": "Gene is:",
+        "question": "Q10. Gene is:",
         "options": [
-          "a. A section of an RNA molecule in which information about the secondary structure of a polypeptide is encoded",
-          "b. A section of an RNA molecule in which information about the primary structure of a polypeptide is encoded",
+          "* d. A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded",
+          "b. A section of an RNA molecule in which information about the primary structure of polypeptide is encoded",
           "c. A section of a DNA molecule in which information about the secondary structure of a polypeptide is encoded",
-          "**\\\\*d. A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded**"
+          "a. A section of an RNA molecule in which information about the secondary structure of a polypeptide is encoded"
         ]
       },
       {
-        "question": "How many types of gametes does an individual with genotype AAbbCC produce?",
+        "question": "Q11. How many types of gametes does an individual with genotype AAbbCC produce?",
         "options": [
-          "**\\\\*a. 1**",
+          "* a. 1",
           "b. 8",
           "c. 3",
           "d. 6"
         ]
       },
       {
-        "question": "An analysis cross is a cross in which an individual whose genotype is unknown but needs to be determined (AA or Aa ) is crossed with:",
+        "question": "Q12. An analysis cross is a cross in which an individual whose genotype is unknown but needs to be determined (AA or A A) is crossed with:",
         "options": [
-          "a. Heterozygous (A a )",
-          "**\\\\*b. Recessive homozygote (aa)**",
-          "c. Dominant homozygote (A A )",
+          "* b. Recessive homozygote (aa)",
+          "a. Heterozygous (A a)",
+          "c. Dominant homozygote (A A)",
           "d. Zygote"
         ]
       },
       {
-        "question": "Allelic genes are genes located in:",
+        "question": "Q13. Allelic genes are genes located in:",
         "options": [
-          "**\\\\*a. The same loci of homologous chromosomes**",
+          "* a. The same loci of homologous chromosomes",
           "b. Different loci of homologous chromosomes",
           "c. Same loci of non-homologous chromosomes",
           "d. One chromosome"
         ]
       },
       {
-        "question": "Where are non-allelic genes located?",
+        "question": "Q14. Where are non-allelic genes located?",
         "options": [
-          "a. Different pairs of chromosomes",
+          "* d. At different loci on the chromosome",
           "b. Only in autosomes",
           "c. Only on sex chromosomes",
-          "**\\\\*d. At different loci on the chromosome**"
+          "a. Different pairs of chromosomes"
         ]
       },
       {
-        "question": "G. Mendel developed a method for studying heredity:",
+        "question": "Q15. G. Mendel developed a method for studying heredity:",
         "options": [
-          "**\\\\*a. Hybridological**",
+          "* a. Hybridological",
           "b. Biological",
           "c. Twin",
           "d. Cytological"
         ]
       },
       {
-        "question": "In what ratio is splitting observed for different types of gene interactions?",
+        "question": "Q16. In what ratio is splitting observed for different types of gene interactions?",
         "options": [
-          "a. With dominant epistasis 9:3:4 or 12:3:1",
+          "* c. With polymer 15:1 or 1:4:6:4:1",
           "b. With recessive epistasis 13:3",
-          "**\\\\*c. With polymer 15:1 or 1:4:6:4:1**",
+          "a. With dominant epistasis 9:3:4 or 12:3:1",
           "d. With complementary interaction 15:1 or 9:6:1"
         ]
       },
       {
-        "question": "Is this complementarity?",
+        "question": "Q17. Is this complementarity?",
         "options": [
-          "a. Interaction of non-allelic genes, in which one gene suppresses the action of nother, non-allelic gene",
-          "**\\\\*b. When two or more genes interact, new traits are formed**",
+          "*  b. When two or more genes interact, new traits are formed",
+          "a. Interaction of non-allelic genes, in which one gene suppresses the action of another, non-allelic gene",
           "c. One of the forms of interaction of non-allelic genes, in which the development of a certain trait is predetermined by the influence of several genes",
           "d. The ability of one gene to control several traits (multiple gene action)"
         ]
       },
       {
-        "question": "The ability of organisms to acquire new characteristics or lose previous ones during development is:",
+        "question": "Q18. The ability of organisms to acquire new characteristics or lose previous ones during development is:",
         "options": [
-          "a. Genotype",
+          "* c. Variability",
           "b. Heredity",
-          "**\\\\*c. Variability**",
+          "a. Genotype",
           "d. Inheritance"
         ]
       },
       {
-        "question": "In which blood group is agglutinogen A and B found?",
+        "question": "Q19. In which blood group is agglutinogen A and B found?",
         "options": [
-          "a. II",
+          "*d. IV",
           "b. I",
           "c. III",
-          "**\\\\*d. IV**"
+          "a. II"
         ]
       },
       {
-        "question": "Mendel's first law reveals patterns:",
+        "question": "Q20. Mendel's first law reveals patterns:",
         "options": [
-          "a. Law of splitting",
+          "* d. First generation law of uniformity",
           "b. Independent combination of features",
           "c. Incomplete dominance",
-          "**\\\\*d. First generation law of uniformity**"
+          "a. Law of splitting"
         ]
       },
       {
-        "question": "The intensity of skin pigmentation in humans is controlled by several non-allelic dominant genes. It has been established that with an increase in the number of these genes, pigmentation becomes more intense. What is the type of interaction between these genes called?",
+        "question": "Q21. The intensity of skin pigmentation in humans is controlled by several non-allelic dominant genes. It has been established that with an increase in the number of these genes, pigmentation becomes more intense. What is the type of interaction between these genes called?",
         "options": [
-          "**\\\\*a. Polymerism**",
+          "* a. Polymerism",
           "b. Pleiotropy",
           "c. Codominance",
           "d. Epistasis"
@@ -1579,57 +1579,57 @@ export const s_1_8 = {
     ],
     "situational": [
       {
-        "question": "Q1. Specify the characteristics characteristic of the X-linked recessive type of inheritance:",
+        "question": "Q1. The ability of one gene to control several traits (multiple gene action) is:",
         "options": [
-          "*a. A mother who carries the gene passes the trait on to half of her sons",
-          "b. Affected men pass on the recessive allele of the gene to 50% of their sons",
-          "c. Occurs predominantly in women",
-          "d. Both men and women get sick equally"
+          "* c. Pleiotropy",
+          "b. Codominance",
+          "a. Incomplete dominance",
+          "d. Complete Domination"
         ]
       },
       {
-        "question": "Q2. What type of inheritance does hemophilia have?",
+        "question": "Q2. The object of genetic research by G. Mendel was the plant:",
         "options": [
-          "* c. X-linked recessive inheritance",
-          "b. X-linked dominant inheritance",
-          "a. Autosomal recessive mode of inheritance",
-          "d. Y-chained inheritance"
+          "* a. Peas",
+          "b. Wheat spinous",
+          "c. Potato",
+          "d. Corn"
         ]
       },
       {
-        "question": "Q3. What type of inheritance does color blindness have?",
+        "question": "Q3. In what type of interaction of allelic genes do lethal genes lead to the death of individuals in the homozygous state?",
         "options": [
-          "* c. X-linked recessive inheritance",
-          "b. X-linked dominant mode of inheritance",
-          "a. Autosomal recessive mode of inheritance",
-          "d. Y-chained inheritance"
+          "* d. Overdominance",
+          "b. Complete Domination",
+          "c. Codominance",
+          "a. Incomplete dominance"
         ]
       },
       {
-        "question": "Q4. What patterns are characteristic of a pedigree with an X-linked recessive type of inheritance?",
+        "question": "Q4. With incomplete dominance:",
         "options": [
-          "*a. All answers are correct",
-          "b. A female carrier transmits the disease to half of her sons, none of the daughters will be affected, but half of the daughters are carriers of the hereditary gene",
-          "c. The trait is always transmitted through a heterozygous mother, who is phenotypically healthy",
-          "d. A sick father never passes the disease on to his sons"
+          "* b. Heterozygotes are phenotypically different from homozygotes with a dominant gene",
+          "a. The genotypes of heterozygotes do not differ from homozygotes with a dominant gene",
+          "c. In homozygotes with a dominant gene, the trait is less pronounced than in heterozygotes",
+          "d. In homozygotes with a dominant gene, the trait is expressed in the same way as in heterozygotes"
         ]
       },
       {
-        "question": "Q5. For the X-linked dominant type of inheritance, it is characteristic that the trait manifests itself:",
+        "question": "Q5. A hemizygous organism is an organism in which:",
         "options": [
-          "* c. The father passes the trait on to all his daughters",
-          "b. Not in all generations",
-          "a. Only for women",
-          "d. Along the pedigree"
+          "* a. The gene is represented not by two, but by one allele, and this allele is always phenotypically manifested, even in a recessive state",
+          "b. The gene is represented by a recessive allele",
+          "c. The gene is represented by dominant and recessive alleles",
+          "d. The gene is represented by a dominant allele"
         ]
       },
       {
-        "question": "Q6. For the Y-linked type of inheritance, it is characteristic that the trait manifests itself:",
+        "question": "Q6. Genes that suppress other genes are called:",
         "options": [
-          "* d. The father passes the trait on to all his sons",
-          "b. Along the pedigree",
-          "c. Vertical pedigree",
-          "a. Not in all generations"
+          "* b. Inhibitors",
+          "a. Hypostatic",
+          "c. Repressors",
+          "d. Corepressors"
         ]
       }
     ]
@@ -2137,10 +2137,10 @@ export const s_1_8 = {
       {
         "question": "The angle atd in the palm of the hand in Patau syndrome is:",
         "options": [
-          "**\\*c. 108°**",
-          "a. 75°",
-          "b. 120°",
-          "d. 80°"
+          "**\\*c. 108┬░**",
+          "a. 75┬░",
+          "b. 120┬░",
+          "d. 80┬░"
         ]
       },
       {
@@ -2173,10 +2173,10 @@ export const s_1_8 = {
       {
         "question": "The angle atd on the palm normally does not exceed:",
         "options": [
-          "**\\*a. 57°**",
-          "b. 75°",
-          "c. 80°",
-          "d. 108°"
+          "**\\*a. 57┬░**",
+          "b. 75┬░",
+          "c. 80┬░",
+          "d. 108┬░"
         ]
       },
       {
@@ -2263,10 +2263,10 @@ export const s_1_8 = {
       {
         "question": "The angle atd in the palm of the hand in Down syndrome represents:",
         "options": [
-          "**\\*d. 81°",
-          "a. 57°",
-          "b. 75°",
-          "c. 108°"
+          "**\\*d. 81┬░",
+          "a. 57┬░",
+          "b. 75┬░",
+          "c. 108┬░"
         ]
       },
       {
@@ -2283,10 +2283,10 @@ export const s_1_8 = {
       {
         "question": "The angle atd in the palm of the hand in Down syndrome represents:",
         "options": [
-          "**\\*d. 81°**",
-          "a. 108°",
-          "b. 75°",
-          "c. 57°"
+          "**\\*d. 81┬░**",
+          "a. 108┬░",
+          "b. 75┬░",
+          "c. 57┬░"
         ]
       },
       {
@@ -2310,10 +2310,10 @@ export const s_1_8 = {
       {
         "question": "The angle atd in the palm of the hand in Patau syndrome is:",
         "options": [
-          "**\\*a. 108°**",
-          "b. 120°",
-          "c. 80°",
-          "d. 75°"
+          "**\\*a. 108┬░**",
+          "b. 120┬░",
+          "c. 80┬░",
+          "d. 75┬░"
         ]
       },
       {
@@ -2378,9 +2378,9 @@ export const s_1_8 = {
         "question": "Genetic disease in which a change in the shape of red blood cells occurs",
         "options": [
           "**\\*a. Sickle cell anemia**",
-          "b. Tay–Sachs syndrome",
+          "b. TayΓÇôSachs syndrome",
           "c. Alkaptonuria",
-          "d. Lesch–Nayan syndrome"
+          "d. LeschΓÇôNayan syndrome"
         ]
       },
       {
@@ -2653,7 +2653,7 @@ export const s_1_8 = {
       {
         "question": "Sex X-chromatin is absent in somatic cells in:",
         "options": [
-          "**\\*b. Men and women with Turner–Shereshevsky syndrome**",
+          "**\\*b. Men and women with TurnerΓÇôShereshevsky syndrome**",
           "a. Women with Edwards syndrome",
           "c. Women with Patau syndrome",
           "d. Women with Down syndrome"
@@ -5242,10 +5242,10 @@ export const s_1_8 = {
       {
         "question": "Name the causative agent of epidemic typhus:",
         "options": [
+          "**\\*c. Rickettsia Provacek**",
           "a. Village tick",
           "b. Clothes louse",
-          "c. Rickettsia Provacek",
-          "**\\*d. Obermeyer's spirochetes**"
+          "d. Obermeyer's spirochetes"
         ]
       },
       {
@@ -5317,7 +5317,7 @@ export const s_1_8 = {
           "**\\*d. Four pairs of limbs**",
           "a. No body cavity",
           "b. Closed Circular System",
-          "c. Lack der üsche üssystem"
+          "c. Lack der ├╝sche ├╝ssystem"
         ]
       },
       {
@@ -5350,10 +5350,10 @@ export const s_1_8 = {
       {
         "question": "Name the causative agent of epidemic typhus:",
         "options": [
-          "a. Village tick",
-          "b. Clothes louse",
-          "c. Rickettsia Provacek",
-          "**\\*d. Obermeyer's spirochetes**"
+          "**\\*a. Rickettsia Provacek**",
+          "b. Obermeyer's spirochetes",
+          "c. Head louse",
+          "d. Clothes louse"
         ]
       },
       {
@@ -5827,7 +5827,7 @@ export const s_1_8 = {
         ]
       },
       {
-        "question": "Mature segments of the causative agent of the disease can actively crawl out of a person’s anus in the following cases:",
+        "question": "Mature segments of the causative agent of the disease can actively crawl out of a personΓÇÖs anus in the following cases:",
         "options": [
           "**\\*c. Teniarinhosa**",
           "a. Echinococcosis",

@@ -1,0 +1,240 @@
+{
+  "test": [
+    {
+      "question": "Q1. Unit of distance between genes:",
+      "options": [
+        "* d. Morganida",
+        "b. Angstrom",
+        "c. Nanometer",
+        "a. Centimeter"
+      ]
+    },
+    {
+      "question": "Q2. It is known that gene linkage is not absolute, since it is disrupted as a result of:",
+      "options": [
+        "* c. Crossing over during meiosis",
+        "b. Independent chromosome segregation during meiosis",
+        "a. Non-allelic gene interactions",
+        "d. Pleiotropy"
+      ]
+    },
+    {
+      "question": "Q3. Genes localized on one chromosome:",
+      "options": [
+        "* a. Form a gene linkage group",
+        "b. Give different combinations",
+        "c. Inherited independently of each other",
+        "d. Called unlinked"
+      ]
+    },
+    {
+      "question": "Q4. Gender-dependent signs:",
+      "options": [
+        "* d. Traits determined by autosomal genes in men and women, but these traits appear more often in one sex than the other",
+        "b. Traits are determined by genes that are located on the X and Y chromosomes",
+        "c. Traits determined by autosomal genes in women",
+        "a. Polygenic traits"
+      ]
+    },
+    {
+      "question": "Q5. Linkage between genes can be:",
+      "options": [
+        "* b. Full or incomplete",
+        "a. Incomplete, not providing discrepancies",
+        "c. Complete, there is a discrepancy",
+        "d. Full, but crossing over"
+      ]
+    },
+    {
+      "question": "Q6. Indicate a gender-linked human characteristic:",
+      "options": [
+        "* c. Hemophilia",
+        "b. Hair color",
+        "a. Color of the skin",
+        "d. Polydactyly"
+      ]
+    },
+    {
+      "question": "Q7. What are the names of the characteristics predetermined by the genes that are located on the X and Y chromosomes?",
+      "options": [
+        "* b. Glued to the floor",
+        "a. Dominant",
+        "c. Gender dependent",
+        "d. holandric"
+      ]
+    },
+    {
+      "question": "Q8. If a disease (sign) is inherited through the male line from generation to generation from a father to all his sons, then this is a sign:",
+      "options": [
+        "* b. Y-linked type of inheritance",
+        "a. Autosomal recessive type of inheritance",
+        "c. X-linked dominant type of inheritance",
+        "d. X-linked recessive inheritance"
+      ]
+    },
+    {
+      "question": "Q9. Hemophilia is a disease that has:",
+      "options": [
+        "* b. X-linked recessive inheritance",
+        "a. Y-linked inheritance",
+        "c. Autosomal recessive mode of inheritance",
+        "d. Autosomal dominant type of inheritance"
+      ]
+    },
+    {
+      "question": "Q10. The father has hemophilia, and the mother is homozygous for a gene that determines normal blood clotting. With what genotypes should we expect offspring?",
+      "options": [
+        "*c. XHXh",
+        "b. XhY",
+        "a. XhXh",
+        "d. XHXH"
+      ]
+    },
+    {
+      "question": "Q11. What is the number of gene linkage groups in the organisms of each biological species?",
+      "options": [
+        "* c. Haploid set of chromosomes",
+        "b. Number of pairs of non-allelic genes",
+        "a. Number of sex chromosomes",
+        "d. Diploid set of chromosomes"
+      ]
+    },
+    {
+      "question": "Q12. Indicate the main provisions of the chromosomal theory of heredity?",
+      "options": [
+        "* b. The frequency of crossing over between chromosomes is directly proportional to the distance between genes",
+        "a. Crossing over is not observed in male mammals",
+        "c. Crossing over can occur between non-homologous chromosomes",
+        "d. The number of linkage groups is equal to the diploid set of chromosomes"
+      ]
+    },
+    {
+      "question": "Q13. Who established the linked inheritance of genes localized in one pair of homologous chromosomes?",
+      "options": [
+        "* b. T. Morgan",
+        "a. H. Koran",
+        "c. V. Johansen",
+        "d. G. de Vries"
+      ]
+    },
+    {
+      "question": "Q14. Ichthyosis is observed in the family pedigree. This symptom occurs in all generations only in men. What type of inheritance of the trait?",
+      "options": [
+        "* a. Linked to the Y chromosome",
+        "b. Recessive, linked to the X chromosome",
+        "c. Dominant, linked to the X chromosome",
+        "d. Autosomal recessive"
+      ]
+    },
+    {
+      "question": "Q15. Enamel hypoplasia is inherited as a sex-linked dominant trait. In a family where both parents suffer from this anomaly, a son was born with normal teeth. What is the probability that the next child will also have healthy teeth?",
+      "options": [
+        "*d. 50% boys",
+        "b. 50% of all children",
+        "c. all children",
+        "a. 50% girls"
+      ]
+    },
+    {
+      "question": "Q16. The father is color blind, and the mother is heterozygous for a gene that predetermines normal color perception. With what genotypes should we expect offspring?",
+      "options": [
+        "* c. XdXd",
+        "b. Dd",
+        "a. XDXd",
+        "d. XDXD"
+      ]
+    },
+    {
+      "question": "Q17. The holandric trait is:",
+      "options": [
+        "* b. Hypertrichosis",
+        "a. Blonde hair",
+        "c. Hemophilia",
+        "d. Polydactyly"
+      ]
+    },
+    {
+      "question": "Q18. Which of the following is a holandric trait?",
+      "options": [
+        "* b. Hypertrichosis",
+        "a. Colorblindness",
+        "c. Polydactyly",
+        "d. Blonde hair"
+      ]
+    },
+    {
+      "question": "Q19. In what units is crossing over frequency measured?",
+      "options": [
+        "*c. In percentages",
+        "b. In the Morganids",
+        "a. In centimeters",
+        "d. In nanometers"
+      ]
+    },
+    {
+      "question": "Q20. Hypertrichosis (hair growth along the edge of the ear) is inherited as a trait linked to the Y chromosome. What is the probability of having a child with this anomaly in a family where the father suffers from hypertrichosis?",
+      "options": [
+        "* c. 100% boys",
+        "b. All children",
+        "a. 50% boys",
+        "d. 50% girls"
+      ]
+    }
+  ],
+  "situational": [
+    {
+      "question": "Q1. Specify the characteristics characteristic of the X-linked recessive type of inheritance:",
+      "options": [
+        "*a. A mother who carries the gene passes the trait on to half of her sons",
+        "b. Affected men pass on the recessive allele of the gene to 50% of their sons",
+        "c. Occurs predominantly in women",
+        "d. Both men and women get sick equally"
+      ]
+    },
+    {
+      "question": "Q2. What type of inheritance does hemophilia have?",
+      "options": [
+        "* c. X-linked recessive inheritance",
+        "b. X-linked dominant inheritance",
+        "a. Autosomal recessive mode of inheritance",
+        "d. Y-chained inheritance"
+      ]
+    },
+    {
+      "question": "Q3. What type of inheritance does color blindness have?",
+      "options": [
+        "* c. X-linked recessive inheritance",
+        "b. X-linked dominant mode of inheritance",
+        "a. Autosomal recessive mode of inheritance",
+        "d. Y-chained inheritance"
+      ]
+    },
+    {
+      "question": "Q4. What patterns are characteristic of a pedigree with an X-linked recessive type of inheritance?",
+      "options": [
+        "*a. All answers are correct",
+        "b. A female carrier transmits the disease to half of her sons, none of the daughters will be affected, but half of the daughters are carriers of the hereditary gene",
+        "c. The trait is always transmitted through a heterozygous mother, who is phenotypically healthy",
+        "d. A sick father never passes the disease on to his sons"
+      ]
+    },
+    {
+      "question": "Q5. For the X-linked dominant type of inheritance, it is characteristic that the trait manifests itself:",
+      "options": [
+        "* c. The father passes the trait on to all his daughters",
+        "b. Not in all generations",
+        "a. Only for women",
+        "d. Along the pedigree"
+      ]
+    },
+    {
+      "question": "Q6. For the Y-linked type of inheritance, it is characteristic that the trait manifests itself:",
+      "options": [
+        "* d. The father passes the trait on to all his sons",
+        "b. Along the pedigree",
+        "c. Vertical pedigree",
+        "a. Not in all generations"
+      ]
+    }
+  ]
+}
