@@ -14,9 +14,11 @@ import { supabase } from '../services/supabaseClient';
 
 const cleanOption = (opt) => {
   if (typeof opt !== 'string') return opt;
-  let cleaned = opt.replace(/^[\*\s]+/, '');
-  cleaned = cleaned.replace(/^[a-zA-Z][\.\)\-]\s+/, '');
-  return cleaned;
+  let cleaned = opt.replace(/^[\*\s\\"'`\/]+/, '');
+  cleaned = cleaned.replace(/^[a-zA-Z][\.\)\-]\s*/, '');
+  cleaned = cleaned.replace(/^[\*\s\\"'`\/]+/, '');
+  cleaned = cleaned.replace(/[\*\s\\"'`\/]+$/, '');
+  return cleaned || opt;
 };
 
 const MCQScreen = ({ route, navigation }) => {
