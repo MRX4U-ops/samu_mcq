@@ -73,21 +73,23 @@ export default function AskAIPage() {
     try {
       let response;
       if (requestImage) {
+        // analyze-image route: backend expects { imageBase64 }
         response = await fetch(`${API_BASE_URL}/api/ai/analyze-image`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            image: `data:image/jpeg;base64,${requestImage}`,
+            imageBase64: requestImage,   // raw base64, no data: prefix
             prompt: requestText || 'Please analyze this medical image.'
           })
         });
       } else {
-        response = await fetch(`${API_BASE_URL}/api/ai/chat`, {
+        // /ask route: backend expects { question }
+        response = await fetch(`${API_BASE_URL}/api/ai/ask`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            message: requestText,
-            userId: user?.id || 'anonymous'
+            question: requestText,
+            language: 'English'
           })
         });
       }
