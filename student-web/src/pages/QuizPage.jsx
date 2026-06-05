@@ -66,8 +66,8 @@ export default function QuizPage() {
           if (Array.isArray(tData)) {
             pool = [...pool, ...tData];
           } else if (tData && typeof tData === 'object') {
-            if (Array.isArray(tData.test)) pool = [...pool, ...tData.test];
-            if (Array.isArray(tData.situational)) pool = [...pool, ...tData.situational];
+            const reqMode = mode === 'situational' ? 'situational' : 'test';
+            if (Array.isArray(tData[reqMode])) pool = [...pool, ...tData[reqMode]];
           }
         });
       }
@@ -76,11 +76,12 @@ export default function QuizPage() {
         // Shuffle and limit to 50
         const shuffledPool = shuffle(pool).slice(0, 50);
         const mapped = shuffledPool.map((q, idx) => {
-          const correctValue = q.options[q.correctIndex !== undefined ? q.correctIndex : 0];
-          const shuffledOpts = shuffle([...q.options]);
+          const opts = q.options || [];
+          const correctValue = opts[q.correctIndex !== undefined ? q.correctIndex : 0];
+          const shuffledOpts = shuffle([...opts]);
           return {
             _id: `master-${idx}`,
-            question: q.question,
+            question: q.question || '',
             options: shuffledOpts,
             correctIndex: shuffledOpts.indexOf(correctValue),
           };
@@ -115,11 +116,12 @@ export default function QuizPage() {
 
       if (rawQuestions.length > 0) {
         const mapped = rawQuestions.map((q, idx) => {
-          const correctValue = q.options[q.correctIndex !== undefined ? q.correctIndex : 0];
-          const shuffled = shuffle([...q.options]);
+          const opts = q.options || [];
+          const correctValue = opts[q.correctIndex !== undefined ? q.correctIndex : 0];
+          const shuffled = shuffle([...opts]);
           return {
             _id: `local-${idx}`,
-            question: q.question,
+            question: q.question || '',
             options: shuffled,
             correctIndex: shuffled.indexOf(correctValue),
           };
@@ -360,9 +362,8 @@ export default function QuizPage() {
           <p className={styles.questionText}>{q?.question}</p>
         </div>
 
-        {/* Options */}
         <div className={styles.optionsList}>
-          {q?.options.map((opt, i) => {
+          {q?.options?.map((opt, i) => {
             let cls = styles.option;
             if (submitted) {
               if (i === q.correctIndex) cls += ' ' + styles.optionCorrect;
