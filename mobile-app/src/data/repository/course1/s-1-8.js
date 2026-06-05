@@ -1637,284 +1637,256 @@ export const s_1_8 = {
   "t-s-1-8-7": {
     "test": [
       {
-        "question": "Question1",
+        "question": "Heteroploidy is",
         "options": [
           "**\\*d. Change in the number of chromosomes in a diploid set**",
           "a. Change in gene structure",
           "b. Changes in the number and structure of chromosomes",
-          "c. Change in chromosome structure",
-          "Heteroploidy is"
+          "c. Change in chromosome structure"
         ]
       },
       {
-        "question": "Question2",
+        "question": "What underlies the occurrence of genomic mutations?",
         "options": [
           "**\\*c. Violation of chromosome segregation during cell division**",
           "a. Replacing one gene with another",
           "b. Chromosome conjugation",
-          "What underlies the occurrence of genomic mutations?",
           "d. Change in gene structure"
         ]
       },
       {
-        "question": "Question3",
+        "question": "The reaction rate is determined by:",
         "options": [
           "**\\*d. Genotype and environment**",
           "a. Genotype only",
           "b. Internal environment of the body",
-          "c. External environment only",
-          "The reaction rate is determined by:"
+          "c. External environment only"
         ]
       },
       {
-        "question": "Question4",
+        "question": "Conditionally lethal mutations are:",
         "options": [
           "**\\*a. Shows lethal effects under certain conditions**",
-          "Conditionally lethal mutations are:",
           "b. Incompatible with life; cause the death of the organism before birth",
           "c. Reduce the vital activity of the body and it dies between birth and puberty",
           "d. Occur in cytoplasmic organelles that have their own DNA (mitochondria, plastids)"
         ]
       },
       {
-        "question": "Question5",
+        "question": "During embryonic development, the process of realizing genetic information can disrupt certain chemical compounds. In this case, the development of the body is disrupted, which leads to deformities. What is the name of this chemical compound?",
         "options": [
           "**\\*c. Teratogens**",
           "a. Antigens",
           "b. Fibrinogens",
-          "During embryonic development, the process of realizing genetic information can disrupt certain chemical compounds. In this case, the development of the body is disrupted, which leads to deformities. What is the name of this chemical compound?",
           "d. Comutagens"
         ]
       },
       {
-        "question": "Question6",
+        "question": "Cytoplasmic mutations:",
         "options": [
           "**\\*b. Occur in cytoplasmic organelles that have their own DNA (mitochondria, plastids)**",
           "a. Occurs only in mitochondria",
-          "Cytoplasmic mutations:",
           "c. Occurs in all cell organelles, including the nucleus",
           "d. Occurs only in plastids"
         ]
       },
       {
-        "question": "Question7",
+        "question": "Hereditary variability is divided into:",
         "options": [
           "**\\*a. Mutational**",
-          "Hereditary variability is divided into:",
           "b. Modification",
           "c. Spontaneous",
           "d. Phenotypic"
         ]
       },
       {
-        "question": "Question8",
+        "question": "Dominant mutations appear:",
         "options": [
           "**\\*a. In heterozygous and homozygous states**",
-          "Dominant mutations appear:",
           "b. Only in homozygous state",
           "c. In a dizygotic state",
           "d. Only in heterozygous state"
         ]
       },
       {
-        "question": "Question9",
+        "question": "Chromosomal mutations (aberrations) are associated with changes in:",
         "options": [
           "**\\*c. Structures of all types of chromosomes**",
           "a. Autosome structures only",
           "b. Number of autosomes in a karyotype",
-          "Chromosomal mutations (aberrations) are associated with changes in:",
           "d. Sex chromosome structures only"
         ]
       },
       {
-        "question": "Question10",
+        "question": "Spontaneous mutations are:",
         "options": [
           "**\\*a. Natural mutations**",
-          "Spontaneous mutations are:",
           "b. Conditional mutations",
           "c. Artificially induced mutations",
           "d. Artificial Mutations"
         ]
       },
       {
-        "question": "Question11",
+        "question": "What type of mutation is the development of Down syndrome?",
         "options": [
           "**\\*a. Tisomy 21 pairs**",
-          "What type of mutation is the development of Down syndrome?",
           "b. Trisomy 13 pair",
           "c. Monosomy",
           "d. Trisomy 18 pair"
         ]
       },
       {
-        "question": "Question12",
+        "question": "What determines genetic hereditary diseases?",
         "options": [
           "**\\*d. Single gene mutation**",
           "a. Genomic mutations",
           "b. Chromosomal mutations",
-          "c. Environmental factors",
-          "What determines genetic hereditary diseases?"
+          "c. Environmental factors"
         ]
       },
       {
-        "question": "Question13",
+        "question": "Spontaneous mutations occur:",
         "options": [
           "**\\*d. Under natural conditions without the influence of unusual agents**",
           "a. As a result of the influence of climate change on the body",
           "b. As a result of the influence of colchicine on the body",
-          "c. As a result of the influence of viruses on the body",
-          "Spontaneous mutations occur:"
+          "c. As a result of the influence of viruses on the body"
         ]
       },
       {
-        "question": "Question14",
+        "question": "Hereditary variability is divided into:",
         "options": [
           "**\\*d. Combinative**",
           "a. Spontaneous",
           "b. Modification",
-          "c. Phenotypic",
-          "Hereditary variability is divided into:"
+          "c. Phenotypic"
         ]
       },
       {
-        "question": "Question15",
+        "question": "A woman suffered from viral rubella during pregnancy. As a result, a child born, despite a normal genotype, had developmental defects - cleft lip and palate. These developmental anomalies are a manifestation of :",
         "options": [
           "**\\*a. Modification variability**",
-          "A woman suffered from viral rubella during pregnancy. As a result, a child born, despite a normal genotype, had developmental defects - cleft lip and palate. These developmental anomalies are a manifestation of :",
           "b. Chromosomal mutation",
           "c. Combinative variability",
           "d. Polyploidy"
         ]
       },
       {
-        "question": "Question16",
+        "question": "Chromosomal aberrations are:",
         "options": [
           "**\\*b. Inversion**",
           "a. Monosomy",
-          "Chromosomal aberrations are:",
           "c. Polyploidy",
           "d. Trisomy"
         ]
       },
       {
-        "question": "Question17",
+        "question": "Tetraploidy (4n ) is an example of:",
         "options": [
           "**\\*b. Polyploidy**",
           "a. Heteroploidy",
-          "Tetraploidy (4n ) is an example of:",
           "c. Aneuploidy",
           "d. Chromosomal aberration"
         ]
       },
       {
-        "question": "Question18",
+        "question": "Chromosome aberrations include:",
         "options": [
           "**\\*b. Translocation, duplication, deletion, inversion**",
           "a. Conjugation, lysogeny, polytheny, copulation",
-          "Chromosome aberrations include:",
           "c. Transcription, translation, reduplication",
           "d. Transformation, transduction, translocation"
         ]
       },
       {
-        "question": "Question19",
+        "question": "Triploidy (3n ) is an example of:",
         "options": [
           "**\\*d. Polyploidy**",
           "a. Haploidy",
           "b. Chromosomal aberration",
-          "c. Heteroploidy",
-          "Triploidy (3n ) is an example of:"
+          "c. Heteroploidy"
         ]
       },
       {
-        "question": "Question20",
+        "question": "Artificial Mutations:",
         "options": [
           "**\\*b. Occurs when certain established factors act on the body**",
           "a. Incompatible with life",
-          "Artificial Mutations:",
           "c. Shows lethal effects under certain conditions",
           "d. Occurs in natural conditions without experimenter intervention, with low frequency and for unknown reasons"
         ]
       },
       {
-        "question": "Question21",
+        "question": "Crossover frequency is measured in:",
         "options": [
           "**\\*d. Percentage**",
           "a. Morganids",
           "b. Centimeters",
-          "c. Nanometers",
-          "Crossover frequency is measured in:"
+          "c. Nanometers"
         ]
       },
       {
-        "question": "Question22",
+        "question": "Mechanisms of somatic mutations:",
         "options": [
           "**\\*d. Changes in the chromosome structure of somatic cells**",
           "a. Independent segregation of homologous chromosomes during meiosis",
           "b. Random combination of gametes during fertilization",
-          "c. Changes in the chromosome structure of germ cells",
-          "Mechanisms of somatic mutations:"
+          "c. Changes in the chromosome structure of germ cells"
         ]
       },
       {
-        "question": "Question23",
+        "question": "Mechanisms of gene mutation",
         "options": [
           "**\\*c. Changes in gene structure**",
           "a. Change in Phenotype",
           "b. Changes in the genome",
-          "Mechanisms of gene mutation",
           "d. Chromosome changes"
         ]
       }
     ],
     "situational": [
       {
-        "question": "Question1",
+        "question": "What is crossing over?",
         "options": [
           "**\\*c. The process of exchange of identical sections of homologous chromosomes**",
           "a. The process of divergence of homologous chromosomes",
           "b. Stage of pairwise joining of homologous chromosomes",
-          "What is crossing over?",
           "d. The process of exchanging sections of non-homologous chromosomes"
         ]
       },
       {
-        "question": "Question2",
+        "question": "What is modification variability?",
         "options": [
           "**\\*c. Type of variability predetermined by the action of environmental factors on the phenotype of an organism**",
           "a. Type of variability predetermined by changes in the number of chromosomes",
           "b. Type of variability predetermined by the appearance of a new combination of genes in the genotype",
-          "What is modification variability?",
           "d. Type of variability predetermined by changes in gene structure"
         ]
       },
       {
-        "question": "Question3",
+        "question": "What is a gene mutation?",
         "options": [
           "**\\*b. Change in the structure of the DNA molecule within a gene**",
           "a. Changing the structure of any chromosome",
-          "What is a gene mutation?",
           "c. Change in the number of sex chromosomes in the karyotype",
           "d. Change in the total number of chromosomes in the karyotype"
         ]
       },
       {
-        "question": "Question4",
+        "question": "What is combinative variability?",
         "options": [
           "**\\*a. Type of variability predetermined by the appearance of a new combination of genes in the genotype**",
-          "What is combinative variability?",
           "b. Type of variability predetermined by changes in chromosome structure",
           "c. Type of variability predetermined by the action of environmental factors on the phenotype of an organism",
           "d. Type of variability predetermined by changes in gene structure"
         ]
       },
       {
-        "question": "Question5",
+        "question": "What underlies the occurrence of different types of chromosomal aberrations?",
         "options": [
           "**\\*c. Chromosome breakage**",
           "a. Chromosome conjugation",
           "b. Chromosome segregation in anaphase of meiosis",
-          "What underlies the occurrence of different types of chromosomal aberrations?",
           "d. Chromosome segregation in anaphase of mitosis"
         ]
       }
@@ -1923,201 +1895,181 @@ export const s_1_8 = {
   "t-s-1-8-8": {
     "test": [
       {
-        "question": "Question  1",
+        "question": "A woman has three X chromosomes in her karyotype. How many Barr bodies can her somatic cells have?",
         "options": [
           "**\\*a. 2**",
-          "A woman has three X chromosomes in her karyotype. How many Barr bodies can her somatic cells have?",
           "b. 0",
           "c. 1",
           "d. 3"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "X-chromatin was detected in the nuclei of buccal epithelial cells of the buccal mucosa in a male patient. This is possible with:",
         "options": [
           "**\\*c. Klinefelter's syndrome**",
           "a. Patau syndrome",
           "b. Shereshevsky-Turner syndrome",
-          "X-chromatin was detected in the nuclei of buccal epithelial cells of the buccal mucosa in a male patient. This is possible with:",
           "d. Edwards syndrome"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "According to the Denver classification (in 1960), the human karyotype is divided into the following number of groups:",
         "options": [
           "**\\*c. 7**",
           "a. 4",
           "b. 5",
-          "According to the Denver classification (in 1960), the human karyotype is divided into the following number of groups:",
           "d. 6"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "The arrangement of pairs of chromosomes in order of decreasing size is:",
         "options": [
           "**\\*c. Idiogram**",
           "a. Genotype",
           "b. Karyotype",
-          "The arrangement of pairs of chromosomes in order of decreasing size is:",
           "d. Karyotyping"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "No X-chromatin was detected in the nuclei of the woman's buccal epithelium cells. This indicates the disappearance in the karyotype:",
         "options": [
           "**\\*b. One X chromosome**",
           "a. One Y chromosome",
-          "No X-chromatin was detected in the nuclei of the woman's buccal epithelium cells. This indicates the disappearance in the karyotype:",
           "c. Two X chromosomes",
           "d. Three X chromosomes"
         ]
       },
       {
-        "question": "Question  6",
+        "question": "The genealogical method allows you to establish:",
         "options": [
           "**\\*b. Hereditary nature of the trait, type of inheritance**",
           "a. Gene linkage",
-          "The genealogical method allows you to establish:",
           "c. Violation of the number and structure of chromosomes",
           "d. The role of environment and genotype in the development of a trait"
         ]
       },
       {
-        "question": "Question  7",
+        "question": "Studying patterns on the fingertips is:",
         "options": [
           "**\\*c. Fingerprinting**",
           "a. Palmoscopy",
           "b. Microscopy",
-          "Studying patterns on the fingertips is:",
           "d. Plantoscopy"
         ]
       },
       {
-        "question": "Question  8",
+        "question": "What method of genetics is used to find out the type of inheritance (dominant or recessive) of a particular pathological trait?",
         "options": [
           "**\\*a. Genealogical**",
-          "What method of genetics is used to find out the type of inheritance (dominant or recessive) of a particular pathological trait?",
           "b. Cytogenetic",
           "c. Dermatoglyphics",
           "d. Biochemical"
         ]
       },
       {
-        "question": "Question  9",
+        "question": "The twin method is used for:",
         "options": [
           "**\\*b. Estimates of the role of heredity and environment in the development of a trait**",
           "a. Establishing the hereditary nature of a trait",
-          "The twin method is used for:",
           "c. Compilation and analysis of pedigree",
           "d. Gene linkage studies"
         ]
       },
       {
-        "question": "Question  10",
+        "question": "Discordance is:",
         "options": [
           "**\\*a. Absence of the trait in one of the twins**",
-          "Discordance is:",
           "b. Quantitative indicator of gene expression",
           "c. Percentage of similarity for this trait in twins",
           "d. Degree of symptom expression"
         ]
       },
       {
-        "question": "Question  11",
+        "question": "No Barr bodies were found in the cell, please indicate the karyotype:",
         "options": [
           "**\\*a. 45, X0**",
-          "No Barr bodies were found in the cell, please indicate the karyotype:",
           "b. 47, XX, 21",
           "c. 47, XXY",
           "d. 47, XXX"
         ]
       },
       {
-        "question": "Question  12",
+        "question": "What skin patterns are there on the fingertips:",
         "options": [
           "**\\*b. Curl. Arc. Simple loop**",
           "a. Triradius",
-          "What skin patterns are there on the fingertips:",
           "c. \"Knot\"",
           "d. Square"
         ]
       },
       {
-        "question": "Question  13",
+        "question": "What method is used to study the genetic composition of a population?",
         "options": [
           "**\\*d. Population statistical method**",
           "a. Dermatoglyphics method",
           "b. Biochemical method",
-          "c. Molecular genetic method",
-          "What method is used to study the genetic composition of a population?"
+          "c. Molecular genetic method"
         ]
       },
       {
-        "question": "Question  14",
+        "question": "Concordance is",
         "options": [
           "**\\*c. Percentage of similarity for this trait in twins**",
           "a. Quantitative indicator of gene manifestation",
           "b. Absence of the trait in one of the twins",
-          "Concordance is",
           "d. Degree of symptom expression"
         ]
       },
       {
-        "question": "Question  15",
+        "question": "Using the cytogenetic method, you can determine:",
         "options": [
           "**\\*c. Number and structure of chromosomes**",
           "a. Concentration and distribution of the gene in the population",
           "b. The influence of genotype and external environment on the development of the organism",
-          "Using the cytogenetic method, you can determine:",
           "d. Realization of genes in ontogenesis"
         ]
       },
       {
-        "question": "Question  16",
+        "question": "To determine gender, the following is used:",
         "options": [
           "**\\*d. Determination of sex chromatin**",
           "a. Biochemical method",
           "b. Somatic cell genetics method",
-          "c. Genealogical method",
-          "To determine gender, the following is used:"
+          "c. Genealogical method"
         ]
       },
       {
-        "question": "Question  17",
+        "question": "How many heterochromosomes are there in a man's karyotype?",
         "options": [
           "**\\*d. 2**",
           "a. 46",
           "b. 44",
-          "c. 1",
-          "How many heterochromosomes are there in a man's karyotype?"
+          "c. 1"
         ]
       },
       {
-        "question": "Question  18",
+        "question": "How many Barr bodies do somatic cells of a healthy man have?",
         "options": [
           "**\\*d. 0**",
           "a. 1",
           "b. 3",
-          "c. 2",
-          "How many Barr bodies do somatic cells of a healthy man have?"
+          "c. 2"
         ]
       },
       {
-        "question": "Question  19",
+        "question": "The Hardy-Weinberg formula is not applicable:",
         "options": [
           "**\\*a. In populations with consanguineous marriages**",
-          "The Hardy-Weinberg formula is not applicable:",
           "b. In numerous panmictic populations",
           "c. Only in ideal populations",
           "d. In large, ideal populations"
         ]
       },
       {
-        "question": "Question  20",
+        "question": "Sex X-chromatin is absent in somatic cells in:",
         "options": [
           "**\\*b. Men**",
           "a. Women with Patau syndrome",
-          "Sex X-chromatin is absent in somatic cells in:",
           "c. Women with Edwards syndrome",
           "d. Women with Down syndrome"
         ]
@@ -2125,62 +2077,56 @@ export const s_1_8 = {
     ],
     "situational": [
       {
-        "question": "Question  1",
+        "question": "The essence ... is to establish family ties, trace signs or diseases among close and distant, direct and indirect relatives:",
         "options": [
           "**\\*c. Genealogical method**",
           "a. Cytogenetic method",
           "b. Biochemical method",
-          "The essence ... is to establish family ties, trace signs or diseases among close and distant, direct and indirect relatives:",
           "d. Method of dermatoglyphics and palmoscopy"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "The parents of a newborn who is suspected of having Down syndrome sought medical genetic consultation. Which genetic method should be used to establish a diagnosis?",
         "options": [
           "**\\*c. Cytogenetic**",
           "a. Biochemical",
           "b. Genealogical",
-          "The parents of a newborn who is suspected of having Down syndrome sought medical genetic consultation. Which genetic method should be used to establish a diagnosis?",
           "d. Twin"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "One Barr body was found in the cell, indicate its karyotype:",
         "options": [
           "**\\*d. 47, XX, XXY**",
           "a. 47, XXX, 21+",
           "b. 47, XUU",
-          "c. 46, XY, 5p-",
-          "One Barr body was found in the cell, indicate its karyotype:"
+          "c. 46, XY, 5p-"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "The amniotic fluid, in which the embryo develops, is immersed, contains proteins, carbohydrates, mineral salts, hormones, urea, as well as desquamated fetal cells. What genetic method is used to determine the sex of the unborn child during the study of amniotic fluid content?",
         "options": [
           "**\\*c. Cytogenetic**",
           "a. Genealogical",
           "b. Biochemical",
-          "The amniotic fluid, in which the embryo develops, is immersed, contains proteins, carbohydrates, mineral salts, hormones, urea, as well as desquamated fetal cells. What genetic method is used to determine the sex of the unborn child during the study of amniotic fluid content?",
           "d. Twin"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "To diagnose gene diseases use:",
         "options": [
           "**\\*b. Molecular genetic**",
           "a. Twin method",
-          "To diagnose gene diseases use:",
           "c. Hybridological method",
           "d. Population-statistical"
         ]
       },
       {
-        "question": "Question  6",
+        "question": "To determine gender, the following is used:",
         "options": [
           "**\\*c. Determination of sex chromatin**",
           "a. Biochemical method",
           "b. Somatic cell genetics method",
-          "To determine gender, the following is used:",
           "d. Genealogical method"
         ]
       }
@@ -2189,161 +2135,145 @@ export const s_1_8 = {
   "t-s-1-8-9": {
     "test": [
       {
-        "question": "Question 1",
+        "question": "The angle atd in the palm of the hand in Patau syndrome is:",
         "options": [
           "**\\*c. 108°**",
           "a. 75°",
           "b. 120°",
-          "The angle atd in the palm of the hand in Patau syndrome is:",
           "d. 80°"
         ]
       },
       {
-        "question": "Question 2",
+        "question": "The phenomenon of arbitrary marriages in a large population of people is called:",
         "options": [
           "**\\*a. Panmixia**",
-          "The phenomenon of arbitrary marriages in a large population of people is called:",
           "b. Hybridization",
           "c. Inbreeding",
           "d. Outbreeding"
         ]
       },
       {
-        "question": "Question 3",
+        "question": "Using the cytogenetic method, diagnostics is carried out:",
         "options": [
           "**\\*b. Diseases associated with changes in the number of autosomes**",
           "a. Genetic diseases",
-          "Using the cytogenetic method, diagnostics is carried out:",
           "c. Molecular diseases",
           "d. Multifactorial diseases"
         ]
       },
       {
-        "question": "Question 4",
+        "question": "Cells found in amniotic fluid do not contain X chromatin due to:",
         "options": [
           "**\\*b. X chromosome monosomy**",
           "a. Trisomy of chromosome 18",
-          "Cells found in amniotic fluid do not contain X chromatin due to:",
           "c. Trisomy X chromosome",
           "d. Trisomy of chromosome 21"
         ]
       },
       {
-        "question": "Question 5",
+        "question": "The angle atd on the palm normally does not exceed:",
         "options": [
           "**\\*a. 57°**",
-          "The angle atd on the palm normally does not exceed:",
           "b. 75°",
           "c. 80°",
           "d. 108°"
         ]
       },
       {
-        "question": "Question 6",
+        "question": "The method for determining X-chromatin is used for diagnosis:",
         "options": [
           "**\\*a. Shereshevsky-Turner syndrome**",
-          "The method for determining X-chromatin is used for diagnosis:",
           "b. Hypertension",
           "c. Stomach ulcers",
           "d. Diabetes mellitus"
         ]
       },
       {
-        "question": "Question 7",
+        "question": "Dizygotic twins:",
         "options": [
           "**a. Arise from different fertilized eggs**",
-          "Dizygotic twins:",
           "b. They have the same patterns on the skin of the palms and fingers",
           "c. Develop from a single zygote",
           "d. Have the same phenotype"
         ]
       },
       {
-        "question": "Question 8",
+        "question": "The method for determining X-chromatin is used for diagnosis:",
         "options": [
           "**\\*d. Klinefelter's syndrome**",
           "a. Diabetes mellitus",
           "b. Patau syndrome",
-          "c. Stomach ulcers",
-          "The method for determining X-chromatin is used for diagnosis:"
+          "c. Stomach ulcers"
         ]
       },
       {
-        "question": "Question 9",
+        "question": "To carry out cytogenetic analysis use:",
         "options": [
           "**\\*a. Leukocytes**",
-          "To carry out cytogenetic analysis use:",
           "b. Buccal epithelial cells",
           "c. Pancreatic cells",
           "d. Red blood cells"
         ]
       },
       {
-        "question": "Question 10",
+        "question": "Monozygotic twins:",
         "options": [
           "**\\*c. Always have the same genotype**",
           "a. Develop from different eggs",
           "b. They have different genotypes.",
-          "Monozygotic twins:",
           "d. Develop from a single somatic cell"
         ]
       },
       {
-        "question": "Question 11",
+        "question": "Human populations, the number of which does not exceed 1500 individuals, and consanguineous marriages account for more than 90%, are called:",
         "options": [
           "**\\*a. Isolates**",
-          "Human populations, the number of which does not exceed 1500 individuals, and consanguineous marriages account for more than 90%, are called:",
           "b. Demami",
           "c. Ideal populations",
           "d. Closed populations"
         ]
       },
       {
-        "question": "Question 12",
+        "question": "Fingerprinting is the study of:",
         "options": [
           "**\\*c. Papillary patterns on the fingertips**",
           "a. Papillary patterns on the soles",
           "b. Papillary patterns on the palms",
-          "Fingerprinting is the study of:",
           "d. Papillary patterns on the palms and soles"
         ]
       },
       {
-        "question": "Question 13",
+        "question": "Small populations, the number of which does not exceed 1500-4000 individuals, are called:",
         "options": [
           "**\\*c. Demami**",
           "a. Isolates",
           "b. Ideal populations",
-          "Small populations, the number of which does not exceed 1500-4000 individuals, are called:",
           "d. Open populations"
         ]
       },
       {
-        "question": "Question 14",
+        "question": "Indicate the method of studying a trait (disease) in a family, indicating family ties between members of the pedigree - this is:",
         "options": [
           "**\\*a. Genealogical method**",
-          "Indicate the method of studying a trait (disease) in a family, indicating family ties between members of the pedigree - this is:",
           "b. Molecular genetic method",
           "c. Cytogenetic method",
           "d. Biochemical method"
         ]
       },
       {
-        "question": "Question 15",
+        "question": "The angle atd in the palm of the hand in Down syndrome represents:",
         "options": [
           "**\\*d. 81°",
           "a. 57°",
           "b. 75°",
-          "c. 108°",
-          "The angle atd in the palm of the hand in Down syndrome represents:"
+          "c. 108°"
         ]
       },
       {
-        "question": "Question 16",
+        "question": "Karyotype examination is necessary if:",
         "options": [
           "**\\*b. The couple had a stillborn fetus and two spontaneous miscarriages**",
           "a. The first boy in the family was born colorblind",
-          "Karyotype examination is necessary if:",
           "c. The woman had one spontaneous miscarriage",
           "d. The first child in the family was born with phenylketonuria"
         ]
@@ -2351,60 +2281,54 @@ export const s_1_8 = {
     ],
     "situational": [
       {
-        "question": "Question 1",
+        "question": "The angle atd in the palm of the hand in Down syndrome represents:",
         "options": [
           "**\\*d. 81°**",
           "a. 108°",
           "b. 75°",
-          "c. 57°",
-          "The angle atd in the palm of the hand in Down syndrome represents:"
+          "c. 57°"
         ]
       },
       {
-        "question": "Question 2",
+        "question": "Cells found in amniotic fluid do not contain X chromatin due to:",
         "options": [
           "**\\*a. X chromosome monosomy**",
-          "Cells found in amniotic fluid do not contain X chromatin due to:",
           "b. Trisomy X chromosome",
           "c. Trisomy of chromosome 18",
           "d. Trisomy of chromosome 21"
         ]
       },
       {
-        "question": "Question 3",
+        "question": "Small populations, the number of which does not exceed 1500-4000 individuals, are called:",
         "options": [
           "**\\*c. Demami**",
           "a. Open populations",
           "b. Isolates",
-          "Small populations, the number of which does not exceed 1500-4000 individuals, are called:",
           "d. Ideal populations"
         ]
       },
       {
-        "question": "Question 4",
+        "question": "The angle atd in the palm of the hand in Patau syndrome is:",
         "options": [
           "**\\*a. 108°**",
-          "The angle atd in the palm of the hand in Patau syndrome is:",
           "b. 120°",
           "c. 80°",
           "d. 75°"
         ]
       },
       {
-        "question": "Question 5",
+        "question": "Human populations, the number of which does not exceed 1500 individuals, and consanguineous marriages account for more than 90%, are called:",
         "options": [
           "**\\*b. Isolates**",
           "a. Closed populations",
-          "Human populations, the number of which does not exceed 1500 individuals, and consanguineous marriages account for more than 90%, are called:",
           "c. Demami",
           "d. Ideal populations"
         ]
       },
       {
-        "question": "Question 6",
+        "question": "The phenomenon of arbitrary marriages in a large population of people is called:",
         "options": [
           "**\\*a. Panmixia**",
-          "The phenomenon of arbitrary marriages in a large population of people is called:",
           "b. Inbreeding",
           "c. Hybridization",
           "d. Outbreeding"
@@ -2415,200 +2339,180 @@ export const s_1_8 = {
   "t-s-1-8-10": {
     "test": [
       {
-        "question": "Question  1",
+        "question": "Diseases resulting from genomic mutations:",
         "options": [
           "**\\*b. Patau syndrome**",
           "a. Hypertrichosis",
-          "Diseases resulting from genomic mutations:",
           "c. Thalassemia",
           "d. Cry of the Cat Syndrome"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "With an autosomal dominant type of inheritance, the following is observed:",
         "options": [
           "**\\*a. The trait is passed on from generation to generation and both sexes are affected with equal frequency**",
-          "With an autosomal dominant type of inheritance, the following is observed:",
           "b. Sick parents give birth to healthy children",
           "c. Healthy parents give birth to sick children",
           "d. The father passes on his trait only to his daughters"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "To diagnose metabolic diseases, use:",
         "options": [
           "**\\*b. Biochemical method**",
           "a. Simulation method",
-          "To diagnose metabolic diseases, use:",
           "c. Twin method",
           "d. Hybridological method"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "Incestuous marriage is:",
         "options": [
           "**\\*d. Marriage between people of the first degree of family**",
           "a. B cancer between individuals with the same phenotypes for a certain trait",
           "b. Marriage between people of the second and third levels of family",
-          "c. Selective marriage",
-          "Incestuous marriage is:"
+          "c. Selective marriage"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "Genetic disease in which a change in the shape of red blood cells occurs",
         "options": [
           "**\\*a. Sickle cell anemia**",
-          "Genetic disease in which a change in the shape of red blood cells occurs",
           "b. Tay–Sachs syndrome",
           "c. Alkaptonuria",
           "d. Lesch–Nayan syndrome"
         ]
       },
       {
-        "question": "Question  6",
+        "question": "Alkaptonuria is a metabolic pathology:",
         "options": [
           "**\\*b. Tyrosine**",
           "a. Leucine",
-          "Alkaptonuria is a metabolic pathology:",
           "c. Phenylalanine",
           "d. Valina"
         ]
       },
       {
-        "question": "Question  7",
+        "question": "Monosomy is:",
         "options": [
           "**\\*d. Reducing the number of chromosomes in a karyotype by one chromosome**",
           "a. An increase in the number of chromosomes in a karyotype by",
           "b. Increasing the number of chromosomes in a karyotype to another",
-          "c. Complete absence of one pair of homologous chromosomes in the karyotype",
-          "Monosomy is:"
+          "c. Complete absence of one pair of homologous chromosomes in the karyotype"
         ]
       },
       {
-        "question": "Question  8",
+        "question": "For Klinefelter syndrome:",
         "options": [
           "**\\*a. In the karyotype of men there is an extra X - the sex chromosome**",
-          "For Klinefelter syndrome:",
           "b. In the karyotype of women, one sex chromosome is missing - the X chromosome.",
           "c. In the karyotype of women there is an extra X - the sex chromosome",
           "d. There is no clump of sex chromatin in the somatic cells of women"
         ]
       },
       {
-        "question": "Question  9",
+        "question": "Signs of \"Cry the Cat\" syndrome:",
         "options": [
           "**\\*d. Underdevelopment of vocal cords**",
           "a. Number of chromosomes 45",
           "b. Deletion of the short arm of chromosome pair 21",
-          "c. Karyotype of syndrome 44+XXY",
-          "Signs of \"Cry the Cat\" syndrome:"
+          "c. Karyotype of syndrome 44+XXY"
         ]
       },
       {
-        "question": "Question  10",
+        "question": "To diagnose phenylketonuria use:",
         "options": [
           "**\\*a. Film sample**",
-          "To diagnose phenylketonuria use:",
           "b. Sodium chloride test",
           "c. Test with 2,4-dinitrophenylhydrazine",
           "d. Test with nitropruside"
         ]
       },
       {
-        "question": "Question  11",
+        "question": "Chromosomal diseases:",
         "options": [
           "**\\*d. Develop as a result of a change (increase or decrease) in the number of individual, paired, homologous chromosomes in the human karyotype**",
           "a. Inherited through the male line",
           "b. Passed on from generation to generation",
-          "c. Not limited to distribution within just one generation",
-          "Chromosomal diseases:"
+          "c. Not limited to distribution within just one generation"
         ]
       },
       {
-        "question": "Question  12",
+        "question": "Tay-Sachs disease is a genetic disease:",
         "options": [
           "**\\*d. Lipid metabolism disorder**",
           "a. Metal metabolism disorder",
           "b. Amino acid metabolism disorder",
-          "c. Hormone metabolism disorder",
-          "Tay-Sachs disease is a genetic disease:"
+          "c. Hormone metabolism disorder"
         ]
       },
       {
-        "question": "Question  13",
+        "question": "Monogenic diseases:",
         "options": [
           "**\\*a. Alkaptonuria**",
-          "Monogenic diseases:",
           "b. Hypertension",
           "c. Cry of the Cat Syndrome",
           "d. Down's disease"
         ]
       },
       {
-        "question": "Question  14",
+        "question": "Specify diseases of lipid metabolism disorders:",
         "options": [
           "**\\*a. Leukodystrophy**",
-          "Specify diseases of lipid metabolism disorders:",
           "b. Galactosemia",
           "c. Mucopolysaccharidosis",
           "d. Pentosuria"
         ]
       },
       {
-        "question": "Question  15",
+        "question": "Galactosemia is a metabolic disease:",
         "options": [
           "**\\*b. Galactose**",
           "a. Fructose",
-          "Galactosemia is a metabolic disease:",
           "c. Glycogen",
           "d. Maltose"
         ]
       },
       {
-        "question": "Question  16",
+        "question": "Define diseases inherited in an autosomal dominant manner?",
         "options": [
           "**\\*b. Marfan syndrome**",
           "a. Phenylketonuria",
-          "Define diseases inherited in an autosomal dominant manner?",
           "c. Hepatolenticular degeneration",
           "d. Tay-Sachs disease"
         ]
       },
       {
-        "question": "Question  17",
+        "question": "Signs that appear with phenylketonuria:",
         "options": [
           "**\\*c. Pigmentation of the skin, hair, and iris of the eyes decreases**",
           "a. Frequent respiratory diseases: bronchitis, bronchiectasis",
           "b. Signs of the disease begin at 2-3 years of age",
-          "Signs that appear with phenylketonuria:",
           "d. There is muscle atrophy, \"duck gait\""
         ]
       },
       {
-        "question": "Question  18",
+        "question": "Hereditary diseases caused by genes linked to human sex chromosomes:",
         "options": [
           "**\\*d. Color blindness, lack of sweat glands**",
           "a. Down syndrome, Marfan syndrome",
           "b. Hepatitis, diabetes mellitus",
-          "c. Hemophilia, hypertension, glycogenosis",
-          "Hereditary diseases caused by genes linked to human sex chromosomes:"
+          "c. Hemophilia, hypertension, glycogenosis"
         ]
       },
       {
-        "question": "Question  19",
+        "question": "When diagnosing chromosomal diseases, the mandatory method is: Karyotype study Fructosemia is a metabolic disease:",
         "options": [
           "**\\*b. Fructose**",
           "a. Sucrose",
-          "When diagnosing chromosomal diseases, the mandatory method is: Karyotype study Fructosemia is a metabolic disease:",
           "c. Maltose",
           "d. Glycogen"
         ]
       },
       {
-        "question": "Question  20",
+        "question": "Disease related to hemoglobinopathy",
         "options": [
           "**\\*a. Thalassemia**",
-          "Disease related to hemoglobinopathy",
           "b. Mental retardation",
           "c. Galactosemia",
           "d. Albinism"
@@ -2617,81 +2521,73 @@ export const s_1_8 = {
     ],
     "situational": [
       {
-        "question": "Question  1",
+        "question": "Enzymopathies belong to metabolic diseases caused by enzyme defects. Disorders of amino acid metabolism include:",
         "options": [
           "**\\*d. Albinism**",
           "a. Hemophilia",
           "b. Cystic fibrosis",
-          "c. Vitamin D -resistant rickets",
-          "Enzymopathies belong to metabolic diseases caused by enzyme defects. Disorders of amino acid metabolism include:"
+          "c. Vitamin D -resistant rickets"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "Phenotypically healthy parents gave birth to a child with alkaptonuria (an autosomal recessive type of inheritance). What are the genotypes of women and men?",
         "options": [
           "**\\*c. Aa and Aa**",
           "a. AA and AA",
           "b. AA and Aa",
-          "Phenotypically healthy parents gave birth to a child with alkaptonuria (an autosomal recessive type of inheritance). What are the genotypes of women and men?",
           "d. Aa and aa"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "The autosomal dominant type of inheritance of the disease is characterized by the following situation:",
         "options": [
           "**\\*d. The disease is transmitted from parents to children in every generation**",
           "a. The disease is transmitted horizontally through the family tree",
           "b. The disease occurs only in males of the family",
-          "c. The disease occurs only in women of the family",
-          "The autosomal dominant type of inheritance of the disease is characterized by the following situation:"
+          "c. The disease occurs only in women of the family"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "Mother and father are phenotypically healthy. They had a sick child, in whose urine and blood phenylpyruvic acid was found. Based on this, phenylketonuria was diagnosed. What is the type of inheritance of this disease?",
         "options": [
           "**\\*d. Autosomal recessive**",
           "a. Autosomal dominant",
           "b. Linked to the Y chromosome",
-          "c. Recessive, linked to the X chromosome",
-          "Mother and father are phenotypically healthy. They had a sick child, in whose urine and blood phenylpyruvic acid was found. Based on this, phenylketonuria was diagnosed. What is the type of inheritance of this disease?"
+          "c. Recessive, linked to the X chromosome"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "An 18-year-old girl consulted a doctor with complaints of lack of menstruation. The examination revealed the following signs: height 140 cm, short neck with characteristic folds of skin (\"sphinx neck\"), broad shoulders, narrow pelvis, absence of secondary sexual characteristics, underdevelopment of the ovaries. What preliminary diagnosis can be made?",
         "options": [
           "**\\*a. Shereshevsky-Turner syndrome**",
-          "An 18-year-old girl consulted a doctor with complaints of lack of menstruation. The examination revealed the following signs: height 140 cm, short neck with characteristic folds of skin (\"sphinx neck\"), broad shoulders, narrow pelvis, absence of secondary sexual characteristics, underdevelopment of the ovaries. What preliminary diagnosis can be made?",
           "b. Patau syndrome",
           "c. Morris syndrome",
           "d. Klinefelter syndrome"
         ]
       },
       {
-        "question": "Question  6",
+        "question": "Which gene disease is characterized by premature aging of the body that occurs at the age of 6-7 years and leads to the death of patients from cardiovascular diseases before the age of 10?",
         "options": [
           "**\\*c. Progeria**",
           "a. Phenylketonuria",
           "b. Tay-Sachs disease",
-          "Which gene disease is characterized by premature aging of the body that occurs at the age of 6-7 years and leads to the death of patients from cardiovascular diseases before the age of 10?",
           "d. Galactosemia"
         ]
       },
       {
-        "question": "Question  7",
+        "question": "Achondroplasia (hereditary dwarfism) is inherited as a dominant autosomal trait. What is the probability of having healthy children from healthy parents?",
         "options": [
           "**\\*a. 100%**",
-          "Achondroplasia (hereditary dwarfism) is inherited as a dominant autosomal trait. What is the probability of having healthy children from healthy parents?",
           "b. 0%",
           "c. 25%",
           "d. 50%"
         ]
       },
       {
-        "question": "Question  8",
+        "question": "A sick child has a disorder of lipid metabolism, accompanied by an increase in the concentration of lipids in the blood serum and the deposition of these substances in nerve cells. There are dysfunctions of the higher nervous system. What hereditary disease should we think about in this case?",
         "options": [
           "**\\*b. Tay-Sachs disease**",
           "a. Phenylketonuria",
-          "A sick child has a disorder of lipid metabolism, accompanied by an increase in the concentration of lipids in the blood serum and the deposition of these substances in nerve cells. There are dysfunctions of the higher nervous system. What hereditary disease should we think about in this case?",
           "c. Marfan syndrome",
           "d. Edwards syndrome"
         ]
@@ -2701,194 +2597,175 @@ export const s_1_8 = {
   "t-s-1-8-11": {
     "test": [
       {
-        "question": "Question  1",
+        "question": "What is the formula for the karyotype of a patient with Klinefelter syndrome:",
         "options": [
           "**\\*c. 47, XXY**",
           "a. 46, XY",
           "b. 47, XXX",
-          "What is the formula for the karyotype of a patient with Klinefelter syndrome:",
           "d. 45, X 0"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "Hemolytic disease is:",
         "options": [
           "**\\*a. Adhesion of red blood cells and their lysis**",
-          "Hemolytic disease is:",
           "b. Erythrocyte sedimentation",
           "c. Polymerism",
           "d. Hemophilia"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "What is the formula for the karyotype of a patient with Edwards syndrome:",
         "options": [
           "**\\*a. 47, XY , 21+**",
-          "What is the formula for the karyotype of a patient with Edwards syndrome:",
           "b. 47, XY , 13+",
           "c. 46, XX , 5p-",
           "d. 47, XY , 18+"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "What is the formula for the karyotype of a patient with Patau syndrome:",
         "options": [
           "**\\*d. 47, XY , 13+**",
           "a. 46, XX",
           "b. 46, XX , 5r -",
-          "c. 47, XX , 18+",
-          "What is the formula for the karyotype of a patient with Patau syndrome:"
+          "c. 47, XX , 18+"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "What is the formula for the karyotype of a patient with Cry of the Cat syndrome:",
         "options": [
           "**\\*b. 46, XY , 5p -**",
           "a. 46, XY , 9p+",
-          "What is the formula for the karyotype of a patient with Cry of the Cat syndrome:",
           "c. 45, X 0",
           "d. 47, XXY"
         ]
       },
       {
-        "question": "Question  6",
+        "question": "Family marriage (consanguineous) is:",
         "options": [
           "**\\*d. Marriage between people of the second and third degrees of family**",
           "a. Marriage between people of the first degree of family",
           "b. Selective marriage",
-          "c. B cancer between individuals with the same phenotypes for a certain trait",
-          "Family marriage (consanguineous) is:"
+          "c. B cancer between individuals with the same phenotypes for a certain trait"
         ]
       },
       {
-        "question": "Question  7",
+        "question": "Sex X-chromatin is absent in somatic cells in:",
         "options": [
           "**\\*b. Men and women with Turner–Shereshevsky syndrome**",
           "a. Women with Edwards syndrome",
-          "Sex X-chromatin is absent in somatic cells in:",
           "c. Women with Patau syndrome",
           "d. Women with Down syndrome"
         ]
       },
       {
-        "question": "Question  8",
+        "question": "Randomized marriage (panmixia) is:",
         "options": [
           "**\\*b. Non-selective marriage. Any person of the same sex is equally likely to marry any person of the opposite sex**",
           "a. Marriage between people of the first degree of family",
-          "Randomized marriage (panmixia) is:",
           "c. Marriage between individuals who are not in family ties",
           "d. Marriage between individuals who are in family ties"
         ]
       },
       {
-        "question": "Question  9",
+        "question": "Inbreeding is:",
         "options": [
           "**\\*d. Marriage between individuals who are in family ties**",
           "a. Non-selective marriage",
           "b. Marriage between individuals who are not related to each other",
-          "c. Marriage between individuals with the same phenotypes for a certain trait",
-          "Inbreeding is:"
+          "c. Marriage between individuals with the same phenotypes for a certain trait"
         ]
       },
       {
-        "question": "Question  10",
+        "question": "Unrelated marriage is:",
         "options": [
           "**\\*b. Marriage between individuals who are not related to each other (missing common ancestors in the next 4-6 generations) **",
           "a. Non-selective marriage. Any person of the same sex is equally likely to marry any person of the opposite sex",
-          "Unrelated marriage is:",
           "c. Marriage between people of the second and third degrees of family",
           "d. Marriage between individuals who are in family ties"
         ]
       },
       {
-        "question": "Question  11",
+        "question": "What is the formula for the karyotype of a patient with Down syndrome:",
         "options": [
           "**\\*b. 47, XY , 21+**",
           "a. 47, XY , 13+",
-          "What is the formula for the karyotype of a patient with Down syndrome:",
           "c. 47, XY , 22+",
           "d. 46, XX , 5p-"
         ]
       },
       {
-        "question": "Question  12",
+        "question": "Define diseases inherited in an autosomal recessive manner?",
         "options": [
           "**\\*d. Alcoptonuria**",
           "a. Muscular dystrophy (Duchenne syndrome)",
           "b. Neurofibromatosis",
-          "c. Huntington's chorea",
-          "Define diseases inherited in an autosomal recessive manner?"
+          "c. Huntington's chorea"
         ]
       },
       {
-        "question": "Question  13",
+        "question": "What is the formula for the karyotype of a patient with Shereshevsky-Turner syndrome:",
         "options": [
           "**\\*a. 45, X 0**",
-          "What is the formula for the karyotype of a patient with Shereshevsky-Turner syndrome:",
           "b. 47, XXX",
           "c. 47, XXY",
           "d. 46, XX"
         ]
       },
       {
-        "question": "Question  14",
+        "question": "Humans experience diseases that are determined by genes that are characterized by the property of incomplete dominance. Name this disease:",
         "options": [
           "**\\*c. Cystinuria**",
           "a. Hemophilia",
           "b. Phenylketonuria",
-          "Humans experience diseases that are determined by genes that are characterized by the property of incomplete dominance. Name this disease:",
           "d. Albinism"
         ]
       }
     ],
     "situational": [
       {
-        "question": "Question  1",
+        "question": "What is the formula for the karyotype of a patient with Cry of the Cat syndrome:",
         "options": [
           "**\\*a. 46, XY , 5p -**",
-          "What is the formula for the karyotype of a patient with Cry of the Cat syndrome:",
           "b. 46, XY , 9p+",
           "c. 47, XXY",
           "d. 45, X 0"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "What is the formula for the karyotype of a patient with Down syndrome:",
         "options": [
           "**\\*d. 47, XY , 21+**",
           "a. 47, XY , 22+",
           "b. 46, XX , 5p-",
-          "c. 47, XY , 13+",
-          "What is the formula for the karyotype of a patient with Down syndrome:"
+          "c. 47, XY , 13+"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "What is the formula for the karyotype of a patient with Edwards syndrome:",
         "options": [
           "**\\*3d. 47, XY , 18+**",
           "a. 47, XY , 21+",
           "b. 47, XY , 13+",
-          "c. 46, XX , 5p-",
-          "What is the formula for the karyotype of a patient with Edwards syndrome:"
+          "c. 46, XX , 5p-"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "Define diseases inherited in an autosomal recessive manner?",
         "options": [
           "**\\*d. Alcoptonuria**",
           "a. Neurofibromatosis",
           "b. Muscular dystrophy (Duchenne syndrome)",
-          "c. Huntington's chorea",
-          "Define diseases inherited in an autosomal recessive manner?"
+          "c. Huntington's chorea"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "Humans experience diseases that are determined by genes that are characterized by the property of incomplete dominance. Name this disease:",
         "options": [
           "**\\*c. Cystinuria**",
           "a. Hemophilia",
           "b. Phenylketonuria",
-          "Humans experience diseases that are determined by genes that are characterized by the property of incomplete dominance. Name this disease:",
           "d. Albinism"
         ]
       }
@@ -2897,255 +2774,230 @@ export const s_1_8 = {
   "t-s-1-8-12": {
     "test": [
       {
-        "question": "Question  1",
+        "question": "During oogenesis, mitosis occurs in the zone:",
         "options": [
           "**\\*a. Reproduction**",
-          "During oogenesis, mitosis occurs in the zone:",
           "b. Formations",
           "c. Maturation",
           "d. Growth"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "Which stage is missing during spermatogenesis?",
         "options": [
           "**\\*d. Dictyoten**",
           "a. Diakinesis",
           "b. Leptonema",
-          "c. Zygonema",
-          "Which stage is missing during spermatogenesis?"
+          "c. Zygonema"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "In the sperm and oocyte of the second order, the hereditary genetic information is contained in:",
         "options": [
           "**\\*b. Core**",
           "a. Mitochondria",
-          "In the sperm and oocyte of the second order, the hereditary genetic information is contained in:",
           "c. Lysosomes",
           "d. Peroxisomes"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "The haploid set of chromosomes contains:",
         "options": [
           "**\\*d. Mature germ cell formed as a result of normal meiosis**",
           "a. Spermatogonia",
           "b. Any immature sex cell",
-          "c. Ovogonium",
-          "The haploid set of chromosomes contains:"
+          "c. Ovogonium"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "Sex cells mature by division:",
         "options": [
           "**\\*c. Meiosis**",
           "a. Mitosis",
           "b. Endomitosis",
-          "Sex cells mature by division:",
           "d. Amitosis"
         ]
       },
       {
-        "question": "Question  6",
+        "question": "A cross-section of the seminiferous tubule shows the cells of the primary spermatocyte. At what stage of spermatogenesis are the cells?",
         "options": [
           "**\\*a. Growth**",
-          "A cross-section of the seminiferous tubule shows the cells of the primary spermatocyte. At what stage of spermatogenesis are the cells?",
           "b. Formations",
           "c. Reproduction",
           "d. Maturation"
         ]
       },
       {
-        "question": "Question  7",
+        "question": "Oogenesis is characterized by the following features:",
         "options": [
           "**\\*a. Divided into 3 stages**",
-          "Oogenesis is characterized by the following features:",
           "b. From one oocyte of the first order, 4 ovotides are formed",
           "c. The total number of maturing eggs is huge",
           "d. During the formation period, an egg is formed"
         ]
       },
       {
-        "question": "Question  8",
+        "question": "During oogenesis, meiosis occurs in the zone:",
         "options": [
           "**\\*a. Maturation**",
-          "During oogenesis, meiosis occurs in the zone:",
           "b. Formations",
           "c. Growth",
           "d. Reproduction"
         ]
       },
       {
-        "question": "Question  9",
+        "question": "Parent cells of oogenesis:",
         "options": [
           "**\\*d. Ovogonia**",
           "a. Second order oocytes",
           "b. First order oocytes",
-          "c. Oocytes",
-          "Parent cells of oogenesis:"
+          "c. Oocytes"
         ]
       },
       {
-        "question": "Question  10",
+        "question": "Which immature female germ cells have a diploid set of chromosomes?",
         "options": [
           "**\\*a. Ovogonia**",
-          "Which immature female germ cells have a diploid set of chromosomes?",
           "b. Secondary polocyte",
           "c. Spermatogonia",
           "d. Second order oocytes"
         ]
       },
       {
-        "question": "Question  11",
+        "question": "What set of chromosomes do sperm have?",
         "options": [
           "**\\*d. Haploid**",
           "a. Polyploid",
           "b. Homologous",
-          "c. Diploid",
-          "What set of chromosomes do sperm have?"
+          "c. Diploid"
         ]
       },
       {
-        "question": "Question  12",
+        "question": "How many sperm are produced from 100 spermatogonia?",
         "options": [
           "**\\*a. 400**",
-          "How many sperm are produced from 100 spermatogonia?",
           "b. 100",
           "c. 200",
           "d. 50"
         ]
       },
       {
-        "question": "Question  13",
+        "question": "In what period of gametogenesis does reduction division occur?",
         "options": [
           "**\\*b. Maturation**",
           "a. Growth",
-          "In what period of gametogenesis does reduction division occur?",
           "c. Reproduction",
           "d. Formations"
         ]
       },
       {
-        "question": "Question  14",
+        "question": "As a result of the second meiotic division in a woman's body, the following are formed:",
         "options": [
           "**\\*a. Ovules**",
-          "As a result of the second meiotic division in a woman's body, the following are formed:",
           "b. Second order oocytes",
           "c. First order oocytes",
           "d. Ovogonia"
         ]
       },
       {
-        "question": "Question  15",
+        "question": "Set of chromosomes and amount of DNA in first -order spermatocyte:",
         "options": [
           "**\\*c. 2 n 4 c**",
           "a. 2 n 1 c",
           "b. 2 n 2 c",
-          "Set of chromosomes and amount of DNA in first -order spermatocyte:",
           "d. 1 n 1 c"
         ]
       },
       {
-        "question": "Question  16",
+        "question": "As a result of the second meiotic division in the male body, the following are formed:",
         "options": [
           "**\\*a. Spermatids**",
-          "As a result of the second meiotic division in the male body, the following are formed:",
           "b. C second order permatocytes",
           "c. Spermatocytes of the first order",
           "d. Ovogonia"
         ]
       },
       {
-        "question": "Question  17",
+        "question": "How many chromosomes and DNA does a primary spermatocyte contain?",
         "options": [
           "**\\*a. 2 n 4 c**",
-          "How many chromosomes and DNA does a primary spermatocyte contain?",
           "b. 1 n 2 c",
           "c. 4 n 4 c",
           "d. 2 n 2 c"
         ]
       },
       {
-        "question": "Question  18",
+        "question": "After the first meiotic division, the immature germ cells of a woman contain chromosomes:",
         "options": [
           "**\\*c. 23**",
           "a. 92",
           "b. 2",
-          "After the first meiotic division, the immature germ cells of a woman contain chromosomes:",
           "d. 69"
         ]
       },
       {
-        "question": "Question  19",
+        "question": "In which of the following cells is the number of chromosomes ( n ) and the amount of DNA ( c ) correctly indicated ?",
         "options": [
           "**\\*c. First order oocytes 2 n 4c**",
           "a. Spermatid 2 n 2c",
           "b. Sperm 2 n 2c",
-          "In which of the following cells is the number of chromosomes ( n ) and the amount of DNA ( c ) correctly indicated ?",
           "d. Spermatocytes of the second order 2 n 2c"
         ]
       },
       {
-        "question": "Question  20",
+        "question": "Ontogenesis is:",
         "options": [
           "**\\*d. Individual development of organisms**",
           "a. Self-regulation",
           "b. Historical development",
-          "c. Self-updating",
-          "Ontogenesis is:"
+          "c. Self-updating"
         ]
       }
     ],
     "situational": [
       {
-        "question": "Question  1",
+        "question": "Which immature female germ cells have a diploid set of chromosomes?",
         "options": [
           "**\\*a. Ovogonia**",
-          "Which immature female germ cells have a diploid set of chromosomes?",
           "b. Spermatogonia",
           "c. Secondary polocyte",
           "d. Second order oocytes"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "Set of chromosomes and amount of DNA in first -order spermatocyte:",
         "options": [
           "**\\*b. 2 n 4 c**",
           "a. 1 n 1 c",
-          "Set of chromosomes and amount of DNA in first -order spermatocyte:",
           "c. 2 n 4 c",
           "d. 2 n 2 c"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "A cross-section of the seminiferous tubule shows the cells of the primary spermatocyte. At what stage of spermatogenesis are the cells?",
         "options": [
           "**\\*b. Growth**",
           "a. Maturation",
-          "A cross-section of the seminiferous tubule shows the cells of the primary spermatocyte. At what stage of spermatogenesis are the cells?",
           "c. Formations",
           "d. Reproduction"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "How many chromosomes and DNA does a primary spermatocyte contain?",
         "options": [
           "**\\*a. 2 n 4 c**",
-          "How many chromosomes and DNA does a primary spermatocyte contain?",
           "b. 1 n 2 c",
           "c. 4 n 4 c",
           "d. 2 n 2 c"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "As a result of the second meiotic division in a woman's body, the following are formed:",
         "options": [
           "**\\*d. Ovules**",
           "a. Second order oocytes",
           "b. Ovogonia",
-          "c. First order oocytes",
-          "As a result of the second meiotic division in a woman's body, the following are formed:"
+          "c. First order oocytes"
         ]
       }
     ]
@@ -3153,260 +3005,234 @@ export const s_1_8 = {
   "t-s-1-8-13": {
     "test": [
       {
-        "question": "Question  1",
+        "question": "The functions of the respiratory system include:",
         "options": [
           "**\\*b. Air purification from dust and microorganisms**",
           "a. Support function for soft tissues of the body",
-          "The functions of the respiratory system include:",
           "c. Distribution of substances between blood and adjacent tissues",
           "d. Regulation of blood supply to organs"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "The functions of the circulatory system include:",
         "options": [
           "**\\*c. Distribution of substances between blood and adjacent tissues**",
           "a. Origin and differentiation of teeth",
           "b. The emergence of synapses that provide communication between neurons",
-          "The functions of the circulatory system include:",
           "d. Support function for soft tissues of the body"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "Evidence of evolution:",
         "options": [
           "**\\*b. Comparative anatomical, embryological, paleontological, biogeographical, molecular genetic**",
           "a. Ecological , biogeographical, molecular genetic",
-          "Evidence of evolution:",
           "c. Physiological, comparative anatomical, embryological",
           "d. Ethological , paleontological, biogeographical"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "The evolution of the digestive system went in the direction of:",
         "options": [
           "**\\*b. The emergence of language**",
           "a. Differentiation of neuron structure",
-          "The evolution of the digestive system went in the direction of:",
           "c. System of levers for muscle work",
           "d. Depot of calcium and phosphorus salts"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "Morphophysiological progress is:",
         "options": [
           "**\\*b. Increasing the level of organization and general energy of life activities**",
           "a. Ability to adapt to new living conditions",
-          "Morphophysiological progress is:",
           "c. Changes related to simplification of the organization",
           "d. Changes that do not improve the level of the organization"
         ]
       },
       {
-        "question": "Question  6",
+        "question": "The bursa of Fabricius , as the primary organ of immunity, first appears in:",
         "options": [
           "**\\*d. Birds**",
           "a. Pisces",
           "b. Reptiles",
-          "c. Amphibians",
-          "The bursa of Fabricius , as the primary organ of immunity, first appears in:"
+          "c. Amphibians"
         ]
       },
       {
-        "question": "Question  7",
+        "question": "Which fish have scales that resemble the structure of a human tooth?",
         "options": [
           "**\\*d. Sharks**",
           "a. Carp",
           "b. Perch",
-          "c. Soma",
-          "Which fish have scales that resemble the structure of a human tooth?"
+          "c. Soma"
         ]
       },
       {
-        "question": "Question  8",
+        "question": "The functions of the skeleton include:",
         "options": [
           "**\\*b. System of levers for muscle work**",
           "a. Origin and differentiation of teeth",
-          "The functions of the skeleton include:",
           "c. Neuron specialization",
           "d. Differentiation of neuron structure"
         ]
       },
       {
-        "question": "Question  9",
+        "question": "Which vertebrates belong to the anamnites ?",
         "options": [
           "**\\*b. Amphibians**",
           "a. Mammals",
-          "Which vertebrates belong to the anamnites ?",
           "c. Reptiles",
           "d. Birds"
         ]
       },
       {
-        "question": "Question  10",
+        "question": "The evolution of the nervous system occurred in the direction of:",
         "options": [
           "**\\*a. Concentrations of neurons in certain places of the body with the formation of nodes, nerve centers, and later the neural tube**",
-          "The evolution of the nervous system occurred in the direction of:",
           "b. Changes in the functions of individual elements of the maxillary and hyoid arches with the formation of the middle ear cavity and auditory ossicles",
           "c. Support function for soft tissues of the body",
           "d. Improvement of the alimentary canal by differentiation into sections"
         ]
       },
       {
-        "question": "Question  11",
+        "question": "Comparative anatomical evidence includes:",
         "options": [
           "**\\*d. Similarities in the structure of organs and systems**",
           "a. M imicry",
           "b. Disguise",
-          "c. Provisional authorities",
-          "Comparative anatomical evidence includes:"
+          "c. Provisional authorities"
         ]
       },
       {
-        "question": "Question  12",
+        "question": "The primary kidney functions in:",
         "options": [
           "**\\*c. Pisces. Amphibians**",
           "a. Amphibians, reptiles",
           "b. Reptiles, birds",
-          "The primary kidney functions in:",
           "d. Reptiles. Pisces"
         ]
       },
       {
-        "question": "Question  13",
+        "question": "The evolution of the digestive system went in the direction of:",
         "options": [
           "**\\*c. Improvement of the alimentary canal by differentiation into sections**",
           "a. The emergence of synapses that provide communication between neurons",
           "b. Fusion of the visceral skeleton with the neural",
-          "The evolution of the digestive system went in the direction of:",
           "d. Support function for soft tissues of the body"
         ]
       },
       {
-        "question": "Question  14",
+        "question": "The functions of the circulatory system include:",
         "options": [
           "**\\*c. Humoral regulation**",
           "a. Differentiation of neuron structure",
           "b. Protecting the body from damage",
-          "The functions of the circulatory system include:",
           "d. System of levers for muscle work"
         ]
       },
       {
-        "question": "Question  15",
+        "question": "The functions of the respiratory system include:",
         "options": [
           "**\\*d. Gas exchange between the body and the external environment**",
           "a. Transport of blood to all organs",
           "b. Depot of calcium and phosphorus salts",
-          "c. Separation of the heart from the abdominal aorta",
-          "The functions of the respiratory system include:"
+          "c. Separation of the heart from the abdominal aorta"
         ]
       },
       {
-        "question": "Question  16",
+        "question": "The functions of the circulatory system include:",
         "options": [
           "**\\*b. Transport of substances to all organs**",
           "a. Protecting the body from damage",
-          "The functions of the circulatory system include:",
           "c. Depot of calcium and phosphorus salts",
           "d. Neuron specialization"
         ]
       },
       {
-        "question": "Question  17",
+        "question": "The functions of the skeleton include:",
         "options": [
           "**\\*d. Depot of calcium and phosphorus salts**",
           "a. The emergence of synapses that provide communication between neurons",
           "b. Fusion of the visceral skeleton with the neural",
-          "c. Increase in mucosal area",
-          "The functions of the skeleton include:"
+          "c. Increase in mucosal area"
         ]
       },
       {
-        "question": "Question  18",
+        "question": "The evolution of the nervous system occurred in the direction of:",
         "options": [
           "**\\*b. Strengthening the regulatory role of the main part of the central nervous system in bisymmetrical animals**",
           "a. Distribution of substances between blood and adjacent tissues",
-          "The evolution of the nervous system occurred in the direction of:",
           "c. The emergence of synapses that provide communication between neurons",
           "d. Improvement of the alimentary canal by differentiation into sections"
         ]
       },
       {
-        "question": "Question  19",
+        "question": "What organs are called analogous?",
         "options": [
           "**\\*b. Perform the same function**",
           "a. Have a similar origin",
-          "What organs are called analogous?",
           "c. Have the same placement on the body",
           "d. Have a general building plan"
         ]
       },
       {
-        "question": "Question  20",
+        "question": "Which class of animals has double breathing?",
         "options": [
           "**\\*c. Birds**",
           "a. Pisces",
           "b. Amphibians",
-          "Which class of animals has double breathing?",
           "d. Reptiles"
         ]
       },
       {
-        "question": "Question  21",
+        "question": "The functions of the skeleton include:",
         "options": [
           "**\\*d. Support function for soft tissues of the body**",
           "a. Increase in mucosal area",
           "b. Replacing a cartilaginous skull with a bone one",
-          "c. Neuron specialization",
-          "The functions of the skeleton include:"
+          "c. Neuron specialization"
         ]
       },
       {
-        "question": "Question  22",
+        "question": "Which vertebrates are amniotes?",
         "options": [
           "**\\*c. Reptiles**",
           "a. Amphibians",
           "b. Fish",
-          "Which vertebrates are amniotes?",
           "d. Cyclostomes"
         ]
       },
       {
-        "question": "Question  23",
+        "question": "What organs are called homologous?",
         "options": [
           "**\\*b. Have a common origin and similarity in structure**",
           "a. Perform the same function",
-          "What organs are called homologous?",
           "c. Laid from the same germ layers",
           "d. They have a similar structure and perform the same function"
         ]
       },
       {
-        "question": "Question  24",
+        "question": "The functions of the respiratory system include:",
         "options": [
           "**\\*b. Conducting air, humidifying it and warming or cooling it**",
           "a. Separation of the heart from the abdominal aorta",
-          "The functions of the respiratory system include:",
           "c. Depot of calcium and phosphorus salts",
           "d. Transport of blood to all organs"
         ]
       },
       {
-        "question": "Question  25",
+        "question": "The evolution of the nervous system occurred in the direction of:",
         "options": [
           "**\\*c. Differentiation of neuron structure**",
           "a. Increase in mucosal area",
           "b. Depot of calcium and phosphorus salts",
-          "The evolution of the nervous system occurred in the direction of:",
           "d. Progressive development of the axial skull"
         ]
       },
       {
-        "question": "Question  26",
+        "question": "Which animals first develop two circuits of blood circulation?",
         "options": [
           "**\\*a. Amphibians**",
-          "Which animals first develop two circuits of blood circulation?",
           "b. Cyclostomes",
           "c. Pisces",
           "d. Reptiles"
@@ -3415,51 +3241,46 @@ export const s_1_8 = {
     ],
     "situational": [
       {
-        "question": "Question  1",
+        "question": "The functions of the skeleton include:",
         "options": [
           "**\\*b. Depot of calcium and phosphorus salts**",
           "a. The emergence of synapses that provide communication between neurons",
-          "The functions of the skeleton include:",
           "c. Fusion of the visceral skeleton with the neural",
           "d. Increase in mucosal area"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "The evolution of the nervous system occurred in the direction of:",
         "options": [
           "**\\*a. Differentiation of neuron structure**",
-          "The evolution of the nervous system occurred in the direction of:",
           "b. Progressive development of the axial skull",
           "c. Increase in mucosal area",
           "d. Depot of calcium and phosphorus salts"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "The evolution of the digestive system went in the direction of:",
         "options": [
           "**\\*a. Improvement of the alimentary canal by differentiation into sections**",
-          "The evolution of the digestive system went in the direction of:",
           "b. Support function for soft tissues of the body",
           "c. The emergence of synapses that provide communication between neurons",
           "d. Fusion of the visceral skeleton with the neural"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "The functions of the circulatory system include:",
         "options": [
           "**\\*b. Transport of substances to all organs**",
           "a. Depot of calcium and phosphorus salts",
-          "The functions of the circulatory system include:",
           "c. Neuron specialization",
           "d. Protecting the body from damage"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "Which animals first develop two circuits of blood circulation?",
         "options": [
           "**\\*b. Amphibians**",
           "a. Pisces",
-          "Which animals first develop two circuits of blood circulation?",
           "c. Reptiles",
           "d. Cyclostomes"
         ]
@@ -3469,201 +3290,181 @@ export const s_1_8 = {
   "t-s-1-8-14": {
     "test": [
       {
-        "question": "Question  1",
+        "question": "Trichomonas vaginalis in the human body determines:",
         "options": [
           "**\\*b. Inflammatory processes in the genital tract**",
           "a. Anemia",
-          "Trichomonas vaginalis in the human body determines:",
           "c. Enlarged spleen and liver",
           "d. Depression and drowsiness"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "Trypanosoma cruzi belongs to the class:",
         "options": [
           "**\\*b. Zoomastigophorea**",
           "a. Lobosea",
-          "Trypanosoma cruzi belongs to the class:",
           "c. Litostomatea",
           "d. Sporozoea"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "In which human organs is Entamoeba coli localized?",
         "options": [
           "**\\*c. Colon**",
           "a. Blood",
           "b. Genitourinary tract",
-          "In which human organs is Entamoeba coli localized?",
           "d. Small intestine"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "Balantidium coli is localized in the human body in:",
         "options": [
           "**\\*c. Colon**",
           "a. Heart",
           "b. Small intestine",
-          "Balantidium coli is localized in the human body in:",
           "d. Liver"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "Entamoeba histolytica belongs to the class:",
         "options": [
           "**\\*d. Lobosea**",
           "a. Sporozoea",
           "b. Zoomastigophorea",
-          "c. Litostomatea",
-          "Entamoeba histolytica belongs to the class:"
+          "c. Litostomatea"
         ]
       },
       {
-        "question": "Question  6",
+        "question": "In which human organs does Plasmodium falciparum parasitize?",
         "options": [
           "**\\*a. Liver**",
-          "In which human organs does Plasmodium falciparum parasitize?",
           "b. Small intestine",
           "c. Kidneys",
           "d. Colon"
         ]
       },
       {
-        "question": "Question  7",
+        "question": "Leishmania tropica minor is localized in humans in the cells of:",
         "options": [
           "**\\*c. Skin**",
           "a. Blood",
           "b. Liver",
-          "Leishmania tropica minor is localized in humans in the cells of:",
           "d. Spleens"
         ]
       },
       {
-        "question": "Question  8",
+        "question": "In which human organs is Trichomonas hominis localized?",
         "options": [
           "**\\*a. Colon**",
-          "In which human organs is Trichomonas hominis localized?",
           "b. Oral cavity",
           "c. Lungs",
           "d. Liver"
         ]
       },
       {
-        "question": "Question  9",
+        "question": "Entamoeba histolytica is:",
         "options": [
           "**\\*a. Obligate parasite**",
-          "Entamoeba histolytica is:",
           "b. Facultative parasite",
           "c. Temporary parasite",
           "d. Ectoparasite"
         ]
       },
       {
-        "question": "Question  10",
+        "question": "Protozoa in unfavorable conditions form:",
         "options": [
           "**\\*b. Cysts**",
           "a. Oocyst",
-          "Protozoa in unfavorable conditions form:",
           "c. Controversy",
           "d. Zoospores"
         ]
       },
       {
-        "question": "Question  11",
+        "question": "Entamoeba histolytica forma minuta is:",
         "options": [
           "**\\*c. Commensal**",
           "a. Pathogenic form",
           "b. Parasite",
-          "Entamoeba histolytica forma minuta is:",
           "d. Erythrophage"
         ]
       },
       {
-        "question": "Question  12",
+        "question": "Entamoeba histolytica forma magna is:",
         "options": [
           "**\\*a. Large fabric form**",
-          "Entamoeba histolytica forma magna is:",
           "b. Small fabric form",
           "c. Small lumen form",
           "d. Large lumen form"
         ]
       },
       {
-        "question": "Question  13",
+        "question": "Lamblia intestinalis is localized in the human body in:",
         "options": [
           "**\\*c. duodenum**",
           "a. Caecum",
           "b. Oral cavity",
-          "Lamblia intestinalis is localized in the human body in:",
           "d. Rectum"
         ]
       },
       {
-        "question": "Question  14",
+        "question": "Plasmodium falciparum belongs to the class:",
         "options": [
           "**d. Sporozoea**",
           "a. Litostomatea",
           "b. Zoomastigophorea",
-          "c. Lobosea",
-          "Plasmodium falciparum belongs to the class:"
+          "c. Lobosea"
         ]
       },
       {
-        "question": "Question  15",
+        "question": "Plasmodium vivax, Plasmodium malariae, Plasmodium falciparum, plasmodium ovale differ from each other:",
         "options": [
           "**\\*d. Morphologically**",
           "a. The presence of different carriers",
           "b. Presence of different definitive hosts",
-          "c. Presence of different intermediate hosts",
-          "Plasmodium vivax, Plasmodium malariae, Plasmodium falciparum, plasmodium ovale differ from each other:"
+          "c. Presence of different intermediate hosts"
         ]
       },
       {
-        "question": "Question  16",
+        "question": "Which human organs are parasitized by the large vegetative form of dysenteric amoeba?",
         "options": [
           "**\\*c. Colon wall**",
           "a. Small intestinal wall",
           "b. Genitourinary tract",
-          "Which human organs are parasitized by the large vegetative form of dysenteric amoeba?",
           "d. Colon lumen"
         ]
       },
       {
-        "question": "Question  17",
+        "question": "Leishmania donovani belongs to the class:",
         "options": [
           "**\\*c. Zoomastigophorea**",
           "a. Sporozoea",
           "b. Apicomplexa",
-          "Leishmania donovani belongs to the class:",
           "d. Litostomatea"
         ]
       },
       {
-        "question": "Question  18",
+        "question": "Plasmodium malariae belongs to the class:",
         "options": [
           "**\\*c. Sporozoea**",
           "a. Litostomatea",
           "b. Lobosea",
-          "Plasmodium malariae belongs to the class:",
           "d. Zoomastigophorea"
         ]
       },
       {
-        "question": "Question  19",
+        "question": "Which human organs does Trichomonas vaginalis parasitize?",
         "options": [
           "**\\*b. Genitourinary tract**",
           "a. Cerebrospinal fluid",
-          "Which human organs does Trichomonas vaginalis parasitize?",
           "c. Blood",
           "d. Small intestine"
         ]
       },
       {
-        "question": "Question  20",
+        "question": "In which human organs is the small vegetative form of dysentery amoeba localized?",
         "options": [
           "**\\*b. Colon lumen**",
           "a. Blood",
-          "In which human organs is the small vegetative form of dysentery amoeba localized?",
           "c. Genitourinary tract",
           "d. Oral cavity"
         ]
@@ -3671,51 +3472,46 @@ export const s_1_8 = {
     ],
     "situational": [
       {
-        "question": "Question  1",
+        "question": "In which human organ does Plasmodium falciparum parasitize?",
         "options": [
           "**\\*c. Blood**",
           "a. Small intestine",
           "b. Genitourinary tract",
-          "In which human organ does Plasmodium falciparum parasitize?",
           "d. Colon"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "In which human organs is Entamoeba coli localized?",
         "options": [
           "**\\*b. Colon**",
           "a. Blood",
-          "In which human organs is Entamoeba coli localized?",
           "c. Small intestine",
           "d. Genitourinary tract"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "In which human organ does Giardia parasitize?",
         "options": [
           "**\\*b. Duodenum**",
           "a. Blood",
-          "In which human organ does Giardia parasitize?",
           "c. Oral cavity",
           "d. Cecum"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "Skin ulcers are typical for:",
         "options": [
           "**\\*b. Cutaneous leishmaniasis**",
           "a. Chagas' diseases",
-          "Skin ulcers are typical for:",
           "c. Visceral leishmaniasis",
           "d. Toxoplasmosis"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "Which human organ is parasitized by dermatotropic leishmania?",
         "options": [
           "**\\*b. Leather**",
           "a. Small intestine",
-          "Which human organ is parasitized by dermatotropic leishmania?",
           "c. Colon",
           "d. Oral cavity"
         ]
@@ -3725,304 +3521,274 @@ export const s_1_8 = {
   "t-s-1-8-15": {
     "test": [
       {
-        "question": "Question 1",
+        "question": "Which human organs does Trichomonas vaginalis parasitize?",
         "options": [
           "**\\*d. Genitourinary tract**",
           "a. Small intestine",
           "b. Cerebrospinal fluid",
-          "c. Blood",
-          "Which human organs does Trichomonas vaginalis parasitize?"
+          "c. Blood"
         ]
       },
       {
-        "question": "Question 2",
+        "question": "Lamblia intestinalis is localized in the human body in:",
         "options": [
           "**\\*a. duodenum**",
-          "Lamblia intestinalis is localized in the human body in:",
           "b. Oral cavity",
           "c. Rectum",
           "d. Caecum"
         ]
       },
       {
-        "question": "Question 3",
+        "question": "In which human organs is Trichomonas hominis localized?",
         "options": [
           "**\\*a. Colon**",
-          "In which human organs is Trichomonas hominis localized?",
           "b. Liver",
           "c. Oral cavity",
           "d. Lungs"
         ]
       },
       {
-        "question": "Question 4",
+        "question": "Skin ulcers are typical for:",
         "options": [
           "**\\*d. Cutaneous leishmaniasis**",
           "a. Chagas' diseases",
           "b. Toxoplasmosis",
-          "c. Visceral leishmaniasis",
-          "Skin ulcers are typical for:"
+          "c. Visceral leishmaniasis"
         ]
       },
       {
-        "question": "Question 5",
+        "question": "Trypanosoma cruzi belongs to the class:",
         "options": [
           "**\\*d. Zoomastigophorea**",
           "a. Litostomatea",
           "b. Lobosea",
-          "c. Sporozoea",
-          "Trypanosoma cruzi belongs to the class:"
+          "c. Sporozoea"
         ]
       },
       {
-        "question": "Question 6",
+        "question": "In which human organ does Plasmodium falciparum parasitize?",
         "options": [
           "**\\*a. Colon**",
-          "In which human organ does Plasmodium falciparum parasitize?",
           "b. Small intestine",
           "c. Genitourinary tract",
           "d. Blood"
         ]
       },
       {
-        "question": "Question 7",
+        "question": "Entamoeba histolytica forma minuta is:",
         "options": [
           "**\\*b. Commensal**",
           "a. Pathogenic form",
-          "Entamoeba histolytica forma minuta is:",
           "c. Parasite",
           "d. Erythrophage"
         ]
       },
       {
-        "question": "Question 8",
+        "question": "Balantidium coli is localized in the human body in:",
         "options": [
           "**\\*c. Colon**",
           "a. Small intestine",
           "b. Liver",
-          "Balantidium coli is localized in the human body in:",
           "d. Heart"
         ]
       },
       {
-        "question": "Question 9",
+        "question": "Entamoeba histolytica forma magna is:",
         "options": [
           "**\\*d. Large fabric form**",
           "a. Large lumen form",
           "b. Small lumen form",
-          "c. Small fabric form",
-          "Entamoeba histolytica forma magna is:"
+          "c. Small fabric form"
         ]
       },
       {
-        "question": "Question 10",
+        "question": "Plasmodium malariae belongs to the class:",
         "options": [
           "**\\*a. Sporozoea**",
-          "Plasmodium malariae belongs to the class:",
           "b. Lobosea",
           "c. Litostomatea",
           "d. Zoomastigophorea"
         ]
       },
       {
-        "question": "Question 11",
+        "question": "In which human organs is the small vegetative form of dysentery amoeba localized?",
         "options": [
           "**\\*d. Colon lumen**",
           "a. Blood",
           "b. Oral cavity",
-          "c. Genitourinary tract",
-          "In which human organs is the small vegetative form of dysentery amoeba localized?"
+          "c. Genitourinary tract"
         ]
       },
       {
-        "question": "Question 12",
+        "question": "In which human organs do dysenteric amoeba cysts form?",
         "options": [
           "**\\*a. Colon lumen**",
-          "In which human organs do dysenteric amoeba cysts form?",
           "b. Genitourinary tract",
           "c. Blood",
           "d. Oral cavity"
         ]
       },
       {
-        "question": "Question 13",
+        "question": "In which human organ does Giardia parasitize?",
         "options": [
           "**\\*b. Duodenum**",
           "a. Blood",
-          "In which human organ does Giardia parasitize?",
           "c. Oral cavity",
           "d. Cecum"
         ]
       },
       {
-        "question": "Question 14",
+        "question": "Trichomonas vaginalis in the human body determines:",
         "options": [
           "**\\*d. Inflammatory processes in the genital tract**",
           "a. Depression and drowsiness",
           "b. Anemia",
-          "c. Enlarged spleen and liver",
-          "Trichomonas vaginalis in the human body determines:"
+          "c. Enlarged spleen and liver"
         ]
       },
       {
-        "question": "Question 15",
+        "question": "Protozoa in unfavorable conditions form:",
         "options": [
           "**\\*d. Cysts**",
           "a. Oocyst",
           "b. Zoospores",
-          "c. Controversy",
-          "Protozoa in unfavorable conditions form:"
+          "c. Controversy"
         ]
       },
       {
-        "question": "Question 16",
+        "question": "Plasmodium falciparum belongs to the class:",
         "options": [
           "**\\*a. Sporozoea**",
-          "Plasmodium falciparum belongs to the class:",
           "b. Litostomatea",
           "c. Zoomastigophorea",
           "d. Lobosea"
         ]
       },
       {
-        "question": "Question 17",
+        "question": "Which human organ is parasitized by dermatotropic leishmania?",
         "options": [
           "**\\*b. Leather**",
           "a. Colon",
-          "Which human organ is parasitized by dermatotropic leishmania?",
           "c. Small intestine",
           "d. Oral cavity"
         ]
       },
       {
-        "question": "Question 18",
+        "question": "Entamoeba histolytica belongs to the class:",
         "options": [
           "**\\*b. Lobosea**",
           "a. Litostomatea",
-          "Entamoeba histolytica belongs to the class:",
           "c. Sporozoea",
           "d. Zoomastigophorea"
         ]
       },
       {
-        "question": "Question 19",
+        "question": "In which human organs is Entamoeba coli localized?",
         "options": [
           "**\\*d. Colon**",
           "a. Genitourinary tract",
           "b. Blood",
-          "c. Small intestine",
-          "In which human organs is Entamoeba coli localized?"
+          "c. Small intestine"
         ]
       },
       {
-        "question": "Question 20",
+        "question": "In which human organs does Plasmodium falciparum parasitize?",
         "options": [
           "**\\*a. Liver**",
-          "In which human organs does Plasmodium falciparum parasitize?",
           "b. Small intestine",
           "c. Kidneys",
           "d. Colon"
         ]
       },
       {
-        "question": "Question 21",
+        "question": "Leishmania tropica minor is localized in humans in the cells of:",
         "options": [
           "**\\*b. Skin**",
           "a. Blood",
-          "Leishmania tropica minor is localized in humans in the cells of:",
           "c. Spleens",
           "d. Liver"
         ]
       },
       {
-        "question": "Question 22",
+        "question": "Entamoeba histolytica is:",
         "options": [
           "**\\*d. Obligate parasite**",
           "a. Facultative parasite",
           "b. Temporary parasite",
-          "c. Ectoparasite",
-          "Entamoeba histolytica is:"
+          "c. Ectoparasite"
         ]
       },
       {
-        "question": "Question 23",
+        "question": "Plasmodium vivax, Plasmodium malariae, Plasmodium falciparum, plasmodium ovale differ from each other:",
         "options": [
           "**\\*b. Morphologically**",
           "a. Presence of different intermediate hosts",
-          "Plasmodium vivax, Plasmodium malariae, Plasmodium falciparum, plasmodium ovale differ from each other:",
           "c. The presence of different carriers",
           "d. Presence of different definitive hosts"
         ]
       },
       {
-        "question": "Question 24",
+        "question": "Leishmania donovani belongs to the class:",
         "options": [
           "**\\*b. Zoomastigophorea**",
           "a. Sporozoea",
-          "Leishmania donovani belongs to the class:",
           "c. Apicomplexa",
           "d. Litostomatea"
         ]
       },
       {
-        "question": "Question 25",
+        "question": "Which human organs are parasitized by the large vegetative form of dysenteric amoeba?",
         "options": [
           "**\\*d. Colon wall**",
           "a. Genitourinary tract",
           "b. Small intestinal wall",
-          "c. Colon lumen",
-          "Which human organs are parasitized by the large vegetative form of dysenteric amoeba?"
+          "c. Colon lumen"
         ]
       }
     ],
     "situational": [
       {
-        "question": "Question 1",
+        "question": "Trichomonas vaginalis in the human body determines:",
         "options": [
           "**\\*d. Inflammatory processes in the genital tract**",
           "a. Anemia",
           "b. Enlarged spleen and liver",
-          "c. Depression and drowsiness",
-          "Trichomonas vaginalis in the human body determines:"
+          "c. Depression and drowsiness"
         ]
       },
       {
-        "question": "Question 2",
+        "question": "Balantidium coli is localized in the human body in:",
         "options": [
           "**\\*a. Colon**",
-          "Balantidium coli is localized in the human body in:",
           "b. Liver",
           "c. Heart",
           "d. Small intestine"
         ]
       },
       {
-        "question": "Question 3",
+        "question": "Plasmodium vivax, Plasmodium malariae, Plasmodium falciparum, plasmodium ovale differ from each other:",
         "options": [
           "**\\*b. Morphologically**",
           "a. Presence of different definitive hosts",
-          "Plasmodium vivax, Plasmodium malariae, Plasmodium falciparum, plasmodium ovale differ from each other:",
           "c. Presence of different intermediate hosts",
           "d. The presence of different carriers"
         ]
       },
       {
-        "question": "Question 4",
+        "question": "In which human organ does Giardia parasitize?",
         "options": [
           "**\\*b. Duodenum**",
           "a. Cecum",
-          "In which human organ does Giardia parasitize?",
           "c. Oral cavity",
           "d. Blood"
         ]
       },
       {
-        "question": "Question 5",
+        "question": "In which human organs is the small vegetative form of dysentery amoeba localized?",
         "options": [
           "**\\*c. Colon lumen**",
           "a. Blood",
           "b. Oral cavity",
-          "In which human organs is the small vegetative form of dysentery amoeba localized?",
           "d. Genitourinary tract"
         ]
       }
@@ -4031,263 +3797,237 @@ export const s_1_8 = {
   "t-s-1-8-16": {
     "test": [
       {
-        "question": "Question 1",
+        "question": "Hymenolepis nana is:",
         "options": [
           "**\\*c. Hermaphrodite**",
           "a. Dioecious organism",
           "b. Ectoparasite",
-          "Hymenolepis nana is:",
           "d. Autotroph"
         ]
       },
       {
-        "question": "Question 2",
+        "question": "Taeniarhynchus saginatus is:",
         "options": [
           "**\\*a. Hermaphrodite**",
-          "Taeniarhynchus saginatus is:",
           "b. Autotroph",
           "c. Dioecious organism",
           "d. Ectoparasite"
         ]
       },
       {
-        "question": "Question 3",
+        "question": "Echinococcus granulosus belongs to the class:",
         "options": [
           "**\\*b. Cestoidea**",
           "a. Nematoda",
-          "Echinococcus granulosus belongs to the class:",
           "c. Trematoda",
           "d. Plathelminthes"
         ]
       },
       {
-        "question": "Question 4",
+        "question": "Diphyllobothrium latum is:",
         "options": [
           "**\\*b. Hermaphrodite**",
           "a. Ectoparasite",
-          "Diphyllobothrium latum is:",
           "c. Autotroph",
           "d. Dioecious organism"
         ]
       },
       {
-        "question": "Question 5",
+        "question": "Which helminthiasis belongs to natural focal diseases?",
         "options": [
           "**\\*c. Alveococcosis**",
           "a. Hymenolepiasis",
           "b. Trypanosomiasis",
-          "Which helminthiasis belongs to natural focal diseases?",
           "d. Teniarinhoz"
         ]
       },
       {
-        "question": "Question 6",
+        "question": "Schistosoma haematobium is:",
         "options": [
           "**\\*a. Dioecious organism**",
-          "Schistosoma haematobium is:",
           "b. Saprotroph",
           "c. Hermaphrodite",
           "d. Ectoparasite"
         ]
       },
       {
-        "question": "Question 7",
+        "question": "Fasciola hepatica belongs to the class:",
         "options": [
           "**\\*d. Trematoda**",
           "a. Cestoidea",
           "b. Plathelminthes",
-          "c. Nematoda",
-          "Fasciola hepatica belongs to the class:"
+          "c. Nematoda"
         ]
       },
       {
-        "question": "Question 8",
+        "question": "Opistorchis felineus is:",
         "options": [
           "**\\*a. Hermaphrodite**",
-          "Opistorchis felineus is:",
           "b. Autotroph",
           "c. Ectoparasite",
           "d. Dioecious organism"
         ]
       },
       {
-        "question": "Question 9",
+        "question": "Diphyllobothrium latum belongs to the class:",
         "options": [
           "**\\*b. Cestoidea**",
           "a. Plathelminthes",
-          "Diphyllobothrium latum belongs to the class:",
           "c. Trematoda",
           "d. Nematoda"
         ]
       },
       {
-        "question": "Question 10",
+        "question": "Paragonimus ringeri belongs to the class:",
         "options": [
           "**\\*b. Trematoda**",
           "a. Cestoidea",
-          "Paragonimus ringeri belongs to the class:",
           "c. Plathelminthes",
           "d. Nematoda"
         ]
       },
       {
-        "question": "Question 11",
+        "question": "Dicrocoelium lanceatum belongs to the class:",
         "options": [
           "**\\*d. Trematoda**",
           "a. Plathelminthes",
           "b. Nematoda",
-          "c. Cestoidea",
-          "Dicrocoelium lanceatum belongs to the class:"
+          "c. Cestoidea"
         ]
       },
       {
-        "question": "Question 12",
+        "question": "Opisthorchis felineus belongs to the class:",
         "options": [
           "**\\*c. Trematoda**",
           "a. Cestoidea",
           "b. Plathelminthes",
-          "Opisthorchis felineus belongs to the class:",
           "d. Nematoda"
         ]
       },
       {
-        "question": "Question 13",
+        "question": "Fasciola hepatica is:",
         "options": [
           "**\\*b. Hermaphrodite**",
           "a. Dioecious organism",
-          "Fasciola hepatica is:",
           "c. Ectoparasite",
           "d. Autotroph"
         ]
       },
       {
-        "question": "Question 14",
+        "question": "Schistosoma japonicum belongs to the class:",
         "options": [
           "**\\*b. Trematoda**",
           "a. Cestoidea",
-          "Schistosoma japonicum belongs to the class:",
           "c. Plathelminthes",
           "d. Nematoda"
         ]
       },
       {
-        "question": "Question 15",
+        "question": "Dicrocoelium lanceatum is:",
         "options": [
           "**\\*d. Hermaphrodite**",
           "a. Dioecious organism",
           "b. Autotroph",
-          "c. Ectoparasite",
-          "Dicrocoelium lanceatum is:"
+          "c. Ectoparasite"
         ]
       },
       {
-        "question": "Question 16",
+        "question": "Schistosoma haematobium is localized in humans in:",
         "options": [
           "**\\*a. Veins of the urinary and reproductive systems**",
-          "Schistosoma haematobium is localized in humans in:",
           "b. Blood vessels of the intestines",
           "c. Abdominal veins",
           "d. Veins of the lungs"
         ]
       },
       {
-        "question": "Question 17",
+        "question": "Taenia solium belongs to the class:",
         "options": [
           "**\\*c. Cestoidea**",
           "a. Nematoda",
           "b. Plathelminthes",
-          "Taenia solium belongs to the class:",
           "d. Trematoda"
         ]
       },
       {
-        "question": "Question 18",
+        "question": "Hymenolepis nana belongs to the class:",
         "options": [
           "**\\*b. Cestoidea**",
           "a. Trematoda",
-          "Hymenolepis nana belongs to the class:",
           "c. Nematoda",
           "d. Plathelminthes"
         ]
       },
       {
-        "question": "Question 19",
+        "question": "Hymenolepis nana is localized in humans in:",
         "options": [
           "**\\*c. Small intestines**",
           "a. Spleen",
           "b. In the lungs",
-          "Hymenolepis nana is localized in humans in:",
           "d. Liver"
         ]
       },
       {
-        "question": "Question 20",
+        "question": "Taeniarhynchus saginatus belongs to the class:",
         "options": [
           "**\\*a. Cestoidea**",
-          "Taeniarhynchus saginatus belongs to the class:",
           "b. Nematoda",
           "c. Plathelminthes",
           "d. Trematoda"
         ]
       },
       {
-        "question": "Question 21",
+        "question": "Alveococcus multilocularis belongs to the class:",
         "options": [
           "**\\*c. Cestoidea**",
           "a. Trematoda",
           "b. Plathelminthes",
-          "Alveococcus multilocularis belongs to the class:",
           "d. Nematoda"
         ]
       }
     ],
     "situational": [
       {
-        "question": "Question 1",
+        "question": "Which helminth has a rosette-shaped uterus?",
         "options": [
           "**\\*a. Wide tapeworm**",
-          "Which helminth has a rosette-shaped uterus?",
           "b. Tapeworm unarmed",
           "c. Cat fluke",
           "d. Solitaire is armed"
         ]
       },
       {
-        "question": "Question 2",
+        "question": "In the human body, the complete life cycle goes through:",
         "options": [
           "**\\*b. Hymenolepis nana**",
           "a. Alveococcus multilocularis",
-          "In the human body, the complete life cycle goes through:",
           "c. Taeniarhynchus saginatus",
           "d. Echinococcus granulosus"
         ]
       },
       {
-        "question": "Question 3",
+        "question": "They have two intermediate hosts:",
         "options": [
           "**\\*a. Diphyllobothrium latum**",
-          "They have two intermediate hosts:",
           "b. Taeniarhynchus saginatus",
           "c. Fasciola hepatica",
           "d. Taenia solium"
         ]
       },
       {
-        "question": "Question 4",
+        "question": "Alveococcus multilocularis is:",
         "options": [
           "**\\*c. Hermaphrodite**",
           "a. Dioecious organism",
           "b. Autotroph",
-          "Alveococcus multilocularis is:",
           "d. Ectoparasite"
         ]
       },
       {
-        "question": "Question 5",
+        "question": "What stage do the eggs of the common tapeworm turn into in water?",
         "options": [
           "**\\*b. Koracidi th**",
           "a. Plerocercoid",
-          "What stage do the eggs of the common tapeworm turn into in water?",
           "c. Cysticercus",
           "d. Procercoid"
         ]
@@ -4297,200 +4037,180 @@ export const s_1_8 = {
   "t-s-1-8-18": {
     "test": [
       {
-        "question": "Question 1",
+        "question": "The intermediate host of the causative agent of taeniasis is:",
         "options": [
           "**\\*a. pig**",
-          "The intermediate host of the causative agent of taeniasis is:",
           "b. Cow",
           "c. Dog",
           "d. cat"
         ]
       },
       {
-        "question": "Question 2",
+        "question": "Cestodes are:",
         "options": [
           "**\\*b. Hermaphrodites**",
           "a. Ectoparasites",
-          "Cestodes are:",
           "c. Autotroph",
           "d. Dioecious organisms"
         ]
       },
       {
-        "question": "Question 3",
+        "question": "Taenia solium is:",
         "options": [
           "**\\*d. Hermaphrodite**",
           "a. Ectoparasite",
           "b. Dioecious organism",
-          "c. Autotroph",
-          "Taenia solium is:"
+          "c. Autotroph"
         ]
       },
       {
-        "question": "Question 4",
+        "question": "Trematodes are:",
         "options": [
           "**\\*c. Three-layer animals**",
           "a. Monolayer animals",
           "b. Two-layer animals",
-          "Trematodes are:",
           "d. Four-layer animals"
         ]
       },
       {
-        "question": "Question 5",
+        "question": "The patient was diagnosed with diphyllobothriasis. How could the infection happen?",
         "options": [
           "**\\*b. With undercooked fish**",
           "a. Active penetration of larvae through the skin",
-          "The patient was diagnosed with diphyllobothriasis. How could the infection happen?",
           "c. In contact with a dog",
           "d. Through a mosquito bite"
         ]
       },
       {
-        "question": "Question 6",
+        "question": "In humans, autoinvasion can occur in case of parasitism:",
         "options": [
           "**\\*a. Hymenolepis nana**",
-          "In humans, autoinvasion can occur in case of parasitism:",
           "b. Paragonimus ringeri",
           "c. Echinococcus granulosus",
           "d. Diphyllobothrium latum"
         ]
       },
       {
-        "question": "Question 7",
+        "question": "In a person, the bile ducts can reveal:",
         "options": [
           "**\\*d. Opisthorchis felineus**",
           "a. Taeniarhynhus saginatus",
           "b. Paragonimus ringeri",
-          "c. Diphyllobothrium latum",
-          "In a person, the bile ducts can reveal:"
+          "c. Diphyllobothrium latum"
         ]
       },
       {
-        "question": "Question 8",
+        "question": "What is the difference between the mature segments of porcine and bovine tapeworms?",
         "options": [
           "**\\*b. Number of lateral branches of the uterus**",
           "a. Number of parts of the ovary",
-          "What is the difference between the mature segments of porcine and bovine tapeworms?",
           "c. Presence of cirrus",
           "d. Number of seeds"
         ]
       },
       {
-        "question": "Question 9",
+        "question": "In the life cycle of which helminth can there be autoinvasion?",
         "options": [
           "**\\*c. Eel intestinalis**",
           "a. Ascaris",
           "b. Vlosoglav",
-          "In the life cycle of which helminth can there be autoinvasion?",
           "d. Trichinella"
         ]
       },
       {
-        "question": "Question 10",
+        "question": "The patient was diagnosed with liver echinococcosis. How could the infection occur?",
         "options": [
           "**\\*c. Swallowing eggs**",
           "a. With undercooked pork",
           "b. Active penetration of larvae through the skin",
-          "The patient was diagnosed with liver echinococcosis. How could the infection occur?",
           "d. With undercooked fish"
         ]
       },
       {
-        "question": "Question 11",
+        "question": "Which of the following flukes has one intermediate host in the development cycle?",
         "options": [
           "**\\*d. Fasciola hepatica**",
           "a. Opisthorchis felineus",
           "b. Clonorchis sinensis",
-          "c. Paragonimus ringeri",
-          "Which of the following flukes has one intermediate host in the development cycle?"
+          "c. Paragonimus ringeri"
         ]
       },
       {
-        "question": "Question 12",
+        "question": "The first intermediate host of Dicrocoelium lanceatum is:",
         "options": [
           "**\\*d. Mollusk of the genus Zebrina or Helicella**",
           "a. Mollusk of the genus Melania",
           "b. Ants of the genus Formica",
-          "c. Small pond snail (Galba truncatula)",
-          "The first intermediate host of Dicrocoelium lanceatum is:"
+          "c. Small pond snail (Galba truncatula)"
         ]
       },
       {
-        "question": "Question 13",
+        "question": "Echinococcus strobila contains:",
         "options": [
           "**\\*b. 3-4 segments**",
           "a. 5-7 segments",
-          "Echinococcus strobila contains:",
           "c. 200 members",
           "d. 50-70 members"
         ]
       },
       {
-        "question": "Question 14",
+        "question": "The cercarium enters the human body:",
         "options": [
           "**\\*c. Actively**",
           "a. By transmission",
           "b. Passively",
-          "The cercarium enters the human body:",
           "d. Sexually"
         ]
       },
       {
-        "question": "Question 15",
+        "question": "In the life cycle of which helminth the intermediate hosts are mouse-like rodents and, occasionally, humans?",
         "options": [
           "**\\*b. Alveococcus multilocularis**",
           "a. Fasciola hepatica",
-          "In the life cycle of which helminth the intermediate hosts are mouse-like rodents and, occasionally, humans?",
           "c. Opisthorchis felineus",
           "d. Paragonimus ringeri"
         ]
       },
       {
-        "question": "Question 16",
+        "question": "In the life cycle of which helminth is a person a blind branch?",
         "options": [
           "**\\*a. Echinococcus**",
-          "In the life cycle of which helminth is a person a blind branch?",
           "b. Solitaire armed",
           "c. Tapeworm unarmed",
           "d. Wide tapeworm"
         ]
       },
       {
-        "question": "Question 17",
+        "question": "In the life cycle of which helminth are Cyclops and freshwater fish the intermediate hosts?",
         "options": [
           "**\\*b. Diphyllobothrium latum**",
           "a. Opisthorchis felineus",
-          "In the life cycle of which helminth are Cyclops and freshwater fish the intermediate hosts?",
           "c. Taeniarhynhus saginatus",
           "d. Paragonimus ringeri"
         ]
       },
       {
-        "question": "Question 18",
+        "question": "The definitive host of the causative agent of taeniasis is:",
         "options": [
           "**d. Human**",
           "a. Pig",
           "b. Dog",
-          "c. Cat",
-          "The definitive host of the causative agent of taeniasis is:"
+          "c. Cat"
         ]
       },
       {
-        "question": "Question 19",
+        "question": "The dwarf tapeworm parasitizes humans in:",
         "options": [
           "**\\*c. Small intestine**",
           "a. Colon",
           "b. Pancreas",
-          "The dwarf tapeworm parasitizes humans in:",
           "d. Liver"
         ]
       },
       {
-        "question": "Question 20",
+        "question": "The invasive stage can enter the human body through the percutaneous route:",
         "options": [
           "**\\*a. Schistosoma japonicum**",
-          "The invasive stage can enter the human body through the percutaneous route:",
           "b. Fasciola hepatica",
           "c. Opisthorchis felineus",
           "d. Paragonimus ringeri"
@@ -4499,71 +4219,64 @@ export const s_1_8 = {
     ],
     "situational": [
       {
-        "question": "Question 1",
+        "question": "What are the names of diseases caused by flukes?",
         "options": [
           "**\\*c. Trematodes**",
           "a. Nematodes",
           "b. Cestodoses",
-          "What are the names of diseases caused by flukes?",
           "d. Protozoa"
         ]
       },
       {
-        "question": "Question 2",
+        "question": "Which of the following helminths parasitizes the human lungs?",
         "options": [
           "**\\*a. Paragonimus ringeri**",
-          "Which of the following helminths parasitizes the human lungs?",
           "b. Taenia solium",
           "c. Diphyllobothrium latum",
           "d. Taeniarhynhus saginatus"
         ]
       },
       {
-        "question": "Question 3",
+        "question": "Which helminth eggs can be detected in urine?",
         "options": [
           "**\\*b. Schistosoma haematobium**",
           "a. Fasciola hepatica",
-          "Which helminth eggs can be detected in urine?",
           "c. Paragonimus vestermani",
           "d. Opisthorchis felineus"
         ]
       },
       {
-        "question": "Question 4",
+        "question": "Which of the following measures belongs to the prevention of paragonimiasis?",
         "options": [
           "**\\*a. It is good to heat process freshwater crayfish and crabs**",
-          "Which of the following measures belongs to the prevention of paragonimiasis?",
           "b. Do not drink water from open reservoirs",
           "c. Wash hands, vegetables, berries",
           "d. Cook fish well"
         ]
       },
       {
-        "question": "Question 5",
+        "question": "What disease is caused by the larval stage of the armed tapeworm?",
         "options": [
           "**\\*a. Cysticercosis**",
-          "What disease is caused by the larval stage of the armed tapeworm?",
           "b. Diphyllobothriasis",
           "c. Taeniasis",
           "d. Teniarinhoz"
         ]
       },
       {
-        "question": "Question 6",
+        "question": "Which helminth eggs can be detected in duodenal contents?",
         "options": [
           "**\\*d. Cat fluke**",
           "a. Dwarf tapeworm",
           "b. Echinococcus",
-          "c. Alveococcus",
-          "Which helminth eggs can be detected in duodenal contents?"
+          "c. Alveococcus"
         ]
       },
       {
-        "question": "Question 7",
+        "question": "What sign do cestodes have?",
         "options": [
           "**\\*b. No digestive system**",
           "a. There is a primary body cavity",
-          "What sign do cestodes have?",
           "c. Round on the cross section",
           "d. Oral and ventral suckers"
         ]
@@ -4573,180 +4286,162 @@ export const s_1_8 = {
   "t-s-1-8-19": {
     "test": [
       {
-        "question": "Question  1",
+        "question": "Select the correct answer: Enterobius vermicularis:",
         "options": [
           "**\\*a. Localized in the lower part of the small intestine and in the upper part of the large intestine**",
-          "Select the correct answer: Enterobius vermicularis:",
           "b. Is a hermaphrodite",
           "c. Has a circulatory system",
           "d. Has a respiratory system"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "Choose the correct answer : Trichocephalus trichiurus:",
         "options": [
           "**\\*c. Localized in the large intestine**",
           "a. Has a circulatory system",
           "b. Is a hermaphrodite",
-          "Choose the correct answer : Trichocephalus trichiurus:",
           "d. Has a respiratory system"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "Primary body cavity",
         "options": [
           "**\\*b. Absence of the posterior digestive system**",
           "a. No body cavity",
-          "Primary body cavity",
           "c. Closed circulatory system",
           "d. Select the correct answer: Ancylostoma duodenale:"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "Which parasite dips its thin anterior end into the intestinal mucosa for attachment and nutrition?",
         "options": [
           "**\\*a. Trichocephalus trichiurus**",
-          "Which parasite dips its thin anterior end into the intestinal mucosa for attachment and nutrition?",
           "b. Enterobius vermicularis",
           "c. Loa loa",
           "d. Ascaris lumbricoides"
         ]
       },
       {
-        "question": "Question  6",
+        "question": "Ancylostoma duodenale",
         "options": [
           "**\\*d. Trichinella spiralis**",
           "a. What helminth can a person become infected in two ways: through the skin and through the mouth?",
           "b. Paragonimus ringeri",
-          "c. Opisthorchis felineus",
-          "Ancylostoma duodenale"
+          "c. Opisthorchis felineus"
         ]
       },
       {
-        "question": "Question  7",
+        "question": "Trichocephalus trichiurus",
         "options": [
           "**\\*d. Ascaris lumbricoides**",
           "a. Diphyllobothrium latum",
           "b. What helminth does a person become infected with through transmission?",
-          "c. Enterobius vermicularis",
-          "Trichocephalus trichiurus"
+          "c. Enterobius vermicularis"
         ]
       },
       {
-        "question": "Question  8",
+        "question": "What parasites attach to the intestinal wall using a bulbus and vesicle?",
         "options": [
           "**\\*c. Enterobius vermicularis**",
           "a. Necator americanus",
           "b. Trichocephalus trichiurus",
-          "What parasites attach to the intestinal wall using a bulbus and vesicle?",
           "d. Ascaris lumbricoides"
         ]
       },
       {
-        "question": "Question  9",
+        "question": "What kind of nematode disease can you get through pork or wild animal meat?",
         "options": [
           "**\\*a. Trichinosis**",
-          "What kind of nematode disease can you get through pork or wild animal meat?",
           "b. Wuchereriosis",
           "c. Brugioz",
           "d. Loaloz"
         ]
       },
       {
-        "question": "Question  10",
+        "question": "Representatives of the class Proper roundworms do not have:",
         "options": [
           "**\\*d. Respiratory system**",
           "a. Excretory system",
           "b. Reproductive system",
-          "c. Nervous system",
-          "Representatives of the class Proper roundworms do not have:"
+          "c. Nervous system"
         ]
       },
       {
-        "question": "Question  11",
+        "question": "What kind of nematode infection can you get from unwashed hands, vegetables and fruits?",
         "options": [
           "**\\*a. Enterobiasis**",
-          "What kind of nematode infection can you get from unwashed hands, vegetables and fruits?",
           "b. Trichinosis",
           "c. Wuchereriosis",
           "d. Loaloz"
         ]
       },
       {
-        "question": "Question  12",
+        "question": "Select the correct answer: Trichinella spiralis:",
         "options": [
           "**\\*a. Is a biohelminth**",
-          "Select the correct answer: Trichinella spiralis:",
           "b. Is a hermaphrodite",
           "c. Has a circulatory system",
           "d. Has a respiratory system"
         ]
       },
       {
-        "question": "Question  13",
+        "question": "What kind of nematode infection can you get from unwashed hands, vegetables and fruits?",
         "options": [
           "**\\*a. Trichocephalosis**",
-          "What kind of nematode infection can you get from unwashed hands, vegetables and fruits?",
           "b. Wuchereriosis",
           "c. Loaloz",
           "d. Trichinosis"
         ]
       },
       {
-        "question": "Question  14",
+        "question": "Has an oral capsule with 4 cutting teeth",
         "options": [
           "**\\*d. Has a circulatory system**",
           "a. Is a hermaphrodite",
           "b. Has a respiratory system",
-          "c. Is a biohelminth",
-          "Has an oral capsule with 4 cutting teeth"
+          "c. Is a biohelminth"
         ]
       },
       {
-        "question": "Question  15",
+        "question": "Wash your hands before eating",
         "options": [
           "**\\*d. Thermally process meat**",
           "a. Veterinary examination of meat",
           "b. Thermally process fish",
-          "c. What parasite feeds on blood?",
-          "Wash your hands before eating"
+          "c. What parasite feeds on blood?"
         ]
       },
       {
-        "question": "Question  16",
+        "question": "The pulmonary and intestinal stage of the disease is observed with:",
         "options": [
           "**\\*a. Ascariasis**",
-          "The pulmonary and intestinal stage of the disease is observed with:",
           "b. Trichocephalosis",
           "c. Loalose",
           "d. Enterobiasis"
         ]
       },
       {
-        "question": "Question  17",
+        "question": "Representatives of the class Proper roundworms do not have:",
         "options": [
           "**\\*c. Circulatory system**",
           "a. Nervous system",
           "b. Excretory system",
-          "Representatives of the class Proper roundworms do not have:",
           "d. Reproductive system"
         ]
       },
       {
-        "question": "Question  18",
+        "question": "Select the correct answer: Ascaris lumbricoides:",
         "options": [
           "**\\*d. Does not have special fixation organs**",
           "a. Has a circulatory system",
           "b. Is a hermaphrodite",
-          "c. Has a respiratory system",
-          "Select the correct answer: Ascaris lumbricoides:"
+          "c. Has a respiratory system"
         ]
       },
       {
-        "question": "Question  19",
+        "question": "Wuhereria",
         "options": [
           "**\\*a. Echinococcus**",
-          "Wuhereria",
           "b. Alveococcus",
           "c. What helminth does a person become infected through the active penetration of larvae through the skin?",
           "d. Pinworm"
@@ -4755,53 +4450,48 @@ export const s_1_8 = {
     ],
     "situational": [
       {
-        "question": "Question  1",
+        "question": "Ancylostoma duodenale belongs to the class:",
         "options": [
           "**\\*d. Nematoda**",
           "a. Trematoda",
           "b. Plathelminthes",
-          "c. Cestoidea",
-          "Ancylostoma duodenale belongs to the class:"
+          "c. Cestoidea"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "Ancylostoma duodenale is:",
         "options": [
           "**\\*a. Dioecious organism**",
-          "Ancylostoma duodenale is:",
           "b. Ectoparasite",
           "c. Autotroph",
           "d. Hermaphrodite"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "Ascaris lumbricoides is:",
         "options": [
           "**\\*a. Dioecious organism**",
-          "Ascaris lumbricoides is:",
           "b. Autotroph",
           "c. Hermaphrodite",
           "d. Ectoparasite"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "Ancylostoma duodenale is:",
         "options": [
           "**\\*b. Geohelminth**",
           "a. Hermaphrodite",
-          "Ancylostoma duodenale is:",
           "c. Ectoparasite",
           "d. Biohelminth"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "\"Elephantiasis\" is a symptom of:",
         "options": [
           "**\\*d. Wuhereriosis**",
           "a. Onchocerciasis",
           "b. Brugioze",
-          "c. Loalose",
-          "\"Elephantiasis\" is a symptom of:"
+          "c. Loalose"
         ]
       }
     ]
@@ -4809,451 +4499,406 @@ export const s_1_8 = {
   "t-s-1-8-20": {
     "test": [
       {
-        "question": "Question 1",
+        "question": "Lamblia intestinalis is localized in the human body in:",
         "options": [
           "**\\*d. duodenum**",
           "a. Oral cavity",
           "b. Caecum",
-          "c. Rectum",
-          "Lamblia intestinalis is localized in the human body in:"
+          "c. Rectum"
         ]
       },
       {
-        "question": "Question 2",
+        "question": "Trichomonas vaginalis in the human body determines:",
         "options": [
           "**\\*a. Inflammatory processes in the genital tract**",
-          "Trichomonas vaginalis in the human body determines:",
           "b. Enlarged spleen and liver",
           "c. Anemia",
           "d. Depression and drowsiness"
         ]
       },
       {
-        "question": "Question 3",
+        "question": "Skin ulcers are typical for:",
         "options": [
           "**\\*c. Cutaneous leishmaniasis**",
           "a. Toxoplasmosis",
           "b. Chagas' diseases",
-          "Skin ulcers are typical for:",
           "d. Visceral leishmaniasis"
         ]
       },
       {
-        "question": "Question 4",
+        "question": "Entamoeba histolytica forma minuta is:",
         "options": [
           "**\\*a. Commensal**",
-          "Entamoeba histolytica forma minuta is:",
           "b. Parasite",
           "c. Erythrophage",
           "d. Pathogenic form"
         ]
       },
       {
-        "question": "Question 5",
+        "question": "In which human organs does Plasmodium falciparum parasitize?",
         "options": [
           "**\\*b. Liver**",
-          "In which human organs does Plasmodium falciparum parasitize?",
           "a. Kidneys",
           "c. Colon",
           "d. Small intestine"
         ]
       },
       {
-        "question": "Question 6",
+        "question": "In which human organ does Plasmodium falciparum parasitize?",
         "options": [
           "**\\*d. Blood**",
           "a. Small intestine",
           "b. Colon",
-          "c. Genitourinary tract",
-          "In which human organ does Plasmodium falciparum parasitize?"
+          "c. Genitourinary tract"
         ]
       },
       {
-        "question": "Question 7",
+        "question": "Dracunculus medinensis belongs to the class:",
         "options": [
           "**\\*d. Nematoda**",
           "a. Cestoidea",
           "b. Plathelminthes",
-          "c. Trematoda",
-          "Dracunculus medinensis belongs to the class:"
+          "c. Trematoda"
         ]
       },
       {
-        "question": "Question 8",
+        "question": "Enterobius vermicularis is localized in humans in:",
         "options": [
           "**\\*b. Upper colon**",
           "a. Lower colon",
-          "Enterobius vermicularis is localized in humans in:",
           "c. Liver",
           "d. Upper small intestine"
         ]
       },
       {
-        "question": "Question 9",
+        "question": "Trichinella spiralis is:",
         "options": [
           "**\\*d. Dioecious organism**",
           "a. Hermaphrodite",
           "b. Autotroph",
-          "c. Ectoparasite",
-          "Trichinella spiralis is:"
+          "c. Ectoparasite"
         ]
       },
       {
-        "question": "Question 10",
+        "question": "Which human organs are parasitized by the large vegetative form of dysenteric amoeba?",
         "options": [
           "**\\*d. Colon wall**",
           "a. Colon lumen",
           "b. Small intestinal wall",
-          "c. Genitourinary tract",
-          "Which human organs are parasitized by the large vegetative form of dysenteric amoeba?"
+          "c. Genitourinary tract"
         ]
       },
       {
-        "question": "Question 11",
+        "question": "Trichocephalus trichiurus is:",
         "options": [
           "**\\*b. Dioecious organism**",
           "a. Ectoparasite",
-          "Trichocephalus trichiurus is:",
           "c. Autotroph",
           "d. Hermaphrodite"
         ]
       },
       {
-        "question": "Question 12",
+        "question": "Dracunculus medinensis is:",
         "options": [
           "**\\*a. Biohelminth**",
-          "Dracunculus medinensis is:",
           "b. Ectoparasite",
           "c. Geohelminth",
           "d. Hermaphrodite"
         ]
       },
       {
-        "question": "Question 13",
+        "question": "Enterobius vermicularis belongs to the class:",
         "options": [
           "**\\*a. Nematoda**",
-          "Enterobius vermicularis belongs to the class:",
           "b. Plathelminthes",
           "c. Cestoidea",
           "d. Trematoda"
         ]
       },
       {
-        "question": "Question 14",
+        "question": "Leishmania donovani belongs to the class:",
         "options": [
           "**\\*a. Zoomastigophorea**",
-          "Leishmania donovani belongs to the class:",
           "b. Sporozoea",
           "c. Apicomplexa",
           "d. Litostomatea"
         ]
       },
       {
-        "question": "Question 15",
+        "question": "Trichinella spiralis is:",
         "options": [
           "**\\*d. Biohelminth**",
           "a. Hermaphrodite",
           "b. Ectoparasite",
-          "c. Geohelminth",
-          "Trichinella spiralis is:"
+          "c. Geohelminth"
         ]
       },
       {
-        "question": "Question 16",
+        "question": "Ascaris lumbricoides belongs to the class:",
         "options": [
           "**\\*c. Nematoda**",
           "a. Trematoda",
           "b. Cestoidea",
-          "Ascaris lumbricoides belongs to the class:",
           "d. Plathelminthes"
         ]
       },
       {
-        "question": "Question 17",
+        "question": "In which human organs is Entamoeba coli localized?",
         "options": [
           "**\\*d. Colon**",
           "a. Blood",
           "b. Genitourinary tract",
-          "c. Small intestine",
-          "In which human organs is Entamoeba coli localized?"
+          "c. Small intestine"
         ]
       },
       {
-        "question": "Question 18",
+        "question": "Plasmodium vivax, Plasmodium malariae, Plasmodium falciparum, plasmodium ovale differ from each other:",
         "options": [
           "**\\*d. Morphologically**",
           "a. The presence of different carriers",
           "b. Presence of different definitive hosts",
-          "c. Presence of different intermediate hosts",
-          "Plasmodium vivax, Plasmodium malariae, Plasmodium falciparum, plasmodium ovale differ from each other:"
+          "c. Presence of different intermediate hosts"
         ]
       },
       {
-        "question": "Question 19",
+        "question": "Which human organs does Trichomonas vaginalis parasitize?",
         "options": [
           "**\\*c. Genitourinary tract**",
           "a. Cerebrospinal fluid",
           "b. Small intestine",
-          "Which human organs does Trichomonas vaginalis parasitize?",
           "d. Blood"
         ]
       },
       {
-        "question": "Question 20",
+        "question": "In which human organ does Giardia parasitize?",
         "options": [
           "**\\*b. Duodenum**",
           "a. Blood",
-          "In which human organ does Giardia parasitize?",
           "c. Cecum",
           "d. Oral cavity"
         ]
       },
       {
-        "question": "Question 21",
+        "question": "Protozoa in unfavorable conditions form:",
         "options": [
           "**\\*c. Cysts**",
           "a. Oocyst",
           "b. Controversy",
-          "Protozoa in unfavorable conditions form:",
           "d. Zoospores"
         ]
       },
       {
-        "question": "Question 22",
+        "question": "In which human organs is Trichomonas hominis localized?",
         "options": [
           "**\\*a. Colon**",
-          "In which human organs is Trichomonas hominis localized?",
           "b. Liver",
           "c. Oral cavity",
           "d. Lungs"
         ]
       },
       {
-        "question": "Question 23",
+        "question": "Loa loa is:",
         "options": [
           "**\\*a. Dioecious organism**",
-          "Loa loa is:",
           "b. Ectoparasite",
           "c. Autotroph",
           "d. Hermaphrodite"
         ]
       },
       {
-        "question": "Question 24",
+        "question": "Wuchereria bancrofti is:",
         "options": [
           "**\\*b. Dioecious organism**",
           "a. Hermaphrodite",
-          "Wuchereria bancrofti is:",
           "c. Ectoparasite",
           "d. Autotroph"
         ]
       },
       {
-        "question": "Question 25",
+        "question": "Trypanosoma cruzi belongs to the class:",
         "options": [
           "**\\*d. Zoomastigophorea**",
           "a. Lobosea",
           "b. Litostomatea",
-          "c. Sporozoea",
-          "Trypanosoma cruzi belongs to the class:"
+          "c. Sporozoea"
         ]
       },
       {
-        "question": "Question 26",
+        "question": "Trichinella spiralis belongs to the class:",
         "options": [
           "**\\*b. Nematoda**",
           "a. Plathelminthes",
-          "Trichinella spiralis belongs to the class:",
           "c. Trematoda",
           "d. Cestoidea"
         ]
       },
       {
-        "question": "Question 27",
+        "question": "In which human organs is the small vegetative form of dysentery amoeba localized?",
         "options": [
           "**\\*b. Colon lumen**",
           "a. Oral cavity",
-          "In which human organs is the small vegetative form of dysentery amoeba localized?",
           "c. Blood",
           "d. Genitourinary tract"
         ]
       },
       {
-        "question": "Question 28",
+        "question": "Enterobius vermicularis is:",
         "options": [
           "**\\*d. Geohelminth**",
           "a. Ectoparasite",
           "b. Hermaphrodite",
-          "c. Biohelminth",
-          "Enterobius vermicularis is:"
+          "c. Biohelminth"
         ]
       },
       {
-        "question": "Question 29",
+        "question": "Leishmania tropica minor is localized in humans in the cells of:",
         "options": [
           "**\\*c. Skin**",
           "a. Blood",
           "b. Spleens",
-          "Leishmania tropica minor is localized in humans in the cells of:",
           "d. Liver"
         ]
       },
       {
-        "question": "Question 30",
+        "question": "Balantidium coli is localized in the human body in:",
         "options": [
           "**\\*b. Colon**",
           "a. Small intestine",
-          "Balantidium coli is localized in the human body in:",
           "c. Liver",
           "d. Heart"
         ]
       },
       {
-        "question": "Question 31",
+        "question": "Entamoeba histolytica forma magna is:",
         "options": [
           "**\\*d. Large fabric form**",
           "a. Large lumen form",
           "b. Small fabric form",
-          "c. Small lumen form",
-          "Entamoeba histolytica forma magna is:"
+          "c. Small lumen form"
         ]
       },
       {
-        "question": "Question 32",
+        "question": "Ascaris lumbricoides is:",
         "options": [
           "**\\*c. Geohelminth**",
           "a. Biohelminth",
           "b. Ectoparasite",
-          "Ascaris lumbricoides is:",
           "d. Hermaphrodite"
         ]
       },
       {
-        "question": "Question 33",
+        "question": "Which human organ is parasitized by dermatotropic leishmania?",
         "options": [
           "**\\*a. Leather**",
-          "Which human organ is parasitized by dermatotropic leishmania?",
           "b. Small intestine",
           "c. Colon",
           "d. Oral cavity"
         ]
       },
       {
-        "question": "Question 34",
+        "question": "Plasmodium falciparum belongs to the class:",
         "options": [
           "**\\*c. Sporozoea**",
           "a. Lobosea",
           "b. Zoomastigophorea",
-          "Plasmodium falciparum belongs to the class:",
           "d. Litostomatea"
         ]
       },
       {
-        "question": "Question 35",
+        "question": "Dracunculus medinensis is:",
         "options": [
           "**\\*c. Dioecious organism**",
           "a. Ectoparasite",
           "b. Autotroph",
-          "Dracunculus medinensis is:",
           "d. Hermaphrodite"
         ]
       },
       {
-        "question": "Question 36",
+        "question": "Trichocephalus trichiurus is:",
         "options": [
           "**\\*a. Geohelminth**",
-          "Trichocephalus trichiurus is:",
           "b. Ectoparasite",
           "c. Biohelminth",
           "d. Hermaphrodite"
         ]
       },
       {
-        "question": "Question 37",
+        "question": "Entamoeba histolytica belongs to the class:",
         "options": [
           "**\\*c. Lobosea**",
           "a. Zoomastigophorea",
           "b. Sporozoea",
-          "Entamoeba histolytica belongs to the class:",
           "d. Litostomatea"
         ]
       },
       {
-        "question": "Question 38",
+        "question": "In which human organs do dysenteric amoeba cysts form?",
         "options": [
           "**\\*d. Colon lumen**",
           "a. Genitourinary tract",
           "b. Oral cavity",
-          "c. Blood",
-          "In which human organs do dysenteric amoeba cysts form?"
+          "c. Blood"
         ]
       },
       {
-        "question": "Question 39",
+        "question": "Loa loa belongs to the class:",
         "options": [
           "**\\*c. Nematoda**",
           "a. Cestoidea",
           "b. Plathelminthes",
-          "Loa loa belongs to the class:",
           "d. Trematoda"
         ]
       },
       {
-        "question": "Question 40",
+        "question": "Entamoeba histolytica is:",
         "options": [
           "**\\*d. Obligate parasite**",
           "a. Temporary parasite",
           "b. Ectoparasite",
-          "c. Facultative parasite",
-          "Entamoeba histolytica is:"
+          "c. Facultative parasite"
         ]
       },
       {
-        "question": "Question 41",
+        "question": "Plasmodium malariae belongs to the class:",
         "options": [
           "**\\*c. Sporozoea**",
           "a. Lobosea",
           "b. Litostomatea",
-          "Plasmodium malariae belongs to the class:",
           "d. Zoomastigophorea"
         ]
       },
       {
-        "question": "Question 42",
+        "question": "Trichocephalus trichiurus belongs to the class:",
         "options": [
           "**\\*b. Nematoda**",
           "a. Cestoidea",
-          "Trichocephalus trichiurus belongs to the class:",
           "c. Plathelminthes",
           "d. Trematoda"
         ]
       },
       {
-        "question": "Question 43",
+        "question": "Enterobius vermicularis is:",
         "options": [
           "**\\*a. Dioecious organism**",
-          "Enterobius vermicularis is:",
           "b. Hermaphrodite",
           "c. Autotroph",
           "d. Ectoparasite"
         ]
       },
       {
-        "question": "Question 44",
+        "question": "Wuchereria bancrofti belongs to the class:",
         "options": [
           "**\\*b. Nematoda**",
           "a. Cestoidea",
-          "Wuchereria bancrofti belongs to the class:",
           "c. Trematoda",
           "d. Plathelminthes"
         ]
       },
       {
-        "question": "Question 45",
+        "question": "Autoinvasion is possible when:",
         "options": [
           "**\\*b. Enterobiasis**",
           "a. Trichinosis",
-          "Autoinvasion is possible when:",
           "c. Trichocephalosis",
           "d. Ascariasis"
         ]
@@ -5261,92 +4906,83 @@ export const s_1_8 = {
     ],
     "situational": [
       {
-        "question": "Question 1",
+        "question": "Entamoeba histolytica forma minuta is:",
         "options": [
           "**\\*b. Commensal**",
           "a. Erythrophage",
-          "Entamoeba histolytica forma minuta is:",
           "c. Parasite",
           "d. Pathogenic form"
         ]
       },
       {
-        "question": "Question 2",
+        "question": "Which nematode is characterized by the birth of live larvae?",
         "options": [
           "**\\*d. Guinea worm**",
           "a. Eel intestinalis",
           "b. Ascaris human",
-          "c. Pinworm",
-          "Which nematode is characterized by the birth of live larvae?"
+          "c. Pinworm"
         ]
       },
       {
-        "question": "Question 3",
+        "question": "Which human organs are parasitized by the large vegetative form of dysenteric amoeba?",
         "options": [
           "**\\*d. Colon wall**",
           "a. Colon lumen",
           "b. Genitourinary tract",
-          "c. Small intestinal wall",
-          "Which human organs are parasitized by the large vegetative form of dysenteric amoeba?"
+          "c. Small intestinal wall"
         ]
       },
       {
-        "question": "Question 4",
+        "question": "Balantidium coli is localized in the human body in:",
         "options": [
           "**\\*c. Colon**",
           "a. Liver",
           "b. Small intestine",
-          "Balantidium coli is localized in the human body in:",
           "d. Heart"
         ]
       },
       {
-        "question": "Question 5",
+        "question": "Which human organ is parasitized by dermatotropic leishmania?",
         "options": [
           "**\\*c. Leather**",
           "a. Colon",
           "b. Small intestine",
-          "Which human organ is parasitized by dermatotropic leishmania?",
           "d. Oral cavity"
         ]
       },
       {
-        "question": "Question 6",
+        "question": "Enterobius vermicularis is localized in humans in:",
         "options": [
           "**\\*b. Upper colon**",
           "a. Upper small intestine",
-          "Enterobius vermicularis is localized in humans in:",
           "c. Liver",
           "d. Lower colon"
         ]
       },
       {
-        "question": "Question 7",
+        "question": "In which human organs is the small vegetative form of dysentery amoeba localized?",
         "options": [
           "**\\*d. Colon lumen**",
           "a. Oral cavity",
           "b. Blood",
-          "c. Genitourinary tract",
-          "In which human organs is the small vegetative form of dysentery amoeba localized?"
+          "c. Genitourinary tract"
         ]
       },
       {
-        "question": "Question 8",
+        "question": "Plasmodium vivax, Plasmodium malariae, Plasmodium falciparum, plasmodium ovale differ from each other:",
         "options": [
           "**\\*a. Morphologically**",
-          "Plasmodium vivax, Plasmodium malariae, Plasmodium falciparum, plasmodium ovale differ from each other:",
           "b. The presence of different carriers",
           "c. Presence of different definitive hosts",
           "d. Presence of different intermediate hosts"
         ]
       },
       {
-        "question": "Question 9",
+        "question": "In which human organ does Plasmodium falciparum parasitize?",
         "options": [
           "**\\*c. Blood**",
           "a. Small intestine",
           "b. Genitourinary tract",
-          "In which human organ does Plasmodium falciparum parasitize?",
           "d. Colon"
         ]
       }
@@ -5355,211 +4991,190 @@ export const s_1_8 = {
   "t-s-1-8-21": {
     "test": [
       {
-        "question": "Question 1",
+        "question": "The causative agents of plague in the body of fleas are localized in:",
         "options": [
           "**\\*d. Digestive system**",
           "a. Circulatory system",
           "b. Reproductive system",
-          "c. Nervous system",
-          "The causative agents of plague in the body of fleas are localized in:"
+          "c. Nervous system"
         ]
       },
       {
-        "question": "Question 2",
+        "question": "Select a permanent human ectoparasite:",
         "options": [
           "**\\*d. Pediculus capitis**",
           "a. Anopheles dirus",
           "b. Culex pipiens",
-          "c. Cimex lectularis",
-          "Select a permanent human ectoparasite:"
+          "c. Cimex lectularis"
         ]
       },
       {
-        "question": "Question 3",
+        "question": "Select a temporary human ectoparasite:",
         "options": [
           "**\\*d. Ixodes persulcatus**",
           "a. Pediculus corporis",
           "b. Demodex folliculorum",
-          "c. Phthirus pubis",
-          "Select a temporary human ectoparasite:"
+          "c. Phthirus pubis"
         ]
       },
       {
-        "question": "Question 4",
+        "question": "Select a permanent human ectoparasite:",
         "options": [
           "**\\*c. Pediculus corporis**",
           "a. Cimex lectularis",
           "b. Anopheles dirus",
-          "Select a permanent human ectoparasite:",
           "d. Culex pipiens"
         ]
       },
       {
-        "question": "Question 5",
+        "question": "Select the human ectoparasite:",
         "options": [
           "**\\*d. Culex pipiens**",
           "a. Pediculus corporis",
           "b. Phthirus pubis",
-          "c. Demodex folliculorum",
-          "Select the human ectoparasite:"
+          "c. Demodex folliculorum"
         ]
       },
       {
-        "question": "Question 6",
+        "question": "Select a permanent human ectoparasite:",
         "options": [
           "**\\*d. Demodex folliculorum**",
           "a. Cimex lectularis",
           "b. Anopheles dirus",
-          "c. Culex pipiens",
-          "Select a permanent human ectoparasite:"
+          "c. Culex pipiens"
         ]
       },
       {
-        "question": "Question 7",
+        "question": "Select the human ectoparasite:",
         "options": [
           "**\\*b. Anopheles dirus**",
           "a. Demodex folliculorum",
-          "Select the human ectoparasite:",
           "c. Phthirus pubis",
           "d. Pediculus corporis"
         ]
       },
       {
-        "question": "Question 8",
+        "question": "What group of mites does the scabies mite belong to?",
         "options": [
           "**\\*a. Acariformes**",
-          "What group of mites does the scabies mite belong to?",
           "b. Argaceae",
           "c. Ixodidae",
           "d. Parasitiformes"
         ]
       },
       {
-        "question": "Question 9",
+        "question": "Geographical distribution of the bed bug:",
         "options": [
           "**\\*b. Everywhere**",
           "a. Asia",
-          "Geographical distribution of the bed bug:",
           "c. Africa",
           "d. South and North America"
         ]
       },
       {
-        "question": "Question 10",
+        "question": "Select a permanent human ectoparasite:",
         "options": [
           "**\\*d. Phthirus pubis**",
           "a. Cimex lectularis",
           "b. Culex pipiens",
-          "c. Anopheles dirus",
-          "Select a permanent human ectoparasite:"
+          "c. Anopheles dirus"
         ]
       },
       {
-        "question": "Question 11",
+        "question": "Where is the scabies mite located?",
         "options": [
           "**\\*c. The stratum corneum of the epidermis of the skin**",
           "a. hairy part",
           "b. Sebaceous glands",
-          "Where is the scabies mite located?",
           "d. Underwear and bed linen"
         ]
       },
       {
-        "question": "Question 12",
+        "question": "For which helminths are higher crayfish intermediate hosts?",
         "options": [
           "**\\*c. Pulmonary fluke**",
           "a. Microfilaria",
           "b. Schistosoma",
-          "For which helminths are higher crayfish intermediate hosts?",
           "d. Rishta"
         ]
       },
       {
-        "question": "Question 13",
+        "question": "What stage do the eggs of the common tapeworm turn into in water?",
         "options": [
           "**\\*b. Koracidi th**",
           "a. Cysticercus",
-          "What stage do the eggs of the common tapeworm turn into in water?",
           "c. Procercoid",
           "d. Plerocercoid"
         ]
       },
       {
-        "question": "Question 14",
+        "question": "In what stage do Anopheles and Culex mosquitoes overwinter?",
         "options": [
           "**\\*a. Fertilized females**",
-          "In what stage do Anopheles and Culex mosquitoes overwinter?",
           "b. Doll",
           "c. Males",
           "d. Larva"
         ]
       },
       {
-        "question": "Question 15",
+        "question": "Select a permanent human ectoparasite:",
         "options": [
           "**\\*d. Sarcoptes scabiei**",
           "a. Culex pipiens",
           "b. Cimex lectularis",
-          "c. Anopheles dirus",
-          "Select a permanent human ectoparasite:"
+          "c. Anopheles dirus"
         ]
       },
       {
-        "question": "Question 16",
+        "question": "Select the human ectoparasite:",
         "options": [
           "**\\*c. Musca domestica**",
           "a. Phthirus pubis",
           "b. Demodex folliculorum",
-          "Select the human ectoparasite:",
           "d. Pediculus corporis"
         ]
       },
       {
-        "question": "Question 17",
+        "question": "Select a temporary human ectoparasite:",
         "options": [
           "**\\*d. Aedes aegypti**",
           "a. Phthirus pubis",
           "b. Demodex folliculorum",
-          "c. Pediculus corporis",
-          "Select a temporary human ectoparasite:"
+          "c. Pediculus corporis"
         ]
       },
       {
-        "question": "Question 18",
+        "question": "The causative agent of scabies is:",
         "options": [
           "**\\*b. Acarus siro**",
           "a. Ornithodoros papillipes",
-          "The causative agent of scabies is:",
           "c. Ixodes ricinus",
           "d. Dermacentor pictus"
         ]
       },
       {
-        "question": "Question 19",
+        "question": "Cimex lectularis is :",
         "options": [
           "**\\*b. Temporary ectoparasite**",
           "a. P periodical parasite",
-          "Cimex lectularis is :",
           "c. Facultative parasite",
           "d. Permanent ectoparasite"
         ]
       },
       {
-        "question": "Question 20",
+        "question": "Select a temporary human ectoparasite:",
         "options": [
           "**\\*a. Ixodes ricinus**",
-          "Select a temporary human ectoparasite:",
           "b. Pediculus corporis",
           "c. Phthirus pubis",
           "d. Demodex folliculorum"
         ]
       },
       {
-        "question": "Question 21",
+        "question": "Select a temporary human ectoparasite:",
         "options": [
           "**\\*b. Triatoma infectant**",
           "a. Phthirus pubis",
-          "Select a temporary human ectoparasite:",
           "c. Pediculus corporis",
           "d. Demodex folliculorum"
         ]
@@ -5567,51 +5182,46 @@ export const s_1_8 = {
     ],
     "situational": [
       {
-        "question": "Question  1",
+        "question": "Where does the Wohlfarth fly lay its larvae?",
         "options": [
           "**\\*d. In the eyes, nose, skin wounds**",
           "a. On intact skin",
           "b. Sticks to hair",
-          "c. On animal corpses",
-          "Where does the Wohlfarth fly lay its larvae?"
+          "c. On animal corpses"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "The larvae of most types of gadflies are:",
         "options": [
           "**\\*a. Endoparasites**",
-          "The larvae of most types of gadflies are:",
           "b. Producers",
           "c. Ectoparasites",
           "d. Commensal"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "The scabies mite does not have:",
         "options": [
           "**\\*c. Eyes**",
           "a. Gnawing type mouthparts",
           "b. Stubble on the body",
-          "The scabies mite does not have:",
           "d. Chelicerae"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "The larvae of subcutaneous gadflies complete their development:",
         "options": [
           "**\\*a. Under the owner's skin**",
-          "The larvae of subcutaneous gadflies complete their development:",
           "b. In the sebaceous glands",
           "c. In the abdominal cavity",
           "d. In the hair follicle"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "An insect that parasitizes humans only at the larval stage:",
         "options": [
           "**\\*b. Wohlfart fly**",
           "a. Mosquito",
-          "An insect that parasitizes humans only at the larval stage:",
           "c. woodlouse",
           "d. Housefly"
         ]
@@ -5621,424 +5231,382 @@ export const s_1_8 = {
   "t-s-1-8-22": {
     "test": [
       {
-        "question": "Question 1",
+        "question": "The larvae of which insect are the causative agents of obligate tissue myiasis?",
         "options": [
           "**\\*a. Wohlfart fly**",
-          "The larvae of which insect are the causative agents of obligate tissue myiasis?",
           "b. Housefly",
           "c. Mosquito",
           "d. Autumn burner"
         ]
       },
       {
-        "question": "Question 2",
+        "question": "Name the causative agent of epidemic typhus:",
         "options": [
           "**\\*c. Rickettsia Provacek**",
           "a. Village tick",
           "b. Clothes louse",
-          "Name the causative agent of epidemic typhus:",
           "d. Obermeyer's spirochetes"
         ]
       },
       {
-        "question": "Question 3",
+        "question": "Gastric gadflies are usually:",
         "options": [
           "**\\*d. Horse parasites**",
           "a. Rodent parasites",
           "b. Human parasites",
-          "c. Cat parasites",
-          "Gastric gadflies are usually:"
+          "c. Cat parasites"
         ]
       },
       {
-        "question": "Question 4",
+        "question": "Select the correct meaning of the gonotrophic cycle from the following:",
         "options": [
           "**\\*c. Time from the onset of blood feeding to the laying of mature eggs**",
           "a. Egg laying time",
           "b. Blood sucking time",
-          "Select the correct meaning of the gonotrophic cycle from the following:",
           "d. Wintering period"
         ]
       },
       {
-        "question": "Question 5",
+        "question": "What vector-borne disease can mosquitoes transmit?",
         "options": [
           "**\\*b. Japanese encephalitis**",
           "a. Plagues",
-          "What vector-borne disease can mosquitoes transmit?",
           "c. Leishmaniasis",
           "d. Trypanosomiasis"
         ]
       },
       {
-        "question": "Question 6",
+        "question": "What is the medical significance of body louse?",
         "options": [
           "**\\*c. The carrier of the causative agent of epidemic typhus**",
           "a. Poisonous insect",
           "b. Leishmania vector",
-          "What is the medical significance of body louse?",
           "d. Trypanosome vector"
         ]
       },
       {
-        "question": "Question 7",
+        "question": "Cavity botfly larvae develop into:",
         "options": [
           "**\\*a. Nasopharynx**",
-          "Cavity botfly larvae develop into:",
           "b. Liver",
           "c. Abdomen",
           "d. Stomach"
         ]
       },
       {
-        "question": "Question 8",
+        "question": "What type of tick carries the causative agent of brucellosis?",
         "options": [
           "**\\*a. Dermacentor marginatus**",
-          "What type of tick carries the causative agent of brucellosis?",
           "b. Scabiei's sarcoptes",
           "c. Ixodes persulcatus",
           "d. Ixodes ricinus"
         ]
       },
       {
-        "question": "Question 9",
+        "question": "What sign is characteristic of ticks?",
         "options": [
           "**\\*a. Solid body**",
-          "What sign is characteristic of ticks?",
           "b. Wings",
           "c. Abdomen segmented",
           "d. Head, chest, abdomen"
         ]
       },
       {
-        "question": "Question 10",
+        "question": "What feature is characteristic of the class of arachnids?",
         "options": [
           "**\\*d. Four pairs of limbs**",
           "a. No body cavity",
           "b. Closed Circular System",
-          "c. Lack der üsche üssystem",
-          "What feature is characteristic of the class of arachnids?"
+          "c. Lack der üsche üssystem"
         ]
       },
       {
-        "question": "Question 11",
+        "question": "Among arthropods, the causative agent of human diseases is:",
         "options": [
           "**\\*d. Scabies itching**",
           "a. Village tick",
           "b. Dog tick",
-          "c. Taiga tick",
-          "Among arthropods, the causative agent of human diseases is:"
+          "c. Taiga tick"
         ]
       },
       {
-        "question": "Question 12",
+        "question": "Which dipteran insect is viviparous?",
         "options": [
           "**\\*d. Wohlfart fly**",
           "a. Autumn burner",
           "b. Mosquito Culex",
-          "c. Housefly",
-          "Which dipteran insect is viviparous?"
+          "c. Housefly"
         ]
       },
       {
-        "question": "Question 13",
+        "question": "What is the medical meaning of scorpion:",
         "options": [
           "**\\*c. Poisonous animal**",
           "a. Ectoparasite",
           "b. Causative agent of myiasis",
-          "What is the medical meaning of scorpion:",
           "d. Intermediate host of guinea worm"
         ]
       },
       {
-        "question": "Question 14",
+        "question": "Name the causative agent of epidemic typhus:",
         "options": [
           "**\\*a. Rickettsia Provacek**",
-          "Name the causative agent of epidemic typhus:",
           "b. Obermeyer's spirochetes",
           "c. Head louse",
           "d. Clothes louse"
         ]
       },
       {
-        "question": "Question 15",
+        "question": "What is the medical significance of bed bugs?",
         "options": [
           "**\\*b. Temporary ectoparasite**",
           "a. Obligate vector of pathogens",
-          "What is the medical significance of bed bugs?",
           "c. Intermediate host of parasites",
           "d. Mechanical carrier of pathogens"
         ]
       },
       {
-        "question": "Question 16",
+        "question": "Which of the following feeding methods is typical for house flies?",
         "options": [
           "**\\*b. Polyphage**",
           "a. Necrophagus facultative",
-          "Which of the following feeding methods is typical for house flies?",
           "c. Necrophage obligate",
           "d. Hematophage obligate"
         ]
       },
       {
-        "question": "Question  17",
+        "question": "What is the medical significance of the human flea?",
         "options": [
           "**\\*a. Plague pathogen carrier**",
-          "What is the medical significance of the human flea?",
           "b. Poisonous animal",
           "c. Leishmania vector",
           "d. Constant parasite"
         ]
       },
       {
-        "question": "Question  18",
+        "question": "Name the helminths whose intermediate hosts are mosquitoes:",
         "options": [
           "**\\*a. Filaria**",
-          "Name the helminths whose intermediate hosts are mosquitoes:",
           "b. Trichinella",
           "c. Hookworm",
           "d. Guinea worm"
         ]
       },
       {
-        "question": "Question  19",
+        "question": "What is the medical significance of the village tick Ornithodorus papillipes:",
         "options": [
           "**\\*c. The carrier of the causative agent of tick-borne typhus**",
           "a. Poisonous animal",
           "b. Permanent parasite of humans and animals",
-          "What is the medical significance of the village tick Ornithodorus papillipes:",
           "d. Leishmania vector"
         ]
       },
       {
-        "question": "Question  20",
+        "question": "What is the medical significance of the tick Ixodes persulcatus:",
         "options": [
           "**\\*b. Carrier of the causative agent of taiga encephalitis**",
           "a. The causative agent of taiga encephalitis",
-          "What is the medical significance of the tick Ixodes persulcatus:",
           "c. Poisonous animal",
           "d. Larvae cause myiasis"
         ]
       },
       {
-        "question": "Question  21",
+        "question": "What is the medical significance of head louse?",
         "options": [
           "**\\*c. The carrier of the causative agent of epidemic typhus**",
           "a. The vector of the causative agent of tularemia",
           "b. Carrier of plague bacteria",
-          "What is the medical significance of head louse?",
           "d. Leishmania vector"
         ]
       },
       {
-        "question": "Question  22",
+        "question": "What type of mite causes scabies?",
         "options": [
           "**\\*a. Sarcoptes scabiei**",
-          "What type of mite causes scabies?",
           "b. Ixodes persulcatus",
           "c. Ornithadorus papillipes",
           "d. Ixodes ricinus"
         ]
       },
       {
-        "question": "Question  23",
+        "question": "On what parts of the human body are scabies mites most likely to settle?",
         "options": [
           "**\\*c. Between the fingers**",
           "a. On the face area",
           "b. On the back",
-          "On what parts of the human body are scabies mites most likely to settle?",
           "d. On the neck"
         ]
       },
       {
-        "question": "Question  24",
+        "question": "What is the medical significance of pubic louse?",
         "options": [
           "**\\*c. Permanent human ectoparasite**",
           "a. The causative agent of pediculosis",
           "b. Carrier of pathogens of epidemic typhus and rotary fever",
-          "What is the medical significance of pubic louse?",
           "d. Temporary human ectoparasite"
         ]
       },
       {
-        "question": "Question  25",
+        "question": "What is the medical significance of mosquitoes of the genus Anopheles:",
         "options": [
           "**\\*b. Malaria pathogen vector**",
           "a. Causative agent of myiasis",
-          "What is the medical significance of mosquitoes of the genus Anopheles:",
           "c. Trypanosome vector",
           "d. Poisonous insect"
         ]
       },
       {
-        "question": "Question  26",
+        "question": "Which insect carries the causative agent of Chagas disease ?",
         "options": [
           "**\\*c. kissing bug**",
           "a. Tsetse fly",
           "b. Village tick",
-          "Which insect carries the causative agent of Chagas disease ?",
           "d. Mosquito"
         ]
       },
       {
-        "question": "Question  27",
+        "question": "What is the medical significance of the Tsetse fly:",
         "options": [
           "**\\*c. Trypanosome vector**",
           "a. Larvae cause myiasis",
           "b. Poisonous insect",
-          "What is the medical significance of the Tsetse fly:",
           "d. Permanent human parasite"
         ]
       },
       {
-        "question": "Question  28",
+        "question": "What is the medical meaning of karakurt:",
         "options": [
           "**\\*c. Poisonous animal**",
           "a. Intermediate host of Guinea worm",
           "b. Ectoparasite",
-          "What is the medical meaning of karakurt:",
           "d. Causative agent of myiasis"
         ]
       },
       {
-        "question": "Question  29",
+        "question": "What type of mouthparts do male mosquitoes have?",
         "options": [
           "**\\*a. piercing-sucking**",
-          "What type of mouthparts do male mosquitoes have?",
           "b. Gnawing",
           "c. Licking",
           "d. Sucking"
         ]
       },
       {
-        "question": "Question  30",
+        "question": "What feature is characteristic of the phylum of arthropods?",
         "options": [
           "**\\*c. Having a heart**",
           "a. No body cavity",
           "b. Lack of digestive system",
-          "What feature is characteristic of the phylum of arthropods?",
           "d. Skin-muscle bag"
         ]
       },
       {
-        "question": "Question  31",
+        "question": "Which mosquito larvae can live only in clean water bodies?",
         "options": [
           "**\\*d. Anopheles**",
           "a. Aedes",
           "b. Phlebotomus",
-          "c. Culex",
-          "Which mosquito larvae can live only in clean water bodies?"
+          "c. Culex"
         ]
       },
       {
-        "question": "Question  32",
+        "question": "Which disease is facultatively transmissible?",
         "options": [
           "**\\*b. Plague**",
           "a. Epidemic typhus",
-          "Which disease is facultatively transmissible?",
           "c. Epidemic turning fever",
           "d. Scabies"
         ]
       },
       {
-        "question": "Question  33",
+        "question": "What is the medical significance of the housefly?",
         "options": [
           "**\\*d. Mechanical carrier of pathogens**",
           "a. Natural reservoir of pathogens",
           "b. Poisonous insect",
-          "c. Ectoparasite",
-          "What is the medical significance of the housefly?"
+          "c. Ectoparasite"
         ]
       },
       {
-        "question": "Question  34",
+        "question": "What is the medical significance of mosquitoes of the genus Culex:",
         "options": [
           "**\\*c. The carrier of the causative agent of Japanese encephalitis**",
           "a. Plague pathogen carrier",
           "b. Leishmania vector",
-          "What is the medical significance of mosquitoes of the genus Culex:",
           "d. Malaria pathogen vector"
         ]
       },
       {
-        "question": "Question  35",
+        "question": "What medical significance do cockroaches have?",
         "options": [
           "**\\*c. Mechanical carriers of pathogens**",
           "a. Intermediate hosts of parasites",
           "b. Poisonous animals",
-          "What medical significance do cockroaches have?",
           "d. Obligate vectors of pathogens"
         ]
       }
     ],
     "situational": [
       {
-        "question": "Question  1",
+        "question": "What insects carry the causative agent of visceral leishmaniasis?",
         "options": [
           "**\\*d. M oscytes**",
           "a. Lice",
           "b. Woodlice",
-          "c. flies",
-          "What insects carry the causative agent of visceral leishmaniasis?"
+          "c. flies"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "During a medical examination, some patients had 2-3 mm gray insects on their heads. With deep cutouts on the sides of the body. What are these ectoparasites?",
         "options": [
           "**\\*c. Pediculus humanus capitis**",
           "a. Xenopsylla cheopis",
           "b. Phthirus pubis",
-          "During a medical examination, some patients had 2-3 mm gray insects on their heads. With deep cutouts on the sides of the body. What are these ectoparasites?",
           "d. Cimex lectularius"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "The patient was diagnosed with African sleeping sickness. What insect, biting a patient, could transmit to him the causative agent of this disease?",
         "options": [
           "**\\*c. Fly Tsetse**",
           "a. Mosquito",
           "b. Wohlfart fly",
-          "The patient was diagnosed with African sleeping sickness. What insect, biting a patient, could transmit to him the causative agent of this disease?",
           "d. Housefly"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "Name the specific vector of leishmaniasis:",
         "options": [
           "**\\*a. Phlebotomus papatasii**",
-          "Name the specific vector of leishmaniasis:",
           "b. Stomoxys calcitrans",
           "c. Wohlfahrtia magnifica",
           "d. Musca domestica"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "During a medical examination, insects measuring 1-1.5 mm in size, with a wide body, were identified under the patient's armpits, on the pubic eminence and eyelids. Name these ectoparasites:",
         "options": [
           "**\\*a. Phthirus pubis**",
-          "During a medical examination, insects measuring 1-1.5 mm in size, with a wide body, were identified under the patient's armpits, on the pubic eminence and eyelids. Name these ectoparasites:",
           "b. Pediculus humanus capitis",
           "c. Xenopsylla cheopis",
           "d. Cimex lectularius"
         ]
       },
       {
-        "question": "Question  6",
+        "question": "Specify the disease that is caused by the larvae of dipteran insects:",
         "options": [
           "**\\*c. Miaz**",
           "a. M alaria",
           "b. African sleeping sickness",
-          "Specify the disease that is caused by the larvae of dipteran insects:",
           "d. Leishmaniasis"
         ]
       },
       {
-        "question": "Question  7",
+        "question": "Which insect carries the causative agent of Chagas disease ?",
         "options": [
           "**\\*c. kissing bug**",
           "a. Tsetse fly",
           "b. Village tick",
-          "Which insect carries the causative agent of Chagas disease ?",
           "d. Mosquito"
         ]
       }
@@ -6115,210 +5683,189 @@ export const s_1_8 = {
   "t-s-1-8-17": {
     "test": [
       {
-        "question": "Question  1",
+        "question": "What helminthiasis can be caused by eating infected wild berries?",
         "options": [
           "**\\*c. Alveococcosis**",
           "a. Opisthorchiasis",
           "b. Taeniasis",
-          "What helminthiasis can be caused by eating infected wild berries?",
           "d. Diphyllobothriasis"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "Name the intermediate host of the armed tapeworm :",
         "options": [
           "**\\*c. Pig**",
           "a. Freshwater mollusk",
           "b. Cattle",
-          "Name the intermediate host of the armed tapeworm :",
           "d. Cyclops, fish"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "A person becomes infected with hymenolepiasis through:",
         "options": [
           "**\\*d. Dirty hands**",
           "a. Fish",
           "b. Washed vegetables and fruits",
-          "c. Poorly cooked meat",
-          "A person becomes infected with hymenolepiasis through:"
+          "c. Poorly cooked meat"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "What is the sexually mature form of trematodes?",
         "options": [
           "**\\*c. Marita**",
           "a. Miracidium",
           "b. Cercaria",
-          "What is the sexually mature form of trematodes?",
           "d. Redia"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "Marita of the liver fluke is localized in the liver:",
         "options": [
           "**\\*b. Human**",
           "a. Cancer",
-          "Marita of the liver fluke is localized in the liver:",
           "c. Toothless",
           "d. Small pond snail"
         ]
       },
       {
-        "question": "Question  6",
+        "question": "Flatworms that belong to the class of trematodes are characterized by:",
         "options": [
           "**\\*d. Presence of oral and ventral sucker**",
           "a. Do not drink water from open reservoirs",
           "b. Lack of digestive system",
-          "c. Wash hands, vegetables, berries",
-          "Flatworms that belong to the class of trematodes are characterized by:"
+          "c. Wash hands, vegetables, berries"
         ]
       },
       {
-        "question": "Question  7",
+        "question": "What research method is used to diagnose alveococcosis?",
         "options": [
           "**\\*b. Immunological**",
           "a. Sputum microscopy",
-          "What research method is used to diagnose alveococcosis?",
           "c. Urine microscopy",
           "d. Fecal microscopy"
         ]
       },
       {
-        "question": "Question  8",
+        "question": "A person can only be an intermediate host for:",
         "options": [
           "**\\*a. Echinococcus granulosus**",
-          "A person can only be an intermediate host for:",
           "b. Diphyllobothrium latum",
           "c. Taenia solium",
           "d. Hymenolepis nana"
         ]
       },
       {
-        "question": "Question  9",
+        "question": "And the invasive stage of the causative agent of diphyllobothriasis for the first intermediate host is:",
         "options": [
           "**\\*a. Coracidium**",
-          "And the invasive stage of the causative agent of diphyllobothriasis for the first intermediate host is:",
           "b. Procercoid",
           "c. Plerocercoid",
           "d. Cysticercus"
         ]
       },
       {
-        "question": "Question  10",
+        "question": "Echinococcus granulosus is:",
         "options": [
           "**\\*d. Hermaphrodite**",
           "a. Dioecious organism",
           "b. Autotroph",
-          "c. Ectoparasite",
-          "Echinococcus granulosus is:"
+          "c. Ectoparasite"
         ]
       },
       {
-        "question": "Question  11",
+        "question": "The larval stage of Fasciola hepatica that is invasive to humans is called:",
         "options": [
           "**\\*a. Adoleskariem**",
-          "The larval stage of Fasciola hepatica that is invasive to humans is called:",
           "b. Redia",
           "c. Miracidium",
           "d. Cercaria"
         ]
       },
       {
-        "question": "Question  12",
+        "question": "What helminthiasis pathogen can be contracted directly from a sick dog?",
         "options": [
           "**\\*c. Echinococcosis**",
           "a. Hymenolepiasis",
           "b. Opisthorchiasis",
-          "What helminthiasis pathogen can be contracted directly from a sick dog?",
           "d. Diphyllobothriasis"
         ]
       },
       {
-        "question": "Question  13",
+        "question": "And the larval stage of Opisthorchis felineus, which is invasive to humans, is called:",
         "options": [
           "**\\*d. Metacercariae**",
           "a. Redia",
           "b. Sporocyst",
-          "c. Miracidium",
-          "And the larval stage of Opisthorchis felineus, which is invasive to humans, is called:"
+          "c. Miracidium"
         ]
       },
       {
-        "question": "Question  14",
+        "question": "Personal prevention of opisthorchiasis consists of:",
         "options": [
           "**\\*b. Consumption of well-cooked and fried fish**",
           "a. Maintaining personal hygiene rules",
-          "Personal prevention of opisthorchiasis consists of:",
           "c. Consumption of well-cooked crabs",
           "d. Consuming only boiled water"
         ]
       },
       {
-        "question": "Question  15",
+        "question": "Which helminthiasis pathogen can be contracted directly from a sick person?",
         "options": [
           "**\\*c. Hymenolepi doses**",
           "a. Diphyllobothriasis",
           "b. Echinococcosis",
-          "Which helminthiasis pathogen can be contracted directly from a sick person?",
           "d. Alveococcosis"
         ]
       },
       {
-        "question": "Question  16",
+        "question": "Name the intermediate hosts of the cat fluke:",
         "options": [
           "**\\*c. Mollusc of the genus Bitiniya , fish**",
           "a. Cyclops, fish",
           "b. Mollusc of the genus Helicela, ants",
-          "Name the intermediate hosts of the cat fluke:",
           "d. Freshwater crayfish and crabs"
         ]
       },
       {
-        "question": "Question  17",
+        "question": "Mature segments of the causative agent of the disease can actively crawl out of a person’s anus in the following cases:",
         "options": [
           "**\\*c. Teniarinhosa**",
           "a. Echinococcosis",
           "b. Alveococcosis",
-          "Mature segments of the causative agent of the disease can actively crawl out of a person’s anus in the following cases:",
           "d. Hymenolepiasis"
         ]
       },
       {
-        "question": "Question  18",
+        "question": "The shortest body length is:",
         "options": [
           "**\\*b. Echinococcus granulosus**",
           "a. Diphyllobothrium latum",
-          "The shortest body length is:",
           "c. Taeniarhynchus saginatus",
           "d. Hymenolepis papa"
         ]
       },
       {
-        "question": "Question  19",
+        "question": "Name the second intermediate host of the cat fluke:",
         "options": [
           "**\\*a. Fish**",
-          "Name the second intermediate host of the cat fluke:",
           "b. Freshwater crayfish and crabs",
           "c. Cyclops",
           "d. Mollusk"
         ]
       },
       {
-        "question": "Question  20",
+        "question": "For personal prevention of taeniasis it is necessary:",
         "options": [
           "**\\*c. Heat treat pork before eating**",
           "a. Clean your home thoroughly",
           "b. Wash your hands regularly before eating food",
-          "For personal prevention of taeniasis it is necessary:",
           "d. Wash vegetables and fruits thoroughly"
         ]
       },
       {
-        "question": "Question  21",
+        "question": "A person who consumes insufficiently heat-treated fish can become infected with:",
         "options": [
           "**\\*a. Diphyllobothriasis**",
-          "A person who consumes insufficiently heat-treated fish can become infected with:",
           "b. Teniarinhoz",
           "c. Schistosomiasis",
           "d. Hymenolepiasis"
@@ -6327,53 +5874,48 @@ export const s_1_8 = {
     ],
     "situational": [
       {
-        "question": "Question  1",
+        "question": "The first intermediate host of Dicrocoelium lanceatum is:",
         "options": [
           "**\\*c. Mollusk of the genus Zebrina or Helicella**",
           "a. Ants of the genus Formica",
           "b. Mollusk of the genus Melania",
-          "The first intermediate host of Dicrocoelium lanceatum is:",
           "d. Small pond snail (Galba truncatula)"
         ]
       },
       {
-        "question": "Question  2",
+        "question": "The intermediate host of the causative agent of taeniasis is:",
         "options": [
           "**\\*b. pig**",
           "a. Cow",
-          "The intermediate host of the causative agent of taeniasis is:",
           "c. Dog",
           "d. cat"
         ]
       },
       {
-        "question": "Question  3",
+        "question": "The definitive host of the causative agent of taeniasis is:",
         "options": [
           "**\\*b. Human**",
           "a. Pig",
-          "The definitive host of the causative agent of taeniasis is:",
           "c. Dog",
           "d. Cat"
         ]
       },
       {
-        "question": "Question  4",
+        "question": "The invasive stage can enter the human body through the percutaneous route:",
         "options": [
           "**\\*a. Schistosoma japonicum**",
-          "The invasive stage can enter the human body through the percutaneous route:",
           "b. Opisthorchis felineus",
           "c. Paragonimus ringeri",
           "d. Fasciola hepatica"
         ]
       },
       {
-        "question": "Question  5",
+        "question": "Echinococcus strobila contains:",
         "options": [
           "**\\*d. 3-4 segments**",
           "a. 50-70 members",
           "b. 200 members",
-          "c. 5-7 segments",
-          "Echinococcus strobila contains:"
+          "c. 5-7 segments"
         ]
       }
     ]
