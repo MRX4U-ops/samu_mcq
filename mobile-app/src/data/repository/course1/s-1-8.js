@@ -2617,10 +2617,10 @@ export const s_1_8 = {
       {
         "question": "What is the formula for the karyotype of a patient with Edwards syndrome:",
         "options": [
-          "**\\*a. 47, XY , 21+**",
+          "a. 47, XY , 21+",
           "b. 47, XY , 13+",
           "c. 46, XX , 5p-",
-          "d. 47, XY , 18+"
+          "**\\*d. 47, XY , 18+**"
         ]
       },
       {
