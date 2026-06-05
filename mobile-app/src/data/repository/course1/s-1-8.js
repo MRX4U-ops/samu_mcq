@@ -1397,192 +1397,183 @@ export const s_1_8 = {
   "t-s-1-8-6": {
     "test": [
       {
-        "question": "In humans, a polygenic trait is:",
+        "question": "Unit of distance between genes:",
         "options": [
-          "**\\\\*b. Height**",
-          "a. Brachydactyly",
-          "c. Blood type",
-          "d. Hair color"
+          "**\\\\*d. Morganida**",
+          "a. Centimeter",
+          "b. Angstrom",
+          "c. Nanometer"
         ]
       },
       {
-        "question": "In polymerization, the splitting of the trait when crossing two diheterozygotes will be:",
+        "question": "It is known that gene linkage is not absolute, since it is disrupted as a result of:",
         "options": [
-          "**\\\\*a. 15:1, 1:4:6:4:1**",
-          "b. 9:4:3, 1:4:6:4:1, 13:3",
-          "c. 9:3:4, 9:7, 15:1",
-          "d. 9:4:3, 12:3:1, 13:3"
+          "**\\\\*c. Crossing over during meiosis**",
+          "a. Non-allelic gene interactions",
+          "b. Independent chromosome segregation during meiosis",
+          "d. Pleiotropy"
         ]
       },
       {
-        "question": "With complementary interaction of genes, the splitting of the trait when crossing two diheterozygotes will be in the ratio:",
+        "question": "Genes localized on one chromosome:",
         "options": [
-          "**\\\\*d. 9:3:3:1, 9:6:1, 9:3:4, 9:7**",
-          "a. 9:4:3, 1:4:6:4:1, 13:3",
-          "b. 9:4:3, 12:3:1, 13:3",
-          "c. 15:1, 1:4:6:4:1"
+          "**\\\\*a. Form a gene linkage group**",
+          "b. Give different combinations",
+          "c. Inherited independently of each other",
+          "d. Called unlinked"
         ]
       },
       {
-        "question": "Polygenic traits include:",
+        "question": "Gender-dependent signs:",
         "options": [
-          "**\\\\*a. Body weight. Finger length**",
-          "b. Blood clotting",
-          "c. Microcephaly",
+          "**\\\\*d. Traits determined by autosomal genes in men and women, but these traits appear more often in one sex than the other**",
+          "a. Polygenic traits",
+          "b. Traits are determined by genes that are located on the X and Y chromosomes",
+          "c. Traits determined by autosomal genes in women"
+        ]
+      },
+      {
+        "question": "Linkage between genes can be:",
+        "options": [
+          "**\\\\*b. Full or incomplete**",
+          "a. Incomplete, not providing discrepancies",
+          "c. Complete, there is a discrepancy",
+          "d. Full, but crossing over"
+        ]
+      },
+      {
+        "question": "Indicate a gender-linked human characteristic:",
+        "options": [
+          "**\\\\*c. Hemophilia**",
+          "a. Color of the skin",
+          "b. Hair color",
           "d. Polydactyly"
         ]
       },
       {
-        "question": "Penetrance is:",
+        "question": "What are the names of the characteristics predetermined by the genes that are located on the X and Y chromosomes?",
         "options": [
-          "**\\\\*d. Gene penetration frequency**",
-          "a. Manifestation of the gene in a heterozygous state",
-          "b. Degree of gene penetration",
-          "c. The influence of one gene on the manifestation of several traits"
+          "**\\\\*b. Glued to the floor**",
+          "a. Dominant",
+          "c. Gender dependent",
+          "d. holandric"
         ]
       },
       {
-        "question": "The property of organisms to transmit their characteristics and developmental characteristics to their offspring - is this?",
+        "question": "If a disease (sign) is inherited through the male line from generation to generation from a father to all his sons, then this is a sign:",
         "options": [
-          "**\\\\*c. Heredity**",
-          "a. Karyotyping",
-          "b. Variability",
-          "d. Crossbreeding"
+          "**\\\\*b. Y-linked type of inheritance**",
+          "a. Autosomal recessive type of inheritance",
+          "c. X-linked dominant type of inheritance",
+          "d. X-linked recessive inheritance"
         ]
       },
       {
-        "question": "What is a phenotype?",
+        "question": "Hemophilia is a disease that has:",
         "options": [
-          "**\\\\*c. A system of external and internal signs and properties of an organism that are formed during its individual development**",
-          "a. Gene system of a particular organism",
-          "b. Traits caused by genes located only on autosomes",
-          "d. Haploid set of chromosomes"
+          "**\\\\*b. X-linked recessive inheritance**",
+          "a. Y-linked inheritance",
+          "c. Autosomal recessive mode of inheritance",
+          "d. Autosomal dominant type of inheritance"
         ]
       },
       {
-        "question": "A cross in which the parent organisms differ in three pairs of characteristics is:",
+        "question": "The father has hemophilia, and the mother is homozygous for a gene that determines normal blood clotting. With what genotypes should we expect offspring?",
         "options": [
-          "**\\\\*a. Trihybrid**",
-          "b. Tetrahybrid",
-          "c. Polyhybrid",
-          "d. Dihybrid"
+          "**\\\\*c. XHXh**",
+          "a. XhXH",
+          "b. XhY",
+          "d. XHXH"
         ]
       },
       {
-        "question": "The ability of organisms to transmit their characteristics and developmental characteristics to their offspring is:",
+        "question": "What is the number of gene linkage groups in the organisms of each biological species?",
         "options": [
-          "**\\\\*d. Heredity**",
-          "a. Genotype",
-          "b. Inheritance",
-          "c. Variability"
+          "**\\\\*c. Haploid set of chromosomes**",
+          "a. Number of sex chromosomes",
+          "b. Number of pairs of non-allelic genes",
+          "d. Diploid set of chromosomes"
         ]
       },
       {
-        "question": "Gene is:",
+        "question": "Indicate the main provisions of the chromosomal theory of heredity?",
         "options": [
-          "**\\\\*d. A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded**",
-          "a. A section of an RNA molecule in which information about the secondary structure of a polypeptide is encoded",
-          "b. A section of an RNA molecule in which information about the primary structure of a polypeptide is encoded",
-          "c. A section of a DNA molecule in which information about the secondary structure of a polypeptide is encoded"
+          "**\\\\*b. The frequency of crossing over between chromosomes is directly proportional to the distance between genes**",
+          "a. Crossing over is not observed in male mammals",
+          "c. Crossing over can occur between non-homologous chromosomes",
+          "d. The number of linkage groups is equal to the diploid set of chromosomes"
         ]
       },
       {
-        "question": "How many types of gametes does an individual with genotype AAbbCC produce?",
+        "question": "Who established the linked inheritance of genes localized in one pair of homologous chromosomes?",
         "options": [
-          "**\\\\*a. 1**",
-          "b. 8",
-          "c. 3",
-          "d. 6"
+          "**\\\\*b. T. Morgan**",
+          "a. H. Koran",
+          "c. V. Johansen",
+          "d. G. de Vries"
         ]
       },
       {
-        "question": "An analysis cross is a cross in which an individual whose genotype is unknown but needs to be determined (AA or Aa ) is crossed with:",
+        "question": "Ichthyosis is observed in the family pedigree. This symptom occurs in all generations only in men. What type of inheritance of the trait?",
         "options": [
-          "**\\\\*b. Recessive homozygote (aa)**",
-          "a. Heterozygous (A a )",
-          "c. Dominant homozygote (A A )",
-          "d. Zygote"
+          "**\\\\*a. Linked to the Y chromosome**",
+          "b. Recessive, linked to the X chromosome",
+          "c. Dominant, linked to the X chromosome",
+          "d. Autosomal recessive"
         ]
       },
       {
-        "question": "Allelic genes are genes located in:",
+        "question": "Enamel hypoplasia is inherited as a sex-linked dominant trait. In a family where both parents suffer from this anomaly, a son was born with normal teeth. What is the probability that the next child will also have healthy teeth?",
         "options": [
-          "**\\\\*a. The same loci of homologous chromosomes**",
-          "b. Different loci of homologous chromosomes",
-          "c. Same loci of non-homologous chromosomes",
-          "d. One chromosome"
+          "**\\\\*d. 50% boys**",
+          "a. 50% girls",
+          "b. 50% of all children",
+          "c. all children"
         ]
       },
       {
-        "question": "Where are non-allelic genes located?",
+        "question": "The father is color blind, and the mother is heterozygous for a gene that predetermines normal color perception. With what genotypes should we expect offspring?",
         "options": [
-          "**\\\\*d. At different loci on the chromosome**",
-          "a. Different pairs of chromosomes",
-          "b. Only in autosomes",
-          "c. Only on sex chromosomes"
+          "**\\\\*c. XdXd**",
+          "a. XDXd",
+          "b. Dd",
+          "d. XDXD"
         ]
       },
       {
-        "question": "G. Mendel developed a method for studying heredity:",
+        "question": "The holandric trait is:",
         "options": [
-          "**\\\\*a. Hybridological**",
-          "b. Biological",
-          "c. Twin",
-          "d. Cytological"
+          "**\\\\*b. Hypertrichosis**",
+          "a. Blonde hair",
+          "c. Hemophilia",
+          "d. Polydactyly"
         ]
       },
       {
-        "question": "In what ratio is splitting observed for different types of gene interactions?",
+        "question": "Which of the following is a holandric trait?",
         "options": [
-          "**\\\\*c. With polymer 15:1 or 1:4:6:4:1**",
-          "a. With dominant epistasis 9:3:4 or 12:3:1",
-          "b. With recessive epistasis 13:3",
-          "d. With complementary interaction 15:1 or 9:6:1"
+          "**\\\\*b. Hypertrichosis**",
+          "a. Colorblindness",
+          "c. Polydactyly",
+          "d. Blonde hair"
         ]
       },
       {
-        "question": "Is this complementarity?",
+        "question": "In what units is crossing over frequency measured?",
         "options": [
-          "**\\\\*b. When two or more genes interact, new traits are formed**",
-          "a. Interaction of non-allelic genes, in which one gene suppresses the action of nother, non-allelic gene",
-          "c. One of the forms of interaction of non-allelic genes, in which the development of a certain trait is predetermined by the influence of several genes",
-          "d. The ability of one gene to control several traits (multiple gene action)"
+          "**\\\\*c. In percentages**",
+          "a. In centimeters",
+          "b. In the Morganids",
+          "d. In nanometers"
         ]
       },
       {
-        "question": "The ability of organisms to acquire new characteristics or lose previous ones during development is:",
+        "question": "Hypertrichosis (hair growth along the edge of the ear) is inherited as a trait linked to the Y chromosome. What is the probability of having a child with this anomaly in a family where the father suffers from hypertrichosis?",
         "options": [
-          "**\\\\*c. Variability**",
-          "a. Genotype",
-          "b. Heredity",
-          "d. Inheritance"
-        ]
-      },
-      {
-        "question": "In which blood group is agglutinogen A and B found?",
-        "options": [
-          "**\\\\*d. IV**",
-          "a. II",
-          "b. I",
-          "c. III"
-        ]
-      },
-      {
-        "question": "Mendel's first law reveals patterns:",
-        "options": [
-          "**\\\\*d. First generation law of uniformity**",
-          "a. Law of splitting",
-          "b. Independent combination of features",
-          "c. Incomplete dominance"
-        ]
-      },
-      {
-        "question": "The intensity of skin pigmentation in humans is controlled by several non-allelic dominant genes. It has been established that with an increase in the number of these genes, pigmentation becomes more intense. What is the type of interaction between these genes called?",
-        "options": [
-          "**\\\\*a. Polymerism**",
-          "b. Pleiotropy",
-          "c. Codominance",
-          "d. Epistasis"
+          "**\\\\*c. 100% boys**",
+          "a. 50% boys",
+          "b. All children",
+          "d. 50% girls"
         ]
       }
     ],
