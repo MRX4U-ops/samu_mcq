@@ -13,6 +13,8 @@ import HelpDeskPage from './pages/HelpDeskPage';
 import GuidancePage from './pages/GuidancePage';
 import SubjectPage from './pages/SubjectPage';
 import QuizPage from './pages/QuizPage';
+import ProfilePage from './pages/ProfilePage';
+import SubscribePage from './pages/SubscribePage';
 
 export default function App() {
   return (
@@ -35,6 +37,8 @@ export default function App() {
           <Route path="/ask-ai" element={<ProtectedRoute><AskAIPage /></ProtectedRoute>} />
           <Route path="/help" element={<ProtectedRoute><HelpDeskPage /></ProtectedRoute>} />
           <Route path="/guidance" element={<ProtectedRoute><GuidancePage /></ProtectedRoute>} />
+          <Route path="/profile" element={<ProtectedRoute><ProfilePage /></ProtectedRoute>} />
+          <Route path="/subscribe" element={<ProtectedRoute><SubscribePage /></ProtectedRoute>} />
 
           {/* Fallback */}
           <Route path="*" element={<Navigate to="/" replace />} />
