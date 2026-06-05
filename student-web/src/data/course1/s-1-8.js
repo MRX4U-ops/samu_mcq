@@ -917,183 +917,183 @@ export const s_1_8 = {
   "t-s-1-8-4": {
     "test": [
       {
-        "question": "Q1. Unit of distance between genes:",
+        "question": "Find the features characteristic of mitosis:",
         "options": [
-          "* d. Morganida",
-          "b. Angstrom",
-          "c. Nanometer",
-          "a. Centimeter"
+          "*a. Daughter cells contain the exact same set of chromosomes as the mother - diploid",
+          "b. As a result of division in daughter cells, the set of chromosomes is not diploid but haploid",
+          "c. Maintains species constancy of the number of chromosomes during sexual reproduction",
+          "d. Between two cell divisions there is a short interphase, but DNA synthesis does not occur in it, which is why it is called interkinesis"
         ]
       },
       {
-        "question": "Q2. It is known that gene linkage is not absolute, since it is disrupted as a result of:",
+        "question": "Crossing over occurs during:",
         "options": [
-          "* c. Crossing over during meiosis",
-          "b. Independent chromosome segregation during meiosis",
-          "a. Non-allelic gene interactions",
-          "d. Pleiotropy"
+          "a. Diplonemes",
+          "* b. Pachynema",
+          "c. Zygonema",
+          "d. Diakinesis"
         ]
       },
       {
-        "question": "Q3. Genes localized on one chromosome:",
+        "question": "The haploid set of chromosomes contains:",
         "options": [
-          "* a. Form a gene linkage group",
-          "b. Give different combinations",
-          "c. Inherited independently of each other",
-          "d. Called unlinked"
+          "a. Any immature sex cell",
+          "b. Spermatogonia",
+          "* c. A mature germ cell that is formed as a result of the normal course of meiosis",
+          "d. Ovogonium"
         ]
       },
       {
-        "question": "Q4. Gender-dependent signs:",
+        "question": "Biological significance of mitosis:",
         "options": [
-          "* d. Traits determined by autosomal genes in men and women, but these traits appear more often in one sex than the other",
-          "b. Traits are determined by genes that are located on the X and Y chromosomes",
-          "c. Traits determined by autosomal genes in women",
-          "a. Polygenic traits"
+          "a. From one mother cell two daughter cells are formed with a different set of chromosomes",
+          "b. From one mother cell two daughter cells with a triploid set of chromosomes are formed",
+          "* c. From one mother cell two daughter cells are formed, genetically identical to the mother one",
+          "d. From one mother cell two daughter cells with a haploid set of chromosomes are formed"
         ]
       },
       {
-        "question": "Q5. Linkage between genes can be:",
+        "question": "Meiosis is:",
         "options": [
-          "* b. Full or incomplete",
-          "a. Incomplete, not providing discrepancies",
-          "c. Complete, there is a discrepancy",
-          "d. Full, but crossing over"
+          "a. Direct division of the cell nucleus",
+          "b. Indirect division of the cell nucleus, resulting in the formation of genetically identical cells",
+          "c. Cytokinesis",
+          "* d. Reductive division of the cell nucleus (reduction in the number of chromosomes) and the formation of cells with a haploid set of chromosomes"
         ]
       },
       {
-        "question": "Q6. Indicate a gender-linked human characteristic:",
+        "question": "The chromatids of the chromosomes separate and move to different poles of the cell in:",
         "options": [
-          "* c. Hemophilia",
-          "b. Hair color",
-          "a. Color of the skin",
-          "d. Polydactyly"
+          "a. Prophase of mitosis",
+          "* b. Anaphase of mitosis",
+          "c. Telophase of mitosis",
+          "d. Metaphase of mitosis"
         ]
       },
       {
-        "question": "Q7. What are the names of the characteristics predetermined by the genes that are located on the X and Y chromosomes?",
+        "question": "Crossing over is:",
         "options": [
-          "* b. Glued to the floor",
-          "a. Dominant",
-          "c. Gender dependent",
-          "d. holandric"
+          "a. The mechanism by which daughter cells receive the same genetic material from the mother",
+          "* b. Exchange of homologous regions of chromosomes",
+          "c. Exchange of non-homologous regions between different pairs of chromosomes",
+          "d. Fusion of germ cells"
         ]
       },
       {
-        "question": "Q8. If a disease (sign) is inherited through the male line from generation to generation from a father to all his sons, then this is a sign:",
+        "question": "Chromosomes are best seen under a light microscope at:",
         "options": [
-          "* b. Y-linked type of inheritance",
-          "a. Autosomal recessive type of inheritance",
-          "c. X-linked dominant type of inheritance",
-          "d. X-linked recessive inheritance"
+          "a. Telophase of mitosis",
+          "b. Prophase of mitosis",
+          "* c. Metaphase of mitosis",
+          "d. Anaphase of mitosis"
         ]
       },
       {
-        "question": "Q9. Hemophilia is a disease that has:",
+        "question": "Near the poles of the cell there is a haploid set of single-chromatid chromosomes in:",
         "options": [
-          "* b. X-linked recessive inheritance",
-          "a. Y-linked inheritance",
-          "c. Autosomal recessive mode of inheritance",
-          "d. Autosomal dominant type of inheritance"
+          "a. Metaphase of the second meiotic division",
+          "b. Metaphase of the first meiotic division",
+          "* c. Telophase of the second meiotic division",
+          "d. Prophase of the second meiotic division"
         ]
       },
       {
-        "question": "Q10. The father has hemophilia, and the mother is homozygous for a gene that determines normal blood clotting. With what genotypes should we expect offspring?",
+        "question": "During cell division, the nuclear membrane dissolves into:",
         "options": [
-          "*c. XHXh",
-          "b. XhY",
-          "a. XhXh",
-          "d. XHXH"
+          "* a. Prophase of mitosis",
+          "b. Anaphase of mitosis",
+          "c. Metaphase of mitosis",
+          "d. Telophase of mitosis"
         ]
       },
       {
-        "question": "Q11. What is the number of gene linkage groups in the organisms of each biological species?",
+        "question": "Near the cell poles there is a haploid set of bichromatid chromosomes in:",
         "options": [
-          "* c. Haploid set of chromosomes",
-          "b. Number of pairs of non-allelic genes",
-          "a. Number of sex chromosomes",
-          "d. Diploid set of chromosomes"
+          "a. Prophase of the first meiotic division",
+          "* b. Telophase of the first meiotic division",
+          "c. Telophase of the second meiotic division",
+          "d. Metaphase of the second meiotic division"
         ]
       },
       {
-        "question": "Q12. Indicate the main provisions of the chromosomal theory of heredity?",
+        "question": "Chromosome conjugation occurs in:",
         "options": [
-          "* b. The frequency of crossing over between chromosomes is directly proportional to the distance between genes",
-          "a. Crossing over is not observed in male mammals",
-          "c. Crossing over can occur between non-homologous chromosomes",
-          "d. The number of linkage groups is equal to the diploid set of chromosomes"
+          "* a. Prophase of the first meiotic division",
+          "b. Anaphase of the second meiotic division",
+          "c. Anaphase of the first meiotic division",
+          "d. Metaphase of the second meiotic division"
         ]
       },
       {
-        "question": "Q13. Who established the linked inheritance of genes localized in one pair of homologous chromosomes?",
+        "question": "During cell division, the nuclear membrane is formed in:",
         "options": [
-          "* b. T. Morgan",
-          "a. H. Koran",
-          "c. V. Johansen",
-          "d. G. de Vries"
+          "a. Metaphase of mitosis",
+          "b. Prophase of mitosis",
+          "c. Anaphase of mitosis",
+          "* d. Telophase of mitosis"
         ]
       },
       {
-        "question": "Q14. Ichthyosis is observed in the family pedigree. This symptom occurs in all generations only in men. What type of inheritance of the trait?",
+        "question": "The exchange of homologous regions of chromosomes is:",
         "options": [
-          "* a. Linked to the Y chromosome",
-          "b. Recessive, linked to the X chromosome",
-          "c. Dominant, linked to the X chromosome",
-          "d. Autosomal recessive"
+          "* a. Crossing over",
+          "b. Replication",
+          "c. Bivalent",
+          "d. Conjugation"
         ]
       },
       {
-        "question": "Q15. Enamel hypoplasia is inherited as a sex-linked dominant trait. In a family where both parents suffer from this anomaly, a son was born with normal teeth. What is the probability that the next child will also have healthy teeth?",
+        "question": "At what stage of meiosis, prophase I, does crossing over occur?",
         "options": [
-          "*d. 50% boys",
-          "b. 50% of all children",
-          "c. all children",
-          "a. 50% girls"
+          "* a. Pachinema",
+          "b. Leptonema",
+          "c. Zygonema",
+          "d. Diplonema"
         ]
       },
       {
-        "question": "Q16. The father is color blind, and the mother is heterozygous for a gene that predetermines normal color perception. With what genotypes should we expect offspring?",
+        "question": "Chromosomes line up along the equatorial plane of the cell during:",
         "options": [
-          "* c. XdXd",
-          "b. Dd",
-          "a. XDXd",
-          "d. XDXD"
+          "a. Prophase of mitosis",
+          "* b. Metaphase of mitosis",
+          "c. Anaphase of mitosis",
+          "d. Telophase of mitosis"
         ]
       },
       {
-        "question": "Q17. The holandric trait is:",
+        "question": "Chromosome spiralization begins in:",
         "options": [
-          "* b. Hypertrichosis",
-          "a. Blonde hair",
-          "c. Hemophilia",
-          "d. Polydactyly"
+          "a. Anaphase of mitosis",
+          "* b. Prophase of mitosis",
+          "c. Telophase of mitosis",
+          "d. Metaphase of mitosis"
         ]
       },
       {
-        "question": "Q18. Which of the following is a holandric trait?",
+        "question": "Meiosis precedes the formation of:",
         "options": [
-          "* b. Hypertrichosis",
-          "a. Colorblindness",
-          "c. Polydactyly",
-          "d. Blonde hair"
+          "a. Corneal cells of the eye",
+          "b. Red blood cells",
+          "* c. Mature germ cells",
+          "d. Nerve cells"
         ]
       },
       {
-        "question": "Q19. In what units is crossing over frequency measured?",
+        "question": "Biological significance of meiosis?",
         "options": [
-          "*c. In percentages",
-          "b. In the Morganids",
-          "a. In centimeters",
-          "d. In nanometers"
+          "a. From one mother cell two daughter cells with a tetraploid set of chromosomes are formed",
+          "b. From one mother cell, 4 daughter cells with a triploid set of chromosomes are formed",
+          "c. From one mother cell two daughter cells with a double set of chromosomes are formed",
+          "* d. From one mother cell, 4 daughter cells with a haploid set of chromosomes are formed"
         ]
       },
       {
-        "question": "Q20. Hypertrichosis (hair growth along the edge of the ear) is inherited as a trait linked to the Y chromosome. What is the probability of having a child with this anomaly in a family where the father suffers from hypertrichosis?",
+        "question": "The very first phase of mitosis (karyokinesis) is:",
         "options": [
-          "* c. 100% boys",
-          "b. All children",
-          "a. 50% boys",
-          "d. 50% girls"
+          "a. Telophase",
+          "b. Anaphase",
+          "* c. Prophase",
+          "d. Interphase"
         ]
       }
     ],
