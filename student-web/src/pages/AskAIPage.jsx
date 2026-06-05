@@ -100,7 +100,7 @@ export default function AskAIPage() {
 
       setMessages(prev => [...prev, {
         role: 'assistant',
-        content: data.response || data.reply || data.analysis || "I'm sorry, I couldn't process that."
+        content: data.response || data.reply || data.analysis || data.answer || "I'm sorry, I couldn't process that."
       }]);
     } catch (error) {
       console.error('AI Error:', error);
