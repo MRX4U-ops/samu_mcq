@@ -1390,8 +1390,8 @@ export const s_1_8 = {
       {
         "question": "In humans, a polygenic trait is:",
         "options": [
-          "a. Brachydactyly",
           "**\\*b. Height**",
+          "a. Brachydactyly",
           "c. Blood type",
           "d. Hair color"
         ]
@@ -1408,10 +1408,10 @@ export const s_1_8 = {
       {
         "question": "With complementary interaction of genes, the splitting of the trait when crossing two diheterozygotes will be in the ratio:",
         "options": [
+          "**\\*d. 9:3:3:1, 9:6:1, 9:3:4, 9:7**",
           "a. 9:4:3, 1:4:6:4:1, 13:3",
           "b. 9:4:3, 12:3:1, 13:3",
-          "c. 15:1, 1:4:6:4:1",
-          "**\\*d. 9:3:3:1, 9:6:1, 9:3:4, 9:7**"
+          "c. 15:1, 1:4:6:4:1"
         ]
       },
       {
@@ -1426,27 +1426,27 @@ export const s_1_8 = {
       {
         "question": "Penetrance is:",
         "options": [
+          "**\\*d. Gene penetration frequency**",
           "a. Manifestation of the gene in a heterozygous state",
           "b. Degree of gene penetration",
-          "c. The influence of one gene on the manifestation of several traits",
-          "**\\*d. Gene penetration frequency**"
+          "c. The influence of one gene on the manifestation of several traits"
         ]
       },
       {
         "question": "The property of organisms to transmit their characteristics and developmental characteristics to their offspring - is this?",
         "options": [
+          "**\\*c. Heredity**",
           "a. Karyotyping",
           "b. Variability",
-          "**\\*c. Heredity**",
           "d. Crossbreeding"
         ]
       },
       {
         "question": "What is a phenotype?",
         "options": [
+          "**\\*c. A system of external and internal signs and properties of an organism that are formed during its individual development**",
           "a. Gene system of a particular organism",
           "b. Traits caused by genes located only on autosomes",
-          "**\\*c. A system of external and internal signs and properties of an organism that are formed during its individual development**",
           "d. Haploid set of chromosomes"
         ]
       },
@@ -1462,19 +1462,19 @@ export const s_1_8 = {
       {
         "question": "The ability of organisms to transmit their characteristics and developmental characteristics to their offspring is:",
         "options": [
+          "**\\*d. Heredity**",
           "a. Genotype",
           "b. Inheritance",
-          "c. Variability",
-          "**\\*d. Heredity**"
+          "c. Variability"
         ]
       },
       {
         "question": "Gene is:",
         "options": [
+          "**\\*d. A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded**",
           "a. A section of an RNA molecule in which information about the secondary structure of a polypeptide is encoded",
           "b. A section of an RNA molecule in which information about the primary structure of a polypeptide is encoded",
-          "c. A section of a DNA molecule in which information about the secondary structure of a polypeptide is encoded",
-          "**\\*d. A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded**"
+          "c. A section of a DNA molecule in which information about the secondary structure of a polypeptide is encoded"
         ]
       },
       {
@@ -1489,8 +1489,8 @@ export const s_1_8 = {
       {
         "question": "An analysis cross is a cross in which an individual whose genotype is unknown but needs to be determined (AA or Aa ) is crossed with:",
         "options": [
-          "a. Heterozygous (A a )",
           "**\\*b. Recessive homozygote (aa)**",
+          "a. Heterozygous (A a )",
           "c. Dominant homozygote (A A )",
           "d. Zygote"
         ]
@@ -1507,10 +1507,10 @@ export const s_1_8 = {
       {
         "question": "Where are non-allelic genes located?",
         "options": [
+          "**\\*d. At different loci on the chromosome**",
           "a. Different pairs of chromosomes",
           "b. Only in autosomes",
-          "c. Only on sex chromosomes",
-          "**\\*d. At different loci on the chromosome**"
+          "c. Only on sex chromosomes"
         ]
       },
       {
@@ -1525,17 +1525,17 @@ export const s_1_8 = {
       {
         "question": "In what ratio is splitting observed for different types of gene interactions?",
         "options": [
+          "**\\*c. With polymer 15:1 or 1:4:6:4:1**",
           "a. With dominant epistasis 9:3:4 or 12:3:1",
           "b. With recessive epistasis 13:3",
-          "**\\*c. With polymer 15:1 or 1:4:6:4:1**",
           "d. With complementary interaction 15:1 or 9:6:1"
         ]
       },
       {
         "question": "Is this complementarity?",
         "options": [
-          "a. Interaction of non-allelic genes, in which one gene suppresses the action of nother, non-allelic gene",
           "**\\*b. When two or more genes interact, new traits are formed**",
+          "a. Interaction of non-allelic genes, in which one gene suppresses the action of nother, non-allelic gene",
           "c. One of the forms of interaction of non-allelic genes, in which the development of a certain trait is predetermined by the influence of several genes",
           "d. The ability of one gene to control several traits (multiple gene action)"
         ]
@@ -1543,28 +1543,28 @@ export const s_1_8 = {
       {
         "question": "The ability of organisms to acquire new characteristics or lose previous ones during development is:",
         "options": [
+          "**\\*c. Variability**",
           "a. Genotype",
           "b. Heredity",
-          "**\\*c. Variability**",
           "d. Inheritance"
         ]
       },
       {
         "question": "In which blood group is agglutinogen A and B found?",
         "options": [
+          "**\\*d. IV**",
           "a. II",
           "b. I",
-          "c. III",
-          "**\\*d. IV**"
+          "c. III"
         ]
       },
       {
         "question": "Mendel's first law reveals patterns:",
         "options": [
+          "**\\*d. First generation law of uniformity**",
           "a. Law of splitting",
           "b. Independent combination of features",
-          "c. Incomplete dominance",
-          "**\\*d. First generation law of uniformity**"
+          "c. Incomplete dominance"
         ]
       },
       {
