@@ -3,9 +3,14 @@ import { AuthProvider } from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import LandingPage from './pages/LandingPage';
 import LoginPage from './pages/LoginPage';
-import RegisterPage from './pages/RegisterPage';
 import HomePage from './pages/HomePage';
 import CoursePage from './pages/CoursePage';
+import BattlePage from './pages/BattlePage';
+import LeaderboardPage from './pages/LeaderboardPage';
+import ExamResultPage from './pages/ExamResultPage';
+import AskAIPage from './pages/AskAIPage';
+import HelpDeskPage from './pages/HelpDeskPage';
+import GuidancePage from './pages/GuidancePage';
 import SubjectPage from './pages/SubjectPage';
 import QuizPage from './pages/QuizPage';
 
@@ -17,13 +22,19 @@ export default function App() {
           {/* Public */}
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/register" element={<Navigate to="/login?mode=signup" replace />} />
 
           {/* Protected */}
           <Route path="/home" element={<ProtectedRoute><HomePage /></ProtectedRoute>} />
           <Route path="/course/:courseId" element={<ProtectedRoute><CoursePage /></ProtectedRoute>} />
           <Route path="/subject/:subjectId" element={<ProtectedRoute><SubjectPage /></ProtectedRoute>} />
           <Route path="/quiz" element={<ProtectedRoute><QuizPage /></ProtectedRoute>} />
+          <Route path="/battle" element={<ProtectedRoute><BattlePage /></ProtectedRoute>} />
+          <Route path="/leaderboard" element={<ProtectedRoute><LeaderboardPage /></ProtectedRoute>} />
+          <Route path="/results" element={<ProtectedRoute><ExamResultPage /></ProtectedRoute>} />
+          <Route path="/ask-ai" element={<ProtectedRoute><AskAIPage /></ProtectedRoute>} />
+          <Route path="/help" element={<ProtectedRoute><HelpDeskPage /></ProtectedRoute>} />
+          <Route path="/guidance" element={<ProtectedRoute><GuidancePage /></ProtectedRoute>} />
 
           {/* Fallback */}
           <Route path="*" element={<Navigate to="/" replace />} />

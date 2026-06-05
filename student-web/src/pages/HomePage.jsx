@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { supabase } from '../lib/supabase';
 import Navbar from '../components/Navbar';
-import { ChevronRight, Lock, Unlock, Flame, BookOpen, Sparkles } from 'lucide-react';
+import { ChevronRight, Lock, Unlock, Flame, BookOpen, Sparkles, MessageSquare, Trophy, FileText, Bot, HelpCircle, FileQuestion, MessageCircle } from 'lucide-react';
 import styles from './HomePage.module.css';
 
 const COURSE_COLORS = ['#3B82F6','#8B5CF6','#10B981','#F59E0B','#EF4444','#06B6D4'];
@@ -135,6 +135,41 @@ export default function HomePage() {
             <span>My Profile</span>
             <ChevronRight size={16} color="var(--text-muted)" />
           </button>
+          <button className={styles.quickCard} onClick={() => navigate('/battle')}>
+            <MessageSquare size={22} color="#F59E0B" />
+            <span>Quiz Battle</span>
+            <ChevronRight size={16} color="var(--text-muted)" />
+          </button>
+          <button className={styles.quickCard} onClick={() => navigate('/leaderboard')}>
+            <Trophy size={22} color="#10B981" />
+            <span>Leaderboard</span>
+            <ChevronRight size={16} color="var(--text-muted)" />
+          </button>
+          <button className={styles.quickCard} onClick={() => navigate('/results')}>
+            <FileText size={22} color="#8B5CF6" />
+            <span>Exam Result</span>
+            <ChevronRight size={16} color="var(--text-muted)" />
+          </button>
+          <button className={styles.quickCard} onClick={() => navigate('/ask-ai')}>
+            <Bot size={22} color="#EC4899" />
+            <span>Ask AI / Image Answer</span>
+            <ChevronRight size={16} color="var(--text-muted)" />
+          </button>
+          <button className={styles.quickCard} onClick={() => navigate('/help')}>
+            <HelpCircle size={22} color="#F43F5E" />
+            <span>Help Desk</span>
+            <ChevronRight size={16} color="var(--text-muted)" />
+          </button>
+          <button className={styles.quickCard} onClick={() => navigate('/guidance')}>
+            <FileQuestion size={22} color="#06B6D4" />
+            <span>Website Guidance</span>
+            <ChevronRight size={16} color="var(--text-muted)" />
+          </button>
+          <a href="https://t.me/mrx4u" target="_blank" rel="noopener noreferrer" className={styles.quickCard} style={{ textDecoration: 'none', color: 'inherit' }}>
+            <MessageCircle size={22} color="#0088cc" />
+            <span>Join Telegram</span>
+            <ChevronRight size={16} color="var(--text-muted)" />
+          </a>
         </div>
 
       </div>

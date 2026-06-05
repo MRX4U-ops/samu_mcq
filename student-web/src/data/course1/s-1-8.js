@@ -724,7 +724,7 @@ export const s_1_8 = {
       {
         "question": "Find the features characteristic of mitosis:",
         "options": [
-          "*a. Daughter cells contain the exact same set of chromosomes as the mother - diploid",
+          "**\\\\*a. Daughter cells contain the exact same set of chromosomes as the mother - diploid**",
           "b. As a result of division in daughter cells, the set of chromosomes is not diploid but haploid",
           "c. Maintains species constancy of the number of chromosomes during sexual reproduction",
           "d. Between two cell divisions there is a short interphase, but DNA synthesis does not occur in it, which is why it is called interkinesis"
@@ -733,8 +733,8 @@ export const s_1_8 = {
       {
         "question": "Crossing over occurs during:",
         "options": [
+          "**\\\\*b. Pachynema**",
           "a. Diplonemes",
-          "* b. Pachynema",
           "c. Zygonema",
           "d. Diakinesis"
         ]
@@ -742,35 +742,35 @@ export const s_1_8 = {
       {
         "question": "The haploid set of chromosomes contains:",
         "options": [
+          "**\\\\*c. A mature germ cell that is formed as a result of the normal course of meiosis**",
           "a. Any immature sex cell",
           "b. Spermatogonia",
-          "* c. A mature germ cell that is formed as a result of the normal course of meiosis",
           "d. Ovogonium"
         ]
       },
       {
         "question": "Biological significance of mitosis:",
         "options": [
+          "**\\\\*c. From one mother cell two daughter cells are formed, genetically identical to the mother one**",
           "a. From one mother cell two daughter cells are formed with a different set of chromosomes",
           "b. From one mother cell two daughter cells with a triploid set of chromosomes are formed",
-          "* c. From one mother cell two daughter cells are formed, genetically identical to the mother one",
           "d. From one mother cell two daughter cells with a haploid set of chromosomes are formed"
         ]
       },
       {
         "question": "Meiosis is:",
         "options": [
+          "**\\\\*d. Reductive division of the cell nucleus (reduction in the number of chromosomes) and the formation of cells with a haploid set of chromosomes**",
           "a. Direct division of the cell nucleus",
           "b. Indirect division of the cell nucleus, resulting in the formation of genetically identical cells",
-          "c. Cytokinesis",
-          "* d. Reductive division of the cell nucleus (reduction in the number of chromosomes) and the formation of cells with a haploid set of chromosomes"
+          "c. Cytokinesis"
         ]
       },
       {
         "question": "The chromatids of the chromosomes separate and move to different poles of the cell in:",
         "options": [
+          "**\\\\*b. Anaphase of mitosis**",
           "a. Prophase of mitosis",
-          "* b. Anaphase of mitosis",
           "c. Telophase of mitosis",
           "d. Metaphase of mitosis"
         ]
@@ -778,8 +778,8 @@ export const s_1_8 = {
       {
         "question": "Crossing over is:",
         "options": [
+          "**\\\\*b. Exchange of homologous regions of chromosomes**",
           "a. The mechanism by which daughter cells receive the same genetic material from the mother",
-          "* b. Exchange of homologous regions of chromosomes",
           "c. Exchange of non-homologous regions between different pairs of chromosomes",
           "d. Fusion of germ cells"
         ]
@@ -787,25 +787,25 @@ export const s_1_8 = {
       {
         "question": "Chromosomes are best seen under a light microscope at:",
         "options": [
+          "**\\\\*c. Metaphase of mitosis**",
           "a. Telophase of mitosis",
           "b. Prophase of mitosis",
-          "* c. Metaphase of mitosis",
           "d. Anaphase of mitosis"
         ]
       },
       {
         "question": "Near the poles of the cell there is a haploid set of single-chromatid chromosomes in:",
         "options": [
+          "**\\\\*c. Telophase of the second meiotic division**",
           "a. Metaphase of the second meiotic division",
           "b. Metaphase of the first meiotic division",
-          "* c. Telophase of the second meiotic division",
           "d. Prophase of the second meiotic division"
         ]
       },
       {
         "question": "During cell division, the nuclear membrane dissolves into:",
         "options": [
-          "* a. Prophase of mitosis",
+          "**\\\\*a. Prophase of mitosis**",
           "b. Anaphase of mitosis",
           "c. Metaphase of mitosis",
           "d. Telophase of mitosis"
@@ -814,8 +814,8 @@ export const s_1_8 = {
       {
         "question": "Near the cell poles there is a haploid set of bichromatid chromosomes in:",
         "options": [
+          "**\\\\*b. Telophase of the first meiotic division**",
           "a. Prophase of the first meiotic division",
-          "* b. Telophase of the first meiotic division",
           "c. Telophase of the second meiotic division",
           "d. Metaphase of the second meiotic division"
         ]
@@ -823,7 +823,7 @@ export const s_1_8 = {
       {
         "question": "Chromosome conjugation occurs in:",
         "options": [
-          "* a. Prophase of the first meiotic division",
+          "**\\\\*a. Prophase of the first meiotic division**",
           "b. Anaphase of the second meiotic division",
           "c. Anaphase of the first meiotic division",
           "d. Metaphase of the second meiotic division"
@@ -832,16 +832,16 @@ export const s_1_8 = {
       {
         "question": "During cell division, the nuclear membrane is formed in:",
         "options": [
+          "**\\\\*d. Telophase of mitosis**",
           "a. Metaphase of mitosis",
           "b. Prophase of mitosis",
-          "c. Anaphase of mitosis",
-          "* d. Telophase of mitosis"
+          "c. Anaphase of mitosis"
         ]
       },
       {
         "question": "The exchange of homologous regions of chromosomes is:",
         "options": [
-          "* a. Crossing over",
+          "**\\\\*a. Crossing over**",
           "b. Replication",
           "c. Bivalent",
           "d. Conjugation"
@@ -850,7 +850,7 @@ export const s_1_8 = {
       {
         "question": "At what stage of meiosis, prophase I, does crossing over occur?",
         "options": [
-          "* a. Pachinema",
+          "**\\\\*a. Pachinema**",
           "b. Leptonema",
           "c. Zygonema",
           "d. Diplonema"
@@ -859,8 +859,8 @@ export const s_1_8 = {
       {
         "question": "Chromosomes line up along the equatorial plane of the cell during:",
         "options": [
+          "**\\\\*b. Metaphase of mitosis**",
           "a. Prophase of mitosis",
-          "* b. Metaphase of mitosis",
           "c. Anaphase of mitosis",
           "d. Telophase of mitosis"
         ]
@@ -868,8 +868,8 @@ export const s_1_8 = {
       {
         "question": "Chromosome spiralization begins in:",
         "options": [
+          "**\\\\*b. Prophase of mitosis**",
           "a. Anaphase of mitosis",
-          "* b. Prophase of mitosis",
           "c. Telophase of mitosis",
           "d. Metaphase of mitosis"
         ]
@@ -877,27 +877,27 @@ export const s_1_8 = {
       {
         "question": "Meiosis precedes the formation of:",
         "options": [
+          "**\\\\*c. Mature germ cells**",
           "a. Corneal cells of the eye",
           "b. Red blood cells",
-          "* c. Mature germ cells",
           "d. Nerve cells"
         ]
       },
       {
         "question": "Biological significance of meiosis?",
         "options": [
+          "**\\\\*d. From one mother cell, 4 daughter cells with a haploid set of chromosomes are formed**",
           "a. From one mother cell two daughter cells with a tetraploid set of chromosomes are formed",
           "b. From one mother cell, 4 daughter cells with a triploid set of chromosomes are formed",
-          "c. From one mother cell two daughter cells with a double set of chromosomes are formed",
-          "* d. From one mother cell, 4 daughter cells with a haploid set of chromosomes are formed"
+          "c. From one mother cell two daughter cells with a double set of chromosomes are formed"
         ]
       },
       {
         "question": "The very first phase of mitosis (karyokinesis) is:",
         "options": [
+          "**\\\\*c. Prophase**",
           "a. Telophase",
           "b. Anaphase",
-          "* c. Prophase",
           "d. Interphase"
         ]
       }
@@ -953,183 +953,192 @@ export const s_1_8 = {
   "t-s-1-8-4": {
     "test": [
       {
-        "question": "Q1. Unit of distance between genes:",
+        "question": "In humans, a polygenic trait is:",
         "options": [
-          "* d. Morganida",
-          "b. Angstrom",
-          "c. Nanometer",
-          "a. Centimeter"
+          "**\\*b. Height**",
+          "a. Brachydactyly",
+          "c. Blood type",
+          "d. Hair color"
         ]
       },
       {
-        "question": "Q2. It is known that gene linkage is not absolute, since it is disrupted as a result of:",
+        "question": "In polymerization, the splitting of the trait when crossing two diheterozygotes will be:",
         "options": [
-          "* c. Crossing over during meiosis",
-          "b. Independent chromosome segregation during meiosis",
-          "a. Non-allelic gene interactions",
-          "d. Pleiotropy"
+          "**\\*a. 15:1, 1:4:6:4:1**",
+          "b. 9:4:3, 1:4:6:4:1, 13:3",
+          "c. 9:3:4, 9:7, 15:1",
+          "d. 9:4:3, 12:3:1, 13:3"
         ]
       },
       {
-        "question": "Q3. Genes localized on one chromosome:",
+        "question": "With complementary interaction of genes, the splitting of the trait when crossing two diheterozygotes will be in the ratio:",
         "options": [
-          "* a. Form a gene linkage group",
-          "b. Give different combinations",
-          "c. Inherited independently of each other",
-          "d. Called unlinked"
+          "**\\*d. 9:3:3:1, 9:6:1, 9:3:4, 9:7**",
+          "a. 9:4:3, 1:4:6:4:1, 13:3",
+          "b. 9:4:3, 12:3:1, 13:3",
+          "c. 15:1, 1:4:6:4:1"
         ]
       },
       {
-        "question": "Q4. Gender-dependent signs:",
+        "question": "Polygenic traits include:",
         "options": [
-          "* d. Traits determined by autosomal genes in men and women, but these traits appear more often in one sex than the other",
-          "b. Traits are determined by genes that are located on the X and Y chromosomes",
-          "c. Traits determined by autosomal genes in women",
-          "a. Polygenic traits"
-        ]
-      },
-      {
-        "question": "Q5. Linkage between genes can be:",
-        "options": [
-          "* b. Full or incomplete",
-          "a. Incomplete, not providing discrepancies",
-          "c. Complete, there is a discrepancy",
-          "d. Full, but crossing over"
-        ]
-      },
-      {
-        "question": "Q6. Indicate a gender-linked human characteristic:",
-        "options": [
-          "* c. Hemophilia",
-          "b. Hair color",
-          "a. Color of the skin",
+          "**\\*a. Body weight. Finger length**",
+          "b. Blood clotting",
+          "c. Microcephaly",
           "d. Polydactyly"
         ]
       },
       {
-        "question": "Q7. What are the names of the characteristics predetermined by the genes that are located on the X and Y chromosomes?",
+        "question": "Penetrance is:",
         "options": [
-          "* b. Glued to the floor",
-          "a. Dominant",
-          "c. Gender dependent",
-          "d. holandric"
+          "**\\*d. Gene penetration frequency**",
+          "a. Manifestation of the gene in a heterozygous state",
+          "b. Degree of gene penetration",
+          "c. The influence of one gene on the manifestation of several traits"
         ]
       },
       {
-        "question": "Q8. If a disease (sign) is inherited through the male line from generation to generation from a father to all his sons, then this is a sign:",
+        "question": "The property of organisms to transmit their characteristics and developmental characteristics to their offspring - is this?",
         "options": [
-          "* b. Y-linked type of inheritance",
-          "a. Autosomal recessive type of inheritance",
-          "c. X-linked dominant type of inheritance",
-          "d. X-linked recessive inheritance"
+          "**\\*c. Heredity**",
+          "a. Karyotyping",
+          "b. Variability",
+          "d. Crossbreeding"
         ]
       },
       {
-        "question": "Q9. Hemophilia is a disease that has:",
+        "question": "What is a phenotype?",
         "options": [
-          "* b. X-linked recessive inheritance",
-          "a. Y-linked inheritance",
-          "c. Autosomal recessive mode of inheritance",
-          "d. Autosomal dominant type of inheritance"
+          "**\\*c. A system of external and internal signs and properties of an organism that are formed during its individual development**",
+          "a. Gene system of a particular organism",
+          "b. Traits caused by genes located only on autosomes",
+          "d. Haploid set of chromosomes"
         ]
       },
       {
-        "question": "Q10. The father has hemophilia, and the mother is homozygous for a gene that determines normal blood clotting. With what genotypes should we expect offspring?",
+        "question": "A cross in which the parent organisms differ in three pairs of characteristics is:",
         "options": [
-          "*c. XHXh",
-          "b. XhY",
-          "a. XhXh",
-          "d. XHXH"
+          "**\\*a. Trihybrid**",
+          "b. Tetrahybrid",
+          "c. Polyhybrid",
+          "d. Dihybrid"
         ]
       },
       {
-        "question": "Q11. What is the number of gene linkage groups in the organisms of each biological species?",
+        "question": "The ability of organisms to transmit their characteristics and developmental characteristics to their offspring is:",
         "options": [
-          "* c. Haploid set of chromosomes",
-          "b. Number of pairs of non-allelic genes",
-          "a. Number of sex chromosomes",
-          "d. Diploid set of chromosomes"
+          "**\\*d. Heredity**",
+          "a. Genotype",
+          "b. Inheritance",
+          "c. Variability"
         ]
       },
       {
-        "question": "Q12. Indicate the main provisions of the chromosomal theory of heredity?",
+        "question": "Gene is:",
         "options": [
-          "* b. The frequency of crossing over between chromosomes is directly proportional to the distance between genes",
-          "a. Crossing over is not observed in male mammals",
-          "c. Crossing over can occur between non-homologous chromosomes",
-          "d. The number of linkage groups is equal to the diploid set of chromosomes"
+          "**\\*d. A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded**",
+          "a. A section of an RNA molecule in which information about the secondary structure of a polypeptide is encoded",
+          "b. A section of an RNA molecule in which information about the primary structure of a polypeptide is encoded",
+          "c. A section of a DNA molecule in which information about the secondary structure of a polypeptide is encoded"
         ]
       },
       {
-        "question": "Q13. Who established the linked inheritance of genes localized in one pair of homologous chromosomes?",
+        "question": "How many types of gametes does an individual with genotype AAbbCC produce?",
         "options": [
-          "* b. T. Morgan",
-          "a. H. Koran",
-          "c. V. Johansen",
-          "d. G. de Vries"
+          "**\\*a. 1**",
+          "b. 8",
+          "c. 3",
+          "d. 6"
         ]
       },
       {
-        "question": "Q14. Ichthyosis is observed in the family pedigree. This symptom occurs in all generations only in men. What type of inheritance of the trait?",
+        "question": "An analysis cross is a cross in which an individual whose genotype is unknown but needs to be determined (AA or Aa ) is crossed with:",
         "options": [
-          "* a. Linked to the Y chromosome",
-          "b. Recessive, linked to the X chromosome",
-          "c. Dominant, linked to the X chromosome",
-          "d. Autosomal recessive"
+          "**\\*b. Recessive homozygote (aa)**",
+          "a. Heterozygous (A a )",
+          "c. Dominant homozygote (A A )",
+          "d. Zygote"
         ]
       },
       {
-        "question": "Q15. Enamel hypoplasia is inherited as a sex-linked dominant trait. In a family where both parents suffer from this anomaly, a son was born with normal teeth. What is the probability that the next child will also have healthy teeth?",
+        "question": "Allelic genes are genes located in:",
         "options": [
-          "*d. 50% boys",
-          "b. 50% of all children",
-          "c. all children",
-          "a. 50% girls"
+          "**\\*a. The same loci of homologous chromosomes**",
+          "b. Different loci of homologous chromosomes",
+          "c. Same loci of non-homologous chromosomes",
+          "d. One chromosome"
         ]
       },
       {
-        "question": "Q16. The father is color blind, and the mother is heterozygous for a gene that predetermines normal color perception. With what genotypes should we expect offspring?",
+        "question": "Where are non-allelic genes located?",
         "options": [
-          "* c. XdXd",
-          "b. Dd",
-          "a. XDXd",
-          "d. XDXD"
+          "**\\*d. At different loci on the chromosome**",
+          "a. Different pairs of chromosomes",
+          "b. Only in autosomes",
+          "c. Only on sex chromosomes"
         ]
       },
       {
-        "question": "Q17. The holandric trait is:",
+        "question": "G. Mendel developed a method for studying heredity:",
         "options": [
-          "* b. Hypertrichosis",
-          "a. Blonde hair",
-          "c. Hemophilia",
-          "d. Polydactyly"
+          "**\\*a. Hybridological**",
+          "b. Biological",
+          "c. Twin",
+          "d. Cytological"
         ]
       },
       {
-        "question": "Q18. Which of the following is a holandric trait?",
+        "question": "In what ratio is splitting observed for different types of gene interactions?",
         "options": [
-          "* b. Hypertrichosis",
-          "a. Colorblindness",
-          "c. Polydactyly",
-          "d. Blonde hair"
+          "**\\*c. With polymer 15:1 or 1:4:6:4:1**",
+          "a. With dominant epistasis 9:3:4 or 12:3:1",
+          "b. With recessive epistasis 13:3",
+          "d. With complementary interaction 15:1 or 9:6:1"
         ]
       },
       {
-        "question": "Q19. In what units is crossing over frequency measured?",
+        "question": "Is this complementarity?",
         "options": [
-          "*c. In percentages",
-          "b. In the Morganids",
-          "a. In centimeters",
-          "d. In nanometers"
+          "**\\*b. When two or more genes interact, new traits are formed**",
+          "a. Interaction of non-allelic genes, in which one gene suppresses the action of nother, non-allelic gene",
+          "c. One of the forms of interaction of non-allelic genes, in which the development of a certain trait is predetermined by the influence of several genes",
+          "d. The ability of one gene to control several traits (multiple gene action)"
         ]
       },
       {
-        "question": "Q20. Hypertrichosis (hair growth along the edge of the ear) is inherited as a trait linked to the Y chromosome. What is the probability of having a child with this anomaly in a family where the father suffers from hypertrichosis?",
+        "question": "The ability of organisms to acquire new characteristics or lose previous ones during development is:",
         "options": [
-          "* c. 100% boys",
-          "b. All children",
-          "a. 50% boys",
-          "d. 50% girls"
+          "**\\*c. Variability**",
+          "a. Genotype",
+          "b. Heredity",
+          "d. Inheritance"
+        ]
+      },
+      {
+        "question": "In which blood group is agglutinogen A and B found?",
+        "options": [
+          "**\\*d. IV**",
+          "a. II",
+          "b. I",
+          "c. III"
+        ]
+      },
+      {
+        "question": "Mendel's first law reveals patterns:",
+        "options": [
+          "**\\*d. First generation law of uniformity**",
+          "a. Law of splitting",
+          "b. Independent combination of features",
+          "c. Incomplete dominance"
+        ]
+      },
+      {
+        "question": "The intensity of skin pigmentation in humans is controlled by several non-allelic dominant genes. It has been established that with an increase in the number of these genes, pigmentation becomes more intense. What is the type of interaction between these genes called?",
+        "options": [
+          "**\\*a. Polymerism**",
+          "b. Pleiotropy",
+          "c. Codominance",
+          "d. Epistasis"
         ]
       }
     ],
@@ -1388,192 +1397,183 @@ export const s_1_8 = {
   "t-s-1-8-6": {
     "test": [
       {
-        "question": "In humans, a polygenic trait is:",
+        "question": "Unit of distance between genes:",
         "options": [
-          "a. Brachydactyly",
-          "**\\\\*b. Height**",
-          "c. Blood type",
-          "d. Hair color"
+          "**\\\\*d. Morganida**",
+          "a. Centimeter",
+          "b. Angstrom",
+          "c. Nanometer"
         ]
       },
       {
-        "question": "In polymerization, the splitting of the trait when crossing two diheterozygotes will be:",
+        "question": "It is known that gene linkage is not absolute, since it is disrupted as a result of:",
         "options": [
-          "**\\\\*a. 15:1, 1:4:6:4:1**",
-          "b. 9:4:3, 1:4:6:4:1, 13:3",
-          "c. 9:3:4, 9:7, 15:1",
-          "d. 9:4:3, 12:3:1, 13:3"
+          "**\\\\*c. Crossing over during meiosis**",
+          "a. Non-allelic gene interactions",
+          "b. Independent chromosome segregation during meiosis",
+          "d. Pleiotropy"
         ]
       },
       {
-        "question": "With complementary interaction of genes, the splitting of the trait when crossing two diheterozygotes will be in the ratio:",
+        "question": "Genes localized on one chromosome:",
         "options": [
-          "a. 9:4:3, 1:4:6:4:1, 13:3",
-          "b. 9:4:3, 12:3:1, 13:3",
-          "c. 15:1, 1:4:6:4:1",
-          "**\\\\*d. 9:3:3:1, 9:6:1, 9:3:4, 9:7**"
+          "**\\\\*a. Form a gene linkage group**",
+          "b. Give different combinations",
+          "c. Inherited independently of each other",
+          "d. Called unlinked"
         ]
       },
       {
-        "question": "Polygenic traits include:",
+        "question": "Gender-dependent signs:",
         "options": [
-          "**\\\\*a. Body weight. Finger length**",
-          "b. Blood clotting",
-          "c. Microcephaly",
+          "**\\\\*d. Traits determined by autosomal genes in men and women, but these traits appear more often in one sex than the other**",
+          "a. Polygenic traits",
+          "b. Traits are determined by genes that are located on the X and Y chromosomes",
+          "c. Traits determined by autosomal genes in women"
+        ]
+      },
+      {
+        "question": "Linkage between genes can be:",
+        "options": [
+          "**\\\\*b. Full or incomplete**",
+          "a. Incomplete, not providing discrepancies",
+          "c. Complete, there is a discrepancy",
+          "d. Full, but crossing over"
+        ]
+      },
+      {
+        "question": "Indicate a gender-linked human characteristic:",
+        "options": [
+          "**\\\\*c. Hemophilia**",
+          "a. Color of the skin",
+          "b. Hair color",
           "d. Polydactyly"
         ]
       },
       {
-        "question": "Penetrance is:",
+        "question": "What are the names of the characteristics predetermined by the genes that are located on the X and Y chromosomes?",
         "options": [
-          "a. Manifestation of the gene in a heterozygous state",
-          "b. Degree of gene penetration",
-          "c. The influence of one gene on the manifestation of several traits",
-          "**\\\\*d. Gene penetration frequency**"
+          "**\\\\*b. Glued to the floor**",
+          "a. Dominant",
+          "c. Gender dependent",
+          "d. holandric"
         ]
       },
       {
-        "question": "The property of organisms to transmit their characteristics and developmental characteristics to their offspring - is this?",
+        "question": "If a disease (sign) is inherited through the male line from generation to generation from a father to all his sons, then this is a sign:",
         "options": [
-          "a. Karyotyping",
-          "b. Variability",
-          "**\\\\*c. Heredity**",
-          "d. Crossbreeding"
+          "**\\\\*b. Y-linked type of inheritance**",
+          "a. Autosomal recessive type of inheritance",
+          "c. X-linked dominant type of inheritance",
+          "d. X-linked recessive inheritance"
         ]
       },
       {
-        "question": "What is a phenotype?",
+        "question": "Hemophilia is a disease that has:",
         "options": [
-          "a. Gene system of a particular organism",
-          "b. Traits caused by genes located only on autosomes",
-          "**\\\\*c. A system of external and internal signs and properties of an organism that are formed during its individual development**",
-          "d. Haploid set of chromosomes"
+          "**\\\\*b. X-linked recessive inheritance**",
+          "a. Y-linked inheritance",
+          "c. Autosomal recessive mode of inheritance",
+          "d. Autosomal dominant type of inheritance"
         ]
       },
       {
-        "question": "A cross in which the parent organisms differ in three pairs of characteristics is:",
+        "question": "The father has hemophilia, and the mother is homozygous for a gene that determines normal blood clotting. With what genotypes should we expect offspring?",
         "options": [
-          "**\\\\*a. Trihybrid**",
-          "b. Tetrahybrid",
-          "c. Polyhybrid",
-          "d. Dihybrid"
+          "**\\\\*c. XHXh**",
+          "a. XhXH",
+          "b. XhY",
+          "d. XHXH"
         ]
       },
       {
-        "question": "The ability of organisms to transmit their characteristics and developmental characteristics to their offspring is:",
+        "question": "What is the number of gene linkage groups in the organisms of each biological species?",
         "options": [
-          "a. Genotype",
-          "b. Inheritance",
-          "c. Variability",
-          "**\\\\*d. Heredity**"
+          "**\\\\*c. Haploid set of chromosomes**",
+          "a. Number of sex chromosomes",
+          "b. Number of pairs of non-allelic genes",
+          "d. Diploid set of chromosomes"
         ]
       },
       {
-        "question": "Gene is:",
+        "question": "Indicate the main provisions of the chromosomal theory of heredity?",
         "options": [
-          "a. A section of an RNA molecule in which information about the secondary structure of a polypeptide is encoded",
-          "b. A section of an RNA molecule in which information about the primary structure of a polypeptide is encoded",
-          "c. A section of a DNA molecule in which information about the secondary structure of a polypeptide is encoded",
-          "**\\\\*d. A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded**"
+          "**\\\\*b. The frequency of crossing over between chromosomes is directly proportional to the distance between genes**",
+          "a. Crossing over is not observed in male mammals",
+          "c. Crossing over can occur between non-homologous chromosomes",
+          "d. The number of linkage groups is equal to the diploid set of chromosomes"
         ]
       },
       {
-        "question": "How many types of gametes does an individual with genotype AAbbCC produce?",
+        "question": "Who established the linked inheritance of genes localized in one pair of homologous chromosomes?",
         "options": [
-          "**\\\\*a. 1**",
-          "b. 8",
-          "c. 3",
-          "d. 6"
+          "**\\\\*b. T. Morgan**",
+          "a. H. Koran",
+          "c. V. Johansen",
+          "d. G. de Vries"
         ]
       },
       {
-        "question": "An analysis cross is a cross in which an individual whose genotype is unknown but needs to be determined (AA or Aa ) is crossed with:",
+        "question": "Ichthyosis is observed in the family pedigree. This symptom occurs in all generations only in men. What type of inheritance of the trait?",
         "options": [
-          "a. Heterozygous (A a )",
-          "**\\\\*b. Recessive homozygote (aa)**",
-          "c. Dominant homozygote (A A )",
-          "d. Zygote"
+          "**\\\\*a. Linked to the Y chromosome**",
+          "b. Recessive, linked to the X chromosome",
+          "c. Dominant, linked to the X chromosome",
+          "d. Autosomal recessive"
         ]
       },
       {
-        "question": "Allelic genes are genes located in:",
+        "question": "Enamel hypoplasia is inherited as a sex-linked dominant trait. In a family where both parents suffer from this anomaly, a son was born with normal teeth. What is the probability that the next child will also have healthy teeth?",
         "options": [
-          "**\\\\*a. The same loci of homologous chromosomes**",
-          "b. Different loci of homologous chromosomes",
-          "c. Same loci of non-homologous chromosomes",
-          "d. One chromosome"
+          "**\\\\*d. 50% boys**",
+          "a. 50% girls",
+          "b. 50% of all children",
+          "c. all children"
         ]
       },
       {
-        "question": "Where are non-allelic genes located?",
+        "question": "The father is color blind, and the mother is heterozygous for a gene that predetermines normal color perception. With what genotypes should we expect offspring?",
         "options": [
-          "a. Different pairs of chromosomes",
-          "b. Only in autosomes",
-          "c. Only on sex chromosomes",
-          "**\\\\*d. At different loci on the chromosome**"
+          "**\\\\*c. XdXd**",
+          "a. XDXd",
+          "b. Dd",
+          "d. XDXD"
         ]
       },
       {
-        "question": "G. Mendel developed a method for studying heredity:",
+        "question": "The holandric trait is:",
         "options": [
-          "**\\\\*a. Hybridological**",
-          "b. Biological",
-          "c. Twin",
-          "d. Cytological"
+          "**\\\\*b. Hypertrichosis**",
+          "a. Blonde hair",
+          "c. Hemophilia",
+          "d. Polydactyly"
         ]
       },
       {
-        "question": "In what ratio is splitting observed for different types of gene interactions?",
+        "question": "Which of the following is a holandric trait?",
         "options": [
-          "a. With dominant epistasis 9:3:4 or 12:3:1",
-          "b. With recessive epistasis 13:3",
-          "**\\\\*c. With polymer 15:1 or 1:4:6:4:1**",
-          "d. With complementary interaction 15:1 or 9:6:1"
+          "**\\\\*b. Hypertrichosis**",
+          "a. Colorblindness",
+          "c. Polydactyly",
+          "d. Blonde hair"
         ]
       },
       {
-        "question": "Is this complementarity?",
+        "question": "In what units is crossing over frequency measured?",
         "options": [
-          "a. Interaction of non-allelic genes, in which one gene suppresses the action of nother, non-allelic gene",
-          "**\\\\*b. When two or more genes interact, new traits are formed**",
-          "c. One of the forms of interaction of non-allelic genes, in which the development of a certain trait is predetermined by the influence of several genes",
-          "d. The ability of one gene to control several traits (multiple gene action)"
+          "**\\\\*c. In percentages**",
+          "a. In centimeters",
+          "b. In the Morganids",
+          "d. In nanometers"
         ]
       },
       {
-        "question": "The ability of organisms to acquire new characteristics or lose previous ones during development is:",
+        "question": "Hypertrichosis (hair growth along the edge of the ear) is inherited as a trait linked to the Y chromosome. What is the probability of having a child with this anomaly in a family where the father suffers from hypertrichosis?",
         "options": [
-          "a. Genotype",
-          "b. Heredity",
-          "**\\\\*c. Variability**",
-          "d. Inheritance"
-        ]
-      },
-      {
-        "question": "In which blood group is agglutinogen A and B found?",
-        "options": [
-          "a. II",
-          "b. I",
-          "c. III",
-          "**\\\\*d. IV**"
-        ]
-      },
-      {
-        "question": "Mendel's first law reveals patterns:",
-        "options": [
-          "a. Law of splitting",
-          "b. Independent combination of features",
-          "c. Incomplete dominance",
-          "**\\\\*d. First generation law of uniformity**"
-        ]
-      },
-      {
-        "question": "The intensity of skin pigmentation in humans is controlled by several non-allelic dominant genes. It has been established that with an increase in the number of these genes, pigmentation becomes more intense. What is the type of interaction between these genes called?",
-        "options": [
-          "**\\\\*a. Polymerism**",
-          "b. Pleiotropy",
-          "c. Codominance",
-          "d. Epistasis"
+          "**\\\\*c. 100% boys**",
+          "a. 50% boys",
+          "b. All children",
+          "d. 50% girls"
         ]
       }
     ],
@@ -5242,10 +5242,10 @@ export const s_1_8 = {
       {
         "question": "Name the causative agent of epidemic typhus:",
         "options": [
+          "**\\***\\*d. Obermeyer's spirochetes****",
           "a. Village tick",
           "b. Clothes louse",
-          "c. Rickettsia Provacek",
-          "**\\*d. Obermeyer's spirochetes**"
+          "c. Rickettsia Provacek"
         ]
       },
       {
@@ -5350,10 +5350,10 @@ export const s_1_8 = {
       {
         "question": "Name the causative agent of epidemic typhus:",
         "options": [
+          "**\\***\\*d. Obermeyer's spirochetes****",
           "a. Village tick",
           "b. Clothes louse",
-          "c. Rickettsia Provacek",
-          "**\\*d. Obermeyer's spirochetes**"
+          "c. Rickettsia Provacek"
         ]
       },
       {
@@ -5615,70 +5615,557 @@ export const s_1_8 = {
   "t-s-1-8-23": {
     "test": [
       {
+        "question": "Secondary poisonous:",
+        "options": [
+          "**\\*a. Their toxicity is revealed when they are eaten by other animals.**",
+          "b. Have glands that produce poisons",
+          "c. Accumulate toxic metabolites in tissues",
+          "d. Produce toxins in special organs"
+        ]
+      },
+      {
+        "question": "When poisoned by scorpion venom, the following are observed:",
+        "options": [
+          "**\\*b. Acute pain, hyperemia and swelling of the affected area**",
+          "a. Feelings of fear, nausea and vomiting appear",
+          "c. Hyperemia and swelling of the affected area, a feeling of fear appears",
+          "d. There is no acute pain, there is a feeling of fear"
+        ]
+      },
+      {
+        "question": "The venom glands of snakes are:",
+        "options": [
+          "**\\*b. Transformed salivary glands**",
+          "a. Transformed reproductive system of males",
+          "c. Modified gonads",
+          "d. Transformed reproductive system of females"
+        ]
+      },
+      {
+        "question": "Specify secondary poisonous organisms:",
+        "options": [
+          "**\\*a. Some insects , fish, shellfish**",
+          "b. Mammal animals",
+          "c. Karakurt, scorpions",
+          "d. Amphibians, snakes"
+        ]
+      },
+      {
+        "question": "The larval stage of Fasciola hepatica that is invasive to humans is called:",
+        "options": [
+          "**\\*a. Adoleskariem**",
+          "b. Miracidium",
+          "c. Redia",
+          "d. Cercaria"
+        ]
+      },
+      {
+        "question": "Secondary poisonous:",
+        "options": [
+          "**\\*c. Accumulate exogenous poisons in their body**",
+          "a. Accumulate toxic metabolites in tissues",
+          "b. Have glands that produce poisons",
+          "d. Produce toxins in special organs"
+        ]
+      },
+      {
+        "question": "Which Arthropods are poisonous?",
+        "options": [
+          "**\\*b. Karakurt**",
+          "a. Housefly",
+          "c. Dog tick",
+          "d. Bed bug"
+        ]
+      },
+      {
+        "question": "And the invasive stage of the causative agent of diphyllobothriasis for the first intermediate host is:",
+        "options": [
+          "**\\*c. Coracidium**",
+          "a. Plerocercoid",
+          "b. Procercoid",
+          "d. Cysticercus"
+        ]
+      },
+      {
+        "question": "What research method is used to diagnose alveococcosis?",
+        "options": [
+          "**\\*b. Immunological**",
+          "a. Fecal microscopy",
+          "c. Sputum microscopy",
+          "d. Urine microscopy"
+        ]
+      },
+      {
+        "question": "Bees and wasps are animals:",
+        "options": [
+          "**\\*a. Primary poisonous armed**",
+          "b. Secondary poisonous armed",
+          "c. Passive-poisonous armed",
+          "d. Passive poisonous unarmed"
+        ]
+      },
+      {
+        "question": "Personal prevention of opisthorchiasis consists of:",
+        "options": [
+          "**\\*a. Consumption of well-cooked crabs**",
+          "b. Maintaining personal hygiene rules",
+          "c. Consumption of well-cooked and fried fish",
+          "d. Consuming only boiled water"
+        ]
+      },
+      {
+        "question": "Which helminthiasis pathogen can be contracted directly from a sick person?",
+        "options": [
+          "**\\*d. Hymenolepi doses**",
+          "a. Diphyllobothriasis",
+          "b. Alveococcosis",
+          "c. Echinococcosis"
+        ]
+      },
+      {
+        "question": "Reasons for animal resistance to its toxins:",
+        "options": [
+          "**\\*a. The poison is produced together with the inhibitor**",
+          "b. The peculiar structure of poisonous organs",
+          "c. Their toxins act when they enter the blood",
+          "d. Presence of enzymatic antitoxins"
+        ]
+      },
+      {
+        "question": "And the larval stage of Opisthorchis felineus, which is invasive to humans, is called:",
+        "options": [
+          "**\\*c. Metacercariae**",
+          "a. Redia",
+          "b. Sporocyst",
+          "d. Miracidium"
+        ]
+      },
+      {
+        "question": "A person becomes infected with hymenolepiasis through:",
+        "options": [
+          "**\\*b. Dirty hands**",
+          "a. Fish",
+          "c. Poorly cooked meat",
+          "d. Washed vegetables and fruits"
+        ]
+      },
+      {
+        "question": "Factors that determine the picture of zootoxin poisoning:",
+        "options": [
+          "**\\*b. Composition and amount of poison received**",
+          "a. Times of Day",
+          "c. Gender of the affected person",
+          "d. Habitus of the affected person"
+        ]
+      },
+      {
+        "question": "Toads and frogs are animals:",
+        "options": [
+          "**\\*a. Primary poisonous unarmed**",
+          "b. Secondary poisonous unarmed",
+          "c. Actively poisonous unarmed",
+          "d. Secondary poisonous armed"
+        ]
+      },
+      {
+        "question": "Where do the venom glands of the karakurt spider open?",
+        "options": [
+          "**\\*a. Close to the apex of the chelicerae**",
+          "b. In the arachnoid glands",
+          "c. In the last abdominal segment",
+          "d. On the pedipalps"
+        ]
+      },
+      {
+        "question": "Actively poisonous:",
+        "options": [
+          "**\\*b. Their toxins consist of polypeptides and a mixture of lytic enzymes**",
+          "a. Their toxins are broken down in the excretory canal",
+          "c. Usually lead a parasitic lifestyle",
+          "d. Their toxins act when they enter the intestines"
+        ]
+      },
+      {
+        "question": "Actively poisonous animals:",
+        "options": [
+          "**\\*b. Cobra and tarantula**",
+          "a. Jellyfish and gastropods",
+          "c. Python and tarantula",
+          "d. Tarantula and Pufferfish"
+        ]
+      },
+      {
+        "question": "Name the intermediate host of the armed tapeworm :",
+        "options": [
+          "**\\*c. Pig**",
+          "a. Cattle",
+          "b. Cyclops, fish",
+          "d. Freshwater mollusk"
+        ]
+      },
+      {
+        "question": "Insect venomous apparatus:",
+        "options": [
+          "**\\*a. Modified female reproductive system**",
+          "b. Modified male reproductive system",
+          "c. The modified salivary glands of males",
+          "d. Modified salivary glands of females"
+        ]
+      },
+      {
+        "question": "A person can only be an intermediate host for:",
+        "options": [
+          "**\\*d. Echinococcus granulosus**",
+          "a. Hymenolepis nana",
+          "b. Diphyllobothrium latum",
+          "c. Taenia solium"
+        ]
+      },
+      {
+        "question": "Marita of the liver fluke is localized in the liver:",
+        "options": [
+          "**\\*b. Human**",
+          "a. Cancer",
+          "c. Small pond snail",
+          "d. Toothless"
+        ]
+      },
+      {
+        "question": "What is the medical significance of the tarantula?",
+        "options": [
+          "**\\*a. Poisonous animal**",
+          "b. Intermediate host of guinea worm",
+          "c. Causative agent of myiasis",
+          "d. Leishmania vector"
+        ]
+      },
+      {
+        "question": "Zootoxins serve:",
+        "options": [
+          "**\\*d. For protection from enemies**",
+          "a. To cleanse the body",
+          "b. For metabolism",
+          "c. For digestion"
+        ]
+      },
+      {
+        "question": "Armed actively poisonous animals:",
+        "options": [
+          "**\\*c. Snakes and rays**",
+          "a. Bees and amphibians",
+          "b. Snakes and amphibians",
+          "d. Gastropods and bees"
+        ]
+      },
+      {
+        "question": "Spread of toxicity among animals:",
+        "options": [
+          "**\\*a. Found in representatives of all groups**",
+          "b. Found among helminths",
+          "c. More common among low-level groups",
+          "d. More common among highly organized groups"
+        ]
+      },
+      {
+        "question": "What helminthiasis can be caused by eating infected wild berries?",
+        "options": [
+          "**\\*b. Alveococcosis**",
+          "a. Taeniasis",
+          "c. Diphyllobothriasis",
+          "d. Opisthorchiasis"
+        ]
+      },
+      {
+        "question": "Passively poisonous animals:",
+        "options": [
+          "**\\*c. Pufferfish and gastropods**",
+          "a. Tarantula and gastropods",
+          "b. Cobra and boa constrictor",
+          "d. Jellyfish and tarantula"
+        ]
+      },
+      {
+        "question": "When poisoned by bees and wasps, the following are observed:",
+        "options": [
+          "**\\*b. Hyperemia and swelling of the affected area, allergic reactions**",
+          "a. Allergic reactions, feeling of fear",
+          "c. There is no hyperemia or swelling of the affected area",
+          "d. Acute pain, feeling of fear"
+        ]
+      },
+      {
+        "question": "The shortest body length is:",
+        "options": [
+          "**\\*b. Echinococcus granulosus**",
+          "a. Hymenolepis papa",
+          "c. Taeniarhynchus saginatus",
+          "d. Diphyllobothrium latum"
+        ]
+      },
+      {
+        "question": "Echinococcus granulosus is:",
+        "options": [
+          "**\\*a. Hermaphrodite**",
+          "b. Autotroph",
+          "c. Dioecious organism",
+          "d. Ectoparasite"
+        ]
+      },
+      {
+        "question": "Mature segments of the causative agent of the disease can actively crawl out of a person’s anus in the following cases:",
+        "options": [
+          "**\\*d. Teniarihosa**",
+          "a. Hymenolepiasis",
+          "b. Alveococcosis",
+          "c. Echinococcosis"
+        ]
+      },
+      {
+        "question": "Name the second intermediate host of the cat fluke:",
+        "options": [
+          "**\\*c. Fish**",
+          "a. Freshwater crayfish and crabs",
+          "b. Cyclops",
+          "d. Mollusk"
+        ]
+      },
+      {
+        "question": "What is the medical meaning of scorpion:",
+        "options": [
+          "**\\*a. Poisonous animal**",
+          "b. Ectoparasite",
+          "c. Leishmania vector",
+          "d. Causative agent of myiasis"
+        ]
+      },
+      {
+        "question": "Name the intermediate hosts of the cat fluke:",
+        "options": [
+          "**\\*c. Mollusc of the genus Bitiniya , fish**",
+          "a. Freshwater crayfish and crabs",
+          "b. Cyclops, fish",
+          "d. Mollusc of the genus Helicela, ants"
+        ]
+      },
+      {
+        "question": "Measures to protect poisonous animals are carried out out:",
+        "options": [
+          "**\\*d. All answers are correct**",
+          "a. Establishing artificial synthesis of toxins",
+          "b. Protection and restoration of natural biogeocenoses",
+          "c. Keeping poisonous animals in special laboratories"
+        ]
+      },
+      {
+        "question": "Primary poisonous:",
+        "options": [
+          "**\\*b. Produce toxins in special organs**",
+          "a. Plant toxins accumulate",
+          "c. Accumulate exogenous poisons in their body",
+          "d. Their toxicity is revealed when they are eaten by other animals."
+        ]
+      },
+      {
+        "question": "What helminthiasis pathogen can be contracted directly from a sick dog?",
+        "options": [
+          "**\\*c. Echinococcosis**",
+          "a. Diphyllobothriasis",
+          "b. Opisthorchiasis",
+          "d. Hymenolepiasis"
+        ]
+      },
+      {
+        "question": "What is the sexually mature form of trematodes?",
+        "options": [
+          "**\\*c. Marita**",
+          "a. Redia",
+          "b. Cercaria",
+          "d. Miracidium"
+        ]
+      },
+      {
+        "question": "A person who consumes insufficiently heat-treated fish can become infected with:",
+        "options": [
+          "**\\*d. Diphyllobothriasis**",
+          "a. Hymenolepiasis",
+          "b. Teniarinhoz",
+          "c. Schistosomiasis"
+        ]
+      },
+      {
+        "question": "What is the medical meaning of karakurt:",
+        "options": [
+          "**\\*a. Poisonous animal**",
+          "b. Ectoparasite",
+          "c. Intermediate host of guinea worm",
+          "d. Causative agent of myiasis"
+        ]
+      },
+      {
+        "question": "For personal prevention of taeniasis it is necessary:",
+        "options": [
+          "**\\*b. Heat treat pork before eating**",
+          "a. Clean your home thoroughly",
+          "c. Wash vegetables and fruits thoroughly",
+          "d. Wash your hands regularly before eating food"
+        ]
+      },
+      {
+        "question": "Zootoxins serve:",
+        "options": [
+          "**\\*b. As a means of animals attacking their prey**",
+          "a. For digestion",
+          "c. For metabolism",
+          "d. To cleanse the body"
+        ]
+      },
+      {
+        "question": "Passive poisonous:",
+        "options": [
+          "**\\*b. Their toxins are not made of proteins**",
+          "a. Their toxins act when they enter the bloodstream",
+          "c. Their toxins consist of polypeptides and a mixture of lytic enzymes",
+          "d. Their toxins are broken down in the digestive tract"
+        ]
+      },
+      {
+        "question": "When poisoned by tarantula venom, the following are observed:",
+        "options": [
+          "**\\*b. Hyperemia and swelling of the affected area, skin necrosis**",
+          "a. Acute pain and drowsiness",
+          "c. There is no hyperemia or swelling of the affected area",
+          "d. Hyperemia and swelling of the affected area, drowsiness"
+        ]
+      },
+      {
+        "question": "Actively poisonous:",
+        "options": [
+          "**\\*d. Their toxins act when they enter the bloodstream**",
+          "a. Their toxins are broken down in the excretory canal",
+          "b. Usually lead a free lifestyle",
+          "c. Their toxins consist of carbohydrates and lytic enzymes"
+        ]
+      },
+      {
+        "question": "Primary venomous animals are divided into :",
+        "options": [
+          "**\\*d. Actively poisonous and passively poisonous**",
+          "a. Neurotropic and protein",
+          "b. Progressive and non-progressive",
+          "c. Enzymatic and hormonal"
+        ]
+      },
+      {
+        "question": "When poisoned by the venom of slate snakes, the following are observed:",
+        "options": [
+          "**\\*b. Excitation and then depression of the central nervous system, respiratory failure**",
+          "a. Inflammation of lymphatic vessels, tissue necrosis",
+          "c. Acute pain, tissue necrosis",
+          "d. Excitation and then depression of the central nervous system, tissue necrosis"
+        ]
+      },
+      {
+        "question": "Flatworms that belong to the class of trematodes are characterized by:",
+        "options": [
+          "**\\*b. Presence of oral and ventral sucker**",
+          "a. Do not drink water from open reservoirs",
+          "c. Wash hands, vegetables, berries",
+          "d. Lack of digestive system"
+        ]
+      },
+      {
+        "question": "Actively poisonous:",
+        "options": [
+          "**\\*b. Have devices for introducing poison into the victim’s body**",
+          "a. Plant toxins accumulate",
+          "c. Accumulate exogenous poisons in their body",
+          "d. Their toxicity is revealed when they are eaten by other animals."
+        ]
+      },
+      {
+        "question": "Unarmed actively poisonous animals:",
+        "options": [
+          "**\\*a. Gastropods and amphibians**",
+          "b. Stingrays and gastropods",
+          "c. Puffer fish and stingrays",
+          "d. Snakes and amphibians"
+        ]
+      },
+      {
+        "question": "When poisoned by the venom of viper snakes, the following are observed:",
+        "options": [
+          "**\\*d. Acute pain and bleeding disorders**",
+          "a. Bleeding disorders and breathing problems",
+          "b. Numbness of the limbs and hemorrhagic edema",
+          "c. Numbness of the limbs and breathing problems"
+        ]
+      }
+    ],
+    "situational": [
+      {
         "question": "First aid for poisoning with hymenoptera venom:",
         "options": [
-          "Remove the sting, treat the sting site with disinfectants.",
-          "Suck out the poison, treat the sting site with disinfectants.",
-          "Apply a warm, tight bandage to the sting site",
-          "Leave the sting, treat the sting site with disinfectants"
+          "**\\*d. Remove the sting, treat the sting site with disinfectants.**",
+          "a. Apply a warm, tight bandage to the sting site",
+          "b. Suck out the poison, treat the sting site with disinfectants.",
+          "c. Leave the sting, treat the sting site with disinfectants"
+        ]
+      },
+      {
+        "question": "The larval stage of Fasciola hepatica that is invasive to humans is called:",
+        "options": [
+          "**\\*b. Adoleskariem**",
+          "a. Redia",
+          "c. Cercaria",
+          "d. Miracidium"
+        ]
+      },
+      {
+        "question": "For personal prevention of taeniasis it is necessary:",
+        "options": [
+          "**\\*d. Heat treat pork before eating**",
+          "a. Wash your hands regularly before eating food",
+          "b. Wash vegetables and fruits thoroughly",
+          "c. Clean your home thoroughly"
         ]
       },
       {
         "question": "First aid for snake poisoning:",
         "options": [
-          "Suck out the poison and treat the bite site with disinfectants.",
-          "Cauterize the bite site and place the victim in the shade.",
-          "Cauterize and treat the bite site with disinfectants",
-          "Apply a tight bandage to the bite site and transport in any position"
+          "**\\*d. Suck out the poison and treat the bite site with disinfectants.**",
+          "a. Apply a tight bandage to the bite site and transport in any position",
+          "b. Cauterize the bite site and place the victim in the shade.",
+          "c. Cauterize and treat the bite site with disinfectants"
         ]
       },
       {
-        "question": "Picture of poisoning with toadstool:",
+        "question": "When poisoned by the venom of slate snakes, the following are observed:",
         "options": [
-          "Death due to cardiovascular and liver failure",
-          "Hemolysis of red blood cells",
-          "Intestinal obstruction",
-          "Hyperemia and swelling of the affected area, skin necrosis"
+          "**\\*d. Excitation and then depression of the central nervous system, respiratory failure**",
+          "a. Excitation and then depression of the central nervous system, tissue necrosis",
+          "b. Inflammation of lymphatic vessels, tissue necrosis",
+          "c. Acute pain, tissue necrosis"
         ]
       },
       {
-        "question": "Picture of red fly agaric poisoning:",
+        "question": "Mature segments of the causative agent of the disease can actively crawl out of a person’s anus in the following cases:",
         "options": [
-          "Increased temperature, tachycardia",
-          "Labored breathing",
-          "Hallucinations and seizures",
-          "Intestinal obstruction"
+          "**\\*d. Teniarinhosa**",
+          "a. Hymenolepiasis",
+          "b. Echinococcosis",
+          "c. Alveococcosis"
         ]
       },
       {
-        "question": "Poppy poisoning clinic:",
+        "question": "What helminthiasis pathogen can be contracted directly from a sick dog?",
         "options": [
-          "Allergic reactions, decreased blood pressure",
-          "Death from cardiac arrest",
-          "Retention of urination and defecation",
-          "Hemolysis of red blood cells"
-        ]
-      },
-      {
-        "question": "Cannabis poisoning clinic:",
-        "options": [
-          "State of intoxication, speech and motor agitation, vivid hallucinations",
-          "Bloody diarrhea",
-          "Bradycardia, hypotension, diarrhea",
-          "Hyperemia and swelling of the affected area, skin necrosis"
-        ]
-      },
-      {
-        "question": "Picture of wild rosemary poisoning:",
-        "options": [
-          "Decreased blood pressure, tachycardia",
-          "Sore throat",
-          "Increased urination and cramps",
-          "Labored breathing"
+          "**\\*c. Echinococcosis**",
+          "a. Diphyllobothriasis",
+          "b. Opisthorchiasis",
+          "d. Hymenolepiasis"
         ]
       }
-    ],
-    "situational": []
+    ]
   },
   "t-s-1-8-17": {
     "test": [
