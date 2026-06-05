@@ -5615,66 +5615,489 @@ export const s_1_8 = {
   "t-s-1-8-23": {
     "test": [
       {
-        "question": "First aid for poisoning with hymenoptera venom:",
+        "question": "Secondary poisonous:",
         "options": [
-          "Remove the sting, treat the sting site with disinfectants.",
-          "Suck out the poison, treat the sting site with disinfectants.",
-          "Apply a warm, tight bandage to the sting site",
-          "Leave the sting, treat the sting site with disinfectants"
+          "**\\*a. Their toxicity is revealed when they are eaten by other animals.**",
+          "b. Have glands that produce poisons",
+          "c. Accumulate toxic metabolites in tissues",
+          "d. Produce toxins in special organs"
         ]
       },
       {
-        "question": "First aid for snake poisoning:",
+        "question": "When poisoned by scorpion venom, the following are observed:",
         "options": [
-          "Suck out the poison and treat the bite site with disinfectants.",
-          "Cauterize the bite site and place the victim in the shade.",
-          "Cauterize and treat the bite site with disinfectants",
-          "Apply a tight bandage to the bite site and transport in any position"
+          "**\\*b. Acute pain, hyperemia and swelling of the affected area**",
+          "a. Feelings of fear, nausea and vomiting appear",
+          "c. Hyperemia and swelling of the affected area, a feeling of fear appears",
+          "d. There is no acute pain, there is a feeling of fear"
         ]
       },
       {
-        "question": "Picture of poisoning with toadstool:",
+        "question": "The venom glands of snakes are:",
         "options": [
-          "Death due to cardiovascular and liver failure",
-          "Hemolysis of red blood cells",
-          "Intestinal obstruction",
-          "Hyperemia and swelling of the affected area, skin necrosis"
+          "**\\*b. Transformed salivary glands**",
+          "a. Transformed reproductive system of males",
+          "c. Modified gonads",
+          "d. Transformed reproductive system of females"
         ]
       },
       {
-        "question": "Picture of red fly agaric poisoning:",
+        "question": "Specify secondary poisonous organisms:",
         "options": [
-          "Increased temperature, tachycardia",
-          "Labored breathing",
-          "Hallucinations and seizures",
-          "Intestinal obstruction"
+          "**\\*a. Some insects , fish, shellfish**",
+          "b. Mammal animals",
+          "c. Karakurt, scorpions",
+          "d. Amphibians, snakes"
         ]
       },
       {
-        "question": "Poppy poisoning clinic:",
+        "question": "The larval stage of Fasciola hepatica that is invasive to humans is called:",
         "options": [
-          "Allergic reactions, decreased blood pressure",
-          "Death from cardiac arrest",
-          "Retention of urination and defecation",
-          "Hemolysis of red blood cells"
+          "**\\*a. Adoleskariem**",
+          "b. Miracidium",
+          "c. Redia",
+          "d. Cercaria"
         ]
       },
       {
-        "question": "Cannabis poisoning clinic:",
+        "question": "Secondary poisonous:",
         "options": [
-          "State of intoxication, speech and motor agitation, vivid hallucinations",
-          "Bloody diarrhea",
-          "Bradycardia, hypotension, diarrhea",
-          "Hyperemia and swelling of the affected area, skin necrosis"
+          "**\\*c. Accumulate exogenous poisons in their body**",
+          "a. Accumulate toxic metabolites in tissues",
+          "b. Have glands that produce poisons",
+          "d. Produce toxins in special organs"
         ]
       },
       {
-        "question": "Picture of wild rosemary poisoning:",
+        "question": "Which Arthropods are poisonous?",
         "options": [
-          "Decreased blood pressure, tachycardia",
-          "Sore throat",
-          "Increased urination and cramps",
-          "Labored breathing"
+          "**\\*b. Karakurt**",
+          "a. Housefly",
+          "c. Dog tick",
+          "d. Bed bug"
+        ]
+      },
+      {
+        "question": "And the invasive stage of the causative agent of diphyllobothriasis for the first intermediate host is:",
+        "options": [
+          "**\\*c. Coracidium**",
+          "a. Plerocercoid",
+          "b. Procercoid",
+          "d. Cysticercus"
+        ]
+      },
+      {
+        "question": "What research method is used to diagnose alveococcosis?",
+        "options": [
+          "**\\*b. Immunological**",
+          "a. Fecal microscopy",
+          "c. Sputum microscopy",
+          "d. Urine microscopy"
+        ]
+      },
+      {
+        "question": "Bees and wasps are animals:",
+        "options": [
+          "**\\*a. Primary poisonous armed**",
+          "b. Secondary poisonous armed",
+          "c. Passive-poisonous armed",
+          "d. Passive poisonous unarmed"
+        ]
+      },
+      {
+        "question": "Personal prevention of opisthorchiasis consists of:",
+        "options": [
+          "**\\*a. Consumption of well-cooked crabs**",
+          "b. Maintaining personal hygiene rules",
+          "c. Consumption of well-cooked and fried fish",
+          "d. Consuming only boiled water"
+        ]
+      },
+      {
+        "question": "Which helminthiasis pathogen can be contracted directly from a sick person?",
+        "options": [
+          "**\\*d. Hymenolepi doses**",
+          "a. Diphyllobothriasis",
+          "b. Alveococcosis",
+          "c. Echinococcosis"
+        ]
+      },
+      {
+        "question": "Reasons for animal resistance to its toxins:",
+        "options": [
+          "**\\*a. The poison is produced together with the inhibitor**",
+          "b. The peculiar structure of poisonous organs",
+          "c. Their toxins act when they enter the blood",
+          "d. Presence of enzymatic antitoxins"
+        ]
+      },
+      {
+        "question": "And the larval stage of Opisthorchis felineus, which is invasive to humans, is called:",
+        "options": [
+          "**\\*c. Metacercariae**",
+          "a. Redia",
+          "b. Sporocyst",
+          "d. Miracidium"
+        ]
+      },
+      {
+        "question": "A person becomes infected with hymenolepiasis through:",
+        "options": [
+          "**\\*b. Dirty hands**",
+          "a. Fish",
+          "c. Poorly cooked meat",
+          "d. Washed vegetables and fruits"
+        ]
+      },
+      {
+        "question": "Factors that determine the picture of zootoxin poisoning:",
+        "options": [
+          "**\\*b. Composition and amount of poison received**",
+          "a. Times of Day",
+          "c. Gender of the affected person",
+          "d. Habitus of the affected person"
+        ]
+      },
+      {
+        "question": "Toads and frogs are animals:",
+        "options": [
+          "**\\*a. Primary poisonous unarmed**",
+          "b. Secondary poisonous unarmed",
+          "c. Actively poisonous unarmed",
+          "d. Secondary poisonous armed"
+        ]
+      },
+      {
+        "question": "Where do the venom glands of the karakurt spider open?",
+        "options": [
+          "**\\*a. Close to the apex of the chelicerae**",
+          "b. In the arachnoid glands",
+          "c. In the last abdominal segment",
+          "d. On the pedipalps"
+        ]
+      },
+      {
+        "question": "Actively poisonous:",
+        "options": [
+          "**\\*b. Their toxins consist of polypeptides and a mixture of lytic enzymes**",
+          "a. Their toxins are broken down in the excretory canal",
+          "c. Usually lead a parasitic lifestyle",
+          "d. Their toxins act when they enter the intestines"
+        ]
+      },
+      {
+        "question": "Actively poisonous animals:",
+        "options": [
+          "**\\*b. Cobra and tarantula**",
+          "a. Jellyfish and gastropods",
+          "c. Python and tarantula",
+          "d. Tarantula and Pufferfish"
+        ]
+      },
+      {
+        "question": "Name the intermediate host of the armed tapeworm :",
+        "options": [
+          "**\\*c. Pig**",
+          "a. Cattle",
+          "b. Cyclops, fish",
+          "d. Freshwater mollusk"
+        ]
+      },
+      {
+        "question": "Insect venomous apparatus:",
+        "options": [
+          "**\\*a. Modified female reproductive system**",
+          "b. Modified male reproductive system",
+          "c. The modified salivary glands of males",
+          "d. Modified salivary glands of females"
+        ]
+      },
+      {
+        "question": "A person can only be an intermediate host for:",
+        "options": [
+          "**\\*d. Echinococcus granulosus**",
+          "a. Hymenolepis nana",
+          "b. Diphyllobothrium latum",
+          "c. Taenia solium"
+        ]
+      },
+      {
+        "question": "Marita of the liver fluke is localized in the liver:",
+        "options": [
+          "**\\*b. Human**",
+          "a. Cancer",
+          "c. Small pond snail",
+          "d. Toothless"
+        ]
+      },
+      {
+        "question": "What is the medical significance of the tarantula?",
+        "options": [
+          "**\\*a. Poisonous animal**",
+          "b. Intermediate host of guinea worm",
+          "c. Causative agent of myiasis",
+          "d. Leishmania vector"
+        ]
+      },
+      {
+        "question": "Zootoxins serve:",
+        "options": [
+          "**\\*d. For protection from enemies**",
+          "a. To cleanse the body",
+          "b. For metabolism",
+          "c. For digestion"
+        ]
+      },
+      {
+        "question": "Armed actively poisonous animals:",
+        "options": [
+          "**\\*c. Snakes and rays**",
+          "a. Bees and amphibians",
+          "b. Snakes and amphibians",
+          "d. Gastropods and bees"
+        ]
+      },
+      {
+        "question": "Spread of toxicity among animals:",
+        "options": [
+          "**\\*a. Found in representatives of all groups**",
+          "b. Found among helminths",
+          "c. More common among low-level groups",
+          "d. More common among highly organized groups"
+        ]
+      },
+      {
+        "question": "What helminthiasis can be caused by eating infected wild berries?",
+        "options": [
+          "**\\*b. Alveococcosis**",
+          "a. Taeniasis",
+          "c. Diphyllobothriasis",
+          "d. Opisthorchiasis"
+        ]
+      },
+      {
+        "question": "Passively poisonous animals:",
+        "options": [
+          "**\\*c. Pufferfish and gastropods**",
+          "a. Tarantula and gastropods",
+          "b. Cobra and boa constrictor",
+          "d. Jellyfish and tarantula"
+        ]
+      },
+      {
+        "question": "When poisoned by bees and wasps, the following are observed:",
+        "options": [
+          "**\\*b. Hyperemia and swelling of the affected area, allergic reactions**",
+          "a. Allergic reactions, feeling of fear",
+          "c. There is no hyperemia or swelling of the affected area",
+          "d. Acute pain, feeling of fear"
+        ]
+      },
+      {
+        "question": "The shortest body length is:",
+        "options": [
+          "**\\*b. Echinococcus granulosus**",
+          "a. Hymenolepis papa",
+          "c. Taeniarhynchus saginatus",
+          "d. Diphyllobothrium latum"
+        ]
+      },
+      {
+        "question": "Echinococcus granulosus is:",
+        "options": [
+          "**\\*a. Hermaphrodite**",
+          "b. Autotroph",
+          "c. Dioecious organism",
+          "d. Ectoparasite"
+        ]
+      },
+      {
+        "question": "Mature segments of the causative agent of the disease can actively crawl out of a person’s anus in the following cases:",
+        "options": [
+          "**\\*d. Teniarihosa**",
+          "a. Hymenolepiasis",
+          "b. Alveococcosis",
+          "c. Echinococcosis"
+        ]
+      },
+      {
+        "question": "Name the second intermediate host of the cat fluke:",
+        "options": [
+          "**\\*c. Fish**",
+          "a. Freshwater crayfish and crabs",
+          "b. Cyclops",
+          "d. Mollusk"
+        ]
+      },
+      {
+        "question": "What is the medical meaning of scorpion:",
+        "options": [
+          "**\\*a. Poisonous animal**",
+          "b. Ectoparasite",
+          "c. Leishmania vector",
+          "d. Causative agent of myiasis"
+        ]
+      },
+      {
+        "question": "Name the intermediate hosts of the cat fluke:",
+        "options": [
+          "**\\*c. Mollusc of the genus Bitiniya , fish**",
+          "a. Freshwater crayfish and crabs",
+          "b. Cyclops, fish",
+          "d. Mollusc of the genus Helicela, ants"
+        ]
+      },
+      {
+        "question": "Measures to protect poisonous animals are carried out out:",
+        "options": [
+          "**\\*d. All answers are correct**",
+          "a. Establishing artificial synthesis of toxins",
+          "b. Protection and restoration of natural biogeocenoses",
+          "c. Keeping poisonous animals in special laboratories"
+        ]
+      },
+      {
+        "question": "Primary poisonous:",
+        "options": [
+          "**\\*b. Produce toxins in special organs**",
+          "a. Plant toxins accumulate",
+          "c. Accumulate exogenous poisons in their body",
+          "d. Their toxicity is revealed when they are eaten by other animals."
+        ]
+      },
+      {
+        "question": "What helminthiasis pathogen can be contracted directly from a sick dog?",
+        "options": [
+          "**\\*c. Echinococcosis**",
+          "a. Diphyllobothriasis",
+          "b. Opisthorchiasis",
+          "d. Hymenolepiasis"
+        ]
+      },
+      {
+        "question": "What is the sexually mature form of trematodes?",
+        "options": [
+          "**\\*c. Marita**",
+          "a. Redia",
+          "b. Cercaria",
+          "d. Miracidium"
+        ]
+      },
+      {
+        "question": "A person who consumes insufficiently heat-treated fish can become infected with:",
+        "options": [
+          "**\\*d. Diphyllobothriasis**",
+          "a. Hymenolepiasis",
+          "b. Teniarinhoz",
+          "c. Schistosomiasis"
+        ]
+      },
+      {
+        "question": "What is the medical meaning of karakurt:",
+        "options": [
+          "**\\*a. Poisonous animal**",
+          "b. Ectoparasite",
+          "c. Intermediate host of guinea worm",
+          "d. Causative agent of myiasis"
+        ]
+      },
+      {
+        "question": "For personal prevention of taeniasis it is necessary:",
+        "options": [
+          "**\\*b. Heat treat pork before eating**",
+          "a. Clean your home thoroughly",
+          "c. Wash vegetables and fruits thoroughly",
+          "d. Wash your hands regularly before eating food"
+        ]
+      },
+      {
+        "question": "Zootoxins serve:",
+        "options": [
+          "**\\*b. As a means of animals attacking their prey**",
+          "a. For digestion",
+          "c. For metabolism",
+          "d. To cleanse the body"
+        ]
+      },
+      {
+        "question": "Passive poisonous:",
+        "options": [
+          "**\\*b. Their toxins are not made of proteins**",
+          "a. Their toxins act when they enter the bloodstream",
+          "c. Their toxins consist of polypeptides and a mixture of lytic enzymes",
+          "d. Their toxins are broken down in the digestive tract"
+        ]
+      },
+      {
+        "question": "When poisoned by tarantula venom, the following are observed:",
+        "options": [
+          "**\\*b. Hyperemia and swelling of the affected area, skin necrosis**",
+          "a. Acute pain and drowsiness",
+          "c. There is no hyperemia or swelling of the affected area",
+          "d. Hyperemia and swelling of the affected area, drowsiness"
+        ]
+      },
+      {
+        "question": "Actively poisonous:",
+        "options": [
+          "**\\*d. Their toxins act when they enter the bloodstream**",
+          "a. Their toxins are broken down in the excretory canal",
+          "b. Usually lead a free lifestyle",
+          "c. Their toxins consist of carbohydrates and lytic enzymes"
+        ]
+      },
+      {
+        "question": "Primary venomous animals are divided into :",
+        "options": [
+          "**\\*d. Actively poisonous and passively poisonous**",
+          "a. Neurotropic and protein",
+          "b. Progressive and non-progressive",
+          "c. Enzymatic and hormonal"
+        ]
+      },
+      {
+        "question": "When poisoned by the venom of slate snakes, the following are observed:",
+        "options": [
+          "**\\*b. Excitation and then depression of the central nervous system, respiratory failure**",
+          "a. Inflammation of lymphatic vessels, tissue necrosis",
+          "c. Acute pain, tissue necrosis",
+          "d. Excitation and then depression of the central nervous system, tissue necrosis"
+        ]
+      },
+      {
+        "question": "Flatworms that belong to the class of trematodes are characterized by:",
+        "options": [
+          "**\\*b. Presence of oral and ventral sucker**",
+          "a. Do not drink water from open reservoirs",
+          "c. Wash hands, vegetables, berries",
+          "d. Lack of digestive system"
+        ]
+      },
+      {
+        "question": "Actively poisonous:",
+        "options": [
+          "**\\*b. Have devices for introducing poison into the victim’s body**",
+          "a. Plant toxins accumulate",
+          "c. Accumulate exogenous poisons in their body",
+          "d. Their toxicity is revealed when they are eaten by other animals."
+        ]
+      },
+      {
+        "question": "Unarmed actively poisonous animals:",
+        "options": [
+          "**\\*a. Gastropods and amphibians**",
+          "b. Stingrays and gastropods",
+          "c. Puffer fish and stingrays",
+          "d. Snakes and amphibians"
+        ]
+      },
+      {
+        "question": "When poisoned by the venom of viper snakes, the following are observed:",
+        "options": [
+          "**\\*d. Acute pain and bleeding disorders**",
+          "a. Bleeding disorders and breathing problems",
+          "b. Numbness of the limbs and hemorrhagic edema",
+          "c. Numbness of the limbs and breathing problems"
         ]
       }
     ],
