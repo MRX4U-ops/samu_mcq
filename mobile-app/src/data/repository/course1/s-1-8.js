@@ -5251,10 +5251,10 @@ export const s_1_8 = {
       {
         "question": "Name the causative agent of epidemic typhus:",
         "options": [
-          "**\\*c. Rickettsia Provacek**",
           "a. Village tick",
           "b. Clothes louse",
-          "d. Obermeyer's spirochetes"
+          "c. Rickettsia Provacek",
+          "**\\*d. Obermeyer's spirochetes**"
         ]
       },
       {
@@ -5359,10 +5359,10 @@ export const s_1_8 = {
       {
         "question": "Name the causative agent of epidemic typhus:",
         "options": [
-          "**\\*a. Rickettsia Provacek**",
-          "b. Obermeyer's spirochetes",
-          "c. Head louse",
-          "d. Clothes louse"
+          "a. Village tick",
+          "b. Clothes louse",
+          "c. Rickettsia Provacek",
+          "**\\*d. Obermeyer's spirochetes**"
         ]
       },
       {
