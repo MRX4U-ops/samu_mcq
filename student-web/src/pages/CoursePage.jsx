@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, useLocation, Link } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
+import { ALL_SUBJECTS } from '../data/index.js';
 import Navbar from '../components/Navbar';
 import { ChevronRight, ArrowLeft, BookOpen, Loader } from 'lucide-react';
 import styles from './CoursePage.module.css';
@@ -21,16 +22,30 @@ export default function CoursePage() {
     async function load() {
       try {
         // Try API first
-        const res = await fetch(`https://samu-mcqs.onrender.com/api/subjects?courseId=${courseId}`);
-        const data = await res.json();
-        if (Array.isArray(data) && data.length > 0) {
-          setSubjects(data);
+        const res = await fetch(`https://samu-mcqs.onrender.com/api/courses/${courseId}/subjects`);
+        if (res.ok) {
+          const data = await res.json();
+          if (Array.isArray(data) && data.length > 0) {
+            setSubjects(data);
+            setLoading(false);
+            return;
+          }
+        }
+      } catch (e) {
+        console.warn("Backend API fetch failed, trying fallback...");
+      }
+
+      // Fallback: local static data based on course number
+      if (courseNum) {
+        const localSubjects = ALL_SUBJECTS.filter(s => s.id.startsWith(`s-${courseNum}-`));
+        if (localSubjects.length > 0) {
+          setSubjects(localSubjects);
           setLoading(false);
           return;
         }
-      } catch (e) {}
+      }
 
-      // Fallback: Supabase direct
+      // Final Fallback: Supabase direct (if courseId is a UUID)
       try {
         const { data } = await supabase
           .from('subjects')

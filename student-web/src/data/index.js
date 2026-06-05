@@ -64,3 +64,4 @@ export const MCQ_REPOSITORY = {
   "s-2-9": s_2_9_merged,
   "s-2-10": s_2_10_merged,
 };
+export { ALL_SUBJECTS } from './subjectData.js';
