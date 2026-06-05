@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import { MCQ_REPOSITORY } from '../data/index.js';
+import { recordAttempt } from '../lib/revisionEngine';
 import Navbar from '../components/Navbar';
 import { ArrowLeft, ArrowRight, Clock, CheckCircle2, XCircle, Trophy, RotateCcw, Home } from 'lucide-react';
 import styles from './QuizPage.module.css';
@@ -193,6 +194,16 @@ export default function QuizPage() {
     newAnswers[currentIdx] = { selected, isCorrect };
     setUserAnswers(newAnswers);
     setSubmitted(true);
+
+    // Record in Revision Engine
+    recordAttempt({
+      questionId: questions[currentIdx]?._id,
+      isCorrect,
+      subjectId: subjectId,
+      topicId: topicId,
+      subjectName: title,
+      questionText: questions[currentIdx]?.question
+    });
   }
 
   function handleNext() {

@@ -1,0 +1,173 @@
+const fs = require('fs');
+const path = require('path');
+const { MCQ_REPOSITORY } = require('./mobile-app/src/data/repository/index.js');
+
+const rawQuestions = `Question  1
+In humans, a polygenic trait is:
+a. Brachydactyly
+**\\*b. Height**
+c. Blood type
+d. Hair color
+
+Question  2
+In polymerization, the splitting of the trait when crossing two diheterozygotes will be:
+**\\*a. 15:1, 1:4:6:4:1**
+b. 9:4:3, 1:4:6:4:1, 13:3
+c. 9:3:4, 9:7, 15:1
+d. 9:4:3, 12:3:1, 13:3
+
+Question  3
+With complementary interaction of genes, the splitting of the trait when crossing two diheterozygotes will be in the ratio:
+a. 9:4:3, 1:4:6:4:1, 13:3
+b. 9:4:3, 12:3:1, 13:3
+c. 15:1, 1:4:6:4:1
+**\\*d. 9:3:3:1, 9:6:1, 9:3:4, 9:7**
+
+Question  4
+Polygenic traits include:
+**\\*a. Body weight. Finger length**
+b. Blood clotting
+c. Microcephaly
+d. Polydactyly
+
+Question  5
+Penetrance is:
+a. Manifestation of the gene in a heterozygous state
+b. Degree of gene penetration
+c. The influence of one gene on the manifestation of several traits
+**\\*d. Gene penetration frequency**
+
+Question  6
+The property of organisms to transmit their characteristics and developmental characteristics to their offspring - is this?
+a. Karyotyping
+b. Variability
+**\\*c. Heredity**
+d. Crossbreeding
+
+Question  7
+What is a phenotype?
+a. Gene system of a particular organism
+b. Traits caused by genes located only on autosomes
+**\\*c. A system of external and internal signs and properties of an organism that are formed during its individual development**
+d. Haploid set of chromosomes
+
+Question  8
+A cross in which the parent organisms differ in three pairs of characteristics is:
+**\\*a. Trihybrid**
+b. Tetrahybrid
+c. Polyhybrid
+d. Dihybrid
+
+Question  9
+The ability of organisms to transmit their characteristics and developmental characteristics to their offspring is:
+a. Genotype
+b. Inheritance
+c. Variability
+**\\*d. Heredity**
+
+Question  10
+Gene is:
+a. A section of an RNA molecule in which information about the secondary structure of a polypeptide is encoded
+b. A section of an RNA molecule in which information about the primary structure of a polypeptide is encoded
+c. A section of a DNA molecule in which information about the secondary structure of a polypeptide is encoded
+**\\*d. A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded**
+
+Question  11
+How many types of gametes does an individual with genotype AAbbCC produce?
+**\\*a. 1**
+b. 8
+c. 3
+d. 6
+
+Question  12
+An analysis cross is a cross in which an individual whose genotype is unknown but needs to be determined (AA or Aa ) is crossed with:
+a. Heterozygous (A a )
+**\\*b. Recessive homozygote (aa)**
+c. Dominant homozygote (A A )
+d. Zygote
+
+Question  13
+Allelic genes are genes located in:
+**\\*a. The same loci of homologous chromosomes**
+b. Different loci of homologous chromosomes
+c. Same loci of non-homologous chromosomes
+d. One chromosome
+
+Question  14
+Where are non-allelic genes located?
+a. Different pairs of chromosomes
+b. Only in autosomes
+c. Only on sex chromosomes
+**\\*d. At different loci on the chromosome**
+
+Question  15
+G. Mendel developed a method for studying heredity:
+**\\*a. Hybridological**
+b. Biological
+c. Twin
+d. Cytological
+
+Question  16
+In what ratio is splitting observed for different types of gene interactions?
+a. With dominant epistasis 9:3:4 or 12:3:1
+b. With recessive epistasis 13:3
+**\\*c. With polymer 15:1 or 1:4:6:4:1**
+d. With complementary interaction 15:1 or 9:6:1
+
+Question  17
+Is this complementarity?
+a. Interaction of non-allelic genes, in which one gene suppresses the action of nother, non-allelic gene
+**\\*b. When two or more genes interact, new traits are formed**
+c. One of the forms of interaction of non-allelic genes, in which the development of a certain trait is predetermined by the influence of several genes
+d. The ability of one gene to control several traits (multiple gene action)
+
+Question  18
+The ability of organisms to acquire new characteristics or lose previous ones during development is:
+a. Genotype
+b. Heredity
+**\\*c. Variability**
+d. Inheritance
+
+Question  19
+In which blood group is agglutinogen A and B found?
+a. II
+b. I
+c. III
+**\\*d. IV**
+
+Question  20
+Mendel's first law reveals patterns:
+a. Law of splitting
+b. Independent combination of features
+c. Incomplete dominance
+**\\*d. First generation law of uniformity**
+
+Question  21
+The intensity of skin pigmentation in humans is controlled by several non-allelic dominant genes. It has been established that with an increase in the number of these genes, pigmentation becomes more intense. What is the type of interaction between these genes called?
+**\\*a. Polymerism**
+b. Pleiotropy
+c. Codominance
+d. Epistasis`;
+
+function parseQuestions(text) {
+  const blocks = text.split(/Question\s*\d+\s*/i).filter(b => b.trim());
+  return blocks.map(block => {
+    const lines = block.split('\n').map(l => l.trim()).filter(l => l);
+    const question = lines[0];
+    const options = lines.slice(1);
+    return { question, options };
+  });
+}
+
+// Update Topic 7 (t-s-1-8-6)
+MCQ_REPOSITORY['s-1-8']['t-s-1-8-6'].test = parseQuestions(rawQuestions);
+
+const jsContent = 'export const s_1_8 = ' + JSON.stringify(MCQ_REPOSITORY['s-1-8'], null, 2) + ';\n';
+
+const mobilePath = path.join('mobile-app', 'src', 'data', 'repository', 'course1', 's-1-8.js');
+const webPath = path.join('student-web', 'src', 'data', 'course1', 's-1-8.js');
+
+fs.writeFileSync(mobilePath, jsContent);
+fs.writeFileSync(webPath, jsContent);
+
+console.log('Successfully updated Topic 7 test questions.');

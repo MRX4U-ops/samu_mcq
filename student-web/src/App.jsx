@@ -15,6 +15,9 @@ import SubjectPage from './pages/SubjectPage';
 import QuizPage from './pages/QuizPage';
 import ProfilePage from './pages/ProfilePage';
 import SubscribePage from './pages/SubscribePage';
+import DrugReferencePage from './pages/DrugReferencePage';
+import ClinicalCasePage from './pages/ClinicalCasePage';
+import RevisionEnginePage from './pages/RevisionEnginePage';
 
 export default function App() {
   return (
@@ -39,6 +42,9 @@ export default function App() {
           <Route path="/guidance" element={<ProtectedRoute><GuidancePage /></ProtectedRoute>} />
           <Route path="/profile" element={<ProtectedRoute><ProfilePage /></ProtectedRoute>} />
           <Route path="/subscribe" element={<ProtectedRoute><SubscribePage /></ProtectedRoute>} />
+          <Route path="/drugs" element={<ProtectedRoute><DrugReferencePage /></ProtectedRoute>} />
+          <Route path="/clinical-case" element={<ProtectedRoute><ClinicalCasePage /></ProtectedRoute>} />
+          <Route path="/revision" element={<ProtectedRoute><RevisionEnginePage /></ProtectedRoute>} />
 
           {/* Fallback */}
           <Route path="*" element={<Navigate to="/" replace />} />
