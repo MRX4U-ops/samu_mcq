@@ -1157,183 +1157,192 @@ export const s_1_8 = {
   "t-s-1-8-5": {
     "test": [
       {
-        "question": "Q1. Find the features characteristic of mitosis:",
+        "question": "In humans, a polygenic trait is:",
         "options": [
-          "*a. Daughter cells contain the exact same set of chromosomes as the mother - diploid",
-          "b. As a result of division in daughter cells, the set of chromosomes is not diploid but haploid",
-          "c. Maintains species constancy of the number of chromosomes during sexual reproduction",
-          "d. Between two cell divisions there is a short interphase, but DNA synthesis does not occur in it, which is why it is called interkinesis"
+          "a. Brachydactyly",
+          "**\\*b. Height**",
+          "c. Blood type",
+          "d. Hair color"
         ]
       },
       {
-        "question": "Q2. Crossing over occurs during:",
+        "question": "In polymerization, the splitting of the trait when crossing two diheterozygotes will be:",
         "options": [
-          "* b. Pachynema",
-          "a. Diplonemes",
-          "c. Zygonema",
-          "d. Diakinesis"
+          "**\\*a. 15:1, 1:4:6:4:1**",
+          "b. 9:4:3, 1:4:6:4:1, 13:3",
+          "c. 9:3:4, 9:7, 15:1",
+          "d. 9:4:3, 12:3:1, 13:3"
         ]
       },
       {
-        "question": "Q3. The haploid set of chromosomes contains:",
+        "question": "With complementary interaction of genes, the splitting of the trait when crossing two diheterozygotes will be in the ratio:",
         "options": [
-          "* c. A mature germ cell that is formed as a result of the normal course of meiosis",
-          "b. Spermatogonia",
-          "a. Any immature sex cell",
-          "d. Ovogonium"
+          "a. 9:4:3, 1:4:6:4:1, 13:3",
+          "b. 9:4:3, 12:3:1, 13:3",
+          "c. 15:1, 1:4:6:4:1",
+          "**\\*d. 9:3:3:1, 9:6:1, 9:3:4, 9:7**"
         ]
       },
       {
-        "question": "Q4. Biological significance of mitosis:",
+        "question": "Polygenic traits include:",
         "options": [
-          "* c. From one mother cell two daughter cells are formed, genetically identical to the mother one",
-          "b. From one mother cell two daughter cells with a triploid set of chromosomes are formed",
-          "a. From one mother cell two daughter cells are formed with a different set of chromosomes",
-          "d. From one mother cell two daughter cells with a haploid set of chromosomes are formed"
+          "**\\*a. Body weight. Finger length**",
+          "b. Blood clotting",
+          "c. Microcephaly",
+          "d. Polydactyly"
         ]
       },
       {
-        "question": "Q5. Meiosis is:",
+        "question": "Penetrance is:",
         "options": [
-          "* d. Reductive division of the cell nucleus (reduction in the number of chromosomes) and the formation of cells with a haploid set of chromosomes",
-          "b. Indirect division of the cell nucleus, resulting in the formation of genetically identical cells",
-          "c. Cytokinesis",
-          "a. Direct division of the cell nucleus"
+          "a. Manifestation of the gene in a heterozygous state",
+          "b. Degree of gene penetration",
+          "c. The influence of one gene on the manifestation of several traits",
+          "**\\*d. Gene penetration frequency**"
         ]
       },
       {
-        "question": "Q6. The chromatids of the chromosomes separate and move to different poles of the cell in:",
+        "question": "The property of organisms to transmit their characteristics and developmental characteristics to their offspring - is this?",
         "options": [
-          "* b. Anaphase of mitosis",
-          "a. Prophase of mitosis",
-          "c. Telophase of mitosis",
-          "d. Metaphase of mitosis"
+          "a. Karyotyping",
+          "b. Variability",
+          "**\\*c. Heredity**",
+          "d. Crossbreeding"
         ]
       },
       {
-        "question": "Q7. Crossing over is:",
+        "question": "What is a phenotype?",
         "options": [
-          "* b. Exchange of homologous regions of chromosomes",
-          "a. The mechanism by which daughter cells receive the same genetic material from the mother",
-          "c. Exchange of non-homologous regions between different pairs of chromosomes",
-          "d. Fusion of germ cells"
+          "a. Gene system of a particular organism",
+          "b. Traits caused by genes located only on autosomes",
+          "**\\*c. A system of external and internal signs and properties of an organism that are formed during its individual development**",
+          "d. Haploid set of chromosomes"
         ]
       },
       {
-        "question": "Q8. Chromosomes are best seen under a light microscope at:",
+        "question": "A cross in which the parent organisms differ in three pairs of characteristics is:",
         "options": [
-          "* c. Metaphase of mitosis",
-          "b. Prophase of mitosis",
-          "a. Telophase of mitosis",
-          "d. Anaphase of mitosis"
+          "**\\*a. Trihybrid**",
+          "b. Tetrahybrid",
+          "c. Polyhybrid",
+          "d. Dihybrid"
         ]
       },
       {
-        "question": "Q9. Near the poles of the cell there is a haploid set of single-chromatid chromosomes in:",
+        "question": "The ability of organisms to transmit their characteristics and developmental characteristics to their offspring is:",
         "options": [
-          "* c. Telophase of the second meiotic division",
-          "b. Metaphase of the first meiotic division",
-          "a. Metaphase of the second meiotic division",
-          "d. Prophase of the second meiotic division"
+          "a. Genotype",
+          "b. Inheritance",
+          "c. Variability",
+          "**\\*d. Heredity**"
         ]
       },
       {
-        "question": "Q10. During cell division, the nuclear membrane dissolves into:",
+        "question": "Gene is:",
         "options": [
-          "* a. Prophase of mitosis",
-          "b. Anaphase of mitosis",
-          "c. Metaphase of mitosis",
-          "d. Telophase of mitosis"
+          "a. A section of an RNA molecule in which information about the secondary structure of a polypeptide is encoded",
+          "b. A section of an RNA molecule in which information about the primary structure of a polypeptide is encoded",
+          "c. A section of a DNA molecule in which information about the secondary structure of a polypeptide is encoded",
+          "**\\*d. A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded**"
         ]
       },
       {
-        "question": "Q11. Near the cell poles there is a haploid set of bichromatid chromosomes in:",
+        "question": "How many types of gametes does an individual with genotype AAbbCC produce?",
         "options": [
-          "* b. Telophase of the first meiotic division",
-          "a. Prophase of the first meiotic division",
-          "c. Telophase of the second meiotic division",
-          "d. Metaphase of the second meiotic division"
+          "**\\*a. 1**",
+          "b. 8",
+          "c. 3",
+          "d. 6"
         ]
       },
       {
-        "question": "Q12. Chromosome conjugation occurs in:",
+        "question": "An analysis cross is a cross in which an individual whose genotype is unknown but needs to be determined (AA or Aa ) is crossed with:",
         "options": [
-          "* a. Prophase of the first meiotic division",
-          "b. Anaphase of the second meiotic division",
-          "c. Anaphase of the first meiotic division",
-          "d. Metaphase of the second meiotic division"
+          "a. Heterozygous (A a )",
+          "**\\*b. Recessive homozygote (aa)**",
+          "c. Dominant homozygote (A A )",
+          "d. Zygote"
         ]
       },
       {
-        "question": "Q13. During cell division, the nuclear membrane is formed in:",
+        "question": "Allelic genes are genes located in:",
         "options": [
-          "* d. Telophase of mitosis",
-          "b. Prophase of mitosis",
-          "c. Anaphase of mitosis",
-          "a. Metaphase of mitosis"
+          "**\\*a. The same loci of homologous chromosomes**",
+          "b. Different loci of homologous chromosomes",
+          "c. Same loci of non-homologous chromosomes",
+          "d. One chromosome"
         ]
       },
       {
-        "question": "Q14. The exchange of homologous regions of chromosomes is:",
+        "question": "Where are non-allelic genes located?",
         "options": [
-          "* a. Crossing over",
-          "b. Replication",
-          "c. Bivalent",
-          "d. Conjugation"
+          "a. Different pairs of chromosomes",
+          "b. Only in autosomes",
+          "c. Only on sex chromosomes",
+          "**\\*d. At different loci on the chromosome**"
         ]
       },
       {
-        "question": "Q15. At what stage of meiosis, prophase I, does crossing over occur?",
+        "question": "G. Mendel developed a method for studying heredity:",
         "options": [
-          "* a. Pachinema",
-          "b. Leptonema",
-          "c. Zygonema",
-          "d. Diplonema"
+          "**\\*a. Hybridological**",
+          "b. Biological",
+          "c. Twin",
+          "d. Cytological"
         ]
       },
       {
-        "question": "Q16. Chromosomes line up along the equatorial plane of the cell during:",
+        "question": "In what ratio is splitting observed for different types of gene interactions?",
         "options": [
-          "* b. Metaphase of mitosis",
-          "a. Prophase of mitosis",
-          "c. Anaphase of mitosis",
-          "d. Telophase of mitosis"
+          "a. With dominant epistasis 9:3:4 or 12:3:1",
+          "b. With recessive epistasis 13:3",
+          "**\\*c. With polymer 15:1 or 1:4:6:4:1**",
+          "d. With complementary interaction 15:1 or 9:6:1"
         ]
       },
       {
-        "question": "Q17. Chromosome spiralization begins in:",
+        "question": "Is this complementarity?",
         "options": [
-          "* b. Prophase of mitosis",
-          "a. Anaphase of mitosis",
-          "c. Telophase of mitosis",
-          "d. Metaphase of mitosis"
+          "a. Interaction of non-allelic genes, in which one gene suppresses the action of nother, non-allelic gene",
+          "**\\*b. When two or more genes interact, new traits are formed**",
+          "c. One of the forms of interaction of non-allelic genes, in which the development of a certain trait is predetermined by the influence of several genes",
+          "d. The ability of one gene to control several traits (multiple gene action)"
         ]
       },
       {
-        "question": "Q18. Meiosis precedes the formation of:",
+        "question": "The ability of organisms to acquire new characteristics or lose previous ones during development is:",
         "options": [
-          "* c. Mature germ cells",
-          "b. Red blood cells",
-          "a. Corneal cells of the eye",
-          "d. Nerve cells"
+          "a. Genotype",
+          "b. Heredity",
+          "**\\*c. Variability**",
+          "d. Inheritance"
         ]
       },
       {
-        "question": "Q19. Biological significance of meiosis?",
+        "question": "In which blood group is agglutinogen A and B found?",
         "options": [
-          "* d. From one mother cell, 4 daughter cells with a haploid set of chromosomes are formed",
-          "b. From one mother cell, 4 daughter cells with a triploid set of chromosomes are formed",
-          "c. From one mother cell two daughter cells with a double set of chromosomes are formed",
-          "a. From one mother cell two daughter cells with a tetraploid set of chromosomes are formed"
+          "a. II",
+          "b. I",
+          "c. III",
+          "**\\*d. IV**"
         ]
       },
       {
-        "question": "Q20. The very first phase of mitosis (karyokinesis) is:",
+        "question": "Mendel's first law reveals patterns:",
         "options": [
-          "* c. Prophase",
-          "b. Anaphase",
-          "a. Telophase",
-          "d. Interphase"
+          "a. Law of splitting",
+          "b. Independent combination of features",
+          "c. Incomplete dominance",
+          "**\\*d. First generation law of uniformity**"
+        ]
+      },
+      {
+        "question": "The intensity of skin pigmentation in humans is controlled by several non-allelic dominant genes. It has been established that with an increase in the number of these genes, pigmentation becomes more intense. What is the type of interaction between these genes called?",
+        "options": [
+          "**\\*a. Polymerism**",
+          "b. Pleiotropy",
+          "c. Codominance",
+          "d. Epistasis"
         ]
       }
     ],
