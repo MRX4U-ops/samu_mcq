@@ -724,7 +724,7 @@ export const s_1_8 = {
       {
         "question": "Find the features characteristic of mitosis:",
         "options": [
-          "*a. Daughter cells contain the exact same set of chromosomes as the mother - diploid",
+          "**\\\\*a. Daughter cells contain the exact same set of chromosomes as the mother - diploid**",
           "b. As a result of division in daughter cells, the set of chromosomes is not diploid but haploid",
           "c. Maintains species constancy of the number of chromosomes during sexual reproduction",
           "d. Between two cell divisions there is a short interphase, but DNA synthesis does not occur in it, which is why it is called interkinesis"
@@ -733,7 +733,7 @@ export const s_1_8 = {
       {
         "question": "Crossing over occurs during:",
         "options": [
-          "**\\** b. Pachynema**",
+          "**\\\\*b. Pachynema**",
           "a. Diplonemes",
           "c. Zygonema",
           "d. Diakinesis"
@@ -742,35 +742,35 @@ export const s_1_8 = {
       {
         "question": "The haploid set of chromosomes contains:",
         "options": [
+          "**\\\\*c. A mature germ cell that is formed as a result of the normal course of meiosis**",
           "a. Any immature sex cell",
           "b. Spermatogonia",
-          "* c. A mature germ cell that is formed as a result of the normal course of meiosis",
           "d. Ovogonium"
         ]
       },
       {
         "question": "Biological significance of mitosis:",
         "options": [
+          "**\\\\*c. From one mother cell two daughter cells are formed, genetically identical to the mother one**",
           "a. From one mother cell two daughter cells are formed with a different set of chromosomes",
           "b. From one mother cell two daughter cells with a triploid set of chromosomes are formed",
-          "* c. From one mother cell two daughter cells are formed, genetically identical to the mother one",
           "d. From one mother cell two daughter cells with a haploid set of chromosomes are formed"
         ]
       },
       {
         "question": "Meiosis is:",
         "options": [
+          "**\\\\*d. Reductive division of the cell nucleus (reduction in the number of chromosomes) and the formation of cells with a haploid set of chromosomes**",
           "a. Direct division of the cell nucleus",
           "b. Indirect division of the cell nucleus, resulting in the formation of genetically identical cells",
-          "c. Cytokinesis",
-          "* d. Reductive division of the cell nucleus (reduction in the number of chromosomes) and the formation of cells with a haploid set of chromosomes"
+          "c. Cytokinesis"
         ]
       },
       {
         "question": "The chromatids of the chromosomes separate and move to different poles of the cell in:",
         "options": [
+          "**\\\\*b. Anaphase of mitosis**",
           "a. Prophase of mitosis",
-          "* b. Anaphase of mitosis",
           "c. Telophase of mitosis",
           "d. Metaphase of mitosis"
         ]
@@ -778,8 +778,8 @@ export const s_1_8 = {
       {
         "question": "Crossing over is:",
         "options": [
+          "**\\\\*b. Exchange of homologous regions of chromosomes**",
           "a. The mechanism by which daughter cells receive the same genetic material from the mother",
-          "* b. Exchange of homologous regions of chromosomes",
           "c. Exchange of non-homologous regions between different pairs of chromosomes",
           "d. Fusion of germ cells"
         ]
@@ -787,25 +787,25 @@ export const s_1_8 = {
       {
         "question": "Chromosomes are best seen under a light microscope at:",
         "options": [
+          "**\\\\*c. Metaphase of mitosis**",
           "a. Telophase of mitosis",
           "b. Prophase of mitosis",
-          "* c. Metaphase of mitosis",
           "d. Anaphase of mitosis"
         ]
       },
       {
         "question": "Near the poles of the cell there is a haploid set of single-chromatid chromosomes in:",
         "options": [
+          "**\\\\*c. Telophase of the second meiotic division**",
           "a. Metaphase of the second meiotic division",
           "b. Metaphase of the first meiotic division",
-          "* c. Telophase of the second meiotic division",
           "d. Prophase of the second meiotic division"
         ]
       },
       {
         "question": "During cell division, the nuclear membrane dissolves into:",
         "options": [
-          "* a. Prophase of mitosis",
+          "**\\\\*a. Prophase of mitosis**",
           "b. Anaphase of mitosis",
           "c. Metaphase of mitosis",
           "d. Telophase of mitosis"
@@ -814,8 +814,8 @@ export const s_1_8 = {
       {
         "question": "Near the cell poles there is a haploid set of bichromatid chromosomes in:",
         "options": [
+          "**\\\\*b. Telophase of the first meiotic division**",
           "a. Prophase of the first meiotic division",
-          "* b. Telophase of the first meiotic division",
           "c. Telophase of the second meiotic division",
           "d. Metaphase of the second meiotic division"
         ]
@@ -823,7 +823,7 @@ export const s_1_8 = {
       {
         "question": "Chromosome conjugation occurs in:",
         "options": [
-          "* a. Prophase of the first meiotic division",
+          "**\\\\*a. Prophase of the first meiotic division**",
           "b. Anaphase of the second meiotic division",
           "c. Anaphase of the first meiotic division",
           "d. Metaphase of the second meiotic division"
@@ -832,16 +832,16 @@ export const s_1_8 = {
       {
         "question": "During cell division, the nuclear membrane is formed in:",
         "options": [
+          "**\\\\*d. Telophase of mitosis**",
           "a. Metaphase of mitosis",
           "b. Prophase of mitosis",
-          "c. Anaphase of mitosis",
-          "* d. Telophase of mitosis"
+          "c. Anaphase of mitosis"
         ]
       },
       {
         "question": "The exchange of homologous regions of chromosomes is:",
         "options": [
-          "* a. Crossing over",
+          "**\\\\*a. Crossing over**",
           "b. Replication",
           "c. Bivalent",
           "d. Conjugation"
@@ -850,7 +850,7 @@ export const s_1_8 = {
       {
         "question": "At what stage of meiosis, prophase I, does crossing over occur?",
         "options": [
-          "* a. Pachinema",
+          "**\\\\*a. Pachinema**",
           "b. Leptonema",
           "c. Zygonema",
           "d. Diplonema"
@@ -859,8 +859,8 @@ export const s_1_8 = {
       {
         "question": "Chromosomes line up along the equatorial plane of the cell during:",
         "options": [
+          "**\\\\*b. Metaphase of mitosis**",
           "a. Prophase of mitosis",
-          "* b. Metaphase of mitosis",
           "c. Anaphase of mitosis",
           "d. Telophase of mitosis"
         ]
@@ -868,8 +868,8 @@ export const s_1_8 = {
       {
         "question": "Chromosome spiralization begins in:",
         "options": [
+          "**\\\\*b. Prophase of mitosis**",
           "a. Anaphase of mitosis",
-          "* b. Prophase of mitosis",
           "c. Telophase of mitosis",
           "d. Metaphase of mitosis"
         ]
@@ -877,27 +877,27 @@ export const s_1_8 = {
       {
         "question": "Meiosis precedes the formation of:",
         "options": [
+          "**\\\\*c. Mature germ cells**",
           "a. Corneal cells of the eye",
           "b. Red blood cells",
-          "* c. Mature germ cells",
           "d. Nerve cells"
         ]
       },
       {
         "question": "Biological significance of meiosis?",
         "options": [
+          "**\\\\*d. From one mother cell, 4 daughter cells with a haploid set of chromosomes are formed**",
           "a. From one mother cell two daughter cells with a tetraploid set of chromosomes are formed",
           "b. From one mother cell, 4 daughter cells with a triploid set of chromosomes are formed",
-          "c. From one mother cell two daughter cells with a double set of chromosomes are formed",
-          "* d. From one mother cell, 4 daughter cells with a haploid set of chromosomes are formed"
+          "c. From one mother cell two daughter cells with a double set of chromosomes are formed"
         ]
       },
       {
         "question": "The very first phase of mitosis (karyokinesis) is:",
         "options": [
+          "**\\\\*c. Prophase**",
           "a. Telophase",
           "b. Anaphase",
-          "* c. Prophase",
           "d. Interphase"
         ]
       }
@@ -953,183 +953,192 @@ export const s_1_8 = {
   "t-s-1-8-4": {
     "test": [
       {
-        "question": "Q1. Unit of distance between genes:",
+        "question": "In humans, a polygenic trait is:",
         "options": [
-          "* d. Morganida",
-          "b. Angstrom",
-          "c. Nanometer",
-          "a. Centimeter"
+          "**\\*b. Height**",
+          "a. Brachydactyly",
+          "c. Blood type",
+          "d. Hair color"
         ]
       },
       {
-        "question": "Q2. It is known that gene linkage is not absolute, since it is disrupted as a result of:",
+        "question": "In polymerization, the splitting of the trait when crossing two diheterozygotes will be:",
         "options": [
-          "* c. Crossing over during meiosis",
-          "b. Independent chromosome segregation during meiosis",
-          "a. Non-allelic gene interactions",
-          "d. Pleiotropy"
+          "**\\*a. 15:1, 1:4:6:4:1**",
+          "b. 9:4:3, 1:4:6:4:1, 13:3",
+          "c. 9:3:4, 9:7, 15:1",
+          "d. 9:4:3, 12:3:1, 13:3"
         ]
       },
       {
-        "question": "Q3. Genes localized on one chromosome:",
+        "question": "With complementary interaction of genes, the splitting of the trait when crossing two diheterozygotes will be in the ratio:",
         "options": [
-          "* a. Form a gene linkage group",
-          "b. Give different combinations",
-          "c. Inherited independently of each other",
-          "d. Called unlinked"
+          "**\\*d. 9:3:3:1, 9:6:1, 9:3:4, 9:7**",
+          "a. 9:4:3, 1:4:6:4:1, 13:3",
+          "b. 9:4:3, 12:3:1, 13:3",
+          "c. 15:1, 1:4:6:4:1"
         ]
       },
       {
-        "question": "Q4. Gender-dependent signs:",
+        "question": "Polygenic traits include:",
         "options": [
-          "* d. Traits determined by autosomal genes in men and women, but these traits appear more often in one sex than the other",
-          "b. Traits are determined by genes that are located on the X and Y chromosomes",
-          "c. Traits determined by autosomal genes in women",
-          "a. Polygenic traits"
-        ]
-      },
-      {
-        "question": "Q5. Linkage between genes can be:",
-        "options": [
-          "* b. Full or incomplete",
-          "a. Incomplete, not providing discrepancies",
-          "c. Complete, there is a discrepancy",
-          "d. Full, but crossing over"
-        ]
-      },
-      {
-        "question": "Q6. Indicate a gender-linked human characteristic:",
-        "options": [
-          "* c. Hemophilia",
-          "b. Hair color",
-          "a. Color of the skin",
+          "**\\*a. Body weight. Finger length**",
+          "b. Blood clotting",
+          "c. Microcephaly",
           "d. Polydactyly"
         ]
       },
       {
-        "question": "Q7. What are the names of the characteristics predetermined by the genes that are located on the X and Y chromosomes?",
+        "question": "Penetrance is:",
         "options": [
-          "* b. Glued to the floor",
-          "a. Dominant",
-          "c. Gender dependent",
-          "d. holandric"
+          "**\\*d. Gene penetration frequency**",
+          "a. Manifestation of the gene in a heterozygous state",
+          "b. Degree of gene penetration",
+          "c. The influence of one gene on the manifestation of several traits"
         ]
       },
       {
-        "question": "Q8. If a disease (sign) is inherited through the male line from generation to generation from a father to all his sons, then this is a sign:",
+        "question": "The property of organisms to transmit their characteristics and developmental characteristics to their offspring - is this?",
         "options": [
-          "* b. Y-linked type of inheritance",
-          "a. Autosomal recessive type of inheritance",
-          "c. X-linked dominant type of inheritance",
-          "d. X-linked recessive inheritance"
+          "**\\*c. Heredity**",
+          "a. Karyotyping",
+          "b. Variability",
+          "d. Crossbreeding"
         ]
       },
       {
-        "question": "Q9. Hemophilia is a disease that has:",
+        "question": "What is a phenotype?",
         "options": [
-          "* b. X-linked recessive inheritance",
-          "a. Y-linked inheritance",
-          "c. Autosomal recessive mode of inheritance",
-          "d. Autosomal dominant type of inheritance"
+          "**\\*c. A system of external and internal signs and properties of an organism that are formed during its individual development**",
+          "a. Gene system of a particular organism",
+          "b. Traits caused by genes located only on autosomes",
+          "d. Haploid set of chromosomes"
         ]
       },
       {
-        "question": "Q10. The father has hemophilia, and the mother is homozygous for a gene that determines normal blood clotting. With what genotypes should we expect offspring?",
+        "question": "A cross in which the parent organisms differ in three pairs of characteristics is:",
         "options": [
-          "*c. XHXh",
-          "b. XhY",
-          "a. XhXh",
-          "d. XHXH"
+          "**\\*a. Trihybrid**",
+          "b. Tetrahybrid",
+          "c. Polyhybrid",
+          "d. Dihybrid"
         ]
       },
       {
-        "question": "Q11. What is the number of gene linkage groups in the organisms of each biological species?",
+        "question": "The ability of organisms to transmit their characteristics and developmental characteristics to their offspring is:",
         "options": [
-          "* c. Haploid set of chromosomes",
-          "b. Number of pairs of non-allelic genes",
-          "a. Number of sex chromosomes",
-          "d. Diploid set of chromosomes"
+          "**\\*d. Heredity**",
+          "a. Genotype",
+          "b. Inheritance",
+          "c. Variability"
         ]
       },
       {
-        "question": "Q12. Indicate the main provisions of the chromosomal theory of heredity?",
+        "question": "Gene is:",
         "options": [
-          "* b. The frequency of crossing over between chromosomes is directly proportional to the distance between genes",
-          "a. Crossing over is not observed in male mammals",
-          "c. Crossing over can occur between non-homologous chromosomes",
-          "d. The number of linkage groups is equal to the diploid set of chromosomes"
+          "**\\*d. A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded**",
+          "a. A section of an RNA molecule in which information about the secondary structure of a polypeptide is encoded",
+          "b. A section of an RNA molecule in which information about the primary structure of a polypeptide is encoded",
+          "c. A section of a DNA molecule in which information about the secondary structure of a polypeptide is encoded"
         ]
       },
       {
-        "question": "Q13. Who established the linked inheritance of genes localized in one pair of homologous chromosomes?",
+        "question": "How many types of gametes does an individual with genotype AAbbCC produce?",
         "options": [
-          "* b. T. Morgan",
-          "a. H. Koran",
-          "c. V. Johansen",
-          "d. G. de Vries"
+          "**\\*a. 1**",
+          "b. 8",
+          "c. 3",
+          "d. 6"
         ]
       },
       {
-        "question": "Q14. Ichthyosis is observed in the family pedigree. This symptom occurs in all generations only in men. What type of inheritance of the trait?",
+        "question": "An analysis cross is a cross in which an individual whose genotype is unknown but needs to be determined (AA or Aa ) is crossed with:",
         "options": [
-          "* a. Linked to the Y chromosome",
-          "b. Recessive, linked to the X chromosome",
-          "c. Dominant, linked to the X chromosome",
-          "d. Autosomal recessive"
+          "**\\*b. Recessive homozygote (aa)**",
+          "a. Heterozygous (A a )",
+          "c. Dominant homozygote (A A )",
+          "d. Zygote"
         ]
       },
       {
-        "question": "Q15. Enamel hypoplasia is inherited as a sex-linked dominant trait. In a family where both parents suffer from this anomaly, a son was born with normal teeth. What is the probability that the next child will also have healthy teeth?",
+        "question": "Allelic genes are genes located in:",
         "options": [
-          "*d. 50% boys",
-          "b. 50% of all children",
-          "c. all children",
-          "a. 50% girls"
+          "**\\*a. The same loci of homologous chromosomes**",
+          "b. Different loci of homologous chromosomes",
+          "c. Same loci of non-homologous chromosomes",
+          "d. One chromosome"
         ]
       },
       {
-        "question": "Q16. The father is color blind, and the mother is heterozygous for a gene that predetermines normal color perception. With what genotypes should we expect offspring?",
+        "question": "Where are non-allelic genes located?",
         "options": [
-          "* c. XdXd",
-          "b. Dd",
-          "a. XDXd",
-          "d. XDXD"
+          "**\\*d. At different loci on the chromosome**",
+          "a. Different pairs of chromosomes",
+          "b. Only in autosomes",
+          "c. Only on sex chromosomes"
         ]
       },
       {
-        "question": "Q17. The holandric trait is:",
+        "question": "G. Mendel developed a method for studying heredity:",
         "options": [
-          "* b. Hypertrichosis",
-          "a. Blonde hair",
-          "c. Hemophilia",
-          "d. Polydactyly"
+          "**\\*a. Hybridological**",
+          "b. Biological",
+          "c. Twin",
+          "d. Cytological"
         ]
       },
       {
-        "question": "Q18. Which of the following is a holandric trait?",
+        "question": "In what ratio is splitting observed for different types of gene interactions?",
         "options": [
-          "* b. Hypertrichosis",
-          "a. Colorblindness",
-          "c. Polydactyly",
-          "d. Blonde hair"
+          "**\\*c. With polymer 15:1 or 1:4:6:4:1**",
+          "a. With dominant epistasis 9:3:4 or 12:3:1",
+          "b. With recessive epistasis 13:3",
+          "d. With complementary interaction 15:1 or 9:6:1"
         ]
       },
       {
-        "question": "Q19. In what units is crossing over frequency measured?",
+        "question": "Is this complementarity?",
         "options": [
-          "*c. In percentages",
-          "b. In the Morganids",
-          "a. In centimeters",
-          "d. In nanometers"
+          "**\\*b. When two or more genes interact, new traits are formed**",
+          "a. Interaction of non-allelic genes, in which one gene suppresses the action of nother, non-allelic gene",
+          "c. One of the forms of interaction of non-allelic genes, in which the development of a certain trait is predetermined by the influence of several genes",
+          "d. The ability of one gene to control several traits (multiple gene action)"
         ]
       },
       {
-        "question": "Q20. Hypertrichosis (hair growth along the edge of the ear) is inherited as a trait linked to the Y chromosome. What is the probability of having a child with this anomaly in a family where the father suffers from hypertrichosis?",
+        "question": "The ability of organisms to acquire new characteristics or lose previous ones during development is:",
         "options": [
-          "* c. 100% boys",
-          "b. All children",
-          "a. 50% boys",
-          "d. 50% girls"
+          "**\\*c. Variability**",
+          "a. Genotype",
+          "b. Heredity",
+          "d. Inheritance"
+        ]
+      },
+      {
+        "question": "In which blood group is agglutinogen A and B found?",
+        "options": [
+          "**\\*d. IV**",
+          "a. II",
+          "b. I",
+          "c. III"
+        ]
+      },
+      {
+        "question": "Mendel's first law reveals patterns:",
+        "options": [
+          "**\\*d. First generation law of uniformity**",
+          "a. Law of splitting",
+          "b. Independent combination of features",
+          "c. Incomplete dominance"
+        ]
+      },
+      {
+        "question": "The intensity of skin pigmentation in humans is controlled by several non-allelic dominant genes. It has been established that with an increase in the number of these genes, pigmentation becomes more intense. What is the type of interaction between these genes called?",
+        "options": [
+          "**\\*a. Polymerism**",
+          "b. Pleiotropy",
+          "c. Codominance",
+          "d. Epistasis"
         ]
       }
     ],
@@ -1388,192 +1397,183 @@ export const s_1_8 = {
   "t-s-1-8-6": {
     "test": [
       {
-        "question": "In humans, a polygenic trait is:",
+        "question": "Q1. Unit of distance between genes:",
         "options": [
-          "**\\*b. Height**",
-          "a. Brachydactyly",
-          "c. Blood type",
-          "d. Hair color"
+          "* d. Morganida",
+          "b. Angstrom",
+          "c. Nanometer",
+          "a. Centimeter"
         ]
       },
       {
-        "question": "In polymerization, the splitting of the trait when crossing two diheterozygotes will be:",
+        "question": "Q2. It is known that gene linkage is not absolute, since it is disrupted as a result of:",
         "options": [
-          "**\\*a. 15:1, 1:4:6:4:1**",
-          "b. 9:4:3, 1:4:6:4:1, 13:3",
-          "c. 9:3:4, 9:7, 15:1",
-          "d. 9:4:3, 12:3:1, 13:3"
+          "* c. Crossing over during meiosis",
+          "b. Independent chromosome segregation during meiosis",
+          "a. Non-allelic gene interactions",
+          "d. Pleiotropy"
         ]
       },
       {
-        "question": "With complementary interaction of genes, the splitting of the trait when crossing two diheterozygotes will be in the ratio:",
+        "question": "Q3. Genes localized on one chromosome:",
         "options": [
-          "**\\*d. 9:3:3:1, 9:6:1, 9:3:4, 9:7**",
-          "a. 9:4:3, 1:4:6:4:1, 13:3",
-          "b. 9:4:3, 12:3:1, 13:3",
-          "c. 15:1, 1:4:6:4:1"
+          "* a. Form a gene linkage group",
+          "b. Give different combinations",
+          "c. Inherited independently of each other",
+          "d. Called unlinked"
         ]
       },
       {
-        "question": "Polygenic traits include:",
+        "question": "Q4. Gender-dependent signs:",
         "options": [
-          "**\\*a. Body weight. Finger length**",
-          "b. Blood clotting",
-          "c. Microcephaly",
+          "* d. Traits determined by autosomal genes in men and women, but these traits appear more often in one sex than the other",
+          "b. Traits are determined by genes that are located on the X and Y chromosomes",
+          "c. Traits determined by autosomal genes in women",
+          "a. Polygenic traits"
+        ]
+      },
+      {
+        "question": "Q5. Linkage between genes can be:",
+        "options": [
+          "* b. Full or incomplete",
+          "a. Incomplete, not providing discrepancies",
+          "c. Complete, there is a discrepancy",
+          "d. Full, but crossing over"
+        ]
+      },
+      {
+        "question": "Q6. Indicate a gender-linked human characteristic:",
+        "options": [
+          "* c. Hemophilia",
+          "b. Hair color",
+          "a. Color of the skin",
           "d. Polydactyly"
         ]
       },
       {
-        "question": "Penetrance is:",
+        "question": "Q7. What are the names of the characteristics predetermined by the genes that are located on the X and Y chromosomes?",
         "options": [
-          "**\\*d. Gene penetration frequency**",
-          "a. Manifestation of the gene in a heterozygous state",
-          "b. Degree of gene penetration",
-          "c. The influence of one gene on the manifestation of several traits"
+          "* b. Glued to the floor",
+          "a. Dominant",
+          "c. Gender dependent",
+          "d. holandric"
         ]
       },
       {
-        "question": "The property of organisms to transmit their characteristics and developmental characteristics to their offspring - is this?",
+        "question": "Q8. If a disease (sign) is inherited through the male line from generation to generation from a father to all his sons, then this is a sign:",
         "options": [
-          "**\\*c. Heredity**",
-          "a. Karyotyping",
-          "b. Variability",
-          "d. Crossbreeding"
+          "* b. Y-linked type of inheritance",
+          "a. Autosomal recessive type of inheritance",
+          "c. X-linked dominant type of inheritance",
+          "d. X-linked recessive inheritance"
         ]
       },
       {
-        "question": "What is a phenotype?",
+        "question": "Q9. Hemophilia is a disease that has:",
         "options": [
-          "**\\*c. A system of external and internal signs and properties of an organism that are formed during its individual development**",
-          "a. Gene system of a particular organism",
-          "b. Traits caused by genes located only on autosomes",
-          "d. Haploid set of chromosomes"
+          "* b. X-linked recessive inheritance",
+          "a. Y-linked inheritance",
+          "c. Autosomal recessive mode of inheritance",
+          "d. Autosomal dominant type of inheritance"
         ]
       },
       {
-        "question": "A cross in which the parent organisms differ in three pairs of characteristics is:",
+        "question": "Q10. The father has hemophilia, and the mother is homozygous for a gene that determines normal blood clotting. With what genotypes should we expect offspring?",
         "options": [
-          "**\\*a. Trihybrid**",
-          "b. Tetrahybrid",
-          "c. Polyhybrid",
-          "d. Dihybrid"
+          "*c. XHXh",
+          "b. XhY",
+          "a. XhXh",
+          "d. XHXH"
         ]
       },
       {
-        "question": "The ability of organisms to transmit their characteristics and developmental characteristics to their offspring is:",
+        "question": "Q11. What is the number of gene linkage groups in the organisms of each biological species?",
         "options": [
-          "**\\*d. Heredity**",
-          "a. Genotype",
-          "b. Inheritance",
-          "c. Variability"
+          "* c. Haploid set of chromosomes",
+          "b. Number of pairs of non-allelic genes",
+          "a. Number of sex chromosomes",
+          "d. Diploid set of chromosomes"
         ]
       },
       {
-        "question": "Gene is:",
+        "question": "Q12. Indicate the main provisions of the chromosomal theory of heredity?",
         "options": [
-          "**\\*d. A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded**",
-          "a. A section of an RNA molecule in which information about the secondary structure of a polypeptide is encoded",
-          "b. A section of an RNA molecule in which information about the primary structure of a polypeptide is encoded",
-          "c. A section of a DNA molecule in which information about the secondary structure of a polypeptide is encoded"
+          "* b. The frequency of crossing over between chromosomes is directly proportional to the distance between genes",
+          "a. Crossing over is not observed in male mammals",
+          "c. Crossing over can occur between non-homologous chromosomes",
+          "d. The number of linkage groups is equal to the diploid set of chromosomes"
         ]
       },
       {
-        "question": "How many types of gametes does an individual with genotype AAbbCC produce?",
+        "question": "Q13. Who established the linked inheritance of genes localized in one pair of homologous chromosomes?",
         "options": [
-          "**\\*a. 1**",
-          "b. 8",
-          "c. 3",
-          "d. 6"
+          "* b. T. Morgan",
+          "a. H. Koran",
+          "c. V. Johansen",
+          "d. G. de Vries"
         ]
       },
       {
-        "question": "An analysis cross is a cross in which an individual whose genotype is unknown but needs to be determined (AA or Aa ) is crossed with:",
+        "question": "Q14. Ichthyosis is observed in the family pedigree. This symptom occurs in all generations only in men. What type of inheritance of the trait?",
         "options": [
-          "**\\*b. Recessive homozygote (aa)**",
-          "a. Heterozygous (A a )",
-          "c. Dominant homozygote (A A )",
-          "d. Zygote"
+          "* a. Linked to the Y chromosome",
+          "b. Recessive, linked to the X chromosome",
+          "c. Dominant, linked to the X chromosome",
+          "d. Autosomal recessive"
         ]
       },
       {
-        "question": "Allelic genes are genes located in:",
+        "question": "Q15. Enamel hypoplasia is inherited as a sex-linked dominant trait. In a family where both parents suffer from this anomaly, a son was born with normal teeth. What is the probability that the next child will also have healthy teeth?",
         "options": [
-          "**\\*a. The same loci of homologous chromosomes**",
-          "b. Different loci of homologous chromosomes",
-          "c. Same loci of non-homologous chromosomes",
-          "d. One chromosome"
+          "*d. 50% boys",
+          "b. 50% of all children",
+          "c. all children",
+          "a. 50% girls"
         ]
       },
       {
-        "question": "Where are non-allelic genes located?",
+        "question": "Q16. The father is color blind, and the mother is heterozygous for a gene that predetermines normal color perception. With what genotypes should we expect offspring?",
         "options": [
-          "**\\*d. At different loci on the chromosome**",
-          "a. Different pairs of chromosomes",
-          "b. Only in autosomes",
-          "c. Only on sex chromosomes"
+          "* c. XdXd",
+          "b. Dd",
+          "a. XDXd",
+          "d. XDXD"
         ]
       },
       {
-        "question": "G. Mendel developed a method for studying heredity:",
+        "question": "Q17. The holandric trait is:",
         "options": [
-          "**\\*a. Hybridological**",
-          "b. Biological",
-          "c. Twin",
-          "d. Cytological"
+          "* b. Hypertrichosis",
+          "a. Blonde hair",
+          "c. Hemophilia",
+          "d. Polydactyly"
         ]
       },
       {
-        "question": "In what ratio is splitting observed for different types of gene interactions?",
+        "question": "Q18. Which of the following is a holandric trait?",
         "options": [
-          "**\\*c. With polymer 15:1 or 1:4:6:4:1**",
-          "a. With dominant epistasis 9:3:4 or 12:3:1",
-          "b. With recessive epistasis 13:3",
-          "d. With complementary interaction 15:1 or 9:6:1"
+          "* b. Hypertrichosis",
+          "a. Colorblindness",
+          "c. Polydactyly",
+          "d. Blonde hair"
         ]
       },
       {
-        "question": "Is this complementarity?",
+        "question": "Q19. In what units is crossing over frequency measured?",
         "options": [
-          "**\\*b. When two or more genes interact, new traits are formed**",
-          "a. Interaction of non-allelic genes, in which one gene suppresses the action of nother, non-allelic gene",
-          "c. One of the forms of interaction of non-allelic genes, in which the development of a certain trait is predetermined by the influence of several genes",
-          "d. The ability of one gene to control several traits (multiple gene action)"
+          "*c. In percentages",
+          "b. In the Morganids",
+          "a. In centimeters",
+          "d. In nanometers"
         ]
       },
       {
-        "question": "The ability of organisms to acquire new characteristics or lose previous ones during development is:",
+        "question": "Q20. Hypertrichosis (hair growth along the edge of the ear) is inherited as a trait linked to the Y chromosome. What is the probability of having a child with this anomaly in a family where the father suffers from hypertrichosis?",
         "options": [
-          "**\\*c. Variability**",
-          "a. Genotype",
-          "b. Heredity",
-          "d. Inheritance"
-        ]
-      },
-      {
-        "question": "In which blood group is agglutinogen A and B found?",
-        "options": [
-          "**\\*d. IV**",
-          "a. II",
-          "b. I",
-          "c. III"
-        ]
-      },
-      {
-        "question": "Mendel's first law reveals patterns:",
-        "options": [
-          "**\\*d. First generation law of uniformity**",
-          "a. Law of splitting",
-          "b. Independent combination of features",
-          "c. Incomplete dominance"
-        ]
-      },
-      {
-        "question": "The intensity of skin pigmentation in humans is controlled by several non-allelic dominant genes. It has been established that with an increase in the number of these genes, pigmentation becomes more intense. What is the type of interaction between these genes called?",
-        "options": [
-          "**\\*a. Polymerism**",
-          "b. Pleiotropy",
-          "c. Codominance",
-          "d. Epistasis"
+          "* c. 100% boys",
+          "b. All children",
+          "a. 50% boys",
+          "d. 50% girls"
         ]
       }
     ],
