@@ -1099,57 +1099,48 @@ export const s_1_8 = {
     ],
     "situational": [
       {
-        "question": "Q1. Specify the characteristics characteristic of the X-linked recessive type of inheritance:",
+        "question": "In the presynthetic period of the mitotic cycle:",
         "options": [
-          "*a. A mother who carries the gene passes the trait on to half of her sons",
-          "b. Affected men pass on the recessive allele of the gene to 50% of their sons",
-          "c. Occurs predominantly in women",
-          "d. Both men and women get sick equally"
+          "a. DNA replication occurs",
+          "b. The nuclear envelope is destroyed",
+          "* c. Enzymes are synthesized that ensure replication",
+          "d. Nothing is synthesized"
         ]
       },
       {
-        "question": "Q2. What type of inheritance does hemophilia have?",
+        "question": "During the synthetic period of the mitotic cycle:",
         "options": [
-          "* c. X-linked recessive inheritance",
-          "b. X-linked dominant inheritance",
-          "a. Autosomal recessive mode of inheritance",
-          "d. Y-chained inheritance"
+          "a. The cell does not synthesize anything",
+          "* b. DNA replication occurs",
+          "c. Broadcast in progress",
+          "d. DNA repair occurs"
         ]
       },
       {
-        "question": "Q3. What type of inheritance does color blindness have?",
+        "question": "The regions of chromosomes to which the spindle strands are attached are called:",
         "options": [
-          "* c. X-linked recessive inheritance",
-          "b. X-linked dominant mode of inheritance",
-          "a. Autosomal recessive mode of inheritance",
-          "d. Y-chained inheritance"
+          "a. Satellites",
+          "b. Secondary chromosome constrictions",
+          "c. Shoulders of chromosomes",
+          "* d. Kinetochores"
         ]
       },
       {
-        "question": "Q4. What patterns are characteristic of a pedigree with an X-linked recessive type of inheritance?",
+        "question": "Pachynema is a stage of prophase I of meiosis, during which:",
         "options": [
-          "*a. All answers are correct",
-          "b. A female carrier transmits the disease to half of her sons, none of the daughters will be affected, but half of the daughters are carriers of the hereditary gene",
-          "c. The trait is always transmitted through a heterozygous mother, who is phenotypically healthy",
-          "d. A sick father never passes the disease on to his sons"
+          "* a. Chromosomes are connected into bivalents and look like thick threads (crossing over occurs here)",
+          "b. Homologous chromosomes that were connected into bivalents begin to repel each other",
+          "c. Homologous chromosomes are connected in pairs to each other (conjugation occurs here)",
+          "d. The nuclear envelope is synthesized"
         ]
       },
       {
-        "question": "Q5. For the X-linked dominant type of inheritance, it is characteristic that the trait manifests itself:",
+        "question": "The preparation shows a section of the seminiferous tubule, which contains spermatids. What stage of spermatogenesis is visible in the section?",
         "options": [
-          "* c. The father passes the trait on to all his daughters",
-          "b. Not in all generations",
-          "a. Only for women",
-          "d. Along the pedigree"
-        ]
-      },
-      {
-        "question": "Q6. For the Y-linked type of inheritance, it is characteristic that the trait manifests itself:",
-        "options": [
-          "* d. The father passes the trait on to all his sons",
-          "b. Along the pedigree",
-          "c. Vertical pedigree",
-          "a. Not in all generations"
+          "a. Ovulation",
+          "b. Formations",
+          "c. Maturation",
+          "* d. Growth"
         ]
       }
     ]
@@ -1543,57 +1534,48 @@ export const s_1_8 = {
     ],
     "situational": [
       {
-        "question": "Q1. The ability of one gene to control several traits (multiple gene action) is:",
+        "question": "Which genotype can be accurately determined by phenotype without special research?",
         "options": [
-          "* c. Pleiotropy",
-          "b. Codominance",
-          "a. Incomplete dominance",
-          "d. Complete Domination"
+          "*a. Recessive homozygote genotype (aa)",
+          "b. Genotype of any individual",
+          "c. Heterozygote genotype (Aa)",
+          "d. Genotype of dominant homozygote (AA)"
         ]
       },
       {
-        "question": "Q2. The object of genetic research by G. Mendel was the plant:",
+        "question": "What is the name of the allele that is phenotypically manifested in the heterozygous state?",
         "options": [
-          "* a. Peas",
-          "b. Wheat spinous",
-          "c. Potato",
-          "d. Corn"
+          "*a. Dominant",
+          "b. Recessive",
+          "c. Homozygote recessive",
+          "d. Heterozygous"
         ]
       },
       {
-        "question": "Q3. In what type of interaction of allelic genes do lethal genes lead to the death of individuals in the homozygous state?",
+        "question": "The set of genes in a population, which is characterized by a certain frequency, is:",
         "options": [
-          "* d. Overdominance",
-          "b. Complete Domination",
-          "c. Codominance",
-          "a. Incomplete dominance"
+          "*a. Gene pool",
+          "b. Genome",
+          "c. Gene",
+          "d. Genotype"
         ]
       },
       {
-        "question": "Q4. With incomplete dominance:",
+        "question": "An example of complementarity is:",
         "options": [
-          "* b. Heterozygotes are phenotypically different from homozygotes with a dominant gene",
-          "a. The genotypes of heterozygotes do not differ from homozygotes with a dominant gene",
-          "c. In homozygotes with a dominant gene, the trait is less pronounced than in heterozygotes",
-          "d. In homozygotes with a dominant gene, the trait is expressed in the same way as in heterozygotes"
+          "*a. Inheritance of deafness",
+          "b. Inheritance of phenylketonuria",
+          "c. Inheritance of polydactyly",
+          "d. Inheritance of blood groups"
         ]
       },
       {
-        "question": "Q5. A hemizygous organism is an organism in which:",
+        "question": "A cross in which the parent organisms differ in four pairs of characters is:",
         "options": [
-          "* a. The gene is represented not by two, but by one allele, and this allele is always phenotypically manifested, even in a recessive state",
-          "b. The gene is represented by a recessive allele",
-          "c. The gene is represented by dominant and recessive alleles",
-          "d. The gene is represented by a dominant allele"
-        ]
-      },
-      {
-        "question": "Q6. Genes that suppress other genes are called:",
-        "options": [
-          "* b. Inhibitors",
-          "a. Hypostatic",
-          "c. Repressors",
-          "d. Corepressors"
+          "a. Dihybrid",
+          "*b. Tetrahybrid",
+          "c. Polyhybrid",
+          "d. Trihybrid"
         ]
       }
     ]
