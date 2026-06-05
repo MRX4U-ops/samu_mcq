@@ -1391,7 +1391,7 @@ export const s_1_8 = {
         "question": "In humans, a polygenic trait is:",
         "options": [
           "a. Brachydactyly",
-          "**\\\\*b. Height**",
+          "**\\*b. Height**",
           "c. Blood type",
           "d. Hair color"
         ]
@@ -1399,7 +1399,7 @@ export const s_1_8 = {
       {
         "question": "In polymerization, the splitting of the trait when crossing two diheterozygotes will be:",
         "options": [
-          "**\\\\*a. 15:1, 1:4:6:4:1**",
+          "**\\*a. 15:1, 1:4:6:4:1**",
           "b. 9:4:3, 1:4:6:4:1, 13:3",
           "c. 9:3:4, 9:7, 15:1",
           "d. 9:4:3, 12:3:1, 13:3"
@@ -1411,13 +1411,13 @@ export const s_1_8 = {
           "a. 9:4:3, 1:4:6:4:1, 13:3",
           "b. 9:4:3, 12:3:1, 13:3",
           "c. 15:1, 1:4:6:4:1",
-          "**\\\\*d. 9:3:3:1, 9:6:1, 9:3:4, 9:7**"
+          "**\\*d. 9:3:3:1, 9:6:1, 9:3:4, 9:7**"
         ]
       },
       {
         "question": "Polygenic traits include:",
         "options": [
-          "**\\\\*a. Body weight. Finger length**",
+          "**\\*a. Body weight. Finger length**",
           "b. Blood clotting",
           "c. Microcephaly",
           "d. Polydactyly"
@@ -1429,7 +1429,7 @@ export const s_1_8 = {
           "a. Manifestation of the gene in a heterozygous state",
           "b. Degree of gene penetration",
           "c. The influence of one gene on the manifestation of several traits",
-          "**\\\\*d. Gene penetration frequency**"
+          "**\\*d. Gene penetration frequency**"
         ]
       },
       {
@@ -1437,7 +1437,7 @@ export const s_1_8 = {
         "options": [
           "a. Karyotyping",
           "b. Variability",
-          "**\\\\*c. Heredity**",
+          "**\\*c. Heredity**",
           "d. Crossbreeding"
         ]
       },
@@ -1446,14 +1446,14 @@ export const s_1_8 = {
         "options": [
           "a. Gene system of a particular organism",
           "b. Traits caused by genes located only on autosomes",
-          "**\\\\*c. A system of external and internal signs and properties of an organism that are formed during its individual development**",
+          "**\\*c. A system of external and internal signs and properties of an organism that are formed during its individual development**",
           "d. Haploid set of chromosomes"
         ]
       },
       {
         "question": "A cross in which the parent organisms differ in three pairs of characteristics is:",
         "options": [
-          "**\\\\*a. Trihybrid**",
+          "**\\*a. Trihybrid**",
           "b. Tetrahybrid",
           "c. Polyhybrid",
           "d. Dihybrid"
@@ -1465,7 +1465,7 @@ export const s_1_8 = {
           "a. Genotype",
           "b. Inheritance",
           "c. Variability",
-          "**\\\\*d. Heredity**"
+          "**\\*d. Heredity**"
         ]
       },
       {
@@ -1474,13 +1474,13 @@ export const s_1_8 = {
           "a. A section of an RNA molecule in which information about the secondary structure of a polypeptide is encoded",
           "b. A section of an RNA molecule in which information about the primary structure of a polypeptide is encoded",
           "c. A section of a DNA molecule in which information about the secondary structure of a polypeptide is encoded",
-          "**\\\\*d. A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded**"
+          "**\\*d. A section of a DNA molecule (in RNA for some viruses) in which information about the primary structure of a polypeptide, ribosomal or transfer RNA molecule is encoded**"
         ]
       },
       {
         "question": "How many types of gametes does an individual with genotype AAbbCC produce?",
         "options": [
-          "**\\\\*a. 1**",
+          "**\\*a. 1**",
           "b. 8",
           "c. 3",
           "d. 6"
@@ -1490,7 +1490,7 @@ export const s_1_8 = {
         "question": "An analysis cross is a cross in which an individual whose genotype is unknown but needs to be determined (AA or Aa ) is crossed with:",
         "options": [
           "a. Heterozygous (A a )",
-          "**\\\\*b. Recessive homozygote (aa)**",
+          "**\\*b. Recessive homozygote (aa)**",
           "c. Dominant homozygote (A A )",
           "d. Zygote"
         ]
@@ -1498,7 +1498,7 @@ export const s_1_8 = {
       {
         "question": "Allelic genes are genes located in:",
         "options": [
-          "**\\\\*a. The same loci of homologous chromosomes**",
+          "**\\*a. The same loci of homologous chromosomes**",
           "b. Different loci of homologous chromosomes",
           "c. Same loci of non-homologous chromosomes",
           "d. One chromosome"
@@ -1510,13 +1510,13 @@ export const s_1_8 = {
           "a. Different pairs of chromosomes",
           "b. Only in autosomes",
           "c. Only on sex chromosomes",
-          "**\\\\*d. At different loci on the chromosome**"
+          "**\\*d. At different loci on the chromosome**"
         ]
       },
       {
         "question": "G. Mendel developed a method for studying heredity:",
         "options": [
-          "**\\\\*a. Hybridological**",
+          "**\\*a. Hybridological**",
           "b. Biological",
           "c. Twin",
           "d. Cytological"
@@ -1527,7 +1527,7 @@ export const s_1_8 = {
         "options": [
           "a. With dominant epistasis 9:3:4 or 12:3:1",
           "b. With recessive epistasis 13:3",
-          "**\\\\*c. With polymer 15:1 or 1:4:6:4:1**",
+          "**\\*c. With polymer 15:1 or 1:4:6:4:1**",
           "d. With complementary interaction 15:1 or 9:6:1"
         ]
       },
@@ -1535,7 +1535,7 @@ export const s_1_8 = {
         "question": "Is this complementarity?",
         "options": [
           "a. Interaction of non-allelic genes, in which one gene suppresses the action of nother, non-allelic gene",
-          "**\\\\*b. When two or more genes interact, new traits are formed**",
+          "**\\*b. When two or more genes interact, new traits are formed**",
           "c. One of the forms of interaction of non-allelic genes, in which the development of a certain trait is predetermined by the influence of several genes",
           "d. The ability of one gene to control several traits (multiple gene action)"
         ]
@@ -1545,7 +1545,7 @@ export const s_1_8 = {
         "options": [
           "a. Genotype",
           "b. Heredity",
-          "**\\\\*c. Variability**",
+          "**\\*c. Variability**",
           "d. Inheritance"
         ]
       },
@@ -1555,7 +1555,7 @@ export const s_1_8 = {
           "a. II",
           "b. I",
           "c. III",
-          "**\\\\*d. IV**"
+          "**\\*d. IV**"
         ]
       },
       {
@@ -1564,13 +1564,13 @@ export const s_1_8 = {
           "a. Law of splitting",
           "b. Independent combination of features",
           "c. Incomplete dominance",
-          "**\\\\*d. First generation law of uniformity**"
+          "**\\*d. First generation law of uniformity**"
         ]
       },
       {
         "question": "The intensity of skin pigmentation in humans is controlled by several non-allelic dominant genes. It has been established that with an increase in the number of these genes, pigmentation becomes more intense. What is the type of interaction between these genes called?",
         "options": [
-          "**\\\\*a. Polymerism**",
+          "**\\*a. Polymerism**",
           "b. Pleiotropy",
           "c. Codominance",
           "d. Epistasis"
