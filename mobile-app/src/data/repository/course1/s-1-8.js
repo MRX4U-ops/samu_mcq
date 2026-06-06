@@ -2135,147 +2135,183 @@ export const s_1_8 = {
   "t-s-1-8-9": {
     "test": [
       {
-        "question": "The angle atd in the palm of the hand in Patau syndrome is:",
+        "question": "1. A woman has three X chromosomes in her karyotype. How many Barr bodies can her somatic cells have?",
         "options": [
-          "**\\*c. 108°**",
-          "a. 75°",
-          "b. 120°",
-          "d. 80°"
+          "*a. 2",
+          "b. 0",
+          "c. 1",
+          "d. 3"
         ]
       },
       {
-        "question": "The phenomenon of arbitrary marriages in a large population of people is called:",
+        "question": "2. X-chromatin was detected in the nuclei of buccal epithelial cells of the buccal mucosa in a male patient. This is possible with:",
         "options": [
-          "**\\*a. Panmixia**",
-          "b. Hybridization",
-          "c. Inbreeding",
-          "d. Outbreeding"
+          "a. Patau syndrome",
+          "b. Shereshevsky-Turner syndrome",
+          "*c. Klinefelter's syndrome",
+          "d. Edwards syndrome"
         ]
       },
       {
-        "question": "Using the cytogenetic method, diagnostics is carried out:",
+        "question": "3. According to the Denver classification (in 1960), the human karyotype is divided into the following number of groups:",
         "options": [
-          "**\\*b. Diseases associated with changes in the number of autosomes**",
-          "a. Genetic diseases",
-          "c. Molecular diseases",
-          "d. Multifactorial diseases"
+          "a. 4",
+          "b. 5",
+          "*c. 7",
+          "d. 6"
         ]
       },
       {
-        "question": "Cells found in amniotic fluid do not contain X chromatin due to:",
+        "question": "4. The arrangement of pairs of chromosomes in order of decreasing size is:",
         "options": [
-          "**\\*b. X chromosome monosomy**",
-          "a. Trisomy of chromosome 18",
-          "c. Trisomy X chromosome",
-          "d. Trisomy of chromosome 21"
+          "a. Genotype",
+          "b. Karyotype",
+          "*c. Idiogram",
+          "d. Karyotyping"
         ]
       },
       {
-        "question": "The angle atd on the palm normally does not exceed:",
+        "question": "5. No X-chromatin was detected in the nuclei of the woman's buccal epithelium cells. This indicates the disappearance in the karyotype:",
         "options": [
-          "**\\*a. 57°**",
-          "b. 75°",
-          "c. 80°",
-          "d. 108°"
+          "a. One Y chromosome",
+          "*b. One X chromosome",
+          "c. Two X chromosomes",
+          "d. Three X chromosomes"
         ]
       },
       {
-        "question": "The method for determining X-chromatin is used for diagnosis:",
+        "question": "6. The genealogical method allows you to establish:",
         "options": [
-          "**\\*a. Shereshevsky-Turner syndrome**",
-          "b. Hypertension",
-          "c. Stomach ulcers",
-          "d. Diabetes mellitus"
+          "a. Gene linkage",
+          "*b. Hereditary nature of the trait, type of inheritance",
+          "c. Violation of the number and structure of chromosomes",
+          "d. The role of environment and genotype in the development of a trait"
         ]
       },
       {
-        "question": "Dizygotic twins:",
+        "question": "7. Studying patterns on the fingertips is:",
         "options": [
-          "**a. Arise from different fertilized eggs**",
-          "b. They have the same patterns on the skin of the palms and fingers",
-          "c. Develop from a single zygote",
-          "d. Have the same phenotype"
+          "a. Palmoscopy",
+          "b. Microscopy",
+          "*c. Fingerprinting",
+          "d. Plantoscopy"
         ]
       },
       {
-        "question": "The method for determining X-chromatin is used for diagnosis:",
+        "question": "8. What method of genetics is used to find out the type of inheritance (dominant or recessive) of a particular pathological trait?",
         "options": [
-          "**\\*d. Klinefelter's syndrome**",
-          "a. Diabetes mellitus",
-          "b. Patau syndrome",
-          "c. Stomach ulcers"
+          "*a. Genealogical",
+          "b. Cytogenetic",
+          "c. Dermatoglyphics",
+          "d. Biochemical"
         ]
       },
       {
-        "question": "To carry out cytogenetic analysis use:",
+        "question": "9. The twin method is used for:",
         "options": [
-          "**\\*a. Leukocytes**",
-          "b. Buccal epithelial cells",
-          "c. Pancreatic cells",
-          "d. Red blood cells"
+          "a. Establishing the hereditary nature of a trait",
+          "*b. Estimates of the role of heredity and environment in the development of a trait",
+          "c. Compilation and analysis of pedigree",
+          "d. Gene linkage studies"
         ]
       },
       {
-        "question": "Monozygotic twins:",
+        "question": "10. Discordance is:",
         "options": [
-          "**\\*c. Always have the same genotype**",
-          "a. Develop from different eggs",
-          "b. They have different genotypes.",
-          "d. Develop from a single somatic cell"
+          "*a. Absence of the trait in one of the twins",
+          "b. Quantitative indicator of gene expression",
+          "c. Percentage of similarity for this trait in twins",
+          "d. Degree of symptom expression"
         ]
       },
       {
-        "question": "Human populations, the number of which does not exceed 1500 individuals, and consanguineous marriages account for more than 90%, are called:",
+        "question": "11. No Barr bodies were found in the cell, please indicate the karyotype:",
         "options": [
-          "**\\*a. Isolates**",
-          "b. Demami",
-          "c. Ideal populations",
-          "d. Closed populations"
+          "*a. 45, X0",
+          "b. 47, XX, 21",
+          "c. 47, XXY",
+          "d. 47, XXX"
         ]
       },
       {
-        "question": "Fingerprinting is the study of:",
+        "question": "12. What skin patterns are there on the fingertips:",
         "options": [
-          "**\\*c. Papillary patterns on the fingertips**",
-          "a. Papillary patterns on the soles",
-          "b. Papillary patterns on the palms",
-          "d. Papillary patterns on the palms and soles"
+          "a. Triradius",
+          "*b. Curl. Arc. Simple loop",
+          "c. \"Knot\"",
+          "d. Square"
         ]
       },
       {
-        "question": "Small populations, the number of which does not exceed 1500-4000 individuals, are called:",
+        "question": "13. What method is used to study the genetic composition of a population?",
         "options": [
-          "**\\*c. Demami**",
-          "a. Isolates",
-          "b. Ideal populations",
-          "d. Open populations"
+          "a. Dermatoglyphics method",
+          "b. Biochemical method",
+          "c. Molecular genetic method",
+          "*d. Population statistical method"
         ]
       },
       {
-        "question": "Indicate the method of studying a trait (disease) in a family, indicating family ties between members of the pedigree - this is:",
+        "question": "14. Concordance is",
         "options": [
-          "**\\*a. Genealogical method**",
-          "b. Molecular genetic method",
-          "c. Cytogenetic method",
-          "d. Biochemical method"
+          "a. Quantitative indicator of gene manifestation",
+          "b. Absence of the trait in one of the twins",
+          "*c. Percentage of similarity for this trait in twins",
+          "d. Degree of symptom expression"
         ]
       },
       {
-        "question": "The angle atd in the palm of the hand in Down syndrome represents:",
+        "question": "15. Using the cytogenetic method, you can determine:",
         "options": [
-          "**\\*d. 81°",
-          "a. 57°",
-          "b. 75°",
-          "c. 108°"
+          "a. Concentration and distribution of the gene in the population",
+          "b. The influence of genotype and external environment on the development of the organism",
+          "*c. Number and structure of chromosomes",
+          "d. Realization of genes in ontogenesis"
         ]
       },
       {
-        "question": "Karyotype examination is necessary if:",
+        "question": "16. To determine gender, the following is used:",
         "options": [
-          "**\\*b. The couple had a stillborn fetus and two spontaneous miscarriages**",
-          "a. The first boy in the family was born colorblind",
-          "c. The woman had one spontaneous miscarriage",
-          "d. The first child in the family was born with phenylketonuria"
+          "a. Biochemical method",
+          "b. Somatic cell genetics method",
+          "c. Genealogical method",
+          "*d. Determination of sex chromatin"
+        ]
+      },
+      {
+        "question": "17. How many heterochromosomes are there in a man's karyotype?",
+        "options": [
+          "a. 46",
+          "b. 44",
+          "c. 1",
+          "*d. 2"
+        ]
+      },
+      {
+        "question": "18. How many Barr bodies do somatic cells of a healthy man have?",
+        "options": [
+          "a. 1",
+          "b. 3",
+          "c. 2",
+          "*d. 0"
+        ]
+      },
+      {
+        "question": "19. The Hardy-Weinberg formula is not applicable:",
+        "options": [
+          "*a. In populations with consanguineous marriages",
+          "b. In numerous panmictic populations",
+          "c. Only in ideal populations",
+          "d. In large, ideal populations"
+        ]
+      },
+      {
+        "question": "20. Sex X-chromatin is absent in somatic cells in:",
+        "options": [
+          "a. Women with Patau syndrome",
+          "*b. Men",
+          "c. Women with Edwards syndrome",
+          "d. Women with Down syndrome"
         ]
       }
     ],
