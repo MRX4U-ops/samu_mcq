@@ -17,6 +17,12 @@
   justify-content: center;
   overflow: hidden;
   padding: 120px 24px 80px;
+  background:
+    linear-gradient(160deg,
+      rgba(15,14,26,0.82) 0%,
+      rgba(30,27,75,0.72) 40%,
+      rgba(67,56,202,0.55) 100%),
+    url('/medical_bg.png') center/cover no-repeat;
 }
 
 .heroBg {
@@ -27,21 +33,21 @@
 .glow1 {
   position: absolute;
   width: 700px; height: 700px;
-  background: radial-gradient(circle, rgba(99,102,241,0.18) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(99,102,241,0.25) 0%, transparent 65%);
   top: -200px; left: -200px;
   animation: blobFloat1 12s ease-in-out infinite;
 }
 .glow2 {
   position: absolute;
   width: 500px; height: 500px;
-  background: radial-gradient(circle, rgba(139,92,246,0.15) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(139,92,246,0.20) 0%, transparent 65%);
   bottom: -150px; right: -100px;
   animation: blobFloat2 14s ease-in-out infinite;
 }
 .glow3 {
   position: absolute;
   width: 400px; height: 400px;
-  background: radial-gradient(circle, rgba(245,158,11,0.10) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(245,158,11,0.12) 0%, transparent 65%);
   top: 40%; left: 50%; transform: translate(-50%, -50%);
 }
 @keyframes blobFloat1 {
@@ -89,13 +95,14 @@
   line-height: 1.10;
   letter-spacing: -1.5px;
   margin-bottom: 22px;
-  color: #1e1b4b;
+  color: #fff;
   font-family: 'Plus Jakarta Sans', sans-serif;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.3);
 }
 
 .heroSub {
   font-size: 18px;
-  color: #4b5563;
+  color: rgba(255,255,255,0.80);
   line-height: 1.7;
   margin-bottom: 36px;
   font-weight: 500;
@@ -125,7 +132,7 @@
   gap: 6px;
   font-size: 13px;
   font-weight: 700;
-  color: #6b7280;
+  color: rgba(255,255,255,0.75);
 }
 
 .heroStatsRibbon {
