@@ -73,17 +73,15 @@ export default function AskAIPage() {
     try {
       let response;
       if (requestImage) {
-        // analyze-image route: backend expects { imageBase64 }
         response = await fetch(`${API_BASE_URL}/api/ai/analyze-image`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            imageBase64: requestImage,   // raw base64, no data: prefix
+            imageBase64: requestImage,
             prompt: requestText || 'Please analyze this medical image.'
           })
         });
       } else {
-        // /ask route: backend expects { question }
         response = await fetch(`${API_BASE_URL}/api/ai/ask`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -120,91 +118,99 @@ export default function AskAIPage() {
       <Navbar />
       <div className={styles.container}>
         <div className={styles.header}>
-          <Link to="/home" className={styles.backBtn}>
-            <ChevronLeft size={24} />
-            <span>Back</span>
-          </Link>
-          <div className={styles.titleWrap}>
-            <BrainCircuit size={32} color="#EC4899" />
-            <h1 className={styles.title}>Ask AI</h1>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 12 }}>
+            <Link to="/home" style={{ color: '#fff', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 4, background: 'rgba(255,255,255,0.15)', padding: '6px 12px', borderRadius: 12 }}>
+              <ChevronLeft size={18} />
+              <span style={{ fontSize: 13, fontWeight: 'bold' }}>Back</span>
+            </Link>
           </div>
-          <p className={styles.sub}>Your personal medical AI tutor. Powered by Llama 3.3 70B.</p>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+            <BrainCircuit size={32} color="#fbbf24" />
+            <div>
+              <h1 className={styles.headerTitle}>Ask AI</h1>
+              <p className={styles.headerSub}>Your personal medical AI tutor. Powered by Llama 3.3 70B.</p>
+            </div>
+          </div>
         </div>
 
         <div className={styles.chatBox}>
-          <div className={styles.messagesList}>
-            {messages.map((msg, idx) => (
-              <div key={idx} className={`${styles.messageWrapper} ${msg.role === 'user' ? styles.wrapperUser : styles.wrapperAi}`}>
-                <div className={`${styles.bubble} ${msg.role === 'user' ? styles.bubbleUser : styles.bubbleAi}`}>
-                  {msg.role === 'assistant' && <Bot size={18} className={styles.bubbleIcon} />}
-                  
-                  <div className={styles.bubbleContent}>
-                    {msg.image && (
-                      <img src={msg.image} alt="User upload" className={styles.uploadedImage} />
-                    )}
-                    {msg.content && <p className={styles.messageText}>{msg.content}</p>}
-                  </div>
-                </div>
+          {messages.map((msg, idx) => (
+            <div key={idx} className={msg.role === 'user' ? styles.msgUser : styles.msgAI}>
+              {msg.image && (
+                <img src={msg.image} alt="User upload" style={{ maxWidth: '100%', borderRadius: 8, marginBottom: 8 }} />
+              )}
+              {msg.content}
+            </div>
+          ))}
+          
+          {isLoading && (
+            <div className={styles.msgAI}>
+              <div className={styles.typing}>
+                <div className={styles.dot} />
+                <div className={styles.dot} />
+                <div className={styles.dot} />
               </div>
-            ))}
-            
-            {isLoading && (
-              <div className={`${styles.messageWrapper} ${styles.wrapperAi}`}>
-                <div className={`${styles.bubble} ${styles.bubbleAi}`}>
-                  <Loader size={18} className={styles.spin} />
-                  <p className={styles.messageText}>Thinking...</p>
-                </div>
-              </div>
-            )}
-            <div ref={chatEndRef} />
-          </div>
-
-          <div className={styles.inputArea}>
-            {selectedImage && (
-              <div className={styles.imagePreviewWrap}>
-                <img src={selectedImage.preview} alt="Preview" className={styles.imagePreview} />
-                <button type="button" onClick={removeImage} className={styles.removeImageBtn}>
-                  <X size={14} />
-                </button>
-              </div>
-            )}
-            
-            <form onSubmit={handleSubmit} className={styles.form}>
-              <button 
-                type="button" 
-                className={styles.attachBtn}
-                onClick={() => fileInputRef.current?.click()}
-                disabled={isLoading}
-              >
-                <ImageIcon size={22} />
-              </button>
-              <input 
-                type="file" 
-                ref={fileInputRef} 
-                onChange={handleImageSelect} 
-                accept="image/*" 
-                style={{ display: 'none' }} 
-              />
-              
-              <input
-                type="text"
-                className={styles.inputField}
-                placeholder="Ask a medical question..."
-                value={input}
-                onChange={(e) => setInput(e.target.value)}
-                disabled={isLoading}
-              />
-              
-              <button 
-                type="submit" 
-                className={styles.sendBtn}
-                disabled={isLoading || (!input.trim() && !selectedImage)}
-              >
-                <Send size={18} />
-              </button>
-            </form>
-          </div>
+            </div>
+          )}
+          <div ref={chatEndRef} />
         </div>
+
+        {selectedImage && (
+          <div style={{ padding: '0 16px 8px', display: 'flex', alignItems: 'center', gap: 10 }}>
+            <div style={{ position: 'relative', display: 'inline-block' }}>
+              <img src={selectedImage.preview} alt="Preview" style={{ height: 60, borderRadius: 8, border: '2px solid #4f46e5' }} />
+              <button 
+                onClick={removeImage} 
+                style={{ position: 'absolute', top: -8, right: -8, background: '#f43f5e', color: '#fff', border: 'none', borderRadius: '50%', width: 24, height: 24, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+              >
+                <X size={14} />
+              </button>
+            </div>
+          </div>
+        )}
+
+        <form onSubmit={handleSubmit} className={styles.inputArea}>
+          <button 
+            type="button" 
+            onClick={() => fileInputRef.current?.click()}
+            disabled={isLoading}
+            style={{ background: 'transparent', border: 'none', color: '#4f46e5', cursor: 'pointer', padding: 8 }}
+          >
+            <ImageIcon size={22} />
+          </button>
+          <input 
+            type="file" 
+            ref={fileInputRef} 
+            onChange={handleImageSelect} 
+            accept="image/*" 
+            style={{ display: 'none' }} 
+          />
+          
+          <textarea
+            className={styles.textArea}
+            placeholder="Ask a medical question..."
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            disabled={isLoading}
+            rows={1}
+            style={{ paddingTop: 8 }}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                handleSubmit(e);
+              }
+            }}
+          />
+          
+          <button 
+            type="submit" 
+            className={styles.sendBtn}
+            disabled={isLoading || (!input.trim() && !selectedImage)}
+          >
+            <Send size={18} />
+          </button>
+        </form>
+
       </div>
     </div>
   );
