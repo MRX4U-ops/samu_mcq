@@ -17,7 +17,7 @@ export default function BottomNav() {
             <>
               {(isActive || current === '/') && <div className={styles.activeDot} />}
               <div className={isActive || current === '/' ? styles.activeIconWrap : ''}>
-                <Home size={22} className={styles.icon} />
+                <Home size={26} className={styles.icon} />
               </div>
               <span className={styles.label}>Home</span>
             </>
@@ -32,7 +32,7 @@ export default function BottomNav() {
             <>
               {isActive && <div className={styles.activeDot} />}
               <div className={isActive ? styles.activeIconWrap : ''}>
-                <Search size={22} className={styles.icon} />
+                <Search size={26} className={styles.icon} />
               </div>
               <span className={styles.label}>Case</span>
             </>
@@ -47,7 +47,7 @@ export default function BottomNav() {
             <>
               {isActive && <div className={styles.activeDot} />}
               <div className={isActive ? styles.activeIconWrap : ''}>
-                <Brain size={22} className={styles.icon} />
+                <Brain size={26} className={styles.icon} />
               </div>
               <span className={styles.label}>Revise</span>
             </>
@@ -62,7 +62,7 @@ export default function BottomNav() {
             <>
               {isActive && <div className={styles.activeDot} />}
               <div className={isActive ? styles.activeIconWrap : ''}>
-                <Pill size={22} className={styles.icon} />
+                <Pill size={26} className={styles.icon} />
               </div>
               <span className={styles.label}>Drugs</span>
             </>
@@ -77,7 +77,7 @@ export default function BottomNav() {
             <>
               {isActive && <div className={styles.activeDot} />}
               <div className={isActive ? styles.activeIconWrap : ''}>
-                <User size={22} className={styles.icon} />
+                <User size={26} className={styles.icon} />
               </div>
               <span className={styles.label}>Profile</span>
             </>
