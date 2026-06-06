@@ -220,6 +220,12 @@
 }
 
 /* ── HOW IT WORKS ── */
+.howItWorksBg {
+  background: 
+    linear-gradient(180deg, #f8fafc 0%, rgba(248,250,252,0.85) 50%, #f8fafc 100%),
+    url('/students_bg.png') center/cover no-repeat;
+  position: relative;
+}
 .stepsGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

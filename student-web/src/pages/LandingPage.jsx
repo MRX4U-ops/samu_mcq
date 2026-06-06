@@ -130,7 +130,7 @@ export default function LandingPage() {
       </section>
 
       {/* ── HOW IT WORKS ── */}
-      <section className={styles.section}>
+      <section className={`${styles.section} ${styles.howItWorksBg}`}>
         <div className={styles.sectionInner}>
           <div className={styles.sectionHeader}>
             <span className={styles.sectionLabel}>HOW IT WORKS</span>
