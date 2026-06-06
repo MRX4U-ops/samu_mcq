@@ -75,7 +75,9 @@
 ══════════════════════════════════════════ */
 .leftPanel {
   flex: 0 0 480px;
-  background: linear-gradient(160deg, #1e1b4b 0%, #312e81 50%, #4338ca 100%);
+  background: 
+    linear-gradient(160deg, rgba(30,27,75,0.85) 0%, rgba(49,46,129,0.75) 50%, rgba(67,56,202,0.65) 100%),
+    url('/medical_bg.png') center/cover no-repeat;
   position: relative;
   overflow: hidden;
   display: flex;
