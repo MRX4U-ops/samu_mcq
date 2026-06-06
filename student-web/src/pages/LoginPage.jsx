@@ -3,7 +3,7 @@ import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import {
   Mail, Lock, User, ArrowRight, ShieldCheck, CheckCircle,
-  Eye, EyeOff, BookOpen, Brain, Trophy, Zap, Star
+  Eye, EyeOff, BookOpen, Brain, Trophy, Zap, Star, Home
 } from 'lucide-react';
 import styles from './AuthPage.module.css';
 
@@ -152,6 +152,11 @@ export default function LoginPage() {
     <div className={styles.page}>
       <div className={styles.bgBlob1} />
       <div className={styles.bgBlob2} />
+
+      {/* Back to home — top-left floating */}
+      <Link to="/" className={styles.homeLink}>
+        <Home size={15} /> Back to Home
+      </Link>
       <div className={styles.bgBlob3} />
 
       {/* ── Left Panel (desktop only) ── */}
@@ -171,6 +176,10 @@ export default function LoginPage() {
               </div>
             ))}
           </div>
+
+          <Link to="/" className={styles.leftHomeLink}>
+            <Home size={14} /> Back to Home
+          </Link>
 
           <div className={styles.leftStats}>
             <div className={styles.leftStat}><strong>8K+</strong><span>MCQs</span></div>
