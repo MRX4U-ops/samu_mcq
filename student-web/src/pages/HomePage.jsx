@@ -8,7 +8,7 @@ import {
   Flame, Trophy, Target, BookOpen, Brain, Swords, BarChart2,
   Stethoscope, Bell, Gift, Bookmark, Globe, ChevronRight,
   Zap, Star, TrendingUp, Clock, Lock, Unlock, Sparkles, Crown,
-  MessageCircle, Search, Mic, Users, Award, ChevronLeft
+  MessageCircle, Search, Mic, Users, Award, ChevronLeft, ArrowRight
 } from 'lucide-react';
 import styles from './HomePage.module.css';
 
