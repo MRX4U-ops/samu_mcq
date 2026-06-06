@@ -1,17 +1,13 @@
 .page {
   min-height: 100vh;
-  background-color: var(--bg-default);
-  color: var(--text-primary);
-  display: flex;
-  flex-direction: column;
+  padding-bottom: calc(var(--nav-h) + 20px);
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
-  width: 100%;
-  padding: 40px 24px;
-  flex: 1;
+  padding: 24px 20px;
+  animation: fadeIn 0.6s cubic-bezier(0.34,1.56,0.64,1);
 }
 
 .header {
@@ -22,26 +18,36 @@
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  color: var(--text-secondary);
+  color: var(--indigo-700);
+  background: rgba(255,255,255,0.6);
+  padding: 6px 14px;
+  border-radius: 12px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 14px;
   margin-bottom: 16px;
-  transition: color 0.2s;
+  transition: all 0.2s;
+  border: 1px solid var(--border-soft);
+  backdrop-filter: blur(12px);
 }
 .backBtn:hover {
-  color: var(--text-primary);
+  background: rgba(255,255,255,0.9);
+  color: var(--indigo-900);
+  transform: translateY(-2px);
 }
 
 .title {
   font-size: 32px;
   font-weight: 900;
   letter-spacing: -0.5px;
+  color: var(--indigo-950);
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .dropdownContainer {
   position: relative;
   margin-bottom: 20px;
-  z-index: 10;
+  z-index: 20;
 }
 
 .dropdownBtn {
@@ -50,18 +56,25 @@
   align-items: center;
   justify-content: space-between;
   padding: 16px 20px;
-  background: var(--surface-default);
-  border: 1px solid var(--border-color);
-  border-radius: 16px;
+  background: var(--bg-card);
+  backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border);
+  border-radius: 20px;
   cursor: pointer;
-  color: var(--text-primary);
+  color: var(--indigo-950);
+  box-shadow: var(--shadow-card);
+  transition: all 0.2s;
+}
+.dropdownBtn:hover {
+  border-color: var(--border-hover);
+  box-shadow: var(--shadow-hover);
 }
 
 .dropdownTitle {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 16px;
 }
 
@@ -71,11 +84,12 @@
   left: 0;
   right: 0;
   margin-top: 8px;
-  background: var(--surface-default);
-  border: 1px solid var(--border-color);
-  border-radius: 16px;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(24px);
+  border: 1px solid var(--border);
+  border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 12px 40px rgba(99,102,241,0.2);
 }
 
 .dropdownItem {
@@ -84,22 +98,24 @@
   text-align: left;
   background: none;
   border: none;
-  border-bottom: 1px solid var(--border-color);
-  color: var(--text-primary);
+  border-bottom: 1px solid var(--border-soft);
+  color: var(--indigo-950);
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
+  transition: background 0.2s;
 }
 .dropdownItem:last-child {
   border-bottom: none;
 }
 .dropdownItem:hover {
-  background: var(--surface-light);
+  background: var(--indigo-50);
 }
 
 .activeItem {
-  color: var(--accent-blue);
-  font-weight: 700;
+  color: var(--indigo-600);
+  font-weight: 800;
+  background: rgba(99,102,241,0.05);
 }
 
 .searchContainer {
@@ -112,42 +128,57 @@
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  color: var(--text-muted);
+  color: var(--indigo-400);
 }
 
 .searchInput {
   width: 100%;
   padding: 16px 16px 16px 48px;
-  background: var(--surface-default);
-  border: 1px solid var(--border-color);
-  border-radius: 16px;
+  background: var(--bg-card);
+  backdrop-filter: blur(20px);
+  border: 1.5px solid var(--border-soft);
+  border-radius: 20px;
   font-size: 16px;
   color: var(--text-primary);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  box-shadow: 0 4px 20px rgba(99,102,241,0.05);
+  transition: all 0.2s;
 }
 .searchInput:focus {
   outline: none;
-  border-color: var(--accent-blue);
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+  border-color: var(--indigo-500);
+  box-shadow: 0 4px 24px rgba(99,102,241,0.15);
+  background: rgba(255,255,255,0.9);
 }
+.searchInput::placeholder { color: var(--text-muted); font-weight: 500; }
 
 .resultsList {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 20px;
 }
 
 .resultCard {
-  background: var(--surface-default);
-  border: 1px solid var(--border-color);
-  border-radius: 20px;
-  padding: 20px;
+  background: var(--bg-card);
+  backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: var(--shadow-card);
+  transition: all 0.25s cubic-bezier(0.34,1.56,0.64,1);
+}
+.resultCard:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--border-hover);
 }
 
 .cardHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .cardTitleWrap {
@@ -157,100 +188,136 @@
 }
 
 .cardSubjectTitle {
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--indigo-600);
+}
+
+.badge {
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
-.badge {
-  padding: 4px 10px;
-  border-radius: 12px;
-  font-size: 10px;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.badgePassed { background: rgba(16, 185, 129, 0.1); color: #10B981; }
-.badgeFailed { background: rgba(239, 68, 68, 0.1); color: #EF4444; }
+.badgePassed { background: rgba(16, 185, 129, 0.15); color: #059669; border: 1px solid rgba(16, 185, 129, 0.3); }
+.badgeFailed { background: rgba(244, 63, 94, 0.15); color: #e11d48; border: 1px solid rgba(244, 63, 94, 0.3); }
 
 .studentName {
   font-size: 18px;
-  font-weight: 800;
-  margin-bottom: 4px;
+  font-weight: 900;
+  color: var(--indigo-950);
+  margin-bottom: 6px;
+  line-height: 1.3;
 }
 
 .studentGroup {
   font-size: 13px;
-  font-weight: 600;
-  color: var(--text-secondary);
+  font-weight: 700;
+  color: var(--indigo-400);
+  background: var(--indigo-50);
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 8px;
 }
 
 .divider {
   height: 1px;
-  background: var(--border-color);
-  margin: 16px 0;
+  background: var(--border-soft);
+  margin: 20px 0;
 }
 
 .statsRow {
   display: flex;
   margin-bottom: 16px;
+  gap: 16px;
 }
 
 .statCol {
   flex: 1;
+  background: rgba(255,255,255,0.5);
+  border: 1px solid rgba(255,255,255,0.8);
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: inset 0 2px 4px rgba(255,255,255,0.6);
 }
 
 .statLabel {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 800;
   text-transform: uppercase;
-  color: var(--text-secondary);
+  color: var(--indigo-400);
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
 }
 
 .scoreRow {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
 .scoreValue {
-  font-size: 18px;
-  font-weight: 800;
+  font-size: 20px;
+  font-weight: 900;
+  color: var(--indigo-950);
 }
 
 .durationValue {
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 800;
+  color: var(--text-body);
 }
 
 .timeInfoRow {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 6px;
+  margin-top: 16px;
 }
 
 .timeText {
   font-size: 12px;
-  font-weight: 500;
-  color: var(--text-secondary);
+  font-weight: 600;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.timeText::before {
+  content: '';
+  display: inline-block;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--indigo-300);
 }
 
 .empty {
   text-align: center;
   padding: 60px 20px;
-  color: var(--text-secondary);
+  color: var(--text-muted);
+  grid-column: 1 / -1;
+  background: var(--bg-card);
+  backdrop-filter: blur(20px);
+  border-radius: 24px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-card);
 }
 
 .emptyTitle {
   margin-top: 16px;
   font-size: 20px;
   font-weight: 800;
+  color: var(--indigo-950);
 }
 
 .emptySub {
   margin-top: 8px;
   font-size: 15px;
+  font-weight: 500;
 }
