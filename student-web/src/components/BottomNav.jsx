@@ -8,57 +8,80 @@ export default function BottomNav() {
 
   return (
     <nav className={styles.nav}>
-      <div className={styles.navContainer}>
+      <div className={styles.inner}>
         <NavLink 
           to="/home" 
-          className={({ isActive }) => `${styles.navItem} ${isActive || current === '/' ? styles.active : ''}`}
+          className={({ isActive }) => `${styles.item} ${isActive || current === '/' ? styles.active : ''}`}
         >
-          <div className={styles.iconWrap}>
-            <Home size={22} />
-          </div>
-          <span className={styles.label}>Home</span>
+          {({ isActive }) => (
+            <>
+              {(isActive || current === '/') && <div className={styles.activeDot} />}
+              <div className={isActive || current === '/' ? styles.activeIconWrap : ''}>
+                <Home size={22} className={styles.icon} />
+              </div>
+              <span className={styles.label}>Home</span>
+            </>
+          )}
         </NavLink>
 
         <NavLink 
           to="/clinical-case" 
-          className={({ isActive }) => `${styles.navItem} ${isActive ? styles.active : ''}`}
+          className={({ isActive }) => `${styles.item} ${isActive ? styles.active : ''}`}
         >
-          <div className={styles.iconWrap}>
-            <Search size={22} />
-          </div>
-          <span className={styles.label}>Case</span>
+          {({ isActive }) => (
+            <>
+              {isActive && <div className={styles.activeDot} />}
+              <div className={isActive ? styles.activeIconWrap : ''}>
+                <Search size={22} className={styles.icon} />
+              </div>
+              <span className={styles.label}>Case</span>
+            </>
+          )}
         </NavLink>
 
         <NavLink 
           to="/revision" 
-          className={({ isActive }) => `${styles.navItem} ${isActive ? styles.active : ''}`}
+          className={({ isActive }) => `${styles.item} ${isActive ? styles.active : ''}`}
         >
-          <div className={styles.iconWrap}>
-            <div className={styles.actionButton}>
-              <Brain size={24} color="#fff" />
-            </div>
-          </div>
-          <span className={styles.label} style={{ marginTop: 24 }}>Revise</span>
+          {({ isActive }) => (
+            <>
+              {isActive && <div className={styles.activeDot} />}
+              <div className={isActive ? styles.activeIconWrap : ''}>
+                <Brain size={22} className={styles.icon} />
+              </div>
+              <span className={styles.label}>Revise</span>
+            </>
+          )}
         </NavLink>
 
         <NavLink 
           to="/drugs" 
-          className={({ isActive }) => `${styles.navItem} ${isActive ? styles.active : ''}`}
+          className={({ isActive }) => `${styles.item} ${isActive ? styles.active : ''}`}
         >
-          <div className={styles.iconWrap}>
-            <Pill size={22} />
-          </div>
-          <span className={styles.label}>Drugs</span>
+          {({ isActive }) => (
+            <>
+              {isActive && <div className={styles.activeDot} />}
+              <div className={isActive ? styles.activeIconWrap : ''}>
+                <Pill size={22} className={styles.icon} />
+              </div>
+              <span className={styles.label}>Drugs</span>
+            </>
+          )}
         </NavLink>
 
         <NavLink 
           to="/profile" 
-          className={({ isActive }) => `${styles.navItem} ${isActive ? styles.active : ''}`}
+          className={({ isActive }) => `${styles.item} ${isActive ? styles.active : ''}`}
         >
-          <div className={styles.iconWrap}>
-            <User size={22} />
-          </div>
-          <span className={styles.label}>Profile</span>
+          {({ isActive }) => (
+            <>
+              {isActive && <div className={styles.activeDot} />}
+              <div className={isActive ? styles.activeIconWrap : ''}>
+                <User size={22} className={styles.icon} />
+              </div>
+              <span className={styles.label}>Profile</span>
+            </>
+          )}
         </NavLink>
       </div>
     </nav>

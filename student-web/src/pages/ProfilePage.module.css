@@ -1,6 +1,6 @@
 /* ProfilePage — Premium */
 .page { min-height: 100vh; padding-bottom: calc(var(--nav-h) + 20px); }
-.container { max-width: 520px; margin: 0 auto; padding: 0 0 16px; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 0 16px; }
 
 /* Hero */
 .profileHero {

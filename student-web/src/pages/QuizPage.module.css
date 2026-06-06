@@ -6,7 +6,7 @@
   color: #6b7280; font-size: 15px;
 }
 
-.quizContainer { max-width: 700px; margin: 0 auto; padding: 20px 20px 80px; }
+.quizContainer { max-width: 1200px; margin: 0 auto; padding: 20px 20px 80px; }
 
 .quizHeader { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
 .qBackBtn {
@@ -107,7 +107,7 @@
 .quizActions { display: flex; gap: 12px; justify-content: space-between; }
 
 /* Results */
-.resultsContainer { max-width: 700px; margin: 0 auto; padding: 28px 20px 80px; }
+.resultsContainer { max-width: 1200px; margin: 0 auto; padding: 28px 20px 80px; }
 .resultsCard {
   background: rgba(255,255,255,0.80); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255,255,255,0.90);

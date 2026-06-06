@@ -1,6 +1,6 @@
 /* AskAIPage — Premium */
 .page { min-height: 100vh; padding-bottom: calc(var(--nav-h) + 20px); }
-.container { max-width: 560px; margin: 0 auto; padding: 16px; }
+.container { max-width: 1200px; margin: 0 auto; padding: 16px; }
 
 .header {
   background: linear-gradient(135deg, #312e81, #4338ca, #6d28d9);

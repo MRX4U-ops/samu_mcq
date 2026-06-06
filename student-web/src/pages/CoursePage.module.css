@@ -1,6 +1,6 @@
 /* CoursePage — Premium */
 .page { min-height: 100vh; padding-bottom: calc(var(--nav-h) + 20px); }
-.container { max-width: 520px; margin: 0 auto; padding: 16px; }
+.container { max-width: 1200px; margin: 0 auto; padding: 16px; }
 
 .header {
   display: flex; align-items: center; gap: 14px;
@@ -20,7 +20,7 @@
 .courseTitle { font-size: 20px; font-weight: 900; color: #fff; }
 .courseMeta { font-size: 13px; color: rgba(255,255,255,0.65); font-weight: 500; margin-top: 2px; }
 
-.subjectList { display: flex; flex-direction: column; gap: 10px; }
+.subjectList { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
 .subjectCard {
   background: rgba(255,255,255,0.72); backdrop-filter: blur(20px);
   border: 1px solid rgba(255,255,255,0.90);
