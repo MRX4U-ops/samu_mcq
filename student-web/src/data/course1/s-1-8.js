@@ -2633,128 +2633,182 @@ export const s_1_8 = {
   "t-s-1-8-11": {
     "test": [
       {
-        "question": "What is the formula for the karyotype of a patient with Klinefelter syndrome:",
+        "question": "1. Diseases resulting from genomic mutations:",
         "options": [
-          "**\\*c. 47, XXY**",
-          "a. 46, XY",
-          "b. 47, XXX",
-          "d. 45, X 0"
+          "a. Hypertrichosis",
+          "*b. Patau syndrome",
+          "c. Thalassemia",
+          "d. Cry of the Cat Syndrome"
         ]
       },
       {
-        "question": "Hemolytic disease is:",
+        "question": "2. With an autosomal dominant type of inheritance, the following is observed:",
         "options": [
-          "**\\*a. Adhesion of red blood cells and their lysis**",
-          "b. Erythrocyte sedimentation",
-          "c. Polymerism",
-          "d. Hemophilia"
+          "*a. The trait is passed on from generation to generation and both sexes are affected with equal frequency",
+          "b. Sick parents give birth to healthy children",
+          "c. Healthy parents give birth to sick children",
+          "d. The father passes on his trait only to his daughters"
         ]
       },
       {
-        "question": "What is the formula for the karyotype of a patient with Edwards syndrome:",
+        "question": "3. To diagnose metabolic diseases, use:",
         "options": [
-          "a. 47, XY , 21+",
-          "b. 47, XY , 13+",
-          "c. 46, XX , 5p-",
-          "**\\*d. 47, XY , 18+**"
+          "a. Simulation method",
+          "*b. Biochemical method",
+          "c. Twin method",
+          "d. Hybridological method"
         ]
       },
       {
-        "question": "What is the formula for the karyotype of a patient with Patau syndrome:",
+        "question": "4. Incestuous marriage is:",
         "options": [
-          "**\\*d. 47, XY , 13+**",
-          "a. 46, XX",
-          "b. 46, XX , 5r -",
-          "c. 47, XX , 18+"
+          "a. B cancer between individuals with the same phenotypes for a certain trait",
+          "b. Marriage between people of the second and third levels of family",
+          "c. Selective marriage",
+          "*d. Marriage between people of the first degree of family"
         ]
       },
       {
-        "question": "What is the formula for the karyotype of a patient with Cry of the Cat syndrome:",
+        "question": "5. Genetic disease in which a change in the shape of red blood cells occurs",
         "options": [
-          "**\\*b. 46, XY , 5p -**",
-          "a. 46, XY , 9p+",
-          "c. 45, X 0",
-          "d. 47, XXY"
+          "*a. Sickle cell anemia",
+          "b. Tay–Sachs syndrome",
+          "c. Alkaptonuria",
+          "d. Lesch–Nayan syndrome"
         ]
       },
       {
-        "question": "Family marriage (consanguineous) is:",
+        "question": "6. Alkaptonuria is a metabolic pathology:",
         "options": [
-          "**\\*d. Marriage between people of the second and third degrees of family**",
-          "a. Marriage between people of the first degree of family",
-          "b. Selective marriage",
-          "c. B cancer between individuals with the same phenotypes for a certain trait"
+          "a. Leucine",
+          "*b. Tyrosine",
+          "c. Phenylalanine",
+          "d. Valina"
         ]
       },
       {
-        "question": "Sex X-chromatin is absent in somatic cells in:",
+        "question": "7. Monosomy is:",
         "options": [
-          "**\\*b. Men and women with Turner–Shereshevsky syndrome**",
-          "a. Women with Edwards syndrome",
-          "c. Women with Patau syndrome",
-          "d. Women with Down syndrome"
+          "a. An increase in the number of chromosomes in a karyotype by",
+          "b. Increasing the number of chromosomes in a karyotype to another",
+          "c. Complete absence of one pair of homologous chromosomes in the karyotype",
+          "*d. Reducing the number of chromosomes in a karyotype by one chromosome"
         ]
       },
       {
-        "question": "Randomized marriage (panmixia) is:",
+        "question": "8. For Klinefelter syndrome:",
         "options": [
-          "**\\*b. Non-selective marriage. Any person of the same sex is equally likely to marry any person of the opposite sex**",
-          "a. Marriage between people of the first degree of family",
-          "c. Marriage between individuals who are not in family ties",
-          "d. Marriage between individuals who are in family ties"
+          "*a. In the karyotype of men there is an extra X - the sex chromosome",
+          "b. In the karyotype of women, one sex chromosome is missing - the X chromosome.",
+          "c. In the karyotype of women there is an extra X - the sex chromosome",
+          "d. There is no clump of sex chromatin in the somatic cells of women"
         ]
       },
       {
-        "question": "Inbreeding is:",
+        "question": "9. Signs of \"Cry the Cat\" syndrome:",
         "options": [
-          "**\\*d. Marriage between individuals who are in family ties**",
-          "a. Non-selective marriage",
-          "b. Marriage between individuals who are not related to each other",
-          "c. Marriage between individuals with the same phenotypes for a certain trait"
+          "a. Number of chromosomes 45",
+          "b. Deletion of the short arm of chromosome pair 21",
+          "c. Karyotype of syndrome 44+XXY",
+          "*d. Underdevelopment of vocal cords"
         ]
       },
       {
-        "question": "Unrelated marriage is:",
+        "question": "10. To diagnose phenylketonuria use:",
         "options": [
-          "**\\*b. Marriage between individuals who are not related to each other (missing common ancestors in the next 4-6 generations) **",
-          "a. Non-selective marriage. Any person of the same sex is equally likely to marry any person of the opposite sex",
-          "c. Marriage between people of the second and third degrees of family",
-          "d. Marriage between individuals who are in family ties"
+          "*a. Film sample",
+          "b. Sodium chloride test",
+          "c. Test with 2,4-dinitrophenylhydrazine",
+          "d. Test with nitropruside"
         ]
       },
       {
-        "question": "What is the formula for the karyotype of a patient with Down syndrome:",
+        "question": "11. Chromosomal diseases:",
         "options": [
-          "**\\*b. 47, XY , 21+**",
-          "a. 47, XY , 13+",
-          "c. 47, XY , 22+",
-          "d. 46, XX , 5p-"
+          "a. Inherited through the male line",
+          "b. Passed on from generation to generation",
+          "c. Not limited to distribution within just one generation",
+          "*d. Develop as a result of a change (increase or decrease) in the number of individual, paired, homologous chromosomes in the human karyotype"
         ]
       },
       {
-        "question": "Define diseases inherited in an autosomal recessive manner?",
+        "question": "12. Tay-Sachs disease is a genetic disease:",
         "options": [
-          "**\\*d. Alcoptonuria**",
-          "a. Muscular dystrophy (Duchenne syndrome)",
-          "b. Neurofibromatosis",
-          "c. Huntington's chorea"
+          "a. Metal metabolism disorder",
+          "b. Amino acid metabolism disorder",
+          "c. Hormone metabolism disorder",
+          "*d. Lipid metabolism disorder"
         ]
       },
       {
-        "question": "What is the formula for the karyotype of a patient with Shereshevsky-Turner syndrome:",
+        "question": "13. Monogenic diseases:",
         "options": [
-          "**\\*a. 45, X 0**",
-          "b. 47, XXX",
-          "c. 47, XXY",
-          "d. 46, XX"
+          "*a. Alkaptonuria",
+          "b. Hypertension",
+          "c. Cry of the Cat Syndrome",
+          "d. Down's disease"
         ]
       },
       {
-        "question": "Humans experience diseases that are determined by genes that are characterized by the property of incomplete dominance. Name this disease:",
+        "question": "14. Specify diseases of lipid metabolism disorders:",
         "options": [
-          "**\\*c. Cystinuria**",
-          "a. Hemophilia",
-          "b. Phenylketonuria",
+          "*a. Leukodystrophy",
+          "b. Galactosemia",
+          "c. Mucopolysaccharidosis",
+          "d. Pentosuria"
+        ]
+      },
+      {
+        "question": "15. Galactosemia is a metabolic disease:",
+        "options": [
+          "a. Fructose",
+          "*b. Galactose",
+          "c. Glycogen",
+          "d. Maltose"
+        ]
+      },
+      {
+        "question": "16. Define diseases inherited in an autosomal dominant manner?",
+        "options": [
+          "a. Phenylketonuria",
+          "*b. Marfan syndrome",
+          "c. Hepatolenticular degeneration",
+          "d. Tay-Sachs disease"
+        ]
+      },
+      {
+        "question": "17. Signs that appear with phenylketonuria:",
+        "options": [
+          "a. Frequent respiratory diseases: bronchitis, bronchiectasis",
+          "b. Signs of the disease begin at 2-3 years of age",
+          "*c. Pigmentation of the skin, hair, and iris of the eyes decreases",
+          "d. There is muscle atrophy, \"duck gait\""
+        ]
+      },
+      {
+        "question": "18. Hereditary diseases caused by genes linked to human sex chromosomes:",
+        "options": [
+          "a. Down syndrome, Marfan syndrome",
+          "b. Hepatitis, diabetes mellitus",
+          "c. Hemophilia, hypertension, glycogenosis",
+          "*d. Color blindness, lack of sweat glands"
+        ]
+      },
+      {
+        "question": "19. When diagnosing chromosomal diseases, the mandatory method is: Karyotype study Fructosemia is a metabolic disease:",
+        "options": [
+          "a. Sucrose",
+          "*b. Fructose",
+          "c. Maltose",
+          "d. Glycogen"
+        ]
+      },
+      {
+        "question": "20. Disease related to hemoglobinopathy",
+        "options": [
+          "*a. Thalassemia",
+          "b. Mental retardation",
+          "c. Galactosemia",
           "d. Albinism"
         ]
       }
