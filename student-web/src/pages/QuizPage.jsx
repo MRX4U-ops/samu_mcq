@@ -185,13 +185,10 @@ export default function QuizPage() {
   function handleSelect(optionIdx) {
     if (submitted) return;
     setSelected(optionIdx);
-  }
-
-  function handleSubmit() {
-    if (selected === null) return;
-    const isCorrect = selected === questions[currentIdx]?.correctIndex;
+    
+    const isCorrect = optionIdx === questions[currentIdx]?.correctIndex;
     const newAnswers = [...userAnswers];
-    newAnswers[currentIdx] = { selected, isCorrect };
+    newAnswers[currentIdx] = { selected: optionIdx, isCorrect };
     setUserAnswers(newAnswers);
     setSubmitted(true);
 
@@ -206,12 +203,27 @@ export default function QuizPage() {
     });
   }
 
+  function handleSkip() {
+    const newAnswers = [...userAnswers];
+    newAnswers[currentIdx] = { selected: null, isCorrect: false, skipped: true };
+    setUserAnswers(newAnswers);
+    
+    if (currentIdx < questions.length - 1) {
+      setCurrentIdx(i => i + 1);
+      const nextAns = newAnswers[currentIdx + 1];
+      setSelected(nextAns?.selected ?? null);
+      setSubmitted(nextAns !== undefined && !nextAns.skipped);
+    } else {
+      finishQuiz();
+    }
+  }
+
   function handleNext() {
     if (currentIdx < questions.length - 1) {
       setCurrentIdx(i => i + 1);
       const existingAns = userAnswers[currentIdx + 1];
       setSelected(existingAns?.selected ?? null);
-      setSubmitted(existingAns !== undefined);
+      setSubmitted(existingAns !== undefined && !existingAns.skipped);
     } else {
       finishQuiz();
     }
@@ -222,7 +234,7 @@ export default function QuizPage() {
       setCurrentIdx(i => i - 1);
       const existingAns = userAnswers[currentIdx - 1];
       setSelected(existingAns?.selected ?? null);
-      setSubmitted(existingAns !== undefined);
+      setSubmitted(existingAns !== undefined && !existingAns.skipped);
     }
   }
 
@@ -414,8 +426,8 @@ export default function QuizPage() {
           </button>
 
           {!submitted ? (
-            <button className="btn btn-primary" onClick={handleSubmit} disabled={selected === null}>
-              Submit Answer
+            <button className="btn btn-ghost" onClick={handleSkip} style={{ color: '#f59e0b', border: '1px solid rgba(245,158,11,0.3)', background: 'rgba(245,158,11,0.05)' }}>
+              Skip Question <ArrowRight size={16} />
             </button>
           ) : (
             <button className="btn btn-primary" onClick={handleNext}>
