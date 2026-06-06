@@ -2,7 +2,12 @@
    HomePage.module.css — Premium Royal Dashboard
 ══════════════════════════════════════════ */
 
-.page { min-height: 100vh; }
+.page { 
+  min-height: 100vh;
+  background: 
+    linear-gradient(180deg, rgba(248,250,252,0.92) 0%, rgba(248,250,252,0.80) 50%, rgba(248,250,252,0.92) 100%),
+    url('/university_bg.png') center/cover fixed no-repeat;
+}
 
 .container {
   max-width: 1200px;
