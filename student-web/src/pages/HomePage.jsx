@@ -365,6 +365,109 @@ export default function HomePage() {
           ))}
         </div>
 
+        {/* ═══ AI INSIGHTS ════════════════════════════════ */}
+        <div className={styles.aiInsightCard}>
+          <div className={styles.aiIconWrap}>
+            <Brain size={24} color="#fff" />
+          </div>
+          <div className={styles.aiContent}>
+            <div className={styles.aiTitle}>
+              <Sparkles size={14} color="#6366f1" /> AI Study Insight
+            </div>
+            <div className={styles.aiText}>
+              You're doing great in Anatomy (85% accuracy), but Pharmacology scores have dropped recently. Consider focusing your next session on "Autonomic Nervous System Drugs".
+            </div>
+            <div className={styles.aiAction} onClick={() => navigate('/ask-ai')}>
+              Generate Custom Quiz <ArrowRight size={14} />
+            </div>
+          </div>
+        </div>
+
+        {/* ═══ SUBJECT MASTERY ════════════════════════════ */}
+        <div className={styles.sectionHeader}>
+          <span className="section-label">SUBJECT MASTERY</span>
+        </div>
+        <div className={styles.masteryCard}>
+          {[
+            { label: 'Anatomy', pct: 85, color: '#10B981' },
+            { label: 'Microbiology', pct: 65, color: '#F59E0B' },
+            { label: 'Pharmacology', pct: 40, color: '#EF4444' }
+          ].map(m => (
+            <div key={m.label} className={styles.masteryItem}>
+              <div className={styles.masteryHeader}>
+                <span className={styles.masteryLabel}>{m.label}</span>
+                <span className={styles.masteryVal} style={{ color: m.color }}>{m.pct}%</span>
+              </div>
+              <div className={styles.masteryBarWrap}>
+                <div className={styles.masteryBarFill} style={{ width: `${m.pct}%`, background: m.color }} />
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* ═══ RECENT ACTIVITY & UPCOMING ═════════════════ */}
+        <div className={styles.goalsRow} style={{ gridTemplateColumns: '1fr', gap: '0' }}>
+          <div>
+            <div className={styles.sectionHeader}>
+              <span className="section-label">UPCOMING</span>
+            </div>
+            <div className={styles.tasksGrid}>
+              <div className={styles.taskItem}>
+                <div className={styles.taskLeft}>
+                  <div className={styles.taskIcon} style={{ background: '#fef3c7' }}><Clock size={18} color="#d97706" /></div>
+                  <div>
+                    <div className={styles.taskTitle}>Physiology CBT Mock</div>
+                    <div className={styles.taskTime}>Tomorrow, 10:00 AM</div>
+                  </div>
+                </div>
+                <button className={styles.taskBtn}>Join</button>
+              </div>
+              <div className={styles.taskItem}>
+                <div className={styles.taskLeft}>
+                  <div className={styles.taskIcon} style={{ background: '#e0e7ff' }}><Target size={18} color="#4f46e5" /></div>
+                  <div>
+                    <div className={styles.taskTitle}>Daily Goal: 50 MCQs</div>
+                    <div className={styles.taskTime}>15 remaining</div>
+                  </div>
+                </div>
+                <button className={styles.taskBtn}>Resume</button>
+              </div>
+            </div>
+          </div>
+
+          <div style={{ marginTop: 8 }}>
+            <div className={styles.sectionHeader}>
+              <span className="section-label">RECENT ACTIVITY</span>
+            </div>
+            <div className={styles.activityCard}>
+              <div className={styles.activityItem}>
+                <div className={styles.actIcon}><Trophy size={14} /></div>
+                <div className={styles.actContent}>
+                  <div className={styles.actTitle}>Quiz Battle won!</div>
+                  <div className={styles.actMeta}>vs. JohnDoe • 2h ago</div>
+                </div>
+                <div className={styles.actScore}>+15 pts</div>
+              </div>
+              <div className={styles.activityItem}>
+                <div className={styles.actIcon}><BookOpen size={14} /></div>
+                <div className={styles.actContent}>
+                  <div className={styles.actTitle}>Completed "Heart Failure"</div>
+                  <div className={styles.actMeta}>Cardiology • Yesterday</div>
+                </div>
+                <div className={styles.actScore} style={{ color: '#4f46e5' }}>88%</div>
+              </div>
+              <div className={styles.activityItem}>
+                <div className={styles.actIcon}><Target size={14} /></div>
+                <div className={styles.actContent}>
+                  <div className={styles.actTitle}>Daily Streak 5 Days!</div>
+                  <div className={styles.actMeta}>Bonus awarded • 2d ago</div>
+                </div>
+                <div className={styles.actScore} style={{ color: '#f59e0b' }}>+50 pts</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* ═══ FEATURE HUB ════════════════════════════════ */}
         <div className={styles.sectionHeader}>
           <span className="section-label">FEATURE HUB</span>
