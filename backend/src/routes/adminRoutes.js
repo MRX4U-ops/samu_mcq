@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const jwt = require('jsonwebtoken');
 const { JWT_SECRET } = require('../config/env');
+const { supabaseAdmin } = require('../config/supabase');
 
 // Mock Data/Models for Demo
 const User = { countDocuments: async () => 1240 };
@@ -123,6 +124,75 @@ router.post('/payment-reject/:id', async (req, res) => {
     res.json({ message: "Payment rejected." });
   } catch (error) {
     res.status(500).json({ error: "Failed to reject payment" });
+  }
+});
+
+// --- ADMIN CERTIFICATE MANAGEMENT ---
+
+// List all generated certificates
+router.get('/certificates', async (req, res) => {
+  try {
+    const { data, error } = await supabaseAdmin
+      .from('certificates')
+      .select('*')
+      .order('created_at', { ascending: false });
+
+    if (error) {
+      // Fallback logic for mock admin
+      return res.json([
+        {
+          id: 'mock-1',
+          certificate_id: 'SAMU-2026-DEMO1',
+          student_name: 'Kartik Kamboj',
+          score: 100.0,
+          subject_name: 'Biochemistry',
+          completion_date: '03.06.2026',
+          achievement_level: 'Platinum Scholar',
+          revoked: false,
+          created_at: new Date().toISOString()
+        },
+        {
+          id: 'mock-2',
+          certificate_id: 'SAMU-2026-DEMO2',
+          student_name: 'Mukti Kushvah',
+          score: 98.0,
+          subject_name: 'Medical Chemistry',
+          completion_date: '03.06.2026',
+          achievement_level: 'Academic Distinction',
+          revoked: true,
+          created_at: new Date().toISOString()
+        }
+      ]);
+    }
+
+    res.json(data);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// Revoke a certificate
+router.post('/certificates/revoke', async (req, res) => {
+  const { certificateId } = req.body;
+  if (!certificateId) {
+    return res.status(400).json({ error: 'certificateId is required' });
+  }
+
+  try {
+    const { data, error } = await supabaseAdmin
+      .from('certificates')
+      .update({ revoked: true })
+      .eq('certificate_id', certificateId)
+      .select()
+      .single();
+
+    if (error) {
+      return res.status(500).json({ error: 'Database update failed', message: error.message });
+    }
+
+    res.json({ success: true, certificate: data });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
   }
 });
 

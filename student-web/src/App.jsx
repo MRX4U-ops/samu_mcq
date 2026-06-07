@@ -18,6 +18,7 @@ import SubscribePage from './pages/SubscribePage';
 import DrugReferencePage from './pages/DrugReferencePage';
 import ClinicalCasePage from './pages/ClinicalCasePage';
 import RevisionEnginePage from './pages/RevisionEnginePage';
+import CertificateVerifyPage from './pages/CertificateVerifyPage';
 
 export default function App() {
   return (
@@ -28,6 +29,7 @@ export default function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<Navigate to="/login?mode=signup" replace />} />
+          <Route path="/verify/:certId" element={<CertificateVerifyPage />} />
 
           {/* Protected */}
           <Route path="/home" element={<ProtectedRoute><HomePage /></ProtectedRoute>} />

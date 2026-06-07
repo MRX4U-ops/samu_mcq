@@ -1,7 +1,9 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import { supabase } from '../lib/supabase';
 import Navbar from '../components/Navbar';
+import CertificateModal from '../components/CertificateModal';
 import {
   ChevronLeft, User, Mail, Shield, Calendar, LogOut,
   CheckCircle, XCircle, Crown, Clock, BookOpen, Brain,
@@ -23,6 +25,11 @@ export default function ProfilePage() {
   const { user, profile, subscription, isSubscribed, signOut } = useAuth();
   const navigate = useNavigate();
   const [loggingOut, setLoggingOut] = useState(false);
+
+  // Certificates history state
+  const [certs, setCerts] = useState([]);
+  const [certsLoading, setCertsLoading] = useState(true);
+  const [selectedCert, setSelectedCert] = useState(null);
 
   const name  = profile?.full_name || user?.email?.split('@')[0] || 'Student';
   const email = user?.email || '';
@@ -47,6 +54,30 @@ export default function ProfilePage() {
     : null;
   const usedDays = totalDays && daysLeft !== null ? totalDays - daysLeft : null;
   const progressPct = totalDays ? Math.max(0, Math.min(100, (usedDays / totalDays) * 100)) : 0;
+
+  useEffect(() => {
+    const fetchCertificates = async () => {
+      if (!name) return;
+      setCertsLoading(true);
+      try {
+        const { data, error } = await supabase
+          .from('certificates')
+          .select('*')
+          .ilike('student_name', name)
+          .eq('revoked', false);
+
+        if (!error && data) {
+          setCerts(data);
+        }
+      } catch (err) {
+        console.warn('Failed to load certificates for profile:', err);
+      } finally {
+        setCertsLoading(false);
+      }
+    };
+
+    fetchCertificates();
+  }, [name]);
 
   const handleLogout = async () => {
     setLoggingOut(true);
@@ -189,6 +220,52 @@ export default function ProfilePage() {
           )}
         </div>
 
+        {/* ── Certificates History Card ── */}
+        <div className={styles.card}>
+          <div className={styles.cardHeader}>
+            <Award size={18} color="#F59E0B" />
+            <span>My Certificates</span>
+            <span className={styles.activePill}>{certs.length} EARNED</span>
+          </div>
+          {certsLoading ? (
+            <div className={styles.loadingCerts}>
+              <Award size={16} className={styles.spinnerIcon} style={{ animation: 'spin 1s linear infinite' }} />
+              <span>Loading certificates...</span>
+            </div>
+          ) : certs.length === 0 ? (
+            <div className={styles.noCertsText}>
+              No certificates earned yet. Achieve 98% or higher in coursework exams to unlock official certificates.
+            </div>
+          ) : (
+            <div className={styles.certList}>
+              {certs.map(c => (
+                <div key={c.id} className={styles.certItem}>
+                  <div className={styles.certLeft}>
+                    <div className={styles.certIconBox}>
+                      <Award size={18} color="#F59E0B" />
+                    </div>
+                    <div className={styles.certInfo}>
+                      <span className={styles.certSubName}>
+                        {c.subject_name}
+                        <span className={styles.certBadgeSpan}>{c.score}%</span>
+                      </span>
+                      <span className={styles.certMetaLine}>
+                        {c.achievement_level} · {c.completion_date}
+                      </span>
+                    </div>
+                  </div>
+                  <button 
+                    className={styles.certDownloadBtn}
+                    onClick={() => setSelectedCert(c)}
+                  >
+                    <span>View</span>
+                  </button>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+
         {/* ── Account Details Card ── */}
         <div className={styles.card}>
           <div className={styles.cardHeader}>
@@ -208,7 +285,7 @@ export default function ProfilePage() {
               <div className={styles.detailIcon} style={{ background: '#F5F3FF' }}><Mail size={15} color="#8B5CF6" /></div>
               <span className={styles.detailLabel}>Email Address</span>
             </div>
-            <span className={styles.detailValue} style={{ maxWidth: 200, textAlign: 'right', wordBreak: 'break-all', fontSize: 12 }}>{email}</span>
+            <span className={styles.detailValue} style={{ maxWidth: 200, textOverflow: 'ellipsis', overflow: 'hidden', whiteSpace: 'nowrap' }}>{email}</span>
           </div>
           <div className={styles.divider} />
           <div className={styles.detailRow}>
@@ -257,6 +334,14 @@ export default function ProfilePage() {
 
         <p className={styles.versionTag}>SAMU MCQs · v2.0 · © 2025</p>
       </div>
+
+      {/* Certificate Modal */}
+      {selectedCert && (
+        <CertificateModal 
+          cert={selectedCert} 
+          onClose={() => setSelectedCert(null)} 
+        />
+      )}
     </div>
   );
 }

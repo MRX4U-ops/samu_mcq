@@ -238,3 +238,109 @@
 .logoutBtn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
 
 .versionTag { text-align: center; font-size: 11px; color: #d1d5db; font-weight: 600; margin-top: 20px; letter-spacing: 0.5px; }
+
+/* Certificate History list inside profile screen */
+.certList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.certItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  background: rgba(245, 158, 11, 0.03);
+  border: 1px solid rgba(245, 158, 11, 0.15);
+  border-radius: 14px;
+}
+
+.certLeft {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  text-align: left;
+}
+
+.certIconBox {
+  width: 38px;
+  height: 38px;
+  background-color: #fffbeb;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1px solid rgba(245, 158, 11, 0.25);
+}
+
+.certInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.certSubName {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.certMetaLine {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.certBadgeSpan {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #059669;
+  font-size: 9px;
+  font-weight: 800;
+  padding: 1px 6px;
+  border-radius: 6px;
+  margin-left: 4px;
+}
+
+.certDownloadBtn {
+  background-color: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  color: #334155;
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.certDownloadBtn:hover {
+  background-color: #e2e8f0;
+  color: #0f172a;
+  transform: translateY(-1px);
+}
+
+.loadingCerts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  font-size: 13px;
+  color: var(--text-muted);
+  font-weight: 600;
+  gap: 8px;
+}
+
+.noCertsText {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  padding: 8px 0;
+}
+

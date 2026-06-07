@@ -4,6 +4,7 @@ import {
   Users, CheckCircle2, XCircle, ChevronRight, BookOpen, GraduationCap
 } from 'lucide-react';
 import biochemistryResults from '../data/biochemistry_results.json';
+import chemistryResults from '../data/medical_chemistry_results.json';
 
 const Results = () => {
   const [selectedSubject, setSelectedSubject] = useState('biochem_2026');
@@ -23,6 +24,17 @@ const Results = () => {
       language: 'English',
       qaydnoma: '7059 / 19.05.2026',
       date: '19.05.2026',
+      active: true
+    },
+    {
+      id: 'chemistry_2026',
+      name: 'Medical Chemistry 2026',
+      faculty: 'Faculty of International Students',
+      course: '2 course',
+      examType: 'YAKUNIY NAZORAT',
+      language: 'English',
+      qaydnoma: 'Pending',
+      date: '03.06.2026',
       active: true
     },
     {
@@ -49,23 +61,30 @@ const Results = () => {
     }
   ];
 
+  const dataMap = {
+    'biochem_2026': biochemistryResults,
+    'chemistry_2026': chemistryResults
+  };
+
   // Groups list for filter dropdown
   const groups = useMemo(() => {
-    if (selectedSubject !== 'biochem_2026') return [];
-    const allGroups = biochemistryResults.map(r => r.group);
+    const currentData = dataMap[selectedSubject] || [];
+    if (currentData.length === 0) return [];
+    const allGroups = currentData.map(r => r.group);
     return ['all', ...new Set(allGroups)].sort();
   }, [selectedSubject]);
 
   // Statistics
   const stats = useMemo(() => {
-    if (selectedSubject !== 'biochem_2026') return null;
-    const total = biochemistryResults.length;
-    const scores = biochemistryResults.map(r => r.score).filter(s => s !== null);
-    const avg = scores.reduce((sum, s) => sum + s, 0) / scores.length;
-    const highest = Math.max(...scores);
-    const passed = biochemistryResults.filter(r => r.score >= 60).length;
+    const currentData = dataMap[selectedSubject] || [];
+    if (currentData.length === 0) return null;
+    const total = currentData.length;
+    const scores = currentData.map(r => r.score).filter(s => s !== null);
+    const avg = scores.length > 0 ? scores.reduce((sum, s) => sum + s, 0) / scores.length : 0;
+    const highest = scores.length > 0 ? Math.max(...scores) : 0;
+    const passed = currentData.filter(r => r.score >= 60).length;
     const failed = total - passed;
-    const passRate = (passed / total) * 100;
+    const passRate = total > 0 ? (passed / total) * 100 : 0;
 
     return {
       total,
@@ -89,9 +108,10 @@ const Results = () => {
 
   // Filter and Sort results
   const filteredResults = useMemo(() => {
-    if (selectedSubject !== 'biochem_2026') return [];
+    const currentData = dataMap[selectedSubject] || [];
+    if (currentData.length === 0) return [];
     
-    return biochemistryResults
+    return currentData
       .filter(row => {
         const matchesSearch = row.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
                             row.group.toLowerCase().includes(searchTerm.toLowerCase());
@@ -184,7 +204,7 @@ const Results = () => {
 
         {/* Results Panel */}
         <div className="lg:col-span-3 space-y-8">
-          {selectedSubject === 'biochem_2026' ? (
+          {(selectedSubject === 'biochem_2026' || selectedSubject === 'chemistry_2026') ? (
             <>
               {/* Exam Info Card */}
               <div className="glass-card p-6 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white relative overflow-hidden">

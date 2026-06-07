@@ -1,7 +1,7 @@
 {
   "name": "samu-mcqs",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
@@ -27,6 +27,8 @@
     "expo-image-picker": "~17.0.11",
     "expo-linear-gradient": "~15.0.8",
     "expo-notifications": "^0.32.17",
+    "expo-print": "^56.0.3",
+    "expo-sharing": "^56.0.16",
     "expo-status-bar": "~3.0.9",
     "expo-updates": "~29.0.17",
     "firebase": "^10.11.0",

@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { 
   LayoutDashboard, Users, CreditCard, 
   BarChart3, LogOut, ShieldCheck,
-  Settings, Bell, MessageSquare, GraduationCap
+  Settings, Bell, MessageSquare, GraduationCap, Award
 } from 'lucide-react';
 import useAuthStore from '../store/authStore';
 
@@ -16,6 +16,7 @@ const Sidebar = () => {
     { name: 'Subscriptions', path: '/subscriptions', icon: ShieldCheck },
     { name: 'Payments', path: '/payments', icon: CreditCard },
     { name: 'Results', path: '/results', icon: GraduationCap },
+    { name: 'Certificates', path: '/certificates', icon: Award },
     { name: 'Support', path: '/support', icon: MessageSquare },
     { name: 'Analytics', path: '/analytics', icon: BarChart3 },
   ];

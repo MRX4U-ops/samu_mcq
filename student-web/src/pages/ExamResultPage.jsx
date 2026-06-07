@@ -5,12 +5,14 @@ import Navbar from '../components/Navbar';
 import biochemistryResults from '../data/biochemistry_results.json';
 import microbiologyResults from '../data/microbiology_results.json';
 import anatomyResults from '../data/clinical_anatomy_results.json';
+import chemistryResults from '../data/medical_chemistry_results.json';
 import styles from './ExamResultPage.module.css';
 
 const SUBJECTS = [
   { id: 'biochemistry', title: 'Biochemistry 2026', data: biochemistryResults },
   { id: 'microbiology', title: 'Microbiology CBT 2026', data: microbiologyResults },
   { id: 'anatomy', title: 'Clinical Anatomy 2026', data: anatomyResults },
+  { id: 'chemistry', title: 'Medical Chemistry 2026', data: chemistryResults },
 ];
 
 export default function ExamResultPage() {
@@ -30,6 +32,8 @@ export default function ExamResultPage() {
       item.group.toLowerCase().includes(term)
     );
   }, [query, currentSubject]);
+
+
 
   return (
     <div className={styles.page}>
@@ -98,6 +102,7 @@ export default function ExamResultPage() {
           ) : (
             filteredResults.map((item, index) => {
               const isPassed = item.score !== null && item.score >= 60;
+
               return (
                 <div key={index} className={styles.resultCard}>
                   <div className={styles.cardHeader}>
@@ -110,7 +115,7 @@ export default function ExamResultPage() {
                     </div>
                   </div>
 
-                  <h3 className={styles.studentName}>{item.name}</h3>
+                  <h3 className={styles.studentName}>{item.name.replace(/\bXXX\b/g, ' ').replace(/\s+/g, ' ').trim()}</h3>
                   <p className={styles.studentGroup}>Group: {item.group.toUpperCase()}</p>
 
                   <div className={styles.divider} />
@@ -138,12 +143,16 @@ export default function ExamResultPage() {
                     <span className={styles.timeText}>Started: {item.startTime}</span>
                     <span className={styles.timeText}>Finished: {item.endTime}</span>
                   </div>
+
+
                 </div>
               );
             })
           )}
         </div>
       </div>
+
+
     </div>
   );
 }

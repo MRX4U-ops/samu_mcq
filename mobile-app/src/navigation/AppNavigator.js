@@ -46,6 +46,7 @@ import AppGuidelinesScreen from '../screens/AppGuidelinesScreen';
 import DiagnosticsHubScreen from '../screens/DiagnosticsHubScreen';
 import DiagnosticCategoryScreen from '../screens/DiagnosticCategoryScreen';
 import DiagnosticDetailScreen from '../screens/DiagnosticDetailScreen';
+import CertificateViewScreen from '../screens/CertificateViewScreen';
 
 
 const Stack = createNativeStackNavigator();
@@ -141,6 +142,7 @@ const AppNavigator = () => {
           <Stack.Screen name="WebsiteOption" component={WebsiteOptionScreen} />
           <Stack.Screen name="WebView" component={WebViewScreen} />
           <Stack.Screen name="AppGuidelines" component={AppGuidelinesScreen} />
+          <Stack.Screen name="CertificateView" component={CertificateViewScreen} />
 
           {/* Admin Routes */}
           {isAdmin() && (

@@ -1,18 +1,24 @@
 import React, { useState, useMemo } from 'react';
 import { 
   View, Text, StyleSheet, SafeAreaView, TextInput, 
-  FlatList, TouchableOpacity, StatusBar
+  FlatList, TouchableOpacity, StatusBar, Alert
 } from 'react-native';
 import { ArrowLeft, Search, Award, Clock, XCircle, BookOpen, ChevronDown, ChevronUp } from 'lucide-react-native';
+import axios from 'axios';
 import { useTheme } from '../context/ThemeContext';
+import { API_URL } from '../config/Constants';
+
+// Import results
 import biochemistryResults from '../data/biochemistry_results.json';
 import microbiologyResults from '../data/microbiology_results.json';
 import anatomyResults from '../data/clinical_anatomy_results.json';
+import chemistryResults from '../data/medical_chemistry_results.json';
 
 const SUBJECTS = [
   { id: 'biochemistry', title: 'Biochemistry 2026', data: biochemistryResults },
   { id: 'microbiology', title: 'Microbiology CBT 2026', data: microbiologyResults },
   { id: 'anatomy', title: 'Clinical Anatomy 2026', data: anatomyResults },
+  { id: 'chemistry', title: 'Medical Chemistry 2026', data: chemistryResults },
 ];
 
 const ExamResultsScreen = ({ navigation }) => {
@@ -20,6 +26,7 @@ const ExamResultsScreen = ({ navigation }) => {
   const [query, setQuery] = useState('');
   const [activeSubjectId, setActiveSubjectId] = useState('biochemistry');
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [certLoadingId, setCertLoadingId] = useState(null);
 
   const currentSubject = SUBJECTS.find(s => s.id === activeSubjectId) || SUBJECTS[0];
 
@@ -36,8 +43,33 @@ const ExamResultsScreen = ({ navigation }) => {
     );
   }, [query, currentSubject]);
 
+  const handleCertificateClick = async (studentName, score, group) => {
+    const cardId = `${studentName}-${group}`;
+    setCertLoadingId(cardId);
+    try {
+      const response = await axios.post(`${API_URL}/certificates/generate`, {
+        name: studentName,
+        group: group,
+        subjectId: activeSubjectId
+      });
+      
+      // Navigate to CertificateViewScreen with certificate data
+      navigation.navigate('CertificateView', { cert: response.data });
+    } catch (err) {
+      console.error('Failed to generate certificate:', err);
+      Alert.alert(
+        'Generation Failed',
+        err.response?.data?.error || 'Failed to generate certificate. Please ensure the backend is running.'
+      );
+    } finally {
+      setCertLoadingId(null);
+    }
+  };
+
   const renderItem = ({ item }) => {
     const isPassed = item.score !== null && item.score >= 60;
+    const qualifiesForCertificate = item.score !== null && item.score >= 98;
+    const cardId = `${item.name}-${item.group}`;
     
     return (
       <View style={[styles.resultCard, { backgroundColor: colors.surface, borderColor: colors.border }]}>
@@ -59,7 +91,9 @@ const ExamResultsScreen = ({ navigation }) => {
           </View>
         </View>
 
-        <Text style={[styles.studentName, { color: colors.text }]}>{item.name}</Text>
+        <Text style={[styles.studentName, { color: colors.text }]}>
+          {item.name.replace(/\bXXX\b/g, ' ').replace(/\s+/g, ' ').trim()}
+        </Text>
         <Text style={[styles.studentGroup, { color: colors.textSecondary }]}>Group: {item.group.toUpperCase()}</Text>
 
         <View style={[styles.divider, { backgroundColor: colors.border }]} />
@@ -92,6 +126,27 @@ const ExamResultsScreen = ({ navigation }) => {
             Finished: {item.endTime}
           </Text>
         </View>
+
+        {qualifiesForCertificate && (
+          <View style={[styles.promoCard, { backgroundColor: isDarkMode ? '#1E293B' : '#FFFDF5', borderColor: '#FDE047' }]}>
+            <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 8 }}>
+              <Award size={18} color="#D97706" style={{ marginRight: 8 }} />
+              <Text style={[styles.promoTitle, { color: isDarkMode ? '#FEF08A' : '#92400E' }]}>Outstanding Performance!</Text>
+            </View>
+            <Text style={[styles.promoText, { color: colors.textSecondary }]}>
+              You are eligible for an Achievement Certificate.
+            </Text>
+            <TouchableOpacity 
+              style={styles.certBtn}
+              disabled={certLoadingId !== null}
+              onPress={() => handleCertificateClick(item.name, item.score, item.group)}
+            >
+              <Text style={styles.certBtnText}>
+                {certLoadingId === cardId ? 'Generating...' : '📄 View & Download Certificate'}
+              </Text>
+            </TouchableOpacity>
+          </View>
+        )}
       </View>
     );
   };
@@ -302,6 +357,12 @@ const styles = StyleSheet.create({
   studentGroup: {
     fontSize: 12,
     fontWeight: '600',
+    marginBottom: 4,
+    alignSelf: 'flex-start',
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: 6,
+    overflow: 'hidden',
   },
   divider: {
     height: 1,
@@ -336,6 +397,7 @@ const styles = StyleSheet.create({
   timeInfoRow: {
     flexDirection: 'column',
     gap: 2,
+    marginBottom: 10,
   },
   timeText: {
     fontSize: 11,
@@ -356,7 +418,37 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     lineHeight: 20,
   },
+  
+  // Promo card styling for certificates
+  promoCard: {
+    marginTop: 15,
+    padding: 15,
+    borderRadius: 16,
+    borderWidth: 1,
+    borderStyle: 'dashed',
+  },
+  promoTitle: {
+    fontSize: 14,
+    fontWeight: '900',
+  },
+  promoText: {
+    fontSize: 12,
+    fontWeight: '600',
+    marginBottom: 12,
+    lineHeight: 16,
+  },
+  certBtn: {
+    backgroundColor: '#0F172A',
+    padding: 12,
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  certBtnText: {
+    color: '#FFFFFF',
+    fontSize: 13,
+    fontWeight: '800',
+  },
 });
 
 export default ExamResultsScreen;
-

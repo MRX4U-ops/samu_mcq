@@ -8,6 +8,7 @@ import Subscriptions from './pages/Subscriptions';
 import SupportTickets from './pages/SupportTickets';
 import TicketDetail from './pages/TicketDetail';
 import Results from './pages/Results';
+import Certificates from './pages/Certificates';
 import LoginPage from './pages/LoginPage';
 import ResetPassword from './pages/ResetPassword';
 import useAuthStore from './store/authStore';
@@ -37,6 +38,7 @@ const App = () => {
         <Route path="support/:id" element={<TicketDetail />} />
         <Route path="analytics" element={<Dashboard />} /> {/* Analytics reuse dashboard for now */}
         <Route path="results" element={<Results />} />
+        <Route path="certificates" element={<Certificates />} />
       </Route>
 
       <Route path="*" element={<Navigate to="/" replace />} />
