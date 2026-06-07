@@ -541,12 +541,14 @@
     align-items: flex-start !important;
     padding: 0 !important;
     margin: 0 !important;
+    overflow: visible !important;
   }
 
   .dialog {
     box-shadow: none !important;
     border: none !important;
     background: transparent !important;
+    overflow: visible !important;
   }
 
   .certPaperWrapper {
