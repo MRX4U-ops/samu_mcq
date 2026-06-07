@@ -281,29 +281,29 @@ export default function QuizPage() {
   // ─── RESULTS ──────────────────────────────────
   if (quizDone) {
     const grade = pct >= 75 ? 'Excellent' : pct >= 50 ? 'Good' : 'Needs Work';
-    const gradeColor = pct >= 75 ? 'var(--color-accent)' : pct >= 50 ? 'var(--color-warning)' : 'var(--color-danger)';
+    const cardStatusClass = pct >= 75 ? styles.cardPassed : pct >= 50 ? styles.cardFair : styles.cardFailed;
 
     return (
       <div className={styles.page}>
         <Navbar />
         <div className={styles.resultsContainer}>
-          <div className={styles.resultsCard}>
-            <div className={styles.trophyWrap}><Trophy size={40} color="var(--color-warning)" /></div>
+          <div className={`${styles.resultsCard} ${cardStatusClass}`}>
+            <div className={styles.trophyWrap}><Trophy size={40} color="var(--warning)" /></div>
             <h1 className={styles.resultsTitle}>Quiz Complete!</h1>
             <p style={{ color: 'var(--text-secondary)', marginBottom: 24, fontSize: 14 }}>{title} · {modeLabel}</p>
 
-            <div className={styles.scoreCircle} style={{ borderColor: gradeColor }}>
-              <span className={styles.scoreNum} style={{ color: gradeColor }}>{pct}%</span>
+            <div className={styles.scoreCircle}>
+              <span className={styles.scoreNum}>{pct}%</span>
               <span className={styles.scoreLabel}>{grade}</span>
             </div>
 
             <div className={styles.statsRow}>
               <div className={styles.statBox}>
-                <span style={{ color: 'var(--color-accent)', fontSize: 22, fontWeight: 900 }}>{score}</span>
+                <span style={{ color: 'var(--accent-green)', fontSize: 22, fontWeight: 900 }}>{score}</span>
                 <span style={{ color: 'var(--text-muted)', fontSize: 12, fontWeight: 700 }}>CORRECT</span>
               </div>
               <div className={styles.statBox}>
-                <span style={{ color: 'var(--color-danger)', fontSize: 22, fontWeight: 900 }}>{questions.length - score}</span>
+                <span style={{ color: 'var(--danger)', fontSize: 22, fontWeight: 900 }}>{questions.length - score}</span>
                 <span style={{ color: 'var(--text-muted)', fontSize: 12, fontWeight: 700 }}>WRONG</span>
               </div>
               <div className={styles.statBox}>
@@ -319,14 +319,26 @@ export default function QuizPage() {
                 const ans = userAnswers[qi];
                 const correct = q.correctIndex;
                 const userSel = ans?.selected;
+                const isSkipped = ans?.skipped || ans === undefined;
+                const isCorrect = ans?.isCorrect;
+
+                let reviewItemClass = styles.reviewItem;
+                if (isCorrect) reviewItemClass += ' ' + styles.reviewCorrect;
+                else if (isSkipped) reviewItemClass += ' ' + styles.reviewSkipped;
+                else reviewItemClass += ' ' + styles.reviewWrong;
+
                 return (
-                  <div key={q._id} className={styles.reviewItem}>
+                  <div key={q._id} className={reviewItemClass}>
                     <div className={styles.reviewQ}>
                       <span className={styles.reviewNum}>Q{qi + 1}</span>
                       <p className={styles.reviewQText}>{q.question}</p>
-                      {ans?.isCorrect
-                        ? <CheckCircle2 size={18} color="var(--color-accent)" style={{ flexShrink: 0 }} />
-                        : <XCircle size={18} color="var(--color-danger)" style={{ flexShrink: 0 }} />}
+                      {isCorrect ? (
+                        <CheckCircle2 size={18} color="var(--accent-green)" style={{ flexShrink: 0 }} />
+                      ) : isSkipped ? (
+                        <Clock size={18} color="var(--warning)" style={{ flexShrink: 0 }} />
+                      ) : (
+                        <XCircle size={18} color="var(--danger)" style={{ flexShrink: 0 }} />
+                      )}
                     </div>
                     <div className={styles.reviewOptions}>
                       {q.options.map((opt, oi) => {
