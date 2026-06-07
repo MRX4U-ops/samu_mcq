@@ -7,7 +7,7 @@ export default function BottomNav() {
   const current = location.pathname;
 
   return (
-    <nav className={styles.nav}>
+    <nav id="sidebar-nav" className={styles.nav}>
       <div className={styles.inner}>
         <NavLink 
           to="/home" 

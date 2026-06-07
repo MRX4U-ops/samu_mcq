@@ -428,3 +428,11 @@ h1, h2, h3 {
 p, li, span {
   color: var(--text-sub);
 }
+
+/* ═══ DESKTOP SIDEBAR LAYOUT SHIFT ═══ */
+@media (min-width: 769px) {
+  body:has(#sidebar-nav) {
+    padding-left: 260px !important;
+  }
+}
+
