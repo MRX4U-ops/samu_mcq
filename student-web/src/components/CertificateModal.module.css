@@ -555,8 +555,9 @@
   }
 
   .certPaper {
-    transform: none !important;
-    margin: 0 !important;
+    transform: scale(1.35) !important;
+    transform-origin: top center !important;
+    margin: 40px 0 0 0 !important;
     box-shadow: none !important;
     border: none !important;
   }
