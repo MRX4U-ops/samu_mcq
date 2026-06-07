@@ -525,18 +525,17 @@
 
 /* Print CSS Styles - Crucial for high-fidelity A4 output */
 @media print {
-  /* Hide overlay, close buttons, action panels, and background chitter */
   body * {
     visibility: hidden;
   }
   
   .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: transparent !important;
     display: block !important;
     padding: 0 !important;
     margin: 0 !important;
@@ -548,8 +547,7 @@
     border: none !important;
     padding: 0 !important;
     margin: 0 !important;
-    width: 100% !important;
-    max-width: 100% !important;
+    background: transparent !important;
   }
 
   .modalHeader, .modalActions, .shareDrawer {
@@ -559,24 +557,30 @@
   .certPaperWrapper {
     padding: 0 !important;
     margin: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
 
-  /* Make only the certificate itself visible and format in A4 landscape */
   #samu-academic-certificate, #samu-academic-certificate * {
-    visibility: visible;
+    visibility: visible !important;
   }
 
   #samu-academic-certificate {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) scale(1.1); /* upscale to fill landscape page */
+    position: fixed !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    transform: none !important;
     box-shadow: none !important;
     border: none !important;
     background-color: #fcfcf9 !important;
+    page-break-after: avoid !important;
+    page-break-before: avoid !important;
+    margin: 0 !important;
   }
 
-  /* Set page orientation to landscape */
   @page {
     size: A4 landscape;
     margin: 0;
