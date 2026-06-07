@@ -3,10 +3,24 @@ import { useState } from 'react';
 import {
   BookOpen, Zap, Trophy, Users, ArrowRight, CheckCircle, Star, Brain,
   Flame, Shield, ChevronDown, ChevronUp, MessageCircle, Clock, Target,
-  BarChart2, Award, Layers, BookMarked, Cpu, HeartPulse, Microscope, Stethoscope
+  BarChart2, Award, Layers, BookMarked, Cpu, HeartPulse, Microscope, Stethoscope,
+  Check, X
 } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import styles from './LandingPage.module.css';
+
+const DEMO_MCQ = {
+  question: "A 45-year-old male presents to the emergency department with severe, crushing chest pain radiating to his left arm. The pain started 30 minutes ago during rest. ECG shows ST-segment elevation in leads V1-V4 (acute anterior MI). What is the most crucial drug of choice to chew immediately?",
+  options: [
+    "a. Aspirin (325 mg)",
+    "b. Clopidogrel (300 mg)",
+    "c. Metoprolol (50 mg)",
+    "d. Atorvastatin (80 mg)"
+  ],
+  correctIndex: 0,
+  explanation: "Correct! Chewing a loading dose of Aspirin (300-325 mg) immediately is the first-line therapy for acute myocardial infarction (STEMI) to inhibit thromboxane A2 synthesis, stopping platelet aggregation. It reduces mortality significantly and is chewed for rapid mucosal absorption.",
+  incorrectExplanation: "Incorrect. While other options like Clopidogrel and Atorvastatin are part of acute MI management, Aspirin is the absolute first-line immediate chewable drug. Beta-blockers (Metoprolol) are avoided in acute decompensation or cardiogenic shock risk."
+};
 
 const FEATURES = [
   { icon: Brain, color: '#8B5CF6', bg: '#F5F3FF', title: 'Smart MCQ Practice', desc: 'Thousands of questions across all 6 medical courses — organized by topic, subject, and clinical difficulty.' },
@@ -75,6 +89,15 @@ function FAQ({ q, a }) {
 }
 
 export default function LandingPage() {
+  const [demoSelected, setDemoSelected] = useState(null);
+  const [demoAnswered, setDemoAnswered] = useState(false);
+
+  const handleDemoSelect = (idx) => {
+    if (demoAnswered) return;
+    setDemoSelected(idx);
+    setDemoAnswered(true);
+  };
+
   return (
     <div className={styles.page}>
       <Navbar />
@@ -86,34 +109,88 @@ export default function LandingPage() {
           <div className={styles.glow2} />
           <div className={styles.glow3} />
         </div>
-        <div className={styles.heroContent}>
-          <div className={styles.heroBadge}>
-            <Star size={14} color="#F59E0B" fill="#F59E0B" />
-            <span>Trusted by SAMU Medical Students · 1,200+ Active Learners</span>
+        
+        <div className={styles.heroGrid}>
+          <div className={styles.heroLeft}>
+            <div className={styles.heroBadge}>
+              <Star size={14} color="#F59E0B" fill="#F59E0B" />
+              <span>Trusted by SAMU Medical Students · 1,200+ Active Learners</span>
+            </div>
+            <h1 className={styles.heroTitle}>
+              Master Medical MCQs<br />
+              <span className="text-gradient">One Topic at a Time</span>
+            </h1>
+            <p className={styles.heroSub}>
+              Comprehensive MCQ practice for all 6 years of SAMU medical education.<br />
+              Test questions, situational case tasks, AI assistant & instant feedback — all in one place.
+            </p>
+            <div className={styles.heroCtas}>
+              <Link to="/register" className="btn btn-primary" style={{ fontSize: 16, padding: '15px 36px' }}>
+                Start Practicing Free
+                <ArrowRight size={18} />
+              </Link>
+              <Link to="/login" className="btn btn-ghost" style={{ fontSize: 16, padding: '15px 36px' }}>
+                Sign In
+              </Link>
+            </div>
+            <div className={styles.heroChecks}>
+              {['No credit card required', 'All 6 medical courses', 'AI-powered study help'].map(t => (
+                <span key={t} className={styles.heroCheck}>
+                  <CheckCircle size={14} color="#10B981" fill="#10B981" /> {t}
+                </span>
+              ))}
+            </div>
           </div>
-          <h1 className={styles.heroTitle}>
-            Master Medical MCQs<br />
-            <span className="text-gradient">One Topic at a Time</span>
-          </h1>
-          <p className={styles.heroSub}>
-            Comprehensive MCQ practice for all 6 years of SAMU medical education.<br />
-            Test questions, situational case tasks, AI assistant & instant feedback — all in one place.
-          </p>
-          <div className={styles.heroCtas}>
-            <Link to="/register" className="btn btn-primary" style={{ fontSize: 16, padding: '15px 36px' }}>
-              Start Practicing Free
-              <ArrowRight size={18} />
-            </Link>
-            <Link to="/login" className="btn btn-ghost" style={{ fontSize: 16, padding: '15px 36px' }}>
-              Sign In
-            </Link>
-          </div>
-          <div className={styles.heroChecks}>
-            {['No credit card required', 'All 6 medical courses', 'AI-powered study help'].map(t => (
-              <span key={t} className={styles.heroCheck}>
-                <CheckCircle size={14} color="#10B981" fill="#10B981" /> {t}
-              </span>
-            ))}
+
+          <div className={styles.heroRight}>
+            <div className={styles.demoCard}>
+              <div className={styles.demoCardHeader}>
+                <span className={styles.demoCardLabel}>Interactive Demo</span>
+                <span className={styles.demoCardCoins}>🪙 +50 Coins</span>
+              </div>
+              <p className={styles.demoQuestion}>{DEMO_MCQ.question}</p>
+              <div className={styles.demoOptions}>
+                {DEMO_MCQ.options.map((opt, idx) => {
+                  let optClass = styles.demoOption;
+                  let icon = null;
+                  
+                  if (demoAnswered) {
+                    if (idx === DEMO_MCQ.correctIndex) {
+                      optClass += ` ${styles.demoOptionCorrect}`;
+                      icon = <Check size={16} color="#10B981" />;
+                    } else if (idx === demoSelected) {
+                      optClass += ` ${styles.demoOptionIncorrect}`;
+                      icon = <X size={16} color="#ef4444" />;
+                    }
+                  } else if (demoSelected === idx) {
+                    optClass += ` ${styles.demoOptionSelected}`;
+                  }
+
+                  return (
+                    <button 
+                      key={idx} 
+                      className={optClass}
+                      onClick={() => handleDemoSelect(idx)}
+                      disabled={demoAnswered}
+                    >
+                      <span>{opt}</span>
+                      {icon}
+                    </button>
+                  );
+                })}
+              </div>
+
+              {demoAnswered && (
+                <div className={styles.demoFeedback}>
+                  <div className={styles.demoFeedbackTitle} style={{ color: demoSelected === DEMO_MCQ.correctIndex ? '#34d399' : '#f87171' }}>
+                    {demoSelected === DEMO_MCQ.correctIndex ? '🎉 Correct Answer!' : '❌ Incorrect Answer'}
+                  </div>
+                  <p className={styles.demoFeedbackText}>
+                    {demoSelected === DEMO_MCQ.correctIndex ? DEMO_MCQ.explanation : DEMO_MCQ.incorrectExplanation}
+                  </p>
+                </div>
+              )}
+            </div>
           </div>
         </div>
 

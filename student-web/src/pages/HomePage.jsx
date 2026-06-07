@@ -8,7 +8,8 @@ import {
   Flame, Trophy, Target, BookOpen, Brain, Swords, BarChart2,
   Stethoscope, Bell, Gift, Bookmark, Globe, ChevronRight,
   Zap, Star, TrendingUp, Clock, Lock, Unlock, Sparkles, Crown,
-  MessageCircle, Search, Mic, Users, Award, ChevronLeft, ArrowRight
+  MessageCircle, Search, Mic, Users, Award, ChevronLeft, ArrowRight,
+  Send, X, Bot
 } from 'lucide-react';
 import styles from './HomePage.module.css';
 
@@ -94,6 +95,65 @@ export default function HomePage() {
   const [bannerIdx, setBannerIdx] = useState(0);
   const [dailyGoal]             = useState({ done: 35, target: 50 });
   const [studyTime]             = useState({ done: 42, target: 60 });
+
+  // Chatbot State
+  const [isChatOpen, setIsChatOpen] = useState(false);
+  const [chatInput, setChatInput] = useState('');
+  const [chatMessages, setChatMessages] = useState([
+    { role: 'assistant', content: 'Hi! I am your SAMU AI study assistant. Ask me anything about your medical courses!' }
+  ]);
+  const [chatLoading, setChatLoading] = useState(false);
+  const chatMessagesEndRef = useRef(null);
+
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://samu-mcqs.onrender.com';
+
+  const scrollToChatBottom = () => {
+    chatMessagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  useEffect(() => {
+    if (isChatOpen) {
+      scrollToChatBottom();
+    }
+  }, [chatMessages, isChatOpen]);
+
+  const handleSendChatMessage = async (textToSend) => {
+    const text = textToSend || chatInput;
+    if (!text.trim() || chatLoading) return;
+
+    setChatMessages(prev => [...prev, { role: 'user', content: text }]);
+    setChatInput('');
+    setChatLoading(true);
+
+    try {
+      const response = await fetch(`${API_BASE_URL}/api/ai/ask`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          question: text,
+          language: 'English'
+        })
+      });
+
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to get response');
+      }
+
+      setChatMessages(prev => [...prev, {
+        role: 'assistant',
+        content: data.response || data.reply || data.answer || "I'm sorry, I couldn't get a response."
+      }]);
+    } catch (err) {
+      console.error(err);
+      setChatMessages(prev => [...prev, {
+        role: 'assistant',
+        content: `Sorry, I encountered an error: ${err.message}. Make sure your backend server is running.`
+      }]);
+    } finally {
+      setChatLoading(false);
+    }
+  };
 
   /* Animated counters */
   const animPoints  = useCounter(points);
@@ -581,6 +641,79 @@ export default function HomePage() {
 
         <div style={{ height: 'calc(var(--nav-h) + 16px)' }} />
       </div>
+
+      {/* ── Chatbot FAB & Panel ── */}
+      <button className={styles.chatFab} onClick={() => setIsChatOpen(!isChatOpen)}>
+        <MessageCircle size={24} />
+      </button>
+
+      {isChatOpen && (
+        <div className={styles.chatPanel}>
+          <div className={styles.chatHeader}>
+            <div className={styles.chatHeaderLeft}>
+              <Brain size={18} color="#fbbf24" />
+              <div>
+                <div className={styles.chatHeaderTitle}>SAMU AI Tutor</div>
+                <div className={styles.chatHeaderSub}>Ask me anything</div>
+              </div>
+            </div>
+            <button className={styles.chatClose} onClick={() => setIsChatOpen(false)}>
+              <X size={16} />
+            </button>
+          </div>
+
+          <div className={styles.chatMessages}>
+            {chatMessages.map((msg, idx) => (
+              <div key={idx} className={msg.role === 'user' ? styles.chatMsgUser : styles.chatMsgAI}>
+                {msg.content}
+              </div>
+            ))}
+            {chatLoading && (
+              <div className={styles.chatTyping}>
+                <div className={styles.chatDot} />
+                <div className={styles.chatDot} />
+                <div className={styles.chatDot} />
+              </div>
+            )}
+            <div ref={chatMessagesEndRef} />
+          </div>
+
+          <div className={styles.chatPrompts}>
+            {['Explain HOCM', 'Amoxicillin MOA', 'Dose of paracetamol', 'What is COPD?'].map(prompt => (
+              <button 
+                key={prompt} 
+                className={styles.chatPromptChip}
+                onClick={() => handleSendChatMessage(prompt)}
+                disabled={chatLoading}
+              >
+                {prompt}
+              </button>
+            ))}
+          </div>
+
+          <form 
+            onSubmit={(e) => { e.preventDefault(); handleSendChatMessage(); }} 
+            className={styles.chatInputArea}
+          >
+            <input
+              type="text"
+              className={styles.chatInput}
+              placeholder="Type medical question..."
+              value={chatInput}
+              onChange={(e) => setChatInput(e.target.value)}
+              disabled={chatLoading}
+            />
+            <button 
+              type="submit" 
+              className={styles.chatSendBtn}
+              disabled={chatLoading || !chatInput.trim()}
+            >
+              <Send size={16} />
+            </button>
+          </form>
+        </div>
+      )}
+
       <BottomNav />
     </div>
   );

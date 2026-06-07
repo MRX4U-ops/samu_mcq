@@ -668,3 +668,168 @@
   .statsGrid { grid-template-columns: repeat(2, 1fr); }
   .ribbonDiv { display: none; }
 }
+
+/* ── HERO GRID & MCQ DEMO CARD ── */
+.heroGrid {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 40px;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.heroLeft {
+  text-align: left;
+}
+
+.heroRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+
+.demoCard {
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3), 0 0 30px rgba(99, 102, 241, 0.15);
+  border-radius: 24px;
+  padding: 24px;
+  width: 100%;
+  max-width: 440px;
+  text-align: left;
+  color: #fff;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: rotateY(-3deg) rotateX(3deg);
+}
+
+.demoCard:hover {
+  transform: rotateY(0deg) rotateX(0deg) translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(99, 102, 241, 0.25);
+}
+
+.demoCardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.demoCardLabel {
+  background: rgba(245, 158, 11, 0.18);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
+.demoCardCoins {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #fbbf24;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.demoQuestion {
+  font-size: 13.5px;
+  line-height: 1.6;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 20px;
+}
+
+.demoOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.demoOption {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1.5px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 12px 16px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.34,1.56,0.64,1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.demoOption:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.10);
+  border-color: rgba(99, 102, 241, 0.45);
+  color: #fff;
+  transform: translateX(4px);
+}
+
+.demoOptionCorrect {
+  border-color: #10b981 !important;
+  background: rgba(16, 185, 129, 0.15) !important;
+  color: #34d399 !important;
+}
+
+.demoOptionIncorrect {
+  border-color: #ef4444 !important;
+  background: rgba(239, 68, 68, 0.15) !important;
+  color: #f87171 !important;
+}
+
+.demoFeedback {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  animation: fadeIn 0.4s ease forwards;
+}
+
+.demoFeedbackTitle {
+  font-size: 13px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.demoFeedbackText {
+  font-size: 12px;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 968px) {
+  .heroGrid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    text-align: center;
+  }
+  .heroLeft {
+    text-align: center;
+  }
+  .heroCtas {
+    justify-content: center;
+  }
+  .heroChecks {
+    justify-content: center;
+  }
+}
+
