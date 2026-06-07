@@ -1,10 +1,9 @@
-// Course 2 - Subject 9 - Microbiology, Virology, Parasitology and Immunology-1
 export const s_2_9 = {
   "t-s-2-9-0": [
     {
       "question": "A cluster of polar flagella is called",
       "options": [
-        "lophotrichous",
+        "*lophotrichous",
         "monotrichous",
         "amphitrichous",
         "petritrichous"
@@ -15,7 +14,7 @@ export const s_2_9 = {
     {
       "question": "Bacteria having no flagella are unable to",
       "options": [
-        "move",
+        "*move",
         "reproduce",
         "grow in nutrient agar",
         "stick to tissue surfaces"
@@ -26,7 +25,7 @@ export const s_2_9 = {
     {
       "question": "Chemotaxis is a phenomenon of",
       "options": [
-        "swimming away or towards of bacteria in the presence of chemical compound",
+        "*swimming away or towards of bacteria in the presence of chemical compound",
         "swimming away bacteria",
         "none of the above",
         "swimming towards a bacteria"
@@ -37,7 +36,7 @@ export const s_2_9 = {
     {
       "question": "Cytoplasmic inclusions include",
       "options": [
-        "all of these",
+        "*all of these",
         "fat globules",
         "mesosomes",
         "ribosomes"
@@ -48,7 +47,7 @@ export const s_2_9 = {
     {
       "question": "Flagella moves the cell by",
       "options": [
-        "spinning like a propeller",
+        "*spinning like a propeller",
         "Many flagella beating in a",
         "attaching to nearby particles and contracting",
         "Synchronous, whip-like motion"
@@ -59,7 +58,7 @@ export const s_2_9 = {
     {
       "question": "Genetic system is located in the prokaryotes in",
       "options": [
-        "all of these",
+        "*all of these",
         "chromatin",
         "nuclear material",
         "nucleoid"
@@ -70,7 +69,7 @@ export const s_2_9 = {
     {
       "question": "In eukaryotic cells, ribosomes are",
       "options": [
-        "80S",
+        "*80S",
         "Not specific",
         "60S",
         "70S"
@@ -81,7 +80,7 @@ export const s_2_9 = {
     {
       "question": "Name the component of flagellum.",
       "options": [
-        "All of these",
+        "*All of these",
         "Filament",
         "Hook",
         "Basal body"
@@ -92,7 +91,7 @@ export const s_2_9 = {
     {
       "question": "Peptidoglycan accounts for __ of the dry weight of cell wall in many gram positive bacteria",
       "options": [
-        "50% or more",
+        "*50% or more",
         "About 10%",
         "About 20%",
         "11%+ 0.22%"
@@ -103,7 +102,7 @@ export const s_2_9 = {
     {
       "question": "Single or clusters of flagella at both poles is known as",
       "options": [
-        "amphitrichous",
+        "*amphitrichous",
         "petritrichous",
         "none of these",
         "monotrichous"
@@ -114,7 +113,7 @@ export const s_2_9 = {
     {
       "question": "The cell walls of many gram positive bacteria can be easily destroyed by the enzyme known as",
       "options": [
-        "lysozyme",
+        "*lysozyme",
         "pectinase",
         "lipase",
         "peroxidase"
@@ -125,7 +124,7 @@ export const s_2_9 = {
     {
       "question": "The common word for bacteria which are helically curved rods is",
       "options": [
-        "spirilla",
+        "*spirilla",
         "cocci",
         "bacillus",
         "pleomorphic"
@@ -136,7 +135,7 @@ export const s_2_9 = {
     {
       "question": "The common word for bacteria which are spherical in shape is",
       "options": [
-        "cocci",
+        "*cocci",
         "bacilli",
         "spirilla",
         "pleomorphic"
@@ -147,7 +146,7 @@ export const s_2_9 = {
     {
       "question": "The cocci which mostly occur in single or pairs are",
       "options": [
-        "Diplococci",
+        "*Diplococci",
         "Streptococci",
         "Tetracocci",
         "None of these"
@@ -158,7 +157,7 @@ export const s_2_9 = {
     {
       "question": "The last step in synthesis of peptidoglycan is",
       "options": [
-        "attaching two amino acids to form a cross-link",
+        "*attaching two amino acids to form a cross-link",
         "binding of penicillin to a membrane protein",
         "attachment of a portion of peptidoglycan to a membrane lipid",
         "attachment of a peptide to muramic acid"
@@ -169,7 +168,7 @@ export const s_2_9 = {
     {
       "question": "The protein from which hook and filaments of flagella are composed of, is",
       "options": [
-        "flagellin",
+        "*flagellin",
         "gelatin",
         "keratin",
         "casein"
@@ -180,7 +179,7 @@ export const s_2_9 = {
     {
       "question": "The structure responsible for motility of bacteria is",
       "options": [
-        "flagella",
+        "*flagella",
         "sheath",
         "capsules",
         "pilli"
@@ -191,7 +190,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following bacteria lack a cell wall and are therefore resistant to penicillin?",
       "options": [
-        "Mycoplasma",
+        "*Mycoplasma",
         "Spirochetes",
         "Cyanobacteria",
         "Bdellovibrios"
@@ -202,7 +201,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following is true about cell wall of gram-positive bacteria?",
       "options": [
-        "All of these",
+        "*All of these",
         "It is thicker than that associated with gram-negative bacteria",
         "It contains teichoic acids",
         "It consists of multiple layers"
@@ -213,7 +212,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following may contain fimbriae?",
       "options": [
-        "Gram-negative bacteria",
+        "*Gram-negative bacteria",
         "None of these",
         "Gram-positive bacteria",
         "Both (a) and (b)"
@@ -226,7 +225,7 @@ export const s_2_9 = {
     {
       "question": "After laboratory research of sputum of patient with pneumonia gram-positive diplococci were isolated. What microorganisms found out in a sputum?",
       "options": [
-        "Streptococcus pneumoniae",
+        "*Streptococcus pneumoniae",
         "Staphylococcus intermedius",
         "Streptococcus pyogenes",
         "Staphylococcus aureus"
@@ -237,7 +236,7 @@ export const s_2_9 = {
     {
       "question": "After microscopic examination of sputum lancet-shaped gram-positive microorganisms were found. What are these microorganisms?",
       "options": [
-        "Pneumococci",
+        "*Pneumococci",
         "Staphylococci",
         "Meningococci",
         "Gonococci"
@@ -248,7 +247,7 @@ export const s_2_9 = {
     {
       "question": "After the surgical operation was conducted a patient has got a sepsis as complication which caused by staphylococci. Which of the following properties have staphylococci?",
       "options": [
-        "gram-positive, in irregular groups",
+        "*gram-positive, in irregular groups",
         "in a smear look like a couple",
         "sporulate, does not aniline stained",
         "single gram-negative rods"
@@ -259,7 +258,7 @@ export const s_2_9 = {
     {
       "question": "By laboratory diagnostics of pure culture under the microscope spherical microbes which are located as a cluster in smear were obtained. What microorganisms were found?",
       "options": [
-        "Staphylococci.",
+        "*Staphylococci.",
         "Diplococci.",
         "Streptococci.",
         "Tetracocci."
@@ -270,7 +269,7 @@ export const s_2_9 = {
     {
       "question": "By laboratory diagnostics of spinal fluid under the microscope gram-negative diplococci into leucocytes (incompleted phagocytosis) were found. What are these microorganisms?",
       "options": [
-        "Meningococci",
+        "*Meningococci",
         "Pneumococci",
         "Monococci",
         "Staphylococci"
@@ -281,7 +280,7 @@ export const s_2_9 = {
     {
       "question": "By microscopic examination of pus grape-shaped gram positive cocci were found. Specify what family these microorganisms belong to.",
       "options": [
-        "Staphylococcus",
+        "*Staphylococcus",
         "Planococcus",
         "Enterococcus",
         "Streptococcus"
@@ -292,7 +291,7 @@ export const s_2_9 = {
     {
       "question": "By the bacteriological examination of kindergarten workers bacteria of Staphylococcus family were isolated from one of them. What morphological and tinctorial properties do these microbes have?",
       "options": [
-        "grape-shaped Gram-positive cocci",
+        "*grape-shaped Gram-positive cocci",
         "Gram-positive rods",
         "Gram-positive cocci in chains",
         "Gram-positive diplococci"
@@ -303,7 +302,7 @@ export const s_2_9 = {
     {
       "question": "Cell wall of gram-negative bacteria contains all, except:",
       "options": [
-        "thin monolayer peptidoglycan",
+        "*thin monolayer peptidoglycan",
         "lipopolysaccharides",
         "lipoproteins",
         "outer membrane"
@@ -314,7 +313,7 @@ export const s_2_9 = {
     {
       "question": "Cell wall of gram-positive bacteria consists of:",
       "options": [
-        "thin monolayer peptidoglycan",
+        "*thin monolayer peptidoglycan",
         "lipoproteins",
         "outer membrane",
         "lipopolysaccharides"
@@ -325,7 +324,7 @@ export const s_2_9 = {
     {
       "question": "Choose method of staining of bacterial spores:",
       "options": [
-        "Staining by Auesko's method",
+        "*Staining by Auesko's method",
         "Staining by Ziehl-Neelsen method",
         "Staining by methylene blue",
         "Staining by Gram method"
@@ -336,7 +335,7 @@ export const s_2_9 = {
     {
       "question": "Enzymes that are produced outside from bacteria are called _:",
       "options": [
-        "exoenzymes",
+        "*exoenzymes",
         "heteroenzymes",
         "endoenzymes",
         "isoenzymes"
@@ -347,7 +346,7 @@ export const s_2_9 = {
     {
       "question": "For verifying the peptolytic properties of bacteria what substances are examined in nutrient medium?",
       "options": [
-        "indole and hydrogen sulfide",
+        "*indole and hydrogen sulfide",
         "mannitol and methanol",
         "glucose and lactose",
         "carbonic acid and nitrogen"
@@ -358,7 +357,7 @@ export const s_2_9 = {
     {
       "question": "The pure culture of microorganisms grows and develops in the presence of oxygen in an atmosphere (no less than 20% oxygen). What group of microorganisms according to their respiration does this culture belong to?",
       "options": [
-        "Obligate aerobes",
+        "*Obligate aerobes",
         "Microaerophilic bacteria",
         "Facultative anaerobes",
         "Capneic bacteria"
@@ -369,7 +368,7 @@ export const s_2_9 = {
     {
       "question": "There are such mechanisms of penetration of different substances into the cell, EXCEPT:",
       "options": [
-        "transformations of chemical groups",
+        "*transformations of chemical groups",
         "active transport",
         "passive diffusion",
         "facilitated diffusion"
@@ -380,7 +379,7 @@ export const s_2_9 = {
     {
       "question": "What changes of the Olkenitsky medium will be observed when an urea producing microbes were inoculated in it?",
       "options": [
-        "turn to pink",
+        "*turn to pink",
         "appearance of greenish precipitate in the column of agar",
         "appearance of red precipitate in the column of agar",
         "appearance of brightly-violet precipitate in the column of agar"
@@ -391,7 +390,7 @@ export const s_2_9 = {
     {
       "question": "What indicator is used in a medium with an urea according to Christensen?",
       "options": [
-        "Phenol red",
+        "*Phenol red",
         "Andrede",
         "Bromthymol blue",
         "Neutral"
@@ -402,7 +401,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following demands is not essential to the nutrient media?",
       "options": [
-        "certain colour",
+        "*certain colour",
         "presence of nutrients",
         "certain viscosity",
         "sterility"
@@ -413,7 +412,7 @@ export const s_2_9 = {
     {
       "question": "Who was the discoverer of the phenomenon of anaerobiosis?",
       "options": [
-        "L. Pasteur",
+        "*L. Pasteur",
         "Mechnikov",
         "E. Ru",
         "S. Vinogradsky"
@@ -424,7 +423,7 @@ export const s_2_9 = {
     {
       "question": "Who was the discoverer of the phenomenon of anaerobiosis?",
       "options": [
-        "L. Pasteur",
+        "*L. Pasteur",
         "E. Ru",
         "S. Vinogradsky",
         "R. Koch"
@@ -435,7 +434,7 @@ export const s_2_9 = {
     {
       "question": "Why are spores necessary to bacteria for:",
       "options": [
-        "Survival in an external environment",
+        "*Survival in an external environment",
         "Defense from acid in stomach",
         "Defense against phagocytosis",
         "into human and animal's organism"
@@ -448,7 +447,7 @@ export const s_2_9 = {
     {
       "question": "At what concentration of sulfuric acid, Nocardia resists decolourization?",
       "options": [
-        "0.5% sulphuric acid",
+        "*0.5% sulphuric acid",
         "5% sulphuric acid",
         "10% sulphuric acid",
         "8% sulphuric acid"
@@ -459,7 +458,7 @@ export const s_2_9 = {
     {
       "question": "Catalase production is negative in which of the following?",
       "options": [
-        "Streptococcus",
+        "*Streptococcus",
         "Salmonella",
         "Proteus",
         "Staphylococcus"
@@ -470,7 +469,7 @@ export const s_2_9 = {
     {
       "question": "Gram staining was developed accidentally in 1884 by",
       "options": [
-        "Hans Christian Gram",
+        "*Hans Christian Gram",
         "Robert Gram",
         "Alexander Fleming",
         "Joseph Christian Gram"
@@ -481,7 +480,7 @@ export const s_2_9 = {
     {
       "question": "Production of acetoin can be detected by which of the following tests?",
       "options": [
-        "Voges-Proskauer test",
+        "*Voges-Proskauer test",
         "Indole test",
         "Citrate test",
         "Methyl red test"
@@ -492,7 +491,7 @@ export const s_2_9 = {
     {
       "question": "The deinococci are gram-positive cocci and rods that are distinctive in their unusually great resistance to",
       "options": [
-        "both (a) and (b)",
+        "*both (a) and (b)",
         "desiccation",
         "radiation",
         "extreme temperatures"
@@ -503,7 +502,7 @@ export const s_2_9 = {
     {
       "question": "The gram-negative organisms are",
       "options": [
-        "None of these",
+        "*None of these",
         "Bacillus",
         "Clostridium",
         "Actinomyces"
@@ -514,7 +513,7 @@ export const s_2_9 = {
     {
       "question": "The organisms that can be acid-fast stained are",
       "options": [
-        "all of these",
+        "*all of these",
         "Nocardia",
         "Tubercle bacilli",
         "Lepra bacilli"
@@ -525,7 +524,7 @@ export const s_2_9 = {
     {
       "question": "The primary stain of Gram's method is",
       "options": [
-        "crystal violet",
+        "*crystal violet",
         "phenolphthalene",
         "methyl red",
         "safranin"
@@ -536,7 +535,7 @@ export const s_2_9 = {
     {
       "question": "The production of sufficient acid by fermentation of glucose leads to a decrease in pH such that pH of the average falls below 4.5Which of the following test can detect it?",
       "options": [
-        "Methyl red test",
+        "*Methyl red test",
         "Citrate utilization test",
         "Indole test",
         "Voges-Proskauer test"
@@ -547,7 +546,7 @@ export const s_2_9 = {
     {
       "question": "What is the color of gram - positive bacteria on a gram staining?",
       "options": [
-        "Purple",
+        "*Purple",
         "Green",
         "Colourless",
         "Pink"
@@ -558,7 +557,7 @@ export const s_2_9 = {
     {
       "question": "What is the color of gram-negative bacteria on a gram staining?",
       "options": [
-        "Pink",
+        "*Pink",
         "Purple",
         "Green",
         "Colourless"
@@ -569,7 +568,7 @@ export const s_2_9 = {
     {
       "question": "What is the order of reagents used in the Gram stain?",
       "options": [
-        "Crystal violet, iodine, decolorizer, safranin",
+        "*Crystal violet, iodine, decolorizer, safranin",
         "Crystal violet, iodine, safranin, decolorizer",
         "Crystal violet, safranin, iodine, decolorizer",
         "Safranin, crystal violet, decolorizer, iodine"
@@ -580,7 +579,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following inference(s) indicate(s) the ability of an organism to utilize citrate as a sole source of carbon in Simmon's citrate medium?",
       "options": [
-        "Both (a) and (b)",
+        "*Both (a) and (b)",
         "None of these",
         "Blue color",
         "Appearance of growth"
@@ -591,7 +590,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following is a primary stain for acid fast staining of mycobacteria?",
       "options": [
-        "Carbol fuchsin",
+        "*Carbol fuchsin",
         "Geimsa",
         "Methylene blue",
         "Crystal violet"
@@ -602,7 +601,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following is a substitute for crystal violet used in gram-staining procedure?",
       "options": [
-        "Methylene blue",
+        "*Methylene blue",
         "Phenolphthalene",
         "Bromocresol green",
         "Safranin"
@@ -613,7 +612,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following is commonly used as Gram's decolouriser?",
       "options": [
-        "A mixture of ethyl alcohol and acetone",
+        "*A mixture of ethyl alcohol and acetone",
         "Ethyl alcohol",
         "Acetone",
         "Methyl alcohol"
@@ -624,7 +623,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following organisms can be demonstrated with silver impregnation method?",
       "options": [
-        "Spirochaetes",
+        "*Spirochaetes",
         "Shigella",
         "Vibrios",
         "Salmonella"
@@ -635,7 +634,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following shows a positive urease test?",
       "options": [
-        "Both (a) and (b)",
+        "*Both (a) and (b)",
         "None of these",
         "Proteus",
         "Klebsiella"
@@ -646,7 +645,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following(s) is/ are oxidase-positive bacteria?",
       "options": [
-        "All of these",
+        "*All of these",
         "Vibrio",
         "Pseudomonas",
         "Neisseria"
@@ -657,7 +656,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following(s) show(s) positive results for phenylalanine deaminase test?",
       "options": [
-        "All of these",
+        "*All of these",
         "Morganella",
         "Providencia",
         "Proteus"
@@ -670,7 +669,7 @@ export const s_2_9 = {
     {
       "question": "At the end of the sterilization cycle, the EO cartridges and the gloves used to handle them should be:",
       "options": [
-        "aerated",
+        "*aerated",
         "Irradiated",
         "Washed",
         "Disinfected"
@@ -681,7 +680,7 @@ export const s_2_9 = {
     {
       "question": "For sterilization to occur, steam must:",
       "options": [
-        "make direct contact with all surface",
+        "*make direct contact with all surface",
         "Be superheated",
         "Trap air inside the package",
         "Be flushed into each package"
@@ -692,7 +691,7 @@ export const s_2_9 = {
     {
       "question": "Items to be sterilized in low temperature gas plasma must be packaged in:",
       "options": [
-        "Non cellulose based material",
+        "*Non cellulose based material",
         "Paper plastic pouch",
         "Kraft paper",
         "Poly cotton wrappers"
@@ -703,7 +702,7 @@ export const s_2_9 = {
     {
       "question": "Microbial kill in the ozone sterilizer is achieved through a process called:",
       "options": [
-        "oxidation",
+        "*oxidation",
         "Condensation",
         "Cavitation",
         "Alkylation"
@@ -714,7 +713,7 @@ export const s_2_9 = {
     {
       "question": "Routine B1 testing for steam sterilizers should be performed at least:",
       "options": [
-        "weekly",
+        "*weekly",
         "Monthly",
         "Daily",
         "Every other day"
@@ -725,7 +724,7 @@ export const s_2_9 = {
     {
       "question": "The absence of all forms of microbial life, including spores, is known as:",
       "options": [
-        "Sterility",
+        "*Sterility",
         "Sanitization",
         "Decontamination",
         "Disinfection"
@@ -736,7 +735,7 @@ export const s_2_9 = {
     {
       "question": "The action level for EO exposure is:",
       "options": [
-        "0.5ppm",
+        "*0.5ppm",
         "1ppm",
         "0.1ppm",
         "5ppm"
@@ -747,7 +746,7 @@ export const s_2_9 = {
     {
       "question": "The Bowie Dick test is now known as the:",
       "options": [
-        "Dynamic air removal test",
+        "*Dynamic air removal test",
         "Air challenge test",
         "Diagnostic test",
         "Process challenge test"
@@ -758,7 +757,7 @@ export const s_2_9 = {
     {
       "question": "The packaging of choice for dry heat sterilization is:",
       "options": [
-        "aluminum foil",
+        "*aluminum foil",
         "Nonwoven wrap",
         "Canvas",
         "Paper plastic"
@@ -769,7 +768,7 @@ export const s_2_9 = {
     {
       "question": "the purpose of the diagnostic test in a peracetic acid sterilizer is to check the:",
       "options": [
-        "system mechanics",
+        "*system mechanics",
         "Sterilant concentration",
         "Water quality",
         "Biocidal properties"
@@ -780,7 +779,7 @@ export const s_2_9 = {
     {
       "question": "The sterilizre heat sensing thermometer is located in the:",
       "options": [
-        "drain line",
+        "*drain line",
         "Jacket",
         "All of them",
         "Chamber"
@@ -791,7 +790,7 @@ export const s_2_9 = {
     {
       "question": "What are the minimum air exchange to be maintained in an area where 100% EO cartridges or EO mixture cylinders are stored?",
       "options": [
-        "10 per hour",
+        "*10 per hour",
         "8 per hour",
         "14 per hour",
         "12 per hour"
@@ -802,7 +801,7 @@ export const s_2_9 = {
     {
       "question": "what is maximum number of 100% EO cartridges permitted by OSHA to be stored outside a flammable goods cabinet?",
       "options": [
-        "12",
+        "*12",
         "8",
         "6",
         "10"
@@ -813,7 +812,7 @@ export const s_2_9 = {
     {
       "question": "When are sterilized packs most likely to become contaminated?",
       "options": [
-        "Within the first hour of sterilization",
+        "*Within the first hour of sterilization",
         "Within the first day of sterilization",
         "After 30 days",
         "After 60 days"
@@ -824,7 +823,7 @@ export const s_2_9 = {
     {
       "question": "When items are unloaded from the steam sterilizer , they should be handled with:",
       "options": [
-        "clean hands",
+        "*clean hands",
         "Cotton gloves",
         "Butyl gloves",
         "Rubber gloves"
@@ -835,7 +834,7 @@ export const s_2_9 = {
     {
       "question": "Where are test packs placed to present the greatest challenge to the steam sterilizer?",
       "options": [
-        "over the drain",
+        "*over the drain",
         "Center",
         "Top rack back",
         "Bottom rack back"
@@ -846,7 +845,7 @@ export const s_2_9 = {
     {
       "question": "Which method of sterilization is used to sterilize liquids?",
       "options": [
-        "Gravity stream",
+        "*Gravity stream",
         "Peracetic acid",
         "Ethyl oxide",
         "Prevac steam"
@@ -857,7 +856,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following devices are compatible with ozone sterilization?",
       "options": [
-        "stainless steel instruments",
+        "*stainless steel instruments",
         "Flexible endoscopes",
         "Natural rubber and latex",
         "Woven textiles"
@@ -868,7 +867,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following is a wet sterilization system for unwrapped irems?",
       "options": [
-        "peracetic acid",
+        "*peracetic acid",
         "Ethylene oxide",
         "Hydrogen peroxide gas plasma",
         "Ozone sterilization"
@@ -879,7 +878,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following is critical to EO penetration of bacterial cell?",
       "options": [
-        "humidity",
+        "*humidity",
         "Temperature",
         "Hydrogen",
         "Chlorofluorocarbons"
@@ -892,7 +891,7 @@ export const s_2_9 = {
     {
       "question": "Find to the following is the study of the molecular organization of genomes, their information content and the gene products they encode?",
       "options": [
-        "Genomics",
+        "*Genomics",
         "Bioinformatics",
         "Ergonomics",
         "Genetics"
@@ -903,7 +902,7 @@ export const s_2_9 = {
     {
       "question": "In the time since Ecoli and Salmonella diverged evolutionarily",
       "options": [
-        "E.coli has lost approximately 50% of its genome",
+        "*E.coli has lost approximately 50% of its genome",
         "there has been little change in either genome",
         "none of these",
         "E.coli has acquired many genes via horizontal transfer"
@@ -914,7 +913,7 @@ export const s_2_9 = {
     {
       "question": "In the time since Ecoli and Salmonella separately evolutionarily",
       "options": [
-        "E. coli has lost approximately 50% of its genome",
+        "*E. coli has lost approximately 50% of its genome",
         "E.coli has acquired many genes via horizontal transfer",
         "none of these",
         "there has been little change in either genome"
@@ -925,7 +924,7 @@ export const s_2_9 = {
     {
       "question": "Proteomics",
       "options": [
-        "the study of the entire collection of proteins expressed by an organism",
+        "*the study of the entire collection of proteins expressed by an organism",
         "the study of formation of lipo-protein in animals",
         "the study of algal genomes",
         "a branch of quantum physics dealing with proteins"
@@ -936,7 +935,7 @@ export const s_2_9 = {
     {
       "question": "Proteomics is",
       "options": [
-        "the study of the entire collection of proteins expressed by an organism",
+        "*the study of the entire collection of proteins expressed by an organism",
         "a branch of quantum physics dealing with proteins",
         "the study of formation of lipo-protein in animals",
         "the study of algal genomes"
@@ -947,7 +946,7 @@ export const s_2_9 = {
     {
       "question": "Studies of similarities and differences among the genomes of multiple organisms is carried out in",
       "options": [
-        "comparative genomics",
+        "*comparative genomics",
         "structural genomics",
         "functional genomics",
         "proteomics"
@@ -958,7 +957,7 @@ export const s_2_9 = {
     {
       "question": "The flow of genetic material in microbial cells usually takes place from",
       "options": [
-        "DNA through RNA to proteins",
+        "*DNA through RNA to proteins",
         "proteins through RNA to DNA",
         "RNA through DNA to proteins",
         "none of these"
@@ -969,7 +968,7 @@ export const s_2_9 = {
     {
       "question": "The physical nature of genomes is studied under",
       "options": [
-        "structural genomics",
+        "*structural genomics",
         "proteo genomics",
         "comparative genomics",
         "functional genomics"
@@ -980,7 +979,7 @@ export const s_2_9 = {
     {
       "question": "The species of bacteria, which possesses 250 genes for lipid biosynthesis is",
       "options": [
-        "M. tuberculosis",
+        "*M. tuberculosis",
         "H.influenzae",
         "E. coli",
         "M.genitalium"
@@ -991,7 +990,7 @@ export const s_2_9 = {
     {
       "question": "The word, used for the small solid supports onto which are spotted hundreds of thousands of tiny drops of DNA that can be used to screen gene expression, is",
       "options": [
-        "DNA microarrays",
+        "*DNA microarrays",
         "northern blot",
         "cloning library",
         "southern blot"
@@ -1002,7 +1001,7 @@ export const s_2_9 = {
     {
       "question": "What is the assortment of minimum set of genes required for life?",
       "options": [
-        "250-350 genes",
+        "*250-350 genes",
         "1500-2000 genes",
         "50-100 genes",
         "1000-1500 genes"
@@ -1013,7 +1012,7 @@ export const s_2_9 = {
     {
       "question": "What is the range of minimum set of genes required for life?",
       "options": [
-        "250-350 genes",
+        "*250-350 genes",
         "1500-2000 genes",
         "1000-1500 genes",
         "50-100 genes"
@@ -1024,7 +1023,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following is concerned with the management and analysis of biological data using computers?",
       "options": [
-        "Bioinformatics",
+        "*Bioinformatics",
         "Genomics",
         "Biophysics",
         "Biomechanics"
@@ -1035,7 +1034,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following is the study of the molecular organization of genomes, their information content and the gene products they encode?",
       "options": [
-        "Genomics",
+        "*Genomics",
         "Bioinformatics",
         "Ergonomics",
         "Genetics"
@@ -1046,7 +1045,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following is used for determining the location of specific genes within the genome?",
       "options": [
-        "Annotation",
+        "*Annotation",
         "Genomics",
         "Cloning",
         "Proteomics"
@@ -1057,7 +1056,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following organisms has the smallest genome?",
       "options": [
-        "M.genitalium",
+        "*M.genitalium",
         "H.influenzae",
         "None of these",
         "M. tuberculosis"
@@ -1068,7 +1067,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following theory is supported by the genomic sequence of the obligate intracellular parasite Rickettsia prowazekii?",
       "options": [
-        "Mitochondria have evolved from endosymbiotic bacteria",
+        "*Mitochondria have evolved from endosymbiotic bacteria",
         "All bacteria evolved from viruses",
         "Parasitic bacteria have very large genomes",
         "Parasites have a definite genomic sequence similar to viruses"
@@ -1079,7 +1078,7 @@ export const s_2_9 = {
     {
       "question": "Which type of genomics studies the transcripts and proteins expressed by a genome?",
       "options": [
-        "Functional genomics",
+        "*Functional genomics",
         "Proteo genomics",
         "Comparative Genomics",
         "Structural Genomics"
@@ -1090,7 +1089,7 @@ export const s_2_9 = {
     {
       "question": "Why Deinococcus radiodurans is able to survive massive exposure to radiation?",
       "options": [
-        "Because it has many copies of genes encoding DNA repair",
+        "*Because it has many copies of genes encoding DNA repair",
         "Because it has unique DNA repair mechanisms",
         "Because it produces a thick shell which acts as a shield from the radiation",
         "Because its cellwall contains radioactive elements"
@@ -1101,7 +1100,7 @@ export const s_2_9 = {
     {
       "question": "Why is the bacterium Treponema pallidum difficult to culture?",
       "options": [
-        "Because it lacks the genes needed for TCA cycle and oxidative phosphorylation",
+        "*Because it lacks the genes needed for TCA cycle and oxidative phosphorylation",
         "Because it requires a great deal of water to reproduce",
         "Because it is unable to use carbohydrates as an energy source",
         "Because it requires extremely low temperature at which water freezes"
@@ -1114,7 +1113,7 @@ export const s_2_9 = {
     {
       "question": "CD8 surface antigen is present in",
       "options": [
-        "both (a) and (b)",
+        "*both (a) and (b)",
         "T cell suppressor",
         "none of these",
         "cytotoxic T cells"
@@ -1125,7 +1124,7 @@ export const s_2_9 = {
     {
       "question": "Chemically an antigen may be",
       "options": [
-        "any of these",
+        "*any of these",
         "lipid",
         "polysaccharide",
         "protein"
@@ -1136,7 +1135,7 @@ export const s_2_9 = {
     {
       "question": "Cytotoxic T-cells can be recognized by which of the following cell surface marker?",
       "options": [
-        "CD8",
+        "*CD8",
         "CD7",
         "CD9",
         "CD4"
@@ -1147,7 +1146,7 @@ export const s_2_9 = {
     {
       "question": "The following are the defenses of the colon except",
       "options": [
-        "fast flow rate",
+        "*fast flow rate",
         "mucus",
         "sIgA",
         "dense resident microbiota"
@@ -1158,7 +1157,7 @@ export const s_2_9 = {
     {
       "question": "Immunity is not long lasting to",
       "options": [
-        "influenza",
+        "*influenza",
         "diphtheria",
         "mumps",
         "whooping cough"
@@ -1169,7 +1168,7 @@ export const s_2_9 = {
     {
       "question": "Large parasites such as helminthes may be killed extracellularly by the action of",
       "options": [
-        "eosinophils",
+        "*eosinophils",
         "neutrophils",
         "basophils",
         "monocytes"
@@ -1180,7 +1179,7 @@ export const s_2_9 = {
     {
       "question": "Large parasites such as helminthes may be killed extracellularly by the action of",
       "options": [
-        "eosinophils",
+        "*eosinophils",
         "basophils",
         "neutrophils",
         "monocytes"
@@ -1191,7 +1190,7 @@ export const s_2_9 = {
     {
       "question": "Lysozyme is present in",
       "options": [
-        "saliva",
+        "*saliva",
         "urine",
         "sweat",
         "Cerebrospinal fluid (CSF)"
@@ -1202,7 +1201,7 @@ export const s_2_9 = {
     {
       "question": "Macrophages are professional antigen-presenting cells. The protein molecule through which they present antigen in human is",
       "options": [
-        "CD8",
+        "*CD8",
         "HLA",
         "Interleukin",
         "actin"
@@ -1213,7 +1212,7 @@ export const s_2_9 = {
     {
       "question": "Major Histo Compatibility Complex (MHC) is a collection of genes arrayed on",
       "options": [
-        "chromosome 6 in man, chromosome 17 in mice",
+        "*chromosome 6 in man, chromosome 17 in mice",
         "chromosome 6 in man, chromosome 21 in mice",
         "chromosome 17in man, chromosome 6 in mice",
         "chromosome 21 in man, chromosome 6 in mice"
@@ -1224,7 +1223,7 @@ export const s_2_9 = {
     {
       "question": "Natural killer cells are involved in",
       "options": [
-        "all of these",
+        "*all of these",
         "non-specific killing of virus transformed target cells",
         "tumor rejection",
         "allograft rejection"
@@ -1235,7 +1234,7 @@ export const s_2_9 = {
     {
       "question": "Numerous antibodies can be prepared, against one antigen, each binds to unique epitopes. How is this antibody diversity generated?",
       "options": [
-        "Both (a) and (b)",
+        "*Both (a) and (b)",
         "by rearrangements of the DNA encoding the variable regions of the heavy and light chains",
         "Antibody proteins can physically change their shape to bind different epitopes",
         "By the combination of different heavy and light chains that form the antigen binding site"
@@ -1246,7 +1245,7 @@ export const s_2_9 = {
     {
       "question": "Passive immunization is done for",
       "options": [
-        "diphtheria",
+        "*diphtheria",
         "enteric fever",
         "tuberculosis",
         "all of these"
@@ -1257,7 +1256,7 @@ export const s_2_9 = {
     {
       "question": "Passive immunization is done for",
       "options": [
-        "diphtheria",
+        "*diphtheria",
         "enteric fever",
         "all of these",
         "tuberculosis"
@@ -1268,7 +1267,7 @@ export const s_2_9 = {
     {
       "question": "Passive immunization is done for",
       "options": [
-        "diphtheria",
+        "*diphtheria",
         "enteric fever",
         "tuberculosis",
         "all of these"
@@ -1279,7 +1278,7 @@ export const s_2_9 = {
     {
       "question": "Polymorphonuclear leukocytes (or PMNs)",
       "options": [
-        "all of the above",
+        "*all of the above",
         "are derived from bone marrow stem cells",
         "are a type of phagocyte that can engulf and kill bacteria",
         "can be attracted to the site of an infection following activation of complement"
@@ -1290,7 +1289,7 @@ export const s_2_9 = {
     {
       "question": "T cell receptors (or TCR) on CD4+ T cells",
       "options": [
-        "recognize peptides associated with MHC class II molecules",
+        "*recognize peptides associated with MHC class II molecules",
         "are secreted out into the environment to bind antigens",
         "recognize peptides associated with MHC class I molecules",
         "recognize peptides not associated with MHC molecules"
@@ -1301,7 +1300,7 @@ export const s_2_9 = {
     {
       "question": "The role of the M cell is to",
       "options": [
-        "pass bacteria or virus to underlying macrophages for processing and presentation of antigen",
+        "*pass bacteria or virus to underlying macrophages for processing and presentation of antigen",
         "induce apoptosis in virus-infected small intestinal epithelial cells",
         "trap virus in mucus and prevent entry",
         "they use their cilia to propel mucous out of the small intestine"
@@ -1312,7 +1311,7 @@ export const s_2_9 = {
     {
       "question": "Treatment with bacterial endotoxins results blast formation in",
       "options": [
-        "B cells",
+        "*B cells",
         "T cells",
         "none of these",
         "monocytes"
@@ -1323,7 +1322,7 @@ export const s_2_9 = {
     {
       "question": "Which is not an antigen-presenting cell (or APC)?",
       "options": [
-        "Polymorphonuclear leukocyte (or PMN)",
+        "*Polymorphonuclear leukocyte (or PMN)",
         "All of the above",
         "B cell",
         "Dendritic cell"
@@ -1336,7 +1335,7 @@ export const s_2_9 = {
     {
       "question": "Activated macrophage produces:",
       "options": [
-        "monokines",
+        "*monokines",
         "immunoglobulins",
         "histamine",
         "enzymes"
@@ -1347,7 +1346,7 @@ export const s_2_9 = {
     {
       "question": "Agglutination reaction is more sensitive than precipitation for the detection of",
       "options": [
-        "antigens",
+        "*antigens",
         "antigen-antibody complexes A",
         "complement",
         "antibodies"
@@ -1358,7 +1357,7 @@ export const s_2_9 = {
     {
       "question": "Amount of various immunoglobulin classes can be measured by",
       "options": [
-        "single diffusion in two dimensions",
+        "*single diffusion in two dimensions",
         "double diffusion in one dimension",
         "single diffusion in one dimension",
         "double diffusion in two dimensions"
@@ -1369,7 +1368,7 @@ export const s_2_9 = {
     {
       "question": "Commercially available ELISA kits are used for the detection of",
       "options": [
-        "all of these",
+        "*all of these",
         "hepatitis B surface antigen",
         "rotavirus",
         "anti-HIV antibodies"
@@ -1380,7 +1379,7 @@ export const s_2_9 = {
     {
       "question": "Counter-immunoelectrophoresis is used for the detection of",
       "options": [
-        "All of these",
+        "*All of these",
         "Meningococcal antigen",
         "Hepatitis B surface antigen",
         "Alpha-fetoprotein"
@@ -1391,7 +1390,7 @@ export const s_2_9 = {
     {
       "question": "Fluorescent treponemal antibody test is an example of",
       "options": [
-        "indirect immunofluorescence",
+        "*indirect immunofluorescence",
         "direct immunofluorescence",
         "none of these",
         "both (a) and (b)"
@@ -1402,7 +1401,7 @@ export const s_2_9 = {
     {
       "question": "Functional purpose of the central organs of the immune system:",
       "options": [
-        "antigen-independent differentiation of lymphocytes",
+        "*antigen-independent differentiation of lymphocytes",
         "antigen-dependent differentiation of lymphocytes",
         "synthesis of immunoglobulins",
         "Proliferation of clones of lymphocytes that recognize the antigen"
@@ -1413,7 +1412,7 @@ export const s_2_9 = {
     {
       "question": "In which of the following cases a large lattice is formed?",
       "options": [
-        "Antigens and antibodies are in optimal proportion",
+        "*Antigens and antibodies are in optimal proportion",
         "Antibody is in excess",
         "None of these",
         "Antigen is in excess"
@@ -1424,7 +1423,7 @@ export const s_2_9 = {
     {
       "question": "Macrophage precursor is:",
       "options": [
-        "monocyte",
+        "*monocyte",
         "eosinophil",
         "neutrophil",
         "erythrocyte"
@@ -1435,7 +1434,7 @@ export const s_2_9 = {
     {
       "question": "Monoclonal antibody production requires",
       "options": [
-        "both (a) and (b)",
+        "*both (a) and (b)",
         "none of these",
         "mouse myeloma cells",
         "mouse splenic lymphocytes"
@@ -1446,7 +1445,7 @@ export const s_2_9 = {
     {
       "question": "Precipitation reaction can be converted into agglutination reaction by coating soluble antigen onto",
       "options": [
-        "all of these",
+        "*all of these",
         "latex particles",
         "bentonite particles",
         "RBCs"
@@ -1457,7 +1456,7 @@ export const s_2_9 = {
     {
       "question": "Precipitation reaction is relatively less sensitive for the detection of",
       "options": [
-        "antibodies",
+        "*antibodies",
         "antigens",
         "complement",
         "antigen-antibody complexes"
@@ -1468,7 +1467,7 @@ export const s_2_9 = {
     {
       "question": "Quellung reaction is used for typing of",
       "options": [
-        "Both (a) and (b)",
+        "*Both (a) and (b)",
         "None of these",
         "Klebsiella pneumoniae",
         "Streptococcus pneumoniae"
@@ -1479,7 +1478,7 @@ export const s_2_9 = {
     {
       "question": "Ring test is used for",
       "options": [
-        "all of the above",
+        "*all of the above",
         "C-reactive protein test",
         "typing of streptococci and pneumococci",
         "Ascoli's thermoprecipitation test"
@@ -1490,7 +1489,7 @@ export const s_2_9 = {
     {
       "question": "Slide agglutination reaction is/are useful for the identification of the culture(s) of",
       "options": [
-        "All of these",
+        "*All of these",
         "Salmonella",
         "Shigella",
         "Vibrio cholerae"
@@ -1501,7 +1500,7 @@ export const s_2_9 = {
     {
       "question": "T-lymphocyte receptor (TCR) for antigens consists of:",
       "options": [
-        "2 polypeptide chains",
+        "*2 polypeptide chains",
         "8 polypeptide chains",
         "6 polypeptide chains",
         "10 polypeptide chains"
@@ -1512,7 +1511,7 @@ export const s_2_9 = {
     {
       "question": "T-lymphocytes in the spleen are localized:",
       "options": [
-        "in white pulp",
+        "*in white pulp",
         "in red pulp.",
         "In the red pulp and medullary bands",
         "in medullary bands"
@@ -1523,7 +1522,7 @@ export const s_2_9 = {
     {
       "question": "The test(s) based on the principle of toxin neutralization is/are",
       "options": [
-        "both (a) and (b)",
+        "*both (a) and (b)",
         "none of these",
         "Schick test",
         "Nagler's reaction"
@@ -1534,7 +1533,7 @@ export const s_2_9 = {
     {
       "question": "VDRL test is an example of",
       "options": [
-        "Slide test",
+        "*Slide test",
         "Ring test",
         "Tube test",
         "none of these"
@@ -1545,7 +1544,7 @@ export const s_2_9 = {
     {
       "question": "Weil-Felix reaction is based on sharing of antigens between",
       "options": [
-        "rickettsial antigens and antigens of certain strains of Proteus",
+        "*rickettsial antigens and antigens of certain strains of Proteus",
         "mycoplasma and human O group RBCs",
         "sheep RBCs and EB virus",
         "none of these"
@@ -1558,7 +1557,7 @@ export const s_2_9 = {
     {
       "question": "A lymphocyte that identifies pathogens and distinguishes one from another.",
       "options": [
-        "T-cell",
+        "*T-cell",
         "B-cell",
         "Z-cell",
         "A-cell"
@@ -1569,7 +1568,7 @@ export const s_2_9 = {
     {
       "question": "A white blood cell that destroys pathogens by engulfing them and breaking them down is called:",
       "options": [
-        "Phagocyte",
+        "*Phagocyte",
         "Antigen",
         "B-cell",
         "Antibody"
@@ -1580,7 +1579,7 @@ export const s_2_9 = {
     {
       "question": "An inflammation reaction involves the",
       "options": [
-        "release of histamines.",
+        "*release of histamines.",
         "vasoconstriction of blood vessels",
         "agglutination of bacteria.",
         "production of immunoglobulin."
@@ -1591,7 +1590,7 @@ export const s_2_9 = {
     {
       "question": "Another name for white blood cells is:",
       "options": [
-        "Leukocytes",
+        "*Leukocytes",
         "Photosynthesis",
         "Body",
         "Blood"
@@ -1602,7 +1601,7 @@ export const s_2_9 = {
     {
       "question": "Antibodies are",
       "options": [
-        "immunoglobulins",
+        "*immunoglobulins",
         "lipids",
         "carbohydrates",
         "All"
@@ -1613,7 +1612,7 @@ export const s_2_9 = {
     {
       "question": "Antibody structure is commonly",
       "options": [
-        "Y-shaped",
+        "*Y-shaped",
         "W shaped",
         "Z shaped",
         "T-shaped"
@@ -1624,7 +1623,7 @@ export const s_2_9 = {
     {
       "question": "Any organism that causes disease like a virus or bacteria is called:",
       "options": [
-        "Pathogen",
+        "*Pathogen",
         "Antibody",
         "Phagocyte",
         "Antibiotics"
@@ -1635,7 +1634,7 @@ export const s_2_9 = {
     {
       "question": "Lymphocytes have what on their surface?",
       "options": [
-        "antibodies",
+        "*antibodies",
         "memory cells",
         "antigens",
         "All"
@@ -1646,7 +1645,7 @@ export const s_2_9 = {
     {
       "question": "Produced by B cells and designed to mark antigens to be destroyed.",
       "options": [
-        "Antibodies",
+        "*Antibodies",
         "Active Immunity",
         "Antigens",
         "Antibiotics"
@@ -1657,7 +1656,7 @@ export const s_2_9 = {
     {
       "question": "Proteins called ______ can attach to the antigen and make it useless.",
       "options": [
-        "antibodies",
+        "*antibodies",
         "antigen",
         "B cells",
         "T cells"
@@ -1668,7 +1667,7 @@ export const s_2_9 = {
     {
       "question": "The light chains are encoded by either kappa or lambda. These genes consist of different segments that are encoded for the variable and constant domain. They are",
       "options": [
-        "VJC",
+        "*VJC",
         "None",
         "CJV",
         "JVC"
@@ -1679,7 +1678,7 @@ export const s_2_9 = {
     {
       "question": "The purpose of the immune system is to:",
       "options": [
-        "Fight off sickness",
+        "*Fight off sickness",
         "Make your nose run",
         "Give you diarrhea",
         "Help germs invade your body"
@@ -1690,7 +1689,7 @@ export const s_2_9 = {
     {
       "question": "What do memory lymphocytes do?",
       "options": [
-        "Patrol the area and make the immune system work faster next time.",
+        "*Patrol the area and make the immune system work faster next time.",
         "Makes antibodies",
         "Kills the virus",
         "Eats the virus"
@@ -1701,7 +1700,7 @@ export const s_2_9 = {
     {
       "question": "What is the name of white blood cells that have molecules on their surface to fit an antigen?",
       "options": [
-        "lymphocytes",
+        "*lymphocytes",
         "fighter white blood cells",
         "memory cells",
         "red blood cells"
@@ -1712,7 +1711,7 @@ export const s_2_9 = {
     {
       "question": "Which cells produce antibodies to pathogens?",
       "options": [
-        "lymphocytes",
+        "*lymphocytes",
         "Red blood cells",
         "Bacteria",
         "phagocytes"
@@ -1723,7 +1722,7 @@ export const s_2_9 = {
     {
       "question": "Which of the antibody may be co expressed by the B-Cells",
       "options": [
-        "IgM and IgD",
+        "*IgM and IgD",
         "IgG and IgE",
         "IgM and IgA",
         "IgG and IgD"
@@ -1734,7 +1733,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following categorized as third line defense?",
       "options": [
-        "Antibody",
+        "*Antibody",
         "Hydrochloric acid",
         "Lysozymes",
         "Mucosa membrane"
@@ -1745,7 +1744,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following results find in diversity of antibody",
       "options": [
-        "all",
+        "*all",
         "VDJ arrangement",
         "Association of L and H chain",
         "Somatic hypermutation"
@@ -1756,7 +1755,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following transcription factor binds to the immunoglobulin promoter",
       "options": [
-        "Oct 11",
+        "*Oct 11",
         "E2b",
         "Myc",
         "Rb2"
@@ -1767,7 +1766,7 @@ export const s_2_9 = {
     {
       "question": "White blood cells are the main cells of the immune system. Where are they produced?",
       "options": [
-        "Bone marrow",
+        "*Bone marrow",
         "Stomach",
         "None of the above",
         "Veins & Arteries"
@@ -1780,7 +1779,7 @@ export const s_2_9 = {
     {
       "question": "A change from lysogeny to lysis is generally induced by",
       "options": [
-        "ultraviolet light",
+        "*ultraviolet light",
         "irradiation",
         "all of these",
         "chemicals"
@@ -1791,7 +1790,7 @@ export const s_2_9 = {
     {
       "question": "Enveloped viruses have a ______ shape.",
       "options": [
-        "roughly spherical",
+        "*roughly spherical",
         "helical",
         "complex",
         "icosahedral"
@@ -1802,7 +1801,7 @@ export const s_2_9 = {
     {
       "question": "In order for a virus to replicate",
       "options": [
-        "the genome must be released in the cytoplasm",
+        "*the genome must be released in the cytoplasm",
         "the capsid must enter the host cell cytoplasm",
         "the host cell must lack a cell membrane",
         "the host cell must be undergoing mitosis"
@@ -1813,7 +1812,7 @@ export const s_2_9 = {
     {
       "question": "One of the first enzymes synthesized by many bacteriophage is _____, an RNA-dependent RNA polymerase.",
       "options": [
-        "RNA replicase",
+        "*RNA replicase",
         "RNA ligase",
         "RNA transcriptase",
         "RNA polymerase"
@@ -1824,7 +1823,7 @@ export const s_2_9 = {
     {
       "question": "Reverse transcriptase is a useful enzyme to have when",
       "options": [
-        "an RNA virus converts its RNA to DNA",
+        "*an RNA virus converts its RNA to DNA",
         "nutrients are scarce",
         "there are no host cells present",
         "spikes are forming in the new virus"
@@ -1835,7 +1834,7 @@ export const s_2_9 = {
     {
       "question": "The first step in infection of a host bacterial cells by a phage is",
       "options": [
-        "adsorption",
+        "*adsorption",
         "absorption",
         "penetration",
         "replication"
@@ -1846,7 +1845,7 @@ export const s_2_9 = {
     {
       "question": "The procapsid is assembled with the aid of ____ proteins.",
       "options": [
-        "scaffolding",
+        "*scaffolding",
         "ladder",
         "framing",
         "form"
@@ -1857,7 +1856,7 @@ export const s_2_9 = {
     {
       "question": "The viral DNA is removed from the host's chromosomes and the lytic cycle occurs. The process is called",
       "options": [
-        "spontaneous induction",
+        "*spontaneous induction",
         "inductive infection",
         "spontaneous infection",
         "resultant induction"
@@ -1868,7 +1867,7 @@ export const s_2_9 = {
     {
       "question": "The viral nucleocapsid is the combination of",
       "options": [
-        "genome and capsid",
+        "*genome and capsid",
         "capsomere and genome",
         "capsid and spikes",
         "envelope and capsid"
@@ -1879,7 +1878,7 @@ export const s_2_9 = {
     {
       "question": "The viruses in an attenuated vaccine",
       "options": [
-        "continue to replicate",
+        "*continue to replicate",
         "have no genome",
         "are usually larger than bacteria",
         "is altered with chemicals"
@@ -1890,7 +1889,7 @@ export const s_2_9 = {
     {
       "question": "Usually viruses are separated into several large groups based primarily on",
       "options": [
-        "nature of the host",
+        "*nature of the host",
         "nuclear acid characteristics",
         "diameter of the virion or nucleocapsid",
         "capsid symmetry"
@@ -1901,7 +1900,7 @@ export const s_2_9 = {
     {
       "question": "Viruses largely lack metabolic machinery of their own to generate energy or to synthesize",
       "options": [
-        "protein",
+        "*protein",
         "all of these",
         "carbohydrate",
         "alcohol"
@@ -1912,7 +1911,7 @@ export const s_2_9 = {
     {
       "question": "Viruses require _____ for growth.",
       "options": [
-        "living cells",
+        "*living cells",
         "bacteria",
         "animals",
         "plants"
@@ -1923,7 +1922,7 @@ export const s_2_9 = {
     {
       "question": "When a virus enters a cell but does not replicate immediately, the situation is called",
       "options": [
-        "lysogeny",
+        "*lysogeny",
         "symbiosis",
         "synergism",
         "fermentation"
@@ -1934,7 +1933,7 @@ export const s_2_9 = {
     {
       "question": "Which capsid symmetry is exhibited by most of the phages?",
       "options": [
-        "Icosahedral",
+        "*Icosahedral",
         "None of these",
         "Helical",
         "Complex"
@@ -1945,7 +1944,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following bacteria can be typed by phage typing method?",
       "options": [
-        "All of these",
+        "*All of these",
         "Vibrio cholerae",
         "Salmonella typhi",
         "Staphylococcus aureus"
@@ -1956,7 +1955,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following is/are synthesized from late mRNA?",
       "options": [
-        "All of the above",
+        "*All of the above",
         "Proteins that help with phage assembly without becoming part of the virion structure",
         "Proteins involved in cell lysis and phage release",
         "Phage structural proteins"
@@ -1967,7 +1966,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following may affect proteins and nucleic acids, but not viruses?",
       "options": [
-        "All of these",
+        "*All of these",
         "Enzyme treatment",
         "Denaturation",
         "Pressure"
@@ -1978,7 +1977,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following viruses has not been associated with human cancer?",
       "options": [
-        "Varicella-Zoster virus",
+        "*Varicella-Zoster virus",
         "Hepatitis B virus",
         "Hepatitis C virus",
         "Herpes simplex virus type 2"
@@ -1989,7 +1988,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following viruses show/s transformation of infected cells?",
       "options": [
-        "All of these",
+        "*All of these",
         "Epstein-Barr virus",
         "Human T cell lymphotrophic virus type I",
         "Hepatitis B virus"
@@ -2002,7 +2001,7 @@ export const s_2_9 = {
     {
       "question": "A respiratory disease spread by the droplet aerosol route during winter, causing severe headache, cough, fever, malaise and congestion is most compatible with which of the following as an etiologic agent?",
       "options": [
-        "Influenza A virus",
+        "*Influenza A virus",
         "Chicken pox",
         "Mumps",
         "Influenza C"
@@ -2013,7 +2012,7 @@ export const s_2_9 = {
     {
       "question": "During the epidemic of flu Influenza viruses are predominantly transmitted by:",
       "options": [
-        "The aerosol route and close physical contact during the winter",
+        "*The aerosol route and close physical contact during the winter",
         "Close physical contact during the summer",
         "The fecal-oral route during the winter",
         "The aerosol route during the summer"
@@ -2024,7 +2023,7 @@ export const s_2_9 = {
     {
       "question": "Find the correct statement about envelope proteins of measles, mumps and the parainfluenza viruses:",
       "options": [
-        "Measles has a hemagglutinin but no neuraminidase; mumps and parainfluenza have hemagglutinin and neuraminidase",
+        "*Measles has a hemagglutinin but no neuraminidase; mumps and parainfluenza have hemagglutinin and neuraminidase",
         "Measles has a neuraminidase but no hemagglutinin; mumps and parainfluenza have hemagglutinin and neuraminidase",
         "Measles has no hemagglutinin or neuraminidase, mumps and parainfluenza have only neuraminidase",
         "Measles has a neuraminidase but no hemagglutinin; mumps and parainfluenza have only hemagglutinin"
@@ -2035,7 +2034,7 @@ export const s_2_9 = {
     {
       "question": "Find the correct statement about envelope proteins of measles, mumps and the parainfluenza viruses:",
       "options": [
-        "Measles has a hemagglutinin but no neuraminidase; mumps and parainfluenza have hemagglutinin and neuraminidase",
+        "*Measles has a hemagglutinin but no neuraminidase; mumps and parainfluenza have hemagglutinin and neuraminidase",
         "Measles has no hemagglutinin or neuraminidase, mumps and parainfluenza have only neuraminidase",
         "Measles has a neuraminidase but no hemagglutinin; mumps and parainfluenza have only hemagglutinin",
         "Measles has no hemagglutinin or neuraminidase, mumps and parainfluenza have hemagglutinin and no neuraminidase"
@@ -2046,7 +2045,7 @@ export const s_2_9 = {
     {
       "question": "For serological diagnostics of mumps such material is used:",
       "options": [
-        "paired serums.",
+        "*paired serums.",
         "blood",
         "urine",
         "saliva"
@@ -2057,7 +2056,7 @@ export const s_2_9 = {
     {
       "question": "Influenza viruses are predominantly transmitted by:",
       "options": [
-        "The aerosol route and close physical contact during the winter",
+        "*The aerosol route and close physical contact during the winter",
         "The aerosol route during the summer",
         "The fecal-oral route during the winter",
         "Close physical contact during the summer"
@@ -2068,7 +2067,7 @@ export const s_2_9 = {
     {
       "question": "Measles and mumps retrospective diagnostics includes:",
       "options": [
-        "HIT with paired serums",
+        "*HIT with paired serums",
         "rhinocytoscopy",
         "CFT with specific serums",
         "NT (color test) with paired serums"
@@ -2079,7 +2078,7 @@ export const s_2_9 = {
     {
       "question": "Measles is a member of the paramyxovirus family, but it differs from mumps and the parainfluenza viruses structurally with respect to envelope proteins. How do they differ?",
       "options": [
-        "Measles has a hemagglutinin but no neuraminidase; mumps and parainfluenza have hemagglutinin and neuraminidase",
+        "*Measles has a hemagglutinin but no neuraminidase; mumps and parainfluenza have hemagglutinin and neuraminidase",
         "Measles has no hemagglutinin or neuraminidase, mumps and parainfluenza have only neuraminidase",
         "Measles has a neuraminidase but no hemagglutinin; mumps and parainfluenza have only hemagglutinin",
         "Measles has a neuraminidase but no hemagglutinin; mumps and parainfluenza have hemagglutinin and neuraminidase"
@@ -2090,7 +2089,7 @@ export const s_2_9 = {
     {
       "question": "Measles is a member of the paramyxovirus family, but it differs from mumps and the parainfluenza viruses structurally with respect to envelope proteins. How do they differ?",
       "options": [
-        "Measles has a hemagglutinin but no neuraminidase; mumps and parainfluenza have hemagglutinin and neuraminidase",
+        "*Measles has a hemagglutinin but no neuraminidase; mumps and parainfluenza have hemagglutinin and neuraminidase",
         "Measles has a neuraminidase but no hemagglutinin; mumps and parainfluenza have hemagglutinin and neuraminidase",
         "Measles has no hemagglutinin or neuraminidase, mumps and parainfluenza have only neuraminidase",
         "Measles has no hemagglutinin or neuraminidase, mumps and parainfluenza have hemagglutinin and no neuraminidase"
@@ -2101,7 +2100,7 @@ export const s_2_9 = {
     {
       "question": "Measles Virus Infection",
       "options": [
-        "May be prevented by vaccination",
+        "*May be prevented by vaccination",
         "May respond to acyclovir",
         "Causes of vesicular rash",
         "May cause parotitis"
@@ -2112,7 +2111,7 @@ export const s_2_9 = {
     {
       "question": "Paralytic disease is a risk factor when using this vaccine.",
       "options": [
-        "Sabin vaccine",
+        "*Sabin vaccine",
         "Salk vaccine",
         "Influenza",
         "Measles"
@@ -2123,7 +2122,7 @@ export const s_2_9 = {
     {
       "question": "Retrospective diagnostics of measles and mumps includes:",
       "options": [
-        "HIT with paired serums",
+        "*HIT with paired serums",
         "rhinocytoscopy",
         "NT (color test) with paired serums",
         "CFT with specific serums"
@@ -2134,7 +2133,7 @@ export const s_2_9 = {
     {
       "question": "The genome of the orthomyxoviruses contain:",
       "options": [
-        "Segmented RNA genome",
+        "*Segmented RNA genome",
         "Nonsegmented RNA genome",
         "Segmented DNA genome",
         "Supercoiled double stranded DNA genome"
@@ -2145,7 +2144,7 @@ export const s_2_9 = {
     {
       "question": "The prophylaxis of mumps is conducted by:",
       "options": [
-        "live vaccine",
+        "*live vaccine",
         "the killed vaccine",
         "toxoid",
         "immunoglobulin"
@@ -2156,7 +2155,7 @@ export const s_2_9 = {
     {
       "question": "The ________ of the influenza-enveloped virus appear to be involved in attachment to the host cell receptor site.",
       "options": [
-        "hemaglutinin",
+        "*hemaglutinin",
         "fimbriae",
         "neuraminidase",
         "flagellae"
@@ -2167,7 +2166,7 @@ export const s_2_9 = {
     {
       "question": "Vaccine associated poliomyelitis is a risk factor when using this vaccine.",
       "options": [
-        "Sabin vaccine",
+        "*Sabin vaccine",
         "Measles",
         "Salk vaccine",
         "Influenza"
@@ -2178,7 +2177,7 @@ export const s_2_9 = {
     {
       "question": "What of the following proteins are present in the envelope of the parainfluenza and mumps viruses?",
       "options": [
-        "Hemagglutinin, neuraminidase and fusion proteins present",
+        "*Hemagglutinin, neuraminidase and fusion proteins present",
         "Hemagglutinin, but no neuraminidase or fusion proteins present",
         "Fusion protein, but no hemagglutinin or neuraminidase present",
         "Neuraminidase, but no hemagglutinin protein present"
@@ -2189,7 +2188,7 @@ export const s_2_9 = {
     {
       "question": "What of the following statements accurately describes the envelope constituents of the parainfluenza and mumps viruses?",
       "options": [
-        "Hemagglutinin, neuraminidase and fusion proteins present",
+        "*Hemagglutinin, neuraminidase and fusion proteins present",
         "Neuraminidase, but no hemagglutinin protein present",
         "Hemagglutinin and neuraminidase, but no fusion protein present",
         "Hemagglutinin, but no neuraminidase or fusion proteins present"
@@ -2200,7 +2199,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following proteins are present in the envelope of the parainfluenza and mumps viruses?",
       "options": [
-        "Hemagglutinin, neuraminidase and fusion proteins present",
+        "*Hemagglutinin, neuraminidase and fusion proteins present",
         "Hemagglutinin, but no neuraminidase or fusion proteins present",
         "Hemagglutinin and neuraminidase, but no fusion proteins present",
         "Neuraminidase, but no hemagglutinin protein present"
@@ -2211,7 +2210,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following statements accurately describes the envelope constituents of the parainfluenza and mumps viruses?",
       "options": [
-        "Hemagglutinin, neuraminidase and fusion proteins present",
+        "*Hemagglutinin, neuraminidase and fusion proteins present",
         "Neuraminidase, but no hemagglutinin protein present",
         "Hemagglutinin and neuraminidase, but no fusion protein present",
         "Hemagglutinin, but no neuraminidase or fusion proteins present"
@@ -2224,7 +2223,7 @@ export const s_2_9 = {
     {
       "question": "The envelope of an enveloped virus is derived from",
       "options": [
-        "the cell membrane",
+        "*the cell membrane",
         "the mitochondria of the cell",
         "none of these",
         "the endoplasmic reticulum of the cell"
@@ -2235,7 +2234,7 @@ export const s_2_9 = {
     {
       "question": "The first step in infection of a host bacterial cells by a phage is",
       "options": [
-        "adsorption",
+        "*adsorption",
         "penetration",
         "replication",
         "absorption"
@@ -2246,7 +2245,7 @@ export const s_2_9 = {
     {
       "question": "The function of a viral capsid is",
       "options": [
-        "all of the above",
+        "*all of the above",
         "protection against the viral genome from physical and enzymatic destruction",
         "providing binding sites that enable the virus to attach to specific receptor sites on the host cell",
         "serving as a vehicle of transmission from one host to another"
@@ -2257,7 +2256,7 @@ export const s_2_9 = {
     {
       "question": "The size of viruses is usually measured in",
       "options": [
-        "nanometers",
+        "*nanometers",
         "centimeters",
         "millimeters",
         "micrometers"
@@ -2268,7 +2267,7 @@ export const s_2_9 = {
     {
       "question": "The species of animals which is most susceptible to rabies infection is",
       "options": [
-        "cat",
+        "*cat",
         "Cow",
         "fowl",
         "dog"
@@ -2279,7 +2278,7 @@ export const s_2_9 = {
     {
       "question": "The temperate phage possesses a gene that codes for a repressor protein which makes the cell resistant to lysis initiated by",
       "options": [
-        "Both (a) and (b)",
+        "*Both (a) and (b)",
         "none of these",
         "the prophage",
         "lytic infection by other viruses"
@@ -2290,7 +2289,7 @@ export const s_2_9 = {
     {
       "question": "The time from infection until lysis is called as",
       "options": [
-        "latent period",
+        "*latent period",
         "eclipse period",
         "burst size",
         "rise period"
@@ -2301,7 +2300,7 @@ export const s_2_9 = {
     {
       "question": "The viral nucleocapsid is the combination of",
       "options": [
-        "genome and capsid",
+        "*genome and capsid",
         "capsomere and genome",
         "envelope and capsid",
         "capsid and spikes"
@@ -2312,7 +2311,7 @@ export const s_2_9 = {
     {
       "question": "Virus reproduces in living cells by",
       "options": [
-        "replication",
+        "*replication",
         "multiplication",
         "duplication",
         "all of these"
@@ -2323,7 +2322,7 @@ export const s_2_9 = {
     {
       "question": "Viruses can be purified based on their size and density by using",
       "options": [
-        "gradient centrifugation",
+        "*gradient centrifugation",
         "differential centrifugation",
         "precipitation",
         "none of these"
@@ -2334,7 +2333,7 @@ export const s_2_9 = {
     {
       "question": "Viruses largely lack metabolic machinery of their own to generate energy or to synthesize",
       "options": [
-        "protein",
+        "*protein",
         "all of these",
         "carbohydrate",
         "alcohol"
@@ -2345,7 +2344,7 @@ export const s_2_9 = {
     {
       "question": "Viruses require _______ for growth.",
       "options": [
-        "living cells",
+        "*living cells",
         "animals",
         "plants",
         "bacteria"
@@ -2356,7 +2355,7 @@ export const s_2_9 = {
     {
       "question": "What is the shape of rabies virus?",
       "options": [
-        "Bullet-shaped",
+        "*Bullet-shaped",
         "Polygonal",
         "Tubular",
         "Spherical"
@@ -2367,7 +2366,7 @@ export const s_2_9 = {
     {
       "question": "What kind of embryo is often used for viral assays?",
       "options": [
-        "Chicken",
+        "*Chicken",
         "Rat",
         "Mouse",
         "Cat"
@@ -2378,7 +2377,7 @@ export const s_2_9 = {
     {
       "question": "When a virus enters a cell but does not replicate immediately, the situation is called",
       "options": [
-        "lysogeny",
+        "*lysogeny",
         "synergism",
         "fermentation",
         "symbiosis"
@@ -2389,7 +2388,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following clinical specimens can be used for the demonstration of rabies antigen by direct immunofluorescence antemortem?",
       "options": [
-        "All of these",
+        "*All of these",
         "Salivary smears",
         "Conjunctival smears",
         "Corneal smears"
@@ -2400,7 +2399,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following has been linked to Kaposi's sarcoma?",
       "options": [
-        "Human herpes virus 8",
+        "*Human herpes virus 8",
         "Epstein-Barr virus",
         "Human papilloma virus",
         "Human T-cell lymphotropic virus"
@@ -2411,7 +2410,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following viral infections is associated with the development of hydrophobia?",
       "options": [
-        "Rabies",
+        "*Rabies",
         "Polio",
         "Influenza",
         "Hepatitis"
@@ -2422,7 +2421,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following virus is enveloped?",
       "options": [
-        "Herpes",
+        "*Herpes",
         "Polio",
         "None of these",
         "Adeno"
@@ -2433,7 +2432,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following virus is susceptible to chloroform?",
       "options": [
-        "All of these",
+        "*All of these",
         "Influenza",
         "Measles",
         "Herpes"
@@ -2446,7 +2445,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following viruses has not been associated with human cancer?",
       "options": [
-        "Rotavirus",
+        "*Rotavirus",
         "Herpes simplex virus type 2",
         "Hepatitis C virus",
         "Hepatitis B virus"
@@ -2457,7 +2456,7 @@ export const s_2_9 = {
     {
       "question": "In cancer, the reversion of cells to a more primitive or less differentiated state is called",
       "options": [
-        "anaplasia",
+        "*anaplasia",
         "metastasis",
         "neoplasia",
         "oncogenic"
@@ -2468,7 +2467,7 @@ export const s_2_9 = {
     {
       "question": "The disease(s) caused by genus Orthopoxvirus is/are",
       "options": [
-        "All of these",
+        "*All of these",
         "Vaccinia",
         "Smallpox",
         "Cowpox"
@@ -2479,7 +2478,7 @@ export const s_2_9 = {
     {
       "question": "The disease(s) caused by genus parapoxviridae is/are",
       "options": [
-        "All of these",
+        "*All of these",
         "Vaccinia",
         "Cowpox",
         "Smallpox"
@@ -2490,7 +2489,7 @@ export const s_2_9 = {
     {
       "question": "The envelope of which of the following viruses is derived from the host cell membrane?",
       "options": [
-        "Adenoviruses",
+        "*Adenoviruses",
         "Retroviruses",
         "Herpesviruses",
         "Orthomyxoviruses"
@@ -2501,7 +2500,7 @@ export const s_2_9 = {
     {
       "question": "The first step in infection of a host bacterial cells by a phage is",
       "options": [
-        "adsorption",
+        "*adsorption",
         "replication",
         "absorption",
         "penetration"
@@ -2512,7 +2511,7 @@ export const s_2_9 = {
     {
       "question": "The oncogene theory refers to",
       "options": [
-        "how viruses transform normal cells into tumor cells",
+        "*how viruses transform normal cells into tumor cells",
         "how viruses replicate in host cells",
         "how chemicals inactivate viruses when applied",
         "none of these"
@@ -2523,7 +2522,7 @@ export const s_2_9 = {
     {
       "question": "The symmetry of nucleocapsid of poxviruses is/are",
       "options": [
-        "complex",
+        "*complex",
         "helical",
         "all of these",
         "icosahedral"
@@ -2534,7 +2533,7 @@ export const s_2_9 = {
     {
       "question": "The virus(es) which can cause aseptic factor is/are",
       "options": [
-        "Coronaviradae",
+        "*Coronaviradae",
         "All of these",
         "Coxsackieviruses",
         "Polioviruses"
@@ -2545,7 +2544,7 @@ export const s_2_9 = {
     {
       "question": "The virus(es) which can cause aseptic meningitis is/are",
       "options": [
-        "All of these",
+        "*All of these",
         "Coxsackieviruses",
         "Polioviruses",
         "Echo viruses"
@@ -2556,7 +2555,7 @@ export const s_2_9 = {
     {
       "question": "Which family has received in their development as a biological control agent insects?",
       "options": [
-        "Rotoviradae",
+        "*Rotoviradae",
         "Reoviridae",
         "Iridoviridae",
         "Poxviridae"
@@ -2567,7 +2566,7 @@ export const s_2_9 = {
     {
       "question": "Which family has received most interest in their development as a biological control agent against insects?",
       "options": [
-        "Poxviridae",
+        "*Poxviridae",
         "Iridoviridae",
         "Reoviridae",
         "Baculoviridae"
@@ -2578,7 +2577,7 @@ export const s_2_9 = {
     {
       "question": "Which family has received most interest in their development as a biological control agent antagonistic insects?",
       "options": [
-        "Poxviridae",
+        "*Poxviridae",
         "Reoviridae",
         "Iridoviridae",
         "Baculoviridae"
@@ -2589,7 +2588,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following genera can cause disease in humans?",
       "options": [
-        "All of these",
+        "*All of these",
         "Molluscipoxvirus",
         "Parapoxvirus",
         "Orthopoxvirus"
@@ -2600,7 +2599,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following genera can cause disease in mammals?",
       "options": [
-        "All of these",
+        "*All of these",
         "Molluscipoxvirus",
         "Orthopoxvirus",
         "Parapoxvirus"
@@ -2611,7 +2610,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following genera is included in the family Poxviridae?",
       "options": [
-        "Parapoxviridae",
+        "*Parapoxviridae",
         "Rhinovirus",
         "Hepatovirus",
         "Enterovirus"
@@ -2622,7 +2621,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following virus is always detectable before infections?",
       "options": [
-        "Adenoviridae",
+        "*Adenoviridae",
         "Hepatitis B virus",
         "Herpes simplex virus",
         "Cytomegalovirus"
@@ -2633,7 +2632,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following virus is susceptible to chloroform?",
       "options": [
-        "All of these",
+        "*All of these",
         "Rotoviridae",
         "Coronavirus",
         "Poxsoviridae"
@@ -2644,7 +2643,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following viruses belong to family poxovirus?",
       "options": [
-        "Parapoxvirus",
+        "*Parapoxvirus",
         "Yellow fever virus",
         "Hepatitis C virus",
         "All of these"
@@ -2655,7 +2654,7 @@ export const s_2_9 = {
     {
       "question": "Which of the following viruses belong/s to family viridae?",
       "options": [
-        "All of these",
+        "*All of these",
         "Rotoviridae",
         "Poksoviridae",
         "Adenoviridae"

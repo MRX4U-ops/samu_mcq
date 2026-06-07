@@ -1,11 +1,10 @@
 export const s_2_2 = {
   "t-s-2-2-0": [
     {
-      "question": "A surgery is performed within 10 hours of the patient arrival is?",
+      "question": "Laproscopic",
       "options": [
-        "Emergency",
+        "*Emergency",
         "Endoscopic",
-        "Laproscopic",
         "Elective",
         "Urgency"
       ],
@@ -13,10 +12,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Emergency'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "A surgery is performed within minutes of the patient arrival is?",
+      "question": "Laproscopic",
       "options": [
-        "Urgency",
-        "Laproscopic",
+        "*Urgency",
         "Elective",
         "Emergency",
         "Endoscopic"
@@ -25,23 +23,21 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Urgency'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "A surgery is performed within no exact time frame is?",
+      "question": "Laproscopic",
       "options": [
-        "Elective",
+        "*Elective",
         "Emergency",
         "Endoscopic",
-        "Urgency",
-        "Laproscopic"
+        "Urgency"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'Elective'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "A Surgical Cut or incision is made in an Organ is called?",
+      "question": "Incision",
       "options": [
-        "Otomy",
+        "*Otomy",
         "Ostomy",
-        "Incision",
         "Ectomy",
         "Plasty"
       ],
@@ -49,10 +45,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Otomy'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "A surgical procedure is perfomed to remove gall bladder called?",
+      "question": "Cholecystectomy",
       "options": [
-        "Cholecystectomy",
-        "Laparotomy",
+        "*Laparotomy",
         "Mastectomy",
         "Nephrectomy",
         "Hysterectomy"
@@ -61,10 +56,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Cholecystectomy'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "A surgical Removal Of part of an organ or whole organ?",
+      "question": "Incision",
       "options": [
-        "Ectomy",
-        "Incision",
+        "*Ectomy",
         "Otomy",
         "Ostomy",
         "Plasty"
@@ -73,10 +67,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Ectomy'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "How many types of consents are used in medical practice?",
+      "question": "4",
       "options": [
-        "4",
-        "1",
+        "*1",
         "6",
         "3",
         "5"
@@ -85,11 +78,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is '4'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "How to hold a scalpel for long and firm incision?",
+      "question": "Opposite hand grip",
       "options": [
-        "Palm grip",
+        "*Palm grip",
         "Knife grip",
-        "Opposite hand grip",
         "Pencil grip",
         "Fingertip grip"
       ],
@@ -97,35 +89,32 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Palm grip'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Non Absorbable suture among the following is ?",
+      "question": "Polydiaxanone",
       "options": [
-        "Proline",
+        "*Proline",
         "Monofilament",
         "Monocryl",
-        "Polyglactic",
-        "Polydiaxanone"
+        "Polyglactic"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'Proline'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Silk is associated with infection because",
+      "question": "Infection goes deeper during bite",
       "options": [
-        "It has services lodging bacteria",
+        "*It has services lodging bacteria",
         "Causes irritation",
         "Cannot be properly sterilized",
-        "Infection goes deeper during bite",
         "It is non-absorbable"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'It has services lodging bacteria'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Surgery performed to enhance the appearance of a person is?",
+      "question": "Incisional",
       "options": [
-        "Cosmetic",
+        "*Cosmetic",
         "Ablative",
-        "Incisional",
         "Diagnostic",
         "Palliative"
       ],
@@ -133,10 +122,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Cosmetic'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Surgical removal of limb at the level of the joint?",
+      "question": "Disarticulation",
       "options": [
-        "Disarticulation",
-        "Excision",
+        "*Excision",
         "Trepanation",
         "Amputation",
         "Baseline"
@@ -145,46 +133,42 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Disarticulation'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Surgical removal of limb?",
+      "question": "Disarticulation",
       "options": [
-        "Amputation",
+        "*Amputation",
         "Excision",
         "Trepanation",
-        "Baseline",
-        "Disarticulation"
+        "Baseline"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'Amputation'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The area where surgical incision is performed is?",
+      "question": "Contaminated area",
       "options": [
-        "Sterile field",
+        "*Sterile field",
         "Antiseptics",
         "Clean procedure",
-        "Contaminated area",
         "Surgical asepsis"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'Sterile field'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The period used during operation is ?",
+      "question": "Operative period",
       "options": [
-        "Intraoperative",
+        "*Intraoperative",
         "Peri operative",
         "Pre operative",
-        "Post operative",
-        "Operative period"
+        "Post operative"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'Intraoperative'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "the Surgery used in abdomen to find the diagnosis is?",
+      "question": "Exploratory laparotomy",
       "options": [
-        "Exploratory laparotomy",
-        "Raphy",
+        "*Raphy",
         "Laprscopy surgery",
         "Laparotomy",
         "Plasty"
@@ -193,10 +177,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Exploratory laparotomy'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "What is the function of retractors?",
+      "question": "To expose the internal organs for better reach",
       "options": [
-        "To expose the internal organs for better reach",
-        "To make an incision",
+        "*To make an incision",
         "To dissect organs",
         "To cut organs",
         "To clamp"
@@ -205,23 +188,21 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'To expose the internal organs for better reach'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "What is the most initial step after completing a surgery?",
+      "question": "Ward care",
       "options": [
-        "ICU care",
+        "*ICU care",
         "OT care",
         "OPD care",
-        "Ward care",
         "Home care"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'ICU care'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "What is the opening called used for feeding and draining?",
+      "question": "Anastomosis",
       "options": [
-        "Stoma",
+        "*Stoma",
         "Lapa",
-        "Anastomosis",
         "Baseline",
         "Plasty"
       ],
@@ -229,10 +210,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Stoma'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Which of the following is an absorbable suture material ?",
+      "question": "Polydioxanone",
       "options": [
-        "Polydioxanone",
-        "Polypropylene",
+        "*Polypropylene",
         "Silk",
         "Monofilament",
         "Polyamide"
@@ -243,11 +223,10 @@ export const s_2_2 = {
   ],
   "t-s-2-2-1": [
     {
-      "question": "The suprascapular nerve supplies:",
+      "question": "Muscle inserted into the middle impression of the greater tuberosity of the humerus.",
       "options": [
-        "All of the above.",
+        "*All of the above.",
         "Muscle inserted into the upper impression of the greater tuberosity of the humerus.",
-        "Muscle inserted into the middle impression of the greater tuberosity of the humerus.",
         "Muscle that initiates abduction of the arm.",
         "a and b only."
       ],
@@ -255,10 +234,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'All of the above.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Lesion of the axillary nerve causes:",
+      "question": "Winging of the scapula.",
       "options": [
-        "Flat shoulder.",
-        "Winging of the scapula.",
+        "*Flat shoulder.",
         "Claw hand.",
         "Ape hand.",
         "Wrist drop."
@@ -267,10 +245,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Flat shoulder.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Muscles that rotate the scapula downward are attached to:",
+      "question": "Ventral lip of the medial border of the scapula.",
       "options": [
-        "Dorsal lip of the medial border of the scapula.",
-        "Ventral lip of the medial border of the scapula.",
+        "*Dorsal lip of the medial border of the scapula.",
         "Upper lip of the crest of the spine.",
         "Lower lip of the crest of the spine.",
         "a and c."
@@ -279,10 +256,9 @@ export const s_2_2 = {
       "explanation": "Correct answer: Dorsal lip of the medial border of the scapula."
     },
     {
-      "question": "Muscles that rotate the scapula upward are attached to the:",
+      "question": "Ventral lip of the medial border of the scapula.",
       "options": [
-        "a and c.",
-        "Ventral lip of the medial border of the scapula.",
+        "*a and c.",
         "Dorsal lip of the medial border of the scapula.",
         "Upper lip of the crest of the spine.",
         "Lower lip of the crest of the spine."
@@ -291,10 +267,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'a and c.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "All the muscles attached to the bicipital (intertubercular) groove:",
+      "question": "Abduct the arm (shoulder joint).",
       "options": [
-        "b and c.",
-        "Abduct the arm (shoulder joint).",
+        "*b and c.",
         "Adduct the arm.",
         "Medial rotation of the arm.",
         "a and c."
@@ -303,11 +278,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'b and c.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Anastomosis around the scapula connects the subclavian artery with the:",
+      "question": "Second part of the axillary artery.",
       "options": [
-        "Third part of the axillary artery.",
+        "*Third part of the axillary artery.",
         "First part of the axillary artery.",
-        "Second part of the axillary artery.",
         "Brachial artery.",
         "None of the above."
       ],
@@ -315,47 +289,43 @@ export const s_2_2 = {
       "explanation": "Correct answer: Third part of the axillary artery."
     },
     {
-      "question": "Actions of the latissimus dorsi:",
+      "question": "Laterally rotates the arm.",
       "options": [
-        "None of the above.",
+        "*None of the above.",
         "Flexes the arm.",
         "Abducts the arm.",
-        "Laterally rotates the arm.",
         "All of the above."
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'None of the above.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Triangle of auscultation is associated with all of the following EXCEPT:",
+      "question": "Medial border of the scapula.",
       "options": [
-        "Teres major.",
+        "*Teres major.",
         "Latissimus dorsi.",
         "Rhomboid major.",
-        "Trapezius.",
-        "Medial border of the scapula."
+        "Trapezius."
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'Teres major.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The quadrangular space is bounded by all of the following EXCEPT:",
+      "question": "Surgical neck of the humerus.",
       "options": [
-        "Long head of biceps.",
+        "*Long head of biceps.",
         "Teres minor.",
         "Teres major.",
-        "Long head of triceps.",
-        "Surgical neck of the humerus."
+        "Long head of triceps."
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'Long head of biceps.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Regarding the biceps brachii, one is INCORRECT:",
+      "question": "Has short head attached to the tip of the coracoid process.",
       "options": [
-        "It is powerful supinator of the extended elbow.",
+        "*It is powerful supinator of the extended elbow.",
         "Has long head attached to the supraglenoid tubercle.",
-        "Has short head attached to the tip of the coracoid process.",
         "Has a tendon inserted into the radial tuberosity.",
         "It flexes the elbow joint."
       ],
@@ -363,22 +333,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'It is powerful supinator of the extended elbow.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The direction of the nutrient foramen of the humerus is:",
+      "question": "None of the above.",
       "options": [
-        "Downward.",
+        "*Downward.",
         "Upward.",
         "Medially.",
-        "Laterally.",
-        "None of the above."
+        "Laterally."
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'Downward.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The bicipital aponeurosis passes obliquely deep to the:",
+      "question": "Median cubital vein.",
       "options": [
-        "Median cubital vein.",
-        "Brachial artery.",
+        "*Brachial artery.",
         "Median nerve.",
         "Radial nerve.",
         "None of the above."
@@ -387,34 +355,31 @@ export const s_2_2 = {
       "explanation": "The bicipital aponeurosis passes superficial to the brachial artery and median nerve, but deep to the median cubital vein."
     },
     {
-      "question": "In movements of the arm, the coracobrachialis assists in:",
+      "question": "Supination.",
       "options": [
-        "Flexion.",
+        "*Flexion.",
         "Extension.",
         "Abduction.",
-        "Rotation.",
-        "Supination."
+        "Rotation."
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'Flexion.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The brachial artery:",
+      "question": "The median nerve crosses in front of the artery from the medial to the lateral side.",
       "options": [
-        "In the cubital fossa, it lies medial to the biceps tendon.",
+        "*In the cubital fossa, it lies medial to the biceps tendon.",
         "Bifurcates opposite the neck of the humerus.",
         "Is deep throughout its entire course.",
-        "The median nerve crosses in front of the artery from the medial to the lateral side.",
         "None of the above."
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'In the cubital fossa, it lies medial to the biceps tendon.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The cubital fossa is bounded by the:",
+      "question": "Pronator quadratus.",
       "options": [
-        "Brachioradialis.",
-        "Pronator quadratus.",
+        "*Brachioradialis.",
         "Coracobrachialis.",
         "Biceps tendon.",
         "a and b only."
@@ -423,10 +388,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Brachioradialis.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The lateral cutaneous nerve of the forearm is derived from the:",
+      "question": "C5, 6, 7",
       "options": [
-        "C5, 6, 7",
-        "C5.",
+        "*C5.",
         "C6.",
         "C7.",
         "C6, 7, 8"
@@ -435,22 +399,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'C5, 6, 7'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The anterior compartment of the arm contains all of the following EXCEPT:",
+      "question": "Coracobrachialis.",
       "options": [
-        "Triceps.",
+        "*Triceps.",
         "Biceps.",
         "Brachialis.",
-        "Coracobrachialis.",
         "Brachial artery."
       ],
       "correctIndex": 0,
       "explanation": "The anterior compartment contains the Biceps, Brachialis, and Coracobrachialis. The Triceps is in the posterior compartment."
     },
     {
-      "question": "Muscles innervated by the musculocutaneous nerve:",
+      "question": "All of the above.",
       "options": [
-        "All of the above.",
-        "Brachialis.",
+        "*Brachialis.",
         "Coracobrachialis.",
         "Biceps.",
         "Triceps."
@@ -459,10 +421,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'All of the above.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The cubital fossa contains all of the following EXCEPT:",
+      "question": "Brachial artery.",
       "options": [
-        "Ulnar nerve.",
-        "Brachial artery.",
+        "*Ulnar nerve.",
         "Radial artery.",
         "Radial nerve.",
         "Median nerve."
@@ -471,13 +432,12 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Ulnar nerve.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The constriction below the greater and lesser tuberosities of the humerus is called:",
+      "question": "None of the above.",
       "options": [
-        "Surgical neck.",
+        "*Surgical neck.",
         "Anatomical neck.",
         "Humeral shaft.",
-        "Humeral ring.",
-        "None of the above."
+        "Humeral ring."
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'Surgical neck.'. This choice aligns with the established clinical curriculum."
@@ -485,10 +445,9 @@ export const s_2_2 = {
   ],
   "t-s-2-2-2": [
     {
-      "question": "Injury to a nerve at the wrist, the thumb is laterally rotated and adducted. The hand looks flattened and apelike. The nerve that has been damaged is the ?",
+      "question": "superficial branch of the radial nerve.",
       "options": [
-        "median nerve",
-        "superficial branch of the radial nerve.",
+        "*median nerve",
         "ulnar nerve.",
         "anterior interosseous nerve.",
         "deep branch of the radial nerve."
@@ -497,34 +456,31 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'median nerve'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "During its course in the upper limb, the axillary nerve lies?",
+      "question": "medial to the brachial artery in the cubital fossa.",
       "options": [
-        "against the surgical neck of the humerus.",
+        "*against the surgical neck of the humerus.",
         "in front of the lateral epicondyle of the humerus.",
         "against the spiral groove of the humerus.",
-        "medial to the brachial artery in the cubital fossa.",
         "behind the medial epicondyle of the humerus."
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'against the surgical neck of the humerus.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "During its course in the upper limb, the ulnar nerve lies?",
+      "question": "medial to the brachial artery in the cubital fossa.",
       "options": [
-        "behind the medial epicondyle of the humerus",
+        "*behind the medial epicondyle of the humerus",
         "in front of the lateral epicondyle of the humerus.",
         "behind the flexor retinaculum of the wrist.",
-        "against the spiral groove of the humerus.",
-        "medial to the brachial artery in the cubital fossa."
+        "against the spiral groove of the humerus."
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'behind the medial epicondyle of the humerus'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "During its course in the upper limb, the median nerve lies?",
+      "question": "medial to the brachial artery in the cubital fossa",
       "options": [
-        "medial to the brachial artery in the cubital fossa",
-        "anterior to the flexor retinaculum of the wrist.",
+        "*anterior to the flexor retinaculum of the wrist.",
         "in front of the lateral epicondyle of the humerus.",
         "against the spiral groove of the humerus.",
         "against the surgical neck of the humerus."
@@ -533,23 +489,21 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'medial to the brachial artery in the cubital fossa'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "During its course in the upper limb the radial nerve lies?",
+      "question": "medial to the brachial artery in the cubital fossa.",
       "options": [
-        "against the spiral groove of the humerus.",
+        "*against the spiral groove of the humerus.",
         "in front of the medial epicondyle of the humerus.",
         "behind the flexor retinaculum of the wrist.",
-        "medial to the brachial artery in the cubital fossa.",
         "against the surgical neck of the humerus."
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'against the spiral groove of the humerus.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The dorsal interossei muscles are innervated by the?",
+      "question": "superficial branch of the ulnar nerve.",
       "options": [
-        "deep branch of the ulnar nerve.",
+        "*deep branch of the ulnar nerve.",
         "deep branch of the radial nerve.",
-        "superficial branch of the ulnar nerve.",
         "median nerve.",
         "recurrent branch of the median nerve."
       ],
@@ -557,22 +511,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'deep branch of the ulnar nerve.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "At the wrist, the flexor retinaculum is attached to the following bones except which?",
+      "question": "The tubercle of the scaphoid",
       "options": [
-        "The triquetral bone",
+        "*The triquetral bone",
         "The pisiform bone",
         "The hook of the hamate",
-        "The tubercle of the scaphoid",
         "The ridge on the trapezium"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'The triquetral bone'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Collateral circulation around the shoulder joint would involve the following except which?",
+      "question": "The anterior circumflex humeral artery",
       "options": [
-        "The superficial cervical artery",
-        "The anterior circumflex humeral artery",
+        "*The superficial cervical artery",
         "The suprascapular artery",
         "The subscapular artery",
         "The lateral thoracic artery"
@@ -581,10 +533,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'The superficial cervical artery'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Cutting the dorsal scapular nerve would most likely result in paralysis of the ?",
+      "question": "rhomboid major muscle.",
       "options": [
-        "rhomboid major muscle.",
-        "trapezius muscle.",
+        "*trapezius muscle.",
         "supraspinatus muscle.",
         "deltoid muscle.",
         "infraspinatus muscle."
@@ -593,10 +544,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'rhomboid major muscle.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The following structures pass posterior to the flexor retinaculum except which?",
+      "question": "Flexor digitorum superficialis tendons",
       "options": [
-        "Ulnar nerve",
-        "Flexor digitorum superficialis tendons",
+        "*Ulnar nerve",
         "Median nerve",
         "Flexor pollicis longus tendon",
         "Anterior interosseous nerve"
@@ -605,11 +555,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Ulnar nerve'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The following tendons are inserted into the base of the proximal phalanx of the thumb except which?",
+      "question": "Oblique head of adductor pollicis",
       "options": [
-        "Abductor pollicis longus",
+        "*Abductor pollicis longus",
         "Extensor pollicis brevis",
-        "Oblique head of adductor pollicis",
         "Flexor pollicis brevis",
         "First palmar interosseous"
       ],
@@ -617,11 +566,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Abductor pollicis longus'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The anterior fascial compartment of the forearm contains the following arteries except which?",
+      "question": "Anterior interosseous",
       "options": [
-        "Profunda",
+        "*Profunda",
         "Brachial",
-        "Anterior interosseous",
         "Radial",
         "Ulnar"
       ],
@@ -629,23 +577,21 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Profunda'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The following bones form the proximal row of carpal bones except which?",
+      "question": "Triquetral",
       "options": [
-        "Trapezium",
+        "*Trapezium",
         "Lunate",
         "Pisiform",
-        "Scaphoid",
-        "Triquetral"
+        "Scaphoid"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'Trapezium'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The dermatome present over the lateral side of the wrist is ?",
+      "question": "T1.",
       "options": [
-        "C6",
+        "*C6",
         "T2",
-        "T1.",
         "C8",
         "C5"
       ],
@@ -653,22 +599,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'C6'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The sensory innervation of the dorsal surface of the root of the thumb is the?",
+      "question": "dorsal cutaneous branch of the ulnar nerve",
       "options": [
-        "radial nerve",
+        "*radial nerve",
         "median nerve",
         "superficial branch of the ulnar nerve",
-        "dorsal cutaneous branch of the ulnar nerve",
         "posterior interosseous nerve"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'radial nerve'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The extensor carpi radialis brevis muscle is innervated by the ?",
+      "question": "deep branch of the radial nerve",
       "options": [
-        "deep branch of the radial nerve",
-        "superficial radial nerve",
+        "*superficial radial nerve",
         "deep branch of the ulnar nerve",
         "ulnar nerve",
         "radial nerve"
@@ -677,11 +621,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'deep branch of the radial nerve'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The extensor carpi radialis longus muscle is innervated by the ?",
+      "question": "deep branch of the ulnar nerve.",
       "options": [
-        "radial nerve.",
+        "*radial nerve.",
         "anterior interosseous nerve.",
-        "deep branch of the ulnar nerve.",
         "ulnar nerve.",
         "median nerve."
       ],
@@ -689,10 +632,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'radial nerve.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The lymph from the medial quadrants of the breast drain mainly into the?",
+      "question": "posterior axillary (subscapular) nodes",
       "options": [
-        "posterior axillary (subscapular) nodes",
-        "internal thoracic nodes",
+        "*internal thoracic nodes",
         "anterior axillary (pectoral) nodes",
         "lateral axillary (brachial) nodes",
         "infraclavicular (deltopectoral) nodes"
@@ -701,10 +643,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'posterior axillary (subscapular) nodes'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The following structures pass superficial to the flexor retinaculum at the wrist except which?",
+      "question": "Palmar cutaneous branch of the median nerve",
       "options": [
-        "Flexor pollicis longus tendon",
-        "Palmar cutaneous branch of the median nerve",
+        "*Flexor pollicis longus tendon",
         "Ulnar nerve",
         "Ulnar artery",
         "Palmar cutaneous branch of"
@@ -713,10 +654,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Flexor pollicis longus tendon'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The following part or branch of the brachial plexus has a terminal branch that supplies the skin on the medial side of the arm.",
+      "question": "Musculocutaneous nerve",
       "options": [
-        "Medial cord",
-        "Musculocutaneous nerve",
+        "*Medial cord",
         "Lateral cord",
         "Thoracodorsal nerve",
         "Ulnar nerve"
@@ -727,10 +667,9 @@ export const s_2_2 = {
   ],
   "t-s-2-2-3": [
     {
-      "question": "The long head of the biceps femoris muscle is innervated by the",
+      "question": "tibial portion of the sciatic nerve.",
       "options": [
-        "tibial portion of the sciatic nerve.",
-        "femoral nerve.",
+        "*femoral nerve.",
         "sural nerve.",
         "common peroneal nerve.",
         "obturator nerve."
@@ -739,10 +678,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'tibial portion of the sciatic nerve.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The gracilis muscle is innervated by the",
+      "question": "tibial portion of the sciatic nerve.",
       "options": [
-        "obturator nerve.",
-        "tibial portion of the sciatic nerve.",
+        "*obturator nerve.",
         "sural nerve.",
         "femoral nerve.",
         "common peroneal nerve."
@@ -751,34 +689,31 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'obturator nerve.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The gluteus maximus muscle is innervated by the",
+      "question": "nerve to obturator internus.",
       "options": [
-        "inferior gluteal nerve.",
+        "*inferior gluteal nerve.",
         "superior gluteal nerve.",
         "nerve to quadratus femoris.",
-        "nerve to obturator internus.",
         "obturator nerve."
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'inferior gluteal nerve.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The sartorius muscle is innervated by the",
+      "question": "lateral cutaneous nerve of the thigh.",
       "options": [
-        "femoral nerve.",
+        "*femoral nerve.",
         "obturator nerve.",
         "nerve to vastus medialis.",
-        "superior gluteal nerve.",
-        "lateral cutaneous nerve of the thigh."
+        "superior gluteal nerve."
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'femoral nerve.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "A malignant melanoma (cancer) of the skin covering the buttock is likely to spread via lymphatics to the",
+      "question": "horizontal group of superficial inguinal nodes.",
       "options": [
-        "horizontal group of superficial inguinal nodes.",
-        "internal iliac nodes.",
+        "*internal iliac nodes.",
         "popliteal nodes.",
         "posterior axillary nodes.",
         "vertical group of superficial inguinal nodes."
@@ -787,11 +722,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'horizontal group of superficial inguinal nodes.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Extension of the hip joint is limited by the",
+      "question": "adductor magnus muscle.",
       "options": [
-        "iliofemoral ligament",
+        "*iliofemoral ligament",
         "pubofemoral ligament.",
-        "adductor magnus muscle.",
         "ischiofemoral ligament.",
         "quadriceps muscle."
       ],
@@ -799,11 +733,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'iliofemoral ligament'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Flexion of the hip joint (with the knee flexed) is limited by the",
+      "question": "anterior abdominal wall.",
       "options": [
-        "hamstring muscles.",
+        "*hamstring muscles.",
         "iliofemoral ligament.",
-        "anterior abdominal wall.",
         "pubofemoral ligament.",
         "adductor magnus muscle."
       ],
@@ -811,10 +744,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'hamstring muscles.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "If the dorsalis pedis artery is severed just proximal to its medial and lateral tarsal branches, blood can still reach the dorsum of the foot through which vessels()?",
+      "question": "The posterior tibial artery.",
       "options": [
-        "All of the above.",
-        "The posterior tibial artery.",
+        "*All of the above.",
         "The lateral plantar artery.",
         "The peroneal artery.",
         "The medial plantar artery."
@@ -823,22 +755,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'All of the above.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "If the foot is permanently dorsiflexed and everted, which nerve might be injured?",
+      "question": "The superficial peroneal nerve",
       "options": [
-        "The tibial nerve",
+        "*The tibial nerve",
         "The common peroneal nerve",
         "The obturator nerve",
-        "The superficial peroneal nerve",
         "The deep peroneal nerve"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'The tibial nerve'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "In children, the chief arterial supply to the head of the femur is derived from which artery or arteries?",
+      "question": "Branches from the medial and lateral circumflex femoral arteries.",
       "options": [
-        "Branches from the medial and lateral circumflex femoral arteries.",
-        "The superficial circumflex iliac artery.",
+        "*The superficial circumflex iliac artery.",
         "The internal pudendal artery.",
         "The deep circumflex iliac artery.",
         "The obturator artery."
@@ -847,23 +777,21 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Branches from the medial and lateral circumflex femoral arteries.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Injury to the common peroneal nerve results in which condition?",
+      "question": "Inability to feel skin sensation on the medial side of the leg",
       "options": [
-        "Inability to evert the foot",
+        "*Inability to evert the foot",
         "Inability to plantar flex the big toe",
         "Inability to invert the foot",
-        "Inability to plantar flex the ankle",
-        "Inability to feel skin sensation on the medial side of the leg"
+        "Inability to plantar flex the ankle"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'Inability to evert the foot'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Lymph from the nail bed of the big toe drains into the",
+      "question": "horizontal group of superficial inguinal nodes.",
       "options": [
-        "vertical group of superficial inguinal nodes.",
+        "*vertical group of superficial inguinal nodes.",
         "internal iliac nodes",
-        "horizontal group of superficial inguinal nodes.",
         "presacral nodes.",
         "popliteal nodes"
       ],
@@ -871,10 +799,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'vertical group of superficial inguinal nodes.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Lymph from the skin of the lateral side of the foot drains into the",
+      "question": "horizontal group of superficial inguinal nodes.",
       "options": [
-        "popliteal nodes",
-        "horizontal group of superficial inguinal nodes.",
+        "*popliteal nodes",
         "subsartorial nodes.",
         "internal iliac nodes.",
         "vertical group of superficial inguinal nodes."
@@ -883,10 +810,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'popliteal nodes'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Lymph from the skin of the medial side of the knee drains into the",
+      "question": "medial group of the horizontal superficial inguinal nodes",
       "options": [
-        "vertical group of superficial inguinal nodes.",
-        "medial group of the horizontal superficial inguinal nodes",
+        "*vertical group of superficial inguinal nodes.",
         "lateral group of horizontal inguinal nodes.",
         "internal iliac nodes.",
         "popliteal nodes."
@@ -895,10 +821,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'vertical group of superficial inguinal nodes.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Rupture of the tendo calcaneus results in an inability to do what?",
+      "question": "Plantar flex the foot",
       "options": [
-        "Plantar flex the foot",
-        "Dorsiflex the foot",
+        "*Dorsiflex the foot",
         "None of the above.",
         "d. Evert the foot",
         "Invert the foot"
@@ -907,10 +832,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Plantar flex the foot'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The adductor longus muscle is innervated by the?",
+      "question": "anterior division of the obturator nerve.",
       "options": [
-        "anterior division of the obturator nerve.",
-        "posterior division of the femoral nerve.",
+        "*posterior division of the femoral nerve.",
         "femoral nerve.",
         "common peroneal nerve.",
         "tibial portion of the sciatic nerve."
@@ -919,10 +843,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'anterior division of the obturator nerve.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The common peroneal nerve can be palpated in which region of the knee?",
+      "question": "As it winds around the lateral side of the neck of the fibula.",
       "options": [
-        "As it winds around the lateral side of the neck of the fibula.",
-        "As it winds around the medial side of the neck of the fibula.",
+        "*As it winds around the medial side of the neck of the fibula.",
         "As it passes forward between the tibia and the fibula.",
         "As it passes around the medial condyle of the tibia",
         "As it passes around the lateral epicondyle of the tibia"
@@ -931,10 +854,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'As it winds around the lateral side of the neck of the fibula.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The dermatome present over the lateral side of the foot is which of the following?",
+      "question": "S1",
       "options": [
-        "S1",
-        "L4",
+        "*L4",
         "S5",
         "L3",
         "L5"
@@ -943,10 +865,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'S1'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The femoral sheath is formed by which of the following layer(s) of fascia?",
+      "question": "The psoas fascia and the fatty layer of superficial fascia",
       "options": [
-        "The fascia iliaca and the fascia transversalis",
-        "The psoas fascia and the fatty layer of superficial fascia",
+        "*The fascia iliaca and the fascia transversalis",
         "The processus vaginalis",
         "The pectineus fascia",
         "The ilicus fascia"
@@ -955,10 +876,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'The fascia iliaca and the fascia transversalis'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The fascia lata and the membranous layer of the superficial fascia Which nerve innervates the tibialis anterior muscle?",
+      "question": "Superficial peroneal nerve",
       "options": [
-        "Deep peroneal nerve",
-        "Superficial peroneal nerve",
+        "*Deep peroneal nerve",
         "Tibial nerve",
         "Obturator nerve",
         "Sciatic nerve"
@@ -969,46 +889,42 @@ export const s_2_2 = {
   ],
   "t-s-2-2-4": [
     {
-      "question": "The dorsalis pedis artery is a continuation of:",
+      "question": "anterior perforating branch of posterior tibial",
       "options": [
-        "anterior tibial",
+        "*anterior tibial",
         "popliteal",
         "peroneal",
-        "anterior perforating branch of posterior tibial",
         "femoral"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'anterior tibial'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The intermediate cutaneous nerve of the thigh:",
+      "question": "arises independently of the medial cutaneous nerve of the thigh",
       "options": [
-        "pierces sartorius",
+        "*pierces sartorius",
         "extends beneath the knee",
         "arises from the sacral plexus",
-        "is a branch of the obturator nerve",
-        "arises independently of the medial cutaneous nerve of the thigh"
+        "is a branch of the obturator nerve"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'pierces sartorius'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Which of the following is not an action of gracilis?",
+      "question": "medial rotation of the flexed knee",
       "options": [
-        "extension of thigh",
+        "*extension of thigh",
         "none of these",
         "flexion of knee",
-        "adduction of thigh",
-        "medial rotation of the flexed knee"
+        "adduction of thigh"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'extension of thigh'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The sole of the foot has a cutaneous nerve supply derived from:",
+      "question": "L4, L5, S1 and S2",
       "options": [
-        "L5 and S1",
-        "L4, L5, S1 and S2",
+        "*L5 and S1",
         "L4 and L5",
         "L5, S1 and S2",
         "L4, L5 and S1"
@@ -1017,22 +933,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'L5 and S1'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Obturator externus:",
+      "question": "is pierced by femoral circumflex artery",
       "options": [
-        "external rotator of hip",
+        "*external rotator of hip",
         "hip flexor",
         "internal rotator of hip",
-        "supplied by S.I.",
-        "is pierced by femoral circumflex artery"
+        "supplied by S.I."
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'external rotator of hip'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The lumbar plexus is formed by ventral primary rami of:",
+      "question": "formed by dorsal primary rami",
       "options": [
-        "L1, L2, L3 and L4",
-        "formed by dorsal primary rami",
+        "*L1, L2, L3 and L4",
         "L2, L3, L4 and L5",
         "L2, L4, L5 and S1",
         "T12, L1, L2 and L3"
@@ -1041,10 +955,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'L1, L2, L3 and L4'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The dorsalis pedis artery is:",
+      "question": "found perforating the first metatarsal space and joining with the medial plantar artery",
       "options": [
-        "lateral to extensor hallucis longus at the ankle",
-        "found perforating the first metatarsal space and joining with the medial plantar artery",
+        "*lateral to extensor hallucis longus at the ankle",
         "medial to extensor hallucis longus at the ankle",
         "medial to tibialis anterior at the ankle",
         "lateral to the digital branch of the deep peroneal nerve"
@@ -1053,10 +966,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'lateral to extensor hallucis longus at the ankle'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The superficial epigastric, superior perforating and deep external pudendal arteries are all branches of:",
+      "question": "none of the above",
       "options": [
-        "none of the above",
-        "profunda femoris",
+        "*profunda femoris",
         "internal iliac",
         "popliteal",
         "external iliac"
@@ -1065,46 +977,42 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'none of the above'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The most powerful extensor of the hip is:",
+      "question": "obturator externus",
       "options": [
-        "gluteus maximus",
+        "*gluteus maximus",
         "iliacus",
         "psoas major",
-        "piriformis",
-        "obturator externus"
+        "piriformis"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'gluteus maximus'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The chief dorsiflexor of the ankle joint:",
+      "question": "extensor longus digitorum",
       "options": [
-        "tibialis anterior",
+        "*tibialis anterior",
         "peroneus tertius",
         "none of the above",
-        "extensor longus digitorum",
         "extensor longus hallucis"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'tibialis anterior'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Structures closely related to long saphenous vein at ankle include which of the following?",
+      "question": "major perforating veins to deep venous system",
       "options": [
-        "a branch of the femoral nerve",
+        "*a branch of the femoral nerve",
         "dorsalis pedis artery",
         "medial superficial lymphatic trunks",
-        "major perforating veins to deep venous system",
         "a branch of the anterior tibial nerve"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'a branch of the femoral nerve'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Features of the fibula include which of the following?",
+      "question": "its medial surface is grooved for the origin of tibialis posterior",
       "options": [
-        "its medial surface is grooved for the origin of tibialis posterior",
-        "its lower third is rough for the origin of soleus",
+        "*its lower third is rough for the origin of soleus",
         "it is on the medial side of the tibia",
         "it is ossified from five centres",
         "it does not provide origin for flexor digitorum longus"
@@ -1113,35 +1021,32 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'its medial surface is grooved for the origin of tibialis posterior'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The cutaneous nerve supplying the medial aspect of the calf is:",
+      "question": "posterior femoral cutaneous",
       "options": [
-        "saphenous",
+        "*saphenous",
         "superficial peroneal",
         "anterior femoral cutaneous",
-        "sural",
-        "posterior femoral cutaneous"
+        "sural"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'saphenous'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The long saphenous vein:",
+      "question": "is in close relation with the saphenous nerve throughout the length of its course",
       "options": [
-        "receives tributaries from the perineum",
+        "*receives tributaries from the perineum",
         "passes posteriorly to the medial malleolus",
         "passes anterior to the inguinal ligament",
-        "is in close relation with the saphenous nerve throughout the length of its course",
         "ascends the lateral side of the leg"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'receives tributaries from the perineum'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Iliopsoas:",
+      "question": "synergist of quadriceps femoris",
       "options": [
-        "medial rotator of hip",
+        "*medial rotator of hip",
         "none of the above",
-        "synergist of quadriceps femoris",
         "lateral rotator of hip",
         "supplied by obturator nerve"
       ],
@@ -1149,22 +1054,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'medial rotator of hip'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The lateral aspect of the thigh has a cutaneous nerve supply derived from:",
+      "question": "L4, L5 and S1",
       "options": [
-        "L2 and 3",
+        "*L2 and 3",
         "S1 and S2",
         "L3 and 4",
-        "L4, L5 and S1",
         "L5, S1 and S2"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'L2 and 3'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The only muscle to cross the anterior tibial artery is:",
+      "question": "extensor digitorum brevis",
       "options": [
-        "extensor hallucis longus",
-        "extensor digitorum brevis",
+        "*extensor hallucis longus",
         "tibialis anterior",
         "extensor hallucis brevis",
         "extensor digitorum longus"
@@ -1173,36 +1076,33 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'extensor hallucis longus'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The nerve supply to the knee joint comes from:",
+      "question": "none of these",
       "options": [
-        "all of",
+        "*all of",
         "sciatic",
         "femoral",
-        "none of these",
         "obturator"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'all of'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Which of the following is NOT a branch of the profunda femoris artery?",
+      "question": "all are branches of the profunda",
       "options": [
-        "popliteal",
+        "*popliteal",
         "perforating",
         "medial femoral circumflex",
-        "all are branches of the profunda",
         "lateral femoral circumflex"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'popliteal'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Which of the following is true of the saphenous nerve?",
+      "question": "pierces the deep fascia in the femoral triangle",
       "options": [
-        "is cutaneous only",
+        "*is cutaneous only",
         "supplies adductor magnus",
         "is predominantly from L2",
-        "pierces the deep fascia in the femoral triangle",
         "terminates just below the knee"
       ],
       "correctIndex": 0,
@@ -1211,10 +1111,9 @@ export const s_2_2 = {
   ],
   "t-s-2-2-5": [
     {
-      "question": "Meninges of the brain:",
+      "question": "dura mater, arachnoid, pia mater",
       "options": [
-        "dura mater, arachnoid, pia mater",
-        "visceral",
+        "*visceral",
         "parietal",
         "subarachnoid",
         "internal"
@@ -1223,10 +1122,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'dura mater, arachnoid, pia mater'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Meningeal spaces of the brain, Choose the correct answer?",
+      "question": "epidural, subdural, subarachnoid",
       "options": [
-        "epidural, subdural, subarachnoid",
-        "intrameningeal",
+        "*intrameningeal",
         "parietal",
         "intracranial, intrameningeal",
         "visceral"
@@ -1235,22 +1133,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'epidural, subdural, subarachnoid'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "A patient has a boil on the tip of her nose. To which lymph nodes does the lymph from the skin of the infected area drain?",
+      "question": "Superficial cervical nodes",
       "options": [
-        "Submandibular nodes",
+        "*Submandibular nodes",
         "Parotid nodes",
         "Tracheobronchial nodes",
-        "Superficial cervical nodes",
         "Submental nodes"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'Submandibular nodes'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "A patient having lunch accidentally bit the inside of her left cheek. To which lymph nodes are infecting bacteria likely to spread?",
+      "question": "Superficial cervical nodes",
       "options": [
-        "Submandibular nodes",
-        "Superficial cervical nodes",
+        "*Submandibular nodes",
         "Mastoid nodes",
         "Parotid nodes",
         "Submental nodes"
@@ -1259,10 +1155,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Submandibular nodes'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The deep groove that separates the right and left cerebral hemispheres is called the ____",
+      "question": "longitudinal fissure",
       "options": [
-        "longitudinal fissure",
-        "lateral fissure",
+        "*lateral fissure",
         "precentral gyrus",
         "postcentral gyrus",
         "central sulcus"
@@ -1271,10 +1166,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'longitudinal fissure'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "There are _____ ventricles in the brain.",
+      "question": "4",
       "options": [
-        "4",
-        "0",
+        "*0",
         "2",
         "5",
         "3"
@@ -1283,22 +1177,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is '4'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Which brain structure is located in the hindbrain?",
+      "question": "substantia nigra",
       "options": [
-        "pons",
+        "*pons",
         "cerebral cortex",
         "hypothalamus",
-        "hippocampus",
-        "substantia nigra"
+        "hippocampus"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'pons'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Failure to pass the finger-to-nose test is an indication of _____",
+      "question": "Alcohol intoxication, cerebellar damage",
       "options": [
-        "Alcohol intoxication, cerebellar damage",
-        "damage to the temporal lobe",
+        "*damage to the temporal lobe",
         "damage to the frontal lobe",
         "damage to the occipital lobe",
         "sinisit"
@@ -1307,22 +1199,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Alcohol intoxication, cerebellar damage'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Sustained tension of the vocal cords (folds) is best achieved through the action of which of the following muscles?",
+      "question": "The posterior cricoarytenoid",
       "options": [
-        "The cricothyroid",
+        "*The cricothyroid",
         "The salpingopharyngeus",
         "The aryepiglottic",
-        "The posterior cricoarytenoid",
         "The cricopharyngeus"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'The cricothyroid'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Which nervous system structure is associated with control of hunger ?",
+      "question": "hypothalamus",
       "options": [
-        "hypothalamus",
-        "cerebellum",
+        "*cerebellum",
         "none one",
         "medulla",
         "hippocampus"
@@ -1331,10 +1221,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'hypothalamus'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The foramen magnum in the skull",
+      "question": "allows entrance of the spinal part of the accessory nerve into the cranial cavity.",
       "options": [
-        "allows entrance of the spinal part of the accessory nerve into the cranial cavity.",
-        "is located in the sphenoid bone.",
+        "*is located in the sphenoid bone.",
         "is located in the temporal bone.",
         "allows entrance of the trigeminal nerve",
         "allows exit of the facial nerve"
@@ -1343,11 +1232,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'allows entrance of the spinal part of the accessory nerve into the cranial cavity.'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The tectum is located in the ____________",
+      "question": "frontal lobe",
       "options": [
-        "midbrain",
+        "*midbrain",
         "forebrain",
-        "frontal lobe",
         "hindbrain",
         "spinal cord"
       ],
@@ -1355,11 +1243,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'midbrain'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The inner surface is covered with mucous membrane.",
+      "question": "Impaired function of which of the following muscles produce difficulty in protruding the jaw?",
       "options": [
-        "The lateral pterygoid",
+        "*The lateral pterygoid",
         "The medial pterygoid D. The masseter",
-        "Impaired function of which of the following muscles produce difficulty in protruding the jaw?",
         "The anterior belly of the digastric muscle",
         "The temporalis"
       ],
@@ -1367,22 +1254,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is The lateral pterygoid."
     },
     {
-      "question": "The jugular foramen in the skull",
+      "question": "is located in the petrous part of the temporal bone.",
       "options": [
-        "allows exit of the vagus nerve",
+        "*allows exit of the vagus nerve",
         "allows exit of the hypoglossal nerve.",
         "is located in the middle cranial fossa.",
-        "is located in the petrous part of the temporal bone.",
         "allows entrance of the external jugular vein."
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is 'allows exit of the vagus nerve'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The nervous system is divided into the ____",
+      "question": "autonomic and somatic nervous system",
       "options": [
-        "autonomic and somatic nervous system",
-        "sympathetic",
+        "*sympathetic",
         "sensory",
         "brain",
         "spinal cord"
@@ -1391,10 +1276,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'autonomic and somatic nervous system'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Which is the largest branch of the internal carotid artery?",
+      "question": "posterior communicating artery",
       "options": [
-        "middle cerebral artery",
-        "posterior communicating artery",
+        "*middle cerebral artery",
         "anterior cerebral artery",
         "ophthalmic artery",
         "posterior cerebral artery"
@@ -1403,10 +1287,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'middle cerebral artery'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Which anatomic structure is most likely to have damaged the nerve?",
+      "question": "The petrous part of the temporal bone",
       "options": [
-        "The petrous part of the temporal bone",
-        "The lesser wing of the sphenoid bone",
+        "*The lesser wing of the sphenoid bone",
         "The falx cerebelli",
         "The tentorium cerebelli",
         "The greater wing of the sphenoid bone"
@@ -1415,10 +1298,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'The petrous part of the temporal bone'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Which process is responsible for closing off the nasal cavity from the oropharynx during swallowing?",
+      "question": "Contraction of the tensor and the levator veli palatini muscles",
       "options": [
-        "Contraction of the tensor and the levator veli palatini muscles",
-        "Contraction of the aryepiglottic muscles",
+        "*Contraction of the aryepiglottic muscles",
         "Bending of the epiglottis",
         "Elevation of the tongue to the roof of the mouth",
         "Relaxation of the pharyngeal constrictor muscles"
@@ -1427,11 +1309,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'Contraction of the tensor and the levator veli palatini muscles'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "Which is the smallest cranial nerve?",
+      "question": "oculomotor nerve",
       "options": [
-        "trochlear nerve",
+        "*trochlear nerve",
         "abducent nerve",
-        "oculomotor nerve",
         "olfactory nerve",
         "accessory nerve"
       ],
@@ -1439,10 +1320,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is 'trochlear nerve'. This choice aligns with the established clinical curriculum."
     },
     {
-      "question": "The nasolacrimal duct drains into the",
+      "question": "inferior meatus of the nose.",
       "options": [
-        "inferior meatus of the nose.",
-        "lacrimal sac.",
+        "*lacrimal sac.",
         "superior meatus of the nose.",
         "middle meatus of the nose.",
         "sphenoethmoidal recess"
@@ -1453,22 +1333,20 @@ export const s_2_2 = {
   ],
   "t-s-2-2-6": [
     {
-      "question": "Which nerve innervates the buccinator muscle?",
+      "question": "Glossopharyngeal nerve (IX)",
       "options": [
-        "Facial nerve (VII)",
+        "*Facial nerve (VII)",
         "Mandibular nerve (V3)",
         "accessory nerve (11)",
-        "Glossopharyngeal nerve (IX)",
         "Hypoglossal nerve (XII)"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Facial nerve (VII)."
     },
     {
-      "question": "Which of the following muscles is not attached to the hyoid bone?",
+      "question": "Sternothyroid",
       "options": [
-        "Sternothyroid",
-        "Mylohyoid",
+        "*Mylohyoid",
         "Omohyoid",
         "Geniohyoid",
         "Sternohyoid"
@@ -1477,10 +1355,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Sternothyroid."
     },
     {
-      "question": "What is the primary function of the levator labii superioris muscle?",
+      "question": "Elevate the upper eye brows",
       "options": [
-        "Elevate the upper lip",
-        "Elevate the upper eye brows",
+        "*Elevate the upper lip",
         "Retract the lips",
         "Depress the lower lip",
         "Close the lips"
@@ -1489,10 +1366,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Elevate the upper lip."
     },
     {
-      "question": "Which nerve innervates the mylohyoid muscle?",
+      "question": "Mylohyoid nerve (branch of the trigeminal nerve)",
       "options": [
-        "Mylohyoid nerve (branch of the trigeminal nerve)",
-        "Glossopharyngeal nerve",
+        "*Glossopharyngeal nerve",
         "Hypoglossal nerve",
         "Facial nerve",
         "geniohyoid nerve"
@@ -1501,11 +1377,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Mylohyoid nerve (branch of the trigeminal nerve)."
     },
     {
-      "question": "Which structure passes through the intermediate tendon of the digastric muscle?",
+      "question": "Sternocleidomastoid muscle",
       "options": [
-        "Stylohyoid muscle",
+        "*Stylohyoid muscle",
         "omohyoid muscle",
-        "Sternocleidomastoid muscle",
         "Hyoid bone",
         "Omohyoid muscle"
       ],
@@ -1513,10 +1388,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Stylohyoid muscle."
     },
     {
-      "question": "What is the function of the infrahyoid muscles during breathing?",
+      "question": "Depress the hyoid bone and larynx",
       "options": [
-        "Depress the hyoid bone and larynx",
-        "Elevate the rib cage",
+        "*Elevate the rib cage",
         "Elevate the diaphragm",
         "Expand the thoracic cavity",
         "Depress the thyroid cartilage"
@@ -1525,22 +1399,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is Depress the hyoid bone and larynx."
     },
     {
-      "question": "Where does the sternohyoid muscle attach?",
+      "question": "Sternum and thyroid cartilage",
       "options": [
-        "Sternum and hyoid bone",
+        "*Sternum and hyoid bone",
         "Hyoid bone and clavicle",
         "Hyoid bone and mandibula",
-        "Sternum and thyroid cartilage",
         "Clavicle and mandible"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Sternum and hyoid bone."
     },
     {
-      "question": "Which action is performed by the depressor anguli oris muscle?",
+      "question": "Depress the corners of the mouth",
       "options": [
-        "Depress the corners of the mouth",
-        "Flare the nostrils",
+        "*Flare the nostrils",
         "Depress the eyebrows",
         "Elevate the upper lip",
         "Close the eyes"
@@ -1549,10 +1421,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Depress the corners of the mouth."
     },
     {
-      "question": "The risorius muscle is primarily responsible for which action?",
+      "question": "Retracting the corners of the mouth",
       "options": [
-        "Retracting the corners of the mouth",
-        "Pouting",
+        "*Pouting",
         "Elevate the eyelids",
         "Raising the eyebrows",
         "Smiling"
@@ -1561,10 +1432,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Retracting the corners of the mouth."
     },
     {
-      "question": "How does the geniohyoid muscle contribute to swallowing?",
+      "question": "Elevates and pulls the hyoid bone anteriorly",
       "options": [
-        "Elevates and pulls the hyoid bone anteriorly",
-        "Depresses the mandible",
+        "*Depresses the mandible",
         "Digastric Muscle Anatomy",
         "Retracts the tongue",
         "Stabilizes the cervical vertebrae"
@@ -1573,10 +1443,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Elevates and pulls the hyoid bone anteriorly."
     },
     {
-      "question": "What is the primary role of the thyrohyoid muscle?",
+      "question": "Elevate the thyroid cartilage",
       "options": [
-        "Elevate the thyroid cartilage",
-        "Elevate the thyroid muscle",
+        "*Elevate the thyroid muscle",
         "Depress the hyoid bone",
         "Elevate the hyoid bone",
         "Depress the thyroid cartilage"
@@ -1585,10 +1454,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Elevate the thyroid cartilage."
     },
     {
-      "question": "The corrugator supercilii muscle is responsible for which facial expression?",
+      "question": "Raising the eyebrows",
       "options": [
-        "Frowning",
-        "Raising the eyebrows",
+        "*Frowning",
         "Grimacing",
         "Squinting",
         "Smiling"
@@ -1597,22 +1465,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is Frowning."
     },
     {
-      "question": "Which structure is NOT found within the carotid triangle?",
+      "question": "Internal carotid artery",
       "options": [
-        "Subclavian artery",
+        "*Subclavian artery",
         "Common carotid artery",
         "Internal jugular vein",
-        "Internal carotid artery",
         "Vagus nerve"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Subclavian artery."
     },
     {
-      "question": "What is the primary function of the suprahyoid muscles?",
+      "question": "Elevate the hyoid bone and larynx during swallowing",
       "options": [
-        "Elevate the hyoid bone and larynx during swallowing",
-        "Depress the hyoid bone during speech",
+        "*Depress the hyoid bone during speech",
         "Stabilize the hyoid bone during head movement",
         "Rotate the hyoid bone during mastication",
         "Depress angulus oris"
@@ -1621,10 +1487,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Elevate the hyoid bone and larynx during swallowing."
     },
     {
-      "question": "What is the primary function of the orbicularis oris muscle?",
+      "question": "Retract the corners of the mouth",
       "options": [
-        "Pucker the lips",
-        "Retract the corners of the mouth",
+        "*Pucker the lips",
         "Elevate jaw",
         "Elevate the upper lip",
         "Close the eyelids"
@@ -1633,23 +1498,21 @@ export const s_2_2 = {
       "explanation": "The correct answer is Pucker the lips."
     },
     {
-      "question": "Which nerve innervates the majority of the infrahyoid muscles?",
+      "question": "Hypoglossal nerve",
       "options": [
-        "Ansa cervicalis",
+        "*Ansa cervicalis",
         "Ansa",
         "Phrenic nerve",
-        "Hypoglossal nerve",
         "Vagus nerve"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Ansa cervicalis."
     },
     {
-      "question": "Which structure forms the superior boundary of the anterior triangle of the neck?",
+      "question": "Hyoid bone",
       "options": [
-        "Mandible",
+        "*Mandible",
         "Clavicle",
-        "Hyoid bone",
         "Sternum",
         "First rib"
       ],
@@ -1657,11 +1520,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Mandible."
     },
     {
-      "question": "Which branch of the facial nerve innervates the frontalis muscle?",
+      "question": "Mandibular branch",
       "options": [
-        "Temporal branch",
+        "*Temporal branch",
         "Buccal branch",
-        "Mandibular branch",
         "Phrenic nerve",
         "Zygomatic branch"
       ],
@@ -1669,10 +1531,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Temporal branch."
     },
     {
-      "question": "What is the primary action of the zygomaticus major muscle?",
+      "question": "Depress the lower lip",
       "options": [
-        "Smile",
-        "Depress the lower lip",
+        "*Smile",
         "Frown",
         "Elevate the upper lip",
         "gaze"
@@ -1681,11 +1542,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Smile."
     },
     {
-      "question": "Which muscle forms the posterior boundary of the posterior triangle of the neck?",
+      "question": "Sternocleidomastoid",
       "options": [
-        "Trapezius",
+        "*Trapezius",
         "Sternohyoid",
-        "Sternocleidomastoid",
         "Omohyoid",
         "Platysma"
       ],
@@ -1695,10 +1555,9 @@ export const s_2_2 = {
   ],
   "t-s-2-2-7": [
     {
-      "question": "Lymphatic drainage from the breast primarily goes to:",
+      "question": "Both axillary and internal mammary lymph nodes",
       "options": [
-        "Both axillary and internal mammary lymph nodes",
-        "Inguinal lymph nodes",
+        "*Inguinal lymph nodes",
         "Axillary lymph nodes",
         "Internal mammary lymph nodes",
         "Supraclavicular lymph nodes"
@@ -1707,10 +1566,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Both axillary and internal mammary lymph nodes."
     },
     {
-      "question": "The main blood supply to the breast comes from:",
+      "question": "Internal thoracic artery",
       "options": [
-        "All of the above",
-        "Internal thoracic artery",
+        "*All of the above",
         "Subscapular artery",
         "Lateral thoracic artery",
         "Thoracoacromial artery"
@@ -1719,10 +1577,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is All of the above."
     },
     {
-      "question": "Peau d'orange appearance of the breast is a sign of:",
+      "question": "Inflammatory breast cancer",
       "options": [
-        "Inflammatory breast cancer",
-        "Benign cyst",
+        "*Benign cyst",
         "Fat necrosis",
         "Fibroadenoma",
         "Mastitis"
@@ -1731,10 +1588,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Inflammatory breast cancer."
     },
     {
-      "question": "Nipple retraction can be a sign of:",
+      "question": "Breast cancer",
       "options": [
-        "Breast cancer",
-        "Mastitis",
+        "*Mastitis",
         "Fat necrosis",
         "Fibroadenoma",
         "Benign cyst"
@@ -1743,10 +1599,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Breast cancer."
     },
     {
-      "question": "Montgomery glands are:",
+      "question": "Sebaceous glands in the areola",
       "options": [
-        "Sebaceous glands in the areola",
-        "Blood vessels",
+        "*Blood vessels",
         "Sweat glands",
         "Milk-producing glands",
         "Lymph nodes"
@@ -1755,10 +1610,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Sebaceous glands in the areola."
     },
     {
-      "question": "Sentinel lymph node biopsy is performed to:",
+      "question": "Identify the first lymph node(s) that receive drainage from the tumor",
       "options": [
-        "Identify the first lymph node(s) that receive drainage from the tumor",
-        "Remove all axillary lymph nodes",
+        "*Remove all axillary lymph nodes",
         "Treat lymphedema",
         "Remove the internal mammary lymph nodes",
         "Prevent lymphedema"
@@ -1767,10 +1621,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Identify the first lymph node(s) that receive drainage from the tumor."
     },
     {
-      "question": "The areola contains:",
+      "question": "Modified apocrine glands",
       "options": [
-        "All of the above",
-        "Modified apocrine glands",
+        "*All of the above",
         "Sweat glands",
         "Sebaceous glands",
         "Only hair follicles"
@@ -1779,11 +1632,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is All of the above."
     },
     {
-      "question": "Paget's disease of the nipple is a form of:",
+      "question": "Benign skin condition",
       "options": [
-        "Breast cancer",
+        "*Breast cancer",
         "Fungal infection",
-        "Benign skin condition",
         "Viral infection",
         "Bacterial infection"
       ],
@@ -1791,10 +1643,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Breast cancer."
     },
     {
-      "question": "The axillary tail of Spence is:",
+      "question": "An extension of breast tissue into the axilla",
       "options": [
-        "An extension of breast tissue into the axilla",
-        "A muscle",
+        "*A muscle",
         "A ligament",
         "A lymph node",
         "A blood vessel"
@@ -1803,10 +1654,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is An extension of breast tissue into the axilla."
     },
     {
-      "question": "Lymphedema after breast surgery is caused by:",
+      "question": "Disruption of lymphatic drainage",
       "options": [
-        "Disruption of lymphatic drainage",
-        "Scar tissue formation",
+        "*Scar tissue formation",
         "Damage to blood vessels",
         "Damage to nerves",
         "Infection"
@@ -1815,10 +1665,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Disruption of lymphatic drainage."
     },
     {
-      "question": "The retromammary space is located:",
+      "question": "Between the mammary gland and deep fascia covering the pectoralis major muscle",
       "options": [
-        "Between the mammary gland and deep fascia covering the pectoralis major muscle",
-        "Between the skin and subcutaneous tissue",
+        "*Between the skin and subcutaneous tissue",
         "Between the pectoralis major and minor muscles",
         "Between the subcutaneous tissue and mammary gland",
         "Within the mammary gland itself"
@@ -1827,10 +1676,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Between the mammary gland and deep fascia covering the pectoralis major muscle."
     },
     {
-      "question": "A radical mastectomy involves removal of:",
+      "question": "Breast tissue, axillary lymph nodes, and pectoralis muscles",
       "options": [
-        "Breast tissue, axillary lymph nodes, and pectoralis muscles",
-        "Only the nipple and areola",
+        "*Only the nipple and areola",
         "Only the tumor",
         "All breast tissue",
         "Breast tissue and axillary lymph nodes"
@@ -1839,10 +1687,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Breast tissue, axillary lymph nodes, and pectoralis muscles."
     },
     {
-      "question": "The nipple is located at approximately the:",
+      "question": "Fourth intercostal space",
       "options": [
-        "Fourth intercostal space",
-        "Fifth intercostal space",
+        "*Fifth intercostal space",
         "Third intercostal space",
         "Second intercostal space",
         "Sixth intercostal space"
@@ -1851,22 +1698,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is Fourth intercostal space."
     },
     {
-      "question": "Breast conserving surgery (lumpectomy) involves removal of:",
+      "question": "Breast tissue, axillary lymph nodes, and pectoralis muscles",
       "options": [
-        "Only the tumor and a small margin of surrounding tissue",
+        "*Only the tumor and a small margin of surrounding tissue",
         "Only the nipple and areola",
         "Breast tissue and axillary lymph nodes",
-        "Breast tissue, axillary lymph nodes, and pectoralis muscles",
         "All breast tissue"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Only the tumor and a small margin of surrounding tissue."
     },
     {
-      "question": "Cooper's ligaments are:",
+      "question": "Fibrous connective tissue that support the breast",
       "options": [
-        "Fibrous connective tissue that support the breast",
-        "Blood vessels",
+        "*Blood vessels",
         "Muscle fibers",
         "Nerve fibers",
         "Lymphatic vessels"
@@ -1875,10 +1720,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Fibrous connective tissue that support the breast."
     },
     {
-      "question": "The most common site of breast cancer is:",
+      "question": "Upper outer quadrant",
       "options": [
-        "Upper outer quadrant",
-        "Lower inner quadrant",
+        "*Lower inner quadrant",
         "Lower outer quadrant",
         "Nipple",
         "Areola"
@@ -1887,10 +1731,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Upper outer quadrant."
     },
     {
-      "question": "The functional unit of the breast is the:",
+      "question": "Montgomery gland",
       "options": [
-        "Lobule",
-        "Montgomery gland",
+        "*Lobule",
         "Nipple",
         "Lactiferous duct",
         "Areola"
@@ -1899,22 +1742,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is Lobule."
     },
     {
-      "question": "A modified radical mastectomy involves removal of:",
+      "question": "Breast tissue, axillary lymph nodes, and pectoralis muscles",
       "options": [
-        "Breast tissue and axillary lymph nodes",
+        "*Breast tissue and axillary lymph nodes",
         "All breast tissue",
         "Only the nipple and areola",
-        "Breast tissue, axillary lymph nodes, and pectoralis muscles",
         "Only the tumor"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Breast tissue and axillary lymph nodes."
     },
     {
-      "question": "Lactiferous ducts:",
+      "question": "Carry milk from the lobules to the nipple",
       "options": [
-        "Carry milk from the lobules to the nipple",
-        "Store milk",
+        "*Store milk",
         "Produce milk",
         "Carry blood to the breast",
         "Carry lymph from the breast"
@@ -1923,12 +1764,11 @@ export const s_2_2 = {
       "explanation": "The correct answer is Carry milk from the lobules to the nipple."
     },
     {
-      "question": "A simple mastectomy involves removal of:",
+      "question": "Breast tissue, axillary lymph nodes, and pectoralis muscles",
       "options": [
-        "All breast tissue",
+        "*All breast tissue",
         "Only the nipple and areola",
         "Only the tumor",
-        "Breast tissue, axillary lymph nodes, and pectoralis muscles",
         "Breast tissue and axillary lymph nodes"
       ],
       "correctIndex": 0,
@@ -1937,11 +1777,10 @@ export const s_2_2 = {
   ],
   "t-s-2-2-8": [
     {
-      "question": "The mitral valve is located between the:",
+      "question": "Right atrium and right ventricle",
       "options": [
-        "Left atrium and left ventricle",
+        "*Left atrium and left ventricle",
         "Right ventricle and aorta",
-        "Right atrium and right ventricle",
         "Right atrium and pulmonary trunk",
         "Left ventricle and aorta"
       ],
@@ -1949,22 +1788,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is Left atrium and left ventricle."
     },
     {
-      "question": "The thoracic duct drains lymph from:",
+      "question": "Right upper limb and right side of head and thorax",
       "options": [
-        "Most of the body",
+        "*Most of the body",
         "Left upper limb and left side of head and thorax",
         "Only the abdominal organs",
-        "Only the lower limbs",
-        "Right upper limb and right side of head and thorax"
+        "Only the lower limbs"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Most of the body."
     },
     {
-      "question": "The tricuspid valve is located between the:",
+      "question": "Right atrium and right ventricle",
       "options": [
-        "Right atrium and right ventricle",
-        "Left atrium and left ventricle",
+        "*Left atrium and left ventricle",
         "Right atrium and pulmonary trunk",
         "Left ventricle and aorta",
         "Right ventricle and aorta"
@@ -1973,22 +1810,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is Right atrium and right ventricle."
     },
     {
-      "question": "The coronary arteries arise from the:",
+      "question": "Superior vena cava",
       "options": [
-        "Ascending aorta",
+        "*Ascending aorta",
         "Aortic arch",
         "Descending aorta",
-        "Superior vena cava",
         "Pulmonary trunk"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Ascending aorta."
     },
     {
-      "question": "The azygos venous system drains blood from the:",
+      "question": "Posterior thoracic and abdominal walls",
       "options": [
-        "Posterior thoracic and abdominal walls",
-        "Upper limbs",
+        "*Upper limbs",
         "Lower limbs",
         "Head and neck",
         "Heart muscle"
@@ -1997,10 +1832,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Posterior thoracic and abdominal walls."
     },
     {
-      "question": "The inferior vena cava drains blood from the:",
+      "question": "Abdomen, pelvis, and lower limbs",
       "options": [
-        "Abdomen, pelvis, and lower limbs",
-        "Thoracic wall",
+        "*Thoracic wall",
         "Heart muscle",
         "Lungs",
         "Head, neck, and upper limbs"
@@ -2009,11 +1843,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Abdomen, pelvis, and lower limbs."
     },
     {
-      "question": "The apex of the heart is formed by the:",
+      "question": "Interventricular septum",
       "options": [
-        "Left ventricle",
+        "*Left ventricle",
         "Right ventricle",
-        "Interventricular septum",
         "Left atrium",
         "Right atrium"
       ],
@@ -2021,10 +1854,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Left ventricle."
     },
     {
-      "question": "The recurrent laryngeal nerves supply:",
+      "question": "Most of the muscles of the larynx",
       "options": [
-        "Most of the muscles of the larynx",
-        "The heart muscle",
+        "*The heart muscle",
         "The esophagus",
         "The thyroid gland",
         "The diaphragm"
@@ -2033,10 +1865,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Most of the muscles of the larynx."
     },
     {
-      "question": "The pulmonary veins carry:",
+      "question": "Deoxygenated blood to the right atrium",
       "options": [
-        "Oxygenated blood to the left atrium",
-        "Deoxygenated blood to the right atrium",
+        "*Oxygenated blood to the left atrium",
         "Deoxygenated blood to the left atrium",
         "Mixed blood to the left atrium",
         "Oxygenated blood to the right atrium"
@@ -2045,11 +1876,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Oxygenated blood to the left atrium."
     },
     {
-      "question": "The thyroid gland is located:",
+      "question": "Inferior to the diaphragm",
       "options": [
-        "Anterior to the trachea",
+        "*Anterior to the trachea",
         "Posterior to the trachea",
-        "Inferior to the diaphragm",
         "Superior to the heart",
         "Within the mediastinum"
       ],
@@ -2057,10 +1887,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Anterior to the trachea."
     },
     {
-      "question": "The aortic arch gives rise to the:",
+      "question": "Brachiocephalic trunk, left common carotid, and left subclavian arteries",
       "options": [
-        "Brachiocephalic trunk, left common carotid, and left subclavian arteries",
-        "Pulmonary trunk and pulmonary arteries",
+        "*Pulmonary trunk and pulmonary arteries",
         "Azygos vein and hemiazygos vein",
         "Right and left coronary arteries",
         "Superior and inferior vena cavae"
@@ -2069,34 +1898,31 @@ export const s_2_2 = {
       "explanation": "The correct answer is Brachiocephalic trunk, left common carotid, and left subclavian arteries."
     },
     {
-      "question": "The sinoatrial (SA) node is located in the:",
+      "question": "Interatrial septum",
       "options": [
-        "Right atrium",
+        "*Right atrium",
         "Right ventricle",
         "Left atrium",
-        "Interatrial septum",
         "Left ventricle"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Right atrium."
     },
     {
-      "question": "The pericardium is composed of:",
+      "question": "Muscle tissue and connective tissue",
       "options": [
-        "Fibrous and serous layers",
+        "*Fibrous and serous layers",
         "Epithelial tissue only",
         "Only a fibrous layer",
-        "Only a serous layer",
-        "Muscle tissue and connective tissue"
+        "Only a serous layer"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Fibrous and serous layers."
     },
     {
-      "question": "The atrioventricular (AV) node is located in the:",
+      "question": "Interatrial septum",
       "options": [
-        "Interatrial septum",
-        "Left atrium",
+        "*Left atrium",
         "Right atrium",
         "Right ventricle",
         "Left ventricle"
@@ -2105,22 +1931,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is Interatrial septum."
     },
     {
-      "question": "The heart is located in the:",
+      "question": "Abdominal cavity",
       "options": [
-        "Mediastinum",
+        "*Mediastinum",
         "Cranial cavity",
         "Spinal cavity",
-        "Abdominal cavity",
         "Pleural cavity"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Mediastinum."
     },
     {
-      "question": "The thymus gland is located in the:",
+      "question": "Posterior mediastinum",
       "options": [
-        "Superior mediastinum",
-        "Posterior mediastinum",
+        "*Superior mediastinum",
         "Inferior mediastinum",
         "Middle mediastinum",
         "Anterior mediastinum"
@@ -2129,10 +1953,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Superior mediastinum."
     },
     {
-      "question": "The superior vena cava drains blood from the:",
+      "question": "Head, neck, and upper limbs",
       "options": [
-        "Head, neck, and upper limbs",
-        "Abdomen and pelvis",
+        "*Abdomen and pelvis",
         "Lungs",
         "Lower limbs",
         "Heart muscle"
@@ -2141,11 +1964,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Head, neck, and upper limbs."
     },
     {
-      "question": "The great cardiac vein drains into the:",
+      "question": "Right atrium directly",
       "options": [
-        "Coronary sinus",
+        "*Coronary sinus",
         "Inferior vena cava",
-        "Right atrium directly",
         "Superior vena cava",
         "Left atrium directly"
       ],
@@ -2153,12 +1975,11 @@ export const s_2_2 = {
       "explanation": "The correct answer is Coronary sinus."
     },
     {
-      "question": "The phrenic nerve innervates the:",
+      "question": "Intercostal muscles",
       "options": [
-        "Diaphragm",
+        "*Diaphragm",
         "Abdominal muscles",
         "Heart muscle",
-        "Intercostal muscles",
         "Neck muscles"
       ],
       "correctIndex": 0,
@@ -2167,11 +1988,10 @@ export const s_2_2 = {
   ],
   "t-s-2-2-9": [
     {
-      "question": "A hiatal hernia involves protrusion of the:",
+      "question": "Lung into the mediastinum",
       "options": [
-        "Stomach into the thorax",
+        "*Stomach into the thorax",
         "Spleen into the thorax",
-        "Lung into the mediastinum",
         "Liver into the thorax",
         "Heart into the abdomen"
       ],
@@ -2179,34 +1999,31 @@ export const s_2_2 = {
       "explanation": "The correct answer is Stomach into the thorax."
     },
     {
-      "question": "The right vagus nerve gives rise to the:",
+      "question": "Right recurrent laryngeal nerve",
       "options": [
-        "Posterior vagal trunk",
+        "*Posterior vagal trunk",
         "Anterior vagal trunk",
         "Phrenic nerve",
-        "Left recurrent laryngeal nerve",
-        "Right recurrent laryngeal nerve"
+        "Left recurrent laryngeal nerve"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Posterior vagal trunk."
     },
     {
-      "question": "The vagus nerves in the posterior mediastinum contribute to the:",
+      "question": "Only the esophageal and cardiac plexuses",
       "options": [
-        "Esophageal plexus",
+        "*Esophageal plexus",
         "Cardiac plexus",
         "All of the above",
-        "Pulmonary plexus",
-        "Only the esophageal and cardiac plexuses"
+        "Pulmonary plexus"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Esophageal plexus."
     },
     {
-      "question": "The hemiazygos vein drains into the:",
+      "question": "Superior vena cava",
       "options": [
-        "Azygos vein",
-        "Superior vena cava",
+        "*Azygos vein",
         "Left renal vein",
         "Inferior vena cava",
         "Right renal vein"
@@ -2215,10 +2032,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Azygos vein."
     },
     {
-      "question": "The left vagus nerve gives rise to the:",
+      "question": "Right recurrent laryngeal nerve",
       "options": [
-        "Anterior vagal trunk",
-        "Right recurrent laryngeal nerve",
+        "*Anterior vagal trunk",
         "Phrenic nerve",
         "Left recurrent laryngeal nerve",
         "Posterior vagal trunk"
@@ -2227,11 +2043,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Anterior vagal trunk."
     },
     {
-      "question": "The accessory hemiazygos vein drains into the:",
+      "question": "Superior vena cava",
       "options": [
-        "Azygos vein",
+        "*Azygos vein",
         "Left renal vein",
-        "Superior vena cava",
         "Right renal vein",
         "Inferior vena cava"
       ],
@@ -2239,10 +2054,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Azygos vein."
     },
     {
-      "question": "The cisterna chyli is located:",
+      "question": "At the beginning of the thoracic duct",
       "options": [
-        "At the beginning of the thoracic duct",
-        "Within the anterior mediastinum",
+        "*Within the anterior mediastinum",
         "Within the superior mediastinum",
         "At the end of the thoracic duct",
         "Within the middle mediastinum"
@@ -2251,10 +2065,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is At the beginning of the thoracic duct."
     },
     {
-      "question": "The posterior mediastinum is located:",
+      "question": "Posterior to the pericardium",
       "options": [
-        "Posterior to the pericardium",
-        "Lateral to the lungs",
+        "*Lateral to the lungs",
         "Inferior to the diaphragm",
         "Anterior to the pericardium",
         "Superior to the heart"
@@ -2263,11 +2076,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Posterior to the pericardium."
     },
     {
-      "question": "The esophagus passes through the diaphragm at the:",
+      "question": "Median arcuate ligament",
       "options": [
-        "Esophageal hiatus",
+        "*Esophageal hiatus",
         "Central tendon",
-        "Median arcuate ligament",
         "Aortic hiatus",
         "Caval opening"
       ],
@@ -2275,59 +2087,54 @@ export const s_2_2 = {
       "explanation": "The correct answer is Esophageal hiatus."
     },
     {
-      "question": "The descending thoracic aorta begins at the level of:",
+      "question": "T12 vertebra",
       "options": [
-        "T4 vertebra",
+        "*T4 vertebra",
         "L1 vertebra",
         "T1 vertebra",
-        "T12 vertebra",
         "C6 vertebra"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is T4 vertebra."
     },
     {
-      "question": "The thoracic aorta gives off the:",
+      "question": "Only the posterior intercostal arteries",
       "options": [
-        "Posterior intercostal arteries",
+        "*Posterior intercostal arteries",
         "Bronchial arteries",
         "Esophageal arteries",
-        "All of the above",
-        "Only the posterior intercostal arteries"
+        "All of the above"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Posterior intercostal arteries."
     },
     {
-      "question": "The azygos vein drains into the:",
+      "question": "Brachiocephalic vein",
       "options": [
-        "Superior vena cava",
+        "*Superior vena cava",
         "Left atrium",
         "Right atrium",
-        "Inferior vena cava",
-        "Brachiocephalic vein"
+        "Inferior vena cava"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Superior vena cava."
     },
     {
-      "question": "The thoracic duct empties into the:",
+      "question": "Right subclavian vein",
       "options": [
-        "Left subclavian vein",
+        "*Left subclavian vein",
         "Superior vena cava",
         "Inferior vena cava",
-        "Right subclavian vein",
         "Azygos vein"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Left subclavian vein."
     },
     {
-      "question": "Esophageal varices are most commonly caused by:",
+      "question": "Pulmonary hypertension",
       "options": [
-        "Portal hypertension",
+        "*Portal hypertension",
         "Esophageal stricture",
-        "Pulmonary hypertension",
         "Systemic hypertension",
         "Aortic aneurysm"
       ],
@@ -2335,10 +2142,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Portal hypertension."
     },
     {
-      "question": "The paravertebral sympathetic chain is located:",
+      "question": "Along the lateral aspect of the vertebral bodies",
       "options": [
-        "Along the lateral aspect of the vertebral bodies",
-        "Posterior to the vertebral bodies",
+        "*Posterior to the vertebral bodies",
         "Within the vertebral canal",
         "Within the intervertebral foramina",
         "Anterior to the vertebral bodies"
@@ -2347,10 +2153,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Along the lateral aspect of the vertebral bodies."
     },
     {
-      "question": "The posterior mediastinum contains:",
+      "question": "Esophagus, thoracic aorta, azygos venous system, vagus nerves, sympathetic trunks, thoracic duct",
       "options": [
-        "Esophagus, thoracic aorta, azygos venous system, vagus nerves, sympathetic trunks, thoracic duct",
-        "Diaphragm only",
+        "*Diaphragm only",
         "Heart, great vessels, trachea, primary bronchi",
         "Lungs and pleura",
         "Thymus, lymph nodes, internal thoracic vessels"
@@ -2359,10 +2164,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Esophagus, thoracic aorta, azygos venous system, vagus nerves, sympathetic trunks, thoracic duct."
     },
     {
-      "question": "The nerve most at risk during esophageal surgery is the:",
+      "question": "Recurrent laryngeal nerve",
       "options": [
-        "Recurrent laryngeal nerve",
-        "Sympathetic trunk",
+        "*Sympathetic trunk",
         "Phrenic nerve",
         "Intercostal nerve",
         "Vagus nerve"
@@ -2371,37 +2175,34 @@ export const s_2_2 = {
       "explanation": "The correct answer is Recurrent laryngeal nerve."
     },
     {
-      "question": "The splanchnic nerves carry:",
+      "question": "Postganglionic parasympathetic 1 fibers",
       "options": [
-        "Preganglionic sympathetic fibers",
+        "*Preganglionic sympathetic fibers",
         "Sensory fibers only",
         "Postganglionic sympathetic fibers",
-        "Preganglionic parasympathetic fibers",
-        "Postganglionic parasympathetic 1 fibers"
+        "Preganglionic parasympathetic fibers"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Preganglionic sympathetic fibers."
     },
     {
-      "question": "A common surgical procedure for esophageal cancer is:",
+      "question": "Mediastinoscopy",
       "options": [
-        "Esophagectomy",
+        "*Esophagectomy",
         "Lobectomy",
         "Thoracotomy",
-        "Pneumonectomy",
-        "Mediastinoscopy"
+        "Pneumonectomy"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Esophagectomy."
     },
     {
-      "question": "The esophagus begins at the level of:",
+      "question": "T10 vertebra",
       "options": [
-        "C6 vertebra",
+        "*C6 vertebra",
         "T4 vertebra",
         "T1 vertebra",
-        "C4 vertebra",
-        "T10 vertebra"
+        "C4 vertebra"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is C6 vertebra."
@@ -2409,11 +2210,10 @@ export const s_2_2 = {
   ],
   "t-s-2-2-10": [
     {
-      "question": "The Bassini repair is a surgical technique for:",
+      "question": "Incisional hernias",
       "options": [
-        "Inguinal hernias",
+        "*Inguinal hernias",
         "Femoral hernias",
-        "Incisional hernias",
         "Epigastric hernias",
         "Umbilical hernias"
       ],
@@ -2421,11 +2221,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Inguinal hernias."
     },
     {
-      "question": "The ilioinguinal nerve provides sensory innervation to the:",
+      "question": "Scrotum/labia majora and adjacent medial thigh",
       "options": [
-        "Skin of the groin and medial thigh",
+        "*Skin of the groin and medial thigh",
         "Viscera",
-        "Scrotum/labia majora and adjacent medial thigh",
         "Peritoneum",
         "Muscles of the anterior abdominal wall"
       ],
@@ -2433,11 +2232,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Skin of the groin and medial thigh."
     },
     {
-      "question": "A direct inguinal hernia protrudes through:",
+      "question": "The superficial inguinal ring",
       "options": [
-        "Hesselbach's triangle",
+        "*Hesselbach's triangle",
         "The femoral canal",
-        "The superficial inguinal ring",
         "The deep inguinal ring",
         "The linea alba"
       ],
@@ -2445,11 +2243,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Hesselbach's triangle."
     },
     {
-      "question": "The rectus abdominis muscle is enclosed within the:",
+      "question": "External oblique aponeurosis",
       "options": [
-        "Rectus sheath",
+        "*Rectus sheath",
         "Transversalis fascia",
-        "External oblique aponeurosis",
         "Linea alba",
         "Internal oblique aponeurosis"
       ],
@@ -2457,10 +2254,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Rectus sheath."
     },
     {
-      "question": "An umbilical hernia occurs at the:",
+      "question": "Linea alba below the umbilicus",
       "options": [
-        "Umbilicus",
-        "Linea alba below the umbilicus",
+        "*Umbilicus",
         "Inguinal region",
         "Epigastric region",
         "Linea alba above the umbilicus"
@@ -2469,22 +2265,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is Umbilicus."
     },
     {
-      "question": "The superficial inguinal ring is an opening in the:",
+      "question": "Transversus abdominis aponeurosis",
       "options": [
-        "External oblique aponeurosis",
+        "*External oblique aponeurosis",
         "Internal oblique aponeurosis",
         "Transversalis fascia",
-        "Transversus abdominis aponeurosis",
         "Rectus sheath"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is External oblique aponeurosis."
     },
     {
-      "question": "A laparoscopic approach to hernia repair involves:",
+      "question": "Small incisions and specialized instruments",
       "options": [
-        "Small incisions and specialized instruments",
-        "Large abdominal incision",
+        "*Large abdominal incision",
         "Combined abdominal and thoracic incisions",
         "Thoracotomy",
         "Retroperitoneal approach"
@@ -2493,23 +2287,21 @@ export const s_2_2 = {
       "explanation": "The correct answer is Small incisions and specialized instruments."
     },
     {
-      "question": "A femoral hernia protrudes through the:",
+      "question": "Hesselbach's triangle",
       "options": [
-        "Femoral canal",
+        "*Femoral canal",
         "Umbilicus",
         "Linea alba",
-        "Hesselbach's triangle",
         "Inguinal canal"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Femoral canal."
     },
     {
-      "question": "The inguinal ligament is formed by the free edge of the:",
+      "question": "Transversus abdominis aponeurosis",
       "options": [
-        "External oblique aponeurosis",
+        "*External oblique aponeurosis",
         "Rectus abdominis aponeurosis",
-        "Transversus abdominis aponeurosis",
         "Internal oblique aponeurosis",
         "Transversalis fascia"
       ],
@@ -2517,22 +2309,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is External oblique aponeurosis."
     },
     {
-      "question": "The Lichtenstein repair uses a:",
+      "question": "Primary suture repair",
       "options": [
-        "Mesh patch",
+        "*Mesh patch",
         "Skin graft",
         "Muscle flap",
-        "Peritoneal flap",
-        "Primary suture repair"
+        "Peritoneal flap"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Mesh patch."
     },
     {
-      "question": "The linea alba is formed by the aponeuroses of the:",
+      "question": "External oblique, internal oblique, and transversus abdominis",
       "options": [
-        "External oblique, internal oblique, and transversus abdominis",
-        "External oblique and internal oblique only",
+        "*External oblique and internal oblique only",
         "Transversus abdominis only",
         "Internal oblique and transversus abdominis only",
         "Rectus abdominis only"
@@ -2541,10 +2331,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is External oblique, internal oblique, and transversus abdominis."
     },
     {
-      "question": "The deep inguinal ring is an opening in the:",
+      "question": "Transversus abdominis aponeurosis",
       "options": [
-        "Transversalis fascia",
-        "Transversus abdominis aponeurosis",
+        "*Transversalis fascia",
         "External oblique aponeurosis",
         "Internal oblique aponeurosis",
         "Rectus sheath"
@@ -2553,11 +2342,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Transversalis fascia."
     },
     {
-      "question": "The cremaster muscle is derived from the:",
+      "question": "Transversus abdominis muscle",
       "options": [
-        "Internal oblique muscle",
+        "*Internal oblique muscle",
         "Rectus abdominis muscle",
-        "Transversus abdominis muscle",
         "External oblique muscle",
         "Transversalis fascia"
       ],
@@ -2565,10 +2353,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Internal oblique muscle."
     },
     {
-      "question": "A Spigelian hernia occurs along the:",
+      "question": "Semilunar line (lateral border of the rectus sheath)",
       "options": [
-        "Semilunar line (lateral border of the rectus sheath)",
-        "Linea alba",
+        "*Linea alba",
         "Umbilicus",
         "Inguinal ligament",
         "Femoral canal"
@@ -2577,10 +2364,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Semilunar line (lateral border of the rectus sheath)."
     },
     {
-      "question": "The inguinal canal contains the:",
+      "question": "Spermatic cord (males) or round ligament of the uterus (females)",
       "options": [
-        "Spermatic cord (males) or round ligament of the uterus (females)",
-        "Ilioinguinal nerve only",
+        "*Ilioinguinal nerve only",
         "Femoral nerve",
         "Obturator nerve",
         "Femoral artery and vein"
@@ -2589,10 +2375,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Spermatic cord (males) or round ligament of the uterus (females)."
     },
     {
-      "question": "The conjoint tendon is formed by the fusion of the aponeuroses of the:",
+      "question": "Internal oblique and transversus abdominis",
       "options": [
-        "Internal oblique and transversus abdominis",
-        "Transversus abdominis and rectus abdominis",
+        "*Transversus abdominis and rectus abdominis",
         "External oblique and transversalis fascia",
         "Internal oblique and transversalis fascia",
         "External oblique and internal oblique"
@@ -2601,10 +2386,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Internal oblique and transversus abdominis."
     },
     {
-      "question": "An epigastric hernia occurs through the:",
+      "question": "Linea alba between the xiphoid process and umbilicus",
       "options": [
-        "Linea alba between the xiphoid process and umbilicus",
-        "Umbilicus",
+        "*Umbilicus",
         "Femoral canal",
         "Hesselbach's triangle",
         "Inguinal region"
@@ -2613,10 +2397,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Linea alba between the xiphoid process and umbilicus."
     },
     {
-      "question": "The nerve at risk of injury during inguinal hernia repair is the:",
+      "question": "Lateral femoral cutaneous nerve",
       "options": [
-        "Ilioinguinal nerve",
-        "Lateral femoral cutaneous nerve",
+        "*Ilioinguinal nerve",
         "Genitofemoral nerve",
         "Femoral nerve",
         "Obturator nerve"
@@ -2625,10 +2408,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Ilioinguinal nerve."
     },
     {
-      "question": "The transversalis fascia is located:",
+      "question": "Between the external and internal oblique muscles",
       "options": [
-        "Deep to the transversus abdominis muscle",
-        "Between the external and internal oblique muscles",
+        "*Deep to the transversus abdominis muscle",
         "Superficial to the external oblique muscle",
         "Superficial to the transversus abdominis muscle",
         "Deep to the internal oblique muscle"
@@ -2637,13 +2419,12 @@ export const s_2_2 = {
       "explanation": "The correct answer is Deep to the transversus abdominis muscle."
     },
     {
-      "question": "An indirect inguinal hernia protrudes through:",
+      "question": "The superficial inguinal ring",
       "options": [
-        "The deep inguinal ring",
+        "*The deep inguinal ring",
         "The femoral canal",
         "The linea alba",
-        "Hesselbach's triangle",
-        "The superficial inguinal ring"
+        "Hesselbach's triangle"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is The deep inguinal ring."
@@ -2651,10 +2432,9 @@ export const s_2_2 = {
   ],
   "t-s-2-2-11": [
     {
-      "question": "A sliding hiatal hernia involves:",
+      "question": "The cardia and fundus sliding into the thorax",
       "options": [
-        "The cardia and fundus sliding into the thorax",
-        "The entire stomach sliding into the thorax",
+        "*The entire stomach sliding into the thorax",
         "Only the fundus sliding into the thorax",
         "The small intestine sliding into the thorax",
         "Only the cardia sliding into the thorax"
@@ -2663,23 +2443,21 @@ export const s_2_2 = {
       "explanation": "The correct answer is The cardia and fundus sliding into the thorax."
     },
     {
-      "question": "Gastrostomy is a surgical procedure that creates an opening into the:",
+      "question": "Esophagus",
       "options": [
-        "Stomach",
+        "*Stomach",
         "Jejunum",
         "Duodenum",
-        "Ileum",
-        "Esophagus"
+        "Ileum"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Stomach."
     },
     {
-      "question": "The greater curvature of the stomach is located:",
+      "question": "Posteriorly",
       "options": [
-        "Laterally",
+        "*Laterally",
         "Anteriorly",
-        "Posteriorly",
         "Superiorly",
         "Medially"
       ],
@@ -2687,10 +2465,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Laterally."
     },
     {
-      "question": "The pylorus of the stomach is located at the level of:",
+      "question": "T10 vertebra",
       "options": [
-        "L1 vertebra",
-        "T10 vertebra",
+        "*L1 vertebra",
         "L3 vertebra",
         "S1 vertebra",
         "T12 vertebra"
@@ -2699,10 +2476,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is L1 vertebra."
     },
     {
-      "question": "A Billroth I gastrectomy involves:",
+      "question": "Anastomosis of the stomach to the duodenum",
       "options": [
-        "Anastomosis of the stomach to the duodenum",
-        "Removal of the esophagus",
+        "*Removal of the esophagus",
         "Removal of the spleen",
         "Anastomosis of the stomach to the jejunum",
         "Removal of the duodenum"
@@ -2711,11 +2487,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Anastomosis of the stomach to the duodenum."
     },
     {
-      "question": "A total gastrectomy involves removal of:",
+      "question": "The esophagus and part of the stomach",
       "options": [
-        "The entire stomach",
+        "*The entire stomach",
         "Part of the stomach",
-        "The esophagus and part of the stomach",
         "Only the pylorus",
         "The duodenum and part of the stomach"
       ],
@@ -2723,22 +2498,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is The entire stomach."
     },
     {
-      "question": "The gastric rugae are:",
+      "question": "Lymphatic vessels of the stomach",
       "options": [
-        "Folds in the gastric mucosa",
+        "*Folds in the gastric mucosa",
         "Blood vessels of the stomach",
         "Folds in the gastric serosa",
-        "Muscle layers of the stomach",
-        "Lymphatic vessels of the stomach"
+        "Muscle layers of the stomach"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Folds in the gastric mucosa."
     },
     {
-      "question": "The cardia of the stomach is located at the level of:",
+      "question": "T11 vertebra",
       "options": [
-        "T11 vertebra",
-        "L1 vertebra",
+        "*L1 vertebra",
         "T10 vertebra",
         "L2 vertebra",
         "T8 vertebra"
@@ -2747,10 +2520,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is T11 vertebra."
     },
     {
-      "question": "A paraesophageal hernia involves:",
+      "question": "The fundus of the stomach herniating alongside the esophagus",
       "options": [
-        "The fundus of the stomach herniating alongside the esophagus",
-        "Only the esophagus herniating through the diaphragm",
+        "*Only the esophagus herniating through the diaphragm",
         "Only the cardia herniating through the diaphragm",
         "The entire stomach herniating into the thorax",
         "The small intestine herniating into the thorax"
@@ -2759,10 +2531,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is The fundus of the stomach herniating alongside the esophagus."
     },
     {
-      "question": "A percutaneous endoscopic gastrostomy (PEG) is performed:",
+      "question": "Through the abdominal wall using an endoscope",
       "options": [
-        "Through the abdominal wall using an endoscope",
-        "Through a large abdominal incision",
+        "*Through a large abdominal incision",
         "Through the rectum",
         "Through the chest wall",
         "Through the urethra"
@@ -2771,10 +2542,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Through the abdominal wall using an endoscope."
     },
     {
-      "question": "The stomach is located primarily in the:",
+      "question": "Right upper quadrant of the abdomen",
       "options": [
-        "Left upper quadrant of the abdomen",
-        "Right upper quadrant of the abdomen",
+        "*Left upper quadrant of the abdomen",
         "Epigastric region only",
         "Left lower quadrant of the abdomen",
         "Right lower quadrant of the abdomen"
@@ -2783,10 +2553,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Left upper quadrant of the abdomen."
     },
     {
-      "question": "A partial gastrectomy involves removal of:",
+      "question": "Part of the stomach",
       "options": [
-        "Part of the stomach",
-        "The esophagus",
+        "*The esophagus",
         "The spleen",
         "The duodenum",
         "The entire stomach"
@@ -2795,11 +2564,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Part of the stomach."
     },
     {
-      "question": "The stomach drains its venous blood into the:",
+      "question": "Superior vena cava",
       "options": [
-        "Portal vein",
+        "*Portal vein",
         "Hepatic veins",
-        "Superior vena cava",
         "Splenic vein only",
         "Inferior vena cava"
       ],
@@ -2807,10 +2575,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Portal vein."
     },
     {
-      "question": "The stomach is innervated by the:",
+      "question": "Vagus nerves and celiac plexus",
       "options": [
-        "Vagus nerves and celiac plexus",
-        "Intercostal nerves",
+        "*Intercostal nerves",
         "Lumbar plexus",
         "Sacral plexus",
         "Phrenic nerve"
@@ -2819,22 +2586,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is Vagus nerves and celiac plexus."
     },
     {
-      "question": "The lesser curvature of the stomach is located:",
+      "question": "Posteriorly",
       "options": [
-        "Medially",
+        "*Medially",
         "Inferiorly",
         "Anteriorly",
-        "Posteriorly",
         "Laterally"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Medially."
     },
     {
-      "question": "Dumping syndrome is a potential complication of:",
+      "question": "Liver transplantation",
       "options": [
-        "Gastrectomy",
-        "Liver transplantation",
+        "*Gastrectomy",
         "Appendectomy",
         "Cholecystectomy",
         "Hernia repair"
@@ -2843,11 +2608,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Gastrectomy."
     },
     {
-      "question": "A Billroth II gastrectomy involves:",
+      "question": "Anastomosis of the stomach to the duodenum",
       "options": [
-        "Anastomosis of the stomach to the jejunum",
+        "*Anastomosis of the stomach to the jejunum",
         "Removal of the esophagus",
-        "Anastomosis of the stomach to the duodenum",
         "Removal of the duodenum",
         "Removal of the spleen"
       ],
@@ -2855,10 +2619,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Anastomosis of the stomach to the jejunum."
     },
     {
-      "question": "The fundus of the stomach is located:",
+      "question": "Superior to the esophageal opening",
       "options": [
-        "Superior to the esophageal opening",
-        "Anterior to the pylorus",
+        "*Anterior to the pylorus",
         "Posterior to the pylorus",
         "Inferior to the esophageal opening",
         "Medial to the body"
@@ -2867,10 +2630,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Superior to the esophageal opening."
     },
     {
-      "question": "The stomach receives its blood supply primarily from the:",
+      "question": "Superior mesenteric artery",
       "options": [
-        "Celiac trunk",
-        "Superior mesenteric artery",
+        "*Celiac trunk",
         "Inferior mesenteric artery",
         "Splenic artery only",
         "Hepatic artery only"
@@ -2879,12 +2641,11 @@ export const s_2_2 = {
       "explanation": "The correct answer is Celiac trunk."
     },
     {
-      "question": "A hiatal hernia involves protrusion of the:",
+      "question": "Small intestine into the inguinal canal",
       "options": [
-        "Stomach into the thoracic cavity",
+        "*Stomach into the thoracic cavity",
         "Large intestine into the pelvis",
         "Spleen into the abdominal wall",
-        "Small intestine into the inguinal canal",
         "Liver into the thoracic cavity"
       ],
       "correctIndex": 0,
@@ -2893,10 +2654,9 @@ export const s_2_2 = {
   ],
   "t-s-2-2-12": [
     {
-      "question": "The most common cause of liver cirrhosis leading to transplantation is:",
+      "question": "Duodenal ulcers",
       "options": [
-        "Hepatitis C",
-        "Duodenal ulcers",
+        "*Hepatitis C",
         "Pancreatitis",
         "Gallstones",
         "Splenic rupture"
@@ -2905,10 +2665,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Hepatitis C."
     },
     {
-      "question": "The gallbladder’s primary function is:",
+      "question": "Storing and concentrating bile",
       "options": [
-        "Storing and concentrating bile",
-        "Producing bile",
+        "*Producing bile",
         "Filtering blood",
         "Storing glycogen",
         "Producing digestive enzymes"
@@ -2917,10 +2676,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Storing and concentrating bile."
     },
     {
-      "question": "Cholecystitis is inflammation of the:",
+      "question": "Gallbladder",
       "options": [
-        "Gallbladder",
-        "Spleen",
+        "*Spleen",
         "Liver",
         "Pancreas",
         "Duodenum"
@@ -2929,10 +2687,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Gallbladder."
     },
     {
-      "question": "The splenic artery is a branch of the:",
+      "question": "Inferior mesenteric artery",
       "options": [
-        "Celiac trunk",
-        "Inferior mesenteric artery",
+        "*Celiac trunk",
         "Superior mesenteric artery",
         "Abdominal aorta directly",
         "Renal artery"
@@ -2941,10 +2698,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Celiac trunk."
     },
     {
-      "question": "Bile is produced by:",
+      "question": "Hepatocytes (liver cells)",
       "options": [
-        "Hepatocytes (liver cells)",
-        "Gallbladder",
+        "*Gallbladder",
         "Spleen",
         "Duodenum",
         "Pancreas"
@@ -2953,10 +2709,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Hepatocytes (liver cells)."
     },
     {
-      "question": "The common bile duct empties into the:",
+      "question": "Duodenum (second part)",
       "options": [
-        "Duodenum (second part)",
-        "Jejunum",
+        "*Jejunum",
         "Ileum",
         "Colon",
         "Stomach"
@@ -2965,10 +2720,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Duodenum (second part)."
     },
     {
-      "question": "The liver is located primarily in the:",
+      "question": "Right upper quadrant of the abdomen",
       "options": [
-        "Right upper quadrant of the abdomen",
-        "Left upper quadrant of the abdomen",
+        "*Left upper quadrant of the abdomen",
         "Left lower quadrant of the abdomen",
         "Right lower quadrant of the abdomen",
         "Epigastric region only"
@@ -2977,10 +2731,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Right upper quadrant of the abdomen."
     },
     {
-      "question": "Liver stitches (sutures) are used to:",
+      "question": "Control bleeding after liver injury or surgery",
       "options": [
-        "Control bleeding after liver injury or surgery",
-        "Repair the spleen",
+        "*Repair the spleen",
         "Repair the gallbladder",
         "Repair the pancreas",
         "Repair the bile duct"
@@ -2989,10 +2742,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Control bleeding after liver injury or surgery."
     },
     {
-      "question": "Liver transplantation is a treatment option for:",
+      "question": "End-stage liver disease",
       "options": [
-        "End-stage liver disease",
-        "Pancreatitis",
+        "*Pancreatitis",
         "Duodenal ulcers",
         "Gallstones",
         "Splenic rupture"
@@ -3001,22 +2753,20 @@ export const s_2_2 = {
       "explanation": "The correct answer is End-stage liver disease."
     },
     {
-      "question": "The recipient’s diseased liver is removed during:",
+      "question": "Living donor liver transplantation",
       "options": [
-        "Orthotopic liver transplantation",
+        "*Orthotopic liver transplantation",
         "Split liver transplantation",
         "Heterotopic liver transplantation",
-        "Living donor liver transplantation",
         "Domino liver transplantation"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Orthotopic liver transplantation."
     },
     {
-      "question": "The liver receives blood supply from the:",
+      "question": "Hepatic artery and portal vein",
       "options": [
-        "Hepatic artery and portal vein",
-        "Inferior mesenteric artery",
+        "*Inferior mesenteric artery",
         "Superior mesenteric artery",
         "Hepatic artery only",
         "Portal vein only"
@@ -3025,10 +2775,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Hepatic artery and portal vein."
     },
     {
-      "question": "Bile is stored in the:",
+      "question": "Gallbladder",
       "options": [
-        "Gallbladder",
-        "Spleen",
+        "*Spleen",
         "Pancreas",
         "Liver",
         "Duodenum"
@@ -3037,10 +2786,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Gallbladder."
     },
     {
-      "question": "The common bile duct is formed by the union of the:",
+      "question": "Cystic duct and common hepatic duct",
       "options": [
-        "Cystic duct and common hepatic duct",
-        "Hepatic artery and portal vein",
+        "*Hepatic artery and portal vein",
         "Cystic duct and pancreatic duct",
         "Hepatic duct and pancreatic duct",
         "Hepatic vein and portal vein"
@@ -3049,10 +2797,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Cystic duct and common hepatic duct."
     },
     {
-      "question": "The spleen’s primary functions include:",
+      "question": "Filtering blood and removing old red blood cells",
       "options": [
-        "Filtering blood and removing old red blood cells",
-        "Detoxifying blood",
+        "*Detoxifying blood",
         "Producing digestive enzymes",
         "Producing bile",
         "Storing glycogen"
@@ -3061,23 +2808,21 @@ export const s_2_2 = {
       "explanation": "The correct answer is Filtering blood and removing old red blood cells."
     },
     {
-      "question": "The splenic vein drains into the:",
+      "question": "Superior mesenteric vein",
       "options": [
-        "Portal vein",
+        "*Portal vein",
         "Hepatic vein",
         "Inferior vena cava",
-        "Superior mesenteric vein",
         "Renal vein"
       ],
       "correctIndex": 0,
       "explanation": "The correct answer is Portal vein."
     },
     {
-      "question": "Cholelithiasis refers to the presence of:",
+      "question": "Pancreatic stones",
       "options": [
-        "Gallstones",
+        "*Gallstones",
         "Liver cysts",
-        "Pancreatic stones",
         "Splenic rupture",
         "Duodenal ulcers"
       ],
@@ -3085,10 +2830,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Gallstones."
     },
     {
-      "question": "The portal vein carries blood from the:",
+      "question": "Gastrointestinal tract and spleen",
       "options": [
-        "Gastrointestinal tract and spleen",
-        "Heart to the liver",
+        "*Heart to the liver",
         "Kidneys to the liver",
         "Liver to the inferior vena cava",
         "Lungs to the liver"
@@ -3097,10 +2841,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Gastrointestinal tract and spleen."
     },
     {
-      "question": "In living donor liver transplantation, a portion of the liver is taken from a:",
+      "question": "Living related or unrelated donor",
       "options": [
-        "Living related or unrelated donor",
-        "Deceased donor",
+        "*Deceased donor",
         "Animal",
         "Pig",
         "Cadaver"
@@ -3109,11 +2852,10 @@ export const s_2_2 = {
       "explanation": "The correct answer is Living related or unrelated donor."
     },
     {
-      "question": "The spleen is located in the:",
+      "question": "Right lower quadrant of the abdomen",
       "options": [
-        "Left upper quadrant of the abdomen",
+        "*Left upper quadrant of the abdomen",
         "Epigastric region",
-        "Right lower quadrant of the abdomen",
         "Right upper quadrant of the abdomen",
         "Left lower quadrant of the abdomen"
       ],
@@ -3121,10 +2863,9 @@ export const s_2_2 = {
       "explanation": "The correct answer is Left upper quadrant of the abdomen."
     },
     {
-      "question": "The sphincter of Oddi controls the flow of:",
+      "question": "Bile and pancreatic juice into the duodenum",
       "options": [
-        "Bile and pancreatic juice into the duodenum",
-        "Gastric contents into the duodenum",
+        "*Gastric contents into the duodenum",
         "Blood into the liver",
         "Blood from the liver",
         "Intestinal contents into the colon"
@@ -3135,11 +2876,10 @@ export const s_2_2 = {
   ],
   "t-s-2-2-13": [
     {
-      "question": "The ureters are located:",
+      "question": "Within the pelvis only",
       "options": [
-        "Retroperitoneally",
+        "*Retroperitoneally",
         "Intraperitoneally",
-        "Within the pelvis only",
         "Within the thorax only",
         "Subcutaneously"
       ],
@@ -3147,22 +2887,20 @@ export const s_2_2 = {
       "explanation": "The ureters run from the kidneys to the urinary bladder on the posterior abdominal wall, behind the peritoneum. Therefore, they are classified as retroperitoneal structures."
     },
     {
-      "question": "The intervertebral discs are located between the:",
+      "question": "Transverse processes",
       "options": [
-        "Vertebral bodies",
+        "*Vertebral bodies",
         "Laminae",
         "Spinous processes",
-        "Transverse processes",
         "Vertebral arches"
       ],
       "correctIndex": 0,
       "explanation": "Intervertebral discs are fibrocartilaginous pads situated between adjacent vertebral bodies. They act as shock absorbers and allow flexibility of the spine."
     },
     {
-      "question": "The quadratus lumborum muscle is located:",
+      "question": "Posterior abdominal wall, retroperitoneally",
       "options": [
-        "Posterior abdominal wall, retroperitoneally",
-        "Within the thoracic cavity",
+        "*Within the thoracic cavity",
         "Within the diaphragm",
         "Anterior abdominal wall",
         "Within the pelvic cavity"
@@ -3171,11 +2909,10 @@ export const s_2_2 = {
       "explanation": "Quadratus lumborum is a deep muscle of the posterior abdominal wall and lies in the retroperitoneal region near the lumbar vertebrae."
     },
     {
-      "question": "The lumbar spine consists of:",
+      "question": "12 vertebrae",
       "options": [
-        "5 vertebrae",
+        "*5 vertebrae",
         "4 vertebrae",
-        "12 vertebrae",
         "7 vertebrae",
         "3 vertebrae"
       ],
@@ -3183,10 +2920,9 @@ export const s_2_2 = {
       "explanation": "The lumbar region contains 5 lumbar vertebrae (L1–L5)."
     },
     {
-      "question": "A herniated disc typically occurs:",
+      "question": "Posterolaterally",
       "options": [
-        "Posterolaterally",
-        "Laterally",
+        "*Laterally",
         "Superiorly",
         "Medially",
         "Anteriorly"
@@ -3195,22 +2931,20 @@ export const s_2_2 = {
       "explanation": "Most intervertebral disc herniations occur posterolaterally because: the posterior longitudinal ligament is weaker laterally, and the annulus fibrosus is more vulnerable there. This commonly compresses spinal nerve roots."
     },
     {
-      "question": "The annulus fibrosus is located:",
+      "question": "Within the intervertebral foramen",
       "options": [
-        "Surrounding the nucleus pulposus",
+        "*Surrounding the nucleus pulposus",
         "Within the spinal canal",
         "Within the vertebral arch",
-        "Within the intervertebral foramen",
         "Within the vertebral body"
       ],
       "correctIndex": 0,
       "explanation": "The annulus fibrosus is the tough outer fibrous ring of the intervertebral disc that surrounds the soft nucleus pulposus."
     },
     {
-      "question": "The spinal cord typically ends at the level of:",
+      "question": "L1-L2 vertebra",
       "options": [
-        "L1-L2 vertebra",
-        "S1 vertebra",
+        "*S1 vertebra",
         "L3-L4 vertebra",
         "T12 vertebra",
         "Coccyx"
@@ -3219,11 +2953,10 @@ export const s_2_2 = {
       "explanation": "In adults, the spinal cord ends as the conus medullaris around the L1–L2 level. Below this level lies the cauda equina."
     },
     {
-      "question": "The inferior vena cava is located:",
+      "question": "Within the peritoneal cavity",
       "options": [
-        "Retroperitoneally",
+        "*Retroperitoneally",
         "Within the lesser sac",
-        "Within the peritoneal cavity",
         "Intraperitoneally",
         "Within the greater sac"
       ],
@@ -3231,22 +2964,20 @@ export const s_2_2 = {
       "explanation": "The inferior vena cava lies behind the peritoneum on the posterior abdominal wall, making it a retroperitoneal structure."
     },
     {
-      "question": "The pancreas is primarily located:",
+      "question": "Within the peritoneal cavity",
       "options": [
-        "Retroperitoneally",
+        "*Retroperitoneally",
         "Intraperitoneally",
         "Within the greater sac",
-        "Within the peritoneal cavity",
         "Within the lesser sac"
       ],
       "correctIndex": 0,
       "explanation": "Most of the pancreas is secondarily retroperitoneal except the tail, which is intraperitoneal near the spleen."
     },
     {
-      "question": "The retroperitoneal space is located:",
+      "question": "Posterior to the parietal peritoneum",
       "options": [
-        "Posterior to the parietal peritoneum",
-        "Within the peritoneal cavity",
+        "*Within the peritoneal cavity",
         "Inferior to the pelvic floor",
         "Superior to the diaphragm",
         "Anterior to the parietal peritoneum"
@@ -3255,10 +2986,9 @@ export const s_2_2 = {
       "explanation": "The retroperitoneal space lies behind the parietal peritoneum and contains structures like: kidneys, ureters, pancreas, aorta, and IVC."
     },
     {
-      "question": "The nucleus pulposus is located within the:",
+      "question": "Intervertebral disc",
       "options": [
-        "Intervertebral disc",
-        "Spinous process",
+        "*Spinous process",
         "Transverse process",
         "Vertebral arch",
         "Vertebral body"
@@ -3267,46 +2997,42 @@ export const s_2_2 = {
       "explanation": "The nucleus pulposus is the soft gelatinous central part of the intervertebral disc."
     },
     {
-      "question": "The kidneys filter:",
+      "question": "Gastric contents",
       "options": [
-        "Blood",
+        "*Blood",
         "Bile",
         "Lymph",
-        "Gastric contents",
         "Urine only"
       ],
       "correctIndex": 0,
       "explanation": "Kidneys filter blood plasma to remove waste products and form urine."
     },
     {
-      "question": "The psoas major muscle is located:",
+      "question": "Within the thoracic cavity",
       "options": [
-        "Retroperitoneally",
+        "*Retroperitoneally",
         "Within the pelvic cavity",
         "Within the abdominal wall",
-        "Intraperitoneally",
-        "Within the thoracic cavity"
+        "Intraperitoneally"
       ],
       "correctIndex": 0,
       "explanation": "Psoas major lies in the retroperitoneal space alongside the lumbar vertebrae."
     },
     {
-      "question": "Which of the following organs is primarily retroperitoneal?",
+      "question": "Small intestine",
       "options": [
-        "Kidneys",
+        "*Kidneys",
         "Spleen",
         "Stomach",
-        "Liver",
-        "Small intestine"
+        "Liver"
       ],
       "correctIndex": 0,
       "explanation": "The kidneys are primarily retroperitoneal organs, meaning they developed and remained behind the peritoneum."
     },
     {
-      "question": "The renal arteries arise from the:",
+      "question": "Inferior mesenteric artery",
       "options": [
-        "Abdominal aorta",
-        "Inferior mesenteric artery",
+        "*Abdominal aorta",
         "Celiac trunk",
         "Superior mesenteric artery",
         "Common iliac arteries"
@@ -3315,22 +3041,20 @@ export const s_2_2 = {
       "explanation": "The renal arteries branch directly from the abdominal aorta around the L1–L2 level."
     },
     {
-      "question": "The abdominal aorta is located:",
+      "question": "Within the peritoneal cavity",
       "options": [
-        "Retroperitoneally",
+        "*Retroperitoneally",
         "Within the greater sac",
         "Within the lesser sac",
-        "Intraperitoneally",
-        "Within the peritoneal cavity"
+        "Intraperitoneally"
       ],
       "correctIndex": 0,
       "explanation": "The abdominal aorta lies on the posterior abdominal wall behind the peritoneum."
     },
     {
-      "question": "The sympathetic trunk runs:",
+      "question": "Along the anterolateral aspect of the vertebral bodies",
       "options": [
-        "Along the anterolateral aspect of the vertebral bodies",
-        "Within the intervertebral foramen",
+        "*Within the intervertebral foramen",
         "Within the psoas muscle",
         "Within the spinal canal",
         "Along the posterior aspect of the vertebral bodies"
@@ -3339,35 +3063,32 @@ export const s_2_2 = {
       "explanation": "The sympathetic trunks run vertically on both sides of the vertebral column along the anterolateral surfaces of vertebral bodies."
     },
     {
-      "question": "The lumbar plexus is formed by the ventral rami of:",
+      "question": "T12-L3 spinal nerves",
       "options": [
-        "L1-L4 spinal nerves",
+        "*L1-L4 spinal nerves",
         "Coccygeal nerve",
         "L5-S1 spinal nerves",
-        "T12-L3 spinal nerves",
         "S2-S4 spinal nerves"
       ],
       "correctIndex": 0,
       "explanation": "The lumbar plexus is mainly formed by ventral rami of L1–L4."
     },
     {
-      "question": "The adrenal glands are located:",
+      "question": "Within the peritoneal cavity",
       "options": [
-        "Retroperitoneally",
+        "*Retroperitoneally",
         "Intraperitoneally",
         "Within the lesser sac",
-        "Within the greater sac",
-        "Within the peritoneal cavity"
+        "Within the greater sac"
       ],
       "correctIndex": 0,
       "explanation": "The suprarenal (adrenal) glands sit superior to the kidneys in the retroperitoneal space."
     },
     {
-      "question": "The cauda equina is located within the:",
+      "question": "Intervertebral foramen",
       "options": [
-        "Lumbar spinal canal",
+        "*Lumbar spinal canal",
         "Sacral canal",
-        "Intervertebral foramen",
         "Cervical spinal canal",
         "Thoracic spinal canal"
       ],
@@ -3377,47 +3098,43 @@ export const s_2_2 = {
   ],
   "t-s-2-2-14": [
     {
-      "question": "The pelvic splanchnic nerves carry:",
+      "question": "Motor fibers to the abdominal wall",
       "options": [
-        "Parasympathetic fibers",
+        "*Parasympathetic fibers",
         "Motor fibers to the lower limb",
         "Sympathetic fibers",
-        "Motor fibers to the abdominal wall",
         "Sensory fibers"
       ],
       "correctIndex": 0,
       "explanation": "Pelvic splanchnic nerves arise from S2–S4 and carry parasympathetic fibers to pelvic organs and hindgut structures."
     },
     {
-      "question": "The true pelvis (lesser pelvis) is located:",
+      "question": "Posterior to the pelvic inlet",
       "options": [
-        "Inferior to the pelvic inlet",
+        "*Inferior to the pelvic inlet",
         "Anterior to the pelvic inlet",
         "Superior to the pelvic inlet",
-        "Posterior to the pelvic inlet",
         "Lateral to the pelvic inlet"
       ],
       "correctIndex": 0,
       "explanation": "The true pelvis lies below the pelvic inlet and contains pelvic organs like the bladder, rectum, and reproductive organs."
     },
     {
-      "question": "The pelvic fascia is continuous with the:",
+      "question": "Superficial fascia of the abdomen",
       "options": [
-        "Transversalis fascia",
+        "*Transversalis fascia",
         "Deep fascia of the thigh",
         "Thoracolumbar fascia",
-        "All of the above",
-        "Superficial fascia of the abdomen"
+        "All of the above"
       ],
       "correctIndex": 0,
       "explanation": "Pelvic fascia is continuous superiorly with the transversalis fascia of the abdominal wall."
     },
     {
-      "question": "The external urethral sphincter is made of:",
+      "question": "Epithelial tissue",
       "options": [
-        "Skeletal muscle",
+        "*Skeletal muscle",
         "Nervous tissue",
-        "Epithelial tissue",
         "Connective tissue",
         "Smooth muscle"
       ],
@@ -3425,10 +3142,9 @@ export const s_2_2 = {
       "explanation": "The external urethral sphincter is voluntary and composed of skeletal muscle."
     },
     {
-      "question": "The pelvic outlet is bounded by:",
+      "question": "Pubic symphysis, ischiopubic rami, ischial tuberosities, sacrotuberous ligaments, coccyx",
       "options": [
-        "Pubic symphysis, ischiopubic rami, ischial tuberosities, sacrotuberous ligaments, coccyx",
-        "Sacral promontory, arcuate lines, pectineal lines, pubic crest",
+        "*Sacral promontory, arcuate lines, pectineal lines, pubic crest",
         "Ischial spines, pubic symphysis, coccyx",
         "Iliac crests, sacrum, pubic symphysis",
         "Acetabula, ischial spines, sacrum"
@@ -3437,11 +3153,10 @@ export const s_2_2 = {
       "explanation": "The pelvic outlet forms the inferior opening of the pelvis and is bounded by those structures."
     },
     {
-      "question": "The pelvic floor is mainly formed by the:",
+      "question": "Rectus abdominis and external oblique muscles",
       "options": [
-        "Levator ani and coccygeus muscles",
+        "*Levator ani and coccygeus muscles",
         "Gluteus maximus and medius muscles",
-        "Rectus abdominis and external oblique muscles",
         "Psoas major and iliacus muscles",
         "Piriformis and obturator internus muscles"
       ],
@@ -3449,10 +3164,9 @@ export const s_2_2 = {
       "explanation": "The pelvic diaphragm mainly consists of: levator ani and coccygeus. These support pelvic organs."
     },
     {
-      "question": "The obturator internus muscle originates from the:",
+      "question": "Inner surface of the obturator membrane and surrounding bone",
       "options": [
-        "Inner surface of the obturator membrane and surrounding bone",
-        "Sacrum",
+        "*Sacrum",
         "Pubis",
         "Iliac crest",
         "Outer surface of the obturator membrane and surrounding bone"
@@ -3461,10 +3175,9 @@ export const s_2_2 = {
       "explanation": "Obturator internus arises from the internal surface of the obturator membrane and adjacent pelvic bones."
     },
     {
-      "question": "The ureters transport urine from the:",
+      "question": "Kidneys to the bladder",
       "options": [
-        "Kidneys to the bladder",
-        "Bladder to the urethra",
+        "*Bladder to the urethra",
         "Liver to the bladder",
         "Bladder to the kidneys",
         "Kidneys to the urethra"
@@ -3473,10 +3186,9 @@ export const s_2_2 = {
       "explanation": "Ureters are muscular tubes carrying urine from kidneys into the urinary bladder."
     },
     {
-      "question": "The rectum receives its blood supply from the:",
+      "question": "Superior, middle, and inferior rectal arteries",
       "options": [
-        "Superior, middle, and inferior rectal arteries",
-        "External iliac arteries only",
+        "*External iliac arteries only",
         "Internal iliac arteries only",
         "Inferior mesenteric artery only",
         "Common iliac arteries only"
@@ -3485,10 +3197,9 @@ export const s_2_2 = {
       "explanation": "Rectal blood supply comes from: superior rectal artery, middle rectal artery, and inferior rectal artery."
     },
     {
-      "question": "The rectum is located:",
+      "question": "Posterior to the bladder and reproductive organs",
       "options": [
-        "Posterior to the bladder and reproductive organs",
-        "Lateral to the bladder",
+        "*Lateral to the bladder",
         "Inferior to the bladder",
         "Superior to the bladder",
         "Anterior to the bladder and reproductive organs"
@@ -3497,10 +3208,9 @@ export const s_2_2 = {
       "explanation": "The rectum lies posteriorly in the pelvis behind the bladder and reproductive organs."
     },
     {
-      "question": "The internal urethral sphincter is made of:",
+      "question": "Epithelial tissue",
       "options": [
-        "Smooth muscle",
-        "Epithelial tissue",
+        "*Smooth muscle",
         "Nervous tissue",
         "Connective tissue",
         "Skeletal muscle"
@@ -3509,10 +3219,9 @@ export const s_2_2 = {
       "explanation": "The internal urethral sphincter is voluntary and composed of smooth muscle."
     },
     {
-      "question": "The false pelvis (greater pelvis) is located:",
+      "question": "Posterior to the pelvic inlet",
       "options": [
-        "Superior to the pelvic inlet",
-        "Posterior to the pelvic inlet",
+        "*Superior to the pelvic inlet",
         "Medial to the pelvic inlet",
         "Inferior to the pelvic inlet",
         "Anterior to the pelvic inlet"
@@ -3521,11 +3230,10 @@ export const s_2_2 = {
       "explanation": "The greater (false) pelvis lies above the pelvic brim and supports abdominal viscera."
     },
     {
-      "question": "The trigone of the bladder is defined by the openings of:",
+      "question": "The uterine tubes and the ovaries (females)",
       "options": [
-        "The two ureters and the urethra",
+        "*The two ureters and the urethra",
         "The ureters and the rectum",
-        "The uterine tubes and the ovaries (females)",
         "The urethra and the uterine tubes (females)",
         "The urethra and the rectum"
       ],
@@ -3533,10 +3241,9 @@ export const s_2_2 = {
       "explanation": "The bladder trigone is a triangular smooth area formed by: two ureteric openings and internal urethral opening."
     },
     {
-      "question": "The pelvic inlet is formed by:",
+      "question": "Sacral promontory, arcuate lines, pectineal lines, pubic crest",
       "options": [
-        "Sacral promontory, arcuate lines, pectineal lines, pubic crest",
-        "Iliac crests, sacrum, pubic symphysis",
+        "*Iliac crests, sacrum, pubic symphysis",
         "Sacral promontory, ischial spines, pubic symphysis",
         "Ischial tuberosities, pubic arch, coccyx",
         "Acetabula, ischial spines, sacrum"
@@ -3545,10 +3252,9 @@ export const s_2_2 = {
       "explanation": "The pelvic inlet forms the superior opening of the true pelvis."
     },
     {
-      "question": "The venous drainage of the rectum occurs via the:",
+      "question": "Superior, middle, and inferior rectal veins",
       "options": [
-        "Superior, middle, and inferior rectal veins",
-        "Inferior mesenteric vein only",
+        "*Inferior mesenteric vein only",
         "Common iliac veins only",
         "External iliac veins only",
         "Internal iliac veins only"
@@ -3557,22 +3263,20 @@ export const s_2_2 = {
       "explanation": "Rectal venous drainage parallels arterial supply through: superior rectal vein, middle rectal vein, and inferior rectal vein."
     },
     {
-      "question": "The urinary bladder is located:",
+      "question": "Posterior in the pelvic cavity",
       "options": [
-        "Anterior in the pelvic cavity",
+        "*Anterior in the pelvic cavity",
         "Superior to the pelvic inlet",
         "Inferior to the pelvic outlet",
-        "Lateral in the pelvic cavity",
-        "Posterior in the pelvic cavity"
+        "Lateral in the pelvic cavity"
       ],
       "correctIndex": 0,
       "explanation": "The urinary bladder lies anteriorly in the pelvis behind the pubic symphysis."
     },
     {
-      "question": "The detrusor muscle is located in the wall of the:",
+      "question": "Urinary bladder",
       "options": [
-        "Urinary bladder",
-        "Ureter",
+        "*Ureter",
         "Uterus",
         "Rectum",
         "Urethra"
@@ -3581,10 +3285,9 @@ export const s_2_2 = {
       "explanation": "The detrusor muscle is smooth muscle forming the muscular wall of the urinary bladder."
     },
     {
-      "question": "The piriformis muscle originates from the:",
+      "question": "Posterior surface of the sacrum",
       "options": [
-        "Anterior surface of the sacrum",
-        "Posterior surface of the sacrum",
+        "*Anterior surface of the sacrum",
         "Pubis",
         "Ischium",
         "Iliac crest"
@@ -3593,10 +3296,9 @@ export const s_2_2 = {
       "explanation": "Piriformis arises from the anterior sacrum and exits via the greater sciatic foramen."
     },
     {
-      "question": "The pudendal nerve provides innervation to the:",
+      "question": "Perineum, external genitalia, and pelvic floor muscles",
       "options": [
-        "Perineum, external genitalia, and pelvic floor muscles",
-        "Abdominal muscles",
+        "*Abdominal muscles",
         "Gluteal muscles",
         "Thigh muscles",
         "Lower limb muscles"
@@ -3605,13 +3307,12 @@ export const s_2_2 = {
       "explanation": "The pudendal nerve (S2–S4) supplies: perineum, external genitalia, external sphincters, and pelvic floor muscles."
     },
     {
-      "question": "The levator ani muscle is composed of:",
+      "question": "Rectus abdominis, external oblique, internal oblique",
       "options": [
-        "Pubococcygeus, iliococcygeus, puborectalis",
+        "*Pubococcygeus, iliococcygeus, puborectalis",
         "Gluteus maximus, medius, minimus",
         "Piriformis, obturator internus, coccygeus",
-        "Psoas major, iliacus, quadratus lumborum",
-        "Rectus abdominis, external oblique, internal oblique"
+        "Psoas major, iliacus, quadratus lumborum"
       ],
       "correctIndex": 0,
       "explanation": "Levator ani consists of: pubococcygeus, iliococcygeus, and puborectalis. These form the major muscular support of the pelvic floor."
