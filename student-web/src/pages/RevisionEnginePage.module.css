@@ -13,20 +13,24 @@
 
 /* Header */
 .header {
+  background: linear-gradient(135deg, #312e81, #4338ca, #6d28d9);
+  border-radius: 24px;
+  padding: 22px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 32px rgba(99, 102, 241, 0.25);
   display: flex;
   align-items: center;
   gap: 16px;
-  margin-bottom: 20px;
 }
 .headerIcon {
   width: 48px;
   height: 48px;
-  background: linear-gradient(135deg, #4338CA, #7C3AED);
+  background: rgba(255, 255, 255, 0.15);
   border-radius: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3);
+  flex-shrink: 0;
 }
 .title { font-size: 24px; font-weight: 900; color: var(--bg-card-solid); }
 .subtitle { font-size: 13px; color: var(--text-secondary); margin-top: 2px; }
@@ -62,7 +66,7 @@
   text-align: center;
 }
 .statLabel { font-size: 10px; font-weight: 700; color: var(--text-muted); margin-bottom: 6px; }
-.statVal { font-size: 20px; font-weight: 900; color: var(--bg-card-solid); }
+.statVal { font-size: 20px; font-weight: 900; color: var(--primary-dark); }
 
 /* Weak Subjects */
 .weaknessList { display: flex; flex-direction: column; gap: 12px; }
@@ -74,7 +78,7 @@
 }
 .wsTop { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
 .wsAlert { background: rgba(239,68,68,0.2); color: var(--red); padding: 3px 8px; border-radius: 6px; font-size: 10px; font-weight: 800; display: inline-flex; align-items: center; gap: 4px; margin-bottom: 6px; }
-.wsName { font-size: 16px; font-weight: 800; color: var(--bg-card-solid); }
+.wsName { font-size: 16px; font-weight: 800; color: var(--text-primary); }
 .wsAcc { font-size: 18px; font-weight: 900; }
 
 .wsTopics { margin-top: 12px; display: flex; flex-direction: column; gap: 8px; }
@@ -83,18 +87,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(0,0,0,0.2);
-  border: 1px solid rgba(255,255,255,0.05);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1.5px solid rgba(239, 68, 68, 0.25);
   padding: 12px 14px;
   border-radius: 8px;
   color: var(--text-primary);
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: all 0.2s;
   text-align: left;
 }
-.wsTopicBtn:hover { background: rgba(0,0,0,0.4); border-color: rgba(255,255,255,0.1); }
+.wsTopicBtn:hover { background: #ffffff; border-color: rgba(239, 68, 68, 0.5); box-shadow: 0 4px 12px rgba(239, 68, 68, 0.08); }
 .wsTopicBtn span { text-transform: capitalize; }
 .wsTopicRight { display: flex; align-items: center; gap: 8px; color: var(--text-muted); }
 .wsTopicAcc { color: var(--red); font-weight: 800; }

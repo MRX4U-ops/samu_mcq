@@ -698,7 +698,7 @@
   width: 100%;
   max-width: 440px;
   text-align: left;
-  color: var(--bg-card-solid);
+  color: var(--text-primary);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transform: rotateY(-3deg) rotateX(3deg);
 }
@@ -741,7 +741,7 @@
   font-size: 13.5px;
   line-height: 1.6;
   font-weight: 600;
-  color: var(--bg-card-solid);
+  color: var(--text-main);
   margin-bottom: 20px;
 }
 
@@ -757,7 +757,7 @@
   border-radius: 14px;
   padding: 12px 16px;
   width: 100%;
-  color: var(--bg-card-hover);
+  color: var(--text-main);
   font-family: inherit;
   font-size: 13px;
   font-weight: 600;
@@ -772,7 +772,7 @@
 .demoOption:hover:not(:disabled) {
   background: rgba(99, 102, 241, 0.07);
   border-color: rgba(99, 102, 241, 0.45);
-  color: var(--bg-card-solid);
+  color: var(--primary-dark);
   transform: translateX(4px);
 }
 
@@ -791,7 +791,7 @@
 .demoFeedback {
   margin-top: 18px;
   padding-top: 16px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
   animation: fadeIn 0.4s ease forwards;
 }
 
@@ -807,7 +807,7 @@
 .demoFeedbackText {
   font-size: 12px;
   line-height: 1.55;
-  color: var(--bg-card);
+  color: var(--text-sub);
 }
 
 @media (max-width: 968px) {

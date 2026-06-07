@@ -56,6 +56,29 @@
   --bg-card-solid: var(--bg-surface);
   --bg-card-hover: var(--bg-hover);
 
+  /* Undefined variable fallbacks for subpages */
+  --bg-default:        var(--bg-page);
+  --surface-default:   var(--bg-surface);
+  --surface-light:     var(--bg-hover);
+  --border-color:      var(--border);
+
+  /* Color system aliases */
+  --blue:              var(--primary);
+  --red:               var(--danger);
+  --green:             var(--accent-green);
+  --amber:             var(--warning);
+
+  /* Component color mappings used in BottomNav, Navbar, QuizPage, SubscribePage */
+  --color-primary:       var(--primary);
+  --color-primary-light: var(--primary-xlight);
+  --color-primary-dark:  var(--primary-dark);
+  --color-accent:        var(--accent-green);
+  --color-accent-light:  var(--accent-green-bg);
+  --color-accent-dark:   var(--accent-green-dark);
+  --color-danger:        var(--danger);
+  --color-danger-light:  var(--danger-bg);
+  --color-border:        var(--border);
+
   /* Indigo scale (mapped to brand blues) */
   --indigo-50:  var(--primary-xlight);
   --indigo-100: var(--primary-light);
