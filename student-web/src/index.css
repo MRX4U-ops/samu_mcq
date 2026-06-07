@@ -436,3 +436,17 @@ p, li, span {
   }
 }
 
+/* ═══ GLOBAL PRINT FIX ═══ */
+@media print {
+  div[class*="ExamResultPage_container"],
+  nav {
+    display: none !important;
+  }
+  body, html, #root, div[class*="ExamResultPage_page"] {
+    height: 100% !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+  }
+}
