@@ -28,12 +28,12 @@
   display: flex; align-items: center; justify-content: center;
   flex-shrink: 0;
   box-shadow: 0 4px 14px rgba(99,102,241,0.40);
-  font-size: 15px; font-weight: 900; color: #fff;
+  font-size: 15px; font-weight: 900; color: var(--bg-card-solid);
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .brandName {
   font-size: 17px; font-weight: 900;
-  color: #1e1b4b; letter-spacing: -0.5px;
+  color: var(--text-primary); letter-spacing: -0.5px;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .brandAccent {
@@ -45,7 +45,7 @@
   width: 36px; height: 36px;
   border-radius: 50%;
   border: 1.5px solid rgba(99,102,241,0.15);
-  background: rgba(255,255,255,0.70);
+  background: var(--bg-card);
   backdrop-filter: blur(12px);
   display: flex; align-items: center; justify-content: center;
   color: #4338ca;

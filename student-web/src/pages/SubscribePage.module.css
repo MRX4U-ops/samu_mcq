@@ -12,7 +12,7 @@
   transition: all 0.2s;
   margin-bottom: 24px;
 }
-.backBtn:hover { background: rgba(99,102,241,0.12); }
+.backBtn:hover { background: var(--border-soft); }
 
 /* ── Hero ── */
 .hero {
@@ -52,14 +52,14 @@
 }
 .heroTitle {
   font-size: 32px; font-weight: 900;
-  color: #1e1b4b;
+  color: var(--text-primary);
   letter-spacing: -0.5px;
   margin-bottom: 12px;
   position: relative; z-index: 1;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .heroSub {
-  font-size: 15px; color: #6b7280; font-weight: 500;
+  font-size: 15px; color: var(--text-muted); font-weight: 500;
   line-height: 1.6; max-width: 480px; margin: 0 auto;
   position: relative; z-index: 1;
 }
@@ -68,7 +68,7 @@
 .card {
   background: rgba(255,255,255,0.92);
   backdrop-filter: blur(20px);
-  border: 1.5px solid rgba(255,255,255,0.95);
+  border: 1.5px solid var(--bg-card-solid);
   box-shadow: 0 4px 24px rgba(99,102,241,0.08);
   border-radius: 24px;
   padding: 24px;
@@ -95,21 +95,21 @@
   display: flex; align-items: center; justify-content: center;
   flex-shrink: 0;
 }
-.featureText { flex: 1; font-size: 14px; font-weight: 700; color: #1e1b4b; }
+.featureText { flex: 1; font-size: 14px; font-weight: 700; color: var(--text-primary); }
 
 /* ── Testimonials ── */
 .testimonialsRow { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 20px; }
 .testimonialCard {
   background: rgba(255,255,255,0.92);
-  border: 1.5px solid rgba(255,255,255,0.95);
+  border: 1.5px solid var(--bg-card-solid);
   box-shadow: 0 4px 16px rgba(99,102,241,0.07);
   border-radius: 20px; padding: 18px 16px;
   transition: all 0.25s;
 }
 .testimonialCard:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(99,102,241,0.13); }
 .testimonialStars { display: flex; gap: 3px; margin-bottom: 10px; }
-.testimonialText { font-size: 13px; color: #374151; font-weight: 500; line-height: 1.6; margin-bottom: 10px; font-style: italic; }
-.testimonialAuthor { font-size: 12px; color: #9ca3af; font-weight: 700; }
+.testimonialText { font-size: 13px; color: var(--text-body); font-weight: 500; line-height: 1.6; margin-bottom: 10px; font-style: italic; }
+.testimonialAuthor { font-size: 12px; color: var(--text-muted); font-weight: 700; }
 
 /* ── CTA ── */
 .ctaCard {
@@ -146,7 +146,7 @@
 .telegramBtn {
   display: flex; align-items: center; gap: 8px;
   background: linear-gradient(135deg, #0088cc, #006aaa);
-  color: #fff; text-decoration: none;
+  color: var(--bg-card-solid); text-decoration: none;
   padding: 14px 24px; border-radius: 16px;
   font-size: 15px; font-weight: 800;
   transition: all 0.25s;
@@ -156,7 +156,7 @@
 }
 .telegramBtn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,136,204,0.40); filter: brightness(1.08); }
 
-.footNote { text-align: center; font-size: 13px; color: #9ca3af; font-weight: 500; }
+.footNote { text-align: center; font-size: 13px; color: var(--text-muted); font-weight: 500; }
 .footNote a { color: #6366f1; font-weight: 700; text-decoration: none; }
 .footNote a:hover { text-decoration: underline; }
 
@@ -171,8 +171,8 @@
   padding: 60px 40px;
 }
 .alreadyIcon { margin-bottom: 20px; }
-.alreadyTitle { font-size: 26px; font-weight: 900; color: #1e1b4b; margin-bottom: 10px; font-family: 'Plus Jakarta Sans', sans-serif; }
-.alreadySub { font-size: 15px; color: #6b7280; font-weight: 500; line-height: 1.6; }
+.alreadyTitle { font-size: 26px; font-weight: 900; color: var(--text-primary); margin-bottom: 10px; font-family: 'Plus Jakarta Sans', sans-serif; }
+.alreadySub { font-size: 15px; color: var(--text-muted); font-weight: 500; line-height: 1.6; }
 
 @media (max-width: 600px) {
   .testimonialsRow { grid-template-columns: 1fr; }

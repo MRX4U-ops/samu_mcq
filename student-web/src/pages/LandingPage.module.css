@@ -76,7 +76,7 @@
   align-items: center;
   gap: 8px;
   padding: 8px 20px;
-  background: rgba(255,255,255,0.80);
+  background: var(--bg-card-hover);
   backdrop-filter: blur(16px);
   border: 1.5px solid rgba(245,158,11,0.30);
   border-radius: 999px;
@@ -95,14 +95,14 @@
   line-height: 1.10;
   letter-spacing: -1.5px;
   margin-bottom: 22px;
-  color: #fff;
+  color: var(--bg-card-solid);
   font-family: 'Plus Jakarta Sans', sans-serif;
   text-shadow: 0 2px 20px rgba(0,0,0,0.3);
 }
 
 .heroSub {
   font-size: 18px;
-  color: rgba(255,255,255,0.80);
+  color: var(--bg-card-hover);
   line-height: 1.7;
   margin-bottom: 36px;
   font-weight: 500;
@@ -132,7 +132,7 @@
   gap: 6px;
   font-size: 13px;
   font-weight: 700;
-  color: rgba(255,255,255,0.75);
+  color: var(--bg-card);
 }
 
 .heroStatsRibbon {
@@ -141,10 +141,10 @@
   display: flex;
   align-items: center;
   gap: 0;
-  background: rgba(255,255,255,0.90);
+  background: var(--bg-card-hover);
   backdrop-filter: blur(24px);
-  border: 1px solid rgba(255,255,255,0.95);
-  box-shadow: 0 8px 40px rgba(99,102,241,0.12), 0 2px 8px rgba(0,0,0,0.05);
+  border: 1px solid var(--bg-card-solid);
+  box-shadow: 0 8px 40px var(--border-soft), 0 2px 8px rgba(0,0,0,0.05);
   border-radius: 24px;
   padding: 18px 40px;
   margin-top: 20px;
@@ -158,7 +158,7 @@
 .ribbonStat strong {
   font-size: 26px;
   font-weight: 900;
-  color: #1e1b4b;
+  color: var(--text-primary);
   font-family: 'Plus Jakarta Sans', sans-serif;
   line-height: 1;
   margin-bottom: 4px;
@@ -166,7 +166,7 @@
 .ribbonStat span {
   font-size: 11px;
   font-weight: 700;
-  color: #9ca3af;
+  color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.8px;
 }
@@ -204,7 +204,7 @@
 .sectionTitle {
   font-size: clamp(26px, 4vw, 40px);
   font-weight: 900;
-  color: #1e1b4b;
+  color: var(--text-primary);
   letter-spacing: -0.5px;
   margin-bottom: 14px;
   font-family: 'Plus Jakarta Sans', sans-serif;
@@ -212,7 +212,7 @@
 
 .sectionSub {
   font-size: 16px;
-  color: #6b7280;
+  color: var(--text-muted);
   font-weight: 500;
   max-width: 560px;
   margin: 0 auto;
@@ -235,7 +235,7 @@
 .stepCard {
   background: rgba(255,255,255,0.8);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.95);
+  border: 1px solid var(--bg-card-solid);
   box-shadow: 0 4px 24px rgba(99,102,241,0.08);
   border-radius: 24px;
   padding: 32px 24px;
@@ -261,12 +261,12 @@
 .stepTitle {
   font-size: 16px;
   font-weight: 800;
-  color: #1e1b4b;
+  color: var(--text-primary);
   margin-bottom: 10px;
 }
 .stepDesc {
   font-size: 14px;
-  color: #6b7280;
+  color: var(--text-muted);
   line-height: 1.6;
   font-weight: 500;
 }
@@ -308,7 +308,7 @@
 .statVal {
   font-size: 26px;
   font-weight: 900;
-  color: #fff;
+  color: var(--bg-card-solid);
   font-family: 'Plus Jakarta Sans', sans-serif;
   line-height: 1;
   margin-bottom: 6px;
@@ -316,7 +316,7 @@
 .statLabel {
   font-size: 13px;
   font-weight: 800;
-  color: rgba(255,255,255,0.90);
+  color: var(--bg-card-hover);
   margin-bottom: 4px;
 }
 .statSub {
@@ -332,9 +332,9 @@
   gap: 20px;
 }
 .courseCard {
-  background: rgba(255,255,255,0.80);
+  background: var(--bg-card-hover);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.95);
+  border: 1px solid var(--bg-card-solid);
   box-shadow: 0 4px 24px rgba(99,102,241,0.08);
   border-radius: 24px;
   padding: 24px;
@@ -362,7 +362,7 @@
 .courseTitle {
   font-size: 16px;
   font-weight: 900;
-  color: #1e1b4b;
+  color: var(--text-primary);
   margin-bottom: 3px;
 }
 .courseHighlight {
@@ -374,7 +374,7 @@
 }
 .courseMeta {
   font-size: 12px;
-  color: #9ca3af;
+  color: var(--text-muted);
   font-weight: 600;
 }
 .courseArrow {
@@ -392,9 +392,9 @@
   gap: 24px;
 }
 .featureCard {
-  background: rgba(255,255,255,0.90);
+  background: var(--bg-card-hover);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.95);
+  border: 1px solid var(--bg-card-solid);
   box-shadow: 0 4px 24px rgba(99,102,241,0.07);
   border-radius: 24px;
   padding: 32px 28px;
@@ -410,12 +410,12 @@
 .featureTitle {
   font-size: 17px;
   font-weight: 800;
-  color: #1e1b4b;
+  color: var(--text-primary);
   margin-bottom: 10px;
 }
 .featureDesc {
   font-size: 14px;
-  color: #6b7280;
+  color: var(--text-muted);
   line-height: 1.65;
   font-weight: 500;
 }
@@ -427,9 +427,9 @@
   gap: 24px;
 }
 .testimonialCard {
-  background: rgba(255,255,255,0.90);
+  background: var(--bg-card-hover);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.95);
+  border: 1px solid var(--bg-card-solid);
   box-shadow: 0 4px 24px rgba(99,102,241,0.08);
   border-radius: 24px;
   padding: 32px;
@@ -439,7 +439,7 @@
 .testimonialStars { display: flex; gap: 3px; margin-bottom: 16px; }
 .testimonialText {
   font-size: 15px;
-  color: #374151;
+  color: var(--text-body);
   line-height: 1.7;
   font-weight: 500;
   margin-bottom: 24px;
@@ -452,11 +452,11 @@
   display: flex; align-items: center; justify-content: center;
   font-size: 15px;
   font-weight: 900;
-  color: #fff;
+  color: var(--bg-card-solid);
   flex-shrink: 0;
 }
-.testimonialName { font-size: 15px; font-weight: 800; color: #1e1b4b; }
-.testimonialCourse { font-size: 12px; font-weight: 700; color: #9ca3af; margin-top: 2px; }
+.testimonialName { font-size: 15px; font-weight: 800; color: var(--text-primary); }
+.testimonialCourse { font-size: 12px; font-weight: 700; color: var(--text-muted); margin-top: 2px; }
 
 /* ── FAQ ── */
 .faqList {
@@ -467,9 +467,9 @@
   gap: 12px;
 }
 .faqItem {
-  background: rgba(255,255,255,0.90);
+  background: var(--bg-card-hover);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.95);
+  border: 1px solid var(--bg-card-solid);
   box-shadow: 0 2px 12px rgba(99,102,241,0.06);
   border-radius: 18px;
   padding: 20px 24px;
@@ -486,12 +486,12 @@
 .faqQ {
   font-size: 15px;
   font-weight: 700;
-  color: #1e1b4b;
+  color: var(--text-primary);
   line-height: 1.4;
 }
 .faqA {
   font-size: 14px;
-  color: #4b5563;
+  color: var(--text-body);
   line-height: 1.7;
   margin-top: 14px;
   padding-top: 14px;
@@ -528,20 +528,20 @@
   padding: 7px 18px;
   font-size: 13px;
   font-weight: 700;
-  color: rgba(255,255,255,0.90);
+  color: var(--bg-card-hover);
   margin-bottom: 24px;
 }
 .ctaTitle {
   font-size: clamp(28px, 5vw, 48px);
   font-weight: 900;
-  color: #fff;
+  color: var(--bg-card-solid);
   letter-spacing: -0.5px;
   margin-bottom: 16px;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .ctaSub {
   font-size: 17px;
-  color: rgba(255,255,255,0.75);
+  color: var(--bg-card);
   margin-bottom: 36px;
   line-height: 1.6;
   font-weight: 500;
@@ -559,7 +559,7 @@
   gap: 6px;
   font-size: 13px;
   font-weight: 700;
-  color: rgba(255,255,255,0.80);
+  color: var(--bg-card-hover);
 }
 
 /* ── FOOTER ── */
@@ -595,13 +595,13 @@
 .footerLogoText {
   font-size: 18px;
   font-weight: 900;
-  color: #fff;
+  color: var(--bg-card-solid);
   font-family: 'Plus Jakarta Sans', sans-serif;
   display: block;
 }
 .footerLogoSub {
   font-size: 13px;
-  color: #6b7280;
+  color: var(--text-muted);
   font-weight: 500;
   margin-top: 2px;
 }
@@ -618,19 +618,19 @@
 .footerCol h4 {
   font-size: 12px;
   font-weight: 800;
-  color: #6b7280;
+  color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 1.5px;
   margin-bottom: 4px;
 }
 .footerCol a {
   font-size: 14px;
-  color: #9ca3af;
+  color: var(--text-muted);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s;
 }
-.footerCol a:hover { color: #fff; }
+.footerCol a:hover { color: var(--bg-card-solid); }
 .footerBottom {
   border-top: 1px solid rgba(255,255,255,0.06);
   padding-top: 28px;
@@ -638,7 +638,7 @@
 }
 .footerBottom p {
   font-size: 13px;
-  color: #4b5563;
+  color: var(--text-body);
   font-weight: 500;
 }
 
@@ -704,7 +704,7 @@
   width: 100%;
   max-width: 440px;
   text-align: left;
-  color: #fff;
+  color: var(--bg-card-solid);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transform: rotateY(-3deg) rotateX(3deg);
 }
@@ -747,7 +747,7 @@
   font-size: 13.5px;
   line-height: 1.6;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.95);
+  color: var(--bg-card-solid);
   margin-bottom: 20px;
 }
 
@@ -763,7 +763,7 @@
   border-radius: 14px;
   padding: 12px 16px;
   width: 100%;
-  color: rgba(255, 255, 255, 0.85);
+  color: var(--bg-card-hover);
   font-family: inherit;
   font-size: 13px;
   font-weight: 600;
@@ -778,7 +778,7 @@
 .demoOption:hover:not(:disabled) {
   background: rgba(255, 255, 255, 0.10);
   border-color: rgba(99, 102, 241, 0.45);
-  color: #fff;
+  color: var(--bg-card-solid);
   transform: translateX(4px);
 }
 
@@ -813,7 +813,7 @@
 .demoFeedbackText {
   font-size: 12px;
   line-height: 1.55;
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--bg-card);
 }
 
 @media (max-width: 968px) {
