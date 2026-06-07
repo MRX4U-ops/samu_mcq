@@ -1816,230 +1816,230 @@ export const s_1_8 = {
       {
         "question": "Heteroploidy is",
         "options": [
-          "*d. Change in the number of chromosomes in a diploid set",
-          "a. Change in gene structure",
-          "b. Changes in the number and structure of chromosomes",
-          "c. Change in chromosome structure"
+          "Change in the number of chromosomes in a diploid set",
+          "Change in gene structure",
+          "Changes in the number and structure of chromosomes",
+          "Change in chromosome structure"
         ],
         "correctIndex": 0
       },
       {
         "question": "What underlies the occurrence of genomic mutations?",
         "options": [
-          "*c. Violation of chromosome segregation during cell division",
-          "a. Replacing one gene with another",
-          "b. Chromosome conjugation",
-          "d. Change in gene structure"
+          "Violation of chromosome segregation during cell division",
+          "Replacing one gene with another",
+          "Chromosome conjugation",
+          "Change in gene structure"
         ],
         "correctIndex": 0
       },
       {
         "question": "The reaction rate is determined by:",
         "options": [
-          "*d. Genotype and environment",
-          "a. Genotype only",
-          "b. Internal environment of the body",
-          "c. External environment only"
+          "Genotype and environment",
+          "Genotype only",
+          "Internal environment of the body",
+          "External environment only"
         ],
         "correctIndex": 0
       },
       {
         "question": "Conditionally lethal mutations are:",
         "options": [
-          "*a. Shows lethal effects under certain conditions",
-          "b. Incompatible with life; cause the death of the organism before birth",
-          "c. Reduce the vital activity of the body and it dies between birth and puberty",
-          "d. Occur in cytoplasmic organelles that have their own DNA (mitochondria, plastids)"
+          "Shows lethal effects under certain conditions",
+          "Incompatible with life; cause the death of the organism before birth",
+          "Reduce the vital activity of the body and it dies between birth and puberty",
+          "Occur in cytoplasmic organelles that have their own DNA (mitochondria, plastids)"
         ],
         "correctIndex": 0
       },
       {
         "question": "During embryonic development, the process of realizing genetic information can disrupt certain chemical compounds. In this case, the development of the body is disrupted, which leads to deformities. What is the name of this chemical compound?",
         "options": [
-          "*c. Teratogens",
-          "a. Antigens",
-          "b. Fibrinogens",
-          "d. Comutagens"
+          "Teratogens",
+          "Antigens",
+          "Fibrinogens",
+          "Comutagens"
         ],
         "correctIndex": 0
       },
       {
         "question": "Cytoplasmic mutations:",
         "options": [
-          "*b. Occur in cytoplasmic organelles that have their own DNA (mitochondria, plastids)",
-          "a. Occurs only in mitochondria",
-          "c. Occurs in all cell organelles, including the nucleus",
-          "d. Occurs only in plastids"
+          "Occur in cytoplasmic organelles that have their own DNA (mitochondria, plastids)",
+          "Occurs only in mitochondria",
+          "Occurs in all cell organelles, including the nucleus",
+          "Occurs only in plastids"
         ],
         "correctIndex": 0
       },
       {
         "question": "Hereditary variability is divided into:",
         "options": [
-          "*a. Mutational",
-          "b. Modification",
-          "c. Spontaneous",
-          "d. Phenotypic"
+          "Mutational",
+          "Modification",
+          "Spontaneous",
+          "Phenotypic"
         ],
         "correctIndex": 0
       },
       {
         "question": "Dominant mutations appear:",
         "options": [
-          "*a. In heterozygous and homozygous states",
-          "b. Only in homozygous state",
-          "c. In a dizygotic state",
-          "d. Only in heterozygous state"
+          "In heterozygous and homozygous states",
+          "Only in homozygous state",
+          "In a dizygotic state",
+          "Only in heterozygous state"
         ],
         "correctIndex": 0
       },
       {
         "question": "Chromosomal mutations (aberrations) are associated with changes in:",
         "options": [
-          "*c. Structures of all types of chromosomes",
-          "a. Autosome structures only",
-          "b. Number of autosomes in a karyotype",
-          "d. Sex chromosome structures only"
+          "Structures of all types of chromosomes",
+          "Autosome structures only",
+          "Number of autosomes in a karyotype",
+          "Sex chromosome structures only"
         ],
         "correctIndex": 0
       },
       {
         "question": "Spontaneous mutations are:",
         "options": [
-          "*a. Natural mutations",
-          "b. Conditional mutations",
-          "c. Artificially induced mutations",
-          "d. Artificial Mutations"
+          "Natural mutations",
+          "Conditional mutations",
+          "Artificially induced mutations",
+          "Artificial Mutations"
         ],
         "correctIndex": 0
       },
       {
         "question": "What type of mutation is the development of Down syndrome?",
         "options": [
-          "*a. Tisomy 21 pairs",
-          "b. Trisomy 13 pair",
-          "c. Monosomy",
-          "d. Trisomy 18 pair"
+          "Tisomy 21 pairs",
+          "Trisomy 13 pair",
+          "Monosomy",
+          "Trisomy 18 pair"
         ],
         "correctIndex": 0
       },
       {
         "question": "What determines genetic hereditary diseases?",
         "options": [
-          "*d. Single gene mutation",
-          "a. Genomic mutations",
-          "b. Chromosomal mutations",
-          "c. Environmental factors"
+          "Single gene mutation",
+          "Genomic mutations",
+          "Chromosomal mutations",
+          "Environmental factors"
         ],
         "correctIndex": 0
       },
       {
         "question": "Spontaneous mutations occur:",
         "options": [
-          "*d. Under natural conditions without the influence of unusual agents",
-          "a. As a result of the influence of climate change on the body",
-          "b. As a result of the influence of colchicine on the body",
-          "c. As a result of the influence of viruses on the body"
+          "Under natural conditions without the influence of unusual agents",
+          "As a result of the influence of climate change on the body",
+          "As a result of the influence of colchicine on the body",
+          "As a result of the influence of viruses on the body"
         ],
         "correctIndex": 0
       },
       {
         "question": "Hereditary variability is divided into:",
         "options": [
-          "*d. Combinative",
-          "a. Spontaneous",
-          "b. Modification",
-          "c. Phenotypic"
+          "Combinative",
+          "Spontaneous",
+          "Modification",
+          "Phenotypic"
         ],
         "correctIndex": 0
       },
       {
         "question": "A woman suffered from viral rubella during pregnancy. As a result, a child born, despite a normal genotype, had developmental defects - cleft lip and palate. These developmental anomalies are a manifestation of :",
         "options": [
-          "*a. Modification variability",
-          "b. Chromosomal mutation",
-          "c. Combinative variability",
-          "d. Polyploidy"
+          "Modification variability",
+          "Chromosomal mutation",
+          "Combinative variability",
+          "Polyploidy"
         ],
         "correctIndex": 0
       },
       {
         "question": "Chromosomal aberrations are:",
         "options": [
-          "*b. Inversion",
-          "a. Monosomy",
-          "c. Polyploidy",
-          "d. Trisomy"
+          "Inversion",
+          "Monosomy",
+          "Polyploidy",
+          "Trisomy"
         ],
         "correctIndex": 0
       },
       {
         "question": "Tetraploidy (4n ) is an example of:",
         "options": [
-          "*b. Polyploidy",
-          "a. Heteroploidy",
-          "c. Aneuploidy",
-          "d. Chromosomal aberration"
+          "Polyploidy",
+          "Heteroploidy",
+          "Aneuploidy",
+          "Chromosomal aberration"
         ],
         "correctIndex": 0
       },
       {
         "question": "Chromosome aberrations include:",
         "options": [
-          "*b. Translocation, duplication, deletion, inversion",
-          "a. Conjugation, lysogeny, polytheny, copulation",
-          "c. Transcription, translation, reduplication",
-          "d. Transformation, transduction, translocation"
+          "Translocation, duplication, deletion, inversion",
+          "Conjugation, lysogeny, polytheny, copulation",
+          "Transcription, translation, reduplication",
+          "Transformation, transduction, translocation"
         ],
         "correctIndex": 0
       },
       {
         "question": "Triploidy (3n ) is an example of:",
         "options": [
-          "*d. Polyploidy",
-          "a. Haploidy",
-          "b. Chromosomal aberration",
-          "c. Heteroploidy"
+          "Polyploidy",
+          "Haploidy",
+          "Chromosomal aberration",
+          "Heteroploidy"
         ],
         "correctIndex": 0
       },
       {
         "question": "Artificial Mutations:",
         "options": [
-          "*b. Occurs when certain established factors act on the body",
-          "a. Incompatible with life",
-          "c. Shows lethal effects under certain conditions",
-          "d. Occurs in natural conditions without experimenter intervention, with low frequency and for unknown reasons"
+          "Occurs when certain established factors act on the body",
+          "Incompatible with life",
+          "Shows lethal effects under certain conditions",
+          "Occurs in natural conditions without experimenter intervention, with low frequency and for unknown reasons"
         ],
         "correctIndex": 0
       },
       {
         "question": "Crossover frequency is measured in:",
         "options": [
-          "*d. Percentage",
-          "a. Morganids",
-          "b. Centimeters",
-          "c. Nanometers"
+          "Percentage",
+          "Morganids",
+          "Centimeters",
+          "Nanometers"
         ],
         "correctIndex": 0
       },
       {
         "question": "Mechanisms of somatic mutations:",
         "options": [
-          "*d. Changes in the chromosome structure of somatic cells",
-          "a. Independent segregation of homologous chromosomes during meiosis",
-          "b. Random combination of gametes during fertilization",
-          "c. Changes in the chromosome structure of germ cells"
+          "Changes in the chromosome structure of somatic cells",
+          "Independent segregation of homologous chromosomes during meiosis",
+          "Random combination of gametes during fertilization",
+          "Changes in the chromosome structure of germ cells"
         ],
         "correctIndex": 0
       },
       {
         "question": "Mechanisms of gene mutation",
         "options": [
-          "*c. Changes in gene structure",
-          "a. Change in Phenotype",
-          "b. Changes in the genome",
-          "d. Chromosome changes"
+          "Changes in gene structure",
+          "Change in Phenotype",
+          "Changes in the genome",
+          "Chromosome changes"
         ],
         "correctIndex": 0
       }
@@ -7103,4 +7103,4 @@ export const s_1_8 = {
       }
     ]
   }
-};
+};\n
