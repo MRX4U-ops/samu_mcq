@@ -3,7 +3,7 @@ export const s_2_1 = {
     {
       "question": "What is the monomer of nucleic acids:",
       "options": [
-        "Nucleotides",
+        "*Nucleotides",
         "Amino acids",
         "Monosaccharides",
         "Peptides"
@@ -14,7 +14,7 @@ export const s_2_1 = {
     {
       "question": "Show the heterocyclic compound that forms the basis of the structure of adenine:",
       "options": [
-        "Purine",
+        "*Purine",
         "Pyrimidine",
         "Imidazole",
         "Tryptophan"
@@ -25,7 +25,7 @@ export const s_2_1 = {
     {
       "question": "Show the nitrogenous base that is formed during the recovery of the RNA chain from the DNA chain:",
       "options": [
-        "Uracil",
+        "*Uracil",
         "Adenine",
         "Guanine",
         "Cytosine"
@@ -36,7 +36,7 @@ export const s_2_1 = {
     {
       "question": "What kind of bond provides the primary structure of DNA and RNA:",
       "options": [
-        "Phosphodiether",
+        "*Phosphodiether",
         "Glycoside",
         "Peptide",
         "Hydrophobic"
@@ -47,7 +47,7 @@ export const s_2_1 = {
     {
       "question": "Name a structural component that is not specific to DNA:",
       "options": [
-        "dUMF",
+        "*dUMF",
         "dAMF",
         "dSMF",
         "dTMF"
@@ -58,7 +58,7 @@ export const s_2_1 = {
     {
       "question": "Select a matrix biosynthesis process:",
       "options": [
-        "Everything is correct",
+        "*Everything is correct",
         "Replication",
         "Transcription",
         "Broadcasting"
@@ -68,14 +68,19 @@ export const s_2_1 = {
     },
     {
       "question": "Clover leaf structure is characteristic for which nucleic acid:",
-      "options": ["tRNA", "Tertiary structure of DNA", "mRNA", "rRNA"],
+      "options": [
+        "*tRNA",
+        "Tertiary structure of DNA",
+        "mRNA",
+        "rRNA"
+      ],
       "correctIndex": 0,
       "explanation": "tRNA is correct. tRNA (transfer RNA) folds into a specific cloverleaf structure, carrying amino acids to ribosomes during translation. This aligns with established biochemical pathways and clinical diagnostics."
     },
     {
       "question": "Which type of nucleic acid contains thymine?",
       "options": [
-        "DNA",
+        "*DNA",
         "rRNA",
         "mRNA",
         "tRNA"
@@ -86,7 +91,7 @@ export const s_2_1 = {
     {
       "question": "Nucleoproteins are representatives of:",
       "options": [
-        "Ribosome",
+        "*Ribosome",
         "Microsome",
         "Liposome",
         "Lysosome"
@@ -97,7 +102,7 @@ export const s_2_1 = {
     {
       "question": "Splicing is:",
       "options": [
-        "Introns are cut and exons are joined",
+        "*Introns are cut and exons are joined",
         "Copying of RNA molecules",
         "Cutting of exons, splicing of introns",
         "An adenylate residue is attached to the 3-end of the mRNA molecule"
@@ -108,7 +113,7 @@ export const s_2_1 = {
     {
       "question": "Enzyme involved in replication:",
       "options": [
-        "Helicase",
+        "*Helicase",
         "Insertase",
         "DNA hydrolase",
         "Phosphokinase"
@@ -119,7 +124,7 @@ export const s_2_1 = {
     {
       "question": "What is not involved in the replication process:",
       "options": [
-        "m-RNA",
+        "*m-RNA",
         "Primer",
         "Primaza",
         "DNA polymerase"
@@ -130,7 +135,7 @@ export const s_2_1 = {
     {
       "question": "Select substrates for DNA polymerase:",
       "options": [
-        "dATF, dGTF, dSTF, dTTF",
+        "*dATF, dGTF, dSTF, dTTF",
         "ATF, GTF, UTF, STF",
         "ATF, GTF, STF, TTF",
         "AMF, GMF, TMF, SMF"
@@ -141,7 +146,7 @@ export const s_2_1 = {
     {
       "question": "Enzyme involved in repair:",
       "options": [
-        "Purine-insertase",
+        "*Purine-insertase",
         "RNA polymerase",
         "Helicase",
         "s.s.b proteins"
@@ -152,7 +157,7 @@ export const s_2_1 = {
     {
       "question": "Determine the name of the chemical bond that forms the primary structure of the DNA molecule:",
       "options": [
-        "Phosphodiether",
+        "*Phosphodiether",
         "Hydrogen",
         "Coordination",
         "Disulfide"
@@ -163,7 +168,7 @@ export const s_2_1 = {
     {
       "question": "What determines the primary structure of RNA?",
       "options": [
-        "A single strand of DNA",
+        "*A single strand of DNA",
         "Two strands of DNA",
         "RNA polymerase",
         "ribosome"
@@ -174,7 +179,7 @@ export const s_2_1 = {
     {
       "question": "How many types of mRNA are there?",
       "options": [
-        "the type of molecules is equal to the number of proteins",
+        "*the type of molecules is equal to the number of proteins",
         "61 different molecules",
         "3 different molecules",
         "64 different molecules"
@@ -185,7 +190,7 @@ export const s_2_1 = {
     {
       "question": "How many types of tRNA are there?",
       "options": [
-        "61 different molecules",
+        "*61 different molecules",
         "the type of molecules is equal to the number of proteins",
         "3 different molecules",
         "64 different molecules"
@@ -196,7 +201,7 @@ export const s_2_1 = {
     {
       "question": "How is one strand connected to another to form the secondary structure of DNA:",
       "options": [
-        "hydrogen bonds",
+        "*hydrogen bonds",
         "covalent bonds",
         "ionic interactions",
         "hydrophobic bonds"
@@ -207,7 +212,7 @@ export const s_2_1 = {
     {
       "question": "Information storage parts of transcriptons:",
       "options": [
-        "exon",
+        "*exon",
         "acceptor",
         "operon",
         "intron"
@@ -218,7 +223,7 @@ export const s_2_1 = {
     {
       "question": "Show the part of the transcripton where the repressor protein binds:",
       "options": [
-        "operator",
+        "*operator",
         "promoter",
         "operon",
         "intron"
@@ -229,7 +234,7 @@ export const s_2_1 = {
     {
       "question": "What is the mechanism of sickle cell anemia?",
       "options": [
-        "substitution of a nitrogenous base in a gene",
+        "*substitution of a nitrogenous base in a gene",
         "dropping a nucleotide from the gene",
         "entering the nucleotide into the gene",
         "substitution of termination codon instead of sense codon"
@@ -240,7 +245,7 @@ export const s_2_1 = {
     {
       "question": "Point mutations:",
       "options": [
-        "Change of nitrogen bases in DNA molecule",
+        "*Change of nitrogen bases in DNA molecule",
         "Multiple damage to the DNA molecule",
         "Change in enzyme activity",
         "Change in gene operator activity"
@@ -251,7 +256,7 @@ export const s_2_1 = {
     {
       "question": "Primary transcript content:",
       "options": [
-        "exon+intron",
+        "*exon+intron",
         "exon only",
         "intron only",
         "operon"
@@ -262,7 +267,7 @@ export const s_2_1 = {
     {
       "question": "Define transcription:",
       "options": [
-        "DNA-based RNA synthesis",
+        "*DNA-based RNA synthesis",
         "RNA-based DNA synthesis",
         "DNA-based protein synthesis",
         "RNA-based protein synthesis"
@@ -273,7 +278,7 @@ export const s_2_1 = {
     {
       "question": "RNA maturation process:",
       "options": [
-        "Processing",
+        "*Processing",
         "Splicing",
         "Broadcasting",
         "Transcription"
@@ -284,7 +289,7 @@ export const s_2_1 = {
     {
       "question": "In the process of processing occurs:",
       "options": [
-        "All answers are correct",
+        "*All answers are correct",
         "Excision of introns",
         "Splicing of nonsense codons",
         "Modification of informative parts"
@@ -295,7 +300,7 @@ export const s_2_1 = {
     {
       "question": "What is reparation?",
       "options": [
-        "Repair of damaged parts of DNA",
+        "*Repair of damaged parts of DNA",
         "Repair of damaged RNA fragments",
         "The origin of mutations in DNA",
         "DNA synthesis based on RNA"
@@ -306,7 +311,7 @@ export const s_2_1 = {
     {
       "question": "Not used in RNA synthesis:",
       "options": [
-        "TTF",
+        "*TTF",
         "ATF",
         "GTF",
         "STF"
@@ -317,7 +322,7 @@ export const s_2_1 = {
     {
       "question": "Factor causing mutation:",
       "options": [
-        "Ion radiations",
+        "*Ion radiations",
         "Somatic diseases",
         "Hunger",
         "Obesity"
@@ -330,7 +335,7 @@ export const s_2_1 = {
     {
       "question": "Amino acid that initiates protein biosynthesis",
       "options": [
-        "Methionine",
+        "*Methionine",
         "Lysine",
         "Alanine",
         "Threonine"
@@ -341,7 +346,7 @@ export const s_2_1 = {
     {
       "question": "What is Elongation:",
       "options": [
-        "Elongation of the polypeptide chain",
+        "*Elongation of the polypeptide chain",
         "Transfer of the peptide",
         "One step displacement of the ribosome",
         "Activation of amino acids"
@@ -352,7 +357,7 @@ export const s_2_1 = {
     {
       "question": "Terminator codons include:",
       "options": [
-        "UAA, UGA, UAG",
+        "*UAA, UGA, UAG",
         "ATSG,GUA,SAG",
         "SATS, AGG, GGS",
         "SAU, GATS, GSA"
@@ -363,7 +368,7 @@ export const s_2_1 = {
     {
       "question": "Does not participate in the broadcast:",
       "options": [
-        "DNA",
+        "*DNA",
         "GTF",
         "m-RNA",
         "peptidyltransferase"
@@ -374,7 +379,7 @@ export const s_2_1 = {
     {
       "question": "What is the process of recognition?",
       "options": [
-        "Activation of amino acids",
+        "*Activation of amino acids",
         "Dropping a nucleotide from a gene",
         "Splicing of exons",
         "Transfer of the peptide"
@@ -385,7 +390,7 @@ export const s_2_1 = {
     {
       "question": "What is the mechanism of action of antibiotics against tumors based on?",
       "options": [
-        "Inhibition of matrix biosynthesis",
+        "*Inhibition of matrix biosynthesis",
         "Inhibition of DNA synthesis",
         "Inhibition of RNA synthesis",
         "Inhibition of protein synthesis"
@@ -396,7 +401,7 @@ export const s_2_1 = {
     {
       "question": "The codon encodes:",
       "options": [
-        "Amino acid",
+        "*Amino acid",
         "Nucleotide",
         "Pyrimidine",
         "Nucleoside"
@@ -407,7 +412,7 @@ export const s_2_1 = {
     {
       "question": "Protein biosynthesis begins",
       "options": [
-        "From the initiation complex meeting",
+        "*From the initiation complex meeting",
         "From elongation",
         "From termination",
         "From reparation"
@@ -418,7 +423,7 @@ export const s_2_1 = {
     {
       "question": "Translocation",
       "options": [
-        "The displacement of the ribosome to a triplet in mRNA",
+        "*The displacement of the ribosome to a triplet in mRNA",
         "One triplet shift of mRNA",
         "Meeting of the initiating complex",
         "Phase of termination"
@@ -429,7 +434,7 @@ export const s_2_1 = {
     {
       "question": "Energy source in protein biosynthesis:",
       "options": [
-        "ATP, GTF",
+        "*ATP, GTF",
         "GTF",
         "ATP",
         "STF"
@@ -440,7 +445,7 @@ export const s_2_1 = {
     {
       "question": "Where does protein synthesis take place",
       "options": [
-        "In the ribosome",
+        "*In the ribosome",
         "In the cytoplasm",
         "In the nucleus",
         "In the blood"
@@ -451,7 +456,7 @@ export const s_2_1 = {
     {
       "question": "What is added to the amino acid during the activation of amino acids in protein biosynthesis:",
       "options": [
-        "tRNA",
+        "*tRNA",
         "Phosphoric acid residue",
         "mRNA",
         "The subunit of the ribosome"
@@ -462,7 +467,7 @@ export const s_2_1 = {
     {
       "question": "Specify the start codon:",
       "options": [
-        "AUG",
+        "*AUG",
         "AGG",
         "UUU",
         "To him"
@@ -473,7 +478,7 @@ export const s_2_1 = {
     {
       "question": "Protein synthesizing system components:",
       "options": [
-        "20 different amino acids and enzymes",
+        "*20 different amino acids and enzymes",
         "Peroxisomes",
         "Outer membrane",
         "Microsomes"
@@ -484,7 +489,7 @@ export const s_2_1 = {
     {
       "question": "The initiating complex includes:",
       "options": [
-        "The large and small subunits of the ribosome",
+        "*The large and small subunits of the ribosome",
         "All tRNAs",
         "Translocase and transpeptidase",
         "aa-tRNA synthetase and ATP"
@@ -495,7 +500,7 @@ export const s_2_1 = {
     {
       "question": "Features of the ribosomal subunit of prokaryotic cells",
       "options": [
-        "The sedimentation constant is 30 C",
+        "*The sedimentation constant is 30 C",
         "The sedimentation constant is 40 C",
         "The sedimentation constant is 50 C",
         "The sedimentation constant is 60 C"
@@ -506,7 +511,7 @@ export const s_2_1 = {
     {
       "question": "Genetic code property",
       "options": [
-        "Tripletness",
+        "*Tripletness",
         "Continuity",
         "Generality",
         "Dipletity"
@@ -517,7 +522,7 @@ export const s_2_1 = {
     {
       "question": "Genetic code property",
       "options": [
-        "Universality",
+        "*Universality",
         "Continuity",
         "Generality",
         "Dipletity"
@@ -527,14 +532,19 @@ export const s_2_1 = {
     },
     {
       "question": "Genetic code property",
-      "options": ["Continuity", "Degeneracy", "Generality", "Dipletity"],
+      "options": [
+        "*Continuity",
+        "Degeneracy",
+        "Generality",
+        "Dipletity"
+      ],
       "correctIndex": 0,
       "explanation": "Continuity is the correct answer to the question regarding \"genetic code property\"."
     },
     {
       "question": "Genetic code property",
       "options": [
-        "Collinearity",
+        "*Collinearity",
         "Continuity",
         "Generality",
         "Dipletity"
@@ -545,7 +555,7 @@ export const s_2_1 = {
     {
       "question": "In which direction does protein biosynthesis go:",
       "options": [
-        "5??3?",
+        "*5??3?",
         "3??5?",
         "1??5?",
         "1??3?"
@@ -556,7 +566,7 @@ export const s_2_1 = {
     {
       "question": "Protein biosynthesis is observed in the elongation stage",
       "options": [
-        "Protein chain elongation",
+        "*Protein chain elongation",
         "Stopping protein biosynthesis",
         "Ribosome assembly",
         "Reparation process"
@@ -567,7 +577,7 @@ export const s_2_1 = {
     {
       "question": "Observed in broadcast termination",
       "options": [
-        "Stopping protein biosynthesis",
+        "*Stopping protein biosynthesis",
         "Protein chain elongation",
         "Ribosome assembly",
         "Reparation process"
@@ -578,7 +588,7 @@ export const s_2_1 = {
     {
       "question": "Observed at the initiation of transmission",
       "options": [
-        "The small and large subunits of the ribosome are assembled",
+        "*The small and large subunits of the ribosome are assembled",
         "Protein chain elongation",
         "Transfer of the peptide",
         "Displacement of the ribosome"
@@ -589,7 +599,7 @@ export const s_2_1 = {
     {
       "question": "Observed in the post-translational process",
       "options": [
-        "Protein maturation",
+        "*Protein maturation",
         "Protein denaturation",
         "Protein dysfunction",
         "Peptide release from the ribosome"
@@ -600,7 +610,7 @@ export const s_2_1 = {
     {
       "question": "Can be observed in the post-translational process",
       "options": [
-        "Partial proteolysis",
+        "*Partial proteolysis",
         "Protein denaturation",
         "Protein dysfunction",
         "Peptide release from the ribosome"
@@ -611,7 +621,7 @@ export const s_2_1 = {
     {
       "question": "Aminoacyl is used in the formation of tRNA:",
       "options": [
-        "Aminoacyl-tRNA synthetase",
+        "*Aminoacyl-tRNA synthetase",
         "GTF",
         "DNA",
         "Nucleotides"
@@ -622,7 +632,7 @@ export const s_2_1 = {
     {
       "question": "In which section of the ribosome is the peptide bond synthesized:",
       "options": [
-        "Peptidyl",
+        "*Peptidyl",
         "Aminoacyl",
         "in the 30S subunit",
         "Acceptor"
@@ -633,7 +643,7 @@ export const s_2_1 = {
     {
       "question": "Transpeptidation occurs in which process:",
       "options": [
-        "Elongation",
+        "*Elongation",
         "Initiation",
         "Termination",
         "Recognition"
@@ -644,7 +654,7 @@ export const s_2_1 = {
     {
       "question": "Fate of mRNA after termination:",
       "options": [
-        "More protein can be synthesized",
+        "*More protein can be synthesized",
         "Restrictases immediately break it down",
         "It is foaming",
         "Polyadenylated"
@@ -657,7 +667,7 @@ export const s_2_1 = {
     {
       "question": "What is \"programmed\" cell death:",
       "options": [
-        "Apoptosis",
+        "*Apoptosis",
         "Necrosis",
         "Metastasis",
         "Invasion"
@@ -668,7 +678,7 @@ export const s_2_1 = {
     {
       "question": "What is the violation of internal homeostasis as a result of the violation of the permeability property of the cell membrane?",
       "options": [
-        "Necrosis",
+        "*Necrosis",
         "Apoptosis",
         "NGF",
         "Elimination"
@@ -679,7 +689,7 @@ export const s_2_1 = {
     {
       "question": "What is the removal of some cells by apoptosis?",
       "options": [
-        "Elimination",
+        "*Elimination",
         "Apoptosis",
         "Necrosis",
         "NGF"
@@ -690,7 +700,7 @@ export const s_2_1 = {
     {
       "question": "What is endoreproduction",
       "options": [
-        "It is the occurrence of cells with an excess amount of DNA",
+        "*It is the occurrence of cells with an excess amount of DNA",
         "A doubling of the amount of DNA",
         "Chromosome condensation",
         "It is the occurrence of cells with an excess amount of RNA"
@@ -701,7 +711,7 @@ export const s_2_1 = {
     {
       "question": "What is the death of cells that occurs with inflammatory processes called?",
       "options": [
-        "Necrosis",
+        "*Necrosis",
         "Apoptosis",
         "Invasion",
         "Transplantation"
@@ -712,7 +722,7 @@ export const s_2_1 = {
     {
       "question": "In which of the following processes is the cell's gradual swelling and shrinking and death without harming other cells observed?",
       "options": [
-        "In apoptosis",
+        "*In apoptosis",
         "In necrosis",
         "In metastasis",
         "In reparation"
@@ -723,7 +733,7 @@ export const s_2_1 = {
     {
       "question": "What is autolysis",
       "options": [
-        "Self-destruction",
+        "*Self-destruction",
         "Morphologically secondary lysosomes",
         "Reconstruction",
         "Residual body"
@@ -734,7 +744,7 @@ export const s_2_1 = {
     {
       "question": "What is the study of the primary structure of DNA divided into fragments called?",
       "options": [
-        "Sequencing",
+        "*Sequencing",
         "PSR",
         "Gel electrophoresis",
         "IFA"
@@ -745,7 +755,7 @@ export const s_2_1 = {
     {
       "question": "What is the most important process that occurs before cell division?",
       "options": [
-        "DNA replication",
+        "*DNA replication",
         "DNA compaction",
         "DNA repair",
         "RNA replication"
@@ -756,7 +766,7 @@ export const s_2_1 = {
     {
       "question": "Name the enzymes involved in the process of apoptosis:",
       "options": [
-        "Caspases",
+        "*Caspases",
         "Restrictases",
         "Reverse transcriptase",
         "Revertase"
@@ -767,7 +777,7 @@ export const s_2_1 = {
     {
       "question": "Apoptosis is induced in which of the following processes:",
       "options": [
-        "When the number of damaged DNA increases",
+        "*When the number of damaged DNA increases",
         "When damaged by acids",
         "When inflammation occurs",
         "When a heavy mechanic is injured"
@@ -778,7 +788,7 @@ export const s_2_1 = {
     {
       "question": "Define a cell that does not divide and reproduce throughout its life",
       "options": [
-        "Nerve",
+        "*Nerve",
         "epidermis;",
         "intestinal epithelium.",
         "Bone marrow;"
@@ -789,7 +799,7 @@ export const s_2_1 = {
     {
       "question": "Which method can be used to isolate cell organoids separately?",
       "options": [
-        "centrifugation",
+        "*centrifugation",
         "light microscope",
         "cytochemical",
         "electron microscope"
@@ -800,7 +810,7 @@ export const s_2_1 = {
     {
       "question": "What processes occur if apoptosis mechanisms are disrupted:",
       "options": [
-        "Everything is correct",
+        "*Everything is correct",
         "A mutation occurs",
         "Cancer cells develop",
         "Cells are not updated"
@@ -811,7 +821,7 @@ export const s_2_1 = {
     {
       "question": "The formation of the fingers of the fetus is based on which process",
       "options": [
-        "Apoptosis",
+        "*Apoptosis",
         "Necrosis",
         "Determination",
         "Invasion"
@@ -822,7 +832,7 @@ export const s_2_1 = {
     {
       "question": "If the death of one cell causes the death of other cells, this process is called...",
       "options": [
-        "Necrosis",
+        "*Necrosis",
         "Apoptosis",
         "Transduction",
         "Transformation"
@@ -833,7 +843,7 @@ export const s_2_1 = {
     {
       "question": "When the induction of apoptosis goes to the irreversible stage:",
       "options": [
-        "Once caspases are activated",
+        "*Once caspases are activated",
         "When Fas-L interacts with Fas-R",
         "of TNF expression",
         "from the association of TNF with \"death domains\"."
@@ -844,7 +854,7 @@ export const s_2_1 = {
     {
       "question": "Increased apoptosis can cause which of the following:",
       "options": [
-        "Premature aging",
+        "*Premature aging",
         "The appearance of tumors",
         "DNA damage",
         "Origin of mutations"
@@ -855,7 +865,7 @@ export const s_2_1 = {
     {
       "question": "Decreasing apoptosis can be caused by which of the following",
       "options": [
-        "The appearance of tumors",
+        "*The appearance of tumors",
         "Premature aging",
         "Neurodegenerative diseases",
         "Thrombocytopenia"
@@ -866,7 +876,7 @@ export const s_2_1 = {
     {
       "question": "Renewal of skin cells is based on which process:",
       "options": [
-        "Apoptosis",
+        "*Apoptosis",
         "Necrosis",
         "Invasion",
         "Implantation"
@@ -877,7 +887,7 @@ export const s_2_1 = {
     {
       "question": "DNA, which contains foreign genetic material, is called:",
       "options": [
-        "Recombinant DNA",
+        "*Recombinant DNA",
         "Native DNA",
         "Vector DNA",
         "Implant DNA"
@@ -888,7 +898,7 @@ export const s_2_1 = {
     {
       "question": "Enzymes that cut DNA by forming sticky ends:",
       "options": [
-        "Restrictase",
+        "*Restrictase",
         "Revertase",
         "DNA ligase",
         "Insertase"
@@ -899,7 +909,7 @@ export const s_2_1 = {
     {
       "question": "Which of the following enzymes is used in PSR analysis:",
       "options": [
-        "Taq polymerase",
+        "*Taq polymerase",
         "Reverse transcriptase",
         "Restrictase",
         "DNA polymerase"
@@ -910,7 +920,7 @@ export const s_2_1 = {
     {
       "question": "What is called a change in the cell's heredity as a result of the introduction of foreign DNA into it",
       "options": [
-        "Transformation",
+        "*Transformation",
         "Transduction",
         "Transmission",
         "choose the correct answer"
@@ -921,7 +931,7 @@ export const s_2_1 = {
     {
       "question": "Where is non-nuclear heredity located?",
       "options": [
-        "In mitochondria",
+        "*In mitochondria",
         "In the lysosome",
         "in the EPT",
         "In the ribosome"
@@ -932,7 +942,7 @@ export const s_2_1 = {
     {
       "question": "What types of genetic variation are there?",
       "options": [
-        "Mutation",
+        "*Mutation",
         "Phenotypic",
         "Random",
         "choose the correct answer"
@@ -943,7 +953,7 @@ export const s_2_1 = {
     {
       "question": "Mutations depending on the origin",
       "options": [
-        "Spontaneous, induction",
+        "*Spontaneous, induction",
         "Dominant, recessive",
         "Monogene, polygene",
         "Monosomy, polysomy"
@@ -954,7 +964,7 @@ export const s_2_1 = {
     {
       "question": "The following are used to obtain recombinant DNA:",
       "options": [
-        "Everything is correct",
+        "*Everything is correct",
         "From plasmids",
         "From vectors",
         "Of the restrictases"
@@ -965,7 +975,7 @@ export const s_2_1 = {
     {
       "question": "What is a new organism whose genotype has changed under the influence of a mutagen called?",
       "options": [
-        "Mutant",
+        "*Mutant",
         "Mutagenesis",
         "Genetic variability",
         "Recon"
@@ -976,7 +986,7 @@ export const s_2_1 = {
     {
       "question": "What is the factor that causes mutational variability?",
       "options": [
-        "Mutagenesis",
+        "*Mutagenesis",
         "Mutant",
         "Hereditary variability",
         "Clone"
@@ -989,7 +999,7 @@ export const s_2_1 = {
     {
       "question": "What are the characteristics of a malignant tumor:",
       "options": [
-        "Low differentiation;",
+        "*Low differentiation;",
         "Big growth;",
         "Lack of metastasis;",
         "There is no morphological difference from normal progenitor cells."
@@ -1000,7 +1010,7 @@ export const s_2_1 = {
     {
       "question": "Show the most correct sentence:",
       "options": [
-        "Carcinogenic - stimulates tumor formation;",
+        "*Carcinogenic - stimulates tumor formation;",
         "A carcinogen is only an endogenous tumorigenic agent;",
         "Carcinogen is a gene that controls cell growth;",
         "A carcinogen is a gene that codes for tumor growth."
@@ -1011,7 +1021,7 @@ export const s_2_1 = {
     {
       "question": "Name the serum histochemical tumor marker that indicates the origin of the tumor from the mesenchymal tissue:",
       "options": [
-        "Vimentin;",
+        "*Vimentin;",
         "Thyroglobulin;",
         "Mucin;",
         "Keratin."
@@ -1022,7 +1032,7 @@ export const s_2_1 = {
     {
       "question": "A decrease in p-53 proteins in the cell indicates:",
       "options": [
-        "Inhibition of apoptosis processes.",
+        "*Inhibition of apoptosis processes.",
         "Inhibition of cell division;",
         "Activation of cell apoptosis processes;",
         "Strengthening DNA repair processes;"
@@ -1033,7 +1043,7 @@ export const s_2_1 = {
     {
       "question": "Describe the third stage of oncogenesis:",
       "options": [
-        "Synthesis of oncoproteins, acquisition of tumor phenotype;",
+        "*Synthesis of oncoproteins, acquisition of tumor phenotype;",
         "Uncontrolled proliferation of tumor cells;",
         "Conversion of a proto-oncogene to an oncogene;",
         "Interaction of carcinogens with proto-oncogenes and anti-oncogenes of the cell genome."
@@ -1044,7 +1054,7 @@ export const s_2_1 = {
     {
       "question": "Chemotherapeutic cancer drugs include:",
       "options": [
-        "Everything is correct",
+        "*Everything is correct",
         "Platinum compounds;",
         "Pink vinca alkaloids",
         "Antimetabolites"
@@ -1055,7 +1065,7 @@ export const s_2_1 = {
     {
       "question": "What are oncoproteins?",
       "options": [
-        "Proteins that stimulate the growth and development of tumors;",
+        "*Proteins that stimulate the growth and development of tumors;",
         "Proteins that block cellular respiration;",
         "Proteins that inhibit glycolysis;",
         "Proteins that generate oncotic intravascular pressure."
@@ -1066,7 +1076,7 @@ export const s_2_1 = {
     {
       "question": "Define an extremely dangerous carcinogen:",
       "options": [
-        "Benzypyrene",
+        "*Benzypyrene",
         "Phenol;",
         "Ammonia;",
         "Ethyl alcohol"
@@ -1077,7 +1087,7 @@ export const s_2_1 = {
     {
       "question": "Find the carcinogen that causes bladder cancer:",
       "options": [
-        "2-naphthylamine;",
+        "*2-naphthylamine;",
         "Benzopyrene;",
         "Benzanthracene;",
         "Cyclophosphoamide."
@@ -1088,7 +1098,7 @@ export const s_2_1 = {
     {
       "question": "What properties of steroid sex hormones may depend on their blastomogenic effect?",
       "options": [
-        "With the ability to form carcinogenic metabolites;",
+        "*With the ability to form carcinogenic metabolites;",
         "Activation of lipolysis;",
         "With increased proliferative activity of T-lymphocytes;",
         "By suppressing glycolysis."
@@ -1099,7 +1109,7 @@ export const s_2_1 = {
     {
       "question": "Name the enzyme that transfers genetic information to the genome of a virus-infected cell in RNA:",
       "options": [
-        "RNA-dependent DNA polymerase",
+        "*RNA-dependent DNA polymerase",
         "polynucleatidase;",
         "endonuclease;",
         "caspase;"
@@ -1110,7 +1120,7 @@ export const s_2_1 = {
     {
       "question": "Oncogenesis theories do not include:",
       "options": [
-        "implantable;",
+        "*implantable;",
         "virological;",
         "dysontogenetic;",
         "physical and chemical."
@@ -1121,7 +1131,7 @@ export const s_2_1 = {
     {
       "question": "Benign tumors are characterized by:",
       "options": [
-        "Expansive growth;",
+        "*Expansive growth;",
         "Rapid formation of a tumor node;",
         "Infiltrative growth;",
         "Metastasis."
@@ -1132,7 +1142,7 @@ export const s_2_1 = {
     {
       "question": "What endogenous products are carcinogens?",
       "options": [
-        "Free radicals.",
+        "*Free radicals.",
         "S3 S5 complement part;",
         "Ig A;",
         "Lactic acid."
@@ -1143,7 +1153,7 @@ export const s_2_1 = {
     {
       "question": "Tumor formed from mesoderm cells:",
       "options": [
-        "Sarcoma;",
+        "*Sarcoma;",
         "Carcinoma;",
         "Adenoma;",
         "Melanoma;"
@@ -1154,7 +1164,7 @@ export const s_2_1 = {
     {
       "question": "A tumor cell is a \"trap\" for the substance under it:",
       "options": [
-        "Glucose",
+        "*Glucose",
         "Free radicals;",
         "Folates;",
         "Hydroxides;"
@@ -1165,7 +1175,7 @@ export const s_2_1 = {
     {
       "question": "Tumor treatment methods:",
       "options": [
-        "all of them.",
+        "*all of them.",
         "surgery;",
         "radiation therapy;",
         "chemotherapy;"
@@ -1176,7 +1186,7 @@ export const s_2_1 = {
     {
       "question": "An enzyme that does not initiate metastasis:",
       "options": [
-        "Glucuronidase;",
+        "*Glucuronidase;",
         "Hyaluronidase;",
         "Metalloproteinase;",
         "Cathepsin B;"
@@ -1187,7 +1197,7 @@ export const s_2_1 = {
     {
       "question": "Name the cell that exocytes TNF (tumor necrosis factor):",
       "options": [
-        "Tissue macrophages;",
+        "*Tissue macrophages;",
         "Erythrocytes;",
         "Platelets;",
         "Eosinophil."
@@ -1198,7 +1208,7 @@ export const s_2_1 = {
     {
       "question": "Dangerous liver cells intensively synthesize:",
       "options": [
-        "?-fetoprotein;",
+        "*?-fetoprotein;",
         "?-tocopherol;",
         "?-globulin;",
         "C-reactive protein."
@@ -1209,7 +1219,7 @@ export const s_2_1 = {
     {
       "question": "Anticancer mechanisms include:",
       "options": [
-        "All of the above is true.",
+        "*All of the above is true.",
         "Bonding with glucuronic acid, sulfates;",
         "Excretion with body fluids;",
         "Detoxification of free radicals with antioxidants;"
@@ -1220,7 +1230,7 @@ export const s_2_1 = {
     {
       "question": "A characteristic feature of a benign tumor:",
       "options": [
-        "Invasive growth;",
+        "*Invasive growth;",
         "High level of differentiation;",
         "Absence of metastases;",
         "Absence of clear morphological differences from normal progenitor cells."
@@ -1231,7 +1241,7 @@ export const s_2_1 = {
     {
       "question": "Show organic carcinogens of endogenous origin:",
       "options": [
-        "Lipoperoxide compounds;",
+        "*Lipoperoxide compounds;",
         "3.4 benzopyrene;",
         "Diethyl nitrosoamine;",
         "Carbon tetrachloride."
@@ -1242,7 +1252,7 @@ export const s_2_1 = {
     {
       "question": "Define the concept of proto-oncogene.",
       "options": [
-        "A gene that controls cell division;",
+        "*A gene that controls cell division;",
         "Carcinogen interacting gene;",
         "A viral gene that encodes the multiplication of viral proteins;",
         "A mutated gene that controls the repair of a cell's genome (DNA)."
@@ -1253,7 +1263,7 @@ export const s_2_1 = {
     {
       "question": "Describe the second stage of oncogenesis:",
       "options": [
-        "Conversion of a proto-oncogene to an oncogene;",
+        "*Conversion of a proto-oncogene to an oncogene;",
         "Uncontrolled proliferation of tumor cells;",
         "Synthesis of oncoproteins, acquisition of tumor phenotype;",
         "Interaction of carcinogens with proto-oncogenes and anti-oncogenes of the cell genome."
@@ -1264,7 +1274,7 @@ export const s_2_1 = {
     {
       "question": "What is the serum histochemical tumor marker that indicates the origin of the tumor from the cells of the prostate gland?",
       "options": [
-        "Acid phosphatase;",
+        "*Acid phosphatase;",
         "Mustin;",
         "?-fetoprotein;",
         "Chromogranin."
@@ -1275,7 +1285,7 @@ export const s_2_1 = {
     {
       "question": "Oncogenesis suppressor genes include:",
       "options": [
-        "p-53",
+        "*p-53",
         "c-myc",
         "N-myc",
         "c-erbB"
@@ -1286,7 +1296,7 @@ export const s_2_1 = {
     {
       "question": "Show the cell that does not participate in the body's defense against tumors:",
       "options": [
-        "Fibroblast;",
+        "*Fibroblast;",
         "Macrophage;",
         "Leukocytes;",
         "T-killer."
@@ -1297,7 +1307,7 @@ export const s_2_1 = {
     {
       "question": "What is characteristic of a malignant tumor?",
       "options": [
-        "Metastasis;",
+        "*Metastasis;",
         "High level of differentiation;",
         "Absence of morphological differences from a normal congenital cell;",
         "Ability to control cell division."
@@ -1308,7 +1318,7 @@ export const s_2_1 = {
     {
       "question": "Describe the first stage of oncogenesis:",
       "options": [
-        "Interaction of carcinogens with proto-oncogenes and anti-oncogenes of the cell genome.",
+        "*Interaction of carcinogens with proto-oncogenes and anti-oncogenes of the cell genome.",
         "Uncontrolled proliferation of tumor cells;",
         "Synthesis of oncoproteins, acquisition of tumor phenotype;",
         "Conversion of a proto-oncogene to an oncogene;"
@@ -1321,7 +1331,7 @@ export const s_2_1 = {
     {
       "question": "Serum albumin-globulin ratio of a healthy person:",
       "options": [
-        "1.5-2.0",
+        "*1.5-2.0",
         "1.0-1.5",
         "5.0-6.5",
         "8.0-10.0"
@@ -1332,7 +1342,7 @@ export const s_2_1 = {
     {
       "question": "What function of blood is included in the concept of oncotic blood pressure?",
       "options": [
-        "Osmotic",
+        "*Osmotic",
         "Protection",
         "Detoxification",
         "Thermoregulation"
@@ -1343,7 +1353,7 @@ export const s_2_1 = {
     {
       "question": "The amount of globulins in the blood serum of a healthy person:",
       "options": [
-        "20-35 g / l",
+        "*20-35 g / l",
         "50-60 g / l",
         "40-60 g/l",
         "100-120 g / l"
@@ -1354,7 +1364,7 @@ export const s_2_1 = {
     {
       "question": "Plasma proteins do not include which of the following:",
       "options": [
-        "Myoglobin",
+        "*Myoglobin",
         "Ceruloplasmin",
         "Immunoglobulins",
         "Haptoglobin"
@@ -1365,7 +1375,7 @@ export const s_2_1 = {
     {
       "question": "Plasma differs from serum in terms of what proteins it contains",
       "options": [
-        "Fibrinogen",
+        "*Fibrinogen",
         "Albumin",
         "Alpha1 - globulins",
         "Beta globulins"
@@ -1376,7 +1386,7 @@ export const s_2_1 = {
     {
       "question": "Which of the following acute phase proteins is not present in inflammation",
       "options": [
-        "Albumin",
+        "*Albumin",
         "Cryoglobulins",
         "Alpha2-macroglobulin",
         "Whey protein inhibitors"
@@ -1387,7 +1397,7 @@ export const s_2_1 = {
     {
       "question": "Blood performs the following functions:",
       "options": [
-        "All the above functions",
+        "*All the above functions",
         "Nutrient transport",
         "Regulator",
         "Osmotic"
@@ -1398,7 +1408,7 @@ export const s_2_1 = {
     {
       "question": "Disturbance of the acid-alkaline balance of the blood, characterized by the accumulation of acidic compounds, is called:",
       "options": [
-        "Acidosis",
+        "*Acidosis",
         "Anasiditis",
         "Achilia",
         "Hyperacidity"
@@ -1409,7 +1419,7 @@ export const s_2_1 = {
     {
       "question": "Specific binding and transport of copper ions takes place in the blood plasma:",
       "options": [
-        "Ceruloplasmin",
+        "*Ceruloplasmin",
         "Hemoglobin",
         "Haptoglobin",
         "Transferrin"
@@ -1420,7 +1430,7 @@ export const s_2_1 = {
     {
       "question": "Colloid-osmotic blood pressure maintains:",
       "options": [
-        "Albumin",
+        "*Albumin",
         "Alpha1-globulins",
         "Alpha globulins",
         "Beta globulins"
@@ -1431,7 +1441,7 @@ export const s_2_1 = {
     {
       "question": "What is hyperproteinemia?",
       "options": [
-        "An increase in the amount of blood plasma proteins",
+        "*An increase in the amount of blood plasma proteins",
         "Disturbance of protein balance in the body",
         "Violation of the albumin-globulin ratio",
         "Excretion of protein in urine"
@@ -1442,7 +1452,7 @@ export const s_2_1 = {
     {
       "question": "The occurrence of ?-fetoglobulin, cryoglobulins in blood serum:",
       "options": [
-        "Paraproteinemia",
+        "*Paraproteinemia",
         "Dysproteinemia",
         "Hyperproteinemia",
         "Hypoproteinemia"
@@ -1453,7 +1463,7 @@ export const s_2_1 = {
     {
       "question": "Albumin is the carrier of the following:",
       "options": [
-        "Everything is correct",
+        "*Everything is correct",
         "Free fatty acids, unconjugated bilirubin",
         "Bile acids, hormones",
         "Various drugs"
@@ -1464,7 +1474,7 @@ export const s_2_1 = {
     {
       "question": "When you are hungry, find the protein that serves as a protein reserve first:",
       "options": [
-        "Albumin",
+        "*Albumin",
         "Hemoglobin",
         "Keratin",
         "Collagen"
@@ -1475,7 +1485,7 @@ export const s_2_1 = {
     {
       "question": "Which protein group does haptoglobin belong to:",
       "options": [
-        "?lpha 2-globulin",
+        "*?lpha 2-globulin",
         "?lpha 1-globulin",
         "Beta-globulin",
         "Gama-globulin"
@@ -1486,7 +1496,7 @@ export const s_2_1 = {
     {
       "question": "Which of the following proteins is involved in apotransferrin being saturated with iron and turning into transferrin:",
       "options": [
-        "Ceruloplasmin",
+        "*Ceruloplasmin",
         "Retinol binder",
         "Transcortin",
         "Hemopexin"
@@ -1497,7 +1507,7 @@ export const s_2_1 = {
     {
       "question": "Which of the following is Beta-globulin:",
       "options": [
-        "Transferrin",
+        "*Transferrin",
         "Haptoglobin",
         "Transcortin",
         "Interferon"
@@ -1508,7 +1518,7 @@ export const s_2_1 = {
     {
       "question": "Name the plasma protein that binds heme and prevents its excretion through the kidneys:",
       "options": [
-        "Hemopexin",
+        "*Hemopexin",
         "Transferrin",
         "C-reactive protein",
         "Haptoglobin"
@@ -1519,7 +1529,7 @@ export const s_2_1 = {
     {
       "question": "Name the protein that is not found in the blood serum of a healthy person:",
       "options": [
-        "C-reactive protein",
+        "*C-reactive protein",
         "Interferon",
         "Albumin",
         "Hemopexin"
@@ -1530,7 +1540,7 @@ export const s_2_1 = {
     {
       "question": "Proteins involved in the body's defense reactions:",
       "options": [
-        "Gama-globulins",
+        "*Gama-globulins",
         "?lpha 1-globulins",
         "?lpha 2-globulins",
         "Beta-globulins"
@@ -1541,7 +1551,7 @@ export const s_2_1 = {
     {
       "question": "Identify the types of immunoglobulins:",
       "options": [
-        "A, G, M, D, E",
+        "*A, G, M, D, E",
         "A, B, C, D, E",
         "G, M, F, H, I",
         "I, G, M, F, H"
@@ -1552,7 +1562,7 @@ export const s_2_1 = {
     {
       "question": "Interferons belong to which group according to their structure:",
       "options": [
-        "Glycoproteins",
+        "*Glycoproteins",
         "Normal proteins",
         "Flavoproteins",
         "Metalloproteins"
@@ -1563,7 +1573,7 @@ export const s_2_1 = {
     {
       "question": "What is hyperproteinemia?",
       "options": [
-        "An increase in the amount of blood plasma proteins",
+        "*An increase in the amount of blood plasma proteins",
         "Disturbance of protein balance in the body",
         "Violation of the albumin-globulin ratio",
         "Excretion of protein in urine"
@@ -1574,7 +1584,7 @@ export const s_2_1 = {
     {
       "question": "Proteins involved in inflammatory mechanisms as a response to injuries:",
       "options": [
-        "Acute phase proteins",
+        "*Acute phase proteins",
         "Immunity proteins",
         "Flavoproteins",
         "Glycoproteins"
@@ -1585,7 +1595,7 @@ export const s_2_1 = {
     {
       "question": "Which enzyme activity increases when the salivary glands are inflamed:",
       "options": [
-        "Amylase",
+        "*Amylase",
         "Alkaline phosphatase",
         "Protease",
         "ALT"
@@ -1596,7 +1606,7 @@ export const s_2_1 = {
     {
       "question": "Activity increases during myocardial infarction:",
       "options": [
-        "Everything is correct",
+        "*Everything is correct",
         "Creatine kinase",
         "AST",
         "LDG1"
@@ -1607,7 +1617,7 @@ export const s_2_1 = {
     {
       "question": "Which of the following indicators increases in the blood in muscle diseases:",
       "options": [
-        "Creatine",
+        "*Creatine",
         "Alkaline phosphatase",
         "Uric acid",
         "Indian"
@@ -1618,7 +1628,7 @@ export const s_2_1 = {
     {
       "question": "What does an increase in the amount of lactate in the blood plasma indicate:",
       "options": [
-        "Hypoxia",
+        "*Hypoxia",
         "Acidosis",
         "Alkalosis",
         "Inflammation"
@@ -1629,7 +1639,7 @@ export const s_2_1 = {
     {
       "question": "The role of phosphates in blood plasma:",
       "options": [
-        "Participation in the buffer system",
+        "*Participation in the buffer system",
         "Regulation of protein balance in the body",
         "Participation in blood clotting",
         "Fluid control"
@@ -1640,7 +1650,7 @@ export const s_2_1 = {
     {
       "question": "Which of the following is not an acute phase protein:",
       "options": [
-        "Thrombin",
+        "*Thrombin",
         "Ceruloplasmin",
         "Cryoglobulin",
         "Haptoglobin"
@@ -1653,7 +1663,7 @@ export const s_2_1 = {
     {
       "question": "How much iron should be in the food in order for the body to absorb 10 mg of iron per day?",
       "options": [
-        "50-60 mg",
+        "*50-60 mg",
         "100-150 mg",
         "1-2 g",
         "200-300 mg"
@@ -1664,7 +1674,7 @@ export const s_2_1 = {
     {
       "question": "Which of the following substances interferes with the absorption of iron in the intestines::",
       "options": [
-        "Tannin",
+        "*Tannin",
         "Ascorbic acid",
         "Cu ions",
         "Folates"
@@ -1675,7 +1685,7 @@ export const s_2_1 = {
     {
       "question": "A strong buffer system that makes up 75% of the buffer system of blood:",
       "options": [
-        "Hemoglobin",
+        "*Hemoglobin",
         "Phosphate",
         "Protein",
         "Acetate"
@@ -1686,7 +1696,7 @@ export const s_2_1 = {
     {
       "question": "Excessive absorption of iron in the intestines:",
       "options": [
-        "Hemochromatosis",
+        "*Hemochromatosis",
         "Hemoglobinemia",
         "Aplastic anemia",
         "Hemoblastic anemia"
@@ -1697,7 +1707,7 @@ export const s_2_1 = {
     {
       "question": "The main task of HBA:",
       "options": [
-        "Transport of CO2 and O2",
+        "*Transport of CO2 and O2",
         "Synthesis of contractile system proteins (actin, myosin)",
         "Ensuring the body's immune status",
         "Participation in the formation of reactive oxygen species"
@@ -1708,7 +1718,7 @@ export const s_2_1 = {
     {
       "question": "Define the pathological form of hemoglobin:",
       "options": [
-        "HbS",
+        "*HbS",
         "HbA",
         "HbF",
         "HbA2"
@@ -1719,7 +1729,7 @@ export const s_2_1 = {
     {
       "question": "Life expectancy of erythrocytes:",
       "options": [
-        "120 days",
+        "*120 days",
         "1 month",
         "2 months",
         "15 days"
@@ -1730,7 +1740,7 @@ export const s_2_1 = {
     {
       "question": "Beta-globulin fraction transports iron trivalent ion",
       "options": [
-        "Transferrin",
+        "*Transferrin",
         "Interferon",
         "Haptoglobin",
         "Hemopexin"
@@ -1741,7 +1751,7 @@ export const s_2_1 = {
     {
       "question": "Adult erythrocytes contain 98% of hemoglobin:",
       "options": [
-        "HbA.",
+        "*HbA.",
         "HbR.",
         "HbF",
         "HA2"
@@ -1752,7 +1762,7 @@ export const s_2_1 = {
     {
       "question": "Choose indicators of the normal amount of hemoglobin in women:",
       "options": [
-        "115-145 g / l",
+        "*115-145 g / l",
         "90-100 g/l",
         "50-80 g/l",
         "70-100 g / l"
@@ -1763,7 +1773,7 @@ export const s_2_1 = {
     {
       "question": "Choose indicators of normal hemoglobin content in men:",
       "options": [
-        "130-160 g / l",
+        "*130-160 g / l",
         "115-145 g / l",
         "70-90 g/l",
         "100-120 g / l"
@@ -1774,7 +1784,7 @@ export const s_2_1 = {
     {
       "question": "Show the types of hemoglobin in the red blood cells of healthy people:",
       "options": [
-        "A1, A2, F",
+        "*A1, A2, F",
         "M, A1s, D.",
         "C, M, E.",
         "A2, S."
@@ -1785,7 +1795,7 @@ export const s_2_1 = {
     {
       "question": "Which disease causes the presence of HbA1S hemoglobin in the blood:",
       "options": [
-        "Diabetes",
+        "*Diabetes",
         "Anemia",
         "Carbon monoxide poisoning",
         "Hypoxia"
@@ -1796,7 +1806,7 @@ export const s_2_1 = {
     {
       "question": "The hemoglobin buffer system of blood consists of:",
       "options": [
-        "Oxyhemoglobin and deoxyhemoglobin",
+        "*Oxyhemoglobin and deoxyhemoglobin",
         "Carbhemoglobin and carboxyhemoglobin",
         "Carboxyhemoglobin and oxyhemoglobin",
         "Oxyhemoglobin and methemoglobin"
@@ -1807,7 +1817,7 @@ export const s_2_1 = {
     {
       "question": "What is the pH value of the bicarbonate buffer system of blood",
       "options": [
-        "7.4",
+        "*7.4",
         "6.8",
         "7.9",
         "7.0"
@@ -1818,7 +1828,7 @@ export const s_2_1 = {
     {
       "question": "Type B of hemophilia depends on which factor:",
       "options": [
-        "Christmas factor",
+        "*Christmas factor",
         "Stuart-Prawer factor",
         "Anticonvertin",
         "The Hageman factor"
@@ -1829,7 +1839,7 @@ export const s_2_1 = {
     {
       "question": "A protein that ensures that iron (Fe3+) ions absorbed in the intestine are absorbed by various organs of the body and accumulate as a reserve in various organs:",
       "options": [
-        "Ferritin",
+        "*Ferritin",
         "Transferrin",
         "Haptoglobin",
         "Ceruloplasmin"
@@ -1840,7 +1850,7 @@ export const s_2_1 = {
     {
       "question": "Identify the coenzyme of aminolevulinic synthase:",
       "options": [
-        "Pridoxalphosphate",
+        "*Pridoxalphosphate",
         "Folic acid",
         "Cobalamin",
         "Niacin"
@@ -1851,7 +1861,7 @@ export const s_2_1 = {
     {
       "question": "The combination of hemoglobin with oxygen is called:",
       "options": [
-        "Oxyhemoglobin",
+        "*Oxyhemoglobin",
         "Methemoglobin",
         "Carbylamin hemoglobin",
         "Carbemoglobin"
@@ -1862,7 +1872,7 @@ export const s_2_1 = {
     {
       "question": "The compound that transports carbon dioxide from the tissues to the lungs is called:",
       "options": [
-        "Carbhemoglobin",
+        "*Carbhemoglobin",
         "Oxyhemoglobin",
         "Do not carbylate hemoglobin",
         "Carboxyhemoglobin"
@@ -1873,7 +1883,7 @@ export const s_2_1 = {
     {
       "question": "In people carrying the HbS gene, the place of glutamic acid in the 6th position of the hemoglobin ?-chain is replaced by which amino acid:",
       "options": [
-        "Valin",
+        "*Valin",
         "Cool",
         "Aspartate",
         "Methionine"
@@ -1884,7 +1894,7 @@ export const s_2_1 = {
     {
       "question": "Show the predecessor of fibrin",
       "options": [
-        "Fibrinogen",
+        "*Fibrinogen",
         "Haptoglobin",
         "Fibronectin",
         "Fibroin"
@@ -1895,7 +1905,7 @@ export const s_2_1 = {
     {
       "question": "In the 1st stage of heme synthesis, aminolevulinic acid is formed from which substances:",
       "options": [
-        "Glycine and succinyl CoA",
+        "*Glycine and succinyl CoA",
         "From iron binding to the porphyrin ring",
         "From bilirubin",
         "From propionyl CoA and iron"
@@ -1906,7 +1916,7 @@ export const s_2_1 = {
     {
       "question": "Ferrochelatase enzyme is also known as:",
       "options": [
-        "Hemesynthase",
+        "*Hemesynthase",
         "Aminolevulinic synthase",
         "Aminolevulinate dehydratase",
         "Porphoblinogen synthase"
@@ -1917,7 +1927,7 @@ export const s_2_1 = {
     {
       "question": "In which disease the urine is red and the skin is sensitive to sunlight:",
       "options": [
-        "Porphyria",
+        "*Porphyria",
         "Methemoglobinemia",
         "Sickle cell anemia",
         "Hemophilia"
@@ -1928,7 +1938,7 @@ export const s_2_1 = {
     {
       "question": "Blood coagulation reactions take place based on the mechanism of:",
       "options": [
-        "Cascade",
+        "*Cascade",
         "Ping-pong",
         "Regulatory",
         "Rescue"
@@ -1939,7 +1949,7 @@ export const s_2_1 = {
     {
       "question": "Choose an inactive factor of hemocoagulation:",
       "options": [
-        "Prothrombin",
+        "*Prothrombin",
         "Fibrin",
         "Your axles",
         "Convertin"
@@ -1950,7 +1960,7 @@ export const s_2_1 = {
     {
       "question": "Factor that converts fibrinogen to fibrin:",
       "options": [
-        "Thrombin",
+        "*Thrombin",
         "Kallikrine",
         "Quinine",
         "Vitamin K"
@@ -1961,7 +1971,7 @@ export const s_2_1 = {
     {
       "question": "Define an anticoagulant substance:",
       "options": [
-        "Heparin",
+        "*Heparin",
         "Vitamin K",
         "Prothrombin",
         "Thromboplastin"
@@ -1972,7 +1982,7 @@ export const s_2_1 = {
     {
       "question": "What is the process of fibrinolysis::",
       "options": [
-        "Fibrin clot breakdown",
+        "*Fibrin clot breakdown",
         "Transition of fibrin to an insoluble gel state",
         "Blood clotting",
         "Blood clotting disorders"
@@ -1985,7 +1995,7 @@ export const s_2_1 = {
     {
       "question": "What is the 2nd main protein of connective tissue?",
       "options": [
-        "Elastin",
+        "*Elastin",
         "Collagen",
         "Heparin",
         "Protoglycan"
@@ -1996,7 +2006,7 @@ export const s_2_1 = {
     {
       "question": "What makes up 30-60% of the total mass of aorta tissue?",
       "options": [
-        "Elastin",
+        "*Elastin",
         "Glycogen",
         "Collagen",
         "Protein"
@@ -2007,7 +2017,7 @@ export const s_2_1 = {
     {
       "question": "Where is the elastin-degrading proelastase produced?",
       "options": [
-        "Pancreas",
+        "*Pancreas",
         "Liver",
         "Kidney",
         "Stomach"
@@ -2018,7 +2028,7 @@ export const s_2_1 = {
     {
       "question": "Predecessor of elastin",
       "options": [
-        "tropoelastin",
+        "*tropoelastin",
         "procollagen",
         "proglycan",
         "prohyaluron"
@@ -2029,7 +2039,7 @@ export const s_2_1 = {
     {
       "question": "How many percent of carbon do proteoglycans contain?",
       "options": [
-        "95%",
+        "*95%",
         "90%",
         "97%",
         "99%"
@@ -2040,7 +2050,7 @@ export const s_2_1 = {
     {
       "question": "How many classes are glycosaminoglycans divided into?",
       "options": [
-        "6",
+        "*6",
         "5",
         "3",
         "2"
@@ -2051,7 +2061,7 @@ export const s_2_1 = {
     {
       "question": "What are proteoglycans called today?",
       "options": [
-        "Glycosaminoglycans",
+        "*Glycosaminoglycans",
         "Mucopolysaccharides",
         "Glucosamines",
         "Galactosamines"
@@ -2062,7 +2072,7 @@ export const s_2_1 = {
     {
       "question": "Which of the following consists of insoluble, highly elastic, rigid cross-links?",
       "options": [
-        "Elastin",
+        "*Elastin",
         "Collagen",
         "Proteoglycan",
         "Procallogen"
@@ -2073,7 +2083,7 @@ export const s_2_1 = {
     {
       "question": "Proteoglycans make up what percentage of tissue dry mass?",
       "options": [
-        "30%",
+        "*30%",
         "20%",
         "50%",
         "10%"
@@ -2084,7 +2094,7 @@ export const s_2_1 = {
     {
       "question": "A change in the viscosity of joint fluid in rheumatic patients is the result of a change in the structure of which compound",
       "options": [
-        "Proteglycans",
+        "*Proteglycans",
         "Glycoprotein",
         "Fibrinogen",
         "Desmosine and isodesmosine"
@@ -2095,7 +2105,7 @@ export const s_2_1 = {
     {
       "question": "What is the shape of fibrils?",
       "options": [
-        "Cylinder",
+        "*Cylinder",
         "Round",
         "Disc",
         "Triangle"
@@ -2106,7 +2116,7 @@ export const s_2_1 = {
     {
       "question": "What percentage of body weight is connective tissue?",
       "options": [
-        "50%",
+        "*50%",
         "30%",
         "60%",
         "20%"
@@ -2117,7 +2127,7 @@ export const s_2_1 = {
     {
       "question": "What is the mechanical and holding function of the connective tissue?",
       "options": [
-        "An insoluble protein outside the cell",
+        "*An insoluble protein outside the cell",
         "An insoluble protein inside the cell",
         "Phospholipids",
         "Glycolipids"
@@ -2128,7 +2138,7 @@ export const s_2_1 = {
     {
       "question": "Specific structure for connective tissue?",
       "options": [
-        "Fibrillar structure",
+        "*Fibrillar structure",
         "Macromolecular structure",
         "Globular structure",
         "Two-layer structure"
@@ -2139,7 +2149,7 @@ export const s_2_1 = {
     {
       "question": "What makes up 1/3 of the amino acids in collagen?",
       "options": [
-        "glycine",
+        "*glycine",
         "proline",
         "alanine",
         "hydroxyproline"
@@ -2150,7 +2160,7 @@ export const s_2_1 = {
     {
       "question": "Which substance acts as a shock absorber in the joints?",
       "options": [
-        "Hyaluronic acid",
+        "*Hyaluronic acid",
         "Fibronectin",
         "Aminopectin",
         "Arachidonic acid"
@@ -2161,7 +2171,7 @@ export const s_2_1 = {
     {
       "question": "Which hormone accelerates the synthesis of hyaluronic acid?",
       "options": [
-        "Testosterone",
+        "*Testosterone",
         "Adrenal hormones",
         "Adrenaline",
         "Noradrenaline"
@@ -2172,7 +2182,7 @@ export const s_2_1 = {
     {
       "question": "When is hyaluronic acid repolymerized?",
       "options": [
-        "When adrenocorticosteroids are introduced",
+        "*When adrenocorticosteroids are introduced",
         "When its de novo synthesis increases",
         "It is polymerized",
         "If the amount of cholesterol increases"
@@ -2183,7 +2193,7 @@ export const s_2_1 = {
     {
       "question": "In old age, the percentage of connective tissue decreases?",
       "options": [
-        "Water and the main substance",
+        "*Water and the main substance",
         "Basic ingredients",
         "Proteoglycans",
         "Glucosamines"
@@ -2194,7 +2204,7 @@ export const s_2_1 = {
     {
       "question": "In old age, the amount of connective tissue decreases first?",
       "options": [
-        "Hyaluronic acid",
+        "*Hyaluronic acid",
         "Collagen",
         "Elastin",
         "Glycoprotein"
@@ -2205,7 +2215,7 @@ export const s_2_1 = {
     {
       "question": "When does the molecular structure of collagen change?",
       "options": [
-        "In old age",
+        "*In old age",
         "As a result of changes in metabolism",
         "In maturity",
         "During the reign of Yuvinil"
@@ -2216,7 +2226,7 @@ export const s_2_1 = {
     {
       "question": "What kind of disease is rheumatoid arthritis?",
       "options": [
-        "Systemic connective tissue disease",
+        "*Systemic connective tissue disease",
         "Muscle inflammation",
         "Chronic immune system disease",
         "Contagious infectious disease"
@@ -2227,7 +2237,7 @@ export const s_2_1 = {
     {
       "question": "What disease is caused by changes in the exchange of collagen and proteoglycans?",
       "options": [
-        "Rheumatic arthritis",
+        "*Rheumatic arthritis",
         "Chronic arthritis",
         "To you",
         "Inflammation"
@@ -2238,7 +2248,7 @@ export const s_2_1 = {
     {
       "question": "Rheumatoid arthritis is a systemic disease of which tissue",
       "options": [
-        "Consolidator",
+        "*Consolidator",
         "Epithelium",
         "Muscle",
         "Nerve"
@@ -2249,7 +2259,7 @@ export const s_2_1 = {
     {
       "question": "A cell belonging to connective tissue:",
       "options": [
-        "Erythrocyte",
+        "*Erythrocyte",
         "Nerve cell",
         "Muscle",
         "Epithelium"
@@ -2260,7 +2270,7 @@ export const s_2_1 = {
     {
       "question": "Which hormonal influence accelerates your synthesis of hyaluronic acid?",
       "options": [
-        "Testosterone",
+        "*Testosterone",
         "Thyroxine",
         "Temozin",
         "Somatotropy"
@@ -2271,7 +2281,7 @@ export const s_2_1 = {
     {
       "question": "Hyaluronidase enzyme is present in which of the following:",
       "options": [
-        "In sperm",
+        "*In sperm",
         "In the adrenal gland",
         "In oocytes",
         "In erythrocytes"
@@ -2282,7 +2292,7 @@ export const s_2_1 = {
     {
       "question": "What disease is caused by a change in the exchange of collagen and proteoglycans?",
       "options": [
-        "Rheumatic arthritis",
+        "*Rheumatic arthritis",
         "Chronic arthritis",
         "Arthritis",
         "Inflammation"
@@ -2293,7 +2303,7 @@ export const s_2_1 = {
     {
       "question": "Which process is disturbed in sinus disease?",
       "options": [
-        "Hydroxylation of collagen",
+        "*Hydroxylation of collagen",
         "Collagen biosynthesis",
         "Regeneration of elastin",
         "Formation of hyaluronic acid"
@@ -2304,7 +2314,7 @@ export const s_2_1 = {
     {
       "question": "The amount of collagen in old age?",
       "options": [
-        "Increases",
+        "*Increases",
         "Decreases",
         "It will fall apart",
         "Biosynthesis is accelerated"
@@ -2317,7 +2327,7 @@ export const s_2_1 = {
     {
       "question": "What percentage of body weight is muscle tissue.",
       "options": [
-        "40-42%",
+        "*40-42%",
         "35-38%",
         "45-50%",
         "30-35%"
@@ -2328,7 +2338,7 @@ export const s_2_1 = {
     {
       "question": "When muscles contract:",
       "options": [
-        "Chemical energy is converted into mechanical energy",
+        "*Chemical energy is converted into mechanical energy",
         "Mechanical energy is converted into electrochemical energy",
         "Chemical energy is converted into electrochemical energy",
         "Potential energy is converted into heat energy"
@@ -2339,7 +2349,7 @@ export const s_2_1 = {
     {
       "question": "The main function of the muscle.",
       "options": [
-        "Abbreviation",
+        "*Abbreviation",
         "Structural",
         "Conductivity",
         "Protection"
@@ -2350,7 +2360,7 @@ export const s_2_1 = {
     {
       "question": "Define muscle proteins.",
       "options": [
-        "Myosin, actin",
+        "*Myosin, actin",
         "Myosin, albumin",
         "Actin, globulin",
         "Tropomyosin, histone"
@@ -2361,7 +2371,7 @@ export const s_2_1 = {
     {
       "question": "Mark the muscle contraction element.",
       "options": [
-        "Myofibrils",
+        "*Myofibrils",
         "Sarcomere",
         "Sarcolemma",
         "Muscle fiber"
@@ -2372,7 +2382,7 @@ export const s_2_1 = {
     {
       "question": "The main source of energy for muscle contraction.",
       "options": [
-        "ATP",
+        "*ATP",
         "GTF",
         "Phosphoenolpyruvate",
         "1,3 diphosphoglycerate"
@@ -2383,7 +2393,7 @@ export const s_2_1 = {
     {
       "question": "Myofibrillar proteins of muscle tissue:",
       "options": [
-        "Troponin, Myosin",
+        "*Troponin, Myosin",
         "Albumin, tropomyosin",
         "Myoglobin, actin",
         "Hemoglobin, actin"
@@ -2394,7 +2404,7 @@ export const s_2_1 = {
     {
       "question": "It can be a source of energy for muscle contraction:",
       "options": [
-        "Creatine phosphate",
+        "*Creatine phosphate",
         "Adenosine monophosphate",
         "Phosphoenolpyruvate",
         "Carbamoyl phosphate"
@@ -2405,7 +2415,7 @@ export const s_2_1 = {
     {
       "question": "Which ions are involved in the control of muscle contraction?:",
       "options": [
-        "Calcium",
+        "*Calcium",
         "Phosphorus",
         "Magnesium",
         "Iron"
@@ -2416,7 +2426,7 @@ export const s_2_1 = {
     {
       "question": "When the concentration of Ca2+ ions in muscles decreases:",
       "options": [
-        "Muscles relax",
+        "*Muscles relax",
         "It shortens",
         "Tired",
         "It cannot contract and relax"
@@ -2427,7 +2437,7 @@ export const s_2_1 = {
     {
       "question": "Proteins that make up 35% of muscle tissue",
       "options": [
-        "Sarcoplasmic",
+        "*Sarcoplasmic",
         "Microfibrillar",
         "Myofibrillar",
         "Stromal proteins"
@@ -2438,7 +2448,7 @@ export const s_2_1 = {
     {
       "question": "One of the extractive substances involved in the chemical processes of muscle contraction",
       "options": [
-        "Creatine",
+        "*Creatine",
         "Lecithin",
         "Kholin",
         "Triglycerides"
@@ -2449,7 +2459,7 @@ export const s_2_1 = {
     {
       "question": "Troponin belongs to the group of muscle proteins:",
       "options": [
-        "Myofibrillar",
+        "*Myofibrillar",
         "Sarcoplasmic",
         "Stromal protein",
         "Microfibrillar"
@@ -2460,7 +2470,7 @@ export const s_2_1 = {
     {
       "question": "Name the sarcoplasmic protein in muscle tissue:",
       "options": [
-        "Myoglobin",
+        "*Myoglobin",
         "Troponin",
         "Actin",
         "Myosin"
@@ -2471,7 +2481,7 @@ export const s_2_1 = {
     {
       "question": "One of the non-protein nitrogen-storing extractives in muscle tissue:",
       "options": [
-        "Anserine",
+        "*Anserine",
         "Dicarnosine",
         "Imino acid",
         "Troponin"
@@ -2482,7 +2492,7 @@ export const s_2_1 = {
     {
       "question": "Name the muscle protein with catalytic activity:",
       "options": [
-        "Myosin",
+        "*Myosin",
         "Actin",
         "Troponin",
         "All stromal proteins"
@@ -2493,7 +2503,7 @@ export const s_2_1 = {
     {
       "question": "Find the correct sentence:",
       "options": [
-        "The actin thread moves along the myosin threads",
+        "*The actin thread moves along the myosin threads",
         "Myosin filaments move toward actin filaments",
         "Myoglobin plays an important role in muscle contraction",
         "Only anaerobic glycolysis occurs in muscles"
@@ -2504,7 +2514,7 @@ export const s_2_1 = {
     {
       "question": "What is the concentration of Ca2+ in relaxed muscles:",
       "options": [
-        "10-7M",
+        "*10-7M",
         "10-4M",
         "10-8M",
         "10-2M"
@@ -2515,7 +2525,7 @@ export const s_2_1 = {
     {
       "question": "Define the sarcoplasmic protein of muscle tissue:",
       "options": [
-        "Myogen",
+        "*Myogen",
         "Actomyosin",
         "Creatine",
         "Troponin"
@@ -2526,7 +2536,7 @@ export const s_2_1 = {
     {
       "question": "Specify the function of myoglobin:",
       "options": [
-        "Oxygen transport in muscles",
+        "*Oxygen transport in muscles",
         "Regulation of aerobic glycolysis in muscle",
         "Energy",
         "Trophic"
@@ -2537,7 +2547,7 @@ export const s_2_1 = {
     {
       "question": "Find a substance that increases the amplitude of contraction of tired muscles?:",
       "options": [
-        "Carnosine",
+        "*Carnosine",
         "Phosphorus",
         "Myogen",
         "sAMF"
@@ -2548,7 +2558,7 @@ export const s_2_1 = {
     {
       "question": "Name the amino acids involved in creatine synthesis:",
       "options": [
-        "Arginine, glycine, methionine",
+        "*Arginine, glycine, methionine",
         "Alanine, glycine",
         "Alanine, histidine",
         "Histidine, proline, oxyproline"
@@ -2559,7 +2569,7 @@ export const s_2_1 = {
     {
       "question": "Which enzyme is an indicator for heart disease?",
       "options": [
-        "Creatine phosphokinase",
+        "*Creatine phosphokinase",
         "Gammaglutamyltranspeptidase",
         "Acid phosphatase",
         "Aldolase"
@@ -2570,7 +2580,7 @@ export const s_2_1 = {
     {
       "question": "Define the reactions that supply muscles with energy?",
       "options": [
-        "Everything is correct",
+        "*Everything is correct",
         "Creatine kinase, glycolysis",
         "Resynthesis of ATP under aerobic conditions",
         "Myokinase"
@@ -2581,7 +2591,7 @@ export const s_2_1 = {
     {
       "question": "Define the \"rescue mechanism\" of muscles in emergency situations?",
       "options": [
-        "Myokinase reaction",
+        "*Myokinase reaction",
         "Creatine kinase reaction",
         "Resynthesis of ATP under aerobic conditions",
         "Anserine-carnosine"
@@ -2592,7 +2602,7 @@ export const s_2_1 = {
     {
       "question": "Specify the condition observed in myopathy:",
       "options": [
-        "Creatinuria",
+        "*Creatinuria",
         "Ketonemia",
         "Ketoacidosis",
         "Azotemia"
@@ -2603,7 +2613,7 @@ export const s_2_1 = {
     {
       "question": "Which disease can cause creatinineuria?",
       "options": [
-        "Progressive muscular dystrophy",
+        "*Progressive muscular dystrophy",
         "Liver cirrhosis",
         "Kidney pathology",
         "Myocardial infarction"
@@ -2614,7 +2624,7 @@ export const s_2_1 = {
     {
       "question": "In cardiac muscles, the amount of creatine phosphate is less than in skeletal muscles, and ATP consumption is higher, so which reaction rate is higher?",
       "options": [
-        "Aerobic resynthesis of ATP",
+        "*Aerobic resynthesis of ATP",
         "Myokinase",
         "Anaerobic glycolysis",
         "Substrate Phosphorylation"
@@ -2625,7 +2635,7 @@ export const s_2_1 = {
     {
       "question": "Show the main LDG in skeletal muscle:",
       "options": [
-        "LDG5",
+        "*LDG5",
         "LDG1",
         "LDG4",
         "LDG3"
@@ -2636,7 +2646,7 @@ export const s_2_1 = {
     {
       "question": "Muscle atrophy can occur as a result of lipid peroxidation in muscles when there is a lack of which vitamin:",
       "options": [
-        "Vitamin E",
+        "*Vitamin E",
         "Vitamin D",
         "Vitamin K",
         "B group vitamins"
@@ -2649,7 +2659,7 @@ export const s_2_1 = {
     {
       "question": "Where are micelles formed?",
       "options": [
-        "in the intestinal cavity",
+        "*in the intestinal cavity",
         "in the intestinal wall",
         "in the chest lymphatic system",
         "in the lungs"
@@ -2660,7 +2670,7 @@ export const s_2_1 = {
     {
       "question": "Glycolytic enzymes are involved in the digestion of which substances?",
       "options": [
-        "Carbohydrates",
+        "*Carbohydrates",
         "Oils",
         "Proteins",
         "Nucleoproteins"
@@ -2671,7 +2681,7 @@ export const s_2_1 = {
     {
       "question": "Optimal pH environment of gastric juice for pepsinogen activation?",
       "options": [
-        "1.5-2.5",
+        "*1.5-2.5",
         "6.4–7.0",
         "4.2-4.8",
         "7.8-8.3"
@@ -2682,7 +2692,7 @@ export const s_2_1 = {
     {
       "question": "Standard indicator of free hydrochloric acid in gastric juice (mol/l)?",
       "options": [
-        "20-40",
+        "*20-40",
         "40-60",
         "70-80",
         "90-100"
@@ -2693,7 +2703,7 @@ export const s_2_1 = {
     {
       "question": "Show the phospholipase that ensures the digestion of phospholipids in the intestine?",
       "options": [
-        "Phospholipase A",
+        "*Phospholipase A",
         "Phospholipase E",
         "Phospholipase D",
         "Phospholipase K"
@@ -2704,7 +2714,7 @@ export const s_2_1 = {
     {
       "question": "The general name of enzymes involved in the breakdown of proteins in the gastrointestinal tract?",
       "options": [
-        "Proteolytic enzymes",
+        "*Proteolytic enzymes",
         "Glycolytic enzymes",
         "Cathepsins",
         "Lipases"
@@ -2715,7 +2725,7 @@ export const s_2_1 = {
     {
       "question": "Importance of hydrochloric acid of gastric juice?",
       "options": [
-        "The bactericidal effect",
+        "*The bactericidal effect",
         "Partially hydrolyzes proteins",
         "It breaks down proteins into peptones",
         "Ensures absorption of proteins"
@@ -2726,7 +2736,7 @@ export const s_2_1 = {
     {
       "question": "Necessary conditions for the absorption of amino acids in the small intestine?",
       "options": [
-        "The presence of sodium ions",
+        "*The presence of sodium ions",
         "A weak alkaline environment",
         "The presence of calcium",
         "Presence of bile acids"
@@ -2737,7 +2747,7 @@ export const s_2_1 = {
     {
       "question": "Representative of proteases found in gastric juice?",
       "options": [
-        "Pepsin",
+        "*Pepsin",
         "Chymotrypsin",
         "Trypsin",
         "Elastase"
@@ -2748,7 +2758,7 @@ export const s_2_1 = {
     {
       "question": "Representative of proteases present in pancreatic juice?",
       "options": [
-        "Trypsinogen",
+        "*Trypsinogen",
         "Pepsin",
         "Renin",
         "Gastric"
@@ -2759,7 +2769,7 @@ export const s_2_1 = {
     {
       "question": "An enzyme involved in the digestion of proteins in the gastrointestinal tract?",
       "options": [
-        "Aminopeptidase",
+        "*Aminopeptidase",
         "Amylase",
         "Thiol-cathepsin",
         "Alanine aminotransferase"
@@ -2770,7 +2780,7 @@ export const s_2_1 = {
     {
       "question": "What enzyme activity is determined in the blood in acute pancreatitis?",
       "options": [
-        "Amylase",
+        "*Amylase",
         "Keratin kinase",
         "Arginase",
         "Aminotransferases"
@@ -2781,7 +2791,7 @@ export const s_2_1 = {
     {
       "question": "The most important substance for the digestion and absorption of fats in the intestine?",
       "options": [
-        "Bile acid",
+        "*Bile acid",
         "Intestinal lipase",
         "Hydrochloric acid",
         "Lipoprotein lipase"
@@ -2792,7 +2802,7 @@ export const s_2_1 = {
     {
       "question": "What can be the cause of fat malabsorption?",
       "options": [
-        "Insufficiency of bile acid in the intestines",
+        "*Insufficiency of bile acid in the intestines",
         "Absence of lipoprotein lipase",
         "Avitaminosis of water-soluble vitamins",
         "Lack of gastric juice"
@@ -2803,7 +2813,7 @@ export const s_2_1 = {
     {
       "question": "Show the drug recommended for the treatment of acute pancreatitis?",
       "options": [
-        "Trasilol",
+        "*Trasilol",
         "Xenodeoxycholate",
         "Taurine",
         "Carnitine"
@@ -2814,7 +2824,7 @@ export const s_2_1 = {
     {
       "question": "pH norm in gastric juice?",
       "options": [
-        "1.5-2.0",
+        "*1.5-2.0",
         "3.0- 5.0",
         "8.8-9.0",
         "10.4-12.8"
@@ -2825,7 +2835,7 @@ export const s_2_1 = {
     {
       "question": "Under what conditions are the enzymes released from the pancreas poured into the duodenum?",
       "options": [
-        "In pro condition",
+        "*In pro condition",
         "In the methylated state",
         "In active state",
         "In the conjugated state"
@@ -2836,7 +2846,7 @@ export const s_2_1 = {
     {
       "question": "Which proenzyme is activated in large quantities in peptic ulcer diseases?",
       "options": [
-        "Pepsinogen",
+        "*Pepsinogen",
         "Trypsinogen",
         "Proelastase",
         "Procarboxypeptidase"
@@ -2847,7 +2857,7 @@ export const s_2_1 = {
     {
       "question": "Find the substance that is absorbed into the blood from the intestine?",
       "options": [
-        "Galactose",
+        "*Galactose",
         "Lactose",
         "Nucleoprotein",
         "Peptone"
@@ -2858,7 +2868,7 @@ export const s_2_1 = {
     {
       "question": "Absence of HCl in gastric juice?",
       "options": [
-        "Achlorhydria",
+        "*Achlorhydria",
         "Achillea",
         "Hypochlorhydria",
         "Hyperchlorhydria"
@@ -2869,7 +2879,7 @@ export const s_2_1 = {
     {
       "question": "Proteolytic enzyme of gastric juice?",
       "options": [
-        "Gastric",
+        "*Gastric",
         "Aminopeptidase",
         "Amylase",
         "Dipeptidase"
@@ -2880,7 +2890,7 @@ export const s_2_1 = {
     {
       "question": "Participates in the digestion of triglycerides in the gastrointestinal tract?",
       "options": [
-        "Pancreatic lipase",
+        "*Pancreatic lipase",
         "LXAT",
         "Lipoprotein lipase",
         "Alkaline phosphatase"
@@ -2891,7 +2901,7 @@ export const s_2_1 = {
     {
       "question": "The activity of which enzyme increases when the salivary glands are inflamed?",
       "options": [
-        "Alpha-amylase",
+        "*Alpha-amylase",
         "Beta-amylase",
         "Gastroxin",
         "Ptyalin"
@@ -2902,7 +2912,7 @@ export const s_2_1 = {
     {
       "question": "What does bilirubin turn into in the small and large intestines?",
       "options": [
-        "Stercobilinogen",
+        "*Stercobilinogen",
         "Di- and tripyrrole",
         "Uroporphyrinogen",
         "Biliverdin"
@@ -2913,7 +2923,7 @@ export const s_2_1 = {
     {
       "question": "An enzyme that is not included in the group of proteolytic enzymes in intestinal juice?",
       "options": [
-        "Pepsinogen",
+        "*Pepsinogen",
         "Aminopeptidase",
         "Carboxypeptidase",
         "Dipeptidase"
@@ -2924,7 +2934,7 @@ export const s_2_1 = {
     {
       "question": "The patient was diagnosed with constipation. Which carbohydrate is recommended for improving bowel function?",
       "options": [
-        "Kletchatka",
+        "*Kletchatka",
         "Lactose",
         "Sucrose",
         "Glucose"
@@ -2935,7 +2945,7 @@ export const s_2_1 = {
     {
       "question": "Which process is disturbed due to the insufficient amount of bile acid in the intestine?",
       "options": [
-        "Fat digestion and absorption in the intestines",
+        "*Fat digestion and absorption in the intestines",
         "Lack of linoleic and linolenic acids",
         "Hypervitaminosis of fat-soluble vitamins",
         "Deficiency of essential amino acids"
@@ -2946,7 +2956,7 @@ export const s_2_1 = {
     {
       "question": "Gastric juice is green. What is the reason for this?",
       "options": [
-        "Presence of bile in gastric juice",
+        "*Presence of bile in gastric juice",
         "Presence of bilirubin in gastric juice",
         "The presence of glucose in gastric juice",
         "Presence of lactate in gastric juice"
@@ -2957,7 +2967,7 @@ export const s_2_1 = {
     {
       "question": "Complete absence of HCl and pepsin in gastric juice?",
       "options": [
-        "Achillea",
+        "*Achillea",
         "Achlorhydria",
         "Hypochlorhydria",
         "Hyperchlorhydria"
@@ -2968,7 +2978,7 @@ export const s_2_1 = {
     {
       "question": "The following drugs can be recommended when the synthesis of enzymes in the gastrointestinal tract is disturbed?",
       "options": [
-        "Pepsin, festal",
+        "*Pepsin, festal",
         "Pepsin, urokinase",
         "Pacreatin, streptokinase",
         "Fibrinolysin, panzinorm"
@@ -2981,7 +2991,7 @@ export const s_2_1 = {
     {
       "question": "Define the biochemical function of the liver?",
       "options": [
-        "All answers are correct",
+        "*All answers are correct",
         "Participation in carbohydrate metabolism",
         "Participation in the synthesis of urine",
         "Participation in the regulation of metabolism"
@@ -2992,7 +3002,7 @@ export const s_2_1 = {
     {
       "question": "In which organ is the transformation of provitamins into vitamins:",
       "options": [
-        "In the liver",
+        "*In the liver",
         "In the brain",
         "In skeletal muscles",
         "In the spleen"
@@ -3003,7 +3013,7 @@ export const s_2_1 = {
     {
       "question": "Liver damage is not accompanied by an increase in nitrogen balance in the blood due to the following indicators:",
       "options": [
-        "Uremia",
+        "*Uremia",
         "Hyperammonemia",
         "Hyperaminoacidemia",
         "Hyperbilirubinemia"
@@ -3014,7 +3024,7 @@ export const s_2_1 = {
     {
       "question": "Which enzyme activity is activated in hepatocytes under conditions of carbohydrate starvation?",
       "options": [
-        "Glyconen phosphorylase",
+        "*Glyconen phosphorylase",
         "Hexokinase",
         "Glycogen synthase",
         "Phosphofructomutase"
@@ -3025,7 +3035,7 @@ export const s_2_1 = {
     {
       "question": "Acetyl-CoA in the liver does not undergo which changes:",
       "options": [
-        "For the synthesis of amino acids",
+        "*For the synthesis of amino acids",
         "For the synthesis of fatty acids",
         "For cholesterol synthesis",
         "It is oxidized to CO2 and H2O"
@@ -3036,7 +3046,7 @@ export const s_2_1 = {
     {
       "question": "Which change of lipids does not occur in the liver:",
       "options": [
-        "Synthesis of linolenic acid",
+        "*Synthesis of linolenic acid",
         "Breakdown of complex lipids into simple components",
         "Synthesis of lipids, especially cholesterol",
         "Oxidation of fatty acids"
@@ -3047,7 +3057,7 @@ export const s_2_1 = {
     {
       "question": "Which lipid changes do not occur in the liver:",
       "options": [
-        "Oxidation of acetoacetate",
+        "*Oxidation of acetoacetate",
         "Phospholipid formation",
         "Formation of ketone bodies",
         "Formation of cholesterol"
@@ -3058,7 +3068,7 @@ export const s_2_1 = {
     {
       "question": "Gluconeogenesis enzymes are located in which of the following cells?",
       "options": [
-        "In hepatocytes",
+        "*In hepatocytes",
         "In enterocytes",
         "In cardiomyocytes",
         "In sarcomyocytes"
@@ -3069,7 +3079,7 @@ export const s_2_1 = {
     {
       "question": "Indicate the possible sources of glucose-6-phosphate formation in the liver:",
       "options": [
-        "All named sources",
+        "*All named sources",
         "Glucose",
         "Fructose",
         "Galactose"
@@ -3080,7 +3090,7 @@ export const s_2_1 = {
     {
       "question": "Glucose that passes through the blood from the intestine to the liver is not used for which functions:",
       "options": [
-        "It is used to neutralize ammonia",
+        "*It is used to neutralize ammonia",
         "Glycogen formation",
         "With the release of energy, it is oxidized to CO2 and H2O",
         "Converted to fat to store energy"
@@ -3091,7 +3101,7 @@ export const s_2_1 = {
     {
       "question": "K+ ion affects which of the following processes in the liver:",
       "options": [
-        "Gluconeogenesis",
+        "*Gluconeogenesis",
         "Glycogenolysis",
         "Synthesis of ketone bodies",
         "Ammonia neutralization"
@@ -3102,7 +3112,7 @@ export const s_2_1 = {
     {
       "question": "For the biosynthesis of cholesterol, higher fatty acids and nucleic acids in the liver, the need for such coenzymes is great:",
       "options": [
-        "NADFH",
+        "*NADFH",
         "TDF",
         "NAD+",
         "FMN"
@@ -3113,7 +3123,7 @@ export const s_2_1 = {
     {
       "question": "Gallstone disease is not caused by the following factors:",
       "options": [
-        "Lack of fat in the diet",
+        "*Lack of fat in the diet",
         "Cholesterol overload of bile",
         "Excess lithocholic acid in bile",
         "Dyskinesia of bile ducts"
@@ -3124,7 +3134,7 @@ export const s_2_1 = {
     {
       "question": "Fatty acids in the liver are used in every way, except for:",
       "options": [
-        "For the synthesis of amino acids",
+        "*For the synthesis of amino acids",
         "For fat synthesis",
         "For the synthesis of phospholipids",
         "To form cholesterol esters"
@@ -3135,7 +3145,7 @@ export const s_2_1 = {
     {
       "question": "Hypoprothrombinemia is associated with insufficient synthesis of which protein in the liver:",
       "options": [
-        "Prothrombin",
+        "*Prothrombin",
         "Proaxelrine",
         "Thromboplastin",
         "Proconvertin"
@@ -3146,7 +3156,7 @@ export const s_2_1 = {
     {
       "question": "Jaundice occurs when the concentration of bilirubin in the blood is as follows:",
       "options": [
-        "Above 32-35 ?mol/l",
+        "*Above 32-35 ?mol/l",
         "5-10 ?mol/l",
         "10-20 ?mol/l",
         "3-5 ?mol/l"
@@ -3157,7 +3167,7 @@ export const s_2_1 = {
     {
       "question": "Dysproteinemia develops in hepatitis, in which the ratio of which proteins changes:",
       "options": [
-        "Albumin-globulin",
+        "*Albumin-globulin",
         "Albumin-hemoglobin",
         "Fibrin-thrombin",
         "Glycoproteid-lipoproteid"
@@ -3168,7 +3178,7 @@ export const s_2_1 = {
     {
       "question": "The reason why the blood glucose level of a healthy person is kept within normal limits during 12-24 hours of fasting is mainly:",
       "options": [
-        "With the breakdown of liver glycogen into glucose",
+        "*With the breakdown of liver glycogen into glucose",
         "Through gluconeogenesis from amino acids",
         "Via gluconeogenesis from lactate",
         "With the breakdown of glycogen in the muscles to glucose"
@@ -3179,7 +3189,7 @@ export const s_2_1 = {
     {
       "question": "In conditions of iron deficiency anemia in the liver, the synthesis of metalloproteins is disturbed, which serves as a source of iron for heme synthesis. Name this metalloprotein:",
       "options": [
-        "Ferritin",
+        "*Ferritin",
         "Transferrin",
         "Hemosiderin",
         "Myoglobin"
@@ -3190,7 +3200,7 @@ export const s_2_1 = {
     {
       "question": "Pellagra is not observed under conditions of adequate nutrition with animal proteins, because vitamin PP (B5) is partially formed in the liver:",
       "options": [
-        "Tryptophan",
+        "*Tryptophan",
         "Carbohydrates",
         "Protein",
         "Fatty acids"
@@ -3201,7 +3211,7 @@ export const s_2_1 = {
     {
       "question": "In which form of jaundice, hyperbilirubinemia is not accompanied by bilirubinuria:",
       "options": [
-        "Hemolytic",
+        "*Hemolytic",
         "Parenchymal",
         "Mechanic",
         "A mix"
@@ -3212,7 +3222,7 @@ export const s_2_1 = {
     {
       "question": "An increase in the amount of indican in the urine of a patient with intestinal dysbacteriosis indicates the following:",
       "options": [
-        "Normal liver detoxification function",
+        "*Normal liver detoxification function",
         "Kidney disease",
         "Increased digestion of carbohydrates in the intestines",
         "Increased fat hydrolysis"
@@ -3223,7 +3233,7 @@ export const s_2_1 = {
     {
       "question": "The following substance is not formed from amino acids in the liver:",
       "options": [
-        "Fatty acids",
+        "*Fatty acids",
         "Protein",
         "Alpha-keto acids",
         "NH3, hem"
@@ -3234,7 +3244,7 @@ export const s_2_1 = {
     {
       "question": "The final product of the metabolism of nitrogenous substances in the liver:",
       "options": [
-        "Urea",
+        "*Urea",
         "Bile acids",
         "Purine bases",
         "Carnitine"
@@ -3245,7 +3255,7 @@ export const s_2_1 = {
     {
       "question": "The concentration of total bilirubin in the blood of a healthy person is as follows:",
       "options": [
-        "8-20 ?m / l",
+        "*8-20 ?m / l",
         "15-30 ?m / l",
         "2-20 mm / l",
         "1-10 mm / l"
@@ -3256,7 +3266,7 @@ export const s_2_1 = {
     {
       "question": "Substances that convert glucose-6-phosphate in the liver:",
       "options": [
-        "All the listed substances",
+        "*All the listed substances",
         "Glucose",
         "Pyruvate",
         "Glycogen"
@@ -3267,7 +3277,7 @@ export const s_2_1 = {
     {
       "question": "A low level of which metabolite in hepatocytes leads to inhibition of the Krebs cycle and increased ketogenesis?",
       "options": [
-        "Oxaloacetate",
+        "*Oxaloacetate",
         "ATP",
         "ADP",
         "Acetyl CoA"
@@ -3278,7 +3288,7 @@ export const s_2_1 = {
     {
       "question": "Newly synthesized fats in the liver carry which lipoproteins in the blood:",
       "options": [
-        "ZJPLP",
+        "*ZJPLP",
         "ZPLP",
         "ZYLP",
         "Chylomicrons"
@@ -3289,7 +3299,7 @@ export const s_2_1 = {
     {
       "question": "Uncharacteristic direction of changes in cholesterol in the liver:",
       "options": [
-        "Secretion into urine through blood and kidneys",
+        "*Secretion into urine through blood and kidneys",
         "Bile acid synthesis",
         "Adhesion of liver cells to membranes",
         "Secretion of bile into the intestine"
@@ -3300,7 +3310,7 @@ export const s_2_1 = {
     {
       "question": "The liver, as the main digestive gland, synthesizes and transfers to other tissues:",
       "options": [
-        "All named components",
+        "*All named components",
         "Protein",
         "Phospholipids",
         "Carbohydrates"
@@ -3313,7 +3323,7 @@ export const s_2_1 = {
     {
       "question": "Blood detoxification function depends on the following.",
       "options": [
-        "Neutralization of toxic substances using UDFGK",
+        "*Neutralization of toxic substances using UDFGK",
         "Transport of gases (CO2 and O2)",
         "Nutrient transport",
         "Heat exchange between tissues and blood"
@@ -3324,7 +3334,7 @@ export const s_2_1 = {
     {
       "question": "The greatest danger for the body in case of kidney failure:",
       "options": [
-        "Uremia",
+        "*Uremia",
         "Hypoglycemia",
         "Hypoproteinemia",
         "Acidosis"
@@ -3335,7 +3345,7 @@ export const s_2_1 = {
     {
       "question": "Substances that do not serve as a building or energy source in the body:",
       "options": [
-        "Xenobiotics",
+        "*Xenobiotics",
         "Metabolites",
         "Antimetabolites",
         "Intermediate products"
@@ -3346,7 +3356,7 @@ export const s_2_1 = {
     {
       "question": "Most of the steroid hormones are metabolized in the liver (stage I) by retraction. Their binding to what substance (phase II) causes them to lose their biological effects and be excreted through the kidneys?",
       "options": [
-        "Glucuronic acid",
+        "*Glucuronic acid",
         "Amino acids",
         "Glutathione",
         "Acetic acid"
@@ -3357,7 +3367,7 @@ export const s_2_1 = {
     {
       "question": "Biologically active amines serotonin and histamine are inactivated in the liver by the following reactions:",
       "options": [
-        "Decontamination",
+        "*Decontamination",
         "Oxidation",
         "Return",
         "Conjugation with glucuronic acid"
@@ -3368,7 +3378,7 @@ export const s_2_1 = {
     {
       "question": "Name the enzyme that is not involved in step 1 of detoxification of xenobiotics in the liver?",
       "options": [
-        "UDFGK-transferase",
+        "*UDFGK-transferase",
         "Cytochrome P-450-reductase",
         "Monooxygenase",
         "Hydroxylase"
@@ -3379,7 +3389,7 @@ export const s_2_1 = {
     {
       "question": "Select a peptide commonly used in xenobiotic conjugation:",
       "options": [
-        "Glutathione",
+        "*Glutathione",
         "Anserine",
         "Carnosine",
         "Brady's"
@@ -3390,7 +3400,7 @@ export const s_2_1 = {
     {
       "question": "Choose an enzyme that combines toxic substances with glucuronic acid:",
       "options": [
-        "UDP-glucuronyl transferase",
+        "*UDP-glucuronyl transferase",
         "Uridyltransferase",
         "UDP dehydrogenase",
         "Acetyltransferase"
@@ -3401,7 +3411,7 @@ export const s_2_1 = {
     {
       "question": "Name the vitamins involved in the detoxification of xenobiotics in the liver:",
       "options": [
-        "A, E, C",
+        "*A, E, C",
         "B group vitamins",
         "Vitamin D and K",
         "All vitamins are involved"
@@ -3412,7 +3422,7 @@ export const s_2_1 = {
     {
       "question": "Identify the substance that enhances the cytochrome P-450 enzyme by induction:",
       "options": [
-        "Luminal",
+        "*Luminal",
         "Acetone",
         "Hippuric acid",
         "Allopurinol"
@@ -3423,7 +3433,7 @@ export const s_2_1 = {
     {
       "question": "For microsomal oxidation, NADPH2 is mainly used as a donor of hydrogen atoms. What metabolic pathway is the main source of NADPH2?",
       "options": [
-        "Pentose phosphate pathway",
+        "*Pentose phosphate pathway",
         "Glycolysis",
         "Krebs cycle",
         "Gluconeogenesis"
@@ -3434,7 +3444,7 @@ export const s_2_1 = {
     {
       "question": "Nonspecific function of the liver:",
       "options": [
-        "Urination",
+        "*Urination",
         "Regulatory homeostatic",
         "Making grass",
         "Detoxification of toxic substances"
@@ -3445,7 +3455,7 @@ export const s_2_1 = {
     {
       "question": "Toxic substances, which of the following substances does not form conjugation:",
       "options": [
-        "Orotic acid",
+        "*Orotic acid",
         "Glucuronic acid",
         "FAFS",
         "Glutathione"
@@ -3456,7 +3466,7 @@ export const s_2_1 = {
     {
       "question": "The source of glucuronic acid involved in the conjugation process in the body:",
       "options": [
-        "Glucose",
+        "*Glucose",
         "Histamine",
         "Glutamine",
         "Adenine"
@@ -3467,7 +3477,7 @@ export const s_2_1 = {
     {
       "question": "Which of the following sentences is correct?",
       "options": [
-        "Hydrophilicity of conjugated substances increases",
+        "*Hydrophilicity of conjugated substances increases",
         "Oxygenases are involved in the conjugation process",
         "After microsomal oxidation, the background of free radicals increases",
         "S-adenosylmethionine is the main conjugate of conjugation"
@@ -3478,7 +3488,7 @@ export const s_2_1 = {
     {
       "question": "Neutralization of toxic substances in the endoplasmic reticulum occurs in two stages. Show step I:",
       "options": [
-        "Microsomal oxidation",
+        "*Microsomal oxidation",
         "Hydroxylation",
         "Phosphorylation",
         "Dehydrogenation"
@@ -3489,7 +3499,7 @@ export const s_2_1 = {
     {
       "question": "Detoxification occurs in all tissues and organs, but the leading place belongs to the following.",
       "options": [
-        "Liver",
+        "*Liver",
         "Kidney",
         "Blood",
         "Intestine"
@@ -3500,7 +3510,7 @@ export const s_2_1 = {
     {
       "question": "An intermediate product formed during the neutralization of aspirin:",
       "options": [
-        "Salicylates",
+        "*Salicylates",
         "Benzonate",
         "Naphtholamine",
         "Niacin"
@@ -3511,7 +3521,7 @@ export const s_2_1 = {
     {
       "question": "What product is nicotinamide converted into and excreted:",
       "options": [
-        "Methylnicotinamide",
+        "*Methylnicotinamide",
         "Acenicotinamide",
         "Niacin",
         "UDF-nicotinamide"
@@ -3522,7 +3532,7 @@ export const s_2_1 = {
     {
       "question": "Determine the specificity of androgen and estrogen inactivation in the liver:",
       "options": [
-        "Oxidized and released as ketosteroids",
+        "*Oxidized and released as ketosteroids",
         "It is oxidized under the action of aminooxidases",
         "After the first stage, epoxides are formed",
         "Extremely dangerous carcinogens are formed"
@@ -3533,7 +3543,7 @@ export const s_2_1 = {
     {
       "question": "Excess formation of ketone bodies in the liver, manifested by hyperketonemia, ketonuria, and the smell of acetone, is called ketosis. In what cases this does not happen:",
       "options": [
-        "Diabetes without sugar",
+        "*Diabetes without sugar",
         "Hunger",
         "Diabetes",
         "Excessive consumption of alcohol"
@@ -3544,7 +3554,7 @@ export const s_2_1 = {
     {
       "question": "The most important role in the detoxification of toxic substances in the liver belongs to the following processes:",
       "options": [
-        "Hydroxylation",
+        "*Hydroxylation",
         "Demethylation",
         "Reassurance",
         "Decontamination"
@@ -3555,7 +3565,7 @@ export const s_2_1 = {
     {
       "question": "Giving drugs in low doses in babies is related to which enzymes are not fully formed:",
       "options": [
-        "Everything is correct",
+        "*Everything is correct",
         "Glucuronyl transferase",
         "Accelerator",
         "Decelerating"
@@ -3566,7 +3576,7 @@ export const s_2_1 = {
     {
       "question": "Find a carcinogen that results from epoxidation in the liver:",
       "options": [
-        "Aflatoxin",
+        "*Aflatoxin",
         "Nitrosamine",
         "Gentesinic acid",
         "Salicylate"
@@ -3577,7 +3587,7 @@ export const s_2_1 = {
     {
       "question": "Name the coenzyme of alcohol dehydrogenase (1.1.1.1) enzyme involved in ethanol metabolism:",
       "options": [
-        "NAD",
+        "*NAD",
         "Pridoxal Phosphate",
         "Cobalamin",
         "TPF"
@@ -3588,7 +3598,7 @@ export const s_2_1 = {
     {
       "question": "Paraphenetidine has hepatotoxic properties, it can be formed from which drug:",
       "options": [
-        "Paracetamol",
+        "*Paracetamol",
         "Morphine",
         "Aspirin",
         "Phenobarbital"
@@ -3599,7 +3609,7 @@ export const s_2_1 = {
     {
       "question": "Which of the following can participate in the process of cleansing from free radicals:",
       "options": [
-        "Trace elements such as Zn and Cu",
+        "*Trace elements such as Zn and Cu",
         "Acetylating enzymes",
         "Glycolipids",
         "Conjugation with glycine"
@@ -3610,7 +3620,7 @@ export const s_2_1 = {
     {
       "question": "How many stages does the liver detoxify harmful substances?",
       "options": [
-        "2",
+        "*2",
         "3",
         "4",
         "5"
@@ -3621,7 +3631,7 @@ export const s_2_1 = {
     {
       "question": "What is the name of the second stage of detoxification of toxic substances in the liver?",
       "options": [
-        "Conjugation",
+        "*Conjugation",
         "Divergence",
         "Detoxification",
         "Reactive supply"
@@ -3632,7 +3642,7 @@ export const s_2_1 = {
     {
       "question": "In the liver, the conjugation stage goes by which substances are attached",
       "options": [
-        "Glucuronic or sulfuric acid",
+        "*Glucuronic or sulfuric acid",
         "Glucose, sucrose, maltose",
         "Antioxidant vitamins",
         "Microelements"
@@ -3645,7 +3655,7 @@ export const s_2_1 = {
     {
       "question": "Name the hormones released from the posterior lobe of the pituitary gland:",
       "options": [
-        "Vasopressin, oxytocin",
+        "*Vasopressin, oxytocin",
         "Somatotropic, gonadotropins",
         "Thyrotropin, oxytocin",
         "Somatotrope, vasopressin"
@@ -3656,7 +3666,7 @@ export const s_2_1 = {
     {
       "question": "Hypothyroidism occurs when the activity of the gland is disturbed.",
       "options": [
-        "Thyroid gland",
+        "*Thyroid gland",
         "Pituitary gland",
         "Pineal gland",
         "Adrenal gland"
@@ -3667,7 +3677,7 @@ export const s_2_1 = {
     {
       "question": "Acromegaly disease is caused by lack of which hormone",
       "options": [
-        "Somatotropic",
+        "*Somatotropic",
         "Intermidine",
         "Vasopressin",
         "Oxytocin"
@@ -3678,7 +3688,7 @@ export const s_2_1 = {
     {
       "question": "Precocious puberty occurs when the amount of the following hormones increases?",
       "options": [
-        "Follicle stimulating hormone, luteinizing hormone",
+        "*Follicle stimulating hormone, luteinizing hormone",
         "Luteinizing hormone, vasopressin",
         "Adenocorticotropic hormone, follicle-stimulating hormone",
         "Adenocorticotropic hormone, luteinizing hormone"
@@ -3689,7 +3699,7 @@ export const s_2_1 = {
     {
       "question": "What is the role of thymus hormones in the body?",
       "options": [
-        "Activates the immune system",
+        "*Activates the immune system",
         "It takes part in the process of separating urine from the kidneys",
         "Strengthens the heart",
         "Controls protein biosynthesis"
@@ -3700,7 +3710,7 @@ export const s_2_1 = {
     {
       "question": "What role does the calcitonin hormone play in the body?",
       "options": [
-        "It reduces the amount of calcium in the blood",
+        "*It reduces the amount of calcium in the blood",
         "Reduces blood sugar",
         "Increases the amount of calcium in the blood",
         "Increases the activity of immunoglobulins"
@@ -3711,7 +3721,7 @@ export const s_2_1 = {
     {
       "question": "Identify the hormones involved in the control of carbohydrate metabolism in the body.",
       "options": [
-        "Insulin, glucagon",
+        "*Insulin, glucagon",
         "Glucagon, tyrosine",
         "Gonadotropin, somatotropin",
         "Thymus hormones"
@@ -3722,7 +3732,7 @@ export const s_2_1 = {
     {
       "question": "Mixed - show endo and exocrine glands",
       "options": [
-        "Pancreas, gonads",
+        "*Pancreas, gonads",
         "Sex, liver",
         "Pancreatic, adrenal",
         "Shield back, thyroid"
@@ -3733,7 +3743,7 @@ export const s_2_1 = {
     {
       "question": "Which disease is characterized by excessive sweating, nervousness, insomnia, increased heart rate, and weight loss?",
       "options": [
-        "Thyrotoxicosis",
+        "*Thyrotoxicosis",
         "Diabetes",
         "Tetany",
         "Hypothyroidism"
@@ -3744,7 +3754,7 @@ export const s_2_1 = {
     {
       "question": "What are the products produced by endocrine glands called?",
       "options": [
-        "Hormones",
+        "*Hormones",
         "Enzymes",
         "Antibodies",
         "Antigens"
@@ -3755,7 +3765,7 @@ export const s_2_1 = {
     {
       "question": "What gland's excessive hormone production leads to gigantism?",
       "options": [
-        "Hypophysis",
+        "*Hypophysis",
         "Epiphysis",
         "Pancreas",
         "Adrenal"
@@ -3766,7 +3776,7 @@ export const s_2_1 = {
     {
       "question": "Identify the endocrine gland whose activity increases until the child reaches puberty and stops completely before puberty?",
       "options": [
-        "thymus",
+        "*thymus",
         "Epiphysis",
         "Thyroid",
         "Adrenal"
@@ -3777,7 +3787,7 @@ export const s_2_1 = {
     {
       "question": "The system involved in the transfer of hormone signal into the cell.",
       "options": [
-        "Secondary messengers",
+        "*Secondary messengers",
         "Glycoproteins",
         "Primary messengers",
         "Motoneurons"
@@ -3788,7 +3798,7 @@ export const s_2_1 = {
     {
       "question": "Identify the hormones of the pancreas",
       "options": [
-        "Everything",
+        "*Everything",
         "Insulin",
         "Pancreatin",
         "Glucagon"
@@ -3799,7 +3809,7 @@ export const s_2_1 = {
     {
       "question": "Show the harmonic discovered by Senger in 1948-1953.",
       "options": [
-        "Insulin",
+        "*Insulin",
         "Glucagon",
         "Pancreatin",
         "Tyrosine"
@@ -3810,7 +3820,7 @@ export const s_2_1 = {
     {
       "question": "Insulin is formed by combining several amino acids.",
       "options": [
-        "51",
+        "*51",
         "50",
         "52",
         "58"
@@ -3821,7 +3831,7 @@ export const s_2_1 = {
     {
       "question": "How many amino acids are there in the insulin A chain?",
       "options": [
-        "21",
+        "*21",
         "51",
         "24",
         "30"
@@ -3832,7 +3842,7 @@ export const s_2_1 = {
     {
       "question": "How many amino acids are the B chain of insulin?",
       "options": [
-        "30",
+        "*30",
         "51",
         "22",
         "24"
@@ -3843,7 +3853,7 @@ export const s_2_1 = {
     {
       "question": "According to its chemical structure, secretin is a polypeptide composed of several residues.",
       "options": [
-        "27",
+        "*27",
         "28",
         "30",
         "32"
@@ -3854,7 +3864,7 @@ export const s_2_1 = {
     {
       "question": "Glucagon hormone is produced by which cells of the islet of Langerhans.",
       "options": [
-        "a devices",
+        "*a devices",
         "b cells",
         "both emit",
         "this hormone is not released from the islets of Langerhans"
@@ -3865,7 +3875,7 @@ export const s_2_1 = {
     {
       "question": "Adrenaline and noradrenaline hormones are released from which secretory gland?",
       "options": [
-        "Adrenal",
+        "*Adrenal",
         "Hypophysis",
         "Epiphysis",
         "The stomach"
@@ -3876,7 +3886,7 @@ export const s_2_1 = {
     {
       "question": "Distinguish the hormones of the brain layer of the adrenal gland",
       "options": [
-        "Adrenaline and noradrenaline",
+        "*Adrenaline and noradrenaline",
         "Glucagon, adrenaline",
         "Insulin",
         "Noradrenaline, mineralocorticoid"
@@ -3887,7 +3897,7 @@ export const s_2_1 = {
     {
       "question": "Which hormone is released from the cortical layer of the adrenal gland?",
       "options": [
-        "Mineralocorticoid hormone",
+        "*Mineralocorticoid hormone",
         "Vasopressin",
         "Insulin",
         "Glucagon"
@@ -3898,7 +3908,7 @@ export const s_2_1 = {
     {
       "question": "What kind of hormone is prolactin according to its chemical structure:",
       "options": [
-        "Normal protein nature",
+        "*Normal protein nature",
         "Complex protein",
         "Peptide",
         "Steroidal in nature"
@@ -3909,7 +3919,7 @@ export const s_2_1 = {
     {
       "question": "Define a hormone with a cytosolic mechanism of action:",
       "options": [
-        "Estrogen",
+        "*Estrogen",
         "Glucagon",
         "Adrenaline",
         "Insulin"
@@ -3920,7 +3930,7 @@ export const s_2_1 = {
     {
       "question": "Pituitary regulates the secretion of hormones:",
       "options": [
-        "Releasing factors",
+        "*Releasing factors",
         "Statins",
         "Catecholamine",
         "Samotostatin"
@@ -3931,7 +3941,7 @@ export const s_2_1 = {
     {
       "question": "Inhibitors of pituitary hormones:",
       "options": [
-        "Statins",
+        "*Statins",
         "Liberines",
         "Releasing factors",
         "Neurohormones"
@@ -3942,7 +3952,7 @@ export const s_2_1 = {
     {
       "question": "What amino acid is placed in oxytocin instead of phenylalanine at position 3 of the N end of vasopressin",
       "options": [
-        "Isolation",
+        "*Isolation",
         "Proline",
         "Cysteine",
         "Methionine"
@@ -3953,7 +3963,7 @@ export const s_2_1 = {
     {
       "question": "Define a hormone with a cytosolic mechanism of action:",
       "options": [
-        "No one",
+        "*No one",
         "Prolactin",
         "Oxytocin",
         "Catecholamine"
@@ -3964,7 +3974,7 @@ export const s_2_1 = {
     {
       "question": "Find the hormone that acts through the membrane:",
       "options": [
-        "Adrenaline",
+        "*Adrenaline",
         "No one",
         "Estrogen",
         "Testosterone"
@@ -3977,7 +3987,7 @@ export const s_2_1 = {
     {
       "question": "The chemical structure of female and male sex hormones...",
       "options": [
-        "steroids",
+        "*steroids",
         "protein",
         "carbohydrate",
         "protein+carbohydrate"
@@ -3988,7 +3998,7 @@ export const s_2_1 = {
     {
       "question": "Which of the following substances are organic substances that, after being formed in special cells, enter the blood and have a regulatory (controlling) effect on metabolism and physiological functions",
       "options": [
-        "Harmon",
+        "*Harmon",
         "enzyme",
         "vitamin",
         "lipid"
@@ -3999,7 +4009,7 @@ export const s_2_1 = {
     {
       "question": "Which of the following hormones is not considered to be of protein nature",
       "options": [
-        "Sex hormones",
+        "*Sex hormones",
         "Insulin",
         "Glucagon",
         "Prolactin"
@@ -4010,7 +4020,7 @@ export const s_2_1 = {
     {
       "question": "Show the hormone that plays an important role in water and salt exchange in the body.",
       "options": [
-        "Vasopressin",
+        "*Vasopressin",
         "Somatotropin",
         "Intermidine",
         "Oxytocin"
@@ -4021,7 +4031,7 @@ export const s_2_1 = {
     {
       "question": "When the concentration of calcium in the body decreases, the synthesis of which hormone increases",
       "options": [
-        "Paratharmonic",
+        "*Paratharmonic",
         "glucagon",
         "tyrosine",
         "insulin"
@@ -4032,7 +4042,7 @@ export const s_2_1 = {
     {
       "question": "Itsenko-Cushi’s syndrome occurs when the amount of which hormone increases?",
       "options": [
-        "Adrenocorticotropic",
+        "*Adrenocorticotropic",
         "Somatotrope",
         "Gonadotrope",
         "Thyrotrope"
@@ -4043,7 +4053,7 @@ export const s_2_1 = {
     {
       "question": "Find the hormone involved in water-salt exchange:",
       "options": [
-        "Aldosterone",
+        "*Aldosterone",
         "Insulin",
         "Glucocorticosteroid",
         "Catecholamine"
@@ -4054,7 +4064,7 @@ export const s_2_1 = {
     {
       "question": "Show the endocrine gland in the body.",
       "options": [
-        "Hypophysis",
+        "*Hypophysis",
         "Adrenal",
         "pineal gland",
         "salivary gland"
@@ -4065,7 +4075,7 @@ export const s_2_1 = {
     {
       "question": "Which substance below narrows blood vessels and increases blood pressure.",
       "options": [
-        "Catecholamine",
+        "*Catecholamine",
         "Somatotropic",
         "Vasopressin",
         "Progesterin"
@@ -4076,7 +4086,7 @@ export const s_2_1 = {
     {
       "question": "Which hormone increases the amount of glucose in the blood by increasing the breakdown of glycogen in the liver?",
       "options": [
-        "Glucagon",
+        "*Glucagon",
         "Tyrosine",
         "Insulin",
         "Proinsulin"
@@ -4087,7 +4097,7 @@ export const s_2_1 = {
     {
       "question": "When the hormones of the gland increase, the state of virilism occurs and women develop a mustache.",
       "options": [
-        "Adrenal",
+        "*Adrenal",
         "Hypophysis",
         "Epiphysis",
         "Sebaceous gland"
@@ -4098,7 +4108,7 @@ export const s_2_1 = {
     {
       "question": "What disease develops in the body if the posterior part of the pituitary gland atrophies.",
       "options": [
-        "Diabetes without sugar",
+        "*Diabetes without sugar",
         "Diabetes",
         "Phenylketanuria",
         "Itsenko-Cushing syndrome"
@@ -4109,7 +4119,7 @@ export const s_2_1 = {
     {
       "question": "Parathyroid hormone consists of several amino acid residues",
       "options": [
-        "87",
+        "*87",
         "28",
         "30",
         "32"
@@ -4120,7 +4130,7 @@ export const s_2_1 = {
     {
       "question": "Distinguish the hormones of the corpus luteum",
       "options": [
-        "Progestins",
+        "*Progestins",
         "Androgens",
         "Estrogens",
         "Thymus hormones"
@@ -4131,7 +4141,7 @@ export const s_2_1 = {
     {
       "question": "Which hormone is formed during maturation of the follicle and is important for the adhesion of the egg to the wall of the uterus.",
       "options": [
-        "Progestins",
+        "*Progestins",
         "Androgens",
         "Estrogens",
         "Thymus hormones"
@@ -4142,7 +4152,7 @@ export const s_2_1 = {
     {
       "question": "What were the first estrogens isolated from?",
       "options": [
-        "From urine",
+        "*From urine",
         "From the ovary",
         "From follicular cells",
         "From Urugdon"
@@ -4153,7 +4163,7 @@ export const s_2_1 = {
     {
       "question": "The function of the cortex of the adrenal gland is controlled by which hormone is released from the anterior lobe of the pituitary gland.",
       "options": [
-        "Adrenocorticotropic",
+        "*Adrenocorticotropic",
         "Somatotrope",
         "Vasopressin",
         "Progesterone"
@@ -4164,7 +4174,7 @@ export const s_2_1 = {
     {
       "question": "Find the hormone that reduces the mobilization of calcium:",
       "options": [
-        "Calcitonin",
+        "*Calcitonin",
         "Parathyroid hormone",
         "Calcitriol",
         "Mineralocorticoid"
@@ -4175,7 +4185,7 @@ export const s_2_1 = {
     {
       "question": "Thyroid hormones are made from which amino acid:",
       "options": [
-        "Tyrosine",
+        "*Tyrosine",
         "Phenylalanine",
         "Tryptophan",
         "Proline"
@@ -4186,7 +4196,7 @@ export const s_2_1 = {
     {
       "question": "Find the predecessor of all sex hormones:",
       "options": [
-        "Cholesterol",
+        "*Cholesterol",
         "Triglycerides",
         "Riboflavin",
         "Nicotinamide"
@@ -4197,7 +4207,7 @@ export const s_2_1 = {
     {
       "question": "Identify the gonadotropin hormone of the pituitary gland:",
       "options": [
-        "Follicle stimulant",
+        "*Follicle stimulant",
         "Vasopressin",
         "Oxytocin",
         "Somatostatin"
@@ -4208,7 +4218,7 @@ export const s_2_1 = {
     {
       "question": "Iodine deficiency disease:",
       "options": [
-        "Endemic smallpox",
+        "*Endemic smallpox",
         "Rickets",
         "Hyperthyroidism",
         "Threotoxicosis"
@@ -4219,7 +4229,7 @@ export const s_2_1 = {
     {
       "question": "Define the disease associated with Ca2+: metabolism disorders:",
       "options": [
-        "Tetany",
+        "*Tetany",
         "Dwarfism",
         "Bronze disease",
         "Diabetes without sugar"
@@ -4230,7 +4240,7 @@ export const s_2_1 = {
     {
       "question": "Steroid diabetes is observed in which of the following diseases:",
       "options": [
-        "No one",
+        "*No one",
         "Bronze disease",
         "Gierke's disease",
         "Anderson's disease"
@@ -4241,7 +4251,7 @@ export const s_2_1 = {
     {
       "question": "Show the neuropeptide group",
       "options": [
-        "Releasing factors",
+        "*Releasing factors",
         "Quinine",
         "Kallikren",
         "Eicanazoids"
@@ -4252,7 +4262,7 @@ export const s_2_1 = {
     {
       "question": "Women are included in the sexual harmony:",
       "options": [
-        "Estradiol",
+        "*Estradiol",
         "Prostaglandins",
         "Aldosterone",
         "Eicanazoids"
@@ -4263,7 +4273,7 @@ export const s_2_1 = {
     {
       "question": "The place where noradrenaline is synthesized in the body:",
       "options": [
-        "The brain layer of the adrenal gland",
+        "*The brain layer of the adrenal gland",
         "He got a shield",
         "Cortical layer of the adrenal gland",
         "Thyroid gland"
@@ -4274,7 +4284,7 @@ export const s_2_1 = {
     {
       "question": "Calcitonin hormone is formed:",
       "options": [
-        "In the thyroid gland",
+        "*In the thyroid gland",
         "In the pancreas",
         "In the adrenal gland",
         "In the pineal gland"
@@ -4285,7 +4295,7 @@ export const s_2_1 = {
     {
       "question": "A disease that develops in adults with thyroxine deficiency:",
       "options": [
-        "Myxidema",
+        "*Myxidema",
         "Cretinism",
         "Bronze disease",
         "Pheochromocytoma"
@@ -4296,7 +4306,7 @@ export const s_2_1 = {
     {
       "question": "Biological effects of estrogen:",
       "options": [
-        "Increases the synthesis of angiotensinogen",
+        "*Increases the synthesis of angiotensinogen",
         "Increases the synthesis of lipoproteins",
         "It stimulates the activity of the adrenal gland",
         "Increases skin oiliness"
@@ -4309,7 +4319,7 @@ export const s_2_1 = {
     {
       "question": "Pathology occurs when the amount of urine is less than what?",
       "options": [
-        "500 ml",
+        "*500 ml",
         "1000 ml",
         "1200 ml",
         "1600 ml"
@@ -4320,7 +4330,7 @@ export const s_2_1 = {
     {
       "question": "Increased urine volume?",
       "options": [
-        "Polyuria",
+        "*Polyuria",
         "Oliguria",
         "Anuria",
         "Nocturia"
@@ -4331,7 +4341,7 @@ export const s_2_1 = {
     {
       "question": "What is oliguria?",
       "options": [
-        "Decreased daily urine output",
+        "*Decreased daily urine output",
         "Increased daily urine output",
         "There is no urinary excretion",
         "Evening urine is more than daytime urine"
@@ -4342,7 +4352,7 @@ export const s_2_1 = {
     {
       "question": "What kind of disease is anuria?",
       "options": [
-        "Complete cessation of urination",
+        "*Complete cessation of urination",
         "Profuse urination in the evening",
         "Decreased daily urine output",
         "Change in the color of urine"
@@ -4353,7 +4363,7 @@ export const s_2_1 = {
     {
       "question": "What is it called when you urinate more at night than during the day?",
       "options": [
-        "Nocturia",
+        "*Nocturia",
         "Anuria",
         "Oliguria",
         "Polyuria"
@@ -4364,7 +4374,7 @@ export const s_2_1 = {
     {
       "question": "Find the pigment that determines the color of urine?",
       "options": [
-        "Urobilin",
+        "*Urobilin",
         "Cholesterol",
         "Hemoglobin",
         "Myoglobin"
@@ -4375,7 +4385,7 @@ export const s_2_1 = {
     {
       "question": "What color is urine when the concentration of bilirubin is high?",
       "options": [
-        "Brown or reddish brown",
+        "*Brown or reddish brown",
         "Red",
         "Green color",
         "Light yellow color"
@@ -4386,7 +4396,7 @@ export const s_2_1 = {
     {
       "question": "What color does urine become when the process of protein decay in the intestine increases?",
       "options": [
-        "Green",
+        "*Green",
         "Red",
         "Brown",
         "Dark gold"
@@ -4397,7 +4407,7 @@ export const s_2_1 = {
     {
       "question": "Which substances make up the largest part of organic substances in urine?",
       "options": [
-        "Diuretic",
+        "*Diuretic",
         "Creatinine",
         "Creatine",
         "Amino acids"
@@ -4408,7 +4418,7 @@ export const s_2_1 = {
     {
       "question": "What is the cause of phenylketonuria?",
       "options": [
-        "Deficiency of the enzyme phenylalanine hydroxylase",
+        "*Deficiency of the enzyme phenylalanine hydroxylase",
         "Lack of phenylalanine in the body",
         "An increase in the amount of phenylalanine in the body",
         "A large amount of tyrosine synthesis from phenylalanine"
@@ -4419,7 +4429,7 @@ export const s_2_1 = {
     {
       "question": "Which substance can detect phenylalanine in urine?",
       "options": [
-        "FeCl2",
+        "*FeCl2",
         "NH4NO3",
         "(NH4)2SO4",
         "FeSO4"
@@ -4430,7 +4440,7 @@ export const s_2_1 = {
     {
       "question": "In which disease does the sudden darkening of the urine remaining in the air occur?",
       "options": [
-        "Alcoptonuria",
+        "*Alcoptonuria",
         "Phenylketonuria",
         "Hyperthyroidism",
         "In aminoacidurias"
@@ -4441,7 +4451,7 @@ export const s_2_1 = {
     {
       "question": "What substance is responsible for the sharp darkening of urine remaining in the air?",
       "options": [
-        "Homogentisin acid",
+        "*Homogentisin acid",
         "Phenylalanine",
         "Tyrosine",
         "Hippuric acid"
@@ -4452,7 +4462,7 @@ export const s_2_1 = {
     {
       "question": "What is the cause of alkoptonuria?",
       "options": [
-        "Failure of homogentisin oxidase enzyme",
+        "*Failure of homogentisin oxidase enzyme",
         "Failure of the enzyme phenylpyruvate hydoxylase",
         "Dysfunction of tyrosinase enzyme",
         "Failure of prolinoxidase enzyme"
@@ -4463,7 +4473,7 @@ export const s_2_1 = {
     {
       "question": "Show the last product of purine metabolism?",
       "options": [
-        "Uric acid",
+        "*Uric acid",
         "Diuretic",
         "Creatinine",
         "Hippuric acid"
@@ -4474,7 +4484,7 @@ export const s_2_1 = {
     {
       "question": "When does the excretion of ammonia with urine increase?",
       "options": [
-        "In acidosis",
+        "*In acidosis",
         "In alkalosis",
         "In proteinuria",
         "When glutamine metabolism is disturbed"
@@ -4485,7 +4495,7 @@ export const s_2_1 = {
     {
       "question": "Which of the following substances is not found in normal urine?",
       "options": [
-        "Acetone bodies",
+        "*Acetone bodies",
         "Diuretic",
         "Uric acid",
         "Ammonium salts"
@@ -4496,7 +4506,7 @@ export const s_2_1 = {
     {
       "question": "Which of the following cannot be determined in normal urine?",
       "options": [
-        "Glucose",
+        "*Glucose",
         "Diuretic",
         "Uric acid",
         "Ammonium salts"
@@ -4507,7 +4517,7 @@ export const s_2_1 = {
     {
       "question": "What is the release of protein in the urine?",
       "options": [
-        "Protienuria",
+        "*Protienuria",
         "Aminoaciduria",
         "Acidosis",
         "Alkalosis"
@@ -4518,7 +4528,7 @@ export const s_2_1 = {
     {
       "question": "Hematuria is ?",
       "options": [
-        "Excretion of red blood cells in the urine",
+        "*Excretion of red blood cells in the urine",
         "Excretion of protein in the urine",
         "Excretion of glucose in the urine",
         "Excretion of amino acids in urine"
@@ -4529,7 +4539,7 @@ export const s_2_1 = {
     {
       "question": "What is ketonuria?",
       "options": [
-        "Excretion of ketone bodies in urine",
+        "*Excretion of ketone bodies in urine",
         "Reduction of ketone bodies in the urine",
         "Disorder of ketone metabolism in the body",
         "Excessive excretion of ?-oxymoic acid in urine"
@@ -4540,7 +4550,7 @@ export const s_2_1 = {
     {
       "question": "When is bilirubinuria observed?",
       "options": [
-        "When grass roads are paved",
+        "*When grass roads are paved",
         "In viral diseases of the liver",
         "When the breakdown of bilirubin is impaired",
         "When the formation of bilirubin is disturbed"
@@ -4551,7 +4561,7 @@ export const s_2_1 = {
     {
       "question": "Name the substance that is not in urine in normal condition?",
       "options": [
-        "Acetone",
+        "*Acetone",
         "Ammonia",
         "Mochivena",
         "Uric acid"
@@ -4562,7 +4572,7 @@ export const s_2_1 = {
     {
       "question": "Name a substance that is not excreted in normal urine?",
       "options": [
-        "Bilirubin",
+        "*Bilirubin",
         "Ammonia",
         "Mochivena",
         "Uric acid"
@@ -4573,7 +4583,7 @@ export const s_2_1 = {
     {
       "question": "Name a substance that is not excreted in normal urine?",
       "options": [
-        "Acetoacetic acid",
+        "*Acetoacetic acid",
         "Ammonia",
         "Mochivena",
         "Uric acid"
@@ -4584,7 +4594,7 @@ export const s_2_1 = {
     {
       "question": "Pathological components of urine include?",
       "options": [
-        "Glucose",
+        "*Glucose",
         "Creatinine",
         "Uric acid",
         "Urea"
@@ -4595,7 +4605,7 @@ export const s_2_1 = {
     {
       "question": "Which hormone accelerates water reabsorption?",
       "options": [
-        "Vasopressin",
+        "*Vasopressin",
         "Adrenaline",
         "Insulin",
         "Thyroxine"
@@ -4606,7 +4616,7 @@ export const s_2_1 = {
     {
       "question": "The density of urine usually consists of?",
       "options": [
-        "1.01-1.04 g/ml",
+        "*1.01-1.04 g/ml",
         "0.3-0.5 g/ml",
         "0.6-0.8 g/ml",
         "1.1-1.2 g/ml"
@@ -4617,7 +4627,7 @@ export const s_2_1 = {
     {
       "question": "During a normal diet, urea is excreted in the urine per day?",
       "options": [
-        "25-35 g",
+        "*25-35 g",
         "5-10 g",
         "80-90 g",
         "110-130 g"
@@ -4628,7 +4638,7 @@ export const s_2_1 = {
     {
       "question": "Structural-functional unit of kidneys?",
       "options": [
-        "Nephron",
+        "*Nephron",
         "Acinus",
         "Neuron",
         "Sarcomere"
@@ -4641,7 +4651,7 @@ export const s_2_1 = {
     {
       "question": "The main metabolic fuel for brain cells?",
       "options": [
-        "Glucose",
+        "*Glucose",
         "Fatty acid",
         "Amino acids",
         "Fructose"
@@ -4652,7 +4662,7 @@ export const s_2_1 = {
     {
       "question": "What is the membrane surrounding the nerve fibers called?",
       "options": [
-        "Myelin",
+        "*Myelin",
         "Synapse",
         "Tubulin",
         "Axoplasm"
@@ -4663,7 +4673,7 @@ export const s_2_1 = {
     {
       "question": "Define mediators?",
       "options": [
-        "Acetylcholine, noradrenaline",
+        "*Acetylcholine, noradrenaline",
         "All hormones",
         "Alkaloids",
         "Acetylcholinesterase"
@@ -4674,7 +4684,7 @@ export const s_2_1 = {
     {
       "question": "Cellular elements of nervous tissue?",
       "options": [
-        "Neurons, glial cells",
+        "*Neurons, glial cells",
         "Synapse",
         "A neurotransmitter",
         "Low synaptic membrane"
@@ -4685,7 +4695,7 @@ export const s_2_1 = {
     {
       "question": "What substances are included in neurotransmitters?",
       "options": [
-        "Serotonin",
+        "*Serotonin",
         "Phosphocholine",
         "Histidine",
         "Alanine"
@@ -4696,7 +4706,7 @@ export const s_2_1 = {
     {
       "question": "Characteristics of carbohydrate metabolism in nervous tissue?",
       "options": [
-        "Mainly aerobic glucose metabolism",
+        "*Mainly aerobic glucose metabolism",
         "Mainly anaerobic glucose metabolism",
         "Glucose utilization depends on insulin levels",
         "High concentration of glycogen"
@@ -4707,7 +4717,7 @@ export const s_2_1 = {
     {
       "question": "Characteristics of energy exchange in nervous tissue?",
       "options": [
-        "High intensity of energy exchange",
+        "*High intensity of energy exchange",
         "Low intensity of energy exchange, high activity of the Krebs cycle",
         "The main mechanism of ATP synthesis is substrate phosphorylation",
         "Proteins provide the main energy metabolism"
@@ -4718,7 +4728,7 @@ export const s_2_1 = {
     {
       "question": "Dopamine is made from which of the following substances?",
       "options": [
-        "Tyrosine",
+        "*Tyrosine",
         "Adrenaline",
         "Kholin",
         "Tryptophan"
@@ -4729,7 +4739,7 @@ export const s_2_1 = {
     {
       "question": "Define the main energy consumer in the brain?",
       "options": [
-        "No, K-ATPase",
+        "*No, K-ATPase",
         "Transmission of impulses",
         "Excitement process",
         "Braking processes"
@@ -4740,7 +4750,7 @@ export const s_2_1 = {
     {
       "question": "How much glucose is oxidized in the brain during the day?",
       "options": [
-        "100-120g",
+        "*100-120g",
         "100-120 mg",
         "600-650g",
         "Around 1-2g"
@@ -4751,7 +4761,7 @@ export const s_2_1 = {
     {
       "question": "Which amino acids make up the majority of brain free amino acids?",
       "options": [
-        "Aspartate, glutamate and their derivatives",
+        "*Aspartate, glutamate and their derivatives",
         "Proline and oxyproline",
         "Phenylalanine and tyrosine",
         "Lysine, arginine and derivatives"
@@ -4762,7 +4772,7 @@ export const s_2_1 = {
     {
       "question": "How is the brain's need for energy met?",
       "options": [
-        "Aerobic decomposition of glucose",
+        "*Aerobic decomposition of glucose",
         "Anaerobic breakdown of glucose",
         "Krebs cycle",
         "Catabolism of amino acids"
@@ -4773,7 +4783,7 @@ export const s_2_1 = {
     {
       "question": "What is the function of dopamine?",
       "options": [
-        "Mediator",
+        "*Mediator",
         "It transfers the nerve impulse to the working organ",
         "Increases the concentration of Ca2+ ions",
         "Participates in the synthesis of choline"
@@ -4784,7 +4794,7 @@ export const s_2_1 = {
     {
       "question": "Find a strong pain reliever?",
       "options": [
-        "Morphine",
+        "*Morphine",
         "Haloperidol",
         "Our name",
         "Dopamine"
@@ -4795,7 +4805,7 @@ export const s_2_1 = {
     {
       "question": "The myelin sheath consists of?",
       "options": [
-        "70% lipid, 30% protein",
+        "*70% lipid, 30% protein",
         "70% protein, 30% lipid",
         "80% lipid, 20% protein",
         "80% protein, 20% lipid"
@@ -4806,7 +4816,7 @@ export const s_2_1 = {
     {
       "question": "65% of all lipids in the brain are in.?",
       "options": [
-        "Myelin sheath",
+        "*Myelin sheath",
         "In glial cells",
         "In the cerebral hemispheres",
         "Targil is in the article"
@@ -4817,7 +4827,7 @@ export const s_2_1 = {
     {
       "question": "It belongs to neurospecific proteins?",
       "options": [
-        "protein S-100",
+        "*protein S-100",
         "histones",
         "neuroalbumins;",
         "neuroglobulins;"
@@ -4828,7 +4838,7 @@ export const s_2_1 = {
     {
       "question": "Adrenaline is synthesized from which amino acid?",
       "options": [
-        "Phenylalanine",
+        "*Phenylalanine",
         "glutamate;",
         "lysine;",
         "methionine;"
@@ -4839,7 +4849,7 @@ export const s_2_1 = {
     {
       "question": "During starvation, nerve cells can use as an additional energy substrate for oxidation?",
       "options": [
-        "ketone bodies",
+        "*ketone bodies",
         "glycogen",
         "glutathione;",
         "lecithin;"
@@ -4850,7 +4860,7 @@ export const s_2_1 = {
     {
       "question": "S-100 protein is used as a marker?",
       "options": [
-        "melanomas",
+        "*melanomas",
         "myocardial infarction",
         "ischemic brain damage",
         "liver damage"
@@ -4861,7 +4871,7 @@ export const s_2_1 = {
     {
       "question": "It is \"raw material\" for the synthesis of acetylcholine?",
       "options": [
-        "glucose and choline",
+        "*glucose and choline",
         "UDP and oleic acid",
         "creatine and GAMK",
         "ribose and AMP"
@@ -4872,7 +4882,7 @@ export const s_2_1 = {
     {
       "question": "Which of the following substances does not belong to neurotransmitters?",
       "options": [
-        "carnitine and gastrichin",
+        "*carnitine and gastrichin",
         "adrenaline and noradrenaline",
         "acetylcholine and GAMK",
         "serotonin and glycine"
@@ -4883,7 +4893,7 @@ export const s_2_1 = {
     {
       "question": "What is the most important reason why the composition of nervous tissue is so different from other tissues of the body?",
       "options": [
-        "strong blood flow is determined by the presence of the blood-brain barrier",
+        "*strong blood flow is determined by the presence of the blood-brain barrier",
         "metabolic processes are slow",
         "does not undergo changes during life",
         "noone"
@@ -4894,7 +4904,7 @@ export const s_2_1 = {
     {
       "question": "Noradrenaline is the predecessor of which amino acid?",
       "options": [
-        "Phenylalanine",
+        "*Phenylalanine",
         "glutamate;",
         "lysine;",
         "methionine;"
@@ -4905,7 +4915,7 @@ export const s_2_1 = {
     {
       "question": "Serotonin is the predecessor of which amino acid?",
       "options": [
-        "tryptophan;",
+        "*tryptophan;",
         "glutamate;",
         "lysine;",
         "methionine;"
@@ -4916,7 +4926,7 @@ export const s_2_1 = {
     {
       "question": "Which of the listed diseases is not associated with a disturbance in the metabolism of neurotransmitters?",
       "options": [
-        "Addison's disease;",
+        "*Addison's disease;",
         "Alzheimer's disease;",
         "Parkinson's disease;",
         "depression;"
@@ -4927,7 +4937,7 @@ export const s_2_1 = {
     {
       "question": "Show one of the most characteristic signs of the structure of nervous tissue?",
       "options": [
-        "high lipid content",
+        "*high lipid content",
         "large amounts of albumin",
         "a large number of mineral components;",
         "high content of nucleic acids;"
@@ -4938,7 +4948,7 @@ export const s_2_1 = {
     {
       "question": "It is an inhibitory neurotransmitter in the central nervous system?",
       "options": [
-        "GAMK;",
+        "*GAMK;",
         "adrenaline;",
         "acetylcholine;",
         "norepinephrine;"
@@ -4949,7 +4959,7 @@ export const s_2_1 = {
     {
       "question": "Find the mediator that controls the voluntary actions of a person in the parts of the brain?",
       "options": [
-        "Dopamine",
+        "*Dopamine",
         "Adrenaline",
         "Acetylcholine",
         "Phosphatidyl-ethanolamine"
@@ -4960,7 +4970,7 @@ export const s_2_1 = {
     {
       "question": "Parkinson's disease depends on the activity of which synapses?",
       "options": [
-        "Dopaminergic",
+        "*Dopaminergic",
         "Cholinergic",
         "Adrenergic",
         "Postsynaptic"

@@ -280,15 +280,15 @@ export default function QuizPage() {
 
   // ─── RESULTS ──────────────────────────────────
   if (quizDone) {
-    const grade = pct >= 80 ? 'Excellent' : pct >= 60 ? 'Good' : pct >= 40 ? 'Fair' : 'Needs Work';
-    const gradeColor = pct >= 80 ? '#10B981' : pct >= 60 ? '#F59E0B' : pct >= 40 ? '#3B82F6' : '#EF4444';
+    const grade = pct >= 75 ? 'Excellent' : pct >= 50 ? 'Good' : 'Needs Work';
+    const gradeColor = pct >= 75 ? 'var(--color-accent)' : pct >= 50 ? 'var(--color-warning)' : 'var(--color-danger)';
 
     return (
       <div className={styles.page}>
         <Navbar />
         <div className={styles.resultsContainer}>
           <div className={styles.resultsCard}>
-            <div className={styles.trophyWrap}><Trophy size={40} color="#F59E0B" /></div>
+            <div className={styles.trophyWrap}><Trophy size={40} color="var(--color-warning)" /></div>
             <h1 className={styles.resultsTitle}>Quiz Complete!</h1>
             <p style={{ color: 'var(--text-secondary)', marginBottom: 24, fontSize: 14 }}>{title} · {modeLabel}</p>
 
@@ -299,11 +299,11 @@ export default function QuizPage() {
 
             <div className={styles.statsRow}>
               <div className={styles.statBox}>
-                <span style={{ color: '#10B981', fontSize: 22, fontWeight: 900 }}>{score}</span>
+                <span style={{ color: 'var(--color-accent)', fontSize: 22, fontWeight: 900 }}>{score}</span>
                 <span style={{ color: 'var(--text-muted)', fontSize: 12, fontWeight: 700 }}>CORRECT</span>
               </div>
               <div className={styles.statBox}>
-                <span style={{ color: '#EF4444', fontSize: 22, fontWeight: 900 }}>{questions.length - score}</span>
+                <span style={{ color: 'var(--color-danger)', fontSize: 22, fontWeight: 900 }}>{questions.length - score}</span>
                 <span style={{ color: 'var(--text-muted)', fontSize: 12, fontWeight: 700 }}>WRONG</span>
               </div>
               <div className={styles.statBox}>
@@ -325,8 +325,8 @@ export default function QuizPage() {
                       <span className={styles.reviewNum}>Q{qi + 1}</span>
                       <p className={styles.reviewQText}>{q.question}</p>
                       {ans?.isCorrect
-                        ? <CheckCircle2 size={18} color="#10B981" style={{ flexShrink: 0 }} />
-                        : <XCircle size={18} color="#EF4444" style={{ flexShrink: 0 }} />}
+                        ? <CheckCircle2 size={18} color="var(--color-accent)" style={{ flexShrink: 0 }} />
+                        : <XCircle size={18} color="var(--color-danger)" style={{ flexShrink: 0 }} />}
                     </div>
                     <div className={styles.reviewOptions}>
                       {q.options.map((opt, oi) => {

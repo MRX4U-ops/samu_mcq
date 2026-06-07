@@ -107,9 +107,9 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 14px;
+  background: #FFFFFF;
+  border: 1.5px solid var(--color-border);
+  border-radius: 10px;
   padding: 16px 18px;
   cursor: pointer;
   text-align: left;
@@ -117,23 +117,32 @@
   transition: all 0.2s;
 }
 .option:hover:not(:disabled) {
-  background: var(--bg-card-hover);
-  border-color: var(--border-hover);
+  background: var(--color-primary-light);
+  border-color: var(--color-primary);
 }
 .option:disabled { cursor: default; }
 
 .optionSelected {
-  background: rgba(59,130,246,0.12) !important;
-  border-color: rgba(59,130,246,0.5) !important;
+  background: var(--color-primary-light) !important;
+  border: 2px solid var(--color-primary) !important;
 }
+.optionSelected .optionLetter { background: rgba(26, 111, 168, 0.15); color: var(--color-primary-dark); }
+.optionSelected .optionText { color: var(--color-primary-dark); }
+
 .optionCorrect {
-  background: rgba(16,185,129,0.12) !important;
-  border-color: rgba(16,185,129,0.5) !important;
+  background: var(--color-accent-light) !important;
+  border: 2px solid var(--color-accent) !important;
 }
+.optionCorrect .optionLetter { background: rgba(39, 174, 96, 0.15); color: var(--color-accent-dark); }
+.optionCorrect .optionText { color: var(--color-accent-dark); }
+
 .optionWrong {
-  background: rgba(239,68,68,0.1) !important;
-  border-color: rgba(239,68,68,0.4) !important;
+  background: var(--color-danger-light) !important;
+  border: 2px solid var(--color-danger) !important;
 }
+.optionWrong .optionLetter { background: rgba(231, 76, 60, 0.15); color: var(--color-danger); }
+.optionWrong .optionText { color: var(--color-danger); }
+
 .optionDimmed { opacity: 0.45; }
 
 .optionLetter {

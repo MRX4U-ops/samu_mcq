@@ -7,78 +7,113 @@
 }
 
 :root {
-    /* ═══ PREMIUM DARK OBSIDIAN PALETTE ═══ */
-  --bg-base:       #080710;
-  --bg-card:       rgba(20, 18, 33, 0.65);
-  --bg-card-solid: #121021;
-  --bg-card-hover: rgba(28, 25, 48, 0.82);
+  /* ═══ MEDICAL + PROFESSIONAL PALETTE ═══ */
+  /* Primary Brand */
+  --color-primary:        #1A6FA8;   /* Deep Medical Blue */
+  --color-primary-dark:   #0F4C75;   /* Darker Blue (headers, nav) */
+  --color-primary-light:  #D6EAF8;   /* Light Blue (hover bg, selected state) */
 
-  /* Indigo scale */
-  --indigo-50:  #1e1b4b;
-  --indigo-100: #312e81;
-  --indigo-200: #4338ca;
-  --indigo-400: #818cf8;
-  --indigo-500: #6366f1;
-  --indigo-600: #4f46e5;
-  --indigo-700: #c7d2fe;
-  --indigo-800: #e0e7ff;
-  --indigo-900: #eef2ff;
-  --indigo-950: #ffffff;
+  /* Accent */
+  --color-accent:         #27AE60;   /* Medical Green (correct answer, success) */
+  --color-accent-dark:    #1E8449;   /* Dark Green (hover on correct) */
+  --color-accent-light:   #D5F5E3;   /* Light Green bg (result success card) */
+
+  /* Danger / Wrong */
+  --color-danger:         #E74C3C;   /* Red (wrong answer, error) */
+  --color-danger-light:   #FADBD8;   /* Light Red bg (wrong answer highlight) */
+
+  /* Warning / Skipped */
+  --color-warning:        #F39C12;   /* Amber (skipped/unanswered indicator) */
+  --color-warning-light:  #FEF9E7;   /* Light Amber bg */
+
+  /* Neutral / Background */
+  --color-bg:             #F0F4F8;   /* Page background (cool light gray) */
+  --color-surface:        #FFFFFF;   /* Card/panel background */
+  --color-surface-hover:  #EBF5FB;   /* Card hover state */
+  --color-border:         #D0E3F0;   /* Borders, dividers */
+
+  /* Text */
+  --color-text-primary:   #1C2833;   /* Main text (dark charcoal) */
+  --color-text-secondary: #566573;   /* Subtext, hints, descriptions */
+  --color-text-muted:     #AAB7C4;   /* Disabled / placeholder */
+  --color-text-inverse:   #FFFFFF;   /* Text on dark/colored backgrounds */
+
+  /* Gradient (Hero / Header) */
+  --gradient-header: linear-gradient(135deg, #0F4C75 0%, #1A6FA8 60%, #2980B9 100%);
+  --gradient-card:   linear-gradient(180deg, #FFFFFF 0%, #F0F4F8 100%);
+
+  /* ═══ MAPPED THEME VARIABLES ═══ */
+  --bg-base:       var(--color-bg);
+  --bg-card:       var(--color-surface);
+  --bg-card-solid: var(--color-surface);
+  --bg-card-hover: var(--color-surface-hover);
+
+  /* Indigo scale (mapped to brand blues) */
+  --indigo-50:  #EBF5FB;
+  --indigo-100: var(--color-primary-light);
+  --indigo-200: #AED6F1;
+  --indigo-400: #5DADE2;
+  --indigo-500: var(--color-primary);
+  --indigo-600: var(--color-primary-dark);
+  --indigo-700: #0F4C75;
+  --indigo-800: #0B3C5D;
+  --indigo-900: #082D46;
+  --indigo-950: #051D2E;
 
   /* Violet / Purple */
-  --violet:  #8b5cf6;
-  --violet2: #7c3aed;
+  --violet:  #2980B9;
+  --violet2: #1F618D;
 
   /* Gold / Amber */
-  --gold:    #fbbf24;
-  --amber:   #f59e0b;
-  --amber2:  #d97706;
+  --gold:    var(--color-warning);
+  --amber:   var(--color-warning);
+  --amber2:  #D35400;
 
   /* Emerald */
-  --emerald: #10b981;
-  --emerald2:#059669;
+  --emerald: var(--color-accent);
+  --emerald2:var(--color-accent-dark);
 
   /* Rose */
-  --rose:    #f43f5e;
-  --rose2:   #e11d48;
+  --rose:    var(--color-danger);
+  --rose2:   #C0392B;
 
   /* Borders */
-  --border:       rgba(255, 255, 255, 0.08);
-  --border-soft:  rgba(99, 102, 241, 0.18);
-  --border-gold:  rgba(251, 191, 36, 0.45);
-  --border-hover: rgba(99, 102, 241, 0.50);
+  --border:       var(--color-border);
+  --border-soft:  rgba(26, 111, 168, 0.08);
+  --border-gold:  rgba(243, 156, 18, 0.25);
+  --border-hover: var(--color-primary-light);
 
-  /* Text on dark */
-  --text-primary:   #ffffff;
-  --text-secondary: #c7d2fe;
-  --text-muted:     #9ca3af;
-  --text-body:      #e0e7ff;
+  /* Text on light */
+  --text-primary:   var(--color-text-primary);
+  --text-secondary: var(--color-primary);
+  --text-muted:     var(--color-text-muted);
+  --text-body:      var(--color-text-secondary);
 
   /* Gradients */
-  --grad-indigo:   linear-gradient(135deg, #4f46e5, #7c3aed);
-  --grad-royal:    linear-gradient(135deg, #312e81, #4338ca, #6d28d9);
-  --grad-gold:     linear-gradient(135deg, #f59e0b, #d97706);
-  --grad-gold-shim:linear-gradient(135deg, #fbbf24, #f59e0b, #fbbf24);
-  --grad-emerald:  linear-gradient(135deg, #047857, #10b981);
-  --grad-rose:     linear-gradient(135deg, #be123c, #f43f5e);
-  --grad-violet:   linear-gradient(135deg, #6d28d9, #8b5cf6);
-  --grad-cyan:     linear-gradient(135deg, #0e7490, #06b6d4);
-  --grad-amber:    linear-gradient(135deg, #b45309, #f59e0b);
-  --grad-mesh:     linear-gradient(135deg, #eef2ff, #f5f3ff, #fffbeb);
+  --grad-indigo:   var(--gradient-header);
+  --grad-royal:    var(--gradient-header);
+  --grad-gold:     linear-gradient(135deg, #F39C12, #D35400);
+  --grad-gold-shim:linear-gradient(135deg, #F1C40F, #F39C12, #F1C40F);
+  --grad-emerald:  linear-gradient(135deg, var(--color-accent-dark), var(--color-accent));
+  --grad-rose:     linear-gradient(135deg, #C0392B, var(--color-danger));
+  --grad-violet:   linear-gradient(135deg, #1F618D, #2980B9);
+  --grad-cyan:     linear-gradient(135deg, #16A085, #1ABC9C);
+  --grad-amber:    linear-gradient(135deg, #D35400, #F39C12);
+  --grad-mesh:     var(--gradient-card);
 
   /* Shadows */
-  --shadow-card:   0 4px 24px rgba(99,102,241,0.10), 0 1px 4px rgba(0,0,0,0.04);
-  --shadow-hover:  0 12px 40px rgba(99,102,241,0.16), 0 2px 8px rgba(0,0,0,0.06);
-  --shadow-glow:   0 0 40px rgba(99,102,241,0.20);
-  --shadow-gold:   0 4px 24px rgba(245,158,11,0.20);
-  --shadow-btn:    0 4px 15px rgba(79,70,229,0.35);
-  --shadow-btn-h:  0 8px 25px rgba(79,70,229,0.50);
+  --shadow-card:   0 2px 8px rgba(15, 76, 117, 0.08);
+  --shadow-hover:  0 6px 20px rgba(26, 111, 168, 0.15);
+  --shadow-glow:   0 0 30px rgba(26, 111, 168, 0.15);
+  --shadow-gold:   0 4px 24px rgba(243, 156, 18, 0.15);
+  --shadow-btn:    0 4px 15px rgba(26, 111, 168, 0.25);
+  --shadow-btn-h:  0 8px 25px rgba(26, 111, 168, 0.40);
 
   /* Radii */
   --radius-sm: 8px;
-  --radius-md: 14px;
-  --radius-lg: 20px;
-  --radius-xl: 28px;
+  --radius-md: 10px; /* Aligned to typography requested transitions: button, card, option = border-radius: 10px */
+  --radius-lg: 10px;
+  --radius-xl: 10px;
 
   /* Bottom nav height */
   --nav-h: 70px;
@@ -87,19 +122,18 @@
 /* ═══ BASE ═══ */
 html, body {
   min-height: 100%;
-  font-family: 'Plus Jakarta Sans', 'Sora', sans-serif;
+  font-family: 'Inter', 'Segoe UI', 'Plus Jakarta Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background-color: #080710;
+  background-color: var(--color-bg);
   background-image:
-    radial-gradient(ellipse 80% 60% at 10% 0%, rgba(99,102,241,0.18) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 50% at 90% 10%, rgba(139,92,246,0.14) 0%, transparent 55%),
-    radial-gradient(ellipse 50% 40% at 50% 100%, rgba(245,158,11,0.10) 0%, transparent 60%);
+    radial-gradient(ellipse 80% 60% at 10% 0%, rgba(26, 111, 168, 0.05) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 50% at 90% 10%, rgba(39, 174, 96, 0.03) 0%, transparent 55%);
   background-attachment: fixed;
-  color: var(--text-body);
+  color: var(--color-text-primary);
 }
 
 #root { min-height: 100%; }
@@ -341,4 +375,32 @@ body {
   letter-spacing: 2px;
   color: var(--indigo-400);
   text-transform: uppercase;
+}
+
+/* ═══ TRANSITION & POLISH ═══ */
+* {
+  transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, color 0.15s ease;
+}
+
+button, .card, .option {
+  border-radius: 10px;
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(15, 76, 117, 0.08);
+}
+
+.card:hover {
+  box-shadow: 0 6px 20px rgba(26, 111, 168, 0.15);
+  transform: translateY(-2px);
+}
+
+/* ═══ TYPOGRAPHY ENHANCEMENT ═══ */
+h1, h2, h3 {
+  color: var(--color-primary-dark);
+  font-weight: 700;
+}
+
+p, li, span {
+  color: var(--color-text-secondary);
 }

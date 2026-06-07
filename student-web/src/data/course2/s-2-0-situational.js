@@ -3,7 +3,7 @@ export const s_2_0_situational = {
     {
       "question": "Microelements include:",
       "options": [
-        "Zinc",
+        "*Zinc",
         "Chlorine",
         "Tin",
         "Phosphorus"
@@ -14,7 +14,7 @@ export const s_2_0_situational = {
     {
       "question": "Macroelements include:",
       "options": [
-        "Calcium",
+        "*Calcium",
         "Selenium",
         "Iodine",
         "Chlorine"
@@ -25,7 +25,7 @@ export const s_2_0_situational = {
     {
       "question": "Autotrophs synthesize organic substances at the expense of:",
       "options": [
-        "Photosynthesis",
+        "*Photosynthesis",
         "Glycolysis",
         "Proteolysis",
         "Glycogenolysis"
@@ -36,7 +36,7 @@ export const s_2_0_situational = {
     {
       "question": "Daily need for carbohydrates in adults:",
       "options": [
-        "400-500 g",
+        "*400-500 g",
         "100-200 g",
         "200-300 g",
         "700-800 g"
@@ -47,7 +47,7 @@ export const s_2_0_situational = {
     {
       "question": "What kind of energy can heterotrophic organisms use:",
       "options": [
-        "Organic substances",
+        "*Organic substances",
         "Inorganic substances",
         "Solar energy",
         "Mineral parts"
@@ -60,7 +60,7 @@ export const s_2_0_situational = {
     {
       "question": "Characteristic feature for biological membranes:",
       "options": [
-        "Selective permeability",
+        "*Selective permeability",
         "Symmetry",
         "Amphotericity",
         "Photosynthesis"
@@ -71,7 +71,7 @@ export const s_2_0_situational = {
     {
       "question": "What is the characteristic spatial condition for membrane lipids?",
       "options": [
-        "Liquid crystalline",
+        "*Liquid crystalline",
         "Hard",
         "Amorphous",
         "Liquid"
@@ -82,7 +82,7 @@ export const s_2_0_situational = {
     {
       "question": "Which representative of lipids is part of the biological membrane?",
       "options": [
-        "Phospholipids",
+        "*Phospholipids",
         "Waxes",
         "Terpenoids",
         "Triglycerides"
@@ -93,7 +93,7 @@ export const s_2_0_situational = {
     {
       "question": "Which ions are needed for the normal functioning of Na+, K+-ATPase?",
       "options": [
-        "Na+, K+, Mg2+",
+        "*Na+, K+, Mg2+",
         "Na+, Ca2+, Cu2+",
         "Na+, K+",
         "K+, Ca2+"
@@ -104,7 +104,7 @@ export const s_2_0_situational = {
     {
       "question": "The patient was prescribed sleeping pills — a derivative of phenobarbituric acid. Which mitochondrial enzyme is inhibited first?",
       "options": [
-        "NADH dehydrogenase",
+        "*NADH dehydrogenase",
         "Cytochrome oxidase",
         "Succinate dehydrogenase",
         "Isocitrate dehydrogenase"
@@ -117,7 +117,7 @@ export const s_2_0_situational = {
     {
       "question": "A patient worked with radiation, causing free radicals of peroxide oxidation. How does this affect oxidative phosphorylation?",
       "options": [
-        "Oxidation is separated from phosphorylation",
+        "*Oxidation is separated from phosphorylation",
         "Not affected at all",
         "Enhances oxidative phosphorylation",
         "Blocks cytochromes"
@@ -128,7 +128,7 @@ export const s_2_0_situational = {
     {
       "question": "Lack of copper was observed in the human body. This causes a decrease in the activity of which tissue respiration enzymes?",
       "options": [
-        "Cytochromoxidases",
+        "*Cytochromoxidases",
         "Catalases",
         "Glycosidases",
         "Dehydrogenases"
@@ -139,7 +139,7 @@ export const s_2_0_situational = {
     {
       "question": "Which point of the electron transport chain does the antibiotic antimycin inhibit?",
       "options": [
-        "Cytochrome B and Cytochrome C",
+        "*Cytochrome B and Cytochrome C",
         "Cytochrome A and Cytochrome A3",
         "Inhibits flavin-related dehydrogenase",
         "Inhibits pyridine-related dehydrogenation"
@@ -150,7 +150,7 @@ export const s_2_0_situational = {
     {
       "question": "A patient was poisoned by cyanide causing headache and body temperature drop. What point does cyanide inhibit in tissue respiration?",
       "options": [
-        "Cytochrome A and Cytochrome A3",
+        "*Cytochrome A and Cytochrome A3",
         "Cytochrome B and Cytochrome C",
         "Inhibits flavin-related dehydrogenase",
         "Inhibits pyridine-related dehydrogenation"
@@ -161,7 +161,7 @@ export const s_2_0_situational = {
     {
       "question": "A patient with long-term hypovitaminosis PP has hypoenergetics. Which respiratory chain component is deficient?",
       "options": [
-        "NAD·H2",
+        "*NAD·H2",
         "FAD·H2",
         "CoQ",
         "Cytochromes"
@@ -174,7 +174,7 @@ export const s_2_0_situational = {
     {
       "question": "Deficiency of Mg, Mn ions decreases the activity of which Krebs cycle enzyme?",
       "options": [
-        "Isocitrate dehydrogenase",
+        "*Isocitrate dehydrogenase",
         "Succinyl dehydrogenase",
         "Citrate synthase",
         "Malate dehydrogenase"
@@ -185,7 +185,7 @@ export const s_2_0_situational = {
     {
       "question": "A 36-year-old alcoholic patient shows pyruvate accumulation and decreased transketolase activity in erythrocytes. What vitamin deficiency causes this?",
       "options": [
-        "Thiamine diphosphate",
+        "*Thiamine diphosphate",
         "Carboxybiotin",
         "Methylcobalamin",
         "Phosphopyridoxal"
@@ -196,7 +196,7 @@ export const s_2_0_situational = {
     {
       "question": "This is the rate-limiting enzyme of the Krebs cycle that controls its speed. Which enzyme is it?",
       "options": [
-        "Isocitrate dehydrogenase",
+        "*Isocitrate dehydrogenase",
         "Malate dehydrogenase",
         "Succinyl dehydrogenase",
         "Citrate synthase"
@@ -207,7 +207,7 @@ export const s_2_0_situational = {
     {
       "question": "Which intermediate metabolite of the Krebs cycle is a raw material for the heme part of hemoglobin synthesis?",
       "options": [
-        "Succinyl CoA",
+        "*Succinyl CoA",
         "Succinate",
         "Malate",
         "Citrate"
@@ -218,7 +218,7 @@ export const s_2_0_situational = {
     {
       "question": "Oxaloacetate is synthesized from pyruvate by pyruvate carboxylase. Which vitamin is the coenzyme of this enzyme?",
       "options": [
-        "H (Biotin)",
+        "*H (Biotin)",
         "NAD (PP)",
         "FAD (B2)",
         "TPP (B1)"
@@ -231,7 +231,7 @@ export const s_2_0_situational = {
     {
       "question": "Which enzyme defect causes lactose maldigestion due to hereditary genetic defects?",
       "options": [
-        "Lactase",
+        "*Lactase",
         "Maltase",
         "Sucrase",
         "Amylase"
@@ -242,7 +242,7 @@ export const s_2_0_situational = {
     {
       "question": "A diabetic patient received insulin therapy in the morning then did not eat breakfast. This can cause:",
       "options": [
-        "Hypoglycemic coma",
+        "*Hypoglycemic coma",
         "Hyperglycemic coma",
         "Appearance of glucose in urine",
         "There is no correct answer"
@@ -253,7 +253,7 @@ export const s_2_0_situational = {
     {
       "question": "Possible complications of hyperglycemia can be:",
       "options": [
-        "Diabetic coma",
+        "*Diabetic coma",
         "Enterocolitis",
         "Liver cirrhosis",
         "Stomach ulcer"
@@ -264,7 +264,7 @@ export const s_2_0_situational = {
     {
       "question": "Even if a person does not eat for several days, blood glucose is maintained by:",
       "options": [
-        "Hepatic glycogen breakdown and gluconeogenesis",
+        "*Hepatic glycogen breakdown and gluconeogenesis",
         "Only gluconeogenesis",
         "Glycolysis and lipolysis",
         "Gluconeogenesis alone"
@@ -275,7 +275,7 @@ export const s_2_0_situational = {
     {
       "question": "A 2-year-old boy has enlarged liver and spleen, cataracts, and elevated blood glucose. Which substance's metabolic disorder causes this?",
       "options": [
-        "Galactose",
+        "*Galactose",
         "Glucose",
         "Fructose",
         "Sucrose"
@@ -288,7 +288,7 @@ export const s_2_0_situational = {
     {
       "question": "A patient with insulinoma has sweating, tachycardia, and dizziness before meals. Elevated C-peptide and insulin found in blood. These symptoms occur due to:",
       "options": [
-        "Hypoglycemia",
+        "*Hypoglycemia",
         "Hyperketonemia",
         "Hyperglycemia",
         "Hyperlipemia"
@@ -299,7 +299,7 @@ export const s_2_0_situational = {
     {
       "question": "A diabetic patient injected insulin in the morning then did not eat breakfast. This can lead to:",
       "options": [
-        "Hypoglycemic coma",
+        "*Hypoglycemic coma",
         "Hyperglycemic coma",
         "Appearance of glucose in urine",
         "Disappearance of glucose in urine"
@@ -310,7 +310,7 @@ export const s_2_0_situational = {
     {
       "question": "Fasting for several days does not affect blood glucose level, which is maintained by:",
       "options": [
-        "Breakdown of liver glycogen and gluconeogenesis",
+        "*Breakdown of liver glycogen and gluconeogenesis",
         "Gluconeogenesis only",
         "Glycolysis and lipolysis",
         "Glycogenesis"
@@ -321,7 +321,7 @@ export const s_2_0_situational = {
     {
       "question": "Essential fructosuria is caused by insufficient activity of which enzyme?",
       "options": [
-        "Fructokinase",
+        "*Fructokinase",
         "Hexokinase",
         "Aldolase B",
         "Glucokinase"
@@ -332,7 +332,7 @@ export const s_2_0_situational = {
     {
       "question": "Which homopolysaccharide is found in the human body?",
       "options": [
-        "Glycogen",
+        "*Glycogen",
         "Starch",
         "Cellulose",
         "Pectin"
@@ -345,7 +345,7 @@ export const s_2_0_situational = {
     {
       "question": "If a patient with lactase deficiency consumes milk and dairy products, they may experience:",
       "options": [
-        "Diarrhea",
+        "*Diarrhea",
         "Formation of galactose in urine",
         "Increased blood galactose",
         "Increased blood glucose"
@@ -356,7 +356,7 @@ export const s_2_0_situational = {
     {
       "question": "A boy with galactosemia (vomiting, diarrhea, impaired growth) should exclude from diet:",
       "options": [
-        "Milk and milk products",
+        "*Milk and milk products",
         "Meat and fish",
         "Fats",
         "Tea, coffee, and beans"
@@ -367,7 +367,7 @@ export const s_2_0_situational = {
     {
       "question": "A newborn who vomits and has diarrhea after consuming breast milk has deficiency of which enzyme?",
       "options": [
-        "Lactase",
+        "*Lactase",
         "Maltase",
         "Sucrase",
         "Hexokinase"
@@ -378,7 +378,7 @@ export const s_2_0_situational = {
     {
       "question": "A diabetic patient in the endocrinology department lost consciousness with symptoms of hypoglycemic shock. This may be due to:",
       "options": [
-        "Increasing the dose of insulin",
+        "*Increasing the dose of insulin",
         "Eating sugary foods",
         "Dehydration",
         "A strong emotional factor"
@@ -389,7 +389,7 @@ export const s_2_0_situational = {
     {
       "question": "A patient has hypovitaminosis PP. Glycolysis processes may be disrupted during transformation of:",
       "options": [
-        "Pyruvate to lactate",
+        "*Pyruvate to lactate",
         "Phosphoenolpyruvate to pyruvate",
         "Glucose-6-phosphate to fructose-6-phosphate",
         "Fructose-1,6-diphosphate to two trioses"
@@ -402,7 +402,7 @@ export const s_2_0_situational = {
     {
       "question": "Animal tissue lipids include:",
       "options": [
-        "Triglycerides",
+        "*Triglycerides",
         "Carotenoids",
         "Waxes",
         "Terpenoids"
@@ -413,7 +413,7 @@ export const s_2_0_situational = {
     {
       "question": "Which metabolite of lipid metabolism can be used for gluconeogenesis, glycolysis, phospholipid biosynthesis, and neutral fat synthesis?",
       "options": [
-        "Glycerol-3-phosphate",
+        "*Glycerol-3-phosphate",
         "Malonyl-CoA",
         "Phosphoric acid",
         "Acetyl-CoA"
@@ -424,7 +424,7 @@ export const s_2_0_situational = {
     {
       "question": "What is the main endogenous lipid used by the body as an alternative energy fuel?",
       "options": [
-        "Triacylglycerols of adipose tissue",
+        "*Triacylglycerols of adipose tissue",
         "Blood lipoproteins",
         "Phospholipids",
         "Membrane triacylglycerols"
@@ -435,7 +435,7 @@ export const s_2_0_situational = {
     {
       "question": "Bile must be present for fat emulsification, digestion, and absorption. Which bile components are involved?",
       "options": [
-        "Hydroxylated and conjugated cholic acids",
+        "*Hydroxylated and conjugated cholic acids",
         "Hydroxylated and emulsified cholic acids",
         "Conjugated bilirubin",
         "Hydroxylated cholesterol"
@@ -446,7 +446,7 @@ export const s_2_0_situational = {
     {
       "question": "Reserve lipids are characterized by:",
       "options": [
-        "High energy content stored in adipose tissue",
+        "*High energy content stored in adipose tissue",
         "Found in cell membranes",
         "Structural role in organelles",
         "Soluble in water"
@@ -459,7 +459,7 @@ export const s_2_0_situational = {
     {
       "question": "Hypoxia is observed in cardiomyocytes and carnitine deficiency was found in the body. Which process is disrupted?",
       "options": [
-        "Beta-oxidation of fatty acids",
+        "*Beta-oxidation of fatty acids",
         "Krebs cycle",
         "Glycolysis",
         "Synthesis of fatty acids"
@@ -470,7 +470,7 @@ export const s_2_0_situational = {
     {
       "question": "Athletes are recommended to take carnitine. What is the reason for this?",
       "options": [
-        "Carnitine helps transfer fatty acids to mitochondria",
+        "*Carnitine helps transfer fatty acids to mitochondria",
         "Carnitine accelerates beta-oxidation",
         "Carnitine is involved in fat digestion",
         "Carnitine increases fatty acid synthesis"
@@ -481,7 +481,7 @@ export const s_2_0_situational = {
     {
       "question": "A fatty acid underwent beta-oxidation producing a total of 10 FADH2 and 10 NADH2. Which fatty acid is this?",
       "options": [
-        "Behenic acid (C22)",
+        "*Behenic acid (C22)",
         "Arachidic acid (C20)",
         "Stearic acid (C18)",
         "Oleic acid (C18:1)"
@@ -492,7 +492,7 @@ export const s_2_0_situational = {
     {
       "question": "A person ate a lot of sweets after a normal meal. Which enzyme activity decreases and which process increases?",
       "options": [
-        "Isocitrate dehydrogenase decreases, fatty acid biosynthesis increases",
+        "*Isocitrate dehydrogenase decreases, fatty acid biosynthesis increases",
         "Thiolase decreases, fatty acid biosynthesis increases",
         "Hexokinase decreases, beta-oxidation increases",
         "Carnitine acyltransferase decreases, fat oxidation increases"
@@ -503,7 +503,7 @@ export const s_2_0_situational = {
     {
       "question": "A diabetic patient has been starving and develops ketonemia and ketonuria. What substance deficiency is causing this?",
       "options": [
-        "Oxaloacetate",
+        "*Oxaloacetate",
         "Acetoacetate",
         "Acetyl-CoA",
         "Carnitine"
@@ -516,7 +516,7 @@ export const s_2_0_situational = {
     {
       "question": "Niemann-Pick disease causes liver and spleen enlargement, sphingomyelin accumulation in lysosomes, and mental weakness. Which enzyme has a genetic defect?",
       "options": [
-        "Sphingomyelinase",
+        "*Sphingomyelinase",
         "Ceramidase",
         "Lysosomal lipase",
         "Sphingosine transferase"
@@ -527,7 +527,7 @@ export const s_2_0_situational = {
     {
       "question": "A common metabolic disorder leading to myocardial infarction and stroke ranks first in population mortality. Fill in the blanks:",
       "options": [
-        "Cholesterol metabolism disorder — atherosclerosis",
+        "*Cholesterol metabolism disorder — atherosclerosis",
         "Steroid disorder — steatosis",
         "Ketone body disorder — diabetes",
         "Phospholipid disorder — metabolic syndrome"
@@ -538,7 +538,7 @@ export const s_2_0_situational = {
     {
       "question": "Hypothyroidism (low thyroid hormone production) — how does it affect fat metabolism?",
       "options": [
-        "It causes excessive accumulation of fats",
+        "*It causes excessive accumulation of fats",
         "Fat mobilization increases",
         "Oxidation of fats increases",
         "It causes breakdown of stored fats"
@@ -549,7 +549,7 @@ export const s_2_0_situational = {
     {
       "question": "In cancer, tumor cells consume the body's energy resources including fats, causing extreme thinness. What is this condition of increased fat mobilization called?",
       "options": [
-        "Cachexia",
+        "*Cachexia",
         "Metabolic syndrome",
         "Ketoacidosis",
         "Oncogenesis"
@@ -560,7 +560,7 @@ export const s_2_0_situational = {
     {
       "question": "Surfactant covers the alveolar surface preventing collapse during exhalation. Which substance is the main component of surfactant?",
       "options": [
-        "Dipalmitoylphosphatidylcholine",
+        "*Dipalmitoylphosphatidylcholine",
         "Acetoacetate",
         "Lanosterin",
         "Phosphatidylethanolamine"
@@ -573,7 +573,7 @@ export const s_2_0_situational = {
     {
       "question": "If the patient has a duodenal ulcer, what is the state of acidity in the stomach?",
       "options": [
-        "Acidity increases",
+        "*Acidity increases",
         "Acidity decreases",
         "HCl is completely lost",
         "Both HCl and pepsin are lost"
@@ -584,7 +584,7 @@ export const s_2_0_situational = {
     {
       "question": "This essential amino acid is the precursor for tyrosine. Its deficiency leads to a violation of tyrosine metabolism. Which amino acid is this?",
       "options": [
-        "Phenylalanine",
+        "*Phenylalanine",
         "Tryptophan",
         "Glycine",
         "Lysine"
@@ -595,7 +595,7 @@ export const s_2_0_situational = {
     {
       "question": "Proteolytic enzymes are synthesized in inactive (pro) form. For example, pepsin is activated by HCl in the stomach. What is the correct reason for this?",
       "options": [
-        "So that the synthesized cell does not destruct its own proteins",
+        "*So that the synthesized cell does not destruct its own proteins",
         "Because the activated form cannot be synthesized in the cell",
         "Because the pH of the synthesized cell is not correct",
         "So that the activity does not decrease"
@@ -606,7 +606,7 @@ export const s_2_0_situational = {
     {
       "question": "Proteases in the stomach and intestines only break down food proteins, not the wall cells' own proteins. What is the reason for this?",
       "options": [
-        "Protection by mucous membrane and polysaccharides",
+        "*Protection by mucous membrane and polysaccharides",
         "HCl acid environment prevents it",
         "Cell proteins are alkaline in nature",
         "Peptide bonds of cell proteins are on the inner membrane"
@@ -617,7 +617,7 @@ export const s_2_0_situational = {
     {
       "question": "A 60-year-old man has chronic intestinal obstruction with increased protein putrefaction in the large intestine. Which finding proves this?",
       "options": [
-        "Indicanuria",
+        "*Indicanuria",
         "Albuminuria",
         "Creatinuria",
         "Bilirubinuria"
@@ -630,7 +630,7 @@ export const s_2_0_situational = {
     {
       "question": "When there is a lack of pyridoxal phosphate in the body, what effect does this have on amino acid metabolism?",
       "options": [
-        "Activity of aminotransferases decreases",
+        "*Activity of aminotransferases decreases",
         "Transaminases are activated",
         "The transamination process increases",
         "The decarboxylation process increases"
@@ -641,7 +641,7 @@ export const s_2_0_situational = {
     {
       "question": "A patient is urgently admitted with suspected myocardial infarction. Which blood indicator helps make an accurate diagnosis?",
       "options": [
-        "Amount of AST",
+        "*Amount of AST",
         "Amount of ALT",
         "Amount of LDH-3",
         "Amount of pyruvate"
@@ -652,7 +652,7 @@ export const s_2_0_situational = {
     {
       "question": "A patient is being treated with cetirizine (Zodak) for an allergic reaction. What process does this drug affect?",
       "options": [
-        "Reduces the production of histamine",
+        "*Reduces the production of histamine",
         "Reduces the production of serotonin",
         "Reduces the amount of dopamine",
         "Blocks the decarboxylation process"
@@ -663,7 +663,7 @@ export const s_2_0_situational = {
     {
       "question": "Melatonin is synthesized from a biologically active substance that stimulates smooth muscle contraction, constricts blood vessels, and participates in pregnancy toxicosis. Name this substance and its amino acid precursor:",
       "options": [
-        "Serotonin, tryptophan",
+        "*Serotonin, tryptophan",
         "Serotonin, serine",
         "Histamine, histidine",
         "Dopamine, phenylalanine"
@@ -674,7 +674,7 @@ export const s_2_0_situational = {
     {
       "question": "Methionine is essential but can be regenerated from homocysteine. Which coenzyme ensures methionine regeneration and homocysteine conversion to cysteine?",
       "options": [
-        "Methylcobalamin",
+        "*Methylcobalamin",
         "Pyridoxal phosphate",
         "Nicotinamide",
         "Folic acid"
@@ -687,7 +687,7 @@ export const s_2_0_situational = {
     {
       "question": "The patient has hypoxia-induced alkalosis. What source causes this alkalosis?",
       "options": [
-        "Increased concentration of ammonia in the blood",
+        "*Increased concentration of ammonia in the blood",
         "A decrease in the concentration of ammonia in the blood",
         "An increase in alpha-ketoglutarate in the blood",
         "Decrease in alpha-ketoglutarate in the blood"
@@ -698,7 +698,7 @@ export const s_2_0_situational = {
     {
       "question": "A patient experiences tremors with impaired GABA synthesis. What condition is observed?",
       "options": [
-        "Ammonia increase",
+        "*Ammonia increase",
         "Ammonia depletion",
         "Increase of mediators",
         "Reduction of mediators"
@@ -709,7 +709,7 @@ export const s_2_0_situational = {
     {
       "question": "Cirrhotic hepatitis has formed in the patient. What other condition can arise as a result?",
       "options": [
-        "Hyperammonemia",
+        "*Hyperammonemia",
         "Hypoammonemia",
         "Hypoxia",
         "Increased body temperature"
@@ -720,7 +720,7 @@ export const s_2_0_situational = {
     {
       "question": "Which cycle can be disrupted by influenza virus and other infectious diseases?",
       "options": [
-        "Ornithine cycle",
+        "*Ornithine cycle",
         "Krebs cycle",
         "Cori cycle",
         "Citrulline cycle"
@@ -731,7 +731,7 @@ export const s_2_0_situational = {
     {
       "question": "A patient has headache, recurrent vomiting, tremors, and fainting. Which metabolite is causing these symptoms?",
       "options": [
-        "Ammonia",
+        "*Ammonia",
         "Phosphorus",
         "Fluoride",
         "Chlorine"
@@ -744,7 +744,7 @@ export const s_2_0_situational = {
     {
       "question": "The patient has inflammation in the first joint of the big toe. This is a symptom of which disease?",
       "options": [
-        "Gout",
+        "*Gout",
         "Alkaptonuria",
         "Achilia",
         "Hyperammonemia"
@@ -755,7 +755,7 @@ export const s_2_0_situational = {
     {
       "question": "A patient has severe gout with skin atrophy and tophus discharge. What other condition can occur?",
       "options": [
-        "Kidney failure",
+        "*Kidney failure",
         "Heart failure",
         "Brittle bones",
         "Liver cirrhosis"
@@ -766,7 +766,7 @@ export const s_2_0_situational = {
     {
       "question": "Which disease leads to the development of kidney diseases and lead poisoning?",
       "options": [
-        "Lesch-Nyhan syndrome",
+        "*Lesch-Nyhan syndrome",
         "Heart failure",
         "Brittle bones",
         "Liver cirrhosis"
@@ -777,7 +777,7 @@ export const s_2_0_situational = {
     {
       "question": "Which disease develops together with hyperammonemia?",
       "options": [
-        "Orotaciduria",
+        "*Orotaciduria",
         "Gout",
         "Lesch-Nyhan syndrome",
         "Liver cirrhosis"
@@ -788,7 +788,7 @@ export const s_2_0_situational = {
     {
       "question": "A patient was prescribed allopurinol to treat gout. Which side-effect disease can it cause?",
       "options": [
-        "Orotaciduria",
+        "*Orotaciduria",
         "Alkaptonuria",
         "Achilia",
         "Hyperammonemia"
@@ -801,7 +801,7 @@ export const s_2_0_situational = {
     {
       "question": "What process does high lactate dehydrogenase (LDH) enzyme in the patient's blood represent?",
       "options": [
-        "Converts lactic acid to pyruvate",
+        "*Converts lactic acid to pyruvate",
         "Converts pyruvate to lactic acid",
         "Galactose intolerance",
         "Fructose intolerance"
@@ -812,7 +812,7 @@ export const s_2_0_situational = {
     {
       "question": "A patient has general tremors, muscle tension (rigidity), and akinesia. Levodopa and Nakom drugs are used for treatment. Which disease is this?",
       "options": [
-        "Parkinson's disease",
+        "*Parkinson's disease",
         "Gout",
         "Alkaptonuria",
         "Cachexia"
@@ -823,7 +823,7 @@ export const s_2_0_situational = {
     {
       "question": "Which disease is caused by the imbalance of carbohydrate and fat catabolism in large quantities?",
       "options": [
-        "Cachexia",
+        "*Cachexia",
         "Parkinson's disease",
         "Gout",
         "Alkaptonuria"
@@ -834,7 +834,7 @@ export const s_2_0_situational = {
     {
       "question": "Which disease occurs due to inactivity and excessive consumption of carbohydrate and fatty foods in the world population?",
       "options": [
-        "Obesity",
+        "*Obesity",
         "Cachexia",
         "Parkinson's disease",
         "Gout"
@@ -845,7 +845,7 @@ export const s_2_0_situational = {
     {
       "question": "What additional diseases can develop in a patient as a result of diabetes complications?",
       "options": [
-        "Atherosclerosis, ketoacidosis, kidney failure",
+        "*Atherosclerosis, ketoacidosis, kidney failure",
         "Obesity, heart failure, achilia",
         "Gout, Parkinson's, cachexia",
         "Liver dysfunction, hyperammonemia, achilia"

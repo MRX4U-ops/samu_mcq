@@ -17,12 +17,7 @@
   justify-content: center;
   overflow: hidden;
   padding: 120px 24px 80px;
-  background:
-    linear-gradient(160deg,
-      rgba(15,14,26,0.82) 0%,
-      rgba(30,27,75,0.72) 40%,
-      rgba(67,56,202,0.55) 100%),
-    url('/medical_bg.png') center/cover no-repeat;
+  background: #f8fafc;
 }
 
 .heroBg {
@@ -33,21 +28,21 @@
 .glow1 {
   position: absolute;
   width: 700px; height: 700px;
-  background: radial-gradient(circle, rgba(99,102,241,0.25) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(99,102,241,0.08) 0%, transparent 65%);
   top: -200px; left: -200px;
   animation: blobFloat1 12s ease-in-out infinite;
 }
 .glow2 {
   position: absolute;
   width: 500px; height: 500px;
-  background: radial-gradient(circle, rgba(139,92,246,0.20) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(139,92,246,0.06) 0%, transparent 65%);
   bottom: -150px; right: -100px;
   animation: blobFloat2 14s ease-in-out infinite;
 }
 .glow3 {
   position: absolute;
   width: 400px; height: 400px;
-  background: radial-gradient(circle, rgba(245,158,11,0.12) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(245,158,11,0.04) 0%, transparent 65%);
   top: 40%; left: 50%; transform: translate(-50%, -50%);
 }
 @keyframes blobFloat1 {
@@ -95,14 +90,13 @@
   line-height: 1.10;
   letter-spacing: -1.5px;
   margin-bottom: 22px;
-  color: var(--bg-card-solid);
+  color: var(--text-primary);
   font-family: 'Plus Jakarta Sans', sans-serif;
-  text-shadow: 0 2px 20px rgba(0,0,0,0.3);
 }
 
 .heroSub {
   font-size: 18px;
-  color: var(--bg-card-hover);
+  color: var(--text-body);
   line-height: 1.7;
   margin-bottom: 36px;
   font-weight: 500;
@@ -132,7 +126,7 @@
   gap: 6px;
   font-size: 13px;
   font-weight: 700;
-  color: var(--bg-card);
+  color: var(--text-body);
 }
 
 .heroStatsRibbon {
@@ -141,9 +135,9 @@
   display: flex;
   align-items: center;
   gap: 0;
-  background: var(--bg-card-hover);
+  background: var(--bg-card);
   backdrop-filter: blur(24px);
-  border: 1px solid var(--bg-card-solid);
+  border: 1px solid var(--border);
   box-shadow: 0 8px 40px var(--border-soft), 0 2px 8px rgba(0,0,0,0.05);
   border-radius: 24px;
   padding: 18px 40px;
@@ -694,11 +688,11 @@
 }
 
 .demoCard {
-  background: rgba(255, 255, 255, 0.07);
+  background: #ffffff;
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3), 0 0 30px rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.12);
+  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.06), 0 1px 3px rgba(0, 0, 0, 0.05);
   border-radius: 24px;
   padding: 24px;
   width: 100%;
@@ -711,8 +705,8 @@
 
 .demoCard:hover {
   transform: rotateY(0deg) rotateX(0deg) translateY(-4px);
-  border-color: rgba(255, 255, 255, 0.22);
-  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(99, 102, 241, 0.25);
+  border-color: rgba(99, 102, 241, 0.22);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(99, 102, 241, 0.15);
 }
 
 .demoCardHeader {
@@ -758,8 +752,8 @@
 }
 
 .demoOption {
-  background: rgba(255, 255, 255, 0.04);
-  border: 1.5px solid rgba(255, 255, 255, 0.08);
+  background: rgba(99, 102, 241, 0.03);
+  border: 1.5px solid rgba(99, 102, 241, 0.08);
   border-radius: 14px;
   padding: 12px 16px;
   width: 100%;
@@ -776,7 +770,7 @@
 }
 
 .demoOption:hover:not(:disabled) {
-  background: rgba(255, 255, 255, 0.10);
+  background: rgba(99, 102, 241, 0.07);
   border-color: rgba(99, 102, 241, 0.45);
   color: var(--bg-card-solid);
   transform: translateX(4px);
@@ -784,14 +778,14 @@
 
 .demoOptionCorrect {
   border-color: #10b981 !important;
-  background: rgba(16, 185, 129, 0.15) !important;
-  color: #34d399 !important;
+  background: rgba(16, 185, 129, 0.10) !important;
+  color: #047857 !important;
 }
 
 .demoOptionIncorrect {
   border-color: #ef4444 !important;
-  background: rgba(239, 68, 68, 0.15) !important;
-  color: #f87171 !important;
+  background: rgba(239, 68, 68, 0.08) !important;
+  color: #b91c1c !important;
 }
 
 .demoFeedback {

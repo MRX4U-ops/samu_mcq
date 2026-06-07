@@ -3,7 +3,7 @@ export const s_2_0 = {
     {
       "question": "Major components of food:",
       "options": [
-        "Protein",
+        "*Protein",
         "Vitamin",
         "Water",
         "Mineral substance"
@@ -14,7 +14,7 @@ export const s_2_0 = {
     {
       "question": "What is included in the minor component of food?",
       "options": [
-        "Vitamin",
+        "*Vitamin",
         "Carbohydrate",
         "Lipid",
         "Protein"
@@ -25,7 +25,7 @@ export const s_2_0 = {
     {
       "question": "Essential fatty acid:",
       "options": [
-        "Arachidonic acid",
+        "*Arachidonic acid",
         "Stearic acid",
         "Palmitic acid",
         "Oleic acid"
@@ -36,7 +36,7 @@ export const s_2_0 = {
     {
       "question": "When is dissimilation observed?",
       "options": [
-        "Hunger",
+        "*Hunger",
         "Body growth",
         "Development of the organism",
         "Body renewal"
@@ -47,7 +47,7 @@ export const s_2_0 = {
     {
       "question": "Essential fatty acid:",
       "options": [
-        "Linol",
+        "*Linol",
         "Stearin",
         "Palmine",
         "Olein"
@@ -58,7 +58,7 @@ export const s_2_0 = {
     {
       "question": "Daily need of proteins:",
       "options": [
-        "80g",
+        "*80g",
         "50g",
         "300g",
         "500g"
@@ -69,7 +69,7 @@ export const s_2_0 = {
     {
       "question": "Daily need of carbohydrates:",
       "options": [
-        "400-500g",
+        "*400-500g",
         "200-300g",
         "50-100g",
         "80-90g"
@@ -80,7 +80,7 @@ export const s_2_0 = {
     {
       "question": "Daily need of fats:",
       "options": [
-        "100g",
+        "*100g",
         "20-30g",
         "50-60g",
         "140-150g"
@@ -91,7 +91,7 @@ export const s_2_0 = {
     {
       "question": "Major components of food:",
       "options": [
-        "Carbohydrate",
+        "*Carbohydrate",
         "Vitamin",
         "Water",
         "Mineral substances"
@@ -102,7 +102,7 @@ export const s_2_0 = {
     {
       "question": "Minor component of food:",
       "options": [
-        "Mineral substances",
+        "*Mineral substances",
         "Carbohydrate",
         "Protein",
         "Lipid"
@@ -113,7 +113,7 @@ export const s_2_0 = {
     {
       "question": "Major component of food:",
       "options": [
-        "Lipid",
+        "*Lipid",
         "Mineral substance",
         "Vitamin",
         "Water"
@@ -124,7 +124,7 @@ export const s_2_0 = {
     {
       "question": "Which substance is the building material for our body?",
       "options": [
-        "Proteins",
+        "*Proteins",
         "Carbohydrates",
         "Oils",
         "DNA and RNA"
@@ -135,7 +135,7 @@ export const s_2_0 = {
     {
       "question": "Show the nutrients that give energy to the body?",
       "options": [
-        "Carbohydrates",
+        "*Carbohydrates",
         "Proteins",
         "Oils",
         "DNA and RNA"
@@ -146,7 +146,7 @@ export const s_2_0 = {
     {
       "question": "Minor components of food:",
       "options": [
-        "Vitamins",
+        "*Vitamins",
         "Glucose",
         "Amino acids - alanine, glycine",
         "Amino acids methionine, valine"
@@ -157,7 +157,7 @@ export const s_2_0 = {
     {
       "question": "What is formed from amino acids in human cells:",
       "options": [
-        "own proteins",
+        "*own proteins",
         "foreign proteins",
         "vitamins",
         "Nucleic acids"
@@ -168,7 +168,7 @@ export const s_2_0 = {
     {
       "question": "This substance is not released from the body into the environment:",
       "options": [
-        "Oxygen",
+        "*Oxygen",
         "Salt",
         "Water",
         "CO2"
@@ -179,7 +179,7 @@ export const s_2_0 = {
     {
       "question": "Metabolism is:",
       "options": [
-        "A set of complex chemical reactions aimed at breaking down and forming compounds",
+        "*A set of complex chemical reactions aimed at breaking down and forming compounds",
         "Complex chemical reactions that form proteins",
         "The process of breaking down complex substances into simpler ones",
         "Synthesis of proteins, fats, carbohydrates"
@@ -190,7 +190,7 @@ export const s_2_0 = {
     {
       "question": "Define the main function of carbohydrates?",
       "options": [
-        "Providing energy to the body",
+        "*Providing energy to the body",
         "Protecting the body from the effects",
         "Participation in the formation of biologically important compounds",
         "Participation in the formation of chemically important compounds"
@@ -201,7 +201,7 @@ export const s_2_0 = {
     {
       "question": "Difference between anabolism and catabolism:",
       "options": [
-        "In the process of catabolism, substances are broken down, in the process of anabolism, macromolecular substances are synthesized.",
+        "*In the process of catabolism, substances are broken down, in the process of anabolism, macromolecular substances are synthesized.",
         "Catabolism slows down metabolism, anabolism speeds it up",
         "Anabolism slows down metabolism, catabolism speeds it up",
         "Anabolism produces energy, catabolism consumes"
@@ -212,7 +212,7 @@ export const s_2_0 = {
     {
       "question": "Meal plan:",
       "options": [
-        "Time distribution of food products, calories, volume",
+        "*Time distribution of food products, calories, volume",
         "Calorie distribution of food products",
         "Time distribution of food products",
         "Distribution of food products by volume"
@@ -223,7 +223,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following are micronutrients?",
       "options": [
-        "Zinc",
+        "*Zinc",
         "Chlorine",
         "Potassium",
         "Phosphorus"
@@ -234,7 +234,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following is a macronutrient?",
       "options": [
-        "Calcium",
+        "*Calcium",
         "Magnesium",
         "Iodine",
         "Phosphorus"
@@ -245,7 +245,7 @@ export const s_2_0 = {
     {
       "question": "How is cholesterol removed from the body?",
       "options": [
-        "With feces",
+        "*With feces",
         "With urine",
         "By sweating",
         "Through saliva"
@@ -256,7 +256,7 @@ export const s_2_0 = {
     {
       "question": "Energy needs for students:",
       "options": [
-        "2800 kcal / day",
+        "*2800 kcal / day",
         "1200 kcal / day",
         "3400 kcal / day",
         "1900 kcal / day"
@@ -267,7 +267,7 @@ export const s_2_0 = {
     {
       "question": "How much energy is released when carbohydrates are broken down?",
       "options": [
-        "4.2 kcal / g",
+        "*4.2 kcal / g",
         "9.3 kcal / g",
         "7.5 kcal / g",
         "2.1 kcal / g"
@@ -278,7 +278,7 @@ export const s_2_0 = {
     {
       "question": "How much energy is released when fats are broken down?",
       "options": [
-        "9.3 kcal / g",
+        "*9.3 kcal / g",
         "4.2 kcal / g",
         "7.5 kcal / g",
         "2.1 kcal / g"
@@ -289,7 +289,7 @@ export const s_2_0 = {
     {
       "question": "How much energy is released when proteins are broken down?",
       "options": [
-        "4.2 kcal / g",
+        "*4.2 kcal / g",
         "9.3 kcal / g",
         "7.5 kcal / g",
         "2.1 kcal / g"
@@ -300,7 +300,7 @@ export const s_2_0 = {
     {
       "question": "Metabolism of matter and energy is:",
       "options": [
-        "Consumption, transformation, use, accumulation and loss of substances and energy",
+        "*Consumption, transformation, use, accumulation and loss of substances and energy",
         "Removal of undigested waste from the body",
         "Entry of substances into the body",
         "Removal of substances from the body"
@@ -311,7 +311,7 @@ export const s_2_0 = {
     {
       "question": "An example of anabolism:",
       "options": [
-        "Hair growth",
+        "*Hair growth",
         "Ethanol decomposition",
         "Glycolysis",
         "Formation of amino acids from proteins"
@@ -322,7 +322,7 @@ export const s_2_0 = {
     {
       "question": "Physical inactivity contributes to the accumulation of stored fat, because:",
       "options": [
-        "It consumes less energy",
+        "*It consumes less energy",
         "Atherosclerosis develops",
         "Bone remodeling occurs",
         "Consumes a lot of energy"
@@ -335,7 +335,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following is part of glycerophospholipids?",
       "options": [
-        "Phosphotidylcholine",
+        "*Phosphotidylcholine",
         "Cerebroside",
         "Cholesterol",
         "Prostoglandin"
@@ -346,7 +346,7 @@ export const s_2_0 = {
     {
       "question": "What substances enter the cell through normal diffusion?",
       "options": [
-        "Oxygen",
+        "*Oxygen",
         "Lipid",
         "Carbohydrate",
         "Protein"
@@ -357,7 +357,7 @@ export const s_2_0 = {
     {
       "question": "Which substance passes into the cell through normal diffusion?",
       "options": [
-        "Carbon dioxide",
+        "*Carbon dioxide",
         "Protein",
         "Lipid",
         "Carbohydrates"
@@ -368,7 +368,7 @@ export const s_2_0 = {
     {
       "question": "The minor component of the cell?",
       "options": [
-        "Tocopherol",
+        "*Tocopherol",
         "Protein",
         "Carbohydrate",
         "Lipid"
@@ -379,7 +379,7 @@ export const s_2_0 = {
     {
       "question": "How many nm thick is the thinnest, strongest biomembrane?",
       "options": [
-        "1.5-1.8 nm",
+        "*1.5-1.8 nm",
         "2.5-2.8 nm",
         "3.9-5.9 nm",
         "3.5-10 nm"
@@ -390,7 +390,7 @@ export const s_2_0 = {
     {
       "question": "How are biomembranes structured?",
       "options": [
-        "proteins, lipids, carbohydrates",
+        "*proteins, lipids, carbohydrates",
         "only lipids",
         "proteins and lipids",
         "proteins, lipids, carbohydrates and tightly bound water"
@@ -401,7 +401,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following determines membrane stiffness?",
       "options": [
-        "cytoplasm",
+        "*cytoplasm",
         "integral proteins",
         "cholesterol",
         "glycocalyx"
@@ -412,18 +412,18 @@ export const s_2_0 = {
     {
       "question": "Semi-integral proteins mainly perform what function?",
       "options": [
+        "*enzymatic",
         "energy",
         "transport",
-        "receptor",
-        "enzymatic"
+        "receptor"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Some semi-integral proteins are involved in energy transduction processes."
     },
     {
       "question": "Choose the wrong answer?",
       "options": [
-        "The cell membrane performs an energy function",
+        "*The cell membrane performs an energy function",
         "The cell membrane acts as a barrier",
         "The cell membrane performs a regulatory function",
         "The cell membrane performs a transport function"
@@ -434,7 +434,7 @@ export const s_2_0 = {
     {
       "question": "How many layers does the cell membrane consist of?",
       "options": [
-        "Two layers (bisloy)",
+        "*Two layers (bisloy)",
         "From one layer (monolayer)",
         "Four layers (tetrosloy)",
         "Above six (hexoclay)"
@@ -445,7 +445,7 @@ export const s_2_0 = {
     {
       "question": "How are lipids structured?",
       "options": [
-        "Head and tail",
+        "*Head and tail",
         "Membrane layer",
         "Basic and subfunctional",
         "Monosaccharides and polysaccharides"
@@ -456,7 +456,7 @@ export const s_2_0 = {
     {
       "question": "The thickness of the membrane?",
       "options": [
-        "7-8 nm",
+        "*7-8 nm",
         "0.25 nm",
         "1-3 nm",
         "5 nm"
@@ -467,7 +467,7 @@ export const s_2_0 = {
     {
       "question": "Which proteins are part of the biological membrane?",
       "options": [
-        "Integral, semi-integral, surface",
+        "*Integral, semi-integral, surface",
         "Collagen, myosin",
         "Globulin",
         "pepsin"
@@ -478,7 +478,7 @@ export const s_2_0 = {
     {
       "question": "Which lipids are part of the membrane?",
       "options": [
-        "Phospholipids, glycolipids, cholesterol",
+        "*Phospholipids, glycolipids, cholesterol",
         "Steroids, glycolipids",
         "Cholesterol, steroids, proteolipids",
         "phospholipids, steroids"
@@ -489,7 +489,7 @@ export const s_2_0 = {
     {
       "question": "What forms the basis of the cell membrane?",
       "options": [
-        "Bilayer of lipid molecules",
+        "*Bilayer of lipid molecules",
         "Double layers of protein molecules",
         "Carbohydrate molecules",
         "Three rows of protein molecules"
@@ -500,7 +500,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following is not a membrane organoid?",
       "options": [
-        "Ribosome",
+        "*Ribosome",
         "Mitochondria",
         "Golgi apparatus",
         "Plastids"
@@ -511,7 +511,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following substances enter the cell directly?",
       "options": [
-        "Ions",
+        "*Ions",
         "Large protein molecules",
         "Large molecules of lipids",
         "Liquid nutrients"
@@ -522,7 +522,7 @@ export const s_2_0 = {
     {
       "question": "Characteristic of Membrane?",
       "options": [
-        "Semiconductor",
+        "*Semiconductor",
         "Only ions and small molecules pass through",
         "It is not possible to pass",
         "Conductive for any substance"
@@ -533,7 +533,7 @@ export const s_2_0 = {
     {
       "question": "How many layers does the cell membrane consist of?",
       "options": [
-        "Two floors (biqavat)",
+        "*Two floors (biqavat)",
         "From one layer (monolayer)",
         "Of four layers (tetraquat)",
         "Six and more (hexa-story)"
@@ -544,7 +544,7 @@ export const s_2_0 = {
     {
       "question": "A cell membrane is present?",
       "options": [
-        "In all living organisms",
+        "*In all living organisms",
         "In plants and animals",
         "Bacteria and fungi in plants",
         "Only in animals"
@@ -555,7 +555,7 @@ export const s_2_0 = {
     {
       "question": "What is the concentration of K+ ion inside the cell?",
       "options": [
-        "High",
+        "*High",
         "Low",
         "Minus",
         "No"
@@ -566,7 +566,7 @@ export const s_2_0 = {
     {
       "question": "What is the status of membrane lipids?",
       "options": [
-        "liquid crystal",
+        "*liquid crystal",
         "amorphous",
         "liquid",
         "hard"
@@ -577,7 +577,7 @@ export const s_2_0 = {
     {
       "question": "How are substances transferred to the membrane by facilitated diffusion?",
       "options": [
-        "according to the concentration gradient",
+        "*according to the concentration gradient",
         "opposite to the concentration gradient",
         "without the involvement of carrier proteins",
         "ATP energy is involved"
@@ -588,7 +588,7 @@ export const s_2_0 = {
     {
       "question": "Where are receptors for primary messengers located?",
       "options": [
-        "in the plasma membrane",
+        "*in the plasma membrane",
         "in the mitochondrial membrane",
         "in the nuclear membrane",
         "in the lysosomal membrane"
@@ -599,7 +599,7 @@ export const s_2_0 = {
     {
       "question": "Characteristics of cell membranes?",
       "options": [
-        "fluidity",
+        "*fluidity",
         "poor water permeability",
         "low electrical resistance",
         "symmetry"
@@ -610,7 +610,7 @@ export const s_2_0 = {
     {
       "question": "How are substances transferred from the membrane through the primary active transport pathway?",
       "options": [
-        "opposite to the concentration gradient",
+        "*opposite to the concentration gradient",
         "according to the concentration gradient",
         "without the involvement of carrier proteins",
         "ATP energy is involved"
@@ -621,7 +621,7 @@ export const s_2_0 = {
     {
       "question": "How are substances transferred from the membrane through the secondary active transport pathway?",
       "options": [
-        "as opposed to concentration gradient",
+        "*as opposed to concentration gradient",
         "according to the concentration gradient",
         "without the participation of protein carriers",
         "in the presence of protein enzymes"
@@ -632,7 +632,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following carries out the transport of substances through the membrane?",
       "options": [
-        "Facilitated diffusion",
+        "*Facilitated diffusion",
         "lateral diffusion",
         "dialysis",
         "axonal current"
@@ -643,7 +643,7 @@ export const s_2_0 = {
     {
       "question": "The polar heads of phospholipid molecules have the following properties?",
       "options": [
-        "Hydrophilic",
+        "*Hydrophilic",
         "Hyrophobia",
         "Amphiphilic",
         "Non-polarity"
@@ -654,7 +654,7 @@ export const s_2_0 = {
     {
       "question": "Non-polar tails of phospholipid molecules have the following properties?",
       "options": [
-        "Hyrophobia",
+        "*Hyrophobia",
         "Hydrophilic",
         "Amphiphilic",
         "Polarity"
@@ -667,7 +667,7 @@ export const s_2_0 = {
     {
       "question": "Ion that leads to energy production:",
       "options": [
-        "H+",
+        "*H+",
         "Mg2+",
         "Ca2+",
         "Cl-"
@@ -678,7 +678,7 @@ export const s_2_0 = {
     {
       "question": "Regarding macroergic compounds:",
       "options": [
-        "ATP",
+        "*ATP",
         "Glucose 6-phosphate",
         "Fatty acid",
         "Creatinine"
@@ -689,7 +689,7 @@ export const s_2_0 = {
     {
       "question": "The separation of oxidation and phosphorylation causes which of the following?",
       "options": [
-        "An increase in body temperature",
+        "*An increase in body temperature",
         "Hypoxia",
         "Decreased body temperature",
         "Hypovitaminosis"
@@ -700,7 +700,7 @@ export const s_2_0 = {
     {
       "question": "How many macroergic bonds does ATF store?",
       "options": [
-        "Two",
+        "*Two",
         "One",
         "Three",
         "Four"
@@ -711,7 +711,7 @@ export const s_2_0 = {
     {
       "question": "Universal macroergic compound in man:",
       "options": [
-        "ATP",
+        "*ATP",
         "Creatine phosphate",
         "Phosphoenolpyruvate",
         "UTF"
@@ -722,7 +722,7 @@ export const s_2_0 = {
     {
       "question": "How much ATF is produced in the body through oxidative phosphorylation?",
       "options": [
-        "90%",
+        "*90%",
         "100%",
         "75%",
         "50%"
@@ -733,7 +733,7 @@ export const s_2_0 = {
     {
       "question": "Where is the tissue respiratory chain located?",
       "options": [
-        "In the inner membrane of mitochondria",
+        "*In the inner membrane of mitochondria",
         "In the nucleus",
         "In the outer membrane of mitochondria",
         "In the mitochondrial matrix"
@@ -744,7 +744,7 @@ export const s_2_0 = {
     {
       "question": "What group of proteins do cytochromes belong to?",
       "options": [
-        "Hemoprotein",
+        "*Hemoprotein",
         "Lipoprotein",
         "Phospholipid",
         "Glycolipid"
@@ -755,7 +755,7 @@ export const s_2_0 = {
     {
       "question": "In which answer is the sequence of parts of the complete chain of tissue respiration?",
       "options": [
-        "NAD, FMN-CoQ-cytochromes",
+        "*NAD, FMN-CoQ-cytochromes",
         "NAD-NADF-CoQ-cytochromes",
         "FAD - NAD-CoQ-cytochromes",
         "NAD - FMN-CoA cytochromes"
@@ -766,7 +766,7 @@ export const s_2_0 = {
     {
       "question": "In which of the following processes is the synthesis of ATF by oxidative phosphorylation observed?",
       "options": [
-        "Tissue is in the respiratory chain",
+        "*Tissue is in the respiratory chain",
         "In gluconeogenesis",
         "In the synthesis of triglycerides",
         "In glycolysis"
@@ -777,7 +777,7 @@ export const s_2_0 = {
     {
       "question": "Where is the main amount of ATF synthesized in the cell:",
       "options": [
-        "Mitochondria",
+        "*Mitochondria",
         "Endoplasmic reticulum",
         "Cytoplasm",
         "Microsome"
@@ -788,7 +788,7 @@ export const s_2_0 = {
     {
       "question": "Where is the proton gradient formed during tissue respiration?",
       "options": [
-        "In the intermembrane space of mitochondria",
+        "*In the intermembrane space of mitochondria",
         "In the mitochondrial matrix",
         "In the inner membrane",
         "In the outer membrane"
@@ -799,7 +799,7 @@ export const s_2_0 = {
     {
       "question": "Hypothesis explaining the mechanism of oxidative phosphorylation:",
       "options": [
-        "Chemiosmotic",
+        "*Chemiosmotic",
         "Chemical combination",
         "Mechanical-chemical",
         "Conformational compatibility"
@@ -810,7 +810,7 @@ export const s_2_0 = {
     {
       "question": "Which enzyme synthesizes ATF in the oxidation-reduction process?",
       "options": [
-        "ATF synthase",
+        "*ATF synthase",
         "Creatine kinase",
         "Hexokinase",
         "Phosphatase"
@@ -821,7 +821,7 @@ export const s_2_0 = {
     {
       "question": "How much ATF is formed when a pair of electrons is transferred from NADH2 to oxygen during tissue respiration?",
       "options": [
-        "3",
+        "*3",
         "12",
         "2",
         "38"
@@ -832,7 +832,7 @@ export const s_2_0 = {
     {
       "question": "How much ATF is formed when a pair of electrons is transferred from FADH2 to oxygen during tissue respiration?",
       "options": [
-        "2",
+        "*2",
         "12",
         "38",
         "3"
@@ -843,7 +843,7 @@ export const s_2_0 = {
     {
       "question": "Tissue respiratory chain inhibitor:",
       "options": [
-        "Cyanide",
+        "*Cyanide",
         "Pyridine",
         "Flavin",
         "Nicotinamide"
@@ -854,7 +854,7 @@ export const s_2_0 = {
     {
       "question": "Catalyzes the transfer of electrons to oxygen:",
       "options": [
-        "Cytochrome",
+        "*Cytochrome",
         "Superoxide dismutase",
         "Catalase",
         "Peroxidase"
@@ -865,7 +865,7 @@ export const s_2_0 = {
     {
       "question": "Which component of tissue respiration does cyanide inhibit?",
       "options": [
-        "Cytochromoxidase",
+        "*Cytochromoxidase",
         "NADH dehydrogenase",
         "KoQ",
         "Cytochrome b"
@@ -876,7 +876,7 @@ export const s_2_0 = {
     {
       "question": "What enzyme activity decreases in B2 hypovitaminosis:",
       "options": [
-        "Succinate dehydrogenase",
+        "*Succinate dehydrogenase",
         "Malate dehydrogenase",
         "Isocitrate dehydrogenase",
         "Aconitase"
@@ -887,7 +887,7 @@ export const s_2_0 = {
     {
       "question": "Which cytochromes store iron and copper atoms?",
       "options": [
-        "a a3",
+        "*a a3",
         "b",
         "c1",
         "b5"
@@ -898,7 +898,7 @@ export const s_2_0 = {
     {
       "question": "An enzyme related to oxidoreductase:",
       "options": [
-        "Succinate dehydrogenase",
+        "*Succinate dehydrogenase",
         "Aconitase",
         "Fumarase",
         "Amylase"
@@ -909,7 +909,7 @@ export const s_2_0 = {
     {
       "question": "Succinate dehydrogenase coenzyme:",
       "options": [
-        "FAD",
+        "*FAD",
         "TDF",
         "NAD",
         "HSCoA"
@@ -920,7 +920,7 @@ export const s_2_0 = {
     {
       "question": "The specificity of cytochromoxidase construction:",
       "options": [
-        "Hem storage",
+        "*Hem storage",
         "Normal protein",
         "Contains fluoride",
         "Zinc preserves"
@@ -931,7 +931,7 @@ export const s_2_0 = {
     {
       "question": "The role of cytochromes in ETZ:",
       "options": [
-        "Electron transfer",
+        "*Electron transfer",
         "Transfer of protons",
         "Hydrogen transfer",
         "Oxygen transfer"
@@ -942,7 +942,7 @@ export const s_2_0 = {
     {
       "question": "Location of succinate dehydrogenase in the cell:",
       "options": [
-        "Mitochondria",
+        "*Mitochondria",
         "Nuclear membrane",
         "Cytoplasm",
         "Ribosome"
@@ -953,7 +953,7 @@ export const s_2_0 = {
     {
       "question": "Cytochrome 5 in respiratory chain",
       "options": [
-        "a3",
+        "*a3",
         "b5",
         "c2",
         "c3"
@@ -964,7 +964,7 @@ export const s_2_0 = {
     {
       "question": "Enzyme involved in H2O2 detoxification",
       "options": [
-        "Catalase",
+        "*Catalase",
         "Hexokinase",
         "Methemoglobin reductase",
         "Glucokinase"
@@ -975,7 +975,7 @@ export const s_2_0 = {
     {
       "question": "In which answer, the coenzyme cannot be a substrate of the mitochondrial respiratory chain?",
       "options": [
-        "NADPH2;",
+        "*NADPH2;",
         "(FMN)H2;",
         "FADH2;",
         "NADH2"
@@ -986,7 +986,7 @@ export const s_2_0 = {
     {
       "question": "Deficiency of which vitamin decreases the activity of dehydrogenases of the respiratory chain:",
       "options": [
-        "B2 and PP",
+        "*B2 and PP",
         "B6 and B8",
         "B5 and B12",
         "C and B10"
@@ -999,7 +999,7 @@ export const s_2_0 = {
     {
       "question": "Who discovered the tricarboxylic acid cycle?",
       "options": [
-        "Krebs",
+        "*Krebs",
         "Senger",
         "Fisher",
         "Mitchell"
@@ -1010,7 +1010,7 @@ export const s_2_0 = {
     {
       "question": "Where does the three carbonic acid cycle take place in the cell?",
       "options": [
-        "In mitochondria",
+        "*In mitochondria",
         "In the cytoplasm",
         "In the nucleus",
         "In ribosomes"
@@ -1021,7 +1021,7 @@ export const s_2_0 = {
     {
       "question": "Which metabolite is absorbed in the tricarbonic acid cycle?",
       "options": [
-        "Acetyl CoA",
+        "*Acetyl CoA",
         "Pyruvate",
         "Citrate",
         "NADH2"
@@ -1032,7 +1032,7 @@ export const s_2_0 = {
     {
       "question": "Find the enzyme that catalyzes the formation of FADH2 in the tricarboxylic acid cycle?",
       "options": [
-        "Succinate dehydrogenase",
+        "*Succinate dehydrogenase",
         "Succinyl CoA synthase",
         "Isocitrate dehydrogenase",
         "Malate dehydrogenase"
@@ -1043,7 +1043,7 @@ export const s_2_0 = {
     {
       "question": "How many stages does catabolism, i.e. energy generation, consist of?",
       "options": [
-        "3",
+        "*3",
         "4",
         "2",
         "5"
@@ -1054,7 +1054,7 @@ export const s_2_0 = {
     {
       "question": "Identify the coenzyme of the isocitrate dehydrogenase enzyme.",
       "options": [
-        "NAD",
+        "*NAD",
         "FAD",
         "Ubikinon",
         "Cytochrome"
@@ -1065,7 +1065,7 @@ export const s_2_0 = {
     {
       "question": "In which disease does the amount of pyruvic acid in the blood increase?",
       "options": [
-        "Hypovitaminosis B5",
+        "*Hypovitaminosis B5",
         "Obesity",
         "Diabetes",
         "Hypovitaminosis B6"
@@ -1076,7 +1076,7 @@ export const s_2_0 = {
     {
       "question": "The normal amount of pyruvic acid in blood serum:",
       "options": [
-        "56.8 - 113.6 μmol/l",
+        "*56.8 - 113.6 μmol/l",
         "3.3 - 6.4 μmol/l",
         "65 - 85 g/l",
         "333 - 583 mg/l"
@@ -1087,7 +1087,7 @@ export const s_2_0 = {
     {
       "question": "Catabolism is:",
       "options": [
-        "Hydrolysis of biopolymers in the body",
+        "*Hydrolysis of biopolymers in the body",
         "Biosynthesis of complex substances",
         "Creation of new substances with special properties",
         "Consumption of energy in the body"
@@ -1098,7 +1098,7 @@ export const s_2_0 = {
     {
       "question": "Name the first and last metabolite formed in the Krebs cycle?",
       "options": [
-        "Oxaloacetate",
+        "*Oxaloacetate",
         "Acetyl CoA",
         "Citric acid",
         "Carbon dioxide"
@@ -1109,7 +1109,7 @@ export const s_2_0 = {
     {
       "question": "The dysfunction of the pyruvate dehydrogenase complex can be evaluated as follows.",
       "options": [
-        "Increased urinary pyruvate",
+        "*Increased urinary pyruvate",
         "Oxidation disorder of fatty acids",
         "The amount of pyruvate in the urine is reduced",
         "Increased glucose levels"
@@ -1120,7 +1120,7 @@ export const s_2_0 = {
     {
       "question": "What vitamins are lacking in the body when the amount of pyruvic acid in the urine increases?",
       "options": [
-        "B1, B2, B5",
+        "*B1, B2, B5",
         "A and B6",
         "D2 and D3",
         "B6 and B12"
@@ -1131,7 +1131,7 @@ export const s_2_0 = {
     {
       "question": "NADH2 formed during oxidative decarboxylation of pyruvate undergoes the following changes:",
       "options": [
-        "Enters the respiratory chain",
+        "*Enters the respiratory chain",
         "It is used in the synthesis of fatty acids",
         "passes to FADH2",
         "Used in the Krebs cycle"
@@ -1142,7 +1142,7 @@ export const s_2_0 = {
     {
       "question": "How many ATF molecules are formed in the Krebs cycle for the oxidation of α-ketoglutarate to succinyl CoA?",
       "options": [
-        "3 ATF",
+        "*3 ATF",
         "1ATF",
         "12 ATF",
         "2 ATF"
@@ -1153,7 +1153,7 @@ export const s_2_0 = {
     {
       "question": "Define the general path of catabolism.",
       "options": [
-        "Oxidative decarboxylation of pyruvate",
+        "*Oxidative decarboxylation of pyruvate",
         "Fatty acid synthesis",
         "Glycolysis",
         "Hydrolysis of proteins"
@@ -1164,7 +1164,7 @@ export const s_2_0 = {
     {
       "question": "Pyruvic acid is an intermediate metabolic product of all substances except which answer:",
       "options": [
-        "Fatty acids",
+        "*Fatty acids",
         "Hexose",
         "Glycerin",
         "Pentose"
@@ -1175,7 +1175,7 @@ export const s_2_0 = {
     {
       "question": "What is the amount of ATF molecules synthesized when one pyruvate molecule is oxidized to acetyl-CoA:",
       "options": [
-        "3ATF",
+        "*3ATF",
         "1ATF",
         "2ATF",
         "12ATF"
@@ -1186,7 +1186,7 @@ export const s_2_0 = {
     {
       "question": "What is the process of energy release called:",
       "options": [
-        "Catabolism",
+        "*Catabolism",
         "Anabolism",
         "Lipolysis",
         "Hydrolysis"
@@ -1197,7 +1197,7 @@ export const s_2_0 = {
     {
       "question": "Special pathways of metabolism end with the formation of compounds that initiate general pathways. This is:",
       "options": [
-        "Acetyl-CoA",
+        "*Acetyl-CoA",
         "Malonyl-CoA",
         "Succinyl-CoA",
         "Oxaloacetate"
@@ -1208,7 +1208,7 @@ export const s_2_0 = {
     {
       "question": "Where do enzymes of the three carbonic acid cycle (Krebs cycle) take place in the mitochondria?",
       "options": [
-        "In the mitochondrial matrix",
+        "*In the mitochondrial matrix",
         "In the outer membrane",
         "In the intermembrane space",
         "In the inner membrane"
@@ -1219,7 +1219,7 @@ export const s_2_0 = {
     {
       "question": "The Krebs cycle performs an amphibolic function (combination of catabolism and anabolism). What is its catabolic function?",
       "options": [
-        "Acetyl-CoA oxidation",
+        "*Acetyl-CoA oxidation",
         "PUK oxidation",
         "Decomposition of oxaloacetate",
         "Citrate degradation"
@@ -1230,7 +1230,7 @@ export const s_2_0 = {
     {
       "question": "All factors stimulate oxidation processes and ATF production, except which answer:",
       "options": [
-        "H2S, CO, As.",
+        "*H2S, CO, As.",
         "trace elements Fe and Cu;",
         "Mg and P macroelements;",
         "group B vitamins;"
@@ -1241,7 +1241,7 @@ export const s_2_0 = {
     {
       "question": "Oxidative decarboxylation of pyruvic acid (PUK) is catalyzed by a complex multi-enzyme complex with the participation of several functionally linked coenzymes. Show this complex coenzyme:",
       "options": [
-        "TDF, FAD, CoASH, NAD, lipoyl acid",
+        "*TDF, FAD, CoASH, NAD, lipoyl acid",
         "FAD, TGFK, PALF, TDF, choline",
         "NAD, PALF, TDF, methylcobalamin, biopterin",
         "CoASH, FAD, PALF, TGFK, carnitine"
@@ -1252,7 +1252,7 @@ export const s_2_0 = {
     {
       "question": "Glycerin and glucose catabolism are connected through which substance:",
       "options": [
-        "Pyruvate",
+        "*Pyruvate",
         "Lactate",
         "Acetyl CoA",
         "Oxaloacetate"
@@ -1263,7 +1263,7 @@ export const s_2_0 = {
     {
       "question": "Show the main function of the Krebs cycle:",
       "options": [
-        "Hydrogen donor",
+        "*Hydrogen donor",
         "Amphibious",
         "Integrative",
         "Biosynthetic"
@@ -1274,7 +1274,7 @@ export const s_2_0 = {
     {
       "question": "Identify the catabolite pathway common to all bioorganic substances:",
       "options": [
-        "Electronic transport chain",
+        "*Electronic transport chain",
         "Formation of pyruvate",
         "β-oxidation",
         "Anaerobic decomposition"
@@ -1285,7 +1285,7 @@ export const s_2_0 = {
     {
       "question": "PDG complex enzymes involved in oxidative decarboxylation of pyruvic acid (PUK) are correctly given in which answer?",
       "options": [
-        "Decarboxylating pyruvate dehydrogenase, dihydrolipoyltransacetylase, dihydrolipoyldehydrogenase",
+        "*Decarboxylating pyruvate dehydrogenase, dihydrolipoyltransacetylase, dihydrolipoyldehydrogenase",
         "Pyruvate carboxylase, succinyl thiokinase, dihydrolipoylacetyltransferase",
         "Pyruvate kinase, pyruvate carboxylase, pyruvate dehydrogenase",
         "Pyruvate dehydrogenase, Phosphoenolpyruvate-carboxylase, isocitrate dehydrogenase"
@@ -1296,7 +1296,7 @@ export const s_2_0 = {
     {
       "question": "Find the correct answer for the integrative function of the Krebs cycle:",
       "options": [
-        "Linking the catabolism of all substances in one common pathway",
+        "*Linking the catabolism of all substances in one common pathway",
         "Observation of direct substrate phosphorylation in the Krebs ring",
         "Both anabolic and catabolic functions",
         "Use of Krebs cycle metabolites in the synthesis of other substances"
@@ -1307,7 +1307,7 @@ export const s_2_0 = {
     {
       "question": "Krebs cycle inhibitor:",
       "options": [
-        "ATP",
+        "*ATP",
         "ADF",
         "sAMF",
         "GTF"
@@ -1318,7 +1318,7 @@ export const s_2_0 = {
     {
       "question": "The slowest activating enzyme of the Krebs cycle:",
       "options": [
-        "Isocitrate dehydrogenase",
+        "*Isocitrate dehydrogenase",
         "Sirtate synthase",
         "α-ketoglutarate dehydrogenase complex",
         "Succinate dehydrogenase"
@@ -1331,7 +1331,7 @@ export const s_2_0 = {
     {
       "question": "What homopolysaccharides are found in human tissues?",
       "options": [
-        "Glycogen",
+        "*Glycogen",
         "Glucuronic acid",
         "Starch",
         "Cellulose"
@@ -1342,7 +1342,7 @@ export const s_2_0 = {
     {
       "question": "Functions of carbohydrates in the human body?",
       "options": [
-        "Energy",
+        "*Energy",
         "Transportation",
         "Issuer",
         "Protection"
@@ -1353,7 +1353,7 @@ export const s_2_0 = {
     {
       "question": "The amount of carbohydrates in the human body (in % of dry weight)?",
       "options": [
-        "2%",
+        "*2%",
         "5%",
         "10%",
         "50%"
@@ -1364,7 +1364,7 @@ export const s_2_0 = {
     {
       "question": "What percentage of glycogen in the liver reaches:",
       "options": [
-        "6%",
+        "*6%",
         "1%",
         "10%",
         "20%"
@@ -1375,7 +1375,7 @@ export const s_2_0 = {
     {
       "question": "Which carbohydrate acts as the main intracellular energy source?",
       "options": [
-        "Glucose",
+        "*Glucose",
         "Cellulose",
         "Glycogen",
         "Amylopectin"
@@ -1386,7 +1386,7 @@ export const s_2_0 = {
     {
       "question": "What kind of carbohydrates mainly perform a structural function?",
       "options": [
-        "Glycosaminoglycans",
+        "*Glycosaminoglycans",
         "Glycogen",
         "Fructose",
         "Glucuronic acid"
@@ -1397,7 +1397,7 @@ export const s_2_0 = {
     {
       "question": "Which carbohydrate is absorbed in the intestines?",
       "options": [
-        "Fructose",
+        "*Fructose",
         "Lactose",
         "Sucrose",
         "Maltose"
@@ -1408,7 +1408,7 @@ export const s_2_0 = {
     {
       "question": "Salivary amylase hydrolyzes which chemical bond?",
       "options": [
-        "1-4 glycosidic bonds",
+        "*1-4 glycosidic bonds",
         "1-6 glycosidic bonds",
         "Glucose-fructose bond",
         "Peptide bonds"
@@ -1419,7 +1419,7 @@ export const s_2_0 = {
     {
       "question": "It is formed as a result of the breakdown of glycogen:",
       "options": [
-        "Glucose-1-phosphate",
+        "*Glucose-1-phosphate",
         "UDF-glucose",
         "Galactose-1-phosphate",
         "Glucose-6-phosphate"
@@ -1430,7 +1430,7 @@ export const s_2_0 = {
     {
       "question": "Where does the digestion of carbohydrates begin?",
       "options": [
-        "In the oral cavity",
+        "*In the oral cavity",
         "In the stomach",
         "In the duodenum",
         "In the small intestine"
@@ -1441,7 +1441,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following enzymes is involved in the digestion of carbohydrates?",
       "options": [
-        "Amylase",
+        "*Amylase",
         "Pepsin",
         "Glucose-6-phosphatase",
         "Amylo-1,7-glucosidase"
@@ -1452,7 +1452,7 @@ export const s_2_0 = {
     {
       "question": "How is fructose added to metabolism?",
       "options": [
-        "All answers are correct",
+        "*All answers are correct",
         "Fructose turns into 1-phosphate and becomes a substrate of glycolysis",
         "Glucose is converted to 1-phosphate and stored as glycogen",
         "Can participate in the synthesis of triacylglycerols"
@@ -1463,7 +1463,7 @@ export const s_2_0 = {
     {
       "question": "Which process increases in hypoglycemia?",
       "options": [
-        "Gluconeogenesis",
+        "*Gluconeogenesis",
         "Glycolysis",
         "Glycogen synthesis",
         "Pentose phosphate pathway"
@@ -1474,7 +1474,7 @@ export const s_2_0 = {
     {
       "question": "Phosphorylation of glucose is catalyzed by which enzyme?",
       "options": [
-        "Hexokinase",
+        "*Hexokinase",
         "Glucose-6-phosphatase",
         "Phosphorylase",
         "Glucagon"
@@ -1485,7 +1485,7 @@ export const s_2_0 = {
     {
       "question": "In which tissues is glucokinase activity determined?",
       "options": [
-        "Liver",
+        "*Liver",
         "The brain",
         "Myocardium",
         "Kidney"
@@ -1496,7 +1496,7 @@ export const s_2_0 = {
     {
       "question": "Galactosemia is associated with insufficient activity of which enzyme?",
       "options": [
-        "Galactose-1-phosphaturidyltransferase",
+        "*Galactose-1-phosphaturidyltransferase",
         "Fructose-1,6-diphosphatase",
         "Lactose synthetase",
         "Lactase"
@@ -1507,7 +1507,7 @@ export const s_2_0 = {
     {
       "question": "Essential fructosuria is associated with a deficiency of which substance?",
       "options": [
-        "Fructokinase",
+        "*Fructokinase",
         "Phosphofructokinase",
         "Fructose-1-phosphataldolase",
         "Hexokinase"
@@ -1518,7 +1518,7 @@ export const s_2_0 = {
     {
       "question": "Congenital fructose maldigestion is caused by which enzyme defect?",
       "options": [
-        "Fructose-1-phosphataldolase",
+        "*Fructose-1-phosphataldolase",
         "Fructokinase",
         "Phosphofructokinase",
         "Fructose-1,6-diphosphatase"
@@ -1529,7 +1529,7 @@ export const s_2_0 = {
     {
       "question": "Lactose includes:",
       "options": [
-        "Glucose, galactose",
+        "*Glucose, galactose",
         "Fructose, galactose",
         "Sucrose, glucose",
         "Ribose, deoxyribose"
@@ -1540,7 +1540,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following substances cannot be digested in the human body?",
       "options": [
-        "Cellulose",
+        "*Cellulose",
         "Starch",
         "Amylose",
         "Sucrose"
@@ -1551,7 +1551,7 @@ export const s_2_0 = {
     {
       "question": "What is animal starch called?",
       "options": [
-        "Glycogen",
+        "*Glycogen",
         "Homopolysaccharide",
         "Glucosamine",
         "Mucopolysaccharide"
@@ -1562,7 +1562,7 @@ export const s_2_0 = {
     {
       "question": "Find the common name of enzymes that break down carbohydrates?",
       "options": [
-        "Glycosidase",
+        "*Glycosidase",
         "Amylase",
         "Kinase",
         "Hydrolytic protease"
@@ -1573,7 +1573,7 @@ export const s_2_0 = {
     {
       "question": "Why are carbohydrates not digested in the stomach?",
       "options": [
-        "The pH environment of the stomach is not optimal for glycosidases",
+        "*The pH environment of the stomach is not optimal for glycosidases",
         "No enzymes are produced in the stomach",
         "It is related to the fact that the digestive juice of the pancreas does not flow into the stomach",
         "It is also digested in the stomach"
@@ -1584,7 +1584,7 @@ export const s_2_0 = {
     {
       "question": "The function of GLYuT-1 is given correctly in which answer?",
       "options": [
-        "Delivering glucose to brain cells",
+        "*Delivering glucose to brain cells",
         "Bringing glucose into the cell",
         "Glucose transport to fat cells",
         "Control of blood glucose homeostasis"
@@ -1595,7 +1595,7 @@ export const s_2_0 = {
     {
       "question": "Define the mechanism of absorption of glucose from the intestine into the blood.",
       "options": [
-        "Symport",
+        "*Symport",
         "Antiport",
         "In the presence of insulin",
         "γ-glutamyl cycle"
@@ -1606,7 +1606,7 @@ export const s_2_0 = {
     {
       "question": "What is the difference between glucokinase and hexokinase?",
       "options": [
-        "Glucose is not inhibited by 6-phosphate",
+        "*Glucose is not inhibited by 6-phosphate",
         "It is not inhibited by ATF",
         "It is inhibited in high concentration of glucose",
         "Glucokinase phosphorylates glucose, hexokinase phosphorylates galactose"
@@ -1617,7 +1617,7 @@ export const s_2_0 = {
     {
       "question": "Define the substrate of α-amylase.",
       "options": [
-        "Starch",
+        "*Starch",
         "Maltose",
         "Sucrose",
         "Lactose"
@@ -1628,7 +1628,7 @@ export const s_2_0 = {
     {
       "question": "What kind of bond is attached to the long chain of glycogen?",
       "options": [
-        "1-4 glycosides",
+        "*1-4 glycosides",
         "1-6 glycosides",
         "Polypeptide",
         "Amylopectin"
@@ -1639,7 +1639,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following is a disaccharide?",
       "options": [
-        "Lactose",
+        "*Lactose",
         "Galactose",
         "Fructose",
         "Amylopectin"
@@ -1650,7 +1650,7 @@ export const s_2_0 = {
     {
       "question": "Where is amylo-1,6 glucosidase secreted?",
       "options": [
-        "From the pancreas",
+        "*From the pancreas",
         "From the wall of the small intestine",
         "From the duodenum",
         "From the salivary glands"
@@ -1663,7 +1663,7 @@ export const s_2_0 = {
     {
       "question": "Starch that comes with food is hydrolyzed in the gastrointestinal system. What substance is formed as the last product",
       "options": [
-        "Glucose",
+        "*Glucose",
         "Lactose",
         "Galactose",
         "Pyruvate"
@@ -1674,7 +1674,7 @@ export const s_2_0 = {
     {
       "question": "How does glucose enter brain cells:",
       "options": [
-        "Facilitated diffusion",
+        "*Facilitated diffusion",
         "Secondary active transport",
         "With carnitine",
         "Basic active transport"
@@ -1685,7 +1685,7 @@ export const s_2_0 = {
     {
       "question": "Show the metabolite that initiates the aerobic catabolism of glucose:",
       "options": [
-        "Pyruvate",
+        "*Pyruvate",
         "Lactate",
         "Phosphoenolpyruvate",
         "Glucose 6-phosphate"
@@ -1696,7 +1696,7 @@ export const s_2_0 = {
     {
       "question": "How much of the ATP formed when 1 mole of glucose is completely broken down belongs to the Krebs cycle?",
       "options": [
-        "24",
+        "*24",
         "12",
         "36",
         "2"
@@ -1707,7 +1707,7 @@ export const s_2_0 = {
     {
       "question": "Which metabolite is the substrate in the reaction of glycolysis in which NADH2 is formed?",
       "options": [
-        "1,3 diphosphoglycerate",
+        "*1,3 diphosphoglycerate",
         "2 phosphoglycerate",
         "3 phosphoglycerate",
         "Pyruvate"
@@ -1718,7 +1718,7 @@ export const s_2_0 = {
     {
       "question": "How much ATP is used to activate a glucose molecule and split it into two molecules of triose during glycolysis:",
       "options": [
-        "2ATP",
+        "*2ATP",
         "1 ATP",
         "5 ATP",
         "12 ATP"
@@ -1729,7 +1729,7 @@ export const s_2_0 = {
     {
       "question": "How much ATP is synthesized in step 1 of glycolysis?",
       "options": [
-        "ATP is not synthesized",
+        "*ATP is not synthesized",
         "2",
         "6",
         "8"
@@ -1740,7 +1740,7 @@ export const s_2_0 = {
     {
       "question": "Identify the end product of aerobic glycolysis:",
       "options": [
-        "Pyruvate",
+        "*Pyruvate",
         "Lactate",
         "Oxaloacetate",
         "Phosphoenolpyruvate"
@@ -1751,7 +1751,7 @@ export const s_2_0 = {
     {
       "question": "Find the substance formed in the pentose phosphate pathway of glucose oxidation:",
       "options": [
-        "Ribulose-5-phosphate",
+        "*Ribulose-5-phosphate",
         "glucose-6-phosphate",
         "galactose-6-phosphate",
         "mannose-6-phosphate"
@@ -1762,7 +1762,7 @@ export const s_2_0 = {
     {
       "question": "Identify the metabolite of the pentose phosphate pathway:",
       "options": [
-        "6-Phosphogluconolactone",
+        "*6-Phosphogluconolactone",
         "Ribose",
         "Fructose 6-phosphate",
         "UDF-galactose"
@@ -1773,7 +1773,7 @@ export const s_2_0 = {
     {
       "question": "How much ATP is formed during the aerobic oxidation of glucose before PUK:",
       "options": [
-        "6 ATP",
+        "*6 ATP",
         "2 ATP",
         "12 ATP",
         "4 ATP"
@@ -1784,7 +1784,7 @@ export const s_2_0 = {
     {
       "question": "Where does apatomic decay take place?",
       "options": [
-        "In the cytoplasm",
+        "*In the cytoplasm",
         "In the microsome",
         "In mitochondria",
         "In the lysosome"
@@ -1795,7 +1795,7 @@ export const s_2_0 = {
     {
       "question": "Which oxidation product of glucose has the ability to neutralize the products of protein decay?",
       "options": [
-        "Glucuronic acid",
+        "*Glucuronic acid",
         "Hyaluronic acid",
         "Iduronic acid",
         "Glutamic acid"
@@ -1806,7 +1806,7 @@ export const s_2_0 = {
     {
       "question": "In which of these organs is glucose not synthesized by gluconeogenesis?",
       "options": [
-        "The brain",
+        "*The brain",
         "Liver",
         "Kidney shell",
         "There is no correct answer"
@@ -1817,7 +1817,7 @@ export const s_2_0 = {
     {
       "question": "The pentose phosphate pathway is the source of which of the following?:",
       "options": [
-        "NADFH2",
+        "*NADFH2",
         "NADH2",
         "Glucose-6-phosphate",
         "Oxaloacetate"
@@ -1828,7 +1828,7 @@ export const s_2_0 = {
     {
       "question": "Enzyme that catalyzes reaction 1 of gluconeogenesis:",
       "options": [
-        "Pyruvate carboxylase",
+        "*Pyruvate carboxylase",
         "Phosphoenolpyruvate-carboxylase",
         "Pyruvate kinase",
         "Glucose 6-phosphatase"
@@ -1839,7 +1839,7 @@ export const s_2_0 = {
     {
       "question": "The enzyme catalyzes the exchange of glucose-1-phosphate and glucose-6-phosphate:",
       "options": [
-        "Phosphoglucomutase",
+        "*Phosphoglucomutase",
         "Glucose-6-phosphatase",
         "Glucose-6-phosphate isomerase",
         "Aldolase"
@@ -1850,7 +1850,7 @@ export const s_2_0 = {
     {
       "question": "Where does anaerobic glycolysis take place in the cell?",
       "options": [
-        "Cytoplasm",
+        "*Cytoplasm",
         "Core",
         "Mitochondria",
         "Ribosomes"
@@ -1861,7 +1861,7 @@ export const s_2_0 = {
     {
       "question": "Find the enzyme that catalyzes one of the irreversible reactions of glycolysis?",
       "options": [
-        "Phosphofructokinase",
+        "*Phosphofructokinase",
         "Aldolase",
         "Enolase",
         "Lactate dehydrogenase"
@@ -1872,7 +1872,7 @@ export const s_2_0 = {
     {
       "question": "End product of anaerobic glycolysis?",
       "options": [
-        "Lactate",
+        "*Lactate",
         "Pyruvate",
         "Phosphoenolpyruvate",
         "Acetyl-CoA"
@@ -1883,7 +1883,7 @@ export const s_2_0 = {
     {
       "question": "Biotin is a coenzyme of which process:",
       "options": [
-        "Gluconeogenesis",
+        "*Gluconeogenesis",
         "Ketogenesis",
         "Glycogenolysis",
         "Lipolysis"
@@ -1894,7 +1894,7 @@ export const s_2_0 = {
     {
       "question": "What is the process of glycogenolysis?",
       "options": [
-        "Anaerobic breakdown of glycogen",
+        "*Anaerobic breakdown of glycogen",
         "Glucose oxidation in muscles and brain",
         "Glycogen synthesis in the liver, muscles",
         "Lipogenesis in adipose tissue"
@@ -1905,7 +1905,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following substances is excluded for gluconeogenesis:",
       "options": [
-        "Nucleotides",
+        "*Nucleotides",
         "Pyruvate and lactate",
         "Glycogen-type amino acids",
         "Glycerin"
@@ -1916,7 +1916,7 @@ export const s_2_0 = {
     {
       "question": "Name the enzyme that initiates glycolysis:",
       "options": [
-        "Hexokinase",
+        "*Hexokinase",
         "Phosphofructokinase",
         "Glucose 6-phosphate isomerase",
         "Glucokinase"
@@ -1927,7 +1927,7 @@ export const s_2_0 = {
     {
       "question": "Name the enzyme characteristic of gluconeogenesis:",
       "options": [
-        "Phosphoenolpyruvate-carboxylase",
+        "*Phosphoenolpyruvate-carboxylase",
         "Hexokinase",
         "Glucokinase",
         "Pyruvate carboxylase"
@@ -1938,7 +1938,7 @@ export const s_2_0 = {
     {
       "question": "Determine the characteristic response for the Cori cycle:",
       "options": [
-        "Interdependence of anaerobic glycolysis and gluconeogenesis",
+        "*Interdependence of anaerobic glycolysis and gluconeogenesis",
         "Formation of lactate in muscles without the participation of oxygen",
         "Glycogen synthesis in the liver, muscles",
         "New synthesis of glucose"
@@ -1949,7 +1949,7 @@ export const s_2_0 = {
     {
       "question": "Determine the characteristic response for gluconeogenesis:",
       "options": [
-        "Synthesis of glucose from non-carbohydrate substances",
+        "*Synthesis of glucose from non-carbohydrate substances",
         "Glucose oxidation in muscles and brain",
         "Glycogen synthesis in the liver, muscles",
         "Interdependence of anaerobic glycolysis and gluconeogenesis"
@@ -1960,7 +1960,7 @@ export const s_2_0 = {
     {
       "question": "Anaerobic glycolysis always occurs:",
       "options": [
-        "In erythrocytes",
+        "*In erythrocytes",
         "In brain tissues",
         "In the muscles",
         "The kidney is in the hypothalamus"
@@ -1971,7 +1971,7 @@ export const s_2_0 = {
     {
       "question": "Negative allosteric modifier of pyruvate kinase enzyme:",
       "options": [
-        "Alanine",
+        "*Alanine",
         "Citrate",
         "Biotin",
         "Pyruvate"
@@ -1982,7 +1982,7 @@ export const s_2_0 = {
     {
       "question": "Biotin can be a coenzyme for which of the following enzymes:",
       "options": [
-        "Phosphoenolpyruvate-carboxylase",
+        "*Phosphoenolpyruvate-carboxylase",
         "Hexokinase",
         "Glucose 6-phosphatase",
         "Pyruvate kinase"
@@ -1995,7 +1995,7 @@ export const s_2_0 = {
     {
       "question": "A specific enzyme that catalyzes the phosphorylation of fructose:",
       "options": [
-        "Fructokinase",
+        "*Fructokinase",
         "Phosphofructokinase",
         "Fructose 1,6 biphosphatase",
         "Fructose 1-phosphate aldolase"
@@ -2006,7 +2006,7 @@ export const s_2_0 = {
     {
       "question": "The process that increases the amount of glucose in the blood is…..:",
       "options": [
-        "Glucogenesis in the liver",
+        "*Glucogenesis in the liver",
         "Glucose oxidation in muscles and brain",
         "Glycogen synthesis in the liver, muscles",
         "Lipogenesis in adipose tissue"
@@ -2017,7 +2017,7 @@ export const s_2_0 = {
     {
       "question": "The value of the kidney threshold for glucose:",
       "options": [
-        "8-10 mmol/l",
+        "*8-10 mmol/l",
         "10-15 mmol/l",
         "2-3 mmol/l",
         "15-20 mmol/l"
@@ -2028,7 +2028,7 @@ export const s_2_0 = {
     {
       "question": "Which substance stimulates the concentration of glucose in cells through passive transport?",
       "options": [
-        "Insulin",
+        "*Insulin",
         "Glucone",
         "Adrenaline",
         "GKS"
@@ -2039,7 +2039,7 @@ export const s_2_0 = {
     {
       "question": "Which enzyme catalyzes the step of fructose metabolism to glycolysis?",
       "options": [
-        "Fructose 1-phosphate aldolase",
+        "*Fructose 1-phosphate aldolase",
         "Fructokinase",
         "Glucose 6-phosphate isomerase",
         "Phosphofructokinase"
@@ -2050,7 +2050,7 @@ export const s_2_0 = {
     {
       "question": "Identify the metabolite of fructose metabolism that connects to glycolysis:",
       "options": [
-        "Dihydroxyacetone phosphate",
+        "*Dihydroxyacetone phosphate",
         "Fructose 1-phosphate",
         "glyceraldehyde",
         "Glucose 6-phosphate"
@@ -2061,7 +2061,7 @@ export const s_2_0 = {
     {
       "question": "What factors activate glycogen breakdown?",
       "options": [
-        "Adrenaline",
+        "*Adrenaline",
         "Norepinephrine",
         "Insulin",
         "Glucose"
@@ -2072,7 +2072,7 @@ export const s_2_0 = {
     {
       "question": "An enzyme that catalyzes the synthesis of glycerolaldehyde phosphate from glycerolaldehyde:",
       "options": [
-        "Thiokinase",
+        "*Thiokinase",
         "Glycerolaldehyde dehydrogenase",
         "Phosphotriose isomerase",
         "Phosphoglycerate mutase"
@@ -2083,7 +2083,7 @@ export const s_2_0 = {
     {
       "question": "Glycogenosis is:",
       "options": [
-        "Disorders of glycogen breakdown",
+        "*Disorders of glycogen breakdown",
         "Glucose absorption disorder",
         "Violation of insulin synthesis",
         "Disruption of glucose synthesis"
@@ -2093,14 +2093,19 @@ export const s_2_0 = {
     },
     {
       "question": "Which of the enzymes of glycolysis is controlled by insulin?",
-      "options": ["fructoze", "Hexokinase", "Phosphohexoisomerase", "Aldolase"],
+      "options": [
+        "*fructoze",
+        "Hexokinase",
+        "Phosphohexoisomerase",
+        "Aldolase"
+      ],
       "correctIndex": 0,
       "explanation": "According to the official exam key, fructoze is marked as the correct response."
     },
     {
       "question": "Inherited fructose intolerance is associated with which enzyme defect?",
       "options": [
-        "Fructose phosphate aldolase",
+        "*Fructose phosphate aldolase",
         "Phosphofructokinase",
         "Fructose 1,6-bisphosphatase",
         "Phosphorylase"
@@ -2111,7 +2116,7 @@ export const s_2_0 = {
     {
       "question": "An enzyme that catalyzes the conversion of UDF-galactose to UDF-glucose:",
       "options": [
-        "Epimerase",
+        "*Epimerase",
         "Isomerase",
         "Mutaza",
         "Transferase"
@@ -2122,7 +2127,7 @@ export const s_2_0 = {
     {
       "question": "Define the disease caused by a genetic defect of the GALT enzyme:",
       "options": [
-        "Galactosemia",
+        "*Galactosemia",
         "Type 1 diabetes",
         "Hereditary lactose intolerance",
         "Gierke's disease"
@@ -2133,7 +2138,7 @@ export const s_2_0 = {
     {
       "question": "Hypolactasia is caused by the defect of which enzyme?",
       "options": [
-        "Lactase",
+        "*Lactase",
         "Galactokinase",
         "Uridylphosphate-4-epimerase",
         "GALT"
@@ -2144,7 +2149,7 @@ export const s_2_0 = {
     {
       "question": "Define the characteristic feature of galactose metabolism:",
       "options": [
-        "Contains glycogen",
+        "*Contains glycogen",
         "Glucose is converted to 6-phosphate",
         "It breaks down in the apotomic pathway",
         "It serves as a source of pentoses"
@@ -2155,7 +2160,7 @@ export const s_2_0 = {
     {
       "question": "Which disease occurs when the amount of glucose in the blood increases?",
       "options": [
-        "Diabetes mellitus",
+        "*Diabetes mellitus",
         "Gastric ulcer and duodenal ulcer",
         "Galactosemia",
         "Cataract"
@@ -2166,7 +2171,7 @@ export const s_2_0 = {
     {
       "question": "Which enzyme of gluconeogenesis is located in mitochondria?",
       "options": [
-        "Pyruvate carboxylase",
+        "*Pyruvate carboxylase",
         "Lactate dehydrogenase",
         "Glucose-6-phosphatase",
         "All enzymes"
@@ -2177,7 +2182,7 @@ export const s_2_0 = {
     {
       "question": "When does hereditary fructose intolerance appear?",
       "options": [
-        "When sucrose products are included in the diet",
+        "*When sucrose products are included in the diet",
         "Immediately after birth",
         "When consuming mother's milk for the first time",
         "3-4 years old"
@@ -2188,7 +2193,7 @@ export const s_2_0 = {
     {
       "question": "An enzyme that catalyzes the formation of galactylol:",
       "options": [
-        "Galactose aldoreductase",
+        "*Galactose aldoreductase",
         "Galactose 1-phosphaturidyltransferase",
         "Galactokinase",
         "Uridylphosphate-4-epimerase"
@@ -2199,7 +2204,7 @@ export const s_2_0 = {
     {
       "question": "Galactylol causes:",
       "options": [
-        "Cataract",
+        "*Cataract",
         "Vomiting",
         "Diarrhea",
         "Diabetes"
@@ -2210,7 +2215,7 @@ export const s_2_0 = {
     {
       "question": "Which type of diabetes does not require insulin therapy:",
       "options": [
-        "Type 2",
+        "*Type 2",
         "Type 1",
         "Gestational diabetes",
         "Autoimmune type"
@@ -2221,7 +2226,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following is observed in diabetes mellitus:",
       "options": [
-        "Damage to hexokinases",
+        "*Damage to hexokinases",
         "Increased apatomic fragmentation",
         "Decreased gluconeogenesis",
         "Activation of glycogen synthetase"
@@ -2232,7 +2237,7 @@ export const s_2_0 = {
     {
       "question": "Disruption of lipid metabolism in diabetes can be explained by the following situation:",
       "options": [
-        "Lipolysis increases",
+        "*Lipolysis increases",
         "The synthesis of fatty acids slows down",
         "Accumulation of fat in adipocytes increases",
         "Ketone bodies are depleted"
@@ -2243,7 +2248,7 @@ export const s_2_0 = {
     {
       "question": "Name the substance involved in glucose homeostasis:",
       "options": [
-        "All answers are correct",
+        "*All answers are correct",
         "Insulin",
         "Adrenaline",
         "Cortisol"
@@ -2254,7 +2259,7 @@ export const s_2_0 = {
     {
       "question": "Identify the metabolite that initiates the pentose phosphate cycle and returns to the cycle:",
       "options": [
-        "Glucose 6-phosphate",
+        "*Glucose 6-phosphate",
         "Ribulose 6-phosphate",
         "Glucose",
         "Galactose 1-phosphate"
@@ -2265,7 +2270,7 @@ export const s_2_0 = {
     {
       "question": "Phosphorylase stimulating factor:",
       "options": [
-        "Adrenaline",
+        "*Adrenaline",
         "Insulin",
         "Glycogen",
         "High concentration of ATP"
@@ -2276,7 +2281,7 @@ export const s_2_0 = {
     {
       "question": "Which enzyme causes low glutathione concentration in erythrocytes:",
       "options": [
-        "Glucose 6-phosphate dehydrogenase",
+        "*Glucose 6-phosphate dehydrogenase",
         "Glucose 6-phosphatase",
         "Glucose 6-phosphate isomerase",
         "Gluconolactone hydratase"
@@ -2287,7 +2292,7 @@ export const s_2_0 = {
     {
       "question": "Which type of diabetes is caused by autoimmune damage of β-cells of the pancreas:",
       "options": [
-        "Type 1",
+        "*Type 1",
         "Type 2",
         "Gestational diabetes",
         "Acquired diabetes"
@@ -2298,7 +2303,7 @@ export const s_2_0 = {
     {
       "question": "What is glucosuria?",
       "options": [
-        "Excretion of glucose with urine",
+        "*Excretion of glucose with urine",
         "High concentration of glucose in the blood",
         "Low concentration of glucose in the blood",
         "Inability of glucose to enter the cell"
@@ -2309,7 +2314,7 @@ export const s_2_0 = {
     {
       "question": "Which type of diabetes is without ketoacidosis?",
       "options": [
-        "Non-insulin dependent",
+        "*Non-insulin dependent",
         "In insulin-dependent diabetes",
         "In hereditary diabetes",
         "In genetic tolerance to glucose"
@@ -2322,7 +2327,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following is not a function of lipids?",
       "options": [
-        "Formation of blood groups",
+        "*Formation of blood groups",
         "Transmission of nerve impulses",
         "Keeping the membrane in a liquid state",
         "Participates in the absorption of vitamins"
@@ -2333,7 +2338,7 @@ export const s_2_0 = {
     {
       "question": "Define unsaturated fatty acid?",
       "options": [
-        "Nervous",
+        "*Nervous",
         "Arachnid",
         "Beginate",
         "Miristin"
@@ -2344,7 +2349,7 @@ export const s_2_0 = {
     {
       "question": "Find an essential fatty acid?",
       "options": [
-        "Linol",
+        "*Linol",
         "Arachidon",
         "Olein",
         "Neuronate"
@@ -2355,7 +2360,7 @@ export const s_2_0 = {
     {
       "question": "Define the source of essential fatty acids?",
       "options": [
-        "Fish oil",
+        "*Fish oil",
         "Animal fat",
         "Dairy products",
         "Eggs and poultry products"
@@ -2366,7 +2371,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following is included in glycerophospholipids?",
       "options": [
-        "Cardiolipin",
+        "*Cardiolipin",
         "Ceramide",
         "Sphingosine",
         "Globoside"
@@ -2377,7 +2382,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following substances contains a cyclopentaneoperhydrophenanthrene ring?",
       "options": [
-        "Glycocholate",
+        "*Glycocholate",
         "Lecithin",
         "Taurine",
         "Plasmalogen"
@@ -2388,7 +2393,7 @@ export const s_2_0 = {
     {
       "question": "Bile acids in bile are combined with:",
       "options": [
-        "Glycine and Taurine",
+        "*Glycine and Taurine",
         "Bilirubin",
         "Glycine and Alanine",
         "Taurine and Valine"
@@ -2399,7 +2404,7 @@ export const s_2_0 = {
     {
       "question": "Bile acids are metabolic products of:",
       "options": [
-        "Cholesterol",
+        "*Cholesterol",
         "Phospholipids",
         "Triglycerides",
         "Cerebrosides"
@@ -2410,7 +2415,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following is a bile acid?",
       "options": [
-        "Status",
+        "*Status",
         "Arachidon",
         "Olein",
         "Miristin"
@@ -2421,7 +2426,7 @@ export const s_2_0 = {
     {
       "question": "The appearance of lysophospholipids in the intestine is related to the following.",
       "options": [
-        "Phospholipase A2",
+        "*Phospholipase A2",
         "Phospholipase A1",
         "Phospholipase C",
         "Phospholipase D."
@@ -2432,7 +2437,7 @@ export const s_2_0 = {
     {
       "question": "The main endogenous lipids that the body uses as alternative \"fuel\" are:",
       "options": [
-        "Triacylglycerols of adipose tissue",
+        "*Triacylglycerols of adipose tissue",
         "Phospholipids",
         "Membrane triacylglycerols",
         "Cytoplasmic triacylglycerols"
@@ -2443,7 +2448,7 @@ export const s_2_0 = {
     {
       "question": "Bile must be present in the small intestine for fat emulsification, digestion and absorption. What components of bile are involved in these processes?",
       "options": [
-        "Hydroxylated and conjugated cholanic acids",
+        "*Hydroxylated and conjugated cholanic acids",
         "HCl acid and acidic pH environment",
         "Conjugated bilirubin",
         "Hydroxylated cholesterol"
@@ -2454,7 +2459,7 @@ export const s_2_0 = {
     {
       "question": "What substances mainly form gallstones?",
       "options": [
-        "Bilirubin, cholesterol",
+        "*Bilirubin, cholesterol",
         "Oxalate, chlorides",
         "Urates, ammonium salts",
         "Sulfates, hydrocarbons"
@@ -2465,7 +2470,7 @@ export const s_2_0 = {
     {
       "question": "Primary substrates in fat resynthesis in enterocytes:",
       "options": [
-        "Monoacylglycerols, acyl-CoA",
+        "*Monoacylglycerols, acyl-CoA",
         "Glycerin, acetyl-CoA",
         "Dioxyacetone phosphate, acyl-CoA",
         "Glyceraldehyde phosphate, acyl-CoA"
@@ -2476,7 +2481,7 @@ export const s_2_0 = {
     {
       "question": "Which bile acid helps dissolve gallstones?",
       "options": [
-        "Xenodeoxycholate",
+        "*Xenodeoxycholate",
         "Glycocholate",
         "Deoxycholate",
         "Taurine"
@@ -2487,7 +2492,7 @@ export const s_2_0 = {
     {
       "question": "The component of lipids, which is the energy substrate of the body?",
       "options": [
-        "Glycerin",
+        "*Glycerin",
         "Inositol",
         "Cholesterol",
         "None of the named components"
@@ -2498,7 +2503,7 @@ export const s_2_0 = {
     {
       "question": "Among the various representatives of lipids there are polar and non-polar. The most polar properties are expressed in the following compounds:",
       "options": [
-        "Phosphoglycerides",
+        "*Phosphoglycerides",
         "Free fatty acids",
         "Triacylglycerol",
         "Sterol"
@@ -2509,7 +2514,7 @@ export const s_2_0 = {
     {
       "question": "State the name of the following compound: S15N31SOSKoA",
       "options": [
-        "Palmityl CoA",
+        "*Palmityl CoA",
         "Glutaryl CoA",
         "Succinyl CoA",
         "Palmitoleyl CoA"
@@ -2520,7 +2525,7 @@ export const s_2_0 = {
     {
       "question": "The reason why the patient has nausea, heartburn, and steatorrhea after eating fatty foods:",
       "options": [
-        "Disturbance of synthesis and conjugation of bile acids",
+        "*Disturbance of synthesis and conjugation of bile acids",
         "Violation of synthesis of trypsin, chymotrypsin",
         "Decreased activity of gastric lipase",
         "Violation of the formation of choline complexes"
@@ -2531,7 +2536,7 @@ export const s_2_0 = {
     {
       "question": "How much endogenous water is released during complete oxidation of 100 grams of fat to final products?",
       "options": [
-        "107 ml",
+        "*107 ml",
         "30 ml",
         "150 ml",
         "83 m"
@@ -2542,7 +2547,7 @@ export const s_2_0 = {
     {
       "question": "Hydrolysis of triglyceride in the intestinal cavity is catalyzed by which enzyme?",
       "options": [
-        "Lipases",
+        "*Lipases",
         "Transacylase",
         "Phospholipases",
         "Acetylcholinesterase"
@@ -2553,7 +2558,7 @@ export const s_2_0 = {
     {
       "question": "Find a substance that belongs to steroids?",
       "options": [
-        "deoxycholate",
+        "*deoxycholate",
         "Taurine",
         "Ganglioside",
         "Neuronic acid"
@@ -2564,7 +2569,7 @@ export const s_2_0 = {
     {
       "question": "Determine the function of bile acids?",
       "options": [
-        "All answers are correct",
+        "*All answers are correct",
         "Emulsification of oils",
         "Activation of lipase",
         "Micelle formation"
@@ -2575,7 +2580,7 @@ export const s_2_0 = {
     {
       "question": "Where does fat digestion begin?",
       "options": [
-        "Duodenum",
+        "*Duodenum",
         "Colon",
         "Stomach",
         "Small intestine"
@@ -2586,7 +2591,7 @@ export const s_2_0 = {
     {
       "question": "Where is monoglyceride lipase produced?",
       "options": [
-        "In the intestinal mucosa",
+        "*In the intestinal mucosa",
         "The duodenum is on the intestinal wall",
         "In the pancreas",
         "In the liver"
@@ -2597,7 +2602,7 @@ export const s_2_0 = {
     {
       "question": "Where is diglyceride lipase synthesized?",
       "options": [
-        "In the pancreas",
+        "*In the pancreas",
         "The duodenum is on the intestinal wall",
         "In the intestinal mucosa",
         "In the liver"
@@ -2608,7 +2613,7 @@ export const s_2_0 = {
     {
       "question": "Substrate of phospholipase A1?",
       "options": [
-        "Ether bond on the first C atom of glycerol",
+        "*Ether bond on the first C atom of glycerol",
         "Ether bond on the second C atom of glycerol",
         "The bond between the third C atom of glycerol and the phosphoric acid residue",
         "The bond between phosphoric acid and nitrogen base"
@@ -2619,7 +2624,7 @@ export const s_2_0 = {
     {
       "question": "Which enzyme in snake venom causes hemolysis of erythrocytes?",
       "options": [
-        "Phospholipase A2",
+        "*Phospholipase A2",
         "Phospholipase A1",
         "Lecithincholine acetyltransferase",
         "Cholesterolesterase"
@@ -2630,7 +2635,7 @@ export const s_2_0 = {
     {
       "question": "Determine the transport of fats in the blood?",
       "options": [
-        "Chylomicron",
+        "*Chylomicron",
         "Carnitine",
         "Cholesterol",
         "Transferases"
@@ -2641,7 +2646,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following processes can be disturbed if fats are not consumed enough?",
       "options": [
-        "Absorption of certain vitamins",
+        "*Absorption of certain vitamins",
         "Bile acid synthesis",
         "Activation of lipase",
         "Gluconeogenesis"
@@ -2654,7 +2659,7 @@ export const s_2_0 = {
     {
       "question": "High fatty acids are transported from hyaloplasm to mitochondria using:",
       "options": [
-        "Carnitine",
+        "*Carnitine",
         "Malate",
         "Oxalate",
         "Cholesterol"
@@ -2665,7 +2670,7 @@ export const s_2_0 = {
     {
       "question": "Where in the cell does fatty acid chain elongation occur?",
       "options": [
-        "Cytoplasm",
+        "*Cytoplasm",
         "Lysosomes",
         "Mitochondria",
         "Ribosomes"
@@ -2676,7 +2681,7 @@ export const s_2_0 = {
     {
       "question": "Where does the synthesis of palmitic acid take place in the cell?",
       "options": [
-        "Cytoplasm",
+        "*Cytoplasm",
         "Core",
         "Mitochondria",
         "Microsomes"
@@ -2687,7 +2692,7 @@ export const s_2_0 = {
     {
       "question": "The following coenzymes, which contain vitamins, participate in the β-oxidation of fatty acids:",
       "options": [
-        "FAD (B2), NAD (B5)",
+        "*FAD (B2), NAD (B5)",
         "FAD (B2), TDF (B1)",
         "NAD (B6), sAMF",
         "NAD (B5), TDFK (B10)"
@@ -2698,7 +2703,7 @@ export const s_2_0 = {
     {
       "question": "As a result of which reactions, the largest amount of acetyl-CoA appears in the mitochondria?",
       "options": [
-        "β-oxidation of fatty acids",
+        "*β-oxidation of fatty acids",
         "Oxidative decarboxylation α-ketoglutarate",
         "Oxidation of glucose to CO2 and H2O",
         "Conversion of succinyl-CoA to succinate"
@@ -2709,7 +2714,7 @@ export const s_2_0 = {
     {
       "question": "The entry of glycerol into metabolic processes in the body begins with the following reaction:",
       "options": [
-        "Phosphorylation",
+        "*Phosphorylation",
         "Dehydrogenation",
         "Hydroxylation",
         "Conjugation"
@@ -2720,7 +2725,7 @@ export const s_2_0 = {
     {
       "question": "High fatty acids in the body are broken down mainly as a result of the following processes.",
       "options": [
-        "Beta - oxidation",
+        "*Beta - oxidation",
         "Hydrolysis",
         "Peroxidation",
         "Alpha - oxidation"
@@ -2731,7 +2736,7 @@ export const s_2_0 = {
     {
       "question": "Ketone bodies include:",
       "options": [
-        "Acetoacetate, β-hydroxybutyrate, acetone",
+        "*Acetoacetate, β-hydroxybutyrate, acetone",
         "Acetoacetate, succinate, acetone",
         "Acetone, fumarate, A-hydroxybutyrate",
         "D-hydroxybutyrate, malate, acetoacetate"
@@ -2742,7 +2747,7 @@ export const s_2_0 = {
     {
       "question": "Fatty acids are oxidized only aerobically. Name the organ in which fatty acids are the main energy substrate:",
       "options": [
-        "Heart",
+        "*Heart",
         "Kidney",
         "Liver",
         "The brain"
@@ -2753,7 +2758,7 @@ export const s_2_0 = {
     {
       "question": "In what way is the transfer of fatty acids through mitochondrial membranes?",
       "options": [
-        "Facilitated diffusion",
+        "*Facilitated diffusion",
         "Normal diffusion",
         "Primary active transport",
         "Secondary active transport"
@@ -2764,7 +2769,7 @@ export const s_2_0 = {
     {
       "question": "What coenzyme is needed for the synthesis of high fatty acids?",
       "options": [
-        "NADFH",
+        "*NADFH",
         "FMN",
         "TDF",
         "TGFK"
@@ -2775,7 +2780,7 @@ export const s_2_0 = {
     {
       "question": "Which product of β-oxidation of fatty acids is broken down into 2 molecules of acetyl-CoA?",
       "options": [
-        "Butyryl-CoA",
+        "*Butyryl-CoA",
         "Propionyl-CoA",
         "Malonyl-CoA",
         "Enoyl-CoA"
@@ -2786,7 +2791,7 @@ export const s_2_0 = {
     {
       "question": "Where are ketone bodies formed:",
       "options": [
-        "Liver",
+        "*Liver",
         "Muscle",
         "Heart",
         "Kidney"
@@ -2797,7 +2802,7 @@ export const s_2_0 = {
     {
       "question": "The norm of ketone bodies in the blood of a healthy person:",
       "options": [
-        "30 mg/l",
+        "*30 mg/l",
         "50 mg/l",
         "10 mg/l",
         "100 mg/l"
@@ -2808,7 +2813,7 @@ export const s_2_0 = {
     {
       "question": "Taking into account the energy consumption, how much energy is generated during the anaerobic oxidation of glycerol to lactic acid?",
       "options": [
-        "1 mole. ATP",
+        "*1 mole. ATP",
         "2 moles. ATP",
         "9 moles. ATP",
         "6 moles. ATP"
@@ -2819,7 +2824,7 @@ export const s_2_0 = {
     {
       "question": "Taking into account the energy consumption, how much energy is generated during the oxidation of glycerol to CO2 and H2O under aerobic conditions?",
       "options": [
-        "22 moles. ATP",
+        "*22 moles. ATP",
         "1 mole. ATP",
         "3 moles. ATP",
         "15 moles. ATP"
@@ -2830,7 +2835,7 @@ export const s_2_0 = {
     {
       "question": "Flooding of hepatocyte cytoplasm with triacylglycerols leads to:",
       "options": [
-        "Fatty infiltration of the liver",
+        "*Fatty infiltration of the liver",
         "Lipidosis",
         "Hypocholesterolemia",
         "Atherosclerosis"
@@ -2841,7 +2846,7 @@ export const s_2_0 = {
     {
       "question": "Many fatty acids undergo β-oxidation. How many reactions does one oxidation cycle involve and what is its energetic effect?",
       "options": [
-        "4 reactions (5 ATP)",
+        "*4 reactions (5 ATP)",
         "2 reactions (2 ATP)",
         "4 reactions (6 ATP)",
         "6 reactions (12 ATP)"
@@ -2852,7 +2857,7 @@ export const s_2_0 = {
     {
       "question": "A hormone that enhances the breakdown of intracellular fats:",
       "options": [
-        "Adrenaline",
+        "*Adrenaline",
         "Insulin",
         "Steroid hormones",
         "Thyroxine"
@@ -2863,7 +2868,7 @@ export const s_2_0 = {
     {
       "question": "Where do fats resynthesized in enterocytes and included in chylomicrons fall first:",
       "options": [
-        "into the lymph",
+        "*into the lymph",
         "To nerve cells",
         "To the liver",
         "To adipose tissue"
@@ -2874,7 +2879,7 @@ export const s_2_0 = {
     {
       "question": "In the process of biosynthesis, the fatty acid chain is lengthened by several carbon atoms in one cycle:",
       "options": [
-        "2",
+        "*2",
         "3",
         "1",
         "5"
@@ -2885,7 +2890,7 @@ export const s_2_0 = {
     {
       "question": "Indicate under what conditions the rate of synthesis of fatty acids in the body increases:",
       "options": [
-        "As the amount of glucose in the body increases",
+        "*As the amount of glucose in the body increases",
         "With a decrease in insulin secretion",
         "With a decrease in glucose concentration",
         "With an extended protein diet"
@@ -2896,7 +2901,7 @@ export const s_2_0 = {
     {
       "question": "The bite of poisonous snakes is dangerous, because when their poison gets into the blood, it can cause severe hemolysis of erythrocytes and death. What enzymes are in the poison and what substances cause hemolysis?",
       "options": [
-        "Phospholipase A2, lysophosphatidylcholine",
+        "*Phospholipase A2, lysophosphatidylcholine",
         "Phospholipase C, hirudin",
         "Phospholipase A2, lysoacylglycerol",
         "Lipase, monoacylglycerols"
@@ -2907,7 +2912,7 @@ export const s_2_0 = {
     {
       "question": "What are ketone bodies synthesized in the liver?",
       "options": [
-        "Acetyl CoA",
+        "*Acetyl CoA",
         "Acyl-CoA",
         "Propionyl-CoA",
         "Succinyl-CoA"
@@ -2918,7 +2923,7 @@ export const s_2_0 = {
     {
       "question": "As a result of hyperketonemia, the following condition occurs:",
       "options": [
-        "Acidosis",
+        "*Acidosis",
         "General obesity",
         "Depression",
         "Atherosclerosis"
@@ -2929,7 +2934,7 @@ export const s_2_0 = {
     {
       "question": "In the absence of the enzyme acetyl-CoA-carboxylase, what process of lipid metabolism is disturbed?",
       "options": [
-        "Biosynthesis of fatty acids",
+        "*Biosynthesis of fatty acids",
         "Beta oxidation",
         "Synthesis of phospholipids",
         "Ketogenesis"
@@ -2940,7 +2945,7 @@ export const s_2_0 = {
     {
       "question": "Arachidonic acid:",
       "options": [
-        "is β-oxidized",
+        "*is β-oxidized",
         "is β-decarboxylated",
         "is a-oxidized",
         "γ-oxidized"
@@ -2951,7 +2956,7 @@ export const s_2_0 = {
     {
       "question": "Ketoacidosis in diabetes is caused by the lack of which substance:",
       "options": [
-        "Oxaloacetate",
+        "*Oxaloacetate",
         "Glucose",
         "Acetyl CoA",
         "Fatty acids"
@@ -2962,7 +2967,7 @@ export const s_2_0 = {
     {
       "question": "Show the number of complete β-oxidation cycles of stearic acid:",
       "options": [
-        "8",
+        "*8",
         "5",
         "7",
         "9"
@@ -2973,7 +2978,7 @@ export const s_2_0 = {
     {
       "question": "What is the mechanism of breakdown of intracellular fats under the influence of adrenaline called:",
       "options": [
-        "Shalola",
+        "*Shalola",
         "Ping-pong",
         "Cyclic",
         "Linear"
@@ -2986,7 +2991,7 @@ export const s_2_0 = {
     {
       "question": "Name the compound that is a derivative of cholesterol synthesized in the skin:",
       "options": [
-        "Cholecalciferol",
+        "*Cholecalciferol",
         "Choline acid",
         "Kholin",
         "Ergocalciferol"
@@ -2997,7 +3002,7 @@ export const s_2_0 = {
     {
       "question": "What process of lipid metabolism is disturbed in the absence of acetyl-CoA-carboxylase enzyme?",
       "options": [
-        "Biosynthesis of fatty acids",
+        "*Biosynthesis of fatty acids",
         "Beta oxidation",
         "Synthesis of phospholipids",
         "Ketogenesis"
@@ -3008,7 +3013,7 @@ export const s_2_0 = {
     {
       "question": "Hereditary lipidosis is a consequence of:",
       "options": [
-        "Accumulation of lipids in tissues",
+        "*Accumulation of lipids in tissues",
         "Enhanced lipid oxidation",
         "Hypercholesterolemia",
         "Hypoketonemia"
@@ -3019,7 +3024,7 @@ export const s_2_0 = {
     {
       "question": "In the initial stages of cholesterol synthesis from acetyl-CoA, the following are formed:",
       "options": [
-        "Mevalonic acid",
+        "*Mevalonic acid",
         "Phosphatidic acid",
         "Lactic acid",
         "Pyruvic acid"
@@ -3030,7 +3035,7 @@ export const s_2_0 = {
     {
       "question": "If a person excludes fats from the diet, what are the negative consequences for the body?",
       "options": [
-        "Avitaminosis",
+        "*Avitaminosis",
         "Atherosclerosis",
         "Ketonemia",
         "Hypoglycemia"
@@ -3041,7 +3046,7 @@ export const s_2_0 = {
     {
       "question": "The development of atherosclerosis can be prevented:",
       "options": [
-        "By limiting excess animal fat in food",
+        "*By limiting excess animal fat in food",
         "By limiting carbohydrates in food",
         "With protein restrictions in food products",
         "With restrictions on vegetable oil"
@@ -3052,7 +3057,7 @@ export const s_2_0 = {
     {
       "question": "In alimentary hyperlipidemia, the amount of the following increases in the blood:",
       "options": [
-        "Chylomicrons",
+        "*Chylomicrons",
         "Lipoprotein",
         "Cholesterol",
         "Glycolipids"
@@ -3063,7 +3068,7 @@ export const s_2_0 = {
     {
       "question": "Where does cholesterol biosynthesis take place?",
       "options": [
-        "In the cytosol",
+        "*In the cytosol",
         "In the Golgi complex",
         "In the endoplasmic reticulum",
         "In liver cell microsomes"
@@ -3074,7 +3079,7 @@ export const s_2_0 = {
     {
       "question": "According to the chemical structure of cholesterol:",
       "options": [
-        "Alcohol",
+        "*Alcohol",
         "Complex ether",
         "Complex fatty acid",
         "Hormone"
@@ -3085,7 +3090,7 @@ export const s_2_0 = {
     {
       "question": "Cholesterol biosynthesis is controlled by the following enzyme:",
       "options": [
-        "GMG CoA-reductase",
+        "*GMG CoA-reductase",
         "Acetyl CoA thiolase",
         "Esterase",
         "Lipoprotein lipase"
@@ -3096,7 +3101,7 @@ export const s_2_0 = {
     {
       "question": "How much cholesterol is synthesized from the intestine:",
       "options": [
-        "15-20%",
+        "*15-20%",
         "50%",
         "1%",
         "90%"
@@ -3107,7 +3112,7 @@ export const s_2_0 = {
     {
       "question": "Which intermediate metabolite is formed from squalene during cholesterol synthesis?",
       "options": [
-        "Lanosterin",
+        "*Lanosterin",
         "Mevalonic acid",
         "Cholesterol",
         "Hydroxymethylglutaryl"
@@ -3118,7 +3123,7 @@ export const s_2_0 = {
     {
       "question": "Carrier of exogenous cholesterol in the blood:",
       "options": [
-        "Chylomicrons",
+        "*Chylomicrons",
         "LXAT",
         "ZYL",
         "Glycoproteins"
@@ -3129,7 +3134,7 @@ export const s_2_0 = {
     {
       "question": "What enzyme helps ZYL to attach a large amount of cholesterol:",
       "options": [
-        "LXAT",
+        "*LXAT",
         "Esterase",
         "Lipoprotein lipase",
         "GMG-CoA reductase"
@@ -3140,7 +3145,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following is the function of cholesterol?",
       "options": [
-        "It is part of membranes",
+        "*It is part of membranes",
         "Participates in the inactivation of sex hormones",
         "Facilitates the absorption of oils",
         "Participates in the synthesis of phospholipids"
@@ -3151,7 +3156,7 @@ export const s_2_0 = {
     {
       "question": "Name the specific substance involved in the synthesis of phosphotidylethanolamine:",
       "options": [
-        "STF",
+        "*STF",
         "UTF",
         "TTF",
         "ATP"
@@ -3162,7 +3167,7 @@ export const s_2_0 = {
     {
       "question": "How does an increase in the amount of ATP affect oil exchange:",
       "options": [
-        "Increases the synthesis of fatty acids",
+        "*Increases the synthesis of fatty acids",
         "Accelerates fat breakdown",
         "Increases the metabolism of ketone bodies",
         "Increases cholesterol biosynthesis"
@@ -3173,7 +3178,7 @@ export const s_2_0 = {
     {
       "question": "Damage to the hypothalamus leads to the following change:",
       "options": [
-        "To get fat",
+        "*To get fat",
         "To lose weight",
         "Ketoacidosis",
         "Alkalosis"
@@ -3184,7 +3189,7 @@ export const s_2_0 = {
     {
       "question": "How is the hereditary obesity gene inherited:",
       "options": [
-        "Dominant",
+        "*Dominant",
         "Recessive",
         "Attached to the Y chromosome",
         "Linked to the X sex chromosome"
@@ -3195,7 +3200,7 @@ export const s_2_0 = {
     {
       "question": "Phosphatidylethanolamine can be a precursor for phosphatidylcholine, by which of the following changes can phosphatidylcholine be synthesized:",
       "options": [
-        "Methylation",
+        "*Methylation",
         "Carboxylation",
         "Dehydroxylation",
         "Ammonia attachment"
@@ -3206,7 +3211,7 @@ export const s_2_0 = {
     {
       "question": "Where is the synthesis of glycerophospholipids important for the body:",
       "options": [
-        "In the endoplasmic reticulum",
+        "*In the endoplasmic reticulum",
         "In the Golgi apparatus",
         "In mitochondria",
         "In the cytoplasm"
@@ -3217,7 +3222,7 @@ export const s_2_0 = {
     {
       "question": "Which enzyme activity is disturbed in hyperlipoproteinemia:",
       "options": [
-        "Lipoprotein lipase",
+        "*Lipoprotein lipase",
         "Phospholipase",
         "Adenylate cyclase",
         "LXAT"
@@ -3228,7 +3233,7 @@ export const s_2_0 = {
     {
       "question": "The first stage of cholesterol biosynthesis ends with the synthesis of which substance:",
       "options": [
-        "Mevalon",
+        "*Mevalon",
         "Squalene",
         "Cyclopentaneoperhydrophenanthrene ring",
         "Lanosterin"
@@ -3239,7 +3244,7 @@ export const s_2_0 = {
     {
       "question": "Gallstone disease:",
       "options": [
-        "Cholesterol synthesis increases, bile acid synthesis decreases",
+        "*Cholesterol synthesis increases, bile acid synthesis decreases",
         "Bile acid synthesis increases, cholesterol synthesis decreases",
         "Bilirubin synthesis increases, cholesterol synthesis decreases",
         "The activity of lipoprotein lipases increases, the activity of GMG CoA-reductase decreases"
@@ -3250,7 +3255,7 @@ export const s_2_0 = {
     {
       "question": "How is the genetic obesity gene inherited:",
       "options": [
-        "Dominant",
+        "*Dominant",
         "Recessive",
         "Attached to the Y chromosome",
         "Linked to the X sex chromosome"
@@ -3261,7 +3266,7 @@ export const s_2_0 = {
     {
       "question": "What disease is caused by a genetic defect of the apo-B 100 protein?",
       "options": [
-        "Familial hypercholesterolemia",
+        "*Familial hypercholesterolemia",
         "Bilirubinemia",
         "Gallstone disease",
         "Steratoria"
@@ -3272,7 +3277,7 @@ export const s_2_0 = {
     {
       "question": "Which disease has the highest death rate in atherosclerosis:",
       "options": [
-        "Myocardial infarction",
+        "*Myocardial infarction",
         "Fatty liver",
         "Liver cirrhosis",
         "Hypertension"
@@ -3283,7 +3288,7 @@ export const s_2_0 = {
     {
       "question": "Determine the location of cardiolipin:",
       "options": [
-        "Mitochondrial inner membrane",
+        "*Mitochondrial inner membrane",
         "Myocardial cell membrane",
         "In the wall of lysosomes",
         "Cytoplasm of adipose tissue cells"
@@ -3294,7 +3299,7 @@ export const s_2_0 = {
     {
       "question": "Where in the cell does the catabolism of sphingomyelins take place:",
       "options": [
-        "In the lysosome",
+        "*In the lysosome",
         "In the cytoplasm",
         "in EPR",
         "In the mitochondrial matrix"
@@ -3305,7 +3310,7 @@ export const s_2_0 = {
     {
       "question": "Cachexia occurs in which of the following cases:",
       "options": [
-        "In oncological diseases",
+        "*In oncological diseases",
         "In metabolic syndrome",
         "In Itsengo-Cushing's disease",
         "In hormonal disorders"
@@ -3318,7 +3323,7 @@ export const s_2_0 = {
     {
       "question": "Where does protein digestion begin?",
       "options": [
-        "In the stomach",
+        "*In the stomach",
         "In the small intestine",
         "12 in the duodenum",
         "In the pancreas"
@@ -3329,7 +3334,7 @@ export const s_2_0 = {
     {
       "question": "Define essential amino acid?",
       "options": [
-        "Threonine",
+        "*Threonine",
         "Histidine",
         "Proline",
         "Cysteine"
@@ -3340,7 +3345,7 @@ export const s_2_0 = {
     {
       "question": "Toxic substances are formed from the decarboxylation of some amino acids in the large intestine. Which of the following is formed from ornithine?",
       "options": [
-        "Putrescin",
+        "*Putrescin",
         "Agmatine",
         "Skatol",
         "Indole"
@@ -3351,7 +3356,7 @@ export const s_2_0 = {
     {
       "question": "How amino acids are absorbed in the small intestine:",
       "options": [
-        "Secondary sodium dependent active transport",
+        "*Secondary sodium dependent active transport",
         "Light diffusion",
         "Pinocytosis",
         "Phagocytosis"
@@ -3362,7 +3367,7 @@ export const s_2_0 = {
     {
       "question": "Small intestinal exopeptidases include:",
       "options": [
-        "Carboxypeptidase A and B",
+        "*Carboxypeptidase A and B",
         "Gastrin, renin",
         "Trypsin, chymotrypsin, elastase",
         "Elastase, collagenase, trypsin"
@@ -3373,7 +3378,7 @@ export const s_2_0 = {
     {
       "question": "Gastric endopeptidases involved in the digestion of proteins:",
       "options": [
-        "Pepsin, gastricin, rennin (chymosin)",
+        "*Pepsin, gastricin, rennin (chymosin)",
         "Elastase, collagenase",
         "Carboxy and aminopeptidase",
         "Chymotrypsin, trypsin, elastase, collagenase"
@@ -3384,7 +3389,7 @@ export const s_2_0 = {
     {
       "question": "Name the intestinal endopeptidases involved in the digestion of proteins:",
       "options": [
-        "Trypsin, chymotrypsin, elastase",
+        "*Trypsin, chymotrypsin, elastase",
         "Carboxy and aminopeptidases",
         "Collagenase, amylase",
         "Pepsin, trypsin"
@@ -3395,7 +3400,7 @@ export const s_2_0 = {
     {
       "question": "It is known that pepsin affects only denatured protein. What factor denatures proteins in the stomach?",
       "options": [
-        "Hydrochloric acid",
+        "*Hydrochloric acid",
         "Proteases",
         "Bile acids",
         "Shifting acidity towards alkalinity"
@@ -3406,7 +3411,7 @@ export const s_2_0 = {
     {
       "question": "Determination of the acidity of gastric juice is important in the diagnosis and treatment of what diseases?",
       "options": [
-        "Stomach and duodenum",
+        "*Stomach and duodenum",
         "Liver",
         "12 duodenum",
         "Colon"
@@ -3417,7 +3422,7 @@ export const s_2_0 = {
     {
       "question": "Optimum pH for pepsin in the stomach:",
       "options": [
-        "1.5-2.0",
+        "*1.5-2.0",
         "5.0-6.0",
         "6.0-7.0",
         "8-10"
@@ -3428,7 +3433,7 @@ export const s_2_0 = {
     {
       "question": "The pathological composition of gastric juice includes:",
       "options": [
-        "Lactic acid, blood",
+        "*Lactic acid, blood",
         "Hydrochloric acid",
         "Renin",
         "Gastric"
@@ -3439,7 +3444,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following endopeptidases is not involved in protein digestion in the stomach?",
       "options": [
-        "Trypsin",
+        "*Trypsin",
         "Gastric",
         "Renin",
         "Chymosin"
@@ -3450,7 +3455,7 @@ export const s_2_0 = {
     {
       "question": "It is an indicator of the intensity of the process of rotting in the intestine and the speed of detoxification reactions in the liver:",
       "options": [
-        "Indian",
+        "*Indian",
         "Indole",
         "Indole, skatole",
         "Cresol"
@@ -3461,7 +3466,7 @@ export const s_2_0 = {
     {
       "question": "Absence of hydrochloric acid and pepsin in gastric juice is called:",
       "options": [
-        "Achillea",
+        "*Achillea",
         "Achlorhydria",
         "Anemia",
         "Hypochlorhydria"
@@ -3472,7 +3477,7 @@ export const s_2_0 = {
     {
       "question": "As a result of a decrease in the concentration of hydrochloric acid in gastric juice, the activity of which enzyme decreases?",
       "options": [
-        "Pepsin",
+        "*Pepsin",
         "Renin",
         "Chymotrypsin",
         "Trypsin"
@@ -3483,7 +3488,7 @@ export const s_2_0 = {
     {
       "question": "In chronic pancreatitis, the synthesis and secretion of trypsin is reduced. Digestion and absorption of which substance is disturbed?",
       "options": [
-        "Protein",
+        "*Protein",
         "Lipid",
         "Nucleic acids",
         "Disaccharides"
@@ -3494,7 +3499,7 @@ export const s_2_0 = {
     {
       "question": "Where is Gastricsin?",
       "options": [
-        "In the stomach",
+        "*In the stomach",
         "In the duodenum",
         "In the small intestine",
         "In the esophagus"
@@ -3505,7 +3510,7 @@ export const s_2_0 = {
     {
       "question": "Define the breakdown product of proteins in the stomach?",
       "options": [
-        "Albumosis",
+        "*Albumosis",
         "Dipeptide",
         "Amino acid",
         "Polypeptide"
@@ -3516,7 +3521,7 @@ export const s_2_0 = {
     {
       "question": "Non-exchangeable amino acids include:",
       "options": [
-        "Lysine, leucine, isoleucine, valine, threonine, methionine, phenylalanine, tryptophan",
+        "*Lysine, leucine, isoleucine, valine, threonine, methionine, phenylalanine, tryptophan",
         "Serine, threonine, tryptophan",
         "Lysine, histidine, alanine, methionine",
         "Phenylalanine, tyrosine, glycine, proline, alanine"
@@ -3527,7 +3532,7 @@ export const s_2_0 = {
     {
       "question": "Nitrogen balance is used to evaluate protein metabolism in the human body. In which case it will be positive:",
       "options": [
-        "In pregnancy",
+        "*In pregnancy",
         "In old age",
         "In dystrophy",
         "In hunger"
@@ -3538,7 +3543,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following is not an endopeptidases?",
       "options": [
-        "Carboxypeptidase",
+        "*Carboxypeptidase",
         "Elastase",
         "Chymotrypsin",
         "Trypsin"
@@ -3549,7 +3554,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following is not a function of HCl:",
       "options": [
-        "Activation of trypsinogen",
+        "*Activation of trypsinogen",
         "Bactericidal effect",
         "Activation of pepsinogen",
         "Denaturation of food proteins"
@@ -3560,7 +3565,7 @@ export const s_2_0 = {
     {
       "question": "Trypsinogen is activated by which of the following methods?",
       "options": [
-        "Proteolytic hydrolysis",
+        "*Proteolytic hydrolysis",
         "Autocatalysis",
         "Hydrolysis by HCl",
         "Phosphorization"
@@ -3571,7 +3576,7 @@ export const s_2_0 = {
     {
       "question": "Where is secretin synthesized?",
       "options": [
-        "From the mucosa of the small intestine",
+        "*From the mucosa of the small intestine",
         "From the pancreas",
         "From the cells of the stomach wall",
         "From the mucosa of the duodenum"
@@ -3582,7 +3587,7 @@ export const s_2_0 = {
     {
       "question": "Find the product of protein decay in the intestine?",
       "options": [
-        "Everything is correct",
+        "*Everything is correct",
         "Hydrogen sulfide",
         "Cadaverine",
         "Putrecin"
@@ -3593,7 +3598,7 @@ export const s_2_0 = {
     {
       "question": "The conversion of pepsinogen into pepsin occurs due to the cleavage of the N-end of the peptide under the influence of:",
       "options": [
-        "Hydrochloric acid and pepsin",
+        "*Hydrochloric acid and pepsin",
         "Hexapeptidase",
         "Enteropeptidase",
         "Proteolytic hydrolase"
@@ -3604,7 +3609,7 @@ export const s_2_0 = {
     {
       "question": "What are the names of endogenous protein-degrading enzymes?",
       "options": [
-        "Cathepsins",
+        "*Cathepsins",
         "Acid hydrolases",
         "Endopeptidases",
         "Protein kinases"
@@ -3615,7 +3620,7 @@ export const s_2_0 = {
     {
       "question": "What is the process of protein decay in the intestine:",
       "options": [
-        "Normal condition",
+        "*Normal condition",
         "Hereditary disease",
         "Metabolic disorders",
         "Fermentopathy"
@@ -3626,7 +3631,7 @@ export const s_2_0 = {
     {
       "question": "The amount of total acidity in gastric juice of the patient named G. is normal. Which indicator is appropriate for this situation?",
       "options": [
-        "40-60 μM/l",
+        "*40-60 μM/l",
         "20-30 μM/l",
         "30-50 μM/l",
         "20-40 μM/l"
@@ -3637,7 +3642,7 @@ export const s_2_0 = {
     {
       "question": "Which product of glucose is used in the liver to detoxify putrefaction products formed in the intestine?",
       "options": [
-        "UDFGK",
+        "*UDFGK",
         "FAFS",
         "Indian",
         "GALT"
@@ -3650,7 +3655,7 @@ export const s_2_0 = {
     {
       "question": "Serotonin is a neurotransmitter of the MNS. Serotonin is formed by decarboxylation and hydroxylation of which amino acid?",
       "options": [
-        "Tryptophan",
+        "*Tryptophan",
         "Tyrosine",
         "Cool",
         "Histidine"
@@ -3661,7 +3666,7 @@ export const s_2_0 = {
     {
       "question": "Transaminase is a coenzyme in transamination reactions:",
       "options": [
-        "Pyridoxal phosphate",
+        "*Pyridoxal phosphate",
         "FAD",
         "NAD",
         "Coenzyme A"
@@ -3672,7 +3677,7 @@ export const s_2_0 = {
     {
       "question": "What vitamin deficiency reduces the activity of amino acid decarboxylase and aminotransferase?",
       "options": [
-        "B6",
+        "*B6",
         "B1",
         "S",
         "D"
@@ -3683,7 +3688,7 @@ export const s_2_0 = {
     {
       "question": "Products formed as a result of decarboxylation of amino acids are biologically active substances, which mediator that inhibits MNS is formed from decarboxylation of glutamic acid?",
       "options": [
-        "GAMK",
+        "*GAMK",
         "Cool",
         "Histamine",
         "Dopamine"
@@ -3694,7 +3699,7 @@ export const s_2_0 = {
     {
       "question": "Where does the oxidation of alpha-keto acids formed from the deamination of amino acids take place?",
       "options": [
-        "In the tricarboxylic acid cycle",
+        "*In the tricarboxylic acid cycle",
         "In the Corey cycle",
         "In glycolysis",
         "In gluconeogenesis"
@@ -3705,7 +3710,7 @@ export const s_2_0 = {
     {
       "question": "The locally acting hormone histamine is produced in the lungs, digestive system, and skin. It is a vasodilator. As a result of the decarboxylation of which compound, histamine is formed?",
       "options": [
-        "Histidine",
+        "*Histidine",
         "Valin",
         "Cool",
         "Tyrosine"
@@ -3716,7 +3721,7 @@ export const s_2_0 = {
     {
       "question": "What is the name of the process by which an amino group is separated from amino acids and free ammonia is formed?",
       "options": [
-        "Decontamination",
+        "*Decontamination",
         "Peramination",
         "Decarboxylation",
         "Hydroxylation"
@@ -3727,7 +3732,7 @@ export const s_2_0 = {
     {
       "question": "It is formed as a result of decarboxylation of amino acids in the body:",
       "options": [
-        "Amines, diamines",
+        "*Amines, diamines",
         "Indian",
         "Dipeptide, xantine",
         "Uric acid"
@@ -3738,7 +3743,7 @@ export const s_2_0 = {
     {
       "question": "Choose an amino acid whose non-nitrogenous residue is used only in the ketogenic way:",
       "options": [
-        "Leucine",
+        "*Leucine",
         "Valin",
         "Lysine",
         "Proline"
@@ -3749,7 +3754,7 @@ export const s_2_0 = {
     {
       "question": "Where is the most active transamination of amino acids:",
       "options": [
-        "Liver",
+        "*Liver",
         "Pancreas",
         "Intestine",
         "Erythrocytes"
@@ -3760,7 +3765,7 @@ export const s_2_0 = {
     {
       "question": "Which vitamin is involved in transamination reactions of amino acids?",
       "options": [
-        "B6",
+        "*B6",
         "B1",
         "B2",
         "B3"
@@ -3771,7 +3776,7 @@ export const s_2_0 = {
     {
       "question": "What substances are formed from oxidative deamination of amino acids:",
       "options": [
-        "alpha-keto acids",
+        "*alpha-keto acids",
         "alpha hydroxy acids",
         "beta hydroxy acids",
         "aldehyde acids"
@@ -3782,7 +3787,7 @@ export const s_2_0 = {
     {
       "question": "Which enzyme performs the oxidative deamination of amino acids:",
       "options": [
-        "glutamate dehydrogenase",
+        "*glutamate dehydrogenase",
         "glutaminase",
         "asparaginase",
         "arginase"
@@ -3793,7 +3798,7 @@ export const s_2_0 = {
     {
       "question": "Brain injury is characterized by reversible seizure symptoms. Which biogenic amine formation is disturbed in this case?",
       "options": [
-        "GAMK",
+        "*GAMK",
         "Histamine",
         "Adrenaline",
         "Serotonin"
@@ -3804,7 +3809,7 @@ export const s_2_0 = {
     {
       "question": "Biogenic amine formed from 5-oxytryptophan has a vasoconstricting and hypertensive effect. Name this substance:",
       "options": [
-        "Serotonin",
+        "*Serotonin",
         "Dopamine",
         "Histamine",
         "Adrenaline"
@@ -3815,7 +3820,7 @@ export const s_2_0 = {
     {
       "question": "Where does the oxidative deamination of glutamic acid occur with the formation of ammonia:",
       "options": [
-        "In mitochondria",
+        "*In mitochondria",
         "In the microsome",
         "In hyaloplasm",
         "In the nucleus"
@@ -3826,7 +3831,7 @@ export const s_2_0 = {
     {
       "question": "Which biogenic amine has a vasoconstricting effect:",
       "options": [
-        "serotonin",
+        "*serotonin",
         "tryptamine",
         "histamine",
         "GAMK"
@@ -3837,7 +3842,7 @@ export const s_2_0 = {
     {
       "question": "Mark the answer given by Biogen Amin:",
       "options": [
-        "dopamine",
+        "*dopamine",
         "cool",
         "histidine",
         "glutamine"
@@ -3848,7 +3853,7 @@ export const s_2_0 = {
     {
       "question": "Which biogenic amine dilates blood vessels?",
       "options": [
-        "histamine",
+        "*histamine",
         "tryptamine",
         "serotonin",
         "GAMK"
@@ -3859,7 +3864,7 @@ export const s_2_0 = {
     {
       "question": "Gamma-aminobutyric acid is:",
       "options": [
-        "main inhibitory mediator in the central nervous system",
+        "*main inhibitory mediator in the central nervous system",
         "the main mediator of excitation in the central nervous system",
         "is formed as a result of decarboxylation of glutamine",
         "is formed as a result of deamination of glutamate"
@@ -3870,7 +3875,7 @@ export const s_2_0 = {
     {
       "question": "Cofactor of glutamate dehydrogenase:",
       "options": [
-        "NAD",
+        "*NAD",
         "FAD",
         "thiamine diphosphate",
         "pyridoxal phosphate"
@@ -3881,7 +3886,7 @@ export const s_2_0 = {
     {
       "question": "What is the process of decarboxylation:",
       "options": [
-        "Separation of carboxyl group from amino acids",
+        "*Separation of carboxyl group from amino acids",
         "Release of ammonia from amino acids",
         "Transfer of the amino group",
         "Digestion of proteins in the intestine"
@@ -3892,7 +3897,7 @@ export const s_2_0 = {
     {
       "question": "Unsaturated fatty acid is formed in which of the following processes:",
       "options": [
-        "Decontamination",
+        "*Decontamination",
         "Decarboxylation",
         "Transmethylation",
         "Transamination"
@@ -3903,7 +3908,7 @@ export const s_2_0 = {
     {
       "question": "Which indicator increases in myocardial infarction:",
       "options": [
-        "AST",
+        "*AST",
         "ALT",
         "PDG",
         "LDG5"
@@ -3914,7 +3919,7 @@ export const s_2_0 = {
     {
       "question": "What does an increase in ALT in the blood mean:",
       "options": [
-        "Hepatitis in the liver",
+        "*Hepatitis in the liver",
         "That there is a myocardial infarction",
         "Hypoxia in the brain",
         "There is an infectious disease in the spleen"
@@ -3925,7 +3930,7 @@ export const s_2_0 = {
     {
       "question": "Determine the importance of transamination:",
       "options": [
-        "Redistribution of nitrogen",
+        "*Redistribution of nitrogen",
         "Formation of biogenic amines",
         "Transfer of the methyl group",
         "Causes allergic reactions"
@@ -3936,7 +3941,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following derivatives of methionine can be a methyl group donor:",
       "options": [
-        "S-adenosylmethionine",
+        "*S-adenosylmethionine",
         "Homocysteine",
         "Formylmethionine",
         "System"
@@ -3947,7 +3952,7 @@ export const s_2_0 = {
     {
       "question": "Gamma-amino fatty acid is formed from which amino acid:",
       "options": [
-        "Glutamate",
+        "*Glutamate",
         "Asparagine",
         "Cool",
         "Proline"
@@ -3958,7 +3963,7 @@ export const s_2_0 = {
     {
       "question": "Dopamine is formed from which of the following:",
       "options": [
-        "Phenylalanine",
+        "*Phenylalanine",
         "Glycine",
         "Cool",
         "Tryptophan"
@@ -3969,7 +3974,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following substances is involved in the origin of allergic reactions:",
       "options": [
-        "Histamine",
+        "*Histamine",
         "Proline",
         "Tyrosine",
         "Noradrenaline"
@@ -3982,7 +3987,7 @@ export const s_2_0 = {
     {
       "question": "What are essential amino acids?",
       "options": [
-        "It is not synthesized in the body",
+        "*It is not synthesized in the body",
         "It has a synthesis mechanism in the body",
         "It is most common in the body",
         "It is part of all proteins in the body"
@@ -3993,7 +3998,7 @@ export const s_2_0 = {
     {
       "question": "Show the essential amino acid:",
       "options": [
-        "Isolation",
+        "*Isolation",
         "Cool",
         "Glutamine",
         "Alanine"
@@ -4004,7 +4009,7 @@ export const s_2_0 = {
     {
       "question": "What enzyme deficiency leads to citrullinuria?",
       "options": [
-        "Argininosuccinate synthetase",
+        "*Argininosuccinate synthetase",
         "Carbamoyl phosphate synthetase",
         "Isocitrate dehydrogenase",
         "Ornithinecarbamoyltransferase"
@@ -4015,7 +4020,7 @@ export const s_2_0 = {
     {
       "question": "Where does the synthesis of asparagine and glutamine mainly occur?",
       "options": [
-        "In the liver",
+        "*In the liver",
         "In the heart",
         "In muscle",
         "In the brain"
@@ -4026,7 +4031,7 @@ export const s_2_0 = {
     {
       "question": "Show the amino acid of ketogenic type:",
       "options": [
-        "Leucine",
+        "*Leucine",
         "alanine",
         "ketone bodies",
         "isolate"
@@ -4037,7 +4042,7 @@ export const s_2_0 = {
     {
       "question": "The ornithine cycle is-?",
       "options": [
-        "The main way to detoxify ammonia in the body",
+        "*The main way to detoxify ammonia in the body",
         "The way of formation of uric acid",
         "The way of transport of amino acids through the membrane",
         "ATP formation method"
@@ -4048,7 +4053,7 @@ export const s_2_0 = {
     {
       "question": "What is formed in the first reaction of urea (urea) synthesis:",
       "options": [
-        "Formation of carbamoyl phosphate",
+        "*Formation of carbamoyl phosphate",
         "Citrate formation",
         "Formation of ornithine",
         "Detoxification of glutamate"
@@ -4059,7 +4064,7 @@ export const s_2_0 = {
     {
       "question": "What substances are formed as a result of transmethylation?",
       "options": [
-        "phosphatidylcholine",
+        "*phosphatidylcholine",
         "carnitine",
         "thyroxine",
         "adrenaline"
@@ -4070,7 +4075,7 @@ export const s_2_0 = {
     {
       "question": "Where is urea synthesized:",
       "options": [
-        "liver",
+        "*liver",
         "liver and kidney",
         "kidney",
         "kidney and intestine"
@@ -4081,7 +4086,7 @@ export const s_2_0 = {
     {
       "question": "What is the neutralization of ammonia in nerve tissue?",
       "options": [
-        "glutamine synthesis and recovery by providing alpha-ketoglutarate",
+        "*glutamine synthesis and recovery by providing alpha-ketoglutarate",
         "Urea synthesis",
         "Formation of ammonium salts",
         "Glutamine synthesis"
@@ -4092,7 +4097,7 @@ export const s_2_0 = {
     {
       "question": "Methionine is not involved in which of the following processes:",
       "options": [
-        "In the synthesis of noradrenaline",
+        "*In the synthesis of noradrenaline",
         "In nucleotide methylation",
         "In choline synthesis",
         "When starting a broadcast"
@@ -4103,7 +4108,7 @@ export const s_2_0 = {
     {
       "question": "Serine can be formed in the body from which of the following:",
       "options": [
-        "Glucose",
+        "*Glucose",
         "Acetoacetate",
         "Acetone",
         "Acetyl CoA"
@@ -4114,7 +4119,7 @@ export const s_2_0 = {
     {
       "question": "What substance is formed from tyrosine under the influence of intestinal microflora?",
       "options": [
-        "Phenol",
+        "*Phenol",
         "Indole",
         "Skatol",
         "Ammonia"
@@ -4125,7 +4130,7 @@ export const s_2_0 = {
     {
       "question": "An increase in the concentration of citrulline in the baby's urine and ammonia in his blood is observed. This situation is related to the disorder of the formation of which substance?",
       "options": [
-        "Urea",
+        "*Urea",
         "Uric acid",
         "Citrate",
         "Creatine"
@@ -4136,7 +4141,7 @@ export const s_2_0 = {
     {
       "question": "It was found that the amount of Homogentizinic acid in urine increases. Urine blackened in the air. In what fermentopathy is this condition observed?",
       "options": [
-        "Alkaptonuria",
+        "*Alkaptonuria",
         "Albinism",
         "Phenylketonuria",
         "Acathalasia"
@@ -4147,7 +4152,7 @@ export const s_2_0 = {
     {
       "question": "What is the reason for the accumulation of phenylpyruvate in the child's urine and blood, which has a toxic effect on the brain?",
       "options": [
-        "Phenylalanine-4 hydroxylase deficiency",
+        "*Phenylalanine-4 hydroxylase deficiency",
         "Tyrosinase deficiency",
         "Activation of trypsin",
         "Increased oxaloacetate"
@@ -4158,7 +4163,7 @@ export const s_2_0 = {
     {
       "question": "Specify the ways of neutralization of ammonia?",
       "options": [
-        "Everything is correct",
+        "*Everything is correct",
         "Reversible amination",
         "Mochivena synthesis, Glutamine formation",
         "Ammonigenesis, formation of Aspargin"
@@ -4169,7 +4174,7 @@ export const s_2_0 = {
     {
       "question": "The development of tyrosinoses is based on the genetic deficiency of the following enzyme:",
       "options": [
-        "Tyrosine oxidase",
+        "*Tyrosine oxidase",
         "Oxyphenylpyruvate decarboxylase",
         "Homogentisinic acid oxidase",
         "DOFA-chroma decarboxylase"
@@ -4180,7 +4185,7 @@ export const s_2_0 = {
     {
       "question": "Such amino acids are involved in the synthesis of urea that they are metabolites without being part of proteins. These amino acids are:",
       "options": [
-        "Ornithine and citrulline",
+        "*Ornithine and citrulline",
         "Citrulline and aspartate",
         "Aspartate and arginine",
         "Citrulline and arginine"
@@ -4191,7 +4196,7 @@ export const s_2_0 = {
     {
       "question": "It is necessary to limit the diet of a child suffering from leucinosis:",
       "options": [
-        "Let it be, let it be, let it be isolated",
+        "*Let it be, let it be, let it be isolated",
         "Tyrosine, tryptophan",
         "Alanine, glycine",
         "Serine, methionine, threonine"
@@ -4202,7 +4207,7 @@ export const s_2_0 = {
     {
       "question": "Hepatic coma may develop as a result of liver damage. Its development is based on the following process:",
       "options": [
-        "Hyperammonemia",
+        "*Hyperammonemia",
         "Hyperketonemia",
         "Hyperaminoacidemia",
         "Hyperuricemia"
@@ -4213,7 +4218,7 @@ export const s_2_0 = {
     {
       "question": "How are cases of decreased blood urea, increased ammonia, and glutamine clinically manifested due to a deficiency of urea synthesis enzymes?",
       "options": [
-        "Encephalopathy",
+        "*Encephalopathy",
         "Hypoglycemic coma",
         "Neuritis",
         "Cardiac compensation"
@@ -4224,7 +4229,7 @@ export const s_2_0 = {
     {
       "question": "Glutamine and partly asparagine act as a transporter in transferring ammonia to a non-toxic form. The proof is:",
       "options": [
-        "Glutamine is very little excreted in the urine",
+        "*Glutamine is very little excreted in the urine",
         "It is used in the synthesis of urea",
         "Used for purine synthesis",
         "It is used in the formation of ammonium salts"
@@ -4235,7 +4240,7 @@ export const s_2_0 = {
     {
       "question": "Which reaction is the main source of ammonia formation in brain tissue?",
       "options": [
-        "Hydrolytic deamination of AMF to IMF",
+        "*Hydrolytic deamination of AMF to IMF",
         "Oxidative deamination of alanine to PUK",
         "Deamination of glutamine",
         "Oxidative deamination of glutamate to alphaketoglutarate"
@@ -4246,7 +4251,7 @@ export const s_2_0 = {
     {
       "question": "The source of 2 amino groups in the formation of urea molecule:",
       "options": [
-        "Ammonia and L-aspartate",
+        "*Ammonia and L-aspartate",
         "Glutamate and alpha-ketoglutarate",
         "Citrate and pyruvate",
         "Lactate and Ornithine"
@@ -4257,7 +4262,7 @@ export const s_2_0 = {
     {
       "question": "The concentration of which substance in urine is determined during the screening test for phenylketanuria?",
       "options": [
-        "Phenylpyruvic acid",
+        "*Phenylpyruvic acid",
         "Indian",
         "Hippuric acid",
         "Lactate and Ornithine"
@@ -4268,7 +4273,7 @@ export const s_2_0 = {
     {
       "question": "At what age is screening for phenylketonuria?",
       "options": [
-        "1-3 days after birth",
+        "*1-3 days after birth",
         "On the 5-7th day of his life",
         "1 month after birth",
         "3 months after birth"
@@ -4279,7 +4284,7 @@ export const s_2_0 = {
     {
       "question": "The level of urea in the biochemical blood analysis is high. What kind of metabolic disorder does this state indicate?",
       "options": [
-        "Protein",
+        "*Protein",
         "fat",
         "Carbohydrate",
         "Water-salt"
@@ -4290,7 +4295,7 @@ export const s_2_0 = {
     {
       "question": "Ammonia is a toxic substance for MNS neurons, which amino acid is used to transport ammonia from the brain cell to the liver?",
       "options": [
-        "Glutamine",
+        "*Glutamine",
         "Cool",
         "Leucine",
         "Valin"
@@ -4301,7 +4306,7 @@ export const s_2_0 = {
     {
       "question": "Acceptor of the second amino group of urea from aspartate occurs with its binding to citrulline, an enzyme involved in this process:",
       "options": [
-        "Argininosuccinate synthetase",
+        "*Argininosuccinate synthetase",
         "Citrullinoaspartate oxidoreductase",
         "Aspartcitrulline aminotransferase",
         "Arginino fumarate synthetase"
@@ -4314,7 +4319,7 @@ export const s_2_0 = {
     {
       "question": "Show the monomers of nucleic acids:",
       "options": [
-        "Nucleotides",
+        "*Nucleotides",
         "Nucleosides",
         "Nitrogen bases",
         "Amino acids"
@@ -4325,7 +4330,7 @@ export const s_2_0 = {
     {
       "question": "How the protein part of nucleoproteins is digested in the stomach:",
       "options": [
-        "Under the influence of HCl and proteolytic enzymes",
+        "*Under the influence of HCl and proteolytic enzymes",
         "Under the influence of amylolytic enzymes",
         "Under the influence of cathepsins",
         "Under the influence of exo and endonucleases"
@@ -4336,7 +4341,7 @@ export const s_2_0 = {
     {
       "question": "Choline transferase coenzyme:",
       "options": [
-        "STF",
+        "*STF",
         "TTF",
         "GTF",
         "UTF"
@@ -4347,7 +4352,7 @@ export const s_2_0 = {
     {
       "question": "Indicate which of the following definitions corresponds to the term \"nucleoproteins\":",
       "options": [
-        "Complex proteins made up of simple proteins and nucleic acids",
+        "*Complex proteins made up of simple proteins and nucleic acids",
         "Complex proteins made up of simple protein and carbohydrate derivatives",
         "These are high molecular compounds consisting of nucleotides",
         "Low molecular weight organic compounds necessary for normal life"
@@ -4358,7 +4363,7 @@ export const s_2_0 = {
     {
       "question": "Nucleic acids ingested with food are digested under the influence of which enzymes:",
       "options": [
-        "DNA and RNA nucleases",
+        "*DNA and RNA nucleases",
         "Restrictases",
         "Proteases",
         "Hydrolases"
@@ -4369,7 +4374,7 @@ export const s_2_0 = {
     {
       "question": "What enzymes break down mononucleotides in the intestine:",
       "options": [
-        "Alkaline and acid phosphatases",
+        "*Alkaline and acid phosphatases",
         "Nucleases",
         "Restrictases",
         "Hydrolases"
@@ -4380,7 +4385,7 @@ export const s_2_0 = {
     {
       "question": "What is the substrate for the synthesis of nucleic acids?",
       "options": [
-        "nucleoside triphosphates",
+        "*nucleoside triphosphates",
         "amino acids",
         "nucleoside diphosphates",
         "nucleoside monophosphates"
@@ -4391,7 +4396,7 @@ export const s_2_0 = {
     {
       "question": "Show the biochemical indicator that characterizes the genetic disorder of UMF biosynthesis.",
       "options": [
-        "Orotaciduria",
+        "*Orotaciduria",
         "Aspartate aciduria",
         "Alkaptonuria",
         "Cytosinuria"
@@ -4402,7 +4407,7 @@ export const s_2_0 = {
     {
       "question": "Give a reason that prevents hyperuricemia:",
       "options": [
-        "Using a structural analogue of hypoxanthine",
+        "*Using a structural analogue of hypoxanthine",
         "The excretion of uric acid is disturbed",
         "Excessive fragmentation of cellular DNA",
         "Radiation damage to cells"
@@ -4413,7 +4418,7 @@ export const s_2_0 = {
     {
       "question": "The deposition of uric acid crystals in the joints leads to the development of which disease:",
       "options": [
-        "Gout",
+        "*Gout",
         "Pellagra",
         "Diabetes",
         "Alkaptonuria"
@@ -4424,7 +4429,7 @@ export const s_2_0 = {
     {
       "question": "Where does the hydrolytic breakdown of nucleoproteins begin?",
       "options": [
-        "In the stomach",
+        "*In the stomach",
         "In the small intestine",
         "In the duodenum",
         "In the pancreas"
@@ -4435,7 +4440,7 @@ export const s_2_0 = {
     {
       "question": "What substances are mainly absorbed into the blood as the final products of the breakdown of nucleic acids in the intestine?",
       "options": [
-        "Nucleosides and phosphoric acid",
+        "*Nucleosides and phosphoric acid",
         "Nucleoside triphosphates",
         "Proteins and nucleotides",
         "Nucleotide mono, di and tri phosphates"
@@ -4446,7 +4451,7 @@ export const s_2_0 = {
     {
       "question": "Name the amino acid actively involved in the synthesis of purine nucleotides:",
       "options": [
-        "Glycine",
+        "*Glycine",
         "Cysteine",
         "Arginine",
         "Proline"
@@ -4457,7 +4462,7 @@ export const s_2_0 = {
     {
       "question": "Restrictases:",
       "options": [
-        "Destroys NKs foreign to the body",
+        "*Destroys NKs foreign to the body",
         "Participates in the digestion of NK",
         "It breaks down any DNA",
         "Participates in the synthesis of nucleotides"
@@ -4468,7 +4473,7 @@ export const s_2_0 = {
     {
       "question": "Specify the characteristic of restrictases?",
       "options": [
-        "It has a specific effect",
+        "*It has a specific effect",
         "Has group specificity",
         "It works in a strong alkaline environment",
         "Cuts only DNA"
@@ -4479,7 +4484,7 @@ export const s_2_0 = {
     {
       "question": "An enzyme that catalyzes the formation of a nucleoside from a nucleotide:",
       "options": [
-        "Phosphatase",
+        "*Phosphatase",
         "Kinase",
         "Protease",
         "Endonuclease"
@@ -4490,7 +4495,7 @@ export const s_2_0 = {
     {
       "question": "What is the difference between a nucleotide and a nucleoside?",
       "options": [
-        "Contains phosphate residues",
+        "*Contains phosphate residues",
         "It has a tertiary structure",
         "It has a secondary structure",
         "Contains purine bases"
@@ -4501,7 +4506,7 @@ export const s_2_0 = {
     {
       "question": "Which substance is the source of nitrogen in positions 3 and 9 in the purine ring?",
       "options": [
-        "Glutamine",
+        "*Glutamine",
         "Glycine",
         "Folic acid",
         "Oxyproline"
@@ -4512,7 +4517,7 @@ export const s_2_0 = {
     {
       "question": "When the purine base is synthesized:",
       "options": [
-        "A purine nucleotide is synthesized",
+        "*A purine nucleotide is synthesized",
         "Purine nitrogen base is synthesized",
         "A purine nucleoside is formed",
         "A purine dinucleotide is synthesized"
@@ -4523,7 +4528,7 @@ export const s_2_0 = {
     {
       "question": "Determine the source of energy for the synthesis of AMF:",
       "options": [
-        "GTF",
+        "*GTF",
         "ATP",
         "TTF",
         "STF"
@@ -4534,7 +4539,7 @@ export const s_2_0 = {
     {
       "question": "Determine the source of energy for the synthesis of GMF:",
       "options": [
-        "ATP",
+        "*ATP",
         "GTF",
         "STF",
         "TTF"
@@ -4545,7 +4550,7 @@ export const s_2_0 = {
     {
       "question": "Identify the precursor substance in the synthesis of GMF and AMF:",
       "options": [
-        "Inosinate acid",
+        "*Inosinate acid",
         "Oratic acid",
         "Glucose 6-phosphate",
         "Uric acid"
@@ -4556,7 +4561,7 @@ export const s_2_0 = {
     {
       "question": "Show the final product of catabolism of purine nucleotides:",
       "options": [
-        "Uric acid",
+        "*Uric acid",
         "Xanthine",
         "Hypoxanthine",
         "Carbon dioxide"
@@ -4567,7 +4572,7 @@ export const s_2_0 = {
     {
       "question": "Gout crises depend on which substance:",
       "options": [
-        "To monosodium salts of uric acid",
+        "*To monosodium salts of uric acid",
         "To the potassium salts of uric acid",
         "Ammonium salts",
         "Oratic acid"
@@ -4578,7 +4583,7 @@ export const s_2_0 = {
     {
       "question": "What reactions does xanthine oxidase catalyze:",
       "options": [
-        "Oxidation of hypoxanthine",
+        "*Oxidation of hypoxanthine",
         "Oxidation of uric acid",
         "Hydrolysis of allantoin",
         "Oxidation of allantoic acid"
@@ -4589,7 +4594,7 @@ export const s_2_0 = {
     {
       "question": "The final products of catabolism of pyrimidine bases are:",
       "options": [
-        "β-Alanine, NH3 + CO2",
+        "*β-Alanine, NH3 + CO2",
         "uric acid",
         "glyoxylic acid",
         "dihydrothymine"
@@ -4600,7 +4605,7 @@ export const s_2_0 = {
     {
       "question": "In healthy people, which compound becomes the end product of the exchange of purine nucleosides adenosine and guanosine?",
       "options": [
-        "uric acid",
+        "*uric acid",
         "hypoxanthine",
         "xanthine",
         "creatinine"
@@ -4611,7 +4616,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following helps in the treatment of gout:",
       "options": [
-        "Allopurinol",
+        "*Allopurinol",
         "Salts of uric acid",
         "Hypoxanthine",
         "Oratic acid"
@@ -4622,7 +4627,7 @@ export const s_2_0 = {
     {
       "question": "Which substance is initially formed in the biosynthesis of pyrimidine nucleotides:",
       "options": [
-        "Uridine monophosphate",
+        "*Uridine monophosphate",
         "Cytidine monophosphate",
         "Thymidine monophosphate",
         "Guanosine monophosphate"
@@ -4633,7 +4638,7 @@ export const s_2_0 = {
     {
       "question": "Disease caused by pyrimidine deficiency:",
       "options": [
-        "Orotaciduria",
+        "*Orotaciduria",
         "Gout",
         "Hyperuricemia",
         "Hyperammonemia"
@@ -4646,7 +4651,7 @@ export const s_2_0 = {
     {
       "question": "Name the ketogenic amino acid:",
       "options": [
-        "Leucine",
+        "*Leucine",
         "Glycine",
         "Alanine",
         "Cool"
@@ -4657,7 +4662,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following amino acids can synthesize both ketone bodies and glucose:",
       "options": [
-        "Lysine",
+        "*Lysine",
         "Glycine",
         "Methionine",
         "Proline"
@@ -4668,7 +4673,7 @@ export const s_2_0 = {
     {
       "question": "Which process must first occur to synthesize glucose from amino acids:",
       "options": [
-        "Decontamination",
+        "*Decontamination",
         "Decarboxylation",
         "Transmethylation",
         "Ornithine cycle"
@@ -4679,7 +4684,7 @@ export const s_2_0 = {
     {
       "question": "Identify the glycogen-type amino acid:",
       "options": [
-        "Threonine",
+        "*Threonine",
         "Leucine",
         "Isolation",
         "Phenylalanine"
@@ -4690,7 +4695,7 @@ export const s_2_0 = {
     {
       "question": "What substance can be formed from the metabolism of glycogen-type amino acids:",
       "options": [
-        "Oxaloacetate",
+        "*Oxaloacetate",
         "Ketone bodies",
         "Acetoacetate",
         "Acetyl CoA"
@@ -4701,7 +4706,7 @@ export const s_2_0 = {
     {
       "question": "What substance can be formed from ketogenic amino acid metabolism:",
       "options": [
-        "Acetone",
+        "*Acetone",
         "Oxaloacetate",
         "Pyruvate",
         "β-keto acid"
@@ -4712,7 +4717,7 @@ export const s_2_0 = {
     {
       "question": "Phenylalanine belongs to which of the following:",
       "options": [
-        "Both ketogenic and glycogen",
+        "*Both ketogenic and glycogen",
         "Glycogen type",
         "Ketogenic type",
         "It does not belong to any"
@@ -4723,7 +4728,7 @@ export const s_2_0 = {
     {
       "question": "Glucose can be synthesized from amino acids by which of the following processes:",
       "options": [
-        "Gluconeogenesis",
+        "*Gluconeogenesis",
         "Glycogenolysis",
         "Transamination",
         "Decarboxylation"
@@ -4734,7 +4739,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following can produce α-ketoglutarate:",
       "options": [
-        "Of all",
+        "*Of all",
         "Cool",
         "Methionine",
         "Tryptophan"
@@ -4745,7 +4750,7 @@ export const s_2_0 = {
     {
       "question": "From what amino acids can glucose be synthesized:",
       "options": [
-        "Glycogen type",
+        "*Glycogen type",
         "Ketogenic type",
         "Non-exchangeable",
         "Acetone-forming amino acids"
@@ -4756,7 +4761,7 @@ export const s_2_0 = {
     {
       "question": "Fatty acids can be synthesized from amino acids, except which of the following:",
       "options": [
-        "linolate, linolenate, arachidonate",
+        "*linolate, linolenate, arachidonate",
         "stearin, palmitin, palmitoolien",
         "palmitoolien, neuronate, mevalonate",
         "palmitin, stearin, linolenate"
@@ -4767,7 +4772,7 @@ export const s_2_0 = {
     {
       "question": "Show the intermediate product for the synthesis of fatty acids from amino acids:",
       "options": [
-        "Acetyl CoA",
+        "*Acetyl CoA",
         "Oxaloacetate",
         "Pyruvate",
         "Malate"
@@ -4778,7 +4783,7 @@ export const s_2_0 = {
     {
       "question": "At what time does the synthesis of fatty acids accelerate in the body:",
       "options": [
-        "Increases the amount of glucose after meals",
+        "*Increases the amount of glucose after meals",
         "In reducing the amount of glucose",
         "Increases glucagon secretion",
         "In reducing the secretion of adrenaline"
@@ -4789,7 +4794,7 @@ export const s_2_0 = {
     {
       "question": "Find the cyclic process that ensures the bond between carbohydrates and amino acids:",
       "options": [
-        "Glucose-alanine cycle",
+        "*Glucose-alanine cycle",
         "Corey cycle",
         "Ornithine cycle",
         "Pentose phosphate cycle"
@@ -4800,7 +4805,7 @@ export const s_2_0 = {
     {
       "question": "Is it possible to synthesize glucose from lipids in the body:",
       "options": [
-        "Maybe from glycerin",
+        "*Maybe from glycerin",
         "Possibly from ketone bodies",
         "Possibly from acetyl CoA",
         "Cannot be synthesized"
@@ -4811,7 +4816,7 @@ export const s_2_0 = {
     {
       "question": "What substance is the link between carbohydrate and lipid metabolism:",
       "options": [
-        "Glycerin",
+        "*Glycerin",
         "Acetoacetate",
         "Acetone",
         "Citrate"
@@ -4822,7 +4827,7 @@ export const s_2_0 = {
     {
       "question": "Identify the hormone that stimulates gluconeogenesis:",
       "options": [
-        "Cortisol",
+        "*Cortisol",
         "Aldosterone",
         "Insulin",
         "Vasopressin"
@@ -4833,7 +4838,7 @@ export const s_2_0 = {
     {
       "question": "Show the hormone that inhibits the active transport of glucose into the cell:",
       "options": [
-        "Hydrocortisone",
+        "*Hydrocortisone",
         "Adrenaline",
         "Insulin",
         "Vasopressin"
@@ -4844,7 +4849,7 @@ export const s_2_0 = {
     {
       "question": "Which substance can cause diabetes when it is introduced into the body for a long time:",
       "options": [
-        "Cortisol",
+        "*Cortisol",
         "Estrogen",
         "Cholesterol",
         "Prolactin"
@@ -4855,7 +4860,7 @@ export const s_2_0 = {
     {
       "question": "Is it possible to synthesize an amino acid from glucose:",
       "options": [
-        "Only interchangeable amino acids are possible",
+        "*Only interchangeable amino acids are possible",
         "Possibly all amino acids",
         "Only open-chain amino acids are possible",
         "Cannot be synthesized"
@@ -4866,7 +4871,7 @@ export const s_2_0 = {
     {
       "question": "Which metabolite connects the Krebs cycle to the ornithine cycle:",
       "options": [
-        "Argino-succinate",
+        "*Argino-succinate",
         "Malate",
         "Citrulline",
         "Carbomoyl phosphate"
@@ -4877,7 +4882,7 @@ export const s_2_0 = {
     {
       "question": "What is a Krebs bike:",
       "options": [
-        "Connection of citrate cycle and ornithine cycle",
+        "*Connection of citrate cycle and ornithine cycle",
         "Relationship between Krebs cycle and Curry cycle",
         "Generality of catabolism pathways",
         "Controllable reactions of the Krebs cycle"
@@ -4888,7 +4893,7 @@ export const s_2_0 = {
     {
       "question": "Is it possible to synthesize glucose from fatty acids:",
       "options": [
-        "Not allowed",
+        "*Not allowed",
         "Possibly Acetyl CoA",
         "Possibly through ketone bodies",
         "Possibly through pyruvate"
@@ -4899,7 +4904,7 @@ export const s_2_0 = {
     {
       "question": "Show the Krebs cycle metabolite involved in amphibolic pathways:",
       "options": [
-        "Oxaloacetate",
+        "*Oxaloacetate",
         "succinate",
         "cis-aconitate",
         "citrate"
@@ -4910,7 +4915,7 @@ export const s_2_0 = {
     {
       "question": "The source of oxaloacetate, the 2nd key substrate of the Krebs cycle:",
       "options": [
-        "Asparagine",
+        "*Asparagine",
         "Fatty acids",
         "Acetoacetate",
         "Acetone"
@@ -4921,7 +4926,7 @@ export const s_2_0 = {
     {
       "question": "Bile acids act as an emulsifier in the digestion of fats, which amino acid also participates in this process:",
       "options": [
-        "Glycine",
+        "*Glycine",
         "Alanine",
         "Cool",
         "Glutamate"
@@ -4932,7 +4937,7 @@ export const s_2_0 = {
     {
       "question": "Which amino acid acts as an amide group donor for the formation of galactosamine:",
       "options": [
-        "Glutamine",
+        "*Glutamine",
         "Glycine",
         "Tyrosine",
         "Aspartate"
@@ -4943,7 +4948,7 @@ export const s_2_0 = {
     {
       "question": "Metabolism of protein, fat and carbohydrates in the body:",
       "options": [
-        "Integrated",
+        "*Integrated",
         "They do not connect to each other",
         "Each one is done separately",
         "They do not repeat each other"
@@ -4954,7 +4959,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following metabolites can be the first raw material of vitamin D3 synthesis in the body?",
       "options": [
-        "Acetyl CoA",
+        "*Acetyl CoA",
         "Tyrosine",
         "Fumarate",
         "Oxaloacetate"
@@ -4965,7 +4970,7 @@ export const s_2_0 = {
     {
       "question": "Which of the following metabolites is necessary for the combustion of acetyl CoA in the Krebs cycle:",
       "options": [
-        "Oxaloacetate",
+        "*Oxaloacetate",
         "Glucose",
         "Citrate",
         "Acetoacetic acid"

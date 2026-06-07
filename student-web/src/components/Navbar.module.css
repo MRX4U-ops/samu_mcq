@@ -2,11 +2,9 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(250,249,246,0.88);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
-  border-bottom: 1px solid rgba(99,102,241,0.10);
-  box-shadow: 0 1px 20px rgba(99,102,241,0.06);
+  background: var(--gradient-header);
+  border-bottom: 1px solid var(--color-primary-dark);
+  box-shadow: 0 4px 20px rgba(15, 76, 117, 0.12);
 }
 .inner {
   max-width: 900px;
@@ -23,44 +21,43 @@
 }
 .logo {
   width: 36px; height: 36px;
-  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 11px;
   display: flex; align-items: center; justify-content: center;
   flex-shrink: 0;
-  box-shadow: 0 4px 14px rgba(99,102,241,0.40);
-  font-size: 15px; font-weight: 900; color: var(--bg-card-solid);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-size: 15px; font-weight: 900; color: var(--color-text-inverse);
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .brandName {
   font-size: 17px; font-weight: 900;
-  color: var(--text-primary); letter-spacing: -0.5px;
+  color: var(--color-text-inverse); letter-spacing: -0.5px;
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .brandAccent {
-  color: #f59e0b;
+  color: #fbbf24;
   font-style: italic;
 }
 .actions { display: flex; align-items: center; gap: 10px; }
 .bellBtn {
   width: 36px; height: 36px;
   border-radius: 50%;
-  border: 1.5px solid rgba(99,102,241,0.15);
-  background: var(--bg-card);
-  backdrop-filter: blur(12px);
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.12);
   display: flex; align-items: center; justify-content: center;
-  color: #4338ca;
+  color: var(--color-text-inverse);
   cursor: pointer;
   position: relative;
   transition: all 0.2s;
-  box-shadow: 0 2px 8px rgba(99,102,241,0.10);
 }
-.bellBtn:hover { background: rgba(255,255,255,0.95); color: #312e81; transform: scale(1.06); }
+.bellBtn:hover { background: rgba(255,255,255,0.22); color: var(--color-text-inverse); transform: scale(1.06); }
 .bellDot {
   position: absolute; top: 6px; right: 6px;
   width: 7px; height: 7px;
-  background: linear-gradient(135deg, #f59e0b, #fbbf24);
+  background: var(--color-warning);
   border-radius: 50%;
-  border: 1.5px solid #faf9f6;
+  border: 1.5px solid var(--color-primary-dark);
   animation: pulse 2s ease infinite;
 }
 @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.6; } }
@@ -68,12 +65,11 @@
 .avatarBtn {
   width: 36px; height: 36px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  background: rgba(255, 255, 255, 0.18);
+  border: 2px solid rgba(255, 255, 255, 0.5);
   display: flex; align-items: center; justify-content: center;
-  font-size: 14px; font-weight: 800; color: white;
+  font-size: 14px; font-weight: 800; color: var(--color-text-inverse);
   text-decoration: none;
-  box-shadow: 0 4px 14px rgba(99,102,241,0.40);
-  border: 2px solid rgba(251,191,36,0.60);
   transition: all 0.25s cubic-bezier(0.34,1.56,0.64,1);
 }
-.avatarBtn:hover { transform: scale(1.10); box-shadow: 0 6px 20px rgba(99,102,241,0.50); }
+.avatarBtn:hover { transform: scale(1.10); background: rgba(255,255,255,0.28); }

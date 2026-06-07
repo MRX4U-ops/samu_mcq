@@ -45,25 +45,27 @@
 
 /* Case Card */
 .caseCard {
-  background: linear-gradient(135deg, #111827, #1A2235);
-  border: 1px solid var(--border);
+  background: var(--bg-card);
+  border: 1.5px solid var(--border);
   border-radius: var(--radius-lg);
   padding: 20px;
   margin-bottom: 20px;
+  box-shadow: var(--shadow-card);
 }
 .caseMetaRow { display: flex; gap: 8px; margin-bottom: 12px; }
-.badge { background: rgba(59,130,246,0.15); color: var(--blue); padding: 4px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }
-.badgeDark { background: rgba(255,255,255,0.05); color: var(--text-secondary); padding: 4px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+.badge { background: rgba(59,130,246,0.15); color: #2563eb; padding: 4px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+.badgeDark { background: rgba(99,102,241,0.06); color: var(--text-muted); padding: 4px 10px; border-radius: 999px; font-size: 11px; font-weight: 700; }
 
-.caseTitle { font-size: 20px; font-weight: 900; color: var(--bg-card-solid); line-height: 1.3; margin-bottom: 16px; }
+.caseTitle { font-size: 20px; font-weight: 900; color: var(--text-primary); line-height: 1.3; margin-bottom: 16px; }
 
 .patientBox {
   display: flex;
-  background: rgba(0,0,0,0.3);
-  border-radius: 8px;
-  padding: 10px;
+  background: var(--bg-base);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
 }
-.pItem { flex: 1; text-align: center; font-size: 13px; font-weight: 600; color: var(--bg-card-solid); }
+.pItem { flex: 1; text-align: center; font-size: 13px; font-weight: 700; color: var(--text-primary); }
 .pItem span { display: block; font-size: 10px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 2px; }
 .pItem:not(:last-child) { border-right: 1px solid var(--border); }
 
@@ -88,7 +90,7 @@
   padding: 16px;
 }
 .sectionHeader { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
-.sectionTitle { font-size: 14px; font-weight: 800; color: var(--bg-card-solid); }
+.sectionTitle { font-size: 14px; font-weight: 800; color: var(--text-primary); }
 .sectionBody { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
 
 .text { line-height: 1.6; }
