@@ -387,3 +387,8 @@
   to { transform: rotate(360deg); }
 }
 
+@media print {
+  .printHide {
+    display: none !important;
+  }
+}

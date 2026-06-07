@@ -39,8 +39,9 @@ export default function ExamResultPage() {
 
   return (
     <div className={styles.page}>
-      <Navbar />
-      <div className={styles.container}>
+      <div className={styles.printHide}>
+        <Navbar />
+        <div className={styles.container}>
         <div className={styles.header}>
           <Link to="/home" className={styles.backBtn}>
             <ChevronLeft size={24} />
@@ -178,6 +179,7 @@ export default function ExamResultPage() {
             })
           )}
         </div>
+      </div>
       </div>
 
       {selectedCertificateUser && (
