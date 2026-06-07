@@ -1,0 +1,617 @@
+/* homepage-premium.css */
+
+/* 1. PAGE BACKGROUND */
+._page_1azb4_5 {
+  background: linear-gradient(160deg, #0a0e27 0%, #0f172a 40%, #111827 100%) !important;
+  min-height: 100vh;
+}
+
+/* 2. HERO SECTION */
+._hero_1azb4_20 {
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 35%, #4338ca 65%, #6d28d9 100%) !important;
+  border: 1px solid rgba(139, 92, 246, 0.4) !important;
+  border-radius: 28px !important;
+  box-shadow: 0 20px 60px rgba(99, 102, 241, 0.35), 0 0 0 1px rgba(255,255,255,0.06) inset !important;
+  position: relative;
+  overflow: hidden;
+}
+
+._heroGreeting_1azb4_56 {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.3px !important;
+}
+
+._heroTitle_1azb4_60 {
+  background: linear-gradient(135deg, #ffffff 30%, #fbbf24 70%, #f59e0b 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-size: 30px !important;
+  font-weight: 900 !important;
+  line-height: 1.1 !important;
+  letter-spacing: -0.5px !important;
+}
+
+._heroSub_1azb4_66 {
+  color: rgba(255, 255, 255, 0.75) !important;
+  font-size: 13.5px !important;
+  line-height: 1.6 !important;
+}
+
+._heroBadge_1azb4_314 {
+  background: rgba(255,255,255,0.12) !important;
+  border: 1px solid rgba(255,255,255,0.2) !important;
+  border-radius: 16px !important;
+  backdrop-filter: blur(12px) !important;
+  padding: 12px 10px !important;
+  transition: transform 0.2s ease, background 0.2s ease !important;
+}
+
+._heroBadge_1azb4_314:hover {
+  background: rgba(255,255,255,0.2) !important;
+  transform: translateY(-2px) !important;
+}
+
+._heroBadgeVal_1azb4_324 {
+  color: #ffffff !important;
+  font-size: 16px !important;
+  font-weight: 900 !important;
+}
+
+._heroBadgeLabel_1azb4_325 {
+  color: rgba(255,255,255,0.65) !important;
+  font-size: 9px !important;
+  letter-spacing: 0.8px !important;
+}
+
+/* 3. BANNER CAROUSEL */
+._bannerWrap_1azb4_328 {
+  border-radius: 22px !important;
+  height: 90px !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+}
+
+._bannerTitle_1azb4_337 {
+  font-size: 14px !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.4px !important;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.3) !important;
+}
+
+._bannerSub_1azb4_338 {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  opacity: 0.9 !important;
+}
+
+._couponBadge_1azb4_339 {
+  background: rgba(255,255,255,0.25) !important;
+  border: 1.5px dashed rgba(255,255,255,0.7) !important;
+  border-radius: 10px !important;
+  font-size: 12px !important;
+  font-weight: 900 !important;
+  letter-spacing: 2px !important;
+  padding: 6px 14px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2) !important;
+}
+
+/* 4. STATS GRID */
+._statsGrid_1azb4_71 {
+  gap: 12px !important;
+  margin-bottom: 16px !important;
+}
+
+._statCard_1azb4_350 {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  backdrop-filter: blur(20px) !important;
+  border-radius: 18px !important;
+  padding: 16px 10px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.08) !important;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+._statCard_1azb4_350:hover {
+  background: rgba(255,255,255,0.12) !important;
+  transform: translateY(-4px) scale(1.03) !important;
+  border-color: rgba(255,255,255,0.2) !important;
+}
+
+._statVal_1azb4_361 {
+  font-size: 18px !important;
+  font-weight: 900 !important;
+}
+
+._statLabel_1azb4_362 {
+  color: rgba(255,255,255,0.5) !important;
+  font-size: 9px !important;
+  letter-spacing: 0.8px !important;
+}
+
+/* 5. LEVEL CARD */
+._levelCard_1azb4_365 {
+  background: linear-gradient(135deg, rgba(79,70,229,0.15) 0%, rgba(124,58,237,0.1) 100%) !important;
+  border: 1px solid rgba(99,102,241,0.3) !important;
+  border-radius: 22px !important;
+  box-shadow: 0 4px 24px rgba(99,102,241,0.15) !important;
+  backdrop-filter: blur(20px) !important;
+}
+
+._levelBadge_1azb4_374 {
+  background: linear-gradient(135deg, #7c3aed, #4f46e5) !important;
+  box-shadow: 0 4px 16px rgba(124,58,237,0.5) !important;
+  border-radius: 14px !important;
+}
+
+._levelTitle_1azb4_380 {
+  color: #ffffff !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+}
+
+._levelSub_1azb4_381 {
+  color: rgba(255,255,255,0.55) !important;
+  font-size: 11px !important;
+}
+
+._levelBar_1azb4_382 {
+  background: rgba(255,255,255,0.1) !important;
+  height: 8px !important;
+  border-radius: 999px !important;
+}
+
+._levelBarFill_1azb4_384 {
+  background: linear-gradient(90deg, #818cf8, #a78bfa, #c084fc) !important;
+  box-shadow: 0 0 10px rgba(167,139,250,0.6) !important;
+}
+
+._levelPct_1azb4_385 {
+  color: #a78bfa !important;
+}
+
+/* 6. SECTION HEADERS */
+._sectionHeader_1azb4_388 .section-label {
+  color: rgba(255,255,255,0.45) !important;
+  font-size: 10px !important;
+  font-weight: 900 !important;
+  letter-spacing: 2.5px !important;
+}
+
+._sectionSub_1azb4_389 {
+  color: #34d399 !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+}
+
+._seeAll_1azb4_390 {
+  color: #818cf8 !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+}
+
+/* 7. GOALS ROW */
+._goalCard_1azb4_395 {
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 18px !important;
+  backdrop-filter: blur(16px) !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2) !important;
+  padding: 16px !important;
+}
+
+._goalTitle_1azb4_402 {
+  color: #a5b4fc !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}
+
+._goalDone_1azb4_404 {
+  color: #ffffff !important;
+  font-size: 24px !important;
+  font-weight: 900 !important;
+}
+
+._goalSep_1azb4_405 {
+  color: rgba(255,255,255,0.4) !important;
+}
+
+/* 8. SEARCH BAR */
+._searchWrap_1azb4_408 {
+  background: rgba(255,255,255,0.07) !important;
+  border: 1.5px solid rgba(255,255,255,0.12) !important;
+  border-radius: 20px !important;
+  backdrop-filter: blur(20px) !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.08) !important;
+}
+
+._searchWrap_1azb4_408:hover {
+  border-color: rgba(139,92,246,0.5) !important;
+  box-shadow: 0 4px 24px rgba(99,102,241,0.2) !important;
+}
+
+._searchInput_1azb4_418 {
+  color: rgba(255,255,255,0.9) !important;
+  font-size: 14px !important;
+}
+
+._searchInput_1azb4_418::placeholder {
+  color: rgba(255,255,255,0.35) !important;
+}
+
+/* 9. COURSE CARDS */
+._courseCard_1azb4_446 {
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 22px !important;
+  backdrop-filter: blur(16px) !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.06) !important;
+  transition: all 0.28s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+._courseCard_1azb4_446:hover {
+  background: rgba(255,255,255,0.12) !important;
+  border-color: rgba(139,92,246,0.45) !important;
+  box-shadow: 0 12px 40px rgba(99,102,241,0.3) !important;
+  transform: translateX(5px) translateY(-2px) !important;
+}
+
+._courseTitle_1azb4_463 {
+  color: #ffffff !important;
+  font-size: 17px !important;
+  font-weight: 900 !important;
+}
+
+._courseMeta_1azb4_464 {
+  color: rgba(255,255,255,0.5) !important;
+  font-size: 12px !important;
+}
+
+._courseChev_1azb4_465 {
+  color: rgba(165,180,252,0.7) !important;
+}
+
+._courseGrad_1azb4_460 {
+  border-radius: 18px 0 0 18px !important;
+  box-shadow: inset -2px 0 12px rgba(0,0,0,0.15) !important;
+}
+
+/* 10. AI INSIGHT CARD */
+._aiInsightCard_1azb4_618 {
+  background: linear-gradient(135deg, rgba(79,70,229,0.18), rgba(124,58,237,0.12)) !important;
+  border: 1px solid rgba(99,102,241,0.35) !important;
+  border-radius: 24px !important;
+  backdrop-filter: blur(20px) !important;
+  box-shadow: 0 8px 32px rgba(99,102,241,0.2) !important;
+}
+
+._aiTitle_1azb4_628 {
+  color: #c4b5fd !important;
+  font-size: 14px !important;
+  font-weight: 900 !important;
+}
+
+._aiText_1azb4_629 {
+  color: rgba(255,255,255,0.75) !important;
+  font-size: 13px !important;
+  line-height: 1.6 !important;
+}
+
+._aiAction_1azb4_630 {
+  color: #818cf8 !important;
+  font-size: 12px !important;
+  font-weight: 800 !important;
+  background: rgba(99,102,241,0.15) !important;
+  border: 1px solid rgba(99,102,241,0.3) !important;
+  border-radius: 999px !important;
+  padding: 4px 12px !important;
+  margin-top: 10px !important;
+  transition: all 0.2s !important;
+}
+
+._aiAction_1azb4_630:hover {
+  background: rgba(99,102,241,0.25) !important;
+  color: #a5b4fc !important;
+}
+
+/* 11. SUBJECT MASTERY CARD */
+._masteryCard_1azb4_604 {
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 24px !important;
+  backdrop-filter: blur(16px) !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.2) !important;
+}
+
+._masteryLabel_1azb4_612 {
+  color: rgba(255,255,255,0.85) !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+}
+
+._masteryBarWrap_1azb4_614 {
+  background: rgba(255,255,255,0.08) !important;
+  border-radius: 999px !important;
+  height: 9px !important;
+}
+
+._masteryBarFill_1azb4_615 {
+  border-radius: 999px !important;
+  box-shadow: 0 0 8px currentColor !important;
+}
+
+/* 12. FEATURE HUB GRID */
+._hubItem_1azb4_469:hover {
+  transform: translateY(-6px) scale(1.05) !important;
+}
+
+._hubIcon_1azb4_475 {
+  border-radius: 24px !important;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.2) !important;
+  border: 1px solid rgba(255,255,255,0.15) !important;
+  width: 80px !important;
+  height: 80px !important;
+  font-size: 36px !important;
+}
+
+._hubLabel_1azb4_481 {
+  color: rgba(255,255,255,0.75) !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}
+
+/* 13. LEADERBOARD CARD */
+._lbCard_1azb4_484 {
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 28px !important;
+  backdrop-filter: blur(16px) !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2) !important;
+}
+
+._lbEmpty_1azb4_501 {
+  color: rgba(255,255,255,0.4) !important;
+}
+
+._podiumName_1azb4_499 {
+  color: rgba(255,255,255,0.8) !important;
+}
+
+._lbBtn_1azb4_502 {
+  color: #818cf8 !important;
+  border-color: rgba(99,102,241,0.3) !important;
+  background: rgba(99,102,241,0.1) !important;
+  border-radius: 14px !important;
+  font-weight: 700 !important;
+}
+
+._lbBtn_1azb4_502:hover {
+  background: rgba(99,102,241,0.2) !important;
+}
+
+/* 14. STREAK CARD */
+._streakCard_1azb4_505 {
+  background: linear-gradient(135deg, rgba(245,158,11,0.12), rgba(251,191,36,0.06)) !important;
+  border: 1.5px solid rgba(245,158,11,0.35) !important;
+  border-radius: 28px !important;
+  box-shadow: 0 8px 32px rgba(245,158,11,0.15) !important;
+  backdrop-filter: blur(16px) !important;
+}
+
+._streakNum_1azb4_513 {
+  color: #fbbf24 !important;
+  font-size: 26px !important;
+  font-weight: 900 !important;
+  text-shadow: 0 0 20px rgba(251,191,36,0.5) !important;
+}
+
+._streakSub_1azb4_514 {
+  color: rgba(255,255,255,0.55) !important;
+}
+
+._weekDot_1azb4_517 {
+  background: rgba(255,255,255,0.06) !important;
+  border: 1.5px solid rgba(255,255,255,0.12) !important;
+  color: rgba(255,255,255,0.4) !important;
+}
+
+._weekLabel_1azb4_534 {
+  color: rgba(255,255,255,0.4) !important;
+}
+
+/* 15. RECENT ACTIVITY CARD */
+._activityCard_1azb4_633 {
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 24px !important;
+  backdrop-filter: blur(16px) !important;
+}
+
+._actTitle_1azb4_645 {
+  color: rgba(255,255,255,0.9) !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+}
+
+._actMeta_1azb4_646 {
+  color: rgba(255,255,255,0.4) !important;
+}
+
+/* 16. UPCOMING TASKS */
+._taskItem_1azb4_651 {
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 18px !important;
+  backdrop-filter: blur(12px) !important;
+}
+
+._taskTitle_1azb4_657 {
+  color: rgba(255,255,255,0.9) !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+}
+
+._taskTime_1azb4_658 {
+  color: rgba(255,255,255,0.45) !important;
+}
+
+._taskBtn_1azb4_659 {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed) !important;
+  border-radius: 10px !important;
+  font-weight: 800 !important;
+  font-size: 12px !important;
+  box-shadow: 0 4px 12px rgba(99,102,241,0.4) !important;
+  transition: all 0.2s !important;
+}
+
+._taskBtn_1azb4_659:hover {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 6px 18px rgba(99,102,241,0.5) !important;
+}
+
+/* 17. UPDATES CARD */
+._updatesCard_1azb4_562 {
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 28px !important;
+  backdrop-filter: blur(16px) !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.2) !important;
+}
+
+._updateText_1azb4_572 {
+  color: rgba(255,255,255,0.8) !important;
+}
+
+._updateTime_1azb4_573 {
+  color: rgba(255,255,255,0.35) !important;
+}
+
+._updateRow_1azb4_568:hover {
+  background: rgba(255,255,255,0.06) !important;
+}
+
+._updateDivider_1azb4_570 {
+  border-bottom: 1px solid rgba(255,255,255,0.06) !important;
+}
+
+/* 18. OFFER BANNER */
+._offerBanner_1azb4_576 {
+  background: linear-gradient(135deg, #7f1d1d, #dc2626, #ef4444) !important;
+  border-radius: 28px !important;
+  box-shadow: 0 12px 40px rgba(239,68,68,0.35) !important;
+  border: 1px solid rgba(255,255,255,0.12) !important;
+}
+
+._offerTitle_1azb4_583 {
+  font-size: 19px !important;
+  font-weight: 900 !important;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3) !important;
+}
+
+._couponBox_1azb4_585 {
+  background: rgba(255,255,255,0.2) !important;
+  border: 2px dashed rgba(255,255,255,0.7) !important;
+  letter-spacing: 3px !important;
+  font-size: 15px !important;
+  font-weight: 900 !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2) !important;
+}
+
+._offerBtn_1azb4_591 {
+  background: rgba(255,255,255,0.2) !important;
+  border: 1.5px solid rgba(255,255,255,0.5) !important;
+  border-radius: 16px !important;
+  font-size: 14px !important;
+  font-weight: 900 !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2) !important;
+  transition: all 0.2s !important;
+}
+
+._offerBtn_1azb4_591:hover {
+  background: rgba(255,255,255,0.35) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* 19. BOTTOM NAV */
+._nav_glk65_2 {
+  background: rgba(10, 14, 39, 0.92) !important;
+  border-top: 1px solid rgba(255,255,255,0.08) !important;
+  backdrop-filter: blur(32px) !important;
+  box-shadow: 0 -8px 32px rgba(0,0,0,0.4) !important;
+}
+
+._label_glk65_23 {
+  color: rgba(255,255,255,0.4) !important;
+  font-size: 11px !important;
+}
+
+._icon_glk65_22 {
+  color: rgba(255,255,255,0.35) !important;
+}
+
+._active_glk65_25 ._icon_glk65_22 {
+  color: #818cf8 !important;
+}
+
+._active_glk65_25 ._label_glk65_23 {
+  color: #818cf8 !important;
+}
+
+._activeDot_glk65_28 {
+  background: #818cf8 !important;
+  box-shadow: 0 0 12px rgba(129,140,248,0.6) !important;
+}
+
+._activeIconWrap_glk65_35 {
+  background: rgba(129,140,248,0.15) !important;
+  box-shadow: none !important;
+}
+
+/* 20. TOP NAVBAR */
+._nav_1rrdq_1 {
+  background: rgba(10, 14, 39, 0.95) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.08) !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.4) !important;
+  backdrop-filter: blur(20px) !important;
+}
+
+._brandAccent_1rrdq_38 {
+  color: #fbbf24 !important;
+  font-style: normal !important;
+  text-shadow: 0 0 12px rgba(251,191,36,0.4) !important;
+}
+
+._bellDot_1rrdq_55 {
+  background: #f43f5e !important;
+  box-shadow: 0 0 6px rgba(244,63,94,0.7) !important;
+}
+
+/* 21. CHAT FAB BUTTON */
+._chatFab_1azb4_76 {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed) !important;
+  box-shadow: 0 8px 30px rgba(79,70,229,0.55), 0 0 0 1px rgba(255,255,255,0.12) !important;
+  border: none !important;
+}
+
+._chatFab_1azb4_76:hover {
+  box-shadow: 0 12px 40px rgba(79,70,229,0.7) !important;
+  transform: scale(1.12) rotate(8deg) !important;
+}
+
+/* GLOBAL TEXT FIX FOR DARK BACKGROUND */
+._container_1azb4_12 .section-label {
+  color: rgba(255, 255, 255, 0.45) !important;
+}
+
+._container_1azb4_12 h1,
+._container_1azb4_12 h2,
+._container_1azb4_12 h3 {
+  color: rgba(255, 255, 255, 0.95) !important;
+}
+
+._container_1azb4_12 p,
+._container_1azb4_12 span:not([class*="badge"]):not([class*="val"]):not([class*="num"]):not([class*="score"]) {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
