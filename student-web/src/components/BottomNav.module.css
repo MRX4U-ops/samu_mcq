@@ -26,10 +26,10 @@
 .active .label { color: var(--color-primary); }
 
 .activeDot {
-  position: absolute; top: 0;
-  width: 44px; height: 4px; border-radius: 0 0 4px 4px;
+  position: absolute; left: 0; top: 0; bottom: 0;
+  width: 4px; border-radius: 0 4px 4px 0;
   background: var(--color-primary);
-  box-shadow: 0 4px 16px rgba(26, 111, 168, 0.35);
+  box-shadow: 2px 0 12px rgba(26, 111, 168, 0.35);
 }
 
 .activeIconWrap {
