@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, ChevronDown, ChevronUp, BookOpen, Clock, Award, ChevronLeft, XCircle } from 'lucide-react';
 import Navbar from '../components/Navbar';
+import CertificateModal from '../components/CertificateModal';
 import biochemistryResults from '../data/biochemistry_results.json';
 import microbiologyResults from '../data/microbiology_results.json';
 import anatomyResults from '../data/clinical_anatomy_results.json';
@@ -19,6 +20,7 @@ export default function ExamResultPage() {
   const [query, setQuery] = useState('');
   const [activeSubjectId, setActiveSubjectId] = useState('biochemistry');
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [selectedCertificateUser, setSelectedCertificateUser] = useState(null);
 
   const currentSubject = SUBJECTS.find(s => s.id === activeSubjectId) || SUBJECTS[0];
 
@@ -120,6 +122,32 @@ export default function ExamResultPage() {
 
                   <div className={styles.divider} />
 
+                  {isPassed && item.score >= 98 && (
+                    <div className={styles.certificatePromoCard}>
+                      <div className={styles.certificatePromoText}>
+                        <Award size={20} color="#D97706" />
+                        <div>
+                          <strong>Outstanding Performance!</strong>
+                          <br/>
+                          You are eligible for an Achievement Certificate.
+                        </div>
+                      </div>
+                      <button 
+                        className={styles.certActionBtn}
+                        onClick={() => setSelectedCertificateUser({
+                          student_name: item.name.replace(/\bXXX\b/g, ' ').replace(/\s+/g, ' ').trim(),
+                          score: item.score,
+                          subject_name: currentSubject.title,
+                          completion_date: currentSubject.title.includes('Chemistry') ? '03.06.2026' : '19.05.2026',
+                          certificate_id: 'CERT-' + Math.random().toString(36).substr(2, 9).toUpperCase(),
+                          achievement_level: item.score === 100 ? 'Platinum Scholar' : 'Gold Excellence'
+                        })}
+                      >
+                        View Certificate
+                      </button>
+                    </div>
+                  )}
+
                   <div className={styles.statsRow}>
                     <div className={styles.statCol}>
                       <span className={styles.statLabel}>Score</span>
@@ -152,6 +180,12 @@ export default function ExamResultPage() {
         </div>
       </div>
 
+      {selectedCertificateUser && (
+        <CertificateModal
+          cert={selectedCertificateUser}
+          onClose={() => setSelectedCertificateUser(null)}
+        />
+      )}
 
     </div>
   );
