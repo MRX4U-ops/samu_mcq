@@ -1,0 +1,196 @@
+/* ====================================================================
+   ROYAL BLUE & INDIGO THEME - MEDICAL PLATFORM
+   Clean, modern clinical look with vibrant royal blue & violet gradients,
+   crisp white cards, sleek glassmorphism, and premium shadows.
+   ==================================================================== */
+
+:root {
+  /* Brand Core - Royal Blue & Deep Indigo */
+  --primary: #2563eb !important;
+  --primary-dark: #1e3a8a !important;
+  --primary-light: #dbeafe !important;
+  --primary-xlight: #eff6ff !important;
+
+  /* Accent Tones */
+  --accent-blue: #3b82f6 !important;
+  --accent-indigo: #4f46e5 !important;
+  --accent-violet: #7c3aed !important;
+  --accent-green: #10b981 !important;
+  --accent-green-dark: #059669 !important;
+  --accent-green-bg: #ecfdf5 !important;
+  --danger: #ef4444 !important;
+  --danger-bg: #fef2f2 !important;
+  --warning: #f59e0b !important;
+  --warning-bg: #fffbeb !important;
+
+  /* Surfaces & Backgrounds */
+  --bg-page: #f8fafc !important;
+  --bg-surface: #ffffff !important;
+  --bg-hover: #eff6ff !important;
+  --bg-base: #f8fafc !important;
+  --bg-card: #ffffff !important;
+  --bg-card-solid: #ffffff !important;
+  --bg-card-hover: #f1f5f9 !important;
+  --bg-default: #f8fafc !important;
+  --surface-default: #ffffff !important;
+  --surface-light: #f1f5f9 !important;
+
+  /* Text Hierarchy */
+  --text-main: #0f172a !important;
+  --text-primary: #0f172a !important;
+  --text-secondary: #2563eb !important;
+  --text-sub: #475569 !important;
+  --text-body: #475569 !important;
+  --text-muted: #64748b !important;
+  --text-white: #ffffff !important;
+
+  /* Borders */
+  --border: #e2e8f0 !important;
+  --border-color: #e2e8f0 !important;
+  --border-focus: #2563eb !important;
+  --border-soft: rgba(37, 99, 235, 0.12) !important;
+  --border-hover: rgba(79, 70, 229, 0.35) !important;
+
+  /* Shadows */
+  --shadow-card: 0 8px 30px -4px rgba(30, 58, 138, 0.08), 0 2px 8px -2px rgba(15, 23, 42, 0.04) !important;
+  --shadow-hover: 0 16px 40px -6px rgba(37, 99, 235, 0.18), 0 4px 12px -2px rgba(15, 23, 42, 0.06) !important;
+  --shadow-button: 0 4px 16px rgba(37, 99, 235, 0.32) !important;
+  --shadow-btn: 0 4px 16px rgba(37, 99, 235, 0.32) !important;
+  --shadow-btn-h: 0 8px 24px rgba(79, 70, 229, 0.42) !important;
+  --shadow-glow: 0 0 35px rgba(37, 99, 235, 0.22) !important;
+
+  /* Gradients */
+  --gradient-header: linear-gradient(135deg, #0f172a 0%, #1e1b4b 30%, #1e3a8a 65%, #2563eb 100%) !important;
+  --gradient-hero: linear-gradient(135deg, #0f172a 0%, #1e1b4b 35%, #1e40af 75%, #3b82f6 100%) !important;
+  --gradient-card: linear-gradient(180deg, #ffffff 0%, #f8faff 100%) !important;
+  --grad-indigo: linear-gradient(135deg, #2563eb 0%, #4f46e5 50%, #7c3aed 100%) !important;
+  --grad-royal: linear-gradient(135deg, #1e3a8a 0%, #2563eb 60%, #38bdf8 100%) !important;
+  --grad-mesh: linear-gradient(180deg, #ffffff 0%, #f8faff 100%) !important;
+
+  /* Palette mappings */
+  --indigo-50: #eff6ff !important;
+  --indigo-100: #dbeafe !important;
+  --indigo-200: #bfdbfe !important;
+  --indigo-400: #3b82f6 !important;
+  --indigo-500: #2563eb !important;
+  --indigo-600: #1d4ed8 !important;
+  --indigo-700: #1e40af !important;
+  --indigo-800: #1e3a8a !important;
+  --indigo-900: #172554 !important;
+  --indigo-950: #0f172a !important;
+  --violet: #4f46e5 !important;
+  --violet2: #4338ca !important;
+}
+
+body {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Navbars & Top Bars */
+header, nav, [class*="_nav_"] {
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8) !important;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04) !important;
+}
+
+/* Brand Logo & Name */
+[class*="_brandName_"], [class*="_logo_"] {
+  color: #1e3a8a !important;
+}
+[class*="_brandAccent_"] {
+  color: #4f46e5 !important;
+}
+
+/* Hero Section */
+[class*="_hero_"] {
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 35%, #1e40af 70%, #2563eb 100%) !important;
+  color: #ffffff !important;
+  border-radius: 28px !important;
+  box-shadow: 0 20px 48px -10px rgba(30, 58, 138, 0.35) !important;
+}
+
+[class*="_heroTitle_"] {
+  background: linear-gradient(135deg, #ffffff 40%, #bfdbfe 80%, #93c5fd 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+/* Buttons */
+.btn-primary, [class*="_taskBtn_"], [class*="_btnPrimary_"] {
+  background: linear-gradient(135deg, #2563eb 0%, #4f46e5 100%) !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.32) !important;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+.btn-primary:hover, [class*="_taskBtn_"]:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 24px rgba(79, 70, 229, 0.42) !important;
+}
+
+/* Cards & Surfaces */
+.card, [class*="_card_"], [class*="_statCard_"], [class*="_courseCard_"], [class*="_levelCard_"], [class*="_goalCard_"] {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 20px !important;
+  box-shadow: 0 6px 24px -2px rgba(30, 58, 138, 0.06), 0 2px 6px -1px rgba(15, 23, 42, 0.03) !important;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+.card:hover, [class*="_statCard_"]:hover, [class*="_courseCard_"]:hover {
+  border-color: rgba(37, 99, 235, 0.4) !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 16px 36px -4px rgba(37, 99, 235, 0.16) !important;
+}
+
+/* AI Insight Card */
+[class*="_aiInsightCard_"] {
+  background: linear-gradient(135deg, #eff6ff 0%, #e0e7ff 100%) !important;
+  border: 1.5px solid rgba(79, 70, 229, 0.25) !important;
+  border-radius: 24px !important;
+}
+
+[class*="_aiTitle_"] {
+  color: #4338ca !important;
+}
+
+/* Offer Banner */
+[class*="_offerBanner_"] {
+  background: linear-gradient(135deg, #1e1b4b 0%, #1e3a8a 45%, #2563eb 100%) !important;
+  border-radius: 28px !important;
+  box-shadow: 0 16px 40px rgba(30, 58, 138, 0.25) !important;
+}
+
+/* Active Nav States */
+[class*="_active_"] [class*="_icon_"], [class*="_active_"] [class*="_label_"] {
+  color: #2563eb !important;
+  font-weight: 700 !important;
+}
+
+[class*="_activeDot_"] {
+  background: #2563eb !important;
+  box-shadow: 0 0 12px rgba(37, 99, 235, 0.6) !important;
+}
+
+[class*="_activeIconWrap_"] {
+  background: #eff6ff !important;
+  border-radius: 12px !important;
+}
+
+/* Progress and Fill */
+.progress-fill, [class*="_levelBarFill_"] {
+  background: linear-gradient(90deg, #2563eb 0%, #4f46e5 100%) !important;
+}
+
+/* Badges */
+.badge-royal, [class*="_heroBadge_"] {
+  background: rgba(255, 255, 255, 0.18) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  backdrop-filter: blur(12px) !important;
+}
