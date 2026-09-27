@@ -2901,64 +2901,186 @@
     // --- 12. COMMUNICATIONS & SUPPORT TRIAGE ---
     function renderCommunications(container) {
   const tickets = AppState.supportTickets || [];
-  const tab = AppState.commTab || 'tickets';
+  const tab = AppState.commTab || 'all';
+  const searchQ = (AppState.ticketSearchQuery || '').toLowerCase();
+  
+  // Filter tickets by tab and search
+  let filtered = tickets;
+  if (tab === 'open') filtered = filtered.filter(x => x.status !== 'RESOLVED' && x.status !== 'CLOSED');
+  else if (tab === 'resolved') filtered = filtered.filter(x => x.status === 'RESOLVED');
+  else if (tab === 'high') filtered = filtered.filter(x => x.priority === 'High');
+  
+  if (searchQ) {
+    filtered = filtered.filter(t => 
+      (t.title || '').toLowerCase().includes(searchQ) ||
+      (t.description || '').toLowerCase().includes(searchQ) ||
+      (t.user_name || '').toLowerCase().includes(searchQ) ||
+      (t.user_email || '').toLowerCase().includes(searchQ) ||
+      (t.category || '').toLowerCase().includes(searchQ)
+    );
+  }
+  
+  const openCount = tickets.filter(x => x.status !== 'RESOLVED' && x.status !== 'CLOSED').length;
+  const resolvedCount = tickets.filter(x => x.status === 'RESOLVED').length;
+  const highCount = tickets.filter(x => x.priority === 'High').length;
+
   container.innerHTML = `
     <div class="space-y-6">
+      <!-- Header -->
       <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h2 class="text-2xl font-black text-slate-900">Communications & Support</h2>
-          <p class="text-sm text-slate-500 mt-1">Real support tickets from Supabase. ${tickets.length} total tickets.</p>
+          <div class="flex items-center gap-2">
+            <h2 class="text-2xl font-black text-slate-900">Student Support & Helpdesk Center</h2>
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-blue-100 text-blue-800 border border-blue-200">Live Supabase Support</span>
+          </div>
+          <p class="text-sm text-slate-500 mt-1">Real support tickets submitted by students. Click <strong>"💬 View & Reply"</strong> on any ticket to chat with the student, send replies, or change status.</p>
         </div>
-        <button onclick="loadSupportTickets()" class="flex items-center gap-2 px-4 py-2 rounded-xl bg-white border border-blue-200 text-blue-700 text-xs font-bold hover:bg-blue-50 transition-all">🔄 Refresh</button>
-      </div>
-      <!-- Tab filters -->
-      <div class="flex gap-2 flex-wrap">
-        ${['tickets','open','resolved'].map(t => `
-          <button onclick="AppState.commTab='${t}'; renderApp();" class="px-4 py-1.5 rounded-full text-xs font-bold transition-all ${tab===t?'bg-blue-700 text-white':'bg-white text-slate-700 border border-slate-200 hover:bg-blue-50'}">
-            ${t==='tickets'?'All Tickets ('+tickets.length+')':t==='open'?'Open ('+tickets.filter(x=>x.status!=='RESOLVED').length+')':'Resolved ('+tickets.filter(x=>x.status==='RESOLVED').length+')'}
+        <div class="flex items-center gap-2">
+          <button onclick="loadRealDataFromSupabase(); showToast('Syncing latest support tickets...', 'info');" class="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white hover:bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200 shadow-sm transition-all">
+            🔄 Refresh Tickets
           </button>
-        `).join('')}
+        </div>
       </div>
-      <!-- Tickets table -->
-      ${tickets.length === 0 ? '<div class="white-card p-10 rounded-2xl text-center border border-slate-200"><div class="text-5xl mb-3">💬</div><h3 class="font-bold text-slate-700">Loading support tickets from Supabase...</h3></div>' : ''}
+
+      <!-- Quick KPI Counters -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div onclick="AppState.commTab='all'; renderApp();" class="cursor-pointer white-card p-4 rounded-2xl border-l-4 border-l-blue-600 hover:shadow-md transition-all">
+          <div class="text-xs font-bold text-slate-400 uppercase">Total Tickets</div>
+          <div class="text-2xl font-black text-slate-900 mt-1">${tickets.length}</div>
+          <div class="text-[11px] text-blue-600 font-bold mt-1">All recorded inquiries</div>
+        </div>
+        <div onclick="AppState.commTab='open'; renderApp();" class="cursor-pointer white-card p-4 rounded-2xl border-l-4 border-l-amber-500 hover:shadow-md transition-all">
+          <div class="text-xs font-bold text-slate-400 uppercase">Needs Action / Open</div>
+          <div class="text-2xl font-black text-amber-600 mt-1">${openCount}</div>
+          <div class="text-[11px] text-amber-700 font-bold mt-1">Awaiting response</div>
+        </div>
+        <div onclick="AppState.commTab='high'; renderApp();" class="cursor-pointer white-card p-4 rounded-2xl border-l-4 border-l-red-500 hover:shadow-md transition-all">
+          <div class="text-xs font-bold text-slate-400 uppercase">High Priority</div>
+          <div class="text-2xl font-black text-red-600 mt-1">${highCount}</div>
+          <div class="text-[11px] text-red-700 font-bold mt-1">Payment & critical</div>
+        </div>
+        <div onclick="AppState.commTab='resolved'; renderApp();" class="cursor-pointer white-card p-4 rounded-2xl border-l-4 border-l-emerald-500 hover:shadow-md transition-all">
+          <div class="text-xs font-bold text-slate-400 uppercase">Resolved</div>
+          <div class="text-2xl font-black text-emerald-600 mt-1">${resolvedCount}</div>
+          <div class="text-[11px] text-emerald-700 font-bold mt-1">Completed tickets</div>
+        </div>
+      </div>
+
+      <!-- Filter Tabs & Search Bar -->
+      <div class="white-card p-4 rounded-2xl border border-slate-200 shadow-sm flex flex-col md:flex-row items-center justify-between gap-3">
+        <div class="flex gap-2 flex-wrap w-full md:w-auto">
+          <button onclick="AppState.commTab='all'; renderApp();" class="px-4 py-2 rounded-xl text-xs font-bold transition-all ${tab==='all'?'bg-blue-700 text-white shadow-md':'bg-slate-100 text-slate-700 hover:bg-slate-200'}">
+            All Tickets (${tickets.length})
+          </button>
+          <button onclick="AppState.commTab='open'; renderApp();" class="px-4 py-2 rounded-xl text-xs font-bold transition-all ${tab==='open'?'bg-amber-600 text-white shadow-md':'bg-slate-100 text-slate-700 hover:bg-slate-200'}">
+            Open / Pending (${openCount})
+          </button>
+          <button onclick="AppState.commTab='high'; renderApp();" class="px-4 py-2 rounded-xl text-xs font-bold transition-all ${tab==='high'?'bg-red-600 text-white shadow-md':'bg-slate-100 text-slate-700 hover:bg-slate-200'}">
+            🔥 High Priority (${highCount})
+          </button>
+          <button onclick="AppState.commTab='resolved'; renderApp();" class="px-4 py-2 rounded-xl text-xs font-bold transition-all ${tab==='resolved'?'bg-emerald-600 text-white shadow-md':'bg-slate-100 text-slate-700 hover:bg-slate-200'}">
+            ✓ Resolved (${resolvedCount})
+          </button>
+        </div>
+
+        <div class="w-full md:w-72">
+          <input type="text" placeholder="🔍 Search student, subject, query..." value="${AppState.ticketSearchQuery || ''}" oninput="AppState.ticketSearchQuery=this.value; renderCommunications(document.getElementById('mainContainer'));" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2 text-xs text-slate-900 placeholder-slate-400 focus:outline-none focus:border-blue-600">
+        </div>
+      </div>
+
+      <!-- Tickets Table -->
       <div class="white-card rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-        ${tickets.length > 0 ? `
-        <table class="w-full text-xs text-left text-slate-700">
-          <thead class="bg-slate-100 border-b text-[10px] uppercase text-slate-500 tracking-wider">
-            <tr>
-              <th class="p-3.5">Student</th>
-              <th class="p-3.5">Title</th>
-              <th class="p-3.5">Category</th>
-              <th class="p-3.5">Priority</th>
-              <th class="p-3.5">Status</th>
-              <th class="p-3.5">Date</th>
-              <th class="p-3.5">Actions</th>
-            </tr>
-          </thead>
-          <tbody class="divide-y divide-slate-200">
-            ${(tab==='open' ? tickets.filter(x=>x.status!=='RESOLVED') : tab==='resolved' ? tickets.filter(x=>x.status==='RESOLVED') : tickets).map(t => `
-              <tr class="hover:bg-slate-50 transition-colors">
-                <td class="p-3.5">
-                  <div class="font-bold text-slate-900">${t.user_name || t.user_id?.substring(0,8)+'...'}</div>
-                  <div class="text-[10px] text-slate-500">${t.user_email || ''}</div>
-                </td>
-                <td class="p-3.5 font-semibold text-slate-800 max-w-[200px] truncate">${t.title}</td>
-                <td class="p-3.5 text-slate-600">${t.category}</td>
-                <td class="p-3.5">
-                  <span class="px-2 py-0.5 rounded-full text-[10px] font-bold border ${t.priority==='High'?'bg-red-100 text-red-700 border-red-200':t.priority==='Medium'?'bg-amber-100 text-amber-700 border-amber-200':'bg-slate-100 text-slate-600 border-slate-200'}">${t.priority}</span>
-                </td>
-                <td class="p-3.5">
-                  <span class="px-2 py-0.5 rounded-full text-[10px] font-bold ${t.status==='RESOLVED'?'bg-green-100 text-green-800':'bg-amber-100 text-amber-800'}">${t.status}</span>
-                </td>
-                <td class="p-3.5 text-slate-500">${new Date(t.created_at).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}</td>
-                <td class="p-3.5">
-                  ${t.status !== 'RESOLVED' ? `<button onclick="resolveTicket('${t.id}')" class="px-3 py-1 rounded-lg text-[10px] font-bold bg-blue-700 text-white hover:bg-blue-800 transition-all">✓ Resolve</button>` : '<span class="text-green-600 font-bold text-[10px]">Done</span>'}
-                </td>
-              </tr>
-            `).join('')}
-          </tbody>
-        </table>
-        ` : ''}
+        ${filtered.length === 0 ? `
+          <div class="p-12 text-center">
+            <div class="text-4xl mb-2">📬</div>
+            <h4 class="font-bold text-slate-700 text-sm">No support tickets in this view</h4>
+            <p class="text-xs text-slate-400 mt-1">Try changing filter tab or clear search query.</p>
+          </div>
+        ` : `
+          <div class="overflow-x-auto">
+            <table class="w-full text-xs text-left text-slate-700">
+              <thead class="bg-slate-100 border-b border-slate-200 text-[10px] uppercase text-slate-600 tracking-wider">
+                <tr>
+                  <th class="p-3.5">Student / Contact</th>
+                  <th class="p-3.5">Ticket Subject & Message</th>
+                  <th class="p-3.5">Category</th>
+                  <th class="p-3.5">Priority</th>
+                  <th class="p-3.5">Status</th>
+                  <th class="p-3.5">Date</th>
+                  <th class="p-3.5 text-right">Actions</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-200">
+                ${filtered.map(t => {
+                  const isHigh = t.priority === 'High';
+                  const isMed = t.priority === 'Medium';
+                  const isResolved = t.status === 'RESOLVED';
+                  return `
+                    <tr class="hover:bg-slate-50 transition-colors">
+                      <td class="p-3.5">
+                        <div class="font-bold text-slate-900 flex items-center gap-1.5">
+                          <span class="w-6 h-6 rounded-full bg-blue-100 text-blue-800 flex items-center justify-center text-[10px] font-extrabold shrink-0">
+                            ${(t.user_name || 'U').charAt(0).toUpperCase()}
+                          </span>
+                          <span class="truncate max-w-[140px]">${t.user_name || 'Student'}</span>
+                        </div>
+                        <div class="text-[10px] text-slate-500 font-mono mt-0.5 truncate max-w-[160px]">${t.user_email || 'N/A'}</div>
+                      </td>
+                      <td class="p-3.5 max-w-[280px]">
+                        <div class="font-extrabold text-slate-900 text-xs truncate">${t.title || 'Untitled Ticket'}</div>
+                        <div class="text-[11px] text-slate-500 truncate mt-0.5" title="${t.description || ''}">
+                          ${t.description || 'No description provided.'}
+                        </div>
+                        ${t.admin_notes ? `<div class="text-[10px] text-blue-700 font-semibold mt-1">📝 Note: ${t.admin_notes}</div>` : ''}
+                      </td>
+                      <td class="p-3.5">
+                        <span class="px-2 py-0.5 rounded-lg text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">
+                          ${t.category || 'General'}
+                        </span>
+                      </td>
+                      <td class="p-3.5">
+                        <span class="px-2 py-0.5 rounded-full text-[10px] font-extrabold border ${
+                          isHigh ? 'bg-red-100 text-red-700 border-red-200' :
+                          isMed ? 'bg-amber-100 text-amber-700 border-amber-200' :
+                          'bg-slate-100 text-slate-600 border-slate-200'
+                        }">
+                          ${isHigh ? '🔴 High' : isMed ? '🟡 Medium' : '🟢 Low'}
+                        </span>
+                      </td>
+                      <td class="p-3.5">
+                        <span class="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold ${
+                          isResolved ? 'bg-emerald-100 text-emerald-800 border border-emerald-300' :
+                          t.status === 'IN_PROGRESS' ? 'bg-blue-100 text-blue-800 border border-blue-300' :
+                          'bg-amber-100 text-amber-800 border border-amber-300'
+                        }">
+                          ${isResolved ? '✓ RESOLVED' : (t.status || 'OPEN')}
+                        </span>
+                      </td>
+                      <td class="p-3.5 text-slate-500 text-[11px] whitespace-nowrap">
+                        ${t.created_at ? new Date(t.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : 'N/A'}
+                      </td>
+                      <td class="p-3.5 text-right whitespace-nowrap">
+                        <div class="flex items-center justify-end gap-1.5">
+                          <button onclick="openTicketModal('${t.id}')" class="px-3 py-1.5 rounded-xl bg-blue-700 hover:bg-blue-800 text-white font-bold text-xs shadow-sm flex items-center gap-1 transition-all">
+                            <span>💬 View & Reply</span>
+                          </button>
+                          ${!isResolved ? `
+                            <button onclick="resolveTicket('${t.id}')" title="Quick Resolve" class="p-1.5 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 text-xs font-bold transition-all">
+                              ✓
+                            </button>
+                          ` : ''}
+                          <button onclick="deleteSupportTicket('${t.id}')" title="Delete Ticket" class="p-1.5 rounded-lg hover:bg-red-50 text-slate-400 hover:text-red-600 transition-all">
+                            🗑️
+                          </button>
+                        </div>
+                      </td>
+                    </tr>
+                  `;
+                }).join('')}
+              </tbody>
+            </table>
+          </div>
+        `}
       </div>
     </div>
   `;
@@ -3679,6 +3801,286 @@
       }
     }
   
+  
+    // ---- TICKET CONVERSATION & REPLY SYSTEM (Live Supabase) ----
+
+    // Open Interactive Ticket Modal with full history & reply form
+    async function openTicketModal(ticketId) {
+      const ticket = (AppState.supportTickets || []).find(t => t.id === ticketId);
+      if (!ticket) return showToast('Ticket not found', 'error');
+
+      // Fetch linked student info
+      const student = (AppState.users || []).find(u => u.id === ticket.user_id) || {};
+
+      openModal(`
+        <div class="p-5 border-b border-slate-200 flex justify-between items-center bg-slate-50">
+          <div>
+            <div class="flex items-center gap-2">
+              <h3 class="text-base font-extrabold text-slate-900">Support Ticket Details</h3>
+              <span class="px-2 py-0.5 rounded-full text-[10px] font-extrabold ${ticket.status === 'RESOLVED' ? 'bg-emerald-100 text-emerald-800 border border-emerald-300' : 'bg-amber-100 text-amber-800 border border-amber-300'}">
+                ${ticket.status || 'OPEN'}
+              </span>
+              <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-slate-100 text-slate-700 border border-slate-200">
+                ${ticket.priority || 'Low'} Priority
+              </span>
+            </div>
+            <p class="text-xs text-slate-500 mt-0.5">Ticket ID: <span class="font-mono">${ticket.id}</span> · Category: <strong>${ticket.category || 'General'}</strong></p>
+          </div>
+          <button onclick="closeModal()" class="text-slate-400 hover:text-slate-700 text-xl font-bold p-1">✕</button>
+        </div>
+
+        <div class="p-5 space-y-5 max-h-[78vh] overflow-y-auto">
+          <!-- Student Info Card -->
+          <div class="p-4 rounded-xl bg-blue-50/70 border border-blue-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-blue-600 text-white font-extrabold flex items-center justify-center text-sm shadow-sm shrink-0">
+                ${(ticket.user_name || 'S').charAt(0).toUpperCase()}
+              </div>
+              <div>
+                <div class="font-bold text-slate-900 text-sm flex items-center gap-2">
+                  <span>${ticket.user_name || student.full_name || 'Student'}</span>
+                  ${student.plan && student.plan !== 'Free Tier' ? '<span class="px-2 py-0.5 rounded text-[10px] font-extrabold bg-blue-700 text-white">VIP</span>' : '<span class="px-2 py-0.5 rounded text-[10px] font-semibold bg-slate-200 text-slate-700">Free Tier</span>'}
+                </div>
+                <div class="text-xs text-slate-600 font-mono">${ticket.user_email || student.email || 'No email registered'}</div>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <button onclick="grantUserVIP('${ticket.user_id}');" class="px-3 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-white text-xs font-bold shadow-sm transition-all flex items-center gap-1">
+                <span>👑 Grant VIP Access</span>
+              </button>
+              <select onchange="updateTicketStatus('${ticket.id}', this.value)" class="bg-white border border-slate-300 rounded-xl px-2.5 py-1.5 text-xs font-bold text-slate-800 focus:outline-none">
+                <option value="OPEN" ${ticket.status === 'OPEN' ? 'selected' : ''}>Status: OPEN</option>
+                <option value="IN_PROGRESS" ${ticket.status === 'IN_PROGRESS' ? 'selected' : ''}>Status: IN PROGRESS</option>
+                <option value="RESOLVED" ${ticket.status === 'RESOLVED' ? 'selected' : ''}>Status: RESOLVED ✓</option>
+                <option value="CLOSED" ${ticket.status === 'CLOSED' ? 'selected' : ''}>Status: CLOSED</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Initial Student Problem Description -->
+          <div class="space-y-1.5">
+            <div class="flex items-center justify-between text-xs font-bold text-slate-700">
+              <span>📌 Student Query / Subject: <strong class="text-slate-900">${ticket.title || 'Inquiry'}</strong></span>
+              <span class="text-[11px] text-slate-400">${ticket.created_at ? new Date(ticket.created_at).toLocaleString() : ''}</span>
+            </div>
+            <div class="p-4 rounded-xl bg-slate-100 border border-slate-200 text-slate-800 text-xs leading-relaxed whitespace-pre-wrap font-medium">
+              ${ticket.description || 'No description entered by student.'}
+            </div>
+          </div>
+
+          <!-- Thread Messages Box -->
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-extrabold text-slate-800 uppercase tracking-wider">💬 Conversation Thread</span>
+              <button onclick="loadThreadMessages('${ticket.id}')" class="text-[11px] text-blue-700 font-bold hover:underline">🔄 Refresh Thread</button>
+            </div>
+            
+            <div id="threadMessagesContainer" class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-3 min-h-[160px] max-h-[260px] overflow-y-auto">
+              <div class="text-center py-4 text-xs text-slate-400">Loading conversation messages...</div>
+            </div>
+          </div>
+
+          <!-- Quick Canned Replies -->
+          <div class="space-y-1.5">
+            <span class="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider">⚡ Quick Reply Templates (Click to insert):</span>
+            <div class="flex flex-wrap gap-1.5">
+              <button type="button" onclick="insertQuickReply('Your premium subscription is now active! Please refresh your app/website.')" class="px-2.5 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-800 text-[11px] font-semibold border border-blue-200 transition-colors">
+                ✨ Premium Activated
+              </button>
+              <button type="button" onclick="insertQuickReply('We have checked and updated the MCQ question and rationale. Thank you for reporting!')" class="px-2.5 py-1 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-800 text-[11px] font-semibold border border-blue-200 transition-colors">
+                🩺 MCQ Fixed
+              </button>
+              <button type="button" onclick="insertQuickReply('Please share your payment reference number or screenshot so we can verify.')" class="px-2.5 py-1 rounded-lg bg-amber-50 hover:bg-amber-100 text-amber-800 text-[11px] font-semibold border border-amber-200 transition-colors">
+                💳 Need Payment Ref
+              </button>
+              <button type="button" onclick="insertQuickReply('Your issue has been resolved. If you have any further questions, feel free to ask!')" class="px-2.5 py-1 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-800 text-[11px] font-semibold border border-emerald-200 transition-colors">
+                ✓ Issue Resolved
+              </button>
+            </div>
+          </div>
+
+          <!-- Reply Box -->
+          <div class="space-y-3 pt-2 border-t border-slate-200">
+            <div>
+              <label class="block text-xs font-bold text-slate-800 mb-1">
+                ✍️ Write Official Admin Reply:
+              </label>
+              <textarea id="ticketReplyInput" rows="3" placeholder="Type your reply to student here..." class="w-full bg-white border-2 border-slate-200 focus:border-blue-600 rounded-xl p-3 text-xs text-slate-900 placeholder-slate-400 focus:outline-none transition-colors"></textarea>
+            </div>
+
+            <!-- Options & Send -->
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <label class="flex items-center gap-2 cursor-pointer text-xs font-bold text-slate-700">
+                <input type="checkbox" id="chkResolveAfterReply" checked class="w-4 h-4 rounded text-blue-600 focus:ring-0">
+                <span>Mark ticket as RESOLVED after sending reply</span>
+              </label>
+
+              <button type="button" id="btnSendReply" onclick="sendTicketReply('${ticket.id}')" class="px-5 py-2.5 rounded-xl bg-blue-700 hover:bg-blue-800 text-white font-bold text-xs shadow-md shadow-blue-900/20 flex items-center justify-center gap-1.5 transition-all">
+                <span>📨 Send Reply to Student</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Internal Admin Notes -->
+          <div class="pt-3 border-t border-slate-200 space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-bold text-slate-700">🔒 Internal Admin Notes (Private):</span>
+              <button onclick="saveTicketNotes('${ticket.id}')" class="text-xs text-blue-700 font-bold hover:underline">Save Notes</button>
+            </div>
+            <input type="text" id="ticketAdminNotesInput" value="${ticket.admin_notes || ''}" placeholder="Internal notes for admins..." class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs text-slate-800">
+          </div>
+        </div>
+      `);
+
+      // Load thread messages asynchronously
+      loadThreadMessages(ticketId);
+    }
+
+    // Helper: Insert text into reply textarea
+    function insertQuickReply(text) {
+      const textarea = document.getElementById('ticketReplyInput');
+      if (textarea) {
+        textarea.value = text;
+        textarea.focus();
+      }
+    }
+
+    // Helper: Load all thread messages from Supabase for a ticket
+    async function loadThreadMessages(ticketId) {
+      const container = document.getElementById('threadMessagesContainer');
+      if (!container) return;
+
+      try {
+        const msgs = await sbQuery('ticket_messages', 'ticket_id=eq.' + ticketId + '&order=created_at.asc');
+        if (!msgs || msgs.length === 0) {
+          container.innerHTML = '<div class="text-center py-6 text-xs text-slate-400">No previous replies in this thread. Write the first response below!</div>';
+          return;
+        }
+
+        container.innerHTML = msgs.map(m => {
+          const isAdmin = m.is_admin_reply;
+          const time = m.created_at ? new Date(m.created_at).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', month: 'short', day: 'numeric' }) : '';
+          return `
+            <div class="flex flex-col ${isAdmin ? 'items-end' : 'items-start'}">
+              <div class="flex items-center gap-1.5 mb-0.5">
+                <span class="text-[10px] font-extrabold ${isAdmin ? 'text-blue-700' : 'text-slate-600'}">
+                  ${isAdmin ? '🛡️ Super Admin' : '👤 Student'}
+                </span>
+                <span class="text-[10px] text-slate-400">${time}</span>
+              </div>
+              <div class="max-w-[85%] p-3 rounded-2xl text-xs leading-relaxed shadow-sm ${
+                isAdmin
+                  ? 'bg-blue-700 text-white rounded-tr-none font-medium'
+                  : 'bg-white border border-slate-200 text-slate-900 rounded-tl-none font-medium'
+              }">
+                ${m.message}
+              </div>
+            </div>
+          `;
+        }).join('');
+
+        // Scroll to bottom
+        container.scrollTop = container.scrollHeight;
+      } catch(e) {
+        container.innerHTML = '<div class="text-center py-4 text-xs text-red-500">Failed to load messages: ' + e.message + '</div>';
+      }
+    }
+
+    // Helper: Send reply to student and save in Supabase
+    async function sendTicketReply(ticketId) {
+      const textarea = document.getElementById('ticketReplyInput');
+      const btn = document.getElementById('btnSendReply');
+      if (!textarea) return;
+
+      const replyText = textarea.value.trim();
+      if (!replyText) return showToast('Please enter a reply message before sending', 'error');
+
+      if (btn) { btn.disabled = true; btn.innerText = 'Sending...'; }
+
+      try {
+        // 1. Insert into Supabase ticket_messages
+        const newMsg = await sbInsert('ticket_messages', {
+          ticket_id: ticketId,
+          message: replyText,
+          is_admin_reply: true,
+          created_at: new Date().toISOString()
+        });
+
+        // 2. Determine new status
+        const chkResolve = document.getElementById('chkResolveAfterReply');
+        const newStatus = chkResolve && chkResolve.checked ? 'RESOLVED' : 'IN_PROGRESS';
+
+        // 3. Update support_tickets row in Supabase
+        await sbPatch('support_tickets', ticketId, {
+          status: newStatus,
+          updated_at: new Date().toISOString()
+        });
+
+        // 4. Update local state
+        const t = (AppState.supportTickets || []).find(x => x.id === ticketId);
+        if (t) {
+          t.status = newStatus;
+          t.updated_at = new Date().toISOString();
+        }
+
+        addAuditLog('TICKET_REPLY', 'support_tickets', ticketId, 'Sent reply: ' + replyText.substring(0, 50));
+        showToast('✅ Reply successfully sent and saved in Supabase!', 'success');
+
+        // Clear input and reload thread
+        textarea.value = '';
+        await loadThreadMessages(ticketId);
+
+        // Re-render main table in background
+        renderCommunications(document.getElementById('mainContainer'));
+      } catch(e) {
+        console.error('Send reply error:', e);
+        showToast('Failed to send reply: ' + e.message, 'error');
+      } finally {
+        if (btn) { btn.disabled = false; btn.innerText = '📨 Send Reply to Student'; }
+      }
+    }
+
+    // Helper: Update ticket status on the fly
+    async function updateTicketStatus(ticketId, newStatus) {
+      const ok = await sbPatch('support_tickets', ticketId, {
+        status: newStatus,
+        updated_at: new Date().toISOString()
+      });
+      if (ok) {
+        const t = (AppState.supportTickets || []).find(x => x.id === ticketId);
+        if (t) t.status = newStatus;
+        showToast('Ticket status updated to ' + newStatus, 'success');
+        addAuditLog('TICKET_STATUS', 'support_tickets', ticketId, 'Status changed to ' + newStatus);
+        renderCommunications(document.getElementById('mainContainer'));
+      }
+    }
+
+    // Helper: Save private admin notes
+    async function saveTicketNotes(ticketId) {
+      const input = document.getElementById('ticketAdminNotesInput');
+      if (!input) return;
+      const notes = input.value.trim();
+      const ok = await sbPatch('support_tickets', ticketId, { admin_notes: notes });
+      if (ok) {
+        const t = (AppState.supportTickets || []).find(x => x.id === ticketId);
+        if (t) t.admin_notes = notes;
+        showToast('Admin notes saved.', 'success');
+      }
+    }
+
+    // Helper: Delete ticket
+    async function deleteSupportTicket(ticketId) {
+      if (!confirm('Are you sure you want to permanently delete this support ticket from Supabase?')) return;
+      const ok = await sbDelete('support_tickets', ticketId);
+      if (ok !== false) {
+        AppState.supportTickets = (AppState.supportTickets || []).filter(t => t.id !== ticketId);
+        showToast('Support ticket deleted.', 'success');
+        addAuditLog('TICKET_DELETE', 'support_tickets', ticketId, 'Deleted ticket');
+        renderCommunications(document.getElementById('mainContainer'));
+      }
+    }
+
   </script>
 </body>
 </html>
