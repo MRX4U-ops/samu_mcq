@@ -1803,3 +1803,876 @@ footer [class*="_footerBottom_"] p, [class*="_footerBottom_"] p {
     left: 16px !important;
   }
 }
+
+/* ====================================================================
+   SOFT WARM PASTEL THEME — STUDENT DASHBOARD (/#/home)
+   Palette: Warm Pearl/Ivory (#faf8f5), Cashmere Cards (#ffffff),
+   Sunset Coral to Rose Accents (#f43f5e, #fb7185, #e11d48),
+   Warm Stone Borders (#e7e5e4), Deep Charcoal Headings (#1c1917)
+   Fonts: Outfit (Headings & Display) + Plus Jakarta Sans (Body & UI)
+   ==================================================================== */
+
+/* Global Brand Logo in Navbar — Sunset Coral Gradient */
+[class*="_logo_"] {
+  background: linear-gradient(135deg, #fb7185 0%, #f43f5e 100%) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 14px rgba(244, 63, 94, 0.35) !important;
+  color: #ffffff !important;
+}
+
+.header-nav-tab:hover {
+  color: #e11d48 !important;
+  background: rgba(244, 63, 94, 0.08) !important;
+}
+
+.nav-tab-badge-fire {
+  background: linear-gradient(135deg, #fb7185, #f43f5e) !important;
+  color: #ffffff !important;
+}
+
+/* Page Canvas — Warm Pearl & Soft Ambient Pastel Glows */
+[class*="_page_1azb4_"] {
+  min-height: 100vh !important;
+  background: radial-gradient(circle at 10% 15%, rgba(251, 113, 133, 0.05) 0%, transparent 45%),
+              radial-gradient(circle at 90% 75%, rgba(99, 102, 241, 0.04) 0%, transparent 45%),
+              #faf8f5 !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+[class*="_container_1azb4_"] {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 24px 20px 60px !important;
+}
+
+[class*="_container_1azb4_"] h1,
+[class*="_container_1azb4_"] h2,
+[class*="_container_1azb4_"] h3 {
+  color: #1c1917 !important;
+  font-family: 'Outfit', sans-serif !important;
+}
+
+/* Hero Card — Warm Cashmere Surface with Ambient Light */
+[class*="_hero_1azb4_"] {
+  position: relative !important;
+  overflow: hidden !important;
+  background: linear-gradient(145deg, #ffffff 0%, #fffdfa 45%, #fdf8f5 100%) !important;
+  border: 1px solid rgba(231, 229, 228, 0.95) !important;
+  border-radius: 28px !important;
+  box-shadow: 0 16px 40px -10px rgba(28, 25, 23, 0.06), 0 4px 12px rgba(28, 25, 23, 0.02) !important;
+  padding: 38px 36px !important;
+  margin-bottom: 24px !important;
+}
+
+[class*="_heroOrb1_1azb4_"] {
+  position: absolute !important;
+  top: -80px !important;
+  right: -60px !important;
+  width: 320px !important;
+  height: 320px !important;
+  border-radius: 50% !important;
+  background: radial-gradient(circle, rgba(251, 113, 133, 0.12) 0%, transparent 70%) !important;
+  pointer-events: none !important;
+}
+
+[class*="_heroOrb2_1azb4_"] {
+  position: absolute !important;
+  bottom: -60px !important;
+  left: -40px !important;
+  width: 280px !important;
+  height: 280px !important;
+  border-radius: 50% !important;
+  background: radial-gradient(circle, rgba(99, 102, 241, 0.07) 0%, transparent 70%) !important;
+  pointer-events: none !important;
+}
+
+[class*="_heroGreeting_1azb4_"] {
+  color: #e11d48 !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 14.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.2px !important;
+  margin-bottom: 8px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+
+[class*="_heroTitle_1azb4_"] {
+  font-family: 'Outfit', sans-serif !important;
+  font-size: clamp(28px, 4vw, 42px) !important;
+  font-weight: 900 !important;
+  color: #1c1917 !important;
+  letter-spacing: -0.03em !important;
+  line-height: 1.15 !important;
+  -webkit-text-fill-color: initial !important;
+  background: none !important;
+  margin-bottom: 10px !important;
+}
+
+[class*="_heroSub_1azb4_"] {
+  color: #78716c !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  line-height: 1.6 !important;
+  margin-bottom: 24px !important;
+}
+
+/* Hero Metric Badges — High-Contrast Warm Cashmere Badges */
+[class*="_heroBadges_1azb4_"] {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 14px !important;
+  margin-top: 24px !important;
+}
+
+[class*="_heroBadge_1azb4_"] {
+  background: #ffffff !important;
+  border: 1.5px solid rgba(231, 229, 228, 0.95) !important;
+  border-radius: 18px !important;
+  padding: 14px 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  box-shadow: 0 2px 10px rgba(28, 25, 23, 0.03) !important;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+  cursor: pointer !important;
+}
+
+[class*="_heroBadge_1azb4_"]:hover {
+  background: #ffffff !important;
+  transform: translateY(-3px) !important;
+  border-color: rgba(244, 63, 94, 0.35) !important;
+  box-shadow: 0 10px 24px -4px rgba(244, 63, 94, 0.15) !important;
+}
+
+[class*="_heroBadgeIcon_1azb4_"] {
+  font-size: 24px !important;
+  flex-shrink: 0 !important;
+}
+
+[class*="_heroBadgeVal_1azb4_"] {
+  color: #1c1917 !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 19px !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em !important;
+  line-height: 1.2 !important;
+}
+
+[class*="_heroBadgeLabel_1azb4_"] {
+  color: #78716c !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 10.5px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.6px !important;
+  text-transform: uppercase !important;
+  margin-top: 2px !important;
+}
+
+/* Announcement Slider Banner */
+[class*="_bannerWrap_1azb4_"] {
+  background: #ffffff !important;
+  border: 1px solid rgba(231, 229, 228, 0.9) !important;
+  border-radius: 20px !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 18px rgba(28, 25, 23, 0.03) !important;
+  margin-bottom: 24px !important;
+  height: auto !important;
+  min-height: 84px !important;
+}
+
+[class*="_banner_1azb4_"] {
+  background: linear-gradient(135deg, #fff1f2 0%, #ffe4e6 50%, #ffffff 100%) !important;
+  color: #1c1917 !important;
+  padding: 18px 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+  border-radius: 20px !important;
+}
+
+[class*="_bannerEmoji_1azb4_"] {
+  font-size: 28px !important;
+  flex-shrink: 0 !important;
+}
+
+[class*="_bannerTitle_1azb4_"] {
+  color: #9f1239 !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  margin-bottom: 3px !important;
+}
+
+[class*="_bannerSub_1azb4_"] {
+  color: #881337 !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 12.5px !important;
+  font-weight: 600 !important;
+}
+
+[class*="_couponBadge_1azb4_"] {
+  background: #ffffff !important;
+  border: 1.5px dashed #f43f5e !important;
+  color: #e11d48 !important;
+  border-radius: 999px !important;
+  padding: 5px 14px !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 12px !important;
+  box-shadow: 0 2px 8px rgba(244, 63, 94, 0.15) !important;
+}
+
+[class*="_bannerDots_1azb4_"] {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 6px !important;
+  padding: 10px 0 !important;
+}
+
+[class*="_bannerDot_1azb4_"] {
+  background: #e7e5e4 !important;
+  border: none !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 999px !important;
+  transition: all 0.3s ease !important;
+  cursor: pointer !important;
+}
+
+[class*="_bannerDotActive_1azb4_"] {
+  background: #f43f5e !important;
+  width: 22px !important;
+  box-shadow: 0 2px 8px rgba(244, 63, 94, 0.4) !important;
+}
+
+/* Quick Stat Cards Grid */
+[class*="_statsGrid_1azb4_"] {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 14px !important;
+  margin-bottom: 24px !important;
+}
+
+[class*="_statCard_1azb4_"] {
+  background: #ffffff !important;
+  border: 1px solid rgba(231, 229, 228, 0.95) !important;
+  border-radius: 20px !important;
+  padding: 18px 14px !important;
+  box-shadow: 0 2px 10px rgba(28, 25, 23, 0.03) !important;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+  text-align: center !important;
+}
+
+[class*="_statCard_1azb4_"]:hover {
+  background: #ffffff !important;
+  border-color: rgba(244, 63, 94, 0.35) !important;
+  transform: translateY(-4px) scale(1.02) !important;
+  box-shadow: 0 12px 28px -4px rgba(244, 63, 94, 0.14) !important;
+}
+
+[class*="_statIcon_1azb4_"] {
+  font-size: 26px !important;
+  margin-bottom: 8px !important;
+}
+
+[class*="_statVal_1azb4_"] {
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 22px !important;
+  letter-spacing: -0.02em !important;
+  margin-bottom: 4px !important;
+}
+
+[class*="_statLabel_1azb4_"] {
+  color: #78716c !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.6px !important;
+}
+
+/* Level Card & Progress Bar */
+[class*="_levelCard_1azb4_"] {
+  background: #ffffff !important;
+  border: 1px solid rgba(231, 229, 228, 0.95) !important;
+  border-radius: 22px !important;
+  padding: 20px 24px !important;
+  box-shadow: 0 4px 16px rgba(28, 25, 23, 0.03) !important;
+  margin-bottom: 24px !important;
+}
+
+[class*="_levelBadge_1azb4_"] {
+  background: linear-gradient(135deg, #fb7185 0%, #f43f5e 100%) !important;
+  color: #ffffff !important;
+  border-radius: 12px !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 14px !important;
+  padding: 6px 14px !important;
+  box-shadow: 0 4px 12px rgba(244, 63, 94, 0.3) !important;
+}
+
+[class*="_levelTitle_1azb4_"] {
+  color: #1c1917 !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 17px !important;
+  letter-spacing: -0.01em !important;
+}
+
+[class*="_levelSub_1azb4_"] {
+  color: #78716c !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+}
+
+[class*="_levelBar_1azb4_"] {
+  background: #f5f5f4 !important;
+  border: 1px solid #e7e5e4 !important;
+  border-radius: 999px !important;
+  height: 10px !important;
+  overflow: hidden !important;
+}
+
+[class*="_levelBarFill_1azb4_"] {
+  background: linear-gradient(90deg, #fb7185 0%, #f43f5e 100%) !important;
+  box-shadow: 0 0 10px rgba(244, 63, 94, 0.35) !important;
+  border-radius: 999px !important;
+  height: 100% !important;
+}
+
+[class*="_levelPct_1azb4_"] {
+  color: #e11d48 !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 14px !important;
+}
+
+/* Section Headers & Labels */
+[class*="_sectionHeader_1azb4_"] {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-bottom: 14px !important;
+  margin-top: 10px !important;
+}
+
+[class*="_sectionHeader_1azb4_"] .section-label {
+  color: #a8a29e !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+}
+
+[class*="_sectionSub_1azb4_"] {
+  color: #059669 !important;
+  background: rgba(16, 185, 129, 0.1) !important;
+  border: 1px solid rgba(16, 185, 129, 0.25) !important;
+  border-radius: 999px !important;
+  padding: 3px 10px !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+}
+
+[class*="_seeAll_1azb4_"] {
+  color: #f43f5e !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  font-size: 12.5px !important;
+  transition: color 0.2s ease !important;
+}
+
+[class*="_seeAll_1azb4_"]:hover {
+  color: #e11d48 !important;
+  text-decoration: underline !important;
+}
+
+/* Today's Targets */
+[class*="_goalsRow_1azb4_"] {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 16px !important;
+  margin-bottom: 24px !important;
+}
+
+[class*="_goalCard_1azb4_"] {
+  background: #ffffff !important;
+  border: 1px solid rgba(231, 229, 228, 0.95) !important;
+  border-radius: 20px !important;
+  padding: 20px 22px !important;
+  box-shadow: 0 2px 10px rgba(28, 25, 23, 0.03) !important;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+[class*="_goalCard_1azb4_"]:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 24px -4px rgba(28, 25, 23, 0.08) !important;
+  border-color: rgba(231, 229, 228, 1) !important;
+}
+
+[class*="_goalTitle_1azb4_"] {
+  color: #292524 !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 14.5px !important;
+}
+
+[class*="_goalNums_1azb4_"] {
+  font-family: 'Outfit', sans-serif !important;
+  margin: 10px 0 12px 0 !important;
+}
+
+[class*="_goalDone_1azb4_"] {
+  color: #1c1917 !important;
+  font-size: 24px !important;
+  font-weight: 800 !important;
+}
+
+[class*="_goalSep_1azb4_"] {
+  color: #a8a29e !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  margin-left: 4px !important;
+}
+
+[class*="_goalCard_1azb4_"] .progress-bar {
+  background: #f5f5f4 !important;
+  border: 1px solid #e7e5e4 !important;
+  border-radius: 999px !important;
+  height: 8px !important;
+  overflow: hidden !important;
+}
+
+[class*="_goalCard_1azb4_"] .progress-fill {
+  border-radius: 999px !important;
+  height: 100% !important;
+  background: linear-gradient(90deg, #6366f1 0%, #4f46e5 100%) !important;
+}
+
+/* Search Bar */
+[class*="_searchWrap_1azb4_"] {
+  background: #ffffff !important;
+  border: 1.5px solid rgba(231, 229, 228, 0.95) !important;
+  border-radius: 999px !important;
+  padding: 12px 22px !important;
+  box-shadow: 0 2px 10px rgba(28, 25, 23, 0.03) !important;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+  margin-bottom: 28px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+}
+
+[class*="_searchWrap_1azb4_"]:hover,
+[class*="_searchWrap_1azb4_"]:focus-within {
+  border-color: #f43f5e !important;
+  box-shadow: 0 4px 20px rgba(244, 63, 94, 0.15) !important;
+}
+
+[class*="_searchIcon_1azb4_"] {
+  color: #f43f5e !important;
+  flex-shrink: 0 !important;
+}
+
+[class*="_searchInput_1azb4_"] {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #1c1917 !important;
+  border: none !important;
+  background: transparent !important;
+  outline: none !important;
+  width: 100% !important;
+}
+
+[class*="_searchInput_1azb4_"]::placeholder {
+  color: #a8a29e !important;
+}
+
+[class*="_micBtn_1azb4_"] {
+  color: #78716c !important;
+  background: transparent !important;
+  border: none !important;
+  cursor: pointer !important;
+  padding: 6px !important;
+  border-radius: 50% !important;
+  transition: all 0.2s ease !important;
+}
+
+[class*="_micBtn_1azb4_"]:hover {
+  color: #f43f5e !important;
+  background: rgba(244, 63, 94, 0.08) !important;
+}
+
+/* Course Cards Grid */
+[class*="_coursesGrid_1azb4_"] {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 16px !important;
+  margin-bottom: 28px !important;
+}
+
+[class*="_courseCard_1azb4_"] {
+  background: #ffffff !important;
+  border: 1px solid rgba(231, 229, 228, 0.95) !important;
+  border-radius: 22px !important;
+  padding: 12px 18px 12px 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+  box-shadow: 0 2px 10px rgba(28, 25, 23, 0.03) !important;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+  cursor: pointer !important;
+  text-align: left !important;
+}
+
+[class*="_courseCard_1azb4_"]:hover {
+  background: #ffffff !important;
+  border-color: rgba(244, 63, 94, 0.35) !important;
+  transform: translateY(-3px) scale(1.015) !important;
+  box-shadow: 0 12px 28px -4px rgba(244, 63, 94, 0.14) !important;
+}
+
+[class*="_courseGrad_1azb4_"] {
+  border-radius: 16px !important;
+  width: 68px !important;
+  height: 68px !important;
+  flex-shrink: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 4px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+[class*="_courseEmoji_1azb4_"] {
+  font-size: 26px !important;
+}
+
+[class*="_courseTitle_1azb4_"] {
+  color: #1c1917 !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 16.5px !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.01em !important;
+  margin-bottom: 2px !important;
+}
+
+[class*="_courseMeta_1azb4_"] {
+  color: #78716c !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 12.5px !important;
+  font-weight: 600 !important;
+}
+
+[class*="_courseChev_1azb4_"] {
+  color: #f43f5e !important;
+  margin-left: auto !important;
+  transition: transform 0.2s ease !important;
+}
+
+[class*="_courseCard_1azb4_"]:hover [class*="_courseChev_1azb4_"] {
+  transform: translateX(4px) !important;
+  color: #e11d48 !important;
+}
+
+/* AI Study Insight Card */
+[class*="_aiInsightCard_1azb4_"] {
+  background: linear-gradient(135deg, #fff7ed 0%, #fff1f2 100%) !important;
+  border: 1px solid rgba(251, 146, 60, 0.3) !important;
+  border-radius: 22px !important;
+  padding: 22px !important;
+  box-shadow: 0 4px 16px rgba(251, 146, 60, 0.06) !important;
+  margin-bottom: 28px !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 18px !important;
+}
+
+[class*="_aiIconWrap_1azb4_"] {
+  background: linear-gradient(135deg, #fb7185 0%, #f43f5e 100%) !important;
+  border-radius: 14px !important;
+  width: 44px !important;
+  height: 44px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: 0 4px 14px rgba(244, 63, 94, 0.35) !important;
+  flex-shrink: 0 !important;
+}
+
+[class*="_aiTitle_1azb4_"] {
+  color: #9f1239 !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 15px !important;
+  margin-bottom: 6px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+
+[class*="_aiText_1azb4_"] {
+  color: #44403c !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 13.5px !important;
+  font-weight: 500 !important;
+  line-height: 1.6 !important;
+}
+
+[class*="_aiAction_1azb4_"] {
+  background: #ffffff !important;
+  color: #e11d48 !important;
+  border: 1px solid rgba(244, 63, 94, 0.3) !important;
+  border-radius: 999px !important;
+  padding: 6px 16px !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 12.5px !important;
+  font-weight: 700 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  margin-top: 12px !important;
+  cursor: pointer !important;
+  box-shadow: 0 2px 8px rgba(244, 63, 94, 0.12) !important;
+  transition: all 0.2s ease !important;
+}
+
+[class*="_aiAction_1azb4_"]:hover {
+  background: #f43f5e !important;
+  color: #ffffff !important;
+  border-color: #f43f5e !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Subject Mastery Card */
+[class*="_masteryCard_1azb4_"] {
+  background: #ffffff !important;
+  border: 1px solid rgba(231, 229, 228, 0.95) !important;
+  border-radius: 22px !important;
+  padding: 22px !important;
+  box-shadow: 0 2px 10px rgba(28, 25, 23, 0.03) !important;
+  margin-bottom: 28px !important;
+}
+
+[class*="_masteryLabel_1azb4_"] {
+  color: #1c1917 !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+
+[class*="_masteryVal_1azb4_"] {
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+}
+
+[class*="_masteryBarWrap_1azb4_"] {
+  background: #f5f5f4 !important;
+  border: 1px solid #e7e5e4 !important;
+  border-radius: 999px !important;
+  height: 9px !important;
+  overflow: hidden !important;
+}
+
+/* Tasks & Upcoming Items */
+[class*="_taskItem_1azb4_"] {
+  background: #ffffff !important;
+  border: 1px solid rgba(231, 229, 228, 0.9) !important;
+  border-radius: 18px !important;
+  padding: 16px !important;
+  box-shadow: 0 2px 8px rgba(28, 25, 23, 0.03) !important;
+  margin-bottom: 10px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+[class*="_taskTitle_1azb4_"] {
+  color: #1c1917 !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 13.5px !important;
+}
+
+[class*="_taskTime_1azb4_"] {
+  color: #78716c !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+}
+
+[class*="_taskBtn_1azb4_"] {
+  background: linear-gradient(135deg, #fb7185 0%, #f43f5e 100%) !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 6px 16px !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  cursor: pointer !important;
+  box-shadow: 0 2px 8px rgba(244, 63, 94, 0.3) !important;
+  transition: all 0.2s ease !important;
+}
+
+[class*="_taskBtn_1azb4_"]:hover {
+  background: #e11d48 !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Recent Activity Card */
+[class*="_activityCard_1azb4_"] {
+  background: #ffffff !important;
+  border: 1px solid rgba(231, 229, 228, 0.9) !important;
+  border-radius: 22px !important;
+  padding: 22px !important;
+  box-shadow: 0 2px 10px rgba(28, 25, 23, 0.03) !important;
+}
+
+[class*="_actTitle_1azb4_"] {
+  color: #1c1917 !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+}
+
+[class*="_actMeta_1azb4_"] {
+  color: #78716c !important;
+  font-size: 11px !important;
+}
+
+[class*="_actIcon_1azb4_"] {
+  background: rgba(244, 63, 94, 0.1) !important;
+  color: #e11d48 !important;
+  border-radius: 10px !important;
+}
+
+/* Feature Hub */
+[class*="_hubIcon_1azb4_"] {
+  border-radius: 22px !important;
+  box-shadow: 0 6px 20px rgba(28, 25, 23, 0.08) !important;
+  border: 1px solid rgba(231, 229, 228, 0.8) !important;
+}
+
+[class*="_hubLabel_1azb4_"] {
+  color: #292524 !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+/* Leaderboard Card & Podium */
+[class*="_lbCard_1azb4_"] {
+  background: #ffffff !important;
+  border: 1px solid rgba(231, 229, 228, 0.95) !important;
+  border-radius: 22px !important;
+  padding: 22px !important;
+  box-shadow: 0 2px 10px rgba(28, 25, 23, 0.03) !important;
+  margin-bottom: 28px !important;
+}
+
+[class*="_podiumName_1azb4_"] {
+  color: #1c1917 !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+[class*="_lbBtn_1azb4_"] {
+  background: #faf8f5 !important;
+  border: 1.5px solid rgba(244, 63, 94, 0.25) !important;
+  color: #e11d48 !important;
+  border-radius: 14px !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 700 !important;
+  padding: 12px !important;
+  transition: all 0.2s ease !important;
+}
+
+[class*="_lbBtn_1azb4_"]:hover {
+  background: #f43f5e !important;
+  color: #ffffff !important;
+  border-color: #f43f5e !important;
+}
+
+/* Streak Card & Rewards */
+[class*="_streakCard_1azb4_"] {
+  background: #ffffff !important;
+  border: 1.5px solid rgba(245, 158, 11, 0.3) !important;
+  border-radius: 22px !important;
+  padding: 22px !important;
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.08) !important;
+  margin-bottom: 28px !important;
+}
+
+[class*="_rewardsCard_1azb4_"] {
+  background: linear-gradient(135deg, #1c1917 0%, #292524 60%, #44403c 100%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 24px !important;
+  padding: 24px !important;
+  box-shadow: 0 8px 30px rgba(28, 25, 23, 0.15) !important;
+  margin-bottom: 28px !important;
+}
+
+[class*="_coinBadge_1azb4_"] {
+  color: #fbbf24 !important;
+  background: rgba(251, 191, 36, 0.15) !important;
+  border: 1px solid rgba(251, 191, 36, 0.4) !important;
+  border-radius: 999px !important;
+}
+
+[class*="_rankBadge_1azb4_"] {
+  color: #34d399 !important;
+  background: rgba(16, 185, 129, 0.15) !important;
+  border: 1px solid rgba(16, 185, 129, 0.4) !important;
+  border-radius: 999px !important;
+}
+
+/* Floating Chat AI FAB */
+[class*="_chatFab_1azb4_"] {
+  background: linear-gradient(135deg, #fb7185 0%, #f43f5e 100%) !important;
+  border: 2.5px solid #ffffff !important;
+  box-shadow: 0 8px 24px rgba(244, 63, 94, 0.4) !important;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+[class*="_chatFab_1azb4_"]:hover {
+  transform: scale(1.08) translateY(-2px) !important;
+  box-shadow: 0 12px 30px rgba(244, 63, 94, 0.5) !important;
+}
+
+/* Responsive Grid Adapters */
+@media screen and (max-width: 900px) {
+  [class*="_heroBadges_1azb4_"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  [class*="_statsGrid_1azb4_"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  [class*="_coursesGrid_1azb4_"] {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  [class*="_heroBadges_1azb4_"] {
+    grid-template-columns: 1fr !important;
+  }
+  [class*="_goalsRow_1azb4_"] {
+    grid-template-columns: 1fr !important;
+  }
+  [class*="_statsGrid_1azb4_"] {
+    grid-template-columns: 1fr !important;
+  }
+}
+
