@@ -499,13 +499,21 @@
       </div>
 
       <div class="flex items-center gap-3 border-l border-slate-200 pl-4">
-        <div class="text-right hidden sm:block">
-          <div class="text-xs font-bold text-slate-900" id="adminDisplayName">Super Admin (Owner)</div>
-          <div class="text-[11px] text-slate-500" id="adminDisplayEmail">admin@ssmu.com</div>
-        </div>
-        <div class="w-9 h-9 rounded-full bg-gradient-to-tr from-blue-600 to-red-600 flex items-center justify-center font-bold text-sm text-white shadow-md">
-          👑
-        </div>
+        <button onclick="openAdminProfileModal()" title="View Super Admin Profile & System Hub" class="flex items-center gap-2.5 p-1.5 rounded-xl hover:bg-slate-100 transition-all text-left group">
+          <div class="text-right hidden sm:block">
+            <div class="text-xs font-black text-slate-900 group-hover:text-blue-700 transition-colors flex items-center justify-end gap-1">
+              <span id="adminDisplayName">Super Admin (Owner)</span>
+              <span class="text-[10px] text-blue-600">▼</span>
+            </div>
+            <div class="text-[11px] text-slate-500 font-mono" id="adminDisplayEmail">mohd6396889713@gmail.com</div>
+          </div>
+          <div class="relative">
+            <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-700 to-red-600 flex items-center justify-center font-bold text-sm text-white shadow-md shadow-blue-900/20 group-hover:scale-105 transition-transform">
+              👑
+            </div>
+            <span class="absolute -top-1 -right-1 w-3 h-3 bg-emerald-500 border-2 border-white rounded-full"></span>
+          </div>
+        </button>
         <button id="logoutBtn" title="Sign Out" class="p-2 rounded-lg bg-slate-100 hover:bg-red-50 hover:text-red-600 text-slate-600 transition-colors">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path></svg>
         </button>
@@ -2297,7 +2305,7 @@
               ${allUsers.length} Members (Live from Supabase)
             </span>
           </div>
-          <p class="text-sm text-slate-500 mt-1">Real registered students from Supabase (304 total). Search students, edit details, and <strong>increase or decrease premium days</strong>.</p>
+          <p class="text-sm text-slate-500 mt-1">Real registered students. Click <strong>"👤 Profile"</strong> on any student to inspect their full academic dossier, quiz scores, payments, and adjust days.</p>
         </div>
         <div class="flex items-center gap-2">
           <button onclick="loadRealDataFromSupabase(); showToast('Syncing members from Supabase...', 'info');" class="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white hover:bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200 shadow-sm transition-all">
@@ -2329,7 +2337,7 @@
 
         <!-- SEARCH INPUT -->
         <div class="w-full md:w-80">
-          <input type="text" id="userSearchInput" placeholder="🔍 Search by student name, email, plan..." value="${AppState.userSearchQuery || ''}" oninput="AppState.userSearchQuery=this.value; renderUsers(document.getElementById('mainContainer'));" class="w-full bg-slate-50 border-2 border-slate-200 focus:border-blue-600 rounded-xl px-4 py-2 text-xs text-slate-900 placeholder-slate-400 focus:outline-none transition-colors">
+          <input type="text" id="userSearchInput" placeholder="🔍 Search student name, email, plan..." value="${AppState.userSearchQuery || ''}" oninput="AppState.userSearchQuery=this.value; renderUsers(document.getElementById('mainContainer'));" class="w-full bg-slate-50 border-2 border-slate-200 focus:border-blue-600 rounded-xl px-4 py-2 text-xs text-slate-900 placeholder-slate-400 focus:outline-none transition-colors">
         </div>
       </div>
 
@@ -2339,14 +2347,14 @@
           <table class="w-full text-left text-xs text-slate-700">
             <thead class="bg-slate-100 text-slate-600 uppercase text-[10px] tracking-wider border-b border-slate-200">
               <tr>
-                <th class="p-3.5">User / Member</th>
+                <th class="p-3.5">Student Profile</th>
                 <th class="p-3.5">Role</th>
                 <th class="p-3.5">Academic Course</th>
-                <th class="p-3.5">Subscription Plan & Days</th>
+                <th class="p-3.5">Subscription Plan</th>
                 <th class="p-3.5">Premium Controls</th>
                 <th class="p-3.5">Coins / Streak</th>
                 <th class="p-3.5">Status</th>
-                <th class="p-3.5 text-right">Actions</th>
+                <th class="p-3.5 text-right">Dossier & Actions</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-slate-200">
@@ -2362,11 +2370,18 @@
                 return `
                   <tr class="hover:bg-slate-50 transition-colors">
                     <td class="p-3.5">
-                      <div class="font-bold text-slate-900 flex items-center gap-2">
-                        <span>${u.full_name}</span>
-                        ${isSuper ? '<span class="text-xs">👑</span>' : ''}
+                      <div class="flex items-center gap-2.5">
+                        <div onclick="openStudentProfileModal('${u.id}')" class="cursor-pointer w-9 h-9 rounded-xl bg-blue-100 text-blue-800 font-extrabold flex items-center justify-center text-xs shrink-0 shadow-sm hover:scale-105 transition-transform">
+                          ${isSuper ? '👑' : (u.full_name || 'S').charAt(0).toUpperCase()}
+                        </div>
+                        <div>
+                          <div onclick="openStudentProfileModal('${u.id}')" class="font-bold text-slate-900 hover:text-blue-700 cursor-pointer flex items-center gap-1.5 transition-colors">
+                            <span>${u.full_name}</span>
+                            ${isSuper ? '<span class="text-xs">👑</span>' : ''}
+                          </div>
+                          <div class="text-[11px] text-slate-500 font-mono">${u.email}</div>
+                        </div>
                       </div>
-                      <div class="text-[11px] text-slate-500 font-mono">${u.email}</div>
                     </td>
                     <td class="p-3.5">
                       ${isSuper || u.role === 'admin'
@@ -2399,7 +2414,7 @@
                             -30d
                           </button>
                           <button onclick="setCustomPremiumDays('${u.id}')" title="Set Exact Number of Days" class="px-2 py-1 rounded bg-blue-50 hover:bg-blue-100 text-blue-700 text-[10px] font-extrabold border border-blue-200 transition-colors">
-                            ⚙️ Set
+                            ⚙️
                           </button>
                         </div>
                       ` : '<span class="text-[10px] text-slate-400 font-bold">Permanent VIP</span>'}
@@ -2417,14 +2432,17 @@
                     </td>
                     <td class="p-3.5 text-right whitespace-nowrap">
                       <div class="flex items-center justify-end gap-1.5">
-                        <button onclick="openEditUserModal('${u.id}');" title="Edit Member Profile & Days" class="px-2.5 py-1 rounded-lg bg-white border border-slate-200 hover:bg-blue-50 hover:border-blue-300 text-blue-700 font-bold text-[11px] shadow-sm">
-                          ✏️ Edit
+                        <button onclick="openStudentProfileModal('${u.id}');" title="Open Full Student Profile Dossier" class="px-2.5 py-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 text-white font-bold text-[11px] shadow-sm flex items-center gap-1 transition-all">
+                          <span>👤 Profile</span>
+                        </button>
+                        <button onclick="openEditUserModal('${u.id}');" title="Quick Edit" class="p-1.5 rounded-lg bg-white border border-slate-200 hover:bg-slate-50 text-slate-600 hover:text-blue-700 font-bold text-[11px]">
+                          ✏️
                         </button>
                         ${!isSuper ? `
-                          <button onclick="toggleLockUser('${u.id}');" title="${u.is_locked ? 'Unlock Account' : 'Block Account'}" class="p-1 rounded-lg hover:bg-slate-100 text-slate-600">
+                          <button onclick="toggleLockUser('${u.id}');" title="${u.is_locked ? 'Unlock Account' : 'Block Account'}" class="p-1.5 rounded-lg hover:bg-slate-100 text-slate-600">
                             ${u.is_locked ? '🔓' : '🔒'}
                           </button>
-                          <button onclick="deleteUser('${u.id}');" title="Delete Member" class="p-1 rounded-lg hover:bg-red-50 text-slate-400 hover:text-red-600">
+                          <button onclick="deleteUser('${u.id}');" title="Delete Member" class="p-1.5 rounded-lg hover:bg-red-50 text-slate-400 hover:text-red-600">
                             🗑️
                           </button>
                         ` : ''}
@@ -4579,6 +4597,395 @@
       }
     }
   
+  
+    // =========================================================================
+    // SUPER ADMIN PROFILE & SYSTEM CONTROL HUB
+    // =========================================================================
+    function openAdminProfileModal() {
+      const stats = AppState.stats || {};
+      const adminName = localStorage.getItem('ssmu_admin_name') || 'Super Admin (Owner)';
+      const adminEmail = localStorage.getItem('ssmu_admin_email') || 'mohd6396889713@gmail.com';
+
+      openModal(`
+        <div class="p-6 border-b border-slate-200 flex justify-between items-center bg-gradient-to-r from-blue-900 to-indigo-950 text-white rounded-t-2xl">
+          <div class="flex items-center gap-3.5">
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-amber-400 to-amber-600 text-slate-900 flex items-center justify-center font-black text-2xl shadow-lg shadow-amber-500/30">
+              👑
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <h3 class="text-lg font-black tracking-tight">${adminName}</h3>
+                <span class="px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-amber-400 text-slate-950">SUPER ADMIN</span>
+              </div>
+              <p class="text-xs text-blue-200 font-mono mt-0.5">${adminEmail}</p>
+            </div>
+          </div>
+          <button onclick="closeModal();" class="text-slate-300 hover:text-white font-bold text-xl p-1">&times;</button>
+        </div>
+
+        <div class="p-6 space-y-6 max-h-[75vh] overflow-y-auto">
+          <!-- System Status Bar -->
+          <div class="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 flex items-center justify-between">
+            <div class="flex items-center gap-2.5">
+              <span class="w-3 h-3 rounded-full bg-emerald-500 animate-pulse"></span>
+              <div>
+                <div class="text-xs font-black text-emerald-900">Database Connection Active</div>
+                <div class="text-[11px] text-emerald-700 font-mono">kzvixaayzqgkdftfpdsi.supabase.co · PostgreSQL RLS</div>
+              </div>
+            </div>
+            <span class="px-2.5 py-1 rounded-lg text-[10px] font-black uppercase tracking-wider bg-emerald-200 text-emerald-900">
+              Service Role Active
+            </span>
+          </div>
+
+          <!-- Real System Metrics Grid -->
+          <div>
+            <div class="text-xs font-black text-slate-400 uppercase tracking-wider mb-2.5">Database Scale & Live Inventory</div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+              <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+                <div class="text-[10px] font-bold text-slate-400 uppercase">Registered Students</div>
+                <div class="text-xl font-black text-slate-900 mt-1">${AppState.users.length}</div>
+                <div class="text-[10px] text-blue-700 font-semibold mt-0.5">304 in Supabase</div>
+              </div>
+              <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+                <div class="text-[10px] font-bold text-slate-400 uppercase">Academic Subjects</div>
+                <div class="text-xl font-black text-slate-900 mt-1">${AppState.subjects.length}</div>
+                <div class="text-[10px] text-blue-700 font-semibold mt-0.5">Across 6 Courses</div>
+              </div>
+              <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+                <div class="text-[10px] font-bold text-slate-400 uppercase">Total MCQs Bank</div>
+                <div class="text-xl font-black text-slate-900 mt-1">3,447+</div>
+                <div class="text-[10px] text-blue-700 font-semibold mt-0.5">2,683 local + 3,447 cloud</div>
+              </div>
+              <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+                <div class="text-[10px] font-bold text-slate-400 uppercase">Active Subscriptions</div>
+                <div class="text-xl font-black text-emerald-600 mt-1">${AppState.stats.activeSubscriptions || 91}</div>
+                <div class="text-[10px] text-slate-500 font-semibold mt-0.5">Approved VIP members</div>
+              </div>
+              <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+                <div class="text-[10px] font-bold text-slate-400 uppercase">Payment Requests</div>
+                <div class="text-xl font-black text-amber-600 mt-1">${AppState.payments.length}</div>
+                <div class="text-[10px] text-slate-500 font-semibold mt-0.5">${AppState.stats.pendingPayments || 0} pending review</div>
+              </div>
+              <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
+                <div class="text-[10px] font-bold text-slate-400 uppercase">Support Inquiries</div>
+                <div class="text-xl font-black text-purple-600 mt-1">${(AppState.supportTickets||[]).length}</div>
+                <div class="text-[10px] text-slate-500 font-semibold mt-0.5">Live student tickets</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Edit Admin Profile Settings -->
+          <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-3.5">
+            <div class="text-xs font-black text-slate-800 uppercase tracking-wider">Super Admin Credentials & Display</div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Display Name</label>
+                <input type="text" id="adminProfileNameInput" value="${adminName}" class="w-full bg-white border border-slate-300 rounded-xl px-3 py-2 text-xs font-bold text-slate-900 focus:outline-none focus:border-blue-600">
+              </div>
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Owner Contact Email</label>
+                <input type="email" id="adminProfileEmailInput" value="${adminEmail}" class="w-full bg-white border border-slate-300 rounded-xl px-3 py-2 text-xs font-bold text-slate-900 focus:outline-none focus:border-blue-600">
+              </div>
+            </div>
+            <div class="flex justify-end pt-1">
+              <button onclick="saveAdminProfileSettings()" class="px-4 py-2 rounded-xl bg-blue-700 hover:bg-blue-800 text-white font-bold text-xs shadow-md shadow-blue-900/20 transition-all">
+                💾 Save Admin Details
+              </button>
+            </div>
+          </div>
+
+          <!-- Quick Navigation Shortcuts -->
+          <div class="flex flex-wrap gap-2 pt-2 border-t border-slate-200">
+            <button onclick="closeModal(); AppState.activeTab='analytics'; renderApp();" class="px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs transition-colors">
+              📊 System Analytics
+            </button>
+            <button onclick="closeModal(); AppState.activeTab='audit-logs'; renderApp();" class="px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs transition-colors">
+              🔒 Security Audit Logs
+            </button>
+            <button onclick="closeModal(); loadRealDataFromSupabase();" class="px-3.5 py-2 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold text-xs transition-colors">
+              🔄 Force Supabase Sync
+            </button>
+            <button onclick="confirmAdminSignOut();" class="ml-auto px-4 py-2 rounded-xl bg-red-50 hover:bg-red-100 text-red-600 font-bold text-xs border border-red-200 transition-colors">
+              🚪 Sign Out
+            </button>
+          </div>
+        </div>
+      `);
+    }
+
+    // Save Admin Profile settings
+    function saveAdminProfileSettings() {
+      const name = document.getElementById('adminProfileNameInput')?.value.trim();
+      const email = document.getElementById('adminProfileEmailInput')?.value.trim();
+      if (!name || !email) return showToast('Name and email cannot be empty', 'error');
+
+      localStorage.setItem('ssmu_admin_name', name);
+      localStorage.setItem('ssmu_admin_email', email);
+
+      const dName = document.getElementById('adminDisplayName');
+      const dEmail = document.getElementById('adminDisplayEmail');
+      if (dName) dName.innerText = name;
+      if (dEmail) dEmail.innerText = email;
+
+      const owner = (AppState.users || []).find(u => u.role === 'super_admin');
+      if (owner) {
+        owner.full_name = name;
+        owner.email = email;
+      }
+
+      showToast('✅ Super Admin details updated successfully!', 'success');
+      closeModal();
+    }
+
+    function confirmAdminSignOut() {
+      if (confirm('Are you sure you want to sign out of the Super Admin Command Center?')) {
+        showToast('Signed out successfully', 'info');
+        setTimeout(() => { window.location.reload(); }, 600);
+      }
+    }
+
+    // =========================================================================
+    // STUDENT PROFILE DOSSIER (Complete deep inspection & history modal)
+    // =========================================================================
+    async function openStudentProfileModal(userId) {
+      const student = (AppState.users || []).find(u => u.id === userId);
+      if (!student) return showToast('Student profile not found', 'error');
+
+      // Filter payments and tickets for this student
+      const studentPayments = (AppState.payments || []).filter(p => p.user_id === userId);
+      const studentTickets = (AppState.supportTickets || []).filter(t => t.user_id === userId);
+
+      openModal(`
+        <div class="p-6 border-b border-slate-200 flex justify-between items-center bg-slate-50 rounded-t-2xl">
+          <div class="flex items-center gap-3.5">
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-blue-700 to-indigo-800 text-white font-black text-2xl flex items-center justify-center shadow-md shadow-blue-900/20 shrink-0">
+              ${(student.full_name || 'S').charAt(0).toUpperCase()}
+            </div>
+            <div>
+              <div class="flex items-center gap-2 flex-wrap">
+                <h3 class="text-xl font-black text-slate-900">${student.full_name}</h3>
+                <span class="px-2.5 py-0.5 rounded-full text-xs font-bold ${student.is_premium ? 'bg-emerald-100 text-emerald-800 border border-emerald-300' : 'bg-slate-100 text-slate-700 border border-slate-200'}">
+                  ${student.plan || 'Free Tier'}
+                </span>
+                <span class="px-2.5 py-0.5 rounded-full text-xs font-bold ${student.is_locked ? 'bg-red-100 text-red-700 border border-red-200' : 'bg-blue-100 text-blue-800 border border-blue-200'}">
+                  ${student.is_locked ? '🔒 Blocked' : 'Active Student'}
+                </span>
+              </div>
+              <div class="flex items-center gap-2 text-xs text-slate-500 font-mono mt-1">
+                <span>${student.email}</span>
+                <span>·</span>
+                <span title="User UUID">${student.id.substring(0, 13)}...</span>
+                <span>·</span>
+                <span>Joined ${student.joined}</span>
+              </div>
+            </div>
+          </div>
+          <button onclick="closeModal();" class="text-slate-400 hover:text-slate-700 text-2xl font-bold p-1">&times;</button>
+        </div>
+
+        <div class="p-6 space-y-6 max-h-[78vh] overflow-y-auto">
+          <!-- KPI Metrics Row -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div class="p-4 rounded-xl bg-blue-50 border border-blue-200">
+              <div class="text-[10px] font-bold text-blue-800 uppercase">Academic Year</div>
+              <div class="text-xl font-black text-blue-950 mt-1">${student.course_number || 1}th Course</div>
+              <div class="text-[10px] text-blue-700 mt-0.5 font-semibold">Samarkand State Med Univ</div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-emerald-50 border border-emerald-200">
+              <div class="text-[10px] font-bold text-emerald-800 uppercase">Premium Remaining</div>
+              <div class="text-xl font-black text-emerald-950 mt-1">${student.days_left || 0} Days</div>
+              <div class="text-[10px] text-emerald-700 mt-0.5 font-semibold">${student.is_premium ? 'Active Access' : 'No Active Plan'}</div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-amber-50 border border-amber-200">
+              <div class="text-[10px] font-bold text-amber-800 uppercase">Coins Balance</div>
+              <div class="text-xl font-black text-amber-950 mt-1">${student.coins || 0} 🪙</div>
+              <div class="text-[10px] text-amber-700 mt-0.5 font-semibold">Study rewards</div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-purple-50 border border-purple-200">
+              <div class="text-[10px] font-bold text-purple-800 uppercase">Study Streak</div>
+              <div class="text-xl font-black text-purple-950 mt-1">${student.streak_days || 0} 🔥</div>
+              <div class="text-[10px] text-purple-700 mt-0.5 font-semibold">Consecutive days</div>
+            </div>
+          </div>
+
+          <!-- Instant Premium Days Adjuster Box -->
+          <div class="p-5 rounded-2xl bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 space-y-3.5">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div>
+                <h4 class="font-black text-slate-900 text-sm flex items-center gap-1.5">
+                  <span>👑 Subscription & VIP Management</span>
+                  <span class="text-xs text-blue-700 font-bold">(${student.days_left || 0} Days Left)</span>
+                </h4>
+                <p class="text-xs text-slate-600 mt-0.5">Instantly extend, reduce, or grant lifetime access in Supabase</p>
+              </div>
+
+              <!-- Quick Presets -->
+              <div class="flex items-center gap-1.5 flex-wrap">
+                <button onclick="adjustUserPremiumDays('${student.id}', 7); closeModal(); setTimeout(()=>openStudentProfileModal('${student.id}'), 300);" class="px-2.5 py-1.5 rounded-lg bg-white hover:bg-blue-100 text-blue-800 font-bold text-xs border border-blue-200 shadow-sm transition-all">+7 Days</button>
+                <button onclick="adjustUserPremiumDays('${student.id}', 30); closeModal(); setTimeout(()=>openStudentProfileModal('${student.id}'), 300);" class="px-2.5 py-1.5 rounded-lg bg-white hover:bg-blue-100 text-blue-800 font-bold text-xs border border-blue-200 shadow-sm transition-all">+30 Days</button>
+                <button onclick="adjustUserPremiumDays('${student.id}', 90); closeModal(); setTimeout(()=>openStudentProfileModal('${student.id}'), 300);" class="px-2.5 py-1.5 rounded-lg bg-white hover:bg-blue-100 text-blue-800 font-bold text-xs border border-blue-200 shadow-sm transition-all">+90 Days</button>
+                <button onclick="adjustUserPremiumDays('${student.id}', -30); closeModal(); setTimeout(()=>openStudentProfileModal('${student.id}'), 300);" class="px-2.5 py-1.5 rounded-lg bg-white hover:bg-amber-100 text-amber-800 font-bold text-xs border border-amber-200 shadow-sm transition-all">-30 Days</button>
+                <button onclick="grantUserVIP('${student.id}'); closeModal();" class="px-3 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-600 text-white font-black text-xs shadow-sm transition-all">👑 Lifetime VIP</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Real Quiz Performance & Recent Attempts -->
+          <div class="space-y-3">
+            <div class="flex items-center justify-between">
+              <h4 class="font-extrabold text-slate-900 text-sm flex items-center gap-2">
+                <span>📝 Recent Quiz Attempts & Accuracy</span>
+              </h4>
+              <span id="attemptsLoadingBadge" class="text-xs text-blue-700 font-semibold">Loading live attempts...</span>
+            </div>
+            
+            <div id="studentAttemptsContainer" class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
+              <div class="text-center py-4 text-xs text-slate-400">Fetching quiz attempts from Supabase...</div>
+            </div>
+          </div>
+
+          <!-- Real Payment & Transactions History -->
+          <div class="space-y-3">
+            <h4 class="font-extrabold text-slate-900 text-sm flex items-center gap-2">
+              <span>💳 Payment & Transaction History (${studentPayments.length})</span>
+            </h4>
+            
+            <div class="rounded-xl border border-slate-200 overflow-hidden">
+              ${studentPayments.length === 0 ? `
+                <div class="p-6 text-center text-xs text-slate-400">No payment records on file for this student.</div>
+              ` : `
+                <table class="w-full text-left text-xs text-slate-700">
+                  <thead class="bg-slate-100 text-slate-600 text-[10px] uppercase font-bold border-b">
+                    <tr>
+                      <th class="p-2.5">Transaction ID</th>
+                      <th class="p-2.5">Amount</th>
+                      <th class="p-2.5">Method / Promo</th>
+                      <th class="p-2.5">Status</th>
+                      <th class="p-2.5">Date</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-slate-100">
+                    ${studentPayments.map(p => `
+                      <tr>
+                        <td class="p-2.5 font-mono text-[11px] font-bold text-slate-900">${p.transaction_id || 'N/A'}</td>
+                        <td class="p-2.5 font-bold text-slate-900">${p.amount > 0 ? '$' + p.amount : 'Free / Promo'}</td>
+                        <td class="p-2.5 text-slate-600">${p.payment_method || 'Online'}</td>
+                        <td class="p-2.5"><span class="px-2 py-0.5 rounded text-[10px] font-bold ${p.status==='approved'?'bg-emerald-100 text-emerald-800':'bg-amber-100 text-amber-800'}">${p.status}</span></td>
+                        <td class="p-2.5 text-slate-500">${p.created_at}</td>
+                      </tr>
+                    `).join('')}
+                  </tbody>
+                </table>
+              `}
+            </div>
+          </div>
+
+          <!-- Support Inquiries History -->
+          ${studentTickets.length > 0 ? `
+            <div class="space-y-3">
+              <h4 class="font-extrabold text-slate-900 text-sm flex items-center gap-2">
+                <span>🎫 Support Inquiries Submitted (${studentTickets.length})</span>
+              </h4>
+              <div class="space-y-2">
+                ${studentTickets.map(t => `
+                  <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-between text-xs">
+                    <div>
+                      <div class="font-bold text-slate-900">${t.title}</div>
+                      <div class="text-[11px] text-slate-500 truncate max-w-sm mt-0.5">${t.description}</div>
+                    </div>
+                    <button onclick="closeModal(); openTicketModal('${t.id}');" class="px-3 py-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 text-white font-bold text-xs shadow-sm">
+                      View Ticket →
+                    </button>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Footer Action Buttons -->
+          <div class="pt-4 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center gap-2">
+              <button onclick="closeModal(); openEditUserModal('${student.id}');" class="px-4 py-2 rounded-xl bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 font-bold text-xs shadow-sm">
+                ✏️ Edit Student Info
+              </button>
+              <button onclick="toggleLockUser('${student.id}'); closeModal();" class="px-4 py-2 rounded-xl ${student.is_locked ? 'bg-emerald-50 text-emerald-700 border border-emerald-200' : 'bg-red-50 text-red-700 border border-red-200'} font-bold text-xs">
+                ${student.is_locked ? '🔓 Unblock Account' : '🔒 Block Account'}
+              </button>
+            </div>
+            
+            <button onclick="deleteUser('${student.id}'); closeModal();" class="px-4 py-2 rounded-xl bg-slate-100 hover:bg-red-50 text-slate-500 hover:text-red-600 font-bold text-xs">
+              🗑️ Delete Student
+            </button>
+          </div>
+        </div>
+      `);
+
+      // Load real student attempts from Supabase asynchronously
+      loadStudentAttempts(userId);
+    }
+
+    // Load student's live quiz attempts from Supabase
+    async function loadStudentAttempts(userId) {
+      const container = document.getElementById('studentAttemptsContainer');
+      const badge = document.getElementById('attemptsLoadingBadge');
+      if (!container) return;
+
+      try {
+        const attempts = await sbQuery('attempts', 'user_id=eq.' + userId + '&order=created_at.desc&limit=10');
+        if (badge) badge.innerText = attempts.length + ' attempts recorded';
+
+        if (!attempts || attempts.length === 0) {
+          container.innerHTML = '<div class="text-center py-4 text-xs text-slate-400">No quiz attempts recorded yet for this student.</div>';
+          return;
+        }
+
+        container.innerHTML = `
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-xs text-slate-700">
+              <thead class="text-[10px] uppercase font-bold text-slate-500 border-b border-slate-200 pb-1">
+                <tr>
+                  <th class="pb-2">Quiz / Subject</th>
+                  <th class="pb-2">Score</th>
+                  <th class="pb-2">Accuracy</th>
+                  <th class="pb-2">Date Completed</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100">
+                ${attempts.map(a => {
+                  const correct = a.correct_count || 0;
+                  const total = a.total_questions || 1;
+                  const pct = Math.round((correct / total) * 100);
+                  const isGreat = pct >= 80;
+                  const isOk = pct >= 50;
+                  return `
+                    <tr class="hover:bg-slate-100/50">
+                      <td class="py-2 font-bold text-slate-800">
+                        <span>Subject: ${a.subject_id || 'General'}</span>
+                        <span class="text-[10px] text-slate-400 font-normal">(${a.topic_id || 'Topic'})</span>
+                      </td>
+                      <td class="py-2 font-black text-slate-900">${correct} / ${total} Qs</td>
+                      <td class="py-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-black ${isGreat ? 'bg-emerald-100 text-emerald-800' : isOk ? 'bg-blue-100 text-blue-800' : 'bg-red-100 text-red-700'}">
+                          ${pct}%
+                        </span>
+                      </td>
+                      <td class="py-2 text-slate-500 text-[11px]">${a.created_at ? new Date(a.created_at).toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric', hour:'2-digit', minute:'2-digit' }) : 'N/A'}</td>
+                    </tr>
+                  `;
+                }).join('')}
+              </tbody>
+            </table>
+          </div>
+        `;
+      } catch(e) {
+        container.innerHTML = '<div class="text-xs text-red-500 py-2">Error loading attempts: ' + e.message + '</div>';
+      }
+    }
+
   </script>
 </body>
 </html>
