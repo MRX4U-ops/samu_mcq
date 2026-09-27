@@ -183,14 +183,15 @@ header, nav, [class*="_nav_"] {
 
 [class*="_inner_"] {
   width: 100% !important;
-  max-width: min(95vw, 1380px) !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding: 0 clamp(16px, 3vw, 32px) !important;
-  height: 64px !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 0 clamp(16px, 3vw, 44px) !important;
+  height: 68px !important;
   display: flex !important;
   align-items: center !important;
   justify-content: space-between !important;
+  gap: 12px !important;
 }
 
 /* Logo & Brand */
@@ -199,6 +200,7 @@ header, nav, [class*="_nav_"] {
   align-items: center !important;
   gap: 12px !important;
   text-decoration: none !important;
+  flex-shrink: 0 !important;
 }
 
 [class*="_logo_"] {
@@ -224,12 +226,12 @@ header, nav, [class*="_nav_"] {
   font-weight: 800 !important;
 }
 
-/* Header Navigation Tabs */
+/* Header Navigation Tabs - Free-size Full Width Bar */
 .header-nav-tabs {
   display: flex !important;
   align-items: center !important;
   gap: 4px !important;
-  margin: 0 16px !important;
+  margin: 0 auto !important;
   padding: 4px 6px !important;
   background: rgba(241, 245, 249, 0.8) !important;
   border: 1px solid rgba(226, 232, 240, 0.85) !important;
@@ -237,6 +239,7 @@ header, nav, [class*="_nav_"] {
   overflow-x: auto !important;
   scrollbar-width: none !important;
   white-space: nowrap !important;
+  flex-shrink: 1 !important;
 }
 .header-nav-tabs::-webkit-scrollbar {
   display: none !important;
@@ -245,16 +248,17 @@ header, nav, [class*="_nav_"] {
 .header-nav-tab {
   display: inline-flex !important;
   align-items: center !important;
-  gap: 6px !important;
-  padding: 6px 14px !important;
+  gap: 5px !important;
+  padding: 6px 11px !important;
   border-radius: 999px !important;
   color: #475569 !important;
   text-decoration: none !important;
   font-family: 'Plus Jakarta Sans', sans-serif !important;
-  font-size: 13px !important;
+  font-size: 12.5px !important;
   font-weight: 600 !important;
   letter-spacing: -0.01em !important;
   transition: all 0.2s ease !important;
+  white-space: nowrap !important;
 }
 
 .header-nav-tab:hover {
@@ -461,7 +465,7 @@ header, nav, [class*="_nav_"] {
   grid-template-columns: repeat(6, 1fr) !important;
   gap: clamp(12px, 1.8vw, 22px) !important;
   width: 100% !important;
-  max-width: min(96vw, 1360px) !important;
+  max-width: 100% !important;
   margin: 0 auto !important;
 }
 
@@ -663,8 +667,10 @@ footer, [class*="_footer_"] {
 
 footer [class*="_footerInner_"], [class*="_footerInner_"] {
   width: 100% !important;
-  max-width: min(94vw, 1360px) !important;
-  margin: 0 auto !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 clamp(16px, 3.5vw, 48px) !important;
+  box-sizing: border-box !important;
 }
 
 footer [class*="_footerTop_"], [class*="_footerTop_"] {
@@ -761,11 +767,11 @@ footer [class*="_footerBottom_"] p, [class*="_footerBottom_"] p {
 [class*="_sectionInner_"],
 [class*="_page_"] {
   width: 100% !important;
-  max-width: min(100% - clamp(16px, 4vw, 48px), 1400px) !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: clamp(8px, 2vw, 24px) !important;
-  padding-right: clamp(8px, 2vw, 24px) !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: clamp(16px, 3.5vw, 48px) !important;
+  padding-right: clamp(16px, 3.5vw, 48px) !important;
   box-sizing: border-box !important;
 }
 
@@ -1840,9 +1846,11 @@ footer [class*="_footerBottom_"] p, [class*="_footerBottom_"] p {
 }
 
 [class*="_container_1azb4_"] {
-  max-width: 1200px !important;
-  margin: 0 auto !important;
-  padding: 24px 20px 60px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 24px clamp(16px, 3.5vw, 48px) 60px !important;
+  box-sizing: border-box !important;
 }
 
 [class*="_container_1azb4_"] h1,
