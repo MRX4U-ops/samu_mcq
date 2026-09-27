@@ -195,8 +195,119 @@
           subjects: subjects.length,
           topics: topics.length
         });
+
+        // ---- 1. BUILD COURSE MAPPINGS & POPULATE ALL 6 COURSES ----
+        const courseIdToNum = {};
+        const courseNumToId = {};
+        if (courses && courses.length > 0) {
+          courses.forEach(c => {
+            const m = c.title.match(/(\d+)/);
+            const num = m ? m[1] : '1';
+            courseIdToNum[c.id] = num;
+            courseNumToId[num] = c.id;
+          });
+        }
+
+        // Standard 6 academic courses
+        AppState.courses = [1, 2, 3, 4, 5, 6].map(num => {
+          const suffix = num === 1 ? 'st' : num === 2 ? 'nd' : num === 3 ? 'rd' : 'th';
+          const title = num + suffix + ' Course';
+          const sbCourse = (courses || []).find(c => c.title.includes(num + suffix) || c.title.includes(num));
+          return {
+            id: 'c' + num,
+            supabase_id: sbCourse ? sbCourse.id : null,
+            course_number: num,
+            title: title,
+            is_active: true
+          };
+        });
+        AppState.stats.totalCourses = AppState.courses.length;
+
+        // ---- 2. BUILD ALL 128 SUBJECTS ACROSS ALL COURSES ----
+        if (subjects && subjects.length > 0) {
+          // Count MCQs per subject from AppState.mcqs
+          const mcqCountBySubjTitle = {};
+          (AppState.mcqs || []).forEach(m => {
+            const st = (m.subject || '').toLowerCase().trim();
+            mcqCountBySubjTitle[st] = (mcqCountBySubjTitle[st] || 0) + 1;
+          });
+
+          // Map all 128 Supabase subjects
+          const mappedSubjects = subjects.map(s => {
+            const cNum = courseIdToNum[s.course_id] || '1';
+            const courseKey = 'c' + cNum;
+            const lowerTitle = (s.title || '').toLowerCase();
+            
+            let icon = '📚';
+            if (lowerTitle.includes('anat')) icon = '🦴';
+            else if (lowerTitle.includes('chem')) icon = '🧪';
+            else if (lowerTitle.includes('bioch')) icon = '🧬';
+            else if (lowerTitle.includes('micro')) icon = '🦠';
+            else if (lowerTitle.includes('biol')) icon = '🌱';
+            else if (lowerTitle.includes('surg')) icon = '🔪';
+            else if (lowerTitle.includes('med')) icon = '🩺';
+            else if (lowerTitle.includes('physio')) icon = '⚡';
+            else if (lowerTitle.includes('patho')) icon = '🔬';
+            else if (lowerTitle.includes('pharma')) icon = '💊';
+            else if (lowerTitle.includes('pediat')) icon = '👶';
+            else if (lowerTitle.includes('obste') || lowerTitle.includes('gynec')) icon = '🤰';
+            else if (lowerTitle.includes('neuro')) icon = '🧠';
+            else if (lowerTitle.includes('dent')) icon = '🦷';
+            else if (lowerTitle.includes('derm')) icon = '🧴';
+
+            const localCount = mcqCountBySubjTitle[lowerTitle] || 0;
+            return {
+              id: s.id,
+              supabase_id: s.id,
+              course_id: courseKey,
+              raw_course_id: s.course_id,
+              course_number: parseInt(cNum),
+              title: s.title,
+              code: s.title.substring(0, 8).toUpperCase(),
+              icon: icon,
+              is_active: true,
+              mcqCount: localCount
+            };
+          });
+
+          // Also ensure local offline subjects from real_mcqs.json are preserved
+          (compiledSubjects || []).forEach(cs => {
+            const exists = mappedSubjects.some(ms => ms.title.toLowerCase().trim() === cs.title.toLowerCase().trim());
+            if (!exists) {
+              mappedSubjects.push(cs);
+            } else {
+              // Transfer count
+              const found = mappedSubjects.find(ms => ms.title.toLowerCase().trim() === cs.title.toLowerCase().trim());
+              if (found && cs.mcqCount > found.mcqCount) found.mcqCount = cs.mcqCount;
+            }
+          });
+
+          AppState.subjects = mappedSubjects;
+          AppState.stats.totalSubjects = mappedSubjects.length;
+        }
+
+        // ---- 3. MAP ALL TOPICS (1,930 topics) ----
+        if (topics && topics.length > 0) {
+          const mappedTopics = topics.map(t => ({
+            id: t.id,
+            supabase_id: t.id,
+            subject_id: t.subject_id,
+            title: t.title,
+            is_master: false,
+            is_active: true,
+            mcqCount: 0
+          }));
+
+          // Merge local topics
+          (compiledTopics || []).forEach(ct => {
+            if (!mappedTopics.some(mt => mt.id === ct.id)) mappedTopics.push(ct);
+          });
+
+          AppState.topics = mappedTopics;
+          AppState.stats.totalTopics = mappedTopics.length;
+        }
         
-        // ---- 1. MAP SUBSCRIPTIONS ----
+        // ---- 4. MAP SUBSCRIPTIONS ----
         const subsMap = {};
         subscriptions.forEach(s => {
           if (!subsMap[s.user_id] || new Date(s.end_date) > new Date(subsMap[s.user_id].end_date)) {
@@ -204,7 +315,7 @@
           }
         });
         
-        // ---- 2. MAP USERS / MEMBERS (304 real students) ----
+        // ---- 5. MAP USERS / MEMBERS (304 real students) ----
         if (profiles && profiles.length > 0) {
           const mappedUsers = profiles.map(p => {
             const sub = subsMap[p.id];
@@ -231,8 +342,9 @@
               streak_days: p.streak || 0,
               plan: plan,
               is_premium: isPremium,
-              days_left: daysLeft,
+              days_left: Math.max(0, daysLeft),
               sub_id: sub ? sub.id : null,
+              sub_end_date: sub ? sub.end_date : null,
               is_locked: p.status === 'blocked',
               joined: p.created_at ? new Date(p.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : 'Unknown',
               accuracy: p.accuracy || 0,
@@ -269,7 +381,7 @@
           } catch(e) {}
         }
         
-        // ---- 3. MAP PAYMENTS (92 real payments) ----
+        // ---- 6. MAP PAYMENTS (92 real payments) ----
         if (payments && payments.length > 0) {
           const profileMap = {};
           AppState.users.forEach(u => { profileMap[u.id] = u; });
@@ -309,7 +421,7 @@
           if (badge) badge.innerText = pending.length;
         }
         
-        // ---- 4. MAP PROMO CODES (3 real promo codes) ----
+        // ---- 7. MAP PROMO CODES (3 real promo codes) ----
         if (promoCodes && promoCodes.length > 0) {
           AppState.coupons = promoCodes.map(pc => ({
             id: pc.id,
@@ -322,12 +434,10 @@
           }));
         }
         
-        // ---- 5. MAP BADGES ----
-        if (badges && badges.length > 0) {
-          AppState.badges = badges;
-        }
+        // ---- 8. MAP BADGES ----
+        if (badges && badges.length > 0) AppState.badges = badges;
         
-        // ---- 6. MAP SUPPORT TICKETS (15 real tickets) ----
+        // ---- 9. MAP SUPPORT TICKETS ----
         if (supportTickets && supportTickets.length > 0) {
           const profileMap = {};
           AppState.users.forEach(u => { profileMap[u.id] = u; });
@@ -339,27 +449,16 @@
           }));
         }
         
-        // ---- 7. MAP COURSES, SUBJECTS, TOPICS STATS ----
-        if (courses && courses.length > 0) AppState.stats.totalCourses = courses.length;
-        if (subjects && subjects.length > 0) AppState.stats.totalSubjects = subjects.length;
-        if (topics && topics.length > 0) AppState.stats.totalTopics = topics.length;
-        
-        // ---- 8. RECENT ATTEMPTS FOR LEADERBOARD ----
-        if (attempts && attempts.length > 0) {
-          AppState.recentAttempts = attempts;
-        }
-        
         // Update header live badge
         const liveIndicator = document.getElementById('liveSupabaseIndicator');
         if (liveIndicator) {
-          liveIndicator.innerHTML = '🟢 Live Supabase Connected · ' + AppState.users.length + ' Members · ' + AppState.payments.length + ' Payments';
+          liveIndicator.innerHTML = '🟢 Live Supabase Connected · ' + AppState.users.length + ' Members · ' + AppState.subjects.length + ' Subjects · ' + AppState.payments.length + ' Payments';
           liveIndicator.className = 'px-3 py-1 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 border border-emerald-300 flex items-center gap-1.5 shadow-sm';
         }
         
         // Re-render
         renderApp();
-        
-        showToast('🟢 Live Supabase Synced: ' + AppState.users.length + ' members · ' + AppState.payments.length + ' payments · ' + (AppState.coupons||[]).length + ' promo codes', 'success');
+        showToast('🟢 Live Synced: ' + AppState.users.length + ' students · ' + AppState.subjects.length + ' subjects across 6 courses · ' + AppState.payments.length + ' payments', 'success');
       } catch(e) {
         console.error('Supabase load error:', e);
         showToast('Failed to sync from Supabase: ' + e.message, 'error');
@@ -1058,100 +1157,139 @@
 
     // --- 2. ACADEMIC HIERARCHY CMS ---
     function renderHierarchy(container) {
-      container.innerHTML = `
-        <div class="space-y-6">
-          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-            <div>
-              <h2 class="text-2xl font-black text-slate-900">Educational Structure CMS</h2>
-              <p class="text-sm text-slate-500 mt-1">Manage Course → Subject → Topic → Task Type hierarchy with full CRUD & ordering.</p>
-            </div>
-            <div class="flex items-center gap-2">
-              <button onclick="openCreateSubjectModal();" class="flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-700 hover:bg-blue-800 text-white text-xs font-bold shadow-md shadow-blue-900/20">
-                <span>➕ Add Subject</span>
-              </button>
-              <button onclick="openCreateTopicModal();" class="flex items-center gap-2 px-4 py-2 rounded-xl bg-white hover:bg-slate-50 text-slate-700 text-xs font-bold border border-slate-300">
-                <span>📑 Add Topic</span>
-              </button>
-            </div>
-          </div>
+  const selectedCourseId = AppState.selectedCourseId || 'c1';
+  const selectedCourseNum = selectedCourseId.replace('c', '');
+  
+  // Filter subjects for the selected course
+  const courseSubjects = (AppState.subjects || []).filter(s => {
+    return s.course_id === selectedCourseId || String(s.course_number) === selectedCourseNum;
+  });
 
-          <!-- Courses Navigation Tabs -->
-          <div class="flex items-center gap-2 overflow-x-auto pb-2 border-b border-slate-200">
-            ${AppState.courses.map((c, i) => `
-              <button class="px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all ${
-                i === 0 ? 'bg-blue-700 text-white shadow-sm' : 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200'
-              }">
-                ${c.title}
-              </button>
-            `).join('')}
-          </div>
+  const searchSubj = (AppState.hierarchySearch || '').toLowerCase();
+  const filteredSubjects = searchSubj 
+    ? courseSubjects.filter(s => s.title.toLowerCase().includes(searchSubj) || s.code.toLowerCase().includes(searchSubj))
+    : courseSubjects;
 
-          <!-- Subjects & Topics Accordion / Tree -->
-          <div class="space-y-4">
-            ${AppState.subjects.map(s => `
-              <div class="white-card rounded-2xl p-5">
+  const activeCourse = (AppState.courses || []).find(c => c.id === selectedCourseId) || { title: selectedCourseNum + 'th Course' };
+
+  container.innerHTML = `
+    <div class="space-y-6">
+      <!-- Header -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <div class="flex items-center gap-2">
+            <h2 class="text-2xl font-black text-slate-900">Educational Structure CMS</h2>
+            <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-blue-100 text-blue-800 border border-blue-200">
+              ${courseSubjects.length} Subjects in ${activeCourse.title}
+            </span>
+          </div>
+          <p class="text-sm text-slate-500 mt-1">Select a course to view all subjects. Click any subject to manage topics and questions.</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="openCreateSubjectModal();" class="flex items-center gap-2 px-4 py-2 rounded-xl bg-blue-700 hover:bg-blue-800 text-white text-xs font-bold shadow-md shadow-blue-900/20">
+            <span>➕ Add Subject</span>
+          </button>
+          <button onclick="openCreateTopicModal();" class="flex items-center gap-2 px-4 py-2 rounded-xl bg-white hover:bg-slate-50 text-slate-700 text-xs font-bold border border-slate-300">
+            <span>📑 Add Topic</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Courses Navigation Tabs (Clickable buttons!) -->
+      <div class="flex items-center gap-2 overflow-x-auto pb-2 border-b border-slate-200">
+        ${(AppState.courses || []).map(c => {
+          const isSelected = c.id === selectedCourseId || String(c.course_number) === selectedCourseNum;
+          const count = (AppState.subjects || []).filter(s => s.course_id === c.id || String(s.course_number) === String(c.course_number)).length;
+          return `
+            <button onclick="AppState.selectedCourseId='${c.id}'; AppState.selectedSubjectId=''; renderHierarchy(document.getElementById('mainContainer'));" class="px-5 py-2.5 rounded-xl text-xs font-extrabold whitespace-nowrap transition-all flex items-center gap-2 ${
+              isSelected
+                ? 'bg-blue-700 text-white shadow-md shadow-blue-900/20'
+                : 'bg-white text-slate-700 hover:bg-slate-100 border border-slate-200 shadow-sm'
+            }">
+              <span>${c.title}</span>
+              <span class="px-2 py-0.5 rounded-full text-[10px] font-bold ${isSelected ? 'bg-blue-800 text-white' : 'bg-slate-100 text-slate-600'}">
+                ${count}
+              </span>
+            </button>
+          `;
+        }).join('')}
+      </div>
+
+      <!-- Search bar & Quick controls -->
+      <div class="white-card p-4 rounded-2xl border border-slate-200 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div class="flex items-center gap-2 text-xs font-bold text-slate-700">
+          <span>Showing subjects for:</span>
+          <span class="px-3 py-1 rounded-lg bg-blue-50 text-blue-800 border border-blue-200 font-extrabold">${activeCourse.title}</span>
+          <span class="text-slate-400">(${filteredSubjects.length} of ${courseSubjects.length} subjects)</span>
+        </div>
+        <div class="w-full sm:w-80">
+          <input type="text" placeholder="🔍 Filter subjects in ${activeCourse.title}..." value="${AppState.hierarchySearch || ''}" oninput="AppState.hierarchySearch=this.value; renderHierarchy(document.getElementById('mainContainer'));" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2 text-xs text-slate-900 placeholder-slate-400 focus:outline-none focus:border-blue-600">
+        </div>
+      </div>
+
+      <!-- Subjects Grid / Tree -->
+      <div class="space-y-4">
+        ${filteredSubjects.length === 0 ? `
+          <div class="white-card rounded-2xl p-12 text-center border border-slate-200">
+            <div class="text-4xl mb-2">📚</div>
+            <h4 class="font-extrabold text-slate-800 text-sm">No subjects found in ${activeCourse.title}</h4>
+            <p class="text-xs text-slate-400 mt-1">Try clearing search or click "Add Subject" to create one.</p>
+          </div>
+        ` : `
+          ${filteredSubjects.map(s => {
+            const topicsInSubj = (AppState.topics || []).filter(t => t.subject_id === s.id || t.subject_id === s.supabase_id);
+            return `
+              <div class="white-card rounded-2xl p-5 border border-slate-200 hover:border-blue-300 transition-all shadow-sm">
                 <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                   <div class="flex items-center gap-3.5">
-                    <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center font-bold text-xl">
+                    <div class="w-11 h-11 rounded-2xl bg-blue-50 text-blue-700 flex items-center justify-center font-bold text-2xl shadow-sm shrink-0">
                       ${s.icon || '📚'}
                     </div>
                     <div>
-                      <div class="flex items-center gap-2">
+                      <div class="flex items-center gap-2 flex-wrap">
                         <h4 class="text-base font-extrabold text-slate-900">${s.title}</h4>
-                        <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-700 border border-slate-200">${s.code}</span>
-                        ${s.is_active ? '<span class="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-100 text-emerald-800">Active</span>' : '<span class="text-[10px] font-bold px-2 py-0.5 rounded bg-red-100 text-red-700">Inactive</span>'}
+                        <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-700 border border-slate-200">${s.code || 'SUBJ'}</span>
+                        <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-100 text-emerald-800">Active</span>
                       </div>
-                      <p class="text-xs text-slate-500 mt-0.5">${s.mcqCount.toLocaleString()} MCQs loaded • Linked to 1st Course</p>
+                      <p class="text-xs text-slate-500 mt-1">
+                        <strong>${topicsInSubj.length > 0 ? topicsInSubj.length : 'Multiple'}</strong> Topics · <strong>${s.mcqCount > 0 ? s.mcqCount : 'Available in Supabase'}</strong> MCQs · Linked to ${activeCourse.title}
+                      </p>
                     </div>
                   </div>
 
                   <div class="flex items-center gap-2">
-                    <button onclick="AppState.activeTab='mcqs'; renderApp();" class="px-3 py-1.5 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 text-xs font-bold">
-                      View Questions
+                    <button onclick="selectSubjectAndGoToMCQs('${selectedCourseId}', '${s.id}')" class="px-4 py-2 rounded-xl bg-blue-700 hover:bg-blue-800 text-white text-xs font-bold shadow-sm flex items-center gap-1.5 transition-all">
+                      <span>🎯 View & Manage Questions →</span>
                     </button>
-                    <button class="p-1.5 rounded-lg text-slate-500 hover:text-slate-900 hover:bg-slate-100">
-                      ✏️
-                    </button>
-                    <button onclick="showToast('Subject archived', 'success');" class="p-1.5 rounded-lg text-slate-400 hover:text-red-600 hover:bg-red-50">
-                      🗑️
+                    <button onclick="toggleSubjectTopics('${s.id}')" class="px-3 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition-all">
+                      <span>📑 View Topics</span>
                     </button>
                   </div>
                 </div>
 
-                <!-- Nested Topics for Subject -->
-                <div class="mt-4 pt-4 border-t border-slate-100 pl-4 space-y-2.5">
-                  <div class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Curriculum Topics & Task Types</div>
-                  ${AppState.topics.filter(t => t.subject_id === s.id).map((t, idx) => `
-                    <div class="flex items-center justify-between p-3 rounded-xl bg-slate-50 border border-slate-200 hover:border-blue-300 transition-colors">
-                      <div class="flex items-center gap-3">
-                        <span class="text-xs font-bold text-slate-400">#${idx + 1}</span>
-                        <div>
-                          <div class="flex items-center gap-2">
-                            <span class="text-sm font-bold text-slate-800">${t.title}</span>
-                            ${t.is_master ? '<span class="text-[10px] font-extrabold px-2 py-0.5 rounded bg-red-100 text-red-700 border border-red-200">👑 Master Topic</span>' : ''}
-                          </div>
-                          <div class="text-[11px] text-slate-500 mt-0.5 flex items-center gap-3">
-                            <span>${t.mcqCount} Questions</span>
-                            <span>•</span>
-                            <span class="text-blue-700 font-semibold">Test Questions & Situational Tasks</span>
-                          </div>
-                        </div>
+                <!-- Hidden Topics Drawer -->
+                <div id="topics_drawer_${s.id}" class="hidden mt-4 pt-4 border-t border-slate-100 space-y-2">
+                  <div class="text-xs font-bold text-slate-700 mb-2">Curriculum Topics for ${s.title}:</div>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+                    ${topicsInSubj.length > 0 ? topicsInSubj.map((t, idx) => `
+                      <div class="p-2.5 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-between text-xs">
+                        <span class="font-medium text-slate-800 truncate">#${idx+1} ${t.title}</span>
+                        <button onclick="selectTopicAndGoToMCQs('${selectedCourseId}', '${s.id}', '${t.id}')" class="text-[10px] text-blue-700 font-bold hover:underline shrink-0">
+                          MCQs →
+                        </button>
                       </div>
-
-                      <div class="flex items-center gap-2">
-                        <button onclick="AppState.activeTab='mcqs'; renderApp();" class="text-xs text-blue-700 hover:underline font-bold">Manage MCQs</button>
-                      </div>
-                    </div>
-                  `).join('')}
+                    `).join('') : '<div class="text-xs text-slate-400 py-2">Topics available in main database. Click View & Manage Questions.</div>'}
+                  </div>
                 </div>
               </div>
-            `).join('')}
-          </div>
-        </div>
-      `;
-    }
+            `;
+          }).join('')}
+        `}
+      </div>
+    </div>
+  `;
+}
 
-        
     // --- 3. MCQ MANAGEMENT CMS WITH REAL QUESTIONS & PAGINATION ---
     function onCourseChange(courseId) {
       AppState.selectedCourseId = courseId;
@@ -1177,6 +1315,13 @@
       AppState.selectedTopicId = topicId;
       AppState.mcqPage = 1;
       renderApp();
+      
+      // If it is a Supabase UUID topic, load its questions live from Supabase
+      if (topicId && topicId !== 'all' && (topicId.length > 20 || topicId.includes('-'))) {
+        if (typeof loadSupabaseMCQsForTopic === 'function') {
+          loadSupabaseMCQsForTopic(topicId);
+        }
+      }
     }
 
     function onTaskTypeChange(type) {
@@ -1341,30 +1486,38 @@
 
     function getFilteredMCQs() {
       const courseNum = AppState.selectedCourseId ? AppState.selectedCourseId.replace('c', '') : '1';
-      const activeSubj = AppState.subjects.find(s => s.id === AppState.selectedSubjectId);
-      const subjectTitle = activeSubj ? activeSubj.title : '';
+      const activeSubj = (AppState.subjects || []).find(s => s.id === AppState.selectedSubjectId);
+      const subjectTitle = activeSubj ? (activeSubj.title || '').toLowerCase().trim() : '';
 
-      return AppState.mcqs.filter(q => {
+      const activeTopic = (AppState.topics || []).find(t => t.id === AppState.selectedTopicId);
+      const topicTitle = activeTopic ? (activeTopic.title || '').toLowerCase().trim() : '';
+
+      return (AppState.mcqs || []).filter(q => {
         // Match Course
         const qCourse = String(q.course || '1');
-        if (qCourse !== courseNum) return false;
+        if (AppState.selectedCourseId && qCourse !== courseNum) {
+          // If question has a subject linked to another course, check it
+          if (q.course_number && String(q.course_number) !== courseNum) return false;
+        }
 
         // Match Subject
         if (AppState.selectedSubjectId) {
-          const matchSubjId = q.subject_id === AppState.selectedSubjectId;
-          const matchSubjTitle = q.subject === subjectTitle;
+          const qSubj = (q.subject || '').toLowerCase().trim();
+          const matchSubjId = q.subject_id === AppState.selectedSubjectId || (activeSubj && activeSubj.supabase_id && q.subject_id === activeSubj.supabase_id);
+          const matchSubjTitle = subjectTitle && (qSubj === subjectTitle || qSubj.includes(subjectTitle) || subjectTitle.includes(qSubj));
           if (!matchSubjId && !matchSubjTitle) return false;
         }
 
         // Match Topic
-        if (AppState.selectedTopicId !== 'all') {
-          if (q.topic_id !== AppState.selectedTopicId && q.topic !== AppState.selectedTopicId) {
-            return false;
-          }
+        if (AppState.selectedTopicId && AppState.selectedTopicId !== 'all') {
+          const qTop = (q.topic || '').toLowerCase().trim();
+          const matchTopicId = q.topic_id === AppState.selectedTopicId;
+          const matchTopicTitle = topicTitle && (qTop === topicTitle || qTop.includes(topicTitle) || topicTitle.includes(qTop));
+          if (!matchTopicId && !matchTopicTitle) return false;
         }
 
         // Match Task Type
-        if (AppState.selectedTaskType !== 'all') {
+        if (AppState.selectedTaskType && AppState.selectedTaskType !== 'all') {
           if (q.task_type !== AppState.selectedTaskType) return false;
         }
 
@@ -2108,100 +2261,185 @@
     
     // --- 6. USER DIRECTORY & ROLES (Exact Real Members from App/Web) ---
     function renderUsers(container) {
-      container.innerHTML = `
-        <div class="space-y-6">
-          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-            <div>
-              <div class="flex items-center gap-2">
-                <h2 class="text-2xl font-black text-slate-900">Student Directory & Role Governance</h2>
-                <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 border border-blue-200">${AppState.users.length} Members (Live from Supabase)</span>
-              </div>
-              <p class="text-sm text-slate-500 mt-1">Real registered members from Supabase (304 total). Subscription plans, coins, and account management.</p>
-            </div>
-            <div class="flex items-center gap-2">
-              <button onclick="loadRealDataFromSupabase(); showToast('Syncing members from Supabase...', 'info');" class="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white hover:bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200 shadow-sm transition-all">
-                <span>🔄 Sync Real Data</span>
-              </button>
-              <button onclick="openAddUserModal();" class="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-blue-700 hover:bg-blue-800 text-white text-xs font-bold shadow-md shadow-blue-900/20 transition-all">
-                <span>➕ Add New Member</span>
-              </button>
-            </div>
-          </div>
+  const allUsers = AppState.users || [];
+  const tab = AppState.userTab || 'all';
+  const query = (AppState.userSearchQuery || '').toLowerCase().trim();
 
-          <!-- Table -->
-          <div class="white-card rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
-            <div class="overflow-x-auto">
-              <table class="w-full text-left text-xs text-slate-700">
-                <thead class="bg-slate-100 text-slate-600 uppercase text-[10px] tracking-wider border-b border-slate-200">
-                  <tr>
-                    <th class="p-3.5">User / Member</th>
-                    <th class="p-3.5">Role</th>
-                    <th class="p-3.5">Academic Course</th>
-                    <th class="p-3.5">Subscription Plan</th>
-                    <th class="p-3.5">Coins</th>
-                    <th class="p-3.5">Streak</th>
-                    <th class="p-3.5">Status</th>
-                    <th class="p-3.5">Actions</th>
-                  </tr>
-                </thead>
-                <tbody class="divide-y divide-slate-200">
-                  ${AppState.users.map(u => `
-                    <tr class="hover:bg-slate-50 transition-colors">
-                      <td class="p-3.5">
-                        <div class="font-bold text-slate-900 flex items-center gap-2">
-                          <span>${u.full_name}</span>
-                          ${u.role === 'super_admin' ? '<span class="text-xs">👑</span>' : ''}
-                        </div>
-                        <div class="text-[11px] text-slate-500 font-mono">${u.email}</div>
-                      </td>
-                      <td class="p-3.5">
-                        ${u.role === 'super_admin' || u.role === 'admin'
-                          ? '<span class="px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-red-100 text-red-700 border border-red-200">Super Admin</span>'
-                          : '<span class="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-slate-100 text-slate-700 border border-slate-200">Student</span>'
-                        }
-                      </td>
-                      <td class="p-3.5 font-bold text-slate-800">${u.course_number || 1}th Course</td>
-                      <td class="p-3.5">
+  // Filter users by tab
+  let filtered = allUsers;
+  if (tab === 'premium') filtered = filtered.filter(u => u.is_premium || (u.plan && u.plan.toLowerCase().includes('premium')) || u.plan === 'Lifetime VIP');
+  else if (tab === 'expired') filtered = filtered.filter(u => u.plan === 'Expired' || (!u.is_premium && u.plan !== 'Lifetime VIP'));
+  else if (tab === 'blocked') filtered = filtered.filter(u => u.is_locked || u.status === 'blocked');
+  else if (tab === 'admin') filtered = filtered.filter(u => u.role === 'admin' || u.role === 'super_admin');
+
+  // Search filter
+  if (query) {
+    filtered = filtered.filter(u => 
+      (u.full_name || '').toLowerCase().includes(query) ||
+      (u.email || '').toLowerCase().includes(query) ||
+      (u.plan || '').toLowerCase().includes(query) ||
+      String(u.course_number || '').includes(query)
+    );
+  }
+
+  const premiumCount = allUsers.filter(u => u.is_premium || (u.plan && u.plan.toLowerCase().includes('premium')) || u.plan === 'Lifetime VIP').length;
+  const expiredCount = allUsers.filter(u => u.plan === 'Expired' || (!u.is_premium && u.plan !== 'Lifetime VIP')).length;
+  const blockedCount = allUsers.filter(u => u.is_locked || u.status === 'blocked').length;
+
+  container.innerHTML = `
+    <div class="space-y-6">
+      <!-- Header -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <div class="flex items-center gap-2">
+            <h2 class="text-2xl font-black text-slate-900">Student Directory & Role Governance</h2>
+            <span class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-800 border border-blue-200">
+              ${allUsers.length} Members (Live from Supabase)
+            </span>
+          </div>
+          <p class="text-sm text-slate-500 mt-1">Real registered students from Supabase (304 total). Search students, edit details, and <strong>increase or decrease premium days</strong>.</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="loadRealDataFromSupabase(); showToast('Syncing members from Supabase...', 'info');" class="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white hover:bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200 shadow-sm transition-all">
+            <span>🔄 Sync Real Data</span>
+          </button>
+          <button onclick="openAddUserModal();" class="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-blue-700 hover:bg-blue-800 text-white text-xs font-bold shadow-md shadow-blue-900/20 transition-all">
+            <span>➕ Add New Member</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Search Bar & Filters -->
+      <div class="white-card p-4 rounded-2xl border border-slate-200 shadow-sm flex flex-col md:flex-row items-center justify-between gap-3">
+        <!-- Filter Tabs -->
+        <div class="flex gap-2 flex-wrap w-full md:w-auto">
+          <button onclick="AppState.userTab='all'; renderApp();" class="px-4 py-2 rounded-xl text-xs font-bold transition-all ${tab==='all'?'bg-blue-700 text-white shadow-md':'bg-slate-100 text-slate-700 hover:bg-slate-200'}">
+            All Students (${allUsers.length})
+          </button>
+          <button onclick="AppState.userTab='premium'; renderApp();" class="px-4 py-2 rounded-xl text-xs font-bold transition-all ${tab==='premium'?'bg-emerald-700 text-white shadow-md':'bg-slate-100 text-slate-700 hover:bg-slate-200'}">
+            👑 Active Premium (${premiumCount})
+          </button>
+          <button onclick="AppState.userTab='expired'; renderApp();" class="px-4 py-2 rounded-xl text-xs font-bold transition-all ${tab==='expired'?'bg-amber-600 text-white shadow-md':'bg-slate-100 text-slate-700 hover:bg-slate-200'}">
+            ⏳ Expired / Free (${expiredCount})
+          </button>
+          <button onclick="AppState.userTab='blocked'; renderApp();" class="px-4 py-2 rounded-xl text-xs font-bold transition-all ${tab==='blocked'?'bg-red-600 text-white shadow-md':'bg-slate-100 text-slate-700 hover:bg-slate-200'}">
+            🔒 Blocked (${blockedCount})
+          </button>
+        </div>
+
+        <!-- SEARCH INPUT -->
+        <div class="w-full md:w-80">
+          <input type="text" id="userSearchInput" placeholder="🔍 Search by student name, email, plan..." value="${AppState.userSearchQuery || ''}" oninput="AppState.userSearchQuery=this.value; renderUsers(document.getElementById('mainContainer'));" class="w-full bg-slate-50 border-2 border-slate-200 focus:border-blue-600 rounded-xl px-4 py-2 text-xs text-slate-900 placeholder-slate-400 focus:outline-none transition-colors">
+        </div>
+      </div>
+
+      <!-- Members Table -->
+      <div class="white-card rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs text-slate-700">
+            <thead class="bg-slate-100 text-slate-600 uppercase text-[10px] tracking-wider border-b border-slate-200">
+              <tr>
+                <th class="p-3.5">User / Member</th>
+                <th class="p-3.5">Role</th>
+                <th class="p-3.5">Academic Course</th>
+                <th class="p-3.5">Subscription Plan & Days</th>
+                <th class="p-3.5">Premium Controls</th>
+                <th class="p-3.5">Coins / Streak</th>
+                <th class="p-3.5">Status</th>
+                <th class="p-3.5 text-right">Actions</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-200">
+              ${filtered.length === 0 ? `
+                <tr>
+                  <td colspan="8" class="p-10 text-center text-slate-400 text-xs">
+                    No students match the search filter "${query}".
+                  </td>
+                </tr>
+              ` : filtered.map(u => {
+                const isSuper = u.role === 'super_admin';
+                const isPrem = u.is_premium || (u.plan && u.plan.toLowerCase().includes('premium')) || isSuper;
+                return `
+                  <tr class="hover:bg-slate-50 transition-colors">
+                    <td class="p-3.5">
+                      <div class="font-bold text-slate-900 flex items-center gap-2">
+                        <span>${u.full_name}</span>
+                        ${isSuper ? '<span class="text-xs">👑</span>' : ''}
+                      </div>
+                      <div class="text-[11px] text-slate-500 font-mono">${u.email}</div>
+                    </td>
+                    <td class="p-3.5">
+                      ${isSuper || u.role === 'admin'
+                        ? '<span class="px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-red-100 text-red-700 border border-red-200">Admin</span>'
+                        : '<span class="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-slate-100 text-slate-700 border border-slate-200">Student</span>'
+                      }
+                    </td>
+                    <td class="p-3.5 font-bold text-slate-800">${u.course_number || 1}th Course</td>
+                    <td class="p-3.5">
+                      <div class="flex items-center gap-1.5 flex-wrap">
                         <span class="px-2.5 py-1 rounded-lg text-[10px] font-extrabold ${
-                          (u.plan || '').toLowerCase().includes('premium') || (u.plan || '').toLowerCase().includes('lifetime')
+                          isPrem
                             ? 'bg-blue-100 text-blue-800 border border-blue-200'
                             : 'bg-slate-100 text-slate-600 border border-slate-200'
                         }">
                           ${u.plan || 'Free Tier'}
                         </span>
-                      </td>
-                      <td class="p-3.5 font-bold text-amber-600">${u.coins || 0} 🪙</td>
-                      <td class="p-3.5 font-bold text-red-600">${u.streak_days || 0} 🔥</td>
-                      <td class="p-3.5">
-                        ${u.is_locked
-                          ? '<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-red-100 text-red-700">🔒 Blocked</span>'
-                          : '<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-100 text-emerald-800">Active</span>'
-                        }
-                      </td>
-                      <td class="p-3.5">
-                        <div class="flex items-center gap-1.5">
-                          <button onclick="openEditUserModal('${u.id}');" title="Edit Member" class="px-2 py-1 rounded-lg bg-white border border-slate-200 hover:bg-blue-50 hover:border-blue-300 text-blue-700 font-bold text-[11px] shadow-sm">
-                            ✏️ Edit
+                        ${u.days_left > 0 ? `<span class="text-[10px] font-bold text-emerald-700">(${u.days_left}d)</span>` : ''}
+                      </div>
+                    </td>
+
+                    <!-- PREMIUM DAYS CONTROLS (+30d, -30d, Set Days) -->
+                    <td class="p-3.5">
+                      ${!isSuper ? `
+                        <div class="flex items-center gap-1">
+                          <button onclick="adjustUserPremiumDays('${u.id}', 30)" title="Add 30 Days of Premium" class="px-2 py-1 rounded bg-emerald-50 hover:bg-emerald-100 text-emerald-700 text-[10px] font-extrabold border border-emerald-200 transition-colors">
+                            +30d
                           </button>
+                          <button onclick="adjustUserPremiumDays('${u.id}', -30)" title="Subtract 30 Days of Premium" class="px-2 py-1 rounded bg-amber-50 hover:bg-amber-100 text-amber-700 text-[10px] font-extrabold border border-amber-200 transition-colors">
+                            -30d
+                          </button>
+                          <button onclick="setCustomPremiumDays('${u.id}')" title="Set Exact Number of Days" class="px-2 py-1 rounded bg-blue-50 hover:bg-blue-100 text-blue-700 text-[10px] font-extrabold border border-blue-200 transition-colors">
+                            ⚙️ Set
+                          </button>
+                        </div>
+                      ` : '<span class="text-[10px] text-slate-400 font-bold">Permanent VIP</span>'}
+                    </td>
+
+                    <td class="p-3.5 font-bold text-slate-700">
+                      <div>${u.coins || 0} 🪙</div>
+                      <div class="text-[10px] text-red-600">${u.streak_days || 0} 🔥 streak</div>
+                    </td>
+                    <td class="p-3.5">
+                      ${u.is_locked
+                        ? '<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-red-100 text-red-700">🔒 Blocked</span>'
+                        : '<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-100 text-emerald-800">Active</span>'
+                      }
+                    </td>
+                    <td class="p-3.5 text-right whitespace-nowrap">
+                      <div class="flex items-center justify-end gap-1.5">
+                        <button onclick="openEditUserModal('${u.id}');" title="Edit Member Profile & Days" class="px-2.5 py-1 rounded-lg bg-white border border-slate-200 hover:bg-blue-50 hover:border-blue-300 text-blue-700 font-bold text-[11px] shadow-sm">
+                          ✏️ Edit
+                        </button>
+                        ${!isSuper ? `
                           <button onclick="toggleLockUser('${u.id}');" title="${u.is_locked ? 'Unlock Account' : 'Block Account'}" class="p-1 rounded-lg hover:bg-slate-100 text-slate-600">
                             ${u.is_locked ? '🔓' : '🔒'}
                           </button>
-                          ${u.role !== 'super_admin' ? `
-                            <button onclick="deleteUser('${u.id}');" title="Delete Member" class="p-1 rounded-lg hover:bg-red-50 text-slate-400 hover:text-red-600">
-                              🗑️
-                            </button>
-                          ` : ''}
-                        </div>
-                      </td>
-                    </tr>
-                  `).join('')}
-                </tbody>
-              </table>
-            </div>
-          </div>
+                          <button onclick="deleteUser('${u.id}');" title="Delete Member" class="p-1 rounded-lg hover:bg-red-50 text-slate-400 hover:text-red-600">
+                            🗑️
+                          </button>
+                        ` : ''}
+                      </div>
+                    </td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
         </div>
-      `;
-    }
+      </div>
+    </div>
+  `;
+}
 
     function openEditUserModal(userId) {
       const u = AppState.users.find(usr => usr.id === userId);
@@ -4081,6 +4319,266 @@
       }
     }
 
+  
+    function selectSubjectAndGoToMCQs(courseId, subjectId) {
+      AppState.selectedCourseId = courseId;
+      AppState.selectedSubjectId = subjectId;
+      AppState.selectedTopicId = 'all';
+      AppState.activeTab = 'mcqs';
+      renderApp();
+    }
+
+    function selectTopicAndGoToMCQs(courseId, subjectId, topicId) {
+      AppState.selectedCourseId = courseId;
+      AppState.selectedSubjectId = subjectId;
+      AppState.selectedTopicId = topicId;
+      AppState.activeTab = 'mcqs';
+      renderApp();
+    }
+
+    function toggleSubjectTopics(subjId) {
+      const drawer = document.getElementById('topics_drawer_' + subjId);
+      if (drawer) {
+        drawer.classList.toggle('hidden');
+      }
+    }
+  
+  
+    // ---- PREMIUM DAYS MANAGEMENT (Live Supabase) ----
+
+    // Adjust user premium days by delta (+30, -30, etc.)
+    async function adjustUserPremiumDays(userId, deltaDays) {
+      const u = (AppState.users || []).find(x => x.id === userId);
+      if (!u) return;
+
+      const currentDays = Math.max(0, u.days_left || 0);
+      const newDays = Math.max(0, currentDays + deltaDays);
+      
+      const newEndDate = new Date(Date.now() + newDays * 24 * 60 * 60 * 1000).toISOString();
+      const newPlan = newDays > 0 ? 'Premium (' + newDays + 'd left)' : 'Expired';
+      const isPrem = newDays > 0;
+
+      showToast((deltaDays > 0 ? 'Adding ' : 'Subtracting ') + Math.abs(deltaDays) + ' days for ' + u.full_name + ' in Supabase...', 'info');
+
+      try {
+        if (userId && (userId.length > 20 || userId.includes('-'))) {
+          // Check existing subscription
+          const existing = await sbQuery('subscriptions', 'user_id=eq.' + userId);
+          if (existing && existing.length > 0) {
+            await sbPatch('subscriptions', existing[0].id, {
+              status: isPrem ? 'active' : 'expired',
+              end_date: newEndDate,
+              updated_at: new Date().toISOString()
+            });
+          } else {
+            await sbInsert('subscriptions', {
+              user_id: userId,
+              status: isPrem ? 'active' : 'expired',
+              start_date: new Date().toISOString(),
+              end_date: newEndDate
+            });
+          }
+        }
+
+        // Update local state
+        u.days_left = newDays;
+        u.plan = newPlan;
+        u.is_premium = isPrem;
+        u.sub_end_date = newEndDate;
+
+        saveUsersToStorage();
+        renderUsers(document.getElementById('mainContainer'));
+        showToast('✓ Updated: ' + u.full_name + ' now has ' + newDays + ' days of premium!', 'success');
+        addAuditLog('ADJUST_DAYS', 'subscriptions', userId, (deltaDays > 0 ? '+' : '') + deltaDays + ' days (Total: ' + newDays + 'd)');
+      } catch(e) {
+        showToast('Failed to update days: ' + e.message, 'error');
+      }
+    }
+
+    // Set custom number of days for user
+    async function setCustomPremiumDays(userId) {
+      const u = (AppState.users || []).find(x => x.id === userId);
+      if (!u) return;
+
+      const input = prompt('Enter total days of Premium access for ' + u.full_name + ':\n(e.g., 7, 30, 90, 180, 365, or 0 to expire)', String(u.days_left || 30));
+      if (input === null) return;
+      const days = parseInt(input);
+      if (isNaN(days) || days < 0) return showToast('Please enter a valid positive number of days', 'error');
+
+      const delta = days - (u.days_left || 0);
+      await adjustUserPremiumDays(userId, delta);
+    }
+
+    // Enhance openEditUserModal to allow editing days of premium directly!
+    function openEditUserModal(userId) {
+      const u = (AppState.users || []).find(usr => usr.id === userId);
+      if (!u) return showToast('User not found', 'error');
+
+      openModal(`
+        <div class="p-5 border-b border-slate-200 flex justify-between items-center bg-slate-50">
+          <div>
+            <h3 class="text-base font-extrabold text-slate-900">Edit Member Profile & Subscription</h3>
+            <p class="text-xs text-slate-500">Update name, email, academic course, and premium days</p>
+          </div>
+          <button onclick="closeModal();" class="text-slate-400 hover:text-slate-700 font-bold text-lg">&times;</button>
+        </div>
+
+        <div class="p-6 space-y-4 max-h-[75vh] overflow-y-auto">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Full Name</label>
+            <input type="text" id="editUserName" value="${u.full_name || ''}" class="w-full bg-slate-50 border-2 border-slate-200 focus:border-blue-600 rounded-xl px-3 py-2 text-xs text-slate-900">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Email Address</label>
+            <input type="email" id="editUserEmail" value="${u.email || ''}" class="w-full bg-slate-50 border-2 border-slate-200 focus:border-blue-600 rounded-xl px-3 py-2 text-xs text-slate-900">
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Academic Course</label>
+              <select id="editUserCourse" class="w-full bg-slate-50 border-2 border-slate-200 focus:border-blue-600 rounded-xl px-3 py-2 text-xs text-slate-900">
+                <option value="1" ${u.course_number === 1 ? 'selected' : ''}>1st Course</option>
+                <option value="2" ${u.course_number === 2 ? 'selected' : ''}>2nd Course</option>
+                <option value="3" ${u.course_number === 3 ? 'selected' : ''}>3rd Course</option>
+                <option value="4" ${u.course_number === 4 ? 'selected' : ''}>4th Course</option>
+                <option value="5" ${u.course_number === 5 ? 'selected' : ''}>5th Course</option>
+                <option value="6" ${u.course_number === 6 ? 'selected' : ''}>6th Course</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Role</label>
+              <select id="editUserRole" class="w-full bg-slate-50 border-2 border-slate-200 focus:border-blue-600 rounded-xl px-3 py-2 text-xs text-slate-900">
+                <option value="student" ${u.role === 'student' ? 'selected' : ''}>Student</option>
+                <option value="admin" ${u.role === 'admin' ? 'selected' : ''}>Admin</option>
+                <option value="super_admin" ${u.role === 'super_admin' ? 'selected' : ''}>Super Admin</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- PREMIUM DAYS SECTION -->
+          <div class="p-4 rounded-xl bg-blue-50 border border-blue-200 space-y-3">
+            <div class="flex items-center justify-between">
+              <label class="block text-xs font-extrabold text-blue-900 uppercase tracking-wider">
+                👑 Premium Days Remaining
+              </label>
+              <span class="text-xs font-bold text-blue-700">Currently: ${u.days_left || 0} Days</span>
+            </div>
+            
+            <div class="flex items-center gap-2">
+              <input type="number" id="editUserDays" min="0" max="3650" value="${u.days_left || 0}" class="w-32 bg-white border-2 border-blue-300 focus:border-blue-600 rounded-xl px-3 py-2 text-xs font-bold text-slate-900">
+              <span class="text-xs font-bold text-slate-600">Days</span>
+              
+              <div class="flex gap-1 ml-auto">
+                <button type="button" onclick="document.getElementById('editUserDays').value = 30;" class="px-2 py-1 rounded bg-white hover:bg-blue-100 text-blue-800 text-[10px] font-bold border border-blue-200">30d</button>
+                <button type="button" onclick="document.getElementById('editUserDays').value = 90;" class="px-2 py-1 rounded bg-white hover:bg-blue-100 text-blue-800 text-[10px] font-bold border border-blue-200">90d</button>
+                <button type="button" onclick="document.getElementById('editUserDays').value = 365;" class="px-2 py-1 rounded bg-white hover:bg-blue-100 text-blue-800 text-[10px] font-bold border border-blue-200">1 Year</button>
+              </div>
+            </div>
+            <p class="text-[11px] text-blue-800/80">Saving will immediately update student's active subscription in Supabase.</p>
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Coins</label>
+              <input type="number" id="editUserCoins" value="${u.coins || 0}" class="w-full bg-slate-50 border-2 border-slate-200 focus:border-blue-600 rounded-xl px-3 py-2 text-xs text-slate-900">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Streak Days</label>
+              <input type="number" id="editUserStreak" value="${u.streak_days || 0}" class="w-full bg-slate-50 border-2 border-slate-200 focus:border-blue-600 rounded-xl px-3 py-2 text-xs text-slate-900">
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Account Status</label>
+            <select id="editUserStatus" class="w-full bg-slate-50 border-2 border-slate-200 focus:border-blue-600 rounded-xl px-3 py-2 text-xs text-slate-900">
+              <option value="active" ${u.status !== 'blocked' ? 'selected' : ''}>Active (Normal Access)</option>
+              <option value="blocked" ${u.status === 'blocked' ? 'selected' : ''}>Blocked (Suspended)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="p-5 border-t border-slate-200 flex justify-end gap-3 bg-slate-50">
+          <button onclick="closeModal();" class="px-4 py-2 rounded-xl text-xs font-bold text-slate-600 hover:bg-slate-200 transition-colors">Cancel</button>
+          <button onclick="saveEditUserWithDays('${u.id}');" class="px-5 py-2 rounded-xl text-xs font-bold bg-blue-700 hover:bg-blue-800 text-white shadow-md shadow-blue-900/20 transition-all">Save Changes & Update Days</button>
+        </div>
+      `);
+    }
+
+    // Save edit user including premium days in Supabase
+    async function saveEditUserWithDays(userId) {
+      const u = (AppState.users || []).find(usr => usr.id === userId);
+      if (!u) return;
+
+      const name = document.getElementById('editUserName').value.trim();
+      const email = document.getElementById('editUserEmail').value.trim();
+      const role = document.getElementById('editUserRole').value;
+      const course = parseInt(document.getElementById('editUserCourse').value);
+      const days = parseInt(document.getElementById('editUserDays').value || '0');
+      const coins = parseInt(document.getElementById('editUserCoins').value || '0');
+      const streak = parseInt(document.getElementById('editUserStreak').value || '0');
+      const status = document.getElementById('editUserStatus').value;
+
+      if (!name || !email) return showToast('Name and email are required', 'error');
+
+      // Update in AppState
+      u.full_name = name;
+      u.email = email;
+      u.role = role;
+      u.course_number = course;
+      u.coins = coins;
+      u.streak_days = streak;
+      u.status = status;
+      u.is_locked = status === 'blocked';
+
+      // Update subscription days
+      const newEndDate = new Date(Date.now() + days * 24 * 60 * 60 * 1000).toISOString();
+      u.days_left = Math.max(0, days);
+      u.is_premium = days > 0;
+      u.plan = days > 0 ? 'Premium (' + days + 'd left)' : 'Expired';
+      u.sub_end_date = newEndDate;
+
+      closeModal();
+      renderUsers(document.getElementById('mainContainer'));
+      showToast('Saving changes and syncing to Supabase...', 'info');
+
+      try {
+        if (userId && (userId.length > 20 || userId.includes('-'))) {
+          // 1. Update profiles in Supabase
+          await sbPatch('profiles', userId, {
+            name: name,
+            role: role,
+            status: status
+          });
+
+          // 2. Update subscriptions in Supabase
+          const existing = await sbQuery('subscriptions', 'user_id=eq.' + userId);
+          if (existing && existing.length > 0) {
+            await sbPatch('subscriptions', existing[0].id, {
+              status: days > 0 ? 'active' : 'expired',
+              end_date: newEndDate,
+              updated_at: new Date().toISOString()
+            });
+          } else {
+            await sbInsert('subscriptions', {
+              user_id: userId,
+              status: days > 0 ? 'active' : 'expired',
+              start_date: new Date().toISOString(),
+              end_date: newEndDate
+            });
+          }
+          showToast('✅ Student & subscription days updated in Supabase!', 'success');
+        } else {
+          showToast('Member updated locally.', 'success');
+        }
+        saveUsersToStorage();
+      } catch(e) {
+        showToast('Error syncing to Supabase: ' + e.message, 'error');
+      }
+    }
+  
   </script>
 </body>
 </html>
