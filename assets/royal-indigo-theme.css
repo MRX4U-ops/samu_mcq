@@ -850,3 +850,404 @@ footer [class*="_footerBottom_"] p, [class*="_footerBottom_"] p {
     gap: 28px !important;
   }
 }
+
+
+/* ====================================================================
+   NEW ENRICHED SECTIONS: EXAM MODULES, SUBJECTS, LEADERBOARD, MATRIX
+   ==================================================================== */
+
+/* --- 1. Exam Modules Showcase Grid --- */
+.module-showcase-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(clamp(280px, 28vw, 380px), 1fr)) !important;
+  gap: clamp(16px, 2.5vw, 28px) !important;
+  width: 100% !important;
+  margin-top: 10px !important;
+}
+
+.module-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(226, 232, 240, 0.9) !important;
+  border-radius: 24px !important;
+  padding: clamp(24px, 2.5vw, 32px) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.03), 0 1px 3px rgba(15, 23, 42, 0.02) !important;
+  transition: all 0.28s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.module-card:hover {
+  transform: translateY(-4px) !important;
+  border-color: rgba(79, 70, 229, 0.35) !important;
+  box-shadow: 0 16px 36px -6px rgba(79, 70, 229, 0.12), 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+}
+
+.module-card-top {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 10px !important;
+  margin-bottom: 16px !important;
+  flex-wrap: wrap !important;
+}
+
+.module-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 4px 12px !important;
+  border-radius: 999px !important;
+  border: 1px solid transparent !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+}
+
+.module-meta {
+  color: #64748b !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+
+.module-title {
+  font-family: 'Outfit', sans-serif !important;
+  font-size: clamp(19px, 2vw, 22px) !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  margin: 0 0 10px 0 !important;
+  letter-spacing: -0.02em !important;
+}
+
+.module-desc {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 14px !important;
+  color: #475569 !important;
+  line-height: 1.6 !important;
+  margin: 0 0 24px 0 !important;
+  flex: 1 !important;
+}
+
+.module-action {
+  margin-top: auto !important;
+}
+
+.module-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  width: 100% !important;
+  justify-content: center !important;
+  padding: 10px 18px !important;
+  border-radius: 14px !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 13.5px !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease !important;
+}
+
+.module-btn:hover {
+  background: #eef2ff !important;
+  border-color: #6366f1 !important;
+  color: #4338ca !important;
+  transform: translateY(-1px) !important;
+}
+
+/* --- 2. High-Yield Subjects Directory --- */
+.subject-directory-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(clamp(280px, 28vw, 380px), 1fr)) !important;
+  gap: clamp(16px, 2.5vw, 28px) !important;
+  width: 100% !important;
+  margin-top: 10px !important;
+}
+
+.subject-dir-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(226, 232, 240, 0.85) !important;
+  border-radius: 22px !important;
+  padding: clamp(22px, 2.5vw, 28px) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.03) !important;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+.subject-dir-card:hover {
+  transform: translateY(-3px) !important;
+  border-color: rgba(79, 70, 229, 0.3) !important;
+  box-shadow: 0 14px 32px -6px rgba(79, 70, 229, 0.1) !important;
+}
+
+.subject-dir-header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-bottom: 12px !important;
+}
+
+.subject-pill-count {
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 4px 10px !important;
+  border-radius: 999px !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+}
+
+.subject-pill-yield {
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 4px 10px !important;
+  border-radius: 999px !important;
+  background: rgba(16, 185, 129, 0.1) !important;
+  color: #059669 !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+}
+
+.subject-dir-title {
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  margin: 0 0 8px 0 !important;
+  letter-spacing: -0.02em !important;
+}
+
+.subject-dir-desc {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 13.5px !important;
+  color: #475569 !important;
+  line-height: 1.55 !important;
+  margin: 0 0 18px 0 !important;
+  flex: 1 !important;
+}
+
+.subject-dir-footer {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  border-top: 1px solid rgba(226, 232, 240, 0.8) !important;
+  padding-top: 14px !important;
+  margin-top: auto !important;
+}
+
+.subject-dir-course {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  color: #64748b !important;
+}
+
+.subject-dir-link {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 4px !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  color: #4f46e5 !important;
+  text-decoration: none !important;
+  transition: transform 0.2s ease !important;
+}
+
+.subject-dir-link:hover {
+  transform: translateX(3px) !important;
+  color: #3730a3 !important;
+}
+
+/* --- 3. Live Student Leaderboard Preview --- */
+.leaderboard-preview-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(clamp(240px, 22vw, 310px), 1fr)) !important;
+  gap: clamp(16px, 2vw, 24px) !important;
+  width: 100% !important;
+  margin-top: 10px !important;
+}
+
+.lb-rank-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(226, 232, 240, 0.9) !important;
+  border-radius: 22px !important;
+  padding: 22px !important;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.03) !important;
+  transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+.lb-rank-card:hover {
+  transform: translateY(-3px) !important;
+  border-color: rgba(79, 70, 229, 0.3) !important;
+  box-shadow: 0 14px 30px -6px rgba(79, 70, 229, 0.1) !important;
+}
+
+.lb-rank-top {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-bottom: 12px !important;
+}
+
+.lb-rank-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 4px 10px !important;
+  border-radius: 999px !important;
+  border: 1px solid transparent !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 11.5px !important;
+  font-weight: 800 !important;
+}
+
+.lb-rank-course {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  color: #64748b !important;
+}
+
+.lb-student-name {
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 17px !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+  margin: 0 0 16px 0 !important;
+}
+
+.lb-stats-row {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 8px !important;
+  background: #f8fafc !important;
+  border-radius: 14px !important;
+  padding: 12px 10px !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+}
+
+.lb-stat-box {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.lb-stat-lbl {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-size: 9.5px !important;
+  font-weight: 800 !important;
+  color: #64748b !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  margin-bottom: 2px !important;
+}
+
+.lb-stat-val {
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 14.5px !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+}
+
+/* --- 4. Comparison Table (Old Study Files vs SAMU MCQs) --- */
+.comparison-table-wrap {
+  width: 100% !important;
+  max-width: 980px !important;
+  margin: 0 auto !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(226, 232, 240, 0.9) !important;
+  border-radius: 24px !important;
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.04) !important;
+  overflow: hidden !important;
+}
+
+.comparison-table {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.comparison-row {
+  display: grid !important;
+  grid-template-columns: 1.2fr 1.4fr 1.6fr !important;
+  align-items: center !important;
+  padding: 16px 24px !important;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8) !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+}
+
+.comparison-row:last-child {
+  border-bottom: none !important;
+}
+
+.comparison-header-row {
+  background: #f8fafc !important;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 14.5px !important;
+  color: #0f172a !important;
+  border-bottom: 1.5px solid rgba(226, 232, 240, 0.9) !important;
+  padding: 18px 24px !important;
+}
+
+.comp-row-alt {
+  background: rgba(248, 250, 252, 0.5) !important;
+}
+
+.comp-col-feature {
+  color: #0f172a !important;
+}
+
+.comp-col-old {
+  color: #64748b !important;
+  padding-right: 12px !important;
+}
+
+.comp-col-new {
+  color: #0f172a !important;
+  font-weight: 600 !important;
+  background: rgba(79, 70, 229, 0.03) !important;
+  border-radius: 10px !important;
+  padding: 6px 12px !important;
+}
+
+.comp-cross {
+  color: #ef4444 !important;
+  font-weight: 800 !important;
+  margin-right: 4px !important;
+}
+
+.comp-check {
+  color: #10b981 !important;
+  font-weight: 800 !important;
+  margin-right: 4px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .comparison-row {
+    grid-template-columns: 1fr !important;
+    gap: 8px !important;
+    padding: 16px !important;
+  }
+  .comparison-header-row {
+    display: none !important;
+  }
+  .comp-col-feature {
+    font-size: 15px !important;
+    margin-bottom: 4px !important;
+  }
+  .comp-col-old {
+    font-size: 13px !important;
+  }
+  .comp-col-new {
+    font-size: 13.5px !important;
+    padding: 8px 10px !important;
+  }
+}
