@@ -3,12 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
     <meta name="description" content="SAMU MCQs - Comprehensive medical MCQ practice for all 6 years of SAMU medical education. Test questions, situational tasks, and instant results." />
+    <script>
+      // Clear any stale ServiceWorker or browser caches from past dev sessions
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(regs) {
+          for (var r of regs) r.unregister();
+        });
+      }
+      if ('caches' in window) {
+        caches.keys().then(function(names) {
+          for (var n of names) caches.delete(n);
+        });
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <title>SAMU MCQs - Medical Practice Platform</title>
     <script type="module" crossorigin src="/samu_mcq/assets/index-Aja9UM4t.js"></script>
     <link rel="stylesheet" crossorigin href="/samu_mcq/assets/index-BhJIsIfh.css">
-    <link rel="stylesheet" crossorigin href="/samu_mcq/assets/royal-indigo-theme.css">
+    <link rel="stylesheet" crossorigin href="/samu_mcq/assets/royal-indigo-theme.css?v=fullscreen_v1">
   </head>
   <body>
     <div id="root"></div>
