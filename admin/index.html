@@ -508,7 +508,7 @@
             <div class="text-[11px] text-slate-500 font-mono" id="adminDisplayEmail">mohd6396889713@gmail.com</div>
           </div>
           <div class="relative">
-            <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-700 to-red-600 flex items-center justify-center font-bold text-sm text-white shadow-md shadow-blue-900/20 group-hover:scale-105 transition-transform">
+            <div id="adminHeaderAvatar" class="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-700 to-red-600 flex items-center justify-center font-bold text-sm text-white shadow-md shadow-blue-900/20 group-hover:scale-105 transition-transform overflow-hidden">
               👑
             </div>
             <span class="absolute -top-1 -right-1 w-3 h-3 bg-emerald-500 border-2 border-white rounded-full"></span>
@@ -2371,8 +2371,11 @@
                   <tr class="hover:bg-slate-50 transition-colors">
                     <td class="p-3.5">
                       <div class="flex items-center gap-2.5">
-                        <div onclick="openStudentProfileModal('${u.id}')" class="cursor-pointer w-9 h-9 rounded-xl bg-blue-100 text-blue-800 font-extrabold flex items-center justify-center text-xs shrink-0 shadow-sm hover:scale-105 transition-transform">
-                          ${isSuper ? '👑' : (u.full_name || 'S').charAt(0).toUpperCase()}
+                        <div onclick="openStudentProfileModal('${u.id}')" class="cursor-pointer w-9 h-9 rounded-xl bg-blue-100 text-blue-800 font-extrabold flex items-center justify-center text-xs shrink-0 shadow-sm hover:scale-105 transition-transform overflow-hidden">
+                          ${u.avatar_url
+                            ? '<img src="' + u.avatar_url + '" class="w-full h-full object-cover" onerror="this.onerror=null;this.style.display=\\\'none\\\';">'
+                            : (isSuper ? '👑' : (u.full_name || 'S').charAt(0).toUpperCase())
+                          }
                         </div>
                         <div>
                           <div onclick="openStudentProfileModal('${u.id}')" class="font-bold text-slate-900 hover:text-blue-700 cursor-pointer flex items-center gap-1.5 transition-colors">
@@ -2517,11 +2520,45 @@
           </div>
         </div>
 
+        <!-- Student Personal Photo / DP -->
+          <div class="p-3 bg-blue-50/70 border border-blue-200 rounded-xl flex items-center gap-3">
+            <div id="editUserAvatarPreview" class="w-12 h-12 rounded-xl bg-blue-600 text-white font-extrabold text-lg flex items-center justify-center shrink-0 overflow-hidden border border-blue-300">
+              ${u.avatar_url ? '<img src="' + u.avatar_url + '" class="w-full h-full object-cover">' : (u.full_name || 'S').charAt(0).toUpperCase()}
+            </div>
+            <div class="flex-1 min-w-0">
+              <label class="block text-[10px] font-bold text-slate-700 uppercase tracking-wider mb-1">Personal Photo / DP</label>
+              <input type="text" id="editUserAvatar" value="${u.avatar_url || ''}" placeholder="https://example.com/photo.jpg" class="w-full bg-white border border-slate-300 rounded-lg px-2.5 py-1 text-xs text-slate-900 focus:outline-none focus:border-blue-600">
+            </div>
+            <div>
+              <button type="button" onclick="document.getElementById('editUserFileInput').click();" class="px-2.5 py-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 text-white font-bold text-xs shadow-sm whitespace-nowrap">
+                📷 Upload
+              </button>
+              <input type="file" id="editUserFileInput" accept="image/*" class="hidden" onchange="handleEditUserPhotoUpload('${u.id}', this)">
+            </div>
+          </div>
+        </div>
+
         <div class="p-5 border-t border-slate-200 flex justify-end gap-2 bg-slate-50">
           <button onclick="closeModal();" class="px-4 py-2 rounded-xl bg-white border border-slate-300 text-xs font-bold text-slate-700 hover:bg-slate-100">Cancel</button>
           <button onclick="saveEditUser('${u.id}');" class="px-5 py-2 rounded-xl bg-blue-700 hover:bg-blue-800 text-white text-xs font-bold shadow-md shadow-blue-900/20">💾 Save Member</button>
         </div>
       `);
+    }
+
+    async function handleEditUserPhotoUpload(userId, input) {
+      if (!input.files || !input.files[0]) return;
+      const file = input.files[0];
+      showToast('Uploading personal photo...', 'info');
+      const url = await uploadAvatarFile(file, 'user_' + userId);
+      if (url) {
+        const dpInput = document.getElementById('editUserAvatar');
+        if (dpInput) dpInput.value = url;
+        const preview = document.getElementById('editUserAvatarPreview');
+        if (preview) preview.innerHTML = '<img src="' + url + '" class="w-full h-full object-cover">';
+        showToast('📸 Personal photo uploaded!', 'success');
+      } else {
+        showToast('Failed to upload image file', 'error');
+      }
     }
 
     async function saveEditUser(userId) {
@@ -2532,12 +2569,14 @@
       const email = document.getElementById('editUserEmail').value.trim();
       const role = document.getElementById('editUserRole').value;
       const status = document.getElementById('editUserStatus')?.value || u.status || 'active';
+      const avatar_url = document.getElementById('editUserAvatar')?.value.trim() || null;
       if (!name || !email) return showToast('Name and email are required', 'error');
 
       u.full_name = name;
       u.email = email;
       u.role = role;
       u.status = status;
+      u.avatar_url = avatar_url;
       u.is_locked = status === 'blocked';
       
       saveUsersToStorage();
@@ -2546,9 +2585,9 @@
 
       // Live update in Supabase
       if (userId && (userId.length > 20 || userId.includes('-'))) {
-        const res = await sbPatch('profiles', userId, { name, role, status });
+        const res = await sbPatch('profiles', userId, { name, role, status, avatar_url });
         if (res) {
-          showToast('✅ Student profile updated in Supabase!', 'success');
+          showToast('✅ Student profile & photo updated in Supabase!', 'success');
           addAuditLog('USER_EDIT', 'profiles', userId, 'Updated student: ' + name);
         } else {
           showToast('Profile updated locally.', 'info');
@@ -4601,20 +4640,93 @@
     // =========================================================================
     // SUPER ADMIN PROFILE & SYSTEM CONTROL HUB
     // =========================================================================
+    
+    // ---- AVATAR & DP UPLOAD / SUPABASE STORAGE SYSTEM ----
+
+    // Upload an image file to Supabase storage bucket 'avatars'
+    async function uploadAvatarFile(file, prefix = 'avatar') {
+      if (!file) return null;
+      const ext = (file.name || 'avatar.png').split('.').pop().toLowerCase() || 'png';
+      const cleanPrefix = prefix.replace(/[^a-zA-Z0-9_-]/g, '_');
+      const fileName = cleanPrefix + '_' + Date.now() + '_' + Math.random().toString(36).substring(2, 7) + '.' + ext;
+
+      try {
+        const res = await fetch(SUPABASE_URL + '/storage/v1/object/avatars/' + fileName, {
+          method: 'POST',
+          headers: {
+            'apikey': SUPABASE_SERVICE_KEY,
+            'Authorization': 'Bearer ' + SUPABASE_SERVICE_KEY,
+            'Content-Type': file.type || 'image/png'
+          },
+          body: file
+        });
+
+        if (res.ok) {
+          const publicUrl = SUPABASE_URL + '/storage/v1/object/public/avatars/' + fileName;
+          return publicUrl;
+        }
+      } catch(e) {
+        console.warn('Storage upload error, falling back to Data URL:', e);
+      }
+
+      // Fallback: Read as Base64 Data URL so user can always set image even if network issues
+      return new Promise((resolve) => {
+        const reader = new FileReader();
+        reader.onload = (e) => resolve(e.target.result);
+        reader.onerror = () => resolve(null);
+        reader.readAsDataURL(file);
+      });
+    }
+
+    // Update Header Admin Profile name and DP on load
+    function updateHeaderAdminUI() {
+      const savedName = localStorage.getItem('ssmu_admin_name') || 'Super Admin (Owner)';
+      const savedEmail = localStorage.getItem('ssmu_admin_email') || 'mohd6396889713@gmail.com';
+      const savedDP = localStorage.getItem('ssmu_admin_dp') || '';
+
+      const dName = document.getElementById('adminDisplayName');
+      const dEmail = document.getElementById('adminDisplayEmail');
+      const dAvatar = document.getElementById('adminHeaderAvatar');
+
+      if (dName) dName.innerText = savedName;
+      if (dEmail) dEmail.innerText = savedEmail;
+      if (dAvatar) {
+        if (savedDP) {
+          dAvatar.innerHTML = '<img src="' + savedDP + '" alt="Admin DP" class="w-full h-full object-cover">';
+        } else {
+          dAvatar.innerHTML = '👑';
+        }
+      }
+    }
+
+    // Call once on page load
+    setTimeout(updateHeaderAdminUI, 100);
+
+    // =========================================================================
+    // SUPER ADMIN PROFILE & DP MANAGEMENT MODAL
+    // =========================================================================
     function openAdminProfileModal() {
       const stats = AppState.stats || {};
       const adminName = localStorage.getItem('ssmu_admin_name') || 'Super Admin (Owner)';
       const adminEmail = localStorage.getItem('ssmu_admin_email') || 'mohd6396889713@gmail.com';
+      const adminDP = localStorage.getItem('ssmu_admin_dp') || '';
 
       openModal(`
         <div class="p-6 border-b border-slate-200 flex justify-between items-center bg-gradient-to-r from-blue-900 to-indigo-950 text-white rounded-t-2xl">
-          <div class="flex items-center gap-3.5">
-            <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-amber-400 to-amber-600 text-slate-900 flex items-center justify-center font-black text-2xl shadow-lg shadow-amber-500/30">
-              👑
+          <div class="flex items-center gap-4">
+            <div class="relative group">
+              <div id="adminModalAvatarPreview" class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-amber-400 to-amber-600 text-slate-900 flex items-center justify-center font-black text-2xl shadow-lg shadow-amber-500/30 overflow-hidden border-2 border-white/30">
+                ${adminDP ? '<img src="' + adminDP + '" class="w-full h-full object-cover">' : '👑'}
+              </div>
+              <button onclick="document.getElementById('adminFileInput').click();" title="Change Admin Photo" class="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs shadow-md hover:bg-blue-700 transition-colors">
+                📷
+              </button>
+              <input type="file" id="adminFileInput" accept="image/*" class="hidden" onchange="handleAdminFileSelected(this)">
             </div>
+
             <div>
               <div class="flex items-center gap-2">
-                <h3 class="text-lg font-black tracking-tight">${adminName}</h3>
+                <h3 class="text-lg font-black tracking-tight" id="adminModalNameHeading">${adminName}</h3>
                 <span class="px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider bg-amber-400 text-slate-950">SUPER ADMIN</span>
               </div>
               <p class="text-xs text-blue-200 font-mono mt-0.5">${adminEmail}</p>
@@ -4624,6 +4736,51 @@
         </div>
 
         <div class="p-6 space-y-6 max-h-[75vh] overflow-y-auto">
+          <!-- Change Name & Personal DP Card -->
+          <div class="p-5 rounded-2xl bg-blue-50/70 border border-blue-200 space-y-4">
+            <div class="text-xs font-black text-blue-900 uppercase tracking-wider flex items-center justify-between">
+              <span>👤 Admin Identity & Personal Profile Picture (DP)</span>
+              <span class="text-[11px] text-blue-700 font-bold">Live Synced</span>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Display Name</label>
+                <input type="text" id="adminProfileNameInput" value="${adminName}" class="w-full bg-white border-2 border-slate-200 focus:border-blue-600 rounded-xl px-3.5 py-2.5 text-xs font-bold text-slate-900 focus:outline-none transition-colors">
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Owner Email</label>
+                <input type="email" id="adminProfileEmailInput" value="${adminEmail}" class="w-full bg-white border-2 border-slate-200 focus:border-blue-600 rounded-xl px-3.5 py-2.5 text-xs font-bold text-slate-900 focus:outline-none transition-colors">
+              </div>
+            </div>
+
+            <!-- DP Upload & Custom URL Section -->
+            <div class="pt-2 border-t border-blue-200/60 flex flex-col sm:flex-row items-center gap-3">
+              <div class="flex-1 w-full">
+                <label class="block text-xs font-bold text-slate-700 mb-1">Personal Photo URL (or Upload)</label>
+                <input type="text" id="adminProfileDPUrlInput" value="${adminDP}" placeholder="https://example.com/my-photo.jpg" oninput="previewAdminDPFromUrl(this.value)" class="w-full bg-white border border-slate-300 rounded-xl px-3.5 py-2 text-xs text-slate-900 placeholder-slate-400 focus:outline-none focus:border-blue-600">
+              </div>
+
+              <div class="flex items-center gap-2 w-full sm:w-auto pt-4 sm:pt-0">
+                <button type="button" onclick="document.getElementById('adminFileInput').click();" class="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-blue-700 hover:bg-blue-800 text-white font-bold text-xs shadow-md shadow-blue-900/20 flex items-center justify-center gap-1.5 transition-all">
+                  <span>📸 Upload Personal Photo</span>
+                </button>
+                ${adminDP ? `
+                  <button type="button" onclick="removeAdminDP();" title="Remove custom DP and use Crown" class="px-3 py-2.5 rounded-xl bg-white hover:bg-red-50 text-red-600 font-bold text-xs border border-red-200 transition-colors">
+                    Remove
+                  </button>
+                ` : ''}
+              </div>
+            </div>
+
+            <div class="flex justify-end pt-1">
+              <button onclick="saveAdminProfileSettings()" class="px-5 py-2.5 rounded-xl bg-blue-700 hover:bg-blue-800 text-white font-black text-xs shadow-md shadow-blue-900/20 transition-all flex items-center gap-1.5">
+                <span>💾 Save Admin Name & DP</span>
+              </button>
+            </div>
+          </div>
+
           <!-- System Status Bar -->
           <div class="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 flex items-center justify-between">
             <div class="flex items-center gap-2.5">
@@ -4655,7 +4812,7 @@
               <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
                 <div class="text-[10px] font-bold text-slate-400 uppercase">Total MCQs Bank</div>
                 <div class="text-xl font-black text-slate-900 mt-1">3,447+</div>
-                <div class="text-[10px] text-blue-700 font-semibold mt-0.5">2,683 local + 3,447 cloud</div>
+                <div class="text-[10px] text-blue-700 font-semibold mt-0.5">Cloud + Web Bank</div>
               </div>
               <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
                 <div class="text-[10px] font-bold text-slate-400 uppercase">Active Subscriptions</div>
@@ -4672,26 +4829,6 @@
                 <div class="text-xl font-black text-purple-600 mt-1">${(AppState.supportTickets||[]).length}</div>
                 <div class="text-[10px] text-slate-500 font-semibold mt-0.5">Live student tickets</div>
               </div>
-            </div>
-          </div>
-
-          <!-- Edit Admin Profile Settings -->
-          <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-3.5">
-            <div class="text-xs font-black text-slate-800 uppercase tracking-wider">Super Admin Credentials & Display</div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              <div>
-                <label class="block text-xs font-bold text-slate-700 mb-1">Display Name</label>
-                <input type="text" id="adminProfileNameInput" value="${adminName}" class="w-full bg-white border border-slate-300 rounded-xl px-3 py-2 text-xs font-bold text-slate-900 focus:outline-none focus:border-blue-600">
-              </div>
-              <div>
-                <label class="block text-xs font-bold text-slate-700 mb-1">Owner Contact Email</label>
-                <input type="email" id="adminProfileEmailInput" value="${adminEmail}" class="w-full bg-white border border-slate-300 rounded-xl px-3 py-2 text-xs font-bold text-slate-900 focus:outline-none focus:border-blue-600">
-              </div>
-            </div>
-            <div class="flex justify-end pt-1">
-              <button onclick="saveAdminProfileSettings()" class="px-4 py-2 rounded-xl bg-blue-700 hover:bg-blue-800 text-white font-bold text-xs shadow-md shadow-blue-900/20 transition-all">
-                💾 Save Admin Details
-              </button>
             </div>
           </div>
 
@@ -4714,27 +4851,66 @@
       `);
     }
 
+    // Handle Admin personal DP file selection & upload
+    async function handleAdminFileSelected(input) {
+      if (!input.files || !input.files[0]) return;
+      const file = input.files[0];
+      showToast('Uploading personal DP to Supabase storage...', 'info');
+
+      const url = await uploadAvatarFile(file, 'admin_avatar');
+      if (url) {
+        localStorage.setItem('ssmu_admin_dp', url);
+        const urlInput = document.getElementById('adminProfileDPUrlInput');
+        if (urlInput) urlInput.value = url;
+        previewAdminDPFromUrl(url);
+        updateHeaderAdminUI();
+        showToast('📸 Personal DP uploaded and set!', 'success');
+      } else {
+        showToast('Failed to upload image file', 'error');
+      }
+    }
+
+    function previewAdminDPFromUrl(url) {
+      const preview = document.getElementById('adminModalAvatarPreview');
+      if (!preview) return;
+      if (url && url.trim()) {
+        preview.innerHTML = '<img src="' + url.trim() + '" class="w-full h-full object-cover" onerror="this.onerror=null;this.parentElement.innerHTML=\'👑\';">';
+      } else {
+        preview.innerHTML = '👑';
+      }
+    }
+
+    function removeAdminDP() {
+      localStorage.removeItem('ssmu_admin_dp');
+      const urlInput = document.getElementById('adminProfileDPUrlInput');
+      if (urlInput) urlInput.value = '';
+      previewAdminDPFromUrl('');
+      updateHeaderAdminUI();
+      showToast('Custom DP removed. Using default crown icon.', 'info');
+    }
+
     // Save Admin Profile settings
     function saveAdminProfileSettings() {
       const name = document.getElementById('adminProfileNameInput')?.value.trim();
       const email = document.getElementById('adminProfileEmailInput')?.value.trim();
+      const dp = document.getElementById('adminProfileDPUrlInput')?.value.trim();
       if (!name || !email) return showToast('Name and email cannot be empty', 'error');
 
       localStorage.setItem('ssmu_admin_name', name);
       localStorage.setItem('ssmu_admin_email', email);
+      if (dp) localStorage.setItem('ssmu_admin_dp', dp);
+      else localStorage.removeItem('ssmu_admin_dp');
 
-      const dName = document.getElementById('adminDisplayName');
-      const dEmail = document.getElementById('adminDisplayEmail');
-      if (dName) dName.innerText = name;
-      if (dEmail) dEmail.innerText = email;
+      updateHeaderAdminUI();
 
       const owner = (AppState.users || []).find(u => u.role === 'super_admin');
       if (owner) {
         owner.full_name = name;
         owner.email = email;
+        owner.avatar_url = dp || null;
       }
 
-      showToast('✅ Super Admin details updated successfully!', 'success');
+      showToast('✅ Super Admin name and personal DP updated successfully!', 'success');
       closeModal();
     }
 
@@ -4756,15 +4932,27 @@
       const studentPayments = (AppState.payments || []).filter(p => p.user_id === userId);
       const studentTickets = (AppState.supportTickets || []).filter(t => t.user_id === userId);
 
+      const studentInitial = (student.full_name || 'S').charAt(0).toUpperCase();
+
       openModal(`
         <div class="p-6 border-b border-slate-200 flex justify-between items-center bg-slate-50 rounded-t-2xl">
-          <div class="flex items-center gap-3.5">
-            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-blue-700 to-indigo-800 text-white font-black text-2xl flex items-center justify-center shadow-md shadow-blue-900/20 shrink-0">
-              ${(student.full_name || 'S').charAt(0).toUpperCase()}
+          <div class="flex items-center gap-4">
+            <div class="relative group">
+              <div id="studentDossierAvatarPreview" class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-blue-700 to-indigo-800 text-white font-black text-2xl flex items-center justify-center shadow-md shadow-blue-900/20 shrink-0 overflow-hidden border-2 border-white">
+                ${student.avatar_url 
+                  ? '<img src="' + student.avatar_url + '" class="w-full h-full object-cover" onerror="this.onerror=null;this.style.display=\\\'none\\\';">'
+                  : studentInitial
+                }
+              </div>
+              <button onclick="document.getElementById('studentDossierFileInput').click();" title="Upload Student Personal Photo" class="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs shadow-md hover:bg-blue-700 transition-colors">
+                📷
+              </button>
+              <input type="file" id="studentDossierFileInput" accept="image/*" class="hidden" onchange="handleStudentDossierPhotoUpload('${student.id}', this)">
             </div>
+
             <div>
               <div class="flex items-center gap-2 flex-wrap">
-                <h3 class="text-xl font-black text-slate-900">${student.full_name}</h3>
+                <h3 class="text-xl font-black text-slate-900" id="studentDossierNameHeading">${student.full_name}</h3>
                 <span class="px-2.5 py-0.5 rounded-full text-xs font-bold ${student.is_premium ? 'bg-emerald-100 text-emerald-800 border border-emerald-300' : 'bg-slate-100 text-slate-700 border border-slate-200'}">
                   ${student.plan || 'Free Tier'}
                 </span>
@@ -4785,6 +4973,36 @@
         </div>
 
         <div class="p-6 space-y-6 max-h-[78vh] overflow-y-auto">
+          <!-- Student Name & Personal DP Quick Update Box -->
+          <div class="p-4 rounded-2xl bg-blue-50/70 border border-blue-200 space-y-3">
+            <div class="text-xs font-black text-blue-900 uppercase tracking-wider flex items-center justify-between">
+              <span>🖼️ Student Name & Personal Photo (DP)</span>
+              <span class="text-[11px] text-blue-700 font-bold">Live Supabase Sync</span>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Student Full Name</label>
+                <input type="text" id="dossierStudentNameInput" value="${student.full_name || ''}" class="w-full bg-white border border-slate-300 rounded-xl px-3.5 py-2 text-xs font-bold text-slate-900 focus:outline-none focus:border-blue-600">
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">Personal DP / Photo URL</label>
+                <input type="text" id="dossierStudentDPInput" value="${student.avatar_url || ''}" placeholder="https://example.com/photo.jpg" class="w-full bg-white border border-slate-300 rounded-xl px-3.5 py-2 text-xs text-slate-900 focus:outline-none focus:border-blue-600">
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between pt-1">
+              <button type="button" onclick="document.getElementById('studentDossierFileInput').click();" class="px-3.5 py-1.5 rounded-xl bg-white hover:bg-blue-100 text-blue-800 text-xs font-bold border border-blue-200 shadow-sm flex items-center gap-1 transition-all">
+                <span>📸 Upload Image File</span>
+              </button>
+
+              <button type="button" onclick="saveStudentNameAndDP('${student.id}')" class="px-4 py-2 rounded-xl bg-blue-700 hover:bg-blue-800 text-white text-xs font-black shadow-md shadow-blue-900/20 transition-all flex items-center gap-1">
+                <span>💾 Save Name & Photo</span>
+              </button>
+            </div>
+          </div>
+
           <!-- KPI Metrics Row -->
           <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
             <div class="p-4 rounded-xl bg-blue-50 border border-blue-200">
@@ -4910,7 +5128,7 @@
           <div class="pt-4 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3">
             <div class="flex items-center gap-2">
               <button onclick="closeModal(); openEditUserModal('${student.id}');" class="px-4 py-2 rounded-xl bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 font-bold text-xs shadow-sm">
-                ✏️ Edit Student Info
+                ✏️ Full Edit Form
               </button>
               <button onclick="toggleLockUser('${student.id}'); closeModal();" class="px-4 py-2 rounded-xl ${student.is_locked ? 'bg-emerald-50 text-emerald-700 border border-emerald-200' : 'bg-red-50 text-red-700 border border-red-200'} font-bold text-xs">
                 ${student.is_locked ? '🔓 Unblock Account' : '🔒 Block Account'}
@@ -4983,6 +5201,65 @@
         `;
       } catch(e) {
         container.innerHTML = '<div class="text-xs text-red-500 py-2">Error loading attempts: ' + e.message + '</div>';
+      }
+    }
+
+  
+    // Handle Student Photo Upload from file picker
+    async function handleStudentDossierPhotoUpload(userId, input) {
+      if (!input.files || !input.files[0]) return;
+      const file = input.files[0];
+      showToast('Uploading student personal photo to Supabase storage...', 'info');
+
+      const url = await uploadAvatarFile(file, 'student_' + userId);
+      if (url) {
+        const dpInput = document.getElementById('dossierStudentDPInput');
+        if (dpInput) dpInput.value = url;
+
+        const preview = document.getElementById('studentDossierAvatarPreview');
+        if (preview) {
+          preview.innerHTML = '<img src="' + url + '" class="w-full h-full object-cover">';
+        }
+
+        // Save immediately in Supabase
+        await saveStudentNameAndDP(userId);
+      } else {
+        showToast('Failed to upload image file', 'error');
+      }
+    }
+
+    // Save Student Name and DP to Supabase profiles & AppState
+    async function saveStudentNameAndDP(userId) {
+      const student = (AppState.users || []).find(u => u.id === userId);
+      if (!student) return;
+
+      const nameInput = document.getElementById('dossierStudentNameInput');
+      const dpInput = document.getElementById('dossierStudentDPInput');
+
+      const newName = nameInput ? nameInput.value.trim() : student.full_name;
+      const newDP = dpInput ? dpInput.value.trim() : student.avatar_url;
+
+      if (!newName) return showToast('Student name cannot be empty', 'error');
+
+      student.full_name = newName;
+      student.avatar_url = newDP || null;
+
+      saveUsersToStorage();
+      renderUsers(document.getElementById('mainContainer'));
+
+      // Sync to Supabase profiles table
+      if (userId && (userId.length > 20 || userId.includes('-'))) {
+        try {
+          await sbPatch('profiles', userId, {
+            name: newName,
+            avatar_url: newDP || null
+          });
+          showToast('✅ Student name and personal photo saved to Supabase!', 'success');
+        } catch(e) {
+          showToast('Updated locally (Supabase sync: ' + e.message + ')', 'info');
+        }
+      } else {
+        showToast('✅ Student name and photo updated!', 'success');
       }
     }
 
