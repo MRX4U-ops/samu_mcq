@@ -6,7 +6,8 @@ import {
   ChevronLeft, User, Mail, Shield, Calendar, LogOut,
   CheckCircle, XCircle, Crown, Clock, BookOpen, Brain,
   Trophy, Flame, BarChart2, Star, ArrowRight, Bell,
-  Lock, Zap, Target, Award, ChevronRight, Settings
+  Lock, Zap, Target, Award, ChevronRight, Settings,
+  KeyRound, Check, AlertCircle, Eye, EyeOff
 } from 'lucide-react';
 import styles from './ProfilePage.module.css';
 
@@ -20,9 +21,43 @@ const QUICK_LINKS = [
 ];
 
 export default function ProfilePage() {
-  const { user, profile, subscription, isSubscribed, signOut } = useAuth();
+  const { user, profile, subscription, isSubscribed, signOut, updatePassword } = useAuth();
   const navigate = useNavigate();
   const [loggingOut, setLoggingOut] = useState(false);
+
+  // Security / Password Change State
+  const [newPassword, setNewPassword] = useState('');
+  const [confirmNewPassword, setConfirmNewPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
+  const [pwLoading, setPwLoading] = useState(false);
+  const [pwSuccess, setPwSuccess] = useState('');
+  const [pwError, setPwError] = useState('');
+
+  const handleUpdatePassword = async (e) => {
+    e.preventDefault();
+    setPwError('');
+    setPwSuccess('');
+    if (newPassword.length < 6) {
+      setPwError('New password must be at least 6 characters long.');
+      return;
+    }
+    if (newPassword !== confirmNewPassword) {
+      setPwError('Passwords do not match.');
+      return;
+    }
+    setPwLoading(true);
+    try {
+      await updatePassword(newPassword);
+      setPwSuccess('Password successfully updated!');
+      setNewPassword('');
+      setConfirmNewPassword('');
+      setTimeout(() => setPwSuccess(''), 5000);
+    } catch (err) {
+      setPwError(err.message || 'Failed to update password.');
+    } finally {
+      setPwLoading(false);
+    }
+  };
 
   const name  = profile?.name || profile?.full_name || user?.email?.split('@')[0] || 'Student';
   const email = user?.email || '';
@@ -228,6 +263,93 @@ export default function ProfilePage() {
               {isSubscribed ? '✓ Premium' : 'Free Plan'}
             </span>
           </div>
+        </div>
+
+        {/* ── Security & Change Password Card ── */}
+        <div className={styles.card}>
+          <div className={styles.cardHeader}>
+            <KeyRound size={18} color="#0EA5E9" />
+            <span>Security & Password</span>
+          </div>
+          
+          <p style={{ fontSize: '13px', color: '#64748B', marginBottom: '16px', lineHeight: 1.5 }}>
+            You are securely authenticated. Update your password here anytime without needing an email reset link.
+          </p>
+
+          {pwSuccess && (
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 14px', borderRadius: '12px', background: '#ECFDF5', color: '#065F46', border: '1px solid #A7F3D0', fontSize: '13px', fontWeight: 600, marginBottom: '14px' }}>
+              <Check size={16} />
+              <span>{pwSuccess}</span>
+            </div>
+          )}
+
+          {pwError && (
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 14px', borderRadius: '12px', background: '#FEF2F2', color: '#991B1B', border: '1px solid #FECACA', fontSize: '13px', fontWeight: 600, marginBottom: '14px' }}>
+              <AlertCircle size={16} />
+              <span>{pwError}</span>
+            </div>
+          )}
+
+          <form onSubmit={handleUpdatePassword} style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            <div>
+              <label style={{ display: 'block', fontSize: '12px', fontWeight: 700, color: '#475569', marginBottom: '6px' }}>
+                New Password (minimum 6 characters)
+              </label>
+              <div style={{ position: 'relative' }}>
+                <input
+                  type={showPassword ? 'text' : 'password'}
+                  placeholder="Enter new secure password"
+                  value={newPassword}
+                  onChange={(e) => setNewPassword(e.target.value)}
+                  style={{ width: '100%', padding: '10px 40px 10px 14px', borderRadius: '12px', border: '1.5px solid #CBD5E1', fontSize: '14px', outline: 'none' }}
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  style={{ position: 'absolute', right: '12px', top: '50%', transform: 'translateY(-50%)', background: 'none', border: 'none', color: '#94A3B8', cursor: 'pointer', padding: 0 }}
+                >
+                  {showPassword ? <EyeOff size={16} /> : <Eye size={16} />}
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <label style={{ display: 'block', fontSize: '12px', fontWeight: 700, color: '#475569', marginBottom: '6px' }}>
+                Confirm New Password
+              </label>
+              <input
+                type={showPassword ? 'text' : 'password'}
+                placeholder="Confirm new secure password"
+                value={confirmNewPassword}
+                onChange={(e) => setConfirmNewPassword(e.target.value)}
+                style={{ width: '100%', padding: '10px 14px', borderRadius: '12px', border: '1.5px solid #CBD5E1', fontSize: '14px', outline: 'none' }}
+              />
+            </div>
+
+            <button
+              type="submit"
+              disabled={pwLoading || !newPassword || !confirmNewPassword}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '8px',
+                padding: '12px',
+                borderRadius: '12px',
+                background: pwLoading || !newPassword || !confirmNewPassword ? '#94A3B8' : 'linear-gradient(135deg, #0EA5E9 0%, #2563EB 100%)',
+                color: '#fff',
+                fontWeight: 700,
+                fontSize: '14px',
+                border: 'none',
+                cursor: pwLoading || !newPassword || !confirmNewPassword ? 'not-allowed' : 'pointer',
+                marginTop: '4px',
+                boxShadow: '0 4px 12px rgba(37,99,235,0.2)'
+              }}
+            >
+              <KeyRound size={16} />
+              <span>{pwLoading ? 'Updating Password...' : 'Save New Password'}</span>
+            </button>
+          </form>
         </div>
 
         {/* ── Quick Access ── */}
