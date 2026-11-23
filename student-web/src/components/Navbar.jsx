@@ -1,48 +1,21 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { BookOpen, Bell } from 'lucide-react';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
   const { user, profile } = useAuth();
-  const location = useLocation();
-  const initial = profile?.full_name?.[0]?.toUpperCase() || user?.email?.[0]?.toUpperCase() || 'M';
-
-  const NAV_LINKS = [
-    { label: 'Practice MCQs', to: '/home' },
-    { label: '1v1 Battle', badge: 'Live', to: '/battle' },
-    { label: 'AI Tutor', badge: 'New', to: '/ask-ai' },
-    { label: 'Clinical Cases', to: '/clinical-case' },
-    { label: 'Drug Database', to: '/drugs' },
-    { label: 'Leaderboard', to: '/leaderboard' },
-    { label: 'Plans', to: '/subscribe' },
-    { label: 'Guidance', to: '/guidance' },
-  ];
+  const initial = profile?.full_name?.[0]?.toUpperCase() || user?.email?.[0]?.toUpperCase() || 'U';
 
   return (
     <nav className={styles.nav}>
       <div className={styles.inner}>
-        <div className={styles.leftSection}>
-          <Link to="/" className={styles.brand}>
-            <div className={styles.logo}>
-              <BookOpen size={18} color="#fff" />
-            </div>
-            <span className={styles.brandName}>SAMU <span className={styles.brandAccent}>MCQs</span></span>
-          </Link>
-
-          <div className={styles.navLinks}>
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.label}
-                to={link.to}
-                className={styles.navLink}
-              >
-                {link.label}
-                {link.badge && <span className={styles.badge}>{link.badge}</span>}
-              </Link>
-            ))}
+        <Link to={user ? '/home' : '/'} className={styles.brand}>
+          <div className={styles.logo}>
+            <BookOpen size={18} color="#fff" />
           </div>
-        </div>
+          <span className={styles.brandName}>SAMU <span className={styles.brandAccent}>MCQs</span></span>
+        </Link>
 
         <div className={styles.actions}>
           {user ? (

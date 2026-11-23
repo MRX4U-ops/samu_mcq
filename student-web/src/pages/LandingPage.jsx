@@ -4,7 +4,7 @@ import {
   BookOpen, Zap, Trophy, Users, ArrowRight, CheckCircle, Star, Brain,
   Flame, Shield, ChevronDown, ChevronUp, MessageCircle, Clock, Target,
   BarChart2, Award, Layers, BookMarked, Cpu, HeartPulse, Microscope, Stethoscope,
-  Check, X
+  Check, X, FileText, CheckCircle2, XCircle, Sparkles
 } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import styles from './LandingPage.module.css';
@@ -22,32 +22,11 @@ const DEMO_MCQ = {
   incorrectExplanation: "Incorrect. While other options like Clopidogrel and Atorvastatin are part of acute MI management, Aspirin is the absolute first-line immediate chewable drug. Beta-blockers (Metoprolol) are avoided in acute decompensation or cardiogenic shock risk."
 };
 
-const FEATURES = [
-  { icon: Brain, color: '#8B5CF6', bg: '#F5F3FF', title: 'Smart MCQ Practice', desc: 'Thousands of questions across all 6 medical courses — organized by topic, subject, and clinical difficulty.' },
-  { icon: Zap, color: '#F59E0B', bg: '#FFFBEB', title: 'Situational Case Tasks', desc: 'Real clinical scenario-based questions designed to sharpen your diagnostic reasoning and decision-making.' },
-  { icon: Trophy, color: '#10B981', bg: '#F0FDF4', title: 'Instant Feedback', desc: 'See your score, review correct answers with detailed explanations, and learn from your mistakes immediately.' },
-  { icon: Flame, color: '#EF4444', bg: '#FFF1F2', title: 'Daily Study Streaks', desc: 'Build consistency with daily practice goals. Track your streak and maintain momentum all semester.' },
-  { icon: BarChart2, color: '#3B82F6', bg: '#EFF6FF', title: 'Performance Analytics', desc: 'Detailed statistics on your accuracy, time spent, and progress across every subject and topic.' },
-  { icon: Cpu, color: '#06B6D4', bg: '#ECFEFF', title: 'AI Study Assistant', desc: 'Ask medical questions and get instant AI-powered answers in English, Hinglish, or Malayalam.' },
-  { icon: Award, color: '#F97316', bg: '#FFF7ED', title: 'Battle Mode', desc: 'Challenge your peers in real-time MCQ battles. Compete, rank, and learn under exam pressure.' },
-  { icon: BookMarked, color: '#6366F1', bg: '#EEF2FF', title: 'Smart Bookmarks', desc: 'Save tricky questions and create your own custom revision decks to revisit before exams.' },
-  { icon: Layers, color: '#059669', bg: '#F0FDF4', title: 'Master Topic Reviews', desc: 'Each subject includes a Master Topic — a comprehensive 50-MCQ review of the entire subject.' },
-];
-
-const COURSES = [
-  { num: '1', title: '1st Course', color: '#3B82F6', subjects: 21, icon: BookOpen, highlight: 'Biology, Chemistry, Physics' },
-  { num: '2', title: '2nd Course', color: '#8B5CF6', subjects: 24, icon: Microscope, highlight: 'Anatomy, Physiology, Biochemistry' },
-  { num: '3', title: '3rd Course', color: '#10B981', subjects: 25, icon: HeartPulse, highlight: 'Pathology, Pharmacology, Microbiology' },
-  { num: '4', title: '4th Course', color: '#F59E0B', subjects: 23, icon: Stethoscope, highlight: 'Internal Medicine, Surgery, Pediatrics' },
-  { num: '5', title: '5th Course', color: '#EF4444', subjects: 24, icon: Target, highlight: 'Clinical Disciplines & Specialties' },
-  { num: '6', title: '6th Course', color: '#06B6D4', subjects: 14, icon: Award, highlight: 'Final Internship & CBT Preparation' },
-];
-
-const TESTIMONIALS = [
-  { name: 'Aarzoo Sipai', course: '2nd Course Student', avatar: 'A', color: '#8B5CF6', rating: 5, text: 'SAMU MCQs completely changed how I prepare for exams. The topic-by-topic structure matches our syllabus perfectly and the situational tasks are incredibly realistic.' },
-  { name: 'Abdul Azeez', course: '3rd Course Student', avatar: 'AA', color: '#10B981', rating: 5, text: 'I scored 78 in Biochemistry CBT after using this platform for just 2 weeks. The instant feedback after every question helped me identify my weak areas quickly.' },
-  { name: 'Mohammad K.', course: '4th Course Student', avatar: 'M', color: '#F59E0B', rating: 5, text: 'The AI assistant is a game changer. I can ask any medical question during practice and get an explanation in Hinglish which makes it so much easier to understand.' },
-  { name: 'Fatima R.', course: '1st Course Student', avatar: 'F', color: '#EF4444', rating: 5, text: 'Daily streaks kept me consistent for 40 days straight. I never studied this regularly before! The battle mode with classmates makes revision actually fun.' },
+const HOW_IT_WORKS = [
+  { step: '01', title: 'Create Free Account', desc: 'Sign up in 30 seconds. No credit card required.' },
+  { step: '02', title: 'Choose Your Course & Subject', desc: 'Navigate to your year, pick a subject, and select any topic.' },
+  { step: '03', title: 'Practice MCQs', desc: 'Answer test questions or clinical case tasks with instant feedback.' },
+  { step: '04', title: 'Track & Improve', desc: 'Review your analytics, bookmark hard questions, and repeat.' },
 ];
 
 const STATS = [
@@ -59,6 +38,112 @@ const STATS = [
   { val: '4.9★', label: 'Student Rating', sub: 'Based on reviews', icon: Star, color: '#F97316' },
 ];
 
+const COURSES = [
+  { num: '1', title: '1st Course', subjects: '21 subjects available', icon: BookOpen, color: '#3B82F6', highlight: 'Biology, Chemistry, Physics' },
+  { num: '2', title: '2nd Course', subjects: '24 subjects available', icon: Microscope, color: '#8B5CF6', highlight: 'Anatomy, Physiology, Biochemistry' },
+  { num: '3', title: '3rd Course', subjects: '25 subjects available', icon: HeartPulse, color: '#10B981', highlight: 'Pathology, Pharmacology, Microbiology' },
+  { num: '4', title: '4th Course', subjects: '23 subjects available', icon: Stethoscope, color: '#F59E0B', highlight: 'Internal Medicine, Surgery, Pediatrics' },
+  { num: '5', title: '5th Course', subjects: '24 subjects available', icon: Target, color: '#EF4444', highlight: 'Clinical Disciplines & Specialties' },
+  { num: '6', title: '6th Course', subjects: '14 subjects available', icon: Award, color: '#06B6D4', highlight: 'Final Internship & CBT Preparation' },
+];
+
+const PRACTICE_SUITE = [
+  {
+    badge: 'REAL-TIME 1v1',
+    badgeSub: '450+ Daily Battles • Live Matchmaking',
+    title: 'Medical Battle Arena',
+    desc: 'Challenge classmates in live 60-second rapid-fire clinical duels. Climb university ranks under exam pressure.',
+    btnText: 'Enter Arena',
+    btnTo: '/battle'
+  },
+  {
+    badge: 'AI POWERED',
+    badgeSub: 'Llama 3.3 70B • Multilingual Support',
+    title: 'Clinical AI Study Tutor',
+    desc: 'Get instant step-by-step diagnostic reasoning, differential diagnoses, and exam mnemonics whenever you are stuck.',
+    btnText: 'Consult AI',
+    btnTo: '/ask-ai'
+  },
+  {
+    badge: 'SITUATIONAL CBT',
+    badgeSub: '650+ Clinical Scenarios • Full Rationales',
+    title: 'Case Task Simulator',
+    desc: 'Real patient admissions with vitals, lab panels, ECG/imaging, and step-by-step clinical management protocols.',
+    btnText: 'Solve Cases',
+    btnTo: '/clinical-case'
+  },
+  {
+    badge: 'HIGH YIELD',
+    badgeSub: '800+ Drugs • Exam Mnemonics',
+    title: 'Pharmacology & Drug Index',
+    desc: 'Quick-reference formulary with mechanisms of action, clinical indications, adverse effects, and black-box warnings.',
+    btnText: 'Explore Drugs',
+    btnTo: '/drugs'
+  },
+  {
+    badge: 'ANKI ALGORITHM',
+    badgeSub: 'Daily Queue • Memory Booster',
+    title: 'Smart Spaced Repetition',
+    desc: 'Target your weak spots before you forget. Memory retention curves automatically prioritize questions you missed.',
+    btnText: 'Start Recall',
+    btnTo: '/home'
+  },
+  {
+    badge: 'OFFICIAL SEAL',
+    badgeSub: 'Public Verification • Portfolio Ready',
+    title: 'Achievement Certificates',
+    desc: 'Earn verifiable digital course completion certificates with unique cryptographic IDs and QR verification.',
+    btnText: 'View Certificate',
+    btnTo: '/register'
+  }
+];
+
+const CLINICAL_DISCIPLINES = [
+  { mcqs: '640 MCQs', yieldRate: '98% Yield', title: 'Cardiology & ECG Mastery', desc: 'STEMI, Arrhythmias, Heart Failure, Valvular Murmurs & Pharmacology', course: '4th & 5th Course' },
+  { mcqs: '520 MCQs', yieldRate: '96% Yield', title: 'Neurology & Stroke Protocols', desc: 'Ischemic Strokes, Cranial Nerves, Epilepsy Syndromes & Meningitis', course: '4th Course' },
+  { mcqs: '780 MCQs', yieldRate: '99% Yield', title: 'Clinical Pharmacology', desc: 'Antibiotics, Anti-arrhythmics, Autonomic Drugs & Toxicology Antidotes', course: '3rd Course' },
+  { mcqs: '710 MCQs', yieldRate: '95% Yield', title: 'Pathology & Pathophysiology', desc: 'Cellular Injury, Neoplasia, Granulomatous Disease & Organ Systems', course: '3rd Course' },
+  { mcqs: '490 MCQs', yieldRate: '94% Yield', title: 'Pediatric Emergencies', desc: 'Congenital Anomalies, Neonatal Resuscitation & Exanthems', course: '5th Course' },
+  { mcqs: '530 MCQs', yieldRate: '97% Yield', title: 'Surgical Emergencies & ATLS', desc: 'Acute Abdomen, Hemorrhage Control, Shock Types & Trauma Protocols', course: '5th & 6th Course' }
+];
+
+const PLATFORM_CAPABILITIES = [
+  { icon: Flame, title: 'Daily Study Streaks', desc: 'Build consistency with daily practice goals. Track your streak and maintain momentum all semester.' },
+  { icon: BarChart2, title: 'Performance Analytics', desc: 'Detailed statistics on your accuracy, time spent, and progress across every subject and topic.' },
+  { icon: Cpu, title: 'AI Study Assistant', desc: 'Ask medical questions and get instant AI-powered answers in English, Hinglish, or Malayalam.' },
+  { icon: Award, title: 'Battle Mode', desc: 'Challenge your peers in real-time MCQ battles. Compete, rank, and learn under exam pressure.' },
+  { icon: BookMarked, title: 'Smart Bookmarks', desc: 'Save tricky questions and create your own custom revision decks to revisit before exams.' },
+  { icon: Layers, title: 'Master Topic Reviews', desc: 'Each subject includes a Master Topic — a comprehensive 50-MCQ review of the entire subject.' }
+];
+
+const COMPARISON_ROWS = [
+  {
+    feature: 'Question Explanations',
+    traditional: 'None or simple letter answer key',
+    samu: 'Comprehensive rationale + AI Tutor clarification'
+  },
+  {
+    feature: 'Curriculum Alignment',
+    traditional: 'Scattered questions from outdated files',
+    samu: '100% mapped to official SAMU year syllabus'
+  },
+  {
+    feature: 'Retention & Weak Area Tracking',
+    traditional: 'Manual messy notes, easily lost',
+    samu: 'Automated spaced repetition & accuracy analytics'
+  },
+  {
+    feature: 'Real Exam Simulation',
+    traditional: 'Static PDF scrolling with no timer',
+    samu: 'Timed CBT interface matching real exam screens'
+  },
+  {
+    feature: 'Multi-Device Sync',
+    traditional: 'Only on laptop or heavy paper printouts',
+    samu: 'Seamless cloud sync on mobile, tablet & PC'
+  }
+];
+
 const FAQS = [
   { q: 'Is SAMU MCQs free to use?', a: 'Yes! You can sign up and access a limited set of questions for free. For full access to all 8,000+ MCQs across all 6 courses, you can subscribe to our premium plan.' },
   { q: 'What subjects are available?', a: 'We cover all 6 years of SAMU medical education — from first-year sciences (Biology, Chemistry, Physics) through to clinical specialties in 5th and 6th course. Each course has 14–25 subjects.' },
@@ -68,20 +153,13 @@ const FAQS = [
   { q: 'How is the AI assistant useful?', a: 'The AI Study Assistant is powered by advanced language models (Groq/Llama 3.3 70B). You can ask it to explain a medical concept, clarify a tricky MCQ, or summarize a topic — all in English, Hinglish, or Malayalam.' },
 ];
 
-const HOW_IT_WORKS = [
-  { step: '01', title: 'Create Free Account', desc: 'Sign up in 30 seconds. No credit card required.', color: '#3B82F6' },
-  { step: '02', title: 'Choose Your Course & Subject', desc: 'Navigate to your year, pick a subject, and select any topic.', color: '#8B5CF6' },
-  { step: '03', title: 'Practice MCQs', desc: 'Answer test questions or clinical case tasks with instant feedback.', color: '#10B981' },
-  { step: '04', title: 'Track & Improve', desc: 'Review your analytics, bookmark hard questions, and repeat.', color: '#F59E0B' },
-];
-
 function FAQ({ q, a }) {
   const [open, setOpen] = useState(false);
   return (
-    <div className={styles.faqItem} onClick={() => setOpen(!open)}>
+    <div className={styles.faqCard} onClick={() => setOpen(!open)}>
       <div className={styles.faqHeader}>
         <span className={styles.faqQ}>{q}</span>
-        {open ? <ChevronUp size={18} color="#6366f1" /> : <ChevronDown size={18} color="#9ca3af" />}
+        {open ? <ChevronUp size={18} color="#4338CA" /> : <ChevronDown size={18} color="#9ca3af" />}
       </div>
       {open && <p className={styles.faqA}>{a}</p>}
     </div>
@@ -104,39 +182,32 @@ export default function LandingPage() {
 
       {/* ── HERO ── */}
       <section className={styles.hero}>
-        <div className={styles.heroBg}>
-          <div className={styles.glow1} />
-          <div className={styles.glow2} />
-          <div className={styles.glow3} />
-        </div>
-        
-        <div className={styles.heroGrid}>
+        <div className={styles.heroContainer}>
           <div className={styles.heroLeft}>
-            <div className={styles.heroBadge}>
-              <Star size={14} color="#F59E0B" fill="#F59E0B" />
-              <span>Trusted by SAMU Medical Students · 1,200+ Active Learners</span>
+            <div className={styles.pillBadge}>
+              <Star size={13} color="#F59E0B" fill="#F59E0B" />
+              <span>SAMU MEDICAL MCQ PLATFORM • ALL 6 YEARS</span>
             </div>
             <h1 className={styles.heroTitle}>
               Master Medical MCQs<br />
-              <span className="text-gradient">One Topic at a Time</span>
+              <span className={styles.gradientText}>One Topic at a Time</span>
             </h1>
             <p className={styles.heroSub}>
               Comprehensive MCQ practice for all 6 years of SAMU medical education.<br />
-              Test questions, situational case tasks, AI assistant & instant feedback — all in one place.
+              Test questions, situational case tasks, AI tutor, and instant clinical feedback — all in one place.
             </p>
             <div className={styles.heroCtas}>
-              <Link to="/register" className="btn btn-primary" style={{ fontSize: 16, padding: '15px 36px' }}>
-                Start Practicing Free
-                <ArrowRight size={18} />
+              <Link to="/register" className={styles.primaryBtn}>
+                Start Practicing Free &rarr;
               </Link>
-              <Link to="/login" className="btn btn-ghost" style={{ fontSize: 16, padding: '15px 36px' }}>
-                Sign In
+              <Link to="/login" className={styles.secondaryBtn}>
+                Student Sign In
               </Link>
             </div>
             <div className={styles.heroChecks}>
-              {['No credit card required', 'All 6 medical courses', 'AI-powered study help'].map(t => (
+              {['No credit card required', 'All 6 medical courses', 'AI-powered study help', 'Live 1v1 battle arena'].map(t => (
                 <span key={t} className={styles.heroCheck}>
-                  <CheckCircle size={14} color="#10B981" fill="#10B981" /> {t}
+                  <span className={styles.greenDot} /> {t}
                 </span>
               ))}
             </div>
@@ -144,235 +215,267 @@ export default function LandingPage() {
 
           <div className={styles.heroRight}>
             <div className={styles.demoCard}>
-              <div className={styles.demoCardHeader}>
-                <span className={styles.demoCardLabel}>Interactive Demo</span>
-                <span className={styles.demoCardCoins}>🪙 +50 Coins</span>
+              <div className={styles.demoHeader}>
+                <span className={styles.demoBadge}>INTERACTIVE CASE DEMO</span>
+                <span className={styles.demoCoins}>🪙 +50 Coins</span>
               </div>
               <p className={styles.demoQuestion}>{DEMO_MCQ.question}</p>
               <div className={styles.demoOptions}>
                 {DEMO_MCQ.options.map((opt, idx) => {
-                  let optClass = styles.demoOption;
-                  let icon = null;
-                  
+                  let optStyle = styles.demoOption;
                   if (demoAnswered) {
-                    if (idx === DEMO_MCQ.correctIndex) {
-                      optClass += ` ${styles.demoOptionCorrect}`;
-                      icon = <Check size={16} color="#10B981" />;
-                    } else if (idx === demoSelected) {
-                      optClass += ` ${styles.demoOptionIncorrect}`;
-                      icon = <X size={16} color="#ef4444" />;
-                    }
+                    if (idx === DEMO_MCQ.correctIndex) optStyle += ` ${styles.demoOptionCorrect}`;
+                    else if (idx === demoSelected) optStyle += ` ${styles.demoOptionIncorrect}`;
                   } else if (demoSelected === idx) {
-                    optClass += ` ${styles.demoOptionSelected}`;
+                    optStyle += ` ${styles.demoOptionSelected}`;
                   }
-
                   return (
-                    <button 
-                      key={idx} 
-                      className={optClass}
+                    <button
+                      key={idx}
+                      className={optStyle}
                       onClick={() => handleDemoSelect(idx)}
                       disabled={demoAnswered}
                     >
                       <span>{opt}</span>
-                      {icon}
                     </button>
                   );
                 })}
               </div>
 
               {demoAnswered && (
-                <div className={styles.demoFeedback}>
-                  <div className={styles.demoFeedbackTitle} style={{ color: demoSelected === DEMO_MCQ.correctIndex ? '#34d399' : '#f87171' }}>
-                    {demoSelected === DEMO_MCQ.correctIndex ? '🎉 Correct Answer!' : '❌ Incorrect Answer'}
-                  </div>
-                  <p className={styles.demoFeedbackText}>
-                    {demoSelected === DEMO_MCQ.correctIndex ? DEMO_MCQ.explanation : DEMO_MCQ.incorrectExplanation}
-                  </p>
+                <div className={styles.demoExplanation}>
+                  <strong>{demoSelected === DEMO_MCQ.correctIndex ? '🎉 Correct!' : '❌ Incorrect'}</strong>
+                  <p>{demoSelected === DEMO_MCQ.correctIndex ? DEMO_MCQ.explanation : DEMO_MCQ.incorrectExplanation}</p>
                 </div>
               )}
             </div>
           </div>
         </div>
 
-        {/* floating stats ribbon */}
-        <div className={styles.heroStatsRibbon}>
-          <div className={styles.ribbonStat}><strong>6</strong><span>Courses</span></div>
-          <div className={styles.ribbonDiv} />
-          <div className={styles.ribbonStat}><strong>131+</strong><span>Subjects</span></div>
-          <div className={styles.ribbonDiv} />
-          <div className={styles.ribbonStat}><strong>8,000+</strong><span>MCQs</span></div>
-          <div className={styles.ribbonDiv} />
-          <div className={styles.ribbonStat}><strong>94%</strong><span>Pass Rate</span></div>
+        {/* Floating Mini Ribbon */}
+        <div className={styles.miniRibbon}>
+          <div className={styles.ribbonItem}><strong>6</strong><span>Courses</span></div>
+          <div className={styles.ribbonDivider} />
+          <div className={styles.ribbonItem}><strong>131+</strong><span>Subjects</span></div>
+          <div className={styles.ribbonDivider} />
+          <div className={styles.ribbonItem}><strong>8,000+</strong><span>Verified MCQs</span></div>
+          <div className={styles.ribbonDivider} />
+          <div className={styles.ribbonItem}><strong>94%</strong><span>Pass Rate</span></div>
+          <div className={styles.ribbonDivider} />
+          <div className={styles.ribbonItem}><strong>1,200+</strong><span>Active Students</span></div>
         </div>
       </section>
 
       {/* ── HOW IT WORKS ── */}
-      <section className={`${styles.section} ${styles.howItWorksBg}`}>
-        <div className={styles.sectionInner}>
-          <div className={styles.sectionHeader}>
-            <span className={styles.sectionLabel}>HOW IT WORKS</span>
-            <h2 className={styles.sectionTitle}>Start in 4 Simple Steps</h2>
-            <p className={styles.sectionSub}>Get from zero to exam-ready faster than you think</p>
-          </div>
-          <div className={styles.stepsGrid}>
-            {HOW_IT_WORKS.map((s, i) => (
-              <div key={s.step} className={styles.stepCard}>
-                <div className={styles.stepNum} style={{ color: s.color, borderColor: s.color + '44', background: s.color + '11' }}>{s.step}</div>
-                {i < HOW_IT_WORKS.length - 1 && <div className={styles.stepArrow}><ArrowRight size={16} color="#d1d5db" /></div>}
-                <h3 className={styles.stepTitle}>{s.title}</h3>
-                <p className={styles.stepDesc}>{s.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── STATS SECTION ── */}
-      <section className={styles.statsSection}>
-        <div className={styles.sectionInner}>
-          <div className={styles.sectionHeader}>
-            <span className={styles.sectionLabel} style={{ color: '#fff' }}>BY THE NUMBERS</span>
-            <h2 className={styles.sectionTitle} style={{ color: '#fff' }}>Built for SAMU Students</h2>
-          </div>
-          <div className={styles.statsGrid}>
-            {STATS.map(s => (
-              <div key={s.label} className={styles.statCard}>
-                <div className={styles.statIcon} style={{ background: s.color + '22' }}>
-                  <s.icon size={24} color={s.color} />
-                </div>
-                <div className={styles.statVal}>{s.val}</div>
-                <div className={styles.statLabel}>{s.label}</div>
-                <div className={styles.statSub}>{s.sub}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── COURSES GRID ── */}
       <section className={styles.section}>
-        <div className={styles.sectionInner}>
-          <div className={styles.sectionHeader}>
-            <span className={styles.sectionLabel}>ACADEMIC CURRICULUM</span>
-            <h2 className={styles.sectionTitle}>All 6 Years of Medical Education</h2>
-            <p className={styles.sectionSub}>Browse subjects and topics from each course year — organized exactly like your syllabus</p>
-          </div>
-          <div className={styles.coursesGrid}>
-            {COURSES.map((c) => (
-              <div key={c.num} className={styles.courseCard} style={{ '--accent': c.color }}>
-                <div className={styles.courseNumBadge} style={{ background: c.color }}>
-                  <c.icon size={18} color="#fff" />
-                </div>
-                <div className={styles.courseInfo}>
-                  <h3 className={styles.courseTitle}>{c.title}</h3>
-                  <p className={styles.courseHighlight}>{c.highlight}</p>
-                  <p className={styles.courseMeta}>{c.subjects} subjects available</p>
-                </div>
-                <div className={styles.courseArrow}>
-                  <ArrowRight size={16} color={c.color} />
-                </div>
-              </div>
-            ))}
-          </div>
-          <div style={{ textAlign: 'center', marginTop: 40 }}>
-            <Link to="/register" className="btn btn-primary" style={{ padding: '15px 40px', fontSize: 15 }}>
-              Access All Courses Free
-              <ArrowRight size={16} />
-            </Link>
-          </div>
+        <div className={styles.sectionHeaderCenter}>
+          <span className={styles.sectionPill}>HOW IT WORKS</span>
+          <h2 className={styles.sectionTitleBold}>Start in 4 Simple Steps</h2>
+          <p className={styles.sectionSubtitle}>Get from zero to exam-ready faster with structured medical practice</p>
+        </div>
+        <div className={styles.stepsGrid}>
+          {HOW_IT_WORKS.map((s) => (
+            <div key={s.step} className={styles.stepCard}>
+              <div className={styles.stepNum}>{s.step}</div>
+              <h3 className={styles.stepTitle}>{s.title}</h3>
+              <p className={styles.stepDesc}>{s.desc}</p>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* ── FEATURES ── */}
-      <section className={styles.section} style={{ background: 'rgba(248,250,252,0.8)' }}>
-        <div className={styles.sectionInner}>
-          <div className={styles.sectionHeader}>
-            <span className={styles.sectionLabel}>FEATURES</span>
-            <h2 className={styles.sectionTitle}>Everything You Need to Succeed</h2>
-            <p className={styles.sectionSub}>Tools designed specifically for SAMU medical students</p>
-          </div>
-          <div className={styles.featuresGrid}>
-            {FEATURES.map((f) => (
-              <div key={f.title} className={styles.featureCard}>
-                <div className={styles.featureIcon} style={{ background: f.bg, border: `1px solid ${f.color}33` }}>
-                  <f.icon size={26} color={f.color} />
-                </div>
-                <h3 className={styles.featureTitle}>{f.title}</h3>
-                <p className={styles.featureDesc}>{f.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── TESTIMONIALS ── */}
+      {/* ── BY THE NUMBERS ── */}
       <section className={styles.section}>
-        <div className={styles.sectionInner}>
-          <div className={styles.sectionHeader}>
-            <span className={styles.sectionLabel}>STUDENT REVIEWS</span>
-            <h2 className={styles.sectionTitle}>What Students Are Saying</h2>
-            <p className={styles.sectionSub}>Real feedback from SAMU medical students who use the platform</p>
-          </div>
-          <div className={styles.testimonialsGrid}>
-            {TESTIMONIALS.map((t) => (
-              <div key={t.name} className={styles.testimonialCard}>
-                <div className={styles.testimonialStars}>
-                  {Array.from({ length: t.rating }).map((_, i) => (
-                    <Star key={i} size={14} color="#F59E0B" fill="#F59E0B" />
-                  ))}
-                </div>
-                <p className={styles.testimonialText}>"{t.text}"</p>
-                <div className={styles.testimonialAuthor}>
-                  <div className={styles.testimonialAvatar} style={{ background: t.color }}>{t.avatar}</div>
-                  <div>
-                    <div className={styles.testimonialName}>{t.name}</div>
-                    <div className={styles.testimonialCourse}>{t.course}</div>
-                  </div>
-                </div>
+        <div className={styles.sectionHeaderCenter}>
+          <span className={styles.sectionPill}>BY THE NUMBERS</span>
+          <h2 className={styles.sectionTitleBold}>Built for SAMU Students</h2>
+          <p className={styles.sectionSubtitle}>Designed specifically around the SAMU medical university syllabus & exam standards</p>
+        </div>
+        <div className={styles.statsGrid}>
+          {STATS.map(s => (
+            <div key={s.label} className={styles.statCard}>
+              <div className={styles.statIconWrapper} style={{ background: s.color + '15' }}>
+                <s.icon size={22} color={s.color} />
               </div>
-            ))}
-          </div>
+              <div className={styles.statVal}>{s.val}</div>
+              <div className={styles.statLabel}>{s.label}</div>
+              <div className={styles.statSub}>{s.sub}</div>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* ── FAQ ── */}
-      <section className={styles.section} style={{ background: 'rgba(248,250,252,0.8)' }}>
-        <div className={styles.sectionInner}>
-          <div className={styles.sectionHeader}>
-            <span className={styles.sectionLabel}>FAQ</span>
-            <h2 className={styles.sectionTitle}>Frequently Asked Questions</h2>
-          </div>
-          <div className={styles.faqList}>
-            {FAQS.map((f) => <FAQ key={f.q} {...f} />)}
-          </div>
-          <div style={{ textAlign: 'center', marginTop: 36 }}>
-            <p style={{ color: 'var(--text-muted)', marginBottom: 16, fontSize: 15 }}>Still have questions?</p>
-            <a href="https://t.me/samu_mcqs" target="_blank" rel="noopener noreferrer" className="btn btn-ghost" style={{ gap: 8 }}>
-              <MessageCircle size={18} />
-              Join our Telegram
-            </a>
-          </div>
+      {/* ── ACADEMIC CURRICULUM ── */}
+      <section className={styles.section}>
+        <div className={styles.sectionHeaderCenter}>
+          <span className={styles.sectionPill}>ACADEMIC CURRICULUM</span>
+          <h2 className={styles.sectionTitleBold}>All 6 Years of Medical Education</h2>
+          <p className={styles.sectionSubtitle}>Browse subjects and topics from each course year — organized exactly like your syllabus</p>
+        </div>
+        <div className={styles.coursesGrid}>
+          {COURSES.map((c) => (
+            <div key={c.num} className={styles.curriculumCard} style={{ borderLeft: `4px solid ${c.color}` }}>
+              <div className={styles.curriculumIcon} style={{ background: c.color }}>
+                <c.icon size={18} color="#fff" />
+              </div>
+              <div className={styles.curriculumDetails}>
+                <h3 className={styles.curriculumTitle}>{c.title}</h3>
+                <p className={styles.curriculumHighlight}>{c.highlight}</p>
+                <p className={styles.curriculumMeta}>{c.subjects}</p>
+              </div>
+              <div className={styles.curriculumArrow}>
+                <ArrowRight size={16} color={c.color} />
+              </div>
+            </div>
+          ))}
+        </div>
+        <div style={{ textAlign: 'center', marginTop: 36 }}>
+          <Link to="/register" className={styles.primaryBtn}>
+            Access All Courses Free &rarr;
+          </Link>
         </div>
       </section>
 
-      {/* ── CTA ── */}
-      <section className={styles.ctaSection}>
-        <div className={styles.ctaInner}>
-          <div className={styles.ctaBadge}><Flame size={16} color="#F59E0B" /> 1,200+ students already practicing</div>
-          <h2 className={styles.ctaTitle}>Ready to Ace Your Medical Exams?</h2>
-          <p className={styles.ctaSub}>Join your classmates on SAMU MCQs. Free to start, no credit card needed.</p>
-          <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link to="/register" className="btn btn-primary" style={{ fontSize: 16, padding: '16px 40px' }}>
-              Get Started for Free
-              <ArrowRight size={18} />
+      {/* ── PRACTICE SUITE ── */}
+      <section className={styles.section}>
+        <div className={styles.sectionHeaderCenter}>
+          <span className={styles.sectionPill}>PRACTICE SUITE</span>
+          <h2 className={styles.sectionTitleBold}>High-Yield Exam Preparation Tools</h2>
+          <p className={styles.sectionSubtitle}>Every tool engineered to help you conquer high-stakes medical examinations</p>
+        </div>
+        <div className={styles.suiteGrid}>
+          {PRACTICE_SUITE.map((tool) => (
+            <div key={tool.title} className={styles.suiteCard}>
+              <div className={styles.suiteTop}>
+                <span className={styles.suiteBadge}>{tool.badge}</span>
+                <span className={styles.suiteBadgeSub}>{tool.badgeSub}</span>
+              </div>
+              <h3 className={styles.suiteTitle}>{tool.title}</h3>
+              <p className={styles.suiteDesc}>{tool.desc}</p>
+              <div className={styles.suiteAction}>
+                <Link to={tool.btnTo} className={styles.suiteBtn}>
+                  {tool.btnText} &rarr;
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ── SUBJECT DIRECTORY ── */}
+      <section className={styles.section}>
+        <div className={styles.sectionHeaderCenter}>
+          <span className={styles.sectionPill}>SUBJECT DIRECTORY</span>
+          <h2 className={styles.sectionTitleBold}>Most Tested Clinical Disciplines</h2>
+          <p className={styles.sectionSubtitle}>Target your prep on the high-yield topics that appear most frequently on final exams</p>
+        </div>
+        <div className={styles.disciplinesGrid}>
+          {CLINICAL_DISCIPLINES.map((d) => (
+            <div key={d.title} className={styles.disciplineCard}>
+              <div className={styles.disciplineTop}>
+                <span className={styles.discBadge}>{d.mcqs}</span>
+                <span className={styles.yieldBadge}>{d.yieldRate}</span>
+              </div>
+              <h3 className={styles.discTitle}>{d.title}</h3>
+              <p className={styles.discDesc}>{d.desc}</p>
+              <div className={styles.discFooter}>
+                <span className={styles.discCourse}>{d.course}</span>
+                <Link to="/register" className={styles.discAction}>Practice &rarr;</Link>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ── PLATFORM CAPABILITIES ── */}
+      <section className={styles.section}>
+        <div className={styles.sectionHeaderCenter}>
+          <span className={styles.sectionPill}>PLATFORM CAPABILITIES</span>
+          <h2 className={styles.sectionTitleBold}>Everything You Need to Excel</h2>
+          <p className={styles.sectionSubtitle}>Built exclusively for SAMU medical students with smart tech & clinical insights</p>
+        </div>
+        <div className={styles.capabilitiesGrid}>
+          {PLATFORM_CAPABILITIES.map((cap) => (
+            <div key={cap.title} className={styles.capCard}>
+              <div className={styles.capIconWrapper}>
+                <cap.icon size={20} color="#4338CA" />
+              </div>
+              <h3 className={styles.capTitle}>{cap.title}</h3>
+              <p className={styles.capDesc}>{cap.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ── THE ADVANTAGE (Old Study Files vs. SAMU MCQs) ── */}
+      <section className={styles.section}>
+        <div className={styles.sectionHeaderCenter}>
+          <span className={styles.sectionPill}>THE ADVANTAGE</span>
+          <h2 className={styles.sectionTitleBold}>Old Study Files vs. SAMU MCQs</h2>
+          <p className={styles.sectionSubtitle}>See why thousands of students switched from PDF files to the interactive platform</p>
+        </div>
+        <div className={styles.tableContainer}>
+          <table className={styles.advantageTable}>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Traditional PDFs & Telegram Files</th>
+                <th className={styles.samuTh}>✨ SAMU MCQs Platform</th>
+              </tr>
+            </thead>
+            <tbody>
+              {COMPARISON_ROWS.map((row) => (
+                <tr key={row.feature}>
+                  <td className={styles.featureCell}>{row.feature}</td>
+                  <td className={styles.tradCell}>
+                    <span className={styles.crossIcon}>✕</span> {row.traditional}
+                  </td>
+                  <td className={styles.samuCell}>
+                    <span className={styles.checkIcon}>✓</span> {row.samu}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      {/* ── FREQUENTLY ASKED QUESTIONS ── */}
+      <section className={styles.section}>
+        <div className={styles.sectionHeaderCenter}>
+          <h2 className={styles.sectionTitleBold}>Common Questions & Answers</h2>
+        </div>
+        <div className={styles.faqList}>
+          {FAQS.map((f) => <FAQ key={f.q} {...f} />)}
+        </div>
+        <div style={{ textAlign: 'center', marginTop: 36 }}>
+          <p style={{ color: '#64748B', fontSize: 14, marginBottom: 14 }}>Still have questions about your subjects or exam prep?</p>
+          <a href="https://t.me/samu_mcqs" target="_blank" rel="noopener noreferrer" className={styles.telegramBtn}>
+            <MessageCircle size={16} />
+            Join our Official Telegram Channel
+          </a>
+        </div>
+      </section>
+
+      {/* ── CTA BANNER ── */}
+      <section className={styles.ctaWrapper}>
+        <div className={styles.ctaBox}>
+          <div className={styles.ctaBadge}>⚡ 1,200+ students actively practicing</div>
+          <h2 className={styles.ctaTitle}>Ready to Pass Your Exams with Distinction?</h2>
+          <p className={styles.ctaSub}>Join your classmates today. Free registration, instant access to test questions, and full mobile support.</p>
+          <div className={styles.ctaBtns}>
+            <Link to="/register" className={styles.ctaPrimaryBtn}>
+              Get Started Free Today &rarr;
             </Link>
-            <Link to="/login" className="btn btn-ghost" style={{ fontSize: 16, padding: '16px 32px' }}>
-              Sign In
+            <Link to="/login" className={styles.ctaSecondaryBtn}>
+              Student Sign In
             </Link>
           </div>
-          <div className={styles.ctaChecks}>
-            {['Free forever plan', 'No setup required', 'All 6 courses', 'AI assistant included'].map(t => (
-              <span key={t} className={styles.ctaCheck}><CheckCircle size={14} color="#10B981" /> {t}</span>
+          <div className={styles.ctaFeatures}>
+            {['Free forever plan', 'Zero setup required', 'Covers all 6 course years', 'AI medical tutor included'].map((item) => (
+              <span key={item} className={styles.ctaCheck}>
+                <CheckCircle2 size={14} color="#10B981" /> {item}
+              </span>
             ))}
           </div>
         </div>
@@ -381,34 +484,49 @@ export default function LandingPage() {
       {/* ── FOOTER ── */}
       <footer className={styles.footer}>
         <div className={styles.footerInner}>
-          <div className={styles.footerTop}>
-            <div className={styles.footerBrand}>
-              <div className={styles.footerLogo}>
-                <BookOpen size={18} color="#fff" />
-              </div>
-              <div>
-                <span className={styles.footerLogoText}>SAMU MCQs</span>
-                <p className={styles.footerLogoSub}>Medical education made smart</p>
-              </div>
+          <div className={styles.footerBrand}>
+            <div className={styles.footerLogo}>
+              <BookOpen size={18} color="#fff" />
             </div>
-            <div className={styles.footerLinks}>
-              <div className={styles.footerCol}>
-                <h4>Platform</h4>
-                <Link to="/register">Get Started</Link>
-                <Link to="/login">Sign In</Link>
-                <Link to="/results">Exam Results</Link>
-              </div>
-              <div className={styles.footerCol}>
-                <h4>Support</h4>
-                <a href="https://t.me/samu_mcqs" target="_blank" rel="noopener noreferrer">Telegram</a>
-                <Link to="/help">Help Desk</Link>
-                <Link to="/subscribe">Pricing</Link>
-              </div>
+            <div>
+              <span className={styles.footerLogoText}>SAMU MCQs</span>
+              <p className={styles.footerLogoSub}>Medical education made smart & accessible</p>
             </div>
           </div>
-          <div className={styles.footerBottom}>
-            <p>© 2025 SAMU MCQs. All rights reserved. Built for SAMU Medical Students.</p>
+
+          <div className={styles.footerColumns}>
+            <div className={styles.footerCol}>
+              <h4>PRACTICE & EXAMS</h4>
+              <Link to="/home">All Courses & Subjects</Link>
+              <Link to="/clinical-case">Situational Tasks</Link>
+              <Link to="/clinical-case">Clinical Case Studies</Link>
+              <Link to="/results">Exam Score Reports</Link>
+            </div>
+            <div className={styles.footerCol}>
+              <h4>SMART TOOLS</h4>
+              <Link to="/battle">1v1 Battle Arena</Link>
+              <Link to="/ask-ai">AI Medical Tutor</Link>
+              <Link to="/drugs">Drug Database Index</Link>
+              <Link to="/leaderboard">Rankings & Streak</Link>
+            </div>
+            <div className={styles.footerCol}>
+              <h4>SUPPORT & HELP</h4>
+              <Link to="/help">Student Help Desk</Link>
+              <Link to="/guidance">Study Guidance & FAQs</Link>
+              <a href="https://t.me/samu_mcqs" target="_blank" rel="noopener noreferrer">Telegram Community</a>
+              <Link to="/verify/demo">Verify Certificate</Link>
+            </div>
+            <div className={styles.footerCol}>
+              <h4>ACCOUNT & PLANS</h4>
+              <Link to="/subscribe">Subscription Plans</Link>
+              <Link to="/register">Create Student Account</Link>
+              <Link to="/login">Sign In to Portal</Link>
+              <Link to="/profile">Student Profile</Link>
+            </div>
           </div>
+        </div>
+        <div className={styles.footerBottom}>
+          <p>© 2026 SAMU MCQs. All rights reserved. Built for SAMU Medical Students.</p>
         </div>
       </footer>
     </div>

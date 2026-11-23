@@ -46,10 +46,10 @@ const HUB_ITEMS = [
 ];
 
 const BANNERS = [
-  { emoji:'🔥', title:'FREE THIS MONTH', sub:'Use coupon TRH100 for 100% discount', grad:'linear-gradient(135deg,#DC2626,#EF4444,#F87171)' },
-  { emoji:'📚', title:'New Questions Added', sub:'Microbiology, Radiology & Pharmacology updated', grad:'linear-gradient(135deg,#1E3A8A,#2563EB,#60A5FA)' },
-  { emoji:'🏆', title:'Monthly Winner Gets ₹49', sub:'Top ranker earns cashback reward', grad:'linear-gradient(135deg,#B45309,#F59E0B,#FBBF24)' },
-  { emoji:'⚔️', title:'Quiz Battle Live Now', sub:'Challenge friends and climb the ranks', grad:'linear-gradient(135deg,#065F46,#10B981,#34D399)' },
+  { emoji:'🔥', title:'FREE THIS MONTH', sub:'Use coupon TRH100 for 100% discount', grad:'linear-gradient(135deg,rgba(124,45,18,0.85),rgba(220,38,38,0.85),rgba(239,68,68,0.85)), url("/banner_1_bg.png") center/cover no-repeat' },
+  { emoji:'📚', title:'New Questions Added', sub:'Microbiology & Pharmacology updated', grad:'linear-gradient(135deg,rgba(30,58,138,0.85),rgba(29,78,216,0.85),rgba(59,130,246,0.85)), url("/banner_2_bg.png") center/cover no-repeat' },
+  { emoji:'🏆', title:'Monthly Winner Gets ₹49', sub:'Top ranker earns cashback reward', grad:'linear-gradient(135deg,rgba(120,53,15,0.85),rgba(180,83,9,0.85),rgba(245,158,11,0.85)), url("/banner_3_bg.png") center/cover no-repeat' },
+  { emoji:'⚔️', title:'Quiz Battle Live Now', sub:'Challenge friends and climb the ranks', grad:'linear-gradient(135deg,rgba(76,29,149,0.85),rgba(109,40,217,0.85),rgba(139,92,246,0.85)), url("/banner_4_bg.png") center/cover no-repeat' },
 ];
 
 const UPDATES = [
