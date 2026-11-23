@@ -1,8 +1,13 @@
 import axios from 'axios';
 import useAuthStore from '../store/authStore';
 
+const envBase = import.meta.env.VITE_API_BASE_URL;
+const defaultBase = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  ? 'http://localhost:5000/api'
+  : 'https://samu-mcqs.onrender.com/api';
+
 const axiosInstance = axios.create({
-  baseURL: window.location.hostname === 'localhost' ? 'http://localhost:5000/api' : 'https://samu-mcqs.onrender.com/api',
+  baseURL: envBase || defaultBase,
 });
 
 // Request interceptor to add JWT token and user-id

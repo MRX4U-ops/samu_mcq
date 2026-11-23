@@ -14,6 +14,7 @@ const paymentRoutes = require('./routes/paymentRoutes');
 const battleRoutes = require('./routes/battleRoutes');
 const userRoutes = require('./routes/userRoutes');
 const supportRoutes = require('./routes/supportRoutes');
+const adminRoutes = require('./routes/adminRoutes');
 
 // Initialize Express app
 const app = express();
@@ -43,6 +44,7 @@ app.use('/api/payments', paymentRoutes);
 app.use('/api/battle', battleRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/support', supportRoutes);
+app.use('/api/admin', adminRoutes);
 app.use('/api', academicRoutes);
 
 // Global Error Handler

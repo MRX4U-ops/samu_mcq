@@ -5,9 +5,12 @@ import Dashboard from './pages/Dashboard';
 import Users from './pages/Users';
 import Payments from './pages/Payments';
 import Subscriptions from './pages/Subscriptions';
+import Courses from './pages/Courses';
+import McqEditor from './pages/McqEditor';
+import BulkUpload from './pages/BulkUpload';
 import SupportTickets from './pages/SupportTickets';
-import TicketDetail from './pages/TicketDetail';
-import Results from './pages/Results';
+import SubAdmins from './pages/SubAdmins';
+import AppSettings from './pages/AppSettings';
 import LoginPage from './pages/LoginPage';
 import ResetPassword from './pages/ResetPassword';
 import useAuthStore from './store/authStore';
@@ -31,12 +34,14 @@ const App = () => {
       }>
         <Route index element={<Dashboard />} />
         <Route path="users" element={<Users />} />
-        <Route path="payments" element={<Payments />} />
         <Route path="subscriptions" element={<Subscriptions />} />
+        <Route path="payments" element={<Payments />} />
+        <Route path="academic" element={<Courses />} />
+        <Route path="mcq-editor" element={<McqEditor />} />
+        <Route path="bulk-import" element={<BulkUpload />} />
         <Route path="support" element={<SupportTickets />} />
-        <Route path="support/:id" element={<TicketDetail />} />
-        <Route path="analytics" element={<Dashboard />} /> {/* Analytics reuse dashboard for now */}
-        <Route path="results" element={<Results />} />
+        <Route path="sub-admins" element={<SubAdmins />} />
+        <Route path="settings" element={<AppSettings />} />
       </Route>
 
       <Route path="*" element={<Navigate to="/" replace />} />
