@@ -3,16 +3,9 @@ import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import {
   Mail, Lock, User, ArrowRight, ShieldCheck, CheckCircle,
-  Eye, EyeOff, BookOpen, Brain, Trophy, Zap, Star, ArrowLeft
+  Eye, EyeOff, BookOpen, Sparkles, ArrowLeft, GraduationCap, Check
 } from 'lucide-react';
 import styles from './AuthPage.module.css';
-
-const PERKS = [
-  { icon: BookOpen, text: 'All 6 SAMU Medical Courses' },
-  { icon: Brain,    text: '8,000+ MCQs & Case Tasks' },
-  { icon: Trophy,   text: 'Battle Mode & Leaderboard' },
-  { icon: Zap,      text: 'AI Study Assistant' },
-];
 
 export default function LoginPage() {
   const [searchParams] = useSearchParams();
@@ -101,45 +94,60 @@ export default function LoginPage() {
   // ── OTP Screen ──
   if (mode === 'otp') {
     return (
-      <div className={styles.page}>
-        <div className={styles.bgBlob1} /><div className={styles.bgBlob2} />
-        <div className={styles.card}>
-          <div className={styles.logo}>
-            <ShieldCheck size={28} color="#fff" />
+      <div className={styles.authWrapper}>
+        <div className={styles.topNavbar}>
+          <div className={styles.topNavBrand}>
+            <div className={styles.topNavLogo}><BookOpen size={18} color="#fff" /></div>
+            <span className={styles.topNavName}>SAMU MCQs</span>
           </div>
-          <h1 className={styles.title}>Verify Your Email</h1>
-          <p className={styles.sub}>We sent a 6-digit code to<br /><strong>{email}</strong></p>
+          <Link to="/" className={styles.topNavBack}>
+            <ArrowLeft size={15} /> Back to Home
+          </Link>
+        </div>
 
-          {error && <div className={styles.errorBox}>⚠ {error}</div>}
-          {success && <div className={styles.successBox}>✓ {success}</div>}
-
-          <form onSubmit={handleAction} className={styles.form}>
-            <div className={styles.inputGroup}>
-              <label className={styles.label}>Verification Code</label>
-              <div className={styles.inputWrap}>
-                <ShieldCheck size={16} className={styles.inputIcon} />
-                <input
-                  type="text"
-                  className={styles.input}
-                  style={{ letterSpacing: 10, fontSize: 22, fontWeight: 900, textAlign: 'center' }}
-                  placeholder="000000"
-                  value={otp}
-                  onChange={(e) => setOtp(e.target.value.replace(/[^0-9]/g, ''))}
-                  maxLength={6}
-                  required
-                />
+        <div className={styles.authContainer}>
+          <div className={styles.authCard}>
+            <div className={styles.brandIconWrap}>
+              <div className={styles.brandIcon}>
+                <ShieldCheck size={28} color="#fff" />
               </div>
             </div>
-            <button type="submit" className={styles.submitBtn} disabled={loading}>
-              {loading ? <span className={styles.spinner} /> : null}
-              {loading ? 'Verifying...' : 'Verify Code'}
-              {!loading && <CheckCircle size={16} />}
-            </button>
-            <div className={styles.switchRow}>
-              <button type="button" onClick={handleResend} className={styles.linkBtn} disabled={loading}>Resend Code</button>
-              <button type="button" onClick={() => { setMode('login'); setOtp(''); }} className={styles.linkBtn}>Change Email</button>
-            </div>
-          </form>
+
+            <h1 className={styles.cardHeading}>Verify Your Email</h1>
+            <p className={styles.cardSub}>We sent a 6-digit code to<br /><strong>{email}</strong></p>
+
+            {error && <div className={styles.alertError}>⚠ {error}</div>}
+            {success && <div className={styles.alertSuccess}>✓ {success}</div>}
+
+            <form onSubmit={handleAction} className={styles.authForm}>
+              <div className={styles.fieldGroup}>
+                <label className={styles.fieldLabel}>6-Digit Verification Code</label>
+                <div className={styles.inputContainer}>
+                  <ShieldCheck size={18} className={styles.fieldIcon} />
+                  <input
+                    type="text"
+                    className={`${styles.fieldInput} ${styles.otpInput}`}
+                    placeholder="000000"
+                    value={otp}
+                    onChange={(e) => setOtp(e.target.value.replace(/[^0-9]/g, ''))}
+                    maxLength={6}
+                    required
+                  />
+                </div>
+              </div>
+
+              <button type="submit" className={styles.primaryBtn} disabled={loading}>
+                {loading ? <span className={styles.btnSpinner} /> : null}
+                <span>{loading ? 'Verifying...' : 'Verify Code'}</span>
+                {!loading && <CheckCircle size={17} />}
+              </button>
+
+              <div className={styles.otpSwitchRow}>
+                <button type="button" onClick={handleResend} className={styles.textLink} disabled={loading}>Resend Code</button>
+                <button type="button" onClick={() => { setMode('login'); setOtp(''); }} className={styles.textLink}>Change Email</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     );
@@ -149,165 +157,209 @@ export default function LoginPage() {
   const isSignup = mode === 'signup';
 
   return (
-    <div className={styles.page}>
-      <div className={styles.bgBlob1} />
-      <div className={styles.bgBlob2} />
-      <div className={styles.bgBlob3} />
-
-      {/* ── Left Panel (desktop only) ── */}
-      <div className={styles.leftPanel}>
-        <div className={styles.leftContent}>
-          <Link to="/" className={styles.leftHomeLink}>
-            <ArrowLeft size={15} /> Back to SAMU MCQs
-          </Link>
-
-          <div className={styles.leftLogo}>
-            <BookOpen size={24} color="#fff" />
+    <div className={styles.authWrapper}>
+      {/* ── TOP HEADER BAR ── */}
+      <header className={styles.topNavbar}>
+        <div className={styles.topNavBrand}>
+          <div className={styles.topNavLogo}>
+            <BookOpen size={18} color="#fff" />
           </div>
-          <h2 className={styles.leftTitle}>SAMU MCQs</h2>
-          <p className={styles.leftSub}>Your complete medical exam preparation platform for all 6 years of SAMU education.</p>
-
-          <div className={styles.leftPerks}>
-            {PERKS.map(p => (
-              <div key={p.text} className={styles.leftPerk}>
-                <div className={styles.leftPerkIcon}><p.icon size={16} color="#38bdf8" /></div>
-                <span>{p.text}</span>
-              </div>
-            ))}
-          </div>
-
-          <div className={styles.leftStats}>
-            <div className={styles.leftStat}><strong>8K+</strong><span>MCQs</span></div>
-            <div className={styles.leftStatDiv} />
-            <div className={styles.leftStat}><strong>1,200+</strong><span>Students</span></div>
-            <div className={styles.leftStatDiv} />
-            <div className={styles.leftStat}><strong>94%</strong><span>Pass Rate</span></div>
-          </div>
-
-          <div className={styles.leftTestimonial}>
-            <div className={styles.testimonialStars}>
-              {[1,2,3,4,5].map(i => <Star key={i} size={13} color="#f59e0b" fill="#f59e0b" />)}
-            </div>
-            <p>"Best MCQ platform for SAMU students. Scored 78 in Biochemistry CBT!"</p>
-            <span>— Abdul A., 3rd Year</span>
+          <div className={styles.topNavTitleBlock}>
+            <span className={styles.topNavName}>SAMU MCQs</span>
+            <span className={styles.topNavTag}>STUDENT PORTAL</span>
           </div>
         </div>
-      </div>
 
-      {/* ── Right Panel / Form ── */}
-      <div className={styles.rightPanel}>
-        <div className={styles.card}>
-          {/* Mobile Back Link */}
-          <div className={styles.mobileBackRow}>
-            <Link to="/" className={styles.mobileBackLink}>
-              <ArrowLeft size={14} /> Back to SAMU MCQs
-            </Link>
-          </div>
+        <div className={styles.topNavCenterBadge}>
+          <GraduationCap size={15} color="#0f4c75" />
+          <span>Official Medical University Exam System</span>
+        </div>
 
-          {/* Mobile logo */}
-          <div className={styles.mobileLogo}>
-            <div className={styles.logo}>
+        <Link to="/" className={styles.topNavBack}>
+          <ArrowLeft size={15} /> Back to Website
+        </Link>
+      </header>
+
+      {/* ── AMBIENT BACKGROUND GLOWS ── */}
+      <div className={styles.ambientGlowTop} />
+      <div className={styles.ambientGlowBottom} />
+
+      {/* ── MAIN CENTERED AUTH CARD ── */}
+      <main className={styles.authContainer}>
+        <div className={styles.authCard}>
+          {/* Brand Icon Header */}
+          <div className={styles.brandIconWrap}>
+            <div className={styles.brandIcon}>
               <BookOpen size={26} color="#fff" />
             </div>
+            <div className={styles.brandIconPulse} />
           </div>
 
-          {/* Mode tabs */}
-          <div className={styles.modeTabs}>
-            <button
-              className={`${styles.modeTab} ${isLogin ? styles.modeTabActive : ''}`}
-              onClick={() => { setMode('login'); setError(''); setSuccess(''); }}
-            >Sign In</button>
-            <button
-              className={`${styles.modeTab} ${isSignup ? styles.modeTabActive : ''}`}
-              onClick={() => { setMode('signup'); setError(''); setSuccess(''); }}
-            >Create Account</button>
+          <div className={styles.headerBlock}>
+            <h1 className={styles.cardHeading}>
+              {isLogin ? 'Welcome Back, Future Doctor' : isSignup ? 'Join SAMU Medical Platform' : mode === 'set_password' ? 'Create New Password' : 'Reset Password'}
+            </h1>
+            <p className={styles.cardSub}>
+              {isLogin ? 'Sign in to access your 6-year question repository' : isSignup ? 'Start practicing verified curriculum test questions free' : mode === 'set_password' ? 'Choose a secure password for your account' : 'Enter your registered email to receive a recovery code'}
+            </p>
           </div>
 
-          <h1 className={styles.title}>
-            {isLogin ? 'Welcome Back 👋' : isSignup ? 'Join SAMU MCQs' : mode === 'set_password' ? 'New Password' : 'Reset Password'}
-          </h1>
-          <p className={styles.sub}>
-            {isLogin ? 'Sign in to continue your medical journey' : isSignup ? 'Start preparing smarter today' : mode === 'set_password' ? 'Enter your new secure password' : 'Enter your email to receive a reset code'}
-          </p>
+          {/* Segmented Mode Switcher */}
+          {(isLogin || isSignup) && (
+            <div className={styles.segmentedToggle}>
+              <button
+                type="button"
+                className={`${styles.toggleBtn} ${isLogin ? styles.toggleBtnActive : ''}`}
+                onClick={() => { setMode('login'); setError(''); setSuccess(''); }}
+              >
+                Sign In
+              </button>
+              <button
+                type="button"
+                className={`${styles.toggleBtn} ${isSignup ? styles.toggleBtnActive : ''}`}
+                onClick={() => { setMode('signup'); setError(''); setSuccess(''); }}
+              >
+                Create Account
+              </button>
+            </div>
+          )}
 
-          {error   && <div className={styles.errorBox}>⚠ {error}</div>}
-          {success && <div className={styles.successBox}>✓ {success}</div>}
+          {error   && <div className={styles.alertError}>⚠ {error}</div>}
+          {success && <div className={styles.alertSuccess}>✓ {success}</div>}
 
-          <form onSubmit={handleAction} className={styles.form}>
+          {/* FORM */}
+          <form onSubmit={handleAction} className={styles.authForm}>
             {isSignup && (
-              <div className={styles.inputGroup}>
-                <label className={styles.label}>Full Name</label>
-                <div className={styles.inputWrap}>
-                  <User size={16} className={styles.inputIcon} />
-                  <input type="text" className={styles.input} placeholder="Dr. Jasur Toshmatov"
-                    value={name} onChange={e => setName(e.target.value)} required />
+              <div className={styles.fieldGroup}>
+                <label className={styles.fieldLabel}>Full Name</label>
+                <div className={styles.inputContainer}>
+                  <User size={18} className={styles.fieldIcon} />
+                  <input
+                    type="text"
+                    className={styles.fieldInput}
+                    placeholder="Dr. Jasur Toshmatov"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    required
+                  />
                 </div>
               </div>
             )}
 
             {mode !== 'set_password' && (
-              <div className={styles.inputGroup}>
-                <label className={styles.label}>Email Address</label>
-                <div className={styles.inputWrap}>
-                  <Mail size={16} className={styles.inputIcon} />
-                  <input type="email" className={styles.input} placeholder="student@meduniver.uz"
-                    value={email} onChange={e => setEmail(e.target.value)} required />
+              <div className={styles.fieldGroup}>
+                <label className={styles.fieldLabel}>Email Address</label>
+                <div className={styles.inputContainer}>
+                  <Mail size={18} className={styles.fieldIcon} />
+                  <input
+                    type="email"
+                    className={styles.fieldInput}
+                    placeholder="student@meduniver.uz"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                  />
                 </div>
               </div>
             )}
 
             {mode !== 'forgot_password' && (
-              <div className={styles.inputGroup}>
-                <div className={styles.labelRow}>
-                  <label className={styles.label}>Password</label>
+              <div className={styles.fieldGroup}>
+                <div className={styles.fieldLabelRow}>
+                  <label className={styles.fieldLabel}>Password</label>
                   {isLogin && (
-                    <button type="button" className={styles.linkBtn} onClick={() => setMode('forgot_password')}>
+                    <button
+                      type="button"
+                      className={styles.forgotBtn}
+                      onClick={() => { setMode('forgot_password'); setError(''); setSuccess(''); }}
+                    >
                       Forgot password?
                     </button>
                   )}
                 </div>
-                <div className={styles.inputWrap}>
-                  <Lock size={16} className={styles.inputIcon} />
+                <div className={styles.inputContainer}>
+                  <Lock size={18} className={styles.fieldIcon} />
                   <input
                     type={showPw ? 'text' : 'password'}
-                    className={styles.input}
+                    className={styles.fieldInput}
                     placeholder="••••••••"
                     value={password}
-                    onChange={e => setPassword(e.target.value)}
+                    onChange={(e) => setPassword(e.target.value)}
                     required
                   />
-                  <button type="button" className={styles.eyeBtn} onClick={() => setShowPw(!showPw)}>
-                    {showPw ? <EyeOff size={16} /> : <Eye size={16} />}
+                  <button
+                    type="button"
+                    className={styles.passwordToggle}
+                    onClick={() => setShowPw(!showPw)}
+                    aria-label="Toggle password visibility"
+                  >
+                    {showPw ? <EyeOff size={17} /> : <Eye size={17} />}
                   </button>
                 </div>
               </div>
             )}
 
-            <button type="submit" className={styles.submitBtn} disabled={loading}>
-              {loading ? <span className={styles.spinner} /> : null}
-              {loading ? 'Processing...' : isLogin ? 'Sign In' : isSignup ? 'Create Account' : mode === 'set_password' ? 'Update Password' : 'Send Reset Code'}
-              {!loading && <ArrowRight size={16} />}
+            <button type="submit" className={styles.primaryBtn} disabled={loading}>
+              {loading && <span className={styles.btnSpinner} />}
+              <span>
+                {loading ? 'Please wait...' : isLogin ? 'Sign In to Account' : isSignup ? 'Create Free Student Account' : mode === 'set_password' ? 'Update Password' : 'Send Recovery Code'}
+              </span>
+              {!loading && <ArrowRight size={17} />}
             </button>
           </form>
 
+          {/* Bottom Switcher */}
           {(isLogin || isSignup) && (
-            <p className={styles.switchText}>
-              {isLogin ? "Don't have an account? " : "Already have an account? "}
-              <button type="button" className={styles.linkBtn} onClick={() => { setMode(isLogin ? 'signup' : 'login'); setError(''); setSuccess(''); }}>
-                {isLogin ? 'Register Free' : 'Sign In'}
+            <div className={styles.cardFooter}>
+              <span>{isLogin ? "Don't have an account yet?" : "Already registered?"}</span>
+              <button
+                type="button"
+                className={styles.footerActionBtn}
+                onClick={() => { setMode(isLogin ? 'signup' : 'login'); setError(''); setSuccess(''); }}
+              >
+                {isLogin ? 'Create Account Free' : 'Sign In Here'}
               </button>
-            </p>
+            </div>
           )}
 
           {!isLogin && !isSignup && (
-            <p className={styles.switchText}>
-              <button type="button" className={styles.linkBtn} onClick={() => { setMode('login'); setError(''); setSuccess(''); }}>
-                ← Back to Sign In
+            <div className={styles.cardFooter}>
+              <button
+                type="button"
+                className={styles.footerActionBtn}
+                onClick={() => { setMode('login'); setError(''); setSuccess(''); }}
+              >
+                ← Return to Sign In
               </button>
-            </p>
+            </div>
           )}
         </div>
-      </div>
+
+        {/* ── TRUST & HIGHLIGHT BADGES ── */}
+        <div className={styles.trustRow}>
+          <div className={styles.trustItem}>
+            <div className={styles.trustCheck}><Check size={12} color="#0f4c75" /></div>
+            <span>All 6 Academic Courses</span>
+          </div>
+          <div className={styles.trustItem}>
+            <div className={styles.trustCheck}><Check size={12} color="#0f4c75" /></div>
+            <span>8,000+ Verified MCQs</span>
+          </div>
+          <div className={styles.trustItem}>
+            <div className={styles.trustCheck}><Check size={12} color="#0f4c75" /></div>
+            <span>Situational Case Tasks</span>
+          </div>
+          <div className={styles.trustItem}>
+            <div className={styles.trustCheck}><Check size={12} color="#0f4c75" /></div>
+            <span>AI Clinical Tutor</span>
+          </div>
+        </div>
+
+        {/* ── SECURITY NOTE ── */}
+        <p className={styles.bottomLegal}>
+          🔒 End-to-End Secure • Built specifically for SAMU Medical University Students
+        </p>
+      </main>
     </div>
   );
 }
