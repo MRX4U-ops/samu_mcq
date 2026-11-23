@@ -419,5 +419,8 @@ export const s_3_8_situational = {
       "correctIndex": 1
     }
   ],
-  "t-s-3-8-5": []
+  "t-s-3-8-5": [],
+  "t-s-3-8-6": [],
+  "t-s-3-8-7": [],
+  "t-s-3-8-8": []
 };

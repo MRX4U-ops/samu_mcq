@@ -3801,5 +3801,1881 @@ export const s_3_8 = {
       ],
       "correctIndex": 2
     }
-  ]
+  ],
+  "t-s-3-8-6": [
+  {
+    "question": "What does the \"air bronchogram\" sign on chest X-ray suggest?",
+    "options": [
+      "a. Pleural effusion",
+      "b. Pneumothorax",
+      "*c. Alveolar consolidation",
+      "d. Mediastinal mass",
+      "e. Diaphragmatic hernia"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The “silhouette sign” helps to:",
+    "options": [
+      "a. Detect rib fracture",
+      "b. Visualize pleural thickening",
+      "*c. Localize lobar pathology",
+      "d. Assess lymphadenopathy",
+      "e. Identify fibrosis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the “spine sign” in lateral chest X-ray?",
+    "options": [
+      "a. Pleural effusion",
+      "*b. Increased opacity over the thoracic spine in lower lobar pneumonia",
+      "c. Rib metastasis",
+      "d. Pneumothorax",
+      "e. Subphrenic abscess"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A “bat-wing” or “butterfly” pattern on X-ray typically suggests:",
+    "options": [
+      "a. TB",
+      "*b. Pulmonary edema",
+      "c. Pneumothorax",
+      "d. Lung cancer",
+      "e. Emphysema"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The \"continuous diaphragm sign\" is associated with:",
+    "options": [
+      "a. Ascites",
+      "*b. Pneumomediastinum",
+      "c. Pneumonia",
+      "d. Pleural effusion",
+      "e. Lung tumor"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does blunting of the costophrenic angle indicate on X-ray?",
+    "options": [
+      "a. Atelectasis",
+      "b. Pneumomediastinum",
+      "*c. Pleural effusion",
+      "d. Pulmonary embolism",
+      "e. Pneumothorax"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following indicates right upper lobe collapse?",
+    "options": [
+      "a. Elevation of left hemidiaphragm",
+      "b. Blunting of right costophrenic angle",
+      "*c. S-form of minor fissure and tracheal shift to right",
+      "d. Flattening of diaphragm",
+      "e. Widened mediastinum"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The “deep sulcus sign” is most specific for:",
+    "options": [
+      "a. TB",
+      "*b. Pneumothorax in supine film",
+      "c. Emphysema",
+      "d. Lung fibrosis",
+      "e. Pleural thickening"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The presence of a “mediastinal shift” on X-ray suggests:",
+    "options": [
+      "a. Vascular disease",
+      "b. Pleural thickening",
+      "*c. Volume loss or mass effect",
+      "d. Hilar lymphadenopathy",
+      "e. Rib fracture"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What radiographic sign is most typical in a central lung carcinoma?",
+    "options": [
+      "a. Cavitation with air-fluid level",
+      "*b. Hilar mass with bronchial obstruction",
+      "c. Bilateral infiltrates",
+      "d. Honeycomb appearance",
+      "e. Wedge-shaped opacity"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The “Golden S-sign” on X-ray suggests:",
+    "options": [
+      "a. Aortic aneurysm",
+      "b. Pulmonary embolism",
+      "*c. Right upper lobe collapse due to central mass",
+      "d. Pneumomediastinum",
+      "e. Pulmonary edema"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A \"bulging fissure sign\" is classic for:",
+    "options": [
+      "a. TB",
+      "*b. Klebsiella pneumonia",
+      "c. Pneumothorax",
+      "d. Lung abscess",
+      "e. Bronchiectasis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The “reverse bat-wing” pattern is typical of:",
+    "options": [
+      "a. TB",
+      "b. Pulmonary embolism",
+      "*c. Chronic eosinophilic pneumonia",
+      "d. Sarcoidosis",
+      "e. Carcinomatosis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which sign suggests a left lower lobe collapse on frontal radiograph?",
+    "options": [
+      "a. Silhouette of the right heart border",
+      "b. Elevated right hemidiaphragm",
+      "*c. Obscured left hemidiaphragm and loss of left cardiac silhouette",
+      "d. Lucency over apex",
+      "e. Hilar displacement"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A \"cannonball metastases\" pattern on chest X-ray suggests:",
+    "options": [
+      "a. TB",
+      "*b. Renal or choriocarcinoma metastasis",
+      "c. Pneumoconiosis",
+      "d. Lymphoma",
+      "e. Fungal infection"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A \"honeycomb\" pattern on X-ray is associated with:",
+    "options": [
+      "a. Emphysema",
+      "b. TB",
+      "*c. End-stage pulmonary fibrosis",
+      "d. Sarcoidosis",
+      "e. Pleural effusion"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The “air crescent sign” in a cavity is typical of:",
+    "options": [
+      "a. Tuberculosis",
+      "b. Bronchiectasis",
+      "c. Lung cancer",
+      "*d. Aspergilloma",
+      "e. Lymphoma"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "A sharply demarcated round opacity near the hilum may represent:",
+    "options": [
+      "a. Pneumonia",
+      "*b. Pulmonary hamartoma",
+      "c. Lymphadenopathy",
+      "d. Atelectasis",
+      "e. Empyema"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Bilateral hilar lymphadenopathy on X-ray is typical for:",
+    "options": [
+      "a. Pneumonia",
+      "*b. Sarcoidosis",
+      "c. Lung cancer",
+      "d. Tuberculosis",
+      "e. Bronchiectasis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A wedge-shaped peripheral opacity may suggest:",
+    "options": [
+      "a. Cavitating abscess",
+      "b. Consolidation",
+      "*c. Pulmonary infarct (Hampton’s hump)",
+      "d. Lymphoma",
+      "e. Sarcoid granuloma"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A \"water bottle\" heart shape may indicate:",
+    "options": [
+      "a. Left atrial enlargement",
+      "b. Pulmonary edema",
+      "*c. Pericardial effusion",
+      "d. COPD",
+      "e. Right ventricular hypertrophy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What condition typically causes mediastinal widening?",
+    "options": [
+      "a. Pneumothorax",
+      "b. Emphysema",
+      "*c. Aortic dissection or lymphoma",
+      "d. Atelectasis",
+      "e. Sarcoidosis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A unilateral hyperlucent hemithorax is most often due to:",
+    "options": [
+      "a. Pulmonary embolism",
+      "b. Pneumonia",
+      "c. TB",
+      "*d. Pneumothorax",
+      "e. Empyema"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What pathology classically causes apical cavitary lesions on X-ray?",
+    "options": [
+      "a. Emphysema",
+      "*b. Post-primary tuberculosis",
+      "c. Pneumoconiosis",
+      "d. Pulmonary edema",
+      "e. Asbestosis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A \"split pleura sign\" suggests:",
+    "options": [
+      "a. Lung collapse",
+      "b. Pneumonia",
+      "*c. Empyema",
+      "d. Tuberculosis",
+      "e. Bronchial tumor"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which condition may cause “eggshell” calcification of lymph nodes?",
+    "options": [
+      "a. Pneumonia",
+      "b. TB",
+      "*c. Silicosis",
+      "d. Lung cancer",
+      "e. Sarcoidosis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The most common cause of a solitary pulmonary nodule is:",
+    "options": [
+      "a. TB",
+      "*b. Granuloma or benign hamartoma",
+      "c. Metastasis",
+      "d. Lung carcinoma",
+      "e. Sarcoid"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Bilateral reticulonodular opacities on chest X-ray may suggest:",
+    "options": [
+      "a. Emphysema",
+      "b. Pleural effusion",
+      "*c. Interstitial lung disease",
+      "d. Pneumothorax",
+      "e. Bronchial asthma"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The “luftsichel sign” is seen in:",
+    "options": [
+      "a. Right middle lobe collapse",
+      "b. Lower lobe infarct",
+      "*c. Left upper lobe collapse",
+      "d. Tension pneumothorax",
+      "e. Consolidation"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A \"sail sign\" in a pediatric chest X-ray is associated with:",
+    "options": [
+      "a. Pneumothorax",
+      "*b. Thymic shadow",
+      "c. Mediastinal tumor",
+      "d. Lung collapse",
+      "e. Pleural effusion"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which X-ray sign suggests a diaphragmatic hernia?",
+    "options": [
+      "a. Hilar fullness",
+      "b. Air crescent",
+      "*c. Air-fluid levels within thoracic cavity and mediastinal shift",
+      "d. Widened aortic knob",
+      "e. Pulmonary consolidation"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The most common cause of “lobulated mediastinal contour” is:",
+    "options": [
+      "a. Emphysema",
+      "*b. Lymphadenopathy or tumor",
+      "c. Tuberculosis",
+      "d. Pneumonia",
+      "e. Pneumothorax"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What condition produces a “shaggy heart border”?",
+    "options": [
+      "a. Left upper lobe collapse",
+      "b. Cardiomegaly",
+      "*c. Left lower lobe pneumonia",
+      "d. Pneumothorax",
+      "e. Aortic aneurysm"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does elevation of one hemidiaphragm on X-ray suggest?",
+    "options": [
+      "a. Pneumonia",
+      "*b. Phrenic nerve palsy or atelectasis",
+      "c. Pleural effusion",
+      "d. Cardiomegaly",
+      "e. Tumor"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the earliest radiologic sign of pulmonary edema?",
+    "options": [
+      "a. Cavitation",
+      "b. Lung nodule",
+      "*c. Peribronchial cuffing and Kerley B lines",
+      "d. Pleural effusion",
+      "e. Air bronchogram"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The “hilum overlay sign” helps to differentiate:",
+    "options": [
+      "a. Lung abscess from nodule",
+      "b. TB from sarcoid",
+      "*c. Mediastinal vs. hilar mass",
+      "d. Edema from fibrosis",
+      "e. Pleural vs. pericardial fluid"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A cavitary lesion with fluid level on X-ray may indicate:",
+    "options": [
+      "a. Fibrosis",
+      "*b. Lung abscess",
+      "c. Sarcoidosis",
+      "d. Emphysema",
+      "e. Hamartoma"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The “Westermark sign” is associated with:",
+    "options": [
+      "a. TB",
+      "b. Pneumonia",
+      "*c. Pulmonary embolism (regional oligemia)",
+      "d. Bronchiectasis",
+      "e. Pleural thickening"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which sign on chest X-ray suggests bronchiectasis?",
+    "options": [
+      "a. Miliary nodules",
+      "b. Linear atelectasis",
+      "*c. Tram-track appearance",
+      "d. Eggshell calcification",
+      "e. Mediastinal shift"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the “Hampton’s hump”?",
+    "options": [
+      "a. Hilar shadow",
+      "*b. Peripheral wedge-shaped opacity due to infarct",
+      "c. Emphysema bullae",
+      "d. Apical cavity",
+      "e. Subdiaphragmatic air"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A lung tumor obstructing a bronchus may cause:",
+    "options": [
+      "a. Pleural plaque",
+      "*b. Lobar collapse or obstructive pneumonia",
+      "c. Mediastinal widening",
+      "d. Rib fracture",
+      "e. Honeycombing"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The “S sign of Golden” is due to:",
+    "options": [
+      "a. Sarcoid",
+      "b. Pulmonary embolism",
+      "*c. Mass in right upper lobe collapse",
+      "d. Empyema",
+      "e. Cavitating carcinoma"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does a shift of the trachea to the right suggest?",
+    "options": [
+      "a. Left-sided pneumonia",
+      "b. Left lung hyperinflation",
+      "*c. Left lung collapse",
+      "d. Pleural effusion",
+      "e. Right atrial enlargement"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Multiple small nodular opacities throughout the lungs suggest:",
+    "options": [
+      "a. Pulmonary edema",
+      "*b. Miliary tuberculosis or metastases",
+      "c. Emphysema",
+      "d. Asthma",
+      "e. Abscesses"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which syndrome is associated with massive right atrial enlargement?",
+    "options": [
+      "a. Eisenmenger’s",
+      "*b. Ebstein’s anomaly",
+      "c. Tetralogy of Fallot",
+      "d. Pulmonary hypertension",
+      "e. Constrictive pericarditis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "“Kerley B lines” are signs of:",
+    "options": [
+      "a. Fibrosis",
+      "*b. Interstitial edema",
+      "c. Emphysema",
+      "d. Pneumothorax",
+      "e. Atelectasis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which radiological sign is indicative of pericardial effusion?",
+    "options": [
+      "a. Boot-shaped heart",
+      "b. Water-lily sign",
+      "*c. Water-bottle shaped heart",
+      "d. Tram-tracks",
+      "e. Golden S sign"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The best view to evaluate pleural effusion is:",
+    "options": [
+      "a. PA chest",
+      "b. AP supine",
+      "*c. Lateral decubitus",
+      "d. Upright frontal",
+      "e. Lordotic view"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A “meniscus sign” on chest X-ray indicates:",
+    "options": [
+      "a. Pneumothorax",
+      "b. Lung collapse",
+      "*c. Pleural effusion",
+      "d. Pulmonary embolism",
+      "e. Fibrosis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following findings supports lung hyperinflation on X-ray?",
+    "options": [
+      "a. Elevated diaphragm",
+      "b. Narrow intercostal spaces",
+      "*c. Flattened diaphragm and increased retrosternal airspace",
+      "d. Lobar consolidation",
+      "e. Dense hilum"
+    ],
+    "correctIndex": 2
+  }
+],
+  "t-s-3-8-7": [
+  {
+    "question": "What is the most commonly used non-invasive imaging method for cardiac assessment?",
+    "options": [
+      "a. MRI",
+      "b. CT",
+      "c. Scintigraphy",
+      "*d. Echocardiography",
+      "e. Radiography"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which modality is best for real-time evaluation of valvular motion?",
+    "options": [
+      "a. MRI",
+      "b. CT",
+      "*c. Echocardiography",
+      "d. Radiography",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A major advantage of CT angiography over conventional angiography is:",
+    "options": [
+      "a. Lower radiation dose",
+      "b. Real-time imaging",
+      "*c. Non-invasiveness",
+      "d. Better soft tissue contrast",
+      "e. Cost"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Fluoroscopy is primarily used for:",
+    "options": [
+      "a. Vascular wall assessment",
+      "b. Pericardial disease",
+      "*c. Catheter guidance during interventions",
+      "d. Infarct detection",
+      "e. Perfusion mapping"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a limitation of cardiac MRI?",
+    "options": [
+      "a. Radiation exposure",
+      "*b. Incompatibility with pacemakers",
+      "c. Poor soft tissue contrast",
+      "d. Long acquisition times",
+      "e. High spatial resolution"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which method is ideal for coronary artery calcium scoring?",
+    "options": [
+      "a. Radiography",
+      "*b. CT scan",
+      "c. MRI",
+      "d. Echocardiography",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which technique provides the most accurate ejection fraction assessment?",
+    "options": [
+      "a. Radiography",
+      "b. MRI",
+      "c. CT",
+      "*d. Echocardiography",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "A perfusion defect on myocardial scintigraphy suggests:",
+    "options": [
+      "a. Valve disease",
+      "b. Cardiomyopathy",
+      "*c. Myocardial ischemia or infarction",
+      "d. Aneurysm",
+      "e. Thrombus"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method best detects pericardial effusion?",
+    "options": [
+      "a. CT",
+      "*b. Echocardiography",
+      "c. MRI",
+      "d. Fluoroscopy",
+      "e. Angiography"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is a drawback of coronary angiography?",
+    "options": [
+      "a. Low resolution",
+      "*b. Invasiveness and risk of complications",
+      "c. Inaccurate perfusion data",
+      "d. Limited soft tissue imaging",
+      "e. Lack of contrast"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which imaging is best for congenital heart defects in infants?",
+    "options": [
+      "a. CT",
+      "*b. Echocardiography",
+      "c. MRI",
+      "d. Scintigraphy",
+      "e. Fluoroscopy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The most radiation-intensive cardiac imaging technique is:",
+    "options": [
+      "a. Radiography",
+      "b. MRI",
+      "*c. Coronary angiography",
+      "d. CT",
+      "e. Echocardiography"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Cardiac CT is particularly effective for:",
+    "options": [
+      "a. Valvular stenosis",
+      "b. Aortic dissection",
+      "*c. Coronary artery visualization",
+      "d. Endocarditis",
+      "e. Pericardial effusion"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "An advantage of MRI over CT in cardiac imaging is:",
+    "options": [
+      "a. Cost",
+      "b. Speed",
+      "*c. No radiation",
+      "d. Better for calcification",
+      "e. Angiographic resolution"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the role of Doppler in echocardiography?",
+    "options": [
+      "a. Structure only",
+      "b. Tissue biopsy",
+      "*c. Blood flow and pressure gradients",
+      "d. Myocardial perfusion",
+      "e. Valve calcification"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the gold standard for coronary artery lumen visualization?",
+    "options": [
+      "a. MRI",
+      "*b. Invasive coronary angiography",
+      "c. CT",
+      "d. Echocardiography",
+      "e. PET"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which modality can provide 3D images of the aorta non-invasively?",
+    "options": [
+      "a. Radiography",
+      "b. Fluoroscopy",
+      "*c. CT or MRI",
+      "d. Scintigraphy",
+      "e. Doppler"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the most accurate for myocardial viability assessment?",
+    "options": [
+      "a. Radiography",
+      "b. CT",
+      "*c. MRI or PET",
+      "d. Echocardiography",
+      "e. Fluoroscopy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which modality is preferred in unstable patients for heart imaging?",
+    "options": [
+      "a. MRI",
+      "b. CT",
+      "*c. Echocardiography",
+      "d. Angiography",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a major limitation of echocardiography?",
+    "options": [
+      "a. Radiation",
+      "b. Cost",
+      "*c. Operator dependency and acoustic windows",
+      "d. Invasiveness",
+      "e. Image resolution"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method is ideal for detecting cardiac thrombus in left atrium?",
+    "options": [
+      "a. CT",
+      "*b. Transesophageal echocardiography (TEE)",
+      "c. Radiography",
+      "d. MRI",
+      "e. Angiography"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Coronary artery calcifications are best seen on:",
+    "options": [
+      "a. Radiography",
+      "b. Fluoroscopy",
+      "*c. Non-contrast CT",
+      "d. PET",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does radionuclide ventriculography assess?",
+    "options": [
+      "a. Valve regurgitation",
+      "*b. Ejection fraction and wall motion",
+      "c. Coronary stenosis",
+      "d. Pericardial thickness",
+      "e. Plaque stability"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The most portable cardiac imaging technique is:",
+    "options": [
+      "a. MRI",
+      "b. CT",
+      "c. Angiography",
+      "*d. Echocardiography",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which imaging gives highest soft tissue contrast for cardiac masses?",
+    "options": [
+      "a. CT",
+      "b. Radiography",
+      "*c. MRI",
+      "d. Angiography",
+      "e. Echocardiography"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which imaging modality is most suitable for detecting aortic dissection?",
+    "options": [
+      "a. Echocardiography",
+      "b. MRI",
+      "c. Radiography",
+      "*d. CT angiography",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Fluoroscopy is most useful in which of the following contexts?",
+    "options": [
+      "a. Screening congenital defects",
+      "*b. Real-time guidance during catheterization",
+      "c. Soft tissue characterization",
+      "d. Perfusion studies",
+      "e. Stress testing"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which test uses technetium-99m-labeled tracers to assess myocardial perfusion?",
+    "options": [
+      "a. MRI",
+      "*b. Scintigraphy",
+      "c. CT",
+      "d. Fluoroscopy",
+      "e. Doppler"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Cardiac MRI is contraindicated in patients with:",
+    "options": [
+      "a. Coronary stents",
+      "b. Heart failure",
+      "*c. Non-MRI-compatible pacemakers or defibrillators",
+      "d. Claustrophobia",
+      "e. Mild renal insufficiency"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The primary advantage of stress echocardiography over standard echo is:",
+    "options": [
+      "a. Higher resolution",
+      "*b. Detection of ischemia under load",
+      "c. Better valve imaging",
+      "d. Lower operator dependency",
+      "e. Better contrast"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Aortic coarctation is best assessed by:",
+    "options": [
+      "a. Radiography",
+      "b. Scintigraphy",
+      "*c. CT angiography or MRI angiography",
+      "d. Echocardiography only",
+      "e. PET"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which imaging is best for quantifying myocardial fibrosis?",
+    "options": [
+      "a. CT",
+      "b. Scintigraphy",
+      "*c. MRI (late gadolinium enhancement)",
+      "d. Radiography",
+      "e. PET"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the greatest strength of echocardiography?",
+    "options": [
+      "a. Evaluation of coronary stenosis",
+      "b. Plaque morphology",
+      "*c. Assessment of valve function and chamber size",
+      "d. Radiation-free perfusion",
+      "e. Long-term follow-up"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following is NOT a typical indication for CT angiography?",
+    "options": [
+      "a. Pulmonary embolism",
+      "b. Aortic dissection",
+      "c. Coronary artery calcification",
+      "*d. Myocardial viability assessment",
+      "e. Peripheral vascular disease"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Coronary angiography provides:",
+    "options": [
+      "a. Structural valve analysis",
+      "*b. Dynamic imaging of coronary lumen",
+      "c. Myocardial fibrosis quantification",
+      "d. Soft tissue evaluation",
+      "e. Ejection fraction"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is a limitation of radionuclide perfusion scans?",
+    "options": [
+      "a. No tracer available",
+      "*b. Limited spatial resolution",
+      "c. High contrast dose",
+      "d. Poor temporal resolution",
+      "e. No ECG gating"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the most portable method for point-of-care cardiac evaluation?",
+    "options": [
+      "a. MRI",
+      "b. CT",
+      "*c. Handheld ultrasound (POCUS)",
+      "d. PET",
+      "e. Nuclear scan"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which modality is best for quantifying pericardial thickness?",
+    "options": [
+      "a. X-ray",
+      "*b. MRI or CT",
+      "c. Doppler",
+      "d. Angiography",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "When is transesophageal echocardiography (TEE) preferred over transthoracic?",
+    "options": [
+      "a. For general screening",
+      "b. In pediatrics",
+      "*c. When detailed posterior cardiac structure imaging is needed",
+      "d. For valve replacement monitoring",
+      "e. For contrast studies"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Coronary artery anomalies are best visualized with:",
+    "options": [
+      "a. MRI",
+      "*b. CT angiography",
+      "c. Scintigraphy",
+      "d. Radiography",
+      "e. Fluoroscopy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the risk of iodinated contrast in CT angiography?",
+    "options": [
+      "a. MRI artifacts",
+      "b. Air embolism",
+      "*c. Contrast-induced nephropathy",
+      "d. Hypoglycemia",
+      "e. Claustrophobia"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following is an absolute contraindication to MRI?",
+    "options": [
+      "a. Coronary stent",
+      "b. LV assist device",
+      "*c. Ferromagnetic intracranial aneurysm clip",
+      "d. Contrast allergy",
+      "e. Arrhythmia"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method can evaluate myocardial metabolism?",
+    "options": [
+      "a. CT",
+      "b. Echocardiography",
+      "c. MRI",
+      "*d. PET",
+      "e. Fluoroscopy"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is an advantage of nuclear myocardial perfusion over CT angiography?",
+    "options": [
+      "a. Lower cost",
+      "*b. Functional (perfusion) information",
+      "c. Less radiation",
+      "d. Better anatomic detail",
+      "e. Contrast-free"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A non-contrast CT can evaluate:",
+    "options": [
+      "a. Myocardial perfusion",
+      "b. Pulmonary veins",
+      "*c. Coronary artery calcium",
+      "d. Aneurysm",
+      "e. Wall motion"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which imaging is most commonly used to monitor prosthetic valve function?",
+    "options": [
+      "a. MRI",
+      "b. CT",
+      "*c. Echocardiography",
+      "d. PET",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which modality has the best temporal resolution?",
+    "options": [
+      "a. CT",
+      "*b. Echocardiography",
+      "c. MRI",
+      "d. PET",
+      "e. Radiography"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which cardiac imaging technique is best for stress testing with pharmacologic agents?",
+    "options": [
+      "a. CT",
+      "b. MRI",
+      "*c. Nuclear scintigraphy or stress echo",
+      "d. PET",
+      "e. Fluoroscopy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Coronary artery aneurysms are most clearly seen on:",
+    "options": [
+      "a. Radiograph",
+      "*b. CT angiography",
+      "c. Echocardiography",
+      "d. MRI",
+      "e. PET"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which modality combines anatomical and functional cardiac imaging?",
+    "options": [
+      "a. Radiography",
+      "*b. PET/CT or SPECT/CT hybrid imaging",
+      "c. MRI alone",
+      "d. CT alone",
+      "e. Scintigraphy alone"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which modality is most suitable for detecting cardiac tumors?",
+    "options": [
+      "a. CT",
+      "b. Radiography",
+      "*c. MRI",
+      "d. Scintigraphy",
+      "e. Fluoroscopy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The primary indication for coronary CT angiography is:",
+    "options": [
+      "a. Myocardial infarction",
+      "b. Valve disease",
+      "*c. Assessment of suspected coronary artery disease in low-to-intermediate risk patients",
+      "d. Congenital heart defects",
+      "e. Arrhythmias"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What structure is best visualized using transesophageal echocardiography (TEE)?",
+    "options": [
+      "a. Pulmonary artery",
+      "*b. Left atrial appendage",
+      "c. Right ventricle",
+      "d. Pericardium",
+      "e. Aortic valve"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following provides detailed assessment of myocardial strain and fibrosis?",
+    "options": [
+      "a. CT",
+      "b. Scintigraphy",
+      "*c. Cardiac MRI",
+      "d. Fluoroscopy",
+      "e. X-ray"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which imaging is preferred for assessment of coronary artery bypass grafts?",
+    "options": [
+      "a. Radiography",
+      "b. MRI",
+      "*c. CT angiography",
+      "d. Echocardiography",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the best method for functional assessment of left ventricular systolic function?",
+    "options": [
+      "a. Scintigraphy",
+      "b. CT",
+      "*c. Echocardiography",
+      "d. Radiography",
+      "e. MRI"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which test is most sensitive for detecting myocardial inflammation (myocarditis)?",
+    "options": [
+      "a. Radiography",
+      "b. CT",
+      "*c. Cardiac MRI",
+      "d. Scintigraphy",
+      "e. Fluoroscopy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following methods is contraindicated in patients with severe renal insufficiency?",
+    "options": [
+      "a. Echocardiography",
+      "*b. Contrast-enhanced CT or MRI",
+      "c. Radiography",
+      "d. PET",
+      "e. Fluoroscopy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which imaging technique does not require ionizing radiation?",
+    "options": [
+      "a. CT",
+      "b. Angiography",
+      "*c. MRI",
+      "d. SPECT",
+      "e. PET"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which modality is best for acute pulmonary embolism diagnosis?",
+    "options": [
+      "a. Radiography",
+      "b. MRI",
+      "*c. CT pulmonary angiography (CTPA)",
+      "d. Scintigraphy",
+      "e. Echocardiography"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method can best evaluate pericardial constriction?",
+    "options": [
+      "a. Radiography",
+      "b. CT",
+      "c. Scintigraphy",
+      "*d. MRI and echocardiography",
+      "e. PET"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which of the following is most commonly used in nuclear cardiology?",
+    "options": [
+      "a. Gadolinium",
+      "b. Iodine-123",
+      "*c. Technetium-99m",
+      "d. Barium",
+      "e. Carbon-11"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the major advantage of MRI over CT in congenital heart disease?",
+    "options": [
+      "a. Cost",
+      "b. Calcification detection",
+      "*c. Superior soft tissue and flow visualization without radiation",
+      "d. Speed",
+      "e. Availability"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Coronary angiography can be used for:",
+    "options": [
+      "a. Perfusion analysis",
+      "*b. Direct visualization and intervention of stenotic vessels",
+      "c. Thrombus detection",
+      "d. Fibrosis quantification",
+      "e. Valve area calculation"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Aortic aneurysms are best evaluated using:",
+    "options": [
+      "a. Echocardiography",
+      "*b. CT angiography or MRI",
+      "c. Radiography",
+      "d. PET",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which modality is best for tissue characterization (fat vs fibrosis vs thrombus)?",
+    "options": [
+      "a. Radiography",
+      "b. CT",
+      "*c. MRI",
+      "d. Echocardiography",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which test evaluates coronary perfusion reserve?",
+    "options": [
+      "a. Radiography",
+      "b. CT",
+      "*c. PET or SPECT with vasodilator stress",
+      "d. MRI",
+      "e. Angiography"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is an advantage of using 3D echocardiography?",
+    "options": [
+      "a. Better for perfusion",
+      "b. Less operator dependent",
+      "*c. Improved visualization of valve anatomy and volume quantification",
+      "d. Lower resolution",
+      "e. Cheaper than 2D"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which cardiac imaging modality is most operator-dependent?",
+    "options": [
+      "a. MRI",
+      "b. CT",
+      "c. Scintigraphy",
+      "*d. Echocardiography",
+      "e. PET"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which imaging method is most useful for monitoring cardiac sarcoidosis?",
+    "options": [
+      "a. CT",
+      "b. Radiography",
+      "*c. PET and MRI",
+      "d. Fluoroscopy",
+      "e. Echocardiography"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which imaging provides flow quantification across valves and shunts?",
+    "options": [
+      "a. Radiography",
+      "b. Scintigraphy",
+      "*c. Doppler echocardiography",
+      "d. CT",
+      "e. Angiography"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method best evaluates plaque composition in coronary arteries?",
+    "options": [
+      "a. Echocardiography",
+      "b. Radiography",
+      "*c. Intravascular ultrasound (IVUS) or CT",
+      "d. MRI",
+      "e. PET"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which modality shows myocardial scar most clearly?",
+    "options": [
+      "a. CT",
+      "b. PET",
+      "*c. MRI with delayed enhancement",
+      "d. Radiography",
+      "e. Fluoroscopy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which is the gold standard for cardiac perfusion imaging?",
+    "options": [
+      "a. CT",
+      "b. Radiography",
+      "*c. PET",
+      "d. MRI",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which test is used for quantifying left-to-right shunts (Qp:Qs)?",
+    "options": [
+      "a. Radiography",
+      "*b. MRI or echocardiography with Doppler",
+      "c. Angiography",
+      "d. CT",
+      "e. PET"
+    ],
+    "correctIndex": 1
+  }
+],
+  "t-s-3-8-8": [
+  {
+    "question": "Which modality is most sensitive for early myocardial infarction detection?",
+    "options": [
+      "a. Radiography",
+      "b. CT",
+      "c. Scintigraphy",
+      "*d. MRI (T2 and late gadolinium enhancement)",
+      "e. Fluoroscopy"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which of the following does NOT involve ionizing radiation?",
+    "options": [
+      "a. Angiography",
+      "b. CT",
+      "c. PET",
+      "*d. Echocardiography",
+      "e. SPECT"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which test is best for detecting coronary artery stenosis in symptomatic patients?",
+    "options": [
+      "a. Echocardiography",
+      "b. Radiography",
+      "*c. Coronary CT angiography",
+      "d. Scintigraphy",
+      "e. MRI"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the best imaging method for assessing prosthetic valve dysfunction?",
+    "options": [
+      "a. CT",
+      "b. Scintigraphy",
+      "*c. Transesophageal echocardiography (TEE)",
+      "d. PET",
+      "e. MRI"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which modality offers real-time imaging useful in interventional cardiology?",
+    "options": [
+      "a. MRI",
+      "*b. Fluoroscopy",
+      "c. Scintigraphy",
+      "d. CT",
+      "e. PET"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the primary imaging modality for assessing acute pericarditis?",
+    "options": [
+      "a. CT",
+      "b. Radiography",
+      "*c. Echocardiography",
+      "d. PET",
+      "e. MRI"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which modality is preferred for evaluating suspected cardiac amyloidosis?",
+    "options": [
+      "a. Fluoroscopy",
+      "b. CT",
+      "*c. Cardiac MRI",
+      "d. Radiography",
+      "e. Angiography"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following methods is most useful for mapping myocardial perfusion territories?",
+    "options": [
+      "a. Radiography",
+      "*b. SPECT or PET",
+      "c. CT",
+      "d. Fluoroscopy",
+      "e. TEE"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which technique best assesses dynamic aortic regurgitation?",
+    "options": [
+      "a. CT",
+      "b. PET",
+      "*c. Doppler echocardiography",
+      "d. MRI",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Coronary artery bypass graft (CABG) patency is best evaluated by:",
+    "options": [
+      "a. Echocardiography",
+      "b. Scintigraphy",
+      "*c. CT angiography",
+      "d. PET",
+      "e. Fluoroscopy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method is best for detecting left ventricular thrombus?",
+    "options": [
+      "a. Scintigraphy",
+      "b. Radiography",
+      "c. CT",
+      "*d. MRI or echocardiography",
+      "e. Angiography"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "MRI with T1 and T2 mapping is useful in evaluating:",
+    "options": [
+      "a. Coronary artery stenosis",
+      "b. Aortic coarctation",
+      "*c. Myocardial edema and fibrosis",
+      "d. Pericardial effusion",
+      "e. Valve calcification"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following is NOT a typical use of fluoroscopy?",
+    "options": [
+      "a. Catheter guidance",
+      "b. Valve replacement",
+      "*c. Perfusion assessment",
+      "d. Pacemaker lead placement",
+      "e. Coronary angiography"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which modality is best for assessing ventricular wall motion abnormalities?",
+    "options": [
+      "a. CT",
+      "b. Radiography",
+      "*c. Echocardiography or MRI",
+      "d. PET",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Cardiac PET is most valuable in evaluating:",
+    "options": [
+      "a. Valve stenosis",
+      "*b. Myocardial viability and perfusion",
+      "c. Aortic dissection",
+      "d. Shunt quantification",
+      "e. Pericardial thickness"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the typical role of chest X-ray in cardiac disease?",
+    "options": [
+      "a. Flow measurement",
+      "b. Valve analysis",
+      "*c. Screening for cardiomegaly and pulmonary congestion",
+      "d. Coronary plaque visualization",
+      "e. Myocardial fibrosis detection"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The major disadvantage of PET scanning is:",
+    "options": [
+      "a. Low diagnostic accuracy",
+      "b. Invasiveness",
+      "*c. High cost and limited availability",
+      "d. Operator dependency",
+      "e. Poor resolution"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the main risk of gadolinium in renal failure?",
+    "options": [
+      "a. Anaphylaxis",
+      "b. Stroke",
+      "*c. Nephrogenic systemic fibrosis (NSF)",
+      "d. Embolism",
+      "e. Bradycardia"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which modality uses Doppler to estimate pressure gradients?",
+    "options": [
+      "a. MRI",
+      "*b. Echocardiography",
+      "c. Radiography",
+      "d. CT",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the most accurate method for evaluating aortic stenosis severity?",
+    "options": [
+      "a. CT",
+      "b. MRI",
+      "*c. Doppler echocardiography",
+      "d. Radiography",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a limitation of CT angiography in cardiac imaging?",
+    "options": [
+      "a. Long acquisition time",
+      "*b. Artifacts from motion or arrhythmia",
+      "c. Poor resolution",
+      "d. Low contrast",
+      "e. Poor 3D reconstruction"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The imaging of choice for pulmonary artery hypertension evaluation is:",
+    "options": [
+      "a. CT",
+      "b. Fluoroscopy",
+      "*c. Echocardiography (with Doppler)",
+      "d. MRI",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method allows simultaneous anatomic and metabolic cardiac imaging?",
+    "options": [
+      "a. CT",
+      "*b. PET-CT hybrid",
+      "c. Radiography",
+      "d. Fluoroscopy",
+      "e. MRI"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which is the best method to detect coronary steal phenomenon?",
+    "options": [
+      "a. CT",
+      "b. MRI",
+      "*c. Nuclear perfusion imaging with vasodilator stress",
+      "d. Fluoroscopy",
+      "e. Echocardiography"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which cardiac imaging technique provides the most reproducible quantification of volumes and EF?",
+    "options": [
+      "a. Echocardiography",
+      "b. CT",
+      "*c. Cardiac MRI",
+      "d. PET",
+      "e. Angiography"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which condition is suggested by a very large heart shadow on X-ray?",
+    "options": [
+      "a. Pneumonia",
+      "b. Lung cancer",
+      "c. Asthma",
+      "*d. Heart enlargement",
+      "e. Pneumothorax"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which X-ray sign is typical in heart failure?",
+    "options": [
+      "a. Free air under diaphragm",
+      "b. Rib fracture",
+      "*c. Fluid in the lungs",
+      "d. Pneumothorax",
+      "e. Enlarged stomach bubble"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "On X-ray, Kerley B lines are signs of:",
+    "options": [
+      "a. Lung tumor",
+      "b. Fractured ribs",
+      "*c. Fluid in lungs (edema)",
+      "d. Emphysema",
+      "e. Normal variant"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does a \"widened mediastinum\" often suggest?",
+    "options": [
+      "a. Rib fracture",
+      "b. Pleural fluid",
+      "*c. Aortic disease",
+      "d. Pneumonia",
+      "e. Atelectasis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What shape is the heart in pericardial effusion?",
+    "options": [
+      "a. Small",
+      "b. Sharp",
+      "*c. Round and large (“water bottle”)",
+      "d. Normal",
+      "e. Cone-shaped"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "In which condition is the heart silhouette small on X-ray?",
+    "options": [
+      "*a. Emphysema",
+      "b. Heart failure",
+      "c. Pericarditis",
+      "d. Aortic aneurysm",
+      "e. Pleural effusion"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What does pulmonary venous congestion mean on X-ray?",
+    "options": [
+      "a. Normal lungs",
+      "b. Pneumothorax",
+      "*c. Lungs with signs of heart failure",
+      "d. Tuberculosis",
+      "e. Pneumonia"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A heart shadow that touches the chest wall may mean:",
+    "options": [
+      "a. Small heart",
+      "*b. Enlarged heart",
+      "c. Collapsed lung",
+      "d. Tumor",
+      "e. Rib fracture"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is a simple sign of aortic coarctation on X-ray?",
+    "options": [
+      "a. Air bronchogram",
+      "b. Cardiomegaly",
+      "*c. Indentation on aortic knob (“figure 3” sign)",
+      "d. Pleural thickening",
+      "e. Cavitation"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does the “snowman” heart indicate (in children)?",
+    "options": [
+      "a. Asthma",
+      "b. Lung infection",
+      "*c. Total anomalous pulmonary venous return",
+      "d. Heart valve disease",
+      "e. Cardiac tamponade"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does a large heart on X-ray usually indicate?",
+    "options": [
+      "a. Pneumothorax",
+      "*b. Cardiomegaly",
+      "c. Tuberculosis",
+      "d. Emphysema",
+      "e. Fracture"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is a “normal” cardiothoracic ratio on X-ray?",
+    "options": [
+      "a. 10%",
+      "b. 25%",
+      "*c. Less than 50%",
+      "d. 70%",
+      "e. More than 80%"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which sign shows fluid in pleural cavity due to heart failure?",
+    "options": [
+      "a. Normal lung",
+      "b. Cavitation",
+      "*c. Blunted costophrenic angle",
+      "d. Bronchiectasis",
+      "e. Rib crowding"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a sign of congenital heart defect on X-ray in infants?",
+    "options": [
+      "a. Flattened diaphragm",
+      "b. Fracture",
+      "*c. Abnormal heart shape",
+      "d. Rib calcification",
+      "e. Lung collapse"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which sign is most typical in mitral valve disease?",
+    "options": [
+      "a. Pneumothorax",
+      "b. Tracheal shift",
+      "*c. Left atrial enlargement (double contour)",
+      "d. Bronchiectasis",
+      "e. Free air"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Cephalization of lung vessels means:",
+    "options": [
+      "a. Liver enlargement",
+      "b. Brain swelling",
+      "*c. Upper lung veins are enlarged",
+      "d. Rib expansion",
+      "e. Lung fibrosis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What can cause a sharp heart border to disappear?",
+    "options": [
+      "a. Pneumothorax",
+      "b. Pleural effusion",
+      "*c. Pneumonia next to heart",
+      "d. Emphysema",
+      "e. Aneurysm"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does rib notching suggest in cardiovascular X-ray?",
+    "options": [
+      "a. Pleural thickening",
+      "b. Pulmonary edema",
+      "*c. Coarctation of the aorta",
+      "d. TB",
+      "e. Heart valve defect"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What causes increased pulmonary artery shadow?",
+    "options": [
+      "a. Gastritis",
+      "*b. Pulmonary hypertension",
+      "c. Pneumothorax",
+      "d. Pericardial effusion",
+      "e. Air embolism"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Enlarged right heart contour on frontal X-ray may indicate:",
+    "options": [
+      "a. Tuberculosis",
+      "b. Pneumonia",
+      "*c. Right ventricular hypertrophy",
+      "d. Lung cancer",
+      "e. Asthma"
+    ],
+    "correctIndex": 2
+  }
+]
 };
