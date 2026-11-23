@@ -3,7 +3,7 @@ import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import {
   Mail, Lock, User, ArrowRight, ShieldCheck, CheckCircle,
-  Eye, EyeOff, BookOpen, Brain, Trophy, Zap, Star, Home
+  Eye, EyeOff, BookOpen, Brain, Trophy, Zap, Star, ArrowLeft
 } from 'lucide-react';
 import styles from './AuthPage.module.css';
 
@@ -104,7 +104,7 @@ export default function LoginPage() {
       <div className={styles.page}>
         <div className={styles.bgBlob1} /><div className={styles.bgBlob2} />
         <div className={styles.card}>
-          <div className={styles.logo} style={{ background: 'linear-gradient(135deg, #4f46e5, #7c3aed)' }}>
+          <div className={styles.logo}>
             <ShieldCheck size={28} color="#fff" />
           </div>
           <h1 className={styles.title}>Verify Your Email</h1>
@@ -152,18 +152,17 @@ export default function LoginPage() {
     <div className={styles.page}>
       <div className={styles.bgBlob1} />
       <div className={styles.bgBlob2} />
-
-      {/* Back to home — top-left floating */}
-      <Link to="/" className={styles.homeLink}>
-        <Home size={15} /> Back to Home
-      </Link>
       <div className={styles.bgBlob3} />
 
       {/* ── Left Panel (desktop only) ── */}
       <div className={styles.leftPanel}>
         <div className={styles.leftContent}>
+          <Link to="/" className={styles.leftHomeLink}>
+            <ArrowLeft size={15} /> Back to SAMU MCQs
+          </Link>
+
           <div className={styles.leftLogo}>
-            <BookOpen size={22} color="#fff" />
+            <BookOpen size={24} color="#fff" />
           </div>
           <h2 className={styles.leftTitle}>SAMU MCQs</h2>
           <p className={styles.leftSub}>Your complete medical exam preparation platform for all 6 years of SAMU education.</p>
@@ -171,15 +170,11 @@ export default function LoginPage() {
           <div className={styles.leftPerks}>
             {PERKS.map(p => (
               <div key={p.text} className={styles.leftPerk}>
-                <div className={styles.leftPerkIcon}><p.icon size={16} color="#a5b4fc" /></div>
+                <div className={styles.leftPerkIcon}><p.icon size={16} color="#38bdf8" /></div>
                 <span>{p.text}</span>
               </div>
             ))}
           </div>
-
-          <Link to="/" className={styles.leftHomeLink}>
-            <Home size={14} /> Back to Home
-          </Link>
 
           <div className={styles.leftStats}>
             <div className={styles.leftStat}><strong>8K+</strong><span>MCQs</span></div>
@@ -191,7 +186,7 @@ export default function LoginPage() {
 
           <div className={styles.leftTestimonial}>
             <div className={styles.testimonialStars}>
-              {[1,2,3,4,5].map(i => <Star key={i} size={12} color="#fbbf24" fill="#fbbf24" />)}
+              {[1,2,3,4,5].map(i => <Star key={i} size={13} color="#f59e0b" fill="#f59e0b" />)}
             </div>
             <p>"Best MCQ platform for SAMU students. Scored 78 in Biochemistry CBT!"</p>
             <span>— Abdul A., 3rd Year</span>
@@ -202,10 +197,17 @@ export default function LoginPage() {
       {/* ── Right Panel / Form ── */}
       <div className={styles.rightPanel}>
         <div className={styles.card}>
+          {/* Mobile Back Link */}
+          <div className={styles.mobileBackRow}>
+            <Link to="/" className={styles.mobileBackLink}>
+              <ArrowLeft size={14} /> Back to SAMU MCQs
+            </Link>
+          </div>
+
           {/* Mobile logo */}
           <div className={styles.mobileLogo}>
             <div className={styles.logo}>
-              <ShieldCheck size={26} color="#fff" />
+              <BookOpen size={26} color="#fff" />
             </div>
           </div>
 
