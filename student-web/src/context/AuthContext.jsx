@@ -3,6 +3,8 @@ import { supabase } from '../lib/supabase';
 
 const AuthContext = createContext(null);
 
+const isSuperAdminEmail = (email) => email?.toLowerCase() === 'mohd6396889713@gmail.com';
+
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [profile, setProfile] = useState(null);
@@ -15,7 +17,7 @@ export function AuthProvider({ children }) {
       setUser(session?.user ?? null);
       setLoading(false);
       if (session?.user) {
-        fetchUserData(session.user.id);
+        fetchUserData(session.user.id, session.user.email);
       }
     });
 
@@ -24,7 +26,7 @@ export function AuthProvider({ children }) {
       setUser(session?.user ?? null);
       setLoading(false);
       if (session?.user) {
-        fetchUserData(session.user.id);
+        fetchUserData(session.user.id, session.user.email);
       } else {
         setProfile(null);
         setSubscription(null);
@@ -34,10 +36,13 @@ export function AuthProvider({ children }) {
     return () => authSub.unsubscribe();
   }, []);
 
-  async function fetchUserData(userId) {
+  async function fetchUserData(userId, userEmail) {
+    const emailToCheck = (userEmail || user?.email || '').toLowerCase();
+    const isSuper = isSuperAdminEmail(emailToCheck);
+
     try {
       const [profileRes, subRes] = await Promise.all([
-        supabase.from('profiles').select('*').eq('id', userId).single(),
+        supabase.from('profiles').select('*').eq('id', userId).maybeSingle(),
         supabase.from('subscriptions').select('*').eq('user_id', userId).eq('status', 'active').maybeSingle()
       ]);
 
@@ -46,10 +51,54 @@ export function AuthProvider({ children }) {
         return;
       }
 
-      setProfile(profileRes.data);
-      setSubscription(subRes.data);
+      let prof = profileRes.data;
+      if (isSuper || prof?.role === 'admin') {
+        prof = {
+          ...(prof || {}),
+          id: userId,
+          email: prof?.email || emailToCheck || 'mohd6396889713@gmail.com',
+          name: prof?.name || 'Sameer Ahmad',
+          role: 'admin',
+          status: 'active',
+          isSuperAdmin: true,
+        };
+      }
+
+      let sub = subRes.data;
+      if ((isSuper || prof?.role === 'admin') && !sub) {
+        sub = {
+          id: 'lifetime-admin-sub',
+          user_id: userId,
+          status: 'active',
+          plan_id: 'lifetime_super_admin',
+          start_date: '2026-01-01T00:00:00.000Z',
+          end_date: '2099-12-31T23:59:59.000Z',
+          created_at: '2026-01-01T00:00:00.000Z'
+        };
+      }
+
+      setProfile(prof);
+      setSubscription(sub);
     } catch (e) {
       console.error('Fetch user data error:', e);
+      if (isSuper) {
+        setProfile({
+          id: userId,
+          email: emailToCheck,
+          name: 'Sameer Ahmad',
+          role: 'admin',
+          status: 'active',
+          isSuperAdmin: true,
+        });
+        setSubscription({
+          id: 'lifetime-admin-sub',
+          user_id: userId,
+          status: 'active',
+          plan_id: 'lifetime_super_admin',
+          start_date: '2026-01-01T00:00:00.000Z',
+          end_date: '2099-12-31T23:59:59.000Z'
+        });
+      }
     }
   }
 
@@ -135,11 +184,12 @@ export function AuthProvider({ children }) {
     setLoading(false);
   }
 
-  const isSubscribed = !!subscription || profile?.role === 'admin';
+  const isSuperAdmin = isSuperAdminEmail(user?.email) || profile?.role === 'admin' || profile?.isSuperAdmin;
+  const isSubscribed = !!subscription || isSuperAdmin;
 
   return (
     <AuthContext.Provider value={{ 
-      user, profile, subscription, loading, isSubscribed, 
+      user, profile, subscription, loading, isSubscribed, isSuperAdmin,
       signIn, signUp, signOut, verifyOTP, resendOTP, resetPassword, updatePassword
     }}>
       {children}

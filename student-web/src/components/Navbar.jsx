@@ -1,6 +1,6 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { BookOpen, Bell, LogOut } from 'lucide-react';
+import { BookOpen, Bell, LogOut, Shield } from 'lucide-react';
 import styles from './Navbar.module.css';
 
 const NAV_LINKS = [
@@ -15,12 +15,17 @@ const NAV_LINKS = [
 ];
 
 export default function Navbar() {
-  const { user, profile, signOut } = useAuth();
+  const { user, profile, isSuperAdmin, signOut } = useAuth();
   const location = useLocation();
   const navigate = useNavigate();
 
-  const displayName = profile?.name || profile?.full_name || user?.email || 'M';
-  const initial = displayName[0]?.toUpperCase() || 'M';
+  const isSuper = isSuperAdmin || user?.email?.toLowerCase() === 'mohd6396889713@gmail.com' || profile?.role === 'admin';
+  const displayName = profile?.name || (isSuper ? 'Sameer Ahmad' : (profile?.full_name || user?.email || 'M'));
+  const initial = isSuper ? 'S' : (displayName[0]?.toUpperCase() || 'M');
+
+  const adminPanelUrl = typeof window !== 'undefined' && window.location.hostname === 'localhost'
+    ? 'http://localhost:5173'
+    : 'https://ssmu-admin.netlify.app';
 
   const handleSignOut = async () => {
     await signOut();
@@ -60,6 +65,18 @@ export default function Navbar() {
         <div className={styles.actions}>
           {user ? (
             <>
+              {isSuper && (
+                <a 
+                  href={adminPanelUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.adminNavPill}
+                  title="Open Super Admin Panel"
+                >
+                  <Shield size={14} />
+                  <span className={styles.adminNavText}>Admin Panel</span>
+                </a>
+              )}
               <button className={styles.bellBtn} title="Notifications">
                 <Bell size={18} />
                 <span className={styles.bellDot} />

@@ -59,22 +59,23 @@ export default function ProfilePage() {
     }
   };
 
-  const name  = profile?.name || profile?.full_name || user?.email?.split('@')[0] || 'Student';
-  const email = user?.email || '';
-  const role  = profile?.role || 'student';
-  const initials = name.split(' ').map(w => w[0]).join('').toUpperCase().slice(0, 2);
+  const isSuper = user?.email?.toLowerCase() === 'mohd6396889713@gmail.com' || profile?.role === 'admin' || profile?.isSuperAdmin;
+  const name  = profile?.name || (isSuper ? 'Sameer Ahmad' : (profile?.full_name || user?.email?.split('@')[0] || 'Student'));
+  const email = user?.email || (isSuper ? 'mohd6396889713@gmail.com' : '');
+  const role  = isSuper ? 'Super Admin' : (profile?.role || 'student');
+  const initials = isSuper ? 'SA' : name.split(' ').map(w => w[0]).join('').toUpperCase().slice(0, 2);
 
   const daysLeft = subscription?.end_date
     ? Math.max(0, Math.ceil((new Date(subscription.end_date) - new Date()) / 86400000))
-    : null;
+    : (isSuper ? 3650 : null);
 
   const subStart = subscription?.start_date
     ? new Date(subscription.start_date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })
-    : null;
+    : (isSuper ? 'Permanent' : null);
 
-  const subEnd = subscription?.end_date
-    ? new Date(subscription.end_date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })
-    : null;
+  const subEnd = isSuper 
+    ? 'Lifetime VIP' 
+    : (subscription?.end_date ? new Date(subscription.end_date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) : null);
 
   // Progress bar for subscription days used
   const totalDays = subscription?.start_date && subscription?.end_date
@@ -88,6 +89,8 @@ export default function ProfilePage() {
     await signOut();
     navigate('/login');
   };
+
+  const adminPanelUrl = window.location.hostname === 'localhost' ? 'http://localhost:5173' : 'https://ssmu-admin.netlify.app';
 
   return (
     <div className={styles.page}>
@@ -103,12 +106,43 @@ export default function ProfilePage() {
           <h1 className={styles.title}>My Profile</h1>
         </div>
 
+        {/* ── Super Admin Control Card ── */}
+        {isSuper && (
+          <div className={styles.adminControlCard}>
+            <div className={styles.adminCardHeader}>
+              <div className={styles.adminCardTitleBlock}>
+                <Shield size={22} color="#FBBF24" />
+                <span className={styles.adminCardTitle}>Super Admin Control Center</span>
+              </div>
+              <span className={styles.superAdminBadge}>★ Super Admin</span>
+            </div>
+            <p className={styles.adminCardDesc}>
+              Welcome, <strong>Sameer Ahmad</strong>! Full platform administrative authority is enabled. You have unrestricted access to manage users, courses, subjects, MCQs, payments, and system controls.
+            </p>
+            <div className={styles.adminBtnRow}>
+              <a 
+                href={adminPanelUrl} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className={styles.adminLaunchBtn}
+              >
+                <Zap size={16} /> Open Admin Control Panel <ArrowRight size={14} />
+              </a>
+              <Link to="/home" className={styles.adminSecondaryBtn}>
+                <BookOpen size={15} /> Student Mode View
+              </Link>
+            </div>
+          </div>
+        )}
+
         {/* ── Hero Avatar Card ── */}
         <div className={styles.avatarCard}>
           <div className={styles.avatarBg} />
           <div className={styles.avatarTopRow}>
             <div className={styles.avatarCircle}>{initials}</div>
-            {role === 'admin' && (
+            {isSuper ? (
+              <span className={styles.superAdminBadge}><Crown size={12} /> Super Admin</span>
+            ) : role === 'admin' && (
               <span className={styles.adminBadge}><Shield size={12} /> Admin</span>
             )}
           </div>
@@ -128,7 +162,7 @@ export default function ProfilePage() {
             </div>
             <div className={styles.avatarMetaDivider} />
             <div className={styles.avatarMetaItem}>
-              <span className={styles.avatarMetaVal}>{isSubscribed ? '✓ Active' : 'Free'}</span>
+              <span className={styles.avatarMetaVal}>{isSuper ? '✓ Lifetime VIP' : (isSubscribed ? '✓ Active' : 'Free')}</span>
               <span className={styles.avatarMetaLabel}>Plan</span>
             </div>
           </div>
@@ -139,18 +173,18 @@ export default function ProfilePage() {
           <div className={styles.cardHeader}>
             <Crown size={18} color="#FBBF24" />
             <span>Subscription Plan</span>
-            {isSubscribed && <span className={styles.activePill}>ACTIVE</span>}
+            {(isSubscribed || isSuper) && <span className={styles.activePill}>ACTIVE</span>}
           </div>
 
-          {isSubscribed ? (
+          {(isSubscribed || isSuper) ? (
             <div className={styles.subActive}>
               <div className={styles.subTopRow}>
                 <div className={styles.subIconBox}>
                   <Crown size={28} color="#F59E0B" />
                 </div>
                 <div>
-                  <div className={styles.subPlanName}>Premium Access</div>
-                  <div className={styles.subPlanDesc}>All 6 courses · All MCQs · AI Assistant</div>
+                  <div className={styles.subPlanName}>{isSuper ? 'Super Admin Lifetime Pass' : 'Premium Access'}</div>
+                  <div className={styles.subPlanDesc}>{isSuper ? 'Unrestricted Lifetime Access · All 6 Medical Courses · 8,000+ MCQs · Full Admin Privileges' : 'All 6 courses · All MCQs · AI Assistant'}</div>
                 </div>
                 <CheckCircle size={24} color="#10B981" style={{ marginLeft: 'auto', flexShrink: 0 }} />
               </div>
@@ -167,16 +201,16 @@ export default function ProfilePage() {
                 )}
                 {subEnd && (
                   <div className={styles.subDateItem}>
-                    <Clock size={14} color="#EF4444" />
+                    <Clock size={14} color={isSuper ? '#10B981' : '#EF4444'} />
                     <div>
-                      <div className={styles.subDateLabel}>Expiry Date</div>
+                      <div className={styles.subDateLabel}>{isSuper ? 'Access Status' : 'Expiry Date'}</div>
                       <div className={styles.subDateVal}>{subEnd}</div>
                     </div>
                   </div>
                 )}
               </div>
 
-              {totalDays && (
+              {!isSuper && totalDays && (
                 <div className={styles.progressSection}>
                   <div className={styles.progressLabels}>
                     <span>{usedDays} days used</span>
@@ -193,7 +227,7 @@ export default function ProfilePage() {
                 </div>
               )}
 
-              {daysLeft !== null && daysLeft <= 7 && (
+              {!isSuper && daysLeft !== null && daysLeft <= 7 && (
                 <div className={styles.expiryWarning}>
                   <span>⚠️ Your subscription expires soon!</span>
                   <Link to="/subscribe" className={styles.renewLink}>Renew Now <ArrowRight size={12} /></Link>
