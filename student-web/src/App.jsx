@@ -21,6 +21,7 @@ const SubscribePage     = lazy(() => import('./pages/SubscribePage'));
 const DrugReferencePage = lazy(() => import('./pages/DrugReferencePage'));
 const ClinicalCasePage  = lazy(() => import('./pages/ClinicalCasePage'));
 const RevisionEnginePage= lazy(() => import('./pages/RevisionEnginePage'));
+const AdminPage         = lazy(() => import('./pages/AdminPage'));
 
 // ── Prefetch all page chunks in the background after first render ─────────────
 // This silently downloads all chunks while the user reads the landing page,
@@ -98,6 +99,7 @@ export default function App() {
             <Route path="/drugs"            element={<ProtectedRoute><DrugReferencePage /></ProtectedRoute>} />
             <Route path="/clinical-case"    element={<ProtectedRoute><ClinicalCasePage /></ProtectedRoute>} />
             <Route path="/revision"         element={<ProtectedRoute><RevisionEnginePage /></ProtectedRoute>} />
+            <Route path="/admin"            element={<ProtectedRoute><AdminPage /></ProtectedRoute>} />
 
             {/* Fallback */}
             <Route path="*" element={<Navigate to="/" replace />} />

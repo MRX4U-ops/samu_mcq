@@ -73,16 +73,14 @@ export default function Navbar() {
           {user ? (
             <>
               {isSuper && (
-                <a 
-                  href={adminPanelUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link 
+                  to="/admin"
                   className={styles.adminNavPill}
                   title="Open Super Admin Panel"
                 >
                   <Shield size={14} />
                   <span className={styles.adminNavText}>Admin Panel</span>
-                </a>
+                </Link>
               )}
               <button className={styles.bellBtn} title="Notifications">
                 <Bell size={18} />

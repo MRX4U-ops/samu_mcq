@@ -129,14 +129,12 @@ export default function ProfilePage() {
               Welcome, <strong>Sameer Ahmad</strong>! Full platform administrative authority is enabled. You have unrestricted access to manage users, courses, subjects, MCQs, payments, and system controls.
             </p>
             <div className={styles.adminBtnRow}>
-              <a 
-                href={adminPanelUrl} 
-                target="_blank" 
-                rel="noopener noreferrer"
+              <Link 
+                to="/admin" 
                 className={styles.adminLaunchBtn}
               >
                 <Zap size={16} /> Open Admin Control Panel <ArrowRight size={14} />
-              </a>
+              </Link>
               <Link to="/home" className={styles.adminSecondaryBtn}>
                 <BookOpen size={15} /> Student Mode View
               </Link>
