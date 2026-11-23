@@ -1,35 +1,42 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, ChevronDown, ChevronUp, BookOpen, Clock, Award, ChevronLeft, XCircle } from 'lucide-react';
 import Navbar from '../components/Navbar';
-import biochemistryResults from '../data/biochemistry_results.json';
-import microbiologyResults from '../data/microbiology_results.json';
-import anatomyResults from '../data/clinical_anatomy_results.json';
 import styles from './ExamResultPage.module.css';
 
 const SUBJECTS = [
-  { id: 'biochemistry', title: 'Biochemistry 2026', data: biochemistryResults },
-  { id: 'microbiology', title: 'Microbiology CBT 2026', data: microbiologyResults },
-  { id: 'anatomy', title: 'Clinical Anatomy 2026', data: anatomyResults },
+  { id: 'biochemistry',  title: 'Biochemistry 2026',    file: () => import('../data/biochemistry_results.json') },
+  { id: 'microbiology',  title: 'Microbiology CBT 2026', file: () => import('../data/microbiology_results.json') },
+  { id: 'anatomy',       title: 'Clinical Anatomy 2026', file: () => import('../data/clinical_anatomy_results.json') },
 ];
 
 export default function ExamResultPage() {
   const [query, setQuery] = useState('');
   const [activeSubjectId, setActiveSubjectId] = useState('biochemistry');
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [subjectData, setSubjectData] = useState([]);
+  const [loadingData, setLoadingData] = useState(true);
 
-  const currentSubject = SUBJECTS.find(s => s.id === activeSubjectId) || SUBJECTS[0];
+  // Load only the selected subject's data on demand
+  useEffect(() => {
+    setLoadingData(true);
+    const subj = SUBJECTS.find(s => s.id === activeSubjectId);
+    subj.file().then(mod => {
+      setSubjectData(mod.default || mod);
+      setLoadingData(false);
+    });
+  }, [activeSubjectId]);
+
+  const currentSubjectTitle = SUBJECTS.find(s => s.id === activeSubjectId)?.title || '';
 
   const filteredResults = useMemo(() => {
-    if (!query || query.trim().length === 0) {
-      return currentSubject.data;
-    }
+    if (!query || query.trim().length === 0) return subjectData;
     const term = query.toLowerCase().trim();
-    return currentSubject.data.filter(item => 
-      item.name.toLowerCase().includes(term) || 
+    return subjectData.filter(item =>
+      item.name.toLowerCase().includes(term) ||
       item.group.toLowerCase().includes(term)
     );
-  }, [query, currentSubject]);
+  }, [query, subjectData]);
 
   return (
     <div className={styles.page}>
@@ -50,7 +57,7 @@ export default function ExamResultPage() {
           >
             <div className={styles.dropdownTitle}>
               <BookOpen size={20} color="var(--accent-blue)" />
-              <span>{currentSubject.title}</span>
+              <span>{currentSubjectTitle}</span>
             </div>
             {isDropdownOpen ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
           </button>
@@ -85,7 +92,9 @@ export default function ExamResultPage() {
         </div>
 
         <div className={styles.resultsList}>
-          {filteredResults.length === 0 ? (
+          {loadingData ? (
+            <div style={{textAlign:'center',padding:'40px',color:'#6B7280'}}>Loading results...</div>
+          ) : filteredResults.length === 0 ? (
             <div className={styles.empty}>
               <XCircle size={48} color="#EF4444" />
               <h2 className={styles.emptyTitle}>No records found</h2>
@@ -103,7 +112,7 @@ export default function ExamResultPage() {
                   <div className={styles.cardHeader}>
                     <div className={styles.cardTitleWrap}>
                       <BookOpen size={16} color="var(--accent-blue)" />
-                      <span className={styles.cardSubjectTitle}>{currentSubject.title}</span>
+                      <span className={styles.cardSubjectTitle}>{currentSubjectTitle}</span>
                     </div>
                     <div className={`${styles.badge} ${isPassed ? styles.badgePassed : styles.badgeFailed}`}>
                       {isPassed ? 'Passed' : 'Failed'}

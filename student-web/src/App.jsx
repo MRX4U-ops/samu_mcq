@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react';
+import React, { lazy, Suspense, useEffect } from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
@@ -22,6 +22,38 @@ const DrugReferencePage = lazy(() => import('./pages/DrugReferencePage'));
 const ClinicalCasePage  = lazy(() => import('./pages/ClinicalCasePage'));
 const RevisionEnginePage= lazy(() => import('./pages/RevisionEnginePage'));
 
+// ── Prefetch all page chunks in the background after first render ─────────────
+// This silently downloads all chunks while the user reads the landing page,
+// so every tab click & login feel instant (chunk already in browser cache).
+function usePrefetchAllPages() {
+  useEffect(() => {
+    const prefetch = () => {
+      import('./pages/LoginPage');
+      import('./pages/HomePage');
+      import('./pages/CoursePage');
+      import('./pages/SubjectPage');
+      import('./pages/QuizPage');
+      import('./pages/BattlePage');
+      import('./pages/LeaderboardPage');
+      import('./pages/AskAIPage');
+      import('./pages/GuidancePage');
+      import('./pages/ProfilePage');
+      import('./pages/SubscribePage');
+      import('./pages/DrugReferencePage');
+      import('./pages/ClinicalCasePage');
+      import('./pages/HelpDeskPage');
+      import('./pages/ExamResultPage');
+      import('./pages/RevisionEnginePage');
+    };
+    // Use requestIdleCallback so prefetch never blocks main thread
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(prefetch, { timeout: 3000 });
+    } else {
+      setTimeout(prefetch, 2000);
+    }
+  }, []);
+}
+
 // Lightweight spinner shown while a lazy chunk loads
 const PageLoader = () => (
   <div style={{
@@ -39,6 +71,7 @@ const PageLoader = () => (
 );
 
 export default function App() {
+  usePrefetchAllPages();
   return (
     <AuthProvider>
       <HashRouter>

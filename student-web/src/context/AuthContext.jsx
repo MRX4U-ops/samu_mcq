@@ -53,8 +53,12 @@ export function AuthProvider({ children }) {
     const { data, error } = await supabase.auth.signInWithPassword({ email, password });
     if (error) throw error;
     
-    // Check if blocked
-    const { data: profileData } = await supabase.from('profiles').select('status').eq('id', data.user.id).single();
+    // Check if blocked — single fast query, runs in parallel with onAuthStateChange
+    const { data: profileData } = await supabase
+      .from('profiles')
+      .select('status')
+      .eq('id', data.user.id)
+      .single();
     if (profileData?.status === 'blocked') {
       await supabase.auth.signOut();
       throw new Error('This account is blocked.');
