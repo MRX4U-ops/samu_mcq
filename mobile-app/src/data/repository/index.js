@@ -14,6 +14,9 @@ import { s_2_9_situational } from './course2/s-2-9-situational.js';
 import { s_2_10 } from './course2/s-2-10.js';
 import { s_2_10_situational } from './course2/s-2-10-situational.js';
 
+import { s_3_8 } from './course3/s-3-8.js';
+import { s_3_8_situational } from './course3/s-3-8-situational.js';
+
 // Merge test and situational data for structured subjects
 const s_2_0_merged = Object.fromEntries(
   Object.keys(s_2_0).map(tKey => [
@@ -50,6 +53,13 @@ const s_2_10_merged = Object.fromEntries(
   ])
 );
 
+const s_3_8_merged = Object.fromEntries(
+  Object.keys(s_3_8).map(tKey => [
+    tKey,
+    { test: s_3_8[tKey], situational: s_3_8_situational[tKey] || [] }
+  ])
+);
+
 export const MCQ_REPOSITORY = {
   "s-1-0": s_1_0,
   "s-1-9": s_1_9,
@@ -61,4 +71,5 @@ export const MCQ_REPOSITORY = {
   "s-2-8": s_2_8,
   "s-2-9": s_2_9_merged,
   "s-2-10": s_2_10_merged,
+  "s-3-8": s_3_8_merged,
 };

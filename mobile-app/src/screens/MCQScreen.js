@@ -12,6 +12,15 @@ import { MCQ_REPOSITORY } from '../data/mcqRepository';
 
 import { supabase } from '../services/supabaseClient';
 
+const cleanOption = (opt) => {
+  if (typeof opt !== 'string') return opt;
+  let cleaned = opt.replace(/^[\*\s"'`\/]+/, '');
+  cleaned = cleaned.replace(/^[a-zA-Z][\.\)\-]\s*/, '');
+  cleaned = cleaned.replace(/^[\*\s"'`\/]+/, '');
+  cleaned = cleaned.replace(/[\*\s"'`\/]+$/, '');
+  return cleaned.trim() || opt;
+};
+
 const MCQScreen = ({ route, navigation }) => {
   const { colors, isDarkMode } = useTheme();
   const { user, subscription, profile } = useAuthStore();
@@ -214,10 +223,12 @@ const MCQScreen = ({ route, navigation }) => {
 
           // Map questions: shuffle options, update correctIndex, and set ID/type
           const mapped = selected.map((q, idx) => {
-            const options = [...q.options];
-            const correctValue = options[q.correctIndex !== undefined ? q.correctIndex : 0];
+            const rawOpts = q.options || [];
+            const cleanedOpts = rawOpts.map(cleanOption);
+            const correctValue = cleanedOpts[q.correctIndex !== undefined && q.correctIndex >= 0 ? q.correctIndex : 0];
             
             // Shuffle options
+            const options = [...cleanedOpts];
             for (let i = options.length - 1; i > 0; i--) {
               const j = Math.floor(Math.random() * (i + 1));
               [options[i], options[j]] = [options[j], options[i]];
@@ -270,10 +281,12 @@ const MCQScreen = ({ route, navigation }) => {
         
         if (finalPool.length > 0) {
           const mapped = finalPool.map((q, idx) => {
-            const options = [...q.options];
-            const correctValue = options[0];
+            const rawOpts = q.options || [];
+            const cleanedOpts = rawOpts.map(cleanOption);
+            const correctValue = cleanedOpts[q.correctIndex !== undefined && q.correctIndex >= 0 ? q.correctIndex : 0];
             
             // Shuffle
+            const options = [...cleanedOpts];
             for (let i = options.length - 1; i > 0; i--) {
               const j = Math.floor(Math.random() * (i + 1));
               [options[i], options[j]] = [options[j], options[i]];
