@@ -96,7 +96,7 @@ export default function LoginPage() {
           err.message?.includes('unexpected_failure') ||
           err.status === 500
         ) {
-          setError('Email service is currently rate-limited. Please wait a few minutes and try again, or contact support on Telegram @mrx4u.');
+          setError('Supabase Email (SMTP) is not enabled on this project. Please sign in directly with your password, or configure Custom SMTP in your Supabase Dashboard (Authentication → SMTP Settings).');
         } else {
           setError(err.message || 'Failed to send reset link. Please check your email.');
         }
