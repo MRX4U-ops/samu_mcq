@@ -7112,5 +7112,1441 @@ export const s_3_8 = {
     ],
     "correctIndex": 2
   }
+],
+  "t-s-3-8-12": [
+  {
+    "question": "What is the most commonly used imaging method for head trauma?",
+    "options": [
+      "a. MRI",
+      "b. Sonography",
+      "c. X-ray",
+      "*d. CT",
+      "e. PET"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which modality is safest for brain imaging in newborns?",
+    "options": [
+      "a. CT",
+      "*b. Sonography",
+      "c. Scintigraphy",
+      "d. X-ray",
+      "e. MRI with contrast"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the main advantage of MRI over CT in brain imaging?",
+    "options": [
+      "a. Cheaper",
+      "b. Faster",
+      "*c. Better soft tissue contrast",
+      "d. More portable",
+      "e. Less motion artifacts"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What condition is best visualized with MRI?",
+    "options": [
+      "a. Bone fracture",
+      "*b. Brain tumor",
+      "c. Sinusitis",
+      "d. Lung mass",
+      "e. Gallstones"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which method uses radioactive tracers to evaluate brain perfusion?",
+    "options": [
+      "a. MRI",
+      "b. CT",
+      "*c. Radionuclide scintigraphy",
+      "d. X-ray",
+      "e. Ultrasound"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which test is most useful to detect intracranial hemorrhage in emergency?",
+    "options": [
+      "a. MRI",
+      "*b. CT",
+      "c. PET",
+      "d. Ultrasound",
+      "e. EEG"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is a limitation of MRI in emergency settings?",
+    "options": [
+      "a. No image detail",
+      "b. Uses radiation",
+      "*c. Longer scan time",
+      "d. Portable",
+      "e. Can detect air"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the primary imaging method for suspected stroke?",
+    "options": [
+      "*a. CT without contrast",
+      "b. X-ray",
+      "c. PET",
+      "d. Sonography",
+      "e. VCUG"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the main disadvantage of CT?",
+    "options": [
+      "a. Long scan",
+      "b. High cost",
+      "*c. Radiation exposure",
+      "d. No anatomical detail",
+      "e. Can’t detect bleeding"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the main advantage of cranial sonography in infants?",
+    "options": [
+      "a. No sedation needed",
+      "*b. Safe and uses no radiation",
+      "c. Expensive",
+      "d. Always used in adults",
+      "e. Best for tumors"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which imaging method best detects white matter lesions?",
+    "options": [
+      "a. CT",
+      "b. X-ray",
+      "*c. MRI",
+      "d. PET",
+      "e. Ultrasound"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "When is contrast-enhanced MRI indicated in CNS imaging?",
+    "options": [
+      "a. Skull fracture",
+      "b. Sinusitis",
+      "*c. Tumor or infection suspicion",
+      "d. Pneumothorax",
+      "e. Gastric ulcer"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What contrast agent is used in CT for CNS imaging?",
+    "options": [
+      "a. Gadolinium",
+      "*b. Iodine-based agents",
+      "c. Barium",
+      "d. Air",
+      "e. Technetium"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the safest imaging option in pregnancy?",
+    "options": [
+      "a. CT",
+      "b. X-ray",
+      "*c. MRI without contrast",
+      "d. PET",
+      "e. IVU"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method is preferred for hydrocephalus in infants?",
+    "options": [
+      "a. X-ray",
+      "b. CT",
+      "c. MRI",
+      "*d. Cranial sonography",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is a limitation of sonography in adults?",
+    "options": [
+      "a. Expensive",
+      "b. Uses radiation",
+      "*c. Skull blocks sound waves",
+      "d. High image quality",
+      "e. Long time"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What imaging shows brain structure and blood flow in a single test?",
+    "options": [
+      "a. MRI",
+      "b. CT",
+      "*c. CT perfusion or PET",
+      "d. Sonography",
+      "e. EEG"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which condition is best assessed by CT angiography?",
+    "options": [
+      "a. Stroke",
+      "b. Tumor",
+      "*c. Aneurysm or vessel occlusion",
+      "d. Hydrocephalus",
+      "e. Epilepsy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the main use of brain SPECT imaging?",
+    "options": [
+      "a. See bones",
+      "b. Detect stones",
+      "*c. Assess perfusion/metabolism",
+      "d. Tumor biopsy",
+      "e. Detect air"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a key risk of repeated head CT scans?",
+    "options": [
+      "a. Infection",
+      "b. No data loss",
+      "*c. Cumulative radiation dose",
+      "d. Dizziness",
+      "e. High temperature"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is an advantage of MRI in CNS evaluation?",
+    "options": [
+      "a. Radiation",
+      "b. Better bone imaging",
+      "*c. High contrast for soft tissue",
+      "d. Short scan",
+      "e. Real-time images"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What test is most commonly used to rule out skull fracture?",
+    "options": [
+      "a. MRI",
+      "b. Sonography",
+      "*c. X-ray or CT",
+      "d. PET",
+      "e. SPECT"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method is limited by patient movement?",
+    "options": [
+      "a. CT",
+      "b. PET",
+      "*c. MRI",
+      "d. X-ray",
+      "e. EEG"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a contraindication for MRI?",
+    "options": [
+      "a. Asthma",
+      "b. Allergy",
+      "*c. Metal implants or pacemaker",
+      "d. Fatigue",
+      "e. Myopia"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method is best for CNS infections like abscess?",
+    "options": [
+      "a. CT",
+      "*b. MRI with contrast",
+      "c. X-ray",
+      "d. Scintigraphy",
+      "e. EEG"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the best imaging method to detect demyelinating diseases?",
+    "options": [
+      "a. CT",
+      "b. PET",
+      "*c. MRI",
+      "d. X-ray",
+      "e. Ultrasound"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a limitation of radionuclide brain scintigraphy?",
+    "options": [
+      "a. No functional data",
+      "*b. Low spatial resolution",
+      "c. High speed",
+      "d. Detects tumors only",
+      "e. Cannot evaluate blood flow"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the main use of diffusion-weighted MRI in CNS?",
+    "options": [
+      "a. Detect hemorrhage",
+      "b. Evaluate bones",
+      "*c. Early stroke detection",
+      "d. Sinus infection",
+      "e. Gallbladder disease"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method shows blood vessels without contrast?",
+    "options": [
+      "a. CT",
+      "b. PET",
+      "*c. Time-of-flight MR angiography (TOF MRA)",
+      "d. X-ray",
+      "e. Sonography"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the typical MRI appearance of a cyst?",
+    "options": [
+      "a. Isointense",
+      "b. Hyperdense",
+      "*c. Hypointense on T1, hyperintense on T2",
+      "d. Solid on both",
+      "e. Black in all sequences"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "In what situation is cranial sonography useful in adults?",
+    "options": [
+      "a. Stroke",
+      "*b. Transcranial Doppler for cerebral blood flow",
+      "c. Tumor detection",
+      "d. Skull fracture",
+      "e. Abscess"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the advantage of CT over MRI in emergency head trauma?",
+    "options": [
+      "a. Higher resolution",
+      "b. No contrast needed",
+      "*c. Speed and availability",
+      "d. Cheaper contrast",
+      "e. More detail on vessels"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following uses ionizing radiation?",
+    "options": [
+      "a. MRI",
+      "b. Ultrasound",
+      "*c. CT",
+      "d. Doppler",
+      "e. EEG"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a typical finding in Alzheimer’s disease using imaging?",
+    "options": [
+      "a. Skull fracture",
+      "b. Ventricular bleeding",
+      "*c. Cortical atrophy and hippocampal volume loss",
+      "d. Hydrocephalus",
+      "e. Tumor"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What brain structure is best evaluated with functional MRI (fMRI)?",
+    "options": [
+      "a. Bones",
+      "*b. Active neural regions",
+      "c. Sinuses",
+      "d. Nerves only",
+      "e. Inner ear"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which imaging is contraindicated with metallic foreign body in eye?",
+    "options": [
+      "a. CT",
+      "b. X-ray",
+      "*c. MRI",
+      "d. Ultrasound",
+      "e. Doppler"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is commonly used for detecting brain tumors?",
+    "options": [
+      "a. CT without contrast",
+      "b. PET",
+      "*c. MRI with gadolinium contrast",
+      "d. EEG",
+      "e. Skull X-ray"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the best imaging test for pituitary tumors?",
+    "options": [
+      "a. X-ray",
+      "b. CT",
+      "*c. MRI with contrast (sellar region)",
+      "d. Sonography",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method is used for CSF flow evaluation?",
+    "options": [
+      "a. CT",
+      "*b. Phase-contrast MRI",
+      "c. EEG",
+      "d. PET",
+      "e. VCUG"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the major drawback of brain PET scans?",
+    "options": [
+      "a. No functional data",
+      "*b. High cost and limited access",
+      "c. Always inaccurate",
+      "d. No contrast",
+      "e. Poor tumor detection"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which test is best for intracerebral hemorrhage in the acute phase?",
+    "options": [
+      "*a. Non-contrast CT",
+      "b. MRI",
+      "c. EEG",
+      "d. PET",
+      "e. SPECT"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which imaging technique shows brain perfusion in real time?",
+    "options": [
+      "a. EEG",
+      "*b. CT perfusion (CTP)",
+      "c. X-ray",
+      "d. Barium swallow",
+      "e. MRI T1"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which imaging method can assess metabolism in brain tumors?",
+    "options": [
+      "a. CT",
+      "b. X-ray",
+      "*c. PET with fluorodeoxyglucose (FDG)",
+      "d. VCUG",
+      "e. Sonography"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is an advantage of SPECT over PET in brain imaging?",
+    "options": [
+      "a. No contrast",
+      "b. Higher detail",
+      "*c. Lower cost and wider availability",
+      "d. Detects air",
+      "e. More precise than MRI"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which structure is not visible on CT brain without contrast?",
+    "options": [
+      "a. Skull",
+      "*b. Pituitary gland detail",
+      "c. Hemorrhage",
+      "d. Calcification",
+      "e. Bone"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which type of MRI is useful for tumor grading?",
+    "options": [
+      "a. Diffusion",
+      "b. Perfusion",
+      "*c. Both A and B",
+      "d. X-ray",
+      "e. PET"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a major risk of gadolinium contrast in MRI for kidney patients?",
+    "options": [
+      "a. Vomiting",
+      "*b. Nephrogenic systemic fibrosis (NSF)",
+      "c. Headache",
+      "d. Fatigue",
+      "e. Dehydration"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which imaging shows calcification best?",
+    "options": [
+      "a. MRI",
+      "b. Sonography",
+      "*c. CT",
+      "d. EEG",
+      "e. PET"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the role of EEG in CNS diagnostics?",
+    "options": [
+      "a. Imaging",
+      "b. Structural evaluation",
+      "*c. Functional brain electrical activity",
+      "d. Tumor size",
+      "e. CT mapping"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which modality is best for follow-up in multiple sclerosis?",
+    "options": [
+      "a. CT",
+      "b. Ultrasound",
+      "*c. MRI with T2 and FLAIR sequences",
+      "d. X-ray",
+      "e. PET"
+    ],
+    "correctIndex": 2
+  }
+],
+  "t-s-3-8-13": [
+  {
+    "question": "What is the main goal of radiation therapy in cancer treatment?",
+    "options": [
+      "a. Diagnose tumors",
+      "b. Prevent infection",
+      "*c. Destroy malignant cells",
+      "d. Increase body weight",
+      "e. Remove skin lesions"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which type of radiation therapy delivers beams from outside the body?",
+    "options": [
+      "a. Brachytherapy",
+      "b. Internal therapy",
+      "*c. External beam radiation therapy (EBRT)",
+      "d. Chemotherapy",
+      "e. Immunotherapy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a basic criterion to start radiation therapy?",
+    "options": [
+      "a. Low blood sugar",
+      "*b. Confirmed diagnosis of malignant tumor",
+      "c. Fever",
+      "d. Headache",
+      "e. Fatigue"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which particles are most commonly used in standard radiotherapy?",
+    "options": [
+      "a. Electrons only",
+      "b. Neutrons",
+      "*c. Photons (X-rays or gamma rays)",
+      "d. Alpha particles",
+      "e. Heavy ions only"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the unit of absorbed radiation dose?",
+    "options": [
+      "a. Volt",
+      "b. Joule",
+      "*c. Gray (Gy)",
+      "d. Watt",
+      "e. Tesla"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which radiation method places a source directly inside or near the tumor?",
+    "options": [
+      "a. EBRT",
+      "b. Stereotactic surgery",
+      "*c. Brachytherapy",
+      "d. PET",
+      "e. MRI"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which device is commonly used in external beam radiotherapy?",
+    "options": [
+      "a. MRI scanner",
+      "b. CT machine",
+      "*c. Linear accelerator (LINAC)",
+      "d. Ultrasound",
+      "e. Gamma camera"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the benefit of image-guided radiation therapy (IGRT)?",
+    "options": [
+      "a. No need for CT",
+      "b. Less time",
+      "*c. Better accuracy in targeting tumors",
+      "d. Use of surgery",
+      "e. No imaging used"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is stereotactic radiosurgery (SRS) used for?",
+    "options": [
+      "a. Skin infections",
+      "b. Bone fractures",
+      "*c. Small brain tumors or metastases",
+      "d. Gastric ulcers",
+      "e. Appendicitis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a major advantage of proton therapy?",
+    "options": [
+      "a. No imaging",
+      "b. Cheaper",
+      "*c. High precision, minimal damage to healthy tissue",
+      "d. No equipment needed",
+      "e. Causes more burns"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the role of planning CT in radiotherapy?",
+    "options": [
+      "a. Detect heart disease",
+      "b. Diagnose infection",
+      "*c. Define tumor volume and organs at risk",
+      "d. Measure blood flow",
+      "e. View bones only"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which term describes the full amount of radiation a patient will receive?",
+    "options": [
+      "a. Exposure",
+      "b. Scatter",
+      "*c. Total dose",
+      "d. Volume",
+      "e. Voltage"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following is a common acute side effect of radiation therapy?",
+    "options": [
+      "a. Cataract",
+      "b. Tooth growth",
+      "*c. Skin redness (erythema)",
+      "d. Diabetes",
+      "e. Deafness"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a fraction in radiation therapy?",
+    "options": [
+      "a. A surgical cut",
+      "b. A blood type",
+      "*c. A single session of radiation dose",
+      "d. A tumor size",
+      "e. A breathing technique"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the benefit of delivering radiation in multiple fractions?",
+    "options": [
+      "a. Faster",
+      "*b. Minimizes side effects on healthy tissue",
+      "c. Stronger dose in one day",
+      "d. Better vision",
+      "e. Avoids imaging"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does 3D conformal radiation therapy mean?",
+    "options": [
+      "a. No CT used",
+      "b. 2D image only",
+      "*c. Radiation shaped to match the tumor’s form",
+      "d. Imaging of bones",
+      "e. Ultrasound guided"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which cancer is often treated with brachytherapy?",
+    "options": [
+      "a. Brain",
+      "b. Skin",
+      "*c. Prostate or cervical cancer",
+      "d. Pancreas",
+      "e. Kidney"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does IMRT stand for in radiotherapy?",
+    "options": [
+      "a. Imaging-MRI-Therapy",
+      "b. Injection Mediated RT",
+      "*c. Intensity-Modulated Radiation Therapy",
+      "d. Internal-Motion Rapid Treatment",
+      "e. Image-Motion Radio-Treatment"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does radiation oncologist do?",
+    "options": [
+      "a. Operates CT",
+      "b. Manages hospital",
+      "*c. Plans and supervises cancer radiation treatment",
+      "d. Gives anesthetics",
+      "e. Extracts teeth"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What type of radiation therapy is CyberKnife?",
+    "options": [
+      "a. Open surgery",
+      "b. Proton only",
+      "*c. Robotic stereotactic system",
+      "d. Blood therapy",
+      "e. Chemotherapy tool"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which organs are especially sensitive to radiation damage?",
+    "options": [
+      "a. Muscles and fat",
+      "b. Skin and bones",
+      "*c. Bone marrow, gonads, and intestinal lining",
+      "d. Teeth and nails",
+      "e. Cartilage and ligaments"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the main goal of radiotherapy planning?",
+    "options": [
+      "a. Order lab tests",
+      "*b. Maximize tumor dose, spare normal tissue",
+      "c. Increase chemotherapy dose",
+      "d. Sedate patient",
+      "e. Avoid CT scans"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the primary radiation type used in cobalt therapy?",
+    "options": [
+      "a. Alpha rays",
+      "b. Beta rays",
+      "*c. Gamma rays",
+      "d. UV light",
+      "e. X-rays"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method combines CT with real-time beam delivery correction?",
+    "options": [
+      "a. MRI",
+      "b. PET",
+      "*c. IGRT (Image-Guided Radiation Therapy)",
+      "d. SPECT",
+      "e. EEG"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a late side effect of brain irradiation?",
+    "options": [
+      "a. Vomiting",
+      "b. Hair growth",
+      "*c. Memory loss or cognitive decline",
+      "d. Diarrhea",
+      "e. Hand tremor"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Why is immobilization important in radiotherapy?",
+    "options": [
+      "a. Relax the patient",
+      "*b. Prevent tumor movement during treatment",
+      "c. Help imaging",
+      "d. Reduce breathing",
+      "e. Improve contrast use"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does the term \"target volume\" refer to?",
+    "options": [
+      "a. Total body area",
+      "b. Organ at risk",
+      "*c. Area of tumor plus margin",
+      "d. Radiation machine",
+      "e. Treatment time"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What device is used to measure radiation dose in tissue?",
+    "options": [
+      "a. ECG",
+      "*b. Dosimeter",
+      "c. Barometer",
+      "d. Thermometer",
+      "e. Spirograph"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which tumor type responds well to radiotherapy?",
+    "options": [
+      "*a. Lymphoma",
+      "b. Melanoma",
+      "c. Sarcoma",
+      "d. Glioblastoma",
+      "e. Myeloma"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the typical duration of a standard radiotherapy course?",
+    "options": [
+      "a. 1 day",
+      "b. 2 months",
+      "*c. 4–6 weeks (daily sessions)",
+      "d. 6 hours",
+      "e. 3 years"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is radiosensitivity?",
+    "options": [
+      "a. Tumor position",
+      "b. Cell size",
+      "*c. Cellular sensitivity to radiation damage",
+      "d. Drug reaction",
+      "e. Imaging quality"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the role of CT simulation in radiotherapy?",
+    "options": [
+      "a. Diagnose infection",
+      "b. Confirm fracture",
+      "*c. Map tumor location in 3D for planning",
+      "d. Assess breathing",
+      "e. View liver"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which tumors are typically treated with total body irradiation?",
+    "options": [
+      "a. Brain tumors",
+      "b. Liver tumors",
+      "*c. Leukemias before bone marrow transplant",
+      "d. Lung cancers",
+      "e. Pancreatic tumors"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which type of therapy uses radioactive seeds inside tissue?",
+    "options": [
+      "a. SRS",
+      "b. EBRT",
+      "*c. Low-dose brachytherapy",
+      "d. IGRT",
+      "e. Chemotherapy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the Bragg peak related to in radiotherapy?",
+    "options": [
+      "a. Ultrasound echo",
+      "b. MRI signal",
+      "*c. Sharp dose drop-off in proton therapy",
+      "d. X-ray intensity",
+      "e. Heat output"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is hyperfractionation?",
+    "options": [
+      "a. One dose per week",
+      "*b. Multiple smaller doses per day",
+      "c. MRI-based therapy",
+      "d. No radiation",
+      "e. Alternate-day treatment"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the function of a multileaf collimator (MLC)?",
+    "options": [
+      "a. Check blood",
+      "b. Scan bone",
+      "*c. Shape radiation beam",
+      "d. Detect cancer",
+      "e. Guide breathing"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a common acute complication of head and neck radiotherapy?",
+    "options": [
+      "a. Fever",
+      "b. Drowsiness",
+      "*c. Mucositis (mouth inflammation)",
+      "d. Constipation",
+      "e. Vision improvement"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the main purpose of shielding during radiotherapy?",
+    "options": [
+      "a. Increase tumor dose",
+      "b. Shorten sessions",
+      "*c. Protect surrounding healthy tissues",
+      "d. Make scanning faster",
+      "e. Brighten image"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a contraindication to radiotherapy?",
+    "options": [
+      "a. Headache",
+      "b. Cancer",
+      "*c. Severe bone marrow suppression",
+      "d. Poor eyesight",
+      "e. Cough"
+    ],
+    "correctIndex": 2
+  }
+],
+  "t-s-3-8-14": [
+  {
+    "question": "What is a common non-cancer indication for radiation therapy?",
+    "options": [
+      "a. Hypertension",
+      "*b. Keloid scars",
+      "c. Diabetes",
+      "d. Asthma",
+      "e. Appendicitis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What dose range is typically used for treating benign conditions?",
+    "options": [
+      "a. 100 Gy",
+      "b. 50–60 Gy",
+      "c. 30–40 Gy",
+      "*d. Low dose (5–10 Gy total)",
+      "e. >200 Gy"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which of the following benign diseases may be treated with radiation?",
+    "options": [
+      "a. Tuberculosis",
+      "b. Anemia",
+      "*c. Plantar fasciitis",
+      "d. Otitis media",
+      "e. Fracture"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a key goal of radiation therapy in non-tumor diseases?",
+    "options": [
+      "a. Kill bacteria",
+      "*b. Reduce inflammation and cell proliferation",
+      "c. Improve muscle mass",
+      "d. Drain fluids",
+      "e. Replace surgery"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which disease may be treated with radiation to prevent heterotopic ossification?",
+    "options": [
+      "a. Stroke",
+      "b. Asthma",
+      "*c. Hip arthroplasty (after surgery)",
+      "d. Fractured skull",
+      "e. Gastritis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What tissue is most radiosensitive?",
+    "options": [
+      "a. Muscle",
+      "*b. Bone marrow",
+      "c. Fat",
+      "d. Skin",
+      "e. Cartilage"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is an early (acute) radiation reaction?",
+    "options": [
+      "a. Cataract",
+      "*b. Skin erythema (redness)",
+      "c. Bone necrosis",
+      "d. Kidney fibrosis",
+      "e. Liver cirrhosis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the most common site of radiation-induced dermatitis?",
+    "options": [
+      "*a. Skin in treatment field",
+      "b. Liver",
+      "c. Pancreas",
+      "d. Heart",
+      "e. Bladder"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the term for radiation-induced damage to the spinal cord?",
+    "options": [
+      "a. Nephritis",
+      "b. Myositis",
+      "*c. Radiation myelopathy",
+      "d. Colitis",
+      "e. Pneumonia"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the most serious chronic radiation complication?",
+    "options": [
+      "a. Rash",
+      "b. Nausea",
+      "*c. Radiation-induced secondary cancer",
+      "d. Constipation",
+      "e. Fever"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which organ is most sensitive to radiation fibrosis?",
+    "options": [
+      "a. Stomach",
+      "b. Skin",
+      "*c. Lung",
+      "d. Eye",
+      "e. Prostate"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What condition is characterized by dry mouth after radiation?",
+    "options": [
+      "a. Otitis",
+      "b. Diabetes",
+      "*c. Xerostomia due to salivary gland damage",
+      "d. Sinusitis",
+      "e. Cystitis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Radiation therapy can be used to treat which inflammatory condition?",
+    "options": [
+      "*a. Degenerative arthritis (e.g., epicondylitis)",
+      "b. Ulcer",
+      "c. Allergic rhinitis",
+      "d. Pneumothorax",
+      "e. Appendicitis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which factor increases the risk of radiation damage?",
+    "options": [
+      "a. Sleep",
+      "b. Vitamin C",
+      "*c. High total dose and large irradiated volume",
+      "d. Bacterial infection",
+      "e. Normal weight"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a long-term effect of pelvic radiation in women?",
+    "options": [
+      "a. Tooth loss",
+      "b. Kidney stones",
+      "*c. Infertility or ovarian failure",
+      "d. Gallstones",
+      "e. Hearing loss"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is one of the earliest signs of radiation sickness?",
+    "options": [
+      "a. Tooth pain",
+      "*b. Nausea and vomiting",
+      "c. Joint stiffness",
+      "d. Hair growth",
+      "e. Euphoria"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Radiation-induced cataract is usually caused by damage to:",
+    "options": [
+      "a. Cornea",
+      "b. Retina",
+      "*c. Lens epithelium",
+      "d. Iris",
+      "e. Tear duct"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the safest area to irradiate?",
+    "options": [
+      "a. Brain",
+      "b. Lungs",
+      "*c. Extremity (limb)",
+      "d. Liver",
+      "e. Small intestine"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which type of cell is least sensitive to radiation?",
+    "options": [
+      "a. Bone marrow",
+      "b. Intestinal lining",
+      "c. Skin basal cells",
+      "d. Tumor cells",
+      "*e. Nerve cells (neurons)"
+    ],
+    "correctIndex": 4
+  },
+  {
+    "question": "What is the typical latency period for radiation-induced cancer?",
+    "options": [
+      "a. 1–2 days",
+      "b. 3 months",
+      "c. 6 months",
+      "*d. 5–15 years",
+      "e. Never"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What kind of therapy can be used to treat painful bone metastases and also painful arthritis?",
+    "options": [
+      "a. Surgery",
+      "b. Antibiotics",
+      "*c. Low-dose radiation therapy",
+      "d. Blood transfusion",
+      "e. Massage"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What radiation-induced damage can occur in salivary glands?",
+    "options": [
+      "a. Jaundice",
+      "b. Ulcer",
+      "*c. Dry mouth (xerostomia)",
+      "d. Hyperactivity",
+      "e. Otitis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which organ is most at risk during head and neck radiotherapy?",
+    "options": [
+      "*a. Thyroid gland",
+      "b. Pancreas",
+      "c. Bladder",
+      "d. Lungs",
+      "e. Stomach"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What syndrome may appear after total body radiation exposure?",
+    "options": [
+      "a. Reiter syndrome",
+      "*b. Acute radiation syndrome (ARS)",
+      "c. Parkinsonism",
+      "d. Cushing disease",
+      "e. Nephritic syndrome"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is a typical skin reaction during radiation therapy?",
+    "options": [
+      "a. Blisters immediately",
+      "*b. Redness and peeling over time",
+      "c. Tattoo formation",
+      "d. Hair increase",
+      "e. Pus formation"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the main goal of using radiation in non-malignant joint disease?",
+    "options": [
+      "a. Kill bone cells",
+      "b. Increase blood pressure",
+      "*c. Reduce inflammation and pain",
+      "d. Improve digestion",
+      "e. Stretch ligaments"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What condition is radiation myelopathy?",
+    "options": [
+      "a. Lung collapse",
+      "b. Intestinal bleeding",
+      "*c. Spinal cord damage due to radiation",
+      "d. Skin rash",
+      "e. Muscle spasm"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "How does radiation cause tissue injury?",
+    "options": [
+      "a. Overheating",
+      "b. Physical trauma",
+      "*c. Ionization damages DNA and cells",
+      "d. Electrolysis",
+      "e. Protein gain"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the safe dose threshold for most tissues before chronic damage may occur?",
+    "options": [
+      "a. 0.1 Gy",
+      "b. 1 Gy",
+      "c. 5 Gy",
+      "*d. 50 Gy",
+      "e. 150 Gy"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which of the following non-tumor conditions may be treated with low-dose radiotherapy?",
+    "options": [
+      "a. Heart failure",
+      "b. Appendicitis",
+      "*c. Dupuytren’s contracture",
+      "d. Diabetes",
+      "e. Scoliosis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a common radiation-induced gastrointestinal complication?",
+    "options": [
+      "a. Brain edema",
+      "*b. Radiation enteritis",
+      "c. Skin ulcer",
+      "d. Cough",
+      "e. Liver rupture"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What symptom is associated with radiation pneumonitis?",
+    "options": [
+      "*a. Cough and shortness of breath",
+      "b. Constipation",
+      "c. Nausea",
+      "d. Skin rash",
+      "e. Double vision"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What helps reduce risk of radiation side effects?",
+    "options": [
+      "a. Skip imaging",
+      "b. Large doses at once",
+      "*c. Fractionation of radiation dose",
+      "d. Fasting",
+      "e. Salt intake"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Radiation necrosis of bone is called:",
+    "options": [
+      "a. Spondylitis",
+      "*b. Osteoradionecrosis",
+      "c. Bursitis",
+      "d. Arthrosis",
+      "e. Ankylosis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What lab test is useful to monitor after total body radiation exposure?",
+    "options": [
+      "a. Urine glucose",
+      "*b. White blood cell count",
+      "c. Cholesterol",
+      "d. Platelet aggregation",
+      "e. Liver enzymes"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What organ can develop hemorrhagic cystitis after pelvic radiation?",
+    "options": [
+      "a. Liver",
+      "b. Lung",
+      "*c. Bladder",
+      "d. Stomach",
+      "e. Pancreas"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the typical latency for chronic radiation proctitis?",
+    "options": [
+      "a. 1 day",
+      "*b. 3–6 months or longer",
+      "c. 1 hour",
+      "d. Never",
+      "e. 1 week"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is a visible skin symptom of late radiation damage?",
+    "options": [
+      "a. Acne",
+      "b. Freckles",
+      "*c. Fibrosis or telangiectasia",
+      "d. Itchy hives",
+      "e. Sweating"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which tissues are relatively radioresistant?",
+    "options": [
+      "*a. Cartilage and muscle",
+      "b. Bone marrow",
+      "c. Intestinal lining",
+      "d. Gonads",
+      "e. Skin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the best prevention of radiation damage in healthy tissues?",
+    "options": [
+      "a. High dose",
+      "b. No imaging",
+      "*c. Accurate planning and protection shields",
+      "d. Antibiotics",
+      "e. Contrast injection"
+    ],
+    "correctIndex": 2
+  }
 ]
 };

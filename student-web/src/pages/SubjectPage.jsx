@@ -62,7 +62,7 @@ export default function SubjectPage() {
     ];
     localTopics = [...mainTopics, ...addedTopics];
   } else if (localSubjectId === 's-3-8') {
-    localTopics = Array.from({ length: 12 }, (_, i) => ({ id: `t-${localSubjectId}-${i}`, title: `Topic ${i + 1}`, localSubjectId }));
+    localTopics = Array.from({ length: 15 }, (_, i) => ({ id: `t-${localSubjectId}-${i}`, title: `Topic ${i + 1}`, localSubjectId }));
   } else {
     localTopics = Array.from({ length: 15 }, (_, i) => ({ id: `t-${localSubjectId}-${i}`, title: `Topic ${i + 1}`, localSubjectId }));
   }
