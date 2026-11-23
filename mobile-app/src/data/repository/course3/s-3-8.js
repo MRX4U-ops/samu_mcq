@@ -3139,5 +3139,667 @@ export const s_3_8 = {
       ],
       "correctIndex": 4
     }
+  ],
+  "t-s-3-8-5": [
+    {
+      "question": "What is the most commonly used initial imaging method for suspected pneumonia?",
+      "options": [
+        "a. CT",
+        "b. MRI",
+        "*c. Chest radiography",
+        "d. PET",
+        "e. Scintigraphy"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which modality provides the highest spatial resolution for lung parenchyma?",
+      "options": [
+        "a. Ultrasound",
+        "b. MRI",
+        "*c. High-resolution CT (HRCT)",
+        "d. Scintigraphy",
+        "e. Radiography"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What is the primary indication for pulmonary perfusion scintigraphy?",
+      "options": [
+        "a. Lung abscess",
+        "b. Pleural effusion",
+        "c. Pneumothorax",
+        "*d. Pulmonary embolism",
+        "e. Tuberculosis"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What imaging modality is most sensitive for detecting mediastinal lymphadenopathy?",
+      "options": [
+        "a. Radiography",
+        "b. Scintigraphy",
+        "*c. CT",
+        "d. Ultrasound",
+        "e. MRI"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which method is contraindicated in patients with pacemakers?",
+      "options": [
+        "a. CT",
+        "b. Scintigraphy",
+        "*c. MRI",
+        "d. Radiography",
+        "e. Ultrasound"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which method is best for evaluating pleural effusion?",
+      "options": [
+        "a. Radiography",
+        "b. Scintigraphy",
+        "c. CT",
+        "*d. Sonography",
+        "e. MRI"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What is the advantage of MRI in thoracic imaging?",
+      "options": [
+        "a. Better bone detail",
+        "b. Fast scanning",
+        "*c. Superior soft tissue contrast in the mediastinum",
+        "d. Detects calcification",
+        "e. Shows air trapping"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What is a limitation of chest radiography?",
+      "options": [
+        "a. Fast acquisition",
+        "b. Portability",
+        "*c. Low sensitivity for small lesions",
+        "d. Inexpensive",
+        "e. Widely available"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which modality is best for detecting pulmonary embolism in emergency?",
+      "options": [
+        "a. Radiography",
+        "b. MRI",
+        "*c. CT pulmonary angiography (CTPA)",
+        "d. Scintigraphy",
+        "e. Ultrasound"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What is the primary use of thoracic MRI?",
+      "options": [
+        "a. Lung parenchyma",
+        "*b. Cardiac and mediastinal evaluation",
+        "c. Rib fractures",
+        "d. Emphysema",
+        "e. Bronchiectasis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is a key limitation of CT in lung imaging?",
+      "options": [
+        "a. Motion artifacts",
+        "b. Poor availability",
+        "*c. Radiation exposure",
+        "d. Cost",
+        "e. Lack of contrast"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which imaging method can assess diaphragmatic motion?",
+      "options": [
+        "a. CT",
+        "b. MRI",
+        "c. Radiography",
+        "*d. Ultrasound",
+        "e. PET"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which modality shows ventilation and perfusion separately?",
+      "options": [
+        "a. CT",
+        "b. MRI",
+        "*c. Scintigraphy",
+        "d. Angiography",
+        "e. Radiography"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which imaging method is best for detecting hilar masses?",
+      "options": [
+        "a. Radiography",
+        "b. Scintigraphy",
+        "*c. CT scan",
+        "d. MRI",
+        "e. Ultrasound"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which method allows functional assessment of lung perfusion?",
+      "options": [
+        "a. CT",
+        "b. MRI",
+        "*c. Radionuclide scintigraphy",
+        "d. Sonography",
+        "e. Radiography"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "The \"air bronchogram\" is best seen in:",
+      "options": [
+        "*a. Radiography",
+        "b. MRI",
+        "c. Ultrasound",
+        "d. Scintigraphy",
+        "e. Angiography"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "What is the main role of thoracic angiography?",
+      "options": [
+        "a. Pleural analysis",
+        "b. Lung parenchyma",
+        "c. Rib trauma",
+        "*d. Pulmonary vessel visualization",
+        "e. Diaphragm function"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "The “tree-in-bud” pattern is best evaluated by:",
+      "options": [
+        "a. Chest X-ray",
+        "*b. High-resolution CT",
+        "c. MRI",
+        "d. PET",
+        "e. Scintigraphy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which method is most accurate for detecting lung nodules <1 cm?",
+      "options": [
+        "a. MRI",
+        "b. Radiography",
+        "*c. CT scan",
+        "d. Scintigraphy",
+        "e. Ultrasound"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What is the role of Doppler ultrasound in thoracic evaluation?",
+      "options": [
+        "a. Lung tumor biopsy",
+        "b. Rib fracture",
+        "*c. Assessing blood flow in pleural or mediastinal masses",
+        "d. Lung perfusion",
+        "e. Bone marrow imaging"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which modality is safest during pregnancy for thoracic imaging?",
+      "options": [
+        "a. CT",
+        "b. Scintigraphy",
+        "c. MRI",
+        "*d. Ultrasound",
+        "e. Radiography"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What is a major limitation of MRI for lung imaging?",
+      "options": [
+        "a. Lack of availability",
+        "*b. Low signal in air-filled tissues",
+        "c. High radiation",
+        "d. Slow processing",
+        "e. Requires IV contrast"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which imaging is most suitable to evaluate thymoma?",
+      "options": [
+        "a. Radiography",
+        "*b. CT or MRI",
+        "c. Bone scan",
+        "d. Ultrasound",
+        "e. PET"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "The most useful test to guide pleural effusion drainage is:",
+      "options": [
+        "a. CT",
+        "b. Radiography",
+        "*c. Ultrasound",
+        "d. MRI",
+        "e. Angiography"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "CT angiography of the chest requires:",
+      "options": [
+        "a. No contrast",
+        "b. Gadolinium",
+        "c. Oral contrast",
+        "*d. Intravenous iodine contrast",
+        "e. Subcutaneous injection"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which imaging can quantify lung emphysema?",
+      "options": [
+        "a. MRI",
+        "b. Scintigraphy",
+        "*c. CT",
+        "d. Ultrasound",
+        "e. Angiography"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which structure is poorly seen on conventional radiograph?",
+      "options": [
+        "a. Bone",
+        "b. Lungs",
+        "c. Heart",
+        "*d. Posterior mediastinum",
+        "e. Diaphragm"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which method is best for visualizing vascular malformations in lungs?",
+      "options": [
+        "a. Radiography",
+        "b. Scintigraphy",
+        "*c. CT angiography",
+        "d. Ultrasound",
+        "e. PET"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "The primary role of MRI in mediastinal pathology is:",
+      "options": [
+        "a. Lung nodules",
+        "b. Pneumothorax",
+        "*c. Soft tissue mass differentiation",
+        "d. Bone fractures",
+        "e. Pulmonary embolism"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Lung ultrasound is especially helpful in diagnosing:",
+      "options": [
+        "a. Lung cancer",
+        "b. Emphysema",
+        "c. Tuberculosis",
+        "*d. Pleural effusion and pneumothorax",
+        "e. Tracheal stenosis"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "In what case is CT without contrast preferred?",
+      "options": [
+        "a. Pulmonary embolism",
+        "*b. High-resolution CT for interstitial lung disease",
+        "c. Lung mass",
+        "d. Aortic dissection",
+        "e. Thymoma"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What’s the main concern when using CT in pediatrics?",
+      "options": [
+        "a. Time",
+        "b. Noise",
+        "*c. Radiation exposure",
+        "d. IV line",
+        "e. Availability"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which modality gives the best view of pericardial effusion?",
+      "options": [
+        "a. X-ray",
+        "b. MRI",
+        "c. CT",
+        "*d. Echocardiography (ultrasound)",
+        "e. Scintigraphy"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "The “silhouette sign” helps localize:",
+      "options": [
+        "a. Pleural effusion",
+        "*b. Lobar consolidation",
+        "c. Pneumothorax",
+        "d. Emphysema",
+        "e. Tumor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What imaging is preferred for anterior mediastinal masses?",
+      "options": [
+        "a. Ultrasound",
+        "b. X-ray",
+        "c. Scintigraphy",
+        "*d. CT or MRI",
+        "e. Angiography"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which method is best for identifying aortic aneurysm?",
+      "options": [
+        "a. Radiography",
+        "b. Scintigraphy",
+        "*c. CT angiography",
+        "d. MRI without contrast",
+        "e. PET"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "The “spine sign” on lateral chest X-ray suggests:",
+      "options": [
+        "a. Pleural effusion",
+        "b. Pneumothorax",
+        "*c. Lower lobe pneumonia",
+        "d. Mediastinal mass",
+        "e. Scoliosis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "MRI is preferred over CT when:",
+      "options": [
+        "a. Lung parenchyma is evaluated",
+        "b. Quick result is needed",
+        "*c. Gadolinium contrast is safer than iodine",
+        "d. Bone pathology suspected",
+        "e. Radiation dose is irrelevant"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which method is most effective for diagnosing pneumothorax in emergency?",
+      "options": [
+        "a. MRI",
+        "b. Scintigraphy",
+        "*c. Ultrasound or radiography",
+        "d. PET",
+        "e. Angiography"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "A “bat-wing” appearance on chest X-ray suggests:",
+      "options": [
+        "a. Pneumonia",
+        "b. Pulmonary embolism",
+        "*c. Pulmonary edema",
+        "d. Pneumothorax",
+        "e. Mediastinal tumor"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which imaging method is most sensitive for detecting lymph node calcification?",
+      "options": [
+        "a. Radiography",
+        "b. Ultrasound",
+        "c. MRI",
+        "*d. CT",
+        "e. Scintigraphy"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "A radiologic sign of pneumomediastinum on chest X-ray is:",
+      "options": [
+        "a. Blunted costophrenic angle",
+        "b. Honeycombing",
+        "*c. Continuous diaphragm sign",
+        "d. Air bronchogram",
+        "e. Silhouette sign"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What method best visualizes endobronchial tumors?",
+      "options": [
+        "a. Scintigraphy",
+        "*b. CT with thin slices",
+        "c. MRI",
+        "d. Radiography",
+        "e. PET only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What imaging is best to assess diaphragm paralysis?",
+      "options": [
+        "a. MRI",
+        "b. Radiography",
+        "*c. Ultrasound (M-mode)",
+        "d. CT",
+        "e. Angiography"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which method is most helpful for bronchiectasis diagnosis?",
+      "options": [
+        "a. Scintigraphy",
+        "b. MRI",
+        "c. Radiography",
+        "*d. High-resolution CT (HRCT)",
+        "e. Angiography"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which imaging sign suggests pulmonary tuberculosis on X-ray?",
+      "options": [
+        "a. Tree-in-bud",
+        "b. Honeycomb",
+        "*c. Cavitation in upper lobes",
+        "d. Pleural calcification",
+        "e. Bullae"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "For staging lung cancer, the best imaging combination is:",
+      "options": [
+        "a. Chest X-ray + Ultrasound",
+        "*b. CT + PET/CT",
+        "c. MRI + Scintigraphy",
+        "d. Bone scan + Radiograph",
+        "e. Echocardiography + CT"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "A mediastinal widening on chest X-ray suggests:",
+      "options": [
+        "a. Asthma",
+        "b. COPD",
+        "*c. Aortic dissection or lymphoma",
+        "d. Bronchitis",
+        "e. Pneumonia"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which test helps detect pericardial thickening or constriction?",
+      "options": [
+        "a. Radiography",
+        "b. Scintigraphy",
+        "*c. MRI",
+        "d. CT without contrast",
+        "e. Angiography"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which imaging is most appropriate for pulmonary sequestration?",
+      "options": [
+        "a. Radiography",
+        "*b. CT angiography",
+        "c. Scintigraphy",
+        "d. PET",
+        "e. Ultrasound"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which technique is ideal for evaluating air-fluid levels in abscesses?",
+      "options": [
+        "a. MRI",
+        "b. Scintigraphy",
+        "*c. CT",
+        "d. PET",
+        "e. Angiography"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Lung ultrasound is limited by:",
+      "options": [
+        "a. Soft tissue density",
+        "b. Cost",
+        "c. Radiation",
+        "*d. Air interference",
+        "e. Vascularity"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Mediastinal cysts are best evaluated with:",
+      "options": [
+        "a. Radiography",
+        "b. Scintigraphy",
+        "*c. MRI or CT",
+        "d. Ultrasound",
+        "e. Bone scan"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What method distinguishes viable vs nonviable lung tissue?",
+      "options": [
+        "a. Radiography",
+        "b. CT",
+        "*c. Radionuclide perfusion scan",
+        "d. MRI",
+        "e. Angiography"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What is a typical advantage of sonography in thoracic imaging?",
+      "options": [
+        "a. Detect lung nodules",
+        "b. View interstitial patterns",
+        "*c. No radiation and real-time imaging",
+        "d. High contrast resolution",
+        "e. Visualize deep lung"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "“Honeycombing” is a finding of:",
+      "options": [
+        "a. Emphysema",
+        "b. TB",
+        "*c. Interstitial lung disease",
+        "d. Lung cancer",
+        "e. Bronchitis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "MRI can replace CT in lung imaging when:",
+      "options": [
+        "a. Detailed bony views needed",
+        "b. Calcification assessment needed",
+        "*c. Soft-tissue characterization is primary",
+        "d. Airspace disease is present",
+        "e. Contrast contraindicated"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which test gives the best overview of tracheal stenosis?",
+      "options": [
+        "a. Radiography",
+        "b. PET",
+        "*c. CT or CT-angiography",
+        "d. MRI",
+        "e. Scintigraphy"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "A “reverse batwing” sign is typical for:",
+      "options": [
+        "a. Edema",
+        "b. TB",
+        "*c. Chronic eosinophilic pneumonia",
+        "d. Pulmonary fibrosis",
+        "e. Cavitary tumor"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Lung perfusion scan uses which tracer?",
+      "options": [
+        "a. FDG",
+        "b. Gallium",
+        "*c. Technetium-99m MAA",
+        "d. Gadolinium",
+        "e. Iodine"
+      ],
+      "correctIndex": 2
+    }
   ]
 };
