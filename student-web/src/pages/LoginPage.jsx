@@ -63,7 +63,7 @@ export default function LoginPage() {
 
     // ── OTP VERIFICATION ──
     if (mode === 'otp') {
-      if (otp.length < 6) { setError('Please enter the 6-digit code.'); return; }
+      if (otp.length < 6) { setError('Please enter your verification code.'); return; }
       setLoading(true);
       try {
         await verifyOTP(email, otp, otpType);
@@ -257,7 +257,7 @@ export default function LoginPage() {
                 : mode === 'forgot_sent'
                 ? `We sent a secure recovery link to ${email}`
                 : mode === 'otp'
-                ? `Enter the 6-digit verification code sent to ${email}`
+                ? `Enter the verification code sent to ${email}`
                 : 'Enter your registered email to receive a password reset link'}
             </p>
           </div>
@@ -408,16 +408,16 @@ export default function LoginPage() {
               {/* OTP Field (OTP Mode) */}
               {mode === 'otp' && (
                 <div className={styles.fieldGroup}>
-                  <label className={styles.fieldLabel}>6-Digit Verification Code</label>
+                  <label className={styles.fieldLabel}>Verification Code (from email)</label>
                   <div className={styles.inputContainer}>
                     <ShieldCheck size={18} className={styles.fieldIcon} />
                     <input
                       type="text"
                       className={`${styles.fieldInput} ${styles.otpInput}`}
-                      placeholder="000000"
+                      placeholder="Enter code"
                       value={otp}
                       onChange={(e) => setOtp(e.target.value.replace(/[^0-9]/g, ''))}
-                      maxLength={6}
+                      maxLength={8}
                       required
                     />
                   </div>
