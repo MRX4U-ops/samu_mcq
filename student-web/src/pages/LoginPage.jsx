@@ -96,7 +96,7 @@ export default function LoginPage() {
           err.message?.includes('unexpected_failure') ||
           err.status === 500
         ) {
-          setError('Email server limit reached for this hour. For your account (' + email + '), you can sign in directly with password: Sameer@123 or reach support on Telegram @mrx4u.');
+          setError('Email service is currently rate-limited. Please wait a few minutes and try again, or contact support on Telegram @mrx4u.');
         } else {
           setError(err.message || 'Failed to send reset link. Please check your email.');
         }
