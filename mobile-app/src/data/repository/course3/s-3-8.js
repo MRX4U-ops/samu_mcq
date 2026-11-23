@@ -5677,5 +5677,1440 @@ export const s_3_8 = {
     ],
     "correctIndex": 2
   }
+],
+  "t-s-3-8-9": [
+  {
+    "question": "What is the main method for detecting esophageal stricture?",
+    "options": [
+      "a. Ultrasound",
+      "b. MRI",
+      "c. Scintigraphy",
+      "*d. Barium swallow X-ray",
+      "e. CT with contrast"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is the advantage of abdominal ultrasound in GI diagnostics?",
+    "options": [
+      "a. Uses contrast",
+      "b. Invasive method",
+      "c. Ionizing radiation",
+      "*d. Safe and no radiation",
+      "e. Expensive"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which method is most often used to detect gallstones?",
+    "options": [
+      "a. MRI",
+      "b. CT",
+      "c. Scintigraphy",
+      "*d. Ultrasound (sonography)",
+      "e. X-ray"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What does “barium enema” help to visualize?",
+    "options": [
+      "a. Esophagus",
+      "b. Liver",
+      "*c. Colon (large intestine)",
+      "d. Pancreas",
+      "e. Kidneys"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a disadvantage of fluoroscopy with barium?",
+    "options": [
+      "a. Safe for children",
+      "b. Used for soft tissue imaging",
+      "c. No ionizing radiation",
+      "*d. Involves radiation and contrast",
+      "e. Shows blood flow"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which imaging shows the best soft tissue contrast?",
+    "options": [
+      "a. Radiography",
+      "b. Ultrasound",
+      "*c. MRI",
+      "d. Scintigraphy",
+      "e. Barium fluoroscopy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method is most useful for evaluating liver lesions?",
+    "options": [
+      "a. Barium swallow",
+      "b. Plain X-ray",
+      "*c. Ultrasound and CT",
+      "d. Fluoroscopy",
+      "e. Enema"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "“Air-fluid levels” on abdominal X-ray suggest:",
+    "options": [
+      "a. Pneumonia",
+      "b. Liver abscess",
+      "*c. Bowel obstruction",
+      "d. Pancreatitis",
+      "e. Gallstones"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method is used to assess gastric emptying?",
+    "options": [
+      "a. MRI",
+      "*b. Radionuclide scintigraphy",
+      "c. CT",
+      "d. Plain radiograph",
+      "e. Sonography"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the most common radiographic sign of perforated ulcer?",
+    "options": [
+      "a. Fluid level in stomach",
+      "b. Esophageal stricture",
+      "*c. Free air under diaphragm",
+      "d. Enlarged spleen",
+      "e. Colon thickening"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does ultrasound help detect in the liver?",
+    "options": [
+      "a. Rib fracture",
+      "*b. Cysts or tumors",
+      "c. Lung infection",
+      "d. Stomach ulcers",
+      "e. Pneumothorax"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which method is best for detecting intestinal obstruction?",
+    "options": [
+      "a. MRI",
+      "b. Fluoroscopy",
+      "*c. Abdominal X-ray",
+      "d. Scintigraphy",
+      "e. PET"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method uses barium to show the shape of the stomach and duodenum?",
+    "options": [
+      "a. CT",
+      "b. MRI",
+      "*c. Barium fluoroscopy (upper GI series)",
+      "d. Ultrasound",
+      "e. Plain film"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the most common radiologic sign of appendicitis on CT?",
+    "options": [
+      "a. Air-fluid level",
+      "b. Free air",
+      "*c. Enlarged, inflamed appendix",
+      "d. Colon narrowing",
+      "e. Rib elevation"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is an advantage of MRI in GI imaging?",
+    "options": [
+      "a. Shows bone fractures",
+      "b. Fast and cheap",
+      "*c. No ionizing radiation, good soft tissue contrast",
+      "d. Good lung imaging",
+      "e. Uses iodine contrast"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method is not good for air-filled structures like bowel?",
+    "options": [
+      "a. X-ray",
+      "b. CT",
+      "*c. Ultrasound",
+      "d. MRI",
+      "e. Fluoroscopy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A “thumbprinting” sign on barium X-ray suggests:",
+    "options": [
+      "a. Appendicitis",
+      "*b. Bowel wall edema (colitis)",
+      "c. Hernia",
+      "d. Free air",
+      "e. Gallstones"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "“Apple core” lesion seen on barium enema suggests:",
+    "options": [
+      "a. Peptic ulcer",
+      "b. Intestinal obstruction",
+      "*c. Colon cancer",
+      "d. Diverticulitis",
+      "e. Volvulus"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A patient with suspected gallbladder stones should first undergo:",
+    "options": [
+      "a. MRI",
+      "b. CT",
+      "*c. Ultrasound",
+      "d. Scintigraphy",
+      "e. Angiography"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method shows real-time movement of GI tract?",
+    "options": [
+      "a. CT",
+      "*b. Fluoroscopy",
+      "c. Scintigraphy",
+      "d. MRI",
+      "e. Sonography"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which imaging helps locate bleeding in the intestine?",
+    "options": [
+      "a. MRI",
+      "*b. Scintigraphy with tagged red blood cells",
+      "c. X-ray",
+      "d. Barium enema",
+      "e. Ultrasound"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the safest imaging during pregnancy for GI complaints?",
+    "options": [
+      "a. X-ray",
+      "b. CT",
+      "c. Scintigraphy",
+      "*d. Ultrasound",
+      "e. MRI with contrast"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What’s a typical sign of GI perforation on X-ray?",
+    "options": [
+      "a. Fluid in lungs",
+      "b. Kerley lines",
+      "*c. Free subdiaphragmatic gas",
+      "d. Thickened heart shadow",
+      "e. Pancreatic calcifications"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A “coffee bean” sign on abdominal X-ray suggests:",
+    "options": [
+      "a. Gastritis",
+      "b. Diverticulitis",
+      "*c. Sigmoid volvulus",
+      "d. Gallstones",
+      "e. Constipation"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the first method used to evaluate abdominal trauma?",
+    "options": [
+      "a. Scintigraphy",
+      "b. CT",
+      "*c. FAST ultrasound",
+      "d. MRI",
+      "e. Fluoroscopy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method is most accurate for staging colon cancer?",
+    "options": [
+      "a. Barium study",
+      "b. Scintigraphy",
+      "*c. CT scan",
+      "d. Plain film",
+      "e. Ultrasound"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What can be detected by barium enema?",
+    "options": [
+      "a. Rib fracture",
+      "b. Renal cyst",
+      "*c. Polyps in colon",
+      "d. Splenic infarct",
+      "e. Hiatal hernia"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A dilated small intestine with air-fluid levels indicates:",
+    "options": [
+      "a. Pneumonia",
+      "b. Gallstones",
+      "*c. Small bowel obstruction",
+      "d. Gastritis",
+      "e. Constipation"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a disadvantage of CT in GI imaging?",
+    "options": [
+      "a. Low resolution",
+      "b. Poor contrast",
+      "*c. Radiation exposure",
+      "d. Cannot see organs",
+      "e. Expensive"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a radiological sign of Crohn’s disease?",
+    "options": [
+      "a. Thumbprinting",
+      "*b. String sign on barium study",
+      "c. Free gas",
+      "d. Apple core",
+      "e. Blunted angle"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which method is best to detect ascites?",
+    "options": [
+      "a. CT",
+      "b. X-ray",
+      "*c. Ultrasound",
+      "d. Fluoroscopy",
+      "e. MRI"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which sign indicates perforation in upright chest or abdominal X-ray?",
+    "options": [
+      "a. Bowel loop",
+      "*b. Free air under diaphragm",
+      "c. Scoliosis",
+      "d. Dilated aorta",
+      "e. Kidney stone"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the main role of MRI in GI imaging?",
+    "options": [
+      "a. Bone assessment",
+      "b. Lung study",
+      "*c. Soft tissue and inflammation detection",
+      "d. Air-fluid detection",
+      "e. Detecting fractures"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a common finding in bowel obstruction?",
+    "options": [
+      "a. Pulmonary edema",
+      "b. Flat diaphragm",
+      "*c. Multiple air-fluid levels",
+      "d. Mediastinal shift",
+      "e. Calcified spleen"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does the \"string sign\" represent in radiology?",
+    "options": [
+      "a. Ulcer",
+      "b. Obstruction",
+      "*c. Narrowed bowel loop in Crohn’s disease",
+      "d. Hiatal hernia",
+      "e. Diverticulum"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A \"target sign\" on ultrasound indicates:",
+    "options": [
+      "a. Fatty liver",
+      "b. Gastritis",
+      "*c. Intussusception",
+      "d. Constipation",
+      "e. Hemorrhoid"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which imaging is best to evaluate pancreas?",
+    "options": [
+      "a. Barium meal",
+      "b. Chest X-ray",
+      "*c. CT or MRI",
+      "d. Bone scan",
+      "e. Sonography only"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a “double bubble” sign seen in infants?",
+    "options": [
+      "*a. Duodenal atresia",
+      "b. Pneumonia",
+      "c. Colon polyp",
+      "d. Hiatal hernia",
+      "e. Liver cyst"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What does \"Rigler’s sign\" mean?",
+    "options": [
+      "a. Enlarged liver",
+      "b. Gastric mass",
+      "*c. Gas on both sides of the bowel wall (perforation)",
+      "d. Fluid under diaphragm",
+      "e. Appendicitis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which modality is used to detect Meckel’s diverticulum?",
+    "options": [
+      "a. Barium meal",
+      "b. CT",
+      "c. Ultrasound",
+      "*d. Radionuclide scan (Tc-99m)",
+      "e. MRI"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which imaging is best for biliary tract obstruction?",
+    "options": [
+      "a. X-ray",
+      "b. Barium meal",
+      "*c. Ultrasound and MRCP",
+      "d. Scintigraphy",
+      "e. PET"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which finding is typical of diverticulitis on CT?",
+    "options": [
+      "a. Liver mass",
+      "*b. Wall thickening and fat stranding in colon",
+      "c. Lung shadow",
+      "d. Ascites",
+      "e. Kidney cyst"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What imaging modality best shows GI bleeding in emergency?",
+    "options": [
+      "a. Ultrasound",
+      "*b. CT angiography",
+      "c. Chest X-ray",
+      "d. Colonoscopy",
+      "e. Barium swallow"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which technique provides dynamic evaluation of swallowing?",
+    "options": [
+      "a. MRI",
+      "b. Scintigraphy",
+      "*c. Barium swallow fluoroscopy",
+      "d. CT",
+      "e. Ultrasound"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "\"Cobblestone\" appearance in bowel on imaging is seen in:",
+    "options": [
+      "a. Colon cancer",
+      "b. Ulcer",
+      "*c. Crohn’s disease",
+      "d. Gastritis",
+      "e. Appendicitis"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "When would you use abdominal X-ray in acute pain?",
+    "options": [
+      "a. Migraine",
+      "b. Flu",
+      "*c. Suspected bowel obstruction or perforation",
+      "d. Anemia",
+      "e. Pneumonia"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which GI structure is poorly seen on plain X-ray?",
+    "options": [
+      "a. Stomach bubble",
+      "b. Colon",
+      "*c. Pancreas",
+      "d. Liver",
+      "e. Diaphragm"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What contrast is commonly used in MRI of GI tract?",
+    "options": [
+      "a. Barium",
+      "b. Iodine",
+      "c. Air",
+      "*d. Gadolinium",
+      "e. Technetium"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is the main limitation of CT in GI imaging?",
+    "options": [
+      "a. Availability",
+      "b. Speed",
+      "*c. Radiation exposure",
+      "d. Poor detail",
+      "e. Movement artifacts"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What’s the best method for colon cancer screening (non-invasive)?",
+    "options": [
+      "a. CT",
+      "b. Ultrasound",
+      "*c. CT colonography",
+      "d. MRI",
+      "e. X-ray"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What’s a simple sign of constipation on abdominal X-ray?",
+    "options": [
+      "a. Free air",
+      "*b. Large amount of fecal material",
+      "c. Lung shadow",
+      "d. Colon mass",
+      "e. Rib widening"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which test evaluates stomach shape and emptying?",
+    "options": [
+      "a. X-ray",
+      "b. MRI",
+      "*c. Barium meal fluoroscopy",
+      "d. CT",
+      "e. Ultrasound"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What finding suggests liver cirrhosis on imaging?",
+    "options": [
+      "a. Free air",
+      "b. Pneumothorax",
+      "*c. Small irregular liver with ascites",
+      "d. Tumor",
+      "e. Thickened bowel"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a danger of using barium if perforation is suspected?",
+    "options": [
+      "a. No image",
+      "b. Expensive",
+      "*c. Leak of barium can cause peritonitis",
+      "d. Radiation overdose",
+      "e. Pain"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which is the fastest test in emergency GI bleeding?",
+    "options": [
+      "a. X-ray",
+      "*b. CT angiography",
+      "c. MRI",
+      "d. Barium enema",
+      "e. Colonoscopy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A “lead pipe” colon on barium X-ray suggests:",
+    "options": [
+      "a. Obstruction",
+      "b. Crohn’s disease",
+      "*c. Ulcerative colitis",
+      "d. Hiatal hernia",
+      "e. Intussusception"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What imaging can detect pancreatic calcifications?",
+    "options": [
+      "*a. X-ray or CT",
+      "b. Ultrasound",
+      "c. Scintigraphy",
+      "d. MRI",
+      "e. PET"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is first test in child with suspected intussusception?",
+    "options": [
+      "a. MRI",
+      "b. CT",
+      "*c. Ultrasound",
+      "d. Scintigraphy",
+      "e. X-ray"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which sign shows sigmoid volvulus?",
+    "options": [
+      "a. Double bubble",
+      "b. Apple core",
+      "*c. Coffee bean",
+      "d. Kerley lines",
+      "e. Target"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the best first test in right upper quadrant pain?",
+    "options": [
+      "a. MRI",
+      "*b. Ultrasound",
+      "c. Barium enema",
+      "d. PET",
+      "e. CT with contrast"
+    ],
+    "correctIndex": 1
+  }
+],
+  "t-s-3-8-10": [],
+  "t-s-3-8-11": [
+  {
+    "question": "What is the first-line imaging method for suspected kidney stones?",
+    "options": [
+      "a. MRI",
+      "*b. Ultrasound",
+      "c. Scintigraphy",
+      "d. Barium enema",
+      "e. PET"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which imaging uses no ionizing radiation?",
+    "options": [
+      "a. CT",
+      "b. Intravenous urography",
+      "*c. Ultrasound",
+      "d. X-ray",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a limitation of ultrasound in urinary tract imaging?",
+    "options": [
+      "a. Cannot detect fluid",
+      "b. Always requires contrast",
+      "*c. Limited visualization in obese patients",
+      "d. Poor safety",
+      "e. Uses radiation"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method provides best detail of kidney anatomy and stones?",
+    "options": [
+      "a. MRI",
+      "*b. Non-contrast CT (CT KUB)",
+      "c. Scintigraphy",
+      "d. PET",
+      "e. Fluoroscopy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which test evaluates renal perfusion and function?",
+    "options": [
+      "a. MRI",
+      "*b. Radionuclide scintigraphy",
+      "c. X-ray",
+      "d. Fluoroscopy",
+      "e. ERCP"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which test is safest in pregnancy for kidney pain?",
+    "options": [
+      "a. CT",
+      "b. X-ray",
+      "c. MRI",
+      "*d. Ultrasound",
+      "e. IV pyelogram"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is the primary use of intravenous urography?",
+    "options": [
+      "a. Brain imaging",
+      "b. Heart function",
+      "*c. Outline of urinary tract and renal excretion",
+      "d. Bowel motility",
+      "e. Liver fat"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method best detects kidney cysts?",
+    "options": [
+      "a. X-ray",
+      "*b. Ultrasound",
+      "c. Fluoroscopy",
+      "d. Scintigraphy",
+      "e. PET"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the main disadvantage of CT in renal imaging?",
+    "options": [
+      "a. Poor resolution",
+      "b. Slow process",
+      "*c. Radiation exposure",
+      "d. No contrast use",
+      "e. Always inaccurate"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following requires iodine-based contrast?",
+    "options": [
+      "a. MRI",
+      "b. Scintigraphy",
+      "*c. Intravenous urography and CT urography",
+      "d. PET",
+      "e. Ultrasound"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A kidney stone appears how on non-contrast CT?",
+    "options": [
+      "a. Hypodense",
+      "b. Isoechoic",
+      "*c. Hyperdense (bright)",
+      "d. Inverted",
+      "e. Not visible"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the imaging of choice in trauma to urinary tract?",
+    "options": [
+      "a. X-ray",
+      "*b. Contrast-enhanced CT",
+      "c. Ultrasound",
+      "d. MRI",
+      "e. PET"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which modality is used to evaluate vesicoureteral reflux?",
+    "options": [
+      "a. CT",
+      "*b. Voiding cystourethrography (VCUG)",
+      "c. MRI",
+      "d. PET",
+      "e. Bone scan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the best imaging for renal artery stenosis?",
+    "options": [
+      "a. Barium meal",
+      "b. X-ray",
+      "*c. CT angiography or Doppler ultrasound",
+      "d. Scintigraphy",
+      "e. IVP"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which sign indicates hydronephrosis on ultrasound?",
+    "options": [
+      "a. Hyperechoic cortex",
+      "b. Small kidney",
+      "*c. Dilated renal pelvis and calyces",
+      "d. Bright ureter",
+      "e. Thick capsule"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What imaging is best for evaluating renal masses?",
+    "options": [
+      "a. Fluoroscopy",
+      "b. X-ray",
+      "*c. CT or MRI with contrast",
+      "d. PET",
+      "e. VCUG"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A renal cyst appears how on ultrasound?",
+    "options": [
+      "a. Bright with calcifications",
+      "*b. Anechoic with posterior enhancement",
+      "c. Irregular",
+      "d. Shadowing lesion",
+      "e. Gas-filled"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the role of DMSA renal scintigraphy?",
+    "options": [
+      "a. Detect kidney stones",
+      "b. Measure kidney size",
+      "*c. Assess cortical function and scarring",
+      "d. See cysts",
+      "e. Evaluate gallbladder"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the imaging sign of polycystic kidney disease?",
+    "options": [
+      "a. Bright renal cortex",
+      "*b. Multiple anechoic cysts in both kidneys",
+      "c. Enlarged spleen",
+      "d. Shrinking cortex",
+      "e. Single stone"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is a risk of contrast-enhanced CT in renal imaging?",
+    "options": [
+      "a. High temperature",
+      "b. No visualization",
+      "*c. Nephrotoxicity in patients with renal failure",
+      "d. Fatty liver",
+      "e. Pneumothorax"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which modality best evaluates renal perfusion and excretion function?",
+    "options": [
+      "a. MRI",
+      "b. CT",
+      "*c. Radionuclide scintigraphy (e.g., DTPA)",
+      "d. Barium study",
+      "e. X-ray"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the major disadvantage of intravenous urography (IVU)?",
+    "options": [
+      "a. No contrast",
+      "b. No radiation",
+      "c. Poor kidney visualization",
+      "*d. Use of iodine and radiation exposure",
+      "e. Takes too long"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which method is used to evaluate renal scars after infection?",
+    "options": [
+      "a. X-ray",
+      "b. CT",
+      "*c. DMSA renal scintigraphy",
+      "d. Ultrasound",
+      "e. VCUG"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which test shows real-time movement of urine during voiding?",
+    "options": [
+      "a. CT",
+      "b. MRI",
+      "*c. Voiding cystourethrography (VCUG)",
+      "d. DMSA",
+      "e. Ultrasound"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does a “double collecting system” mean on imaging?",
+    "options": [
+      "a. Two spleens",
+      "*b. Two ureters from one kidney",
+      "c. Single ureter",
+      "d. Cyst in ureter",
+      "e. Large stone"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the best first test for painless hematuria?",
+    "options": [
+      "a. X-ray",
+      "*b. Ultrasound",
+      "c. PET",
+      "d. Scintigraphy",
+      "e. ERCP"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following gives highest radiation dose?",
+    "options": [
+      "a. Ultrasound",
+      "b. VCUG",
+      "*c. CT urography",
+      "d. MRI",
+      "e. Plain X-ray"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What method is most sensitive for small kidney stones?",
+    "options": [
+      "a. MRI",
+      "*b. CT KUB (non-contrast)",
+      "c. Ultrasound",
+      "d. Barium",
+      "e. Fluoroscopy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the role of contrast-enhanced ultrasound in urology?",
+    "options": [
+      "a. Brain imaging",
+      "b. Stone evaluation",
+      "*c. Assess vascularization of renal masses",
+      "d. Detect gallstones",
+      "e. Lung function"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which imaging is best to evaluate a complex renal cyst?",
+    "options": [
+      "a. Plain X-ray",
+      "b. Scintigraphy",
+      "*c. CT or MRI with contrast",
+      "d. VCUG",
+      "e. PET"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the purpose of Tc-99m MAG3 renal scan?",
+    "options": [
+      "a. Liver perfusion",
+      "b. Cardiac function",
+      "*c. Renal perfusion and drainage assessment",
+      "d. Bone scanning",
+      "e. Colon evaluation"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the main limitation of MRI in urinary tract exams?",
+    "options": [
+      "a. No soft tissue detail",
+      "b. Radiation",
+      "c. Poor resolution",
+      "*d. Long exam time and high cost",
+      "e. Unsafe"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What appears as “twinkling artifact” on Doppler ultrasound?",
+    "options": [
+      "a. Air",
+      "*b. Calcification or stone",
+      "c. Fat",
+      "d. Cyst",
+      "e. Vein"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which sign suggests vesicoureteral reflux on VCUG?",
+    "options": [
+      "a. Empty bladder",
+      "b. No dye movement",
+      "*c. Retrograde flow of contrast into ureters",
+      "d. Absent kidney",
+      "e. Bowel shadow"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the most common site of urinary tract obstruction?",
+    "options": [
+      "a. Bladder",
+      "*b. Ureteropelvic junction",
+      "c. Calyx",
+      "d. Urethra",
+      "e. Renal cortex"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In what case is CT preferred over ultrasound?",
+    "options": [
+      "a. Fatty liver",
+      "*b. Renal colic",
+      "c. Pregnancy",
+      "d. Initial screening",
+      "e. Pediatric urinary tract infection"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is a simple sign of chronic pyelonephritis on imaging?",
+    "options": [
+      "a. Enlarged kidney",
+      "*b. Scarring and cortical thinning",
+      "c. Stones",
+      "d. Twinkling artifact",
+      "e. Mass lesion"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A hypoechoic mass with irregular borders in kidney on ultrasound suggests:",
+    "options": [
+      "a. Cyst",
+      "b. Fat",
+      "*c. Possible tumor",
+      "d. Air",
+      "e. Calcification"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method provides functional and anatomical kidney info in one exam?",
+    "options": [
+      "a. X-ray",
+      "*b. CT urography",
+      "c. VCUG",
+      "d. PET",
+      "e. MRI without contrast"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is a major limitation of renal scintigraphy?",
+    "options": [
+      "a. Poor function assessment",
+      "b. High cost",
+      "c. Long scanning time",
+      "*d. Low spatial resolution",
+      "e. Requires sedation"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is a typical ultrasound feature of renal abscess?",
+    "options": [
+      "a. Anechoic with thin wall",
+      "*b. Mixed echogenic area with irregular margin",
+      "c. Bright with shadow",
+      "d. Strong Doppler signal",
+      "e. Hyperechoic line"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the function of Tc-99m DTPA scan?",
+    "options": [
+      "a. Evaluate bone density",
+      "b. Bowel movement",
+      "*c. Glomerular filtration assessment",
+      "d. Liver mass detection",
+      "e. Detect gallstones"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which method is commonly used in newborns with hydronephrosis?",
+    "options": [
+      "a. CT",
+      "b. X-ray",
+      "c. MRI",
+      "*d. Ultrasound",
+      "e. PET"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What does delayed excretion on IVU suggest?",
+    "options": [
+      "a. Cyst",
+      "*b. Obstruction or reduced function",
+      "c. Normal kidney",
+      "d. Gallbladder disease",
+      "e. Fatty tissue"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which imaging is best to detect renal trauma with bleeding?",
+    "options": [
+      "a. MRI",
+      "*b. Contrast-enhanced CT",
+      "c. X-ray",
+      "d. VCUG",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which modality can detect congenital kidney anomalies like horseshoe kidney?",
+    "options": [
+      "a. PET",
+      "*b. Ultrasound or CT",
+      "c. Angiography",
+      "d. Plain radiograph",
+      "e. Endoscopy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does \"hyperechoic renal cortex\" suggest on ultrasound?",
+    "options": [
+      "a. Cyst",
+      "b. Cancer",
+      "*c. Chronic kidney disease",
+      "d. Healthy kidney",
+      "e. Reflux"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which modality is best for identifying small renal tumors?",
+    "options": [
+      "a. Plain film",
+      "b. Scintigraphy",
+      "*c. MRI or contrast-enhanced CT",
+      "d. Ultrasound only",
+      "e. PET"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a major limitation of using ultrasound for ureters?",
+    "options": [
+      "a. Always sees ureters",
+      "*b. Gas and bone may block view",
+      "c. Too expensive",
+      "d. Radiation risk",
+      "e. Needs general anesthesia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What test best evaluates urinary bladder wall thickening?",
+    "options": [
+      "a. CT",
+      "b. Scintigraphy",
+      "c. X-ray",
+      "*d. Ultrasound",
+      "e. PET"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which method is least informative for kidney function?",
+    "options": [
+      "a. DMSA",
+      "b. MAG3",
+      "c. CT",
+      "*d. Plain abdominal X-ray",
+      "e. DTPA"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is a common ultrasound sign of ureteral stone?",
+    "options": [
+      "a. Liver shadow",
+      "b. Hypoechoic bladder",
+      "*c. Hydronephrosis",
+      "d. Splenomegaly",
+      "e. Enlarged kidney"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is a benefit of Doppler in renal ultrasound?",
+    "options": [
+      "a. Detect stones",
+      "b. See pancreas",
+      "*c. Evaluate blood flow in renal vessels",
+      "d. Detect cyst wall",
+      "e. Show ureter"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which imaging modality is ideal for renal vein thrombosis?",
+    "options": [
+      "a. X-ray",
+      "*b. Doppler ultrasound or CT venography",
+      "c. Scintigraphy",
+      "d. VCUG",
+      "e. PET"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What condition is best diagnosed with VCUG in children?",
+    "options": [
+      "a. Tumor",
+      "b. Hydronephrosis",
+      "*c. Vesicoureteral reflux",
+      "d. Renal artery stenosis",
+      "e. Polycystic kidneys"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for non-functioning kidney on DMSA scan?",
+    "options": [
+      "a. Cirrhotic kidney",
+      "*b. Cold area or photopenic zone",
+      "c. Hot kidney",
+      "d. Bright cortex",
+      "e. Echo-free pole"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which finding suggests complete obstruction of the ureter?",
+    "options": [
+      "a. Small bladder",
+      "*b. No contrast passing beyond blockage",
+      "c. Thin cortex",
+      "d. Fast urine flow",
+      "e. Twinkling artifact"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which scan is best for split renal function measurement?",
+    "options": [
+      "a. X-ray",
+      "b. MRI",
+      "c. CT urography",
+      "*d. DTPA or MAG3 scintigraphy",
+      "e. ERCP"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which condition causes cortical thinning and scarring in kidneys?",
+    "options": [
+      "a. Hematuria",
+      "*b. Reflux nephropathy",
+      "c. Cyst",
+      "d. Bowel obstruction",
+      "e. Hepatitis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which is a non-invasive test for renal artery stenosis in young people?",
+    "options": [
+      "a. CT with contrast",
+      "b. DTPA scan",
+      "*c. Color Doppler ultrasound",
+      "d. PET",
+      "e. X-ray"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the preferred imaging to evaluate renal transplant perfusion?",
+    "options": [
+      "a. X-ray",
+      "b. MRI",
+      "*c. Doppler ultrasound",
+      "d. PET",
+      "e. Barium enema"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A child with recurrent UTIs and a scarred kidney should undergo:",
+    "options": [
+      "a. X-ray",
+      "*b. DMSA renal scan",
+      "c. PET",
+      "d. MRI",
+      "e. IV contrast"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does a “hypodense lesion” on CT usually mean in kidney?",
+    "options": [
+      "a. Stone",
+      "b. Gas",
+      "*c. Cyst or abscess",
+      "d. Bone",
+      "e. Calcification"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What imaging sign suggests nephrocalcinosis?",
+    "options": [
+      "a. Large cyst",
+      "b. Thin cortex",
+      "*c. Multiple small calcifications in renal pyramids",
+      "d. Low perfusion",
+      "e. Posterior enhancement"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What condition shows thickened bladder wall on ultrasound?",
+    "options": [
+      "a. Liver abscess",
+      "*b. Chronic cystitis",
+      "c. Pancreatitis",
+      "d. Renal tumor",
+      "e. Cholelithiasis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the purpose of diuretic renal scintigraphy?",
+    "options": [
+      "a. Measure bladder pressure",
+      "*b. Differentiate between obstructive vs non-obstructive hydronephrosis",
+      "c. Bone imaging",
+      "d. Colon transit",
+      "e. Blood flow to brain"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In which modality do stones typically appear as signal voids?",
+    "options": [
+      "a. CT",
+      "*b. MRI",
+      "c. PET",
+      "d. Ultrasound",
+      "e. Scintigraphy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is a common MRI feature of renal angiomyolipoma?",
+    "options": [
+      "a. Fluid",
+      "*b. Fat signal on T1",
+      "c. Stone",
+      "d. Air",
+      "e. Calcification"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the key limitation of CT in pediatric renal imaging?",
+    "options": [
+      "a. Poor contrast",
+      "*b. Radiation exposure",
+      "c. Inability to see stones",
+      "d. High noise",
+      "e. Long time"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which imaging is safest for follow-up of renal cysts?",
+    "options": [
+      "a. MRI with contrast",
+      "b. CT",
+      "*c. Ultrasound",
+      "d. IVP",
+      "e. PET"
+    ],
+    "correctIndex": 2
+  }
 ]
 };
