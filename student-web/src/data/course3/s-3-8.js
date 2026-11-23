@@ -1443,5 +1443,1701 @@ export const s_3_8 = {
       ],
       "correctIndex": 3
     }
+  ],
+  "t-s-3-8-3": [
+    {
+      "question": "A disadvantage of scintigraphy in musculoskeletal imaging is:",
+      "options": [
+        "a. Use of contrast media",
+        "b. Long scan time",
+        "*c. Lack of specificity",
+        "d. High cost of equipment",
+        "e. Poor spatial resolution"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "A key advantage of CT over radiography is:",
+      "options": [
+        "*a. Cross-sectional 3D imaging",
+        "b. No artifacts",
+        "c. Less radiation",
+        "d. Higher soft tissue contrast",
+        "e. Greater cost efficiency"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "A lytic lesion with cortical destruction is best evaluated with:",
+      "options": [
+        "a. Ultrasound",
+        "b. Bone scan",
+        "c. Radiography",
+        "*d. MRI",
+        "e. Angiography"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "A sonographic \"halo sign\" around tendon indicates:",
+      "options": [
+        "*a. Effusion or inflammation",
+        "b. Necrosis",
+        "c. Bone bruise",
+        "d. Fracture",
+        "e. Tumor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "As visualized cancerous thyroid node at the sonogram?",
+      "options": [
+        "a. none of these",
+        "*b. single, without ehonegativnoe rim",
+        "c. with a single rim ehonegativnoe",
+        "d. multiple nodes with calcification",
+        "e. several nodes interconnected"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "CT scans are often preferred over MRI for emergency brain imaging because they:",
+      "options": [
+        "*a. Have shorter scan times",
+        "b. Are less expensive",
+        "c. Do not require contrast",
+        "d. Provide higher resolution images"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Fluoroscopy is most commonly used in:",
+      "options": [
+        "a. Brain MRI",
+        "b. Soft tissue swelling",
+        "c. Bone density",
+        "*d. Joint arthrography or guided injections",
+        "e. PET imaging"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "For joint cartilage defects, the most sensitive modality is:",
+      "options": [
+        "*a. MRI",
+        "b. Radiography",
+        "c. CT",
+        "d. Bone scan",
+        "e. PET"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "For X-ray studies of the spine does not apply:",
+      "options": [
+        "*a. scintigraphy",
+        "b. functional radiography",
+        "c. CT scan",
+        "d. myelography",
+        "e. radiography"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "In angiography, contrast is used to visualize:",
+      "options": [
+        "a. Ligaments",
+        "*b. Blood vessels",
+        "c. Cartilage",
+        "d. Muscles",
+        "e. Bone marrow"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "MRI is particularly useful for imaging which part of the brain?",
+      "options": [
+        "a. Cerebellum",
+        "b. Corpus callosum",
+        "*c. Hippocampus",
+        "d. Medulla oblongata"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What does a diffusion-weighted imaging (DWI) scan primarily assess?",
+      "options": [
+        "a. Brain anatomy",
+        "b. Cerebral blood volume",
+        "c. Blood flow in the brain",
+        "*d. Integrity of brain tissue"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What does a functional MRI (fMRI) primarily assess?",
+      "options": [
+        "a. Brain anatomy",
+        "b. Cerebral blood flow",
+        "*c. Brain activity",
+        "d. White matter integrity"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What does a magnetic resonance angiography (MRA) primarily assess?",
+      "options": [
+        "a. Brain function",
+        "b. Skull fractures",
+        "c. Cerebral blood flow",
+        "*d. Blood vessels in the brain"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What does a myelogram primarily assess?",
+      "options": [
+        "*a. Brain function",
+        "b. None of the previous one",
+        "c. Muscle strength",
+        "d. Spinal cord abnormalities"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "What does blunting of the costophrenic angle indicate on X-ray?",
+      "options": [
+        "a. Pulmonary embolism",
+        "b. Atelectasis",
+        "*c. Pleural effusion",
+        "d. Pneumomediastinum",
+        "e. Pneumothorax"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What imaging modality is commonly used for assessing pituitary gland abnormalities such as pituitary adenomas?",
+      "options": [
+        "a. X-ray",
+        "*b. Pituitary MRI",
+        "c. Thyroid ultrasound",
+        "d. Adrenal CT scan with contrast"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What imaging modality is commonly used for assessing the size and characteristics of thyroid cysts?",
+      "options": [
+        "a. CT scan",
+        "b. X-ray",
+        "*c. Thyroid ultrasound",
+        "d. Adrenal MRI"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What imaging modality is commonly used for evaluating the size and morphology of the adrenal glands in cases of congenital adrenal hyperplasia?",
+      "options": [
+        "a. Thyroid ultrasound",
+        "b. X-ray",
+        "c. CT scan",
+        "*d. Adrenal MRI"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What imaging modality is commonly used for evaluating thyroid function and detecting thyroid nodules?",
+      "options": [
+        "a. Adrenal MRI",
+        "*b. Thyroid ultrasound",
+        "c. CT scan",
+        "d. X-ray"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What imaging modality is commonly used for evaluating thyroid nodules and assessing their characteristics?",
+      "options": [
+        "a. MRI",
+        "*b. Thyroid ultrasound",
+        "c. CT scan",
+        "d. X-ray"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What imaging modality is preferred for evaluating the size and morphology of the adrenal glands?",
+      "options": [
+        "a. X-ray",
+        "b. Thyroid ultrasound",
+        "c. CT scan",
+        "*d. Adrenal MRI"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What imaging modality is recommended for evaluating the size and function of the pituitary gland?",
+      "options": [
+        "a. Adrenal CT scan with contrast",
+        "b. CT scan",
+        "c. X-ray",
+        "*d. Pituitary MRI"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What is the primary advantage of using MRI over CT for brain imaging?",
+      "options": [
+        "a. Higher spatial resolution",
+        "b. Lower cost",
+        "c. Shorter scan times",
+        "*d. Absence of ionizing radiation"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What is the primary disadvantage of using CT scans for brain imaging?",
+      "options": [
+        "a. Lower resolution images",
+        "*b. Exposure to ionizing radiation",
+        "c. Limited availability",
+        "d. High cost"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which imaging is superior in visualizing early bone marrow edema?",
+      "options": [
+        "a. Bone scan",
+        "b. X-ray",
+        "c. CT",
+        "*d. MRI",
+        "e. Ultrasound"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which imaging modality is best for evaluating brain perfusion and detecting ischemic strokes?",
+      "options": [
+        "a. X-ray",
+        "b. MRI",
+        "c. Ultrasound",
+        "*d. CT perfusion"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which imaging modality is best for evaluating brain tumors in terms of tissue composition and vascularity?",
+      "options": [
+        "*a. MRI",
+        "b. Ultrasound",
+        "c. PET scan",
+        "d. X-ray"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which imaging modality is best for evaluating brain tumors in terms of tumor size, location, and involvement of surrounding structures?",
+      "options": [
+        "a. Ultrasound",
+        "b. X-ray",
+        "c. PET scan",
+        "*d. MRI"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which imaging modality is most commonly used for diagnosing intracranial hemorrhage?",
+      "options": [
+        "*a. CT scan",
+        "b. Ultrasound",
+        "c. PET scan",
+        "d. X-ray"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which imaging modality is most commonly used to assess brain structure and function in research settings?",
+      "options": [
+        "*a. MRI",
+        "b. Ultrasound",
+        "c. X-ray",
+        "d. PET scan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which imaging modality is most commonly used to assess brain structure and function in research settings?",
+      "options": [
+        "a. Ultrasound",
+        "*b. MRI",
+        "c. PET scan",
+        "d. X-ray"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which imaging modality is most commonly used to assess brain structure and function in research settings?",
+      "options": [
+        "a. PET scan",
+        "b. Ultrasound",
+        "*c. MRI",
+        "d. X-ray"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which imaging modality is preferred for evaluating spinal cord injuries?",
+      "options": [
+        "a. X-ray",
+        "*b. MRI",
+        "c. Ultrasound",
+        "d. PET scan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which imaging modality is preferred for visualizing small structures within the brain, such as the pineal gland?",
+      "options": [
+        "a. Ultrasound",
+        "b. CT scan",
+        "c. X-ray",
+        "*d. MRI"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which imaging technique is best for detecting abnormalities in the white matter of the brain?",
+      "options": [
+        "a. X-ray",
+        "b. Ultrasound",
+        "c. CT scan",
+        "*d. MRI"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which imaging technique is best for detecting abnormalities in the white matter of the brain?",
+      "options": [
+        "a. X-ray",
+        "b. Ultrasound",
+        "*c. MRI",
+        "d. CT scan"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which imaging technique is best for visualizing blood vessels in the brain without using contrast dye?",
+      "options": [
+        "a. CT angiography",
+        "b. Ultrasound",
+        "*c. Magnetic resonance angiography (MRA)",
+        "d. X-ray angiography"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which imaging technique is commonly used for assessing the size and morphology of the parathyroid glands in cases of secondary hyperparathyroidism?",
+      "options": [
+        "a. X-ray",
+        "b. Adrenal MRI",
+        "*c. Parathyroid ultrasound",
+        "d. CT scan"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which imaging technique is commonly used for assessing thyroid gland vascularity and diagnosing thyroiditis?",
+      "options": [
+        "*a. Thyroid ultrasound with Doppler",
+        "b. CT scan",
+        "c. X-ray",
+        "d. Adrenal CT scan with contrast"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which imaging technique is preferred for diagnosing adrenal insufficiency and evaluating adrenal gland function?",
+      "options": [
+        "a. Thyroid ultrasound",
+        "b. Parathyroid sestamibi scan",
+        "c. X-ray",
+        "*d. Adrenal MRI"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which imaging technique is preferred for diagnosing Cushing's syndrome and assessing adrenal gland hypertrophy?",
+      "options": [
+        "a. Pituitary MRI",
+        "b. CT scan",
+        "c. X-ray",
+        "*d. Adrenal MRI"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which imaging technique is preferred for diagnosing parathyroid adenomas and localizing hyperfunctioning parathyroid glands?",
+      "options": [
+        "a. Thyroid ultrasound",
+        "b. X-ray",
+        "c. CT scan",
+        "*d. Parathyroid sestamibi scan"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which imaging technique is preferred for diagnosing pituitary microadenomas and assessing the pituitary gland's microarchitecture?",
+      "options": [
+        "a. Adrenal CT scan with contrast",
+        "*b. High-resolution pituitary MRI",
+        "c. X-ray",
+        "d. CT scan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which imaging technique is preferred for diagnosing pituitary microadenomas and assessing their growth over time?",
+      "options": [
+        "a. CT scan",
+        "*b. Serial Pituitary MRI",
+        "c. X-ray",
+        "d. Adrenal CT scan with contrast"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which imaging technique is preferred for diagnosing primary hyperaldosteronism and localizing aldosterone-producing adenomas?",
+      "options": [
+        "*a. Adrenal vein sampling",
+        "b. Thyroid ultrasound",
+        "c. X-ray",
+        "d. CT scan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which imaging technique is preferred for diagnosing primary hyperparathyroidism and localizing parathyroid adenomas?",
+      "options": [
+        "a. CT scan",
+        "b. X-ray",
+        "*c. Parathyroid sestamibi scan",
+        "d. Adrenal MRI"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which imaging technique is preferred for evaluating the size and function of the pineal gland?",
+      "options": [
+        "*a. Pineal MRI",
+        "b. X-ray",
+        "c. Thyroid ultrasound",
+        "d. Adrenal CT scan with contrast"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which imaging technique is recommended for assessing the size and function of the pituitary gland in cases of pituitary hypoplasia?",
+      "options": [
+        "a. X-ray",
+        "b. Adrenal CT scan with contrast",
+        "*c. Pituitary MRI",
+        "d. CT scan"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which imaging technique is recommended for diagnosing Cushing's syndrome and evaluating adrenal gland function?",
+      "options": [
+        "*a. Adrenal MRI",
+        "b. Thyroid ultrasound",
+        "c. Parathyroid sestamibi scan",
+        "d. X-ray"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which imaging technique is recommended for diagnosing hyperparathyroidism and localizing parathyroid adenomas?",
+      "options": [
+        "*a. Parathyroid sestamibi scan",
+        "b. Adrenal CT scan with contrast",
+        "c. CT scan",
+        "d. X-ray"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which imaging technique is recommended for diagnosing pheochromocytomas and detecting their location within the adrenal glands?",
+      "options": [
+        "a. Thyroid ultrasound",
+        "b. Parathyroid sestamibi scan",
+        "c. X-ray",
+        "*d. Adrenal MRI"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which imaging technique is recommended for evaluating the size and function of the parathyroid glands in cases of hyperparathyroidism?",
+      "options": [
+        "a. Adrenal MRI",
+        "b. CT scan",
+        "*c. Parathyroid ultrasound",
+        "d. X-ray"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which imaging technique is recommended for evaluating the size and function of the adrenal glands in cases of Addison's disease?",
+      "options": [
+        "a. Thyroid ultrasound",
+        "b. X-ray",
+        "*c. Adrenal MRI",
+        "d. CT scan"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which imaging technique is recommended for evaluating the size and function of the adrenal glands in cases of adrenal hemorrhage?",
+      "options": [
+        "a. CT scan",
+        "b. X-ray",
+        "*c. Adrenal MRI",
+        "d. Thyroid ultrasound"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which imaging technique provides detailed images of brain activity by measuring changes in blood flow?",
+      "options": [
+        "*a. Functional MRI (fMRI)",
+        "b. X-ray",
+        "c. Ultrasound",
+        "d. MRI"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which modality can evaluate both structure and function?",
+      "options": [
+        "*a. Scintigraphy",
+        "b. Radiography",
+        "c. Ultrasound",
+        "d. MRI",
+        "e. CT"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "X-rays are not commonly used for imaging the brain due to:",
+      "options": [
+        "*a. High radiation exposure",
+        "b. Low resolution images",
+        "c. Inability to penetrate bone",
+        "d. Limited availability"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "X-rays are occasionally used for brain imaging when:",
+      "options": [
+        "a. Non-invasive functional imaging is necessary",
+        "b. High-resolution images are desired",
+        "c. Detailed anatomical information is needed",
+        "*d. Rapid assessment is required in emergency situations"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "X-rays are occasionally used for brain imaging when:",
+      "options": [
+        "a. Detailed anatomical information is needed",
+        "*b. Rapid assessment is required in emergency situations",
+        "c. Non-invasive functional imaging is necessary",
+        "d. High-resolution images are desired"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "X-rays are occasionally used for brain imaging when:",
+      "options": [
+        "a. High-resolution images are desired",
+        "b. Non-invasive functional imaging is necessary",
+        "*c. Rapid assessment is required in emergency situations",
+        "d. Detailed anatomical information is needed"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "X-rays are occasionally used for brain imaging when:",
+      "options": [
+        "a. Detailed anatomical information is needed",
+        "*b. Rapid assessment is required in emergency situations",
+        "c. High-resolution images are desired",
+        "d. Non-invasive functional imaging is necessary"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "X-rays are occasionally used for imaging the skull to assess:",
+      "options": [
+        "a. Brain tumors",
+        "b. Nerve conduction",
+        "*c. Fractures",
+        "d. Cerebral blood flow"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "X-rays are sometimes used in conjunction with other imaging techniques for brain imaging to:",
+      "options": [
+        "a. Enhance contrast",
+        "b. Reduce scan time",
+        "*c. Provide additional anatomical information",
+        "d. Decrease radiation exposure"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "X-rays are sometimes used in conjunction with other imaging techniques for brain imaging to:",
+      "options": [
+        "a. Reduce scan time",
+        "b. Decrease radiation exposure",
+        "c. Enhance contrast",
+        "*d. Provide additional anatomical information"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "X-rays may be used for imaging the skull in cases of suspected:",
+      "options": [
+        "a. Brain tumors",
+        "*b. Skull fractures",
+        "c. Meningitis",
+        "d. Cerebral aneurysms"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "X-rays may be used for imaging the skull in cases of suspected:",
+      "options": [
+        "*a. Skull fractures",
+        "b. Cerebral aneurysms",
+        "c. Meningitis",
+        "d. Brain tumors"
+      ],
+      "correctIndex": 0
+    }
+  ],
+  "t-s-3-8-4": [
+    {
+      "question": "A vertebral compression fracture shows:",
+      "options": [
+        "*a. Loss of vertebral body height",
+        "b. Decreased bone density",
+        "c. Increased disk space",
+        "d. Spinal widening",
+        "e. Schmorl's knots"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "A “sunburst” periosteal reaction on X-ray is characteristic of:",
+      "options": [
+        "a. Giant cell tumor",
+        "b. Chondrosarcoma",
+        "c. Osteomyelitis",
+        "d. Ewing's sarcoma",
+        "*e. Osteosarcoma"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "question": "Chondrocalcinosis is best described as:",
+      "options": [
+        "a. Subchondral cyst formation",
+        "b. Loose bodies in the joint",
+        "c. Erosions at the joint margin",
+        "*d. Calcification of cartilage",
+        "e. Sclerotic joint line"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Codman triangle is typically associated with:",
+      "options": [
+        "*a. Osteosarcoma",
+        "b. Multiple myeloma",
+        "c. Gout",
+        "d. Osteoarthritis",
+        "e. Osteochondroma"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "CT scans are frequently used in emergency settings for diagnosing:",
+      "options": [
+        "a. Chronic migraines",
+        "*b. Acute head trauma",
+        "c. Alzheimer's disease",
+        "d. Parkinson's disease"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "CT scans are often used to detect:",
+      "options": [
+        "a. Blood clots",
+        "b. Brain tumors",
+        "*c. Spinal cord injuries",
+        "d. Nerve damage"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "In osteomyelitis, sequestrum refers to:",
+      "options": [
+        "a. Involucrum",
+        "*b. Dead bone segment",
+        "c. Abscess cavity",
+        "d. Bone overgrowth",
+        "e. Joint erosion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "In scurvy, the “white line of Frankel” is a sign of:",
+      "options": [
+        "a. Epiphyseal widening",
+        "b. Rickets",
+        "c. Cartilage resorption",
+        "d. Osteomyelitis",
+        "*e. Dense provisional calcification"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "question": "Looser's zones on X-ray indicate:",
+      "options": [
+        "a. Osteosarcoma",
+        "b. Fracture union",
+        "c. Paget’s disease",
+        "d. Osteomyelitis",
+        "*e. Osteomalacia"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "question": "MRI is particularly useful for imaging which part of the brain?",
+      "options": [
+        "a. Corpus callosum",
+        "*b. Hippocampus",
+        "c. Medulla oblongata",
+        "d. Cerebellum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "PET scans are valuable in brain imaging because they can:",
+      "options": [
+        "a. Measure blood flow",
+        "*b. Detect metabolic activity",
+        "c. Visualize bone fractures",
+        "d. Assess soft tissue injuries"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Radiolucent metaphyseal bands may be seen in:",
+      "options": [
+        "a. Gout",
+        "*b. Leukemia",
+        "c. Rheumatoid arthritis",
+        "d. Chondrosarcoma",
+        "e. Osteomyelitis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Sclerosis and cortical thickening of the femoral neck suggest:",
+      "options": [
+        "a. Osteomyelitis",
+        "b. Osteoarthritis",
+        "c. Chondroma",
+        "*d. Paget’s disease",
+        "e. Avascular necrosis"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Spondylolysis is best seen on which X-ray view?",
+      "options": [
+        "a. Lateral cervical",
+        "*b. Oblique lumbar spine",
+        "c. AP lumbar",
+        "d. PA thoracic",
+        "e. Supine pelvic"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Subchondral sclerosis on X-ray is most typical for:",
+      "options": [
+        "*a. Osteoarthritis",
+        "b. Psoriatic arthritis",
+        "c. Septic arthritis",
+        "d. Gout",
+        "e. Rheumatoid arthritis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Subperiosteal bone resorption is typical for:",
+      "options": [
+        "a. Ewing's sarcoma",
+        "b. Osteoporosis",
+        "*c. Hyperparathyroidism",
+        "d. Rickets",
+        "e. Osteoarthritis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Symmetric marginal joint erosions are typical for:",
+      "options": [
+        "*a. Rheumatoid arthritis",
+        "b. Gout",
+        "c. Osteoarthritis",
+        "d. Psoriatic arthritis",
+        "e. Osteomyelitis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "The \"bone scan\" is most sensitive for detecting:",
+      "options": [
+        "a. Hemangioma",
+        "b. Lipoma",
+        "*c. Bone metastasis",
+        "d. Fat necrosis",
+        "e. Osteoarthritis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "The \"punched-out\" lesions in skull X-rays suggest:",
+      "options": [
+        "a. Paget’s disease",
+        "b. Hyperparathyroidism",
+        "c. Metastatic prostate cancer",
+        "*d. Multiple myeloma",
+        "e. Fibrous dysplasia"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "The classic X-ray finding of a benign bone infarct is:",
+      "options": [
+        "a. Ground-glass opacity",
+        "b. Sunburst pattern",
+        "c. Bony fragmentation",
+        "*d. Serpiginous sclerotic border",
+        "e. Central necrosis"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "The earliest X-ray sign of rheumatoid arthritis is:",
+      "options": [
+        "a. Marginal erosion",
+        "b. Deformity",
+        "c. Joint space narrowing",
+        "*d. Periarticular osteopenia",
+        "e. Ankylosis"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "The hallmark X-ray sign of osteomyelitis in early stages is:",
+      "options": [
+        "*a. Soft tissue swelling",
+        "b. Subchondral sclerosis",
+        "c. Sequestrum",
+        "d. Joint erosion",
+        "e. Lytic lesion with sclerosis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "The radiologic “bone within bone” sign is seen in:",
+      "options": [
+        "a. Rickets",
+        "b. Multiple myeloma",
+        "c. Fibrous dysplasia",
+        "*d. Osteopetrosis",
+        "e. Giant cell tumor"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "The typical radiologic pattern in myositis ossificans is:",
+      "options": [
+        "a. Central calcification",
+        "b. Uniform sclerosis",
+        "*c. Peripheral calcification",
+        "d. Erosions",
+        "e. No calcification"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "The “crescent sign” in femoral head collapse suggests:",
+      "options": [
+        "a. Hemophilia",
+        "b. Tumor",
+        "c. Arthritis",
+        "*d. Avascular necrosis",
+        "e. Infection"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "The “crescent sign” in the femoral head is a radiologic indicator of:",
+      "options": [
+        "a. Osteoarthritis",
+        "b. Tuberculosis",
+        "c. Fracture",
+        "*d. Avascular necrosis",
+        "e. Synovitis"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "The “crescent sign” is seen in:",
+      "options": [
+        "a. Osteoporosis",
+        "*b. Avascular necrosis of the femoral head",
+        "c. Ankylosing spondylitis",
+        "d. Bursitis",
+        "e. Gout"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "The “double density sign” is found in:",
+      "options": [
+        "a. Osteomalacia",
+        "b. Myositis ossificans",
+        "*c. Paget’s disease",
+        "d. Ewing's sarcoma",
+        "e. Osteomyelitis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "The “fallen fragment sign” suggests which diagnosis?",
+      "options": [
+        "a. Osteoarthritis",
+        "*b. Unicameral bone cyst",
+        "c. Paget’s disease",
+        "d. Aneurysmal bone cyst",
+        "e. Chondroma"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "The “ground-glass” appearance in long bones is associated with:",
+      "options": [
+        "a. Rickets",
+        "b. Hyperparathyroidism",
+        "c. Ewing's sarcoma",
+        "*d. Fibrous dysplasia",
+        "e. Multiple myeloma"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "The “ivory vertebra” sign on X-ray may suggest:",
+      "options": [
+        "a. Tuberculosis",
+        "b. Herniated disc",
+        "*c. Lymphoma or metastatic disease",
+        "d. Infection",
+        "e. Ankylosing spondylitis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "The “onion-skin” appearance in long bones is suggestive of:",
+      "options": [
+        "*a. Ewing's sarcoma",
+        "b. Chondroblastoma",
+        "c. Osteomalacia",
+        "d. Tuberculosis",
+        "e. Metastasis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "The “ring and arc” pattern is typical of:",
+      "options": [
+        "a. Osteoid osteoma",
+        "b. Brown tumor",
+        "c. Bone infarction",
+        "*d. Cartilaginous tumors (enchondroma, chondrosarcoma)",
+        "e. Eosinophilic granuloma"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "The “scottie dog” sign refers to which structure?",
+      "options": [
+        "a. Iliac crest",
+        "b. Acetabulum",
+        "c. Hip dislocation",
+        "*d. Pars interarticularis",
+        "e. Spinous process"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "The “Shepherd's crook” deformity is typical of:",
+      "options": [
+        "a. Rickets",
+        "b. Osteosarcoma",
+        "c. Paget’s disease",
+        "d. Osteopetrosis",
+        "*e. Fibrous dysplasia"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "question": "The “snowstorm appearance’ in joints may suggest:",
+      "options": [
+        "a. Gout",
+        "b. Septic arthritis",
+        "*c. Synovial chondromatosis",
+        "d. Rheumatoid arthritis",
+        "e. Pseudogout"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "The “trolley track sign” is found in:",
+      "options": [
+        "a. Osteoarthritis",
+        "b. Psoriatic arthritis",
+        "c. Rheumatoid arthritis",
+        "d. Gout",
+        "*e. Ankylosing spondylitis"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "question": "Vertebral “biconcave” or “fish-mouth” deformity suggests:",
+      "options": [
+        "a. Spondylolisthesis",
+        "*b. Osteoporosis",
+        "c. Scoliosis",
+        "d. Ankylosing spondylitis",
+        "e. Osteopetrosis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What disease is associated with “fluffy periostitis”?",
+      "options": [
+        "a. Fibrous dysplasia",
+        "b. Gout",
+        "c. Paget’s disease",
+        "d. Osteoporosis",
+        "*e. Hypertrophic osteoarthropathy"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "question": "What does a diffusion tensor imaging (DTI) scan primarily assess?",
+      "options": [
+        "a. Cerebral perfusion pressure",
+        "b. Blood flow in the brain",
+        "*c. Integrity of white matter tracts",
+        "d. Brain metabolism"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What does a diffusion tensor imaging (DTI) scan primarily assess?",
+      "options": [
+        "a. Blood flow in the brain",
+        "b. Brain metabolism",
+        "c. Cerebral perfusion pressure",
+        "*d. Integrity of white matter tracts"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What does a diffusion-weighted imaging (DWI) scan primarily assess?",
+      "options": [
+        "a. Brain anatomy",
+        "*b. Integrity of brain tissue",
+        "c. Blood flow in the brain",
+        "d. Cerebral blood volume"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What does a functional MRI (fMRI) primarily assess?",
+      "options": [
+        "a. Cerebral blood flow",
+        "b. Brain anatomy",
+        "c. White matter integrity",
+        "*d. Brain activity"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What does a functional MRI (fMRI) primarily assess?",
+      "options": [
+        "a. White matter integrity",
+        "b. Cerebral blood flow",
+        "*c. Brain activity",
+        "d. Brain anatomy"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What does a magnetic resonance angiography (MRA) primarily assess?",
+      "options": [
+        "*a. Brain function",
+        "b. Cerebral blood flow",
+        "c. Blood vessels in the brain",
+        "d. Skull fractures"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "What does a magnetic resonance spectroscopy (MRS) scan primarily assess?",
+      "options": [
+        "*a. Brain metabolism",
+        "b. Brain anatomy",
+        "c. Blood flow in the brain",
+        "d. Integrity of white matter tracts"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "What does a positron emission tomography (PET) scan primarily assess?",
+      "options": [
+        "a. Brain metabolism",
+        "b. Brain anatomy",
+        "c. Cerebral blood flow",
+        "*d. Functional brain activity"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What does a susceptibility-weighted imaging (SWI) scan primarily assess?",
+      "options": [
+        "a. Brain metabolism",
+        "*b. Iron deposits and hemorrhage",
+        "c. Cerebral blood volume",
+        "d. Blood flow in the brain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What imaging modality is commonly used for assessing the size and morphology of the thyroid gland?",
+      "options": [
+        "a. Adrenal MRI",
+        "b. CT scan",
+        "*c. Thyroid ultrasound",
+        "d. X-ray"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What imaging modality is commonly used for assessing the size and characteristics of adrenal incidentalomas?",
+      "options": [
+        "a. X-ray",
+        "*b. Adrenal MRI",
+        "c. Thyroid ultrasound",
+        "d. CT scan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What imaging modality is commonly used for assessing the size and morphology of the thyroid gland in cases of thyroiditis?",
+      "options": [
+        "a. Adrenal MRI",
+        "*b. Thyroid ultrasound",
+        "c. CT scan",
+        "d. X-ray"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What imaging modality is commonly used for assessing the size and function of the pineal gland in cases of pineal gland tumors?",
+      "options": [
+        "a. CT scan",
+        "b. X-ray",
+        "*c. Pineal MRI",
+        "d. Adrenal MRI"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What imaging modality is commonly used for assessing the size and morphology of the thyroid gland in cases of Hashimoto's thyroiditis?",
+      "options": [
+        "a. Adrenal MRI",
+        "*b. Thyroid ultrasound",
+        "c. CT scan",
+        "d. X-ray"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What imaging modality is commonly used for assessing the size and morphology of the thymus gland in cases of thymic hyperplasia?",
+      "options": [
+        "a. X-ray",
+        "b. CT scan",
+        "*c. Thymic MRI",
+        "d. Adrenal MRI"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What imaging modality is commonly used for assessing thyroid blood flow and diagnosing thyroiditis?",
+      "options": [
+        "a. CT scan",
+        "b. X-ray",
+        "c. Adrenal MRI",
+        "*d. Thyroid ultrasound with Doppler"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What imaging modality is commonly used for diagnosing pelvic inflammatory disease (PID) and detecting tubo-ovarian abscesses?",
+      "options": [
+        "a. Hysterosalpingography",
+        "b. MRI",
+        "*c. Transvaginal ultrasound",
+        "d. X-ray"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What imaging modality is commonly used for evaluating fetal anatomy and detecting congenital anomalies?",
+      "options": [
+        "a. X-ray",
+        "b. Hysterosalpingography",
+        "*c. Obstetric ultrasound",
+        "d. MRI"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What imaging modality is commonly used for evaluating pelvic anatomy and detecting abnormalities in the reproductive organs?",
+      "options": [
+        "*a. Pelvic ultrasound",
+        "b. X-ray",
+        "c. CT scan",
+        "d. MRI"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "What imaging modality is commonly used for evaluating the size and location of ovarian cysts?",
+      "options": [
+        "a. X-ray",
+        "b. MRI",
+        "c. Hysterosalpingography",
+        "*d. Pelvic ultrasound"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What imaging modality is commonly used for evaluating the structure and function of the uterus, particularly in cases of abnormal bleeding?",
+      "options": [
+        "a. Hysterosalpingography",
+        "*b. Transvaginal ultrasound",
+        "c. MRI",
+        "d. X-ray"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What imaging modality is commonly used for monitoring fetal growth and development during pregnancy?",
+      "options": [
+        "a. Hysterosalpingography",
+        "b. MRI",
+        "c. X-ray",
+        "*d. Obstetric ultrasound"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What imaging modality is preferred for diagnosing acromegaly and evaluating pituitary gland enlargement?",
+      "options": [
+        "a. Adrenal CT scan with contrast",
+        "b. CT scan",
+        "c. X-ray",
+        "*d. Pituitary MRI"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What imaging modality is preferred for diagnosing hyperthyroidism and evaluating thyroid gland function?",
+      "options": [
+        "a. X-ray",
+        "b. Adrenal MRI",
+        "*c. Thyroid scintigraphy",
+        "d. CT scan"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What imaging modality is preferred for diagnosing pituitary tumors and assessing their size and extent?",
+      "options": [
+        "a. X-ray",
+        "b. CT scan",
+        "*c. MRI",
+        "d. Adrenal CT scan with contrast"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What imaging modality is recommended for assessing follicular development and monitoring ovulation in infertility evaluations?",
+      "options": [
+        "a. X-ray",
+        "b. MRI",
+        "c. Hysterosalpingography",
+        "*d. Transvaginal ultrasound"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What imaging modality is recommended for assessing the endometrial thickness and detecting endometrial hyperplasia?",
+      "options": [
+        "*a. X-ray",
+        "b. Transvaginal ultrasound",
+        "c. MRI",
+        "d. Hysterosalpingography"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "What imaging modality is recommended for diagnosing ectopic pregnancy and determining its location?",
+      "options": [
+        "*a. Transvaginal ultrasound",
+        "b. MRI",
+        "c. Hysterosalpingography",
+        "d. X-ray"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "What imaging modality is recommended for evaluating adrenal masses and distinguishing between benign and malignant lesions?",
+      "options": [
+        "a. X-ray",
+        "b. Thyroid ultrasound",
+        "c. Pituitary MRI",
+        "*d. Adrenal CT scan with contrast"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What imaging modality is recommended for evaluating cervical length and predicting preterm labor risk?",
+      "options": [
+        "a. Transvaginal ultrasound",
+        "b. MRI",
+        "c. Hysterosalpingography",
+        "*d. X-ray"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What imaging modality is recommended for evaluating the size and function of the adrenal glands in cases of adrenal insufficiency?",
+      "options": [
+        "a. X-ray",
+        "b. Thyroid ultrasound",
+        "*c. Adrenal MRI",
+        "d. CT scan"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What imaging modality is recommended for evaluating the size and function of the pineal gland in cases of pineal cysts?",
+      "options": [
+        "*a. Pineal MRI",
+        "b. CT scan",
+        "c. X-ray",
+        "d. Adrenal MRI"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "What is a typical X-ray finding in rickets?",
+      "options": [
+        "a. Bony sclerosis",
+        "*b. Cupping and fraying of metaphysis",
+        "c. Lytic skull lesions",
+        "d. Bone island",
+        "e. Ivory vertebra"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is a “rugger-jersey spine”?",
+      "options": [
+        "a. Disc calcification",
+        "*b. Endplate sclerosis with lucent vertebral center",
+        "c. Schmorl’s nodes",
+        "d. Vertebral fracture",
+        "e. Lytic vertebral bodies"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is the primary advantage of using MRI over CT for brain imaging?",
+      "options": [
+        "a. Less exposure to radiation",
+        "b. Faster scan times",
+        "c. Lower cost",
+        "*d. Higher resolution images"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "What is the primary advantage of using MRI over CT for brain imaging?",
+      "options": [
+        "*a. Absence of ionizing radiation",
+        "b. Shorter scan times",
+        "c. Higher spatial resolution",
+        "d. Lower cost"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "What is the typical X-ray finding in osteoarthritis?",
+      "options": [
+        "a. Osteolytic lesions",
+        "*b. Joint space narrowing with osteophytes",
+        "c. Periosteal reaction",
+        "d. Symmetrical joint erosion",
+        "e. Codman triangle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "What is the X-ray sign of osteoid osteoma?",
+      "options": [
+        "a. Sunburst",
+        "b. Ground glass",
+        "c. Soap bubble",
+        "d. Onion skinning",
+        "*e. Radiolucent nidus with reactive sclerosis"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "question": "What is the “soap-bubble” appearance on X-ray typically seen in?",
+      "options": [
+        "*a. Giant cell tumor",
+        "b. Gout",
+        "c. Osteoarthritis",
+        "d. Osteoid osteoma",
+        "e. Osteoporosis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "What radiographic sign is classic for ankylosing spondylitis?",
+      "options": [
+        "a. Soap-bubble lesion",
+        "b. Pencil-in-cup",
+        "c. Onion-skinning",
+        "d. Fish-mouth vertebrae",
+        "*e. Bamboo spine"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "question": "What radiological syndrome is seen in congenital syphilis?",
+      "options": [
+        "*a. Wimberger's sign",
+        "b. Ivory vertebra",
+        "c. Bamboo spine",
+        "d. Rugger jersey spine",
+        "e. Sheperd's crook"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "What syndrome shows fused digits on hand radiographs?",
+      "options": [
+        "a. Ewing's sarcoma",
+        "b. Rickets",
+        "*c. Apert syndrome",
+        "d. Hemophilia",
+        "e. Larsen syndrome"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "What X-ray sign is classic for hemophilic arthropathy?",
+      "options": [
+        "a. Sequestrum",
+        "b. Pencil-in-cup",
+        "c. Onion skinning",
+        "*d. Widened intercondylar notch",
+        "e. Sunburst pattern"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which condition shows “scalloping” of vertebral bodies?",
+      "options": [
+        "a. Disc herniation",
+        "b. Spinal tuberculosis",
+        "*c. Neurofibromatosis",
+        "d. Osteoarthritis",
+        "e. Ankylosing spondylitis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which disease shows a “rat bite” appearance in X-ray of joints?",
+      "options": [
+        "a. Hemophilia",
+        "b. Rickets",
+        "*c. Gout",
+        "d. Osteochondroma",
+        "e. Osteoporosis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which disease shows symmetric sacroiliitis on X-ray?",
+      "options": [
+        "a. Gout",
+        "b. Reactive arthritis",
+        "c. Hemophilia",
+        "d. Psoriatic arthritis",
+        "*e. Ankylosing spondylitis"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "question": "Which finding suggests enchondroma on X-ray?",
+      "options": [
+        "a. Osteolytic lesion with periosteal reaction",
+        "*b. Central lytic lesion with rings and arcs",
+        "c. Soap bubble appearance",
+        "d. Sclerotic rim",
+        "e. Cortical breach"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which imaging modality is most commonly used for diagnosing intracranial hemorrhage?",
+      "options": [
+        "*a. CT scan",
+        "b. X-ray",
+        "c. PET scan",
+        "d. Ultrasound"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which imaging technique is commonly used for assessing adrenal gland vascularity and detecting adrenal tumors?",
+      "options": [
+        "*a. Adrenal MRI with contrast",
+        "b. CT scan",
+        "c. Thyroid ultrasound",
+        "d. X-ray"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "question": "Which imaging technique is commonly used for diagnosing multiple gestations and assessing fetal growth discordance?",
+      "options": [
+        "a. Hysterosalpingography",
+        "*b. Obstetric ultrasound",
+        "c. X-ray",
+        "d. MRI"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which imaging technique is commonly used for evaluating pelvic masses and determining their characteristics?",
+      "options": [
+        "a. MRI",
+        "*b. Transvaginal ultrasound",
+        "c. Hysterosalpingography",
+        "d. X-ray"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which imaging technique is commonly used for evaluating the size and function of the adrenal medulla?",
+      "options": [
+        "a. X-ray",
+        "*b. Adrenal MRI",
+        "c. Thyroid ultrasound",
+        "d. CT scan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "Which imaging technique is preferred for diagnosing fetal malformations and anomalies in utero?",
+      "options": [
+        "a. MRI",
+        "b. X-ray",
+        "*c. Obstetric ultrasound",
+        "d. Hysterosalpingography"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "question": "Which imaging technique is recommended for assessing the endometrium and detecting abnormalities such as endometrial hyperplasia or cancer?",
+      "options": [
+        "a. X-ray",
+        "b. Hysterosalpingography",
+        "c. MRI",
+        "*d. Transvaginal ultrasound"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "question": "Which imaging technique is recommended for diagnosing primary hyperaldosteronism and localizing adrenal adenomas?",
+      "options": [
+        "a. X-ray",
+        "*b. Adrenal CT scan with contrast",
+        "c. Thyroid ultrasound",
+        "d. MRI"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "question": "“H-shaped” vertebrae are seen in:",
+      "options": [
+        "a. Hyperparathyroidism",
+        "b. Tuberculosis",
+        "c. Paget’s disease",
+        "d. Ewing’s sarcoma",
+        "*e. Sickle cell anemia"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "question": "“Pencil-in-cup” deformity is associated with:",
+      "options": [
+        "a. Gout",
+        "b. Rheumatoid arthritis",
+        "c. Septic arthritis",
+        "d. Osteoarthritis",
+        "*e. Psoriatic arthritis"
+      ],
+      "correctIndex": 4
+    }
   ]
 };
