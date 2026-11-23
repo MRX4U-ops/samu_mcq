@@ -3,7 +3,7 @@ import {
   UsersRound, ShieldCheck, UserPlus, Trash2, 
   Check, X, AlertCircle, Loader2, RefreshCw, Key
 } from 'lucide-react';
-import axiosInstance from '../services/axiosInstance';
+import adminService from '../services/adminService';
 import useAuthStore from '../store/authStore';
 
 const SubAdmins = () => {
@@ -20,10 +20,8 @@ const SubAdmins = () => {
   const fetchAdmins = async () => {
     try {
       setLoading(true);
-      const res = await axiosInstance.get('/admin/sub-admins');
-      if (Array.isArray(res.data)) {
-        setSubAdmins(res.data);
-      }
+      const data = await adminService.getSubAdmins();
+      setSubAdmins(data || []);
     } catch (err) {
       console.error('Failed to fetch sub-admins:', err);
     } finally {
@@ -45,13 +43,13 @@ const SubAdmins = () => {
     if (!newEmail.trim()) return;
     setActionLoading(true);
     try {
-      const res = await axiosInstance.post('/admin/sub-admins', { email: newEmail.trim() });
-      showToast(res.data.message || 'Sub-admin appointed successfully!');
+      await adminService.addSubAdmin(newEmail.trim());
+      showToast('Sub-admin appointed successfully!');
       setShowAddModal(false);
       setNewEmail('');
       fetchAdmins();
     } catch (err) {
-      showToast(err.response?.data?.error || 'Failed to appoint sub-admin', 'error');
+      showToast(err.message || 'Failed to appoint sub-admin', 'error');
     } finally {
       setActionLoading(false);
     }
@@ -66,11 +64,11 @@ const SubAdmins = () => {
       return;
     }
     try {
-      await axiosInstance.delete(`/admin/sub-admins/${adm.id}`);
+      await adminService.removeSubAdmin(adm.id);
       showToast('Admin privileges revoked.');
       fetchAdmins();
     } catch (err) {
-      showToast('Failed to revoke admin privileges', 'error');
+      showToast(err.message || 'Failed to revoke admin privileges', 'error');
     }
   };
 

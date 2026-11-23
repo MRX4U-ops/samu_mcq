@@ -4,6 +4,7 @@ import {
   Loader2, ArrowRight, RefreshCw, Eye
 } from 'lucide-react';
 import axiosInstance from '../services/axiosInstance';
+import adminService from '../services/adminService';
 
 const BulkUpload = () => {
   const [courses, setCourses] = useState([]);
@@ -22,10 +23,10 @@ const BulkUpload = () => {
   useEffect(() => {
     const loadCourses = async () => {
       try {
-        const res = await axiosInstance.get('/admin/academic/courses');
-        if (Array.isArray(res.data)) {
-          setCourses(res.data);
-          if (res.data.length > 0) setSelectedCourse(res.data[0]);
+        const data = await adminService.getFullAcademicHierarchy();
+        if (Array.isArray(data) && data.length > 0) {
+          setCourses(data);
+          setSelectedCourse(data[0]);
         }
       } catch (err) {
         console.error('Failed to load courses:', err);
@@ -124,16 +125,12 @@ const BulkUpload = () => {
     if (!selectedTopic || parsedQuestions.length === 0) return;
     setIsPublishing(true);
     try {
-      const res = await axiosInstance.post('/admin/academic/mcqs/bulk', {
-        topicId: selectedTopic.id,
-        mcqs: parsedQuestions,
-        taskType
-      });
+      await adminService.bulkInsertMcqs(selectedTopic.id, parsedQuestions, taskType);
       showToast(`Published ${parsedQuestions.length} MCQs directly to live database!`);
       setParsedQuestions([]);
       setRawText('');
     } catch (err) {
-      showToast(err.response?.data?.error || 'Failed to publish MCQs', 'error');
+      showToast(err.message || 'Failed to publish MCQs', 'error');
     } finally {
       setIsPublishing(false);
     }

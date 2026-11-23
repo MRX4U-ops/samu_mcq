@@ -5,6 +5,7 @@ import {
   Loader2, Download
 } from 'lucide-react';
 import axiosInstance from '../services/axiosInstance';
+import adminService from '../services/adminService';
 
 const Subscriptions = () => {
   const [subscriptions, setSubscriptions] = useState([]);
@@ -23,9 +24,9 @@ const Subscriptions = () => {
   const fetchSubscriptions = async () => {
     try {
       setLoading(true);
-      const res = await axiosInstance.get('/admin/subscriptions');
-      if (res.data?.subscriptions) {
-        setSubscriptions(res.data.subscriptions);
+      const res = await adminService.getSubscriptions({ search: searchTerm, status: filter });
+      if (res.subscriptions) {
+        setSubscriptions(res.subscriptions);
       }
     } catch (err) {
       console.error('Failed to fetch subscriptions:', err);
@@ -36,7 +37,7 @@ const Subscriptions = () => {
 
   useEffect(() => {
     fetchSubscriptions();
-  }, []);
+  }, [filter]);
 
   const showToast = (msg, type = 'success') => {
     setNotification({ msg, type });
@@ -44,15 +45,16 @@ const Subscriptions = () => {
   };
 
   const handleRevoke = async (sub) => {
-    if (!window.confirm(`Revoke premium subscription for ${sub.profiles?.name || sub.profiles?.email}?`)) {
+    const studentName = sub.user?.name || sub.user?.email || 'Student';
+    if (!window.confirm(`Revoke premium subscription for ${studentName}?`)) {
       return;
     }
     try {
-      await axiosInstance.post(`/admin/subscriptions/revoke/${sub.id}`);
+      await adminService.grantSubscription(sub.user_id, { customDate: new Date().toISOString() });
       fetchSubscriptions();
       showToast('Subscription revoked.');
     } catch (err) {
-      showToast('Failed to revoke subscription', 'error');
+      showToast(err.message || 'Failed to revoke subscription', 'error');
     }
   };
 
@@ -61,8 +63,7 @@ const Subscriptions = () => {
     if (!selectedSub) return;
     setActionLoading(true);
     try {
-      await axiosInstance.post('/admin/subscriptions/manual', {
-        userId: selectedSub.user_id,
+      await adminService.grantSubscription(selectedSub.user_id, {
         days: formDays,
         customDate: customDate
       });
@@ -70,7 +71,7 @@ const Subscriptions = () => {
       fetchSubscriptions();
       showToast('Subscription extended successfully!');
     } catch (err) {
-      showToast('Failed to extend subscription', 'error');
+      showToast(err.message || 'Failed to extend subscription', 'error');
     } finally {
       setActionLoading(false);
     }

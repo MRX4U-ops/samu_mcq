@@ -4,6 +4,7 @@ import {
   Search, Filter, RefreshCw, Loader2, ChevronRight, Edit3
 } from 'lucide-react';
 import axiosInstance from '../services/axiosInstance';
+import adminService from '../services/adminService';
 
 const SupportTickets = () => {
   const [tickets, setTickets] = useState([]);
@@ -21,10 +22,8 @@ const SupportTickets = () => {
   const fetchTickets = async () => {
     try {
       setLoading(true);
-      const res = await axiosInstance.get('/admin/support');
-      if (Array.isArray(res.data)) {
-        setTickets(res.data);
-      }
+      const data = await adminService.getSupportTickets({ search: searchTerm, status: statusFilter });
+      setTickets(data || []);
     } catch (err) {
       console.error('Error fetching support tickets:', err);
     } finally {
@@ -34,7 +33,7 @@ const SupportTickets = () => {
 
   useEffect(() => {
     fetchTickets();
-  }, []);
+  }, [statusFilter]);
 
   const showToast = (msg, type = 'success') => {
     setNotification({ msg, type });
@@ -46,7 +45,7 @@ const SupportTickets = () => {
     if (!selectedTicket) return;
     setActionLoading(true);
     try {
-      await axiosInstance.put(`/admin/support/${selectedTicket.id}`, {
+      await adminService.updateSupportTicket(selectedTicket.id, {
         status: ticketStatus,
         adminNotes
       });
@@ -54,7 +53,7 @@ const SupportTickets = () => {
       setSelectedTicket(null);
       showToast('Support ticket updated successfully!');
     } catch (err) {
-      showToast('Failed to update ticket', 'error');
+      showToast(err.message || 'Failed to update ticket', 'error');
     } finally {
       setActionLoading(false);
     }

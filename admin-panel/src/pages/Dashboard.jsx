@@ -5,7 +5,7 @@ import {
   ArrowUpRight, RefreshCw, CheckCircle2, IndianRupee
 } from 'lucide-react';
 import StatCard from '../components/StatCard';
-import axiosInstance from '../services/axiosInstance';
+import adminService from '../services/adminService';
 import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
@@ -30,9 +30,9 @@ const Dashboard = () => {
   const fetchStats = async () => {
     try {
       setRefreshing(true);
-      const res = await axiosInstance.get('/admin/dashboard');
-      if (res.data) {
-        setStats(prev => ({ ...prev, ...res.data }));
+      const data = await adminService.getDashboardStats();
+      if (data) {
+        setStats(prev => ({ ...prev, ...data }));
       }
     } catch (err) {
       console.warn('Dashboard fetch warning (using cached live metrics):', err.message);

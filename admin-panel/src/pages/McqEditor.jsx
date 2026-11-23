@@ -4,7 +4,7 @@ import {
   Save, Eye, CheckCircle2, AlertCircle, Loader2,
   ChevronRight, ArrowLeft, RefreshCw
 } from 'lucide-react';
-import axiosInstance from '../services/axiosInstance';
+import adminService from '../services/adminService';
 
 const McqEditor = () => {
   const [courses, setCourses] = useState([]);
@@ -34,12 +34,10 @@ const McqEditor = () => {
   useEffect(() => {
     const loadCourses = async () => {
       try {
-        const res = await axiosInstance.get('/admin/academic/courses');
-        if (Array.isArray(res.data)) {
-          setCourses(res.data);
-          if (res.data.length > 0) {
-            setSelectedCourse(res.data[0]);
-          }
+        const data = await adminService.getFullAcademicHierarchy();
+        if (Array.isArray(data) && data.length > 0) {
+          setCourses(data);
+          setSelectedCourse(data[0]);
         }
       } catch (err) {
         console.error('Failed to load courses:', err);
@@ -77,8 +75,8 @@ const McqEditor = () => {
     if (!selectedTopic) return;
     try {
       setLoading(true);
-      const res = await axiosInstance.get(`/admin/academic/mcqs?topicId=${selectedTopic.id}&taskType=${taskType}`);
-      setMcqs(res.data?.mcqs || []);
+      const data = await adminService.getMcqs(selectedTopic.id);
+      setMcqs(data || []);
     } catch (err) {
       console.error('Failed to fetch MCQs:', err);
     } finally {
@@ -125,31 +123,32 @@ const McqEditor = () => {
     try {
       if (editingMcq) {
         // Update
-        const res = await axiosInstance.put(`/admin/academic/mcqs/${editingMcq.id}`, {
+        const updated = await adminService.saveMcq({
+          id: editingMcq.id,
           question: formData.question,
           options: formData.options,
-          correctIndex: formData.correctIndex,
+          correct_index: formData.correctIndex,
           explanation: formData.explanation,
-          taskType
+          task_type: taskType
         });
-        setMcqs(mcqs.map(m => m.id === editingMcq.id ? res.data.mcq : m));
+        setMcqs(mcqs.map(m => m.id === editingMcq.id ? updated : m));
         showToast('MCQ updated live in database!');
       } else {
         // Create
-        const res = await axiosInstance.post('/admin/academic/mcqs', {
-          topicId: selectedTopic.id,
+        const created = await adminService.saveMcq({
+          topic_id: selectedTopic.id,
           question: formData.question,
           options: formData.options,
-          correctIndex: formData.correctIndex,
+          correct_index: formData.correctIndex,
           explanation: formData.explanation,
-          taskType
+          task_type: taskType
         });
-        setMcqs([...mcqs, res.data.mcq]);
+        setMcqs([...mcqs, created]);
         showToast('New MCQ created live!');
       }
       setShowEditModal(false);
     } catch (err) {
-      showToast(err.response?.data?.error || 'Failed to save MCQ', 'error');
+      showToast(err.message || 'Failed to save MCQ', 'error');
     } finally {
       setActionLoading(false);
     }
@@ -161,11 +160,11 @@ const McqEditor = () => {
       return;
     }
     try {
-      await axiosInstance.delete(`/admin/academic/mcqs/${mcqId}`);
+      await adminService.deleteMcq(mcqId);
       setMcqs(mcqs.filter(m => m.id !== mcqId));
       showToast('MCQ deleted.');
     } catch (err) {
-      showToast('Failed to delete MCQ', 'error');
+      showToast(err.message || 'Failed to delete MCQ', 'error');
     }
   };
 

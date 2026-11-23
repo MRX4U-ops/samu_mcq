@@ -5,6 +5,7 @@ import {
   Loader2, RefreshCw, Clock, Edit2
 } from 'lucide-react';
 import axiosInstance from '../services/axiosInstance';
+import adminService from '../services/adminService';
 import useAuthStore from '../store/authStore';
 
 const Users = () => {
@@ -32,9 +33,9 @@ const Users = () => {
   const fetchUsers = async () => {
     try {
       setLoading(true);
-      const res = await axiosInstance.get('/admin/users');
-      if (res.data?.users) {
-        setUsers(res.data.users);
+      const res = await adminService.getUsers({ search: searchTerm, status: statusFilter });
+      if (res.users) {
+        setUsers(res.users);
       }
     } catch (err) {
       console.error('Error fetching users:', err);
@@ -45,7 +46,7 @@ const Users = () => {
 
   useEffect(() => {
     fetchUsers();
-  }, []);
+  }, [statusFilter]);
 
   const showToast = (msg, type = 'success') => {
     setNotification({ msg, type });
@@ -59,11 +60,11 @@ const Users = () => {
       return;
     }
     try {
-      await axiosInstance.put(`/admin/users/${user.id}`, { status: nextStatus });
+      await adminService.updateUser(user.id, { status: nextStatus });
       setUsers(users.map(u => u.id === user.id ? { ...u, status: nextStatus } : u));
       showToast(`User ${nextStatus === 'blocked' ? 'blocked' : 'unblocked'} successfully.`);
     } catch (err) {
-      showToast(err.response?.data?.error || 'Failed to update user status', 'error');
+      showToast(err.message || 'Failed to update user status', 'error');
     }
   };
 
@@ -77,11 +78,11 @@ const Users = () => {
       return;
     }
     try {
-      await axiosInstance.delete(`/admin/users/${user.id}`);
+      await adminService.deleteUser(user.id);
       setUsers(users.filter(u => u.id !== user.id));
       showToast('User permanently removed.');
     } catch (err) {
-      showToast(err.response?.data?.error || 'Failed to delete user', 'error');
+      showToast(err.message || 'Failed to delete user', 'error');
     }
   };
 
@@ -90,13 +91,13 @@ const Users = () => {
     e.preventDefault();
     setActionLoading(true);
     try {
-      const res = await axiosInstance.post('/admin/users', addForm);
+      await adminService.createUser(addForm);
       setShowAddModal(false);
       setAddForm({ email: '', name: '', phone: '', grantDays: 90 });
       fetchUsers();
       showToast('User account successfully created and verified!');
     } catch (err) {
-      showToast(err.response?.data?.error || 'Failed to create user', 'error');
+      showToast(err.message || 'Failed to create user', 'error');
     } finally {
       setActionLoading(false);
     }
@@ -108,8 +109,7 @@ const Users = () => {
     if (!selectedUser) return;
     setActionLoading(true);
     try {
-      await axiosInstance.post('/admin/subscriptions/manual', {
-        userId: selectedUser.id,
+      await adminService.grantSubscription(selectedUser.id, {
         days: subForm.days,
         customDate: subForm.customDate,
         reason: subForm.reason
@@ -118,7 +118,7 @@ const Users = () => {
       fetchUsers();
       showToast(`Granted subscription to ${selectedUser.name || selectedUser.email}`);
     } catch (err) {
-      showToast(err.response?.data?.error || 'Failed to grant subscription', 'error');
+      showToast(err.message || 'Failed to grant subscription', 'error');
     } finally {
       setActionLoading(false);
     }
@@ -130,12 +130,12 @@ const Users = () => {
     if (!selectedUser) return;
     setActionLoading(true);
     try {
-      await axiosInstance.put(`/admin/users/${selectedUser.id}`, { admin_notes: notesForm.notes });
+      await adminService.updateUser(selectedUser.id, { admin_notes: notesForm.notes });
       setShowNotesModal(false);
       setUsers(users.map(u => u.id === selectedUser.id ? { ...u, admin_notes: notesForm.notes } : u));
       showToast('Private admin notes updated.');
     } catch (err) {
-      showToast(err.response?.data?.error || 'Failed to save notes', 'error');
+      showToast(err.message || 'Failed to save notes', 'error');
     } finally {
       setActionLoading(false);
     }

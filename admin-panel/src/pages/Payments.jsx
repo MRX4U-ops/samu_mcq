@@ -5,6 +5,7 @@ import {
   Download, Loader2, Plus, ShieldCheck, IndianRupee
 } from 'lucide-react';
 import axiosInstance from '../services/axiosInstance';
+import adminService from '../services/adminService';
 
 const Payments = () => {
   const [requests, setRequests] = useState([]);
@@ -26,10 +27,8 @@ const Payments = () => {
   const fetchPayments = async () => {
     try {
       setLoading(true);
-      const res = await axiosInstance.get('/admin/payment-requests');
-      if (Array.isArray(res.data)) {
-        setRequests(res.data);
-      }
+      const data = await adminService.getPaymentRequests({ search: searchTerm, status: statusFilter });
+      setRequests(data || []);
     } catch (err) {
       console.error('Failed to fetch payments:', err);
     } finally {
@@ -39,7 +38,7 @@ const Payments = () => {
 
   useEffect(() => {
     fetchPayments();
-  }, []);
+  }, [statusFilter]);
 
   const showToast = (msg, type = 'success') => {
     setNotification({ msg, type });
@@ -48,16 +47,17 @@ const Payments = () => {
 
   // Approve Payment
   const handleApprove = async (req) => {
-    if (!window.confirm(`Approve transaction ${req.transaction_id || req.payment_reference} for ${req.profiles?.name || req.profiles?.email}? This will activate 90-day premium access.`)) {
+    const studentName = req.user?.name || req.user?.email || 'Student';
+    if (!window.confirm(`Approve transaction ${req.transaction_id || req.payment_reference} for ${studentName}? This will activate 90-day premium access.`)) {
       return;
     }
     setActionLoading(true);
     try {
-      await axiosInstance.post(`/admin/payment-approve/${req.id}`, { validityDays: 90 });
+      await adminService.updatePaymentRequest(req.id, { status: 'approved', adminNotes: 'Verified via Admin Panel' });
       setRequests(requests.map(r => r.id === req.id ? { ...r, status: 'approved' } : r));
       showToast('Payment verified and 90-day subscription activated!');
     } catch (err) {
-      showToast(err.response?.data?.error || 'Failed to approve payment', 'error');
+      showToast(err.message || 'Failed to approve payment', 'error');
     } finally {
       setActionLoading(false);
     }
@@ -69,12 +69,12 @@ const Payments = () => {
     if (!selectedReq) return;
     setActionLoading(true);
     try {
-      await axiosInstance.post(`/admin/payment-reject/${selectedReq.id}`, { reason: rejectReason });
+      await adminService.updatePaymentRequest(selectedReq.id, { status: 'rejected', adminNotes: rejectReason });
       setRequests(requests.map(r => r.id === selectedReq.id ? { ...r, status: 'rejected', rejection_reason: rejectReason } : r));
       setShowRejectModal(false);
       showToast('Payment marked as rejected.');
     } catch (err) {
-      showToast('Failed to reject payment', 'error');
+      showToast(err.message || 'Failed to reject payment', 'error');
     } finally {
       setActionLoading(false);
     }

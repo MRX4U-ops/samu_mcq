@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BookOpen, ChevronRight, Search, Layers, RefreshCw, Folder } from 'lucide-react';
-import axiosInstance from '../services/axiosInstance';
+import adminService from '../services/adminService';
 import { Link } from 'react-router-dom';
 
 const Courses = () => {
@@ -13,14 +13,12 @@ const Courses = () => {
   const fetchHierarchy = async () => {
     try {
       setLoading(true);
-      const res = await axiosInstance.get('/admin/academic/courses');
-      if (Array.isArray(res.data)) {
-        setCourses(res.data);
-        if (res.data.length > 0) {
-          setSelectedCourse(res.data[0]);
-          if (res.data[0].subjects?.length > 0) {
-            setSelectedSubject(res.data[0].subjects[0]);
-          }
+      const data = await adminService.getFullAcademicHierarchy();
+      if (Array.isArray(data) && data.length > 0) {
+        setCourses(data);
+        setSelectedCourse(data[0]);
+        if (data[0].subjects?.length > 0) {
+          setSelectedSubject(data[0].subjects[0]);
         }
       }
     } catch (err) {
