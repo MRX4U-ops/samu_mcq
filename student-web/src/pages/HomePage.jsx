@@ -15,8 +15,8 @@ import styles from './HomePage.module.css';
 
 /* ── Constants ───────────────────────────────────────── */
 const COURSE_COLORS = [
-  'linear-gradient(135deg,#1D4ED8,#3B82F6)',
-  'linear-gradient(135deg,#6D28D9,#8B5CF6)',
+  'linear-gradient(135deg,#0F4C75,#1A6FA8)',
+  'linear-gradient(135deg,#0284C7,#38BDF8)',
   'linear-gradient(135deg,#047857,#10B981)',
   'linear-gradient(135deg,#B45309,#F59E0B)',
   'linear-gradient(135deg,#BE123C,#F43F5E)',
@@ -33,23 +33,23 @@ const DEFAULT_COURSES = [
 ];
 
 const HUB_ITEMS = [
-  { icon:'🧠', label:'Ask AI',        to:'/ask-ai',      grad:'linear-gradient(135deg,#4338CA,#7C3AED)' },
+  { icon:'🧠', label:'Ask AI',        to:'/ask-ai',      grad:'linear-gradient(135deg,#0F4C75,#0284C7)' },
   { icon:'⚔️', label:'Quiz Battle',   to:'/battle',      grad:'linear-gradient(135deg,#B45309,#F59E0B)' },
   { icon:'🏆', label:'Leaderboard',   to:'/leaderboard', grad:'linear-gradient(135deg,#047857,#10B981)' },
   { icon:'📊', label:'CBT Results',   to:'/results',     grad:'linear-gradient(135deg,#0E7490,#06B6D4)' },
-  { icon:'🩺', label:'Diagnostics',   to:'/ask-ai',      grad:'linear-gradient(135deg,#BE123C,#F43F5E)' },
+  { icon:'🩺', label:'Diagnostics',   to:'/ask-ai',      grad:'linear-gradient(135deg,#0284C7,#38BDF8)' },
   { icon:'⭐', label:'Bookmarks',     to:'/profile',     grad:'linear-gradient(135deg,#B45309,#FBBF24)' },
-  { icon:'🎁', label:'Rewards',       to:'/subscribe',   grad:'linear-gradient(135deg,#6D28D9,#EC4899)' },
+  { icon:'🎁', label:'Rewards',       to:'/subscribe',   grad:'linear-gradient(135deg,#0284C7,#10B981)' },
   { icon:'📚', label:'Notes',         to:'/guidance',    grad:'linear-gradient(135deg,#065F46,#10B981)' },
-  { icon:'🌐', label:'SSMU Website',  href:'https://ssmu.org', grad:'linear-gradient(135deg,#1E3A8A,#3B82F6)' },
-  { icon:'💬', label:'Telegram',      href:'https://t.me/mrx4u', grad:'linear-gradient(135deg,#0077B6,#00B4D8)' },
+  { icon:'🌐', label:'SSMU Website',  href:'https://ssmu.org', grad:'linear-gradient(135deg,#0F4C75,#1A6FA8)' },
+  { icon:'💬', label:'Telegram',      href:'https://t.me/mrx4u', grad:'linear-gradient(135deg,#0284C7,#0EA5E9)' },
 ];
 
 const BANNERS = [
-  { emoji:'🔥', title:'FREE THIS MONTH', sub:'Use coupon TRH100 for 100% discount', grad:'linear-gradient(135deg,rgba(124,45,18,0.85),rgba(220,38,38,0.85),rgba(239,68,68,0.85)), url("/banner_1_bg.png") center/cover no-repeat' },
-  { emoji:'📚', title:'New Questions Added', sub:'Microbiology & Pharmacology updated', grad:'linear-gradient(135deg,rgba(30,58,138,0.85),rgba(29,78,216,0.85),rgba(59,130,246,0.85)), url("/banner_2_bg.png") center/cover no-repeat' },
-  { emoji:'🏆', title:'Monthly Winner Gets ₹49', sub:'Top ranker earns cashback reward', grad:'linear-gradient(135deg,rgba(120,53,15,0.85),rgba(180,83,9,0.85),rgba(245,158,11,0.85)), url("/banner_3_bg.png") center/cover no-repeat' },
-  { emoji:'⚔️', title:'Quiz Battle Live Now', sub:'Challenge friends and climb the ranks', grad:'linear-gradient(135deg,rgba(76,29,149,0.85),rgba(109,40,217,0.85),rgba(139,92,246,0.85)), url("/banner_4_bg.png") center/cover no-repeat' },
+  { emoji:'🔥', title:'FREE THIS MONTH', sub:'Use coupon TRH100 for 100% discount', grad:'linear-gradient(135deg,#0F4C75,#1A6FA8,#0284C7)' },
+  { emoji:'📚', title:'New Questions Added', sub:'Microbiology & Pharmacology updated', grad:'linear-gradient(135deg,#0369A1,#0284C7,#38BDF8)' },
+  { emoji:'🏆', title:'Monthly Winner Gets ₹49', sub:'Top ranker earns cashback reward', grad:'linear-gradient(135deg,#B45309,#D97706,#F59E0B)' },
+  { emoji:'⚔️', title:'Quiz Battle Live Now', sub:'Challenge friends and climb the ranks', grad:'linear-gradient(135deg,#1E40AF,#2563EB,#38BDF8)' },
 ];
 
 const UPDATES = [
@@ -349,7 +349,7 @@ export default function HomePage() {
         <div className={styles.goalsRow}>
           <div className={styles.goalCard}>
             <div className={styles.goalTop}>
-              <Target size={18} color="#6366F1" />
+              <Target size={18} color="#0284C7" />
               <span className={styles.goalTitle}>Questions Goal</span>
             </div>
             <div className={styles.goalNums}>
@@ -357,7 +357,7 @@ export default function HomePage() {
               <span className={styles.goalSep}>/ {dailyGoal.target}</span>
             </div>
             <div className="progress-bar" style={{ height: 8 }}>
-              <div className="progress-fill" style={{ width: `${(dailyGoal.done / dailyGoal.target) * 100}%` }} />
+              <div className="progress-fill" style={{ width: `${(dailyGoal.done / dailyGoal.target) * 100}%`, background: 'linear-gradient(90deg, #0284C7, #38BDF8)' }} />
             </div>
           </div>
           <div className={styles.goalCard}>
@@ -370,7 +370,7 @@ export default function HomePage() {
               <span className={styles.goalSep}>/ {studyTime.target} min</span>
             </div>
             <div className="progress-bar" style={{ height: 8 }}>
-              <div className="progress-fill" style={{ width: `${(studyTime.done / studyTime.target) * 100}%`, background:'linear-gradient(135deg,#047857,#10B981)' }} />
+              <div className="progress-fill" style={{ width: `${(studyTime.done / studyTime.target) * 100}%`, background:'linear-gradient(90deg,#047857,#10B981)' }} />
             </div>
           </div>
         </div>
@@ -432,7 +432,7 @@ export default function HomePage() {
           </div>
           <div className={styles.aiContent}>
             <div className={styles.aiTitle}>
-              <Sparkles size={14} color="#6366f1" /> AI Study Insight
+              <Sparkles size={14} color="#0284C7" /> AI Study Insight
             </div>
             <div className={styles.aiText}>
               You're doing great in Anatomy (85% accuracy), but Pharmacology scores have dropped recently. Consider focusing your next session on "Autonomic Nervous System Drugs".
@@ -450,7 +450,7 @@ export default function HomePage() {
         <div className={styles.masteryCard}>
           {[
             { label: 'Anatomy', pct: 85, color: '#10B981' },
-            { label: 'Microbiology', pct: 65, color: '#F59E0B' },
+            { label: 'Microbiology', pct: 65, color: '#0284C7' },
             { label: 'Pharmacology', pct: 40, color: '#EF4444' }
           ].map(m => (
             <div key={m.label} className={styles.masteryItem}>
@@ -484,7 +484,7 @@ export default function HomePage() {
               </div>
               <div className={styles.taskItem}>
                 <div className={styles.taskLeft}>
-                  <div className={styles.taskIcon} style={{ background: '#e0e7ff' }}><Target size={18} color="#4f46e5" /></div>
+                  <div className={styles.taskIcon} style={{ background: '#E0F2FE' }}><Target size={18} color="#0284C7" /></div>
                   <div>
                     <div className={styles.taskTitle}>Daily Goal: 50 MCQs</div>
                     <div className={styles.taskTime}>15 remaining</div>
@@ -514,7 +514,7 @@ export default function HomePage() {
                   <div className={styles.actTitle}>Completed "Heart Failure"</div>
                   <div className={styles.actMeta}>Cardiology • Yesterday</div>
                 </div>
-                <div className={styles.actScore} style={{ color: '#4f46e5' }}>88%</div>
+                <div className={styles.actScore} style={{ color: '#0284C7' }}>88%</div>
               </div>
               <div className={styles.activityItem}>
                 <div className={styles.actIcon}><Target size={14} /></div>

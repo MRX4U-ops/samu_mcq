@@ -1,4 +1,4 @@
-/* BottomNav — Premium */
+/* BottomNav — Mobile only navigation */
 .nav {
   position: fixed; bottom: 0; left: 0; right: 0; z-index: 100;
   background: rgba(255, 255, 255, 0.95);
@@ -7,6 +7,12 @@
   box-shadow: 0 -8px 32px rgba(15, 76, 117, 0.05);
   height: 86px;
   padding-bottom: env(safe-area-inset-bottom);
+}
+
+@media (min-width: 769px) {
+  .nav {
+    display: none !important;
+  }
 }
 .inner {
   max-width: 1200px; margin: 0 auto; height: 100%;
