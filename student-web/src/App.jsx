@@ -41,7 +41,7 @@ export default function App() {
             <Route path="/register" element={<Navigate to="/login?mode=signup" replace />} />
 
             {/* Protected */}
-            <Route path="/home" element={<ProtectedRoute><HomePage /></ProtectedRoute>} />
+            <Route path="/home" element={<LandingPage />} />
             <Route path="/course/:courseId" element={<ProtectedRoute><CoursePage /></ProtectedRoute>} />
             <Route path="/subject/:subjectId" element={<ProtectedRoute><SubjectPage /></ProtectedRoute>} />
             <Route path="/quiz" element={<ProtectedRoute><QuizPage /></ProtectedRoute>} />

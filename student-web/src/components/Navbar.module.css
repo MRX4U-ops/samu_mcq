@@ -7,13 +7,18 @@
   box-shadow: 0 4px 20px rgba(15, 76, 117, 0.12);
 }
 .inner {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  height: 58px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.leftSection {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 .brand {
   display: flex; align-items: center; gap: 10px;
@@ -34,12 +39,54 @@
   font-size: 17px; font-weight: 900;
   color: var(--color-text-inverse); letter-spacing: -0.5px;
   font-family: 'Plus Jakarta Sans', sans-serif;
+  white-space: nowrap;
 }
 .brandAccent {
   color: #fbbf24;
   font-style: italic;
 }
-.actions { display: flex; align-items: center; gap: 10px; }
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  overflow-x: auto;
+}
+@media (max-width: 992px) {
+  .navLinks {
+    display: none;
+  }
+}
+.navLink {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+.navLink:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+.activeLink {
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+}
+.badge {
+  font-size: 10px;
+  font-weight: 800;
+  padding: 1px 6px;
+  border-radius: 6px;
+  background: #EF4444;
+  color: #fff;
+  text-transform: uppercase;
+}
+.actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
 .bellBtn {
   width: 36px; height: 36px;
   border-radius: 50%;
