@@ -23,9 +23,16 @@ export default function Navbar() {
   const displayName = profile?.name || (isSuper ? 'Sameer Ahmad' : (profile?.full_name || user?.email || 'M'));
   const initial = isSuper ? 'S' : (displayName[0]?.toUpperCase() || 'M');
 
-  const adminPanelUrl = typeof window !== 'undefined' && window.location.hostname === 'localhost'
-    ? 'http://localhost:5173'
-    : 'https://ssmu-admin.netlify.app';
+  const getAdminUrl = () => {
+    if (typeof window === 'undefined') return '/admin/';
+    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+      return 'http://localhost:5174';
+    }
+    const origin = window.location.origin;
+    const pathname = window.location.pathname.replace(/\/$/, '');
+    return `${origin}${pathname}/admin/`;
+  };
+  const adminPanelUrl = getAdminUrl();
 
   const handleSignOut = async () => {
     await signOut();

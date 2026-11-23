@@ -90,7 +90,16 @@ export default function ProfilePage() {
     navigate('/login');
   };
 
-  const adminPanelUrl = window.location.hostname === 'localhost' ? 'http://localhost:5173' : 'https://ssmu-admin.netlify.app';
+  const getAdminUrl = () => {
+    if (typeof window === 'undefined') return '/admin/';
+    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+      return 'http://localhost:5174';
+    }
+    const origin = window.location.origin;
+    const pathname = window.location.pathname.replace(/\/$/, '');
+    return `${origin}${pathname}/admin/`;
+  };
+  const adminPanelUrl = getAdminUrl();
 
   return (
     <div className={styles.page}>

@@ -30,7 +30,16 @@ jobs:
       - name: Build student-web
         run: |
           cd student-web
+          npm ci
           npm run build
+
+      - name: Build admin-panel & bundle into admin directory
+        run: |
+          cd admin-panel
+          npm ci
+          npm run build
+          mkdir -p ../student-web/dist/admin
+          cp -r dist/* ../student-web/dist/admin/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4

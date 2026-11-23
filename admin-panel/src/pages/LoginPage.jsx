@@ -17,6 +17,26 @@ const LoginPage = () => {
   const navigate = useNavigate();
   const setAuth = useAuthStore(state => state.setAuth);
 
+  React.useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (session?.user) {
+        const cleanEmail = session.user.email?.toLowerCase();
+        const isSuper = cleanEmail === SUPER_ADMIN_EMAIL;
+        if (isSuper) {
+          const adminProfile = {
+            id: session.user.id,
+            email: session.user.email,
+            name: 'Sameer Ahmad',
+            role: 'super_admin',
+            isSuperAdmin: true
+          };
+          setAuth(adminProfile, session.access_token);
+          navigate('/');
+        }
+      }
+    }).catch(err => console.log('Session check error:', err));
+  }, [navigate, setAuth]);
+
   const handleLogin = async (e) => {
     e.preventDefault();
     setLoading(true);
