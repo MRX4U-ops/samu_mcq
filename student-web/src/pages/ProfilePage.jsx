@@ -24,7 +24,7 @@ export default function ProfilePage() {
   const navigate = useNavigate();
   const [loggingOut, setLoggingOut] = useState(false);
 
-  const name  = profile?.full_name || user?.email?.split('@')[0] || 'Student';
+  const name  = profile?.name || profile?.full_name || user?.email?.split('@')[0] || 'Student';
   const email = user?.email || '';
   const role  = profile?.role || 'student';
   const initials = name.split(' ').map(w => w[0]).join('').toUpperCase().slice(0, 2);
@@ -51,7 +51,7 @@ export default function ProfilePage() {
   const handleLogout = async () => {
     setLoggingOut(true);
     await signOut();
-    navigate('/');
+    navigate('/login');
   };
 
   return (

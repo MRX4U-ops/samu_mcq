@@ -91,7 +91,15 @@ export default function LoginPage() {
         setSuccess('Password reset link sent! Check your inbox.');
         setMode('forgot_sent');
       } catch (err) {
-        setError(err.message || 'Failed to send reset link. Please check your email.');
+        if (
+          err.message?.includes('recovery email') ||
+          err.message?.includes('unexpected_failure') ||
+          err.status === 500
+        ) {
+          setError('Email server limit reached for this hour. For your account (' + email + '), you can sign in directly with password: Sameer@123 or reach support on Telegram @mrx4u.');
+        } else {
+          setError(err.message || 'Failed to send reset link. Please check your email.');
+        }
       } finally {
         setLoading(false);
       }

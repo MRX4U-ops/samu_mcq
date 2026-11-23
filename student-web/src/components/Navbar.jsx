@@ -1,6 +1,6 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { BookOpen, Bell } from 'lucide-react';
+import { BookOpen, Bell, LogOut } from 'lucide-react';
 import styles from './Navbar.module.css';
 
 const NAV_LINKS = [
@@ -15,9 +15,17 @@ const NAV_LINKS = [
 ];
 
 export default function Navbar() {
-  const { user, profile } = useAuth();
+  const { user, profile, signOut } = useAuth();
   const location = useLocation();
-  const initial = profile?.full_name?.[0]?.toUpperCase() || user?.email?.[0]?.toUpperCase() || 'M';
+  const navigate = useNavigate();
+
+  const displayName = profile?.name || profile?.full_name || user?.email || 'M';
+  const initial = displayName[0]?.toUpperCase() || 'M';
+
+  const handleSignOut = async () => {
+    await signOut();
+    navigate('/login');
+  };
 
   return (
     <nav className={styles.nav}>
@@ -56,9 +64,13 @@ export default function Navbar() {
                 <Bell size={18} />
                 <span className={styles.bellDot} />
               </button>
-              <Link to="/profile" className={styles.avatarBtn}>
+              <Link to="/profile" className={styles.avatarBtn} title="View Profile">
                 {initial}
               </Link>
+              <button onClick={handleSignOut} className={styles.logoutNavBtn} title="Sign Out">
+                <LogOut size={15} />
+                <span className={styles.logoutNavText}>Logout</span>
+              </button>
             </>
           ) : (
             <>

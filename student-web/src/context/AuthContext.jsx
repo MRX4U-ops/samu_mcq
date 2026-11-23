@@ -42,10 +42,7 @@ export function AuthProvider({ children }) {
       ]);
 
       if (profileRes.data?.status === 'blocked') {
-        await supabase.auth.signOut();
-        setUser(null);
-        setProfile(null);
-        setSubscription(null);
+        await signOut();
         return;
       }
 
@@ -111,11 +108,31 @@ export function AuthProvider({ children }) {
     return data;
   }
 
+  // Complete, aggressive sign out that guarantees stored tokens are wiped
   async function signOut() {
-    await supabase.auth.signOut();
+    try {
+      await supabase.auth.signOut({ scope: 'local' });
+    } catch (err) {
+      console.warn('Supabase signOut error:', err);
+    }
+
+    try {
+      // Clear all Supabase auth tokens from localStorage and sessionStorage
+      for (let i = localStorage.length - 1; i >= 0; i--) {
+        const key = localStorage.key(i);
+        if (key && (key.startsWith('sb-') || key.includes('supabase') || key.includes('auth') || key.includes('ssmu'))) {
+          localStorage.removeItem(key);
+        }
+      }
+      sessionStorage.clear();
+    } catch (e) {
+      console.warn('Storage purge error:', e);
+    }
+
     setUser(null);
     setProfile(null);
     setSubscription(null);
+    setLoading(false);
   }
 
   const isSubscribed = !!subscription || profile?.role === 'admin';

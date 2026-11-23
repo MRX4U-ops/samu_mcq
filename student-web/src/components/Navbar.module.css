@@ -172,6 +172,37 @@
   text-decoration: none;
 }
 
+.logoutNavBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 6px 12px;
+  color: #ffffff;
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.logoutNavBtn:hover {
+  background: rgba(239, 68, 68, 0.25);
+  border-color: #ef4444;
+  color: #fecaca;
+}
+
+@media (max-width: 640px) {
+  .logoutNavText {
+    display: none;
+  }
+  .logoutNavBtn {
+    padding: 6px 8px;
+  }
+}
+
 .loginBtn {
   color: rgba(255,255,255,0.9);
   font-size: 13px;
