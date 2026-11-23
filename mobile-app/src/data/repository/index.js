@@ -1,4 +1,5 @@
 import { s_1_0 } from './course1/s-1-0.js';
+import { s_1_8 } from './course1/s-1-8.js';
 import { s_1_9 } from './course1/s-1-9.js';
 import { s_1_10 } from './course1/s-1-10.js';
 import { s_1_11 } from './course1/s-1-11.js';
@@ -60,8 +61,18 @@ const s_3_8_merged = Object.fromEntries(
   ])
 );
 
+// Map both canonical key and index-based alias (e.g. Course 3 subject 9 is Medical radiology)
+const s_3_9_aliased = Object.fromEntries(
+  Object.keys(s_3_8_merged).map(tKey => [
+    tKey.replace('t-s-3-8-', 't-s-3-9-'),
+    s_3_8_merged[tKey]
+  ])
+);
+const s_3_merged_full = { ...s_3_8_merged, ...s_3_9_aliased };
+
 export const MCQ_REPOSITORY = {
   "s-1-0": s_1_0,
+  "s-1-8": s_1_8,
   "s-1-9": s_1_9,
   "s-1-10": s_1_10,
   "s-1-11": s_1_11,
@@ -71,5 +82,6 @@ export const MCQ_REPOSITORY = {
   "s-2-8": s_2_8,
   "s-2-9": s_2_9_merged,
   "s-2-10": s_2_10_merged,
-  "s-3-8": s_3_8_merged,
+  "s-3-8": s_3_merged_full,
+  "s-3-9": s_3_merged_full,
 };

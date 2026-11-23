@@ -82,10 +82,24 @@ const SubjectScreen = ({ route, navigation }) => {
   
   const internalId = getInternalId();
 
+  // Canonical mappings for subjects whose repository keys differ from alphabetical/index layout
+  const CANONICAL_SUBJECT_KEYS = {
+    'medical biology with elements of ecology': 's-1-8',
+    'medical chemistry': 's-1-9',
+    'medical radiology': 's-3-8',
+    'radiology': 's-3-8',
+  };
+
   // Use local data as primary to ensure instant loading
   const localSubjects = (ACADEMIC_CURRICULUM[internalId] || []).map((s, idx) => {
-    let subjectId = "";
-    subjectId = `s-${internalId}-${idx}`;
+    let subjectId = `s-${internalId}-${idx}`;
+    const lower = s.toLowerCase();
+    for (const [key, val] of Object.entries(CANONICAL_SUBJECT_KEYS)) {
+      if (lower.includes(key)) {
+        subjectId = val;
+        break;
+      }
+    }
     
     return {
       _id: subjectId,

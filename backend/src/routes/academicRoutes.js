@@ -157,7 +157,10 @@ router.get('/mcqs', async (req, res) => {
         if (match) {
           const courseNum = match[1];
           const subjectIdx = parseInt(match[2]);
-          const subjectTitle = CURRICULUM_MAPPING[courseNum]?.[subjectIdx];
+          let subjectTitle = CURRICULUM_MAPPING[courseNum]?.[subjectIdx];
+          if (subjectId === 's-3-8') {
+            subjectTitle = 'Medical radiology';
+          }
           
           if (subjectTitle) {
             const { data: subData, error: subError } = await supabaseAdmin

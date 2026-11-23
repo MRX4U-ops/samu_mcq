@@ -83,8 +83,8 @@ const TopicScreen = ({ route, navigation }) => {
       { _id: `t-${localSubjectId}-23`, title: 'Added Question 3', localSubjectId }
     ];
     localTopics = [...mainTopics, ...addedTopics];
-  } else if (localSubjectId === 's-3-8') {
-    localTopics = Array.from({ length: 15 }, (_, i) => ({ _id: `t-${localSubjectId}-${i}`, title: `Topic ${i + 1}`, localSubjectId }));
+  } else if (localSubjectId === 's-3-8' || localSubjectId === 's-3-9') {
+    localTopics = Array.from({ length: 15 }, (_, i) => ({ _id: `t-s-3-8-${i}`, title: `Topic ${i + 1}`, localSubjectId: 's-3-8' }));
   } else {
     // Others (like Course 2) are generally 0-indexed: t-s-x-x-0
     localTopics = Array.from({ length: 15 }, (_, i) => ({ _id: `t-${localSubjectId}-${i}`, title: `Topic ${i + 1}`, localSubjectId }));
