@@ -1,0 +1,40 @@
+/* BottomNav — Premium */
+.nav {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 100;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(32px); -webkit-backdrop-filter: blur(32px);
+  border-top: 1px solid var(--color-border);
+  box-shadow: 0 -8px 32px rgba(15, 76, 117, 0.05);
+  height: 86px;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.inner {
+  max-width: 1200px; margin: 0 auto; height: 100%;
+  display: flex; align-items: center; justify-content: space-around; padding: 0 16px;
+}
+.item {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  flex: 1; background: none; border: none; cursor: pointer; padding: 12px 4px;
+  text-decoration: none; color: inherit; transition: transform 0.25s cubic-bezier(0.34,1.56,0.64,1);
+  position: relative;
+}
+.item:hover { transform: translateY(-4px); }
+.icon { color: var(--color-text-muted); transition: color 0.25s; }
+.label { font-size: 13px; font-weight: 800; color: var(--color-text-muted); transition: color 0.25s; font-family: 'Plus Jakarta Sans', sans-serif; }
+
+.active .icon  { color: var(--color-primary); transform: scale(1.1); transition: transform 0.25s; }
+.active .label { color: var(--color-primary); }
+
+.activeDot {
+  position: absolute; top: 0;
+  width: 44px; height: 4px; border-radius: 0 0 4px 4px;
+  background: var(--color-primary);
+  box-shadow: 0 4px 16px rgba(26, 111, 168, 0.35);
+}
+
+.activeIconWrap {
+  width: 60px; height: 44px; border-radius: 16px;
+  background: var(--color-primary-light);
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: inset 0 2px 4px rgba(255,255,255,0.4), 0 4px 12px rgba(26, 111, 168, 0.1);
+}

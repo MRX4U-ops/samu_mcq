@@ -1,0 +1,182 @@
+.page { min-height: 100vh; padding-bottom: 80px; }
+.container { max-width: 700px; margin: 0 auto; padding: 28px 20px 80px; }
+
+.backBtn {
+  display: inline-flex; align-items: center; gap: 6px;
+  color: var(--color-primary); text-decoration: none;
+  font-size: 14px; font-weight: 700;
+  padding: 8px 14px;
+  border-radius: 12px;
+  border: 1.5px solid var(--color-border);
+  background: var(--color-primary-light);
+  transition: all 0.2s;
+  margin-bottom: 24px;
+}
+.backBtn:hover { background: var(--border-soft); }
+
+/* ── Hero ── */
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 48px 24px 36px;
+  border-radius: 28px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #fefce8, #fff7ed, #fef3c7);
+  border: 1.5px solid rgba(245,158,11,0.20);
+  box-shadow: 0 8px 32px rgba(245,158,11,0.12);
+}
+.heroBg {
+  position: absolute; inset: 0;
+  background:
+    radial-gradient(circle at 80% 20%, rgba(245,158,11,0.20) 0%, transparent 50%),
+    radial-gradient(circle at 20% 80%, rgba(249,115,22,0.12) 0%, transparent 50%);
+  pointer-events: none;
+}
+.heroBadge {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.30);
+  border-radius: 999px; padding: 6px 16px;
+  font-size: 12px; font-weight: 800; color: #92400e;
+  letter-spacing: 0.3px; margin-bottom: 20px; position: relative; z-index: 1;
+}
+.crownWrap {
+  display: flex; justify-content: center; align-items: center;
+  width: 80px; height: 80px;
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+  border: 2px solid rgba(245,158,11,0.30);
+  border-radius: 24px;
+  margin: 0 auto 20px;
+  box-shadow: 0 8px 24px rgba(245,158,11,0.25);
+  position: relative; z-index: 1;
+}
+.heroTitle {
+  font-size: 32px; font-weight: 900;
+  color: var(--text-primary);
+  letter-spacing: -0.5px;
+  margin-bottom: 12px;
+  position: relative; z-index: 1;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.heroSub {
+  font-size: 15px; color: var(--text-muted); font-weight: 500;
+  line-height: 1.6; max-width: 480px; margin: 0 auto;
+  position: relative; z-index: 1;
+}
+
+/* ── Card ── */
+.card {
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(20px);
+  border: 1.5px solid var(--bg-card-solid);
+  box-shadow: 0 4px 24px rgba(99,102,241,0.08);
+  border-radius: 24px;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+.cardLabel {
+  font-size: 11px; font-weight: 900; letter-spacing: 2px;
+  color: var(--color-primary); text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.featuresList { display: flex; flex-direction: column; gap: 10px; }
+.featureRow {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 14px;
+  background: rgba(26, 111, 168, 0.03);
+  border: 1px solid rgba(26, 111, 168, 0.07);
+  border-radius: 14px;
+  transition: all 0.2s;
+}
+.featureRow:hover { background: rgba(26, 111, 168, 0.07); border-color: rgba(26, 111, 168, 0.15); }
+.featureIcon {
+  width: 36px; height: 36px; border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.featureText { flex: 1; font-size: 14px; font-weight: 700; color: var(--text-primary); }
+
+/* ── Testimonials ── */
+.testimonialsRow { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 20px; }
+.testimonialCard {
+  background: rgba(255,255,255,0.92);
+  border: 1.5px solid var(--bg-card-solid);
+  box-shadow: 0 4px 16px rgba(99,102,241,0.07);
+  border-radius: 20px; padding: 18px 16px;
+  transition: all 0.25s;
+}
+.testimonialCard:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(99,102,241,0.13); }
+.testimonialStars { display: flex; gap: 3px; margin-bottom: 10px; }
+.testimonialText { font-size: 13px; color: var(--text-body); font-weight: 500; line-height: 1.6; margin-bottom: 10px; font-style: italic; }
+.testimonialAuthor { font-size: 12px; color: var(--text-muted); font-weight: 700; }
+
+/* ── CTA ── */
+.ctaCard {
+  background: #229ED9;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  padding: 28px;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  box-shadow: 0 8px 32px rgba(34, 158, 217, 0.2);
+  margin-bottom: 20px;
+}
+.ctaLeft { display: flex; gap: 18px; flex: 1; min-width: 0; }
+.ctaIcon {
+  width: 60px; height: 60px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  border-radius: 18px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.ctaTitle { font-size: 17px; font-weight: 900; color: #FFFFFF; margin-bottom: 6px; }
+.ctaDesc { font-size: 13px; color: rgba(255, 255, 255, 0.9); font-weight: 500; line-height: 1.6; margin-bottom: 12px; }
+.ctaTags { display: flex; gap: 8px; flex-wrap: wrap; }
+.ctaTag {
+  font-size: 11px; font-weight: 800;
+  background: rgba(255, 255, 255, 0.18);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 999px; padding: 4px 10px;
+}
+.telegramBtn {
+  display: flex; align-items: center; gap: 8px;
+  background: #FFFFFF;
+  color: #229ED9; text-decoration: none;
+  padding: 14px 24px; border-radius: 16px;
+  font-size: 15px; font-weight: 800;
+  transition: all 0.25s;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.telegramBtn:hover { transform: translateY(-2px); background: #F0F8FF; box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+ 
+.footNote { text-align: center; font-size: 13px; color: var(--text-muted); font-weight: 500; }
+.footNote a { color: var(--color-primary); font-weight: 700; text-decoration: none; }
+.footNote a:hover { text-decoration: underline; }
+
+/* ── Already Subscribed ── */
+.alreadyCard {
+  text-align: center;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(20px);
+  border: 1.5px solid rgba(16,185,129,0.20);
+  box-shadow: 0 8px 40px rgba(16,185,129,0.12);
+  border-radius: 28px;
+  padding: 60px 40px;
+}
+.alreadyIcon { margin-bottom: 20px; }
+.alreadyTitle { font-size: 26px; font-weight: 900; color: var(--text-primary); margin-bottom: 10px; font-family: 'Plus Jakarta Sans', sans-serif; }
+.alreadySub { font-size: 15px; color: var(--text-muted); font-weight: 500; line-height: 1.6; }
+
+@media (max-width: 600px) {
+  .testimonialsRow { grid-template-columns: 1fr; }
+  .ctaCard { flex-direction: column; }
+  .ctaLeft { flex-direction: column; }
+  .telegramBtn { width: 100%; justify-content: center; }
+}
