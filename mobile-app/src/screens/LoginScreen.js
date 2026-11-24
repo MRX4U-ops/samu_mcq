@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, TextInput, TouchableOpacity, SafeAreaView, KeyboardAvoidingView, Platform, Alert, ActivityIndicator } from 'react-native';
+import { View, Text, StyleSheet, TextInput, TouchableOpacity, SafeAreaView, KeyboardAvoidingView, Platform, Alert, ActivityIndicator, Image } from 'react-native';
 import { Mail, Lock, User, ArrowRight, ShieldCheck, CircleCheck } from 'lucide-react-native';
 import useAuthStore from '../store/authStore';
 import Constants from 'expo-constants';
@@ -184,7 +184,11 @@ const LoginScreen = ({ navigation }) => {
     <SafeAreaView style={styles.container}>
       <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : 'height'} style={styles.content}>
         <View style={styles.logoCirc}>
-           <View style={styles.logoInner} />
+          <Image
+            source={require('../../assets/icon.png')}
+            style={styles.logoImg}
+            resizeMode="contain"
+          />
         </View>
         
         <Text style={styles.title}>
@@ -299,8 +303,8 @@ const LoginScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#F8FAFC' },
   content: { flex: 1, padding: 25, justifyContent: 'center', alignItems: 'center' },
-  logoCirc: { width: 80, height: 80, borderRadius: 24, backgroundColor: '#6366F1', justifyContent: 'center', alignItems: 'center', marginBottom: 25 },
-  logoInner: { width: 30, height: 30, borderRadius: 6, borderWidth: 4, borderColor: '#FFF' },
+  logoCirc: { width: 92, height: 92, borderRadius: 28, backgroundColor: '#FFF', justifyContent: 'center', alignItems: 'center', marginBottom: 20, shadowColor: '#6366F1', shadowOffset: { width: 0, height: 8 }, shadowOpacity: 0.15, shadowRadius: 16, elevation: 6 },
+  logoImg: { width: 78, height: 78, borderRadius: 22 },
   title: { fontSize: 28, fontWeight: 'bold', color: '#1E293B', marginBottom: 8 },
   subtitle: { fontSize: 15, color: '#64748B', marginBottom: 35, textAlign: 'center' },
   formCard: { backgroundColor: '#FFF', width: '100%', padding: 25, borderRadius: 32, elevation: 8, shadowOpacity: 0.1, shadowRadius: 15 },

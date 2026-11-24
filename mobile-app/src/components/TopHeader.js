@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, Linking } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import { Search, Bell, User, CreditCard } from 'lucide-react-native';
 import { useTheme } from '../context/ThemeContext';
 import { useNavigation } from '@react-navigation/native';
@@ -11,7 +11,14 @@ const TopHeader = ({ title, showIcons = true }) => {
 
   return (
     <View style={[styles.container, { backgroundColor: colors.surface, borderBottomColor: colors.border }]}>
-      <Text style={[styles.title, { color: colors.text }]}>{title || 'SAMU MCQs'}</Text>
+      <View style={styles.titleWrapper}>
+        <Image
+          source={require('../../assets/icon.png')}
+          style={styles.logo}
+          resizeMode="contain"
+        />
+        <Text style={[styles.title, { color: colors.text }]}>{title || 'SAMU MCQs'}</Text>
+      </View>
       
       {showIcons && (
         <View style={styles.iconContainer}>
@@ -55,6 +62,16 @@ const styles = StyleSheet.create({
     elevation: 2,
     shadowOpacity: 0.05,
     zIndex: 100,
+  },
+  titleWrapper: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+  },
+  logo: {
+    width: 32,
+    height: 32,
+    borderRadius: 8,
   },
   title: {
     fontSize: 20,
