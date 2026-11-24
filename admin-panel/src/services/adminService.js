@@ -429,8 +429,8 @@ export const adminService = {
       ]);
 
       const courses = coursesRes.data || [];
-      const subjects = subjectsRes.data || [];
-      const topics = [...(topicsP1.data || []), ...(topicsP2.data || [])];
+      const subjects = (subjectsRes.data || []).filter(s => !((s.title || s.name || '').startsWith('[BIN]')));
+      const topics = [...(topicsP1.data || []), ...(topicsP2.data || [])].filter(t => !((t.title || t.name || '').startsWith('[BIN]')));
 
       const topicsBySub = {};
       topics.forEach(t => {
@@ -466,7 +466,7 @@ export const adminService = {
   },
 
   async getSubjects(courseId) {
-    let query = supabaseAdmin.from('subjects').select('*').order('created_at', { ascending: true });
+    let query = supabaseAdmin.from('subjects').select('*').not('title', 'ilike', '[BIN]%').order('created_at', { ascending: true });
     if (courseId) {
       query = query.eq('course_id', courseId);
     }
@@ -476,13 +476,166 @@ export const adminService = {
   },
 
   async getTopics(subjectId) {
-    let query = supabaseAdmin.from('topics').select('*').order('created_at', { ascending: true });
+    let query = supabaseAdmin.from('topics').select('*').not('title', 'ilike', '[BIN]%').order('created_at', { ascending: true });
     if (subjectId) {
       query = query.eq('subject_id', subjectId);
     }
     const { data, error } = await query;
     if (error) throw error;
     return data || [];
+  },
+
+  // ── Subject Management & Recycle Bin ──
+  async createSubject({ courseId, title }) {
+    const cleanTitle = (title || '').trim();
+    if (!cleanTitle) throw new Error('Subject title is required.');
+    const { data, error } = await supabaseAdmin
+      .from('subjects')
+      .insert([{ course_id: courseId, title: cleanTitle }])
+      .select()
+      .single();
+    if (error) throw error;
+    return data;
+  },
+
+  async updateSubject(subjectId, { title, courseId }) {
+    const payload = {};
+    if (title) payload.title = title.trim();
+    if (courseId) payload.course_id = courseId;
+    const { data, error } = await supabaseAdmin
+      .from('subjects')
+      .update(payload)
+      .eq('id', subjectId)
+      .select()
+      .single();
+    if (error) throw error;
+    return data;
+  },
+
+  async moveSubjectToBin(subjectId, currentTitle) {
+    const binTitle = `[BIN] ${currentTitle.replace(/^\[BIN\]\s*/, '')}`;
+    const { data, error } = await supabaseAdmin
+      .from('subjects')
+      .update({ title: binTitle })
+      .eq('id', subjectId)
+      .select()
+      .single();
+    if (error) throw error;
+    return data;
+  },
+
+  async restoreSubjectFromBin(subjectId, currentTitle) {
+    const restoredTitle = currentTitle.replace(/^\[BIN\]\s*/, '');
+    const { data, error } = await supabaseAdmin
+      .from('subjects')
+      .update({ title: restoredTitle })
+      .eq('id', subjectId)
+      .select()
+      .single();
+    if (error) throw error;
+    return data;
+  },
+
+  async deleteSubjectPermanently(subjectId) {
+    const { error } = await supabaseAdmin
+      .from('subjects')
+      .delete()
+      .eq('id', subjectId);
+    if (error) throw error;
+    return true;
+  },
+
+  // ── Topic Management & Recycle Bin ──
+  async createTopic({ subjectId, title }) {
+    const cleanTitle = (title || '').trim();
+    if (!cleanTitle) throw new Error('Topic title is required.');
+    const { data, error } = await supabaseAdmin
+      .from('topics')
+      .insert([{ subject_id: subjectId, title: cleanTitle }])
+      .select()
+      .single();
+    if (error) throw error;
+    return data;
+  },
+
+  async updateTopic(topicId, { title, subjectId }) {
+    const payload = {};
+    if (title) payload.title = title.trim();
+    if (subjectId) payload.subject_id = subjectId;
+    const { data, error } = await supabaseAdmin
+      .from('topics')
+      .update(payload)
+      .eq('id', topicId)
+      .select()
+      .single();
+    if (error) throw error;
+    return data;
+  },
+
+  async moveTopicToBin(topicId, currentTitle) {
+    const binTitle = `[BIN] ${currentTitle.replace(/^\[BIN\]\s*/, '')}`;
+    const { data, error } = await supabaseAdmin
+      .from('topics')
+      .update({ title: binTitle })
+      .eq('id', topicId)
+      .select()
+      .single();
+    if (error) throw error;
+    return data;
+  },
+
+  async restoreTopicFromBin(topicId, currentTitle) {
+    const restoredTitle = currentTitle.replace(/^\[BIN\]\s*/, '');
+    const { data, error } = await supabaseAdmin
+      .from('topics')
+      .update({ title: restoredTitle })
+      .eq('id', topicId)
+      .select()
+      .single();
+    if (error) throw error;
+    return data;
+  },
+
+  async deleteTopicPermanently(topicId) {
+    const { error } = await supabaseAdmin
+      .from('topics')
+      .delete()
+      .eq('id', topicId);
+    if (error) throw error;
+    return true;
+  },
+
+  // ── Academic Recycle Bin ──
+  async getRecycleBinItems() {
+    try {
+      const [subjectsRes, topicsRes, coursesRes] = await Promise.all([
+        supabaseAdmin.from('subjects').select('id, title, course_id, created_at').ilike('title', '[BIN]%'),
+        supabaseAdmin.from('topics').select('id, title, subject_id, created_at').ilike('title', '[BIN]%'),
+        supabaseAdmin.from('courses').select('id, title')
+      ]);
+
+      const coursesMap = {};
+      (coursesRes.data || []).forEach(c => { coursesMap[c.id] = c.title; });
+
+      const deletedSubjects = (subjectsRes.data || []).map(s => ({
+        ...s,
+        itemType: 'subject',
+        cleanTitle: s.title.replace(/^\[BIN\]\s*/, ''),
+        parentName: coursesMap[s.course_id] || 'Course'
+      }));
+
+      const deletedTopics = (topicsRes.data || []).map(t => ({
+        ...t,
+        itemType: 'topic',
+        cleanTitle: t.title.replace(/^\[BIN\]\s*/, ''),
+        parentName: 'Subject'
+      }));
+
+      return [...deletedSubjects, ...deletedTopics];
+    } catch (e) {
+      console.error('getRecycleBinItems error:', e);
+      return [];
+    }
   },
 
   // ── 7. MCQs Live Management ──

@@ -456,99 +456,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* ═══ BANNER CAROUSEL ═══════════════════════════ */}
-        <div className={styles.bannerWrap}>
-          {BANNERS.map((b, i) => (
-            <div
-              key={i}
-              className={`${styles.banner} ${i === bannerIdx ? styles.bannerActive : ''}`}
-              style={{ background: b.grad }}
-            >
-              <span className={styles.bannerEmoji}>{b.emoji}</span>
-              <div className={styles.bannerText}>
-                <div className={styles.bannerTitle}>{b.title}</div>
-                <div className={styles.bannerSub}>{b.sub}</div>
-              </div>
-              {i === 0 && <span className={styles.couponBadge}>TRH100</span>}
-            </div>
-          ))}
-          <div className={styles.bannerDots}>
-            {BANNERS.map((_, i) => (
-              <button key={i} className={`${styles.bannerDot} ${i === bannerIdx ? styles.bannerDotActive : ''}`}
-                onClick={() => setBannerIdx(i)} />
-            ))}
-          </div>
-        </div>
-
-        {/* ═══ SECTION 2 — QUICK STATS GRID ══════════════ */}
-        <div className={styles.statsGrid}>
-          {[
-            { icon:'📚', label:'Points',    val: animPoints.toLocaleString(), col:'#3B82F6', glow:'rgba(59,130,246,0.2)' },
-            { icon:'🎯', label:'Accuracy',  val: `${accuracy}%`,              col:'#10B981', glow:'rgba(16,185,129,0.2)' },
-            { icon:'🏆', label:'Rank',      val: rank ? `#${rank}` : '—',    col:'#FBBF24', glow:'rgba(251,191,36,0.2)' },
-            { icon:'🔥', label:'Streak',    val: `${animStreak}d`,            col:'#F43F5E', glow:'rgba(244,63,94,0.2)'  },
-          ].map(s => (
-            <div key={s.label} className={styles.statCard} style={{ '--glow':s.glow }}>
-              <div className={styles.statIcon}>{s.icon}</div>
-              <div className={styles.statVal} style={{ color: s.col }}>{s.val}</div>
-              <div className={styles.statLabel}>{s.label}</div>
-            </div>
-          ))}
-        </div>
-
-        {/* ═══ SECTION 3 — LEVEL PROGRESS ════════════════ */}
-        <div className={styles.levelCard}>
-          <div className={styles.levelLeft}>
-            <div className={styles.levelBadge}>Lv.{level.num}</div>
-            <div>
-              <div className={styles.levelTitle}>{level.title}</div>
-              <div className={styles.levelSub}>
-                {level.next ? `${points} / ${level.next} pts to next level` : 'Max Level Reached!'}
-              </div>
-            </div>
-          </div>
-          <div className={styles.levelBarWrap}>
-            <div className={styles.levelBar}>
-              <div className={styles.levelBarFill} style={{ width: `${levelPct}%` }} />
-            </div>
-            <div className={styles.levelPct}>{levelPct}%</div>
-          </div>
-        </div>
-
-        {/* ═══ SECTION 4 — DAILY GOAL ═════════════════════ */}
-        <div className={styles.sectionHeader}>
-          <span className="section-label">TODAY'S TARGETS</span>
-        </div>
-        <div className={styles.goalsRow}>
-          <div className={styles.goalCard}>
-            <div className={styles.goalTop}>
-              <Target size={18} color="#0284C7" />
-              <span className={styles.goalTitle}>Questions Goal</span>
-            </div>
-            <div className={styles.goalNums}>
-              <span className={styles.goalDone}>{dailyGoal.done}</span>
-              <span className={styles.goalSep}>/ {dailyGoal.target}</span>
-            </div>
-            <div className="progress-bar" style={{ height: 8 }}>
-              <div className="progress-fill" style={{ width: `${(dailyGoal.done / dailyGoal.target) * 100}%`, background: 'linear-gradient(90deg, #0284C7, #38BDF8)' }} />
-            </div>
-          </div>
-          <div className={styles.goalCard}>
-            <div className={styles.goalTop}>
-              <Clock size={18} color="#10B981" />
-              <span className={styles.goalTitle}>Study Time</span>
-            </div>
-            <div className={styles.goalNums}>
-              <span className={styles.goalDone}>{studyTime.done}</span>
-              <span className={styles.goalSep}>/ {studyTime.target} min</span>
-            </div>
-            <div className="progress-bar" style={{ height: 8 }}>
-              <div className="progress-fill" style={{ width: `${(studyTime.done / studyTime.target) * 100}%`, background:'linear-gradient(90deg,#047857,#10B981)' }} />
-            </div>
-          </div>
-        </div>
-
-        {/* ═══ SECTION 5 — SEARCH BAR ══════════════════════ */}
+        {/* ═══ SEARCH BAR (DIRECTLY ACCESSIBLE AT TOP) ══════ */}
         <div className={styles.searchWrap}>
           <Search size={18} className={styles.searchIcon} />
           <input
@@ -756,6 +664,129 @@ export default function HomePage() {
               <span className={styles.hubLabel}>{item.label}</span>
             </button>
           ))}
+        </div>
+
+        {/* ═══ SHIFTED TO BOTTOM: TODAY'S TARGETS & PERFORMANCE ANALYTICS (RESTYLED THEME) ═══ */}
+        <div className={styles.sectionHeader}>
+          <span className="section-label">TODAY'S TARGETS & STUDY METRICS</span>
+          <span className={styles.sectionSub}>Daily Progress</span>
+        </div>
+
+        {/* 1. Today's Targets with vibrant medical theme */}
+        <div className={styles.newTargetsGrid}>
+          {/* Questions Goal */}
+          <div className={styles.newTargetCardBlue}>
+            <div className={styles.newTargetTop}>
+              <div className={styles.newTargetIconBoxBlue}>
+                <Target size={22} color="#FFFFFF" />
+              </div>
+              <div className={styles.newTargetInfo}>
+                <span className={styles.newTargetLabel}>QUESTIONS GOAL</span>
+                <div className={styles.newTargetNumbers}>
+                  <span className={styles.newTargetDone}>{dailyGoal.done}</span>
+                  <span className={styles.newTargetTotal}>/ {dailyGoal.target} MCQs</span>
+                </div>
+              </div>
+              <span className={styles.newTargetPillBlue}>
+                {Math.round((dailyGoal.done / dailyGoal.target) * 100)}% Done
+              </span>
+            </div>
+            <div className={styles.newProgressTrack}>
+              <div 
+                className={styles.newProgressFillBlue} 
+                style={{ width: `${Math.min(100, (dailyGoal.done / dailyGoal.target) * 100)}%` }} 
+              />
+            </div>
+          </div>
+
+          {/* Study Time */}
+          <div className={styles.newTargetCardEmerald}>
+            <div className={styles.newTargetTop}>
+              <div className={styles.newTargetIconBoxEmerald}>
+                <Clock size={22} color="#FFFFFF" />
+              </div>
+              <div className={styles.newTargetInfo}>
+                <span className={styles.newTargetLabel}>STUDY DURATION</span>
+                <div className={styles.newTargetNumbers}>
+                  <span className={styles.newTargetDone}>{studyTime.done}</span>
+                  <span className={styles.newTargetTotal}>/ {studyTime.target} mins</span>
+                </div>
+              </div>
+              <span className={styles.newTargetPillEmerald}>
+                {Math.round((studyTime.done / studyTime.target) * 100)}% On Track
+              </span>
+            </div>
+            <div className={styles.newProgressTrack}>
+              <div 
+                className={styles.newProgressFillEmerald} 
+                style={{ width: `${Math.min(100, (studyTime.done / studyTime.target) * 100)}%` }} 
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* 2. Redesigned Level & Experience Card with Royal Theme */}
+        <div className={styles.newLevelCard}>
+          <div className={styles.newLevelLeft}>
+            <div className={styles.newLevelBadge}>
+              <span className={styles.newLevelNum}>Lv.{level.num}</span>
+            </div>
+            <div>
+              <div className={styles.newLevelTitle}>{level.title} • Medical Resident</div>
+              <div className={styles.newLevelSub}>
+                {level.next ? `${points} / ${level.next} XP to next milestone` : '🏆 Max Academic Level Reached!'}
+              </div>
+            </div>
+          </div>
+          <div className={styles.newLevelRight}>
+            <div className={styles.newLevelBarTrack}>
+              <div className={styles.newLevelBarFill} style={{ width: `${levelPct}%` }} />
+            </div>
+            <span className={styles.newLevelPct}>{levelPct}% Complete</span>
+          </div>
+        </div>
+
+        {/* 3. Redesigned Performance Analytics Strip */}
+        <div className={styles.newStatsGrid}>
+          {[
+            { icon:'📚', label:'Total Points', val: animPoints.toLocaleString(), col:'#0284C7', bg:'#F0F9FF', border:'#BAE6FD' },
+            { icon:'🎯', label:'MCQ Accuracy', val: `${accuracy}%`, col:'#059669', bg:'#F0FDF4', border:'#A7F3D0' },
+            { icon:'🏆', label:'Global Rank', val: rank ? `#${rank}` : 'Top 10%', col:'#D97706', bg:'#FFFBEB', border:'#FDE68A' },
+            { icon:'🔥', label:'Study Streak', val: `${animStreak} Days`, col:'#E11D48', bg:'#FFF1F2', border:'#FECDD3' },
+          ].map(s => (
+            <div key={s.label} className={styles.newStatCard} style={{ background: s.bg, borderColor: s.border }}>
+              <div className={styles.newStatIcon}>{s.icon}</div>
+              <div className={styles.newStatVal} style={{ color: s.col }}>{s.val}</div>
+              <div className={styles.newStatLabel}>{s.label}</div>
+            </div>
+          ))}
+        </div>
+
+        {/* 4. Promotional Banner Carousel shifted to bottom */}
+        <div className={styles.newBannerWrap}>
+          {BANNERS.map((b, i) => (
+            <div
+              key={i}
+              className={`${styles.newBanner} ${i === bannerIdx ? styles.newBannerActive : ''}`}
+              style={{ background: b.grad }}
+            >
+              <span className={styles.newBannerEmoji}>{b.emoji}</span>
+              <div className={styles.newBannerText}>
+                <div className={styles.newBannerTitle}>{b.title}</div>
+                <div className={styles.newBannerSub}>{b.sub}</div>
+              </div>
+              {i === 0 && <span className={styles.newCouponBadge}>TRH100</span>}
+            </div>
+          ))}
+          <div className={styles.newBannerDots}>
+            {BANNERS.map((_, i) => (
+              <button 
+                key={i} 
+                className={`${styles.newBannerDot} ${i === bannerIdx ? styles.newBannerDotActive : ''}`}
+                onClick={() => setBannerIdx(i)} 
+              />
+            ))}
+          </div>
         </div>
 
         {/* ═══ LEADERBOARD PREVIEW ═══════════════════════ */}

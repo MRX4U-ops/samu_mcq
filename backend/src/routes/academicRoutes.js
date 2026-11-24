@@ -30,7 +30,8 @@ router.get('/courses/:id/subjects', async (req, res) => {
     const { data, error } = await supabaseAdmin
       .from('subjects')
       .select('*')
-      .eq('course_id', courseId);
+      .eq('course_id', courseId)
+      .not('title', 'ilike', '[BIN]%');
     
     if (error) throw error;
 
@@ -53,7 +54,8 @@ router.get('/subjects/:id/topics', async (req, res) => {
     const { data, error } = await supabaseAdmin
       .from('topics')
       .select('*')
-      .eq('subject_id', subjectId);
+      .eq('subject_id', subjectId)
+      .not('title', 'ilike', '[BIN]%');
     
     if (error) throw error;
 
