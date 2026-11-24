@@ -163,8 +163,7 @@ export const adminService = {
         user_id: userId,
         status: 'active',
         start_date: now.toISOString(),
-        end_date: end.toISOString(),
-        plan_id: 'admin_granted'
+        end_date: end.toISOString()
       }]);
     }
     return profile;
@@ -245,8 +244,7 @@ export const adminService = {
           user_id: userId,
           status: 'active',
           start_date: new Date().toISOString(),
-          end_date: endDate,
-          plan_id: 'admin_granted'
+          end_date: endDate
         }])
         .select()
         .single();
@@ -369,8 +367,7 @@ export const adminService = {
         user_id: request.user_id,
         status: 'active',
         start_date: now.toISOString(),
-        end_date: end.toISOString(),
-        plan_id: 'standard_term'
+        end_date: end.toISOString()
       }], { onConflict: 'user_id' });
     }
     return request;
