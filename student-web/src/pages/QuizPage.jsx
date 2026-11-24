@@ -151,31 +151,61 @@ export default function QuizPage() {
   async function loadFromSupabase() {
     try {
       const taskType = mode === 'situational' ? 'situational_task' : 'test_question';
+      const targetTopicId = state?.topicDbId || topicId;
+
+      // 1. Try Backend API first (uses service role key, bypasses RLS, returns all live questions!)
+      try {
+        const res = await fetch(`https://samu-mcqs.onrender.com/api/mcqs?topicId=${targetTopicId}&taskType=${taskType}`);
+        if (res.ok) {
+          const apiData = await res.json();
+          if (Array.isArray(apiData) && apiData.length > 0) {
+            const mapped = apiData.map((q, idx) => {
+              const rawOpts = q.options || [];
+              const cleanedOpts = rawOpts.map(cleanOption);
+              const correctValue = cleanedOpts[q.correctIndex !== undefined ? q.correctIndex : (q.correct_index || 0)];
+              const shuffled = shuffle([...cleanedOpts]);
+              return {
+                _id: q._id || q.id || `api-${idx}`,
+                question: q.question,
+                options: shuffled,
+                correctIndex: shuffled.indexOf(correctValue),
+              };
+            });
+            setQuestions(mapped);
+            setLoading(false);
+            return;
+          }
+        }
+      } catch (apiErr) {
+        console.warn("Backend /api/mcqs fetch failed, falling back to direct Supabase...");
+      }
+
+      // 2. Direct Supabase Query
       const { data, error: err } = await supabase
         .from('mcqs')
         .select('id, question, options, correct_index')
-        .eq('topic_id', state?.topicDbId || topicId)
+        .eq('topic_id', targetTopicId)
         .eq('task_type', taskType);
 
-      if (err || !data || data.length === 0) {
-        setError('No questions found for this topic.');
+      if (data && data.length > 0) {
+        const mapped = data.map(q => {
+          const rawOpts = q.options || [];
+          const cleanedOpts = rawOpts.map(cleanOption);
+          const correctValue = cleanedOpts[q.correct_index || 0];
+          const shuffled = shuffle(cleanedOpts);
+          return {
+            _id: q.id,
+            question: q.question,
+            options: shuffled,
+            correctIndex: shuffled.indexOf(correctValue),
+          };
+        });
+        setQuestions(mapped);
         setLoading(false);
         return;
       }
 
-      const mapped = data.map(q => {
-        const rawOpts = q.options || [];
-        const cleanedOpts = rawOpts.map(cleanOption);
-        const correctValue = cleanedOpts[q.correct_index || 0];
-        const shuffled = shuffle(cleanedOpts);
-        return {
-          _id: q.id,
-          question: q.question,
-          options: shuffled,
-          correctIndex: shuffled.indexOf(correctValue),
-        };
-      });
-      setQuestions(mapped);
+      setError('No questions found for this topic.');
     } catch (e) {
       setError('Failed to load questions. Please try again.');
     }

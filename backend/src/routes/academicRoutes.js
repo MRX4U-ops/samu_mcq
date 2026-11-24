@@ -27,16 +27,27 @@ router.get('/courses', async (req, res) => {
 router.get('/courses/:id/subjects', async (req, res) => {
   const courseId = req.params.id;
   try {
+    let resolvedCourseId = courseId;
+    if (courseId && courseId.length < 10) {
+      const { data: cData } = await supabaseAdmin
+        .from('courses')
+        .select('id')
+        .ilike('title', `${courseId}%`)
+        .limit(1);
+      if (cData && cData.length > 0) resolvedCourseId = cData[0].id;
+    }
+
     const { data, error } = await supabaseAdmin
       .from('subjects')
       .select('*')
-      .eq('course_id', courseId)
+      .eq('course_id', resolvedCourseId)
       .not('title', 'ilike', '[BIN]%');
     
     if (error) throw error;
 
     const formattedData = data.map(s => ({
       _id: s.id,
+      id: s.id,
       title: s.title,
       courseId: s.course_id
     }));
@@ -51,25 +62,50 @@ router.get('/courses/:id/subjects', async (req, res) => {
 router.get('/subjects/:id/topics', async (req, res) => {
   const subjectId = req.params.id;
   try {
+    let resolvedSubjectId = subjectId;
+    if (subjectId && !/^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$/.test(subjectId)) {
+      let targetTitle = null;
+      const match = subjectId.match(/^s-(\d+)-(\d+)$/);
+      if (match) {
+        targetTitle = CURRICULUM_MAPPING[match[1]]?.[parseInt(match[2])];
+        if (subjectId === 's-3-8') targetTitle = 'Medical radiology';
+      } else {
+        targetTitle = subjectId;
+      }
+
+      if (targetTitle) {
+        const { data: sData } = await supabaseAdmin
+          .from('subjects')
+          .select('id')
+          .ilike('title', targetTitle.trim())
+          .limit(1);
+        if (sData && sData.length > 0) resolvedSubjectId = sData[0].id;
+      }
+    }
+
     const { data, error } = await supabaseAdmin
       .from('topics')
-      .select('*')
-      .eq('subject_id', subjectId)
-      .not('title', 'ilike', '[BIN]%');
+      .select('*, mcqs(count)')
+      .eq('subject_id', resolvedSubjectId)
+      .not('title', 'ilike', '[BIN]%')
+      .order('created_at', { ascending: true });
     
     if (error) throw error;
 
     const formattedData = data.map(t => ({
       _id: t.id,
+      id: t.id,
       title: t.title,
-      subjectId: t.subject_id
+      subjectId: t.subject_id,
+      questionCount: t.mcqs?.[0]?.count || 0
     }));
 
     // Add Master Topic
     formattedData.push({
-      _id: `master-${subjectId}`,
-      title: "Master Topic",
-      subjectId: subjectId,
+      _id: `master-${resolvedSubjectId}`,
+      id: `master-${resolvedSubjectId}`,
+      title: "Master Topic (Comprehensive Review)",
+      subjectId: resolvedSubjectId,
       isMaster: true
     });
 

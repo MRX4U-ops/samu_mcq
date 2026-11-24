@@ -48,7 +48,7 @@ export default function SubjectPage() {
 
   const localSubjectId = localKey || subjectId;
 
-  // Generate topics EXACTLY like mobile app TopicScreen.js
+  // Generate topics: Static fallback list
   let localTopics = [];
   if (localSubjectId === 's-1-8') {
     localTopics = Array.from({ length: 24 }, (_, i) => ({ id: `t-${localSubjectId}-${i}`, title: `Topic ${i + 1}`, localSubjectId }));
@@ -74,7 +74,6 @@ export default function SubjectPage() {
     localTopics = Array.from({ length: 15 }, (_, i) => ({ id: `t-${localSubjectId}-${i}`, title: `Topic ${i + 1}`, localSubjectId }));
   }
 
-  // Always append Master Topic
   localTopics.push({ 
     id: `master-${localSubjectId}`, 
     title: "Master Topic (Comprehensive Review)", 
@@ -85,11 +84,90 @@ export default function SubjectPage() {
   const isMicroBio2 = localSubjectId === 's-2-10';
   const [showAdditional, setShowAdditional] = useState(false);
 
-  const visibleTopics = isMicroBio2 && !showAdditional
+  const fallbackTopics = isMicroBio2 && !showAdditional
     ? localTopics.filter(t => !t.title.startsWith('Added Question'))
     : localTopics;
 
-  const [topics, setTopics] = useState(localTopics);
+  // Live Database Topics State
+  const [liveTopics, setLiveTopics] = useState([]);
+  const [loadingTopics, setLoadingTopics] = useState(true);
+
+  // Load Real Topics and Question Counts from Database
+  useEffect(() => {
+    let isMounted = true;
+    async function fetchTopics() {
+      setLoadingTopics(true);
+      // 1. Try Backend API first
+      try {
+        const res = await fetch(`https://samu-mcqs.onrender.com/api/subjects/${subjectId}/topics`);
+        if (res.ok) {
+          const data = await res.json();
+          if (Array.isArray(data) && data.length > 0) {
+            if (isMounted) {
+              setLiveTopics(data);
+              setLoadingTopics(false);
+              return;
+            }
+          }
+        }
+      } catch (err) {
+        console.warn("Backend API /api/subjects/:id/topics failed, trying direct Supabase query...");
+      }
+
+      // 2. Direct Supabase Query with UUID or Title Resolution
+      try {
+        let subUUID = subjectId;
+        if (!/^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$/.test(subjectId)) {
+          // Resolve local ID (s-X-Y) or title to Supabase subject UUID
+          const cleanSubjectTitle = subjectTitle.replace(/Module\s*\d+/i, '').trim();
+          const { data: sRows } = await supabase
+            .from('subjects')
+            .select('id, title')
+            .ilike('title', `%${cleanSubjectTitle}%`)
+            .limit(1);
+          if (sRows && sRows.length > 0) subUUID = sRows[0].id;
+        }
+
+        const { data: tRows, error: tErr } = await supabase
+          .from('topics')
+          .select('id, title, subject_id, mcqs(count)')
+          .eq('subject_id', subUUID)
+          .not('title', 'ilike', '[BIN]%')
+          .order('created_at', { ascending: true });
+
+        if (!tErr && Array.isArray(tRows) && tRows.length > 0) {
+          const formatted = tRows.map(t => ({
+            _id: t.id,
+            id: t.id,
+            title: t.title,
+            subjectId: t.subject_id,
+            questionCount: t.mcqs?.[0]?.count || 0
+          }));
+          formatted.push({
+            _id: `master-${subUUID}`,
+            id: `master-${subUUID}`,
+            title: "Master Topic (Comprehensive Review)",
+            subjectId: subUUID,
+            isMaster: true
+          });
+          if (isMounted) {
+            setLiveTopics(formatted);
+            setLoadingTopics(false);
+            return;
+          }
+        }
+      } catch (supaErr) {
+        console.error("Direct Supabase topics query error:", supaErr);
+      }
+
+      if (isMounted) setLoadingTopics(false);
+    }
+
+    fetchTopics();
+    return () => { isMounted = false; };
+  }, [subjectId, subjectTitle]);
+
+  const displayedTopics = liveTopics.length > 0 ? liveTopics : fallbackTopics;
 
   const getQuestionCount = (topicId) => {
     let questions = null;
@@ -120,30 +198,24 @@ export default function SubjectPage() {
   };
 
   function handleTopicClick(topic, mode) {
-    let count = 0;
-    if (topic.isMaster || topic.id.startsWith('master-')) {
-       const sId = topic.localSubjectId || localSubjectId;
-       if (MCQ_REPOSITORY[sId]) count = 1; 
-    } else {
-       count = mode === 'situational' ? getSituationalCount(topic.id) : getQuestionCount(topic.id);
-    }
-
-    if (count === 0) {
-      alert("Coming Soon: All data available on Before 27 may");
-      return;
-    }
-
     if (!isSubscribed) {
       alert("Subscription Required: Please subscribe to unlock access to all courses and content.");
       navigate('/subscribe');
       return;
     }
 
-    const topicNum = topic.title.match(/\d+/)?.[0];
-    const topicKey = localKey && topicNum && !topic.title.startsWith('Added Question') ? `t-${localKey}-${parseInt(topicNum) - 1}` : topic.id;
+    const localCount = mode === 'situational' ? getSituationalCount(topic.id) : getQuestionCount(topic.id);
+    const dbCount = topic.questionCount;
+    const hasQuestions = (dbCount !== undefined && dbCount > 0) || localCount > 0 || topic.isMaster || /^[0-9a-fA-F-]{36}$/.test(topic.id);
+
+    if (!hasQuestions && localCount === 0) {
+      alert("Coming Soon: All data available on Before 27 may");
+      return;
+    }
+
     navigate('/quiz', {
       state: {
-        topicId: topic.id, // pass the exact ID from localTopics
+        topicId: topic.id,
         topicDbId: topic.id,
         subjectId: localKey || subjectId,
         title: topic.title,
@@ -164,7 +236,7 @@ export default function SubjectPage() {
         <div className={styles.header} style={{ borderLeftColor: color }}>
           <div>
             <h1 className={styles.title}>{subjectTitle}</h1>
-            <p className={styles.subtitle}>{visibleTopics.length} topics • Select clinical modality</p>
+            <p className={styles.subtitle}>{displayedTopics.length} topics • Select clinical modality</p>
           </div>
         </div>
 
@@ -193,7 +265,7 @@ export default function SubjectPage() {
         )}
 
         <div className={styles.subjectsList}>
-          {visibleTopics.map((t, idx) => {
+          {displayedTopics.map((t, idx) => {
             const isMaster = t.isMaster || t.id.startsWith('master-');
             
             return (
@@ -228,7 +300,7 @@ export default function SubjectPage() {
                         onClick={() => handleTopicClick(t, 'test')}
                       >
                         <BookOpen size={14} color="#FFF" style={{ marginRight: 6 }} />
-                        {getQuestionCount(t.id) || 'XX'} Questions
+                        {(t.questionCount !== undefined && t.questionCount > 0) ? t.questionCount : (getQuestionCount(t.id) || '25')} Questions
                       </button>
                       <button
                         className={styles.quizBtn}

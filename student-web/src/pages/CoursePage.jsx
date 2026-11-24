@@ -28,8 +28,8 @@ export default function CoursePage() {
 
   useEffect(() => {
     async function load() {
+      // 1. Try Backend API first
       try {
-        // Try API first
         const res = await fetch(`https://samu-mcqs.onrender.com/api/courses/${courseId}/subjects`);
         if (res.ok) {
           const data = await res.json();
@@ -40,10 +40,39 @@ export default function CoursePage() {
           }
         }
       } catch (e) {
-        console.warn("Backend API fetch failed, trying fallback...");
+        console.warn("Backend API fetch failed, trying Supabase direct...");
       }
 
-      // Fallback: local static data based on course number
+      // 2. Direct Supabase Query with course title/number resolution
+      try {
+        let resolvedCourseId = courseId;
+        const targetCourseNum = String(courseNum || courseId).match(/\d/)?.[0] || '1';
+        const { data: cRows } = await supabase
+          .from('courses')
+          .select('id, title')
+          .ilike('title', `${targetCourseNum}%`)
+          .limit(1);
+        if (cRows && cRows.length > 0) {
+          resolvedCourseId = cRows[0].id;
+        }
+
+        const { data: supaSubjects, error: sErr } = await supabase
+          .from('subjects')
+          .select('id, title, course_id')
+          .eq('course_id', resolvedCourseId)
+          .not('title', 'ilike', '[BIN]%')
+          .order('title');
+
+        if (!sErr && Array.isArray(supaSubjects) && supaSubjects.length > 0) {
+          setSubjects(supaSubjects);
+          setLoading(false);
+          return;
+        }
+      } catch (e) {
+        console.warn("Direct Supabase query failed, falling back to static curriculum...");
+      }
+
+      // 3. Fallback: local static data based on course number
       if (courseNum) {
         const localSubjects = ALL_SUBJECTS.filter(s => s.id.startsWith(`s-${courseNum}-`));
         if (localSubjects.length > 0) {
@@ -53,15 +82,6 @@ export default function CoursePage() {
         }
       }
 
-      // Final Fallback: Supabase direct (if courseId is a UUID)
-      try {
-        const { data } = await supabase
-          .from('subjects')
-          .select('id, title, description, course_id')
-          .eq('course_id', courseId)
-          .order('title');
-        setSubjects(data || []);
-      } catch (e) {}
       setLoading(false);
     }
     load();
