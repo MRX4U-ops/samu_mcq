@@ -4,7 +4,11 @@
     "slug": "samu-mcqs",
     "version": "1.0.0",
     "orientation": "portrait",
-    "platforms": ["android", "ios", "web"],
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ],
     "userInterfaceStyle": "automatic",
     "runtimeVersion": {
       "policy": "appVersion"
@@ -29,6 +33,11 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.samumcq.app"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f5b56136-32c0-486d-9a5c-77774bfb57c3"
+      }
     }
   }
 }
