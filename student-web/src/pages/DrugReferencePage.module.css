@@ -1,13 +1,16 @@
 .page {
   min-height: 100vh;
   background: var(--bg-primary);
-  padding-bottom: 80px;
+  padding-bottom: clamp(60px, 8vw, 90px);
+  width: 100%;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 16px;
+  padding: clamp(14px, 2.5vw, 24px) clamp(12px, 3vw, 20px) 90px;
+  width: 100%;
+  box-sizing: border-box;
   animation: fadeIn 0.5s ease;
 }
 

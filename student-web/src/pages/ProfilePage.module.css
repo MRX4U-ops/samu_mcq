@@ -1,5 +1,5 @@
-.page { min-height: 100vh; padding-bottom: 80px; }
-.container { max-width: 680px; margin: 0 auto; padding: 28px 20px 80px; }
+.page { min-height: 100vh; padding-bottom: clamp(60px, 8vw, 90px); width: 100%; }
+.container { max-width: 680px; margin: 0 auto; padding: clamp(16px, 2.5vw, 28px) clamp(12px, 3vw, 20px) 90px; width: 100%; box-sizing: border-box; }
 
 /* ── Header ── */
 .header {

@@ -1,6 +1,7 @@
+import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { BookOpen, Bell, LogOut, Shield } from 'lucide-react';
+import { BookOpen, Bell, LogOut, Shield, Menu, X, ChevronRight } from 'lucide-react';
 import styles from './Navbar.module.css';
 
 const NAV_LINKS = [
@@ -18,6 +19,12 @@ export default function Navbar() {
   const { user, profile, isSuperAdmin, signOut } = useAuth();
   const location = useLocation();
   const navigate = useNavigate();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  // Close mobile drawer whenever location changes
+  useEffect(() => {
+    setMobileMenuOpen(false);
+  }, [location.pathname]);
 
   const isSuper = isSuperAdmin || user?.email?.toLowerCase() === 'mohd6396889713@gmail.com' || profile?.role === 'admin';
   const displayName = profile?.name || (isSuper ? 'Sameer Ahmad' : (profile?.full_name || user?.email || 'M'));
@@ -100,8 +107,83 @@ export default function Navbar() {
               <Link to="/register" className={styles.registerBtn}>Register Free</Link>
             </>
           )}
+
+          {/* Mobile & Tablet Hamburger Toggle Button */}
+          <button
+            className={styles.menuToggleBtn}
+            onClick={() => setMobileMenuOpen(prev => !prev)}
+            aria-label="Toggle navigation menu"
+          >
+            {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
+          </button>
         </div>
       </div>
+
+      {/* Mobile & Tablet Drawer Menu */}
+      {mobileMenuOpen && (
+        <div className={styles.mobileDrawer}>
+          <div className={styles.mobileDrawerLinks}>
+            {NAV_LINKS.map((link) => (
+              <Link
+                key={link.label}
+                to={link.to}
+                onClick={() => setMobileMenuOpen(false)}
+                className={`${styles.mobileDrawerLink} ${location.pathname === link.to ? styles.mobileActiveLink : ''}`}
+              >
+                <span>{link.label}</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  {link.badge && (
+                    <span className={link.badge === 'LIVE' ? styles.badgeLive : styles.badgeNew}>
+                      {link.badge}
+                    </span>
+                  )}
+                  <ChevronRight size={16} className={styles.mobileDrawerChev} />
+                </div>
+              </Link>
+            ))}
+            {isSuper && (
+              <Link
+                to="/admin"
+                onClick={() => setMobileMenuOpen(false)}
+                className={styles.mobileDrawerAdminLink}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <Shield size={16} />
+                  <span>Super Admin Portal</span>
+                </div>
+                <ChevronRight size={16} />
+              </Link>
+            )}
+            {user ? (
+              <div className={styles.mobileDrawerUserRow}>
+                <Link
+                  to="/profile"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={styles.mobileDrawerProfileLink}
+                >
+                  <div className={styles.avatarBtn}>{initial}</div>
+                  <div className={styles.mobileUserInfoText}>
+                    <div className={styles.mobileDrawerUserName}>{displayName}</div>
+                    <div className={styles.mobileDrawerUserEmail}>{user.email}</div>
+                  </div>
+                </Link>
+                <button
+                  onClick={() => { setMobileMenuOpen(false); handleSignOut(); }}
+                  className={styles.mobileLogoutBtn}
+                  title="Sign Out"
+                >
+                  <LogOut size={16} />
+                </button>
+              </div>
+            ) : (
+              <div className={styles.mobileAuthRow}>
+                <Link to="/login" onClick={() => setMobileMenuOpen(false)} className={styles.loginBtn} style={{ textAlign: 'center', flex: 1 }}>Sign In</Link>
+                <Link to="/register" onClick={() => setMobileMenuOpen(false)} className={styles.registerBtn} style={{ textAlign: 'center', flex: 1 }}>Register Free</Link>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </nav>
   );
 }

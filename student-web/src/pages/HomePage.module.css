@@ -15,10 +15,12 @@
 }
 
 .container {
-  max-width: 1220px;
+  max-width: 1240px;
   margin: 0 auto;
-  padding: 24px 20px 48px;
+  padding: clamp(14px, 2.5vw, 24px) clamp(12px, 3vw, 24px) clamp(84px, 10vw, 56px);
   animation: fadeIn 0.5s ease-out;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* ── 1. Hero Medical Oceanic Banner ───────────────────────── */
@@ -308,9 +310,10 @@
 /* ── 7. Course Cards ─────────────────────────────────────── */
 .coursesGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
   gap: 18px;
   margin-bottom: 28px;
+  width: 100%;
 }
 
 .courseCard {
@@ -879,14 +882,138 @@
 }
 .chatPromptChip:hover { background: #E0F2FE; border-color: #0284C7; }
 
+@media (max-width: 1024px) {
+  .coursesGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+  .hubGrid {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
+}
+
 @media (max-width: 768px) {
-  .heroBadges { grid-template-columns: repeat(2, 1fr); }
-  .statsGrid { grid-template-columns: repeat(2, 1fr); }
-  .goalsRow { grid-template-columns: 1fr; }
-  .coursesGrid { grid-template-columns: 1fr; }
+  .hero {
+    padding: 22px 18px 20px;
+    border-radius: 20px;
+  }
+  .heroTitle {
+    font-size: 24px;
+  }
+  .heroGreeting {
+    font-size: 13px;
+  }
+  .heroBadges {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  .heroBadge {
+    padding: 8px 10px;
+    gap: 8px;
+    border-radius: 12px;
+  }
+  .heroBadgeVal {
+    font-size: 16px;
+  }
+  .heroBadgeLabel {
+    font-size: 10px;
+  }
+
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .goalsRow {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .coursesGrid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .hubGrid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+  .hubItem {
+    padding: 10px 4px;
+    border-radius: 14px;
+  }
+  .hubIcon {
+    width: 44px;
+    height: 44px;
+    font-size: 22px;
+    border-radius: 12px;
+  }
+  .hubLabel {
+    font-size: 10.5px;
+  }
+
+  .levelCard {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 14px 16px;
+  }
+
   .chatPanel {
-    bottom: 100px; right: 16px;
-    width: calc(100vw - 32px); height: 420px;
+    bottom: 84px;
+    right: 12px;
+    width: calc(100vw - 24px);
+    height: clamp(380px, 60vh, 460px);
+  }
+}
+
+@media (max-width: 480px) {
+  .courseCard {
+    padding: 12px 14px;
+    gap: 12px;
+    border-radius: 18px;
+  }
+  .courseIconBox {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+  }
+  .courseEmoji {
+    font-size: 24px;
+  }
+  .courseTitle {
+    font-size: 16px;
+  }
+  .courseMetaRow {
+    font-size: 11px;
+    gap: 4px;
+  }
+  .courseActionBtn {
+    width: 32px;
+    height: 32px;
+  }
+  .statCard {
+    padding: 12px 8px;
+    border-radius: 14px;
+  }
+  .statVal {
+    font-size: 16px;
+  }
+  .statLabel {
+    font-size: 9.5px;
+  }
+  .bannerTitle {
+    font-size: 13px;
+  }
+  .bannerSub {
+    font-size: 11px;
+  }
+  .subBanner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px;
+  }
+  .subBannerLeft {
+    width: 100%;
   }
 }
 

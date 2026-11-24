@@ -4,11 +4,11 @@ import {
   LayoutDashboard, Users, CreditCard, 
   ShieldCheck, MessageSquare, BookOpen, 
   Edit3, UploadCloud, UsersRound, Settings, 
-  LogOut, Sparkles
+  LogOut, Sparkles, X
 } from 'lucide-react';
 import useAuthStore from '../store/authStore';
 
-const Sidebar = () => {
+const Sidebar = ({ isOpen, onClose }) => {
   const logout = useAuthStore(state => state.logout);
   const admin = useAuthStore(state => state.admin);
   const isSuper = admin?.isSuperAdmin || admin?.email?.toLowerCase() === 'mohd6396889713@gmail.com';
@@ -27,64 +27,83 @@ const Sidebar = () => {
   ];
 
   return (
-    <aside className="w-72 h-screen bg-slate-950 text-white flex flex-col fixed left-0 top-0 z-50 border-r border-white/5">
-      {/* Brand Header */}
-      <div className="p-6 border-b border-white/5">
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-gradient-to-tr from-indigo-600 to-sky-400 rounded-xl flex items-center justify-center font-black text-xl shadow-lg shadow-indigo-500/20">
-            S
-          </div>
-          <div>
-            <div className="flex items-center gap-1.5">
-              <h1 className="text-base font-black tracking-tight text-white">SAMU MCQs</h1>
-              <span className="px-1.5 py-0.5 bg-indigo-500/20 text-indigo-300 text-[10px] font-bold rounded">PRO</span>
+    <>
+      {/* Mobile/Tablet Backdrop */}
+      {isOpen && (
+        <div 
+          className="fixed inset-0 bg-black/60 backdrop-blur-xs z-40 lg:hidden"
+          onClick={onClose}
+          aria-hidden="true"
+        />
+      )}
+
+      <aside className={`w-72 h-screen bg-slate-950 text-white flex flex-col fixed left-0 top-0 z-50 border-r border-white/5 transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}`}>
+        {/* Brand Header */}
+        <div className="p-6 border-b border-white/5 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 bg-gradient-to-tr from-indigo-600 to-sky-400 rounded-xl flex items-center justify-center font-black text-xl shadow-lg shadow-indigo-500/20">
+              S
             </div>
-            <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest">
-              {isSuper ? 'Super Admin Portal' : 'Admin Control'}
-            </p>
+            <div>
+              <div className="flex items-center gap-1.5">
+                <h1 className="text-base font-black tracking-tight text-white">SAMU MCQs</h1>
+                <span className="px-1.5 py-0.5 bg-indigo-500/20 text-indigo-300 text-[10px] font-bold rounded">PRO</span>
+              </div>
+              <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest">
+                {isSuper ? 'Super Admin Portal' : 'Admin Control'}
+              </p>
+            </div>
           </div>
-        </div>
-      </div>
-
-      {/* Navigation */}
-      <nav className="flex-1 px-3 py-4 space-y-1 overflow-y-auto">
-        {navItems.map((item) => (
-          <NavLink
-            key={item.name}
-            to={item.path}
-            end={item.path === '/'}
-            className={({ isActive }) => `
-              flex items-center gap-3.5 px-4 py-3 rounded-xl text-sm font-semibold transition-all group
-              ${isActive 
-                ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30' 
-                : 'text-slate-400 hover:text-white hover:bg-white/5'}
-            `}
+          <button
+            onClick={onClose}
+            className="lg:hidden p-1.5 text-slate-400 hover:text-white rounded-lg hover:bg-white/10"
+            aria-label="Close sidebar"
           >
-            <item.icon size={19} className="group-hover:scale-110 transition-transform shrink-0" />
-            <span>{item.name}</span>
-          </NavLink>
-        ))}
-      </nav>
-
-      {/* Super Admin Badge & Logout Footer */}
-      <div className="p-4 border-t border-white/5 bg-slate-950/60">
-        <div className="mb-3 px-3 py-2 bg-white/5 rounded-xl border border-white/5 flex items-center justify-between">
-          <div className="overflow-hidden pr-2">
-            <p className="text-xs font-bold text-white truncate">{admin?.name || 'Sameer Ahmad'}</p>
-            <p className="text-[10px] text-indigo-400 font-semibold truncate">{admin?.email || 'mohd6396889713@gmail.com'}</p>
-          </div>
-          <span className="w-2 h-2 rounded-full bg-emerald-400 shadow-sm shadow-emerald-400 animate-pulse shrink-0" />
+            <X size={18} />
+          </button>
         </div>
 
-        <button 
-          onClick={logout}
-          className="flex items-center gap-3 w-full px-4 py-2.5 rounded-xl text-rose-400 hover:text-rose-300 hover:bg-rose-500/10 text-sm font-bold transition-all group"
-        >
-          <LogOut size={18} className="group-hover:-translate-x-1 transition-transform" />
-          <span>Exit / Sign Out</span>
-        </button>
-      </div>
-    </aside>
+        {/* Navigation */}
+        <nav className="flex-1 px-3 py-4 space-y-1 overflow-y-auto">
+          {navItems.map((item) => (
+            <NavLink
+              key={item.name}
+              to={item.path}
+              end={item.path === '/'}
+              onClick={onClose}
+              className={({ isActive }) => `
+                flex items-center gap-3.5 px-4 py-3 rounded-xl text-sm font-semibold transition-all group
+                ${isActive 
+                  ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/30' 
+                  : 'text-slate-400 hover:text-white hover:bg-white/5'}
+              `}
+            >
+              <item.icon size={19} className="group-hover:scale-110 transition-transform shrink-0" />
+              <span>{item.name}</span>
+            </NavLink>
+          ))}
+        </nav>
+
+        {/* Super Admin Badge & Logout Footer */}
+        <div className="p-4 border-t border-white/5 bg-slate-950/60">
+          <div className="mb-3 px-3 py-2 bg-white/5 rounded-xl border border-white/5 flex items-center justify-between">
+            <div className="overflow-hidden pr-2">
+              <p className="text-xs font-bold text-white truncate">{admin?.name || 'Sameer Ahmad'}</p>
+              <p className="text-[10px] text-indigo-400 font-semibold truncate">{admin?.email || 'mohd6396889713@gmail.com'}</p>
+            </div>
+            <span className="w-2 h-2 rounded-full bg-emerald-400 shadow-sm shadow-emerald-400 animate-pulse shrink-0" />
+          </div>
+
+          <button 
+            onClick={logout}
+            className="flex items-center gap-3 w-full px-4 py-2.5 rounded-xl text-rose-400 hover:text-rose-300 hover:bg-rose-500/10 text-sm font-bold transition-all group"
+          >
+            <LogOut size={18} className="group-hover:-translate-x-1 transition-transform" />
+            <span>Exit / Sign Out</span>
+          </button>
+        </div>
+      </aside>
+    </>
   );
 };
 
