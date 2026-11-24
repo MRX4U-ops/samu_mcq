@@ -674,13 +674,25 @@ export const adminService = {
   },
 
   async deleteCoupon(id) {
-    const { error } = await supabaseAdmin
-      .from('promo_codes')
-      .delete()
-      .eq('id', id);
+    try {
+      // 1. Unlink foreign key in payment_requests so student payment audit history remains intact
+      await supabaseAdmin
+        .from('payment_requests')
+        .update({ promo_code_id: null })
+        .eq('promo_code_id', id);
 
-    if (error) throw error;
-    return true;
+      // 2. Delete the promo code from promo_codes table
+      const { error } = await supabaseAdmin
+        .from('promo_codes')
+        .delete()
+        .eq('id', id);
+
+      if (error) throw error;
+      return true;
+    } catch (err) {
+      console.error('adminService.deleteCoupon error:', err);
+      throw err;
+    }
   }
 };
 

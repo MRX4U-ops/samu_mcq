@@ -175,6 +175,12 @@ export default function HomePage() {
   const [dailyGoal]             = useState({ done: 35, target: 50 });
   const [studyTime]             = useState({ done: 42, target: 60 });
 
+  // Coupons, Promo Running Line & Pop-up Modal State
+  const [activeCoupons, setActiveCoupons] = useState([]);
+  const [showPromoModal, setShowPromoModal] = useState(false);
+  const [showLoginNotification, setShowLoginNotification] = useState(false);
+  const [copiedCode, setCopiedCode] = useState(null);
+
   // Chatbot State
   const [isChatOpen, setIsChatOpen] = useState(false);
   const [chatInput, setChatInput] = useState('');
@@ -296,6 +302,64 @@ export default function HomePage() {
     return () => clearInterval(t);
   }, []);
 
+  /* Load active coupons for running line & pop-up modal */
+  useEffect(() => {
+    async function loadActiveCoupons() {
+      try {
+        const { data, error } = await supabase
+          .from('promo_codes')
+          .select('*')
+          .eq('is_active', true)
+          .order('created_at', { ascending: false });
+
+        if (!error && Array.isArray(data) && data.length > 0) {
+          const formatted = data.map(c => {
+            const val = parseFloat(c.discount_percentage) || 0;
+            const isDays = val < 0;
+            const days = isDays ? Math.round(Math.abs(val)) : null;
+            const is100 = val === 100;
+            const benefit = isDays 
+              ? `${days} Days Free Full Access` 
+              : (is100 ? '100% Free Full Access' : `${val}% Discount`);
+            return { ...c, benefit, isDays, days, is100, val };
+          });
+          setActiveCoupons(formatted);
+
+          const newest = formatted[0];
+          // Check if user dismissed pop-up modal for this coupon
+          const dismissedModal = localStorage.getItem('samu_dismissed_coupon_' + newest.code);
+          if (!dismissedModal) {
+            setShowPromoModal(true);
+          }
+
+          // Check if user dismissed notification toast
+          const dismissedToast = localStorage.getItem('samu_toast_dismissed_' + newest.code);
+          if (user && !dismissedToast) {
+            setShowLoginNotification(true);
+          }
+        }
+      } catch (err) {
+        console.error('Error fetching promo codes on HomePage:', err);
+      }
+    }
+    loadActiveCoupons();
+  }, [user]);
+
+  const handleCopyCouponCode = (code) => {
+    navigator.clipboard.writeText(code);
+    setCopiedCode(code);
+    setTimeout(() => setCopiedCode(null), 2500);
+  };
+
+  const handleDismissPromoModal = () => {
+    if (activeCoupons[0]?.code) {
+      localStorage.setItem('samu_dismissed_coupon_' + activeCoupons[0].code, 'true');
+    }
+    setShowPromoModal(false);
+  };
+
+  const latestCoupon = activeCoupons[0] || null;
+
   /* Streak calendar — last 7 days */
   const today = new Date();
   const weekDots = Array.from({ length: 7 }, (_, i) => {
@@ -317,6 +381,36 @@ export default function HomePage() {
     <div className={styles.page}>
       <Navbar />
       <div className={styles.container}>
+
+        {/* ═══ PROMO TICKER (RUNNING LINE) ═══════════════ */}
+        {activeCoupons.length > 0 && (
+          <div 
+            className={styles.runningTickerWrap}
+            onClick={() => navigate(`/subscribe?code=${activeCoupons[0].code}`)}
+            title="Click to redeem coupon code"
+          >
+            <div className={styles.tickerBadge}>
+              <Flame size={14} className={styles.tickerFlame} />
+              <span>LIVE OFFER</span>
+            </div>
+            <div className={styles.tickerTrack}>
+              <div className={styles.tickerContent}>
+                {activeCoupons.map((c, i) => (
+                  <span key={i} className={styles.tickerItem}>
+                    🎉 SPECIAL PROMO: Use code <span className={styles.tickerCode}>{c.code}</span> for <strong>{c.benefit}</strong>! (1-time use/account) • Click to Claim Now → &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </span>
+                ))}
+              </div>
+              <div className={styles.tickerContent} aria-hidden="true">
+                {activeCoupons.map((c, i) => (
+                  <span key={`dup-${i}`} className={styles.tickerItem}>
+                    🎉 SPECIAL PROMO: Use code <span className={styles.tickerCode}>{c.code}</span> for <strong>{c.benefit}</strong>! (1-time use/account) • Click to Claim Now → &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* ═══ SECTION 1 — HERO ══════════════════════════ */}
         <div className={styles.hero}>
@@ -829,6 +923,95 @@ export default function HomePage() {
               <Send size={16} />
             </button>
           </form>
+        </div>
+      )}
+
+      {/* ═══ PROMO POP-UP MODAL ══════════════════════ */}
+      {showPromoModal && latestCoupon && (
+        <div className={styles.modalOverlay} onClick={handleDismissPromoModal}>
+          <div className={styles.promoModalCard} onClick={e => e.stopPropagation()}>
+            <button className={styles.modalCloseBtn} onClick={handleDismissPromoModal} title="Close">
+              <X size={20} />
+            </button>
+
+            <div className={styles.promoModalIconBox}>
+              <Gift size={36} color="#0284C7" />
+            </div>
+
+            <span className={styles.promoModalTag}>🎉 SPECIAL PROMO OFFER</span>
+            <h2 className={styles.promoModalTitle}>Claim Your {latestCoupon.benefit}!</h2>
+            <p className={styles.promoModalSub}>
+              Special promotional offer for medical students! Unlock all 6 years curriculum, 8,000+ MCQs, clinical case tasks, and AI tutor.
+            </p>
+
+            <div className={styles.promoCodeBox}>
+              <span className={styles.promoCodeText}>{latestCoupon.code}</span>
+              <button 
+                type="button"
+                className={styles.promoCopyBtn}
+                onClick={() => handleCopyCouponCode(latestCoupon.code)}
+              >
+                {copiedCode === latestCoupon.code ? '✓ Copied!' : 'Copy Code'}
+              </button>
+            </div>
+            <div className={styles.promoRuleText}>
+              🔒 Valid for 1-time redemption per student account.
+            </div>
+
+            <div className={styles.promoModalActions}>
+              <button 
+                className={styles.promoClaimBtn}
+                onClick={() => {
+                  setShowPromoModal(false);
+                  navigate(`/subscribe?code=${latestCoupon.code}`);
+                }}
+              >
+                Redeem Coupon Now →
+              </button>
+              <button 
+                className={styles.promoDismissBtn}
+                onClick={handleDismissPromoModal}
+              >
+                Don't show again
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ═══ FLOATING NOTIFICATION TOAST (LOGGED-IN USERS) ════════ */}
+      {user && showLoginNotification && latestCoupon && (
+        <div className={styles.floatingNotification}>
+          <div className={styles.floatingNotifIcon}>
+            <Gift size={20} color="#0284C7" />
+          </div>
+          <div className={styles.floatingNotifContent}>
+            <div className={styles.floatingNotifTitle}>🎉 New Coupon Available!</div>
+            <div className={styles.floatingNotifDesc}>
+              Use code <strong>{latestCoupon.code}</strong> for {latestCoupon.benefit}! (1 use/account)
+            </div>
+            <div className={styles.floatingNotifBtns}>
+              <button 
+                className={styles.floatingNotifClaim}
+                onClick={() => {
+                  setShowLoginNotification(false);
+                  navigate(`/subscribe?code=${latestCoupon.code}`);
+                }}
+              >
+                Claim Now →
+              </button>
+            </div>
+          </div>
+          <button 
+            className={styles.floatingNotifClose}
+            onClick={() => {
+              setShowLoginNotification(false);
+              localStorage.setItem('samu_toast_dismissed_' + latestCoupon.code, 'true');
+            }}
+            title="Dismiss notification"
+          >
+            <X size={15} />
+          </button>
         </div>
       )}
 

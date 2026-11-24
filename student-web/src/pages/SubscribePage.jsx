@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { Link, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { supabase } from '../lib/supabase';
 import Navbar from '../components/Navbar';
@@ -29,11 +29,19 @@ const TESTIMONIALS = [
 
 export default function SubscribePage() {
   const { user, isSubscribed, subscription, refreshSubscription } = useAuth();
+  const [searchParams] = useSearchParams();
+  const urlCode = (searchParams.get('code') || '').trim();
 
-  const [couponCode, setCouponCode] = useState('');
+  const [couponCode, setCouponCode] = useState(urlCode);
   const [couponLoading, setCouponLoading] = useState(false);
   const [couponResult, setCouponResult] = useState(null); // { type: 'free' | 'discount', message, details }
   const [couponError, setCouponError] = useState(null);
+
+  useEffect(() => {
+    if (urlCode) {
+      setCouponCode(urlCode.toUpperCase());
+    }
+  }, [urlCode]);
 
   const handleApplyCoupon = async (e) => {
     e.preventDefault();
@@ -50,12 +58,40 @@ export default function SubscribePage() {
     const cleanCode = couponCode.trim().toUpperCase();
 
     try {
-      // 1. First validate via Supabase RPC directly
+      // 1. Check if user already used this coupon on this account (1 use per account)
+      if (user?.id) {
+        const { data: alreadyUsed } = await supabase
+          .from('payment_requests')
+          .select('id')
+          .eq('user_id', user.id)
+          .or(`payment_reference.ilike.%${cleanCode}%,transaction_id.ilike.%${cleanCode}%`)
+          .limit(1);
+
+        if (alreadyUsed && alreadyUsed.length > 0) {
+          throw new Error(`You have already redeemed coupon '${cleanCode}' on this account. Each coupon can only be used once per account!`);
+        }
+      }
+
+      // 2. Validate via Supabase RPC directly
       const { data: promoData, error: promoErr } = await supabase.rpc('validate_promo', { promo_code: cleanCode });
       if (promoErr) throw promoErr;
 
       if (!promoData || !promoData.valid) {
         throw new Error(promoData?.message || 'Invalid or expired coupon code.');
+      }
+
+      // Double-check with promoData.id if user already redeemed
+      if (user?.id && promoData.id) {
+        const { data: usedWithId } = await supabase
+          .from('payment_requests')
+          .select('id')
+          .eq('user_id', user.id)
+          .eq('promo_code_id', promoData.id)
+          .limit(1);
+
+        if (usedWithId && usedWithId.length > 0) {
+          throw new Error(`You have already redeemed coupon '${cleanCode}' on this account. Each coupon can only be used once per account!`);
+        }
       }
 
       const discountVal = parseFloat(promoData.discount_percentage);
@@ -182,6 +218,9 @@ export default function SubscribePage() {
               )}
             </button>
           </form>
+          <div style={{ marginTop: 8, fontSize: 12, color: '#64748B', fontWeight: 600 }}>
+            🔒 Note: Each coupon code can only be used once per account.
+          </div>
 
           {couponError && (
             <div className={styles.couponErrorBox}>

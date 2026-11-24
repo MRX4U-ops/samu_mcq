@@ -175,6 +175,20 @@ router.post('/claim-free-promo', protect, async (req, res) => {
       grantDays = Math.round(Math.abs(discountVal));
     }
 
+    // ENFORCE 1 TIME USE PER ACCOUNT
+    const { data: alreadyUsed } = await supabaseAdmin
+      .from('payment_requests')
+      .select('id')
+      .eq('user_id', userId)
+      .or(`promo_code_id.eq.${promoData.id},payment_reference.ilike.%${promoCode}%,transaction_id.ilike.%${promoCode}%`)
+      .limit(1);
+
+    if (alreadyUsed && alreadyUsed.length > 0) {
+      return res.status(400).json({ 
+        error: `You have already redeemed coupon '${promoCode}' on this account. Each coupon code can only be used once per account!` 
+      });
+    }
+
     // Check existing active subscription to extend it
     const { data: activeSub } = await supabaseAdmin
       .from('subscriptions')

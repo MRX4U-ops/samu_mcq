@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import { BookOpen, Bell, LogOut, Shield, Menu, X, ChevronRight } from 'lucide-react';
+import { supabase } from '../lib/supabase';
+import { BookOpen, Bell, LogOut, Shield, Menu, X, ChevronRight, Gift, Sparkles, Check } from 'lucide-react';
 import styles from './Navbar.module.css';
 
 const NAV_LINKS = [
@@ -21,10 +22,71 @@ export default function Navbar() {
   const navigate = useNavigate();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  // Close mobile drawer whenever location changes
+  // Notification State
+  const [showNotifications, setShowNotifications] = useState(false);
+  const [unreadCount, setUnreadCount] = useState(0);
+  const [activePromo, setActivePromo] = useState(null);
+  const notifRef = useRef(null);
+
+  // Close mobile drawer and notifications whenever location changes
   useEffect(() => {
     setMobileMenuOpen(false);
+    setShowNotifications(false);
   }, [location.pathname]);
+
+  // Close notification popover on outside click
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (notifRef.current && !notifRef.current.contains(event.target)) {
+        setShowNotifications(false);
+      }
+    }
+    if (showNotifications) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [showNotifications]);
+
+  // Fetch active coupon for notification alert
+  useEffect(() => {
+    if (!user) return;
+    async function checkNotifications() {
+      try {
+        const { data } = await supabase
+          .from('promo_codes')
+          .select('*')
+          .eq('is_active', true)
+          .order('created_at', { ascending: false })
+          .limit(1);
+
+        if (data && data.length > 0) {
+          const promo = data[0];
+          const val = parseFloat(promo.discount_percentage) || 0;
+          const isDays = val < 0;
+          const benefit = isDays 
+            ? `${Math.round(Math.abs(val))} Days Free Access` 
+            : (val === 100 ? '100% Free Full Access' : `${val}% Discount`);
+          
+          setActivePromo({ ...promo, benefit });
+
+          const isRead = localStorage.getItem('samu_read_promo_' + promo.code);
+          if (!isRead) {
+            setUnreadCount(1);
+          }
+        }
+      } catch (e) {
+        console.error('Navbar notification load error:', e);
+      }
+    }
+    checkNotifications();
+  }, [user]);
+
+  const handleMarkAllRead = () => {
+    if (activePromo?.code) {
+      localStorage.setItem('samu_read_promo_' + activePromo.code, 'true');
+    }
+    setUnreadCount(0);
+  };
 
   const isSuper = isSuperAdmin || user?.email?.toLowerCase() === 'mohd6396889713@gmail.com' || profile?.role === 'admin';
   const displayName = profile?.name || (isSuper ? 'Sameer Ahmad' : (profile?.full_name || user?.email || 'M'));
@@ -89,10 +151,85 @@ export default function Navbar() {
                   <span className={styles.adminNavText}>Admin Panel</span>
                 </Link>
               )}
-              <button className={styles.bellBtn} title="Notifications">
-                <Bell size={18} />
-                <span className={styles.bellDot} />
-              </button>
+              {/* Notifications Popover */}
+              <div className={styles.bellWrap} ref={notifRef}>
+                <button 
+                  className={styles.bellBtn} 
+                  title="Notifications"
+                  onClick={() => setShowNotifications(prev => !prev)}
+                >
+                  <Bell size={18} />
+                  {unreadCount > 0 && <span className={styles.bellDot} />}
+                </button>
+
+                {showNotifications && (
+                  <div className={styles.notificationDropdown}>
+                    <div className={styles.notifHeader}>
+                      <div className={styles.notifTitleBox}>
+                        <h4 className={styles.notifTitle}>Notifications</h4>
+                        {unreadCount > 0 && (
+                          <span className={styles.notifBadge}>{unreadCount} New</span>
+                        )}
+                      </div>
+                      {unreadCount > 0 && (
+                        <button onClick={handleMarkAllRead} className={styles.notifMarkAllBtn}>
+                          <Check size={12} /> Mark read
+                        </button>
+                      )}
+                    </div>
+
+                    <div className={styles.notifList}>
+                      {activePromo && (
+                        <div className={`${styles.notifItem} ${unreadCount > 0 ? styles.notifItemUnread : ''}`}>
+                          <div className={styles.notifIconBox}>
+                            <Gift size={18} color="#0284C7" />
+                          </div>
+                          <div className={styles.notifContent}>
+                            <div className={styles.notifItemHeader}>
+                              <span className={styles.notifItemTag}>SPECIAL OFFER</span>
+                              <span className={styles.notifTime}>Active</span>
+                            </div>
+                            <div className={styles.notifItemTitle}>
+                              New Coupon Code: <strong>{activePromo.code}</strong>
+                            </div>
+                            <div className={styles.notifItemBody}>
+                              Use code <strong>{activePromo.code}</strong> on Plans page to get <strong>{activePromo.benefit}</strong>! (1 use/account)
+                            </div>
+                            <Link 
+                              to={`/subscribe?code=${activePromo.code}`} 
+                              onClick={() => {
+                                handleMarkAllRead();
+                                setShowNotifications(false);
+                              }}
+                              className={styles.notifActionBtn}
+                            >
+                              Redeem Coupon →
+                            </Link>
+                          </div>
+                        </div>
+                      )}
+
+                      <div className={styles.notifItem}>
+                        <div className={styles.notifIconBoxGray}>
+                          <Sparkles size={16} color="#475569" />
+                        </div>
+                        <div className={styles.notifContent}>
+                          <div className={styles.notifItemHeader}>
+                            <span className={styles.notifItemTagInfo}>STUDY TIP</span>
+                            <span className={styles.notifTime}>Today</span>
+                          </div>
+                          <div className={styles.notifItemTitle}>
+                            Keep up your study streak!
+                          </div>
+                          <div className={styles.notifItemBody}>
+                            Complete 10 test MCQs today to maintain your daily streak and earn points.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
               <Link to="/profile" className={styles.avatarBtn} title="View Profile">
                 {initial}
               </Link>
