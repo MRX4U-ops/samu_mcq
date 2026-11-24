@@ -157,9 +157,13 @@ const BulkUpload = () => {
           <select
             className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-bold"
             value={selectedCourse?.id || ''}
-            onChange={(e) => setSelectedCourse(courses.find(c => c.id == e.target.value))}
+            onChange={(e) => {
+              const c = courses.find(item => item.id === e.target.value);
+              setSelectedCourse(c || null);
+            }}
           >
-            {courses.map(c => <option key={c.id} value={c.id}>{c.title}</option>)}
+            <option value="">-- Choose Course --</option>
+            {courses.map(c => <option key={c.id} value={c.id}>{c.title || c.name}</option>)}
           </select>
         </div>
 
@@ -168,9 +172,13 @@ const BulkUpload = () => {
           <select
             className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-bold"
             value={selectedSubject?.id || ''}
-            onChange={(e) => setSelectedSubject(selectedCourse?.subjects?.find(s => s.id == e.target.value))}
+            onChange={(e) => {
+              const s = selectedCourse?.subjects?.find(item => item.id === e.target.value);
+              setSelectedSubject(s || null);
+            }}
           >
-            {(selectedCourse?.subjects || []).map(s => <option key={s.id} value={s.id}>{s.title}</option>)}
+            <option value="">-- Choose Subject --</option>
+            {(selectedCourse?.subjects || []).map(s => <option key={s.id} value={s.id}>{s.title || s.name}</option>)}
           </select>
         </div>
 
@@ -179,9 +187,13 @@ const BulkUpload = () => {
           <select
             className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-bold"
             value={selectedTopic?.id || ''}
-            onChange={(e) => setSelectedTopic(selectedSubject?.topics?.find(t => t.id == e.target.value))}
+            onChange={(e) => {
+              const t = selectedSubject?.topics?.find(item => item.id === e.target.value);
+              setSelectedTopic(t || null);
+            }}
           >
-            {(selectedSubject?.topics || []).map(t => <option key={t.id} value={t.id}>{t.title}</option>)}
+            <option value="">-- Choose Topic --</option>
+            {(selectedSubject?.topics || []).map(t => <option key={t.id} value={t.id}>{t.title || t.name}</option>)}
           </select>
         </div>
 

@@ -349,12 +349,11 @@ export const adminService = {
     }
   },
 
-  async updatePaymentRequest(requestId, { status, adminNotes }) {
+  async updatePaymentRequest(requestId, { status }) {
     const { data: request, error: rErr } = await supabaseAdmin
       .from('payment_requests')
       .update({
         status,
-        admin_notes: adminNotes,
         updated_at: new Date().toISOString()
       })
       .eq('id', requestId)
@@ -378,15 +377,16 @@ export const adminService = {
   },
 
   async recordManualPayment({ userId, amount = 49, transactionId = '', validityDays = 90 }) {
+    const ref = `MANUAL-${Date.now()}`;
     const { data: request, error: rErr } = await supabaseAdmin
       .from('payment_requests')
       .insert([{
         user_id: userId,
         amount: Number(amount) || 49,
-        transaction_id: transactionId || `MANUAL-${Date.now()}`,
+        transaction_id: transactionId || ref,
+        payment_reference: ref,
         status: 'approved',
-        admin_notes: 'Manual payment entered by super admin',
-        payment_method: 'Manual / Direct'
+        updated_at: new Date().toISOString()
       }])
       .select()
       .single();
@@ -401,15 +401,16 @@ export const adminService = {
   // ── 6. Academic Hierarchy (Courses, Subjects, Topics) ──
   async getFullAcademicHierarchy() {
     try {
-      const [coursesRes, subjectsRes, topicsRes] = await Promise.all([
+      const [coursesRes, subjectsRes, topicsP1, topicsP2] = await Promise.all([
         supabaseAdmin.from('courses').select('*').order('created_at', { ascending: true }),
         supabaseAdmin.from('subjects').select('*').order('created_at', { ascending: true }),
-        supabaseAdmin.from('topics').select('*').order('created_at', { ascending: true })
+        supabaseAdmin.from('topics').select('*').range(0, 999).order('created_at', { ascending: true }),
+        supabaseAdmin.from('topics').select('*').range(1000, 2499).order('created_at', { ascending: true })
       ]);
 
       const courses = coursesRes.data || [];
       const subjects = subjectsRes.data || [];
-      const topics = topicsRes.data || [];
+      const topics = [...(topicsP1.data || []), ...(topicsP2.data || [])];
 
       const topicsBySub = {};
       topics.forEach(t => {
@@ -465,12 +466,21 @@ export const adminService = {
   },
 
   // ── 7. MCQs Live Management ──
-  async getMcqs(topicId) {
+  async getMcqs(topicId, taskType) {
     let query = supabaseAdmin.from('mcqs').select('*').order('created_at', { ascending: true });
-    if (topicId) {
+    if (Array.isArray(topicId)) {
+      if (topicId.length > 0) {
+        query = query.in('topic_id', topicId);
+      } else {
+        return [];
+      }
+    } else if (topicId && topicId !== 'all') {
       query = query.eq('topic_id', topicId);
     }
-    const { data, error } = await query.limit(500);
+    if (taskType) {
+      query = query.eq('task_type', taskType);
+    }
+    const { data, error } = await query.limit(1000);
     if (error) throw error;
     return data || [];
   },

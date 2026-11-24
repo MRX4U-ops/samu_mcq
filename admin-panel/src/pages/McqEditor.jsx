@@ -10,8 +10,9 @@ const McqEditor = () => {
   const [courses, setCourses] = useState([]);
   const [selectedCourse, setSelectedCourse] = useState(null);
   const [selectedSubject, setSelectedSubject] = useState(null);
-  const [selectedTopic, setSelectedTopic] = useState(null);
-  const [taskType, setTaskType] = useState('test_question'); // test_question, situational_task
+  const [selectedTopic, setSelectedTopic] = useState('all'); // 'all' or topic object
+  const [taskType, setTaskType] = useState('all'); // all, test_question, situational_task
+  const [hierarchyLoading, setHierarchyLoading] = useState(true);
 
   const [mcqs, setMcqs] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -34,48 +35,67 @@ const McqEditor = () => {
   useEffect(() => {
     const loadCourses = async () => {
       try {
+        setHierarchyLoading(true);
         const data = await adminService.getFullAcademicHierarchy();
         if (Array.isArray(data) && data.length > 0) {
           setCourses(data);
-          setSelectedCourse(data[0]);
+          // Find first course & subject with questions, e.g. "Medical chemistry" or first available
+          let defaultCourse = data[0];
+          let defaultSub = defaultCourse.subjects?.[0] || null;
+          for (const c of data) {
+            const found = c.subjects?.find(s => 
+              s.title?.toLowerCase().includes('chemistry') || 
+              s.title?.toLowerCase().includes('biochemistry') || 
+              s.title?.toLowerCase().includes('anatomy') ||
+              s.title?.toLowerCase().includes('biology')
+            );
+            if (found) {
+              defaultCourse = c;
+              defaultSub = found;
+              break;
+            }
+          }
+          setSelectedCourse(defaultCourse);
+          setSelectedSubject(defaultSub);
+          setSelectedTopic('all');
         }
       } catch (err) {
         console.error('Failed to load courses:', err);
+      } finally {
+        setHierarchyLoading(false);
       }
     };
     loadCourses();
   }, []);
 
-  // When course changes, pick first subject
+  // When subject changes, reset topic to 'all'
   useEffect(() => {
-    if (selectedCourse?.subjects?.length > 0) {
-      setSelectedSubject(selectedCourse.subjects[0]);
-    } else {
-      setSelectedSubject(null);
-    }
-  }, [selectedCourse]);
-
-  // When subject changes, pick first topic
-  useEffect(() => {
-    if (selectedSubject?.topics?.length > 0) {
-      setSelectedTopic(selectedSubject.topics[0]);
-    } else {
-      setSelectedTopic(null);
+    if (selectedSubject) {
+      setSelectedTopic('all');
     }
   }, [selectedSubject]);
 
-  // When topic or taskType changes, fetch MCQs
+  // When topic, subject, or taskType changes, fetch MCQs
   useEffect(() => {
-    if (selectedTopic) {
+    if (selectedSubject) {
       fetchMcqs();
     }
-  }, [selectedTopic, taskType]);
+  }, [selectedSubject, selectedTopic, taskType]);
 
   const fetchMcqs = async () => {
-    if (!selectedTopic) return;
+    if (!selectedSubject) return;
     try {
       setLoading(true);
-      const data = await adminService.getMcqs(selectedTopic.id);
+      let targetTopicId;
+      if (selectedTopic === 'all') {
+        targetTopicId = (selectedSubject.topics || []).map(t => t.id);
+      } else if (selectedTopic?.id) {
+        targetTopicId = selectedTopic.id;
+      } else {
+        setMcqs([]);
+        return;
+      }
+      const data = await adminService.getMcqs(targetTopicId, taskType === 'all' ? null : taskType);
       setMcqs(data || []);
     } catch (err) {
       console.error('Failed to fetch MCQs:', err);
@@ -118,9 +138,14 @@ const McqEditor = () => {
   // Save (Create or Update)
   const handleSaveMcq = async (e) => {
     e.preventDefault();
-    if (!selectedTopic) return;
+    const targetTopic = selectedTopic === 'all' ? selectedSubject?.topics?.[0] : selectedTopic;
+    if (!targetTopic?.id && !editingMcq) {
+      showToast('Please select a topic to add this question to.', 'error');
+      return;
+    }
     setActionLoading(true);
     try {
+      const typeToSave = taskType === 'all' ? 'test_question' : taskType;
       if (editingMcq) {
         // Update
         const updated = await adminService.saveMcq({
@@ -129,21 +154,21 @@ const McqEditor = () => {
           options: formData.options,
           correct_index: formData.correctIndex,
           explanation: formData.explanation,
-          task_type: taskType
+          task_type: typeToSave
         });
         setMcqs(mcqs.map(m => m.id === editingMcq.id ? updated : m));
         showToast('MCQ updated live in database!');
       } else {
         // Create
         const created = await adminService.saveMcq({
-          topic_id: selectedTopic.id,
+          topic_id: targetTopic.id,
           question: formData.question,
           options: formData.options,
           correct_index: formData.correctIndex,
           explanation: formData.explanation,
-          task_type: taskType
+          task_type: typeToSave
         });
-        setMcqs([...mcqs, created]);
+        setMcqs([created, ...mcqs]);
         showToast('New MCQ created live!');
       }
       setShowEditModal(false);
@@ -207,68 +232,93 @@ const McqEditor = () => {
 
       {/* Navigation Cascade: Course -> Subject -> Topic */}
       <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-xs space-y-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {/* 1. Course Picker */}
-          <div>
-            <label className="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1.5">
-              1. Select Course
-            </label>
-            <select
-              className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-bold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              value={selectedCourse?.id || ''}
-              onChange={(e) => {
-                const c = courses.find(item => item.id == e.target.value);
-                setSelectedCourse(c);
-              }}
-            >
-              {courses.map(c => (
-                <option key={c.id} value={c.id}>{c.title}</option>
-              ))}
-            </select>
+        {hierarchyLoading ? (
+          <div className="p-4 flex items-center justify-center gap-2 text-xs font-bold text-slate-500">
+            <Loader2 className="animate-spin text-indigo-600" size={16} />
+            <span>Loading academic curriculum (Courses, Subjects, Topics)...</span>
           </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {/* 1. Course Picker */}
+            <div>
+              <label className="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1.5">
+                1. Select Course
+              </label>
+              <select
+                className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-bold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                value={selectedCourse?.id || ''}
+                onChange={(e) => {
+                  const c = courses.find(item => item.id === e.target.value);
+                  setSelectedCourse(c || null);
+                  setSelectedSubject(c?.subjects?.[0] || null);
+                }}
+              >
+                <option value="">-- Choose Course --</option>
+                {courses.map(c => (
+                  <option key={c.id} value={c.id}>{c.title || c.name}</option>
+                ))}
+              </select>
+            </div>
 
-          {/* 2. Subject Picker */}
-          <div>
-            <label className="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1.5">
-              2. Select Subject
-            </label>
-            <select
-              className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-bold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              value={selectedSubject?.id || ''}
-              onChange={(e) => {
-                const s = selectedCourse?.subjects?.find(item => item.id == e.target.value);
-                setSelectedSubject(s);
-              }}
-            >
-              {(selectedCourse?.subjects || []).map(s => (
-                <option key={s.id} value={s.id}>{s.title}</option>
-              ))}
-            </select>
+            {/* 2. Subject Picker */}
+            <div>
+              <label className="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1.5">
+                2. Select Subject ({(selectedCourse?.subjects || []).length} available)
+              </label>
+              <select
+                className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-bold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                value={selectedSubject?.id || ''}
+                onChange={(e) => {
+                  const s = selectedCourse?.subjects?.find(item => item.id === e.target.value);
+                  setSelectedSubject(s || null);
+                }}
+              >
+                <option value="">-- Choose Subject --</option>
+                {(selectedCourse?.subjects || []).map(s => (
+                  <option key={s.id} value={s.id}>{s.title || s.name}</option>
+                ))}
+              </select>
+            </div>
+
+            {/* 3. Topic Picker */}
+            <div>
+              <label className="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1.5">
+                3. Select Topic
+              </label>
+              <select
+                className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-bold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                value={selectedTopic === 'all' ? 'all' : (selectedTopic?.id || '')}
+                onChange={(e) => {
+                  if (e.target.value === 'all') {
+                    setSelectedTopic('all');
+                  } else {
+                    const t = selectedSubject?.topics?.find(item => item.id === e.target.value);
+                    setSelectedTopic(t || null);
+                  }
+                }}
+              >
+                <option value="all">★ All Topics in this Subject ({(selectedSubject?.topics || []).length} Topics)</option>
+                {(selectedSubject?.topics || []).map(t => (
+                  <option key={t.id} value={t.id}>{t.title || t.name}</option>
+                ))}
+              </select>
+            </div>
           </div>
+        )}
 
-          {/* 3. Topic Picker */}
-          <div>
-            <label className="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1.5">
-              3. Select Topic
-            </label>
-            <select
-              className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs font-bold text-slate-800 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              value={selectedTopic?.id || ''}
-              onChange={(e) => {
-                const t = selectedSubject?.topics?.find(item => item.id == e.target.value);
-                setSelectedTopic(t);
-              }}
-            >
-              {(selectedSubject?.topics || []).map(t => (
-                <option key={t.id} value={t.id}>{t.title}</option>
-              ))}
-            </select>
-          </div>
-        </div>
-
-        {/* Task Type Switcher */}
-        <div className="flex items-center justify-between pt-3 border-t border-slate-100">
+        {/* Task Type Switcher & Search */}
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-3 border-t border-slate-100">
           <div className="flex items-center gap-2">
+            <button
+              onClick={() => setTaskType('all')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+                taskType === 'all' 
+                  ? 'bg-indigo-600 text-white shadow-xs' 
+                  : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+              }`}
+            >
+              All Questions ({mcqs.length})
+            </button>
             <button
               onClick={() => setTaskType('test_question')}
               className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
@@ -291,11 +341,11 @@ const McqEditor = () => {
             </button>
           </div>
 
-          <div className="relative w-64">
+          <div className="relative w-full sm:w-64">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={14} />
             <input
               type="text"
-              placeholder="Search in topic questions..."
+              placeholder="Search in questions..."
               className="w-full pl-9 pr-3 py-1.5 bg-slate-50 border border-slate-200 rounded-lg text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
