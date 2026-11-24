@@ -16,27 +16,21 @@ const useAuthStore = create((set, get) => ({
 
   // Initialize session and listeners
   initialize: async () => {
-    set({ loading: true });
     try {
-      const { data: { session }, error } = await supabase.auth.getSession();
-      if (error) throw error;
+      const sessionPromise = supabase.auth.getSession();
+      const timeoutPromise = new Promise((resolve) => 
+        setTimeout(() => resolve({ data: { session: null } }), 1500)
+      );
+      const res = await Promise.race([sessionPromise, timeoutPromise]).catch(() => ({ data: { session: null } }));
+      const session = res?.data?.session;
 
-      if (session) {
-        // Parallelize fetching profile and subscription for faster startup
-        const [profileRes, subRes] = await Promise.all([
-          get().fetchProfile(session.user.id),
-          get().checkSubscription(session.user.id)
-        ]);
-
-        const profile = profileRes.data;
-        if (profile?.status === 'blocked') {
-          await get().signOut();
-          set({ loading: false });
-          return;
-        }
+      if (session?.user) {
+        set({ session, user: session.user });
+        get().fetchProfile(session.user.id).catch(() => {});
+        get().checkSubscription(session.user.id).catch(() => {});
+      } else {
+        set({ session: null, user: null });
       }
-
-      set({ session, user: session?.user || null, loading: false });
 
       // Listen for auth changes
       supabase.auth.onAuthStateChange(async (event, session) => {
@@ -53,7 +47,9 @@ const useAuthStore = create((set, get) => ({
         }
       });
     } catch (error) {
-      set({ error: error.message, loading: false });
+      console.log('Auth init error:', error);
+    } finally {
+      set({ loading: false });
     }
   },
 

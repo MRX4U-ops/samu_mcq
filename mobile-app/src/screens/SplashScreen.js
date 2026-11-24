@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, Image, ActivityIndicator, Dimensions } from 'react-native';
+import useAuthStore from '../store/authStore';
 
 const { width } = Dimensions.get('window');
 
@@ -13,11 +14,17 @@ const SplashScreen = ({ navigation }) => {
       let navigated = false;
 
       const goToLogin = () => {
-        if (!navigated && isMounted && navigation) {
+        if (!navigated && isMounted) {
           navigated = true;
-          navigation.replace('Login');
+          useAuthStore.setState({ loading: false });
+          if (navigation && typeof navigation.replace === 'function') {
+            navigation.replace('Login');
+          }
         }
       };
+
+      // Failsafe timer: dismiss splash after 1.5 seconds maximum
+      const fallbackTimer = setTimeout(goToLogin, 1500);
 
       try {
         // FAIL-SAFE: Check if Updates module exists before using it
@@ -29,37 +36,21 @@ const SplashScreen = ({ navigation }) => {
         }
 
         if (Updates && !__DEV__) {
-          setUpdateStatus('Checking for new updates...');
+          setUpdateStatus('Checking for updates...');
           const update = await Updates.checkForUpdateAsync();
 
           if (update.isAvailable) {
-            setUpdateStatus('New update found! Downloading...');
+            setUpdateStatus('Applying update...');
             await Updates.fetchUpdateAsync();
-            setUpdateStatus('Applying update, please wait...');
-            
-            try {
-              const { sendLocalNotification } = require('../services/notificationService');
-              await sendLocalNotification(
-                'Update Successful ✨', 
-                'SAMU MCQs has just been updated to the latest version!'
-              );
-            } catch (e) {
-              console.log('Failed to send update notification:', e);
-            }
-
-            // reloadAsync will restart the app — no need to navigate
             await Updates.reloadAsync();
-            return; // App will restart; nothing below runs
+            return;
           }
         }
 
-        // No update available or skipped — proceed normally
-        setUpdateStatus('Up to date! Loading app...');
-        setTimeout(goToLogin, 1000);
+        setTimeout(goToLogin, 800);
       } catch (error) {
         console.log(`Update check error: ${error.message}`);
-        setUpdateStatus('Loading app...');
-        setTimeout(goToLogin, 1000);
+        setTimeout(goToLogin, 500);
       }
     }
 
