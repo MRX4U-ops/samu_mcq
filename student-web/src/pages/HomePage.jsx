@@ -14,15 +14,94 @@ import {
 import styles from './HomePage.module.css';
 
 /* ── Constants ───────────────────────────────────────── */
-const COURSE_COLORS = [
-  'linear-gradient(135deg,#0F4C75,#1A6FA8)',
-  'linear-gradient(135deg,#0284C7,#38BDF8)',
-  'linear-gradient(135deg,#047857,#10B981)',
-  'linear-gradient(135deg,#B45309,#F59E0B)',
-  'linear-gradient(135deg,#BE123C,#F43F5E)',
-  'linear-gradient(135deg,#0E7490,#06B6D4)',
+const COURSE_THEMES = [
+  {
+    num: '1',
+    year: 'YEAR 1',
+    subtitle: 'Pre-Clinical & Anatomy',
+    icon: '🫀',
+    gradient: 'linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%)',
+    bgGradient: 'linear-gradient(135deg, #F0F7FF 0%, #FFFFFF 100%)',
+    borderColor: '#BFDBFE',
+    hoverBorder: '#2563EB',
+    glowColor: 'rgba(37, 99, 235, 0.25)',
+    accent: '#2563EB',
+    pillBg: '#DBEAFE',
+    pillText: '#1E40AF',
+  },
+  {
+    num: '2',
+    year: 'YEAR 2',
+    subtitle: 'Physiology & Histology',
+    icon: '🔬',
+    gradient: 'linear-gradient(135deg, #0369A1 0%, #0284C7 50%, #38BDF8 100%)',
+    bgGradient: 'linear-gradient(135deg, #F0F9FF 0%, #FFFFFF 100%)',
+    borderColor: '#BAE6FD',
+    hoverBorder: '#0284C7',
+    glowColor: 'rgba(2, 132, 199, 0.25)',
+    accent: '#0284C7',
+    pillBg: '#E0F2FE',
+    pillText: '#0369A1',
+  },
+  {
+    num: '3',
+    year: 'YEAR 3',
+    subtitle: 'Pathology & Pharmacology',
+    icon: '🦴',
+    gradient: 'linear-gradient(135deg, #047857 0%, #059669 50%, #10B981 100%)',
+    bgGradient: 'linear-gradient(135deg, #F0FDF4 0%, #FFFFFF 100%)',
+    borderColor: '#BBF7D0',
+    hoverBorder: '#059669',
+    glowColor: 'rgba(5, 150, 105, 0.25)',
+    accent: '#059669',
+    pillBg: '#DCFCE7',
+    pillText: '#166534',
+  },
+  {
+    num: '4',
+    year: 'YEAR 4',
+    subtitle: 'Internal Medicine & Surgery I',
+    icon: '💊',
+    gradient: 'linear-gradient(135deg, #B45309 0%, #D97706 50%, #F59E0B 100%)',
+    bgGradient: 'linear-gradient(135deg, #FFFBEB 0%, #FFFFFF 100%)',
+    borderColor: '#FDE68A',
+    hoverBorder: '#D97706',
+    glowColor: 'rgba(217, 119, 6, 0.25)',
+    accent: '#D97706',
+    pillBg: '#FEF3C7',
+    pillText: '#92400E',
+  },
+  {
+    num: '5',
+    year: 'YEAR 5',
+    subtitle: 'Specialties, Pediatrics & OB-GYN',
+    icon: '🧠',
+    gradient: 'linear-gradient(135deg, #BE123C 0%, #E11D48 50%, #F43F5E 100%)',
+    bgGradient: 'linear-gradient(135deg, #FFF1F2 0%, #FFFFFF 100%)',
+    borderColor: '#FECDD3',
+    hoverBorder: '#E11D48',
+    glowColor: 'rgba(225, 29, 72, 0.25)',
+    accent: '#E11D48',
+    pillBg: '#FFE4E6',
+    pillText: '#9F1239',
+  },
+  {
+    num: '6',
+    year: 'YEAR 6',
+    subtitle: 'Clinical Practice & State Licensing',
+    icon: '🦠',
+    gradient: 'linear-gradient(135deg, #6D28D9 0%, #7C3AED 50%, #8B5CF6 100%)',
+    bgGradient: 'linear-gradient(135deg, #F5F3FF 0%, #FFFFFF 100%)',
+    borderColor: '#DDD6FE',
+    hoverBorder: '#7C3AED',
+    glowColor: 'rgba(124, 58, 237, 0.25)',
+    accent: '#7C3AED',
+    pillBg: '#EDE9FE',
+    pillText: '#5B21B6',
+  },
 ];
-const COURSE_ICONS = ['🫀','🔬','🦴','💊','🧠','🦠'];
+const COURSE_COLORS = COURSE_THEMES.map(t => t.gradient);
+const COURSE_ICONS = COURSE_THEMES.map(t => t.icon);
 const DEFAULT_COURSES = [
   { id:'1', title:'1st Course', num:'1', subjectCount:21 },
   { id:'2', title:'2nd Course', num:'2', subjectCount:24 },
@@ -408,21 +487,60 @@ export default function HomePage() {
           <div className={styles.warnBanner}>⚠️ Subscription expires in <strong>{daysLeft} day{daysLeft !== 1 ? 's' : ''}</strong></div>
         )}
         <div className={styles.coursesGrid}>
-          {courses.map((c, i) => (
-            <button key={c.id} className={styles.courseCard} onClick={() => handleCourseClick(c)}>
-              <div className={styles.courseGrad} style={{ background: COURSE_COLORS[i % COURSE_COLORS.length] }}>
-                <span className={styles.courseEmoji}>{COURSE_ICONS[i]}</span>
-                {isSubscribed
-                  ? <Unlock size={14} color="rgba(255,255,255,0.7)" />
-                  : <Lock size={14} color="rgba(255,255,255,0.5)" />}
-              </div>
-              <div className={styles.courseInfo}>
-                <div className={styles.courseTitle}>{c.title}</div>
-                <div className={styles.courseMeta}>{c.subjectCount} subjects</div>
-              </div>
-              <ChevronRight size={16} className={styles.courseChev} />
-            </button>
-          ))}
+          {courses.map((c, i) => {
+            const theme = COURSE_THEMES[i % COURSE_THEMES.length];
+            return (
+              <button
+                key={c.id}
+                className={styles.courseCard}
+                onClick={() => handleCourseClick(c)}
+                style={{
+                  '--course-accent': theme.accent,
+                  '--course-border': theme.borderColor,
+                  '--course-border-hover': theme.hoverBorder,
+                  '--course-glow': theme.glowColor,
+                  '--course-bg': theme.bgGradient,
+                }}
+              >
+                <div className={styles.courseCardShine} />
+                
+                <div className={styles.courseIconBox} style={{ background: theme.gradient, boxShadow: `0 8px 20px -3px ${theme.glowColor}` }}>
+                  <span className={styles.courseEmoji}>{theme.icon}</span>
+                  <div className={styles.courseLockBadge}>
+                    {isSubscribed
+                      ? <Unlock size={10} color="#FFFFFF" strokeWidth={2.8} />
+                      : <Lock size={10} color="rgba(255,255,255,0.9)" strokeWidth={2.8} />}
+                  </div>
+                </div>
+
+                <div className={styles.courseInfo}>
+                  <div className={styles.courseHeaderRow}>
+                    <span className={styles.courseYearTag} style={{ background: theme.pillBg, color: theme.pillText }}>
+                      {theme.year}
+                    </span>
+                    <span className={styles.courseAccessBadge} style={{ color: isSubscribed ? '#059669' : '#64748B' }}>
+                      {isSubscribed ? '✓ Full Access' : '🔒 Locked'}
+                    </span>
+                  </div>
+                  <div className={styles.courseTitle}>{c.title}</div>
+                  <div className={styles.courseMetaRow}>
+                    <span className={styles.courseMetaCount}>
+                      <BookOpen size={13} strokeWidth={2.2} />
+                      {c.subjectCount} Subjects
+                    </span>
+                    <span className={styles.courseDot}>•</span>
+                    <span className={styles.courseSubtitle}>{theme.subtitle}</span>
+                  </div>
+                </div>
+
+                <div className={styles.courseActionWrap}>
+                  <div className={styles.courseActionBtn}>
+                    <ChevronRight size={17} strokeWidth={2.4} />
+                  </div>
+                </div>
+              </button>
+            );
+          })}
         </div>
 
         {/* ═══ AI INSIGHTS ════════════════════════════════ */}
