@@ -99,13 +99,14 @@ const Subscriptions = () => {
   };
 
   const filteredSubs = subscriptions.filter(s => {
-    const matchesSearch = 
-      (s.profiles?.name || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
-      (s.profiles?.email || '').toLowerCase().includes(searchTerm.toLowerCase());
+    const studentName = (s.user?.name || s.profiles?.name || '').toLowerCase();
+    const studentEmail = (s.user?.email || s.profiles?.email || '').toLowerCase();
+    const matchesSearch = studentName.includes(searchTerm.toLowerCase()) || studentEmail.includes(searchTerm.toLowerCase());
+    const isSubActive = s.displayStatus === 'active' || (s.status === 'active' && s.end_date && new Date(s.end_date) > new Date());
     const matchesFilter = 
       filter === 'all' ? true :
-      filter === 'active' ? s.displayStatus === 'active' :
-      filter === 'expired' ? s.displayStatus === 'expired' : true;
+      filter === 'active' ? isSubActive :
+      filter === 'expired' ? !isSubActive : true;
     return matchesSearch && matchesFilter;
   });
 
@@ -199,71 +200,79 @@ const Subscriptions = () => {
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100 text-xs">
-                {filteredSubs.map((sub) => (
-                  <tr key={sub.id} className="hover:bg-slate-50/60 transition-colors">
-                    {/* User */}
-                    <td className="px-6 py-4">
-                      <div>
-                        <p className="font-bold text-slate-900">{sub.profiles?.name || 'Anonymous'}</p>
-                        <p className="text-[11px] text-slate-400 font-medium">{sub.profiles?.email}</p>
-                      </div>
-                    </td>
+                {filteredSubs.map((sub) => {
+                  const now = new Date();
+                  const isSubActive = sub.displayStatus === 'active' || (sub.status === 'active' && sub.end_date && new Date(sub.end_date) > now);
+                  const daysLeft = sub.remainingDays !== undefined ? sub.remainingDays : (sub.end_date && isSubActive ? Math.max(0, Math.ceil((new Date(sub.end_date) - now) / 86400000)) : 0);
+                  const studentName = sub.user?.name || sub.profiles?.name || 'Anonymous';
+                  const studentEmail = sub.user?.email || sub.profiles?.email || '';
 
-                    {/* Status */}
-                    <td className="px-6 py-4">
-                      <span className={`px-2.5 py-1 rounded-md text-[10px] font-bold uppercase ${
-                        sub.displayStatus === 'active'
-                          ? 'bg-emerald-100 text-emerald-800'
-                          : 'bg-rose-100 text-rose-800'
-                      }`}>
-                        {sub.displayStatus === 'active' ? '● Active' : '○ Expired'}
-                      </span>
-                    </td>
-
-                    {/* Validity Range */}
-                    <td className="px-6 py-4 text-slate-600 text-[11px] font-medium">
-                      <div>
-                        <span>From: {new Date(sub.start_date).toLocaleDateString()}</span>
-                        <p className="text-slate-400 font-semibold">
-                          To: {new Date(sub.end_date).toLocaleDateString()}
-                        </p>
-                      </div>
-                    </td>
-
-                    {/* Remaining Days */}
-                    <td className="px-6 py-4">
-                      {sub.displayStatus === 'active' ? (
-                        <div className="flex items-center gap-1.5 text-emerald-600 font-bold">
-                          <Clock size={13} />
-                          <span>{sub.remainingDays} days left</span>
+                  return (
+                    <tr key={sub.id} className="hover:bg-slate-50/60 transition-colors">
+                      {/* User */}
+                      <td className="px-6 py-4">
+                        <div>
+                          <p className="font-bold text-slate-900">{studentName}</p>
+                          <p className="text-[11px] text-slate-400 font-medium">{studentEmail}</p>
                         </div>
-                      ) : (
-                        <span className="text-slate-400 font-medium">Expired</span>
-                      )}
-                    </td>
+                      </td>
 
-                    {/* Actions */}
-                    <td className="px-6 py-4 text-right">
-                      <div className="flex items-center justify-end gap-2">
-                        <button
-                          onClick={() => { setSelectedSub(sub); setShowModal(true); }}
-                          className="px-3 py-1.5 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 rounded-lg text-xs font-bold transition-colors"
-                        >
-                          {sub.displayStatus === 'active' ? '+ Extend Days' : 'Renew License'}
-                        </button>
-                        {sub.displayStatus === 'active' && (
-                          <button
-                            onClick={() => handleRevoke(sub)}
-                            className="p-1.5 text-rose-500 hover:bg-rose-50 rounded-lg transition-colors"
-                            title="Revoke / Suspend"
-                          >
-                            <Ban size={15} />
-                          </button>
+                      {/* Status */}
+                      <td className="px-6 py-4">
+                        <span className={`px-2.5 py-1 rounded-md text-[10px] font-bold uppercase ${
+                          isSubActive
+                            ? 'bg-emerald-100 text-emerald-800'
+                            : 'bg-rose-100 text-rose-800'
+                        }`}>
+                          {isSubActive ? '● Active' : '○ Expired'}
+                        </span>
+                      </td>
+
+                      {/* Validity Range */}
+                      <td className="px-6 py-4 text-slate-600 text-[11px] font-medium">
+                        <div>
+                          <span>From: {new Date(sub.start_date).toLocaleDateString()}</span>
+                          <p className="text-slate-400 font-semibold">
+                            To: {new Date(sub.end_date).toLocaleDateString()}
+                          </p>
+                        </div>
+                      </td>
+
+                      {/* Remaining Days */}
+                      <td className="px-6 py-4">
+                        {isSubActive ? (
+                          <div className="flex items-center gap-1.5 text-emerald-600 font-bold">
+                            <Clock size={13} />
+                            <span>{daysLeft} days left</span>
+                          </div>
+                        ) : (
+                          <span className="text-slate-400 font-medium">Expired</span>
                         )}
-                      </div>
-                    </td>
-                  </tr>
-                ))}
+                      </td>
+
+                      {/* Actions */}
+                      <td className="px-6 py-4 text-right">
+                        <div className="flex items-center justify-end gap-2">
+                          <button
+                            onClick={() => { setSelectedSub(sub); setShowModal(true); }}
+                            className="px-3 py-1.5 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 rounded-lg text-xs font-bold transition-colors"
+                          >
+                            {isSubActive ? '+ Extend Days' : 'Renew License'}
+                          </button>
+                          {isSubActive && (
+                            <button
+                              onClick={() => handleRevoke(sub)}
+                              className="p-1.5 text-rose-500 hover:bg-rose-50 rounded-lg transition-colors"
+                              title="Revoke / Suspend"
+                            >
+                              <Ban size={15} />
+                            </button>
+                          )}
+                        </div>
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>

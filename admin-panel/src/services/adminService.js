@@ -177,20 +177,33 @@ export const adminService = {
         .select('id, user_id, start_date, end_date, status, created_at, profiles:user_id(name, email, phone)', { count: 'exact' })
         .order('created_at', { ascending: false });
 
-      if (status !== 'all') {
-        query = query.eq('status', status);
-      }
-
       const { data, count, error } = await query.limit(500);
       if (error) throw error;
 
+      const now = new Date();
       let subs = (data || []).map(s => {
         const p = Array.isArray(s.profiles) ? s.profiles[0] : s.profiles;
+        const endDate = s.end_date ? new Date(s.end_date) : null;
+        const isFuture = endDate && endDate.getTime() > now.getTime();
+        const isActive = s.status === 'active' && isFuture;
+        const remainingDays = isFuture ? Math.ceil((endDate.getTime() - now.getTime()) / (1000 * 60 * 60 * 24)) : 0;
+        const displayStatus = isActive ? 'active' : 'expired';
+
         return {
           ...s,
-          user: p || { name: 'Unknown Student', email: s.user_id, phone: '' }
+          profiles: p || { name: 'Unknown Student', email: s.user_id, phone: '' },
+          user: p || { name: 'Unknown Student', email: s.user_id, phone: '' },
+          displayStatus,
+          remainingDays,
+          isActive
         };
       });
+
+      if (status === 'active') {
+        subs = subs.filter(s => s.displayStatus === 'active');
+      } else if (status === 'expired') {
+        subs = subs.filter(s => s.displayStatus === 'expired');
+      }
 
       if (search.trim()) {
         const term = search.toLowerCase();
@@ -213,14 +226,24 @@ export const adminService = {
     if (customDate) {
       endDate = new Date(customDate).toISOString();
     } else {
-      const targetDate = new Date();
-      targetDate.setDate(targetDate.getDate() + Number(days));
+      const { data: existingSub } = await supabaseAdmin
+        .from('subscriptions')
+        .select('id, end_date, status')
+        .eq('user_id', userId)
+        .maybeSingle();
+
+      const now = new Date();
+      let baseDate = now;
+      if (existingSub?.end_date && new Date(existingSub.end_date) > now && existingSub.status === 'active') {
+        baseDate = new Date(existingSub.end_date);
+      }
+      const targetDate = new Date(baseDate.getTime() + Number(days) * 86400000);
       endDate = targetDate.toISOString();
     }
 
     const { data: existing } = await supabaseAdmin
       .from('subscriptions')
-      .select('id')
+      .select('id, start_date')
       .eq('user_id', userId)
       .maybeSingle();
 
@@ -229,7 +252,7 @@ export const adminService = {
         .from('subscriptions')
         .update({
           status: 'active',
-          start_date: new Date().toISOString(),
+          start_date: existing.start_date || new Date().toISOString(),
           end_date: endDate
         })
         .eq('id', existing.id)
