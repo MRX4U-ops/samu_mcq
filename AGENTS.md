@@ -1,5 +1,18 @@
 # SAMU MCQs — repo guide
 
+## 🚨 STRICT CORE RULES (NEVER VIOLATE)
+
+1. **NO UNAUTHORIZED CHANGES / DELETIONS**:
+   - **NEVER** change, delete, rename, refactor, or edit any code, component, page, layout, feature, or database data unless the user explicitly instructs you to do so.
+   - Execute **ONLY** what the user explicitly commands. Do not assume or make unrequested changes.
+
+2. **STRICT ISOLATION OF QUESTIONS & CURRICULUM (NO MIXING)**:
+   - **NEVER** mix questions from one subject into another subject.
+   - **NEVER** mix questions from one topic into another topic.
+   - Every MCQ must remain strictly isolated to its designated Course, Subject, and Topic in database storage, bulk import, editor, and frontend delivery.
+
+---
+
 ## Three packages
 
 | Package | Tech | Entrypoint | Deploy |
