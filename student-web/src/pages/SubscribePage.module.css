@@ -183,3 +183,155 @@
   .ctaLeft { flex-direction: column; }
   .telegramBtn { width: 100%; justify-content: center; }
 }
+
+/* ── Coupon & Promo Redemption ── */
+.couponCard {
+  background: #FFFFFF;
+  border: 1.5px dashed #BAE6FD;
+  border-radius: 20px;
+  padding: 24px 28px;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 20px rgba(14, 165, 233, 0.06);
+  transition: all 0.25s ease;
+}
+.couponCard:hover {
+  border-color: #38BDF8;
+  box-shadow: 0 8px 30px rgba(14, 165, 233, 0.12);
+}
+.couponTop {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+.couponIconBox {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: #E0F2FE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.couponTitle {
+  font-size: 16px;
+  font-weight: 800;
+  color: #0F172A;
+  margin: 0 0 4px 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.couponSub {
+  font-size: 13px;
+  color: #64748B;
+  margin: 0;
+  font-weight: 500;
+}
+.couponForm {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.couponInput {
+  flex: 1;
+  min-width: 220px;
+  padding: 12px 18px;
+  background: #F8FAFC;
+  border: 1.5px solid #E2E8F0;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #0F172A;
+  outline: none;
+  transition: all 0.2s ease;
+}
+.couponInput:focus {
+  border-color: #0284C7;
+  background: #FFFFFF;
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+}
+.couponApplyBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 22px;
+  background: linear-gradient(135deg, #0284C7 0%, #0369A1 100%);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.25);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.couponApplyBtn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(2, 132, 199, 0.35);
+}
+.couponApplyBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.spin {
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.couponErrorBox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 10px 16px;
+  background: #FEF2F2;
+  border: 1px solid #FECACA;
+  border-radius: 10px;
+  color: #DC2626;
+  font-size: 13px;
+  font-weight: 700;
+}
+.couponSuccessBox {
+  margin-top: 16px;
+  padding: 16px 20px;
+  background: #ECFDF5;
+  border: 1.5px solid #A7F3D0;
+  border-radius: 14px;
+  animation: fadeIn 0.3s ease;
+}
+.couponDiscountBox {
+  margin-top: 16px;
+  padding: 16px 20px;
+  background: #EFF6FF;
+  border: 1.5px solid #BFDBFE;
+  border-radius: 14px;
+  animation: fadeIn 0.3s ease;
+}
+.discountTelegramBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 8px 16px;
+  background: #2563EB;
+  color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.discountTelegramBtn:hover {
+  background: #1D4ED8;
+  transform: translateY(-1px);
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+

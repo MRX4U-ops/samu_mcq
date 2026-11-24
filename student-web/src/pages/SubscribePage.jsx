@@ -1,9 +1,12 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import { supabase } from '../lib/supabase';
 import Navbar from '../components/Navbar';
 import {
   Crown, ChevronLeft, CheckCircle, MessageCircle, Star, Zap,
-  BookOpen, Brain, Trophy, Target, Flame, Shield, ArrowRight
+  BookOpen, Brain, Trophy, Target, Flame, Shield, ArrowRight,
+  Ticket, Gift, Percent, Sparkles, Loader2, AlertCircle, Clock
 } from 'lucide-react';
 import styles from './SubscribePage.module.css';
 
@@ -25,7 +28,95 @@ const TESTIMONIALS = [
 ];
 
 export default function SubscribePage() {
-  const { isSubscribed } = useAuth();
+  const { user, isSubscribed, subscription, refreshSubscription } = useAuth();
+
+  const [couponCode, setCouponCode] = useState('');
+  const [couponLoading, setCouponLoading] = useState(false);
+  const [couponResult, setCouponResult] = useState(null); // { type: 'free' | 'discount', message, details }
+  const [couponError, setCouponError] = useState(null);
+
+  const handleApplyCoupon = async (e) => {
+    e.preventDefault();
+    if (!couponCode.trim()) return;
+    if (!user) {
+      setCouponError('Please sign in or register to redeem a coupon code.');
+      return;
+    }
+
+    setCouponLoading(true);
+    setCouponError(null);
+    setCouponResult(null);
+
+    const cleanCode = couponCode.trim().toUpperCase();
+
+    try {
+      // 1. First validate via Supabase RPC directly
+      const { data: promoData, error: promoErr } = await supabase.rpc('validate_promo', { promo_code: cleanCode });
+      if (promoErr) throw promoErr;
+
+      if (!promoData || !promoData.valid) {
+        throw new Error(promoData?.message || 'Invalid or expired coupon code.');
+      }
+
+      const discountVal = parseFloat(promoData.discount_percentage);
+      const isFreeDays = discountVal < 0;
+      const is100Percent = discountVal === 100.00;
+
+      if (isFreeDays || is100Percent) {
+        // Free Access coupon → activate via backend claim-free-promo
+        const session = (await supabase.auth.getSession())?.data?.session;
+        const token = session?.access_token;
+
+        const res = await fetch('https://samu-mcqs.onrender.com/api/payments/claim-free-promo', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            ...(token ? { 'Authorization': `Bearer ${token}` } : {})
+          },
+          body: JSON.stringify({ promoCode: cleanCode })
+        });
+
+        const resData = await res.json();
+        if (!res.ok) {
+          throw new Error(resData.error || 'Failed to activate coupon.');
+        }
+
+        const freeDays = resData.free_days || (isFreeDays ? Math.round(Math.abs(discountVal)) : 90);
+        if (refreshSubscription) {
+          await refreshSubscription();
+        }
+
+        setCouponResult({
+          type: 'free',
+          title: '🎉 Coupon Activated Successfully!',
+          message: isFreeDays 
+            ? `Granted ${freeDays} Days of 100% Free Full Premium Access!` 
+            : `Granted 100% Free Full Access for ${freeDays} Days!`,
+          endDate: resData.end_date ? new Date(resData.end_date).toLocaleDateString() : 'Extended',
+          code: cleanCode
+        });
+        setCouponCode('');
+      } else {
+        // Percentage discount coupon
+        const originalPrice = 49;
+        const discountAmount = Math.round((originalPrice * discountVal) / 100);
+        const finalPrice = originalPrice - discountAmount;
+
+        setCouponResult({
+          type: 'discount',
+          title: `🏷️ ${discountVal}% Discount Coupon Applied!`,
+          message: `Coupon '${cleanCode}' is valid! Standard Price: ₹${originalPrice} → Discounted Price: ₹${finalPrice}.`,
+          discount: discountVal,
+          finalPrice,
+          code: cleanCode
+        });
+      }
+    } catch (err) {
+      setCouponError(err.message || 'Failed to validate coupon code.');
+    } finally {
+      setCouponLoading(false);
+    }
+  };
 
   return (
     <div className={styles.page}>
@@ -36,16 +127,113 @@ export default function SubscribePage() {
           <ChevronLeft size={18} /> Back
         </Link>
 
-        {isSubscribed ? (
-          <div className={styles.alreadyCard}>
-            <div className={styles.alreadyIcon}><CheckCircle size={48} color="#10B981" /></div>
+        {isSubscribed && (
+          <div className={styles.alreadyCard} style={{ marginBottom: 24 }}>
+            <div className={styles.alreadyIcon}><CheckCircle size={44} color="#10B981" /></div>
             <h2 className={styles.alreadyTitle}>You're All Set! 🎉</h2>
-            <p className={styles.alreadySub}>You have full premium access to all SAMU MCQs content. Keep practicing!</p>
-            <Link to="/home" className="btn btn-primary" style={{ marginTop: 20, gap: 8 }}>
-              Go to Dashboard <ArrowRight size={16} />
-            </Link>
+            <p className={styles.alreadySub}>
+              You currently have full premium access to all SAMU MCQs content.
+              {subscription?.end_date && (
+                <span style={{ display: 'block', marginTop: 4, fontWeight: 700, color: '#0F4C75' }}>
+                  Valid until: {new Date(subscription.end_date).toLocaleDateString()}
+                </span>
+              )}
+            </p>
           </div>
-        ) : (
+        )}
+
+        {/* ── Coupon Code Box (Available to both new and extending students) ── */}
+        <div className={styles.couponCard}>
+          <div className={styles.couponTop}>
+            <div className={styles.couponIconBox}>
+              <Ticket size={24} color="#0284C7" />
+            </div>
+            <div>
+              <h3 className={styles.couponTitle}>Have a Coupon or Promo Code?</h3>
+              <p className={styles.couponSub}>
+                Enter code for instant free days premium access or a special subscription discount.
+              </p>
+            </div>
+          </div>
+
+          <form onSubmit={handleApplyCoupon} className={styles.couponForm}>
+            <input
+              type="text"
+              value={couponCode}
+              onChange={(e) => setCouponCode(e.target.value.toUpperCase().replace(/\s+/g, ''))}
+              placeholder="e.g. TRH100, SUMMER30, FREE7D..."
+              className={styles.couponInput}
+            />
+            <button
+              type="submit"
+              disabled={couponLoading || !couponCode.trim()}
+              className={styles.couponApplyBtn}
+            >
+              {couponLoading ? (
+                <>
+                  <Loader2 size={16} className={styles.spin} />
+                  <span>Checking...</span>
+                </>
+              ) : (
+                <>
+                  <Sparkles size={16} />
+                  <span>Redeem Coupon</span>
+                </>
+              )}
+            </button>
+          </form>
+
+          {couponError && (
+            <div className={styles.couponErrorBox}>
+              <AlertCircle size={16} />
+              <span>{couponError}</span>
+            </div>
+          )}
+
+          {couponResult && (
+            <div className={couponResult.type === 'free' ? styles.couponSuccessBox : styles.couponDiscountBox}>
+              {couponResult.type === 'free' ? (
+                <div style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
+                  <Gift size={24} color="#059669" style={{ flexShrink: 0, marginTop: 2 }} />
+                  <div>
+                    <h4 style={{ fontSize: 15, fontWeight: 900, color: '#065F46', margin: 0 }}>
+                      {couponResult.title}
+                    </h4>
+                    <p style={{ fontSize: 13, color: '#047857', margin: '4px 0 0', fontWeight: 600 }}>
+                      {couponResult.message}
+                    </p>
+                    <div style={{ marginTop: 6, fontSize: 12, fontWeight: 700, color: '#065F46' }}>
+                      📅 Subscription Valid Until: {couponResult.endDate}
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <div style={{ display: 'flex', alignItems: 'flex-start', gap: 12 }}>
+                  <Percent size={24} color="#1D4ED8" style={{ flexShrink: 0, marginTop: 2 }} />
+                  <div>
+                    <h4 style={{ fontSize: 15, fontWeight: 900, color: '#1E40AF', margin: 0 }}>
+                      {couponResult.title}
+                    </h4>
+                    <p style={{ fontSize: 13, color: '#1E3A8A', margin: '4px 0 0', fontWeight: 600 }}>
+                      {couponResult.message}
+                    </p>
+                    <a
+                      href={`https://t.me/mrx4u?text=Hi%2C%20I%20have%20coupon%20${couponResult.code}%20for%20${couponResult.discount}%25%20discount.%20Please%20activate%20my%20subscription.`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.discountTelegramBtn}
+                    >
+                      <MessageCircle size={15} />
+                      Complete at ₹{couponResult.finalPrice} on Telegram →
+                    </a>
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+
+        {!isSubscribed && (
           <>
             {/* ── Hero ── */}
             <div className={styles.hero}>

@@ -184,13 +184,19 @@ export function AuthProvider({ children }) {
     setLoading(false);
   }
 
+  async function refreshSubscription() {
+    if (!user) return;
+    await fetchUserData(user.id, user.email);
+  }
+
   const isSuperAdmin = isSuperAdminEmail(user?.email) || profile?.role === 'admin' || profile?.isSuperAdmin;
   const isSubscribed = !!subscription || isSuperAdmin;
 
   return (
     <AuthContext.Provider value={{ 
       user, profile, subscription, loading, isSubscribed, isSuperAdmin,
-      signIn, signUp, signOut, verifyOTP, resendOTP, resetPassword, updatePassword
+      signIn, signUp, signOut, verifyOTP, resendOTP, resetPassword, updatePassword,
+      refreshSubscription
     }}>
       {children}
     </AuthContext.Provider>

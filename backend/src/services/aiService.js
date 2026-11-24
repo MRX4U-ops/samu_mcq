@@ -21,13 +21,13 @@ const convertToHinglish = (text) => {
     'blood': 'khoon',
     'fever': 'bukhaar'
   };
-  
+
   let hinges = text.toLowerCase();
   Object.keys(hindiWords).forEach(word => {
     const regex = new RegExp(`\\b${word}\\b`, 'g');
     hinges = hinges.replace(regex, hindiWords[word]);
   });
-  
+
   // Mix original casing and some English to make it feel like "Hinglish"
   return text.split(' ').map((word, i) => {
      return (i % 3 === 0 && hindiWords[word.toLowerCase()]) ? hindiWords[word.toLowerCase()] : word;
@@ -46,7 +46,7 @@ const MEDICAL_KNOWLEDGE_CACHE = {
 const askGroq = async (question) => {
   try {
     if (!env.GROQ_API_KEY) throw new Error("Missing Groq API Key");
-    
+
     console.log(`🚀 Trying Groq (Llama 3.3 70B)`);
     const response = await axios.post(
       'https://api.groq.com/openai/v1/chat/completions',
@@ -82,7 +82,7 @@ const askHuggingFace = async (question) => {
     "https://api-inference.huggingface.co/models/Qwen/Qwen2.5-7B-Instruct",
     "https://api-inference.huggingface.co/models/Qwen/Qwen2.5-1.5B-Instruct"
   ];
-  
+
   for (const modelUrl of models) {
     try {
       console.log(`🔗 Trying Fallback AI: ${modelUrl.split('/').pop()}`);
@@ -109,7 +109,7 @@ const askHuggingFace = async (question) => {
 const getAnswer = async (question, language) => {
   const qLower = question.toLowerCase().trim();
   const cacheKey = `${qLower}_${language}`;
-  
+
   // 1. Check Personal AI Cache
   if (AI_CACHE.has(cacheKey)) return { answer: AI_CACHE.get(cacheKey), source: 'cache' };
 
@@ -136,7 +136,7 @@ const getAnswer = async (question, language) => {
 
       reject(new Error("All AI Engines failed"));
     });
-    
+
     finalAnswer = result.ans;
     source = result.src;
   } catch (e) {
@@ -157,8 +157,8 @@ const MCQ_REPOSITORY = require('../data/mcqRepository');
 
 const analyzeImage = async (imageBase64) => {
   try {
-    const cleanBase64 = imageBase64.includes('base64,') 
-      ? imageBase64.split('base64,')[1] 
+    const cleanBase64 = imageBase64.includes('base64,')
+      ? imageBase64.split('base64,')[1]
       : imageBase64;
 
     console.log("📸 Starting Clinical Image Analysis (OCR + Groq)...");
@@ -183,14 +183,13 @@ const analyzeImage = async (imageBase64) => {
     } catch (ocrError) {
       console.error("❌ OCR Error:", ocrError.message);
     }
-    
+
     extractedText = extractedText.trim();
     if (!extractedText || extractedText.length < 5) {
       console.log("⚠️ No readable text found from OCR.");
     } else {
       console.log("📝 Extracted Text:", extractedText);
     }
-
 
     // 2. FAST SEARCH IN DATABASE (if we have text)
     if (extractedText && extractedText.length >= 5) {
@@ -206,7 +205,7 @@ const analyzeImage = async (imageBase64) => {
       const getSignificantWords = (text) => {
         return text.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(w => w.length > 3);
       };
-      
+
       const extractedWords = getSignificantWords(extractedText);
       let bestMatch = null;
       let maxOverlap = 0;
@@ -229,16 +228,16 @@ const analyzeImage = async (imageBase64) => {
 
           for (const topicId in topics) {
             const topicData = topics[topicId];
-            const questions = Array.isArray(topicData) 
-                ? topicData 
+            const questions = Array.isArray(topicData)
+                ? topicData
                 : [...(topicData.test || []), ...(topicData.situational || [])];
-            
+
             for (const q of questions) {
               if (!q || !q.question) continue;
-              
+
               const cleanQ = q.question.toLowerCase().replace(/[^a-z0-9]/g, '');
               const cleanExtracted = extractedText.toLowerCase().replace(/[^a-z0-9]/g, '');
-              
+
               let isMatch = false;
               if (cleanQ.includes(cleanExtracted) || cleanExtracted.includes(cleanQ)) {
                 isMatch = true;
@@ -249,13 +248,13 @@ const analyzeImage = async (imageBase64) => {
                 for (const ew of extractedWords) {
                   if (qWords.includes(ew)) overlapCount++;
                 }
-                
+
                 if (overlapCount > maxOverlap && (overlapCount >= 4 || (extractedWords.length > 0 && overlapCount / extractedWords.length >= 0.6))) {
                   maxOverlap = overlapCount;
                   isMatch = true;
                 }
               }
-              
+
               if (isMatch) {
                 bestMatch = {
                   ...q,
@@ -335,7 +334,7 @@ const analyzeImage = async (imageBase64) => {
             timeout: 20000
           }
         );
-        
+
         const visionText = response.data?.choices?.[0]?.message?.content;
         if (visionText) {
           return {
@@ -354,7 +353,6 @@ const analyzeImage = async (imageBase64) => {
         console.error("❌ Groq Vision Error:", groqVisionError.response?.data || groqVisionError.message);
       }
     }
-
 
     // 4. ABSOLUTE FALLBACK
     return {

@@ -4,7 +4,7 @@ import {
   LayoutDashboard, Users, CreditCard, 
   ShieldCheck, MessageSquare, BookOpen, 
   Edit3, UploadCloud, UsersRound, Settings, 
-  LogOut, Sparkles, X
+  LogOut, Sparkles, X, Ticket
 } from 'lucide-react';
 import useAuthStore from '../store/authStore';
 
@@ -17,6 +17,7 @@ const Sidebar = ({ isOpen, onClose }) => {
     { name: 'Dashboard', path: '/', icon: LayoutDashboard },
     { name: 'User Management', path: '/users', icon: Users },
     { name: 'Subscriptions', path: '/subscriptions', icon: ShieldCheck },
+    { name: 'Coupons & Promos', path: '/coupons', icon: Ticket },
     { name: 'Payment Requests', path: '/payments', icon: CreditCard },
     { name: 'Academic Hierarchy', path: '/academic', icon: BookOpen },
     { name: 'Live MCQ Editor', path: '/mcq-editor', icon: Edit3 },

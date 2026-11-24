@@ -158,12 +158,25 @@ router.post('/claim-free-promo', protect, async (req, res) => {
       return res.status(400).json({ error: promoData?.message || "Invalid or inactive promo code." });
     }
 
-    if (parseFloat(promoData.discount_percentage) !== 100.00) {
-      return res.status(400).json({ error: "This promo code does not offer a 100% discount." });
+    const discountVal = parseFloat(promoData.discount_percentage);
+    const isFreeDays = discountVal < 0;
+    const is100Percent = discountVal === 100.00;
+
+    if (!isFreeDays && !is100Percent) {
+      return res.status(400).json({ 
+        error: `This promo code offers a ${discountVal}% discount on subscription purchase.`,
+        discount_percentage: discountVal,
+        is_discount: true
+      });
     }
 
-    // Check if user already has an active subscription
-    const { data: activeSub, error: subCheckErr } = await supabaseAdmin
+    let grantDays = 90; // Default for 100% free
+    if (isFreeDays) {
+      grantDays = Math.round(Math.abs(discountVal));
+    }
+
+    // Check existing active subscription to extend it
+    const { data: activeSub } = await supabaseAdmin
       .from('subscriptions')
       .select('*')
       .eq('user_id', userId)
@@ -171,11 +184,14 @@ router.post('/claim-free-promo', protect, async (req, res) => {
       .gt('end_date', new Date().toISOString())
       .maybeSingle();
 
-    if (subCheckErr) throw subCheckErr;
-
-    if (activeSub) {
-      return res.status(400).json({ error: "You already have an active subscription." });
+    let endDate = new Date();
+    if (activeSub && activeSub.end_date) {
+      const currentEnd = new Date(activeSub.end_date);
+      if (currentEnd > endDate) {
+        endDate = currentEnd;
+      }
     }
+    endDate.setDate(endDate.getDate() + grantDays);
 
     // Generate unique payment reference and transaction ID
     const userIdLast4 = userId.slice(-4).toUpperCase();
@@ -195,17 +211,11 @@ router.post('/claim-free-promo', protect, async (req, res) => {
         status: 'approved'
       });
 
-    if (insertErr) {
-      if (insertErr.code === '23505') {
-        return res.status(400).json({ error: "This request has already been processed." });
-      }
+    if (insertErr && insertErr.code !== '23505') {
       throw insertErr;
     }
 
-    // 3. Upsert subscription for 90 days
-    const endDate = new Date();
-    endDate.setDate(endDate.getDate() + 90);
-
+    // 3. Upsert subscription with calculated end date
     const { error: subUpsertErr } = await supabaseAdmin
       .from('subscriptions')
       .upsert({
@@ -231,7 +241,13 @@ router.post('/claim-free-promo', protect, async (req, res) => {
         .eq('id', promoData.id);
     }
 
-    res.json({ message: "Subscription activated successfully!", end_date: endDate.toISOString() });
+    res.json({ 
+      message: isFreeDays 
+        ? `Successfully activated ${grantDays} days free access!` 
+        : `Successfully activated 100% free access for ${grantDays} days!`, 
+      end_date: endDate.toISOString(),
+      free_days: grantDays
+    });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

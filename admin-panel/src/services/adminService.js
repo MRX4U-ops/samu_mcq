@@ -565,6 +565,122 @@ export const adminService = {
     const { data, error } = await supabaseAdmin.from('profiles').update({ role: 'user' }).eq('id', userId);
     if (error) throw error;
     return true;
+  },
+
+  // ── 9. Coupon & Promo Code Management ──
+  async getCoupons() {
+    const { data, error } = await supabaseAdmin
+      .from('promo_codes')
+      .select('*')
+      .order('created_at', { ascending: false });
+
+    if (error) throw error;
+
+    return (data || []).map(c => {
+      const discountVal = parseFloat(c.discount_percentage) || 0;
+      const isDays = discountVal < 0;
+      const days = isDays ? Math.round(Math.abs(discountVal)) : null;
+      const is100Percent = discountVal === 100;
+      const discount = !isDays ? discountVal : null;
+
+      let benefitLabel = '';
+      if (isDays) {
+        benefitLabel = `${days} Days Free Access`;
+      } else if (is100Percent) {
+        benefitLabel = `100% Free Access`;
+      } else {
+        benefitLabel = `${discount}% Discount`;
+      }
+
+      return {
+        ...c,
+        type: isDays ? 'days' : 'discount',
+        daysValue: days,
+        discountValue: discount,
+        benefitLabel,
+        isLimitReached: (c.current_usage || 0) >= (c.usage_limit || 0),
+        usagePercentage: Math.min(100, Math.round(((c.current_usage || 0) / Math.max(1, c.usage_limit || 1)) * 100))
+      };
+    });
+  },
+
+  async createCoupon({ code, type, value, usageLimit = 100, isActive = true }) {
+    const cleanCode = (code || '').toUpperCase().trim().replace(/\s+/g, '');
+    if (!cleanCode) throw new Error('Coupon code is required.');
+
+    // Check duplicate
+    const { data: existing } = await supabaseAdmin
+      .from('promo_codes')
+      .select('id')
+      .eq('code', cleanCode)
+      .maybeSingle();
+
+    if (existing) {
+      throw new Error(`Coupon code '${cleanCode}' already exists.`);
+    }
+
+    const numValue = Number(value);
+    if (isNaN(numValue) || numValue <= 0) {
+      throw new Error('Please enter a valid positive number for coupon value.');
+    }
+
+    // Negative represents free days; positive represents percentage discount
+    const discount_percentage = type === 'days' ? -Math.abs(numValue) : Math.min(100, Math.abs(numValue));
+    const limit = Number(usageLimit) > 0 ? Number(usageLimit) : 100;
+
+    const { data, error } = await supabaseAdmin
+      .from('promo_codes')
+      .insert([{
+        code: cleanCode,
+        discount_percentage,
+        usage_limit: limit,
+        current_usage: 0,
+        is_active: isActive !== false
+      }])
+      .select()
+      .single();
+
+    if (error) throw error;
+    return data;
+  },
+
+  async toggleCouponStatus(id, currentStatus) {
+    const { data, error } = await supabaseAdmin
+      .from('promo_codes')
+      .update({ is_active: !currentStatus })
+      .eq('id', id)
+      .select()
+      .single();
+
+    if (error) throw error;
+    return data;
+  },
+
+  async updateCoupon(id, updates) {
+    const payload = {};
+    if (typeof updates.is_active === 'boolean') payload.is_active = updates.is_active;
+    if (updates.usage_limit !== undefined) payload.usage_limit = Number(updates.usage_limit);
+    if (updates.discount_percentage !== undefined) payload.discount_percentage = Number(updates.discount_percentage);
+
+    const { data, error } = await supabaseAdmin
+      .from('promo_codes')
+      .update(payload)
+      .eq('id', id)
+      .select()
+      .single();
+
+    if (error) throw error;
+    return data;
+  },
+
+  async deleteCoupon(id) {
+    const { error } = await supabaseAdmin
+      .from('promo_codes')
+      .delete()
+      .eq('id', id);
+
+    if (error) throw error;
+    return true;
   }
 };
 

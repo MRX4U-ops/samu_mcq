@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard';
 import Users from './pages/Users';
 import Payments from './pages/Payments';
 import Subscriptions from './pages/Subscriptions';
+import Coupons from './pages/Coupons';
 import Courses from './pages/Courses';
 import McqEditor from './pages/McqEditor';
 import BulkUpload from './pages/BulkUpload';
@@ -35,6 +36,7 @@ const App = () => {
         <Route index element={<Dashboard />} />
         <Route path="users" element={<Users />} />
         <Route path="subscriptions" element={<Subscriptions />} />
+        <Route path="coupons" element={<Coupons />} />
         <Route path="payments" element={<Payments />} />
         <Route path="academic" element={<Courses />} />
         <Route path="mcq-editor" element={<McqEditor />} />
