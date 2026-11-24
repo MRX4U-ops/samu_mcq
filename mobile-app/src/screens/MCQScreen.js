@@ -305,12 +305,7 @@ const MCQScreen = ({ route, navigation }) => {
           setLoading(false);
           return; 
         }
-        if (topicId.startsWith('t-s-')) {
-          console.error(`Local content missing for topic: ${topicId}`);
-          setLoading(false);
-          setQuestions([]);
-          return;
-        }
+        console.log(`Local content not found for ${topicId}, attempting network fetch...`);
       }
 
       // 3. NETWORK FALLBACK

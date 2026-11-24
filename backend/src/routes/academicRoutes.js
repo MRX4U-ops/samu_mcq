@@ -199,11 +199,49 @@ router.get('/mcqs', async (req, res) => {
         }
       }
     } else {
-      // Normal topic
+      // Normal topic or local topic ID (e.g. t-s-3-8-13)
+      let targetTopicUUID = topicId;
+      const localTopicMatch = topicId.match(/^t-s-(\d+)-(\d+)-(\d+)$/);
+      if (localTopicMatch) {
+        const courseNum = localTopicMatch[1];
+        const subjectIdx = parseInt(localTopicMatch[2]);
+        const topicIdx = parseInt(localTopicMatch[3]);
+
+        let subjectTitle = CURRICULUM_MAPPING[courseNum]?.[subjectIdx];
+        if ((localTopicMatch[2] === '8' || localTopicMatch[2] === '9') && courseNum === '3') {
+          subjectTitle = 'Medical radiology';
+        }
+
+        if (subjectTitle) {
+          const { data: subData } = await supabaseAdmin
+            .from('subjects')
+            .select('id')
+            .ilike('title', subjectTitle)
+            .limit(1);
+
+          if (subData && subData.length > 0) {
+            const subjectUUID = subData[0].id;
+            const { data: topics } = await supabaseAdmin
+              .from('topics')
+              .select('id, title')
+              .eq('subject_id', subjectUUID)
+              .order('created_at', { ascending: true });
+
+            if (topics && topics.length > 0) {
+              const targetTitle = `Topic ${topicIdx + 1}`;
+              const matchedTopic = topics.find(t => t.title.toLowerCase() === targetTitle.toLowerCase()) || topics[topicIdx];
+              if (matchedTopic) {
+                targetTopicUUID = matchedTopic.id;
+              }
+            }
+          }
+        }
+      }
+
       const { data: mcqs, error: mcqsError } = await supabaseAdmin
         .from('mcqs')
         .select('*')
-        .eq('topic_id', topicId)
+        .eq('topic_id', targetTopicUUID)
         .eq('task_type', dbTaskType);
         
       if (mcqsError) throw mcqsError;
