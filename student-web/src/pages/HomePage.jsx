@@ -853,6 +853,76 @@ export default function HomePage() {
           })}
         </div>
 
+        {/* ═══ FEATURE HUB (JUST BELOW COURSES TABS • ENLARGED BANANA AI STYLE) ═══ */}
+        <div className={styles.sectionHeader}>
+          <span className="section-label">FEATURE HUB</span>
+          <span className={styles.sectionSub}>Quick Clinical Access</span>
+        </div>
+        <div className={styles.newHubGrid}>
+          {NEW_HUB_ITEMS.map(item => {
+            const IconComp = item.icon;
+            const cardContent = (
+              <>
+                <div className={styles.newHubCardShine} />
+                <div className={styles.newHubTopRow}>
+                  <span className={styles.newHubTag} style={{ background: item.tagBg, color: item.tagColor }}>
+                    {item.tag}
+                  </span>
+                </div>
+                
+                <div
+                  className={styles.newHubIconBox}
+                  style={{
+                    background: item.iconBg,
+                    boxShadow: `0 10px 22px -3px ${item.glowColor}`,
+                  }}
+                >
+                  <div className={styles.newHubIconGloss} />
+                  <IconComp size={28} color="#FFFFFF" strokeWidth={2.4} />
+                </div>
+
+                <div className={styles.newHubInfo}>
+                  <div className={styles.newHubTitle}>{item.label}</div>
+                  <div className={styles.newHubSubtitle}>{item.sub}</div>
+                </div>
+              </>
+            );
+
+            return item.href ? (
+              <a
+                key={item.id}
+                href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.newHubCard}
+                style={{
+                  '--hub-border': item.border,
+                  '--hub-hover-border': item.hoverBorder,
+                  '--hub-glow': item.glowColor,
+                  '--hub-bg': item.cardBg,
+                }}
+              >
+                {cardContent}
+              </a>
+            ) : (
+              <button
+                key={item.id}
+                type="button"
+                className={styles.newHubCard}
+                onClick={() => navigate(item.to)}
+                style={{
+                  '--hub-border': item.border,
+                  '--hub-hover-border': item.hoverBorder,
+                  '--hub-glow': item.glowColor,
+                  '--hub-bg': item.cardBg,
+                }}
+              >
+                {cardContent}
+              </button>
+            );
+          })}
+        </div>
+
         {/* ═══ AI INSIGHTS ════════════════════════════════ */}
         <div className={styles.aiInsightCard}>
           <div className={styles.aiIconWrap}>
