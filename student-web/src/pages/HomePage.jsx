@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { supabase } from '../lib/supabase';
+import { ALL_SUBJECTS } from '../data/index';
 import Navbar from '../components/Navbar';
 import BottomNav from '../components/BottomNav';
 import {
@@ -111,17 +112,157 @@ const DEFAULT_COURSES = [
   { id:'6', title:'6th Course', num:'6', subjectCount:14 },
 ];
 
-const HUB_ITEMS = [
-  { icon:'🧠', label:'Ask AI',        to:'/ask-ai',      grad:'linear-gradient(135deg,#0F4C75,#0284C7)' },
-  { icon:'⚔️', label:'Quiz Battle',   to:'/battle',      grad:'linear-gradient(135deg,#B45309,#F59E0B)' },
-  { icon:'🏆', label:'Leaderboard',   to:'/leaderboard', grad:'linear-gradient(135deg,#047857,#10B981)' },
-  { icon:'📊', label:'CBT Results',   to:'/results',     grad:'linear-gradient(135deg,#0E7490,#06B6D4)' },
-  { icon:'🩺', label:'Diagnostics',   to:'/ask-ai',      grad:'linear-gradient(135deg,#0284C7,#38BDF8)' },
-  { icon:'⭐', label:'Bookmarks',     to:'/profile',     grad:'linear-gradient(135deg,#B45309,#FBBF24)' },
-  { icon:'🎁', label:'Rewards',       to:'/subscribe',   grad:'linear-gradient(135deg,#0284C7,#10B981)' },
-  { icon:'📚', label:'Notes',         to:'/guidance',    grad:'linear-gradient(135deg,#065F46,#10B981)' },
-  { icon:'🌐', label:'SSMU Website',  href:'https://ssmu.org', grad:'linear-gradient(135deg,#0F4C75,#1A6FA8)' },
-  { icon:'💬', label:'Telegram',      href:'https://t.me/mrx4u', grad:'linear-gradient(135deg,#0284C7,#0EA5E9)' },
+const NEW_HUB_ITEMS = [
+  {
+    id: 'ask-ai',
+    label: 'Ask AI',
+    sub: 'Medical AI Tutor',
+    tag: 'LLAMA 3.3',
+    to: '/ask-ai',
+    icon: Bot,
+    iconBg: 'linear-gradient(135deg, #4338CA 0%, #6366F1 50%, #06B6D4 100%)',
+    glowColor: 'rgba(99, 102, 241, 0.45)',
+    border: '#C7D2FE',
+    hoverBorder: '#6366F1',
+    cardBg: 'linear-gradient(180deg, #FFFFFF 0%, #F5F7FF 100%)',
+    tagBg: '#EEF2FF',
+    tagColor: '#4338CA',
+  },
+  {
+    id: 'battle',
+    label: 'Quiz Battle',
+    sub: 'Live 1v1 Arena',
+    tag: 'PVP',
+    to: '/battle',
+    icon: Swords,
+    iconBg: 'linear-gradient(135deg, #C2410C 0%, #EA580C 50%, #F59E0B 100%)',
+    glowColor: 'rgba(234, 88, 12, 0.45)',
+    border: '#FED7AA',
+    hoverBorder: '#F97316',
+    cardBg: 'linear-gradient(180deg, #FFFFFF 0%, #FFF9F5 100%)',
+    tagBg: '#FFF7ED',
+    tagColor: '#C2410C',
+  },
+  {
+    id: 'leaderboard',
+    label: 'Leaderboard',
+    sub: 'Top Students',
+    tag: 'RANK #1',
+    to: '/leaderboard',
+    icon: Trophy,
+    iconBg: 'linear-gradient(135deg, #047857 0%, #10B981 50%, #FBBF24 100%)',
+    glowColor: 'rgba(16, 185, 129, 0.45)',
+    border: '#A7F3D0',
+    hoverBorder: '#10B981',
+    cardBg: 'linear-gradient(180deg, #FFFFFF 0%, #F2FDF8 100%)',
+    tagBg: '#ECFDF5',
+    tagColor: '#047857',
+  },
+  {
+    id: 'results',
+    label: 'CBT Results',
+    sub: 'Score & Analysis',
+    tag: 'REPORTS',
+    to: '/results',
+    icon: BarChart2,
+    iconBg: 'linear-gradient(135deg, #0369A1 0%, #0284C7 50%, #38BDF8 100%)',
+    glowColor: 'rgba(2, 132, 199, 0.45)',
+    border: '#BAE6FD',
+    hoverBorder: '#0284C7',
+    cardBg: 'linear-gradient(180deg, #FFFFFF 0%, #F0F9FF 100%)',
+    tagBg: '#E0F2FE',
+    tagColor: '#0369A1',
+  },
+  {
+    id: 'diagnostics',
+    label: 'Diagnostics',
+    sub: 'Clinical Cases',
+    tag: 'CLINICAL',
+    to: '/clinical-case',
+    icon: Stethoscope,
+    iconBg: 'linear-gradient(135deg, #0F766E 0%, #14B8A6 50%, #2DD4BF 100%)',
+    glowColor: 'rgba(20, 184, 166, 0.45)',
+    border: '#99F6E4',
+    hoverBorder: '#14B8A6',
+    cardBg: 'linear-gradient(180deg, #FFFFFF 0%, #F0FDFA 100%)',
+    tagBg: '#CCFBF1',
+    tagColor: '#0F766E',
+  },
+  {
+    id: 'bookmarks',
+    label: 'Bookmarks',
+    sub: 'Saved Vault',
+    tag: 'SAVED',
+    to: '/profile',
+    icon: Star,
+    iconBg: 'linear-gradient(135deg, #B45309 0%, #D97706 50%, #FBBF24 100%)',
+    glowColor: 'rgba(217, 119, 6, 0.45)',
+    border: '#FDE68A',
+    hoverBorder: '#F59E0B',
+    cardBg: 'linear-gradient(180deg, #FFFFFF 0%, #FFFDF5 100%)',
+    tagBg: '#FEF3C7',
+    tagColor: '#B45309',
+  },
+  {
+    id: 'rewards',
+    label: 'Rewards',
+    sub: 'Coupons & Cash',
+    tag: 'SPECIAL',
+    to: '/subscribe',
+    icon: Gift,
+    iconBg: 'linear-gradient(135deg, #BE123C 0%, #E11D48 50%, #FB7185 100%)',
+    glowColor: 'rgba(225, 29, 72, 0.45)',
+    border: '#FECDD3',
+    hoverBorder: '#F43F5E',
+    cardBg: 'linear-gradient(180deg, #FFFFFF 0%, #FFF5F7 100%)',
+    tagBg: '#FFE4E6',
+    tagColor: '#BE123C',
+  },
+  {
+    id: 'notes',
+    label: 'Study Notes',
+    sub: 'High-Yield Guides',
+    tag: 'GUIDES',
+    to: '/guidance',
+    icon: BookOpen,
+    iconBg: 'linear-gradient(135deg, #1D4ED8 0%, #2563EB 50%, #60A5FA 100%)',
+    glowColor: 'rgba(37, 99, 235, 0.45)',
+    border: '#BFDBFE',
+    hoverBorder: '#3B82F6',
+    cardBg: 'linear-gradient(180deg, #FFFFFF 0%, #F4F8FF 100%)',
+    tagBg: '#DBEAFE',
+    tagColor: '#1D4ED8',
+  },
+  {
+    id: 'ssmu',
+    label: 'SSMU Portal',
+    sub: 'University Site',
+    tag: 'CAMPUS',
+    href: 'https://ssmu.org',
+    icon: Globe,
+    iconBg: 'linear-gradient(135deg, #0F4C75 0%, #1A6FA8 50%, #1E40AF 100%)',
+    glowColor: 'rgba(15, 76, 117, 0.45)',
+    border: '#CBD5E1',
+    hoverBorder: '#0F4C75',
+    cardBg: 'linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%)',
+    tagBg: '#E2E8F0',
+    tagColor: '#0F4C75',
+  },
+  {
+    id: 'telegram',
+    label: 'Telegram',
+    sub: 'Community Group',
+    tag: 'CHANNEL',
+    href: 'https://t.me/mrx4u',
+    icon: Send,
+    iconBg: 'linear-gradient(135deg, #0077B5 0%, #0088CC 50%, #38BDF8 100%)',
+    glowColor: 'rgba(0, 136, 204, 0.45)',
+    border: '#BAE6FD',
+    hoverBorder: '#0088CC',
+    cardBg: 'linear-gradient(180deg, #FFFFFF 0%, #F0F9FF 100%)',
+    tagBg: '#E0F2FE',
+    tagColor: '#0077B5',
+  },
 ];
 
 const BANNERS = [
@@ -174,6 +315,112 @@ export default function HomePage() {
   const [bannerIdx, setBannerIdx] = useState(0);
   const [dailyGoal]             = useState({ done: 35, target: 50 });
   const [studyTime]             = useState({ done: 42, target: 60 });
+
+  // Live Subject Search & Speech Recognition State
+  const [searchQuery, setSearchQuery] = useState('');
+  const [isSearchFocused, setIsSearchFocused] = useState(false);
+  const [isListening, setIsListening] = useState(false);
+  const [allSubjectsList, setAllSubjectsList] = useState(ALL_SUBJECTS);
+  const searchWrapRef = useRef(null);
+
+  // Load live curriculum subjects from Supabase to merge with static list
+  useEffect(() => {
+    supabase
+      .from('subjects')
+      .select('id, title, course_id, courses(id, title)')
+      .not('title', 'ilike', '[BIN]%')
+      .then(({ data }) => {
+        if (data && data.length > 0) {
+          const supaList = data.map(s => {
+            const courseTitle = s.courses?.title || 'Course';
+            const courseNum = courseTitle.match(/\d/)?.[0] || '1';
+            return {
+              id: s.id,
+              title: s.title,
+              course: courseTitle,
+              courseId: s.course_id,
+              courseNum,
+            };
+          });
+          setAllSubjectsList(prev => {
+            const map = new Map();
+            prev.forEach(item => map.set(item.title.toLowerCase().trim(), item));
+            supaList.forEach(item => map.set(item.title.toLowerCase().trim(), item));
+            return Array.from(map.values());
+          });
+        }
+      })
+      .catch(() => {});
+  }, []);
+
+  // Close search dropdown on click outside
+  useEffect(() => {
+    function handleClickOutside(e) {
+      if (searchWrapRef.current && !searchWrapRef.current.contains(e.target)) {
+        setIsSearchFocused(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  // Voice Search Handler
+  const handleVoiceSearch = () => {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SpeechRecognition) {
+      alert("Voice search is not supported in this browser. Please type to search.");
+      return;
+    }
+    try {
+      const recognition = new SpeechRecognition();
+      recognition.lang = 'en-US';
+      recognition.interimResults = false;
+      setIsListening(true);
+      recognition.onresult = (e) => {
+        const text = e.results[0][0].transcript;
+        setSearchQuery(text);
+        setIsSearchFocused(true);
+        setIsListening(false);
+      };
+      recognition.onerror = () => setIsListening(false);
+      recognition.onend = () => setIsListening(false);
+      recognition.start();
+    } catch {
+      setIsListening(false);
+    }
+  };
+
+  // Filtered search results
+  const searchResults = searchQuery.trim().length > 0
+    ? allSubjectsList.filter(s =>
+        s.title.toLowerCase().includes(searchQuery.toLowerCase().trim()) ||
+        s.course.toLowerCase().includes(searchQuery.toLowerCase().trim())
+      ).slice(0, 8)
+    : [];
+
+  const handleSelectSubject = (s) => {
+    setIsSearchFocused(false);
+    setSearchQuery('');
+    navigate(`/subject/${s.id}`, {
+      state: {
+        title: s.title,
+        courseId: s.courseId || s.courseNum || '1',
+        courseNum: s.courseNum || s.courseId || '1',
+      }
+    });
+  };
+
+  const handleSearchKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      if (searchResults.length > 0) {
+        handleSelectSubject(searchResults[0]);
+      } else if (searchQuery.trim()) {
+        navigate('/ask-ai', { state: { initialPrompt: searchQuery } });
+      }
+    } else if (e.key === 'Escape') {
+      setIsSearchFocused(false);
+    }
+  };
 
   // Coupons, Promo Running Line & Pop-up Modal State
   const [activeCoupons, setActiveCoupons] = useState([]);
@@ -412,60 +659,121 @@ export default function HomePage() {
           </div>
         )}
 
-        {/* ═══ SECTION 1 — HERO ══════════════════════════ */}
-        <div className={styles.hero}>
-          <div className={styles.heroBg} />
-          <div className={styles.heroOrb1} />
-          <div className={styles.heroOrb2} />
-
-          <div className={styles.heroContent}>
-            <p className={styles.heroGreeting}>{greetEmoji} {greeting}, {name}!</p>
-            <h1 className={styles.heroTitle}>Your Medical Journey</h1>
-            <p className={styles.heroSub}>Keep practicing — every MCQ brings you closer to excellence.</p>
-          </div>
-
-          <div className={styles.heroBadges}>
-            <div className={styles.heroBadge}>
-              <span className={styles.heroBadgeIcon}>🔥</span>
-              <div>
-                <div className={styles.heroBadgeVal}>{animStreak}</div>
-                <div className={styles.heroBadgeLabel}>Day Streak</div>
-              </div>
-            </div>
-            <div className={styles.heroBadge}>
-              <span className={styles.heroBadgeIcon}>🏆</span>
-              <div>
-                <div className={styles.heroBadgeVal}>{rank ? `#${rank}` : '—'}</div>
-                <div className={styles.heroBadgeLabel}>Global Rank</div>
-              </div>
-            </div>
-            <div className={styles.heroBadge}>
-              <span className={styles.heroBadgeIcon}>📚</span>
-              <div>
-                <div className={styles.heroBadgeVal}>{animPoints.toLocaleString()}</div>
-                <div className={styles.heroBadgeLabel}>Points</div>
-              </div>
-            </div>
-            <div className={styles.heroBadge}>
-              <span className={styles.heroBadgeIcon}>🎯</span>
-              <div>
-                <div className={styles.heroBadgeVal}>{accuracy}%</div>
-                <div className={styles.heroBadgeLabel}>Accuracy</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* ═══ SEARCH BAR (DIRECTLY ACCESSIBLE AT TOP) ══════ */}
-        <div className={styles.searchWrap}>
+        
+        {/* ═══ FUNCTIONAL SEARCH BAR WITH LIVE SUBJECT AUTOCOMPLETE ═══ */}
+        <div className={styles.searchWrap} ref={searchWrapRef}>
           <Search size={18} className={styles.searchIcon} />
           <input
             className={styles.searchInput}
-            placeholder="Search subjects, topics, MCQs, lab tests…"
-            onClick={() => navigate('/ask-ai')}
-            readOnly
+            placeholder="Search subjects, topics, or MCQs (e.g. Anatomy, Pharmacology)..."
+            value={searchQuery}
+            onChange={(e) => {
+              setSearchQuery(e.target.value);
+              setIsSearchFocused(true);
+            }}
+            onFocus={() => setIsSearchFocused(true)}
+            onKeyDown={handleSearchKeyDown}
           />
-          <button className={styles.micBtn}><Mic size={16} /></button>
+          {searchQuery && (
+            <button
+              type="button"
+              className={styles.clearSearchBtn}
+              onClick={() => {
+                setSearchQuery('');
+                setIsSearchFocused(false);
+              }}
+              title="Clear search"
+            >
+              <X size={15} />
+            </button>
+          )}
+          <button
+            type="button"
+            className={`${styles.micBtn} ${isListening ? styles.micBtnActive : ''}`}
+            onClick={handleVoiceSearch}
+            title={isListening ? "Listening..." : "Voice Search"}
+          >
+            <Mic size={17} />
+          </button>
+
+          {/* Instant Search Results Dropdown */}
+          {isSearchFocused && searchQuery.trim().length > 0 && (
+            <div className={styles.searchDropdown}>
+              <div className={styles.searchDropdownHeader}>
+                <span>Matching Subjects ({searchResults.length})</span>
+                <span style={{ fontSize: 10, color: '#94A3B8' }}>Press Enter to Open</span>
+              </div>
+
+              {searchResults.length > 0 ? (
+                <div className={styles.searchResultsList}>
+                  {searchResults.map((s, idx) => {
+                    const cNum = s.courseNum || s.course?.match(/\d/)?.[0] || '1';
+                    const theme = COURSE_THEMES[(parseInt(cNum) - 1) % COURSE_THEMES.length];
+                    return (
+                      <div
+                        key={s.id || idx}
+                        className={styles.searchResultItem}
+                        onClick={() => handleSelectSubject(s)}
+                      >
+                        <div
+                          className={styles.searchResultIconBox}
+                          style={{ background: theme?.gradient || 'linear-gradient(135deg, #1E40AF, #3B82F6)' }}
+                        >
+                          <BookOpen size={16} color="#FFFFFF" strokeWidth={2.2} />
+                        </div>
+                        <div className={styles.searchResultInfo}>
+                          <div className={styles.searchResultTitle}>{s.title}</div>
+                          <div className={styles.searchResultSub}>
+                            <span
+                              className={styles.searchResultCourseTag}
+                              style={{ background: theme?.pillBg || '#DBEAFE', color: theme?.pillText || '#1E40AF' }}
+                            >
+                              {s.course || `${cNum} Course`}
+                            </span>
+                            <span> • Tap to open subject & MCQs</span>
+                          </div>
+                        </div>
+                        <ChevronRight size={16} color="#94A3B8" />
+                      </div>
+                    );
+                  })}
+
+                  <div
+                    className={styles.searchAskAiFooter}
+                    onClick={() => {
+                      setIsSearchFocused(false);
+                      navigate('/ask-ai', { state: { initialPrompt: searchQuery } });
+                    }}
+                  >
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                      <Brain size={16} color="#4F46E5" />
+                      <span style={{ fontSize: 12.5, fontWeight: 700, color: '#312E81' }}>
+                        Ask SAMU AI about "{searchQuery}"
+                      </span>
+                    </div>
+                    <ArrowRight size={14} color="#4F46E5" />
+                  </div>
+                </div>
+              ) : (
+                <div className={styles.searchEmptyState}>
+                  <p style={{ margin: '0 0 10px', fontSize: 13, color: '#64748B' }}>
+                    No subjects directly matching <strong>"{searchQuery}"</strong>
+                  </p>
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    style={{ fontSize: 12.5, padding: '7px 14px', borderRadius: 10, display: 'inline-flex', alignItems: 'center', gap: 6 }}
+                    onClick={() => {
+                      setIsSearchFocused(false);
+                      navigate('/ask-ai', { state: { initialPrompt: searchQuery } });
+                    }}
+                  >
+                    <Brain size={14} /> Ask SAMU AI Medical Tutor
+                  </button>
+                </div>
+              )}
+            </div>
+          )}
         </div>
 
         {/* ═══ COURSES ════════════════════════════════════ */}
@@ -646,24 +954,6 @@ export default function HomePage() {
               </div>
             </div>
           </div>
-        </div>
-
-        {/* ═══ FEATURE HUB ════════════════════════════════ */}
-        <div className={styles.sectionHeader}>
-          <span className="section-label">FEATURE HUB</span>
-        </div>
-        <div className={styles.hubGrid}>
-          {HUB_ITEMS.map(item => item.href ? (
-            <a key={item.label} href={item.href} target="_blank" rel="noopener noreferrer" className={styles.hubItem}>
-              <div className={styles.hubIcon} style={{ background: item.grad }}>{item.icon}</div>
-              <span className={styles.hubLabel}>{item.label}</span>
-            </a>
-          ) : (
-            <button key={item.label} className={styles.hubItem} onClick={() => navigate(item.to)}>
-              <div className={styles.hubIcon} style={{ background: item.grad }}>{item.icon}</div>
-              <span className={styles.hubLabel}>{item.label}</span>
-            </button>
-          ))}
         </div>
 
         {/* ═══ SHIFTED TO BOTTOM: TODAY'S TARGETS & PERFORMANCE ANALYTICS (RESTYLED THEME) ═══ */}

@@ -4,7 +4,7 @@ import { supabase } from '../lib/supabase';
 import Navbar from '../components/Navbar';
 import { ChevronRight, ArrowLeft, BookOpen, FileText, Lock, Star, Eye } from 'lucide-react';
 import styles from './CoursePage.module.css';
-import { MCQ_REPOSITORY } from '../data';
+import { MCQ_REPOSITORY, ALL_SUBJECTS } from '../data';
 import { useAuth } from '../context/AuthContext';
 
 // Subject local ID mapping (same as mobile app CURRICULUM_MAPPING)
@@ -33,6 +33,13 @@ export default function SubjectPage() {
   const courseNum = state?.courseNum || '1';
   const courseId = state?.courseId;
   const color = COURSE_COLORS[(parseInt(courseNum) - 1) % COURSE_COLORS.length];
+
+  useEffect(() => {
+    if ((!state?.title || subjectTitle === 'Subject') && subjectId) {
+      const match = ALL_SUBJECTS.find(s => s.id === subjectId);
+      if (match) setSubjectTitle(match.title);
+    }
+  }, [subjectId, state?.title]);
 
   // Determine local repo key
   const localKey = Object.entries(CURRICULUM_MAPPING).find(([name]) =>

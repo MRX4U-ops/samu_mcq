@@ -58,6 +58,8 @@ Object.keys(ACADEMIC_CURRICULUM).forEach(courseId => {
     allSubjects.push({
       id: `s-${courseId}-${index}`,
       title: subjectName,
+      courseId: courseId,
+      courseNum: courseId,
       course: `${courseId}${courseId === "1" ? "st" : courseId === "2" ? "nd" : courseId === "3" ? "rd" : "th"} Course`
     });
   });
