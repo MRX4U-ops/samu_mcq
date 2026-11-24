@@ -6,6 +6,14 @@
     "orientation": "portrait",
     "platforms": ["android", "ios", "web"],
     "userInterfaceStyle": "automatic",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 5000
+    },
     "splash": {
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"

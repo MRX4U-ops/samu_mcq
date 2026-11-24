@@ -85,12 +85,12 @@ const Payments = () => {
     e.preventDefault();
     setActionLoading(true);
     try {
-      await axiosInstance.post('/admin/payments/manual', manualForm);
+      await adminService.recordManualPayment(manualForm);
       setShowManualModal(false);
       fetchPayments();
       showToast('Offline payment recorded and subscription activated!');
     } catch (err) {
-      showToast(err.response?.data?.error || 'Failed to record manual payment', 'error');
+      showToast(err.message || 'Failed to record manual payment', 'error');
     } finally {
       setActionLoading(false);
     }

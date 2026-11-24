@@ -17,8 +17,8 @@ export default function AdminPage() {
       return 'http://localhost:5174';
     }
     const origin = window.location.origin;
-    const pathname = window.location.pathname.replace(/\/$/, '');
-    return `${origin}${pathname}/admin/index.html`;
+    const base = window.location.pathname.startsWith('/samu_mcq') ? '/samu_mcq' : '';
+    return `${origin}${base}/admin/index.html`;
   };
 
   const adminUrl = getAdminPath();

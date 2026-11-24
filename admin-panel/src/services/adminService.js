@@ -377,6 +377,27 @@ export const adminService = {
     return request;
   },
 
+  async recordManualPayment({ userId, amount = 49, transactionId = '', validityDays = 90 }) {
+    const { data: request, error: rErr } = await supabaseAdmin
+      .from('payment_requests')
+      .insert([{
+        user_id: userId,
+        amount: Number(amount) || 49,
+        transaction_id: transactionId || `MANUAL-${Date.now()}`,
+        status: 'approved',
+        admin_notes: 'Manual payment entered by super admin',
+        payment_method: 'Manual / Direct'
+      }])
+      .select()
+      .single();
+    if (rErr) throw rErr;
+
+    if (userId) {
+      await this.grantSubscription(userId, { days: validityDays, reason: 'Manual Payment Recorded' });
+    }
+    return request;
+  },
+
   // ── 6. Academic Hierarchy (Courses, Subjects, Topics) ──
   async getFullAcademicHierarchy() {
     try {

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SAMU MCQs</title>
+    <script type="text/javascript">
+      // GitHub Pages SPA redirect handler
+      var path = window.location.pathname;
+      var repoBase = '/samu_mcq';
+      var cleanPath = path.startsWith(repoBase) ? path.slice(repoBase.length) : path;
+      cleanPath = cleanPath.replace(/^\/+|\/+$/g, '');
+
+      if (cleanPath === 'admin' || cleanPath.startsWith('admin/')) {
+        // Direct to admin standalone panel
+        window.location.replace(repoBase + '/admin/index.html' + window.location.search + window.location.hash);
+      } else {
+        // Direct to main student web SPA with hash route
+        window.location.replace(repoBase + '/#/' + cleanPath + window.location.search + window.location.hash);
+      }
+    </script>
+  </head>
+  <body style="background:#0F172A;color:#94A3B8;font-family:sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;">
+    <p>Loading SAMU MCQs...</p>
+  </body>
+</html>

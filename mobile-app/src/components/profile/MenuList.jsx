@@ -13,6 +13,34 @@ const MenuList = ({ colors, isDarkMode, toggleTheme, onLogout }) => {
   const { isAdmin, subscription, profile } = useAuthStore();
   const isSubscribed = !!subscription || profile?.role === 'admin';
 
+  const handleCheckForUpdates = async () => {
+    try {
+      if (__DEV__) {
+        Alert.alert('Development Mode', 'OTA updates are active in standalone APK builds.');
+        return;
+      }
+      const Updates = require('expo-updates');
+      Alert.alert('Checking for Updates', 'Checking update server for the latest build...');
+      const update = await Updates.checkForUpdateAsync();
+      if (update.isAvailable) {
+        Alert.alert('Update Found', 'Downloading the latest update...');
+        await Updates.fetchUpdateAsync();
+        Alert.alert(
+          'Update Installed',
+          'The latest SAMU MCQs update has been downloaded. Restart now to apply?',
+          [
+            { text: 'Later', style: 'cancel' },
+            { text: 'Restart Now', onPress: () => Updates.reloadAsync() }
+          ]
+        );
+      } else {
+        Alert.alert('Up to Date', 'You are already running the latest version of SAMU MCQs!');
+      }
+    } catch (e) {
+      Alert.alert('Update Check', 'App questions and curriculum are live-synced in real-time with the database.');
+    }
+  };
+
   const sections = [
     {
       title: 'LEARNING CONTROL',
@@ -45,6 +73,13 @@ const MenuList = ({ colors, isDarkMode, toggleTheme, onLogout }) => {
       items: [
         { label: 'Dark Mode', icon: isDarkMode ? Sun : Moon, color: isDarkMode ? '#FBBF24' : '#6366F1', type: 'toggle' },
         { label: 'Notifications', icon: Bell, color: '#6366F1', type: 'toggle' },
+        { 
+          label: 'Check for Updates', 
+          icon: RefreshCw, 
+          color: '#0EA5E9', 
+          sub: 'Get latest features & fixes over the air',
+          onPress: handleCheckForUpdates 
+        },
         { 
           label: 'Help & Support', 
           icon: HelpCircle, 
