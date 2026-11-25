@@ -183,24 +183,9 @@ async function getForumTopics({ forceRefresh = false } = {}) {
   }
 }
 
-function extractLeadingNumber(str) {
-  if (!str) return null;
-  const m = String(str).trim().match(/^(\d{1,4})(?:[\s._\-:)]|$)/);
-  return m ? parseInt(m[1], 10) : null;
-}
-
 function sortMediaSequence(items) {
-  return [...items].sort((a, b) => {
-    const numA = extractLeadingNumber(a.title || a.fileName);
-    const numB = extractLeadingNumber(b.title || b.fileName);
-    if (numA !== null && numB !== null) {
-      if (numA !== numB) return numA - numB;
-      return a.id - b.id;
-    }
-    if (numA !== null) return -1;
-    if (numB !== null) return 1;
-    return a.id - b.id; // chronological (oldest/first uploaded -> newest)
-  });
+  // Exact Telegram top-to-bottom order (oldest message first -> newest message last)
+  return [...items].sort((a, b) => a.id - b.id);
 }
 
 async function getGroupMedia({ limit = 200, offsetId = 0, type = 'all', topicId = 0, forceRefresh = false } = {}) {
