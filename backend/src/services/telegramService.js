@@ -12,7 +12,7 @@ let client = null;
 let connectingPromise = null;
 let cachedEntity = null;
 const feedCache = new Map();
-const CACHE_TTL_MS = 45 * 1000;
+const CACHE_TTL_MS = 5 * 1000; // 5s short cache so Telegram adds/deletes sync live
 
 function isConfigured() {
   return Boolean(
@@ -139,10 +139,10 @@ function parseMediaMessage(msg) {
   };
 }
 
-async function getForumTopics() {
+async function getForumTopics({ forceRefresh = false } = {}) {
   const cacheKey = 'topics';
   const cached = feedCache.get(cacheKey);
-  if (cached && Date.now() - cached.ts < CACHE_TTL_MS * 2) {
+  if (!forceRefresh && cached && Date.now() - cached.ts < CACHE_TTL_MS) {
     return cached.data;
   }
 
@@ -161,13 +161,12 @@ async function getForumTopics() {
     );
 
     const topics = (res.topics || [])
-      .filter((t) => t && t.title && t.id !== 1) // exclude system 'General' empty thread if unused
+      .filter((t) => t && t.title)
       .map((t) => ({
         id: t.id,
-        title: t.title.trim(),
+        title: t.title,
         topMessage: t.topMessage || 0,
-      }))
-      .sort((a, b) => a.title.localeCompare(b.title, undefined, { sensitivity: 'base' }));
+      }));
 
     const result = {
       groupTitle: entity.title || TELEGRAM_GROUP_ID,
@@ -204,10 +203,10 @@ function sortMediaSequence(items) {
   });
 }
 
-async function getGroupMedia({ limit = 200, offsetId = 0, type = 'all', topicId = 0 } = {}) {
+async function getGroupMedia({ limit = 200, offsetId = 0, type = 'all', topicId = 0, forceRefresh = false } = {}) {
   const cacheKey = `${limit}:${offsetId}:${type}:${topicId}`;
   const cached = feedCache.get(cacheKey);
-  if (cached && Date.now() - cached.ts < CACHE_TTL_MS) {
+  if (!forceRefresh && cached && Date.now() - cached.ts < CACHE_TTL_MS) {
     return cached.data;
   }
 

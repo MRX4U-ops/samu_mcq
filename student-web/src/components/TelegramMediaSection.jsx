@@ -63,9 +63,10 @@ export default function TelegramMediaSection({ compact = false, initialLimit = 3
   const [playbackRate, setPlaybackRate] = useState(1);
   const videoRef = useRef(null);
 
-  const fetchTopics = async () => {
+  const fetchTopics = async (forceRefresh = false) => {
     try {
-      const res = await fetch(`${API_BASE_URL}/api/telegram/topics`);
+      const qs = forceRefresh ? '?refresh=1' : '';
+      const res = await fetch(`${API_BASE_URL}/api/telegram/topics${qs}`);
       if (!res.ok) return;
       const data = await res.json();
       if (data.groupTitle) setGroupTitle(data.groupTitle);
@@ -75,7 +76,7 @@ export default function TelegramMediaSection({ compact = false, initialLimit = 3
     }
   };
 
-  const fetchFeed = async (reset = true, offset = 0, selectedType = filter, topicId = selectedTopicId) => {
+  const fetchFeed = async (reset = true, offset = 0, selectedType = filter, topicId = selectedTopicId, forceRefresh = false) => {
     try {
       if (reset) {
         setLoading(true);
@@ -91,6 +92,7 @@ export default function TelegramMediaSection({ compact = false, initialLimit = 3
       });
       if (offset) params.set('offsetId', String(offset));
       if (topicId) params.set('topicId', String(topicId));
+      if (forceRefresh) params.set('refresh', '1');
 
       const res = await fetch(`${API_BASE_URL}/api/telegram/feed?${params.toString()}`);
       const data = await res.json();
@@ -164,8 +166,8 @@ export default function TelegramMediaSection({ compact = false, initialLimit = 3
             type="button"
             className={styles.refreshBtn}
             onClick={() => {
-              fetchTopics();
-              fetchFeed(true, 0, filter, selectedTopicId);
+              fetchTopics(true);
+              fetchFeed(true, 0, filter, selectedTopicId, true);
             }}
             disabled={loading}
           >

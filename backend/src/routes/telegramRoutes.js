@@ -18,7 +18,8 @@ router.get('/topics', async (req, res) => {
         topics: [],
       });
     }
-    const data = await telegramService.getForumTopics();
+    const forceRefresh = req.query.refresh === '1';
+    const data = await telegramService.getForumTopics({ forceRefresh });
     res.json({ configured: true, ...data });
   } catch (err) {
     console.error('Telegram topics error:', err.message);
@@ -40,11 +41,12 @@ router.get('/feed', async (req, res) => {
     const defaultLimit = topicId > 0 ? '300' : '40';
     const limit = Math.min(parseInt(req.query.limit || defaultLimit, 10), 500);
     const offsetId = parseInt(req.query.offsetId || '0', 10);
+    const forceRefresh = req.query.refresh === '1';
     const type = ['all', 'video', 'pdf', 'document'].includes(req.query.type)
       ? req.query.type
       : 'all';
 
-    const data = await telegramService.getGroupMedia({ limit, offsetId, type, topicId });
+    const data = await telegramService.getGroupMedia({ limit, offsetId, type, topicId, forceRefresh });
     res.json({ configured: true, ...data });
   } catch (err) {
     console.error('Telegram feed error:', err.message);
