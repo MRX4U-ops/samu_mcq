@@ -35,7 +35,7 @@ const Subscriptions = () => {
       });
       setSubscriptions(data?.subscriptions || []);
     } catch (err) {
-      showToast(err.response?.data?.error || 'Failed to fetch subscriptions', 'error');
+      showToast(err.response?.data?.error || err.message || 'Failed to fetch subscriptions', 'error');
     } finally {
       setLoading(false);
     }

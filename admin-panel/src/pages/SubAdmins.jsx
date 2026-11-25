@@ -44,7 +44,7 @@ const SubAdmins = () => {
       const { data } = await axiosInstance.get('/admin/sub-admins');
       setSubAdmins(Array.isArray(data) ? data : []);
     } catch (err) {
-      showToast(err.response?.data?.error || 'Failed to fetch sub-admins', 'error');
+      showToast(err.response?.data?.error || err.message || 'Failed to fetch sub-admins', 'error');
     } finally {
       setLoading(false);
     }

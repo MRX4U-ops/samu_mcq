@@ -34,7 +34,7 @@ const SubscriptionPlans = () => {
       const { data } = await axiosInstance.get('/admin/plans');
       setPlans(Array.isArray(data) ? data : []);
     } catch (err) {
-      showToast(err.response?.data?.error || 'Failed to load subscription plans', 'error');
+      showToast(err.response?.data?.error || err.message || 'Failed to load subscription plans', 'error');
     } finally {
       setLoading(false);
     }

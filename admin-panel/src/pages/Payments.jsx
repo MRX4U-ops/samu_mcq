@@ -68,7 +68,7 @@ const Payments = () => {
       setRequests(data?.payments || []);
       if (data?.stats) setStats(data.stats);
     } catch (err) {
-      showToast(err.response?.data?.error || 'Failed to load payment records', 'error');
+      showToast(err.response?.data?.error || err.message || 'Failed to load payment records', 'error');
     } finally {
       setLoading(false);
     }
