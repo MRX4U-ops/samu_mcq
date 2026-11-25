@@ -291,7 +291,13 @@ async function streamMedia(messageId, req, res) {
     mimeType = 'application/pdf';
   }
 
-  const isDownload = req.query.download === '1';
+  const isVideoStream = mimeType.startsWith('video/') || /\.(mp4|mkv|webm|mov|avi)$/i.test(fileName);
+  // Block direct download or opening video stream URL directly in a browser tab
+  if (isVideoStream && (req.query.download === '1' || (req.headers.accept && req.headers.accept.includes('text/html') && !req.headers.range))) {
+    return res.status(403).json({ error: 'Video downloading is disabled.' });
+  }
+
+  const isDownload = !isVideoStream && req.query.download === '1';
   const disposition = isDownload ? 'attachment' : 'inline';
 
   const rangeHeader = req.headers.range;

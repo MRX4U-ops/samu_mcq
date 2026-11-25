@@ -388,15 +388,17 @@ export default function TelegramMediaSection({ compact = false, initialLimit = 3
                         </>
                       )}
                     </button>
-                    <a
-                      href={streamUrl(item.id, true)}
-                      download={item.fileName || undefined}
-                      className={styles.downloadIconBtn}
-                      title="Download"
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      <Download size={15} />
-                    </a>
+                    {item.type !== 'video' && (
+                      <a
+                        href={streamUrl(item.id, true)}
+                        download={item.fileName || undefined}
+                        className={styles.downloadIconBtn}
+                        title="Download PDF"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        <Download size={15} />
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
@@ -431,23 +433,27 @@ export default function TelegramMediaSection({ compact = false, initialLimit = 3
               </div>
 
               <div className={styles.modalHeaderBtns}>
-                <a
-                  href={streamUrl(activeMedia.id, true)}
-                  download={activeMedia.fileName || undefined}
-                  className={styles.modalDownloadBtn}
-                >
-                  <Download size={14} />
-                  <span>Download</span>
-                </a>
-                <a
-                  href={streamUrl(activeMedia.id, false)}
-                  target="_blank"
-                  rel="noreferrer"
-                  className={styles.modalDownloadBtn}
-                >
-                  <ExternalLink size={14} />
-                  <span>New Tab</span>
-                </a>
+                {activeMedia.type !== 'video' && (
+                  <>
+                    <a
+                      href={streamUrl(activeMedia.id, true)}
+                      download={activeMedia.fileName || undefined}
+                      className={styles.modalDownloadBtn}
+                    >
+                      <Download size={14} />
+                      <span>Download</span>
+                    </a>
+                    <a
+                      href={streamUrl(activeMedia.id, false)}
+                      target="_blank"
+                      rel="noreferrer"
+                      className={styles.modalDownloadBtn}
+                    >
+                      <ExternalLink size={14} />
+                      <span>New Tab</span>
+                    </a>
+                  </>
+                )}
                 <button
                   type="button"
                   className={styles.modalCloseBtn}
@@ -459,7 +465,7 @@ export default function TelegramMediaSection({ compact = false, initialLimit = 3
               </div>
             </div>
 
-            <div className={styles.playerStage}>
+            <div className={styles.playerStage} onContextMenu={(e) => e.preventDefault()}>
               {activeMedia.type === 'video' ? (
                 <>
                   <video
@@ -467,6 +473,9 @@ export default function TelegramMediaSection({ compact = false, initialLimit = 3
                     key={activeMedia.id}
                     src={streamUrl(activeMedia.id)}
                     controls
+                    controlsList="nodownload"
+                    disablePictureInPicture
+                    onContextMenu={(e) => e.preventDefault()}
                     autoPlay
                     playsInline
                     className={styles.videoPlayer}
