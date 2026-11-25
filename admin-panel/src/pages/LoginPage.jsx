@@ -18,17 +18,23 @@ const LoginPage = () => {
   const setAuth = useAuthStore(state => state.setAuth);
 
   React.useEffect(() => {
-    supabase.auth.getSession().then(({ data: { session } }) => {
+    supabase.auth.getSession().then(async ({ data: { session } }) => {
       if (session?.user) {
         const cleanEmail = session.user.email?.toLowerCase();
         const isSuper = cleanEmail === SUPER_ADMIN_EMAIL;
-        if (isSuper) {
+        let prof = null;
+        if (!isSuper) {
+          const { data: p } = await supabase.from('profiles').select('*').eq('id', session.user.id).maybeSingle();
+          prof = p;
+        }
+        if (isSuper || prof?.role === 'admin' || prof?.role === 'super_admin') {
           const adminProfile = {
+            ...(prof || {}),
             id: session.user.id,
             email: session.user.email,
-            name: 'Sameer Ahmad',
-            role: 'super_admin',
-            isSuperAdmin: true
+            name: prof?.name || (isSuper ? 'Sameer Ahmad' : 'Admin'),
+            role: isSuper ? 'super_admin' : prof.role,
+            isSuperAdmin: isSuper,
           };
           setAuth(adminProfile, session.access_token);
           navigate('/');

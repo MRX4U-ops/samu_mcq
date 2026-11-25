@@ -310,7 +310,11 @@ const MCQScreen = ({ route, navigation }) => {
 
       // 3. NETWORK FALLBACK
       try {
-        const response = await fetch(`${API_URL}/mcqs?topicId=${topicId}&taskType=${taskType}`);
+        const { data: { session } } = await supabase.auth.getSession();
+        const token = session?.access_token;
+        const response = await fetch(`${API_URL}/mcqs?topicId=${topicId}&taskType=${taskType}`, {
+          headers: token ? { Authorization: `Bearer ${token}` } : {},
+        });
         if (!response.ok) throw new Error('Server error');
         let data = await response.json();
         

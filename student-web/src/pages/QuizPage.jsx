@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
+import { useAuth } from '../context/AuthContext';
 import { MCQ_REPOSITORY } from '../data/index.js';
 import { recordAttempt } from '../lib/revisionEngine';
 import Navbar from '../components/Navbar';
@@ -28,6 +29,7 @@ const cleanOption = (opt) => {
 export default function QuizPage() {
   const { state } = useLocation();
   const navigate = useNavigate();
+  const { isSubscribed } = useAuth();
   const { topicId, subjectId, title = 'Quiz', mode = 'test' } = state || {};
 
   const [questions, setQuestions] = useState([]);
@@ -44,8 +46,9 @@ export default function QuizPage() {
   // Load questions
   useEffect(() => {
     if (!state) { navigate('/home'); return; }
+    if (!isSubscribed) { navigate('/subscribe'); return; }
     loadQuestions();
-  }, []);
+  }, [isSubscribed]);
 
   // Timer
   useEffect(() => {
@@ -166,7 +169,16 @@ export default function QuizPage() {
       // NOTE: Backend already shuffles options and returns the correct correctIndex.
       // We must NOT re-shuffle here — just clean option text and use correctIndex as-is.
       try {
-        const res = await fetch(`https://samu-mcqs.onrender.com/api/mcqs?topicId=${targetTopicId}&taskType=${taskType}`);
+        const { data: { session } } = await supabase.auth.getSession();
+        const token = session?.access_token;
+        const res = await fetch(`https://samu-mcqs.onrender.com/api/mcqs?topicId=${targetTopicId}&taskType=${taskType}`, {
+          headers: token ? { Authorization: `Bearer ${token}` } : {},
+        });
+        if (res.status === 401 || res.status === 403) {
+          setError('Active subscription required to access MCQs.');
+          setLoading(false);
+          return;
+        }
         if (res.ok) {
           const apiData = await res.json();
           if (Array.isArray(apiData) && apiData.length > 0) {

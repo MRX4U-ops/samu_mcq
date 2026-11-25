@@ -21,6 +21,7 @@ export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
   const [profile, setProfile] = useState(null);
   const [subscription, setSubscription] = useState(null);
+  const [subscriptionState, setSubscriptionState] = useState(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -104,9 +105,16 @@ export function AuthProvider({ children }) {
     const isSuper = isSuperAdminEmail(emailToCheck);
 
     try {
-      const [profileRes, subRes] = await Promise.all([
+      const { data: { session } } = await supabase.auth.getSession();
+      const token = session?.access_token;
+      const [profileRes, subRes, subApiRes] = await Promise.all([
         supabase.from('profiles').select('*').eq('id', userId).maybeSingle(),
-        supabase.from('subscriptions').select('*').eq('user_id', userId).eq('status', 'active').maybeSingle()
+        supabase.from('subscriptions').select('*').eq('user_id', userId).eq('status', 'active').maybeSingle(),
+        token
+          ? fetch(`${API_BASE_URL}/api/payments/my-subscription`, {
+              headers: { Authorization: `Bearer ${token}` },
+            }).then((r) => (r.ok ? r.json() : null)).catch(() => null)
+          : Promise.resolve(null),
       ]);
 
       if (profileRes.data?.status === 'blocked') {
@@ -128,6 +136,13 @@ export function AuthProvider({ children }) {
       }
 
       let sub = subRes.data;
+      // Enforce real expiry check client-side too
+      if (sub && sub.end_date && new Date(sub.end_date) <= new Date()) {
+        sub = null;
+      }
+      if (subApiRes && !subApiRes.isActive && !isSuper && prof?.role !== 'admin') {
+        sub = null;
+      }
       if ((isSuper || prof?.role === 'admin') && !sub) {
         sub = {
           id: 'lifetime-admin-sub',
@@ -142,6 +157,7 @@ export function AuthProvider({ children }) {
 
       setProfile(prof);
       setSubscription(sub);
+      if (subApiRes) setSubscriptionState(subApiRes);
     } catch (e) {
       console.error('Fetch user data error:', e);
       if (isSuper) {
@@ -310,6 +326,7 @@ export function AuthProvider({ children }) {
     setUser(null);
     setProfile(null);
     setSubscription(null);
+    setSubscriptionState(null);
     setLoading(false);
   }
 
@@ -319,11 +336,12 @@ export function AuthProvider({ children }) {
   }
 
   const isSuperAdmin = isSuperAdminEmail(user?.email) || profile?.role === 'admin' || profile?.isSuperAdmin;
-  const isSubscribed = !!subscription || isSuperAdmin;
+  const hasValidSubDates = Boolean(subscription && subscription.status === 'active' && (!subscription.end_date || new Date(subscription.end_date) > new Date()));
+  const isSubscribed = (subscriptionState ? Boolean(subscriptionState.isActive) : hasValidSubDates) || isSuperAdmin;
 
   return (
     <AuthContext.Provider value={{ 
-      user, profile, subscription, loading, isSubscribed, isSuperAdmin,
+      user, profile, subscription, subscriptionState, loading, isSubscribed, isSuperAdmin,
       signIn, signUp, signOut, verifyOTP, resendOTP, resetPassword, updatePassword,
       updateUserProfile, refreshSubscription
     }}>

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Bot, Send, Image as ImageIcon, X, ChevronLeft, Loader, BrainCircuit } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import { useAuth } from '../context/AuthContext';
+import { supabase } from '../lib/supabase';
 import styles from './AskAIPage.module.css';
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://samu-mcqs.onrender.com';
@@ -71,11 +72,17 @@ export default function AskAIPage() {
     setIsLoading(true);
 
     try {
+      const { data: { session } } = await supabase.auth.getSession();
+      const token = session?.access_token;
+      const authHeaders = {
+        'Content-Type': 'application/json',
+        ...(token ? { Authorization: `Bearer ${token}` } : {}),
+      };
       let response;
       if (requestImage) {
         response = await fetch(`${API_BASE_URL}/api/ai/analyze-image`, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: authHeaders,
           body: JSON.stringify({
             imageBase64: requestImage,
             prompt: requestText || 'Please analyze this medical image.'
@@ -84,7 +91,7 @@ export default function AskAIPage() {
       } else {
         response = await fetch(`${API_BASE_URL}/api/ai/ask`, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: authHeaders,
           body: JSON.stringify({
             question: requestText,
             language: 'English'

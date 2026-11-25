@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const battleEngine = require('../services/battleEngine');
+const { protect, requireActiveSubscription } = require('../middleware/authMiddleware');
 const MEDICAL_CHEMISTRY_MCQS = require('../data/chemistryData');
 const BIOCHEMISTRY_MCQS = require('../data/biochemistryData');
 const ANATOMY_MCQS = require('../data/anatomyData');
@@ -63,8 +64,8 @@ const CURRICULUM_MAPPING = {
 
 // @route   POST /api/battle/create
 // @desc    Create a new battle room
-// @access  Public
-router.post('/create', async (req, res) => {
+// @access  Protected (Active Subscription Required)
+router.post('/create', protect, requireActiveSubscription, async (req, res) => {
   try {
     const { courseId, subjectId, topicId, taskType, maxPlayers, hostUserId } = req.body;
     

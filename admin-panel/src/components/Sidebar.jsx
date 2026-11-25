@@ -16,6 +16,7 @@ const Sidebar = ({ isOpen, onClose }) => {
   const navItems = [
     { name: 'Dashboard', path: '/', icon: LayoutDashboard },
     { name: 'User Management', path: '/users', icon: Users },
+    { name: 'Subscription Plans', path: '/plans', icon: Sparkles },
     { name: 'Subscriptions', path: '/subscriptions', icon: ShieldCheck },
     { name: 'Coupons & Promos', path: '/coupons', icon: Ticket },
     { name: 'Payment Requests', path: '/payments', icon: CreditCard },

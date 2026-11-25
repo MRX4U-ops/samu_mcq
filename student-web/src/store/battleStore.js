@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { io } from 'socket.io-client';
+import { supabase } from '../lib/supabase';
 
 const API_URL = import.meta.env.VITE_API_BASE_URL || 'https://samu-mcqs.onrender.com';
 const SOCKET_URL = API_URL.replace('/api', '');
@@ -151,9 +152,14 @@ export const useBattleStore = create((set, get) => ({
       const socket = await get().connectSocket();
       const payload = { ...params, hostUserId: userId };
       
+      const { data: { session } } = await supabase.auth.getSession();
+      const token = session?.access_token;
       const response = await fetch(`${API_URL}/api/battle/create`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        },
         body: JSON.stringify(payload)
       });
       const data = await response.json();

@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { supabaseAdmin } = require('../config/supabase');
+const { protect, requireActiveSubscription } = require('../middleware/authMiddleware');
 
 // Get All Courses
 router.get('/courses', async (req, res) => {
@@ -170,8 +171,8 @@ const CURRICULUM_MAPPING = {
   ]
 };
 
-// Get MCQs by Topic
-router.get('/mcqs', async (req, res) => {
+// Get MCQs by Topic (Protected + Active Subscription Required)
+router.get('/mcqs', protect, requireActiveSubscription, async (req, res) => {
   const { topicId, taskType } = req.query;
   try {
     if (!topicId) {
