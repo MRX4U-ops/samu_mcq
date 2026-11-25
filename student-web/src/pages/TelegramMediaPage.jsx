@@ -48,7 +48,9 @@ function formatDate(iso) {
 
 export default function TelegramMediaPage() {
   const [items, setItems] = useState([]);
-  const [groupTitle, setGroupTitle] = useState('Study Group Library');
+  const [topics, setTopics] = useState([]);
+  const [selectedTopicId, setSelectedTopicId] = useState(0);
+  const [groupTitle, setGroupTitle] = useState('SAMU TIGERS Library');
   const [filter, setFilter] = useState('all'); // 'all' | 'video' | 'pdf'
   const [search, setSearch] = useState('');
   const [loading, setLoading] = useState(true);
@@ -62,7 +64,19 @@ export default function TelegramMediaPage() {
   const [playbackRate, setPlaybackRate] = useState(1);
   const videoRef = useRef(null);
 
-  const fetchFeed = async (reset = true, offset = 0, selectedType = filter) => {
+  const fetchTopics = async () => {
+    try {
+      const res = await fetch(`${API_BASE_URL}/api/telegram/topics`);
+      if (!res.ok) return;
+      const data = await res.json();
+      if (data.groupTitle) setGroupTitle(data.groupTitle);
+      if (Array.isArray(data.topics)) setTopics(data.topics);
+    } catch {
+      // ignore topic load error; feed handles status
+    }
+  };
+
+  const fetchFeed = async (reset = true, offset = 0, selectedType = filter, topicId = selectedTopicId) => {
     try {
       if (reset) {
         setLoading(true);
@@ -76,6 +90,7 @@ export default function TelegramMediaPage() {
         type: selectedType,
       });
       if (offset) params.set('offsetId', String(offset));
+      if (topicId) params.set('topicId', String(topicId));
 
       const res = await fetch(`${API_BASE_URL}/api/telegram/feed?${params.toString()}`);
       const data = await res.json();
@@ -104,8 +119,12 @@ export default function TelegramMediaPage() {
   };
 
   useEffect(() => {
-    fetchFeed(true, 0, filter);
-  }, [filter]);
+    fetchTopics();
+  }, []);
+
+  useEffect(() => {
+    fetchFeed(true, 0, filter, selectedTopicId);
+  }, [filter, selectedTopicId]);
 
   useEffect(() => {
     if (videoRef.current) {
@@ -160,6 +179,30 @@ export default function TelegramMediaPage() {
             </div>
           </div>
         </div>
+
+        {/* Subject Topics Bar (for Forum Groups like SAMU TIGERS) */}
+        {topics.length > 0 && (
+          <div className={styles.topicsSection}>
+            <div className={styles.topicsLabel}>Subjects / Topics</div>
+            <div className={styles.topicsRow}>
+              <button
+                className={`${styles.topicChip} ${selectedTopicId === 0 ? styles.topicChipActive : ''}`}
+                onClick={() => setSelectedTopicId(0)}
+              >
+                All Subjects
+              </button>
+              {topics.map((t) => (
+                <button
+                  key={t.id}
+                  className={`${styles.topicChip} ${selectedTopicId === t.id ? styles.topicChipActive : ''}`}
+                  onClick={() => setSelectedTopicId(t.id)}
+                >
+                  {t.title}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Controls */}
         <div className={styles.controls}>
@@ -364,7 +407,7 @@ export default function TelegramMediaPage() {
               <div className={styles.loadMoreWrap}>
                 <button
                   className={styles.loadMoreBtn}
-                  onClick={() => fetchFeed(false, nextOffsetId, filter)}
+                  onClick={() => fetchFeed(false, nextOffsetId, filter, selectedTopicId)}
                   disabled={loadingMore}
                 >
                   {loadingMore ? 'Loading...' : 'Load Older Posts'}

@@ -88,6 +88,51 @@
   color: rgba(255, 255, 255, 0.9) !important;
 }
 
+/* Subject Topics Bar */
+.topicsSection {
+  margin-bottom: 18px;
+}
+
+.topicsLabel {
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: #475569;
+  margin-bottom: 8px;
+}
+
+.topicsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.topicChip {
+  padding: 7px 14px;
+  border-radius: 10px;
+  border: 1.5px solid #cbd5e1;
+  background: #ffffff;
+  color: #1e293b !important;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.16s ease;
+}
+
+.topicChip:hover {
+  border-color: #0284c7;
+  color: #0369a1 !important;
+  background: #f0f9ff;
+}
+
+.topicChipActive {
+  background: #0f4c75;
+  border-color: #0f4c75;
+  color: #ffffff !important;
+  box-shadow: 0 4px 10px rgba(15, 76, 117, 0.25);
+}
+
 /* Controls */
 .controls {
   display: flex;

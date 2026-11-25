@@ -9,7 +9,24 @@ router.get('/status', (req, res) => {
   });
 });
 
-// GET /api/telegram/feed?limit=30&offsetId=0&type=all
+// GET /api/telegram/topics
+router.get('/topics', async (req, res) => {
+  try {
+    if (!telegramService.isConfigured()) {
+      return res.status(503).json({
+        configured: false,
+        topics: [],
+      });
+    }
+    const data = await telegramService.getForumTopics();
+    res.json({ configured: true, ...data });
+  } catch (err) {
+    console.error('Telegram topics error:', err.message);
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// GET /api/telegram/feed?limit=30&offsetId=0&type=all&topicId=0
 router.get('/feed', async (req, res) => {
   try {
     if (!telegramService.isConfigured()) {
@@ -21,11 +38,12 @@ router.get('/feed', async (req, res) => {
 
     const limit = Math.min(parseInt(req.query.limit || '30', 10), 80);
     const offsetId = parseInt(req.query.offsetId || '0', 10);
+    const topicId = parseInt(req.query.topicId || '0', 10);
     const type = ['all', 'video', 'pdf', 'document'].includes(req.query.type)
       ? req.query.type
       : 'all';
 
-    const data = await telegramService.getGroupMedia({ limit, offsetId, type });
+    const data = await telegramService.getGroupMedia({ limit, offsetId, type, topicId });
     res.json({ configured: true, ...data });
   } catch (err) {
     console.error('Telegram feed error:', err.message);

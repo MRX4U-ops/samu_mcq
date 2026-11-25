@@ -1,4 +1,4 @@
-const { TelegramClient } = require('telegram');
+const { TelegramClient, Api } = require('telegram');
 const { StringSession } = require('telegram/sessions');
 const bigInt = require('big-integer');
 const {
@@ -139,8 +139,52 @@ function parseMediaMessage(msg) {
   };
 }
 
-async function getGroupMedia({ limit = 40, offsetId = 0, type = 'all' } = {}) {
-  const cacheKey = `${limit}:${offsetId}:${type}`;
+async function getForumTopics() {
+  const cacheKey = 'topics';
+  const cached = feedCache.get(cacheKey);
+  if (cached && Date.now() - cached.ts < CACHE_TTL_MS * 2) {
+    return cached.data;
+  }
+
+  const tgClient = await getClient();
+  const entity = await getGroupEntity();
+
+  try {
+    const res = await tgClient.invoke(
+      new Api.channels.GetForumTopics({
+        channel: entity,
+        offsetDate: 0,
+        offsetId: 0,
+        offsetTopic: 0,
+        limit: 100,
+      })
+    );
+
+    const topics = (res.topics || [])
+      .filter((t) => t && t.title)
+      .map((t) => ({
+        id: t.id,
+        title: t.title,
+        topMessage: t.topMessage || 0,
+      }));
+
+    const result = {
+      groupTitle: entity.title || TELEGRAM_GROUP_ID,
+      topics,
+    };
+    feedCache.set(cacheKey, { ts: Date.now(), data: result });
+    return result;
+  } catch (err) {
+    // Group may not have Topics/Forum enabled
+    return {
+      groupTitle: entity.title || TELEGRAM_GROUP_ID,
+      topics: [],
+    };
+  }
+}
+
+async function getGroupMedia({ limit = 40, offsetId = 0, type = 'all', topicId = 0 } = {}) {
+  const cacheKey = `${limit}:${offsetId}:${type}:${topicId}`;
   const cached = feedCache.get(cacheKey);
   if (cached && Date.now() - cached.ts < CACHE_TTL_MS) {
     return cached.data;
@@ -151,10 +195,15 @@ async function getGroupMedia({ limit = 40, offsetId = 0, type = 'all' } = {}) {
 
   // Fetch a slightly larger batch if filtering so user gets enough items
   const fetchLimit = type === 'all' ? Math.min(limit * 2, 100) : Math.min(limit * 3, 120);
-  const messages = await tgClient.getMessages(entity, {
+  const queryOpts = {
     limit: fetchLimit,
     offsetId: offsetId ? Number(offsetId) : undefined,
-  });
+  };
+  if (topicId && Number(topicId) > 0) {
+    queryOpts.replyTo = Number(topicId);
+  }
+
+  const messages = await tgClient.getMessages(entity, queryOpts);
 
   const items = [];
   let oldestMessageId = null;
@@ -316,6 +365,7 @@ async function getThumbnail(messageId, res) {
 
 module.exports = {
   isConfigured,
+  getForumTopics,
   getGroupMedia,
   streamMedia,
   getThumbnail,
