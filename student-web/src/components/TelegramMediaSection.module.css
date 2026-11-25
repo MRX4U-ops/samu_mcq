@@ -79,12 +79,44 @@
   margin-bottom: 14px;
 }
 
+.topicsHeaderRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.topicsCount {
+  font-size: 12px;
+  font-weight: 800;
+  color: #334155 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.toggleTopicsBtn {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  color: #1d4ed8 !important;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
 .topicsRow {
   display: flex;
   gap: 8px;
   overflow-x: auto;
   padding-bottom: 6px;
   scrollbar-width: thin;
+}
+
+.topicsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .topicChip {

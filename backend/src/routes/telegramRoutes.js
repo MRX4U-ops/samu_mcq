@@ -36,9 +36,10 @@ router.get('/feed', async (req, res) => {
       });
     }
 
-    const limit = Math.min(parseInt(req.query.limit || '30', 10), 80);
-    const offsetId = parseInt(req.query.offsetId || '0', 10);
     const topicId = parseInt(req.query.topicId || '0', 10);
+    const defaultLimit = topicId > 0 ? '300' : '40';
+    const limit = Math.min(parseInt(req.query.limit || defaultLimit, 10), 500);
+    const offsetId = parseInt(req.query.offsetId || '0', 10);
     const type = ['all', 'video', 'pdf', 'document'].includes(req.query.type)
       ? req.query.type
       : 'all';

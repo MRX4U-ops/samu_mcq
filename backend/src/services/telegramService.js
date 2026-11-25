@@ -161,12 +161,13 @@ async function getForumTopics() {
     );
 
     const topics = (res.topics || [])
-      .filter((t) => t && t.title)
+      .filter((t) => t && t.title && t.id !== 1) // exclude system 'General' empty thread if unused
       .map((t) => ({
         id: t.id,
-        title: t.title,
+        title: t.title.trim(),
         topMessage: t.topMessage || 0,
-      }));
+      }))
+      .sort((a, b) => a.title.localeCompare(b.title, undefined, { sensitivity: 'base' }));
 
     const result = {
       groupTitle: entity.title || TELEGRAM_GROUP_ID,
@@ -183,7 +184,27 @@ async function getForumTopics() {
   }
 }
 
-async function getGroupMedia({ limit = 40, offsetId = 0, type = 'all', topicId = 0 } = {}) {
+function extractLeadingNumber(str) {
+  if (!str) return null;
+  const m = String(str).trim().match(/^(\d{1,4})(?:[\s._\-:)]|$)/);
+  return m ? parseInt(m[1], 10) : null;
+}
+
+function sortMediaSequence(items) {
+  return [...items].sort((a, b) => {
+    const numA = extractLeadingNumber(a.title || a.fileName);
+    const numB = extractLeadingNumber(b.title || b.fileName);
+    if (numA !== null && numB !== null) {
+      if (numA !== numB) return numA - numB;
+      return a.id - b.id;
+    }
+    if (numA !== null) return -1;
+    if (numB !== null) return 1;
+    return a.id - b.id; // chronological (oldest/first uploaded -> newest)
+  });
+}
+
+async function getGroupMedia({ limit = 200, offsetId = 0, type = 'all', topicId = 0 } = {}) {
   const cacheKey = `${limit}:${offsetId}:${type}:${topicId}`;
   const cached = feedCache.get(cacheKey);
   if (cached && Date.now() - cached.ts < CACHE_TTL_MS) {
@@ -193,35 +214,53 @@ async function getGroupMedia({ limit = 40, offsetId = 0, type = 'all', topicId =
   const tgClient = await getClient();
   const entity = await getGroupEntity();
 
-  // Fetch a slightly larger batch if filtering so user gets enough items
-  const fetchLimit = type === 'all' ? Math.min(limit * 2, 100) : Math.min(limit * 3, 120);
-  const queryOpts = {
-    limit: fetchLimit,
-    offsetId: offsetId ? Number(offsetId) : undefined,
-  };
-  if (topicId && Number(topicId) > 0) {
-    queryOpts.replyTo = Number(topicId);
-  }
-
-  const messages = await tgClient.getMessages(entity, queryOpts);
+  const isTopicQuery = Boolean(topicId && Number(topicId) > 0);
+  const maxItems = isTopicQuery ? Math.min(limit, 500) : Math.min(limit, 100);
 
   const items = [];
+  let currentOffset = offsetId ? Number(offsetId) : 0;
+  let lastBatchCount = 0;
   let oldestMessageId = null;
 
-  for (const msg of messages) {
-    oldestMessageId = msg.id;
-    const parsed = parseMediaMessage(msg);
-    if (!parsed) continue;
-    if (type !== 'all' && parsed.type !== type) continue;
-    items.push(parsed);
-    if (items.length >= limit) break;
+  // Paginate through batches of 100 so all items in a subject topic are retrieved
+  const maxRounds = isTopicQuery ? 6 : 2;
+  for (let round = 0; round < maxRounds; round++) {
+    const batchSize = 100;
+    const queryOpts = {
+      limit: batchSize,
+      offsetId: currentOffset || undefined,
+    };
+    if (isTopicQuery) {
+      queryOpts.replyTo = Number(topicId);
+    }
+
+    const messages = await tgClient.getMessages(entity, queryOpts);
+    lastBatchCount = messages.length;
+    if (messages.length === 0) break;
+
+    for (const msg of messages) {
+      oldestMessageId = msg.id;
+      const parsed = parseMediaMessage(msg);
+      if (!parsed) continue;
+      if (type !== 'all' && parsed.type !== type) continue;
+      items.push(parsed);
+      if (items.length >= maxItems) break;
+    }
+
+    currentOffset = oldestMessageId;
+    if (items.length >= maxItems || messages.length < batchSize) {
+      break;
+    }
   }
+
+  // Put lectures in proper 1, 2, 3... sequence when viewing a subject topic
+  const finalItems = isTopicQuery ? sortMediaSequence(items) : items;
 
   const result = {
     groupTitle: entity.title || TELEGRAM_GROUP_ID,
-    items,
-    nextOffsetId: messages.length > 0 ? oldestMessageId : null,
-    hasMore: messages.length === fetchLimit,
+    items: finalItems,
+    nextOffsetId: oldestMessageId,
+    hasMore: !isTopicQuery && lastBatchCount === 100,
   };
 
   feedCache.set(cacheKey, { ts: Date.now(), data: result });

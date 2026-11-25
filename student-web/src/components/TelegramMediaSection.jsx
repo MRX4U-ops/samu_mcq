@@ -44,10 +44,11 @@ function formatDate(iso) {
   }
 }
 
-export default function TelegramMediaSection({ compact = false, initialLimit = 12 }) {
+export default function TelegramMediaSection({ compact = false, initialLimit = 300 }) {
   const [items, setItems] = useState([]);
   const [topics, setTopics] = useState([]);
   const [selectedTopicId, setSelectedTopicId] = useState(0);
+  const [showAllTopics, setShowAllTopics] = useState(false);
   const [groupTitle, setGroupTitle] = useState('SAMU TIGERS');
   const [filter, setFilter] = useState('all'); // 'all' | 'video' | 'pdf'
   const [search, setSearch] = useState('');
@@ -83,8 +84,9 @@ export default function TelegramMediaSection({ compact = false, initialLimit = 1
         setLoadingMore(true);
       }
 
+      const limitToFetch = topicId > 0 ? Math.max(initialLimit, 300) : 40;
       const params = new URLSearchParams({
-        limit: String(initialLimit),
+        limit: String(limitToFetch),
         type: selectedType,
       });
       if (offset) params.set('offsetId', String(offset));
@@ -182,7 +184,19 @@ export default function TelegramMediaSection({ compact = false, initialLimit = 1
       {/* Subject Topics Bar */}
       {topics.length > 0 && (
         <div className={styles.topicsSection}>
-          <div className={styles.topicsRow}>
+          <div className={styles.topicsHeaderRow}>
+            <span className={styles.topicsCount}>Subjects ({topics.length})</span>
+            {topics.length > 10 && (
+              <button
+                type="button"
+                className={styles.toggleTopicsBtn}
+                onClick={() => setShowAllTopics((v) => !v)}
+              >
+                {showAllTopics ? 'Show Less ▲' : `Show All ${topics.length} Subjects ▼`}
+              </button>
+            )}
+          </div>
+          <div className={showAllTopics ? styles.topicsGrid : styles.topicsRow}>
             <button
               type="button"
               className={`${styles.topicChip} ${selectedTopicId === 0 ? styles.topicChipActive : ''}`}

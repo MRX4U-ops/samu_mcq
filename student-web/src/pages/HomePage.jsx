@@ -940,7 +940,7 @@ export default function HomePage() {
         </div>
 
         {/* ═══ SAMU TIGERS TELEGRAM MEDIA (VIDEO & PDFs DIRECTLY ON HOME) ═══ */}
-        <TelegramMediaSection compact initialLimit={12} />
+        <TelegramMediaSection compact initialLimit={300} />
 
         {/* ═══ AI INSIGHTS ════════════════════════════════ */}
         <div className={styles.aiInsightCard}>
