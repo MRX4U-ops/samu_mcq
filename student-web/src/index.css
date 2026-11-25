@@ -424,3 +424,7 @@ h1, h2, h3 {
 p, li, span {
   color: var(--color-text-secondary);
 }
+
+button span, .btn span, a span, [role="button"] span {
+  color: inherit !important;
+}

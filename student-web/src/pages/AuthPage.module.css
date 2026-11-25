@@ -244,16 +244,21 @@
   border-radius: 10px;
   font-size: 13.5px;
   font-weight: 700;
-  color: #64748b;
+  color: #334155;
   cursor: pointer;
   transition: all 0.2s ease;
   font-family: inherit;
 }
 
+.toggleBtn:hover {
+  color: #0f172a;
+}
+
 .toggleBtnActive {
   background: #ffffff;
-  color: #0f4c75;
-  box-shadow: 0 2px 10px rgba(15, 76, 117, 0.12);
+  color: #1d4ed8;
+  font-weight: 800;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 /* ── Alerts ── */
@@ -301,16 +306,16 @@
 }
 
 .fieldLabel {
-  font-size: 12.5px;
-  font-weight: 700;
-  color: #1e293b;
+  font-size: 13px;
+  font-weight: 800;
+  color: #0f172a;
   letter-spacing: 0.1px;
 }
 
 .forgotBtn {
   background: none;
   border: none;
-  color: #1a6fa8;
+  color: #2563eb;
   font-size: 12.5px;
   font-weight: 700;
   cursor: pointer;
@@ -320,7 +325,7 @@
 }
 
 .forgotBtn:hover {
-  color: #0f4c75;
+  color: #1d4ed8;
   text-decoration: underline;
 }
 
@@ -331,7 +336,7 @@
 .fieldInput {
   width: 100%;
   padding: 12px 14px 12px 42px;
-  background: #f8fafc;
+  background: #ffffff;
   border: 1.5px solid #cbd5e1;
   border-radius: 12px;
   font-size: 14.5px;
@@ -349,9 +354,9 @@
 }
 
 .fieldInput:focus {
-  border-color: #1a6fa8;
+  border-color: #2563eb;
   background: #ffffff;
-  box-shadow: 0 0 0 3.5px rgba(26, 111, 168, 0.15);
+  box-shadow: 0 0 0 3.5px rgba(37, 99, 235, 0.18);
 }
 
 .otpInput {
@@ -367,7 +372,7 @@
   left: 14px;
   top: 50%;
   transform: translateY(-50%);
-  color: #1a6fa8;
+  color: #2563eb;
   pointer-events: none;
 }
 
@@ -378,7 +383,7 @@
   transform: translateY(-50%);
   background: none;
   border: none;
-  color: #94a3b8;
+  color: #64748b;
   cursor: pointer;
   padding: 6px;
   display: flex;
@@ -389,7 +394,7 @@
 }
 
 .passwordToggle:hover {
-  color: #1a6fa8;
+  color: #0f172a;
 }
 
 /* ── Primary Action Button ── */
@@ -397,26 +402,36 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 9px;
+  gap: 10px;
   width: 100%;
-  padding: 13.5px 20px;
-  background: linear-gradient(135deg, #0f4c75 0%, #1a6fa8 60%, #2563eb 100%);
-  color: #ffffff;
+  padding: 14px 20px;
+  background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 50%, #3b82f6 100%);
+  color: #ffffff !important;
   border: none;
   border-radius: 12px;
-  font-size: 15px;
+  font-size: 15.5px;
   font-weight: 800;
   cursor: pointer;
   transition: all 0.22s ease;
-  box-shadow: 0 8px 22px rgba(15, 76, 117, 0.28);
+  box-shadow: 0 8px 22px rgba(29, 78, 216, 0.38);
   font-family: inherit;
   margin-top: 6px;
 }
 
+.primaryBtn span {
+  color: #ffffff !important;
+  font-weight: 800 !important;
+}
+
+.primaryBtn svg {
+  color: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
 .primaryBtn:hover:not(:disabled) {
   transform: translateY(-1.5px);
-  box-shadow: 0 12px 26px rgba(26, 111, 168, 0.36);
-  filter: brightness(1.04);
+  box-shadow: 0 12px 26px rgba(29, 78, 216, 0.45);
+  filter: brightness(1.08);
 }
 
 .primaryBtn:disabled {
@@ -447,15 +462,20 @@
   gap: 6px;
   margin-top: 22px;
   font-size: 13.5px;
-  color: #64748b;
-  font-weight: 500;
+  color: #334155;
+  font-weight: 600;
   flex-wrap: wrap;
+}
+
+.cardFooter span {
+  color: #334155 !important;
+  font-weight: 600 !important;
 }
 
 .footerActionBtn {
   background: none;
   border: none;
-  color: #1a6fa8;
+  color: #2563eb;
   font-weight: 800;
   cursor: pointer;
   padding: 0;
@@ -465,7 +485,7 @@
 }
 
 .footerActionBtn:hover {
-  color: #0f4c75;
+  color: #1d4ed8;
   text-decoration: underline;
 }
 
@@ -587,22 +607,26 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  background: rgba(255, 255, 255, 0.85);
-  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  border: 1.5px solid #cbd5e1;
   border-radius: 999px;
   padding: 6px 14px;
   font-size: 12px;
   font-weight: 700;
-  color: #334155;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
-  backdrop-filter: blur(6px);
+  color: #0f172a;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.trustItem span {
+  color: #0f172a !important;
+  font-weight: 700 !important;
 }
 
 .trustCheck {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #d6eaf8;
+  background: #dbeafe;
   display: flex;
   align-items: center;
   justify-content: center;
