@@ -53,9 +53,18 @@ export default function SubjectPage() {
   }, [subjectId, state?.title]);
 
   // Determine local repo key
-  const localKey = Object.entries(CURRICULUM_MAPPING).find(([name]) =>
-    subjectTitle.toLowerCase().includes(name.toLowerCase())
-  )?.[1];
+  let localKey = null;
+  if (typeof subjectId === 'string' && /^s-\d+-\d+$/.test(subjectId)) {
+    localKey = subjectId;
+  } else {
+    const sTitle = (subjectTitle || '').toLowerCase().trim();
+    for (const item of CURRICULUM_MAPPING) {
+      if (sTitle === item.match || sTitle.includes(item.match)) {
+        localKey = item.key;
+        break;
+      }
+    }
+  }
 
   const localSubjectId = localKey || subjectId;
 
@@ -179,6 +188,27 @@ export default function SubjectPage() {
   }, [subjectId, subjectTitle]);
 
   const displayedTopics = liveTopics.length > 0 ? liveTopics : fallbackTopics;
+
+  // Compatibility count helpers
+  const getQuestionCount = (topicId) => {
+    for (const sKey in MCQ_REPOSITORY) {
+      if (MCQ_REPOSITORY[sKey][topicId]) {
+        const q = MCQ_REPOSITORY[sKey][topicId];
+        if (Array.isArray(q)) return q.length;
+        if (q.test) return q.test.length;
+      }
+    }
+    return 20;
+  };
+
+  const getSituationalCount = (topicId) => {
+    for (const sKey in MCQ_REPOSITORY) {
+      if (MCQ_REPOSITORY[sKey][topicId]?.situational) {
+        return MCQ_REPOSITORY[sKey][topicId].situational.length;
+      }
+    }
+    return 15;
+  };
 
   // Resolve local topic ID (e.g. t-s-2-2-0)
   const resolveLocalTopicId = (topic, idx) => {
@@ -313,31 +343,34 @@ export default function SubjectPage() {
                     <button
                       className={styles.quizBtn}
                       style={{ background: 'linear-gradient(90deg, #EF4444, #F59E0B, #10B981)', color: '#FFF', border: 'none', width: '100%' }}
-                      onClick={() => handleTopicClick(t, 'test')}
+                      onClick={() => handleTopicClick(t, 'test', `master-${localSubjectId}`)}
                     >
                       <BookOpen size={16} color="#FFF" style={{ marginRight: 8 }} />
                       MASTER PRACTICE (50 MCQs)
                     </button>
-                  ) : (
-                    <>
-                      <button
-                        className={styles.quizBtn}
-                        style={{ background: '#6366F1', color: '#FFF', border: 'none', flex: 0.5 }}
-                        onClick={() => handleTopicClick(t, 'test')}
-                      >
-                        <BookOpen size={14} color="#FFF" style={{ marginRight: 6 }} />
-                        {(t.questionCount !== undefined && t.questionCount > 0) ? t.questionCount : (getQuestionCount(t.id) || '25')} Questions
-                      </button>
-                      <button
-                        className={styles.quizBtn}
-                        style={{ background: '#10B981', color: '#FFF', border: 'none', flex: 0.5 }}
-                        onClick={() => handleTopicClick(t, 'situational')}
-                      >
-                        <FileText size={14} color="#FFF" style={{ marginRight: 6 }} />
-                        {getSituationalCount(t.id) || '0'} Case Tasks
-                      </button>
-                    </>
-                  )}
+                  ) : (() => {
+                    const { testCount, sitCount, localTopicId } = getTopicCounts(t, idx);
+                    return (
+                      <>
+                        <button
+                          className={styles.quizBtn}
+                          style={{ background: '#6366F1', color: '#FFF', border: 'none', flex: 0.5 }}
+                          onClick={() => handleTopicClick(t, 'test', localTopicId)}
+                        >
+                          <BookOpen size={14} color="#FFF" style={{ marginRight: 6 }} />
+                          {testCount} Questions
+                        </button>
+                        <button
+                          className={styles.quizBtn}
+                          style={{ background: '#10B981', color: '#FFF', border: 'none', flex: 0.5 }}
+                          onClick={() => handleTopicClick(t, 'situational', localTopicId)}
+                        >
+                          <FileText size={14} color="#FFF" style={{ marginRight: 6 }} />
+                          {sitCount > 0 ? `${sitCount} Case Tasks` : 'Case Tasks'}
+                        </button>
+                      </>
+                    );
+                  })()}
                 </div>
               </div>
             );
