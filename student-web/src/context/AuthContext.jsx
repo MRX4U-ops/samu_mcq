@@ -5,6 +5,7 @@ const AuthContext = createContext(null);
 
 const isSuperAdminEmail = (email) => email?.toLowerCase() === 'mohd6396889713@gmail.com';
 const DEVICE_SESSION_KEY = 'samu_device_session_id';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://samu-mcqs.onrender.com';
 
 function createDeviceSessionId() {
   const id = (typeof crypto !== 'undefined' && crypto.randomUUID)
@@ -56,32 +57,16 @@ export function AuthProvider({ children }) {
       if (isChecking) return;
       isChecking = true;
       try {
-        const localSid = localStorage.getItem(DEVICE_SESSION_KEY);
-        const { data, error } = await supabase.auth.getUser();
+        const localSid = localStorage.getItem(DEVICE_SESSION_KEY) || '';
+        const params = new URLSearchParams({
+          userId: user.id,
+          sessionId: localSid,
+        });
+        const res = await fetch(`${API_BASE_URL}/api/users/session/check?${params.toString()}`);
+        if (!res.ok) return;
+        const data = await res.json();
 
-        if (error) {
-          // Refresh/session invalidated by another device's signOut({ scope: 'others' })
-          const msg = (error.message || '').toLowerCase();
-          if (
-            error.status === 400 ||
-            error.status === 401 ||
-            error.status === 403 ||
-            error.name === 'AuthSessionMissingError' ||
-            msg.includes('session') ||
-            msg.includes('jwt')
-          ) {
-            try {
-              sessionStorage.setItem('samu_logout_reason', 'You were logged out because your account was signed in on another device.');
-            } catch {}
-            await signOut();
-            window.location.hash = '#/login';
-          }
-          return;
-        }
-
-        const remoteSid = data?.user?.user_metadata?.active_session_id;
-        if (remoteSid && remoteSid !== localSid) {
-          // Either mismatch with another device OR another device already claimed the session while this device had no localSid
+        if (data.activeSessionId && data.valid === false) {
           try {
             sessionStorage.setItem('samu_logout_reason', 'You were logged out because your account was signed in on another device.');
           } catch {}
@@ -185,9 +170,13 @@ export function AuthProvider({ children }) {
     const { data, error } = await supabase.auth.signInWithPassword({ email, password });
     if (error) throw error;
 
-    // Stamp active_session_id on user metadata & revoke all other devices
+    // Claim single active session on backend (invalidates all old devices)
     try {
-      await supabase.auth.updateUser({ data: { active_session_id: newSid } });
+      await fetch(`${API_BASE_URL}/api/users/session/claim`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ userId: data.user.id, sessionId: newSid }),
+      });
       await supabase.auth.signOut({ scope: 'others' });
     } catch (e) {
       console.warn('Single-device sync warning:', e);
@@ -217,7 +206,13 @@ export function AuthProvider({ children }) {
     const { data, error } = await supabase.auth.verifyOtp({ email, token, type });
     if (error) throw error;
     try {
-      await supabase.auth.updateUser({ data: { active_session_id: newSid } });
+      if (data?.user?.id) {
+        await fetch(`${API_BASE_URL}/api/users/session/claim`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ userId: data.user.id, sessionId: newSid }),
+        });
+      }
       await supabase.auth.signOut({ scope: 'others' });
     } catch {}
     return data;

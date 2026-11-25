@@ -104,4 +104,50 @@ router.get('/bookmarks', protect, async (req, res) => {
   }
 });
 
+// Claim single active device session (invalidates all older devices)
+router.post('/session/claim', async (req, res) => {
+  const { userId, sessionId } = req.body || {};
+  if (!userId || !sessionId) {
+    return res.status(400).json({ message: 'userId and sessionId are required' });
+  }
+  try {
+    await supabaseAdmin.from('devices').delete().eq('user_id', userId);
+    const { error } = await supabaseAdmin.from('devices').insert({
+      user_id: userId,
+      device_id: String(sessionId),
+      last_login: new Date().toISOString(),
+    });
+    if (error) throw error;
+    res.json({ ok: true, activeSessionId: sessionId });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
+// Check if current device session is still the active one
+router.get('/session/check', async (req, res) => {
+  const { userId, sessionId } = req.query || {};
+  if (!userId) {
+    return res.status(400).json({ message: 'userId is required' });
+  }
+  try {
+    const { data, error } = await supabaseAdmin
+      .from('devices')
+      .select('device_id, last_login')
+      .eq('user_id', userId)
+      .order('last_login', { ascending: false })
+      .limit(1);
+
+    if (error) throw error;
+    const latest = data && data[0];
+    if (!latest) {
+      return res.json({ valid: true, activeSessionId: null });
+    }
+    const valid = Boolean(sessionId && latest.device_id === String(sessionId));
+    res.json({ valid, activeSessionId: latest.device_id });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
+
 module.exports = router;
