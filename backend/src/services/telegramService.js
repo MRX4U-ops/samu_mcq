@@ -120,16 +120,19 @@ function parseMediaMessage(msg) {
   }
 
   const category = isVideoFile ? 'video' : isPdf ? 'pdf' : 'document';
-  const caption = msg.message || '';
+  const rawCaption = (msg.message || '').trim();
+  const captionLines = rawCaption ? rawCaption.split('\n').map((l) => l.trim()).filter(Boolean) : [];
   const title =
+    captionLines[0]?.slice(0, 120) ||
     fileName ||
-    (caption ? caption.split('\n')[0].trim().slice(0, 90) : `${category.toUpperCase()} #${msg.id}`);
+    `${category.toUpperCase()} #${msg.id}`;
+  const subCaption = captionLines.length > 1 ? captionLines.slice(1).join('\n') : '';
 
   return {
     id: msg.id,
     type: category,
     title,
-    caption,
+    caption: subCaption,
     fileName,
     mimeType: mimeType || (isPdf ? 'application/pdf' : 'video/mp4'),
     size,
