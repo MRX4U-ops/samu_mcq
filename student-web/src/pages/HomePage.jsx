@@ -511,7 +511,7 @@ export default function HomePage() {
   const hour = new Date().getHours();
   const greeting = hour < 5 ? 'Good Night' : hour < 12 ? 'Good Morning' : hour < 17 ? 'Good Afternoon' : 'Good Evening';
   const greetEmoji = hour < 12 ? '☀️' : hour < 17 ? '🌤️' : '🌙';
-  const name = profile?.full_name?.split(' ')[0] || user?.email?.split('@')[0] || 'Scholar';
+  const name = user?.user_metadata?.full_name?.split(' ')[0] || profile?.name?.split(' ')[0] || profile?.full_name?.split(' ')[0] || user?.email?.split('@')[0] || 'Scholar';
 
   /* Subscription days left */
   const daysLeft = subscription?.end_date
@@ -685,7 +685,7 @@ export default function HomePage() {
             <div className={styles.heroContent} style={{ marginBottom: 0 }}>
               <div className={styles.heroGreeting}>
                 <Sparkles size={13} color="#FBBF24" />
-                <span>{greeting}, {firstName}!</span>
+                <span>{greeting}, {name}!</span>
               </div>
               <h1 className={styles.heroTitle}>Your Medical Study Command Center</h1>
               <p className={styles.heroSub}>
