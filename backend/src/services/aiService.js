@@ -44,64 +44,52 @@ const MEDICAL_KNOWLEDGE_CACHE = {
 };
 
 const askGroq = async (question) => {
-  try {
-    if (!env.GROQ_API_KEY) throw new Error("Missing Groq API Key");
+  if (!env.GROQ_API_KEY) return null;
+  const models = ['openai/gpt-oss-120b', 'qwen/qwen3.8-27b', 'openai/gpt-oss-20b'];
 
-    console.log(`🚀 Trying Groq (Llama 3.3 70B)`);
-    const response = await axios.post(
-      'https://api.groq.com/openai/v1/chat/completions',
-      {
-        model: 'llama-3.3-70b-versatile',
-        messages: [
-          { role: 'system', content: 'You are an expert medical professor for MBBS students. Provide a detailed, qualitative, and easy-to-understand answer. Ensure the response is exactly 6-8 lines long.' },
-          { role: 'user', content: question }
-        ],
-        temperature: 0.7,
-        max_tokens: 1024
-      },
-      {
-        headers: {
-          'Authorization': `Bearer ${env.GROQ_API_KEY}`,
-          'Content-Type': 'application/json'
+  for (const model of models) {
+    try {
+      console.log(`🚀 Trying Groq (${model})`);
+      const response = await axios.post(
+        'https://api.groq.com/openai/v1/chat/completions',
+        {
+          model,
+          messages: [
+            { role: 'system', content: 'You are an expert medical professor for MBBS students. Provide a clear, accurate, high-yield clinical answer in 6-8 concise lines.' },
+            { role: 'user', content: question }
+          ],
+          temperature: 0.7,
+          max_tokens: 1024
         },
-        timeout: 10000
-      }
-    );
+        {
+          headers: {
+            'Authorization': `Bearer ${env.GROQ_API_KEY}`,
+            'Content-Type': 'application/json'
+          },
+          timeout: 12000
+        }
+      );
 
-    return response.data?.choices?.[0]?.message?.content;
-  } catch (e) {
-    console.error(`❌ Groq failed: ${e.message}`);
-    return null;
+      const content = response.data?.choices?.[0]?.message?.content;
+      if (content) return content;
+    } catch (e) {
+      console.error(`❌ Groq (${model}) failed: ${e.message}`);
+    }
   }
+  return null;
 };
 
-// Removed askGemini as per user request to only use Groq API
-
+// Free fallback via Pollinations Text API if Groq is temporarily rate-limited
 const askHuggingFace = async (question) => {
-  const models = [
-    "https://api-inference.huggingface.co/models/Qwen/Qwen2.5-7B-Instruct",
-    "https://api-inference.huggingface.co/models/Qwen/Qwen2.5-1.5B-Instruct"
-  ];
-
-  for (const modelUrl of models) {
-    try {
-      console.log(`🔗 Trying Fallback AI: ${modelUrl.split('/').pop()}`);
-      const headers = {
-        'Content-Type': 'application/json'
-      };
-      if (env.HF_API_KEY) {
-        headers['Authorization'] = `Bearer ${env.HF_API_KEY}`;
-      }
-      const response = await axios.post(
-        modelUrl,
-        { inputs: `User Question: ${question}\nAssistant: Provide a short, qualitative 5-line answer.` },
-        { headers, timeout: 6000 }
-      );
-      const text = response.data?.[0]?.generated_text || response.data?.[0]?.summary_text;
-      if (text) return text;
-    } catch (e) {
-      console.error(`❌ Fallback ${modelUrl.split('/').pop()} failed: ${e.message}`);
+  try {
+    console.log('🔗 Trying Fallback AI (Pollinations)');
+    const prompt = encodeURIComponent(`You are an expert medical professor for MBBS students. Answer concisely in 5-7 lines: ${question}`);
+    const response = await axios.get(`https://text.pollinations.ai/${prompt}`, { timeout: 10000 });
+    if (typeof response.data === 'string' && response.data.trim().length > 10) {
+      return response.data.trim();
     }
+  } catch (e) {
+    console.error(`❌ Fallback AI failed: ${e.message}`);
   }
   return null;
 };
