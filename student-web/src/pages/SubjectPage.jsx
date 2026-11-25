@@ -7,19 +7,30 @@ import styles from './CoursePage.module.css';
 import { MCQ_REPOSITORY, ALL_SUBJECTS } from '../data';
 import { useAuth } from '../context/AuthContext';
 
-// Subject local ID mapping (same as mobile app CURRICULUM_MAPPING)
-const CURRICULUM_MAPPING = {
-  'Medical Biology': 's-1-8',
-  'Chemistry': 's-1-9',
-  'Physics': 's-1-10',
-  'Anatomy': 's-2-0',
-  'Physiology': 's-2-1',
-  'Biochemistry': 's-2-2',
-  'Histology': 's-2-8',
-  'Microbiology': 's-2-9',
-  'Pathology': 's-2-10',
-  'Medical radiology': 's-3-8',
-};
+// Subject local ID mapping (matching mobile app ACADEMIC_CURRICULUM and local repository keys)
+const CURRICULUM_MAPPING = [
+  { match: 'clinic anatomy', key: 's-2-2' },
+  { match: 'clinical anatomy', key: 's-2-2' },
+  { match: 'biochemistry module 1', key: 's-2-0' },
+  { match: 'biochemistry mod.1', key: 's-2-0' },
+  { match: 'biochemistry module 2', key: 's-2-1' },
+  { match: 'biochemistry mod.2', key: 's-2-1' },
+  { match: 'biochemistry', key: 's-2-0' },
+  { match: 'histology, cytology and embryology module 1', key: 's-2-8' },
+  { match: 'histology', key: 's-2-8' },
+  { match: 'microbiology, virology, parasitology and immunology-1', key: 's-2-9' },
+  { match: 'microbiology, virology, parasitology and immunology-2', key: 's-2-10' },
+  { match: 'microbiology', key: 's-2-9' },
+  { match: 'pathology', key: 's-2-10' },
+  { match: 'medical radiology', key: 's-3-8' },
+  { match: 'radiology', key: 's-3-8' },
+  { match: 'medical biology with elements of ecology', key: 's-1-8' },
+  { match: 'medical biology', key: 's-1-8' },
+  { match: 'medical chemistry', key: 's-1-9' },
+  { match: 'chemistry', key: 's-1-9' },
+  { match: 'medical and biological physics', key: 's-1-10' },
+  { match: 'physics', key: 's-1-10' },
+];
 
 const COURSE_COLORS = ['#3B82F6','#8B5CF6','#10B981','#F59E0B','#EF4444','#06B6D4'];
 
@@ -169,55 +180,70 @@ export default function SubjectPage() {
 
   const displayedTopics = liveTopics.length > 0 ? liveTopics : fallbackTopics;
 
-  const getQuestionCount = (topicId) => {
-    let questions = null;
-    for (const sKey in MCQ_REPOSITORY) {
-      if (MCQ_REPOSITORY[sKey][topicId]) {
-        questions = MCQ_REPOSITORY[sKey][topicId];
+  // Resolve local topic ID (e.g. t-s-2-2-0)
+  const resolveLocalTopicId = (topic, idx) => {
+    let tId = topic.id || topic._id;
+    if (tId && typeof tId === 'string' && tId.startsWith('t-')) return tId;
+    if (localSubjectId) {
+      let topicIdx = idx;
+      const numMatch = topic.title?.match(/\d+/);
+      if (numMatch) {
+        topicIdx = parseInt(numMatch[0]) - 1;
+      }
+      if (localSubjectId === 's-2-8') {
+        return `t-${localSubjectId}-${topicIdx + 1}`;
+      } else if (localSubjectId === 's-2-10' && topicIdx >= 12) {
+        return `t-${localSubjectId}-${topicIdx + 1}`;
+      } else {
+        return `t-${localSubjectId}-${topicIdx}`;
+      }
+    }
+    return tId;
+  };
+
+  const getTopicCounts = (topic, idx) => {
+    const localTId = resolveLocalTopicId(topic, idx);
+    let testCount = 0;
+    let sitCount = 0;
+
+    for (const sKey of [localSubjectId, ...Object.keys(MCQ_REPOSITORY)]) {
+      if (sKey && MCQ_REPOSITORY[sKey]?.[localTId]) {
+        const data = MCQ_REPOSITORY[sKey][localTId];
+        if (Array.isArray(data)) {
+          testCount = data.length;
+        } else if (data && typeof data === 'object') {
+          testCount = data.test?.length || 0;
+          sitCount = data.situational?.length || 0;
+        }
         break;
       }
     }
-    if (questions) {
-      if (Array.isArray(questions)) return questions.length;
-      if (questions.test) return questions.test.length;
-      if (questions.situational) return questions.situational.length;
+
+    if (testCount === 0 && topic.questionCount) {
+      testCount = topic.questionCount;
     }
-    return 0;
+
+    return {
+      testCount: testCount || 20,
+      sitCount,
+      localTopicId: localTId
+    };
   };
 
-  const getSituationalCount = (topicId) => {
-    let questions = null;
-    for (const sKey in MCQ_REPOSITORY) {
-      if (MCQ_REPOSITORY[sKey][topicId]) {
-        questions = MCQ_REPOSITORY[sKey][topicId];
-        break;
-      }
-    }
-    if (questions && questions.situational) return questions.situational.length;
-    return 0;
-  };
-
-  function handleTopicClick(topic, mode) {
+  function handleTopicClick(topic, mode, explicitTopicId) {
     if (!isSubscribed) {
       alert("Subscription Required: Please subscribe to unlock access to all courses and content.");
       navigate('/subscribe');
       return;
     }
 
-    const localCount = mode === 'situational' ? getSituationalCount(topic.id) : getQuestionCount(topic.id);
-    const dbCount = topic.questionCount;
-    const hasQuestions = (dbCount !== undefined && dbCount > 0) || localCount > 0 || topic.isMaster || /^[0-9a-fA-F-]{36}$/.test(topic.id);
-
-    if (!hasQuestions && localCount === 0) {
-      alert("Coming Soon: All data available on Before 27 may");
-      return;
-    }
+    const targetTopicId = explicitTopicId || topic.id || topic._id;
 
     navigate('/quiz', {
       state: {
-        topicId: topic.id,
-        topicDbId: topic.id,
-        subjectId: localKey || subjectId,
+        topicId: targetTopicId,
+        topicDbId: topic.id || topic._id,
+        subjectId: localSubjectId,
         title: topic.title,
         mode,
       }

@@ -103,15 +103,21 @@ export default function QuizPage() {
       }
     }
 
+    let effectiveTopicKey = topicId;
+    if (typeof topicId === 'string' && /^[0-9a-fA-F-]{36}$/.test(topicId) && state?.title) {
+      const match = state.title.match(/\d+/);
+      if (match && subjectId) {
+        effectiveTopicKey = `t-${subjectId}-${parseInt(match[0]) - 1}`;
+      }
+    }
+
     if (subjectId && MCQ_REPOSITORY[subjectId]) {
-      // Try with topicId key
-      localData = MCQ_REPOSITORY[subjectId][topicId];
+      localData = MCQ_REPOSITORY[subjectId][effectiveTopicKey] || MCQ_REPOSITORY[subjectId][topicId];
     }
     if (!localData) {
-      // Scan all subjects
       for (const sKey of Object.keys(MCQ_REPOSITORY)) {
-        if (MCQ_REPOSITORY[sKey][topicId]) {
-          localData = MCQ_REPOSITORY[sKey][topicId];
+        if (MCQ_REPOSITORY[sKey][effectiveTopicKey] || MCQ_REPOSITORY[sKey][topicId]) {
+          localData = MCQ_REPOSITORY[sKey][effectiveTopicKey] || MCQ_REPOSITORY[sKey][topicId];
           break;
         }
       }
@@ -122,7 +128,8 @@ export default function QuizPage() {
       if (Array.isArray(localData)) {
         rawQuestions = localData;
       } else {
-        rawQuestions = localData[mode] || localData.test || [];
+        const reqMode = mode === 'situational' ? 'situational' : 'test';
+        rawQuestions = localData[reqMode] || localData.test || [];
       }
 
       if (rawQuestions.length > 0) {
@@ -132,10 +139,12 @@ export default function QuizPage() {
           const correctValue = cleanedOpts[q.correctIndex !== undefined ? q.correctIndex : 0];
           const shuffled = shuffle([...cleanedOpts]);
           return {
-            _id: `local-${idx}`,
+            _id: `${effectiveTopicKey || topicId}-${mode}-${idx}`,
             question: q.question || '',
             options: shuffled,
             correctIndex: shuffled.indexOf(correctValue),
+            explanation: q.explanation || '',
+            taskType: mode === 'situational' ? 'situational' : 'test'
           };
         });
         setQuestions(mapped);
