@@ -5,7 +5,7 @@ import { supabase } from '../lib/supabase';
 import { ALL_SUBJECTS } from '../data/index';
 import Navbar from '../components/Navbar';
 import BottomNav from '../components/BottomNav';
-import TelegramMediaSection from '../components/TelegramMediaSection';
+import Footer from '../components/Footer';
 import {
   Flame, Trophy, Target, BookOpen, Brain, Swords, BarChart2,
   Stethoscope, Bell, Gift, Bookmark, Globe, ChevronRight,
@@ -266,8 +266,8 @@ const NEW_HUB_ITEMS = [
   },
   {
     id: 'telegram-media',
-    label: 'Video & PDFs',
-    sub: 'Group Lectures',
+    label: 'Videos & Notes',
+    sub: 'Lectures & PDFs',
     tag: 'STREAM',
     to: '/telegram-media',
     icon: PlayCircle,
@@ -676,6 +676,64 @@ export default function HomePage() {
         )}
 
         
+        {/* ═══ HEADER WELCOME & QUICK STATS BANNER ════════ */}
+        <div className={styles.hero}>
+          <div className={styles.heroBg} />
+          <div className={styles.heroOrb1} />
+          <div className={styles.heroOrb2} />
+          <div className={styles.heroTopFlex}>
+            <div className={styles.heroContent} style={{ marginBottom: 0 }}>
+              <div className={styles.heroGreeting}>
+                <Sparkles size={13} color="#FBBF24" />
+                <span>{greeting}, {firstName}!</span>
+              </div>
+              <h1 className={styles.heroTitle}>Your Medical Study Command Center</h1>
+              <p className={styles.heroSub}>
+                6-Year University Question Bank, High-Yield Video Lectures, AI Tutor &amp; Live 1v1 Battles.
+              </p>
+            </div>
+            <div className={styles.heroCtaGroup}>
+              <button type="button" className={styles.heroCtaPrimary} onClick={() => navigate('/telegram-media')}>
+                <PlayCircle size={17} /> <span>Videos &amp; Notes</span>
+              </button>
+              <button type="button" className={styles.heroCtaSecondary} onClick={() => navigate('/battle')}>
+                <Swords size={17} /> <span>1v1 Battle</span>
+              </button>
+            </div>
+          </div>
+
+          <div className={styles.heroBadges} style={{ marginTop: 18 }}>
+            <div className={styles.heroBadge}>
+              <span className={styles.heroBadgeIcon}>🔥</span>
+              <div>
+                <div style={{ fontSize: 16, fontWeight: 900, color: '#fff' }}>{streak} Days</div>
+                <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.8)', fontWeight: 700 }}>STUDY STREAK</div>
+              </div>
+            </div>
+            <div className={styles.heroBadge}>
+              <span className={styles.heroBadgeIcon}>🏆</span>
+              <div>
+                <div style={{ fontSize: 16, fontWeight: 900, color: '#fff' }}>{rank ? `#${rank}` : '—'}</div>
+                <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.8)', fontWeight: 700 }}>GLOBAL RANK</div>
+              </div>
+            </div>
+            <div className={styles.heroBadge}>
+              <span className={styles.heroBadgeIcon}>⚡</span>
+              <div>
+                <div style={{ fontSize: 16, fontWeight: 900, color: '#fff' }}>{points}</div>
+                <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.8)', fontWeight: 700 }}>TOTAL POINTS</div>
+              </div>
+            </div>
+            <div className={styles.heroBadge}>
+              <span className={styles.heroBadgeIcon}>🎯</span>
+              <div>
+                <div style={{ fontSize: 16, fontWeight: 900, color: '#fff' }}>{accuracy}%</div>
+                <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.8)', fontWeight: 700 }}>ACCURACY</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* ═══ FUNCTIONAL SEARCH BAR WITH LIVE SUBJECT AUTOCOMPLETE ═══ */}
         <div className={styles.searchWrap} ref={searchWrapRef}>
           <Search size={18} className={styles.searchIcon} />
@@ -938,9 +996,6 @@ export default function HomePage() {
             );
           })}
         </div>
-
-        {/* ═══ SAMU TIGERS TELEGRAM MEDIA (VIDEO & PDFs DIRECTLY ON HOME) ═══ */}
-        <TelegramMediaSection compact initialLimit={300} />
 
         {/* ═══ AI INSIGHTS ════════════════════════════════ */}
         <div className={styles.aiInsightCard}>
@@ -1251,6 +1306,26 @@ export default function HomePage() {
           ))}
         </div>
 
+        {/* ═══ HIGH-YIELD CLINICAL PEARLS ════════════════ */}
+        <div className={styles.sectionHeader}>
+          <span className="section-label">HIGH-YIELD CLINICAL PEARLS</span>
+          <span className={styles.sectionSub}>Quick Revision Facts</span>
+        </div>
+        <div className={styles.pearlsGrid}>
+          {[
+            { tag: 'ANATOMY', color: '#2563EB', bg: '#EFF6FF', title: 'Brachial Plexus C5–T1', text: 'Upper trunk injury (Erb-Duchenne) presents with "Waiter’s tip" deformity; lower trunk (Klumpke) causes claw hand.' },
+            { tag: 'PHARMACOLOGY', color: '#059669', bg: '#ECFDF5', title: 'Beta-Blocker Toxicity', text: 'First-line antidote for severe beta-blocker overdose with refractory bradycardia/hypotension is IV Glucagon.' },
+            { tag: 'PATHOLOGY', color: '#D97706', bg: '#FFFBEB', title: 'Reed-Sternberg Cells', text: 'CD15+ and CD30+ bilobed ("owl-eye") giant cells are the hallmark of Classical Hodgkin Lymphoma.' },
+            { tag: 'SURGERY', color: '#DC2626', bg: '#FEF2F2', title: 'Beck’s Triad', text: 'Hypotension, muffled heart sounds, and elevated JVP indicate acute Cardiac Tamponade requiring pericardiocentesis.' },
+          ].map((p) => (
+            <div key={p.title} className={styles.pearlCard}>
+              <span className={styles.pearlTag} style={{ color: p.color, background: p.bg }}>{p.tag}</span>
+              <h4 className={styles.pearlTitle}>{p.title}</h4>
+              <p className={styles.pearlText}>{p.text}</p>
+            </div>
+          ))}
+        </div>
+
         {/* ═══ OFFER BANNER ════════════════════════════════ */}
         <div className={styles.offerBanner}>
           <div className={styles.offerLeft}>
@@ -1261,8 +1336,10 @@ export default function HomePage() {
           <Link to="/subscribe" className={styles.offerBtn}>Claim Now →</Link>
         </div>
 
-        <div style={{ height: 'calc(var(--nav-h) + 16px)' }} />
+        <div style={{ height: '24px' }} />
       </div>
+
+      <Footer />
 
       {/* ── Chatbot FAB & Panel ── */}
       <button className={styles.chatFab} onClick={() => setIsChatOpen(!isChatOpen)}>

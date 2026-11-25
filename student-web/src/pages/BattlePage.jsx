@@ -2,14 +2,15 @@ import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useBattleStore } from '../store/battleStore';
-import { Sword, Users, Play, ChevronLeft, Loader, Trophy, CheckCircle, XCircle } from 'lucide-react';
+import { Sword, Users, Play, ChevronLeft, Loader, Trophy, CheckCircle, XCircle, Copy, Check } from 'lucide-react';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import styles from './BattlePage.module.css';
 
 export default function BattlePage() {
   const { user, profile } = useAuth();
   const navigate = useNavigate();
-  const name = profile?.full_name || user?.email?.split('@')[0] || 'Player';
+  const name = user?.user_metadata?.full_name || profile?.name || profile?.full_name || user?.email?.split('@')[0] || 'Player';
   
   const { 
     status, roomCode, participants, createRoom, joinRoom, 
@@ -20,6 +21,9 @@ export default function BattlePage() {
 
   const [joinCode, setJoinCode] = useState('');
   const [isCreating, setIsCreating] = useState(false);
+  const [battleSubject, setBattleSubject] = useState('1');
+  const [questionCount, setQuestionCount] = useState(5);
+  const [copiedCode, setCopiedCode] = useState(false);
 
   useEffect(() => {
     return () => disconnect();
@@ -27,8 +31,15 @@ export default function BattlePage() {
 
   const handleCreate = async () => {
     setIsCreating(true);
-    await createRoom({ subjectId: '1', questionCount: 5, difficulty: 'medium' }, user.id, name);
+    await createRoom({ subjectId: battleSubject, questionCount, difficulty: 'medium' }, user.id, name);
     setIsCreating(false);
+  };
+
+  const handleCopyCode = () => {
+    if (!roomCode) return;
+    navigator.clipboard?.writeText(roomCode);
+    setCopiedCode(true);
+    setTimeout(() => setCopiedCode(false), 2000);
   };
 
   const handleJoin = async (e) => {
@@ -131,7 +142,22 @@ export default function BattlePage() {
         <Navbar />
         <div className={styles.container}>
           <div className={styles.lobbyHeader}>
-            <h1 className={styles.lobbyTitle}>Room Code: <span className={styles.roomCode}>{roomCode}</span></h1>
+            <h1 className={styles.lobbyTitle}>
+              Room Code: <span className={styles.roomCode}>{roomCode}</span>
+              <button
+                type="button"
+                onClick={handleCopyCode}
+                style={{
+                  marginLeft: 10, padding: '6px 12px', borderRadius: 10,
+                  border: '1.5px solid #CBD5E1', background: '#fff',
+                  color: '#0F172A', fontSize: 12.5, fontWeight: 700,
+                  display: 'inline-flex', alignItems: 'center', gap: 5, cursor: 'pointer'
+                }}
+              >
+                {copiedCode ? <Check size={14} color="#10B981" /> : <Copy size={14} />}
+                <span>{copiedCode ? 'Copied!' : 'Copy'}</span>
+              </button>
+            </h1>
             <p className={styles.lobbySub}>Share this code with your friends to join.</p>
           </div>
 
@@ -219,12 +245,35 @@ export default function BattlePage() {
             </div>
             <h3>Create a Battle</h3>
             <p>Host a new game and invite your friends to compete.</p>
-            <button className="btn btn-primary" style={{ width: '100%', marginTop: 16 }} onClick={handleCreate} disabled={isCreating}>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10, marginTop: 14 }}>
+              <select
+                value={battleSubject}
+                onChange={(e) => setBattleSubject(e.target.value)}
+                style={{ padding: '9px 10px', borderRadius: 10, border: '1.5px solid #CBD5E1', fontSize: 13, fontWeight: 600 }}
+              >
+                <option value="1">Mixed Medical</option>
+                <option value="anatomy">Anatomy</option>
+                <option value="pharmacology">Pharmacology</option>
+                <option value="pathology">Pathology</option>
+                <option value="surgery">Surgery</option>
+              </select>
+              <select
+                value={questionCount}
+                onChange={(e) => setQuestionCount(Number(e.target.value))}
+                style={{ padding: '9px 10px', borderRadius: 10, border: '1.5px solid #CBD5E1', fontSize: 13, fontWeight: 600 }}
+              >
+                <option value={5}>5 Questions</option>
+                <option value={10}>10 Questions</option>
+                <option value={15}>15 Questions</option>
+              </select>
+            </div>
+            <button className="btn btn-primary" style={{ width: '100%', marginTop: 14 }} onClick={handleCreate} disabled={isCreating}>
               {isCreating ? <Loader className={styles.spin} /> : 'Create Room'}
             </button>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

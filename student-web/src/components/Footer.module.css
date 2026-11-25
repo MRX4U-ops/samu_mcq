@@ -1,0 +1,141 @@
+.footer {
+  width: 100%;
+  background: linear-gradient(135deg, #0b2942 0%, #0f4c75 100%);
+  color: #e2e8f0;
+  border-top: 1px solid rgba(56, 189, 248, 0.2);
+  margin-top: auto;
+}
+
+.inner {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 36px clamp(16px, 3vw, 32px) 22px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr 1fr 1fr;
+  gap: 28px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.brandCol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.brandRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoBadge {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #0284c7 0%, #38bdf8 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
+}
+
+.brandTitle {
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffffff !important;
+  letter-spacing: -0.3px;
+}
+
+.brandAccent {
+  color: #fbbf24 !important;
+  font-style: italic;
+}
+
+.brandDesc {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: rgba(226, 232, 240, 0.85) !important;
+  max-width: 360px;
+}
+
+.trustPill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  font-size: 12px;
+  font-weight: 700;
+  color: #ffffff !important;
+}
+
+.linkCol {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.colTitle {
+  margin: 0 0 4px;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: #38bdf8 !important;
+}
+
+.link {
+  color: rgba(241, 245, 249, 0.88) !important;
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: 600;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.link:hover {
+  color: #ffffff !important;
+  transform: translateX(2px);
+}
+
+.bottomBar {
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.copy {
+  font-size: 12.5px;
+  color: rgba(226, 232, 240, 0.75) !important;
+}
+
+.madeWith {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #e2e8f0 !important;
+}

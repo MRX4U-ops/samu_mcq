@@ -157,6 +157,44 @@ export function AuthProvider({ children }) {
     return data;
   }
 
+  async function updateUserProfile({ fullName, avatarUrl, markNameChanged }) {
+    const metaPatch = {};
+    if (fullName !== undefined) {
+      metaPatch.full_name = fullName;
+      metaPatch.name = fullName;
+    }
+    if (markNameChanged) {
+      metaPatch.name_changed = true;
+    }
+    if (avatarUrl !== undefined) {
+      metaPatch.avatar_url = avatarUrl;
+    }
+
+    const { data, error } = await supabase.auth.updateUser({ data: metaPatch });
+    if (error) throw error;
+
+    if (data?.user) {
+      setUser(data.user);
+      setProfile((prev) => ({
+        ...(prev || {}),
+        ...(fullName !== undefined ? { name: fullName, full_name: fullName } : {}),
+        ...(avatarUrl !== undefined ? { avatar_url: avatarUrl } : {}),
+        ...(markNameChanged ? { name_changed: true } : {}),
+      }));
+      // Best-effort sync to profiles table if columns exist
+      try {
+        const dbPatch = {};
+        if (fullName !== undefined) dbPatch.name = fullName;
+        if (Object.keys(dbPatch).length > 0) {
+          await supabase.from('profiles').update(dbPatch).eq('id', data.user.id);
+        }
+      } catch {
+        // user_metadata is already updated as primary source of truth
+      }
+    }
+    return data;
+  }
+
   // Complete, aggressive sign out that guarantees stored tokens are wiped
   async function signOut() {
     try {
@@ -196,7 +234,7 @@ export function AuthProvider({ children }) {
     <AuthContext.Provider value={{ 
       user, profile, subscription, loading, isSubscribed, isSuperAdmin,
       signIn, signUp, signOut, verifyOTP, resendOTP, resetPassword, updatePassword,
-      refreshSubscription
+      updateUserProfile, refreshSubscription
     }}>
       {children}
     </AuthContext.Provider>

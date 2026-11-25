@@ -1,13 +1,14 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import {
   ChevronLeft, User, Mail, Shield, Calendar, LogOut,
   CheckCircle, XCircle, Crown, Clock, BookOpen, Brain,
   Trophy, Flame, BarChart2, Star, ArrowRight, Bell,
   Lock, Zap, Target, Award, ChevronRight, Settings,
-  KeyRound, Check, AlertCircle, Eye, EyeOff
+  KeyRound, Check, AlertCircle, Eye, EyeOff, Camera
 } from 'lucide-react';
 import styles from './ProfilePage.module.css';
 
@@ -21,9 +22,81 @@ const QUICK_LINKS = [
 ];
 
 export default function ProfilePage() {
-  const { user, profile, subscription, isSubscribed, signOut, updatePassword } = useAuth();
+  const { user, profile, subscription, isSubscribed, signOut, updatePassword, updateUserProfile } = useAuth();
   const navigate = useNavigate();
   const [loggingOut, setLoggingOut] = useState(false);
+  const fileInputRef = useRef(null);
+
+  // Avatar & 1-Time Name Change State
+  const isSuper = user?.email?.toLowerCase() === 'mohd6396889713@gmail.com' || profile?.role === 'admin' || profile?.isSuperAdmin;
+  const currentName = user?.user_metadata?.full_name || profile?.name || (isSuper ? 'Sameer Ahmad' : (profile?.full_name || user?.email?.split('@')[0] || 'Student'));
+  const avatarUrl = user?.user_metadata?.avatar_url || profile?.avatar_url || '';
+  const hasChangedName = Boolean(user?.user_metadata?.name_changed || profile?.name_changed);
+
+  const [editName, setEditName] = useState(currentName);
+  const [profileSaving, setProfileSaving] = useState(false);
+  const [profileMsg, setProfileMsg] = useState('');
+  const [profileErr, setProfileErr] = useState('');
+
+  const handleAvatarUpload = (e) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    if (!file.type.startsWith('image/')) {
+      setProfileErr('Please select a valid image file (JPG, PNG, WebP).');
+      return;
+    }
+    setProfileErr('');
+    setProfileSaving(true);
+    const reader = new FileReader();
+    reader.onload = () => {
+      const img = new Image();
+      img.onload = async () => {
+        try {
+          const canvas = document.createElement('canvas');
+          const size = 240;
+          canvas.width = size;
+          canvas.height = size;
+          const ctx = canvas.getContext('2d');
+          const minSide = Math.min(img.width, img.height);
+          const sx = (img.width - minSide) / 2;
+          const sy = (img.height - minSide) / 2;
+          ctx.drawImage(img, sx, sy, minSide, minSide, 0, 0, size, size);
+          const compressed = canvas.toDataURL('image/jpeg', 0.82);
+          await updateUserProfile({ avatarUrl: compressed });
+          setProfileMsg('Profile photo updated!');
+          setTimeout(() => setProfileMsg(''), 4000);
+        } catch (err) {
+          setProfileErr(err.message || 'Failed to upload profile photo.');
+        } finally {
+          setProfileSaving(false);
+        }
+      };
+      img.src = reader.result;
+    };
+    reader.readAsDataURL(file);
+  };
+
+  const handleOneTimeNameChange = async (e) => {
+    e.preventDefault();
+    if (hasChangedName) return;
+    const trimmed = editName.trim();
+    if (trimmed.length < 2) {
+      setProfileErr('Please enter at least 2 characters for your name.');
+      return;
+    }
+    setProfileErr('');
+    setProfileMsg('');
+    setProfileSaving(true);
+    try {
+      await updateUserProfile({ fullName: trimmed, markNameChanged: true });
+      setProfileMsg('Name updated! (1-time name change is now locked.)');
+      setTimeout(() => setProfileMsg(''), 5000);
+    } catch (err) {
+      setProfileErr(err.message || 'Failed to update name.');
+    } finally {
+      setProfileSaving(false);
+    }
+  };
 
   // Security / Password Change State
   const [newPassword, setNewPassword] = useState('');
@@ -59,11 +132,10 @@ export default function ProfilePage() {
     }
   };
 
-  const isSuper = user?.email?.toLowerCase() === 'mohd6396889713@gmail.com' || profile?.role === 'admin' || profile?.isSuperAdmin;
-  const name  = profile?.name || (isSuper ? 'Sameer Ahmad' : (profile?.full_name || user?.email?.split('@')[0] || 'Student'));
+  const name  = currentName;
   const email = user?.email || (isSuper ? 'mohd6396889713@gmail.com' : '');
   const role  = isSuper ? 'Super Admin' : (profile?.role || 'student');
-  const initials = isSuper ? 'SA' : name.split(' ').map(w => w[0]).join('').toUpperCase().slice(0, 2);
+  const initials = name.split(' ').map(w => w[0]).join('').toUpperCase().slice(0, 2) || 'S';
 
   const daysLeft = subscription?.end_date
     ? Math.max(0, Math.ceil((new Date(subscription.end_date) - new Date()) / 86400000))
@@ -146,7 +218,41 @@ export default function ProfilePage() {
         <div className={styles.avatarCard}>
           <div className={styles.avatarBg} />
           <div className={styles.avatarTopRow}>
-            <div className={styles.avatarCircle}>{initials}</div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+              <div
+                className={styles.avatarCircle}
+                onClick={() => fileInputRef.current?.click()}
+                style={{ cursor: 'pointer', position: 'relative', overflow: 'hidden' }}
+                title="Click to change profile photo"
+              >
+                {avatarUrl ? (
+                  <img src={avatarUrl} alt={name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                ) : (
+                  initials
+                )}
+              </div>
+              <button
+                type="button"
+                onClick={() => fileInputRef.current?.click()}
+                disabled={profileSaving}
+                style={{
+                  display: 'inline-flex', alignItems: 'center', gap: 6,
+                  padding: '7px 12px', borderRadius: 999,
+                  background: 'rgba(255,255,255,0.18)', border: '1px solid rgba(255,255,255,0.35)',
+                  color: '#fff', fontSize: 12, fontWeight: 700, cursor: 'pointer'
+                }}
+              >
+                <Camera size={14} />
+                <span>{profileSaving ? 'Saving...' : 'Change Photo'}</span>
+              </button>
+              <input
+                ref={fileInputRef}
+                type="file"
+                accept="image/*"
+                onChange={handleAvatarUpload}
+                style={{ display: 'none' }}
+              />
+            </div>
             {isSuper ? (
               <span className={styles.superAdminBadge}><Crown size={12} /> Super Admin</span>
             ) : role === 'admin' && (
@@ -263,6 +369,66 @@ export default function ProfilePage() {
               </Link>
             </div>
           )}
+        </div>
+
+        {/* ── Edit Profile (Photo & 1-Time Name Change) ── */}
+        <div className={styles.card}>
+          <div className={styles.cardHeader}>
+            <Settings size={18} color="#2563EB" />
+            <span>Profile Settings</span>
+            {hasChangedName && (
+              <span style={{ marginLeft: 'auto', fontSize: 11, fontWeight: 800, color: '#B45309', background: '#FEF3C7', padding: '3px 10px', borderRadius: 999 }}>
+                🔒 Name Locked
+              </span>
+            )}
+          </div>
+
+          {profileMsg && (
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 14px', borderRadius: 12, background: '#ECFDF5', color: '#065F46', border: '1px solid #A7F3D0', fontSize: 13, fontWeight: 600, marginBottom: 14 }}>
+              <Check size={16} /> <span>{profileMsg}</span>
+            </div>
+          )}
+          {profileErr && (
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 14px', borderRadius: 12, background: '#FEF2F2', color: '#991B1B', border: '1px solid #FECACA', fontSize: 13, fontWeight: 600, marginBottom: 14 }}>
+              <AlertCircle size={16} /> <span>{profileErr}</span>
+            </div>
+          )}
+
+          <form onSubmit={handleOneTimeNameChange} style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+            <div>
+              <label style={{ display: 'block', fontSize: 12.5, fontWeight: 800, color: '#0F172A', marginBottom: 6 }}>
+                Full Name {hasChangedName ? '(Already Changed Once — Locked)' : '(Can be changed ONE TIME only)'}
+              </label>
+              <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
+                <input
+                  type="text"
+                  value={hasChangedName ? name : editName}
+                  disabled={hasChangedName || profileSaving}
+                  onChange={(e) => setEditName(e.target.value)}
+                  placeholder="Enter your full name"
+                  style={{
+                    flex: 1, minWidth: 220, padding: '10px 14px', borderRadius: 12,
+                    border: '1.5px solid #CBD5E1', fontSize: 14, fontWeight: 600,
+                    background: hasChangedName ? '#F1F5F9' : '#FFFFFF',
+                    color: hasChangedName ? '#64748B' : '#0F172A'
+                  }}
+                />
+                {!hasChangedName && (
+                  <button
+                    type="submit"
+                    disabled={profileSaving}
+                    style={{
+                      padding: '10px 18px', borderRadius: 12, border: 'none',
+                      background: 'linear-gradient(135deg, #1D4ED8 0%, #2563EB 100%)',
+                      color: '#fff', fontWeight: 800, fontSize: 13.5, cursor: 'pointer'
+                    }}
+                  >
+                    {profileSaving ? 'Saving...' : 'Save Name (1-Time)'}
+                  </button>
+                )}
+              </div>
+            </div>
+          </form>
         </div>
 
         {/* ── Account Details Card ── */}
@@ -418,8 +584,9 @@ export default function ProfilePage() {
           <span>{loggingOut ? 'Signing out...' : 'Sign Out'}</span>
         </button>
 
-        <p className={styles.versionTag}>SAMU MCQs · v2.0 · © 2025</p>
+        <p className={styles.versionTag}>SAMU MCQs · v2.1 · © 2026</p>
       </div>
+      <Footer />
     </div>
   );
 }

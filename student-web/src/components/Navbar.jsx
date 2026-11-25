@@ -2,11 +2,12 @@ import { useState, useEffect, useRef } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { supabase } from '../lib/supabase';
-import { BookOpen, Bell, LogOut, Shield, Menu, X, ChevronRight, Gift, Sparkles, Check } from 'lucide-react';
+import { Stethoscope, Bell, LogOut, Shield, Menu, X, ChevronRight, Gift, Sparkles, Check } from 'lucide-react';
 import styles from './Navbar.module.css';
 
 const NAV_LINKS = [
   { label: 'Practice MCQs', to: '/home' },
+  { label: 'Videos & Notes', to: '/telegram-media' },
   { label: '1v1 Battle', badge: 'LIVE', to: '/battle' },
   { label: 'AI Tutor', badge: 'NEW', to: '/ask-ai' },
   { label: 'Clinical Cases', to: '/clinical-case' },
@@ -89,8 +90,9 @@ export default function Navbar() {
   };
 
   const isSuper = isSuperAdmin || user?.email?.toLowerCase() === 'mohd6396889713@gmail.com' || profile?.role === 'admin';
-  const displayName = profile?.name || (isSuper ? 'Sameer Ahmad' : (profile?.full_name || user?.email || 'M'));
-  const initial = isSuper ? 'S' : (displayName[0]?.toUpperCase() || 'M');
+  const displayName = user?.user_metadata?.full_name || profile?.name || (isSuper ? 'Sameer Ahmad' : (profile?.full_name || user?.email || 'M'));
+  const avatarUrl = user?.user_metadata?.avatar_url || profile?.avatar_url || '';
+  const initial = displayName[0]?.toUpperCase() || (isSuper ? 'S' : 'M');
 
   const getAdminUrl = () => {
     if (typeof window === 'undefined') return '/admin/';
@@ -114,7 +116,7 @@ export default function Navbar() {
         {/* Brand Logo */}
         <Link to={user ? '/home' : '/'} className={styles.brand}>
           <div className={styles.logo}>
-            <BookOpen size={18} color="#fff" />
+            <Stethoscope size={19} color="#FFFFFF" strokeWidth={2.4} />
           </div>
           <span className={styles.brandName}>SAMU <span className={styles.brandAccent}>MCQs</span></span>
         </Link>
@@ -230,8 +232,12 @@ export default function Navbar() {
                   </div>
                 )}
               </div>
-              <Link to="/profile" className={styles.avatarBtn} title="View Profile">
-                {initial}
+              <Link to="/profile" className={styles.avatarBtn} title="View Profile" style={{ overflow: 'hidden', padding: 0 }}>
+                {avatarUrl ? (
+                  <img src={avatarUrl} alt={displayName} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '50%' }} />
+                ) : (
+                  initial
+                )}
               </Link>
               <button onClick={handleSignOut} className={styles.logoutNavBtn} title="Sign Out">
                 <LogOut size={15} />

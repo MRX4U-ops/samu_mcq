@@ -15,12 +15,116 @@
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 1480px;
   margin: 0 auto;
-  padding: clamp(14px, 2.5vw, 24px) clamp(12px, 3vw, 24px) clamp(84px, 10vw, 56px);
-  animation: fadeIn 0.5s ease-out;
+  padding: clamp(14px, 2vw, 24px) clamp(14px, 2.5vw, 32px) clamp(40px, 5vw, 56px);
+  animation: fadeIn 0.35s ease-out;
   width: 100%;
   box-sizing: border-box;
+}
+
+.heroTopFlex {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.heroCtaGroup {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.heroCtaPrimary,
+.heroCtaSecondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 18px;
+  border-radius: 12px;
+  font-size: 13.5px;
+  font-weight: 800;
+  cursor: pointer;
+  border: none;
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
+}
+
+.heroCtaPrimary {
+  background: #ffffff;
+  color: #0f4c75 !important;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+.heroCtaSecondary {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1.5px solid rgba(255, 255, 255, 0.45);
+  color: #ffffff !important;
+}
+
+.heroCtaPrimary:hover,
+.heroCtaSecondary:hover {
+  transform: translateY(-2px);
+}
+
+.pearlsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 1024px) {
+  .pearlsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .pearlsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pearlCard {
+  background: #ffffff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 4px 14px rgba(15, 76, 117, 0.04);
+  transition: transform 0.16s ease, border-color 0.16s ease;
+}
+
+.pearlCard:hover {
+  transform: translateY(-2px);
+  border-color: #93c5fd;
+}
+
+.pearlTag {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 800;
+  padding: 3px 9px;
+  border-radius: 999px;
+  letter-spacing: 0.4px;
+  margin-bottom: 8px;
+}
+
+.pearlTitle {
+  margin: 0 0 6px;
+  font-size: 14.5px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.pearlText {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: #475569 !important;
 }
 
 /* ── 1. Hero Medical Oceanic Banner ───────────────────────── */

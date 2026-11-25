@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { ChevronLeft, Film } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import BottomNav from '../components/BottomNav';
+import Footer from '../components/Footer';
 import TelegramMediaSection from '../components/TelegramMediaSection';
 import styles from './TelegramMediaPage.module.css';
 
@@ -30,8 +31,9 @@ export default function TelegramMediaPage() {
           </div>
         </div>
 
-        <TelegramMediaSection initialLimit={30} />
+        <TelegramMediaSection initialLimit={300} />
       </main>
+      <Footer />
       <BottomNav />
     </div>
   );
