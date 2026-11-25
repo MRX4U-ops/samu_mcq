@@ -8,6 +8,57 @@ import styles from './TelegramMediaSection.module.css';
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://samu-mcqs.onrender.com';
 
+const YEAR_FILTERS = [
+  {
+    id: 'all',
+    label: 'All Years',
+    subtitle: 'All 43 Telegram subject folders',
+    keywords: null,
+  },
+  {
+    id: 'year1',
+    label: '1st Year',
+    phase: 'Phase I · Pre-clinical (12 Months)',
+    subjectsText: '1. Anatomy · 2. Physiology · 3. Biochemistry (+ Histology)',
+    keywords: ['anatomy', 'histology', 'physiology', 'physio', 'biochemistry'],
+  },
+  {
+    id: 'year2',
+    label: '2nd Year',
+    phase: 'Phase II · Para-clinical (12 Months)',
+    subjectsText: '4. Pathology · 5. Pharmacology · 6. Microbiology · 7. Forensic Medicine (FMT) · Community Medicine (PSM)',
+    keywords: ['pathology', 'pharmacology', 'microbiology', 'forensic', 'fmt', 'community medicine', 'psm'],
+  },
+  {
+    id: 'year3',
+    label: '3rd Year',
+    phase: 'Phase III Part I · Early Clinical (12 Months)',
+    subjectsText: '8. Community Medicine (PSM) · 9. FMT · 10. Ophthalmology · 11. ENT · 12. General Medicine · 13. General Surgery · 14. Pediatrics · 15. OBG',
+    keywords: ['community medicine', 'psm', 'forensic', 'fmt', 'ophthalmology', 'ent', 'ear, nose', 'medicine', 'surgery', 'pediatrics', 'gynaecology', 'obs'],
+  },
+  {
+    id: 'year4',
+    label: '4th Year',
+    phase: 'Phase III Part II · Final Clinical (18 Months)',
+    subjectsText: '16. General Medicine · 17. Dermatology (DVL) · 18. Psychiatry · 19. Pediatrics · 20. General Surgery · 21. Orthopedics · 22. Radiology · 23. Anaesthesiology · 24. OBG',
+    keywords: ['medicine', 'dermatology', 'psychiatry', 'pediatrics', 'surgery', 'orthopedics', 'radiology', 'anesthesia', 'gynaecology', 'obs'],
+  },
+  {
+    id: 'year5',
+    label: '5th Year (CRMI)',
+    phase: 'Compulsory Rotating Medical Internship (12 Months)',
+    subjectsText: 'Medicine · Surgery · OBG · Pediatrics · Community Medicine · Orthopedics · Psychiatry · Ophthalmology · ENT · Anaesthesiology · Emergency · Dermatology · FMT · Lab Services',
+    keywords: ['medicine', 'surgery', 'gynaecology', 'obs', 'pediatrics', 'community medicine', 'psm', 'orthopedics', 'psychiatry', 'ophthalmology', 'ent', 'anesthesia', 'dermatology', 'forensic', 'fmt', 'pathology', 'microbiology', 'biochemistry'],
+  },
+  {
+    id: 'extra',
+    label: 'Notes & Revision',
+    phase: 'Bonus Resources, Qbank & Rapid Revision',
+    subjectsText: 'Dr Najeeb Notes & Videos · LRR Revision · Notes & Qbank · Osmosis · Prepladder',
+    keywords: ['najeeb', 'najëeb', 'qbank', 'lrr', 'osmosis', 'prepladder', 'general'],
+  },
+];
+
 function formatBytes(bytes) {
   if (!bytes) return '';
   const units = ['B', 'KB', 'MB', 'GB'];
@@ -47,8 +98,9 @@ function formatDate(iso) {
 export default function TelegramMediaSection({ compact = false, initialLimit = 300 }) {
   const [items, setItems] = useState([]);
   const [topics, setTopics] = useState([]);
+  const [selectedYear, setSelectedYear] = useState('all');
   const [selectedTopicId, setSelectedTopicId] = useState(0);
-  const [showAllTopics, setShowAllTopics] = useState(false);
+  const [showAllTopics, setShowAllTopics] = useState(true);
   const [groupTitle, setGroupTitle] = useState('SAMU TIGERS');
   const [filter, setFilter] = useState('all'); // 'all' | 'video' | 'pdf'
   const [search, setSearch] = useState('');
@@ -144,6 +196,14 @@ export default function TelegramMediaSection({ compact = false, initialLimit = 3
     );
   });
 
+  const activeYearObj = YEAR_FILTERS.find((y) => y.id === selectedYear) || YEAR_FILTERS[0];
+  const visibleTopics = activeYearObj.keywords
+    ? topics.filter((t) => {
+        const lower = (t.title || '').toLowerCase();
+        return activeYearObj.keywords.some((kw) => lower.includes(kw));
+      })
+    : topics;
+
   const streamUrl = (id, download = false) =>
     `${API_BASE_URL}/api/telegram/stream/${id}${download ? '?download=1' : ''}`;
 
@@ -183,18 +243,48 @@ export default function TelegramMediaSection({ compact = false, initialLimit = 3
         </div>
       </div>
 
+      {/* Year-Wise Filter Tabs (1st Year - 5th Year CRMI) */}
+      <div className={styles.yearTabsWrap}>
+        <div className={styles.yearTabsRow}>
+          {YEAR_FILTERS.map((y) => (
+            <button
+              type="button"
+              key={y.id}
+              className={`${styles.yearTab} ${selectedYear === y.id ? styles.yearTabActive : ''}`}
+              onClick={() => {
+                setSelectedYear(y.id);
+                setSelectedTopicId(0);
+                setShowAllTopics(true);
+              }}
+            >
+              {y.label}
+            </button>
+          ))}
+        </div>
+        {activeYearObj.phase && (
+          <div className={styles.yearInfoBanner}>
+            <div className={styles.yearPhaseTitle}>
+              {activeYearObj.label} — {activeYearObj.phase}
+            </div>
+            <div className={styles.yearSubjectsList}>{activeYearObj.subjectsText}</div>
+          </div>
+        )}
+      </div>
+
       {/* Subject Topics Bar */}
       {topics.length > 0 && (
         <div className={styles.topicsSection}>
           <div className={styles.topicsHeaderRow}>
-            <span className={styles.topicsCount}>Subjects ({topics.length})</span>
-            {topics.length > 10 && (
+            <span className={styles.topicsCount}>
+              {selectedYear === 'all' ? `All Subjects (${visibleTopics.length})` : `${activeYearObj.label} Subjects (${visibleTopics.length})`}
+            </span>
+            {visibleTopics.length > 10 && (
               <button
                 type="button"
                 className={styles.toggleTopicsBtn}
                 onClick={() => setShowAllTopics((v) => !v)}
               >
-                {showAllTopics ? 'Show Less ▲' : `Show All ${topics.length} Subjects ▼`}
+                {showAllTopics ? 'Show Less ▲' : `Show All ${visibleTopics.length} Subjects ▼`}
               </button>
             )}
           </div>
@@ -204,9 +294,9 @@ export default function TelegramMediaSection({ compact = false, initialLimit = 3
               className={`${styles.topicChip} ${selectedTopicId === 0 ? styles.topicChipActive : ''}`}
               onClick={() => setSelectedTopicId(0)}
             >
-              All Subjects
+              All ({visibleTopics.length})
             </button>
-            {topics.map((t) => (
+            {visibleTopics.map((t) => (
               <button
                 type="button"
                 key={t.id}

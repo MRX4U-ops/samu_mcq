@@ -75,6 +75,64 @@
   to { transform: rotate(360deg); }
 }
 
+/* Year-Wise Tabs */
+.yearTabsWrap {
+  margin-bottom: 16px;
+}
+
+.yearTabsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.yearTab {
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: 1.5px solid #cbd5e1;
+  background: #f8fafc;
+  color: #1e293b !important;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.16s ease;
+}
+
+.yearTab:hover {
+  border-color: #2563eb;
+  background: #eff6ff;
+  color: #1d4ed8 !important;
+}
+
+.yearTabActive {
+  background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%);
+  border-color: #1d4ed8;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(29, 78, 216, 0.28);
+}
+
+.yearInfoBanner {
+  background: linear-gradient(135deg, #eff6ff 0%, #f0f9ff 100%);
+  border: 1.5px solid #bae6fd;
+  border-radius: 12px;
+  padding: 11px 14px;
+}
+
+.yearPhaseTitle {
+  font-size: 13px;
+  font-weight: 800;
+  color: #0f4c75;
+  margin-bottom: 3px;
+}
+
+.yearSubjectsList {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #334155 !important;
+  line-height: 1.45;
+}
+
 .topicsSection {
   margin-bottom: 14px;
 }
