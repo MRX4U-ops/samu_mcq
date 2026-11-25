@@ -90,6 +90,16 @@ const useAuthStore = create((set, get) => ({
         throw new Error('This account is blocked.');
       }
 
+      // Single-Device Enforcement: stamp active_session_id & sign out other devices
+      try {
+        const sid = `${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+        await AsyncStorage.setItem('samu_device_session_id', sid);
+        await supabase.auth.updateUser({ data: { active_session_id: sid } });
+        await supabase.auth.signOut({ scope: 'others' });
+      } catch (e) {
+        console.log('Single-device sync warning:', e);
+      }
+
       // Handle Device Control
       if (deviceId) {
         const { error: deviceError } = await supabase

@@ -4,6 +4,17 @@ import { supabase } from '../lib/supabase';
 const AuthContext = createContext(null);
 
 const isSuperAdminEmail = (email) => email?.toLowerCase() === 'mohd6396889713@gmail.com';
+const DEVICE_SESSION_KEY = 'samu_device_session_id';
+
+function createDeviceSessionId() {
+  const id = (typeof crypto !== 'undefined' && crypto.randomUUID)
+    ? crypto.randomUUID()
+    : `${Date.now()}-${Math.random().toString(36).slice(2, 11)}`;
+  try {
+    localStorage.setItem(DEVICE_SESSION_KEY, id);
+  } catch {}
+  return id;
+}
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
@@ -35,6 +46,61 @@ export function AuthProvider({ children }) {
 
     return () => authSub.unsubscribe();
   }, []);
+
+  // 3. Single-Device Session Enforcement: auto-logout old device if logged in elsewhere
+  useEffect(() => {
+    if (!user) return;
+    let isChecking = false;
+
+    const verifySingleDevice = async () => {
+      if (isChecking) return;
+      isChecking = true;
+      try {
+        const localSid = localStorage.getItem(DEVICE_SESSION_KEY);
+        const { data, error } = await supabase.auth.getUser();
+
+        if (error) {
+          // Refresh/session invalidated by another device's signOut({ scope: 'others' })
+          if (error.status === 401 || error.status === 403 || error.name === 'AuthSessionMissingError') {
+            try {
+              sessionStorage.setItem('samu_logout_reason', 'You were logged out because your account was signed in on another device.');
+            } catch {}
+            await signOut();
+            window.location.hash = '#/login';
+          }
+          return;
+        }
+
+        const remoteSid = data?.user?.user_metadata?.active_session_id;
+        if (remoteSid && localSid && remoteSid !== localSid) {
+          try {
+            sessionStorage.setItem('samu_logout_reason', 'You were logged out because your account was signed in on another device.');
+          } catch {}
+          await signOut();
+          window.location.hash = '#/login';
+        } else if (remoteSid && !localSid) {
+          // Existing logged-in session before this feature: bind if no mismatch
+          localStorage.setItem(DEVICE_SESSION_KEY, remoteSid);
+        }
+      } catch {
+        // ignore transient network errors
+      } finally {
+        isChecking = false;
+      }
+    };
+
+    // Check immediately, on tab focus, and every 15 seconds
+    const initTimer = setTimeout(verifySingleDevice, 1500);
+    const interval = setInterval(verifySingleDevice, 15000);
+    const onFocus = () => verifySingleDevice();
+    window.addEventListener('focus', onFocus);
+
+    return () => {
+      clearTimeout(initTimer);
+      clearInterval(interval);
+      window.removeEventListener('focus', onFocus);
+    };
+  }, [user?.id]);
 
   async function fetchUserData(userId, userEmail) {
     const emailToCheck = (userEmail || user?.email || '').toLowerCase();
@@ -102,17 +168,26 @@ export function AuthProvider({ children }) {
     }
   }
 
-  // Fast Instant Sign In
+  // Fast Instant Sign In + Single-Device Enforcement
   async function signIn(email, password) {
+    const newSid = createDeviceSessionId();
     const { data, error } = await supabase.auth.signInWithPassword({ email, password });
     if (error) throw error;
-    
+
+    // Stamp active_session_id on user metadata & revoke all other devices
+    try {
+      await supabase.auth.updateUser({ data: { active_session_id: newSid } });
+      await supabase.auth.signOut({ scope: 'others' });
+    } catch (e) {
+      console.warn('Single-device sync warning:', e);
+    }
+
     // Set user and unblock immediately for zero-lag navigation
     setUser(data.user);
     setLoading(false);
-    
+
     // Fetch profile and subscription in the background
-    fetchUserData(data.user.id);
+    fetchUserData(data.user.id, data.user.email);
     return data;
   }
 
@@ -127,8 +202,13 @@ export function AuthProvider({ children }) {
   }
 
   async function verifyOTP(email, token, type = 'signup') {
+    const newSid = createDeviceSessionId();
     const { data, error } = await supabase.auth.verifyOtp({ email, token, type });
     if (error) throw error;
+    try {
+      await supabase.auth.updateUser({ data: { active_session_id: newSid } });
+      await supabase.auth.signOut({ scope: 'others' });
+    } catch {}
     return data;
   }
 

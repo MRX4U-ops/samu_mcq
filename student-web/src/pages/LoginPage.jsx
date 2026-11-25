@@ -31,6 +31,14 @@ export default function LoginPage() {
 
   // ── Listen for Password Recovery events & detect recovery URL parameters ──
   useEffect(() => {
+    try {
+      const logoutReason = sessionStorage.getItem('samu_logout_reason');
+      if (logoutReason) {
+        setError(logoutReason);
+        sessionStorage.removeItem('samu_logout_reason');
+      }
+    } catch {}
+
     const hash = window.location.hash || '';
     const params = new URLSearchParams(window.location.search);
 
