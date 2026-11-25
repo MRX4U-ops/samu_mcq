@@ -10,7 +10,7 @@ import {
   Stethoscope, Bell, Gift, Bookmark, Globe, ChevronRight,
   Zap, Star, TrendingUp, Clock, Lock, Unlock, Sparkles, Crown,
   MessageCircle, Search, Mic, Users, Award, ChevronLeft, ArrowRight,
-  Send, X, Bot
+  Send, X, Bot, PlayCircle
 } from 'lucide-react';
 import styles from './HomePage.module.css';
 
@@ -262,6 +262,21 @@ const NEW_HUB_ITEMS = [
     cardBg: 'linear-gradient(180deg, #FFFFFF 0%, #F0F9FF 100%)',
     tagBg: '#E0F2FE',
     tagColor: '#0077B5',
+  },
+  {
+    id: 'telegram-media',
+    label: 'Video & PDFs',
+    sub: 'Group Lectures',
+    tag: 'STREAM',
+    to: '/telegram-media',
+    icon: PlayCircle,
+    iconBg: 'linear-gradient(135deg, #1D4ED8 0%, #2563EB 50%, #0EA5E9 100%)',
+    glowColor: 'rgba(37, 99, 235, 0.45)',
+    border: '#BFDBFE',
+    hoverBorder: '#2563EB',
+    cardBg: 'linear-gradient(180deg, #FFFFFF 0%, #EFF6FF 100%)',
+    tagBg: '#DBEAFE',
+    tagColor: '#1D4ED8',
   },
 ];
 

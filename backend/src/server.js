@@ -15,6 +15,7 @@ const battleRoutes = require('./routes/battleRoutes');
 const userRoutes = require('./routes/userRoutes');
 const supportRoutes = require('./routes/supportRoutes');
 const adminRoutes = require('./routes/adminRoutes');
+const telegramRoutes = require('./routes/telegramRoutes');
 
 // Initialize Express app
 const app = express();
@@ -24,7 +25,9 @@ const io = socketIo(server, {
 });
 
 // Middleware
-app.use(helmet());
+app.use(helmet({
+  crossOriginResourcePolicy: { policy: 'cross-origin' },
+}));
 app.use(cors());
 app.use(morgan('dev'));
 app.use(express.json({ limit: '50mb' }));
@@ -45,6 +48,7 @@ app.use('/api/battle', battleRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/support', supportRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/telegram', telegramRoutes);
 app.use('/api', academicRoutes);
 
 // Global Error Handler

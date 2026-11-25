@@ -13,5 +13,9 @@ module.exports = {
   MONGODB_URI: process.env.MONGODB_URI || 'mongodb://localhost:27017/samu_mcq',
   SUPABASE_URL: process.env.SUPABASE_URL,
   SUPABASE_SERVICE_ROLE_KEY: process.env.SUPABASE_SERVICE_ROLE_KEY,
+  TELEGRAM_API_ID: process.env.TELEGRAM_API_ID ? parseInt(process.env.TELEGRAM_API_ID, 10) : null,
+  TELEGRAM_API_HASH: process.env.TELEGRAM_API_HASH?.trim() || '',
+  TELEGRAM_SESSION_STRING: process.env.TELEGRAM_SESSION_STRING?.trim() || '',
+  TELEGRAM_GROUP_ID: process.env.TELEGRAM_GROUP_ID?.trim() || '',
   PORT: process.env.PORT || 5000,
 };
