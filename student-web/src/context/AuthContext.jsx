@@ -61,7 +61,15 @@ export function AuthProvider({ children }) {
 
         if (error) {
           // Refresh/session invalidated by another device's signOut({ scope: 'others' })
-          if (error.status === 401 || error.status === 403 || error.name === 'AuthSessionMissingError') {
+          const msg = (error.message || '').toLowerCase();
+          if (
+            error.status === 400 ||
+            error.status === 401 ||
+            error.status === 403 ||
+            error.name === 'AuthSessionMissingError' ||
+            msg.includes('session') ||
+            msg.includes('jwt')
+          ) {
             try {
               sessionStorage.setItem('samu_logout_reason', 'You were logged out because your account was signed in on another device.');
             } catch {}
@@ -72,15 +80,13 @@ export function AuthProvider({ children }) {
         }
 
         const remoteSid = data?.user?.user_metadata?.active_session_id;
-        if (remoteSid && localSid && remoteSid !== localSid) {
+        if (remoteSid && remoteSid !== localSid) {
+          // Either mismatch with another device OR another device already claimed the session while this device had no localSid
           try {
             sessionStorage.setItem('samu_logout_reason', 'You were logged out because your account was signed in on another device.');
           } catch {}
           await signOut();
           window.location.hash = '#/login';
-        } else if (remoteSid && !localSid) {
-          // Existing logged-in session before this feature: bind if no mismatch
-          localStorage.setItem(DEVICE_SESSION_KEY, remoteSid);
         }
       } catch {
         // ignore transient network errors
@@ -89,16 +95,21 @@ export function AuthProvider({ children }) {
       }
     };
 
-    // Check immediately, on tab focus, and every 15 seconds
-    const initTimer = setTimeout(verifySingleDevice, 1500);
-    const interval = setInterval(verifySingleDevice, 15000);
+    // Check immediately, on tab focus/visibility, and every 5 seconds
+    const initTimer = setTimeout(verifySingleDevice, 800);
+    const interval = setInterval(verifySingleDevice, 5000);
     const onFocus = () => verifySingleDevice();
+    const onVis = () => {
+      if (document.visibilityState === 'visible') verifySingleDevice();
+    };
     window.addEventListener('focus', onFocus);
+    document.addEventListener('visibilitychange', onVis);
 
     return () => {
       clearTimeout(initTimer);
       clearInterval(interval);
       window.removeEventListener('focus', onFocus);
+      document.removeEventListener('visibilitychange', onVis);
     };
   }, [user?.id]);
 
