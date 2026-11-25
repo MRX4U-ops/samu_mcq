@@ -163,6 +163,8 @@ export default function QuizPage() {
       const targetTopicId = state?.topicDbId || topicId;
 
       // 1. Try Backend API first (uses service role key, bypasses RLS, returns all live questions!)
+      // NOTE: Backend already shuffles options and returns the correct correctIndex.
+      // We must NOT re-shuffle here — just clean option text and use correctIndex as-is.
       try {
         const res = await fetch(`https://samu-mcqs.onrender.com/api/mcqs?topicId=${targetTopicId}&taskType=${taskType}`);
         if (res.ok) {
@@ -171,13 +173,14 @@ export default function QuizPage() {
             const mapped = apiData.map((q, idx) => {
               const rawOpts = q.options || [];
               const cleanedOpts = rawOpts.map(cleanOption);
-              const correctValue = cleanedOpts[q.correctIndex !== undefined ? q.correctIndex : (q.correct_index || 0)];
-              const shuffled = shuffle([...cleanedOpts]);
+              // Backend already shuffled; use correctIndex directly
+              const correctIdx = typeof q.correctIndex === 'number' ? q.correctIndex
+                : typeof q.correct_index === 'number' ? q.correct_index : 0;
               return {
                 _id: q._id || q.id || `api-${idx}`,
                 question: q.question,
-                options: shuffled,
-                correctIndex: shuffled.indexOf(correctValue),
+                options: cleanedOpts,
+                correctIndex: correctIdx,
               };
             });
             setQuestions(mapped);

@@ -80,9 +80,10 @@ export function AuthProvider({ children }) {
       }
     };
 
-    // Check immediately, on tab focus/visibility, and every 5 seconds
-    const initTimer = setTimeout(verifySingleDevice, 800);
-    const interval = setInterval(verifySingleDevice, 5000);
+    // Check immediately (after a grace period for session/claim to propagate), on tab focus/visibility, and every 15 seconds
+    // Use 10s initial delay to allow session/claim POST to complete before first check
+    const initTimer = setTimeout(verifySingleDevice, 10000);
+    const interval = setInterval(verifySingleDevice, 15000);
     const onFocus = () => verifySingleDevice();
     const onVis = () => {
       if (document.visibilityState === 'visible') verifySingleDevice();
@@ -170,14 +171,15 @@ export function AuthProvider({ children }) {
     const { data, error } = await supabase.auth.signInWithPassword({ email, password });
     if (error) throw error;
 
-    // Claim single active session on backend (invalidates all old devices)
+    // Claim single active session on backend (invalidates all old devices via devices table)
+    // NOTE: Do NOT call supabase.auth.signOut({ scope: 'others' }) here — it may sign out the
+    // current user too with the anon key, causing an immediate white screen / logout loop.
     try {
       await fetch(`${API_BASE_URL}/api/users/session/claim`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ userId: data.user.id, sessionId: newSid }),
       });
-      await supabase.auth.signOut({ scope: 'others' });
     } catch (e) {
       console.warn('Single-device sync warning:', e);
     }
@@ -213,7 +215,7 @@ export function AuthProvider({ children }) {
           body: JSON.stringify({ userId: data.user.id, sessionId: newSid }),
         });
       }
-      await supabase.auth.signOut({ scope: 'others' });
+      // NOTE: Do NOT call supabase.auth.signOut({ scope: 'others' }) with anon key
     } catch {}
     return data;
   }
@@ -291,8 +293,11 @@ export function AuthProvider({ children }) {
 
     try {
       // Clear all Supabase auth tokens from localStorage and sessionStorage
+      // IMPORTANT: Preserve samu_device_session_id — we need it to remain so that
+      // the session check knows this device's session ID after re-login.
       for (let i = localStorage.length - 1; i >= 0; i--) {
         const key = localStorage.key(i);
+        if (key && key === DEVICE_SESSION_KEY) continue; // keep device session id
         if (key && (key.startsWith('sb-') || key.includes('supabase') || key.includes('auth') || key.includes('ssmu'))) {
           localStorage.removeItem(key);
         }
