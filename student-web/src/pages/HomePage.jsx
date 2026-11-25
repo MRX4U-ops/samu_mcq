@@ -5,6 +5,7 @@ import { supabase } from '../lib/supabase';
 import { ALL_SUBJECTS } from '../data/index';
 import Navbar from '../components/Navbar';
 import BottomNav from '../components/BottomNav';
+import TelegramMediaSection from '../components/TelegramMediaSection';
 import {
   Flame, Trophy, Target, BookOpen, Brain, Swords, BarChart2,
   Stethoscope, Bell, Gift, Bookmark, Globe, ChevronRight,
@@ -937,6 +938,9 @@ export default function HomePage() {
             );
           })}
         </div>
+
+        {/* ═══ SAMU TIGERS TELEGRAM MEDIA (VIDEO & PDFs DIRECTLY ON HOME) ═══ */}
+        <TelegramMediaSection compact initialLimit={12} />
 
         {/* ═══ AI INSIGHTS ════════════════════════════════ */}
         <div className={styles.aiInsightCard}>
