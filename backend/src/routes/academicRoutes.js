@@ -289,7 +289,8 @@ router.get('/mcqs', async (req, res) => {
     // Shuffle options logic
     const processedData = rawMcqs.map(q => {
       const options = [...q.options];
-      const correctValue = options[0]; // Per user preference, 1st option is answer
+      const correctIdx = typeof q.correct_index === 'number' && q.correct_index >= 0 && q.correct_index < options.length ? q.correct_index : 0;
+      const correctValue = options[correctIdx];
       
       for (let i = options.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
