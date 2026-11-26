@@ -29,8 +29,8 @@ const cleanOption = (opt) => {
 export default function QuizPage() {
   const { state } = useLocation();
   const navigate = useNavigate();
-  const { isSubscribed } = useAuth();
-  const { topicId, subjectId, title = 'Quiz', mode = 'test' } = state || {};
+  const { user, isSubscribed } = useAuth();
+  const { topicId, topicDbId, subjectId, title = 'Quiz', mode = 'test' } = state || {};
 
   const [questions, setQuestions] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -42,6 +42,7 @@ export default function QuizPage() {
   const [quizDone, setQuizDone] = useState(false);
   const [timeLeft, setTimeLeft] = useState(30 * 60);
   const timerRef = useRef(null);
+  const quizFinishedRef = useRef(false);
 
   // Load questions
   useEffect(() => {
@@ -268,7 +269,7 @@ export default function QuizPage() {
       setSelected(nextAns?.selected ?? null);
       setSubmitted(nextAns !== undefined && !nextAns.skipped);
     } else {
-      finishQuiz();
+      finishQuiz(newAnswers);
     }
   }
 
@@ -279,7 +280,7 @@ export default function QuizPage() {
       setSelected(existingAns?.selected ?? null);
       setSubmitted(existingAns !== undefined && !existingAns.skipped);
     } else {
-      finishQuiz();
+      finishQuiz(userAnswers);
     }
   }
 
@@ -292,9 +293,77 @@ export default function QuizPage() {
     }
   }
 
-  function finishQuiz() {
+  function finishQuiz(answersOverride = null) {
     clearInterval(timerRef.current);
     setQuizDone(true);
+
+    if (quizFinishedRef.current || questions.length === 0) return;
+    quizFinishedRef.current = true;
+
+    const finalAnswers = Array.isArray(answersOverride) ? answersOverride : userAnswers;
+    const correctCount = finalAnswers.filter(a => a?.isCorrect).length;
+    const skippedCount = questions.filter((_, i) => !finalAnswers[i] || finalAnswers[i]?.skipped || finalAnswers[i]?.selected === null || finalAnswers[i]?.selected === undefined).length;
+    const wrongCount = Math.max(0, questions.length - correctCount - skippedCount);
+    const totalCount = questions.length;
+    const accuracy = totalCount > 0 ? Math.round((correctCount / totalCount) * 100) : 0;
+    const elapsedSec = Math.max(0, 30 * 60 - timeLeft);
+    const timeFormatted = `${Math.floor(elapsedSec / 60)}:${String(elapsedSec % 60).padStart(2, '0')}`;
+    const modeKey = mode === 'situational' ? 'situational' : 'test';
+
+    const attemptRecord = {
+      id: `att-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
+      topicId: topicId || '',
+      topicDbId: topicDbId || '',
+      subjectId: subjectId || '',
+      topicTitle: title,
+      mode: modeKey,
+      correct: correctCount,
+      wrong: wrongCount,
+      skipped: skippedCount,
+      total: totalCount,
+      accuracy,
+      timeTaken: timeFormatted,
+      date: Date.now(),
+      questions: questions.map((qItem, i) => ({
+        question: qItem.question || '',
+        options: Array.isArray(qItem.options) ? qItem.options : [],
+        correctIndex: typeof qItem.correctIndex === 'number' ? qItem.correctIndex : 0,
+        explanation: qItem.explanation || '',
+        userIndex: finalAnswers[i]?.selected ?? null,
+        isCorrect: Boolean(finalAnswers[i]?.isCorrect),
+        skipped: !finalAnswers[i] || Boolean(finalAnswers[i]?.skipped) || finalAnswers[i]?.selected === null || finalAnswers[i]?.selected === undefined,
+      })),
+    };
+
+    // Save locally (past 3 per topic + mode)
+    try {
+      const storageKey = `samu_mcq_attempts_history_${user?.id || 'guest'}`;
+      const existingMap = JSON.parse(localStorage.getItem(storageKey) || '{}');
+      const keyList = Array.from(new Set([topicId, topicDbId].filter(Boolean).map(id => `${id}_${modeKey}`)));
+      for (const k of keyList) {
+        const list = Array.isArray(existingMap[k]) ? existingMap[k] : [];
+        existingMap[k] = [attemptRecord, ...list].slice(0, 3);
+      }
+      localStorage.setItem(storageKey, JSON.stringify(existingMap));
+    } catch {}
+
+    // Persist to backend in background (cross-device sync + profile progress)
+    (async () => {
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        const token = session?.access_token;
+        if (!token) return;
+        const apiBase = import.meta.env.VITE_API_BASE_URL || 'https://samu-mcqs.onrender.com';
+        await fetch(`${apiBase}/api/users/topic-attempts`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${token}`,
+          },
+          body: JSON.stringify(attemptRecord),
+        });
+      } catch {}
+    })();
   }
 
   function formatTime(s) {
@@ -402,7 +471,7 @@ export default function QuizPage() {
             </div>
 
             <div className={styles.resultActions}>
-              <button className="btn btn-ghost" onClick={() => { setQuizDone(false); setCurrentIdx(0); setSelected(null); setSubmitted(false); setUserAnswers([]); setTimeLeft(30*60); }}>
+              <button className="btn btn-ghost" onClick={() => { quizFinishedRef.current = false; setQuizDone(false); setCurrentIdx(0); setSelected(null); setSubmitted(false); setUserAnswers([]); setTimeLeft(30*60); }}>
                 <RotateCcw size={16} /> Retry
               </button>
               <button className="btn btn-primary" onClick={() => navigate('/home')}>

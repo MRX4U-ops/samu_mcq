@@ -243,6 +243,64 @@ router.post('/notifications/read', jwtProtect, async (req, res) => {
   }
 });
 
+// ── Per-Topic Past 3 Attempts History (JWT Protected) ──
+router.get('/topic-attempts', jwtProtect, async (req, res) => {
+  try {
+    const history = await paymentStore.getTopicAttemptsHistory(req.user.id);
+    res.json({ history });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+router.post('/topic-attempts', jwtProtect, async (req, res) => {
+  try {
+    const userId = req.user.id;
+    const body = req.body || {};
+    const { entry, history } = await paymentStore.saveTopicAttempt(userId, body);
+
+    // Also update profile aggregate stats & leaderboard attempts safely
+    const totalQ = Number(body.total) || 0;
+    const correctQ = Number(body.correct) || 0;
+    const wrongQ = Number(body.wrong) || Math.max(0, totalQ - correctQ);
+
+    if (totalQ > 0) {
+      try {
+        await supabaseAdmin.rpc('record_quiz_attempt', {
+          p_user_id: userId,
+          p_subject_id: String(body.subjectId || 'general'),
+          p_topic_id: String(body.topicDbId || body.topicId || 'topic'),
+          p_correct_count: correctQ,
+          p_total_questions: totalQ,
+        });
+      } catch {}
+
+      try {
+        const { data: prof } = await supabaseAdmin
+          .from('profiles')
+          .select('total_attempted, total_correct, total_wrong')
+          .eq('id', userId)
+          .maybeSingle();
+        if (prof) {
+          const newTotal = (prof.total_attempted || 0) + totalQ;
+          const newCorrect = (prof.total_correct || 0) + correctQ;
+          const newWrong = (prof.total_wrong || 0) + wrongQ;
+          const newAcc = newTotal > 0 ? Math.round((newCorrect / newTotal) * 100) : 0;
+          await supabaseAdmin
+            .from('profiles')
+            .update({ total_attempted: newTotal, total_correct: newCorrect, total_wrong: newWrong, accuracy: newAcc })
+            .eq('id', userId);
+        }
+      } catch {}
+    }
+
+    res.status(201).json({ ok: true, entry, history });
+  } catch (error) {
+    console.error('[users/topic-attempts] save error:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
 // Update performance stats
 router.post('/stats', legacyHeaderProtect, async (req, res) => {
   const { attempted, correct, wrong } = req.body;

@@ -680,6 +680,65 @@ async function verifyTransactionWithProvider({ transactionId, amount, upiId, pay
   };
 }
 
+// ── Per-Topic Past 3 Attempts History ──
+async function getTopicAttemptsHistory(userId) {
+  if (!userId) return {};
+  const data = await readJson(`topic_attempts/${userId}.json`, null);
+  return data && typeof data === 'object' ? data : {};
+}
+
+async function saveTopicAttempt(userId, attemptPayload) {
+  if (!userId || !attemptPayload) return {};
+  const history = await getTopicAttemptsHistory(userId);
+  const modeKey = attemptPayload.mode === 'situational' ? 'situational' : 'test';
+  const keys = Array.from(
+    new Set(
+      [attemptPayload.topicId, attemptPayload.topicDbId]
+        .filter(Boolean)
+        .map((id) => `${id}_${modeKey}`)
+    )
+  );
+  if (keys.length === 0) return history;
+
+  const cleanQuestions = Array.isArray(attemptPayload.questions)
+    ? attemptPayload.questions.slice(0, 120).map((q) => ({
+        question: String(q.question || ''),
+        options: Array.isArray(q.options) ? q.options : [],
+        correctIndex: typeof q.correctIndex === 'number' ? q.correctIndex : 0,
+        explanation: String(q.explanation || ''),
+        userIndex: typeof q.userIndex === 'number' ? q.userIndex : null,
+        isCorrect: Boolean(q.isCorrect),
+        skipped: Boolean(q.skipped),
+      }))
+    : [];
+
+  const entry = {
+    id: attemptPayload.id || `att-${Date.now()}-${crypto.randomBytes(2).toString('hex')}`,
+    topicId: attemptPayload.topicId || '',
+    topicDbId: attemptPayload.topicDbId || '',
+    subjectId: attemptPayload.subjectId || '',
+    topicTitle: attemptPayload.topicTitle || 'Topic Quiz',
+    mode: modeKey,
+    correct: Number(attemptPayload.correct) || 0,
+    wrong: Number(attemptPayload.wrong) || 0,
+    skipped: Number(attemptPayload.skipped) || 0,
+    total: Number(attemptPayload.total) || cleanQuestions.length,
+    accuracy: Number(attemptPayload.accuracy) || 0,
+    timeTaken: String(attemptPayload.timeTaken || '0:00'),
+    date: Number(attemptPayload.date) || Date.now(),
+    questions: cleanQuestions,
+  };
+
+  for (const k of keys) {
+    const existing = Array.isArray(history[k]) ? history[k] : [];
+    const deduped = existing.filter((a) => a.id !== entry.id && a.date !== entry.date);
+    history[k] = [entry, ...deduped].slice(0, 3);
+  }
+
+  await writeJson(`topic_attempts/${userId}.json`, history);
+  return { entry, history };
+}
+
 module.exports = {
   ALL_PERMISSIONS,
   getGlobalSettings,
@@ -707,4 +766,6 @@ module.exports = {
   isAutoVerificationConfigured,
   isWebhookConfigured,
   verifyTransactionWithProvider,
+  getTopicAttemptsHistory,
+  saveTopicAttempt,
 };
